@@ -1,0 +1,372 @@
+accumulo configuration SimpleName SimpleType SingleVariableDeclaration SimpleName conf
+system SimpleName MethodInvocation SimpleName current time millis
+now SimpleName VariableDeclarationFragment MethodInvocation SimpleName system
+now SimpleName VariableDeclarationFragment MethodInvocation SimpleName current time millis
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName now
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName system
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName current time millis
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName garbage collector mx bean
+management factory SimpleName MethodInvocation SimpleName get garbage collector mx beans
+gcm beans SimpleName VariableDeclarationFragment MethodInvocation SimpleName management factory
+gcm beans SimpleName VariableDeclarationFragment MethodInvocation SimpleName get garbage collector mx beans
+runtime SimpleName MethodInvocation SimpleName get runtime
+rt SimpleName VariableDeclarationFragment MethodInvocation SimpleName runtime
+rt SimpleName VariableDeclarationFragment MethodInvocation SimpleName get runtime
+runtime SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName rt
+string builder SimpleName SimpleType ClassInstanceCreation StringLiteral gc
+sb SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName string builder
+sb SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral gc
+string builder SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName sb
+saw change SimpleName VariableDeclarationFragment BooleanLiteral false
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName saw change
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment BooleanLiteral false
+max increase in collection time SimpleName VariableDeclarationFragment NumberLiteral empty
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName max increase in collection time
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+garbage collector mx bean SimpleName SimpleType SingleVariableDeclaration SimpleName gc bean
+gc bean SimpleName MethodInvocation SimpleName get name
+prev gc time SimpleName MethodInvocation SimpleName get
+prev gc time SimpleName MethodInvocation MethodInvocation SimpleName gc bean
+prev gc time SimpleName MethodInvocation MethodInvocation SimpleName get name
+get SimpleName MethodInvocation MethodInvocation SimpleName gc bean
+get SimpleName MethodInvocation MethodInvocation SimpleName get name
+prev time SimpleName VariableDeclarationFragment MethodInvocation SimpleName prev gc time
+prev time SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+prev time SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName gc bean
+prev time SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get name
+long SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName prev time
+pt SimpleName VariableDeclarationFragment NumberLiteral empty
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName pt
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+pt SimpleName Assignment SimpleName prev time
+gc bean SimpleName MethodInvocation SimpleName get collection time
+time SimpleName VariableDeclarationFragment MethodInvocation SimpleName gc bean
+time SimpleName VariableDeclarationFragment MethodInvocation SimpleName get collection time
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName time
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName gc bean
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get collection time
+time SimpleName InfixExpression SimpleName pt
+time SimpleName InfixExpression InfixExpression NumberLiteral empty
+pt SimpleName InfixExpression InfixExpression NumberLiteral empty
+saw change SimpleName Assignment BooleanLiteral true
+time SimpleName InfixExpression SimpleName pt
+increase in collection time SimpleName VariableDeclarationFragment InfixExpression SimpleName time
+increase in collection time SimpleName VariableDeclarationFragment InfixExpression SimpleName pt
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName increase in collection time
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment InfixExpression SimpleName time
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment InfixExpression SimpleName pt
+gc bean SimpleName MethodInvocation SimpleName get name
+time SimpleName InfixExpression NumberLiteral .
+increase in collection time SimpleName InfixExpression NumberLiteral .
+string SimpleName MethodInvocation SimpleName format
+string SimpleName MethodInvocation StringLiteral s f f secs
+string SimpleName MethodInvocation MethodInvocation SimpleName gc bean
+string SimpleName MethodInvocation MethodInvocation SimpleName get name
+string SimpleName MethodInvocation InfixExpression SimpleName time
+string SimpleName MethodInvocation InfixExpression NumberLiteral .
+string SimpleName MethodInvocation InfixExpression SimpleName increase in collection time
+string SimpleName MethodInvocation InfixExpression NumberLiteral .
+format SimpleName MethodInvocation StringLiteral s f f secs
+format SimpleName MethodInvocation MethodInvocation SimpleName gc bean
+format SimpleName MethodInvocation MethodInvocation SimpleName get name
+format SimpleName MethodInvocation InfixExpression SimpleName time
+format SimpleName MethodInvocation InfixExpression NumberLiteral .
+format SimpleName MethodInvocation InfixExpression SimpleName increase in collection time
+format SimpleName MethodInvocation InfixExpression NumberLiteral .
+s f f secs StringLiteral MethodInvocation MethodInvocation SimpleName gc bean
+s f f secs StringLiteral MethodInvocation MethodInvocation SimpleName get name
+s f f secs StringLiteral MethodInvocation InfixExpression SimpleName time
+s f f secs StringLiteral MethodInvocation InfixExpression NumberLiteral .
+s f f secs StringLiteral MethodInvocation InfixExpression SimpleName increase in collection time
+s f f secs StringLiteral MethodInvocation InfixExpression NumberLiteral .
+gc bean SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName time
+gc bean SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral .
+get name SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName time
+get name SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral .
+gc bean SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName increase in collection time
+gc bean SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral .
+get name SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName increase in collection time
+get name SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral .
+time SimpleName InfixExpression MethodInvocation InfixExpression SimpleName increase in collection time
+time SimpleName InfixExpression MethodInvocation InfixExpression NumberLiteral .
+. NumberLiteral InfixExpression MethodInvocation InfixExpression SimpleName increase in collection time
+. NumberLiteral InfixExpression MethodInvocation InfixExpression NumberLiteral .
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation MethodInvocation SimpleName string
+sb SimpleName MethodInvocation MethodInvocation SimpleName format
+sb SimpleName MethodInvocation MethodInvocation StringLiteral s f f secs
+sb SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName gc bean
+sb SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get name
+sb SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName time
+sb SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral .
+sb SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName increase in collection time
+sb SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral .
+append SimpleName MethodInvocation MethodInvocation SimpleName string
+append SimpleName MethodInvocation MethodInvocation SimpleName format
+append SimpleName MethodInvocation MethodInvocation StringLiteral s f f secs
+append SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName gc bean
+append SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get name
+append SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName time
+append SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral .
+append SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName increase in collection time
+append SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral .
+math SimpleName MethodInvocation SimpleName max
+math SimpleName MethodInvocation SimpleName increase in collection time
+math SimpleName MethodInvocation SimpleName max increase in collection time
+max SimpleName MethodInvocation SimpleName increase in collection time
+max SimpleName MethodInvocation SimpleName max increase in collection time
+increase in collection time SimpleName MethodInvocation SimpleName max increase in collection time
+max increase in collection time SimpleName Assignment MethodInvocation SimpleName math
+max increase in collection time SimpleName Assignment MethodInvocation SimpleName max
+max increase in collection time SimpleName Assignment MethodInvocation SimpleName increase in collection time
+max increase in collection time SimpleName Assignment MethodInvocation SimpleName max increase in collection time
+gc bean SimpleName MethodInvocation SimpleName get name
+prev gc time SimpleName MethodInvocation SimpleName put
+prev gc time SimpleName MethodInvocation MethodInvocation SimpleName gc bean
+prev gc time SimpleName MethodInvocation MethodInvocation SimpleName get name
+prev gc time SimpleName MethodInvocation SimpleName time
+put SimpleName MethodInvocation MethodInvocation SimpleName gc bean
+put SimpleName MethodInvocation MethodInvocation SimpleName get name
+put SimpleName MethodInvocation SimpleName time
+gc bean SimpleName MethodInvocation MethodInvocation SimpleName time
+get name SimpleName MethodInvocation MethodInvocation SimpleName time
+long PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType long
+long PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType long
+long PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType long
+garbage collector mx bean SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName gcm beans
+gc bean SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName gcm beans
+gcm beans SimpleName EnhancedForStatement Block VariableDeclarationStatement PrimitiveType long
+gcm beans SimpleName EnhancedForStatement Block VariableDeclarationStatement PrimitiveType long
+gcm beans SimpleName EnhancedForStatement Block VariableDeclarationStatement PrimitiveType long
+rt SimpleName MethodInvocation SimpleName free memory
+mem SimpleName VariableDeclarationFragment MethodInvocation SimpleName rt
+mem SimpleName VariableDeclarationFragment MethodInvocation SimpleName free memory
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName mem
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName rt
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName free memory
+max increase in collection time SimpleName InfixExpression NumberLiteral empty
+gc time increased count SimpleName Assignment NumberLiteral empty
+gc time increased count SimpleName InfixExpression NumberLiteral empty
+rt SimpleName MethodInvocation SimpleName max memory
+rt SimpleName MethodInvocation InfixExpression NumberLiteral .
+max memory SimpleName MethodInvocation InfixExpression NumberLiteral .
+mem SimpleName InfixExpression InfixExpression MethodInvocation SimpleName rt
+mem SimpleName InfixExpression InfixExpression MethodInvocation SimpleName max memory
+mem SimpleName InfixExpression InfixExpression NumberLiteral .
+gc time increased count SimpleName InfixExpression InfixExpression InfixExpression SimpleName mem
+empty NumberLiteral InfixExpression InfixExpression InfixExpression SimpleName mem
+log SimpleName MethodInvocation SimpleName warn
+log SimpleName MethodInvocation StringLiteral running low on memory
+warn SimpleName MethodInvocation StringLiteral running low on memory
+gc time increased count SimpleName Assignment NumberLiteral empty
+mem SimpleName InfixExpression SimpleName last memory size
+saw change SimpleName Assignment BooleanLiteral true
+sign SimpleName VariableDeclarationFragment StringLiteral +
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName sign
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral +
+mem SimpleName InfixExpression SimpleName last memory size
+mem SimpleName InfixExpression InfixExpression NumberLiteral empty
+last memory size SimpleName InfixExpression InfixExpression NumberLiteral empty
+sign SimpleName Assignment StringLiteral empty
+mem SimpleName InfixExpression SimpleName last memory size
+rt SimpleName MethodInvocation SimpleName total memory
+string SimpleName MethodInvocation SimpleName format
+string SimpleName MethodInvocation StringLiteral freememdsd totalmemd
+string SimpleName MethodInvocation SimpleName mem
+string SimpleName MethodInvocation SimpleName sign
+string SimpleName MethodInvocation ParenthesizedExpression InfixExpression SimpleName mem
+string SimpleName MethodInvocation ParenthesizedExpression InfixExpression SimpleName last memory size
+format SimpleName MethodInvocation StringLiteral freememdsd totalmemd
+format SimpleName MethodInvocation SimpleName mem
+format SimpleName MethodInvocation SimpleName sign
+format SimpleName MethodInvocation ParenthesizedExpression InfixExpression SimpleName mem
+format SimpleName MethodInvocation ParenthesizedExpression InfixExpression SimpleName last memory size
+format SimpleName MethodInvocation MethodInvocation SimpleName rt
+format SimpleName MethodInvocation MethodInvocation SimpleName total memory
+freememdsd totalmemd StringLiteral MethodInvocation SimpleName mem
+freememdsd totalmemd StringLiteral MethodInvocation SimpleName sign
+freememdsd totalmemd StringLiteral MethodInvocation ParenthesizedExpression InfixExpression SimpleName mem
+freememdsd totalmemd StringLiteral MethodInvocation ParenthesizedExpression InfixExpression SimpleName last memory size
+freememdsd totalmemd StringLiteral MethodInvocation MethodInvocation SimpleName rt
+freememdsd totalmemd StringLiteral MethodInvocation MethodInvocation SimpleName total memory
+mem SimpleName MethodInvocation SimpleName sign
+mem SimpleName MethodInvocation ParenthesizedExpression InfixExpression SimpleName mem
+mem SimpleName MethodInvocation ParenthesizedExpression InfixExpression SimpleName last memory size
+mem SimpleName MethodInvocation MethodInvocation SimpleName rt
+mem SimpleName MethodInvocation MethodInvocation SimpleName total memory
+sign SimpleName MethodInvocation ParenthesizedExpression InfixExpression SimpleName mem
+sign SimpleName MethodInvocation ParenthesizedExpression InfixExpression SimpleName last memory size
+sign SimpleName MethodInvocation MethodInvocation SimpleName rt
+sign SimpleName MethodInvocation MethodInvocation SimpleName total memory
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation MethodInvocation SimpleName string
+sb SimpleName MethodInvocation MethodInvocation SimpleName format
+sb SimpleName MethodInvocation MethodInvocation StringLiteral freememdsd totalmemd
+sb SimpleName MethodInvocation MethodInvocation SimpleName mem
+sb SimpleName MethodInvocation MethodInvocation SimpleName sign
+sb SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName rt
+sb SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName total memory
+append SimpleName MethodInvocation MethodInvocation SimpleName string
+append SimpleName MethodInvocation MethodInvocation SimpleName format
+append SimpleName MethodInvocation MethodInvocation StringLiteral freememdsd totalmemd
+append SimpleName MethodInvocation MethodInvocation SimpleName mem
+append SimpleName MethodInvocation MethodInvocation SimpleName sign
+append SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName rt
+append SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName total memory
+sb SimpleName MethodInvocation SimpleName to string
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation MethodInvocation SimpleName sb
+log SimpleName MethodInvocation MethodInvocation SimpleName to string
+debug SimpleName MethodInvocation MethodInvocation SimpleName sb
+debug SimpleName MethodInvocation MethodInvocation SimpleName to string
+last memory check time SimpleName InfixExpression NumberLiteral empty
+last memory check time SimpleName InfixExpression SimpleName now
+last memory check time SimpleName InfixExpression InfixExpression InfixExpression SimpleName last memory check time
+last memory check time SimpleName InfixExpression InfixExpression InfixExpression SimpleName now
+empty NumberLiteral InfixExpression InfixExpression InfixExpression SimpleName last memory check time
+empty NumberLiteral InfixExpression InfixExpression InfixExpression SimpleName now
+now SimpleName InfixExpression SimpleName last memory check time
+diff SimpleName VariableDeclarationFragment InfixExpression SimpleName now
+diff SimpleName VariableDeclarationFragment InfixExpression SimpleName last memory check time
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName diff
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment InfixExpression SimpleName now
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment InfixExpression SimpleName last memory check time
+empty NumberLiteral InfixExpression SimpleName time between gc checks
+diff SimpleName InfixExpression InfixExpression NumberLiteral empty
+diff SimpleName InfixExpression InfixExpression SimpleName time between gc checks
+time between gc checks SimpleName InfixExpression NumberLiteral .
+diff SimpleName InfixExpression NumberLiteral .
+string SimpleName MethodInvocation SimpleName format
+string SimpleName MethodInvocation StringLiteral check for long gc pauses not called in a timely fashion expected every %. f seconds but was %. f seconds since last check
+string SimpleName MethodInvocation InfixExpression SimpleName time between gc checks
+string SimpleName MethodInvocation InfixExpression NumberLiteral .
+string SimpleName MethodInvocation InfixExpression SimpleName diff
+string SimpleName MethodInvocation InfixExpression NumberLiteral .
+format SimpleName MethodInvocation StringLiteral check for long gc pauses not called in a timely fashion expected every %. f seconds but was %. f seconds since last check
+format SimpleName MethodInvocation InfixExpression SimpleName time between gc checks
+format SimpleName MethodInvocation InfixExpression NumberLiteral .
+format SimpleName MethodInvocation InfixExpression SimpleName diff
+format SimpleName MethodInvocation InfixExpression NumberLiteral .
+check for long gc pauses not called in a timely fashion expected every %. f seconds but was %. f seconds since last check StringLiteral MethodInvocation InfixExpression SimpleName time between gc checks
+check for long gc pauses not called in a timely fashion expected every %. f seconds but was %. f seconds since last check StringLiteral MethodInvocation InfixExpression NumberLiteral .
+check for long gc pauses not called in a timely fashion expected every %. f seconds but was %. f seconds since last check StringLiteral MethodInvocation InfixExpression SimpleName diff
+check for long gc pauses not called in a timely fashion expected every %. f seconds but was %. f seconds since last check StringLiteral MethodInvocation InfixExpression NumberLiteral .
+time between gc checks SimpleName InfixExpression MethodInvocation InfixExpression SimpleName diff
+time between gc checks SimpleName InfixExpression MethodInvocation InfixExpression NumberLiteral .
+. NumberLiteral InfixExpression MethodInvocation InfixExpression SimpleName diff
+. NumberLiteral InfixExpression MethodInvocation InfixExpression NumberLiteral .
+log SimpleName MethodInvocation SimpleName warn
+log SimpleName MethodInvocation MethodInvocation SimpleName string
+log SimpleName MethodInvocation MethodInvocation SimpleName format
+log SimpleName MethodInvocation MethodInvocation StringLiteral check for long gc pauses not called in a timely fashion expected every %. f seconds but was %. f seconds since last check
+log SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName time between gc checks
+log SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral .
+log SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName diff
+log SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral .
+warn SimpleName MethodInvocation MethodInvocation SimpleName string
+warn SimpleName MethodInvocation MethodInvocation SimpleName format
+warn SimpleName MethodInvocation MethodInvocation StringLiteral check for long gc pauses not called in a timely fashion expected every %. f seconds but was %. f seconds since last check
+warn SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName time between gc checks
+warn SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral .
+warn SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName diff
+warn SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral .
+last memory check time SimpleName Assignment SimpleName now
+conf SimpleName MethodInvocation SimpleName get time in millis
+conf SimpleName MethodInvocation QualifiedName propertyinstance zk timeout
+get time in millis SimpleName MethodInvocation QualifiedName propertyinstance zk timeout
+keep alive timeout SimpleName VariableDeclarationFragment MethodInvocation SimpleName conf
+keep alive timeout SimpleName VariableDeclarationFragment MethodInvocation SimpleName get time in millis
+keep alive timeout SimpleName VariableDeclarationFragment MethodInvocation QualifiedName propertyinstance zk timeout
+final Modifier VariableDeclarationStatement PrimitiveType long
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName keep alive timeout
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName conf
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get time in millis
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation QualifiedName propertyinstance zk timeout
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName keep alive timeout
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName conf
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get time in millis
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation QualifiedName propertyinstance zk timeout
+max increase in collection time SimpleName InfixExpression SimpleName keep alive timeout
+halt SimpleName MethodInvocation SimpleName halt
+halt SimpleName MethodInvocation StringLiteral garbage collection may be interfering with lock keepalive halting
+halt SimpleName MethodInvocation PrefixExpression NumberLiteral empty
+halt SimpleName MethodInvocation StringLiteral garbage collection may be interfering with lock keepalive halting
+halt SimpleName MethodInvocation PrefixExpression NumberLiteral empty
+garbage collection may be interfering with lock keepalive halting StringLiteral MethodInvocation PrefixExpression NumberLiteral empty
+last memory size SimpleName Assignment SimpleName mem
+last memory check time SimpleName Assignment SimpleName now
+long PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType boolean
+long PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType long
+boolean PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType long
+boolean PrimitiveType VariableDeclarationStatement Block EnhancedForStatement SimpleName gcm beans
+boolean PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType long
+long PrimitiveType VariableDeclarationStatement Block EnhancedForStatement SimpleName gcm beans
+long PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType long
+gcm beans SimpleName EnhancedForStatement Block VariableDeclarationStatement PrimitiveType long
+saw change SimpleName IfStatement Block VariableDeclarationStatement Modifier final
+saw change SimpleName IfStatement Block VariableDeclarationStatement PrimitiveType long
+private Modifier MethodDeclaration Modifier synchronized
+private Modifier MethodDeclaration Modifier static
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName log gc info
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName accumulo configuration
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName conf
+synchronized Modifier MethodDeclaration Modifier static
+synchronized Modifier MethodDeclaration PrimitiveType void
+synchronized Modifier MethodDeclaration SimpleName log gc info
+synchronized Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName accumulo configuration
+synchronized Modifier MethodDeclaration SingleVariableDeclaration SimpleName conf
+synchronized Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+synchronized Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+synchronized Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+synchronized Modifier MethodDeclaration Block EnhancedForStatement SimpleName gcm beans
+synchronized Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+synchronized Modifier MethodDeclaration Block IfStatement SimpleName saw change
+synchronized Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+synchronized Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+static Modifier MethodDeclaration PrimitiveType void
+static Modifier MethodDeclaration SimpleName log gc info
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName accumulo configuration
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName conf
+static Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+static Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+static Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+static Modifier MethodDeclaration Block EnhancedForStatement SimpleName gcm beans
+static Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+static Modifier MethodDeclaration Block IfStatement SimpleName saw change
+static Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+static Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+void PrimitiveType MethodDeclaration SimpleName log gc info
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName accumulo configuration
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName conf
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+void PrimitiveType MethodDeclaration Block EnhancedForStatement SimpleName gcm beans
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+void PrimitiveType MethodDeclaration Block IfStatement SimpleName saw change
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement Modifier final
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+log gc info SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName accumulo configuration
+log gc info SimpleName MethodDeclaration SingleVariableDeclaration SimpleName conf
+log gc info SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+log gc info SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+log gc info SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+log gc info SimpleName MethodDeclaration Block EnhancedForStatement SimpleName gcm beans
+log gc info SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+log gc info SimpleName MethodDeclaration Block IfStatement SimpleName saw change
+log gc info SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+log gc info SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration Modifier synchronized
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName log gc info
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName conf
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration Modifier synchronized
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName log gc info
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName conf

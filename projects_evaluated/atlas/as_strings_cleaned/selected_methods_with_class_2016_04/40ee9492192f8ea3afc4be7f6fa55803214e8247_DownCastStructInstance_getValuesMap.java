@@ -1,0 +1,43 @@
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+string SimpleName SimpleType SingleVariableDeclaration SimpleName attr
+field mappingfield name map QualifiedName MethodInvocation SimpleName key set
+get SimpleName MethodInvocation SimpleName attr
+m SimpleName MethodInvocation SimpleName put
+m SimpleName MethodInvocation SimpleName attr
+m SimpleName MethodInvocation MethodInvocation SimpleName get
+m SimpleName MethodInvocation MethodInvocation SimpleName attr
+put SimpleName MethodInvocation SimpleName attr
+put SimpleName MethodInvocation MethodInvocation SimpleName get
+put SimpleName MethodInvocation MethodInvocation SimpleName attr
+attr SimpleName MethodInvocation MethodInvocation SimpleName get
+attr SimpleName MethodInvocation MethodInvocation SimpleName attr
+attr SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation QualifiedName field mappingfield name map
+attr SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName key set
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName get values map
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName atlas exception
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName map
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName object
+public Modifier MethodDeclaration SimpleName get values map
+public Modifier MethodDeclaration SimpleType SimpleName atlas exception
+public Modifier MethodDeclaration Block ReturnStatement SimpleName m
+map SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get values map
+string SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get values map
+object SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get values map
+get values map SimpleName MethodDeclaration SimpleType SimpleName atlas exception
+get values map SimpleName MethodDeclaration Block ReturnStatement SimpleName m
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName get values map
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get values map
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception

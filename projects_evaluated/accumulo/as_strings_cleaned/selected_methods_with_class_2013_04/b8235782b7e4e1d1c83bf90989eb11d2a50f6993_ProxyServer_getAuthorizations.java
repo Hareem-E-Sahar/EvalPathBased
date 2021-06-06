@@ -1,0 +1,41 @@
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName byte buffer
+set SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName authorizations
+byte buffer SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName authorizations
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+byte buffer SimpleName SimpleType SingleVariableDeclaration SimpleName bbauth
+byte buffer util SimpleName MethodInvocation SimpleName to string
+byte buffer util SimpleName MethodInvocation SimpleName bbauth
+to string SimpleName MethodInvocation SimpleName bbauth
+auths SimpleName MethodInvocation SimpleName add
+auths SimpleName MethodInvocation MethodInvocation SimpleName byte buffer util
+auths SimpleName MethodInvocation MethodInvocation SimpleName to string
+auths SimpleName MethodInvocation MethodInvocation SimpleName bbauth
+add SimpleName MethodInvocation MethodInvocation SimpleName byte buffer util
+add SimpleName MethodInvocation MethodInvocation SimpleName to string
+add SimpleName MethodInvocation MethodInvocation SimpleName bbauth
+byte buffer SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName authorizations
+bbauth SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName authorizations
+string SimpleName SimpleType ArrayType ArrayCreation NumberLiteral empty
+auths SimpleName MethodInvocation SimpleName to array
+auths SimpleName MethodInvocation ArrayCreation NumberLiteral empty
+to array SimpleName MethodInvocation ArrayCreation NumberLiteral empty
+authorizations SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName auths
+authorizations SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName to array
+private Modifier MethodDeclaration SimpleType SimpleName authorizations
+private Modifier MethodDeclaration SimpleName get authorizations
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName authorizations
+private Modifier MethodDeclaration Block EnhancedForStatement SimpleName authorizations
+authorizations SimpleName SimpleType MethodDeclaration SimpleName get authorizations
+authorizations SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName authorizations
+get authorizations SimpleName MethodDeclaration SingleVariableDeclaration SimpleName authorizations
+get authorizations SimpleName MethodDeclaration Block EnhancedForStatement SimpleName authorizations
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName authorizations
+public Modifier TypeDeclaration MethodDeclaration SimpleName get authorizations
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName authorizations
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName authorizations
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get authorizations
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName authorizations

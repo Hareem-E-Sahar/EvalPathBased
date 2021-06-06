@@ -1,0 +1,50 @@
+atlas entity SimpleName SimpleType SingleVariableDeclaration SimpleName table
+table SimpleName MethodInvocation SimpleName get guid
+entities client v SimpleName MethodInvocation SimpleName get classifications
+entities client v SimpleName MethodInvocation MethodInvocation SimpleName table
+entities client v SimpleName MethodInvocation MethodInvocation SimpleName get guid
+get classifications SimpleName MethodInvocation MethodInvocation SimpleName table
+get classifications SimpleName MethodInvocation MethodInvocation SimpleName get guid
+classfications SimpleName VariableDeclarationFragment MethodInvocation SimpleName entities client v
+classfications SimpleName VariableDeclarationFragment MethodInvocation SimpleName get classifications
+classfications SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName table
+classfications SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get guid
+atlas classificationatlas classifications QualifiedName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName classfications
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas classification
+classfications SimpleName MethodInvocation SimpleName get list
+traits SimpleName VariableDeclarationFragment MethodInvocation SimpleName classfications
+traits SimpleName VariableDeclarationFragment MethodInvocation SimpleName get list
+traits SimpleName MethodInvocation SimpleName get
+traits SimpleName MethodInvocation NumberLiteral empty
+get SimpleName MethodInvocation NumberLiteral empty
+traits SimpleName MethodInvocation MethodInvocation SimpleName get type name
+get SimpleName MethodInvocation MethodInvocation SimpleName get type name
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName get type name
+assert not null SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName traits
+assert not null SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+assert not null SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+assert not null SimpleName MethodInvocation MethodInvocation SimpleName get type name
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName verify trait
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas entity
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName table
+private Modifier MethodDeclaration SimpleType SimpleName atlas service exception
+void PrimitiveType MethodDeclaration SimpleName verify trait
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas entity
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName table
+void PrimitiveType MethodDeclaration SimpleType SimpleName atlas service exception
+verify trait SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas entity
+verify trait SimpleName MethodDeclaration SingleVariableDeclaration SimpleName table
+verify trait SimpleName MethodDeclaration SimpleType SimpleName atlas service exception
+table SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas service exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName verify trait
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas service exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName verify trait
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas service exception

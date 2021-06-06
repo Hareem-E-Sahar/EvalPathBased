@@ -1,0 +1,119 @@
+iterator setting SimpleName SimpleType ClassInstanceCreation NumberLiteral empty
+empty NumberLiteral ClassInstanceCreation TypeLiteral SimpleType SimpleName visibility filter
+is SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName iterator setting
+is SimpleName VariableDeclarationFragment ClassInstanceCreation NumberLiteral empty
+iterator setting SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName is
+visibility filter SimpleName MethodInvocation SimpleName set negate
+visibility filter SimpleName MethodInvocation SimpleName is
+visibility filter SimpleName MethodInvocation BooleanLiteral false
+set negate SimpleName MethodInvocation SimpleName is
+set negate SimpleName MethodInvocation BooleanLiteral false
+is SimpleName MethodInvocation BooleanLiteral false
+visibility filter SimpleName MethodInvocation SimpleName set authorizations
+visibility filter SimpleName MethodInvocation SimpleName is
+visibility filter SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName authorizations
+set authorizations SimpleName MethodInvocation SimpleName is
+set authorizations SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName authorizations
+is SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName authorizations
+tree map SimpleName SimpleType ParameterizedType SimpleType SimpleName key
+tree map SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+key SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+create unprotected source SimpleName MethodInvocation NumberLiteral empty
+create unprotected source SimpleName MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+source SimpleName VariableDeclarationFragment MethodInvocation SimpleName create unprotected source
+source SimpleName VariableDeclarationFragment MethodInvocation NumberLiteral empty
+source SimpleName VariableDeclarationFragment MethodInvocation NumberLiteral empty
+is SimpleName MethodInvocation SimpleName get options
+verify SimpleName MethodInvocation SimpleName source
+verify SimpleName MethodInvocation NumberLiteral empty
+verify SimpleName MethodInvocation MethodInvocation SimpleName is
+verify SimpleName MethodInvocation MethodInvocation SimpleName get options
+verify SimpleName MethodInvocation SimpleName good
+verify SimpleName MethodInvocation SimpleName good
+source SimpleName MethodInvocation NumberLiteral empty
+source SimpleName MethodInvocation MethodInvocation SimpleName is
+source SimpleName MethodInvocation MethodInvocation SimpleName get options
+source SimpleName MethodInvocation SimpleName good
+source SimpleName MethodInvocation SimpleName good
+source SimpleName MethodInvocation SimpleName empty vis
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName is
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName get options
+empty NumberLiteral MethodInvocation SimpleName good
+empty NumberLiteral MethodInvocation SimpleName good
+empty NumberLiteral MethodInvocation SimpleName empty vis
+empty NumberLiteral MethodInvocation NumberLiteral empty
+is SimpleName MethodInvocation MethodInvocation SimpleName good
+get options SimpleName MethodInvocation MethodInvocation SimpleName good
+is SimpleName MethodInvocation MethodInvocation SimpleName good
+get options SimpleName MethodInvocation MethodInvocation SimpleName good
+is SimpleName MethodInvocation MethodInvocation SimpleName empty vis
+get options SimpleName MethodInvocation MethodInvocation SimpleName empty vis
+is SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+get options SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+good SimpleName MethodInvocation SimpleName good
+good SimpleName MethodInvocation SimpleName empty vis
+good SimpleName MethodInvocation NumberLiteral empty
+good SimpleName MethodInvocation SimpleName empty vis
+good SimpleName MethodInvocation NumberLiteral empty
+empty vis SimpleName MethodInvocation NumberLiteral empty
+visibility filter SimpleName MethodInvocation SimpleName set negate
+visibility filter SimpleName MethodInvocation SimpleName is
+visibility filter SimpleName MethodInvocation BooleanLiteral true
+set negate SimpleName MethodInvocation SimpleName is
+set negate SimpleName MethodInvocation BooleanLiteral true
+is SimpleName MethodInvocation BooleanLiteral true
+is SimpleName MethodInvocation SimpleName get options
+verify SimpleName MethodInvocation SimpleName source
+verify SimpleName MethodInvocation NumberLiteral empty
+verify SimpleName MethodInvocation MethodInvocation SimpleName is
+verify SimpleName MethodInvocation MethodInvocation SimpleName get options
+verify SimpleName MethodInvocation SimpleName bad
+verify SimpleName MethodInvocation SimpleName bad
+source SimpleName MethodInvocation NumberLiteral empty
+source SimpleName MethodInvocation MethodInvocation SimpleName is
+source SimpleName MethodInvocation MethodInvocation SimpleName get options
+source SimpleName MethodInvocation SimpleName bad
+source SimpleName MethodInvocation SimpleName bad
+source SimpleName MethodInvocation SimpleName good vis
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName is
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName get options
+empty NumberLiteral MethodInvocation SimpleName bad
+empty NumberLiteral MethodInvocation SimpleName bad
+empty NumberLiteral MethodInvocation SimpleName good vis
+empty NumberLiteral MethodInvocation NumberLiteral empty
+is SimpleName MethodInvocation MethodInvocation SimpleName bad
+get options SimpleName MethodInvocation MethodInvocation SimpleName bad
+is SimpleName MethodInvocation MethodInvocation SimpleName bad
+get options SimpleName MethodInvocation MethodInvocation SimpleName bad
+is SimpleName MethodInvocation MethodInvocation SimpleName good vis
+get options SimpleName MethodInvocation MethodInvocation SimpleName good vis
+is SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+get options SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+bad SimpleName MethodInvocation SimpleName bad
+bad SimpleName MethodInvocation SimpleName good vis
+bad SimpleName MethodInvocation NumberLiteral empty
+bad SimpleName MethodInvocation SimpleName good vis
+bad SimpleName MethodInvocation NumberLiteral empty
+good vis SimpleName MethodInvocation NumberLiteral empty
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test no labels
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName io exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test no labels
+public Modifier MethodDeclaration SimpleType SimpleName io exception
+void PrimitiveType MethodDeclaration SimpleName test no labels
+void PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+test no labels SimpleName MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test no labels
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test no labels
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

@@ -1,0 +1,34 @@
+atlas edge SimpleName SimpleType SingleVariableDeclaration SimpleName edge
+ret SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName atlas relationship
+atlas relationship SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ret
+map system attributes SimpleName MethodInvocation SimpleName edge
+map system attributes SimpleName MethodInvocation SimpleName ret
+edge SimpleName MethodInvocation SimpleName ret
+map attributes SimpleName MethodInvocation SimpleName edge
+map attributes SimpleName MethodInvocation SimpleName ret
+edge SimpleName MethodInvocation SimpleName ret
+public Modifier MethodDeclaration SimpleType SimpleName atlas relationship
+public Modifier MethodDeclaration SimpleName map edge to atlas relationship
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas edge
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName edge
+public Modifier MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier MethodDeclaration Block ReturnStatement SimpleName ret
+atlas relationship SimpleName SimpleType MethodDeclaration SimpleName map edge to atlas relationship
+atlas relationship SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName edge
+atlas relationship SimpleName SimpleType MethodDeclaration SimpleType SimpleName atlas base exception
+map edge to atlas relationship SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas edge
+map edge to atlas relationship SimpleName MethodDeclaration SingleVariableDeclaration SimpleName edge
+map edge to atlas relationship SimpleName MethodDeclaration SimpleType SimpleName atlas base exception
+map edge to atlas relationship SimpleName MethodDeclaration Block ReturnStatement SimpleName ret
+edge SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas relationship
+public Modifier TypeDeclaration MethodDeclaration SimpleName map edge to atlas relationship
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName edge
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas relationship
+test SimpleName TypeDeclaration MethodDeclaration SimpleName map edge to atlas relationship
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName edge
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception

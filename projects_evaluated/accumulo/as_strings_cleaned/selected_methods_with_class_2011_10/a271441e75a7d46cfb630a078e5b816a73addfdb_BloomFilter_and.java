@@ -1,0 +1,34 @@
+filter SimpleName SimpleType SingleVariableDeclaration SimpleName filter
+filter SimpleName InstanceofExpression SimpleType SimpleName bloom filter
+filtervector size QualifiedName InfixExpression FieldAccess SimpleName vector size
+filternb hash QualifiedName InfixExpression FieldAccess SimpleName nb hash
+illegal argument exception SimpleName SimpleType ClassInstanceCreation StringLiteral filters cannot be anded
+bloom filter SimpleName SimpleType CastExpression SimpleName filter
+filter SimpleName CastExpression ParenthesizedExpression FieldAccess SimpleName bits
+bits SimpleName FieldAccess MethodInvocation SimpleName and
+bits SimpleName FieldAccess MethodInvocation FieldAccess SimpleName bits
+and SimpleName MethodInvocation FieldAccess SimpleName bits
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName and
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName filter
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName and
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName filter
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName filter
+void PrimitiveType MethodDeclaration SimpleName and
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName filter
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName filter
+and SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName filter
+and SimpleName MethodDeclaration SingleVariableDeclaration SimpleName filter
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName and
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName filter
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName and
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName filter

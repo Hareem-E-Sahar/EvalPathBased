@@ -1,0 +1,29 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName word
+reserved keywords SimpleName MethodInvocation SimpleName contains
+reserved keywords SimpleName MethodInvocation SimpleName word
+contains SimpleName MethodInvocation SimpleName word
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName is keyword
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName word
+static Modifier MethodDeclaration PrimitiveType boolean
+static Modifier MethodDeclaration SimpleName is keyword
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName word
+boolean PrimitiveType MethodDeclaration SimpleName is keyword
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName word
+is keyword SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+is keyword SimpleName MethodDeclaration SingleVariableDeclaration SimpleName word
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName is keyword
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName word
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName is keyword
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName word

@@ -1,0 +1,24 @@
+begin section SimpleName MethodInvocation StringLiteral available properties
+property SimpleName SimpleType SingleVariableDeclaration SimpleName prefix
+prefix SimpleName MethodInvocation SimpleName is experimental
+prefix section SimpleName MethodInvocation SimpleName prefix
+property SimpleName SimpleType SingleVariableDeclaration SimpleName prop
+sorted props SimpleName MethodInvocation SimpleName values
+prop SimpleName MethodInvocation SimpleName is experimental
+property SimpleName MethodInvocation SimpleName prefix
+property SimpleName MethodInvocation SimpleName prop
+prefix SimpleName MethodInvocation SimpleName prop
+prop SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName sorted props
+prop SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName values
+property SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName prefixes
+prefix SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName prefixes
+begin section SimpleName MethodInvocation StringLiteral property types
+doc SimpleName MethodInvocation SimpleName close
+void PrimitiveType MethodDeclaration SimpleName generate
+void PrimitiveType MethodDeclaration Block EnhancedForStatement SimpleName prefixes
+generate SimpleName MethodDeclaration Block EnhancedForStatement SimpleName prefixes
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName generate
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName generate

@@ -1,0 +1,500 @@
+hierarchical type definition SimpleName SimpleType ParameterizedType SimpleType SimpleName trait type
+immutable set SimpleName MethodInvocation SimpleType SimpleName string
+immutable set SimpleName MethodInvocation SimpleName of
+string SimpleName SimpleType MethodInvocation SimpleName of
+types util SimpleName MethodInvocation SimpleName create trait type def
+types util SimpleName MethodInvocation SimpleName fact
+types util SimpleName MethodInvocation MethodInvocation SimpleName immutable set
+types util SimpleName MethodInvocation MethodInvocation SimpleType SimpleName string
+types util SimpleName MethodInvocation MethodInvocation SimpleName of
+create trait type def SimpleName MethodInvocation SimpleName fact
+create trait type def SimpleName MethodInvocation MethodInvocation SimpleName immutable set
+create trait type def SimpleName MethodInvocation MethodInvocation SimpleType SimpleName string
+create trait type def SimpleName MethodInvocation MethodInvocation SimpleName of
+fact SimpleName MethodInvocation MethodInvocation SimpleName immutable set
+fact SimpleName MethodInvocation MethodInvocation SimpleType SimpleName string
+fact SimpleName MethodInvocation MethodInvocation SimpleName of
+fact trait SimpleName VariableDeclarationFragment MethodInvocation SimpleName types util
+fact trait SimpleName VariableDeclarationFragment MethodInvocation SimpleName create trait type def
+fact trait SimpleName VariableDeclarationFragment MethodInvocation SimpleName fact
+fact trait SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName immutable set
+fact trait SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName of
+hierarchical type definition SimpleName SimpleType ParameterizedType SimpleType SimpleName trait type
+immutable set SimpleName MethodInvocation SimpleType SimpleName string
+immutable set SimpleName MethodInvocation SimpleName of
+string SimpleName SimpleType MethodInvocation SimpleName of
+types util SimpleName MethodInvocation SimpleName create trait type def
+types util SimpleName MethodInvocation SimpleName etl
+types util SimpleName MethodInvocation MethodInvocation SimpleName immutable set
+types util SimpleName MethodInvocation MethodInvocation SimpleType SimpleName string
+types util SimpleName MethodInvocation MethodInvocation SimpleName of
+create trait type def SimpleName MethodInvocation SimpleName etl
+create trait type def SimpleName MethodInvocation MethodInvocation SimpleName immutable set
+create trait type def SimpleName MethodInvocation MethodInvocation SimpleType SimpleName string
+create trait type def SimpleName MethodInvocation MethodInvocation SimpleName of
+etl SimpleName MethodInvocation MethodInvocation SimpleName immutable set
+etl SimpleName MethodInvocation MethodInvocation SimpleType SimpleName string
+etl SimpleName MethodInvocation MethodInvocation SimpleName of
+etl trait SimpleName VariableDeclarationFragment MethodInvocation SimpleName types util
+etl trait SimpleName VariableDeclarationFragment MethodInvocation SimpleName create trait type def
+etl trait SimpleName VariableDeclarationFragment MethodInvocation SimpleName etl
+etl trait SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName immutable set
+etl trait SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName of
+hierarchical type definition SimpleName SimpleType ParameterizedType SimpleType SimpleName trait type
+immutable set SimpleName MethodInvocation SimpleType SimpleName string
+immutable set SimpleName MethodInvocation SimpleName of
+string SimpleName SimpleType MethodInvocation SimpleName of
+types util SimpleName MethodInvocation SimpleName create trait type def
+types util SimpleName MethodInvocation SimpleName dimension
+types util SimpleName MethodInvocation MethodInvocation SimpleName immutable set
+types util SimpleName MethodInvocation MethodInvocation SimpleType SimpleName string
+types util SimpleName MethodInvocation MethodInvocation SimpleName of
+create trait type def SimpleName MethodInvocation SimpleName dimension
+create trait type def SimpleName MethodInvocation MethodInvocation SimpleName immutable set
+create trait type def SimpleName MethodInvocation MethodInvocation SimpleType SimpleName string
+create trait type def SimpleName MethodInvocation MethodInvocation SimpleName of
+dimension SimpleName MethodInvocation MethodInvocation SimpleName immutable set
+dimension SimpleName MethodInvocation MethodInvocation SimpleType SimpleName string
+dimension SimpleName MethodInvocation MethodInvocation SimpleName of
+dimension trait SimpleName VariableDeclarationFragment MethodInvocation SimpleName types util
+dimension trait SimpleName VariableDeclarationFragment MethodInvocation SimpleName create trait type def
+dimension trait SimpleName VariableDeclarationFragment MethodInvocation SimpleName dimension
+dimension trait SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName immutable set
+dimension trait SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName of
+hierarchical type definition SimpleName SimpleType ParameterizedType SimpleType SimpleName trait type
+immutable set SimpleName MethodInvocation SimpleType SimpleName string
+immutable set SimpleName MethodInvocation SimpleName of
+string SimpleName SimpleType MethodInvocation SimpleName of
+types util SimpleName MethodInvocation SimpleName create trait type def
+types util SimpleName MethodInvocation SimpleName metric
+types util SimpleName MethodInvocation MethodInvocation SimpleName immutable set
+types util SimpleName MethodInvocation MethodInvocation SimpleType SimpleName string
+types util SimpleName MethodInvocation MethodInvocation SimpleName of
+create trait type def SimpleName MethodInvocation SimpleName metric
+create trait type def SimpleName MethodInvocation MethodInvocation SimpleName immutable set
+create trait type def SimpleName MethodInvocation MethodInvocation SimpleType SimpleName string
+create trait type def SimpleName MethodInvocation MethodInvocation SimpleName of
+metric SimpleName MethodInvocation MethodInvocation SimpleName immutable set
+metric SimpleName MethodInvocation MethodInvocation SimpleType SimpleName string
+metric SimpleName MethodInvocation MethodInvocation SimpleName of
+metric trait SimpleName VariableDeclarationFragment MethodInvocation SimpleName types util
+metric trait SimpleName VariableDeclarationFragment MethodInvocation SimpleName create trait type def
+metric trait SimpleName VariableDeclarationFragment MethodInvocation SimpleName metric
+metric trait SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName immutable set
+metric trait SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName of
+immutable list SimpleName MethodInvocation SimpleName of
+immutable list SimpleName MethodInvocation SimpleName fact trait
+immutable list SimpleName MethodInvocation SimpleName etl trait
+immutable list SimpleName MethodInvocation SimpleName dimension trait
+immutable list SimpleName MethodInvocation SimpleName metric trait
+of SimpleName MethodInvocation SimpleName fact trait
+of SimpleName MethodInvocation SimpleName etl trait
+of SimpleName MethodInvocation SimpleName dimension trait
+of SimpleName MethodInvocation SimpleName metric trait
+fact trait SimpleName MethodInvocation SimpleName etl trait
+fact trait SimpleName MethodInvocation SimpleName dimension trait
+fact trait SimpleName MethodInvocation SimpleName metric trait
+etl trait SimpleName MethodInvocation SimpleName dimension trait
+etl trait SimpleName MethodInvocation SimpleName metric trait
+dimension trait SimpleName MethodInvocation SimpleName metric trait
+get types def SimpleName MethodInvocation MethodInvocation SimpleName immutable list
+get types def SimpleName MethodInvocation MethodInvocation SimpleName of
+get types def SimpleName MethodInvocation MethodInvocation SimpleName fact trait
+get types def SimpleName MethodInvocation MethodInvocation SimpleName etl trait
+get types def SimpleName MethodInvocation MethodInvocation SimpleName dimension trait
+get types def SimpleName MethodInvocation MethodInvocation SimpleName metric trait
+create type SimpleName MethodInvocation MethodInvocation SimpleName get types def
+create type SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName immutable list
+create type SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName of
+create type SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName fact trait
+create type SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName etl trait
+create type SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName dimension trait
+create type SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName metric trait
+sales StringLiteral InfixExpression MethodInvocation SimpleName random string
+sales db name SimpleName Assignment InfixExpression StringLiteral sales
+sales db name SimpleName Assignment InfixExpression MethodInvocation SimpleName random string
+database SimpleName MethodInvocation SimpleName sales db name
+database SimpleName MethodInvocation StringLiteral sales database
+database SimpleName MethodInvocation StringLiteral john etl
+database SimpleName MethodInvocation StringLiteral hdfshost appswarehousesales
+sales db name SimpleName MethodInvocation StringLiteral sales database
+sales db name SimpleName MethodInvocation StringLiteral john etl
+sales db name SimpleName MethodInvocation StringLiteral hdfshost appswarehousesales
+sales database StringLiteral MethodInvocation StringLiteral john etl
+sales database StringLiteral MethodInvocation StringLiteral hdfshost appswarehousesales
+john etl StringLiteral MethodInvocation StringLiteral hdfshost appswarehousesales
+sales db SimpleName VariableDeclarationFragment MethodInvocation SimpleName database
+sales db SimpleName VariableDeclarationFragment MethodInvocation SimpleName sales db name
+sales db SimpleName VariableDeclarationFragment MethodInvocation StringLiteral sales database
+sales db SimpleName VariableDeclarationFragment MethodInvocation StringLiteral john etl
+sales db SimpleName VariableDeclarationFragment MethodInvocation StringLiteral hdfshost appswarehousesales
+id SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName sales db
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName referenceable
+column SimpleName MethodInvocation StringLiteral time id
+column SimpleName MethodInvocation StringLiteral int
+column SimpleName MethodInvocation StringLiteral time id
+time id StringLiteral MethodInvocation StringLiteral int
+time id StringLiteral MethodInvocation StringLiteral time id
+int StringLiteral MethodInvocation StringLiteral time id
+column SimpleName MethodInvocation StringLiteral product id
+column SimpleName MethodInvocation StringLiteral int
+column SimpleName MethodInvocation StringLiteral product id
+product id StringLiteral MethodInvocation StringLiteral int
+product id StringLiteral MethodInvocation StringLiteral product id
+int StringLiteral MethodInvocation StringLiteral product id
+column SimpleName MethodInvocation StringLiteral customer id
+column SimpleName MethodInvocation StringLiteral int
+column SimpleName MethodInvocation StringLiteral customer id
+column SimpleName MethodInvocation SimpleName pii
+customer id StringLiteral MethodInvocation StringLiteral int
+customer id StringLiteral MethodInvocation StringLiteral customer id
+customer id StringLiteral MethodInvocation SimpleName pii
+int StringLiteral MethodInvocation StringLiteral customer id
+int StringLiteral MethodInvocation SimpleName pii
+customer id StringLiteral MethodInvocation SimpleName pii
+column SimpleName MethodInvocation StringLiteral sales
+column SimpleName MethodInvocation StringLiteral double
+column SimpleName MethodInvocation StringLiteral product id
+column SimpleName MethodInvocation SimpleName metric
+sales StringLiteral MethodInvocation StringLiteral double
+sales StringLiteral MethodInvocation StringLiteral product id
+sales StringLiteral MethodInvocation SimpleName metric
+double StringLiteral MethodInvocation StringLiteral product id
+double StringLiteral MethodInvocation SimpleName metric
+product id StringLiteral MethodInvocation SimpleName metric
+immutable list SimpleName MethodInvocation SimpleName of
+immutable list SimpleName MethodInvocation MethodInvocation SimpleName column
+immutable list SimpleName MethodInvocation MethodInvocation StringLiteral time id
+immutable list SimpleName MethodInvocation MethodInvocation StringLiteral int
+immutable list SimpleName MethodInvocation MethodInvocation StringLiteral time id
+immutable list SimpleName MethodInvocation MethodInvocation SimpleName column
+immutable list SimpleName MethodInvocation MethodInvocation StringLiteral product id
+immutable list SimpleName MethodInvocation MethodInvocation StringLiteral int
+immutable list SimpleName MethodInvocation MethodInvocation StringLiteral product id
+immutable list SimpleName MethodInvocation MethodInvocation SimpleName column
+immutable list SimpleName MethodInvocation MethodInvocation StringLiteral customer id
+immutable list SimpleName MethodInvocation MethodInvocation StringLiteral int
+immutable list SimpleName MethodInvocation MethodInvocation StringLiteral customer id
+immutable list SimpleName MethodInvocation MethodInvocation SimpleName pii
+immutable list SimpleName MethodInvocation MethodInvocation SimpleName column
+immutable list SimpleName MethodInvocation MethodInvocation StringLiteral sales
+immutable list SimpleName MethodInvocation MethodInvocation StringLiteral double
+immutable list SimpleName MethodInvocation MethodInvocation StringLiteral product id
+immutable list SimpleName MethodInvocation MethodInvocation SimpleName metric
+of SimpleName MethodInvocation MethodInvocation SimpleName column
+of SimpleName MethodInvocation MethodInvocation StringLiteral time id
+of SimpleName MethodInvocation MethodInvocation StringLiteral int
+of SimpleName MethodInvocation MethodInvocation StringLiteral time id
+of SimpleName MethodInvocation MethodInvocation SimpleName column
+of SimpleName MethodInvocation MethodInvocation StringLiteral product id
+of SimpleName MethodInvocation MethodInvocation StringLiteral int
+of SimpleName MethodInvocation MethodInvocation StringLiteral product id
+of SimpleName MethodInvocation MethodInvocation SimpleName column
+of SimpleName MethodInvocation MethodInvocation StringLiteral customer id
+of SimpleName MethodInvocation MethodInvocation StringLiteral int
+of SimpleName MethodInvocation MethodInvocation StringLiteral customer id
+of SimpleName MethodInvocation MethodInvocation SimpleName pii
+of SimpleName MethodInvocation MethodInvocation SimpleName column
+of SimpleName MethodInvocation MethodInvocation StringLiteral sales
+of SimpleName MethodInvocation MethodInvocation StringLiteral double
+of SimpleName MethodInvocation MethodInvocation StringLiteral product id
+of SimpleName MethodInvocation MethodInvocation SimpleName metric
+column SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName column
+column SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral product id
+column SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral int
+column SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral product id
+time id StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName column
+time id StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral product id
+time id StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral int
+time id StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral product id
+int StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName column
+int StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral product id
+int StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral int
+int StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral product id
+time id StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName column
+time id StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral product id
+time id StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral int
+time id StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral product id
+column SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName column
+column SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral customer id
+column SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral int
+column SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral customer id
+column SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName pii
+time id StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName column
+time id StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral customer id
+time id StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral int
+time id StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral customer id
+time id StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName pii
+int StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName column
+int StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral customer id
+int StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral int
+int StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral customer id
+int StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName pii
+time id StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName column
+time id StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral customer id
+time id StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral int
+time id StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral customer id
+time id StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName pii
+column SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName column
+column SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral sales
+column SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral double
+column SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral product id
+column SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName metric
+time id StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName column
+time id StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral sales
+time id StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral double
+time id StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral product id
+time id StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName metric
+int StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName column
+int StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral sales
+int StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral double
+int StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral product id
+int StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName metric
+time id StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName column
+time id StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral sales
+time id StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral double
+time id StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral product id
+time id StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName metric
+column SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName column
+column SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral customer id
+column SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral int
+column SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral customer id
+column SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName pii
+product id StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName column
+product id StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral customer id
+product id StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral int
+product id StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral customer id
+product id StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName pii
+int StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName column
+int StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral customer id
+int StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral int
+int StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral customer id
+int StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName pii
+product id StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName column
+product id StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral customer id
+product id StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral int
+product id StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral customer id
+product id StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName pii
+column SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName column
+column SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral sales
+column SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral double
+column SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral product id
+column SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName metric
+product id StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName column
+product id StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral sales
+product id StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral double
+product id StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral product id
+product id StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName metric
+int StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName column
+int StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral sales
+int StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral double
+int StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral product id
+int StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName metric
+product id StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName column
+product id StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral sales
+product id StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral double
+product id StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral product id
+product id StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName metric
+column SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName column
+column SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral sales
+column SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral double
+column SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral product id
+column SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName metric
+customer id StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName column
+customer id StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral sales
+customer id StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral double
+customer id StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral product id
+customer id StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName metric
+int StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName column
+int StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral sales
+int StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral double
+int StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral product id
+int StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName metric
+customer id StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName column
+customer id StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral sales
+customer id StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral double
+customer id StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral product id
+customer id StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName metric
+pii SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName column
+pii SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral sales
+pii SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral double
+pii SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral product id
+pii SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName metric
+sales fact columns SimpleName VariableDeclarationFragment MethodInvocation SimpleName immutable list
+sales fact columns SimpleName VariableDeclarationFragment MethodInvocation SimpleName of
+sales fact columns SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName column
+sales fact columns SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation StringLiteral time id
+sales fact columns SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation StringLiteral int
+sales fact columns SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation StringLiteral time id
+sales fact columns SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName column
+sales fact columns SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation StringLiteral product id
+sales fact columns SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation StringLiteral int
+sales fact columns SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation StringLiteral product id
+sales fact columns SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName column
+sales fact columns SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation StringLiteral customer id
+sales fact columns SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation StringLiteral int
+sales fact columns SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation StringLiteral customer id
+sales fact columns SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName pii
+sales fact columns SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName column
+sales fact columns SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation StringLiteral sales
+sales fact columns SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation StringLiteral double
+sales fact columns SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation StringLiteral product id
+sales fact columns SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName metric
+sales fact StringLiteral InfixExpression MethodInvocation SimpleName random string
+sales fact table SimpleName Assignment InfixExpression StringLiteral sales fact
+sales fact table SimpleName Assignment InfixExpression MethodInvocation SimpleName random string
+table SimpleName MethodInvocation SimpleName sales fact table
+table SimpleName MethodInvocation StringLiteral sales fact table
+table SimpleName MethodInvocation SimpleName sales db
+table SimpleName MethodInvocation StringLiteral joe
+table SimpleName MethodInvocation StringLiteral managed
+sales fact table SimpleName MethodInvocation StringLiteral sales fact table
+sales fact table SimpleName MethodInvocation SimpleName sales db
+sales fact table SimpleName MethodInvocation StringLiteral joe
+sales fact table SimpleName MethodInvocation StringLiteral managed
+sales fact table SimpleName MethodInvocation SimpleName sales fact columns
+sales fact table StringLiteral MethodInvocation SimpleName sales db
+sales fact table StringLiteral MethodInvocation StringLiteral joe
+sales fact table StringLiteral MethodInvocation StringLiteral managed
+sales fact table StringLiteral MethodInvocation SimpleName sales fact columns
+sales fact table StringLiteral MethodInvocation SimpleName fact
+sales db SimpleName MethodInvocation StringLiteral joe
+sales db SimpleName MethodInvocation StringLiteral managed
+sales db SimpleName MethodInvocation SimpleName sales fact columns
+sales db SimpleName MethodInvocation SimpleName fact
+joe StringLiteral MethodInvocation StringLiteral managed
+joe StringLiteral MethodInvocation SimpleName sales fact columns
+joe StringLiteral MethodInvocation SimpleName fact
+managed StringLiteral MethodInvocation SimpleName sales fact columns
+managed StringLiteral MethodInvocation SimpleName fact
+sales fact columns SimpleName MethodInvocation SimpleName fact
+sales fact SimpleName VariableDeclarationFragment MethodInvocation SimpleName table
+sales fact SimpleName VariableDeclarationFragment MethodInvocation SimpleName sales fact table
+sales fact SimpleName VariableDeclarationFragment MethodInvocation StringLiteral sales fact table
+sales fact SimpleName VariableDeclarationFragment MethodInvocation SimpleName sales db
+sales fact SimpleName VariableDeclarationFragment MethodInvocation StringLiteral joe
+sales fact SimpleName VariableDeclarationFragment MethodInvocation StringLiteral managed
+sales fact SimpleName VariableDeclarationFragment MethodInvocation SimpleName sales fact columns
+sales fact SimpleName VariableDeclarationFragment MethodInvocation SimpleName fact
+id SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName sales fact
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName referenceable
+column SimpleName MethodInvocation StringLiteral time id
+column SimpleName MethodInvocation StringLiteral int
+column SimpleName MethodInvocation StringLiteral time id
+time id StringLiteral MethodInvocation StringLiteral int
+time id StringLiteral MethodInvocation StringLiteral time id
+int StringLiteral MethodInvocation StringLiteral time id
+column SimpleName MethodInvocation StringLiteral day of year
+column SimpleName MethodInvocation StringLiteral int
+column SimpleName MethodInvocation StringLiteral day of year
+day of year StringLiteral MethodInvocation StringLiteral int
+day of year StringLiteral MethodInvocation StringLiteral day of year
+int StringLiteral MethodInvocation StringLiteral day of year
+column SimpleName MethodInvocation StringLiteral week day
+column SimpleName MethodInvocation StringLiteral int
+column SimpleName MethodInvocation StringLiteral week day
+week day StringLiteral MethodInvocation StringLiteral int
+week day StringLiteral MethodInvocation StringLiteral week day
+int StringLiteral MethodInvocation StringLiteral week day
+immutable list SimpleName MethodInvocation SimpleName of
+immutable list SimpleName MethodInvocation MethodInvocation SimpleName column
+immutable list SimpleName MethodInvocation MethodInvocation StringLiteral time id
+immutable list SimpleName MethodInvocation MethodInvocation StringLiteral int
+immutable list SimpleName MethodInvocation MethodInvocation StringLiteral time id
+immutable list SimpleName MethodInvocation MethodInvocation SimpleName column
+immutable list SimpleName MethodInvocation MethodInvocation StringLiteral day of year
+immutable list SimpleName MethodInvocation MethodInvocation StringLiteral int
+immutable list SimpleName MethodInvocation MethodInvocation StringLiteral day of year
+immutable list SimpleName MethodInvocation MethodInvocation SimpleName column
+immutable list SimpleName MethodInvocation MethodInvocation StringLiteral week day
+immutable list SimpleName MethodInvocation MethodInvocation StringLiteral int
+immutable list SimpleName MethodInvocation MethodInvocation StringLiteral week day
+of SimpleName MethodInvocation MethodInvocation SimpleName column
+of SimpleName MethodInvocation MethodInvocation StringLiteral time id
+of SimpleName MethodInvocation MethodInvocation StringLiteral int
+of SimpleName MethodInvocation MethodInvocation StringLiteral time id
+of SimpleName MethodInvocation MethodInvocation SimpleName column
+of SimpleName MethodInvocation MethodInvocation StringLiteral day of year
+of SimpleName MethodInvocation MethodInvocation StringLiteral int
+of SimpleName MethodInvocation MethodInvocation StringLiteral day of year
+of SimpleName MethodInvocation MethodInvocation SimpleName column
+of SimpleName MethodInvocation MethodInvocation StringLiteral week day
+of SimpleName MethodInvocation MethodInvocation StringLiteral int
+of SimpleName MethodInvocation MethodInvocation StringLiteral week day
+column SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName column
+column SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral day of year
+column SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral int
+column SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral day of year
+time id StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName column
+time id StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral day of year
+time id StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral int
+time id StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral day of year
+int StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName column
+int StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral day of year
+int StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral int
+int StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral day of year
+time id StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName column
+time id StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral day of year
+time id StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral int
+time id StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral day of year
+column SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName column
+column SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral week day
+column SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral int
+column SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral week day
+time id StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName column
+time id StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral week day
+time id StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral int
+time id StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral week day
+int StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName column
+int StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral week day
+int StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral int
+int StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral week day
+time id StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName column
+time id StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral week day
+time id StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral int
+time id StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral week day
+column SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName column
+column SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral week day
+column SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral int
+column SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral week day
+day of year StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName column
+day of year StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral week day
+day of year StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral int
+day of year StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral week day
+int StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName column
+int StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral week day
+int StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral int
+int StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral week day
+day of year StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName column
+day of year StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral week day
+day of year StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral int
+day of year StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral week day
+time dim columns SimpleName VariableDeclarationFragment MethodInvocation SimpleName immutable list
+time dim columns SimpleName VariableDeclarationFragment MethodInvocation SimpleName of
+time dim columns SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName column
+time dim columns SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation StringLiteral time id
+time dim columns SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation StringLiteral int
+time dim columns SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation StringLiteral time id
+time dim columns SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName column
+time dim columns SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation StringLiteral day of year
+time dim columns SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation StringLiteral int
+time dim columns SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation StringLiteral day of year
+time dim columns SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName column
+time dim columns SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation StringLiteral week day
+time dim columns SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation StringLiteral int
+time dim columns SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation StringLiteral week day
+time dim StringLiteral InfixExpression MethodInvocation SimpleName random string
+table SimpleName MethodInvocation InfixExpression StringLiteral time dim
+table SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName random string
+table SimpleName MethodInvocation StringLiteral time dimension table
+table SimpleName MethodInvocation SimpleName sales db
+table SimpleName MethodInvocation StringLiteral john doe
+table SimpleName MethodInvocation StringLiteral external
+time dim StringLiteral InfixExpression MethodInvocation StringLiteral time dimension table
+random string SimpleName MethodInvocation InfixExpression MethodInvocation StringLiteral time dimension table
+time dim StringLiteral InfixExpression MethodInvocation SimpleName sales db
+random string SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName sales db
+time dim StringLiteral InfixExpression MethodInvocation StringLiteral john doe
+random string SimpleName MethodInvocation InfixExpression MethodInvocation StringLiteral john doe
+time dim StringLiteral InfixExpression MethodInvocation StringLiteral external
+random string SimpleName MethodInvocation InfixExpression MethodInvocation StringLiteral external

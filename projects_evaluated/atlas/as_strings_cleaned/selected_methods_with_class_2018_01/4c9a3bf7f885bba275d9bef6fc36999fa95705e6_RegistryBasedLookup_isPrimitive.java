@@ -1,0 +1,77 @@
+gremlin query composercontext QualifiedName SimpleType SingleVariableDeclaration SimpleName context
+string SimpleName SimpleType SingleVariableDeclaration SimpleName attribute name
+context SimpleName MethodInvocation SimpleName get active entity type
+et SimpleName VariableDeclarationFragment MethodInvocation SimpleName context
+et SimpleName VariableDeclarationFragment MethodInvocation SimpleName get active entity type
+atlas entity type SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName et
+et SimpleName MethodInvocation SimpleName get attribute type
+et SimpleName MethodInvocation SimpleName attribute name
+get attribute type SimpleName MethodInvocation SimpleName attribute name
+at SimpleName VariableDeclarationFragment MethodInvocation SimpleName et
+at SimpleName VariableDeclarationFragment MethodInvocation SimpleName get attribute type
+at SimpleName VariableDeclarationFragment MethodInvocation SimpleName attribute name
+atlas type SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName at
+at SimpleName MethodInvocation SimpleName get type category
+tc SimpleName VariableDeclarationFragment MethodInvocation SimpleName at
+tc SimpleName VariableDeclarationFragment MethodInvocation SimpleName get type category
+type category SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName tc
+is primitive using type category SimpleName MethodInvocation SimpleName tc
+is primitive using type category SimpleName MethodInvocation IfStatement ReturnStatement BooleanLiteral true
+tc SimpleName MethodInvocation IfStatement ReturnStatement BooleanLiteral true
+tc SimpleName InfixExpression QualifiedName type categoryarray
+atlas array type SimpleName SimpleType CastExpression SimpleName at
+ct SimpleName VariableDeclarationFragment ParenthesizedExpression CastExpression SimpleName at
+atlas array type SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ct
+ct SimpleName MethodInvocation SimpleName get element type
+ct SimpleName MethodInvocation MethodInvocation SimpleName get type category
+get element type SimpleName MethodInvocation MethodInvocation SimpleName get type category
+is primitive using type category SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName ct
+is primitive using type category SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get element type
+is primitive using type category SimpleName MethodInvocation MethodInvocation SimpleName get type category
+tc SimpleName InfixExpression QualifiedName type categorymap
+atlas map type SimpleName SimpleType CastExpression SimpleName at
+ct SimpleName VariableDeclarationFragment ParenthesizedExpression CastExpression SimpleName at
+atlas map type SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ct
+ct SimpleName MethodInvocation SimpleName get value type
+ct SimpleName MethodInvocation MethodInvocation SimpleName get type category
+get value type SimpleName MethodInvocation MethodInvocation SimpleName get type category
+is primitive using type category SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName ct
+is primitive using type category SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get value type
+is primitive using type category SimpleName MethodInvocation MethodInvocation SimpleName get type category
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType boolean
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName is primitive
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName context
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName attribute name
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName is primitive
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType QualifiedName gremlin query composercontext
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName context
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName attribute name
+public Modifier MethodDeclaration Block ReturnStatement BooleanLiteral false
+boolean PrimitiveType MethodDeclaration SimpleName is primitive
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType QualifiedName gremlin query composercontext
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName context
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName attribute name
+boolean PrimitiveType MethodDeclaration Block ReturnStatement BooleanLiteral false
+is primitive SimpleName MethodDeclaration SingleVariableDeclaration SimpleType QualifiedName gremlin query composercontext
+is primitive SimpleName MethodDeclaration SingleVariableDeclaration SimpleName context
+is primitive SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+is primitive SimpleName MethodDeclaration SingleVariableDeclaration SimpleName attribute name
+is primitive SimpleName MethodDeclaration Block ReturnStatement BooleanLiteral false
+context SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attribute name
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName is primitive
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName context
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attribute name
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName is primitive
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName context
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attribute name

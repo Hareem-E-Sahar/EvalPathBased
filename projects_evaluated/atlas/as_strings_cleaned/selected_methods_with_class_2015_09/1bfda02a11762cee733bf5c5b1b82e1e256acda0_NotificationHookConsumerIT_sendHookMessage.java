@@ -1,0 +1,51 @@
+referenceable SimpleName SimpleType SingleVariableDeclaration SimpleName entity
+instance serialization SimpleName MethodInvocation SimpleName to json
+instance serialization SimpleName MethodInvocation SimpleName entity
+instance serialization SimpleName MethodInvocation BooleanLiteral true
+to json SimpleName MethodInvocation SimpleName entity
+to json SimpleName MethodInvocation BooleanLiteral true
+entity SimpleName MethodInvocation BooleanLiteral true
+entity json SimpleName VariableDeclarationFragment MethodInvocation SimpleName instance serialization
+entity json SimpleName VariableDeclarationFragment MethodInvocation SimpleName to json
+entity json SimpleName VariableDeclarationFragment MethodInvocation SimpleName entity
+entity json SimpleName VariableDeclarationFragment MethodInvocation BooleanLiteral true
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName entity json
+json array SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName json array
+json array SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName json array
+json array SimpleName MethodInvocation SimpleName put
+json array SimpleName MethodInvocation SimpleName entity json
+put SimpleName MethodInvocation SimpleName entity json
+json array SimpleName MethodInvocation SimpleName to string
+kafka SimpleName MethodInvocation SimpleName send
+kafka SimpleName MethodInvocation QualifiedName notification interfacenotification typehook
+kafka SimpleName MethodInvocation MethodInvocation SimpleName json array
+kafka SimpleName MethodInvocation MethodInvocation SimpleName to string
+send SimpleName MethodInvocation QualifiedName notification interfacenotification typehook
+send SimpleName MethodInvocation MethodInvocation SimpleName json array
+send SimpleName MethodInvocation MethodInvocation SimpleName to string
+notification interfacenotification typehook QualifiedName MethodInvocation MethodInvocation SimpleName json array
+notification interfacenotification typehook QualifiedName MethodInvocation MethodInvocation SimpleName to string
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName send hook message
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName referenceable
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName entity
+private Modifier MethodDeclaration SimpleType SimpleName notification exception
+void PrimitiveType MethodDeclaration SimpleName send hook message
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName referenceable
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName entity
+void PrimitiveType MethodDeclaration SimpleType SimpleName notification exception
+send hook message SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName referenceable
+send hook message SimpleName MethodDeclaration SingleVariableDeclaration SimpleName entity
+send hook message SimpleName MethodDeclaration SimpleType SimpleName notification exception
+entity SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName notification exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName send hook message
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName notification exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName send hook message
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName notification exception

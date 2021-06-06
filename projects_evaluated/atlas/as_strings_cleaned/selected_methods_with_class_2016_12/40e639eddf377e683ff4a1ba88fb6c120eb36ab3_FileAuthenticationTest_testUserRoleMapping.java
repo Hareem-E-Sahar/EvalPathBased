@@ -1,0 +1,79 @@
+authentication SimpleName MethodInvocation SimpleName get name
+when SimpleName MethodInvocation MethodInvocation SimpleName authentication
+when SimpleName MethodInvocation MethodInvocation SimpleName get name
+when SimpleName MethodInvocation MethodInvocation SimpleName then return
+authentication SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+get name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+when SimpleName MethodInvocation MethodInvocation StringLiteral admin
+authentication SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral admin
+get name SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral admin
+then return SimpleName MethodInvocation StringLiteral admin
+authentication SimpleName MethodInvocation SimpleName get credentials
+when SimpleName MethodInvocation MethodInvocation SimpleName authentication
+when SimpleName MethodInvocation MethodInvocation SimpleName get credentials
+when SimpleName MethodInvocation MethodInvocation SimpleName then return
+authentication SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+get credentials SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+when SimpleName MethodInvocation MethodInvocation StringLiteral admin
+authentication SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral admin
+get credentials SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral admin
+then return SimpleName MethodInvocation StringLiteral admin
+auth provider SimpleName MethodInvocation SimpleName authenticate
+auth provider SimpleName MethodInvocation SimpleName authentication
+authenticate SimpleName MethodInvocation SimpleName authentication
+auth SimpleName VariableDeclarationFragment MethodInvocation SimpleName auth provider
+auth SimpleName VariableDeclarationFragment MethodInvocation SimpleName authenticate
+auth SimpleName VariableDeclarationFragment MethodInvocation SimpleName authentication
+authentication SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName auth
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral {}
+log SimpleName MethodInvocation SimpleName auth
+debug SimpleName MethodInvocation StringLiteral {}
+debug SimpleName MethodInvocation SimpleName auth
+{} StringLiteral MethodInvocation SimpleName auth
+auth SimpleName MethodInvocation SimpleName is authenticated
+assert SimpleName MethodInvocation SimpleName assert true
+assert SimpleName MethodInvocation MethodInvocation SimpleName auth
+assert SimpleName MethodInvocation MethodInvocation SimpleName is authenticated
+assert true SimpleName MethodInvocation MethodInvocation SimpleName auth
+assert true SimpleName MethodInvocation MethodInvocation SimpleName is authenticated
+auth SimpleName MethodInvocation SimpleName get authorities
+authorities SimpleName VariableDeclarationFragment MethodInvocation SimpleName auth
+authorities SimpleName VariableDeclarationFragment MethodInvocation SimpleName get authorities
+role SimpleName VariableDeclarationFragment StringLiteral empty
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName role
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral empty
+granted authority SimpleName SimpleType SingleVariableDeclaration SimpleName gauth
+gauth SimpleName MethodInvocation SimpleName get authority
+role SimpleName Assignment MethodInvocation SimpleName gauth
+role SimpleName Assignment MethodInvocation SimpleName get authority
+granted authority SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName authorities
+gauth SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName authorities
+admin StringLiteral MethodInvocation SimpleName equals
+admin StringLiteral MethodInvocation SimpleName role
+equals SimpleName MethodInvocation SimpleName role
+assert SimpleName MethodInvocation SimpleName assert true
+assert SimpleName MethodInvocation MethodInvocation StringLiteral admin
+assert SimpleName MethodInvocation MethodInvocation SimpleName equals
+assert SimpleName MethodInvocation MethodInvocation SimpleName role
+assert true SimpleName MethodInvocation MethodInvocation StringLiteral admin
+assert true SimpleName MethodInvocation MethodInvocation SimpleName equals
+assert true SimpleName MethodInvocation MethodInvocation SimpleName role
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test user role mapping
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test user role mapping
+public Modifier MethodDeclaration Block EnhancedForStatement SimpleName authorities
+void PrimitiveType MethodDeclaration SimpleName test user role mapping
+void PrimitiveType MethodDeclaration Block EnhancedForStatement SimpleName authorities
+test user role mapping SimpleName MethodDeclaration Block EnhancedForStatement SimpleName authorities
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test user role mapping
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test user role mapping

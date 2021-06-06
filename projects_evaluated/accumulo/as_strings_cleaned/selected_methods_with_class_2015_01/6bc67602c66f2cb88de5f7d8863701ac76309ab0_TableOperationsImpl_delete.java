@@ -1,0 +1,98 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName table name
+check argument SimpleName MethodInvocation InfixExpression SimpleName table name
+check argument SimpleName MethodInvocation StringLiteral table name is null
+table name SimpleName InfixExpression MethodInvocation StringLiteral table name is null
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName byte buffer
+table name SimpleName MethodInvocation SimpleName get bytes
+table name SimpleName MethodInvocation SimpleName utf
+get bytes SimpleName MethodInvocation SimpleName utf
+byte buffer SimpleName MethodInvocation SimpleName wrap
+byte buffer SimpleName MethodInvocation MethodInvocation SimpleName table name
+byte buffer SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+byte buffer SimpleName MethodInvocation MethodInvocation SimpleName utf
+wrap SimpleName MethodInvocation MethodInvocation SimpleName table name
+wrap SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+wrap SimpleName MethodInvocation MethodInvocation SimpleName utf
+arrays SimpleName MethodInvocation SimpleName as list
+arrays SimpleName MethodInvocation MethodInvocation SimpleName byte buffer
+arrays SimpleName MethodInvocation MethodInvocation SimpleName wrap
+arrays SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName table name
+arrays SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get bytes
+arrays SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName utf
+as list SimpleName MethodInvocation MethodInvocation SimpleName byte buffer
+as list SimpleName MethodInvocation MethodInvocation SimpleName wrap
+as list SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName table name
+as list SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get bytes
+as list SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName utf
+args SimpleName VariableDeclarationFragment MethodInvocation SimpleName arrays
+args SimpleName VariableDeclarationFragment MethodInvocation SimpleName as list
+args SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName byte buffer
+args SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName wrap
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+do table fate operation SimpleName MethodInvocation SimpleName table name
+do table fate operation SimpleName MethodInvocation TypeLiteral SimpleType SimpleName table not found exception
+do table fate operation SimpleName MethodInvocation QualifiedName fate operationtable delete
+do table fate operation SimpleName MethodInvocation SimpleName args
+do table fate operation SimpleName MethodInvocation SimpleName opts
+table name SimpleName MethodInvocation TypeLiteral SimpleType SimpleName table not found exception
+table name SimpleName MethodInvocation QualifiedName fate operationtable delete
+table name SimpleName MethodInvocation SimpleName args
+table name SimpleName MethodInvocation SimpleName opts
+table not found exception SimpleName SimpleType TypeLiteral MethodInvocation QualifiedName fate operationtable delete
+table not found exception SimpleName SimpleType TypeLiteral MethodInvocation SimpleName args
+table not found exception SimpleName SimpleType TypeLiteral MethodInvocation SimpleName opts
+fate operationtable delete QualifiedName MethodInvocation SimpleName args
+fate operationtable delete QualifiedName MethodInvocation SimpleName opts
+args SimpleName MethodInvocation SimpleName opts
+table exists exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+assertion error SimpleName SimpleType ClassInstanceCreation SimpleName e
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName delete
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName table name
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName accumulo exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName delete
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName table name
+public Modifier MethodDeclaration SimpleType SimpleName accumulo exception
+public Modifier MethodDeclaration SimpleType SimpleName accumulo security exception
+void PrimitiveType MethodDeclaration SimpleName delete
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName table name
+void PrimitiveType MethodDeclaration SimpleType SimpleName accumulo exception
+void PrimitiveType MethodDeclaration SimpleType SimpleName accumulo security exception
+void PrimitiveType MethodDeclaration SimpleType SimpleName table not found exception
+delete SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+delete SimpleName MethodDeclaration SingleVariableDeclaration SimpleName table name
+delete SimpleName MethodDeclaration SimpleType SimpleName accumulo exception
+delete SimpleName MethodDeclaration SimpleType SimpleName accumulo security exception
+delete SimpleName MethodDeclaration SimpleType SimpleName table not found exception
+table name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+table name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+table name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName table not found exception
+accumulo exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName accumulo security exception
+accumulo exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName table not found exception
+accumulo security exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName table not found exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName delete
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table name
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName table not found exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName delete
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table name
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName table not found exception

@@ -1,0 +1,90 @@
+hive SimpleName SimpleType SingleVariableDeclaration SimpleName hive client
+string SimpleName SimpleType SingleVariableDeclaration SimpleName database name
+string SimpleName SimpleType SingleVariableDeclaration SimpleName table name
+hive client SimpleName MethodInvocation SimpleName get all tables
+hive client SimpleName MethodInvocation SimpleName database name
+get all tables SimpleName MethodInvocation SimpleName database name
+when SimpleName MethodInvocation MethodInvocation SimpleName hive client
+when SimpleName MethodInvocation MethodInvocation SimpleName get all tables
+when SimpleName MethodInvocation MethodInvocation SimpleName database name
+arrays SimpleName MethodInvocation SimpleName as list
+arrays SimpleName MethodInvocation ArrayCreation ArrayInitializer SimpleName table name
+as list SimpleName MethodInvocation ArrayCreation ArrayInitializer SimpleName table name
+when SimpleName MethodInvocation MethodInvocation SimpleName then return
+hive client SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+get all tables SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+database name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+when SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName arrays
+when SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName as list
+then return SimpleName MethodInvocation MethodInvocation SimpleName arrays
+then return SimpleName MethodInvocation MethodInvocation SimpleName as list
+create test table SimpleName MethodInvocation SimpleName database name
+create test table SimpleName MethodInvocation SimpleName table name
+database name SimpleName MethodInvocation SimpleName table name
+test table SimpleName VariableDeclarationFragment MethodInvocation SimpleName create test table
+test table SimpleName VariableDeclarationFragment MethodInvocation SimpleName database name
+test table SimpleName VariableDeclarationFragment MethodInvocation SimpleName table name
+table SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName test table
+hive client SimpleName MethodInvocation SimpleName get table
+hive client SimpleName MethodInvocation SimpleName database name
+hive client SimpleName MethodInvocation SimpleName table name
+get table SimpleName MethodInvocation SimpleName database name
+get table SimpleName MethodInvocation SimpleName table name
+database name SimpleName MethodInvocation SimpleName table name
+when SimpleName MethodInvocation MethodInvocation SimpleName hive client
+when SimpleName MethodInvocation MethodInvocation SimpleName get table
+when SimpleName MethodInvocation MethodInvocation SimpleName database name
+when SimpleName MethodInvocation MethodInvocation SimpleName table name
+when SimpleName MethodInvocation MethodInvocation SimpleName then return
+hive client SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+get table SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+database name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+table name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+when SimpleName MethodInvocation MethodInvocation SimpleName test table
+hive client SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName test table
+get table SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName test table
+database name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName test table
+table name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName test table
+then return SimpleName MethodInvocation SimpleName test table
+private Modifier MethodDeclaration SimpleType SimpleName table
+private Modifier MethodDeclaration SimpleName setup table
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName hive
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName hive client
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName database name
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName table name
+table SimpleName SimpleType MethodDeclaration SimpleName setup table
+table SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName hive client
+table SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName database name
+table SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName table name
+table SimpleName SimpleType MethodDeclaration SimpleType SimpleName hive exception
+setup table SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName hive
+setup table SimpleName MethodDeclaration SingleVariableDeclaration SimpleName hive client
+setup table SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+setup table SimpleName MethodDeclaration SingleVariableDeclaration SimpleName database name
+setup table SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+setup table SimpleName MethodDeclaration SingleVariableDeclaration SimpleName table name
+setup table SimpleName MethodDeclaration SimpleType SimpleName hive exception
+setup table SimpleName MethodDeclaration Block ReturnStatement SimpleName test table
+hive client SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName database name
+hive client SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table name
+hive client SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName hive exception
+database name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table name
+database name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName hive exception
+table name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName hive exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName table
+public Modifier TypeDeclaration MethodDeclaration SimpleName setup table
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName hive client
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName database name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table name
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName hive exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName table
+test SimpleName TypeDeclaration MethodDeclaration SimpleName setup table
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName hive client
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName database name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table name
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName hive exception

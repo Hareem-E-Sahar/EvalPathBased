@@ -1,0 +1,50 @@
+atlas attribute SimpleName SimpleType SingleVariableDeclaration SimpleName attribute
+attribute definition SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ret
+to json from attribute SimpleName MethodInvocation SimpleName attribute
+json string SimpleName VariableDeclarationFragment MethodInvocation SimpleName to json from attribute
+json string SimpleName VariableDeclarationFragment MethodInvocation SimpleName attribute
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName json string
+attribute info SimpleName MethodInvocation SimpleName from json
+attribute info SimpleName MethodInvocation SimpleName json string
+from json SimpleName MethodInvocation SimpleName json string
+ret SimpleName Assignment MethodInvocation SimpleName attribute info
+ret SimpleName Assignment MethodInvocation SimpleName from json
+ret SimpleName Assignment MethodInvocation SimpleName json string
+json exception SimpleName SimpleType SingleVariableDeclaration SimpleName excp
+failed in converting to attribute definition StringLiteral InfixExpression SimpleName json string
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation InfixExpression StringLiteral failed in converting to attribute definition
+log SimpleName MethodInvocation InfixExpression SimpleName json string
+log SimpleName MethodInvocation SimpleName excp
+error SimpleName MethodInvocation InfixExpression StringLiteral failed in converting to attribute definition
+error SimpleName MethodInvocation InfixExpression SimpleName json string
+error SimpleName MethodInvocation SimpleName excp
+failed in converting to attribute definition StringLiteral InfixExpression MethodInvocation SimpleName excp
+json string SimpleName InfixExpression MethodInvocation SimpleName excp
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName attribute definition
+public Modifier MethodDeclaration SimpleName to attribute defintion
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas attribute
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName attribute
+public Modifier MethodDeclaration Block ReturnStatement SimpleName ret
+static Modifier MethodDeclaration SimpleType SimpleName attribute definition
+static Modifier MethodDeclaration SimpleName to attribute defintion
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas attribute
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName attribute
+static Modifier MethodDeclaration Block ReturnStatement SimpleName ret
+attribute definition SimpleName SimpleType MethodDeclaration SimpleName to attribute defintion
+attribute definition SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName attribute
+to attribute defintion SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas attribute
+to attribute defintion SimpleName MethodDeclaration SingleVariableDeclaration SimpleName attribute
+to attribute defintion SimpleName MethodDeclaration Block ReturnStatement SimpleName ret
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName attribute definition
+public Modifier TypeDeclaration MethodDeclaration SimpleName to attribute defintion
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attribute
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName attribute definition
+test SimpleName TypeDeclaration MethodDeclaration SimpleName to attribute defintion
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attribute

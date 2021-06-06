@@ -1,0 +1,96 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName key
+propertytable prefix QualifiedName MethodInvocation SimpleName get key
+key SimpleName MethodInvocation SimpleName starts with
+key SimpleName MethodInvocation MethodInvocation QualifiedName propertytable prefix
+key SimpleName MethodInvocation MethodInvocation SimpleName get key
+starts with SimpleName MethodInvocation MethodInvocation QualifiedName propertytable prefix
+starts with SimpleName MethodInvocation MethodInvocation SimpleName get key
+propertytserv prefix QualifiedName MethodInvocation SimpleName get key
+key SimpleName MethodInvocation SimpleName starts with
+key SimpleName MethodInvocation MethodInvocation QualifiedName propertytserv prefix
+key SimpleName MethodInvocation MethodInvocation SimpleName get key
+starts with SimpleName MethodInvocation MethodInvocation QualifiedName propertytserv prefix
+starts with SimpleName MethodInvocation MethodInvocation SimpleName get key
+propertylogger prefix QualifiedName MethodInvocation SimpleName get key
+key SimpleName MethodInvocation SimpleName starts with
+key SimpleName MethodInvocation MethodInvocation QualifiedName propertylogger prefix
+key SimpleName MethodInvocation MethodInvocation SimpleName get key
+starts with SimpleName MethodInvocation MethodInvocation QualifiedName propertylogger prefix
+starts with SimpleName MethodInvocation MethodInvocation SimpleName get key
+propertymaster prefix QualifiedName MethodInvocation SimpleName get key
+key SimpleName MethodInvocation SimpleName starts with
+key SimpleName MethodInvocation MethodInvocation QualifiedName propertymaster prefix
+key SimpleName MethodInvocation MethodInvocation SimpleName get key
+starts with SimpleName MethodInvocation MethodInvocation QualifiedName propertymaster prefix
+starts with SimpleName MethodInvocation MethodInvocation SimpleName get key
+propertygc prefix QualifiedName MethodInvocation SimpleName get key
+key SimpleName MethodInvocation SimpleName starts with
+key SimpleName MethodInvocation MethodInvocation QualifiedName propertygc prefix
+key SimpleName MethodInvocation MethodInvocation SimpleName get key
+starts with SimpleName MethodInvocation MethodInvocation QualifiedName propertygc prefix
+starts with SimpleName MethodInvocation MethodInvocation SimpleName get key
+key SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName key
+key SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName starts with
+starts with SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName key
+starts with SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName starts with
+key SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName key
+key SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName starts with
+starts with SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName key
+starts with SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName starts with
+key SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName key
+key SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName starts with
+starts with SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName key
+starts with SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName starts with
+key SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName key
+key SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName starts with
+starts with SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName key
+starts with SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName starts with
+key SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName key
+key SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName starts with
+starts with SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName key
+starts with SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName starts with
+key SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName key
+key SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName starts with
+starts with SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName key
+starts with SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName starts with
+key SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName key
+key SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName starts with
+starts with SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName key
+starts with SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName starts with
+key SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName key
+key SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName starts with
+starts with SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName key
+starts with SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName starts with
+key SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName key
+key SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName starts with
+starts with SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName key
+starts with SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName starts with
+key SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName key
+key SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName starts with
+starts with SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName key
+starts with SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName starts with
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName is valid zoo property key
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName key
+static Modifier MethodDeclaration PrimitiveType boolean
+static Modifier MethodDeclaration SimpleName is valid zoo property key
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName key
+boolean PrimitiveType MethodDeclaration SimpleName is valid zoo property key
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName key
+is valid zoo property key SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+is valid zoo property key SimpleName MethodDeclaration SingleVariableDeclaration SimpleName key
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName is valid zoo property key
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName key
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName is valid zoo property key
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName key

@@ -1,0 +1,36 @@
+state SimpleName SimpleType SingleVariableDeclaration SimpleName state
+state SimpleName MethodInvocation SimpleName get string
+state SimpleName MethodInvocation SimpleName table exists
+get string SimpleName MethodInvocation SimpleName table exists
+boolean SimpleName MethodInvocation SimpleName parse boolean
+boolean SimpleName MethodInvocation MethodInvocation SimpleName state
+boolean SimpleName MethodInvocation MethodInvocation SimpleName get string
+boolean SimpleName MethodInvocation MethodInvocation SimpleName table exists
+parse boolean SimpleName MethodInvocation MethodInvocation SimpleName state
+parse boolean SimpleName MethodInvocation MethodInvocation SimpleName get string
+parse boolean SimpleName MethodInvocation MethodInvocation SimpleName table exists
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName get table exists
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName state
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName state
+static Modifier MethodDeclaration PrimitiveType boolean
+static Modifier MethodDeclaration SimpleName get table exists
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName state
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName state
+boolean PrimitiveType MethodDeclaration SimpleName get table exists
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName state
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName state
+get table exists SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName state
+get table exists SimpleName MethodDeclaration SingleVariableDeclaration SimpleName state
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName get table exists
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName state
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get table exists
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName state

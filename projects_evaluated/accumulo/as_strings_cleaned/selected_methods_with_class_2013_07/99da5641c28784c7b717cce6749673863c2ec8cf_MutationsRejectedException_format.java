@@ -1,0 +1,93 @@
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName security error code
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName key extent
+hash map SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName hash map
+key extent SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName hash map
+instance SimpleName SimpleType SingleVariableDeclaration SimpleName instance
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName security error code
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName security error code
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+key extent SimpleName SimpleType SingleVariableDeclaration SimpleName ke
+hash map SimpleName MethodInvocation SimpleName key set
+ke SimpleName MethodInvocation SimpleName get table id
+ke SimpleName MethodInvocation MethodInvocation SimpleName to string
+get table id SimpleName MethodInvocation MethodInvocation SimpleName to string
+tables SimpleName MethodInvocation SimpleName get printable table info from id
+tables SimpleName MethodInvocation SimpleName instance
+tables SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName ke
+tables SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get table id
+tables SimpleName MethodInvocation MethodInvocation SimpleName to string
+get printable table info from id SimpleName MethodInvocation SimpleName instance
+get printable table info from id SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName ke
+get printable table info from id SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get table id
+get printable table info from id SimpleName MethodInvocation MethodInvocation SimpleName to string
+instance SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName ke
+instance SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get table id
+instance SimpleName MethodInvocation MethodInvocation SimpleName to string
+table info SimpleName VariableDeclarationFragment MethodInvocation SimpleName tables
+table info SimpleName VariableDeclarationFragment MethodInvocation SimpleName get printable table info from id
+table info SimpleName VariableDeclarationFragment MethodInvocation SimpleName instance
+table info SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName to string
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName table info
+error map SimpleName MethodInvocation SimpleName contains key
+error map SimpleName MethodInvocation SimpleName table info
+contains key SimpleName MethodInvocation SimpleName table info
+hash set SimpleName SimpleType ParameterizedType SimpleType SimpleName security error code
+error map SimpleName MethodInvocation SimpleName put
+error map SimpleName MethodInvocation SimpleName table info
+put SimpleName MethodInvocation SimpleName table info
+error map SimpleName MethodInvocation SimpleName get
+error map SimpleName MethodInvocation SimpleName table info
+get SimpleName MethodInvocation SimpleName table info
+hash map SimpleName MethodInvocation SimpleName get
+hash map SimpleName MethodInvocation SimpleName ke
+get SimpleName MethodInvocation SimpleName ke
+error map SimpleName MethodInvocation MethodInvocation SimpleName add all
+get SimpleName MethodInvocation MethodInvocation SimpleName add all
+table info SimpleName MethodInvocation MethodInvocation SimpleName add all
+error map SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName hash map
+error map SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+error map SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName ke
+get SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName hash map
+get SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+get SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName ke
+table info SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName hash map
+table info SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+table info SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName ke
+add all SimpleName MethodInvocation MethodInvocation SimpleName hash map
+add all SimpleName MethodInvocation MethodInvocation SimpleName get
+add all SimpleName MethodInvocation MethodInvocation SimpleName ke
+ke SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName hash map
+ke SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName key set
+error map SimpleName MethodInvocation SimpleName to string
+private Modifier MethodDeclaration Modifier static
+private Modifier MethodDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SimpleName format
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName hash map
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName instance
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName instance
+static Modifier MethodDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SimpleName format
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName hash map
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName instance
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName instance
+string SimpleName SimpleType MethodDeclaration SimpleName format
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName hash map
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName instance
+format SimpleName MethodDeclaration SingleVariableDeclaration SimpleName hash map
+format SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName instance
+format SimpleName MethodDeclaration SingleVariableDeclaration SimpleName instance
+hash map SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName instance
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName format
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName hash map
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName instance
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName format
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName hash map
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName instance

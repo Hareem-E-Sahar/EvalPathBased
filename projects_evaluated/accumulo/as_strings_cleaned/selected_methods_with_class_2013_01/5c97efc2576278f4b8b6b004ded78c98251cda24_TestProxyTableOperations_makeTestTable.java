@@ -1,0 +1,42 @@
+tpc SimpleName MethodInvocation SimpleName proxy
+tpc SimpleName MethodInvocation MethodInvocation SimpleName create table
+proxy SimpleName MethodInvocation MethodInvocation SimpleName create table
+tpc SimpleName MethodInvocation MethodInvocation SimpleName userpass
+proxy SimpleName MethodInvocation MethodInvocation SimpleName userpass
+tpc SimpleName MethodInvocation MethodInvocation SimpleName testtable
+proxy SimpleName MethodInvocation MethodInvocation SimpleName testtable
+tpc SimpleName MethodInvocation MethodInvocation BooleanLiteral true
+proxy SimpleName MethodInvocation MethodInvocation BooleanLiteral true
+tpc SimpleName MethodInvocation MethodInvocation QualifiedName time typemillis
+proxy SimpleName MethodInvocation MethodInvocation QualifiedName time typemillis
+create table SimpleName MethodInvocation SimpleName userpass
+create table SimpleName MethodInvocation SimpleName testtable
+create table SimpleName MethodInvocation BooleanLiteral true
+create table SimpleName MethodInvocation QualifiedName time typemillis
+userpass SimpleName MethodInvocation SimpleName testtable
+userpass SimpleName MethodInvocation BooleanLiteral true
+userpass SimpleName MethodInvocation QualifiedName time typemillis
+testtable SimpleName MethodInvocation BooleanLiteral true
+testtable SimpleName MethodInvocation QualifiedName time typemillis
+true BooleanLiteral MethodInvocation QualifiedName time typemillis
+before SimpleName MarkerAnnotation MethodDeclaration Modifier public
+before SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+before SimpleName MarkerAnnotation MethodDeclaration SimpleName make test table
+before SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName make test table
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName make test table
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+make test table SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName before
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName make test table
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName before
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName make test table
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

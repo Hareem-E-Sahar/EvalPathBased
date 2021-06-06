@@ -1,0 +1,155 @@
+conf SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName configuration
+configuration SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName conf
+configurator base SimpleName MethodInvocation SimpleName is connector info set
+configurator base SimpleName MethodInvocation MethodInvocation SimpleName get class
+configurator base SimpleName MethodInvocation SimpleName conf
+is connector info set SimpleName MethodInvocation MethodInvocation SimpleName get class
+is connector info set SimpleName MethodInvocation SimpleName conf
+get class SimpleName MethodInvocation MethodInvocation SimpleName conf
+assert false SimpleName MethodInvocation MethodInvocation SimpleName configurator base
+assert false SimpleName MethodInvocation MethodInvocation SimpleName is connector info set
+assert false SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get class
+assert false SimpleName MethodInvocation MethodInvocation SimpleName conf
+password token SimpleName SimpleType ClassInstanceCreation StringLiteral test password
+configurator base SimpleName MethodInvocation SimpleName set connector info
+configurator base SimpleName MethodInvocation MethodInvocation SimpleName get class
+configurator base SimpleName MethodInvocation SimpleName conf
+configurator base SimpleName MethodInvocation StringLiteral test user
+configurator base SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName password token
+configurator base SimpleName MethodInvocation ClassInstanceCreation StringLiteral test password
+set connector info SimpleName MethodInvocation MethodInvocation SimpleName get class
+set connector info SimpleName MethodInvocation SimpleName conf
+set connector info SimpleName MethodInvocation StringLiteral test user
+set connector info SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName password token
+set connector info SimpleName MethodInvocation ClassInstanceCreation StringLiteral test password
+get class SimpleName MethodInvocation MethodInvocation SimpleName conf
+get class SimpleName MethodInvocation MethodInvocation StringLiteral test user
+get class SimpleName MethodInvocation MethodInvocation ClassInstanceCreation StringLiteral test password
+conf SimpleName MethodInvocation StringLiteral test user
+conf SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName password token
+conf SimpleName MethodInvocation ClassInstanceCreation StringLiteral test password
+test user StringLiteral MethodInvocation ClassInstanceCreation SimpleType SimpleName password token
+test user StringLiteral MethodInvocation ClassInstanceCreation StringLiteral test password
+configurator base SimpleName MethodInvocation SimpleName is connector info set
+configurator base SimpleName MethodInvocation MethodInvocation SimpleName get class
+configurator base SimpleName MethodInvocation SimpleName conf
+is connector info set SimpleName MethodInvocation MethodInvocation SimpleName get class
+is connector info set SimpleName MethodInvocation SimpleName conf
+get class SimpleName MethodInvocation MethodInvocation SimpleName conf
+assert true SimpleName MethodInvocation MethodInvocation SimpleName configurator base
+assert true SimpleName MethodInvocation MethodInvocation SimpleName is connector info set
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get class
+assert true SimpleName MethodInvocation MethodInvocation SimpleName conf
+configurator base SimpleName MethodInvocation SimpleName get principal
+configurator base SimpleName MethodInvocation MethodInvocation SimpleName get class
+configurator base SimpleName MethodInvocation SimpleName conf
+get principal SimpleName MethodInvocation MethodInvocation SimpleName get class
+get principal SimpleName MethodInvocation SimpleName conf
+get class SimpleName MethodInvocation MethodInvocation SimpleName conf
+assert equals SimpleName MethodInvocation StringLiteral test user
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName configurator base
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get principal
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get class
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName conf
+test user StringLiteral MethodInvocation MethodInvocation SimpleName configurator base
+test user StringLiteral MethodInvocation MethodInvocation SimpleName get principal
+test user StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName get class
+test user StringLiteral MethodInvocation MethodInvocation SimpleName conf
+configurator base SimpleName MethodInvocation SimpleName get authentication token
+configurator base SimpleName MethodInvocation MethodInvocation SimpleName get class
+configurator base SimpleName MethodInvocation SimpleName conf
+get authentication token SimpleName MethodInvocation MethodInvocation SimpleName get class
+get authentication token SimpleName MethodInvocation SimpleName conf
+get class SimpleName MethodInvocation MethodInvocation SimpleName conf
+token SimpleName VariableDeclarationFragment MethodInvocation SimpleName configurator base
+token SimpleName VariableDeclarationFragment MethodInvocation SimpleName get authentication token
+token SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get class
+token SimpleName VariableDeclarationFragment MethodInvocation SimpleName conf
+authentication token SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName token
+token SimpleName MethodInvocation SimpleName get class
+assert equals SimpleName MethodInvocation TypeLiteral SimpleType SimpleName password token
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName token
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get class
+password token SimpleName SimpleType ClassInstanceCreation StringLiteral test password
+assert equals SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName password token
+assert equals SimpleName MethodInvocation ClassInstanceCreation StringLiteral test password
+assert equals SimpleName MethodInvocation SimpleName token
+password token SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName token
+test password StringLiteral ClassInstanceCreation MethodInvocation SimpleName token
+password token SimpleName SimpleType TypeLiteral MethodInvocation SimpleName get name
+password token SimpleName SimpleType ClassInstanceCreation StringLiteral test password
+authentication token serializer SimpleName MethodInvocation SimpleName serialize
+authentication token serializer SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName password token
+authentication token serializer SimpleName MethodInvocation ClassInstanceCreation StringLiteral test password
+serialize SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName password token
+serialize SimpleName MethodInvocation ClassInstanceCreation StringLiteral test password
+base SimpleName MethodInvocation SimpleName encode base string
+base SimpleName MethodInvocation MethodInvocation SimpleName authentication token serializer
+base SimpleName MethodInvocation MethodInvocation SimpleName serialize
+base SimpleName MethodInvocation MethodInvocation ClassInstanceCreation StringLiteral test password
+encode base string SimpleName MethodInvocation MethodInvocation SimpleName authentication token serializer
+encode base string SimpleName MethodInvocation MethodInvocation SimpleName serialize
+encode base string SimpleName MethodInvocation MethodInvocation ClassInstanceCreation StringLiteral test password
+inline StringLiteral InfixExpression MethodInvocation SimpleName get name
+inline StringLiteral InfixExpression StringLiteral :
+inline StringLiteral InfixExpression MethodInvocation SimpleName base
+inline StringLiteral InfixExpression MethodInvocation SimpleName encode base string
+inline StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName authentication token serializer
+inline StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName serialize
+get name SimpleName MethodInvocation InfixExpression StringLiteral :
+get name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName base
+get name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName encode base string
+: StringLiteral InfixExpression MethodInvocation SimpleName base
+: StringLiteral InfixExpression MethodInvocation SimpleName encode base string
+: StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName authentication token serializer
+: StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName serialize
+configurator base SimpleName MethodInvocation SimpleName enum to conf key
+configurator base SimpleName MethodInvocation MethodInvocation SimpleName get class
+configurator base SimpleName MethodInvocation QualifiedName configurator baseconnector infotoken
+enum to conf key SimpleName MethodInvocation MethodInvocation SimpleName get class
+enum to conf key SimpleName MethodInvocation QualifiedName configurator baseconnector infotoken
+get class SimpleName MethodInvocation MethodInvocation QualifiedName configurator baseconnector infotoken
+conf SimpleName MethodInvocation SimpleName get
+conf SimpleName MethodInvocation MethodInvocation SimpleName configurator base
+conf SimpleName MethodInvocation MethodInvocation SimpleName enum to conf key
+conf SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get class
+conf SimpleName MethodInvocation MethodInvocation QualifiedName configurator baseconnector infotoken
+get SimpleName MethodInvocation MethodInvocation SimpleName configurator base
+get SimpleName MethodInvocation MethodInvocation SimpleName enum to conf key
+get SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get class
+get SimpleName MethodInvocation MethodInvocation QualifiedName configurator baseconnector infotoken
+assert equals SimpleName MethodInvocation InfixExpression StringLiteral inline
+assert equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get name
+assert equals SimpleName MethodInvocation InfixExpression StringLiteral :
+assert equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName base
+assert equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName encode base string
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName conf
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName configurator base
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName enum to conf key
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName configurator baseconnector infotoken
+inline StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName conf
+inline StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName get
+: StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName conf
+: StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName get
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test set connector info class of q configuration string authentication token
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName accumulo security exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test set connector info class of q configuration string authentication token
+public Modifier MethodDeclaration SimpleType SimpleName accumulo security exception
+void PrimitiveType MethodDeclaration SimpleName test set connector info class of q configuration string authentication token
+void PrimitiveType MethodDeclaration SimpleType SimpleName accumulo security exception
+test set connector info class of q configuration string authentication token SimpleName MethodDeclaration SimpleType SimpleName accumulo security exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test set connector info class of q configuration string authentication token
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test set connector info class of q configuration string authentication token
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception

@@ -1,0 +1,111 @@
+types def SimpleName SimpleType SingleVariableDeclaration SimpleName types
+string SimpleName SimpleType SingleVariableDeclaration SimpleName type name
+cls type found SimpleName VariableDeclarationFragment BooleanLiteral false
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName cls type found
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment BooleanLiteral false
+hierarchical type definition SimpleName SimpleType ParameterizedType SimpleType SimpleName class type
+types SimpleName MethodInvocation SimpleName class types as java list
+class types SimpleName VariableDeclarationFragment MethodInvocation SimpleName types
+class types SimpleName VariableDeclarationFragment MethodInvocation SimpleName class types as java list
+hierarchical type definition SimpleName SimpleType ParameterizedType SimpleType SimpleName class type
+hierarchical type definition SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName class type
+class type SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName class type
+class typetype name QualifiedName MethodInvocation SimpleName equals
+class typetype name QualifiedName MethodInvocation SimpleName type name
+equals SimpleName MethodInvocation SimpleName type name
+ts SimpleName MethodInvocation SimpleName get data type
+ts SimpleName MethodInvocation TypeLiteral SimpleType SimpleName class type
+ts SimpleName MethodInvocation QualifiedName class typetype name
+get data type SimpleName MethodInvocation TypeLiteral SimpleType SimpleName class type
+get data type SimpleName MethodInvocation QualifiedName class typetype name
+class type SimpleName SimpleType TypeLiteral MethodInvocation QualifiedName class typetype name
+expected type SimpleName VariableDeclarationFragment MethodInvocation SimpleName ts
+expected type SimpleName VariableDeclarationFragment MethodInvocation SimpleName get data type
+expected type SimpleName VariableDeclarationFragment MethodInvocation QualifiedName class typetype name
+class type SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName expected type
+expected typeimmediate attrs QualifiedName MethodInvocation SimpleName size
+assert SimpleName MethodInvocation SimpleName assert equals
+assert SimpleName MethodInvocation MethodInvocation QualifiedName expected typeimmediate attrs
+assert SimpleName MethodInvocation MethodInvocation SimpleName size
+assert SimpleName MethodInvocation QualifiedName class typeattribute definitionslength
+assert equals SimpleName MethodInvocation MethodInvocation QualifiedName expected typeimmediate attrs
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName size
+assert equals SimpleName MethodInvocation QualifiedName class typeattribute definitionslength
+expected typeimmediate attrs QualifiedName MethodInvocation MethodInvocation QualifiedName class typeattribute definitionslength
+size SimpleName MethodInvocation MethodInvocation QualifiedName class typeattribute definitionslength
+expected typesuper types QualifiedName MethodInvocation SimpleName size
+class typesuper types QualifiedName MethodInvocation SimpleName size
+assert SimpleName MethodInvocation SimpleName assert equals
+assert SimpleName MethodInvocation MethodInvocation QualifiedName expected typesuper types
+assert SimpleName MethodInvocation MethodInvocation SimpleName size
+assert SimpleName MethodInvocation MethodInvocation QualifiedName class typesuper types
+assert SimpleName MethodInvocation MethodInvocation SimpleName size
+assert equals SimpleName MethodInvocation MethodInvocation QualifiedName expected typesuper types
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName size
+assert equals SimpleName MethodInvocation MethodInvocation QualifiedName class typesuper types
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName size
+expected typesuper types QualifiedName MethodInvocation MethodInvocation MethodInvocation QualifiedName class typesuper types
+expected typesuper types QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName size
+size SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName class typesuper types
+size SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName size
+class typetype name QualifiedName InfixExpression SimpleName description
+assert SimpleName MethodInvocation SimpleName assert equals
+assert SimpleName MethodInvocation QualifiedName class typetype description
+assert SimpleName MethodInvocation InfixExpression QualifiedName class typetype name
+assert SimpleName MethodInvocation InfixExpression SimpleName description
+assert equals SimpleName MethodInvocation QualifiedName class typetype description
+assert equals SimpleName MethodInvocation InfixExpression QualifiedName class typetype name
+assert equals SimpleName MethodInvocation InfixExpression SimpleName description
+class typetype description QualifiedName MethodInvocation InfixExpression QualifiedName class typetype name
+class typetype description QualifiedName MethodInvocation InfixExpression SimpleName description
+cls type found SimpleName Assignment BooleanLiteral true
+class type SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName class types
+type name SimpleName InfixExpression StringLiteral type not restored
+assert SimpleName MethodInvocation SimpleName assert true
+assert SimpleName MethodInvocation SimpleName cls type found
+assert SimpleName MethodInvocation InfixExpression SimpleName type name
+assert SimpleName MethodInvocation InfixExpression StringLiteral type not restored
+assert true SimpleName MethodInvocation SimpleName cls type found
+assert true SimpleName MethodInvocation InfixExpression SimpleName type name
+assert true SimpleName MethodInvocation InfixExpression StringLiteral type not restored
+cls type found SimpleName MethodInvocation InfixExpression SimpleName type name
+cls type found SimpleName MethodInvocation InfixExpression StringLiteral type not restored
+boolean PrimitiveType VariableDeclarationStatement Block EnhancedForStatement SimpleName class types
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName verify restored class type
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName types def
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName types
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName type name
+private Modifier MethodDeclaration SimpleType SimpleName atlas exception
+void PrimitiveType MethodDeclaration SimpleName verify restored class type
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName types def
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName types
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName type name
+void PrimitiveType MethodDeclaration SimpleType SimpleName atlas exception
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+void PrimitiveType MethodDeclaration Block EnhancedForStatement SimpleName class types
+verify restored class type SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName types def
+verify restored class type SimpleName MethodDeclaration SingleVariableDeclaration SimpleName types
+verify restored class type SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+verify restored class type SimpleName MethodDeclaration SingleVariableDeclaration SimpleName type name
+verify restored class type SimpleName MethodDeclaration SimpleType SimpleName atlas exception
+verify restored class type SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+verify restored class type SimpleName MethodDeclaration Block EnhancedForStatement SimpleName class types
+types SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type name
+types SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+type name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName verify restored class type
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName types
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type name
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName verify restored class type
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName types
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type name
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception

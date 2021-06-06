@@ -1,0 +1,109 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName security string
+string SimpleName SimpleType SingleVariableDeclaration SimpleName variable name
+string SimpleName SimpleType SingleVariableDeclaration SimpleName format example
+string utils SimpleName MethodInvocation SimpleName is empty
+string utils SimpleName MethodInvocation SimpleName security string
+is empty SimpleName MethodInvocation SimpleName security string
+s cannot be null or empty StringLiteral InfixExpression StringLiteral needs to be of form s
+string SimpleName MethodInvocation SimpleName format
+string SimpleName MethodInvocation InfixExpression StringLiteral s cannot be null or empty
+string SimpleName MethodInvocation InfixExpression StringLiteral needs to be of form s
+string SimpleName MethodInvocation SimpleName variable name
+string SimpleName MethodInvocation SimpleName format example
+format SimpleName MethodInvocation InfixExpression StringLiteral s cannot be null or empty
+format SimpleName MethodInvocation InfixExpression StringLiteral needs to be of form s
+format SimpleName MethodInvocation SimpleName variable name
+format SimpleName MethodInvocation SimpleName format example
+s cannot be null or empty StringLiteral InfixExpression MethodInvocation SimpleName variable name
+needs to be of form s StringLiteral InfixExpression MethodInvocation SimpleName variable name
+s cannot be null or empty StringLiteral InfixExpression MethodInvocation SimpleName format example
+needs to be of form s StringLiteral InfixExpression MethodInvocation SimpleName format example
+variable name SimpleName MethodInvocation SimpleName format example
+preconditions SimpleName MethodInvocation SimpleName check argument
+preconditions SimpleName MethodInvocation PrefixExpression MethodInvocation SimpleName string utils
+preconditions SimpleName MethodInvocation PrefixExpression MethodInvocation SimpleName is empty
+preconditions SimpleName MethodInvocation PrefixExpression MethodInvocation SimpleName security string
+preconditions SimpleName MethodInvocation MethodInvocation SimpleName string
+preconditions SimpleName MethodInvocation MethodInvocation SimpleName format
+preconditions SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral s cannot be null or empty
+preconditions SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral needs to be of form s
+preconditions SimpleName MethodInvocation MethodInvocation SimpleName variable name
+preconditions SimpleName MethodInvocation MethodInvocation SimpleName format example
+check argument SimpleName MethodInvocation PrefixExpression MethodInvocation SimpleName string utils
+check argument SimpleName MethodInvocation PrefixExpression MethodInvocation SimpleName is empty
+check argument SimpleName MethodInvocation PrefixExpression MethodInvocation SimpleName security string
+check argument SimpleName MethodInvocation MethodInvocation SimpleName string
+check argument SimpleName MethodInvocation MethodInvocation SimpleName format
+check argument SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral s cannot be null or empty
+check argument SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral needs to be of form s
+check argument SimpleName MethodInvocation MethodInvocation SimpleName variable name
+check argument SimpleName MethodInvocation MethodInvocation SimpleName format example
+security string SimpleName MethodInvocation SimpleName split
+security string SimpleName MethodInvocation StringLiteral :
+security string SimpleName MethodInvocation NumberLiteral empty
+split SimpleName MethodInvocation StringLiteral :
+split SimpleName MethodInvocation NumberLiteral empty
+: StringLiteral MethodInvocation NumberLiteral empty
+acl components SimpleName VariableDeclarationFragment MethodInvocation SimpleName security string
+acl components SimpleName VariableDeclarationFragment MethodInvocation SimpleName split
+acl components SimpleName VariableDeclarationFragment MethodInvocation StringLiteral :
+acl components SimpleName VariableDeclarationFragment MethodInvocation NumberLiteral empty
+acl componentslength QualifiedName InfixExpression NumberLiteral empty
+invalid s string StringLiteral InfixExpression StringLiteral needs to be of form s
+string SimpleName MethodInvocation SimpleName format
+string SimpleName MethodInvocation InfixExpression StringLiteral invalid s string
+string SimpleName MethodInvocation InfixExpression StringLiteral needs to be of form s
+string SimpleName MethodInvocation SimpleName variable name
+string SimpleName MethodInvocation SimpleName format example
+format SimpleName MethodInvocation InfixExpression StringLiteral invalid s string
+format SimpleName MethodInvocation InfixExpression StringLiteral needs to be of form s
+format SimpleName MethodInvocation SimpleName variable name
+format SimpleName MethodInvocation SimpleName format example
+invalid s string StringLiteral InfixExpression MethodInvocation SimpleName variable name
+needs to be of form s StringLiteral InfixExpression MethodInvocation SimpleName variable name
+invalid s string StringLiteral InfixExpression MethodInvocation SimpleName format example
+needs to be of form s StringLiteral InfixExpression MethodInvocation SimpleName format example
+variable name SimpleName MethodInvocation SimpleName format example
+illegal argument exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName string
+illegal argument exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName format
+illegal argument exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName variable name
+illegal argument exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName format example
+private Modifier MethodDeclaration Modifier static
+private Modifier MethodDeclaration ArrayType SimpleType SimpleName string
+private Modifier MethodDeclaration SimpleName get components
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName security string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName variable name
+static Modifier MethodDeclaration ArrayType SimpleType SimpleName string
+static Modifier MethodDeclaration SimpleName get components
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName security string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName variable name
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName format example
+string SimpleName SimpleType ArrayType MethodDeclaration SimpleName get components
+get components SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get components SimpleName MethodDeclaration SingleVariableDeclaration SimpleName security string
+get components SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get components SimpleName MethodDeclaration SingleVariableDeclaration SimpleName variable name
+get components SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get components SimpleName MethodDeclaration SingleVariableDeclaration SimpleName format example
+get components SimpleName MethodDeclaration Block ReturnStatement SimpleName acl components
+security string SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName variable name
+security string SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName format example
+variable name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName format example
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleName get components
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName security string
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName variable name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName format example
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get components
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName security string
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName variable name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName format example

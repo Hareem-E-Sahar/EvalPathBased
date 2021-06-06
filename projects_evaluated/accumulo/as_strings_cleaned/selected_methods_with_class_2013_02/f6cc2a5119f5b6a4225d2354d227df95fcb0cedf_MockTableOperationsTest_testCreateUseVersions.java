@@ -1,0 +1,164 @@
+mock instance SimpleName SimpleType ClassInstanceCreation StringLiteral topstest
+instance SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName mock instance
+instance SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral topstest
+instance SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName instance
+instance SimpleName MethodInvocation SimpleName get connector
+instance SimpleName MethodInvocation StringLiteral user
+instance SimpleName MethodInvocation StringLiteral pass
+get connector SimpleName MethodInvocation StringLiteral user
+get connector SimpleName MethodInvocation StringLiteral pass
+user StringLiteral MethodInvocation StringLiteral pass
+conn SimpleName VariableDeclarationFragment MethodInvocation SimpleName instance
+conn SimpleName VariableDeclarationFragment MethodInvocation SimpleName get connector
+conn SimpleName VariableDeclarationFragment MethodInvocation StringLiteral user
+conn SimpleName VariableDeclarationFragment MethodInvocation StringLiteral pass
+connector SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName conn
+t SimpleName VariableDeclarationFragment StringLiteral table name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName t
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral table name
+conn SimpleName MethodInvocation SimpleName table operations
+conn SimpleName MethodInvocation MethodInvocation SimpleName create
+table operations SimpleName MethodInvocation MethodInvocation SimpleName create
+conn SimpleName MethodInvocation MethodInvocation SimpleName t
+table operations SimpleName MethodInvocation MethodInvocation SimpleName t
+conn SimpleName MethodInvocation MethodInvocation BooleanLiteral false
+table operations SimpleName MethodInvocation MethodInvocation BooleanLiteral false
+conn SimpleName MethodInvocation MethodInvocation QualifiedName time typelogical
+table operations SimpleName MethodInvocation MethodInvocation QualifiedName time typelogical
+create SimpleName MethodInvocation SimpleName t
+create SimpleName MethodInvocation BooleanLiteral false
+create SimpleName MethodInvocation QualifiedName time typelogical
+t SimpleName MethodInvocation BooleanLiteral false
+t SimpleName MethodInvocation QualifiedName time typelogical
+false BooleanLiteral MethodInvocation QualifiedName time typelogical
+write versionable SimpleName MethodInvocation SimpleName conn
+write versionable SimpleName MethodInvocation SimpleName t
+write versionable SimpleName MethodInvocation NumberLiteral empty
+conn SimpleName MethodInvocation SimpleName t
+conn SimpleName MethodInvocation NumberLiteral empty
+t SimpleName MethodInvocation NumberLiteral empty
+assert versionable SimpleName MethodInvocation SimpleName conn
+assert versionable SimpleName MethodInvocation SimpleName t
+assert versionable SimpleName MethodInvocation NumberLiteral empty
+conn SimpleName MethodInvocation SimpleName t
+conn SimpleName MethodInvocation NumberLiteral empty
+t SimpleName MethodInvocation NumberLiteral empty
+iterator setting SimpleName SimpleType ClassInstanceCreation NumberLiteral empty
+empty NumberLiteral ClassInstanceCreation TypeLiteral SimpleType SimpleName versioning iterator
+settings SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName iterator setting
+settings SimpleName VariableDeclarationFragment ClassInstanceCreation NumberLiteral empty
+iterator setting SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName settings
+conn SimpleName MethodInvocation SimpleName table operations
+conn SimpleName MethodInvocation MethodInvocation SimpleName attach iterator
+table operations SimpleName MethodInvocation MethodInvocation SimpleName attach iterator
+conn SimpleName MethodInvocation MethodInvocation SimpleName t
+table operations SimpleName MethodInvocation MethodInvocation SimpleName t
+conn SimpleName MethodInvocation MethodInvocation SimpleName settings
+table operations SimpleName MethodInvocation MethodInvocation SimpleName settings
+attach iterator SimpleName MethodInvocation SimpleName t
+attach iterator SimpleName MethodInvocation SimpleName settings
+t SimpleName MethodInvocation SimpleName settings
+assert versionable SimpleName MethodInvocation SimpleName conn
+assert versionable SimpleName MethodInvocation SimpleName t
+assert versionable SimpleName MethodInvocation NumberLiteral empty
+conn SimpleName MethodInvocation SimpleName t
+conn SimpleName MethodInvocation NumberLiteral empty
+t SimpleName MethodInvocation NumberLiteral empty
+conn SimpleName MethodInvocation SimpleName table operations
+conn SimpleName MethodInvocation MethodInvocation SimpleName delete
+table operations SimpleName MethodInvocation MethodInvocation SimpleName delete
+conn SimpleName MethodInvocation MethodInvocation SimpleName t
+table operations SimpleName MethodInvocation MethodInvocation SimpleName t
+delete SimpleName MethodInvocation SimpleName t
+conn SimpleName MethodInvocation SimpleName table operations
+conn SimpleName MethodInvocation MethodInvocation SimpleName create
+table operations SimpleName MethodInvocation MethodInvocation SimpleName create
+conn SimpleName MethodInvocation MethodInvocation SimpleName t
+table operations SimpleName MethodInvocation MethodInvocation SimpleName t
+conn SimpleName MethodInvocation MethodInvocation BooleanLiteral true
+table operations SimpleName MethodInvocation MethodInvocation BooleanLiteral true
+conn SimpleName MethodInvocation MethodInvocation QualifiedName time typemillis
+table operations SimpleName MethodInvocation MethodInvocation QualifiedName time typemillis
+create SimpleName MethodInvocation SimpleName t
+create SimpleName MethodInvocation BooleanLiteral true
+create SimpleName MethodInvocation QualifiedName time typemillis
+t SimpleName MethodInvocation BooleanLiteral true
+t SimpleName MethodInvocation QualifiedName time typemillis
+true BooleanLiteral MethodInvocation QualifiedName time typemillis
+iterator setting SimpleName SimpleType ClassInstanceCreation NumberLiteral empty
+empty NumberLiteral ClassInstanceCreation TypeLiteral SimpleType SimpleName versioning iterator
+settings SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName iterator setting
+settings SimpleName VariableDeclarationFragment ClassInstanceCreation NumberLiteral empty
+iterator setting SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName settings
+conn SimpleName MethodInvocation SimpleName table operations
+conn SimpleName MethodInvocation MethodInvocation SimpleName attach iterator
+table operations SimpleName MethodInvocation MethodInvocation SimpleName attach iterator
+conn SimpleName MethodInvocation MethodInvocation SimpleName t
+table operations SimpleName MethodInvocation MethodInvocation SimpleName t
+conn SimpleName MethodInvocation MethodInvocation SimpleName settings
+table operations SimpleName MethodInvocation MethodInvocation SimpleName settings
+attach iterator SimpleName MethodInvocation SimpleName t
+attach iterator SimpleName MethodInvocation SimpleName settings
+t SimpleName MethodInvocation SimpleName settings
+assert SimpleName MethodInvocation SimpleName fail
+accumulo exception SimpleName SimpleType SingleVariableDeclaration SimpleName ex
+write versionable SimpleName MethodInvocation SimpleName conn
+write versionable SimpleName MethodInvocation SimpleName t
+write versionable SimpleName MethodInvocation NumberLiteral empty
+conn SimpleName MethodInvocation SimpleName t
+conn SimpleName MethodInvocation NumberLiteral empty
+t SimpleName MethodInvocation NumberLiteral empty
+assert versionable SimpleName MethodInvocation SimpleName conn
+assert versionable SimpleName MethodInvocation SimpleName t
+assert versionable SimpleName MethodInvocation NumberLiteral empty
+conn SimpleName MethodInvocation SimpleName t
+conn SimpleName MethodInvocation NumberLiteral empty
+t SimpleName MethodInvocation NumberLiteral empty
+conn SimpleName MethodInvocation SimpleName table operations
+conn SimpleName MethodInvocation MethodInvocation SimpleName delete
+table operations SimpleName MethodInvocation MethodInvocation SimpleName delete
+conn SimpleName MethodInvocation MethodInvocation SimpleName t
+table operations SimpleName MethodInvocation MethodInvocation SimpleName t
+delete SimpleName MethodInvocation SimpleName t
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test create use versions
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName accumulo exception
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName accumulo security exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test create use versions
+public Modifier MethodDeclaration SimpleType SimpleName accumulo exception
+public Modifier MethodDeclaration SimpleType SimpleName accumulo security exception
+public Modifier MethodDeclaration SimpleType SimpleName table exists exception
+void PrimitiveType MethodDeclaration SimpleName test create use versions
+void PrimitiveType MethodDeclaration SimpleType SimpleName accumulo exception
+void PrimitiveType MethodDeclaration SimpleType SimpleName accumulo security exception
+void PrimitiveType MethodDeclaration SimpleType SimpleName table exists exception
+void PrimitiveType MethodDeclaration SimpleType SimpleName table not found exception
+test create use versions SimpleName MethodDeclaration SimpleType SimpleName accumulo exception
+test create use versions SimpleName MethodDeclaration SimpleType SimpleName accumulo security exception
+test create use versions SimpleName MethodDeclaration SimpleType SimpleName table exists exception
+test create use versions SimpleName MethodDeclaration SimpleType SimpleName table not found exception
+accumulo exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName accumulo security exception
+accumulo exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName table exists exception
+accumulo exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName table not found exception
+accumulo security exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName table exists exception
+accumulo security exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName table not found exception
+table exists exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName table not found exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test create use versions
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName table exists exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName table not found exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test create use versions
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName table exists exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName table not found exception

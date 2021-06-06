@@ -1,0 +1,90 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName type name
+vertex SimpleName SimpleType SingleVariableDeclaration SimpleName instance vertex
+delete all traits SimpleName MethodInvocation SimpleName instance vertex
+graph helper SimpleName MethodInvocation SimpleName get id from vertex
+graph helper SimpleName MethodInvocation SimpleName type name
+graph helper SimpleName MethodInvocation SimpleName instance vertex
+get id from vertex SimpleName MethodInvocation SimpleName type name
+get id from vertex SimpleName MethodInvocation SimpleName instance vertex
+type name SimpleName MethodInvocation SimpleName instance vertex
+id SimpleName VariableDeclarationFragment MethodInvocation SimpleName graph helper
+id SimpleName VariableDeclarationFragment MethodInvocation SimpleName get id from vertex
+id SimpleName VariableDeclarationFragment MethodInvocation SimpleName type name
+id SimpleName VariableDeclarationFragment MethodInvocation SimpleName instance vertex
+id SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName id
+type system SimpleName MethodInvocation SimpleName get data type
+type system SimpleName MethodInvocation TypeLiteral SimpleType SimpleName class type
+type system SimpleName MethodInvocation SimpleName type name
+get data type SimpleName MethodInvocation TypeLiteral SimpleType SimpleName class type
+get data type SimpleName MethodInvocation SimpleName type name
+class type SimpleName SimpleType TypeLiteral MethodInvocation SimpleName type name
+class type SimpleName VariableDeclarationFragment MethodInvocation SimpleName type system
+class type SimpleName VariableDeclarationFragment MethodInvocation SimpleName get data type
+class type SimpleName VariableDeclarationFragment MethodInvocation SimpleName type name
+class type SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName class type
+class type SimpleName MethodInvocation SimpleName create instance
+class type SimpleName MethodInvocation SimpleName id
+create instance SimpleName MethodInvocation SimpleName id
+typed instance SimpleName VariableDeclarationFragment MethodInvocation SimpleName class type
+typed instance SimpleName VariableDeclarationFragment MethodInvocation SimpleName create instance
+typed instance SimpleName VariableDeclarationFragment MethodInvocation SimpleName id
+i typed referenceable instance SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName typed instance
+class type SimpleName MethodInvocation SimpleName field mapping
+class type SimpleName MethodInvocation FieldAccess SimpleName fields
+field mapping SimpleName MethodInvocation FieldAccess SimpleName fields
+map instance to vertex SimpleName MethodInvocation SimpleName typed instance
+map instance to vertex SimpleName MethodInvocation SimpleName instance vertex
+map instance to vertex SimpleName MethodInvocation FieldAccess MethodInvocation SimpleName class type
+map instance to vertex SimpleName MethodInvocation FieldAccess MethodInvocation SimpleName field mapping
+map instance to vertex SimpleName MethodInvocation FieldAccess SimpleName fields
+map instance to vertex SimpleName MethodInvocation BooleanLiteral false
+map instance to vertex SimpleName MethodInvocation QualifiedName operationdelete
+typed instance SimpleName MethodInvocation SimpleName instance vertex
+typed instance SimpleName MethodInvocation FieldAccess MethodInvocation SimpleName class type
+typed instance SimpleName MethodInvocation FieldAccess MethodInvocation SimpleName field mapping
+typed instance SimpleName MethodInvocation FieldAccess SimpleName fields
+typed instance SimpleName MethodInvocation BooleanLiteral false
+typed instance SimpleName MethodInvocation QualifiedName operationdelete
+instance vertex SimpleName MethodInvocation FieldAccess MethodInvocation SimpleName class type
+instance vertex SimpleName MethodInvocation FieldAccess MethodInvocation SimpleName field mapping
+instance vertex SimpleName MethodInvocation FieldAccess SimpleName fields
+instance vertex SimpleName MethodInvocation BooleanLiteral false
+instance vertex SimpleName MethodInvocation QualifiedName operationdelete
+class type SimpleName MethodInvocation FieldAccess MethodInvocation BooleanLiteral false
+field mapping SimpleName MethodInvocation FieldAccess MethodInvocation BooleanLiteral false
+fields SimpleName FieldAccess MethodInvocation BooleanLiteral false
+class type SimpleName MethodInvocation FieldAccess MethodInvocation QualifiedName operationdelete
+field mapping SimpleName MethodInvocation FieldAccess MethodInvocation QualifiedName operationdelete
+fields SimpleName FieldAccess MethodInvocation QualifiedName operationdelete
+false BooleanLiteral MethodInvocation QualifiedName operationdelete
+id SimpleName MethodInvocation SimpleName get id
+deleted entities SimpleName MethodInvocation SimpleName add
+deleted entities SimpleName MethodInvocation MethodInvocation SimpleName id
+deleted entities SimpleName MethodInvocation MethodInvocation SimpleName get id
+add SimpleName MethodInvocation MethodInvocation SimpleName id
+add SimpleName MethodInvocation MethodInvocation SimpleName get id
+void PrimitiveType MethodDeclaration SimpleName delete entity
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName type name
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName vertex
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName instance vertex
+void PrimitiveType MethodDeclaration SimpleType SimpleName atlas exception
+delete entity SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+delete entity SimpleName MethodDeclaration SingleVariableDeclaration SimpleName type name
+delete entity SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName vertex
+delete entity SimpleName MethodDeclaration SingleVariableDeclaration SimpleName instance vertex
+delete entity SimpleName MethodDeclaration SimpleType SimpleName atlas exception
+type name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName instance vertex
+type name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+instance vertex SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName delete entity
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName instance vertex
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName delete entity
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName instance vertex
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception

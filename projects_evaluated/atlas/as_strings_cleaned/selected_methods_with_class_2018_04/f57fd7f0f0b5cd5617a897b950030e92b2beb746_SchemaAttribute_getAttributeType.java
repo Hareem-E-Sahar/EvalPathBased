@@ -1,0 +1,11 @@
+attribute type SimpleName MethodInvocation SimpleName clone schema element
+public Modifier MethodDeclaration SimpleType SimpleName schema element
+public Modifier MethodDeclaration SimpleName get attribute type
+schema element SimpleName SimpleType MethodDeclaration SimpleName get attribute type
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName schema element
+public Modifier TypeDeclaration MethodDeclaration SimpleName get attribute type
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName schema element
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get attribute type

@@ -1,0 +1,54 @@
+json object SimpleName SimpleType SingleVariableDeclaration SimpleName object
+string SimpleName SimpleType SingleVariableDeclaration SimpleName field name
+object SimpleName MethodInvocation SimpleName get json object
+object SimpleName MethodInvocation SimpleName field name
+get json object SimpleName MethodInvocation SimpleName field name
+found json SimpleName VariableDeclarationFragment MethodInvocation SimpleName object
+found json SimpleName VariableDeclarationFragment MethodInvocation SimpleName get json object
+found json SimpleName VariableDeclarationFragment MethodInvocation SimpleName field name
+json object SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName found json
+string SimpleName SimpleType SingleVariableDeclaration SimpleName id attr
+found json SimpleName MethodInvocation SimpleName get
+found json SimpleName MethodInvocation SimpleName id attr
+get SimpleName MethodInvocation SimpleName id attr
+string SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName id type attributes
+id attr SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName id type attributes
+id type attributes SimpleName EnhancedForStatement Block ReturnStatement BooleanLiteral true
+private Modifier MethodDeclaration PrimitiveType boolean
+private Modifier MethodDeclaration SimpleName validate object id type
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName json object
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName object
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName field name
+private Modifier MethodDeclaration SimpleType SimpleName json exception
+boolean PrimitiveType MethodDeclaration SimpleName validate object id type
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName json object
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName object
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName field name
+boolean PrimitiveType MethodDeclaration SimpleType SimpleName json exception
+boolean PrimitiveType MethodDeclaration Block EnhancedForStatement SimpleName id type attributes
+boolean PrimitiveType MethodDeclaration Block ReturnStatement BooleanLiteral true
+validate object id type SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName json object
+validate object id type SimpleName MethodDeclaration SingleVariableDeclaration SimpleName object
+validate object id type SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+validate object id type SimpleName MethodDeclaration SingleVariableDeclaration SimpleName field name
+validate object id type SimpleName MethodDeclaration SimpleType SimpleName json exception
+validate object id type SimpleName MethodDeclaration Block EnhancedForStatement SimpleName id type attributes
+validate object id type SimpleName MethodDeclaration Block ReturnStatement BooleanLiteral true
+object SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName field name
+object SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName json exception
+field name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName json exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName validate object id type
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName object
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName field name
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName json exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName validate object id type
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName object
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName field name
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName json exception

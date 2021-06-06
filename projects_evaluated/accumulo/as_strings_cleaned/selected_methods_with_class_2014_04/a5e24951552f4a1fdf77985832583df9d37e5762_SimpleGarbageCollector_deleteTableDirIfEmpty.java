@@ -1,0 +1,76 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName table id
+string SimpleName SimpleType SingleVariableDeclaration SimpleName dir
+server constants SimpleName MethodInvocation SimpleName get tables dirs
+dir SimpleName InfixExpression StringLiteral /
+dir SimpleName InfixExpression SimpleName table id
+/ StringLiteral InfixExpression SimpleName table id
+path SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName dir
+path SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral /
+path SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName table id
+fs SimpleName MethodInvocation SimpleName list status
+fs SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName path
+fs SimpleName MethodInvocation ClassInstanceCreation InfixExpression SimpleName dir
+fs SimpleName MethodInvocation ClassInstanceCreation InfixExpression StringLiteral /
+fs SimpleName MethodInvocation ClassInstanceCreation InfixExpression SimpleName table id
+list status SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName path
+list status SimpleName MethodInvocation ClassInstanceCreation InfixExpression SimpleName dir
+list status SimpleName MethodInvocation ClassInstanceCreation InfixExpression StringLiteral /
+list status SimpleName MethodInvocation ClassInstanceCreation InfixExpression SimpleName table id
+tablet dirs SimpleName Assignment MethodInvocation SimpleName fs
+tablet dirs SimpleName Assignment MethodInvocation SimpleName list status
+file not found exception SimpleName SimpleType SingleVariableDeclaration SimpleName ex
+tablet dirslength QualifiedName InfixExpression NumberLiteral empty
+dir SimpleName InfixExpression StringLiteral /
+dir SimpleName InfixExpression SimpleName table id
+/ StringLiteral InfixExpression SimpleName table id
+path SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName dir
+path SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral /
+path SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName table id
+p SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName path
+p SimpleName VariableDeclarationFragment ClassInstanceCreation InfixExpression SimpleName dir
+p SimpleName VariableDeclarationFragment ClassInstanceCreation InfixExpression StringLiteral /
+p SimpleName VariableDeclarationFragment ClassInstanceCreation InfixExpression SimpleName table id
+path SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName p
+removing table dir StringLiteral InfixExpression SimpleName p
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation InfixExpression StringLiteral removing table dir
+log SimpleName MethodInvocation InfixExpression SimpleName p
+debug SimpleName MethodInvocation InfixExpression StringLiteral removing table dir
+debug SimpleName MethodInvocation InfixExpression SimpleName p
+move to trash SimpleName MethodInvocation SimpleName p
+fs SimpleName MethodInvocation SimpleName delete
+fs SimpleName MethodInvocation SimpleName p
+delete SimpleName MethodInvocation SimpleName p
+dir SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName server constants
+dir SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName get tables dirs
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName delete table dir if empty
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName table id
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName io exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName delete table dir if empty
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName table id
+public Modifier MethodDeclaration SimpleType SimpleName io exception
+void PrimitiveType MethodDeclaration SimpleName delete table dir if empty
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName table id
+void PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+delete table dir if empty SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+delete table dir if empty SimpleName MethodDeclaration SingleVariableDeclaration SimpleName table id
+delete table dir if empty SimpleName MethodDeclaration SimpleType SimpleName io exception
+table id SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName delete table dir if empty
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table id
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName delete table dir if empty
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table id
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

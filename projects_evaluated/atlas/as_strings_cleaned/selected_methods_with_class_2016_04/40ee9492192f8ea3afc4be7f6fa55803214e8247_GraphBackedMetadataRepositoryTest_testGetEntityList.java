@@ -1,0 +1,56 @@
+depends on methods SimpleName MemberValuePair StringLiteral test submit entity
+test SimpleName NormalAnnotation MemberValuePair SimpleName depends on methods
+test SimpleName NormalAnnotation MemberValuePair StringLiteral test submit entity
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+repository service SimpleName MethodInvocation SimpleName get entity list
+repository service SimpleName MethodInvocation QualifiedName test utilsdepartment type
+get entity list SimpleName MethodInvocation QualifiedName test utilsdepartment type
+entity list SimpleName VariableDeclarationFragment MethodInvocation SimpleName repository service
+entity list SimpleName VariableDeclarationFragment MethodInvocation SimpleName get entity list
+entity list SimpleName VariableDeclarationFragment MethodInvocation QualifiedName test utilsdepartment type
+entity list = StringLiteral InfixExpression SimpleName entity list
+systemout QualifiedName MethodInvocation SimpleName println
+systemout QualifiedName MethodInvocation InfixExpression StringLiteral entity list =
+systemout QualifiedName MethodInvocation InfixExpression SimpleName entity list
+println SimpleName MethodInvocation InfixExpression StringLiteral entity list =
+println SimpleName MethodInvocation InfixExpression SimpleName entity list
+assert SimpleName MethodInvocation SimpleName assert not null
+assert SimpleName MethodInvocation SimpleName entity list
+assert not null SimpleName MethodInvocation SimpleName entity list
+entity list SimpleName MethodInvocation SimpleName contains
+entity list SimpleName MethodInvocation SimpleName guid
+contains SimpleName MethodInvocation SimpleName guid
+assert SimpleName MethodInvocation SimpleName assert true
+assert SimpleName MethodInvocation MethodInvocation SimpleName entity list
+assert SimpleName MethodInvocation MethodInvocation SimpleName contains
+assert SimpleName MethodInvocation MethodInvocation SimpleName guid
+assert true SimpleName MethodInvocation MethodInvocation SimpleName entity list
+assert true SimpleName MethodInvocation MethodInvocation SimpleName contains
+assert true SimpleName MethodInvocation MethodInvocation SimpleName guid
+test SimpleName NormalAnnotation MethodDeclaration Modifier public
+depends on methods SimpleName MemberValuePair NormalAnnotation MethodDeclaration Modifier public
+test submit entity StringLiteral MemberValuePair NormalAnnotation MethodDeclaration Modifier public
+test SimpleName NormalAnnotation MethodDeclaration PrimitiveType void
+depends on methods SimpleName MemberValuePair NormalAnnotation MethodDeclaration PrimitiveType void
+test submit entity StringLiteral MemberValuePair NormalAnnotation MethodDeclaration PrimitiveType void
+test SimpleName NormalAnnotation MethodDeclaration SimpleName test get entity list
+depends on methods SimpleName MemberValuePair NormalAnnotation MethodDeclaration SimpleName test get entity list
+test submit entity StringLiteral MemberValuePair NormalAnnotation MethodDeclaration SimpleName test get entity list
+test SimpleName NormalAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test get entity list
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName test get entity list
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+test get entity list SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration NormalAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test get entity list
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration NormalAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test get entity list
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

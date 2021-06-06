@@ -1,0 +1,148 @@
+atlas metrics SimpleName SimpleType SingleVariableDeclaration SimpleName metrics
+string SimpleName SimpleType SingleVariableDeclaration SimpleName type
+string SimpleName SimpleType SingleVariableDeclaration SimpleName name
+string SimpleName SimpleType SingleVariableDeclaration SimpleName query
+atlas graph SimpleName MethodInvocation SimpleName execute gremlin script
+atlas graph SimpleName MethodInvocation SimpleName query
+atlas graph SimpleName MethodInvocation BooleanLiteral false
+execute gremlin script SimpleName MethodInvocation SimpleName query
+execute gremlin script SimpleName MethodInvocation BooleanLiteral false
+query SimpleName MethodInvocation BooleanLiteral false
+result SimpleName VariableDeclarationFragment MethodInvocation SimpleName atlas graph
+result SimpleName VariableDeclarationFragment MethodInvocation SimpleName execute gremlin script
+result SimpleName VariableDeclarationFragment MethodInvocation SimpleName query
+result SimpleName VariableDeclarationFragment MethodInvocation BooleanLiteral false
+object SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName result
+result SimpleName InstanceofExpression SimpleType SimpleName number
+number SimpleName SimpleType CastExpression SimpleName result
+result SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName int value
+metrics SimpleName MethodInvocation SimpleName add data
+metrics SimpleName MethodInvocation SimpleName type
+metrics SimpleName MethodInvocation SimpleName name
+metrics SimpleName MethodInvocation MethodInvocation SimpleName int value
+add data SimpleName MethodInvocation SimpleName type
+add data SimpleName MethodInvocation SimpleName name
+add data SimpleName MethodInvocation MethodInvocation SimpleName int value
+type SimpleName MethodInvocation SimpleName name
+type SimpleName MethodInvocation MethodInvocation SimpleName int value
+name SimpleName MethodInvocation MethodInvocation SimpleName int value
+result SimpleName InstanceofExpression SimpleType SimpleName list
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName number
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName number
+map SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName result map
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName result map
+number SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName result map
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName number
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName number
+list SimpleName SimpleType ParameterizedType CastExpression SimpleName result
+mapentry QualifiedName SimpleType ParameterizedType SimpleType SimpleName string
+mapentry QualifiedName SimpleType ParameterizedType SimpleType SimpleName number
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName number
+mapentry QualifiedName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+number SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+result map SimpleName MethodInvocation SimpleName entry set
+entry SimpleName MethodInvocation SimpleName get key
+entry SimpleName MethodInvocation SimpleName get value
+entry SimpleName MethodInvocation MethodInvocation SimpleName int value
+get value SimpleName MethodInvocation MethodInvocation SimpleName int value
+metrics SimpleName MethodInvocation SimpleName add data
+metrics SimpleName MethodInvocation SimpleName type
+metrics SimpleName MethodInvocation MethodInvocation SimpleName entry
+metrics SimpleName MethodInvocation MethodInvocation SimpleName get key
+metrics SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName entry
+metrics SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get value
+metrics SimpleName MethodInvocation MethodInvocation SimpleName int value
+add data SimpleName MethodInvocation SimpleName type
+add data SimpleName MethodInvocation MethodInvocation SimpleName entry
+add data SimpleName MethodInvocation MethodInvocation SimpleName get key
+add data SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName entry
+add data SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get value
+add data SimpleName MethodInvocation MethodInvocation SimpleName int value
+type SimpleName MethodInvocation MethodInvocation SimpleName entry
+type SimpleName MethodInvocation MethodInvocation SimpleName get key
+type SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName entry
+type SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get value
+type SimpleName MethodInvocation MethodInvocation SimpleName int value
+entry SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName int value
+get key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName int value
+entry SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName result map
+entry SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName entry set
+result map SimpleName SingleVariableDeclaration EnhancedForStatement CastExpression SimpleName result
+result SimpleName MethodInvocation SimpleName get class
+result SimpleName MethodInvocation MethodInvocation SimpleName get simple name
+get class SimpleName MethodInvocation MethodInvocation SimpleName get simple name
+result SimpleName InfixExpression ConditionalExpression MethodInvocation SimpleName get simple name
+result SimpleName InfixExpression ConditionalExpression StringLiteral null
+result SimpleName MethodInvocation MethodInvocation ConditionalExpression StringLiteral null
+get class SimpleName MethodInvocation MethodInvocation ConditionalExpression StringLiteral null
+get simple name SimpleName MethodInvocation ConditionalExpression StringLiteral null
+return class name SimpleName VariableDeclarationFragment ConditionalExpression InfixExpression SimpleName result
+return class name SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation SimpleName get simple name
+return class name SimpleName VariableDeclarationFragment ConditionalExpression StringLiteral null
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName return class name
+log SimpleName MethodInvocation SimpleName warn
+log SimpleName MethodInvocation StringLiteral unhandled return type {} for {}. ignoring
+log SimpleName MethodInvocation SimpleName return class name
+log SimpleName MethodInvocation SimpleName query
+warn SimpleName MethodInvocation StringLiteral unhandled return type {} for {}. ignoring
+warn SimpleName MethodInvocation SimpleName return class name
+warn SimpleName MethodInvocation SimpleName query
+unhandled return type {} for {}. ignoring StringLiteral MethodInvocation SimpleName return class name
+unhandled return type {} for {}. ignoring StringLiteral MethodInvocation SimpleName query
+return class name SimpleName MethodInvocation SimpleName query
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName execute gremlin query
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas metrics
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName metrics
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName type
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName name
+void PrimitiveType MethodDeclaration SimpleName execute gremlin query
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas metrics
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName metrics
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName type
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName name
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName query
+execute gremlin query SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas metrics
+execute gremlin query SimpleName MethodDeclaration SingleVariableDeclaration SimpleName metrics
+execute gremlin query SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+execute gremlin query SimpleName MethodDeclaration SingleVariableDeclaration SimpleName type
+execute gremlin query SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+execute gremlin query SimpleName MethodDeclaration SingleVariableDeclaration SimpleName name
+execute gremlin query SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+execute gremlin query SimpleName MethodDeclaration SingleVariableDeclaration SimpleName query
+execute gremlin query SimpleName MethodDeclaration SimpleType SimpleName atlas base exception
+metrics SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type
+metrics SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name
+metrics SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName query
+metrics SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+type SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name
+type SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName query
+type SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName query
+name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+query SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName execute gremlin query
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName metrics
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName query
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName execute gremlin query
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName metrics
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName query
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception

@@ -1,0 +1,23 @@
+byte buffer SimpleName SimpleType SingleVariableDeclaration SimpleName elem
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName byte buffer
+success SimpleName FieldAccess MethodInvocation SimpleName add
+success SimpleName FieldAccess MethodInvocation SimpleName elem
+add SimpleName MethodInvocation SimpleName elem
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName add to success
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName byte buffer
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName elem
+void PrimitiveType MethodDeclaration SimpleName add to success
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName byte buffer
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName elem
+add to success SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName byte buffer
+add to success SimpleName MethodDeclaration SingleVariableDeclaration SimpleName elem
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName add to success
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName elem
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName add to success
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName elem

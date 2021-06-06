@@ -1,0 +1,30 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName type name
+string SimpleName SimpleType SingleVariableDeclaration SimpleName id
+referenceable SimpleName SimpleType ClassInstanceCreation SimpleName id
+referenceable SimpleName SimpleType ClassInstanceCreation SimpleName type name
+id SimpleName ClassInstanceCreation SimpleName type name
+private Modifier MethodDeclaration SimpleType SimpleName referenceable
+private Modifier MethodDeclaration SimpleName get entity reference
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName type name
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName id
+referenceable SimpleName SimpleType MethodDeclaration SimpleName get entity reference
+referenceable SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName type name
+referenceable SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName id
+get entity reference SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get entity reference SimpleName MethodDeclaration SingleVariableDeclaration SimpleName type name
+get entity reference SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get entity reference SimpleName MethodDeclaration SingleVariableDeclaration SimpleName id
+type name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName id
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName referenceable
+public Modifier TypeDeclaration MethodDeclaration SimpleName get entity reference
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName id
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName referenceable
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get entity reference
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName id

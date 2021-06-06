@@ -1,0 +1,215 @@
+live t server set SimpleName SimpleType SingleVariableDeclaration SimpleName current
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName t server instance
+set SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName deleted
+t server instance SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName deleted
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName t server instance
+set SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName added
+t server instance SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName added
+zoo util SimpleName MethodInvocation SimpleName get root
+zoo util SimpleName MethodInvocation MethodInvocation SimpleName get instance
+get root SimpleName MethodInvocation MethodInvocation SimpleName get instance
+zoo util SimpleName MethodInvocation InfixExpression QualifiedName constantszdeadtservers
+get root SimpleName MethodInvocation InfixExpression QualifiedName constantszdeadtservers
+get instance SimpleName MethodInvocation MethodInvocation InfixExpression QualifiedName constantszdeadtservers
+dead server list SimpleName SimpleType ClassInstanceCreation InfixExpression QualifiedName constantszdeadtservers
+obit SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName dead server list
+obit SimpleName VariableDeclarationFragment ClassInstanceCreation InfixExpression QualifiedName constantszdeadtservers
+dead server list SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName obit
+added SimpleName MethodInvocation SimpleName size
+added SimpleName MethodInvocation InfixExpression NumberLiteral empty
+size SimpleName MethodInvocation InfixExpression NumberLiteral empty
+new servers StringLiteral InfixExpression SimpleName added
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation InfixExpression StringLiteral new servers
+log SimpleName MethodInvocation InfixExpression SimpleName added
+info SimpleName MethodInvocation InfixExpression StringLiteral new servers
+info SimpleName MethodInvocation InfixExpression SimpleName added
+t server instance SimpleName SimpleType SingleVariableDeclaration SimpleName up
+up SimpleName MethodInvocation SimpleName host port
+obit SimpleName MethodInvocation SimpleName delete
+obit SimpleName MethodInvocation MethodInvocation SimpleName up
+obit SimpleName MethodInvocation MethodInvocation SimpleName host port
+delete SimpleName MethodInvocation MethodInvocation SimpleName up
+delete SimpleName MethodInvocation MethodInvocation SimpleName host port
+t server instance SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName added
+up SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName added
+added SimpleName EnhancedForStatement ExpressionStatement MethodInvocation SimpleName obit
+added SimpleName EnhancedForStatement ExpressionStatement MethodInvocation SimpleName delete
+t server instance SimpleName SimpleType SingleVariableDeclaration SimpleName dead
+cause SimpleName VariableDeclarationFragment StringLiteral unexpected failure
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName cause
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral unexpected failure
+servers to shutdown SimpleName MethodInvocation SimpleName contains
+servers to shutdown SimpleName MethodInvocation SimpleName dead
+contains SimpleName MethodInvocation SimpleName dead
+cause SimpleName Assignment StringLiteral clean shutdown
+get master goal state SimpleName MethodInvocation MethodInvocation SimpleName equals
+get master goal state SimpleName MethodInvocation MethodInvocation QualifiedName master goal stateclean stop
+equals SimpleName MethodInvocation QualifiedName master goal stateclean stop
+dead SimpleName MethodInvocation SimpleName host port
+obit SimpleName MethodInvocation SimpleName post
+obit SimpleName MethodInvocation MethodInvocation SimpleName dead
+obit SimpleName MethodInvocation MethodInvocation SimpleName host port
+obit SimpleName MethodInvocation SimpleName cause
+post SimpleName MethodInvocation MethodInvocation SimpleName dead
+post SimpleName MethodInvocation MethodInvocation SimpleName host port
+post SimpleName MethodInvocation SimpleName cause
+dead SimpleName MethodInvocation MethodInvocation SimpleName cause
+host port SimpleName MethodInvocation MethodInvocation SimpleName cause
+t server instance SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName deleted
+dead SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName deleted
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName t server instance
+hash set SimpleName SimpleType ParameterizedType SimpleType SimpleName t server instance
+hash set SimpleName SimpleType ParameterizedType ClassInstanceCreation SimpleName deleted
+t server instance SimpleName SimpleType ParameterizedType ClassInstanceCreation SimpleName deleted
+unexpected SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName deleted
+unexpected SimpleName MethodInvocation SimpleName remove all
+unexpected SimpleName MethodInvocation FieldAccess SimpleName servers to shutdown
+remove all SimpleName MethodInvocation FieldAccess SimpleName servers to shutdown
+unexpected SimpleName MethodInvocation SimpleName size
+unexpected SimpleName MethodInvocation InfixExpression NumberLiteral empty
+size SimpleName MethodInvocation InfixExpression NumberLiteral empty
+get master goal state SimpleName MethodInvocation MethodInvocation SimpleName equals
+get master goal state SimpleName MethodInvocation MethodInvocation QualifiedName master goal stateclean stop
+equals SimpleName MethodInvocation QualifiedName master goal stateclean stop
+lost servers StringLiteral InfixExpression SimpleName unexpected
+log SimpleName MethodInvocation SimpleName warn
+log SimpleName MethodInvocation InfixExpression StringLiteral lost servers
+log SimpleName MethodInvocation InfixExpression SimpleName unexpected
+warn SimpleName MethodInvocation InfixExpression StringLiteral lost servers
+warn SimpleName MethodInvocation InfixExpression SimpleName unexpected
+servers to shutdown SimpleName MethodInvocation SimpleName remove all
+servers to shutdown SimpleName MethodInvocation SimpleName deleted
+remove all SimpleName MethodInvocation SimpleName deleted
+bad servers SimpleName MethodInvocation SimpleName key set
+bad servers SimpleName MethodInvocation MethodInvocation SimpleName remove all
+key set SimpleName MethodInvocation MethodInvocation SimpleName remove all
+bad servers SimpleName MethodInvocation MethodInvocation SimpleName deleted
+key set SimpleName MethodInvocation MethodInvocation SimpleName deleted
+remove all SimpleName MethodInvocation SimpleName deleted
+bad servers SimpleName MethodInvocation SimpleName key set
+clean list by host and port SimpleName MethodInvocation MethodInvocation SimpleName bad servers
+clean list by host and port SimpleName MethodInvocation MethodInvocation SimpleName key set
+clean list by host and port SimpleName MethodInvocation SimpleName deleted
+clean list by host and port SimpleName MethodInvocation SimpleName added
+bad servers SimpleName MethodInvocation MethodInvocation SimpleName deleted
+key set SimpleName MethodInvocation MethodInvocation SimpleName deleted
+bad servers SimpleName MethodInvocation MethodInvocation SimpleName added
+key set SimpleName MethodInvocation MethodInvocation SimpleName added
+deleted SimpleName MethodInvocation SimpleName added
+clean list by host and port SimpleName MethodInvocation SimpleName servers to shutdown
+clean list by host and port SimpleName MethodInvocation SimpleName deleted
+clean list by host and port SimpleName MethodInvocation SimpleName added
+servers to shutdown SimpleName MethodInvocation SimpleName deleted
+servers to shutdown SimpleName MethodInvocation SimpleName added
+deleted SimpleName MethodInvocation SimpleName added
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName key extent
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName t server instance
+key extent SimpleName SimpleType ParameterizedType SimpleType SimpleName t server instance
+migrations SimpleName MethodInvocation SimpleName entry set
+migrations SimpleName MethodInvocation MethodInvocation SimpleName iterator
+entry set SimpleName MethodInvocation MethodInvocation SimpleName iterator
+iter SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName migrations
+iter SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName entry set
+iter SimpleName VariableDeclarationFragment MethodInvocation SimpleName iterator
+iter SimpleName MethodInvocation SimpleName has next
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName key extent
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName t server instance
+key extent SimpleName SimpleType ParameterizedType SimpleType SimpleName t server instance
+iter SimpleName MethodInvocation SimpleName next
+entry SimpleName VariableDeclarationFragment MethodInvocation SimpleName iter
+entry SimpleName VariableDeclarationFragment MethodInvocation SimpleName next
+entry SimpleName MethodInvocation SimpleName get value
+deleted SimpleName MethodInvocation SimpleName contains
+deleted SimpleName MethodInvocation MethodInvocation SimpleName entry
+deleted SimpleName MethodInvocation MethodInvocation SimpleName get value
+contains SimpleName MethodInvocation MethodInvocation SimpleName entry
+contains SimpleName MethodInvocation MethodInvocation SimpleName get value
+entry SimpleName MethodInvocation SimpleName get key
+entry SimpleName MethodInvocation SimpleName get value
+canceling migration of StringLiteral InfixExpression MethodInvocation SimpleName entry
+canceling migration of StringLiteral InfixExpression MethodInvocation SimpleName get key
+canceling migration of StringLiteral InfixExpression StringLiteral to
+canceling migration of StringLiteral InfixExpression MethodInvocation SimpleName entry
+canceling migration of StringLiteral InfixExpression MethodInvocation SimpleName get value
+entry SimpleName MethodInvocation InfixExpression StringLiteral to
+get key SimpleName MethodInvocation InfixExpression StringLiteral to
+entry SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName entry
+entry SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get value
+get key SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName entry
+get key SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get value
+to StringLiteral InfixExpression MethodInvocation SimpleName entry
+to StringLiteral InfixExpression MethodInvocation SimpleName get value
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation InfixExpression StringLiteral canceling migration of
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName entry
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get key
+log SimpleName MethodInvocation InfixExpression StringLiteral to
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName entry
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get value
+info SimpleName MethodInvocation InfixExpression StringLiteral canceling migration of
+info SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName entry
+info SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get key
+info SimpleName MethodInvocation InfixExpression StringLiteral to
+info SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName entry
+info SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get value
+iter SimpleName MethodInvocation SimpleName remove
+current SimpleName MethodInvocation SimpleName size
+next event SimpleName MethodInvocation SimpleName event
+next event SimpleName MethodInvocation StringLiteral there are now d tablet servers
+next event SimpleName MethodInvocation MethodInvocation SimpleName current
+next event SimpleName MethodInvocation MethodInvocation SimpleName size
+event SimpleName MethodInvocation StringLiteral there are now d tablet servers
+event SimpleName MethodInvocation MethodInvocation SimpleName current
+event SimpleName MethodInvocation MethodInvocation SimpleName size
+there are now d tablet servers StringLiteral MethodInvocation MethodInvocation SimpleName current
+there are now d tablet servers StringLiteral MethodInvocation MethodInvocation SimpleName size
+bad servers SimpleName SynchronizedStatement Block SynchronizedStatement SimpleName servers to shutdown
+bad servers SimpleName SynchronizedStatement Block SynchronizedStatement SimpleName migrations
+servers to shutdown SimpleName SynchronizedStatement Block SynchronizedStatement SimpleName migrations
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName update
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName current
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName deleted
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName update
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName live t server set
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName current
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName deleted
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName added
+void PrimitiveType MethodDeclaration SimpleName update
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName live t server set
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName current
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName deleted
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName added
+void PrimitiveType MethodDeclaration Block EnhancedForStatement SimpleName deleted
+void PrimitiveType MethodDeclaration Block SynchronizedStatement SimpleName bad servers
+void PrimitiveType MethodDeclaration Block SynchronizedStatement SimpleName servers to shutdown
+void PrimitiveType MethodDeclaration Block SynchronizedStatement SimpleName migrations
+update SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName live t server set
+update SimpleName MethodDeclaration SingleVariableDeclaration SimpleName current
+update SimpleName MethodDeclaration SingleVariableDeclaration SimpleName deleted
+update SimpleName MethodDeclaration SingleVariableDeclaration SimpleName added
+update SimpleName MethodDeclaration Block EnhancedForStatement SimpleName deleted
+update SimpleName MethodDeclaration Block SynchronizedStatement SimpleName bad servers
+update SimpleName MethodDeclaration Block SynchronizedStatement SimpleName servers to shutdown
+update SimpleName MethodDeclaration Block SynchronizedStatement SimpleName migrations
+current SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName deleted
+current SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName added
+deleted SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName added
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName update
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName current
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName deleted
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName added
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName update
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName current
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName deleted
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName added

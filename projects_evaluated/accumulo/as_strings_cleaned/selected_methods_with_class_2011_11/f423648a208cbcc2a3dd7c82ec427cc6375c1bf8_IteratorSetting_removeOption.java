@@ -1,0 +1,24 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName option
+argument checker SimpleName MethodInvocation SimpleName not null
+argument checker SimpleName MethodInvocation SimpleName option
+not null SimpleName MethodInvocation SimpleName option
+properties SimpleName MethodInvocation SimpleName remove
+properties SimpleName MethodInvocation SimpleName option
+remove SimpleName MethodInvocation SimpleName option
+public Modifier MethodDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName remove option
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName option
+string SimpleName SimpleType MethodDeclaration SimpleName remove option
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName option
+remove option SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+remove option SimpleName MethodDeclaration SingleVariableDeclaration SimpleName option
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName remove option
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName option
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName remove option
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName option

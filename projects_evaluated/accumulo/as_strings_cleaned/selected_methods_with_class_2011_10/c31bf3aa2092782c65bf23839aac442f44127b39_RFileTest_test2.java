@@ -1,0 +1,296 @@
+trf SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName test r file
+test r file SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName trf
+trf SimpleName MethodInvocation SimpleName open writer
+nk SimpleName MethodInvocation StringLiteral r
+nk SimpleName MethodInvocation StringLiteral cf
+nk SimpleName MethodInvocation StringLiteral cq
+nk SimpleName MethodInvocation StringLiteral l
+nk SimpleName MethodInvocation NumberLiteral empty
+r StringLiteral MethodInvocation StringLiteral cf
+r StringLiteral MethodInvocation StringLiteral cq
+r StringLiteral MethodInvocation StringLiteral l
+r StringLiteral MethodInvocation NumberLiteral empty
+cf StringLiteral MethodInvocation StringLiteral cq
+cf StringLiteral MethodInvocation StringLiteral l
+cf StringLiteral MethodInvocation NumberLiteral empty
+cq StringLiteral MethodInvocation StringLiteral l
+cq StringLiteral MethodInvocation NumberLiteral empty
+l StringLiteral MethodInvocation NumberLiteral empty
+nv SimpleName MethodInvocation StringLiteral foo
+trfwriter QualifiedName MethodInvocation SimpleName append
+trfwriter QualifiedName MethodInvocation MethodInvocation SimpleName nk
+trfwriter QualifiedName MethodInvocation MethodInvocation StringLiteral r
+trfwriter QualifiedName MethodInvocation MethodInvocation StringLiteral cf
+trfwriter QualifiedName MethodInvocation MethodInvocation StringLiteral cq
+trfwriter QualifiedName MethodInvocation MethodInvocation StringLiteral l
+trfwriter QualifiedName MethodInvocation MethodInvocation NumberLiteral empty
+trfwriter QualifiedName MethodInvocation MethodInvocation SimpleName nv
+trfwriter QualifiedName MethodInvocation MethodInvocation StringLiteral foo
+append SimpleName MethodInvocation MethodInvocation SimpleName nk
+append SimpleName MethodInvocation MethodInvocation StringLiteral r
+append SimpleName MethodInvocation MethodInvocation StringLiteral cf
+append SimpleName MethodInvocation MethodInvocation StringLiteral cq
+append SimpleName MethodInvocation MethodInvocation StringLiteral l
+append SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+append SimpleName MethodInvocation MethodInvocation SimpleName nv
+append SimpleName MethodInvocation MethodInvocation StringLiteral foo
+nk SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName nv
+nk SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral foo
+r StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName nv
+r StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral foo
+cf StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName nv
+cf StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral foo
+cq StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName nv
+cq StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral foo
+l StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName nv
+l StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral foo
+empty NumberLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName nv
+empty NumberLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral foo
+trf SimpleName MethodInvocation SimpleName close writer
+trf SimpleName MethodInvocation SimpleName open reader
+trf SimpleName MethodInvocation SimpleName seek
+trfreader QualifiedName MethodInvocation SimpleName has top
+assert true SimpleName MethodInvocation MethodInvocation QualifiedName trfreader
+assert true SimpleName MethodInvocation MethodInvocation SimpleName has top
+trfreader QualifiedName MethodInvocation SimpleName get top key
+nk SimpleName MethodInvocation StringLiteral r
+nk SimpleName MethodInvocation StringLiteral cf
+nk SimpleName MethodInvocation StringLiteral cq
+nk SimpleName MethodInvocation StringLiteral l
+nk SimpleName MethodInvocation NumberLiteral empty
+r StringLiteral MethodInvocation StringLiteral cf
+r StringLiteral MethodInvocation StringLiteral cq
+r StringLiteral MethodInvocation StringLiteral l
+r StringLiteral MethodInvocation NumberLiteral empty
+cf StringLiteral MethodInvocation StringLiteral cq
+cf StringLiteral MethodInvocation StringLiteral l
+cf StringLiteral MethodInvocation NumberLiteral empty
+cq StringLiteral MethodInvocation StringLiteral l
+cq StringLiteral MethodInvocation NumberLiteral empty
+l StringLiteral MethodInvocation NumberLiteral empty
+trfreader QualifiedName MethodInvocation MethodInvocation SimpleName equals
+get top key SimpleName MethodInvocation MethodInvocation SimpleName equals
+trfreader QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName nk
+trfreader QualifiedName MethodInvocation MethodInvocation MethodInvocation StringLiteral r
+trfreader QualifiedName MethodInvocation MethodInvocation MethodInvocation StringLiteral cf
+trfreader QualifiedName MethodInvocation MethodInvocation MethodInvocation StringLiteral cq
+trfreader QualifiedName MethodInvocation MethodInvocation MethodInvocation StringLiteral l
+trfreader QualifiedName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+get top key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName nk
+get top key SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral r
+get top key SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral cf
+get top key SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral cq
+get top key SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral l
+get top key SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+equals SimpleName MethodInvocation MethodInvocation SimpleName nk
+equals SimpleName MethodInvocation MethodInvocation StringLiteral r
+equals SimpleName MethodInvocation MethodInvocation StringLiteral cf
+equals SimpleName MethodInvocation MethodInvocation StringLiteral cq
+equals SimpleName MethodInvocation MethodInvocation StringLiteral l
+equals SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName trfreader
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get top key
+assert true SimpleName MethodInvocation MethodInvocation SimpleName equals
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName nk
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral r
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral cf
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral cq
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral l
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+trfreader QualifiedName MethodInvocation SimpleName get top value
+nv SimpleName MethodInvocation StringLiteral foo
+trfreader QualifiedName MethodInvocation MethodInvocation SimpleName equals
+get top value SimpleName MethodInvocation MethodInvocation SimpleName equals
+trfreader QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName nv
+trfreader QualifiedName MethodInvocation MethodInvocation MethodInvocation StringLiteral foo
+get top value SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName nv
+get top value SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral foo
+equals SimpleName MethodInvocation MethodInvocation SimpleName nv
+equals SimpleName MethodInvocation MethodInvocation StringLiteral foo
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName trfreader
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get top value
+assert true SimpleName MethodInvocation MethodInvocation SimpleName equals
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName nv
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral foo
+trfreader QualifiedName MethodInvocation SimpleName next
+trfreader QualifiedName MethodInvocation SimpleName has top
+assert false SimpleName MethodInvocation MethodInvocation QualifiedName trfreader
+assert false SimpleName MethodInvocation MethodInvocation SimpleName has top
+nk SimpleName MethodInvocation StringLiteral r
+nk SimpleName MethodInvocation StringLiteral cf
+nk SimpleName MethodInvocation StringLiteral cq
+nk SimpleName MethodInvocation StringLiteral l
+nk SimpleName MethodInvocation NumberLiteral empty
+r StringLiteral MethodInvocation StringLiteral cf
+r StringLiteral MethodInvocation StringLiteral cq
+r StringLiteral MethodInvocation StringLiteral l
+r StringLiteral MethodInvocation NumberLiteral empty
+cf StringLiteral MethodInvocation StringLiteral cq
+cf StringLiteral MethodInvocation StringLiteral l
+cf StringLiteral MethodInvocation NumberLiteral empty
+cq StringLiteral MethodInvocation StringLiteral l
+cq StringLiteral MethodInvocation NumberLiteral empty
+l StringLiteral MethodInvocation NumberLiteral empty
+trf SimpleName MethodInvocation SimpleName seek
+trf SimpleName MethodInvocation MethodInvocation SimpleName nk
+trf SimpleName MethodInvocation MethodInvocation StringLiteral r
+trf SimpleName MethodInvocation MethodInvocation StringLiteral cf
+trf SimpleName MethodInvocation MethodInvocation StringLiteral cq
+trf SimpleName MethodInvocation MethodInvocation StringLiteral l
+trf SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+seek SimpleName MethodInvocation MethodInvocation SimpleName nk
+seek SimpleName MethodInvocation MethodInvocation StringLiteral r
+seek SimpleName MethodInvocation MethodInvocation StringLiteral cf
+seek SimpleName MethodInvocation MethodInvocation StringLiteral cq
+seek SimpleName MethodInvocation MethodInvocation StringLiteral l
+seek SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+trfreader QualifiedName MethodInvocation SimpleName has top
+assert false SimpleName MethodInvocation MethodInvocation QualifiedName trfreader
+assert false SimpleName MethodInvocation MethodInvocation SimpleName has top
+nk SimpleName MethodInvocation StringLiteral r
+nk SimpleName MethodInvocation StringLiteral cf
+nk SimpleName MethodInvocation StringLiteral cq
+nk SimpleName MethodInvocation StringLiteral l
+nk SimpleName MethodInvocation NumberLiteral empty
+r StringLiteral MethodInvocation StringLiteral cf
+r StringLiteral MethodInvocation StringLiteral cq
+r StringLiteral MethodInvocation StringLiteral l
+r StringLiteral MethodInvocation NumberLiteral empty
+cf StringLiteral MethodInvocation StringLiteral cq
+cf StringLiteral MethodInvocation StringLiteral l
+cf StringLiteral MethodInvocation NumberLiteral empty
+cq StringLiteral MethodInvocation StringLiteral l
+cq StringLiteral MethodInvocation NumberLiteral empty
+l StringLiteral MethodInvocation NumberLiteral empty
+trf SimpleName MethodInvocation SimpleName seek
+trf SimpleName MethodInvocation MethodInvocation SimpleName nk
+trf SimpleName MethodInvocation MethodInvocation StringLiteral r
+trf SimpleName MethodInvocation MethodInvocation StringLiteral cf
+trf SimpleName MethodInvocation MethodInvocation StringLiteral cq
+trf SimpleName MethodInvocation MethodInvocation StringLiteral l
+trf SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+seek SimpleName MethodInvocation MethodInvocation SimpleName nk
+seek SimpleName MethodInvocation MethodInvocation StringLiteral r
+seek SimpleName MethodInvocation MethodInvocation StringLiteral cf
+seek SimpleName MethodInvocation MethodInvocation StringLiteral cq
+seek SimpleName MethodInvocation MethodInvocation StringLiteral l
+seek SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+trfreader QualifiedName MethodInvocation SimpleName has top
+assert true SimpleName MethodInvocation MethodInvocation QualifiedName trfreader
+assert true SimpleName MethodInvocation MethodInvocation SimpleName has top
+trfreader QualifiedName MethodInvocation SimpleName get top key
+nk SimpleName MethodInvocation StringLiteral r
+nk SimpleName MethodInvocation StringLiteral cf
+nk SimpleName MethodInvocation StringLiteral cq
+nk SimpleName MethodInvocation StringLiteral l
+nk SimpleName MethodInvocation NumberLiteral empty
+r StringLiteral MethodInvocation StringLiteral cf
+r StringLiteral MethodInvocation StringLiteral cq
+r StringLiteral MethodInvocation StringLiteral l
+r StringLiteral MethodInvocation NumberLiteral empty
+cf StringLiteral MethodInvocation StringLiteral cq
+cf StringLiteral MethodInvocation StringLiteral l
+cf StringLiteral MethodInvocation NumberLiteral empty
+cq StringLiteral MethodInvocation StringLiteral l
+cq StringLiteral MethodInvocation NumberLiteral empty
+l StringLiteral MethodInvocation NumberLiteral empty
+trfreader QualifiedName MethodInvocation MethodInvocation SimpleName equals
+get top key SimpleName MethodInvocation MethodInvocation SimpleName equals
+trfreader QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName nk
+trfreader QualifiedName MethodInvocation MethodInvocation MethodInvocation StringLiteral r
+trfreader QualifiedName MethodInvocation MethodInvocation MethodInvocation StringLiteral cf
+trfreader QualifiedName MethodInvocation MethodInvocation MethodInvocation StringLiteral cq
+trfreader QualifiedName MethodInvocation MethodInvocation MethodInvocation StringLiteral l
+trfreader QualifiedName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+get top key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName nk
+get top key SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral r
+get top key SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral cf
+get top key SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral cq
+get top key SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral l
+get top key SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+equals SimpleName MethodInvocation MethodInvocation SimpleName nk
+equals SimpleName MethodInvocation MethodInvocation StringLiteral r
+equals SimpleName MethodInvocation MethodInvocation StringLiteral cf
+equals SimpleName MethodInvocation MethodInvocation StringLiteral cq
+equals SimpleName MethodInvocation MethodInvocation StringLiteral l
+equals SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName trfreader
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get top key
+assert true SimpleName MethodInvocation MethodInvocation SimpleName equals
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName nk
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral r
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral cf
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral cq
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral l
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+trfreader QualifiedName MethodInvocation SimpleName get top value
+nv SimpleName MethodInvocation StringLiteral foo
+trfreader QualifiedName MethodInvocation MethodInvocation SimpleName equals
+get top value SimpleName MethodInvocation MethodInvocation SimpleName equals
+trfreader QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName nv
+trfreader QualifiedName MethodInvocation MethodInvocation MethodInvocation StringLiteral foo
+get top value SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName nv
+get top value SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral foo
+equals SimpleName MethodInvocation MethodInvocation SimpleName nv
+equals SimpleName MethodInvocation MethodInvocation StringLiteral foo
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName trfreader
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get top value
+assert true SimpleName MethodInvocation MethodInvocation SimpleName equals
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName nv
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral foo
+trfreader QualifiedName MethodInvocation SimpleName next
+trfreader QualifiedName MethodInvocation SimpleName has top
+assert false SimpleName MethodInvocation MethodInvocation QualifiedName trfreader
+assert false SimpleName MethodInvocation MethodInvocation SimpleName has top
+nk SimpleName MethodInvocation StringLiteral r
+nk SimpleName MethodInvocation StringLiteral cf
+nk SimpleName MethodInvocation StringLiteral cq
+nk SimpleName MethodInvocation StringLiteral l
+nk SimpleName MethodInvocation NumberLiteral empty
+r StringLiteral MethodInvocation StringLiteral cf
+r StringLiteral MethodInvocation StringLiteral cq
+r StringLiteral MethodInvocation StringLiteral l
+r StringLiteral MethodInvocation NumberLiteral empty
+cf StringLiteral MethodInvocation StringLiteral cq
+cf StringLiteral MethodInvocation StringLiteral l
+cf StringLiteral MethodInvocation NumberLiteral empty
+cq StringLiteral MethodInvocation StringLiteral l
+cq StringLiteral MethodInvocation NumberLiteral empty
+l StringLiteral MethodInvocation NumberLiteral empty
+trfreader QualifiedName MethodInvocation SimpleName get last key
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName nk
+assert equals SimpleName MethodInvocation MethodInvocation StringLiteral r
+assert equals SimpleName MethodInvocation MethodInvocation StringLiteral cf
+assert equals SimpleName MethodInvocation MethodInvocation StringLiteral cq
+assert equals SimpleName MethodInvocation MethodInvocation StringLiteral l
+assert equals SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+assert equals SimpleName MethodInvocation MethodInvocation QualifiedName trfreader
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get last key
+nk SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName trfreader
+nk SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get last key
+r StringLiteral MethodInvocation MethodInvocation MethodInvocation QualifiedName trfreader
+r StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName get last key
+cf StringLiteral MethodInvocation MethodInvocation MethodInvocation QualifiedName trfreader
+cf StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName get last key
+cq StringLiteral MethodInvocation MethodInvocation MethodInvocation QualifiedName trfreader
+cq StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName get last key
+l StringLiteral MethodInvocation MethodInvocation MethodInvocation QualifiedName trfreader
+l StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName get last key
+empty NumberLiteral MethodInvocation MethodInvocation MethodInvocation QualifiedName trfreader
+empty NumberLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName get last key
+trf SimpleName MethodInvocation SimpleName close reader
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test
+public Modifier MethodDeclaration SimpleType SimpleName io exception
+void PrimitiveType MethodDeclaration SimpleName test
+void PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+test SimpleName MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

@@ -1,0 +1,76 @@
+long PrimitiveType SingleVariableDeclaration SimpleName table flush id
+update metadata SimpleName VariableDeclarationFragment BooleanLiteral false
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName update metadata
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment BooleanLiteral false
+initiate minor SimpleName VariableDeclarationFragment BooleanLiteral false
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName initiate minor
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment BooleanLiteral false
+last flush id SimpleName InfixExpression SimpleName table flush id
+tablet memory SimpleName MethodInvocation SimpleName memory reserved for min c
+closing SimpleName InfixExpression SimpleName closed
+closing SimpleName InfixExpression MethodInvocation SimpleName tablet memory
+closing SimpleName InfixExpression MethodInvocation SimpleName memory reserved for min c
+closed SimpleName InfixExpression MethodInvocation SimpleName tablet memory
+closed SimpleName InfixExpression MethodInvocation SimpleName memory reserved for min c
+tablet memory SimpleName MethodInvocation SimpleName get mem table
+tablet memory SimpleName MethodInvocation MethodInvocation SimpleName get num entries
+get mem table SimpleName MethodInvocation MethodInvocation SimpleName get num entries
+tablet memory SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral empty
+get mem table SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral empty
+get num entries SimpleName MethodInvocation InfixExpression NumberLiteral empty
+last flush id SimpleName Assignment SimpleName table flush id
+updating flush id SimpleName Assignment BooleanLiteral true
+update metadata SimpleName Assignment BooleanLiteral true
+initiate minor SimpleName Assignment BooleanLiteral true
+security constants SimpleName MethodInvocation SimpleName get system credentials
+creds SimpleName VariableDeclarationFragment MethodInvocation SimpleName security constants
+creds SimpleName VariableDeclarationFragment MethodInvocation SimpleName get system credentials
+auth info SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName creds
+tablet server SimpleName MethodInvocation SimpleName get lock
+metadata table SimpleName MethodInvocation SimpleName update tablet flush id
+metadata table SimpleName MethodInvocation SimpleName extent
+metadata table SimpleName MethodInvocation SimpleName table flush id
+metadata table SimpleName MethodInvocation SimpleName creds
+metadata table SimpleName MethodInvocation MethodInvocation SimpleName tablet server
+metadata table SimpleName MethodInvocation MethodInvocation SimpleName get lock
+update tablet flush id SimpleName MethodInvocation SimpleName extent
+update tablet flush id SimpleName MethodInvocation SimpleName table flush id
+update tablet flush id SimpleName MethodInvocation SimpleName creds
+update tablet flush id SimpleName MethodInvocation MethodInvocation SimpleName tablet server
+update tablet flush id SimpleName MethodInvocation MethodInvocation SimpleName get lock
+extent SimpleName MethodInvocation SimpleName table flush id
+extent SimpleName MethodInvocation SimpleName creds
+extent SimpleName MethodInvocation MethodInvocation SimpleName tablet server
+extent SimpleName MethodInvocation MethodInvocation SimpleName get lock
+table flush id SimpleName MethodInvocation SimpleName creds
+table flush id SimpleName MethodInvocation MethodInvocation SimpleName tablet server
+table flush id SimpleName MethodInvocation MethodInvocation SimpleName get lock
+creds SimpleName MethodInvocation MethodInvocation SimpleName tablet server
+creds SimpleName MethodInvocation MethodInvocation SimpleName get lock
+initiate minor compaction SimpleName MethodInvocation SimpleName table flush id
+initiate minor compaction SimpleName MethodInvocation QualifiedName minor compaction reasonuser
+table flush id SimpleName MethodInvocation QualifiedName minor compaction reasonuser
+initiate minor SimpleName IfStatement ExpressionStatement MethodInvocation SimpleName initiate minor compaction
+initiate minor SimpleName IfStatement ExpressionStatement MethodInvocation SimpleName table flush id
+initiate minor SimpleName IfStatement ExpressionStatement MethodInvocation QualifiedName minor compaction reasonuser
+update metadata SimpleName IfStatement IfStatement SimpleName initiate minor
+updating flush id SimpleName Assignment BooleanLiteral false
+boolean PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType boolean
+void PrimitiveType MethodDeclaration SimpleName flush
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType long
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName table flush id
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+flush SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType long
+flush SimpleName MethodDeclaration SingleVariableDeclaration SimpleName table flush id
+flush SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+flush SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName flush
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table flush id
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName flush
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table flush id

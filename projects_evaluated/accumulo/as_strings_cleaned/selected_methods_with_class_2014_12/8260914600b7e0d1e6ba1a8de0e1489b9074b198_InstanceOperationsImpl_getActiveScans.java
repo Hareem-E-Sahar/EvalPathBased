@@ -1,0 +1,110 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName active scan
+string SimpleName SimpleType SingleVariableDeclaration SimpleName tserver
+host and port SimpleName MethodInvocation SimpleName from string
+host and port SimpleName MethodInvocation SimpleName tserver
+from string SimpleName MethodInvocation SimpleName tserver
+parsed tserver SimpleName VariableDeclarationFragment MethodInvocation SimpleName host and port
+parsed tserver SimpleName VariableDeclarationFragment MethodInvocation SimpleName from string
+parsed tserver SimpleName VariableDeclarationFragment MethodInvocation SimpleName tserver
+final Modifier VariableDeclarationStatement SimpleType SimpleName host and port
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName parsed tserver
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName host and port
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName from string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName tserver
+host and port SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName parsed tserver
+client SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName client
+thrift util SimpleName MethodInvocation SimpleName get t server client
+thrift util SimpleName MethodInvocation SimpleName parsed tserver
+thrift util SimpleName MethodInvocation SimpleName context
+get t server client SimpleName MethodInvocation SimpleName parsed tserver
+get t server client SimpleName MethodInvocation SimpleName context
+parsed tserver SimpleName MethodInvocation SimpleName context
+client SimpleName Assignment MethodInvocation SimpleName thrift util
+client SimpleName Assignment MethodInvocation SimpleName get t server client
+client SimpleName Assignment MethodInvocation SimpleName parsed tserver
+client SimpleName Assignment MethodInvocation SimpleName context
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName active scan
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName active scan
+orgapacheaccumulocoretabletserverthriftactive scan QualifiedName SimpleType SingleVariableDeclaration SimpleName active scan
+tracer SimpleName MethodInvocation SimpleName trace info
+context SimpleName MethodInvocation SimpleName rpc creds
+client SimpleName MethodInvocation SimpleName get active scans
+client SimpleName MethodInvocation MethodInvocation SimpleName tracer
+client SimpleName MethodInvocation MethodInvocation SimpleName trace info
+client SimpleName MethodInvocation MethodInvocation SimpleName context
+client SimpleName MethodInvocation MethodInvocation SimpleName rpc creds
+get active scans SimpleName MethodInvocation MethodInvocation SimpleName tracer
+get active scans SimpleName MethodInvocation MethodInvocation SimpleName trace info
+get active scans SimpleName MethodInvocation MethodInvocation SimpleName context
+get active scans SimpleName MethodInvocation MethodInvocation SimpleName rpc creds
+tracer SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName context
+tracer SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName rpc creds
+trace info SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName context
+trace info SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName rpc creds
+context SimpleName MethodInvocation SimpleName get instance
+active scan impl SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName context
+active scan impl SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get instance
+active scan impl SimpleName SimpleType ClassInstanceCreation SimpleName active scan
+context SimpleName MethodInvocation ClassInstanceCreation SimpleName active scan
+get instance SimpleName MethodInvocation ClassInstanceCreation SimpleName active scan
+as SimpleName MethodInvocation SimpleName add
+as SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName active scan impl
+as SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName context
+as SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get instance
+as SimpleName MethodInvocation ClassInstanceCreation SimpleName active scan
+add SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName active scan impl
+add SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName context
+add SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get instance
+add SimpleName MethodInvocation ClassInstanceCreation SimpleName active scan
+table not found exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+accumulo exception SimpleName SimpleType ClassInstanceCreation SimpleName e
+active scan SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName client
+active scan SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName get active scans
+t transport exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+accumulo exception SimpleName SimpleType ClassInstanceCreation SimpleName e
+thrift security exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+accumulo security exception SimpleName SimpleType ClassInstanceCreation QualifiedName euser
+accumulo security exception SimpleName SimpleType ClassInstanceCreation QualifiedName ecode
+accumulo security exception SimpleName SimpleType ClassInstanceCreation SimpleName e
+euser QualifiedName ClassInstanceCreation QualifiedName ecode
+euser QualifiedName ClassInstanceCreation SimpleName e
+ecode QualifiedName ClassInstanceCreation SimpleName e
+t exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+accumulo exception SimpleName SimpleType ClassInstanceCreation SimpleName e
+thrift util SimpleName MethodInvocation SimpleName return client
+thrift util SimpleName MethodInvocation SimpleName client
+return client SimpleName MethodInvocation SimpleName client
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName get active scans
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName tserver
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName accumulo exception
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName active scan
+public Modifier MethodDeclaration SimpleName get active scans
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName tserver
+public Modifier MethodDeclaration SimpleType SimpleName accumulo exception
+public Modifier MethodDeclaration SimpleType SimpleName accumulo security exception
+list SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get active scans
+active scan SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get active scans
+get active scans SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get active scans SimpleName MethodDeclaration SingleVariableDeclaration SimpleName tserver
+get active scans SimpleName MethodDeclaration SimpleType SimpleName accumulo exception
+get active scans SimpleName MethodDeclaration SimpleType SimpleName accumulo security exception
+get active scans SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+tserver SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+tserver SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+accumulo exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName accumulo security exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName get active scans
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName tserver
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get active scans
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName tserver
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception

@@ -1,0 +1,34 @@
+configuration SimpleName SimpleType SingleVariableDeclaration SimpleName configuration
+default type cache SimpleName SimpleType TypeLiteral MethodInvocation SimpleName get name
+application properties SimpleName MethodInvocation SimpleName get class
+application properties SimpleName MethodInvocation SimpleName configuration
+application properties SimpleName MethodInvocation SimpleName type cache implementation property
+application properties SimpleName MethodInvocation MethodInvocation SimpleName get name
+application properties SimpleName MethodInvocation TypeLiteral SimpleType SimpleName type cache
+get class SimpleName MethodInvocation SimpleName configuration
+get class SimpleName MethodInvocation SimpleName type cache implementation property
+get class SimpleName MethodInvocation MethodInvocation SimpleName get name
+get class SimpleName MethodInvocation TypeLiteral SimpleType SimpleName type cache
+configuration SimpleName MethodInvocation SimpleName type cache implementation property
+configuration SimpleName MethodInvocation MethodInvocation SimpleName get name
+configuration SimpleName MethodInvocation TypeLiteral SimpleType SimpleName type cache
+type cache implementation property SimpleName MethodInvocation MethodInvocation SimpleName get name
+type cache implementation property SimpleName MethodInvocation TypeLiteral SimpleType SimpleName type cache
+atlas exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+runtime exception SimpleName SimpleType ClassInstanceCreation StringLiteral error getting type cache implementation class
+runtime exception SimpleName SimpleType ClassInstanceCreation SimpleName e
+error getting type cache implementation class StringLiteral ClassInstanceCreation SimpleName e
+protected Modifier MethodDeclaration ParameterizedType SimpleType SimpleName class
+protected Modifier MethodDeclaration SimpleName get type cache
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName configuration
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName configuration
+class SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get type cache
+get type cache SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName configuration
+get type cache SimpleName MethodDeclaration SingleVariableDeclaration SimpleName configuration
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleName get type cache
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName configuration
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get type cache
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName configuration

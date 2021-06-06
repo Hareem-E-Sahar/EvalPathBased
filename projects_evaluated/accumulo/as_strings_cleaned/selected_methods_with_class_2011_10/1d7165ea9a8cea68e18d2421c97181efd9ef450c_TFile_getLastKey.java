@@ -1,0 +1,27 @@
+index SimpleName MethodInvocation SimpleName size
+index SimpleName MethodInvocation InfixExpression NumberLiteral empty
+size SimpleName MethodInvocation InfixExpression NumberLiteral empty
+index SimpleName MethodInvocation SimpleName size
+index SimpleName MethodInvocation InfixExpression NumberLiteral empty
+size SimpleName MethodInvocation InfixExpression NumberLiteral empty
+index SimpleName MethodInvocation SimpleName get
+index SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName index
+index SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName size
+index SimpleName MethodInvocation InfixExpression NumberLiteral empty
+get SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName index
+get SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName size
+get SimpleName MethodInvocation InfixExpression NumberLiteral empty
+index SimpleName MethodInvocation MethodInvocation SimpleName buffer
+get SimpleName MethodInvocation MethodInvocation SimpleName buffer
+empty NumberLiteral InfixExpression MethodInvocation MethodInvocation SimpleName buffer
+byte array SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName buffer
+public Modifier MethodDeclaration SimpleType SimpleName raw comparable
+public Modifier MethodDeclaration SimpleName get last key
+raw comparable SimpleName SimpleType MethodDeclaration SimpleName get last key
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName raw comparable
+public Modifier TypeDeclaration MethodDeclaration SimpleName get last key
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName raw comparable
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get last key

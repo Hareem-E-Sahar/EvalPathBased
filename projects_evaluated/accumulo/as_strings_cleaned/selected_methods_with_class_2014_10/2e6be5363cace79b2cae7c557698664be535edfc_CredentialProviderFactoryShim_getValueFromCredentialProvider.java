@@ -1,0 +1,58 @@
+configuration SimpleName SimpleType SingleVariableDeclaration SimpleName conf
+string SimpleName SimpleType SingleVariableDeclaration SimpleName alias
+preconditions SimpleName MethodInvocation SimpleName check not null
+preconditions SimpleName MethodInvocation SimpleName conf
+check not null SimpleName MethodInvocation SimpleName conf
+preconditions SimpleName MethodInvocation SimpleName check not null
+preconditions SimpleName MethodInvocation SimpleName alias
+check not null SimpleName MethodInvocation SimpleName alias
+log SimpleName MethodInvocation SimpleName trace
+log SimpleName MethodInvocation StringLiteral hadoop credential provider is available attempting to extract value for {}
+log SimpleName MethodInvocation SimpleName alias
+trace SimpleName MethodInvocation StringLiteral hadoop credential provider is available attempting to extract value for {}
+trace SimpleName MethodInvocation SimpleName alias
+hadoop credential provider is available attempting to extract value for {} StringLiteral MethodInvocation SimpleName alias
+get from hadoop credential provider SimpleName MethodInvocation SimpleName conf
+get from hadoop credential provider SimpleName MethodInvocation SimpleName alias
+conf SimpleName MethodInvocation SimpleName alias
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration ArrayType PrimitiveType char
+public Modifier MethodDeclaration SimpleName get value from credential provider
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName configuration
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName conf
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName alias
+static Modifier MethodDeclaration ArrayType PrimitiveType char
+static Modifier MethodDeclaration SimpleName get value from credential provider
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName configuration
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName conf
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName alias
+static Modifier MethodDeclaration SimpleType SimpleName io exception
+char PrimitiveType ArrayType MethodDeclaration SimpleName get value from credential provider
+char PrimitiveType ArrayType MethodDeclaration SingleVariableDeclaration SimpleName conf
+char PrimitiveType ArrayType MethodDeclaration SingleVariableDeclaration SimpleName alias
+char PrimitiveType ArrayType MethodDeclaration SimpleType SimpleName io exception
+get value from credential provider SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName configuration
+get value from credential provider SimpleName MethodDeclaration SingleVariableDeclaration SimpleName conf
+get value from credential provider SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get value from credential provider SimpleName MethodDeclaration SingleVariableDeclaration SimpleName alias
+get value from credential provider SimpleName MethodDeclaration SimpleType SimpleName io exception
+conf SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName alias
+conf SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+alias SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration ArrayType PrimitiveType char
+public Modifier TypeDeclaration MethodDeclaration SimpleName get value from credential provider
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName conf
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName alias
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration ArrayType PrimitiveType char
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get value from credential provider
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName conf
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName alias
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

@@ -1,0 +1,20 @@
+hdfs zoo instance SimpleName MethodInvocation SimpleName get instance
+zoo util SimpleName MethodInvocation SimpleName get root
+zoo util SimpleName MethodInvocation MethodInvocation SimpleName hdfs zoo instance
+zoo util SimpleName MethodInvocation MethodInvocation SimpleName get instance
+get root SimpleName MethodInvocation MethodInvocation SimpleName hdfs zoo instance
+get root SimpleName MethodInvocation MethodInvocation SimpleName get instance
+zoo util SimpleName MethodInvocation InfixExpression QualifiedName constantszloggers
+get root SimpleName MethodInvocation InfixExpression QualifiedName constantszloggers
+hdfs zoo instance SimpleName MethodInvocation MethodInvocation InfixExpression QualifiedName constantszloggers
+get instance SimpleName MethodInvocation MethodInvocation InfixExpression QualifiedName constantszloggers
+private Modifier MethodDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SimpleName logger path
+string SimpleName SimpleType MethodDeclaration SimpleName logger path
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName logger path
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName logger path

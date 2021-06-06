@@ -1,0 +1,46 @@
+entity detail SimpleName SimpleType SingleVariableDeclaration SimpleName entity
+method name SimpleName VariableDeclarationFragment StringLiteral get asset type
+final Modifier VariableDeclarationStatement SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName method name
+final Modifier VariableDeclarationStatement VariableDeclarationFragment StringLiteral get asset type
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName method name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral get asset type
+repository validator SimpleName MethodInvocation SimpleName is a type of
+repository validator SimpleName MethodInvocation SimpleName component name
+repository validator SimpleName MethodInvocation SimpleName entity
+repository validator SimpleName MethodInvocation SimpleName asset type name
+repository validator SimpleName MethodInvocation SimpleName method name
+is a type of SimpleName MethodInvocation SimpleName component name
+is a type of SimpleName MethodInvocation SimpleName entity
+is a type of SimpleName MethodInvocation SimpleName asset type name
+is a type of SimpleName MethodInvocation SimpleName method name
+component name SimpleName MethodInvocation SimpleName entity
+component name SimpleName MethodInvocation SimpleName asset type name
+component name SimpleName MethodInvocation SimpleName method name
+entity SimpleName MethodInvocation SimpleName asset type name
+entity SimpleName MethodInvocation SimpleName method name
+asset type name SimpleName MethodInvocation SimpleName method name
+entity SimpleName MethodInvocation SimpleName get type
+entity type SimpleName VariableDeclarationFragment MethodInvocation SimpleName entity
+entity type SimpleName VariableDeclarationFragment MethodInvocation SimpleName get type
+instance type SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName entity type
+entity type SimpleName MethodInvocation SimpleName get type def name
+private Modifier MethodDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SimpleName get asset type
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName entity detail
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName entity
+private Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+string SimpleName SimpleType MethodDeclaration SimpleName get asset type
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName entity
+get asset type SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName entity detail
+get asset type SimpleName MethodDeclaration SingleVariableDeclaration SimpleName entity
+get asset type SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName get asset type
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get asset type
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity

@@ -1,0 +1,6 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName member registration
+list SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName retrieve remote registrations
+member registration SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName retrieve remote registrations
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration SimpleName retrieve remote registrations
+test SimpleName TypeDeclaration MethodDeclaration SimpleName retrieve remote registrations

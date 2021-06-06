@@ -1,0 +1,13 @@
+kafka notification SimpleName MethodInvocation SimpleName close
+kafka notification SimpleName MethodInvocation SimpleName stop
+kafka server SimpleName MethodInvocation SimpleName stop
+void PrimitiveType MethodDeclaration SimpleName clean up notification service
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+clean up notification service SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName clean up notification service
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName clean up notification service
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

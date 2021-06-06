@@ -1,0 +1,145 @@
+message version SimpleName SimpleType ClassInstanceCreation StringLiteral . .
+version SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName message version
+version SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral . .
+message version SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName version
+message version SimpleName SimpleType ClassInstanceCreation StringLiteral . .
+version SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName message version
+version SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral . .
+message version SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName version
+message version SimpleName SimpleType ClassInstanceCreation StringLiteral . .
+version SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName message version
+version SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral . .
+message version SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName version
+message version SimpleName SimpleType ClassInstanceCreation StringLiteral empty
+version SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName message version
+version SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral empty
+message version SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName version
+message version SimpleName SimpleType ClassInstanceCreation StringLiteral .
+version SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName message version
+version SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral .
+message version SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName version
+message version SimpleName SimpleType ClassInstanceCreation StringLiteral . .
+version SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName message version
+version SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral . .
+message version SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName version
+version SimpleName MethodInvocation SimpleName compare to
+version SimpleName MethodInvocation SimpleName version
+compare to SimpleName MethodInvocation SimpleName version
+version SimpleName MethodInvocation InfixExpression NumberLiteral empty
+compare to SimpleName MethodInvocation InfixExpression NumberLiteral empty
+version SimpleName MethodInvocation InfixExpression NumberLiteral empty
+assert true SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName version
+assert true SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName compare to
+assert true SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName version
+assert true SimpleName MethodInvocation InfixExpression NumberLiteral empty
+version SimpleName MethodInvocation SimpleName compare to
+version SimpleName MethodInvocation SimpleName version
+compare to SimpleName MethodInvocation SimpleName version
+version SimpleName MethodInvocation InfixExpression NumberLiteral empty
+compare to SimpleName MethodInvocation InfixExpression NumberLiteral empty
+version SimpleName MethodInvocation InfixExpression NumberLiteral empty
+assert true SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName version
+assert true SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName compare to
+assert true SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName version
+assert true SimpleName MethodInvocation InfixExpression NumberLiteral empty
+version SimpleName MethodInvocation SimpleName compare to
+version SimpleName MethodInvocation SimpleName version
+compare to SimpleName MethodInvocation SimpleName version
+version SimpleName MethodInvocation InfixExpression NumberLiteral empty
+compare to SimpleName MethodInvocation InfixExpression NumberLiteral empty
+version SimpleName MethodInvocation InfixExpression NumberLiteral empty
+assert true SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName version
+assert true SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName compare to
+assert true SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName version
+assert true SimpleName MethodInvocation InfixExpression NumberLiteral empty
+version SimpleName MethodInvocation SimpleName compare to
+version SimpleName MethodInvocation SimpleName version
+compare to SimpleName MethodInvocation SimpleName version
+version SimpleName MethodInvocation InfixExpression NumberLiteral empty
+compare to SimpleName MethodInvocation InfixExpression NumberLiteral empty
+version SimpleName MethodInvocation InfixExpression NumberLiteral empty
+assert true SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName version
+assert true SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName compare to
+assert true SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName version
+assert true SimpleName MethodInvocation InfixExpression NumberLiteral empty
+version SimpleName MethodInvocation SimpleName compare to
+version SimpleName MethodInvocation SimpleName version
+compare to SimpleName MethodInvocation SimpleName version
+version SimpleName MethodInvocation InfixExpression NumberLiteral empty
+compare to SimpleName MethodInvocation InfixExpression NumberLiteral empty
+version SimpleName MethodInvocation InfixExpression NumberLiteral empty
+assert true SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName version
+assert true SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName compare to
+assert true SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName version
+assert true SimpleName MethodInvocation InfixExpression NumberLiteral empty
+version SimpleName MethodInvocation SimpleName compare to
+version SimpleName MethodInvocation SimpleName version
+compare to SimpleName MethodInvocation SimpleName version
+version SimpleName MethodInvocation InfixExpression NumberLiteral empty
+compare to SimpleName MethodInvocation InfixExpression NumberLiteral empty
+version SimpleName MethodInvocation InfixExpression NumberLiteral empty
+assert true SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName version
+assert true SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName compare to
+assert true SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName version
+assert true SimpleName MethodInvocation InfixExpression NumberLiteral empty
+version SimpleName MethodInvocation SimpleName compare to
+version SimpleName MethodInvocation SimpleName version
+compare to SimpleName MethodInvocation SimpleName version
+version SimpleName MethodInvocation InfixExpression NumberLiteral empty
+compare to SimpleName MethodInvocation InfixExpression NumberLiteral empty
+version SimpleName MethodInvocation InfixExpression NumberLiteral empty
+assert true SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName version
+assert true SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName compare to
+assert true SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName version
+assert true SimpleName MethodInvocation InfixExpression NumberLiteral empty
+version SimpleName MethodInvocation SimpleName compare to
+version SimpleName MethodInvocation SimpleName version
+compare to SimpleName MethodInvocation SimpleName version
+version SimpleName MethodInvocation InfixExpression NumberLiteral empty
+compare to SimpleName MethodInvocation InfixExpression NumberLiteral empty
+version SimpleName MethodInvocation InfixExpression NumberLiteral empty
+assert true SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName version
+assert true SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName compare to
+assert true SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName version
+assert true SimpleName MethodInvocation InfixExpression NumberLiteral empty
+version SimpleName MethodInvocation SimpleName compare to
+version SimpleName MethodInvocation SimpleName version
+compare to SimpleName MethodInvocation SimpleName version
+version SimpleName MethodInvocation InfixExpression NumberLiteral empty
+compare to SimpleName MethodInvocation InfixExpression NumberLiteral empty
+version SimpleName MethodInvocation InfixExpression NumberLiteral empty
+assert true SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName version
+assert true SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName compare to
+assert true SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName version
+assert true SimpleName MethodInvocation InfixExpression NumberLiteral empty
+version SimpleName MethodInvocation SimpleName compare to
+version SimpleName MethodInvocation SimpleName version
+compare to SimpleName MethodInvocation SimpleName version
+version SimpleName MethodInvocation InfixExpression NumberLiteral empty
+compare to SimpleName MethodInvocation InfixExpression NumberLiteral empty
+version SimpleName MethodInvocation InfixExpression NumberLiteral empty
+assert true SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName version
+assert true SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName compare to
+assert true SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName version
+assert true SimpleName MethodInvocation InfixExpression NumberLiteral empty
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test compare to
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test compare to
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName test compare to
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+test compare to SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test compare to
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test compare to
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

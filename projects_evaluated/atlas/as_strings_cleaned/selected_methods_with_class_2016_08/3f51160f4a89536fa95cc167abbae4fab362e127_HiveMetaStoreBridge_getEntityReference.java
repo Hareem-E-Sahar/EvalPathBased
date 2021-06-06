@@ -1,0 +1,69 @@
+final Modifier SingleVariableDeclaration SimpleType SimpleName string
+final Modifier SingleVariableDeclaration SimpleName type name
+string SimpleName SimpleType SingleVariableDeclaration SimpleName type name
+final Modifier SingleVariableDeclaration SimpleType SimpleName string
+final Modifier SingleVariableDeclaration SimpleName tbl qualified name
+string SimpleName SimpleType SingleVariableDeclaration SimpleName tbl qualified name
+dgi client SimpleName VariableDeclarationFragment MethodInvocation SimpleName get atlas client
+atlas client SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName dgi client
+dgi client SimpleName MethodInvocation SimpleName get entity
+dgi client SimpleName MethodInvocation SimpleName type name
+dgi client SimpleName MethodInvocation QualifiedName atlas clientreferenceable attribute name
+dgi client SimpleName MethodInvocation SimpleName tbl qualified name
+get entity SimpleName MethodInvocation SimpleName type name
+get entity SimpleName MethodInvocation QualifiedName atlas clientreferenceable attribute name
+get entity SimpleName MethodInvocation SimpleName tbl qualified name
+type name SimpleName MethodInvocation QualifiedName atlas clientreferenceable attribute name
+type name SimpleName MethodInvocation SimpleName tbl qualified name
+atlas clientreferenceable attribute name QualifiedName MethodInvocation SimpleName tbl qualified name
+atlas service exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+e SimpleName MethodInvocation SimpleName get status
+e SimpleName MethodInvocation InfixExpression QualifiedName client responsestatusnot found
+get status SimpleName MethodInvocation InfixExpression QualifiedName client responsestatusnot found
+private Modifier MethodDeclaration SimpleType SimpleName referenceable
+private Modifier MethodDeclaration SimpleName get entity reference
+private Modifier MethodDeclaration SingleVariableDeclaration Modifier final
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName type name
+private Modifier MethodDeclaration SingleVariableDeclaration Modifier final
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName tbl qualified name
+private Modifier MethodDeclaration SimpleType SimpleName atlas service exception
+referenceable SimpleName SimpleType MethodDeclaration SimpleName get entity reference
+referenceable SimpleName SimpleType MethodDeclaration SingleVariableDeclaration Modifier final
+referenceable SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName type name
+referenceable SimpleName SimpleType MethodDeclaration SingleVariableDeclaration Modifier final
+referenceable SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName tbl qualified name
+referenceable SimpleName SimpleType MethodDeclaration SimpleType SimpleName atlas service exception
+get entity reference SimpleName MethodDeclaration SingleVariableDeclaration Modifier final
+get entity reference SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get entity reference SimpleName MethodDeclaration SingleVariableDeclaration SimpleName type name
+get entity reference SimpleName MethodDeclaration SingleVariableDeclaration Modifier final
+get entity reference SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get entity reference SimpleName MethodDeclaration SingleVariableDeclaration SimpleName tbl qualified name
+get entity reference SimpleName MethodDeclaration SimpleType SimpleName atlas service exception
+final Modifier SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+final Modifier SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName tbl qualified name
+type name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+type name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName tbl qualified name
+final Modifier SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas service exception
+type name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas service exception
+final Modifier SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas service exception
+tbl qualified name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas service exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName referenceable
+public Modifier TypeDeclaration MethodDeclaration SimpleName get entity reference
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName tbl qualified name
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas service exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName referenceable
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get entity reference
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName tbl qualified name
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas service exception

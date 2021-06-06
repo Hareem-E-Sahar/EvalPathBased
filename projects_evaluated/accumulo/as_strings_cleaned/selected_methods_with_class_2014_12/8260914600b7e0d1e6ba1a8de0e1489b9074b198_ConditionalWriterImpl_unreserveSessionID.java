@@ -1,0 +1,33 @@
+host and port SimpleName SimpleType SingleVariableDeclaration SimpleName location
+cached session i ds SimpleName MethodInvocation SimpleName get
+cached session i ds SimpleName MethodInvocation SimpleName location
+get SimpleName MethodInvocation SimpleName location
+sid SimpleName VariableDeclarationFragment MethodInvocation SimpleName cached session i ds
+sid SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+sid SimpleName VariableDeclarationFragment MethodInvocation SimpleName location
+session id SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName sid
+sidreserved QualifiedName Assignment BooleanLiteral false
+system SimpleName MethodInvocation SimpleName current time millis
+sidlast access time QualifiedName Assignment MethodInvocation SimpleName system
+sidlast access time QualifiedName Assignment MethodInvocation SimpleName current time millis
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName unreserve session id
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName host and port
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName location
+private Modifier MethodDeclaration Block SynchronizedStatement SimpleName cached session i ds
+void PrimitiveType MethodDeclaration SimpleName unreserve session id
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName host and port
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName location
+void PrimitiveType MethodDeclaration Block SynchronizedStatement SimpleName cached session i ds
+unreserve session id SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName host and port
+unreserve session id SimpleName MethodDeclaration SingleVariableDeclaration SimpleName location
+unreserve session id SimpleName MethodDeclaration Block SynchronizedStatement SimpleName cached session i ds
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName unreserve session id
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName location
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName unreserve session id
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName location

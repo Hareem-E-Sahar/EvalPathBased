@@ -1,0 +1,19 @@
+protected Modifier MethodDeclaration Modifier final
+protected Modifier MethodDeclaration PrimitiveType boolean
+protected Modifier MethodDeclaration SimpleName is embedded
+protected Modifier MethodDeclaration Block ReturnStatement SimpleName embedded
+final Modifier MethodDeclaration PrimitiveType boolean
+final Modifier MethodDeclaration SimpleName is embedded
+final Modifier MethodDeclaration Block ReturnStatement SimpleName embedded
+boolean PrimitiveType MethodDeclaration SimpleName is embedded
+boolean PrimitiveType MethodDeclaration Block ReturnStatement SimpleName embedded
+is embedded SimpleName MethodDeclaration Block ReturnStatement SimpleName embedded
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName is embedded
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName is embedded

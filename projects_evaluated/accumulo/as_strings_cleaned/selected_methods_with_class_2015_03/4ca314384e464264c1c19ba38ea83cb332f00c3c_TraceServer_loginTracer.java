@@ -1,0 +1,108 @@
+accumulo configuration SimpleName SimpleType SingleVariableDeclaration SimpleName acu conf
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+acu conf SimpleName MethodInvocation SimpleName get all properties with prefix
+acu conf SimpleName MethodInvocation QualifiedName propertytrace token property prefix
+get all properties with prefix SimpleName MethodInvocation QualifiedName propertytrace token property prefix
+login map SimpleName VariableDeclarationFragment MethodInvocation SimpleName acu conf
+login map SimpleName VariableDeclarationFragment MethodInvocation SimpleName get all properties with prefix
+login map SimpleName VariableDeclarationFragment MethodInvocation QualifiedName propertytrace token property prefix
+propertytrace token property prefix QualifiedName MethodInvocation SimpleName get key
+propertytrace token property prefix QualifiedName MethodInvocation InfixExpression StringLiteral keytab
+get key SimpleName MethodInvocation InfixExpression StringLiteral keytab
+login map SimpleName MethodInvocation SimpleName get
+login map SimpleName MethodInvocation InfixExpression MethodInvocation QualifiedName propertytrace token property prefix
+login map SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get key
+login map SimpleName MethodInvocation InfixExpression StringLiteral keytab
+get SimpleName MethodInvocation InfixExpression MethodInvocation QualifiedName propertytrace token property prefix
+get SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get key
+get SimpleName MethodInvocation InfixExpression StringLiteral keytab
+key tab SimpleName VariableDeclarationFragment MethodInvocation SimpleName login map
+key tab SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+key tab SimpleName VariableDeclarationFragment MethodInvocation InfixExpression StringLiteral keytab
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName key tab
+key tab SimpleName MethodInvocation SimpleName length
+key tab SimpleName MethodInvocation InfixExpression NumberLiteral empty
+length SimpleName MethodInvocation InfixExpression NumberLiteral empty
+key tab SimpleName InfixExpression InfixExpression InfixExpression NumberLiteral empty
+acu conf SimpleName MethodInvocation SimpleName get path
+acu conf SimpleName MethodInvocation QualifiedName propertygeneral kerberos keytab
+get path SimpleName MethodInvocation QualifiedName propertygeneral kerberos keytab
+key tab SimpleName Assignment MethodInvocation SimpleName acu conf
+key tab SimpleName Assignment MethodInvocation SimpleName get path
+key tab SimpleName Assignment MethodInvocation QualifiedName propertygeneral kerberos keytab
+key tab SimpleName MethodInvocation SimpleName length
+key tab SimpleName MethodInvocation InfixExpression NumberLiteral empty
+length SimpleName MethodInvocation InfixExpression NumberLiteral empty
+key tab SimpleName InfixExpression InfixExpression InfixExpression NumberLiteral empty
+acu conf SimpleName MethodInvocation SimpleName get
+acu conf SimpleName MethodInvocation QualifiedName propertytrace user
+get SimpleName MethodInvocation QualifiedName propertytrace user
+principal config SimpleName VariableDeclarationFragment MethodInvocation SimpleName acu conf
+principal config SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+principal config SimpleName VariableDeclarationFragment MethodInvocation QualifiedName propertytrace user
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName principal config
+principal config SimpleName MethodInvocation SimpleName length
+principal config SimpleName MethodInvocation InfixExpression NumberLiteral empty
+length SimpleName MethodInvocation InfixExpression NumberLiteral empty
+principal config SimpleName InfixExpression InfixExpression InfixExpression NumberLiteral empty
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation StringLiteral attempting to login as {} with {}
+log SimpleName MethodInvocation SimpleName principal config
+log SimpleName MethodInvocation SimpleName key tab
+info SimpleName MethodInvocation StringLiteral attempting to login as {} with {}
+info SimpleName MethodInvocation SimpleName principal config
+info SimpleName MethodInvocation SimpleName key tab
+attempting to login as {} with {} StringLiteral MethodInvocation SimpleName principal config
+attempting to login as {} with {} StringLiteral MethodInvocation SimpleName key tab
+principal config SimpleName MethodInvocation SimpleName key tab
+security util SimpleName MethodInvocation SimpleName login
+security util SimpleName MethodInvocation SimpleName principal config
+security util SimpleName MethodInvocation SimpleName key tab
+login SimpleName MethodInvocation SimpleName principal config
+login SimpleName MethodInvocation SimpleName key tab
+principal config SimpleName MethodInvocation SimpleName key tab
+user group information SimpleName MethodInvocation SimpleName get login user
+io exception SimpleName SimpleType SingleVariableDeclaration SimpleName io
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation StringLiteral error starting up renewal thread this shouldnt be happening
+log SimpleName MethodInvocation SimpleName io
+error SimpleName MethodInvocation StringLiteral error starting up renewal thread this shouldnt be happening
+error SimpleName MethodInvocation SimpleName io
+error starting up renewal thread this shouldnt be happening StringLiteral MethodInvocation SimpleName io
+failed to perform kerberos login for StringLiteral InfixExpression SimpleName principal config
+failed to perform kerberos login for StringLiteral InfixExpression StringLiteral using
+failed to perform kerberos login for StringLiteral InfixExpression SimpleName key tab
+principal config SimpleName InfixExpression StringLiteral using
+principal config SimpleName InfixExpression SimpleName key tab
+using StringLiteral InfixExpression SimpleName key tab
+runtime exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral failed to perform kerberos login for
+runtime exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName principal config
+runtime exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral using
+runtime exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName key tab
+private Modifier MethodDeclaration Modifier static
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName login tracer
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName accumulo configuration
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName acu conf
+static Modifier MethodDeclaration PrimitiveType void
+static Modifier MethodDeclaration SimpleName login tracer
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName accumulo configuration
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName acu conf
+void PrimitiveType MethodDeclaration SimpleName login tracer
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName accumulo configuration
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName acu conf
+login tracer SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName accumulo configuration
+login tracer SimpleName MethodDeclaration SingleVariableDeclaration SimpleName acu conf
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName login tracer
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName acu conf
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName login tracer
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName acu conf

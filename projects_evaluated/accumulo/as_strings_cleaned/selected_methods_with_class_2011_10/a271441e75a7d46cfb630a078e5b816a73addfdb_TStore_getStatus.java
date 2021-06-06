@@ -1,0 +1,21 @@
+long PrimitiveType SingleVariableDeclaration SimpleName tid
+public Modifier MethodDeclaration SimpleType SimpleName t status
+public Modifier MethodDeclaration SimpleName get status
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType long
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName tid
+t status SimpleName SimpleType MethodDeclaration SimpleName get status
+t status SimpleName SimpleType MethodDeclaration SingleVariableDeclaration PrimitiveType long
+t status SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName tid
+get status SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType long
+get status SimpleName MethodDeclaration SingleVariableDeclaration SimpleName tid
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName t status
+public Modifier TypeDeclaration MethodDeclaration SimpleName get status
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName tid
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName t status
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get status
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName tid

@@ -1,0 +1,500 @@
+final Modifier SingleVariableDeclaration SimpleType SimpleName string
+final Modifier SingleVariableDeclaration SimpleName full command
+string SimpleName SimpleType SingleVariableDeclaration SimpleName full command
+final Modifier SingleVariableDeclaration SimpleType SimpleName command line
+final Modifier SingleVariableDeclaration SimpleName cl
+command line SimpleName SimpleType SingleVariableDeclaration SimpleName cl
+final Modifier SingleVariableDeclaration SimpleType SimpleName shell
+final Modifier SingleVariableDeclaration SimpleName shell state
+shell SimpleName SimpleType SingleVariableDeclaration SimpleName shell state
+shell state SimpleName MethodInvocation SimpleName get reader
+reader SimpleName Assignment MethodInvocation SimpleName shell state
+reader SimpleName Assignment MethodInvocation SimpleName get reader
+table opt SimpleName MethodInvocation SimpleName get opt
+cl SimpleName MethodInvocation SimpleName get option value
+cl SimpleName MethodInvocation MethodInvocation SimpleName table opt
+cl SimpleName MethodInvocation MethodInvocation SimpleName get opt
+get option value SimpleName MethodInvocation MethodInvocation SimpleName table opt
+get option value SimpleName MethodInvocation MethodInvocation SimpleName get opt
+table name SimpleName VariableDeclarationFragment MethodInvocation SimpleName cl
+table name SimpleName VariableDeclarationFragment MethodInvocation SimpleName get option value
+table name SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName table opt
+table name SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get opt
+final Modifier VariableDeclarationStatement SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName table name
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName cl
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get option value
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName table name
+shell state SimpleName MethodInvocation SimpleName get connector
+shell state SimpleName MethodInvocation MethodInvocation SimpleName table operations
+get connector SimpleName MethodInvocation MethodInvocation SimpleName table operations
+shell state SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName exists
+get connector SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName exists
+table operations SimpleName MethodInvocation MethodInvocation SimpleName exists
+shell state SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName table name
+get connector SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName table name
+table operations SimpleName MethodInvocation MethodInvocation SimpleName table name
+exists SimpleName MethodInvocation SimpleName table name
+table not found exception SimpleName SimpleType ClassInstanceCreation SimpleName table name
+table namespace opt SimpleName MethodInvocation SimpleName get opt
+cl SimpleName MethodInvocation SimpleName get option value
+cl SimpleName MethodInvocation MethodInvocation SimpleName table namespace opt
+cl SimpleName MethodInvocation MethodInvocation SimpleName get opt
+get option value SimpleName MethodInvocation MethodInvocation SimpleName table namespace opt
+get option value SimpleName MethodInvocation MethodInvocation SimpleName get opt
+table namespace SimpleName VariableDeclarationFragment MethodInvocation SimpleName cl
+table namespace SimpleName VariableDeclarationFragment MethodInvocation SimpleName get option value
+table namespace SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName table namespace opt
+table namespace SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get opt
+final Modifier VariableDeclarationStatement SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName table namespace
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName cl
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get option value
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName table namespace
+shell state SimpleName MethodInvocation SimpleName get connector
+shell state SimpleName MethodInvocation MethodInvocation SimpleName table namespace operations
+get connector SimpleName MethodInvocation MethodInvocation SimpleName table namespace operations
+shell state SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName exists
+get connector SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName exists
+table namespace operations SimpleName MethodInvocation MethodInvocation SimpleName exists
+shell state SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName table namespace
+get connector SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName table namespace
+table namespace operations SimpleName MethodInvocation MethodInvocation SimpleName table namespace
+exists SimpleName MethodInvocation SimpleName table namespace
+table not found exception SimpleName SimpleType ClassInstanceCreation SimpleName table name
+delete opt SimpleName MethodInvocation SimpleName get opt
+cl SimpleName MethodInvocation SimpleName has option
+cl SimpleName MethodInvocation MethodInvocation SimpleName delete opt
+cl SimpleName MethodInvocation MethodInvocation SimpleName get opt
+has option SimpleName MethodInvocation MethodInvocation SimpleName delete opt
+has option SimpleName MethodInvocation MethodInvocation SimpleName get opt
+delete opt SimpleName MethodInvocation SimpleName get opt
+cl SimpleName MethodInvocation SimpleName get option value
+cl SimpleName MethodInvocation MethodInvocation SimpleName delete opt
+cl SimpleName MethodInvocation MethodInvocation SimpleName get opt
+get option value SimpleName MethodInvocation MethodInvocation SimpleName delete opt
+get option value SimpleName MethodInvocation MethodInvocation SimpleName get opt
+property SimpleName VariableDeclarationFragment MethodInvocation SimpleName cl
+property SimpleName VariableDeclarationFragment MethodInvocation SimpleName get option value
+property SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName delete opt
+property SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get opt
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName property
+property SimpleName MethodInvocation SimpleName contains
+property SimpleName MethodInvocation StringLiteral =
+contains SimpleName MethodInvocation StringLiteral =
+full command SimpleName MethodInvocation SimpleName index of
+full command SimpleName MethodInvocation CharacterLiteral =
+index of SimpleName MethodInvocation CharacterLiteral =
+bad argument exception SimpleName SimpleType ClassInstanceCreation StringLiteral invalid = operator in delete operation
+bad argument exception SimpleName SimpleType ClassInstanceCreation SimpleName full command
+bad argument exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName full command
+bad argument exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName index of
+bad argument exception SimpleName SimpleType ClassInstanceCreation MethodInvocation CharacterLiteral =
+invalid = operator in delete operation StringLiteral ClassInstanceCreation SimpleName full command
+invalid = operator in delete operation StringLiteral ClassInstanceCreation MethodInvocation SimpleName full command
+invalid = operator in delete operation StringLiteral ClassInstanceCreation MethodInvocation SimpleName index of
+invalid = operator in delete operation StringLiteral ClassInstanceCreation MethodInvocation CharacterLiteral =
+full command SimpleName ClassInstanceCreation MethodInvocation SimpleName full command
+full command SimpleName ClassInstanceCreation MethodInvocation SimpleName index of
+full command SimpleName ClassInstanceCreation MethodInvocation CharacterLiteral =
+property SimpleName MethodInvocation SimpleName is valid table property key
+property SimpleName MethodInvocation SimpleName property
+is valid table property key SimpleName MethodInvocation SimpleName property
+invalid pertable property : StringLiteral InfixExpression SimpleName property
+invalid pertable property : StringLiteral InfixExpression StringLiteral still removing from zookeeper if its there
+property SimpleName InfixExpression StringLiteral still removing from zookeeper if its there
+shelllog QualifiedName MethodInvocation SimpleName warn
+shelllog QualifiedName MethodInvocation InfixExpression StringLiteral invalid pertable property :
+shelllog QualifiedName MethodInvocation InfixExpression SimpleName property
+shelllog QualifiedName MethodInvocation InfixExpression StringLiteral still removing from zookeeper if its there
+warn SimpleName MethodInvocation InfixExpression StringLiteral invalid pertable property :
+warn SimpleName MethodInvocation InfixExpression SimpleName property
+warn SimpleName MethodInvocation InfixExpression StringLiteral still removing from zookeeper if its there
+shell state SimpleName MethodInvocation SimpleName get connector
+shell state SimpleName MethodInvocation MethodInvocation SimpleName table operations
+get connector SimpleName MethodInvocation MethodInvocation SimpleName table operations
+shell state SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName remove property
+get connector SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName remove property
+table operations SimpleName MethodInvocation MethodInvocation SimpleName remove property
+shell state SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName table name
+get connector SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName table name
+table operations SimpleName MethodInvocation MethodInvocation SimpleName table name
+shell state SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName property
+get connector SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName property
+table operations SimpleName MethodInvocation MethodInvocation SimpleName property
+remove property SimpleName MethodInvocation SimpleName table name
+remove property SimpleName MethodInvocation SimpleName property
+table name SimpleName MethodInvocation SimpleName property
+shelllog QualifiedName MethodInvocation SimpleName debug
+shelllog QualifiedName MethodInvocation StringLiteral successfully deleted table configuration option
+debug SimpleName MethodInvocation StringLiteral successfully deleted table configuration option
+property SimpleName MethodInvocation SimpleName is valid table property key
+property SimpleName MethodInvocation SimpleName property
+is valid table property key SimpleName MethodInvocation SimpleName property
+invalid pertable property : StringLiteral InfixExpression SimpleName property
+invalid pertable property : StringLiteral InfixExpression StringLiteral still removing from zookeeper if its there
+property SimpleName InfixExpression StringLiteral still removing from zookeeper if its there
+shelllog QualifiedName MethodInvocation SimpleName warn
+shelllog QualifiedName MethodInvocation InfixExpression StringLiteral invalid pertable property :
+shelllog QualifiedName MethodInvocation InfixExpression SimpleName property
+shelllog QualifiedName MethodInvocation InfixExpression StringLiteral still removing from zookeeper if its there
+warn SimpleName MethodInvocation InfixExpression StringLiteral invalid pertable property :
+warn SimpleName MethodInvocation InfixExpression SimpleName property
+warn SimpleName MethodInvocation InfixExpression StringLiteral still removing from zookeeper if its there
+shell state SimpleName MethodInvocation SimpleName get connector
+shell state SimpleName MethodInvocation MethodInvocation SimpleName table namespace operations
+get connector SimpleName MethodInvocation MethodInvocation SimpleName table namespace operations
+shell state SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName remove property
+get connector SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName remove property
+table namespace operations SimpleName MethodInvocation MethodInvocation SimpleName remove property
+shell state SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName table namespace
+get connector SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName table namespace
+table namespace operations SimpleName MethodInvocation MethodInvocation SimpleName table namespace
+shell state SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName property
+get connector SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName property
+table namespace operations SimpleName MethodInvocation MethodInvocation SimpleName property
+remove property SimpleName MethodInvocation SimpleName table namespace
+remove property SimpleName MethodInvocation SimpleName property
+table namespace SimpleName MethodInvocation SimpleName property
+shelllog QualifiedName MethodInvocation SimpleName debug
+shelllog QualifiedName MethodInvocation StringLiteral successfully deleted table namespace configuration option
+debug SimpleName MethodInvocation StringLiteral successfully deleted table namespace configuration option
+property SimpleName MethodInvocation SimpleName is valid zoo property key
+property SimpleName MethodInvocation SimpleName property
+is valid zoo property key SimpleName MethodInvocation SimpleName property
+invalid pertable property : StringLiteral InfixExpression SimpleName property
+invalid pertable property : StringLiteral InfixExpression StringLiteral still removing from zookeeper if its there
+property SimpleName InfixExpression StringLiteral still removing from zookeeper if its there
+shelllog QualifiedName MethodInvocation SimpleName warn
+shelllog QualifiedName MethodInvocation InfixExpression StringLiteral invalid pertable property :
+shelllog QualifiedName MethodInvocation InfixExpression SimpleName property
+shelllog QualifiedName MethodInvocation InfixExpression StringLiteral still removing from zookeeper if its there
+warn SimpleName MethodInvocation InfixExpression StringLiteral invalid pertable property :
+warn SimpleName MethodInvocation InfixExpression SimpleName property
+warn SimpleName MethodInvocation InfixExpression StringLiteral still removing from zookeeper if its there
+shell state SimpleName MethodInvocation SimpleName get connector
+shell state SimpleName MethodInvocation MethodInvocation SimpleName instance operations
+get connector SimpleName MethodInvocation MethodInvocation SimpleName instance operations
+shell state SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName remove property
+get connector SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName remove property
+instance operations SimpleName MethodInvocation MethodInvocation SimpleName remove property
+shell state SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName property
+get connector SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName property
+instance operations SimpleName MethodInvocation MethodInvocation SimpleName property
+remove property SimpleName MethodInvocation SimpleName property
+shelllog QualifiedName MethodInvocation SimpleName debug
+shelllog QualifiedName MethodInvocation StringLiteral successfully deleted system configuration option
+debug SimpleName MethodInvocation StringLiteral successfully deleted system configuration option
+set opt SimpleName MethodInvocation SimpleName get opt
+cl SimpleName MethodInvocation SimpleName has option
+cl SimpleName MethodInvocation MethodInvocation SimpleName set opt
+cl SimpleName MethodInvocation MethodInvocation SimpleName get opt
+has option SimpleName MethodInvocation MethodInvocation SimpleName set opt
+has option SimpleName MethodInvocation MethodInvocation SimpleName get opt
+set opt SimpleName MethodInvocation SimpleName get opt
+cl SimpleName MethodInvocation SimpleName get option value
+cl SimpleName MethodInvocation MethodInvocation SimpleName set opt
+cl SimpleName MethodInvocation MethodInvocation SimpleName get opt
+get option value SimpleName MethodInvocation MethodInvocation SimpleName set opt
+get option value SimpleName MethodInvocation MethodInvocation SimpleName get opt
+property SimpleName VariableDeclarationFragment MethodInvocation SimpleName cl
+property SimpleName VariableDeclarationFragment MethodInvocation SimpleName get option value
+property SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName set opt
+property SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get opt
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName property
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName value
+property SimpleName VariableDeclarationFragment VariableDeclarationStatement VariableDeclarationFragment SimpleName value
+property SimpleName MethodInvocation SimpleName contains
+property SimpleName MethodInvocation StringLiteral =
+contains SimpleName MethodInvocation StringLiteral =
+full command SimpleName MethodInvocation SimpleName index of
+full command SimpleName MethodInvocation SimpleName property
+index of SimpleName MethodInvocation SimpleName property
+bad argument exception SimpleName SimpleType ClassInstanceCreation StringLiteral missing = operator in set operation
+bad argument exception SimpleName SimpleType ClassInstanceCreation SimpleName full command
+bad argument exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName full command
+bad argument exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName index of
+bad argument exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName property
+missing = operator in set operation StringLiteral ClassInstanceCreation SimpleName full command
+missing = operator in set operation StringLiteral ClassInstanceCreation MethodInvocation SimpleName full command
+missing = operator in set operation StringLiteral ClassInstanceCreation MethodInvocation SimpleName index of
+missing = operator in set operation StringLiteral ClassInstanceCreation MethodInvocation SimpleName property
+full command SimpleName ClassInstanceCreation MethodInvocation SimpleName full command
+full command SimpleName ClassInstanceCreation MethodInvocation SimpleName index of
+full command SimpleName ClassInstanceCreation MethodInvocation SimpleName property
+property SimpleName MethodInvocation SimpleName split
+property SimpleName MethodInvocation StringLiteral =
+property SimpleName MethodInvocation NumberLiteral empty
+split SimpleName MethodInvocation StringLiteral =
+split SimpleName MethodInvocation NumberLiteral empty
+= StringLiteral MethodInvocation NumberLiteral empty
+pair SimpleName VariableDeclarationFragment MethodInvocation SimpleName property
+pair SimpleName VariableDeclarationFragment MethodInvocation SimpleName split
+pair SimpleName VariableDeclarationFragment MethodInvocation StringLiteral =
+pair SimpleName VariableDeclarationFragment MethodInvocation NumberLiteral empty
+final Modifier VariableDeclarationStatement ArrayType SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName pair
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName property
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName split
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation StringLiteral =
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation NumberLiteral empty
+pair SimpleName ArrayAccess NumberLiteral empty
+property SimpleName Assignment ArrayAccess SimpleName pair
+property SimpleName Assignment ArrayAccess NumberLiteral empty
+pair SimpleName ArrayAccess NumberLiteral empty
+value SimpleName Assignment ArrayAccess SimpleName pair
+value SimpleName Assignment ArrayAccess NumberLiteral empty
+property SimpleName MethodInvocation SimpleName is valid table property key
+property SimpleName MethodInvocation SimpleName property
+is valid table property key SimpleName MethodInvocation SimpleName property
+full command SimpleName MethodInvocation SimpleName index of
+full command SimpleName MethodInvocation SimpleName property
+index of SimpleName MethodInvocation SimpleName property
+bad argument exception SimpleName SimpleType ClassInstanceCreation StringLiteral invalid pertable property
+bad argument exception SimpleName SimpleType ClassInstanceCreation SimpleName full command
+bad argument exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName full command
+bad argument exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName index of
+bad argument exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName property
+invalid pertable property StringLiteral ClassInstanceCreation SimpleName full command
+invalid pertable property StringLiteral ClassInstanceCreation MethodInvocation SimpleName full command
+invalid pertable property StringLiteral ClassInstanceCreation MethodInvocation SimpleName index of
+invalid pertable property StringLiteral ClassInstanceCreation MethodInvocation SimpleName property
+full command SimpleName ClassInstanceCreation MethodInvocation SimpleName full command
+full command SimpleName ClassInstanceCreation MethodInvocation SimpleName index of
+full command SimpleName ClassInstanceCreation MethodInvocation SimpleName property
+propertytable default scantime visibility QualifiedName MethodInvocation SimpleName get key
+property SimpleName MethodInvocation SimpleName equals
+property SimpleName MethodInvocation MethodInvocation QualifiedName propertytable default scantime visibility
+property SimpleName MethodInvocation MethodInvocation SimpleName get key
+equals SimpleName MethodInvocation MethodInvocation QualifiedName propertytable default scantime visibility
+equals SimpleName MethodInvocation MethodInvocation SimpleName get key
+column visibility SimpleName SimpleType ClassInstanceCreation SimpleName value
+shell state SimpleName MethodInvocation SimpleName get connector
+shell state SimpleName MethodInvocation MethodInvocation SimpleName table operations
+get connector SimpleName MethodInvocation MethodInvocation SimpleName table operations
+shell state SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName set property
+get connector SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName set property
+table operations SimpleName MethodInvocation MethodInvocation SimpleName set property
+shell state SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName table name
+get connector SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName table name
+table operations SimpleName MethodInvocation MethodInvocation SimpleName table name
+shell state SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName property
+get connector SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName property
+table operations SimpleName MethodInvocation MethodInvocation SimpleName property
+shell state SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName value
+get connector SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName value
+table operations SimpleName MethodInvocation MethodInvocation SimpleName value
+set property SimpleName MethodInvocation SimpleName table name
+set property SimpleName MethodInvocation SimpleName property
+set property SimpleName MethodInvocation SimpleName value
+table name SimpleName MethodInvocation SimpleName property
+table name SimpleName MethodInvocation SimpleName value
+property SimpleName MethodInvocation SimpleName value
+shelllog QualifiedName MethodInvocation SimpleName debug
+shelllog QualifiedName MethodInvocation StringLiteral successfully set table configuration option
+debug SimpleName MethodInvocation StringLiteral successfully set table configuration option
+property SimpleName MethodInvocation SimpleName is valid table property key
+property SimpleName MethodInvocation SimpleName property
+is valid table property key SimpleName MethodInvocation SimpleName property
+full command SimpleName MethodInvocation SimpleName index of
+full command SimpleName MethodInvocation SimpleName property
+index of SimpleName MethodInvocation SimpleName property
+bad argument exception SimpleName SimpleType ClassInstanceCreation StringLiteral invalid pertable property
+bad argument exception SimpleName SimpleType ClassInstanceCreation SimpleName full command
+bad argument exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName full command
+bad argument exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName index of
+bad argument exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName property
+invalid pertable property StringLiteral ClassInstanceCreation SimpleName full command
+invalid pertable property StringLiteral ClassInstanceCreation MethodInvocation SimpleName full command
+invalid pertable property StringLiteral ClassInstanceCreation MethodInvocation SimpleName index of
+invalid pertable property StringLiteral ClassInstanceCreation MethodInvocation SimpleName property
+full command SimpleName ClassInstanceCreation MethodInvocation SimpleName full command
+full command SimpleName ClassInstanceCreation MethodInvocation SimpleName index of
+full command SimpleName ClassInstanceCreation MethodInvocation SimpleName property
+propertytable default scantime visibility QualifiedName MethodInvocation SimpleName get key
+property SimpleName MethodInvocation SimpleName equals
+property SimpleName MethodInvocation MethodInvocation QualifiedName propertytable default scantime visibility
+property SimpleName MethodInvocation MethodInvocation SimpleName get key
+equals SimpleName MethodInvocation MethodInvocation QualifiedName propertytable default scantime visibility
+equals SimpleName MethodInvocation MethodInvocation SimpleName get key
+column visibility SimpleName SimpleType ClassInstanceCreation SimpleName value
+shell state SimpleName MethodInvocation SimpleName get connector
+shell state SimpleName MethodInvocation MethodInvocation SimpleName table namespace operations
+get connector SimpleName MethodInvocation MethodInvocation SimpleName table namespace operations
+shell state SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName set property
+get connector SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName set property
+table namespace operations SimpleName MethodInvocation MethodInvocation SimpleName set property
+shell state SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName table namespace
+get connector SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName table namespace
+table namespace operations SimpleName MethodInvocation MethodInvocation SimpleName table namespace
+shell state SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName property
+get connector SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName property
+table namespace operations SimpleName MethodInvocation MethodInvocation SimpleName property
+shell state SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName value
+get connector SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName value
+table namespace operations SimpleName MethodInvocation MethodInvocation SimpleName value
+set property SimpleName MethodInvocation SimpleName table namespace
+set property SimpleName MethodInvocation SimpleName property
+set property SimpleName MethodInvocation SimpleName value
+table namespace SimpleName MethodInvocation SimpleName property
+table namespace SimpleName MethodInvocation SimpleName value
+property SimpleName MethodInvocation SimpleName value
+shelllog QualifiedName MethodInvocation SimpleName debug
+shelllog QualifiedName MethodInvocation StringLiteral successfully set table configuration option
+debug SimpleName MethodInvocation StringLiteral successfully set table configuration option
+property SimpleName MethodInvocation SimpleName is valid zoo property key
+property SimpleName MethodInvocation SimpleName property
+is valid zoo property key SimpleName MethodInvocation SimpleName property
+full command SimpleName MethodInvocation SimpleName index of
+full command SimpleName MethodInvocation SimpleName property
+index of SimpleName MethodInvocation SimpleName property
+bad argument exception SimpleName SimpleType ClassInstanceCreation StringLiteral property cannot be modified in zookeeper
+bad argument exception SimpleName SimpleType ClassInstanceCreation SimpleName full command
+bad argument exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName full command
+bad argument exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName index of
+bad argument exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName property
+property cannot be modified in zookeeper StringLiteral ClassInstanceCreation SimpleName full command
+property cannot be modified in zookeeper StringLiteral ClassInstanceCreation MethodInvocation SimpleName full command
+property cannot be modified in zookeeper StringLiteral ClassInstanceCreation MethodInvocation SimpleName index of
+property cannot be modified in zookeeper StringLiteral ClassInstanceCreation MethodInvocation SimpleName property
+full command SimpleName ClassInstanceCreation MethodInvocation SimpleName full command
+full command SimpleName ClassInstanceCreation MethodInvocation SimpleName index of
+full command SimpleName ClassInstanceCreation MethodInvocation SimpleName property
+shell state SimpleName MethodInvocation SimpleName get connector
+shell state SimpleName MethodInvocation MethodInvocation SimpleName instance operations
+get connector SimpleName MethodInvocation MethodInvocation SimpleName instance operations
+shell state SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName set property
+get connector SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName set property
+instance operations SimpleName MethodInvocation MethodInvocation SimpleName set property
+shell state SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName property
+get connector SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName property
+instance operations SimpleName MethodInvocation MethodInvocation SimpleName property
+shell state SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName value
+get connector SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName value
+instance operations SimpleName MethodInvocation MethodInvocation SimpleName value
+set property SimpleName MethodInvocation SimpleName property
+set property SimpleName MethodInvocation SimpleName value
+property SimpleName MethodInvocation SimpleName value
+shelllog QualifiedName MethodInvocation SimpleName debug
+shelllog QualifiedName MethodInvocation StringLiteral successfully set system configuration option
+debug SimpleName MethodInvocation StringLiteral successfully set system configuration option
+tree map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+tree map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+tree map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+tree map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+final Modifier VariableDeclarationStatement ParameterizedType SimpleType SimpleName tree map
+final Modifier VariableDeclarationStatement ParameterizedType SimpleType SimpleName string
+final Modifier VariableDeclarationStatement ParameterizedType SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName system config
+shell state SimpleName MethodInvocation SimpleName get connector
+shell state SimpleName MethodInvocation MethodInvocation SimpleName instance operations
+get connector SimpleName MethodInvocation MethodInvocation SimpleName instance operations
+shell state SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get system configuration
+get connector SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get system configuration
+instance operations SimpleName MethodInvocation MethodInvocation SimpleName get system configuration
+system config SimpleName MethodInvocation SimpleName put all
+system config SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName instance operations
+system config SimpleName MethodInvocation MethodInvocation SimpleName get system configuration
+put all SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName instance operations
+put all SimpleName MethodInvocation MethodInvocation SimpleName get system configuration
+output file opt SimpleName MethodInvocation SimpleName get opt
+cl SimpleName MethodInvocation SimpleName get option value
+cl SimpleName MethodInvocation MethodInvocation SimpleName output file opt
+cl SimpleName MethodInvocation MethodInvocation SimpleName get opt
+get option value SimpleName MethodInvocation MethodInvocation SimpleName output file opt
+get option value SimpleName MethodInvocation MethodInvocation SimpleName get opt
+output file SimpleName VariableDeclarationFragment MethodInvocation SimpleName cl
+output file SimpleName VariableDeclarationFragment MethodInvocation SimpleName get option value
+output file SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName output file opt
+output file SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get opt
+final Modifier VariableDeclarationStatement SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName output file
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName cl
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get option value
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName output file
+print file SimpleName SimpleType ClassInstanceCreation SimpleName output file
+output file SimpleName InfixExpression ConditionalExpression ClassInstanceCreation SimpleName output file
+print file SimpleName VariableDeclarationFragment ConditionalExpression InfixExpression SimpleName output file
+print file SimpleName VariableDeclarationFragment ConditionalExpression ClassInstanceCreation SimpleName output file
+final Modifier VariableDeclarationStatement SimpleType SimpleName print file
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName print file
+print file SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName print file
+tree map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+tree map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+tree map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+tree map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+final Modifier VariableDeclarationStatement ParameterizedType SimpleType SimpleName tree map
+final Modifier VariableDeclarationStatement ParameterizedType SimpleType SimpleName string
+final Modifier VariableDeclarationStatement ParameterizedType SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName site config
+shell state SimpleName MethodInvocation SimpleName get connector
+shell state SimpleName MethodInvocation MethodInvocation SimpleName instance operations
+get connector SimpleName MethodInvocation MethodInvocation SimpleName instance operations
+shell state SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get site configuration
+get connector SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get site configuration
+instance operations SimpleName MethodInvocation MethodInvocation SimpleName get site configuration
+site config SimpleName MethodInvocation SimpleName put all
+site config SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName instance operations
+site config SimpleName MethodInvocation MethodInvocation SimpleName get site configuration
+put all SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName instance operations
+put all SimpleName MethodInvocation MethodInvocation SimpleName get site configuration
+tree map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+tree map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+tree map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+tree map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+final Modifier VariableDeclarationStatement ParameterizedType SimpleType SimpleName tree map
+final Modifier VariableDeclarationStatement ParameterizedType SimpleType SimpleName string
+final Modifier VariableDeclarationStatement ParameterizedType SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName defaults
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+entry SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName default entry
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName default entry
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName default entry
+accumulo configuration SimpleName MethodInvocation SimpleName get default configuration
+default entry SimpleName MethodInvocation SimpleName get key
+default entry SimpleName MethodInvocation SimpleName get value
+defaults SimpleName MethodInvocation SimpleName put
+defaults SimpleName MethodInvocation MethodInvocation SimpleName default entry
+defaults SimpleName MethodInvocation MethodInvocation SimpleName get key
+defaults SimpleName MethodInvocation MethodInvocation SimpleName default entry
+defaults SimpleName MethodInvocation MethodInvocation SimpleName get value
+put SimpleName MethodInvocation MethodInvocation SimpleName default entry
+put SimpleName MethodInvocation MethodInvocation SimpleName get key
+put SimpleName MethodInvocation MethodInvocation SimpleName default entry
+put SimpleName MethodInvocation MethodInvocation SimpleName get value
+default entry SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName default entry
+default entry SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get value
+get key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName default entry
+get key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get value
+default entry SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName accumulo configuration
+default entry SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName get default configuration
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+shell state SimpleName MethodInvocation SimpleName get connector
+shell state SimpleName MethodInvocation MethodInvocation SimpleName instance operations
+get connector SimpleName MethodInvocation MethodInvocation SimpleName instance operations
+shell state SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get system configuration
+get connector SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get system configuration
+instance operations SimpleName MethodInvocation MethodInvocation SimpleName get system configuration
+instance operations SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName entry set
+get system configuration SimpleName MethodInvocation MethodInvocation SimpleName entry set
+acuconf SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get system configuration
+acuconf SimpleName VariableDeclarationFragment MethodInvocation SimpleName entry set
+shell state SimpleName MethodInvocation SimpleName get connector
+shell state SimpleName MethodInvocation MethodInvocation SimpleName table operations
+get connector SimpleName MethodInvocation MethodInvocation SimpleName table operations
+shell state SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get properties
+get connector SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get properties
+table operations SimpleName MethodInvocation MethodInvocation SimpleName get properties
+shell state SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName table name
+get connector SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName table name
+table operations SimpleName MethodInvocation MethodInvocation SimpleName table name

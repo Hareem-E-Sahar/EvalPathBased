@@ -1,0 +1,119 @@
+reader SimpleName SimpleType SingleVariableDeclaration SimpleName reader
+reader SimpleName MethodInvocation SimpleName get index
+index iter SimpleName VariableDeclarationFragment MethodInvocation SimpleName reader
+index iter SimpleName VariableDeclarationFragment MethodInvocation SimpleName get index
+file skv iterator SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName index iter
+index iter SimpleName MethodInvocation SimpleName has top
+index iter SimpleName MethodInvocation SimpleName get top key
+key SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName index iter
+key SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get top key
+last key SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName key
+last key SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName index iter
+last key SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get top key
+key SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName last key
+reader SimpleName MethodInvocation SimpleName get first key
+reader SimpleName MethodInvocation MethodInvocation SimpleName compare to
+get first key SimpleName MethodInvocation MethodInvocation SimpleName compare to
+reader SimpleName MethodInvocation MethodInvocation SimpleName last key
+get first key SimpleName MethodInvocation MethodInvocation SimpleName last key
+compare to SimpleName MethodInvocation SimpleName last key
+reader SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral empty
+get first key SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral empty
+compare to SimpleName MethodInvocation InfixExpression NumberLiteral empty
+last key SimpleName MethodInvocation InfixExpression NumberLiteral empty
+reader SimpleName MethodInvocation SimpleName get first key
+first key out of order StringLiteral InfixExpression MethodInvocation SimpleName reader
+first key out of order StringLiteral InfixExpression MethodInvocation SimpleName get first key
+first key out of order StringLiteral InfixExpression StringLiteral empty
+first key out of order StringLiteral InfixExpression SimpleName last key
+reader SimpleName MethodInvocation InfixExpression StringLiteral empty
+get first key SimpleName MethodInvocation InfixExpression StringLiteral empty
+reader SimpleName MethodInvocation InfixExpression SimpleName last key
+get first key SimpleName MethodInvocation InfixExpression SimpleName last key
+empty StringLiteral InfixExpression SimpleName last key
+runtime exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral first key out of order
+runtime exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral empty
+runtime exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName last key
+index iter SimpleName MethodInvocation SimpleName next
+index iter SimpleName MethodInvocation SimpleName has top
+index iter SimpleName MethodInvocation SimpleName get top key
+last key SimpleName MethodInvocation SimpleName compare to
+last key SimpleName MethodInvocation MethodInvocation SimpleName index iter
+last key SimpleName MethodInvocation MethodInvocation SimpleName get top key
+compare to SimpleName MethodInvocation MethodInvocation SimpleName index iter
+compare to SimpleName MethodInvocation MethodInvocation SimpleName get top key
+last key SimpleName MethodInvocation InfixExpression NumberLiteral empty
+compare to SimpleName MethodInvocation InfixExpression NumberLiteral empty
+index iter SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral empty
+get top key SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral empty
+index iter SimpleName MethodInvocation SimpleName get top key
+indext out of order StringLiteral InfixExpression SimpleName last key
+indext out of order StringLiteral InfixExpression StringLiteral empty
+indext out of order StringLiteral InfixExpression MethodInvocation SimpleName index iter
+indext out of order StringLiteral InfixExpression MethodInvocation SimpleName get top key
+last key SimpleName InfixExpression StringLiteral empty
+last key SimpleName InfixExpression MethodInvocation SimpleName index iter
+last key SimpleName InfixExpression MethodInvocation SimpleName get top key
+empty StringLiteral InfixExpression MethodInvocation SimpleName index iter
+empty StringLiteral InfixExpression MethodInvocation SimpleName get top key
+runtime exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral indext out of order
+runtime exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName last key
+runtime exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral empty
+index iter SimpleName MethodInvocation SimpleName get top key
+key SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName index iter
+key SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get top key
+last key SimpleName Assignment ClassInstanceCreation SimpleType SimpleName key
+last key SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName index iter
+last key SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName get top key
+index iter SimpleName MethodInvocation SimpleName next
+reader SimpleName MethodInvocation SimpleName get last key
+reader SimpleName MethodInvocation MethodInvocation SimpleName equals
+get last key SimpleName MethodInvocation MethodInvocation SimpleName equals
+reader SimpleName MethodInvocation MethodInvocation SimpleName last key
+get last key SimpleName MethodInvocation MethodInvocation SimpleName last key
+equals SimpleName MethodInvocation SimpleName last key
+reader SimpleName MethodInvocation SimpleName get last key
+last key out of order StringLiteral InfixExpression MethodInvocation SimpleName reader
+last key out of order StringLiteral InfixExpression MethodInvocation SimpleName get last key
+last key out of order StringLiteral InfixExpression StringLiteral empty
+last key out of order StringLiteral InfixExpression SimpleName last key
+reader SimpleName MethodInvocation InfixExpression StringLiteral empty
+get last key SimpleName MethodInvocation InfixExpression StringLiteral empty
+reader SimpleName MethodInvocation InfixExpression SimpleName last key
+get last key SimpleName MethodInvocation InfixExpression SimpleName last key
+empty StringLiteral InfixExpression SimpleName last key
+runtime exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral last key out of order
+runtime exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral empty
+runtime exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName last key
+private Modifier MethodDeclaration Modifier static
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName check index
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName reader
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName reader
+private Modifier MethodDeclaration SimpleType SimpleName io exception
+static Modifier MethodDeclaration PrimitiveType void
+static Modifier MethodDeclaration SimpleName check index
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName reader
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName reader
+static Modifier MethodDeclaration SimpleType SimpleName io exception
+void PrimitiveType MethodDeclaration SimpleName check index
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName reader
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName reader
+void PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+check index SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName reader
+check index SimpleName MethodDeclaration SingleVariableDeclaration SimpleName reader
+check index SimpleName MethodDeclaration SimpleType SimpleName io exception
+reader SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName check index
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName reader
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName check index
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName reader
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

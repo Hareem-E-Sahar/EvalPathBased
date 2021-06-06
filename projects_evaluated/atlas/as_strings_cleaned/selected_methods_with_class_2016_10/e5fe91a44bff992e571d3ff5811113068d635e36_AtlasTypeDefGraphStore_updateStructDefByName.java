@@ -1,0 +1,66 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName name
+atlas struct def SimpleName SimpleType SingleVariableDeclaration SimpleName struct def
+struct def store SimpleName MethodInvocation SimpleName update by name
+struct def store SimpleName MethodInvocation SimpleName name
+struct def store SimpleName MethodInvocation SimpleName struct def
+update by name SimpleName MethodInvocation SimpleName name
+update by name SimpleName MethodInvocation SimpleName struct def
+name SimpleName MethodInvocation SimpleName struct def
+ret SimpleName VariableDeclarationFragment MethodInvocation SimpleName struct def store
+ret SimpleName VariableDeclarationFragment MethodInvocation SimpleName update by name
+ret SimpleName VariableDeclarationFragment MethodInvocation SimpleName name
+ret SimpleName VariableDeclarationFragment MethodInvocation SimpleName struct def
+atlas struct def SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ret
+type registry SimpleName MethodInvocation SimpleName update type by name
+type registry SimpleName MethodInvocation SimpleName name
+type registry SimpleName MethodInvocation SimpleName ret
+update type by name SimpleName MethodInvocation SimpleName name
+update type by name SimpleName MethodInvocation SimpleName ret
+name SimpleName MethodInvocation SimpleName ret
+override SimpleName MarkerAnnotation MethodDeclaration MarkerAnnotation SimpleName graph transaction
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName atlas struct def
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName update struct def by name
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName name
+graph transaction SimpleName MarkerAnnotation MethodDeclaration Modifier public
+graph transaction SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName atlas struct def
+graph transaction SimpleName MarkerAnnotation MethodDeclaration SimpleName update struct def by name
+graph transaction SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName name
+graph transaction SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName struct def
+public Modifier MethodDeclaration SimpleType SimpleName atlas struct def
+public Modifier MethodDeclaration SimpleName update struct def by name
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName name
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas struct def
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName struct def
+public Modifier MethodDeclaration SimpleType SimpleName atlas base exception
+atlas struct def SimpleName SimpleType MethodDeclaration SimpleName update struct def by name
+atlas struct def SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName name
+atlas struct def SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName struct def
+atlas struct def SimpleName SimpleType MethodDeclaration SimpleType SimpleName atlas base exception
+update struct def by name SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+update struct def by name SimpleName MethodDeclaration SingleVariableDeclaration SimpleName name
+update struct def by name SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas struct def
+update struct def by name SimpleName MethodDeclaration SingleVariableDeclaration SimpleName struct def
+update struct def by name SimpleName MethodDeclaration SimpleType SimpleName atlas base exception
+update struct def by name SimpleName MethodDeclaration Block ReturnStatement SimpleName ret
+name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName struct def
+name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+struct def SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName graph transaction
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas struct def
+public Modifier TypeDeclaration MethodDeclaration SimpleName update struct def by name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName struct def
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName graph transaction
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas struct def
+test SimpleName TypeDeclaration MethodDeclaration SimpleName update struct def by name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName struct def
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception

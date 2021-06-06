@@ -1,0 +1,92 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName type name
+atlas graph provider SimpleName MethodInvocation SimpleName get graph instance
+atlas graph provider SimpleName MethodInvocation MethodInvocation SimpleName query
+get graph instance SimpleName MethodInvocation MethodInvocation SimpleName query
+atlas graph provider SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName has
+get graph instance SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName has
+query SimpleName MethodInvocation MethodInvocation SimpleName has
+atlas graph provider SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName constantstype name property key
+get graph instance SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName constantstype name property key
+query SimpleName MethodInvocation MethodInvocation QualifiedName constantstype name property key
+atlas graph provider SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName atlas graph querycomparision operatorequal
+get graph instance SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName atlas graph querycomparision operatorequal
+query SimpleName MethodInvocation MethodInvocation QualifiedName atlas graph querycomparision operatorequal
+atlas graph provider SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName type name
+get graph instance SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName type name
+query SimpleName MethodInvocation MethodInvocation SimpleName type name
+has SimpleName MethodInvocation QualifiedName constantstype name property key
+has SimpleName MethodInvocation QualifiedName atlas graph querycomparision operatorequal
+has SimpleName MethodInvocation SimpleName type name
+constantstype name property key QualifiedName MethodInvocation QualifiedName atlas graph querycomparision operatorequal
+constantstype name property key QualifiedName MethodInvocation SimpleName type name
+atlas graph querycomparision operatorequal QualifiedName MethodInvocation SimpleName type name
+query SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName query
+query SimpleName VariableDeclarationFragment MethodInvocation SimpleName has
+query SimpleName VariableDeclarationFragment MethodInvocation QualifiedName constantstype name property key
+query SimpleName VariableDeclarationFragment MethodInvocation QualifiedName atlas graph querycomparision operatorequal
+query SimpleName VariableDeclarationFragment MethodInvocation SimpleName type name
+atlas graph query SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName query
+iterator SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas vertex
+query SimpleName MethodInvocation SimpleName vertices
+query SimpleName MethodInvocation MethodInvocation SimpleName iterator
+vertices SimpleName MethodInvocation MethodInvocation SimpleName iterator
+results SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName query
+results SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName vertices
+results SimpleName VariableDeclarationFragment MethodInvocation SimpleName iterator
+results SimpleName MethodInvocation SimpleName has next
+results SimpleName InfixExpression InfixExpression MethodInvocation SimpleName results
+results SimpleName InfixExpression InfixExpression MethodInvocation SimpleName has next
+has instance vertex SimpleName VariableDeclarationFragment InfixExpression InfixExpression SimpleName results
+has instance vertex SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName results
+has instance vertex SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName has next
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName has instance vertex
+log SimpleName MethodInvocation SimpleName is debug enabled
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral type name {} has instance vertex {}
+log SimpleName MethodInvocation SimpleName type name
+log SimpleName MethodInvocation SimpleName has instance vertex
+debug SimpleName MethodInvocation StringLiteral type name {} has instance vertex {}
+debug SimpleName MethodInvocation SimpleName type name
+debug SimpleName MethodInvocation SimpleName has instance vertex
+type name {} has instance vertex {} StringLiteral MethodInvocation SimpleName type name
+type name {} has instance vertex {} StringLiteral MethodInvocation SimpleName has instance vertex
+type name SimpleName MethodInvocation SimpleName has instance vertex
+boolean PrimitiveType VariableDeclarationStatement Block ReturnStatement SimpleName has instance vertex
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName type has instance vertex
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName type name
+public Modifier MethodDeclaration SimpleType SimpleName atlas base exception
+static Modifier MethodDeclaration PrimitiveType boolean
+static Modifier MethodDeclaration SimpleName type has instance vertex
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName type name
+static Modifier MethodDeclaration SimpleType SimpleName atlas base exception
+static Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+static Modifier MethodDeclaration Block ReturnStatement SimpleName has instance vertex
+boolean PrimitiveType MethodDeclaration SimpleName type has instance vertex
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName type name
+boolean PrimitiveType MethodDeclaration SimpleType SimpleName atlas base exception
+boolean PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+boolean PrimitiveType MethodDeclaration Block ReturnStatement SimpleName has instance vertex
+type has instance vertex SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+type has instance vertex SimpleName MethodDeclaration SingleVariableDeclaration SimpleName type name
+type has instance vertex SimpleName MethodDeclaration SimpleType SimpleName atlas base exception
+type has instance vertex SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+type has instance vertex SimpleName MethodDeclaration Block ReturnStatement SimpleName has instance vertex
+type name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName type has instance vertex
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type name
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName type has instance vertex
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type name
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception

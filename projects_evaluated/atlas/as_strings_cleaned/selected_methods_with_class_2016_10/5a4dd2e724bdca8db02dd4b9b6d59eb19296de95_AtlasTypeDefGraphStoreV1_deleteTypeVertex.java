@@ -1,0 +1,57 @@
+atlas vertex SimpleName SimpleType SingleVariableDeclaration SimpleName vertex
+iterator SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas edge
+vertex SimpleName MethodInvocation SimpleName get edges
+vertex SimpleName MethodInvocation QualifiedName atlas edge directionin
+get edges SimpleName MethodInvocation QualifiedName atlas edge directionin
+vertex SimpleName MethodInvocation MethodInvocation SimpleName iterator
+get edges SimpleName MethodInvocation MethodInvocation SimpleName iterator
+atlas edge directionin QualifiedName MethodInvocation MethodInvocation SimpleName iterator
+in edges SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName vertex
+in edges SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get edges
+in edges SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation QualifiedName atlas edge directionin
+in edges SimpleName VariableDeclarationFragment MethodInvocation SimpleName iterator
+in edges SimpleName MethodInvocation SimpleName has next
+atlas base exception SimpleName SimpleType ClassInstanceCreation StringLiteral has references
+iterable SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas edge
+vertex SimpleName MethodInvocation SimpleName get edges
+vertex SimpleName MethodInvocation QualifiedName atlas edge directionout
+get edges SimpleName MethodInvocation QualifiedName atlas edge directionout
+edges SimpleName VariableDeclarationFragment MethodInvocation SimpleName vertex
+edges SimpleName VariableDeclarationFragment MethodInvocation SimpleName get edges
+edges SimpleName VariableDeclarationFragment MethodInvocation QualifiedName atlas edge directionout
+atlas edge SimpleName SimpleType SingleVariableDeclaration SimpleName edge
+atlas graph SimpleName MethodInvocation SimpleName remove edge
+atlas graph SimpleName MethodInvocation SimpleName edge
+remove edge SimpleName MethodInvocation SimpleName edge
+atlas edge SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName edges
+edge SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName edges
+atlas graph SimpleName MethodInvocation SimpleName remove vertex
+atlas graph SimpleName MethodInvocation SimpleName vertex
+remove vertex SimpleName MethodInvocation SimpleName vertex
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName delete type vertex
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas vertex
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName vertex
+public Modifier MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier MethodDeclaration Block EnhancedForStatement SimpleName edges
+void PrimitiveType MethodDeclaration SimpleName delete type vertex
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas vertex
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName vertex
+void PrimitiveType MethodDeclaration SimpleType SimpleName atlas base exception
+void PrimitiveType MethodDeclaration Block EnhancedForStatement SimpleName edges
+delete type vertex SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas vertex
+delete type vertex SimpleName MethodDeclaration SingleVariableDeclaration SimpleName vertex
+delete type vertex SimpleName MethodDeclaration SimpleType SimpleName atlas base exception
+delete type vertex SimpleName MethodDeclaration Block EnhancedForStatement SimpleName edges
+vertex SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName delete type vertex
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName vertex
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName delete type vertex
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName vertex
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception

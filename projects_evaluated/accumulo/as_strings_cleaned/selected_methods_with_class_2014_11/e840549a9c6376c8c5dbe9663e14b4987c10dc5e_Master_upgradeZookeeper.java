@@ -1,0 +1,500 @@
+accumulo SimpleName MethodInvocation SimpleName get accumulo persistent version
+accumulo SimpleName MethodInvocation SimpleName fs
+get accumulo persistent version SimpleName MethodInvocation SimpleName fs
+accumulo persistent version SimpleName VariableDeclarationFragment MethodInvocation SimpleName accumulo
+accumulo persistent version SimpleName VariableDeclarationFragment MethodInvocation SimpleName get accumulo persistent version
+accumulo persistent version SimpleName VariableDeclarationFragment MethodInvocation SimpleName fs
+final Modifier VariableDeclarationStatement PrimitiveType int
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName accumulo persistent version
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName accumulo
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get accumulo persistent version
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName fs
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName accumulo persistent version
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName accumulo
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get accumulo persistent version
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName fs
+accumulo SimpleName MethodInvocation SimpleName persistent version needs upgrade
+accumulo SimpleName MethodInvocation SimpleName accumulo persistent version
+persistent version needs upgrade SimpleName MethodInvocation SimpleName accumulo persistent version
+illegal state exception SimpleName SimpleType ClassInstanceCreation StringLiteral access to fate should not have been initialized prior to the master transitioning to active please save all logs and file a bug
+accumulo SimpleName MethodInvocation SimpleName abort if fate transactions
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation StringLiteral upgrading zookeeper
+info SimpleName MethodInvocation StringLiteral upgrading zookeeper
+zoo reader writer SimpleName MethodInvocation SimpleName get instance
+zoo SimpleName VariableDeclarationFragment MethodInvocation SimpleName zoo reader writer
+zoo SimpleName VariableDeclarationFragment MethodInvocation SimpleName get instance
+i zoo reader writer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName zoo
+zoo util SimpleName MethodInvocation SimpleName get root
+zoo util SimpleName MethodInvocation SimpleName instance
+get root SimpleName MethodInvocation SimpleName instance
+zoo root SimpleName VariableDeclarationFragment MethodInvocation SimpleName zoo util
+zoo root SimpleName VariableDeclarationFragment MethodInvocation SimpleName get root
+zoo root SimpleName VariableDeclarationFragment MethodInvocation SimpleName instance
+final Modifier VariableDeclarationStatement SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName zoo root
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName zoo util
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get root
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName instance
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName zoo root
+handling updates for version StringLiteral InfixExpression SimpleName accumulo persistent version
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation InfixExpression StringLiteral handling updates for version
+log SimpleName MethodInvocation InfixExpression SimpleName accumulo persistent version
+debug SimpleName MethodInvocation InfixExpression StringLiteral handling updates for version
+debug SimpleName MethodInvocation InfixExpression SimpleName accumulo persistent version
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral cleaning out remnants of logger role
+debug SimpleName MethodInvocation StringLiteral cleaning out remnants of logger role
+zoo root SimpleName InfixExpression StringLiteral loggers
+zoo SimpleName MethodInvocation SimpleName recursive delete
+zoo SimpleName MethodInvocation InfixExpression SimpleName zoo root
+zoo SimpleName MethodInvocation InfixExpression StringLiteral loggers
+zoo SimpleName MethodInvocation QualifiedName node missing policyskip
+recursive delete SimpleName MethodInvocation InfixExpression SimpleName zoo root
+recursive delete SimpleName MethodInvocation InfixExpression StringLiteral loggers
+recursive delete SimpleName MethodInvocation QualifiedName node missing policyskip
+zoo root SimpleName InfixExpression MethodInvocation QualifiedName node missing policyskip
+loggers StringLiteral InfixExpression MethodInvocation QualifiedName node missing policyskip
+zoo root SimpleName InfixExpression StringLiteral deadloggers
+zoo SimpleName MethodInvocation SimpleName recursive delete
+zoo SimpleName MethodInvocation InfixExpression SimpleName zoo root
+zoo SimpleName MethodInvocation InfixExpression StringLiteral deadloggers
+zoo SimpleName MethodInvocation QualifiedName node missing policyskip
+recursive delete SimpleName MethodInvocation InfixExpression SimpleName zoo root
+recursive delete SimpleName MethodInvocation InfixExpression StringLiteral deadloggers
+recursive delete SimpleName MethodInvocation QualifiedName node missing policyskip
+zoo root SimpleName InfixExpression MethodInvocation QualifiedName node missing policyskip
+deadloggers StringLiteral InfixExpression MethodInvocation QualifiedName node missing policyskip
+byte PrimitiveType ArrayType ArrayCreation ArrayInitializer CharacterLiteral empty
+zero SimpleName VariableDeclarationFragment ArrayCreation ArrayType PrimitiveType byte
+zero SimpleName VariableDeclarationFragment ArrayCreation ArrayInitializer CharacterLiteral empty
+final Modifier VariableDeclarationStatement ArrayType PrimitiveType byte
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName zero
+byte PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName zero
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral initializing recovery area
+debug SimpleName MethodInvocation StringLiteral initializing recovery area
+zoo root SimpleName InfixExpression QualifiedName constantszrecovery
+zoo SimpleName MethodInvocation SimpleName put persistent data
+zoo SimpleName MethodInvocation InfixExpression SimpleName zoo root
+zoo SimpleName MethodInvocation InfixExpression QualifiedName constantszrecovery
+zoo SimpleName MethodInvocation SimpleName zero
+zoo SimpleName MethodInvocation QualifiedName node exists policyskip
+put persistent data SimpleName MethodInvocation InfixExpression SimpleName zoo root
+put persistent data SimpleName MethodInvocation InfixExpression QualifiedName constantszrecovery
+put persistent data SimpleName MethodInvocation SimpleName zero
+put persistent data SimpleName MethodInvocation QualifiedName node exists policyskip
+zoo root SimpleName InfixExpression MethodInvocation SimpleName zero
+constantszrecovery QualifiedName InfixExpression MethodInvocation SimpleName zero
+zoo root SimpleName InfixExpression MethodInvocation QualifiedName node exists policyskip
+constantszrecovery QualifiedName InfixExpression MethodInvocation QualifiedName node exists policyskip
+zero SimpleName MethodInvocation QualifiedName node exists policyskip
+string SimpleName SimpleType SingleVariableDeclaration SimpleName id
+zoo root SimpleName InfixExpression QualifiedName constantsztables
+zoo SimpleName MethodInvocation SimpleName get children
+zoo SimpleName MethodInvocation InfixExpression SimpleName zoo root
+zoo SimpleName MethodInvocation InfixExpression QualifiedName constantsztables
+get children SimpleName MethodInvocation InfixExpression SimpleName zoo root
+get children SimpleName MethodInvocation InfixExpression QualifiedName constantsztables
+prepping table StringLiteral InfixExpression SimpleName id
+prepping table StringLiteral InfixExpression StringLiteral for compaction cancellations
+id SimpleName InfixExpression StringLiteral for compaction cancellations
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation InfixExpression StringLiteral prepping table
+log SimpleName MethodInvocation InfixExpression SimpleName id
+log SimpleName MethodInvocation InfixExpression StringLiteral for compaction cancellations
+debug SimpleName MethodInvocation InfixExpression StringLiteral prepping table
+debug SimpleName MethodInvocation InfixExpression SimpleName id
+debug SimpleName MethodInvocation InfixExpression StringLiteral for compaction cancellations
+zoo root SimpleName InfixExpression QualifiedName constantsztables
+zoo root SimpleName InfixExpression StringLiteral /
+zoo root SimpleName InfixExpression SimpleName id
+zoo root SimpleName InfixExpression QualifiedName constantsztable compact cancel id
+constantsztables QualifiedName InfixExpression StringLiteral /
+constantsztables QualifiedName InfixExpression SimpleName id
+constantsztables QualifiedName InfixExpression QualifiedName constantsztable compact cancel id
+/ StringLiteral InfixExpression SimpleName id
+/ StringLiteral InfixExpression QualifiedName constantsztable compact cancel id
+id SimpleName InfixExpression QualifiedName constantsztable compact cancel id
+zoo SimpleName MethodInvocation SimpleName put persistent data
+zoo SimpleName MethodInvocation InfixExpression SimpleName zoo root
+zoo SimpleName MethodInvocation InfixExpression QualifiedName constantsztables
+zoo SimpleName MethodInvocation InfixExpression StringLiteral /
+zoo SimpleName MethodInvocation InfixExpression SimpleName id
+zoo SimpleName MethodInvocation InfixExpression QualifiedName constantsztable compact cancel id
+zoo SimpleName MethodInvocation SimpleName zero
+zoo SimpleName MethodInvocation QualifiedName node exists policyskip
+put persistent data SimpleName MethodInvocation InfixExpression SimpleName zoo root
+put persistent data SimpleName MethodInvocation InfixExpression QualifiedName constantsztables
+put persistent data SimpleName MethodInvocation InfixExpression StringLiteral /
+put persistent data SimpleName MethodInvocation InfixExpression SimpleName id
+put persistent data SimpleName MethodInvocation InfixExpression QualifiedName constantsztable compact cancel id
+put persistent data SimpleName MethodInvocation SimpleName zero
+put persistent data SimpleName MethodInvocation QualifiedName node exists policyskip
+zoo root SimpleName InfixExpression MethodInvocation SimpleName zero
+constantsztables QualifiedName InfixExpression MethodInvocation SimpleName zero
+/ StringLiteral InfixExpression MethodInvocation SimpleName zero
+id SimpleName InfixExpression MethodInvocation SimpleName zero
+constantsztable compact cancel id QualifiedName InfixExpression MethodInvocation SimpleName zero
+zoo root SimpleName InfixExpression MethodInvocation QualifiedName node exists policyskip
+constantsztables QualifiedName InfixExpression MethodInvocation QualifiedName node exists policyskip
+/ StringLiteral InfixExpression MethodInvocation QualifiedName node exists policyskip
+id SimpleName InfixExpression MethodInvocation QualifiedName node exists policyskip
+constantsztable compact cancel id QualifiedName InfixExpression MethodInvocation QualifiedName node exists policyskip
+zero SimpleName MethodInvocation QualifiedName node exists policyskip
+id SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName zoo
+id SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName get children
+suppress warnings SimpleName SingleMemberAnnotation StringLiteral deprecation
+propertytserv wal sync method QualifiedName MethodInvocation SimpleName get key
+zoo root SimpleName InfixExpression QualifiedName constantszconfig
+zoo root SimpleName InfixExpression StringLiteral /
+zoo root SimpleName InfixExpression MethodInvocation QualifiedName propertytserv wal sync method
+zoo root SimpleName InfixExpression MethodInvocation SimpleName get key
+constantszconfig QualifiedName InfixExpression StringLiteral /
+constantszconfig QualifiedName InfixExpression MethodInvocation QualifiedName propertytserv wal sync method
+constantszconfig QualifiedName InfixExpression MethodInvocation SimpleName get key
+/ StringLiteral InfixExpression MethodInvocation QualifiedName propertytserv wal sync method
+/ StringLiteral InfixExpression MethodInvocation SimpleName get key
+zpath SimpleName VariableDeclarationFragment InfixExpression SimpleName zoo root
+zpath SimpleName VariableDeclarationFragment InfixExpression QualifiedName constantszconfig
+zpath SimpleName VariableDeclarationFragment InfixExpression StringLiteral /
+zpath SimpleName VariableDeclarationFragment InfixExpression MethodInvocation QualifiedName propertytserv wal sync method
+zpath SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName get key
+suppress warnings SimpleName SingleMemberAnnotation VariableDeclarationStatement SimpleType SimpleName string
+deprecation StringLiteral SingleMemberAnnotation VariableDeclarationStatement SimpleType SimpleName string
+suppress warnings SimpleName SingleMemberAnnotation VariableDeclarationStatement VariableDeclarationFragment SimpleName zpath
+deprecation StringLiteral SingleMemberAnnotation VariableDeclarationStatement VariableDeclarationFragment SimpleName zpath
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName zpath
+flush default SimpleName VariableDeclarationFragment BooleanLiteral false
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName flush default
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment BooleanLiteral false
+zoo SimpleName MethodInvocation SimpleName get data
+zoo SimpleName MethodInvocation SimpleName zpath
+get data SimpleName MethodInvocation SimpleName zpath
+data SimpleName VariableDeclarationFragment MethodInvocation SimpleName zoo
+data SimpleName VariableDeclarationFragment MethodInvocation SimpleName get data
+data SimpleName VariableDeclarationFragment MethodInvocation SimpleName zpath
+byte PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName data
+string SimpleName SimpleType ClassInstanceCreation SimpleName data
+string SimpleName SimpleType ClassInstanceCreation SimpleName utf
+data SimpleName ClassInstanceCreation SimpleName utf
+string SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName ends with
+data SimpleName ClassInstanceCreation MethodInvocation SimpleName ends with
+utf SimpleName ClassInstanceCreation MethodInvocation SimpleName ends with
+string SimpleName SimpleType ClassInstanceCreation MethodInvocation StringLiteral flush
+data SimpleName ClassInstanceCreation MethodInvocation StringLiteral flush
+utf SimpleName ClassInstanceCreation MethodInvocation StringLiteral flush
+ends with SimpleName MethodInvocation StringLiteral flush
+flush default SimpleName Assignment BooleanLiteral true
+keeper exceptionno node exception QualifiedName SimpleType SingleVariableDeclaration SimpleName ex
+string SimpleName SimpleType SingleVariableDeclaration SimpleName id
+zoo root SimpleName InfixExpression QualifiedName constantsztables
+zoo SimpleName MethodInvocation SimpleName get children
+zoo SimpleName MethodInvocation InfixExpression SimpleName zoo root
+zoo SimpleName MethodInvocation InfixExpression QualifiedName constantsztables
+get children SimpleName MethodInvocation InfixExpression SimpleName zoo root
+get children SimpleName MethodInvocation InfixExpression QualifiedName constantsztables
+converting table StringLiteral InfixExpression SimpleName id
+converting table StringLiteral InfixExpression StringLiteral wa log setting to durability
+id SimpleName InfixExpression StringLiteral wa log setting to durability
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation InfixExpression StringLiteral converting table
+log SimpleName MethodInvocation InfixExpression SimpleName id
+log SimpleName MethodInvocation InfixExpression StringLiteral wa log setting to durability
+debug SimpleName MethodInvocation InfixExpression StringLiteral converting table
+debug SimpleName MethodInvocation InfixExpression SimpleName id
+debug SimpleName MethodInvocation InfixExpression StringLiteral wa log setting to durability
+suppress warnings SimpleName SingleMemberAnnotation StringLiteral deprecation
+propertytable walog enabled QualifiedName MethodInvocation SimpleName get key
+zoo root SimpleName InfixExpression QualifiedName constantsztables
+zoo root SimpleName InfixExpression StringLiteral /
+zoo root SimpleName InfixExpression SimpleName id
+zoo root SimpleName InfixExpression QualifiedName constantsztable conf
+zoo root SimpleName InfixExpression StringLiteral /
+constantsztables QualifiedName InfixExpression StringLiteral /
+constantsztables QualifiedName InfixExpression SimpleName id
+constantsztables QualifiedName InfixExpression QualifiedName constantsztable conf
+constantsztables QualifiedName InfixExpression StringLiteral /
+constantsztables QualifiedName InfixExpression MethodInvocation QualifiedName propertytable walog enabled
+constantsztables QualifiedName InfixExpression MethodInvocation SimpleName get key
+/ StringLiteral InfixExpression SimpleName id
+/ StringLiteral InfixExpression QualifiedName constantsztable conf
+/ StringLiteral InfixExpression StringLiteral /
+/ StringLiteral InfixExpression MethodInvocation QualifiedName propertytable walog enabled
+/ StringLiteral InfixExpression MethodInvocation SimpleName get key
+id SimpleName InfixExpression QualifiedName constantsztable conf
+id SimpleName InfixExpression StringLiteral /
+id SimpleName InfixExpression MethodInvocation QualifiedName propertytable walog enabled
+id SimpleName InfixExpression MethodInvocation SimpleName get key
+constantsztable conf QualifiedName InfixExpression StringLiteral /
+constantsztable conf QualifiedName InfixExpression MethodInvocation QualifiedName propertytable walog enabled
+constantsztable conf QualifiedName InfixExpression MethodInvocation SimpleName get key
+/ StringLiteral InfixExpression MethodInvocation QualifiedName propertytable walog enabled
+/ StringLiteral InfixExpression MethodInvocation SimpleName get key
+path SimpleName VariableDeclarationFragment InfixExpression SimpleName zoo root
+path SimpleName VariableDeclarationFragment InfixExpression QualifiedName constantsztables
+path SimpleName VariableDeclarationFragment InfixExpression StringLiteral /
+path SimpleName VariableDeclarationFragment InfixExpression SimpleName id
+path SimpleName VariableDeclarationFragment InfixExpression QualifiedName constantsztable conf
+path SimpleName VariableDeclarationFragment InfixExpression StringLiteral /
+path SimpleName VariableDeclarationFragment InfixExpression MethodInvocation QualifiedName propertytable walog enabled
+path SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName get key
+suppress warnings SimpleName SingleMemberAnnotation VariableDeclarationStatement SimpleType SimpleName string
+deprecation StringLiteral SingleMemberAnnotation VariableDeclarationStatement SimpleType SimpleName string
+suppress warnings SimpleName SingleMemberAnnotation VariableDeclarationStatement VariableDeclarationFragment SimpleName path
+deprecation StringLiteral SingleMemberAnnotation VariableDeclarationStatement VariableDeclarationFragment SimpleName path
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName path
+zoo SimpleName MethodInvocation SimpleName get data
+zoo SimpleName MethodInvocation SimpleName path
+get data SimpleName MethodInvocation SimpleName path
+data SimpleName VariableDeclarationFragment MethodInvocation SimpleName zoo
+data SimpleName VariableDeclarationFragment MethodInvocation SimpleName get data
+data SimpleName VariableDeclarationFragment MethodInvocation SimpleName path
+byte PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName data
+string SimpleName SimpleType ClassInstanceCreation SimpleName data
+string SimpleName SimpleType ClassInstanceCreation SimpleName utf
+data SimpleName ClassInstanceCreation SimpleName utf
+boolean SimpleName MethodInvocation SimpleName parse boolean
+boolean SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName string
+boolean SimpleName MethodInvocation ClassInstanceCreation SimpleName data
+boolean SimpleName MethodInvocation ClassInstanceCreation SimpleName utf
+parse boolean SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName string
+parse boolean SimpleName MethodInvocation ClassInstanceCreation SimpleName data
+parse boolean SimpleName MethodInvocation ClassInstanceCreation SimpleName utf
+use wal SimpleName VariableDeclarationFragment MethodInvocation SimpleName boolean
+use wal SimpleName VariableDeclarationFragment MethodInvocation SimpleName parse boolean
+use wal SimpleName VariableDeclarationFragment MethodInvocation ClassInstanceCreation SimpleName data
+use wal SimpleName VariableDeclarationFragment MethodInvocation ClassInstanceCreation SimpleName utf
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName use wal
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName boolean
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName parse boolean
+zoo SimpleName MethodInvocation SimpleName recursive delete
+zoo SimpleName MethodInvocation SimpleName path
+zoo SimpleName MethodInvocation QualifiedName node missing policyfail
+recursive delete SimpleName MethodInvocation SimpleName path
+recursive delete SimpleName MethodInvocation QualifiedName node missing policyfail
+path SimpleName MethodInvocation QualifiedName node missing policyfail
+propertytable durability QualifiedName MethodInvocation SimpleName get key
+zoo root SimpleName InfixExpression QualifiedName constantsztables
+zoo root SimpleName InfixExpression StringLiteral /
+zoo root SimpleName InfixExpression SimpleName id
+zoo root SimpleName InfixExpression QualifiedName constantsztable conf
+zoo root SimpleName InfixExpression StringLiteral /
+constantsztables QualifiedName InfixExpression StringLiteral /
+constantsztables QualifiedName InfixExpression SimpleName id
+constantsztables QualifiedName InfixExpression QualifiedName constantsztable conf
+constantsztables QualifiedName InfixExpression StringLiteral /
+constantsztables QualifiedName InfixExpression MethodInvocation QualifiedName propertytable durability
+constantsztables QualifiedName InfixExpression MethodInvocation SimpleName get key
+/ StringLiteral InfixExpression SimpleName id
+/ StringLiteral InfixExpression QualifiedName constantsztable conf
+/ StringLiteral InfixExpression StringLiteral /
+/ StringLiteral InfixExpression MethodInvocation QualifiedName propertytable durability
+/ StringLiteral InfixExpression MethodInvocation SimpleName get key
+id SimpleName InfixExpression QualifiedName constantsztable conf
+id SimpleName InfixExpression StringLiteral /
+id SimpleName InfixExpression MethodInvocation QualifiedName propertytable durability
+id SimpleName InfixExpression MethodInvocation SimpleName get key
+constantsztable conf QualifiedName InfixExpression StringLiteral /
+constantsztable conf QualifiedName InfixExpression MethodInvocation QualifiedName propertytable durability
+constantsztable conf QualifiedName InfixExpression MethodInvocation SimpleName get key
+/ StringLiteral InfixExpression MethodInvocation QualifiedName propertytable durability
+/ StringLiteral InfixExpression MethodInvocation SimpleName get key
+path SimpleName Assignment InfixExpression SimpleName zoo root
+path SimpleName Assignment InfixExpression QualifiedName constantsztables
+path SimpleName Assignment InfixExpression StringLiteral /
+path SimpleName Assignment InfixExpression SimpleName id
+path SimpleName Assignment InfixExpression QualifiedName constantsztable conf
+path SimpleName Assignment InfixExpression StringLiteral /
+path SimpleName Assignment InfixExpression MethodInvocation QualifiedName propertytable durability
+path SimpleName Assignment InfixExpression MethodInvocation SimpleName get key
+flush StringLiteral MethodInvocation SimpleName get bytes
+zoo SimpleName MethodInvocation SimpleName put persistent data
+zoo SimpleName MethodInvocation SimpleName path
+zoo SimpleName MethodInvocation MethodInvocation StringLiteral flush
+zoo SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+zoo SimpleName MethodInvocation QualifiedName node exists policyskip
+put persistent data SimpleName MethodInvocation SimpleName path
+put persistent data SimpleName MethodInvocation MethodInvocation StringLiteral flush
+put persistent data SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+put persistent data SimpleName MethodInvocation QualifiedName node exists policyskip
+path SimpleName MethodInvocation MethodInvocation StringLiteral flush
+path SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+path SimpleName MethodInvocation QualifiedName node exists policyskip
+flush StringLiteral MethodInvocation MethodInvocation QualifiedName node exists policyskip
+get bytes SimpleName MethodInvocation MethodInvocation QualifiedName node exists policyskip
+sync StringLiteral MethodInvocation SimpleName get bytes
+zoo SimpleName MethodInvocation SimpleName put persistent data
+zoo SimpleName MethodInvocation SimpleName path
+zoo SimpleName MethodInvocation MethodInvocation StringLiteral sync
+zoo SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+zoo SimpleName MethodInvocation QualifiedName node exists policyskip
+put persistent data SimpleName MethodInvocation SimpleName path
+put persistent data SimpleName MethodInvocation MethodInvocation StringLiteral sync
+put persistent data SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+put persistent data SimpleName MethodInvocation QualifiedName node exists policyskip
+path SimpleName MethodInvocation MethodInvocation StringLiteral sync
+path SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+path SimpleName MethodInvocation QualifiedName node exists policyskip
+sync StringLiteral MethodInvocation MethodInvocation QualifiedName node exists policyskip
+get bytes SimpleName MethodInvocation MethodInvocation QualifiedName node exists policyskip
+none StringLiteral MethodInvocation SimpleName get bytes
+zoo SimpleName MethodInvocation SimpleName put persistent data
+zoo SimpleName MethodInvocation SimpleName path
+zoo SimpleName MethodInvocation MethodInvocation StringLiteral none
+zoo SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+zoo SimpleName MethodInvocation QualifiedName node exists policyskip
+put persistent data SimpleName MethodInvocation SimpleName path
+put persistent data SimpleName MethodInvocation MethodInvocation StringLiteral none
+put persistent data SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+put persistent data SimpleName MethodInvocation QualifiedName node exists policyskip
+path SimpleName MethodInvocation MethodInvocation StringLiteral none
+path SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+path SimpleName MethodInvocation QualifiedName node exists policyskip
+none StringLiteral MethodInvocation MethodInvocation QualifiedName node exists policyskip
+get bytes SimpleName MethodInvocation MethodInvocation QualifiedName node exists policyskip
+use wal SimpleName IfStatement Block IfStatement SimpleName flush default
+boolean PrimitiveType VariableDeclarationStatement Block IfStatement SimpleName use wal
+keeper exceptionno node exception QualifiedName SimpleType SingleVariableDeclaration SimpleName ex
+id SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName zoo
+id SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName get children
+zoo util SimpleName MethodInvocation SimpleName get root
+zoo util SimpleName MethodInvocation SimpleName instance
+get root SimpleName MethodInvocation SimpleName instance
+zoo util SimpleName MethodInvocation InfixExpression QualifiedName constantsznamespaces
+get root SimpleName MethodInvocation InfixExpression QualifiedName constantsznamespaces
+instance SimpleName MethodInvocation InfixExpression QualifiedName constantsznamespaces
+namespaces SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName zoo util
+namespaces SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName get root
+namespaces SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName instance
+namespaces SimpleName VariableDeclarationFragment InfixExpression QualifiedName constantsznamespaces
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName namespaces
+byte PrimitiveType ArrayType ArrayCreation NumberLiteral empty
+zoo SimpleName MethodInvocation SimpleName put persistent data
+zoo SimpleName MethodInvocation SimpleName namespaces
+zoo SimpleName MethodInvocation ArrayCreation ArrayType PrimitiveType byte
+zoo SimpleName MethodInvocation ArrayCreation NumberLiteral empty
+zoo SimpleName MethodInvocation QualifiedName node exists policyskip
+put persistent data SimpleName MethodInvocation SimpleName namespaces
+put persistent data SimpleName MethodInvocation ArrayCreation ArrayType PrimitiveType byte
+put persistent data SimpleName MethodInvocation ArrayCreation NumberLiteral empty
+put persistent data SimpleName MethodInvocation QualifiedName node exists policyskip
+namespaces SimpleName MethodInvocation ArrayCreation ArrayType PrimitiveType byte
+namespaces SimpleName MethodInvocation ArrayCreation NumberLiteral empty
+namespaces SimpleName MethodInvocation QualifiedName node exists policyskip
+byte PrimitiveType ArrayType ArrayCreation MethodInvocation QualifiedName node exists policyskip
+empty NumberLiteral ArrayCreation MethodInvocation QualifiedName node exists policyskip
+pair SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+pair SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+pair SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName namespace
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName namespace
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName namespace
+pair SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+pair SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+pair SimpleName SimpleType ParameterizedType ClassInstanceCreation QualifiedName namespacesaccumulo namespace
+string SimpleName SimpleType ParameterizedType ClassInstanceCreation QualifiedName namespacesaccumulo namespace
+string SimpleName SimpleType ParameterizedType ClassInstanceCreation QualifiedName namespacesaccumulo namespace
+pair SimpleName SimpleType ParameterizedType ClassInstanceCreation QualifiedName namespacesaccumulo namespace id
+string SimpleName SimpleType ParameterizedType ClassInstanceCreation QualifiedName namespacesaccumulo namespace id
+string SimpleName SimpleType ParameterizedType ClassInstanceCreation QualifiedName namespacesaccumulo namespace id
+namespacesaccumulo namespace QualifiedName ClassInstanceCreation QualifiedName namespacesaccumulo namespace id
+collections SimpleName MethodInvocation SimpleName singleton
+collections SimpleName MethodInvocation ClassInstanceCreation QualifiedName namespacesaccumulo namespace
+collections SimpleName MethodInvocation ClassInstanceCreation QualifiedName namespacesaccumulo namespace id
+singleton SimpleName MethodInvocation ClassInstanceCreation QualifiedName namespacesaccumulo namespace
+singleton SimpleName MethodInvocation ClassInstanceCreation QualifiedName namespacesaccumulo namespace id
+pair SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+pair SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+pair SimpleName SimpleType ParameterizedType ClassInstanceCreation QualifiedName namespacesdefault namespace
+string SimpleName SimpleType ParameterizedType ClassInstanceCreation QualifiedName namespacesdefault namespace
+string SimpleName SimpleType ParameterizedType ClassInstanceCreation QualifiedName namespacesdefault namespace
+pair SimpleName SimpleType ParameterizedType ClassInstanceCreation QualifiedName namespacesdefault namespace id
+string SimpleName SimpleType ParameterizedType ClassInstanceCreation QualifiedName namespacesdefault namespace id
+string SimpleName SimpleType ParameterizedType ClassInstanceCreation QualifiedName namespacesdefault namespace id
+namespacesdefault namespace QualifiedName ClassInstanceCreation QualifiedName namespacesdefault namespace id
+collections SimpleName MethodInvocation SimpleName singleton
+collections SimpleName MethodInvocation ClassInstanceCreation QualifiedName namespacesdefault namespace
+collections SimpleName MethodInvocation ClassInstanceCreation QualifiedName namespacesdefault namespace id
+singleton SimpleName MethodInvocation ClassInstanceCreation QualifiedName namespacesdefault namespace
+singleton SimpleName MethodInvocation ClassInstanceCreation QualifiedName namespacesdefault namespace id
+iterables SimpleName MethodInvocation SimpleName concat
+iterables SimpleName MethodInvocation MethodInvocation SimpleName collections
+iterables SimpleName MethodInvocation MethodInvocation SimpleName singleton
+iterables SimpleName MethodInvocation MethodInvocation ClassInstanceCreation QualifiedName namespacesaccumulo namespace
+iterables SimpleName MethodInvocation MethodInvocation ClassInstanceCreation QualifiedName namespacesaccumulo namespace id
+iterables SimpleName MethodInvocation MethodInvocation SimpleName collections
+iterables SimpleName MethodInvocation MethodInvocation SimpleName singleton
+iterables SimpleName MethodInvocation MethodInvocation ClassInstanceCreation QualifiedName namespacesdefault namespace
+iterables SimpleName MethodInvocation MethodInvocation ClassInstanceCreation QualifiedName namespacesdefault namespace id
+concat SimpleName MethodInvocation MethodInvocation SimpleName collections
+concat SimpleName MethodInvocation MethodInvocation SimpleName singleton
+concat SimpleName MethodInvocation MethodInvocation ClassInstanceCreation QualifiedName namespacesaccumulo namespace
+concat SimpleName MethodInvocation MethodInvocation ClassInstanceCreation QualifiedName namespacesaccumulo namespace id
+concat SimpleName MethodInvocation MethodInvocation SimpleName collections
+concat SimpleName MethodInvocation MethodInvocation SimpleName singleton
+concat SimpleName MethodInvocation MethodInvocation ClassInstanceCreation QualifiedName namespacesdefault namespace
+concat SimpleName MethodInvocation MethodInvocation ClassInstanceCreation QualifiedName namespacesdefault namespace id
+collections SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName collections
+collections SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName singleton
+singleton SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName collections
+singleton SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName singleton
+namespace SimpleName MethodInvocation SimpleName get first
+ns SimpleName VariableDeclarationFragment MethodInvocation SimpleName namespace
+ns SimpleName VariableDeclarationFragment MethodInvocation SimpleName get first
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ns
+namespace SimpleName MethodInvocation SimpleName get second
+id SimpleName VariableDeclarationFragment MethodInvocation SimpleName namespace
+id SimpleName VariableDeclarationFragment MethodInvocation SimpleName get second
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName id
+upgrade creating namespace \ StringLiteral InfixExpression SimpleName ns
+upgrade creating namespace \ StringLiteral InfixExpression StringLiteral \ id
+upgrade creating namespace \ StringLiteral InfixExpression SimpleName id
+upgrade creating namespace \ StringLiteral InfixExpression StringLiteral )
+ns SimpleName InfixExpression StringLiteral \ id
+ns SimpleName InfixExpression SimpleName id
+ns SimpleName InfixExpression StringLiteral )
+\ id StringLiteral InfixExpression SimpleName id
+\ id StringLiteral InfixExpression StringLiteral )
+id SimpleName InfixExpression StringLiteral )
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation InfixExpression StringLiteral upgrade creating namespace \
+log SimpleName MethodInvocation InfixExpression SimpleName ns
+log SimpleName MethodInvocation InfixExpression StringLiteral \ id
+log SimpleName MethodInvocation InfixExpression SimpleName id
+log SimpleName MethodInvocation InfixExpression StringLiteral )
+debug SimpleName MethodInvocation InfixExpression StringLiteral upgrade creating namespace \
+debug SimpleName MethodInvocation InfixExpression SimpleName ns
+debug SimpleName MethodInvocation InfixExpression StringLiteral \ id
+debug SimpleName MethodInvocation InfixExpression SimpleName id
+debug SimpleName MethodInvocation InfixExpression StringLiteral )
+namespaces SimpleName MethodInvocation SimpleName exists
+namespaces SimpleName MethodInvocation SimpleName instance
+namespaces SimpleName MethodInvocation SimpleName id
+exists SimpleName MethodInvocation SimpleName instance
+exists SimpleName MethodInvocation SimpleName id
+instance SimpleName MethodInvocation SimpleName id
+instance SimpleName MethodInvocation SimpleName get instance id
+table manager SimpleName MethodInvocation SimpleName prepare new namespace state
+table manager SimpleName MethodInvocation MethodInvocation SimpleName instance
+table manager SimpleName MethodInvocation MethodInvocation SimpleName get instance id
+table manager SimpleName MethodInvocation SimpleName id
+table manager SimpleName MethodInvocation SimpleName ns
+table manager SimpleName MethodInvocation QualifiedName node exists policyskip
+prepare new namespace state SimpleName MethodInvocation MethodInvocation SimpleName instance
+prepare new namespace state SimpleName MethodInvocation MethodInvocation SimpleName get instance id
+prepare new namespace state SimpleName MethodInvocation SimpleName id
+prepare new namespace state SimpleName MethodInvocation SimpleName ns
+prepare new namespace state SimpleName MethodInvocation QualifiedName node exists policyskip
+instance SimpleName MethodInvocation MethodInvocation SimpleName id
+get instance id SimpleName MethodInvocation MethodInvocation SimpleName id
+instance SimpleName MethodInvocation MethodInvocation SimpleName ns
+get instance id SimpleName MethodInvocation MethodInvocation SimpleName ns
+instance SimpleName MethodInvocation MethodInvocation QualifiedName node exists policyskip
+get instance id SimpleName MethodInvocation MethodInvocation QualifiedName node exists policyskip
+id SimpleName MethodInvocation SimpleName ns
+id SimpleName MethodInvocation QualifiedName node exists policyskip
+ns SimpleName MethodInvocation QualifiedName node exists policyskip

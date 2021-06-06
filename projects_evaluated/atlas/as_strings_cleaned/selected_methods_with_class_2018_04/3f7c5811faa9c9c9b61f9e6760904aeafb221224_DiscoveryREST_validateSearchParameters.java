@@ -1,0 +1,62 @@
+search parameters SimpleName SimpleType SingleVariableDeclaration SimpleName parameters
+parameters SimpleName MethodInvocation SimpleName get type name
+servlets SimpleName MethodInvocation SimpleName validate query param length
+servlets SimpleName MethodInvocation StringLiteral type name
+servlets SimpleName MethodInvocation MethodInvocation SimpleName parameters
+servlets SimpleName MethodInvocation MethodInvocation SimpleName get type name
+validate query param length SimpleName MethodInvocation StringLiteral type name
+validate query param length SimpleName MethodInvocation MethodInvocation SimpleName parameters
+validate query param length SimpleName MethodInvocation MethodInvocation SimpleName get type name
+type name StringLiteral MethodInvocation MethodInvocation SimpleName parameters
+type name StringLiteral MethodInvocation MethodInvocation SimpleName get type name
+parameters SimpleName MethodInvocation SimpleName get classification
+servlets SimpleName MethodInvocation SimpleName validate query param length
+servlets SimpleName MethodInvocation StringLiteral classification
+servlets SimpleName MethodInvocation MethodInvocation SimpleName parameters
+servlets SimpleName MethodInvocation MethodInvocation SimpleName get classification
+validate query param length SimpleName MethodInvocation StringLiteral classification
+validate query param length SimpleName MethodInvocation MethodInvocation SimpleName parameters
+validate query param length SimpleName MethodInvocation MethodInvocation SimpleName get classification
+classification StringLiteral MethodInvocation MethodInvocation SimpleName parameters
+classification StringLiteral MethodInvocation MethodInvocation SimpleName get classification
+parameters SimpleName MethodInvocation SimpleName get query
+string utils SimpleName MethodInvocation SimpleName is not empty
+string utils SimpleName MethodInvocation MethodInvocation SimpleName parameters
+string utils SimpleName MethodInvocation MethodInvocation SimpleName get query
+is not empty SimpleName MethodInvocation MethodInvocation SimpleName parameters
+is not empty SimpleName MethodInvocation MethodInvocation SimpleName get query
+parameters SimpleName MethodInvocation SimpleName get query
+parameters SimpleName MethodInvocation MethodInvocation SimpleName length
+get query SimpleName MethodInvocation MethodInvocation SimpleName length
+parameters SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName max full text query length
+get query SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName max full text query length
+length SimpleName MethodInvocation InfixExpression SimpleName max full text query length
+string utils SimpleName MethodInvocation InfixExpression InfixExpression SimpleName max full text query length
+is not empty SimpleName MethodInvocation InfixExpression InfixExpression SimpleName max full text query length
+atlas base exception SimpleName SimpleType ClassInstanceCreation QualifiedName atlas error codeinvalid query length
+atlas base exception SimpleName SimpleType ClassInstanceCreation QualifiedName constantsmax fulltext query str length
+atlas error codeinvalid query length QualifiedName ClassInstanceCreation QualifiedName constantsmax fulltext query str length
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName validate search parameters
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName search parameters
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName parameters
+private Modifier MethodDeclaration SimpleType SimpleName atlas base exception
+void PrimitiveType MethodDeclaration SimpleName validate search parameters
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName search parameters
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName parameters
+void PrimitiveType MethodDeclaration SimpleType SimpleName atlas base exception
+validate search parameters SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName search parameters
+validate search parameters SimpleName MethodDeclaration SingleVariableDeclaration SimpleName parameters
+validate search parameters SimpleName MethodDeclaration SimpleType SimpleName atlas base exception
+parameters SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName validate search parameters
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName parameters
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName validate search parameters
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName parameters
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception

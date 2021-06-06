@@ -1,0 +1,10 @@
+public Modifier MethodDeclaration SimpleType SimpleName tablet
+public Modifier MethodDeclaration SimpleName get tablet
+tablet SimpleName SimpleType MethodDeclaration SimpleName get tablet
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName tablet
+public Modifier TypeDeclaration MethodDeclaration SimpleName get tablet
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName tablet
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get tablet

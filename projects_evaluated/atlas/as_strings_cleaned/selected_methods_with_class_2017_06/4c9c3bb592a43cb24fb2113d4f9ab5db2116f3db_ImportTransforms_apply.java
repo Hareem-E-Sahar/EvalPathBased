@@ -1,0 +1,77 @@
+atlas entity SimpleName SimpleType SingleVariableDeclaration SimpleName entity
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName import transformer
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+entity SimpleName MethodInvocation SimpleName get type name
+get transforms SimpleName MethodInvocation MethodInvocation SimpleName entity
+get transforms SimpleName MethodInvocation MethodInvocation SimpleName get type name
+entity transforms SimpleName VariableDeclarationFragment MethodInvocation SimpleName get transforms
+entity transforms SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName entity
+entity transforms SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get type name
+map utils SimpleName MethodInvocation SimpleName is not empty
+map utils SimpleName MethodInvocation SimpleName entity transforms
+is not empty SimpleName MethodInvocation SimpleName entity transforms
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName import transformer
+mapentry QualifiedName SimpleType ParameterizedType SimpleType SimpleName string
+mapentry QualifiedName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+entity transforms SimpleName MethodInvocation SimpleName entry set
+entry SimpleName MethodInvocation SimpleName get key
+attribute name SimpleName VariableDeclarationFragment MethodInvocation SimpleName entry
+attribute name SimpleName VariableDeclarationFragment MethodInvocation SimpleName get key
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName attribute name
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName import transformer
+entry SimpleName MethodInvocation SimpleName get value
+attr transforms SimpleName VariableDeclarationFragment MethodInvocation SimpleName entry
+attr transforms SimpleName VariableDeclarationFragment MethodInvocation SimpleName get value
+entity SimpleName MethodInvocation SimpleName has attribute
+entity SimpleName MethodInvocation SimpleName attribute name
+has attribute SimpleName MethodInvocation SimpleName attribute name
+entity SimpleName MethodInvocation SimpleName get attribute
+entity SimpleName MethodInvocation SimpleName attribute name
+get attribute SimpleName MethodInvocation SimpleName attribute name
+transformed value SimpleName VariableDeclarationFragment MethodInvocation SimpleName entity
+transformed value SimpleName VariableDeclarationFragment MethodInvocation SimpleName get attribute
+transformed value SimpleName VariableDeclarationFragment MethodInvocation SimpleName attribute name
+object SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName transformed value
+import transformer SimpleName SimpleType SingleVariableDeclaration SimpleName attr transform
+attr transform SimpleName MethodInvocation SimpleName apply
+attr transform SimpleName MethodInvocation SimpleName transformed value
+apply SimpleName MethodInvocation SimpleName transformed value
+transformed value SimpleName Assignment MethodInvocation SimpleName attr transform
+transformed value SimpleName Assignment MethodInvocation SimpleName apply
+transformed value SimpleName Assignment MethodInvocation SimpleName transformed value
+import transformer SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName attr transforms
+attr transform SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName attr transforms
+entity SimpleName MethodInvocation SimpleName set attribute
+entity SimpleName MethodInvocation SimpleName attribute name
+entity SimpleName MethodInvocation SimpleName transformed value
+set attribute SimpleName MethodInvocation SimpleName attribute name
+set attribute SimpleName MethodInvocation SimpleName transformed value
+attribute name SimpleName MethodInvocation SimpleName transformed value
+entry SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName entity transforms
+entry SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName entry set
+public Modifier MethodDeclaration SimpleType SimpleName atlas entity
+public Modifier MethodDeclaration SimpleName apply
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas entity
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName entity
+public Modifier MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier MethodDeclaration Block ReturnStatement SimpleName entity
+atlas entity SimpleName SimpleType MethodDeclaration SimpleName apply
+atlas entity SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName entity
+atlas entity SimpleName SimpleType MethodDeclaration SimpleType SimpleName atlas base exception
+apply SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas entity
+apply SimpleName MethodDeclaration SingleVariableDeclaration SimpleName entity
+apply SimpleName MethodDeclaration SimpleType SimpleName atlas base exception
+apply SimpleName MethodDeclaration Block ReturnStatement SimpleName entity
+entity SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas entity
+public Modifier TypeDeclaration MethodDeclaration SimpleName apply
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas entity
+test SimpleName TypeDeclaration MethodDeclaration SimpleName apply
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception

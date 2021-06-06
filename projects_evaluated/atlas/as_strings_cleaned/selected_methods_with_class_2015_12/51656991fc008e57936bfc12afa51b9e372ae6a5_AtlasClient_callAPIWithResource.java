@@ -1,0 +1,103 @@
+api SimpleName SimpleType SingleVariableDeclaration SimpleName api
+web resource SimpleName SimpleType SingleVariableDeclaration SimpleName resource
+object SimpleName SimpleType SingleVariableDeclaration SimpleName request object
+resource SimpleName MethodInvocation SimpleName accept
+resource SimpleName MethodInvocation SimpleName json media type
+accept SimpleName MethodInvocation SimpleName json media type
+resource SimpleName MethodInvocation MethodInvocation SimpleName type
+accept SimpleName MethodInvocation MethodInvocation SimpleName type
+json media type SimpleName MethodInvocation MethodInvocation SimpleName type
+resource SimpleName MethodInvocation MethodInvocation SimpleName json media type
+accept SimpleName MethodInvocation MethodInvocation SimpleName json media type
+json media type SimpleName MethodInvocation MethodInvocation SimpleName json media type
+type SimpleName MethodInvocation SimpleName json media type
+api SimpleName MethodInvocation SimpleName get method
+resource SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName method
+accept SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName method
+json media type SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName method
+type SimpleName MethodInvocation MethodInvocation SimpleName method
+json media type SimpleName MethodInvocation MethodInvocation SimpleName method
+type SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName api
+type SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get method
+json media type SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName api
+json media type SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get method
+resource SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName request object
+accept SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName request object
+json media type SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName request object
+type SimpleName MethodInvocation MethodInvocation SimpleName request object
+json media type SimpleName MethodInvocation MethodInvocation SimpleName request object
+method SimpleName MethodInvocation MethodInvocation SimpleName api
+method SimpleName MethodInvocation MethodInvocation SimpleName get method
+method SimpleName MethodInvocation TypeLiteral SimpleType SimpleName client response
+method SimpleName MethodInvocation SimpleName request object
+api SimpleName MethodInvocation MethodInvocation SimpleName request object
+get method SimpleName MethodInvocation MethodInvocation SimpleName request object
+client response SimpleName SimpleType TypeLiteral MethodInvocation SimpleName request object
+client response SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName type
+client response SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName json media type
+client response SimpleName VariableDeclarationFragment MethodInvocation SimpleName method
+client response SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName api
+client response SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get method
+client response SimpleName VariableDeclarationFragment MethodInvocation SimpleName request object
+client response SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName client response
+client response SimpleName MethodInvocation SimpleName get status
+api SimpleName MethodInvocation SimpleName get expected status
+api SimpleName MethodInvocation MethodInvocation SimpleName get status code
+get expected status SimpleName MethodInvocation MethodInvocation SimpleName get status code
+client response SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get status code
+get status SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get status code
+client response SimpleName MethodInvocation SimpleName get entity
+client response SimpleName MethodInvocation TypeLiteral SimpleType SimpleName string
+get entity SimpleName MethodInvocation TypeLiteral SimpleType SimpleName string
+response as string SimpleName VariableDeclarationFragment MethodInvocation SimpleName client response
+response as string SimpleName VariableDeclarationFragment MethodInvocation SimpleName get entity
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName response as string
+json object SimpleName SimpleType ClassInstanceCreation SimpleName response as string
+json exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+atlas service exception SimpleName SimpleType ClassInstanceCreation SimpleName api
+atlas service exception SimpleName SimpleType ClassInstanceCreation SimpleName e
+api SimpleName ClassInstanceCreation SimpleName e
+atlas service exception SimpleName SimpleType ClassInstanceCreation SimpleName api
+atlas service exception SimpleName SimpleType ClassInstanceCreation SimpleName client response
+api SimpleName ClassInstanceCreation SimpleName client response
+private Modifier MethodDeclaration SimpleType SimpleName json object
+private Modifier MethodDeclaration SimpleName call api with resource
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName api
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName api
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName web resource
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName resource
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName request object
+json object SimpleName SimpleType MethodDeclaration SimpleName call api with resource
+json object SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName api
+json object SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName resource
+json object SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName request object
+json object SimpleName SimpleType MethodDeclaration SimpleType SimpleName atlas service exception
+call api with resource SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName api
+call api with resource SimpleName MethodDeclaration SingleVariableDeclaration SimpleName api
+call api with resource SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName web resource
+call api with resource SimpleName MethodDeclaration SingleVariableDeclaration SimpleName resource
+call api with resource SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+call api with resource SimpleName MethodDeclaration SingleVariableDeclaration SimpleName request object
+call api with resource SimpleName MethodDeclaration SimpleType SimpleName atlas service exception
+api SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName resource
+api SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName request object
+api SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas service exception
+resource SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName request object
+resource SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas service exception
+request object SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas service exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName json object
+public Modifier TypeDeclaration MethodDeclaration SimpleName call api with resource
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName api
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName resource
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName request object
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas service exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName json object
+test SimpleName TypeDeclaration MethodDeclaration SimpleName call api with resource
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName api
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName resource
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName request object
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas service exception

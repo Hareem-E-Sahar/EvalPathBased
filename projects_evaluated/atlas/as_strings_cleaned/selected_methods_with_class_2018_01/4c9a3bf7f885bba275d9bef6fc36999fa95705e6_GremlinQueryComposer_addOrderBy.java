@@ -1,0 +1,80 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName name
+boolean PrimitiveType SingleVariableDeclaration SimpleName is desc
+log SimpleName MethodInvocation SimpleName is debug enabled
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral add order byname is desc
+log SimpleName MethodInvocation SimpleName name
+log SimpleName MethodInvocation SimpleName is desc
+debug SimpleName MethodInvocation StringLiteral add order byname is desc
+debug SimpleName MethodInvocation SimpleName name
+debug SimpleName MethodInvocation SimpleName is desc
+add order byname is desc StringLiteral MethodInvocation SimpleName name
+add order byname is desc StringLiteral MethodInvocation SimpleName is desc
+name SimpleName MethodInvocation SimpleName is desc
+get advice SimpleName MethodInvocation SimpleName name
+ia SimpleName VariableDeclarationFragment MethodInvocation SimpleName get advice
+ia SimpleName VariableDeclarationFragment MethodInvocation SimpleName name
+identifier helperadvice QualifiedName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ia
+query metadata SimpleName MethodInvocation SimpleName has select
+query metadata SimpleName MethodInvocation SimpleName has group by
+query metadata SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName query metadata
+query metadata SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName has group by
+has select SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName query metadata
+has select SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName has group by
+context SimpleName FieldAccess FieldAccess SimpleName select clause composer
+get qualified name SimpleName MethodInvocation SimpleName ia
+add select transformation SimpleName MethodInvocation FieldAccess FieldAccess SimpleName context
+add select transformation SimpleName MethodInvocation FieldAccess SimpleName select clause composer
+add select transformation SimpleName MethodInvocation MethodInvocation SimpleName get qualified name
+add select transformation SimpleName MethodInvocation MethodInvocation SimpleName ia
+add select transformation SimpleName MethodInvocation SimpleName is desc
+select clause composer SimpleName FieldAccess MethodInvocation MethodInvocation SimpleName get qualified name
+select clause composer SimpleName FieldAccess MethodInvocation MethodInvocation SimpleName ia
+context SimpleName FieldAccess FieldAccess MethodInvocation SimpleName is desc
+select clause composer SimpleName FieldAccess MethodInvocation SimpleName is desc
+get qualified name SimpleName MethodInvocation MethodInvocation SimpleName is desc
+ia SimpleName MethodInvocation MethodInvocation SimpleName is desc
+query metadata SimpleName MethodInvocation SimpleName has group by
+get qualified name SimpleName MethodInvocation SimpleName ia
+add order by clause SimpleName MethodInvocation MethodInvocation SimpleName get qualified name
+add order by clause SimpleName MethodInvocation MethodInvocation SimpleName ia
+add order by clause SimpleName MethodInvocation SimpleName is desc
+get qualified name SimpleName MethodInvocation MethodInvocation SimpleName is desc
+ia SimpleName MethodInvocation MethodInvocation SimpleName is desc
+move to last SimpleName MethodInvocation QualifiedName gremlin clausegroup by
+get qualified name SimpleName MethodInvocation SimpleName ia
+add order by clause SimpleName MethodInvocation MethodInvocation SimpleName get qualified name
+add order by clause SimpleName MethodInvocation MethodInvocation SimpleName ia
+add order by clause SimpleName MethodInvocation SimpleName is desc
+get qualified name SimpleName MethodInvocation MethodInvocation SimpleName is desc
+ia SimpleName MethodInvocation MethodInvocation SimpleName is desc
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName add order by
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName name
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName is desc
+void PrimitiveType MethodDeclaration SimpleName add order by
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName name
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName is desc
+add order by SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+add order by SimpleName MethodDeclaration SingleVariableDeclaration SimpleName name
+add order by SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+add order by SimpleName MethodDeclaration SingleVariableDeclaration SimpleName is desc
+name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName is desc
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName add order by
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName is desc
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName add order by
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName is desc

@@ -1,0 +1,35 @@
+collection SimpleName SimpleType ParameterizedType SimpleType SimpleName range
+collection SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName ranges
+range SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName ranges
+ranges SimpleName MethodInvocation SimpleName size
+ranges SimpleName MethodInvocation InfixExpression NumberLiteral empty
+size SimpleName MethodInvocation InfixExpression NumberLiteral empty
+ranges SimpleName InfixExpression InfixExpression InfixExpression NumberLiteral empty
+illegal argument exception SimpleName SimpleType ClassInstanceCreation StringLiteral ranges must be non null and contain at least range
+query thread pool SimpleName MethodInvocation SimpleName is shutdown
+illegal state exception SimpleName SimpleType ClassInstanceCreation StringLiteral batch reader closed
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName range
+array list SimpleName SimpleType ParameterizedType ClassInstanceCreation SimpleName ranges
+range SimpleName SimpleType ParameterizedType ClassInstanceCreation SimpleName ranges
+ranges SimpleName FieldAccess Assignment ClassInstanceCreation SimpleName ranges
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName set ranges
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName ranges
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set ranges
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName ranges
+void PrimitiveType MethodDeclaration SimpleName set ranges
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName ranges
+set ranges SimpleName MethodDeclaration SingleVariableDeclaration SimpleName ranges
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set ranges
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ranges
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set ranges
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ranges

@@ -1,0 +1,210 @@
+string builder SimpleName SimpleType SingleVariableDeclaration SimpleName sb
+monitor SimpleName MethodInvocation SimpleName get context
+monitor SimpleName MethodInvocation MethodInvocation SimpleName get configuration
+get context SimpleName MethodInvocation MethodInvocation SimpleName get configuration
+conf SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName monitor
+conf SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get context
+conf SimpleName VariableDeclarationFragment MethodInvocation SimpleName get configuration
+accumulo configuration SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName conf
+conf SimpleName MethodInvocation SimpleName get
+conf SimpleName MethodInvocation QualifiedName propertytrace user
+get SimpleName MethodInvocation QualifiedName propertytrace user
+principal SimpleName VariableDeclarationFragment MethodInvocation SimpleName conf
+principal SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+principal SimpleName VariableDeclarationFragment MethodInvocation QualifiedName propertytrace user
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName principal
+authentication token SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName at
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+conf SimpleName MethodInvocation SimpleName get all properties with prefix
+conf SimpleName MethodInvocation QualifiedName propertytrace token property prefix
+get all properties with prefix SimpleName MethodInvocation QualifiedName propertytrace token property prefix
+login map SimpleName VariableDeclarationFragment MethodInvocation SimpleName conf
+login map SimpleName VariableDeclarationFragment MethodInvocation SimpleName get all properties with prefix
+login map SimpleName VariableDeclarationFragment MethodInvocation QualifiedName propertytrace token property prefix
+login map SimpleName MethodInvocation SimpleName is empty
+p SimpleName VariableDeclarationFragment QualifiedName propertytrace password
+property SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName p
+property SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment QualifiedName propertytrace password
+conf SimpleName MethodInvocation SimpleName get
+conf SimpleName MethodInvocation SimpleName p
+get SimpleName MethodInvocation SimpleName p
+conf SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+get SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+p SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+conf SimpleName MethodInvocation MethodInvocation SimpleName utf
+get SimpleName MethodInvocation MethodInvocation SimpleName utf
+p SimpleName MethodInvocation MethodInvocation SimpleName utf
+get bytes SimpleName MethodInvocation SimpleName utf
+password token SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get bytes
+password token SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName utf
+at SimpleName Assignment ClassInstanceCreation SimpleType SimpleName password token
+at SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName get bytes
+at SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName utf
+props SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName properties
+properties SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName props
+propertytrace token property prefix QualifiedName MethodInvocation SimpleName get key
+propertytrace token property prefix QualifiedName MethodInvocation MethodInvocation SimpleName length
+get key SimpleName MethodInvocation MethodInvocation SimpleName length
+prefix length SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation QualifiedName propertytrace token property prefix
+prefix length SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get key
+prefix length SimpleName VariableDeclarationFragment MethodInvocation SimpleName length
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName prefix length
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName length
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+entry SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+login map SimpleName MethodInvocation SimpleName entry set
+entry SimpleName MethodInvocation SimpleName get key
+entry SimpleName MethodInvocation MethodInvocation SimpleName substring
+get key SimpleName MethodInvocation MethodInvocation SimpleName substring
+entry SimpleName MethodInvocation MethodInvocation SimpleName prefix length
+get key SimpleName MethodInvocation MethodInvocation SimpleName prefix length
+substring SimpleName MethodInvocation SimpleName prefix length
+entry SimpleName MethodInvocation SimpleName get value
+props SimpleName MethodInvocation SimpleName put
+props SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName entry
+props SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get key
+props SimpleName MethodInvocation MethodInvocation SimpleName substring
+props SimpleName MethodInvocation MethodInvocation SimpleName prefix length
+props SimpleName MethodInvocation MethodInvocation SimpleName entry
+props SimpleName MethodInvocation MethodInvocation SimpleName get value
+put SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName entry
+put SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get key
+put SimpleName MethodInvocation MethodInvocation SimpleName substring
+put SimpleName MethodInvocation MethodInvocation SimpleName prefix length
+put SimpleName MethodInvocation MethodInvocation SimpleName entry
+put SimpleName MethodInvocation MethodInvocation SimpleName get value
+substring SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName entry
+substring SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get value
+prefix length SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName entry
+prefix length SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get value
+entry SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName login map
+entry SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName entry set
+property SimpleName MethodInvocation SimpleName create instance from property name
+property SimpleName MethodInvocation SimpleName conf
+property SimpleName MethodInvocation QualifiedName propertytrace token type
+property SimpleName MethodInvocation TypeLiteral SimpleType SimpleName authentication token
+property SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName password token
+create instance from property name SimpleName MethodInvocation SimpleName conf
+create instance from property name SimpleName MethodInvocation QualifiedName propertytrace token type
+create instance from property name SimpleName MethodInvocation TypeLiteral SimpleType SimpleName authentication token
+create instance from property name SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName password token
+conf SimpleName MethodInvocation QualifiedName propertytrace token type
+conf SimpleName MethodInvocation TypeLiteral SimpleType SimpleName authentication token
+conf SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName password token
+propertytrace token type QualifiedName MethodInvocation TypeLiteral SimpleType SimpleName authentication token
+propertytrace token type QualifiedName MethodInvocation ClassInstanceCreation SimpleType SimpleName password token
+token SimpleName VariableDeclarationFragment MethodInvocation SimpleName property
+token SimpleName VariableDeclarationFragment MethodInvocation SimpleName create instance from property name
+token SimpleName VariableDeclarationFragment MethodInvocation SimpleName conf
+token SimpleName VariableDeclarationFragment MethodInvocation QualifiedName propertytrace token type
+authentication token SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName token
+token SimpleName MethodInvocation SimpleName init
+token SimpleName MethodInvocation SimpleName props
+init SimpleName MethodInvocation SimpleName props
+at SimpleName Assignment SimpleName token
+conf SimpleName MethodInvocation SimpleName get boolean
+conf SimpleName MethodInvocation QualifiedName propertyinstance rpc sasl enabled
+get boolean SimpleName MethodInvocation QualifiedName propertyinstance rpc sasl enabled
+security util SimpleName MethodInvocation SimpleName get server principal
+security util SimpleName MethodInvocation SimpleName principal
+get server principal SimpleName MethodInvocation SimpleName principal
+principal SimpleName Assignment MethodInvocation SimpleName security util
+principal SimpleName Assignment MethodInvocation SimpleName get server principal
+principal SimpleName Assignment MethodInvocation SimpleName principal
+conf SimpleName MethodInvocation SimpleName get
+conf SimpleName MethodInvocation QualifiedName propertytrace table
+get SimpleName MethodInvocation QualifiedName propertytrace table
+table SimpleName VariableDeclarationFragment MethodInvocation SimpleName conf
+table SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+table SimpleName VariableDeclarationFragment MethodInvocation QualifiedName propertytrace table
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName table
+hdfs zoo instance SimpleName MethodInvocation SimpleName get instance
+hdfs zoo instance SimpleName MethodInvocation MethodInvocation SimpleName get connector
+get instance SimpleName MethodInvocation MethodInvocation SimpleName get connector
+hdfs zoo instance SimpleName MethodInvocation MethodInvocation SimpleName principal
+get instance SimpleName MethodInvocation MethodInvocation SimpleName principal
+hdfs zoo instance SimpleName MethodInvocation MethodInvocation SimpleName at
+get instance SimpleName MethodInvocation MethodInvocation SimpleName at
+get connector SimpleName MethodInvocation SimpleName principal
+get connector SimpleName MethodInvocation SimpleName at
+principal SimpleName MethodInvocation SimpleName at
+conn SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName hdfs zoo instance
+conn SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get instance
+conn SimpleName VariableDeclarationFragment MethodInvocation SimpleName get connector
+conn SimpleName VariableDeclarationFragment MethodInvocation SimpleName principal
+conn SimpleName VariableDeclarationFragment MethodInvocation SimpleName at
+connector SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName conn
+conn SimpleName MethodInvocation SimpleName table operations
+conn SimpleName MethodInvocation MethodInvocation SimpleName exists
+table operations SimpleName MethodInvocation MethodInvocation SimpleName exists
+conn SimpleName MethodInvocation MethodInvocation SimpleName table
+table operations SimpleName MethodInvocation MethodInvocation SimpleName table
+exists SimpleName MethodInvocation SimpleName table
+conn SimpleName MethodInvocation SimpleName security operations
+conn SimpleName MethodInvocation MethodInvocation SimpleName get user authorizations
+security operations SimpleName MethodInvocation MethodInvocation SimpleName get user authorizations
+conn SimpleName MethodInvocation MethodInvocation SimpleName principal
+security operations SimpleName MethodInvocation MethodInvocation SimpleName principal
+get user authorizations SimpleName MethodInvocation SimpleName principal
+conn SimpleName MethodInvocation SimpleName create scanner
+conn SimpleName MethodInvocation SimpleName table
+conn SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName conn
+conn SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName security operations
+conn SimpleName MethodInvocation MethodInvocation SimpleName get user authorizations
+conn SimpleName MethodInvocation MethodInvocation SimpleName principal
+create scanner SimpleName MethodInvocation SimpleName table
+create scanner SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName conn
+create scanner SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName security operations
+create scanner SimpleName MethodInvocation MethodInvocation SimpleName get user authorizations
+create scanner SimpleName MethodInvocation MethodInvocation SimpleName principal
+table SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName conn
+table SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName security operations
+table SimpleName MethodInvocation MethodInvocation SimpleName get user authorizations
+table SimpleName MethodInvocation MethodInvocation SimpleName principal
+scanner SimpleName VariableDeclarationFragment MethodInvocation SimpleName conn
+scanner SimpleName VariableDeclarationFragment MethodInvocation SimpleName create scanner
+scanner SimpleName VariableDeclarationFragment MethodInvocation SimpleName table
+scanner SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get user authorizations
+scanner SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName principal
+scanner SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName scanner
+accumulo security exception SimpleName SimpleType SingleVariableDeclaration SimpleName ex
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation StringLiteral h unable to read trace table check trace username and password configurationh >
+append SimpleName MethodInvocation StringLiteral h unable to read trace table check trace username and password configurationh >
+table not found exception SimpleName SimpleType SingleVariableDeclaration SimpleName ex
+protected Modifier MethodDeclaration SimpleType SimpleName scanner
+protected Modifier MethodDeclaration SimpleName get scanner
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string builder
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName sb
+protected Modifier MethodDeclaration SimpleType SimpleName accumulo exception
+protected Modifier MethodDeclaration SimpleType SimpleName accumulo security exception
+scanner SimpleName SimpleType MethodDeclaration SimpleName get scanner
+scanner SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName sb
+scanner SimpleName SimpleType MethodDeclaration SimpleType SimpleName accumulo exception
+scanner SimpleName SimpleType MethodDeclaration SimpleType SimpleName accumulo security exception
+get scanner SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string builder
+get scanner SimpleName MethodDeclaration SingleVariableDeclaration SimpleName sb
+get scanner SimpleName MethodDeclaration SimpleType SimpleName accumulo exception
+get scanner SimpleName MethodDeclaration SimpleType SimpleName accumulo security exception
+sb SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+sb SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+accumulo exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName accumulo security exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName scanner
+public Modifier TypeDeclaration MethodDeclaration SimpleName get scanner
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName sb
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName scanner
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get scanner
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName sb
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception

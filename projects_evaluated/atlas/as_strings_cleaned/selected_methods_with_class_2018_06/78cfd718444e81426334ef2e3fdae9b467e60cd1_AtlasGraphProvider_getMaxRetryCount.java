@@ -1,0 +1,26 @@
+application properties SimpleName MethodInvocation SimpleName get int
+application properties SimpleName MethodInvocation SimpleName graph repository max retries
+application properties SimpleName MethodInvocation NumberLiteral empty
+get int SimpleName MethodInvocation SimpleName graph repository max retries
+get int SimpleName MethodInvocation NumberLiteral empty
+graph repository max retries SimpleName MethodInvocation NumberLiteral empty
+application properties SimpleName InfixExpression ParenthesizedExpression ConditionalExpression NumberLiteral empty
+empty NumberLiteral ConditionalExpression MethodInvocation SimpleName application properties
+empty NumberLiteral ConditionalExpression MethodInvocation SimpleName get int
+empty NumberLiteral ConditionalExpression MethodInvocation SimpleName graph repository max retries
+empty NumberLiteral ConditionalExpression MethodInvocation NumberLiteral empty
+private Modifier MethodDeclaration Modifier static
+private Modifier MethodDeclaration SimpleType SimpleName integer
+private Modifier MethodDeclaration SimpleName get max retry count
+static Modifier MethodDeclaration SimpleType SimpleName integer
+static Modifier MethodDeclaration SimpleName get max retry count
+integer SimpleName SimpleType MethodDeclaration SimpleName get max retry count
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName integer
+public Modifier TypeDeclaration MethodDeclaration SimpleName get max retry count
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName integer
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get max retry count

@@ -1,0 +1,67 @@
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+map SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName ret
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName ret
+object SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName ret
+referenceable SimpleName SimpleType SingleVariableDeclaration SimpleName attribute
+attr instance SimpleName VariableDeclarationFragment SimpleName attribute
+referenceable SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName attr instance
+referenceable SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName attribute
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+prune entity attributes for audit SimpleName MethodInvocation SimpleName attr instance
+pruned attrs SimpleName VariableDeclarationFragment MethodInvocation SimpleName prune entity attributes for audit
+pruned attrs SimpleName VariableDeclarationFragment MethodInvocation SimpleName attr instance
+map utils SimpleName MethodInvocation SimpleName is not empty
+map utils SimpleName MethodInvocation SimpleName pruned attrs
+is not empty SimpleName MethodInvocation SimpleName pruned attrs
+attr instance SimpleName MethodInvocation SimpleName get id
+attr instance SimpleName MethodInvocation MethodInvocation SimpleName get id
+get id SimpleName MethodInvocation MethodInvocation SimpleName get id
+ret SimpleName MethodInvocation SimpleName put
+ret SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName attr instance
+ret SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get id
+ret SimpleName MethodInvocation MethodInvocation SimpleName get id
+ret SimpleName MethodInvocation SimpleName pruned attrs
+put SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName attr instance
+put SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get id
+put SimpleName MethodInvocation MethodInvocation SimpleName get id
+put SimpleName MethodInvocation SimpleName pruned attrs
+attr instance SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName pruned attrs
+get id SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName pruned attrs
+get id SimpleName MethodInvocation MethodInvocation SimpleName pruned attrs
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName map
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName object
+private Modifier MethodDeclaration SimpleName prune attributes
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName ret
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName referenceable
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName attribute
+private Modifier MethodDeclaration SimpleType SimpleName atlas exception
+map SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName prune attributes
+string SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName prune attributes
+object SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName prune attributes
+prune attributes SimpleName MethodDeclaration SingleVariableDeclaration SimpleName ret
+prune attributes SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName referenceable
+prune attributes SimpleName MethodDeclaration SingleVariableDeclaration SimpleName attribute
+prune attributes SimpleName MethodDeclaration SimpleType SimpleName atlas exception
+prune attributes SimpleName MethodDeclaration Block ReturnStatement SimpleName ret
+ret SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attribute
+ret SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+attribute SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleName prune attributes
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ret
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attribute
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleName prune attributes
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ret
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attribute
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception

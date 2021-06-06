@@ -1,0 +1,113 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+list SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName guids
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName guids
+guids SimpleName MethodInvocation SimpleName size
+guids SimpleName MethodInvocation InfixExpression NumberLiteral empty
+size SimpleName MethodInvocation InfixExpression NumberLiteral empty
+guids SimpleName InfixExpression InfixExpression InfixExpression NumberLiteral empty
+illegal argument exception SimpleName SimpleType ClassInstanceCreation StringLiteral guids must be nonnull and nonempty
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas vertex
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas vertex
+graph helper SimpleName MethodInvocation SimpleName get vertices for gui ds
+graph helper SimpleName MethodInvocation SimpleName guids
+get vertices for gui ds SimpleName MethodInvocation SimpleName guids
+vertices SimpleName VariableDeclarationFragment MethodInvocation SimpleName graph helper
+vertices SimpleName VariableDeclarationFragment MethodInvocation SimpleName get vertices for gui ds
+vertices SimpleName VariableDeclarationFragment MethodInvocation SimpleName guids
+collection SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas vertex
+vertices SimpleName MethodInvocation SimpleName values
+deletion candidates SimpleName VariableDeclarationFragment MethodInvocation SimpleName vertices
+deletion candidates SimpleName VariableDeclarationFragment MethodInvocation SimpleName values
+log SimpleName MethodInvocation SimpleName is debug enabled
+string SimpleName SimpleType SingleVariableDeclaration SimpleName guid
+vertices SimpleName MethodInvocation SimpleName contains key
+vertices SimpleName MethodInvocation SimpleName guid
+contains key SimpleName MethodInvocation SimpleName guid
+deletion request ignored for nonexistent entity with guid StringLiteral InfixExpression SimpleName guid
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation InfixExpression StringLiteral deletion request ignored for nonexistent entity with guid
+log SimpleName MethodInvocation InfixExpression SimpleName guid
+debug SimpleName MethodInvocation InfixExpression StringLiteral deletion request ignored for nonexistent entity with guid
+debug SimpleName MethodInvocation InfixExpression SimpleName guid
+string SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName guids
+guid SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName guids
+deletion candidates SimpleName MethodInvocation SimpleName is empty
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation StringLiteral no deletion candidate entities were found for guids s
+log SimpleName MethodInvocation SimpleName guids
+info SimpleName MethodInvocation StringLiteral no deletion candidate entities were found for guids s
+info SimpleName MethodInvocation SimpleName guids
+no deletion candidate entities were found for guids s StringLiteral MethodInvocation SimpleName guids
+collections SimpleName MethodInvocation SimpleType SimpleName string
+collections SimpleName MethodInvocation SimpleName empty list
+string SimpleName SimpleType MethodInvocation SimpleName empty list
+collections SimpleName MethodInvocation SimpleType SimpleName string
+collections SimpleName MethodInvocation SimpleName empty list
+string SimpleName SimpleType MethodInvocation SimpleName empty list
+collections SimpleName MethodInvocation SimpleType SimpleName string
+collections SimpleName MethodInvocation SimpleName empty list
+string SimpleName SimpleType MethodInvocation SimpleName empty list
+atlas cliententity result QualifiedName SimpleType ClassInstanceCreation MethodInvocation SimpleName collections
+atlas cliententity result QualifiedName SimpleType ClassInstanceCreation MethodInvocation SimpleName empty list
+atlas cliententity result QualifiedName SimpleType ClassInstanceCreation MethodInvocation SimpleName collections
+atlas cliententity result QualifiedName SimpleType ClassInstanceCreation MethodInvocation SimpleName empty list
+atlas cliententity result QualifiedName SimpleType ClassInstanceCreation MethodInvocation SimpleName collections
+atlas cliententity result QualifiedName SimpleType ClassInstanceCreation MethodInvocation SimpleName empty list
+collections SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName collections
+collections SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName empty list
+empty list SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName collections
+empty list SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName empty list
+collections SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName collections
+collections SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName empty list
+empty list SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName collections
+empty list SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName empty list
+collections SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName collections
+collections SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName empty list
+empty list SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName collections
+empty list SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName empty list
+delete handler SimpleName MethodInvocation SimpleName delete entities
+delete handler SimpleName MethodInvocation SimpleName deletion candidates
+delete entities SimpleName MethodInvocation SimpleName deletion candidates
+atlas exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+repository exception SimpleName SimpleType ClassInstanceCreation SimpleName e
+request context SimpleName MethodInvocation SimpleName get
+request context SimpleName VariableDeclarationFragment MethodInvocation SimpleName request context
+request context SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+request context SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName request context
+create entity result from context SimpleName MethodInvocation SimpleName request context
+override SimpleName MarkerAnnotation MethodDeclaration MarkerAnnotation SimpleName graph transaction
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType QualifiedName atlas cliententity result
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName delete entities
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName guids
+graph transaction SimpleName MarkerAnnotation MethodDeclaration Modifier public
+graph transaction SimpleName MarkerAnnotation MethodDeclaration SimpleType QualifiedName atlas cliententity result
+graph transaction SimpleName MarkerAnnotation MethodDeclaration SimpleName delete entities
+graph transaction SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName guids
+graph transaction SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName repository exception
+public Modifier MethodDeclaration SimpleType QualifiedName atlas cliententity result
+public Modifier MethodDeclaration SimpleName delete entities
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName guids
+public Modifier MethodDeclaration SimpleType SimpleName repository exception
+atlas cliententity result QualifiedName SimpleType MethodDeclaration SimpleName delete entities
+atlas cliententity result QualifiedName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName guids
+atlas cliententity result QualifiedName SimpleType MethodDeclaration SimpleType SimpleName repository exception
+delete entities SimpleName MethodDeclaration SingleVariableDeclaration SimpleName guids
+delete entities SimpleName MethodDeclaration SimpleType SimpleName repository exception
+guids SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName repository exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName graph transaction
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType QualifiedName atlas cliententity result
+public Modifier TypeDeclaration MethodDeclaration SimpleName delete entities
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName guids
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName repository exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName graph transaction
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType QualifiedName atlas cliententity result
+test SimpleName TypeDeclaration MethodDeclaration SimpleName delete entities
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName guids
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName repository exception

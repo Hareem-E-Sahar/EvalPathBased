@@ -1,0 +1,28 @@
+hdfs SimpleName FieldAccess MethodInvocation SimpleName get file status
+hdfs SimpleName FieldAccess MethodInvocation FieldAccess SimpleName path
+get file status SimpleName MethodInvocation FieldAccess SimpleName path
+stat SimpleName FieldAccess Assignment MethodInvocation SimpleName get file status
+final Modifier SingleVariableDeclaration SimpleType SimpleName file not found exception
+final Modifier SingleVariableDeclaration SimpleName e
+file not found exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+override SimpleName MarkerAnnotation MethodDeclaration Modifier protected
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName do attach
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName do attach
+protected Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName do attach
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+do attach SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName do attach
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName do attach
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

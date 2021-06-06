@@ -1,0 +1,110 @@
+system SimpleName MethodInvocation SimpleName current time millis
+system SimpleName MethodInvocation InfixExpression NumberLiteral empty
+current time millis SimpleName MethodInvocation InfixExpression NumberLiteral empty
+system SimpleName MethodInvocation SimpleName current time millis
+sqoop job data publisherdata QualifiedName SimpleType ClassInstanceCreation StringLiteral export
+sqoop job data publisherdata QualifiedName SimpleType ClassInstanceCreation StringLiteral jdbcmysqllocalhostdb
+sqoop job data publisherdata QualifiedName SimpleType ClassInstanceCreation StringLiteral mysqluser
+sqoop job data publisherdata QualifiedName SimpleType ClassInstanceCreation StringLiteral mysql
+sqoop job data publisherdata QualifiedName SimpleType ClassInstanceCreation StringLiteral my table
+export StringLiteral ClassInstanceCreation StringLiteral jdbcmysqllocalhostdb
+export StringLiteral ClassInstanceCreation StringLiteral mysqluser
+export StringLiteral ClassInstanceCreation StringLiteral mysql
+export StringLiteral ClassInstanceCreation StringLiteral my table
+jdbcmysqllocalhostdb StringLiteral ClassInstanceCreation StringLiteral mysqluser
+jdbcmysqllocalhostdb StringLiteral ClassInstanceCreation StringLiteral mysql
+jdbcmysqllocalhostdb StringLiteral ClassInstanceCreation StringLiteral my table
+jdbcmysqllocalhostdb StringLiteral ClassInstanceCreation StringLiteral default
+mysqluser StringLiteral ClassInstanceCreation StringLiteral mysql
+mysqluser StringLiteral ClassInstanceCreation StringLiteral my table
+mysqluser StringLiteral ClassInstanceCreation StringLiteral default
+mysqluser StringLiteral ClassInstanceCreation StringLiteral hive table
+mysql StringLiteral ClassInstanceCreation StringLiteral my table
+mysql StringLiteral ClassInstanceCreation StringLiteral default
+mysql StringLiteral ClassInstanceCreation StringLiteral hive table
+mysql StringLiteral ClassInstanceCreation ClassInstanceCreation SimpleType SimpleName properties
+my table StringLiteral ClassInstanceCreation StringLiteral default
+my table StringLiteral ClassInstanceCreation StringLiteral hive table
+my table StringLiteral ClassInstanceCreation ClassInstanceCreation SimpleType SimpleName properties
+my table StringLiteral ClassInstanceCreation InfixExpression MethodInvocation SimpleName system
+my table StringLiteral ClassInstanceCreation InfixExpression MethodInvocation SimpleName current time millis
+my table StringLiteral ClassInstanceCreation InfixExpression NumberLiteral empty
+default StringLiteral ClassInstanceCreation StringLiteral hive table
+default StringLiteral ClassInstanceCreation ClassInstanceCreation SimpleType SimpleName properties
+default StringLiteral ClassInstanceCreation InfixExpression MethodInvocation SimpleName system
+default StringLiteral ClassInstanceCreation InfixExpression MethodInvocation SimpleName current time millis
+default StringLiteral ClassInstanceCreation InfixExpression NumberLiteral empty
+default StringLiteral ClassInstanceCreation MethodInvocation SimpleName system
+default StringLiteral ClassInstanceCreation MethodInvocation SimpleName current time millis
+hive table StringLiteral ClassInstanceCreation ClassInstanceCreation SimpleType SimpleName properties
+hive table StringLiteral ClassInstanceCreation InfixExpression MethodInvocation SimpleName system
+hive table StringLiteral ClassInstanceCreation InfixExpression MethodInvocation SimpleName current time millis
+hive table StringLiteral ClassInstanceCreation InfixExpression NumberLiteral empty
+hive table StringLiteral ClassInstanceCreation MethodInvocation SimpleName system
+hive table StringLiteral ClassInstanceCreation MethodInvocation SimpleName current time millis
+empty NumberLiteral InfixExpression ClassInstanceCreation MethodInvocation SimpleName system
+empty NumberLiteral InfixExpression ClassInstanceCreation MethodInvocation SimpleName current time millis
+d SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType QualifiedName sqoop job data publisherdata
+d SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral export
+d SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral jdbcmysqllocalhostdb
+d SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral mysqluser
+d SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral mysql
+d SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral my table
+d SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral default
+d SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral hive table
+d SimpleName VariableDeclarationFragment ClassInstanceCreation InfixExpression NumberLiteral empty
+d SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName system
+d SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName current time millis
+sqoop job data publisherdata QualifiedName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName d
+hook SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName sqoop hook
+sqoop hook SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName hook
+hook SimpleName MethodInvocation SimpleName publish
+hook SimpleName MethodInvocation SimpleName d
+publish SimpleName MethodInvocation SimpleName d
+thread SimpleName MethodInvocation SimpleName sleep
+thread SimpleName MethodInvocation NumberLiteral empty
+sleep SimpleName MethodInvocation NumberLiteral empty
+sqoop hook SimpleName MethodInvocation SimpleName get sqoop db store name
+sqoop hook SimpleName MethodInvocation SimpleName d
+get sqoop db store name SimpleName MethodInvocation SimpleName d
+store name SimpleName VariableDeclarationFragment MethodInvocation SimpleName sqoop hook
+store name SimpleName VariableDeclarationFragment MethodInvocation SimpleName get sqoop db store name
+store name SimpleName VariableDeclarationFragment MethodInvocation SimpleName d
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName store name
+assert db store is registered SimpleName MethodInvocation SimpleName store name
+sqoop hook SimpleName MethodInvocation SimpleName get sqoop process name
+sqoop hook SimpleName MethodInvocation SimpleName d
+sqoop hook SimpleName MethodInvocation SimpleName cluster name
+get sqoop process name SimpleName MethodInvocation SimpleName d
+get sqoop process name SimpleName MethodInvocation SimpleName cluster name
+d SimpleName MethodInvocation SimpleName cluster name
+name SimpleName VariableDeclarationFragment MethodInvocation SimpleName sqoop hook
+name SimpleName VariableDeclarationFragment MethodInvocation SimpleName get sqoop process name
+name SimpleName VariableDeclarationFragment MethodInvocation SimpleName d
+name SimpleName VariableDeclarationFragment MethodInvocation SimpleName cluster name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName name
+assert sqoop process is registered SimpleName MethodInvocation SimpleName name
+assert hive table is registered SimpleName MethodInvocation SimpleName default db
+assert hive table is registered SimpleName MethodInvocation StringLiteral hive table
+default db SimpleName MethodInvocation StringLiteral hive table
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test sqoop export
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test sqoop export
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName test sqoop export
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+test sqoop export SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test sqoop export
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test sqoop export
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

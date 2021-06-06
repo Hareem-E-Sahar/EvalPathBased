@@ -1,0 +1,34 @@
+type vertex info SimpleName SimpleType SingleVariableDeclaration SimpleName info
+info SimpleName MethodInvocation SimpleName get type name
+types included SimpleName MethodInvocation SimpleName contains
+types included SimpleName MethodInvocation MethodInvocation SimpleName info
+types included SimpleName MethodInvocation MethodInvocation SimpleName get type name
+contains SimpleName MethodInvocation MethodInvocation SimpleName info
+contains SimpleName MethodInvocation MethodInvocation SimpleName get type name
+to create SimpleName MethodInvocation SimpleName add
+to create SimpleName MethodInvocation SimpleName info
+add SimpleName MethodInvocation SimpleName info
+info SimpleName MethodInvocation SimpleName get type name
+types included SimpleName MethodInvocation SimpleName add
+types included SimpleName MethodInvocation MethodInvocation SimpleName info
+types included SimpleName MethodInvocation MethodInvocation SimpleName get type name
+add SimpleName MethodInvocation MethodInvocation SimpleName info
+add SimpleName MethodInvocation MethodInvocation SimpleName get type name
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName add type if needed
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName type vertex info
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName info
+void PrimitiveType MethodDeclaration SimpleName add type if needed
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName type vertex info
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName info
+add type if needed SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName type vertex info
+add type if needed SimpleName MethodDeclaration SingleVariableDeclaration SimpleName info
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName add type if needed
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName info
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName add type if needed
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName info

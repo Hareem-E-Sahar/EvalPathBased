@@ -1,0 +1,96 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName metadata collection id
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName member registration
+list SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName members
+member registration SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName members
+members SimpleName MethodInvocation SimpleName size
+index of new member SimpleName VariableDeclarationFragment MethodInvocation SimpleName members
+index of new member SimpleName VariableDeclarationFragment MethodInvocation SimpleName size
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName index of new member
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName members
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName size
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+members SimpleName MethodInvocation SimpleName size
+i SimpleName InfixExpression MethodInvocation SimpleName members
+i SimpleName InfixExpression MethodInvocation SimpleName size
+members SimpleName MethodInvocation SimpleName get
+members SimpleName MethodInvocation SimpleName i
+get SimpleName MethodInvocation SimpleName i
+members SimpleName MethodInvocation MethodInvocation SimpleName get metadata collection id
+get SimpleName MethodInvocation MethodInvocation SimpleName get metadata collection id
+i SimpleName MethodInvocation MethodInvocation SimpleName get metadata collection id
+member id SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName members
+member id SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get
+member id SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName i
+member id SimpleName VariableDeclarationFragment MethodInvocation SimpleName get metadata collection id
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName member id
+metadata collection id SimpleName MethodInvocation SimpleName equals
+metadata collection id SimpleName MethodInvocation SimpleName member id
+equals SimpleName MethodInvocation SimpleName member id
+log SimpleName MethodInvocation SimpleName is debug enabled
+found existing registration for StringLiteral InfixExpression SimpleName metadata collection id
+found existing registration for StringLiteral InfixExpression StringLiteral at position
+found existing registration for StringLiteral InfixExpression SimpleName i
+metadata collection id SimpleName InfixExpression StringLiteral at position
+metadata collection id SimpleName InfixExpression SimpleName i
+at position StringLiteral InfixExpression SimpleName i
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation InfixExpression StringLiteral found existing registration for
+log SimpleName MethodInvocation InfixExpression SimpleName metadata collection id
+log SimpleName MethodInvocation InfixExpression StringLiteral at position
+log SimpleName MethodInvocation InfixExpression SimpleName i
+debug SimpleName MethodInvocation InfixExpression StringLiteral found existing registration for
+debug SimpleName MethodInvocation InfixExpression SimpleName metadata collection id
+debug SimpleName MethodInvocation InfixExpression StringLiteral at position
+debug SimpleName MethodInvocation InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+log SimpleName MethodInvocation SimpleName is debug enabled
+new registration for StringLiteral InfixExpression SimpleName metadata collection id
+new registration for StringLiteral InfixExpression StringLiteral - saving at position
+new registration for StringLiteral InfixExpression SimpleName index of new member
+metadata collection id SimpleName InfixExpression StringLiteral - saving at position
+metadata collection id SimpleName InfixExpression SimpleName index of new member
+- saving at position StringLiteral InfixExpression SimpleName index of new member
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation InfixExpression StringLiteral new registration for
+log SimpleName MethodInvocation InfixExpression SimpleName metadata collection id
+log SimpleName MethodInvocation InfixExpression StringLiteral - saving at position
+log SimpleName MethodInvocation InfixExpression SimpleName index of new member
+debug SimpleName MethodInvocation InfixExpression StringLiteral new registration for
+debug SimpleName MethodInvocation InfixExpression SimpleName metadata collection id
+debug SimpleName MethodInvocation InfixExpression StringLiteral - saving at position
+debug SimpleName MethodInvocation InfixExpression SimpleName index of new member
+int PrimitiveType VariableDeclarationStatement Block ReturnStatement SimpleName index of new member
+private Modifier MethodDeclaration PrimitiveType int
+private Modifier MethodDeclaration SimpleName find remote registration
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName metadata collection id
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName members
+private Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+private Modifier MethodDeclaration Block ReturnStatement SimpleName index of new member
+int PrimitiveType MethodDeclaration SimpleName find remote registration
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName metadata collection id
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName members
+int PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType MethodDeclaration Block ReturnStatement SimpleName index of new member
+find remote registration SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+find remote registration SimpleName MethodDeclaration SingleVariableDeclaration SimpleName metadata collection id
+find remote registration SimpleName MethodDeclaration SingleVariableDeclaration SimpleName members
+find remote registration SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+find remote registration SimpleName MethodDeclaration Block ReturnStatement SimpleName index of new member
+metadata collection id SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName members
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SimpleName find remote registration
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName metadata collection id
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName members
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SimpleName find remote registration
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName metadata collection id
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName members

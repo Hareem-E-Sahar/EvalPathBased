@@ -1,0 +1,33 @@
+batch writer config SimpleName SimpleType SingleVariableDeclaration SimpleName bw config
+baos SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName byte array output stream
+byte array output stream SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName baos
+data output stream SimpleName SimpleType ClassInstanceCreation SimpleName baos
+bw config SimpleName MethodInvocation SimpleName write
+bw config SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName data output stream
+bw config SimpleName MethodInvocation ClassInstanceCreation SimpleName baos
+write SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName data output stream
+write SimpleName MethodInvocation ClassInstanceCreation SimpleName baos
+baos SimpleName MethodInvocation SimpleName to byte array
+private Modifier MethodDeclaration ArrayType PrimitiveType byte
+private Modifier MethodDeclaration SimpleName create bytes
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName batch writer config
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName bw config
+private Modifier MethodDeclaration SimpleType SimpleName io exception
+byte PrimitiveType ArrayType MethodDeclaration SimpleName create bytes
+byte PrimitiveType ArrayType MethodDeclaration SingleVariableDeclaration SimpleName bw config
+byte PrimitiveType ArrayType MethodDeclaration SimpleType SimpleName io exception
+create bytes SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName batch writer config
+create bytes SimpleName MethodDeclaration SingleVariableDeclaration SimpleName bw config
+create bytes SimpleName MethodDeclaration SimpleType SimpleName io exception
+bw config SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration ArrayType PrimitiveType byte
+public Modifier TypeDeclaration MethodDeclaration SimpleName create bytes
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName bw config
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration ArrayType PrimitiveType byte
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create bytes
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName bw config
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

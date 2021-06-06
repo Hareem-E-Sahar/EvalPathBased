@@ -1,0 +1,70 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas vertex
+atlas vertex SimpleName SimpleType SingleVariableDeclaration SimpleName glossary term
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas vertex
+term type SimpleName VariableDeclarationFragment MethodInvocation SimpleName get term entity type
+atlas entity type SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName term type
+term type SimpleName MethodInvocation SimpleName get relationship attribute
+term type SimpleName MethodInvocation QualifiedName term search processoratlas glossary term attr assigned entities
+get relationship attribute SimpleName MethodInvocation QualifiedName term search processoratlas glossary term attr assigned entities
+attr SimpleName VariableDeclarationFragment MethodInvocation SimpleName term type
+attr SimpleName VariableDeclarationFragment MethodInvocation SimpleName get relationship attribute
+attr SimpleName VariableDeclarationFragment MethodInvocation QualifiedName term search processoratlas glossary term attr assigned entities
+atlas attribute SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName attr
+iterator SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas edge
+attr SimpleName MethodInvocation SimpleName get relationship edge label
+attr SimpleName MethodInvocation SimpleName get relationship edge direction
+graph helper SimpleName MethodInvocation SimpleName get edges for label
+graph helper SimpleName MethodInvocation SimpleName glossary term
+graph helper SimpleName MethodInvocation MethodInvocation SimpleName attr
+graph helper SimpleName MethodInvocation MethodInvocation SimpleName get relationship edge label
+graph helper SimpleName MethodInvocation MethodInvocation SimpleName attr
+graph helper SimpleName MethodInvocation MethodInvocation SimpleName get relationship edge direction
+get edges for label SimpleName MethodInvocation SimpleName glossary term
+get edges for label SimpleName MethodInvocation MethodInvocation SimpleName attr
+get edges for label SimpleName MethodInvocation MethodInvocation SimpleName get relationship edge label
+get edges for label SimpleName MethodInvocation MethodInvocation SimpleName attr
+get edges for label SimpleName MethodInvocation MethodInvocation SimpleName get relationship edge direction
+glossary term SimpleName MethodInvocation MethodInvocation SimpleName attr
+glossary term SimpleName MethodInvocation MethodInvocation SimpleName get relationship edge label
+glossary term SimpleName MethodInvocation MethodInvocation SimpleName attr
+glossary term SimpleName MethodInvocation MethodInvocation SimpleName get relationship edge direction
+attr SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName attr
+attr SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get relationship edge direction
+get relationship edge label SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName attr
+get relationship edge label SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get relationship edge direction
+edges SimpleName VariableDeclarationFragment MethodInvocation SimpleName graph helper
+edges SimpleName VariableDeclarationFragment MethodInvocation SimpleName get edges for label
+edges SimpleName VariableDeclarationFragment MethodInvocation SimpleName glossary term
+edges SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName attr
+edges SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get relationship edge label
+edges SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName attr
+edges SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get relationship edge direction
+edges SimpleName MethodInvocation SimpleName has next
+edges SimpleName MethodInvocation SimpleName next
+edge SimpleName VariableDeclarationFragment MethodInvocation SimpleName edges
+edge SimpleName VariableDeclarationFragment MethodInvocation SimpleName next
+atlas edge SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName edge
+edge SimpleName MethodInvocation SimpleName get in vertex
+ret SimpleName MethodInvocation SimpleName add
+ret SimpleName MethodInvocation MethodInvocation SimpleName edge
+ret SimpleName MethodInvocation MethodInvocation SimpleName get in vertex
+add SimpleName MethodInvocation MethodInvocation SimpleName edge
+add SimpleName MethodInvocation MethodInvocation SimpleName get in vertex
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName atlas vertex
+private Modifier MethodDeclaration SimpleName get assigned entities
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas vertex
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName glossary term
+private Modifier MethodDeclaration Block ReturnStatement SimpleName ret
+list SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get assigned entities
+atlas vertex SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get assigned entities
+get assigned entities SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas vertex
+get assigned entities SimpleName MethodDeclaration SingleVariableDeclaration SimpleName glossary term
+get assigned entities SimpleName MethodDeclaration Block ReturnStatement SimpleName ret
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleName get assigned entities
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName glossary term
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get assigned entities
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName glossary term

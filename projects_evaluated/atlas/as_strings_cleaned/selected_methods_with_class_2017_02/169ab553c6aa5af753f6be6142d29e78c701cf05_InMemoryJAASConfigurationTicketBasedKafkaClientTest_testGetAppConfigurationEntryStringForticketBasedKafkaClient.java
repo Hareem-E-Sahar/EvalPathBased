@@ -1,0 +1,52 @@
+configuration SimpleName MethodInvocation SimpleName get configuration
+configuration SimpleName MethodInvocation MethodInvocation SimpleName get app configuration entry
+get configuration SimpleName MethodInvocation MethodInvocation SimpleName get app configuration entry
+configuration SimpleName MethodInvocation MethodInvocation StringLiteral kafka client
+get configuration SimpleName MethodInvocation MethodInvocation StringLiteral kafka client
+get app configuration entry SimpleName MethodInvocation StringLiteral kafka client
+entries SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName configuration
+entries SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get configuration
+entries SimpleName VariableDeclarationFragment MethodInvocation SimpleName get app configuration entry
+entries SimpleName VariableDeclarationFragment MethodInvocation StringLiteral kafka client
+assert SimpleName MethodInvocation SimpleName assert not null
+assert SimpleName MethodInvocation SimpleName entries
+assert not null SimpleName MethodInvocation SimpleName entries
+entries SimpleName ArrayAccess NumberLiteral empty
+entries SimpleName ArrayAccess MethodInvocation SimpleName get options
+empty NumberLiteral ArrayAccess MethodInvocation SimpleName get options
+entries SimpleName ArrayAccess MethodInvocation MethodInvocation SimpleName get
+empty NumberLiteral ArrayAccess MethodInvocation MethodInvocation SimpleName get
+get options SimpleName MethodInvocation MethodInvocation SimpleName get
+entries SimpleName ArrayAccess MethodInvocation MethodInvocation StringLiteral use ticket cache
+empty NumberLiteral ArrayAccess MethodInvocation MethodInvocation StringLiteral use ticket cache
+get options SimpleName MethodInvocation MethodInvocation StringLiteral use ticket cache
+get SimpleName MethodInvocation StringLiteral use ticket cache
+string SimpleName SimpleType CastExpression MethodInvocation SimpleName get
+string SimpleName SimpleType CastExpression MethodInvocation StringLiteral use ticket cache
+assert SimpleName MethodInvocation SimpleName assert equals
+assert SimpleName MethodInvocation CastExpression SimpleType SimpleName string
+assert SimpleName MethodInvocation CastExpression MethodInvocation SimpleName get
+assert SimpleName MethodInvocation CastExpression MethodInvocation StringLiteral use ticket cache
+assert SimpleName MethodInvocation StringLiteral true
+assert equals SimpleName MethodInvocation CastExpression SimpleType SimpleName string
+assert equals SimpleName MethodInvocation CastExpression MethodInvocation SimpleName get
+assert equals SimpleName MethodInvocation CastExpression MethodInvocation StringLiteral use ticket cache
+assert equals SimpleName MethodInvocation StringLiteral true
+string SimpleName SimpleType CastExpression MethodInvocation StringLiteral true
+get SimpleName MethodInvocation CastExpression MethodInvocation StringLiteral true
+use ticket cache StringLiteral MethodInvocation CastExpression MethodInvocation StringLiteral true
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test get app configuration entry string forticket based kafka client
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test get app configuration entry string forticket based kafka client
+void PrimitiveType MethodDeclaration SimpleName test get app configuration entry string forticket based kafka client
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test get app configuration entry string forticket based kafka client
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test get app configuration entry string forticket based kafka client

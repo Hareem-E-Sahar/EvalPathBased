@@ -1,0 +1,54 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName db name
+string SimpleName SimpleType SingleVariableDeclaration SimpleName table name
+assert predicate SimpleName SimpleType SingleVariableDeclaration SimpleName assert predicate
+assert table is registered SimpleName MethodInvocation SimpleName db name
+assert table is registered SimpleName MethodInvocation SimpleName table name
+assert table is registered SimpleName MethodInvocation SimpleName assert predicate
+assert table is registered SimpleName MethodInvocation BooleanLiteral false
+db name SimpleName MethodInvocation SimpleName table name
+db name SimpleName MethodInvocation SimpleName assert predicate
+db name SimpleName MethodInvocation BooleanLiteral false
+table name SimpleName MethodInvocation SimpleName assert predicate
+table name SimpleName MethodInvocation BooleanLiteral false
+assert predicate SimpleName MethodInvocation BooleanLiteral false
+private Modifier MethodDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SimpleName assert table is registered
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName db name
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName table name
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName assert predicate
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName assert predicate
+string SimpleName SimpleType MethodDeclaration SimpleName assert table is registered
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName db name
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName table name
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName assert predicate
+string SimpleName SimpleType MethodDeclaration SimpleType SimpleName exception
+assert table is registered SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+assert table is registered SimpleName MethodDeclaration SingleVariableDeclaration SimpleName db name
+assert table is registered SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+assert table is registered SimpleName MethodDeclaration SingleVariableDeclaration SimpleName table name
+assert table is registered SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName assert predicate
+assert table is registered SimpleName MethodDeclaration SingleVariableDeclaration SimpleName assert predicate
+assert table is registered SimpleName MethodDeclaration SimpleType SimpleName exception
+db name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table name
+db name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName assert predicate
+db name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+table name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName assert predicate
+table name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+assert predicate SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName assert table is registered
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName db name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName assert predicate
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName assert table is registered
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName db name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName assert predicate
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

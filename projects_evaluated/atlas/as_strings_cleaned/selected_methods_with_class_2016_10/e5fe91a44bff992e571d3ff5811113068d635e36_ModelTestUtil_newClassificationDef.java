@@ -1,0 +1,82 @@
+atlas type registry SimpleName SimpleType SingleVariableDeclaration SimpleName types registry
+atlas classification def SimpleName SimpleType ArrayType SingleVariableDeclaration SimpleName super types
+idx classification def SimpleName MethodInvocation SimpleName get and increment
+classification def idx SimpleName VariableDeclarationFragment MethodInvocation SimpleName idx classification def
+classification def idx SimpleName VariableDeclarationFragment MethodInvocation SimpleName get and increment
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName classification def idx
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName idx classification def
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get and increment
+ret SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName atlas classification def
+atlas classification def SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ret
+prefix classification def SimpleName InfixExpression SimpleName classification def idx
+ret SimpleName MethodInvocation SimpleName set name
+ret SimpleName MethodInvocation InfixExpression SimpleName prefix classification def
+ret SimpleName MethodInvocation InfixExpression SimpleName classification def idx
+set name SimpleName MethodInvocation InfixExpression SimpleName prefix classification def
+set name SimpleName MethodInvocation InfixExpression SimpleName classification def idx
+ret SimpleName MethodInvocation SimpleName get name
+ret SimpleName MethodInvocation SimpleName set description
+ret SimpleName MethodInvocation MethodInvocation SimpleName ret
+ret SimpleName MethodInvocation MethodInvocation SimpleName get name
+set description SimpleName MethodInvocation MethodInvocation SimpleName ret
+set description SimpleName MethodInvocation MethodInvocation SimpleName get name
+new attribute defs with all built in types SimpleName MethodInvocation SimpleName prefix attribute name
+ret SimpleName MethodInvocation SimpleName set attribute defs
+ret SimpleName MethodInvocation MethodInvocation SimpleName new attribute defs with all built in types
+ret SimpleName MethodInvocation MethodInvocation SimpleName prefix attribute name
+set attribute defs SimpleName MethodInvocation MethodInvocation SimpleName new attribute defs with all built in types
+set attribute defs SimpleName MethodInvocation MethodInvocation SimpleName prefix attribute name
+atlas classification def SimpleName SimpleType SingleVariableDeclaration SimpleName super type
+super type SimpleName MethodInvocation SimpleName get name
+ret SimpleName MethodInvocation SimpleName add super type
+ret SimpleName MethodInvocation MethodInvocation SimpleName super type
+ret SimpleName MethodInvocation MethodInvocation SimpleName get name
+add super type SimpleName MethodInvocation MethodInvocation SimpleName super type
+add super type SimpleName MethodInvocation MethodInvocation SimpleName get name
+atlas classification def SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName super types
+super type SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName super types
+types registry SimpleName MethodInvocation SimpleName add type
+types registry SimpleName MethodInvocation SimpleName ret
+add type SimpleName MethodInvocation SimpleName ret
+atlas base exception SimpleName SimpleType SingleVariableDeclaration SimpleName excp
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation StringLiteral failed to create classificationdef
+log SimpleName MethodInvocation SimpleName excp
+error SimpleName MethodInvocation StringLiteral failed to create classificationdef
+error SimpleName MethodInvocation SimpleName excp
+failed to create classificationdef StringLiteral MethodInvocation SimpleName excp
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName atlas classification def
+public Modifier MethodDeclaration SimpleName new classification def
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas type registry
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName types registry
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName super types
+static Modifier MethodDeclaration SimpleType SimpleName atlas classification def
+static Modifier MethodDeclaration SimpleName new classification def
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas type registry
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName types registry
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName super types
+static Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+static Modifier MethodDeclaration Block ReturnStatement SimpleName ret
+atlas classification def SimpleName SimpleType MethodDeclaration SimpleName new classification def
+atlas classification def SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName types registry
+atlas classification def SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName super types
+new classification def SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas type registry
+new classification def SimpleName MethodDeclaration SingleVariableDeclaration SimpleName types registry
+new classification def SimpleName MethodDeclaration SingleVariableDeclaration SimpleName super types
+new classification def SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+new classification def SimpleName MethodDeclaration Block ReturnStatement SimpleName ret
+types registry SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName super types
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas classification def
+public Modifier TypeDeclaration MethodDeclaration SimpleName new classification def
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName types registry
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName super types
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas classification def
+test SimpleName TypeDeclaration MethodDeclaration SimpleName new classification def
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName types registry
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName super types

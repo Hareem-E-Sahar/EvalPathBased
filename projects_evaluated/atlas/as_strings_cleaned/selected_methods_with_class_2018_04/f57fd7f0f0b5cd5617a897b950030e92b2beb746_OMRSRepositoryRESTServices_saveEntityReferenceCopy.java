@@ -1,0 +1,116 @@
+method SimpleName MemberValuePair QualifiedName request methodpatch
+path SimpleName MemberValuePair StringLiteral user idinstancesentitiesreferencecopy
+request mapping SimpleName NormalAnnotation MemberValuePair SimpleName method
+request mapping SimpleName NormalAnnotation MemberValuePair QualifiedName request methodpatch
+request mapping SimpleName NormalAnnotation MemberValuePair SimpleName path
+request mapping SimpleName NormalAnnotation MemberValuePair StringLiteral user idinstancesentitiesreferencecopy
+method SimpleName MemberValuePair NormalAnnotation MemberValuePair SimpleName path
+method SimpleName MemberValuePair NormalAnnotation MemberValuePair StringLiteral user idinstancesentitiesreferencecopy
+request methodpatch QualifiedName MemberValuePair NormalAnnotation MemberValuePair SimpleName path
+request methodpatch QualifiedName MemberValuePair NormalAnnotation MemberValuePair StringLiteral user idinstancesentitiesreferencecopy
+path variable SimpleName MarkerAnnotation SingleVariableDeclaration SimpleType SimpleName string
+path variable SimpleName MarkerAnnotation SingleVariableDeclaration SimpleName user id
+string SimpleName SimpleType SingleVariableDeclaration SimpleName user id
+request param SimpleName MarkerAnnotation SingleVariableDeclaration SimpleType SimpleName entity detail
+request param SimpleName MarkerAnnotation SingleVariableDeclaration SimpleName entity
+entity detail SimpleName SimpleType SingleVariableDeclaration SimpleName entity
+method name SimpleName VariableDeclarationFragment StringLiteral save entity reference copy
+final Modifier VariableDeclarationStatement SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName method name
+final Modifier VariableDeclarationStatement VariableDeclarationFragment StringLiteral save entity reference copy
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName method name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral save entity reference copy
+response SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName void response
+void response SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName response
+validate local repository SimpleName MethodInvocation SimpleName method name
+local metadata collection SimpleName MethodInvocation SimpleName save entity reference copy
+local metadata collection SimpleName MethodInvocation SimpleName user id
+local metadata collection SimpleName MethodInvocation SimpleName entity
+save entity reference copy SimpleName MethodInvocation SimpleName user id
+save entity reference copy SimpleName MethodInvocation SimpleName entity
+user id SimpleName MethodInvocation SimpleName entity
+repository error exception SimpleName SimpleType SingleVariableDeclaration SimpleName error
+capture repository error exception SimpleName MethodInvocation SimpleName response
+capture repository error exception SimpleName MethodInvocation SimpleName error
+response SimpleName MethodInvocation SimpleName error
+function not supported exception SimpleName SimpleType SingleVariableDeclaration SimpleName error
+capture function not supported exception SimpleName MethodInvocation SimpleName response
+capture function not supported exception SimpleName MethodInvocation SimpleName error
+response SimpleName MethodInvocation SimpleName error
+user not authorized exception SimpleName SimpleType SingleVariableDeclaration SimpleName error
+capture user not authorized exception SimpleName MethodInvocation SimpleName response
+capture user not authorized exception SimpleName MethodInvocation SimpleName error
+response SimpleName MethodInvocation SimpleName error
+invalid parameter exception SimpleName SimpleType SingleVariableDeclaration SimpleName error
+capture invalid parameter exception SimpleName MethodInvocation SimpleName response
+capture invalid parameter exception SimpleName MethodInvocation SimpleName error
+response SimpleName MethodInvocation SimpleName error
+type error exception SimpleName SimpleType SingleVariableDeclaration SimpleName error
+capture type def error exception SimpleName MethodInvocation SimpleName response
+capture type def error exception SimpleName MethodInvocation SimpleName error
+response SimpleName MethodInvocation SimpleName error
+property error exception SimpleName SimpleType SingleVariableDeclaration SimpleName error
+capture property error exception SimpleName MethodInvocation SimpleName response
+capture property error exception SimpleName MethodInvocation SimpleName error
+response SimpleName MethodInvocation SimpleName error
+home entity exception SimpleName SimpleType SingleVariableDeclaration SimpleName error
+capture home entity exception SimpleName MethodInvocation SimpleName response
+capture home entity exception SimpleName MethodInvocation SimpleName error
+response SimpleName MethodInvocation SimpleName error
+entity conflict exception SimpleName SimpleType SingleVariableDeclaration SimpleName error
+capture entity conflict exception SimpleName MethodInvocation SimpleName response
+capture entity conflict exception SimpleName MethodInvocation SimpleName error
+response SimpleName MethodInvocation SimpleName error
+invalid entity exception SimpleName SimpleType SingleVariableDeclaration SimpleName error
+capture invalid entity exception SimpleName MethodInvocation SimpleName response
+capture invalid entity exception SimpleName MethodInvocation SimpleName error
+response SimpleName MethodInvocation SimpleName error
+final Modifier VariableDeclarationStatement Block ReturnStatement SimpleName response
+request mapping SimpleName NormalAnnotation MethodDeclaration Modifier public
+method SimpleName MemberValuePair NormalAnnotation MethodDeclaration Modifier public
+request methodpatch QualifiedName MemberValuePair NormalAnnotation MethodDeclaration Modifier public
+path SimpleName MemberValuePair NormalAnnotation MethodDeclaration Modifier public
+user idinstancesentitiesreferencecopy StringLiteral MemberValuePair NormalAnnotation MethodDeclaration Modifier public
+request mapping SimpleName NormalAnnotation MethodDeclaration SimpleType SimpleName void response
+request mapping SimpleName NormalAnnotation MethodDeclaration SimpleName save entity reference copy
+method SimpleName MemberValuePair NormalAnnotation MethodDeclaration SimpleName save entity reference copy
+request methodpatch QualifiedName MemberValuePair NormalAnnotation MethodDeclaration SimpleName save entity reference copy
+path SimpleName MemberValuePair NormalAnnotation MethodDeclaration SimpleName save entity reference copy
+user idinstancesentitiesreferencecopy StringLiteral MemberValuePair NormalAnnotation MethodDeclaration SimpleName save entity reference copy
+request mapping SimpleName NormalAnnotation MethodDeclaration SingleVariableDeclaration SimpleName user id
+request mapping SimpleName NormalAnnotation MethodDeclaration SingleVariableDeclaration SimpleName entity
+public Modifier MethodDeclaration SimpleType SimpleName void response
+public Modifier MethodDeclaration SimpleName save entity reference copy
+public Modifier MethodDeclaration SingleVariableDeclaration MarkerAnnotation SimpleName path variable
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName user id
+public Modifier MethodDeclaration SingleVariableDeclaration MarkerAnnotation SimpleName request param
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName entity detail
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName entity
+public Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+public Modifier MethodDeclaration Block ReturnStatement SimpleName response
+void response SimpleName SimpleType MethodDeclaration SimpleName save entity reference copy
+void response SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName user id
+void response SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName entity
+save entity reference copy SimpleName MethodDeclaration SingleVariableDeclaration MarkerAnnotation SimpleName path variable
+save entity reference copy SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+save entity reference copy SimpleName MethodDeclaration SingleVariableDeclaration SimpleName user id
+save entity reference copy SimpleName MethodDeclaration SingleVariableDeclaration MarkerAnnotation SimpleName request param
+save entity reference copy SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName entity detail
+save entity reference copy SimpleName MethodDeclaration SingleVariableDeclaration SimpleName entity
+save entity reference copy SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+save entity reference copy SimpleName MethodDeclaration Block ReturnStatement SimpleName response
+user id SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration NormalAnnotation SimpleName request mapping
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName void response
+public Modifier TypeDeclaration MethodDeclaration SimpleName save entity reference copy
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName user id
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity
+test SimpleName TypeDeclaration MethodDeclaration NormalAnnotation SimpleName request mapping
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName void response
+test SimpleName TypeDeclaration MethodDeclaration SimpleName save entity reference copy
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName user id
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity

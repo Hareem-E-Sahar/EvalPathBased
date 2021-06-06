@@ -1,0 +1,74 @@
+string builder SimpleName SimpleType SingleVariableDeclaration SimpleName buffer
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName referenceable
+list SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName refs
+referenceable SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName refs
+referenceable SimpleName SimpleType SingleVariableDeclaration SimpleName input
+buffer SimpleName MethodInvocation SimpleName append
+buffer SimpleName MethodInvocation StringLiteral :
+append SimpleName MethodInvocation StringLiteral :
+input SimpleName MethodInvocation SimpleName get
+input SimpleName MethodInvocation QualifiedName atlas clientname
+get SimpleName MethodInvocation QualifiedName atlas clientname
+string SimpleName SimpleType CastExpression MethodInvocation SimpleName input
+string SimpleName SimpleType CastExpression MethodInvocation SimpleName get
+string SimpleName SimpleType CastExpression MethodInvocation QualifiedName atlas clientname
+data set qlfd name SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName string
+data set qlfd name SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName input
+data set qlfd name SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get
+data set qlfd name SimpleName VariableDeclarationFragment CastExpression MethodInvocation QualifiedName atlas clientname
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName data set qlfd name
+data set qlfd name SimpleName MethodInvocation SimpleName to lower case
+data set qlfd name SimpleName MethodInvocation MethodInvocation SimpleName replace all
+to lower case SimpleName MethodInvocation MethodInvocation SimpleName replace all
+data set qlfd name SimpleName MethodInvocation MethodInvocation StringLiteral /
+to lower case SimpleName MethodInvocation MethodInvocation StringLiteral /
+data set qlfd name SimpleName MethodInvocation MethodInvocation StringLiteral empty
+to lower case SimpleName MethodInvocation MethodInvocation StringLiteral empty
+replace all SimpleName MethodInvocation StringLiteral /
+replace all SimpleName MethodInvocation StringLiteral empty
+/ StringLiteral MethodInvocation StringLiteral empty
+buffer SimpleName MethodInvocation SimpleName append
+buffer SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName data set qlfd name
+buffer SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to lower case
+buffer SimpleName MethodInvocation MethodInvocation SimpleName replace all
+buffer SimpleName MethodInvocation MethodInvocation StringLiteral /
+buffer SimpleName MethodInvocation MethodInvocation StringLiteral empty
+append SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName data set qlfd name
+append SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to lower case
+append SimpleName MethodInvocation MethodInvocation SimpleName replace all
+append SimpleName MethodInvocation MethodInvocation StringLiteral /
+append SimpleName MethodInvocation MethodInvocation StringLiteral empty
+referenceable SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName refs
+input SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName refs
+private Modifier MethodDeclaration Modifier static
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName add datasets
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string builder
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName buffer
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName refs
+static Modifier MethodDeclaration PrimitiveType void
+static Modifier MethodDeclaration SimpleName add datasets
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string builder
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName buffer
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName refs
+void PrimitiveType MethodDeclaration SimpleName add datasets
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string builder
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName buffer
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName refs
+add datasets SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string builder
+add datasets SimpleName MethodDeclaration SingleVariableDeclaration SimpleName buffer
+add datasets SimpleName MethodDeclaration SingleVariableDeclaration SimpleName refs
+buffer SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName refs
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName add datasets
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName buffer
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName refs
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName add datasets
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName buffer
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName refs

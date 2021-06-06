@@ -1,0 +1,13 @@
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName write entity
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName set
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName write entity
+public Modifier MethodDeclaration SimpleName get outputs
+public Modifier MethodDeclaration Block ReturnStatement SimpleName outputs
+set SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get outputs
+write entity SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get outputs
+get outputs SimpleName MethodDeclaration Block ReturnStatement SimpleName outputs
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName get outputs
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get outputs

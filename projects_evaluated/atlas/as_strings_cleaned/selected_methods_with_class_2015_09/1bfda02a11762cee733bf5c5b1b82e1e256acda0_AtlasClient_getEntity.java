@@ -1,0 +1,102 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName entity type
+string SimpleName SimpleType SingleVariableDeclaration SimpleName attribute
+string SimpleName SimpleType SingleVariableDeclaration SimpleName value
+get resource SimpleName MethodInvocation QualifiedName apiget entity
+resource SimpleName VariableDeclarationFragment MethodInvocation SimpleName get resource
+resource SimpleName VariableDeclarationFragment MethodInvocation QualifiedName apiget entity
+web resource SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName resource
+resource SimpleName MethodInvocation SimpleName query param
+resource SimpleName MethodInvocation SimpleName type
+resource SimpleName MethodInvocation SimpleName entity type
+query param SimpleName MethodInvocation SimpleName type
+query param SimpleName MethodInvocation SimpleName entity type
+type SimpleName MethodInvocation SimpleName entity type
+resource SimpleName Assignment MethodInvocation SimpleName resource
+resource SimpleName Assignment MethodInvocation SimpleName query param
+resource SimpleName Assignment MethodInvocation SimpleName type
+resource SimpleName Assignment MethodInvocation SimpleName entity type
+resource SimpleName MethodInvocation SimpleName query param
+resource SimpleName MethodInvocation SimpleName attribute name
+resource SimpleName MethodInvocation SimpleName attribute
+query param SimpleName MethodInvocation SimpleName attribute name
+query param SimpleName MethodInvocation SimpleName attribute
+attribute name SimpleName MethodInvocation SimpleName attribute
+resource SimpleName Assignment MethodInvocation SimpleName resource
+resource SimpleName Assignment MethodInvocation SimpleName query param
+resource SimpleName Assignment MethodInvocation SimpleName attribute name
+resource SimpleName Assignment MethodInvocation SimpleName attribute
+resource SimpleName MethodInvocation SimpleName query param
+resource SimpleName MethodInvocation SimpleName attribute value
+resource SimpleName MethodInvocation SimpleName value
+query param SimpleName MethodInvocation SimpleName attribute value
+query param SimpleName MethodInvocation SimpleName value
+attribute value SimpleName MethodInvocation SimpleName value
+resource SimpleName Assignment MethodInvocation SimpleName resource
+resource SimpleName Assignment MethodInvocation SimpleName query param
+resource SimpleName Assignment MethodInvocation SimpleName attribute value
+resource SimpleName Assignment MethodInvocation SimpleName value
+call api with resource SimpleName MethodInvocation QualifiedName apiget entity
+call api with resource SimpleName MethodInvocation SimpleName resource
+apiget entity QualifiedName MethodInvocation SimpleName resource
+json response SimpleName VariableDeclarationFragment MethodInvocation SimpleName call api with resource
+json response SimpleName VariableDeclarationFragment MethodInvocation QualifiedName apiget entity
+json response SimpleName VariableDeclarationFragment MethodInvocation SimpleName resource
+json object SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName json response
+json response SimpleName MethodInvocation SimpleName get string
+json response SimpleName MethodInvocation QualifiedName atlas clientdefinition
+get string SimpleName MethodInvocation QualifiedName atlas clientdefinition
+entity instance definition SimpleName VariableDeclarationFragment MethodInvocation SimpleName json response
+entity instance definition SimpleName VariableDeclarationFragment MethodInvocation SimpleName get string
+entity instance definition SimpleName VariableDeclarationFragment MethodInvocation QualifiedName atlas clientdefinition
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName entity instance definition
+instance serialization SimpleName MethodInvocation SimpleName from json referenceable
+instance serialization SimpleName MethodInvocation SimpleName entity instance definition
+instance serialization SimpleName MethodInvocation BooleanLiteral true
+from json referenceable SimpleName MethodInvocation SimpleName entity instance definition
+from json referenceable SimpleName MethodInvocation BooleanLiteral true
+entity instance definition SimpleName MethodInvocation BooleanLiteral true
+json exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+atlas service exception SimpleName SimpleType ClassInstanceCreation QualifiedName apiget entity
+atlas service exception SimpleName SimpleType ClassInstanceCreation SimpleName e
+apiget entity QualifiedName ClassInstanceCreation SimpleName e
+public Modifier MethodDeclaration SimpleType SimpleName referenceable
+public Modifier MethodDeclaration SimpleName get entity
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName entity type
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName attribute
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName value
+referenceable SimpleName SimpleType MethodDeclaration SimpleName get entity
+referenceable SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName entity type
+referenceable SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName attribute
+referenceable SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName value
+referenceable SimpleName SimpleType MethodDeclaration SimpleType SimpleName atlas service exception
+get entity SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get entity SimpleName MethodDeclaration SingleVariableDeclaration SimpleName entity type
+get entity SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get entity SimpleName MethodDeclaration SingleVariableDeclaration SimpleName attribute
+get entity SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get entity SimpleName MethodDeclaration SingleVariableDeclaration SimpleName value
+get entity SimpleName MethodDeclaration SimpleType SimpleName atlas service exception
+entity type SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attribute
+entity type SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value
+entity type SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas service exception
+attribute SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value
+attribute SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas service exception
+value SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas service exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName referenceable
+public Modifier TypeDeclaration MethodDeclaration SimpleName get entity
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity type
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attribute
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas service exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName referenceable
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get entity
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity type
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attribute
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas service exception

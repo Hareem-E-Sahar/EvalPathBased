@@ -1,0 +1,117 @@
+instance token wrapper SimpleName SimpleType SingleVariableDeclaration SimpleName c
+string SimpleName SimpleType SingleVariableDeclaration SimpleName table id
+authenticate SimpleName MethodInvocation SimpleName c
+c SimpleName MethodInvocation SimpleName get principal
+has system permission SimpleName MethodInvocation MethodInvocation SimpleName c
+has system permission SimpleName MethodInvocation MethodInvocation SimpleName get principal
+has system permission SimpleName MethodInvocation QualifiedName system permissionalter table
+has system permission SimpleName MethodInvocation BooleanLiteral false
+c SimpleName MethodInvocation MethodInvocation QualifiedName system permissionalter table
+get principal SimpleName MethodInvocation MethodInvocation QualifiedName system permissionalter table
+c SimpleName MethodInvocation MethodInvocation BooleanLiteral false
+get principal SimpleName MethodInvocation MethodInvocation BooleanLiteral false
+system permissionalter table QualifiedName MethodInvocation BooleanLiteral false
+c SimpleName MethodInvocation SimpleName get principal
+has table permission SimpleName MethodInvocation MethodInvocation SimpleName c
+has table permission SimpleName MethodInvocation MethodInvocation SimpleName get principal
+has table permission SimpleName MethodInvocation SimpleName table id
+has table permission SimpleName MethodInvocation QualifiedName table permissionalter table
+has table permission SimpleName MethodInvocation BooleanLiteral false
+c SimpleName MethodInvocation MethodInvocation SimpleName table id
+get principal SimpleName MethodInvocation MethodInvocation SimpleName table id
+c SimpleName MethodInvocation MethodInvocation QualifiedName table permissionalter table
+get principal SimpleName MethodInvocation MethodInvocation QualifiedName table permissionalter table
+c SimpleName MethodInvocation MethodInvocation BooleanLiteral false
+get principal SimpleName MethodInvocation MethodInvocation BooleanLiteral false
+table id SimpleName MethodInvocation QualifiedName table permissionalter table
+table id SimpleName MethodInvocation BooleanLiteral false
+table permissionalter table QualifiedName MethodInvocation BooleanLiteral false
+c SimpleName MethodInvocation SimpleName get principal
+has table permission SimpleName MethodInvocation MethodInvocation SimpleName c
+has table permission SimpleName MethodInvocation MethodInvocation SimpleName get principal
+has table permission SimpleName MethodInvocation SimpleName table id
+has table permission SimpleName MethodInvocation QualifiedName table permissionwrite
+has table permission SimpleName MethodInvocation BooleanLiteral false
+c SimpleName MethodInvocation MethodInvocation SimpleName table id
+get principal SimpleName MethodInvocation MethodInvocation SimpleName table id
+c SimpleName MethodInvocation MethodInvocation QualifiedName table permissionwrite
+get principal SimpleName MethodInvocation MethodInvocation QualifiedName table permissionwrite
+c SimpleName MethodInvocation MethodInvocation BooleanLiteral false
+get principal SimpleName MethodInvocation MethodInvocation BooleanLiteral false
+table id SimpleName MethodInvocation QualifiedName table permissionwrite
+table id SimpleName MethodInvocation BooleanLiteral false
+table permissionwrite QualifiedName MethodInvocation BooleanLiteral false
+has system permission SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName has table permission
+has system permission SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName table id
+has system permission SimpleName MethodInvocation InfixExpression MethodInvocation QualifiedName table permissionalter table
+has system permission SimpleName MethodInvocation InfixExpression MethodInvocation BooleanLiteral false
+system permissionalter table QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName has table permission
+system permissionalter table QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName table id
+system permissionalter table QualifiedName MethodInvocation InfixExpression MethodInvocation QualifiedName table permissionalter table
+system permissionalter table QualifiedName MethodInvocation InfixExpression MethodInvocation BooleanLiteral false
+false BooleanLiteral MethodInvocation InfixExpression MethodInvocation SimpleName has table permission
+false BooleanLiteral MethodInvocation InfixExpression MethodInvocation SimpleName table id
+false BooleanLiteral MethodInvocation InfixExpression MethodInvocation QualifiedName table permissionalter table
+false BooleanLiteral MethodInvocation InfixExpression MethodInvocation BooleanLiteral false
+has system permission SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName has table permission
+has system permission SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName table id
+has system permission SimpleName MethodInvocation InfixExpression MethodInvocation QualifiedName table permissionwrite
+has system permission SimpleName MethodInvocation InfixExpression MethodInvocation BooleanLiteral false
+system permissionalter table QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName has table permission
+system permissionalter table QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName table id
+system permissionalter table QualifiedName MethodInvocation InfixExpression MethodInvocation QualifiedName table permissionwrite
+system permissionalter table QualifiedName MethodInvocation InfixExpression MethodInvocation BooleanLiteral false
+false BooleanLiteral MethodInvocation InfixExpression MethodInvocation SimpleName has table permission
+false BooleanLiteral MethodInvocation InfixExpression MethodInvocation SimpleName table id
+false BooleanLiteral MethodInvocation InfixExpression MethodInvocation QualifiedName table permissionwrite
+false BooleanLiteral MethodInvocation InfixExpression MethodInvocation BooleanLiteral false
+has table permission SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName has table permission
+has table permission SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName table id
+has table permission SimpleName MethodInvocation InfixExpression MethodInvocation QualifiedName table permissionwrite
+has table permission SimpleName MethodInvocation InfixExpression MethodInvocation BooleanLiteral false
+table id SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName has table permission
+table id SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName table id
+table id SimpleName MethodInvocation InfixExpression MethodInvocation QualifiedName table permissionwrite
+table id SimpleName MethodInvocation InfixExpression MethodInvocation BooleanLiteral false
+table permissionalter table QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName has table permission
+table permissionalter table QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName table id
+table permissionalter table QualifiedName MethodInvocation InfixExpression MethodInvocation QualifiedName table permissionwrite
+table permissionalter table QualifiedName MethodInvocation InfixExpression MethodInvocation BooleanLiteral false
+false BooleanLiteral MethodInvocation InfixExpression MethodInvocation SimpleName has table permission
+false BooleanLiteral MethodInvocation InfixExpression MethodInvocation SimpleName table id
+false BooleanLiteral MethodInvocation InfixExpression MethodInvocation QualifiedName table permissionwrite
+false BooleanLiteral MethodInvocation InfixExpression MethodInvocation BooleanLiteral false
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName can compact
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName instance token wrapper
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName c
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName table id
+public Modifier MethodDeclaration SimpleType SimpleName thrift security exception
+boolean PrimitiveType MethodDeclaration SimpleName can compact
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName instance token wrapper
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName c
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName table id
+boolean PrimitiveType MethodDeclaration SimpleType SimpleName thrift security exception
+can compact SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName instance token wrapper
+can compact SimpleName MethodDeclaration SingleVariableDeclaration SimpleName c
+can compact SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+can compact SimpleName MethodDeclaration SingleVariableDeclaration SimpleName table id
+can compact SimpleName MethodDeclaration SimpleType SimpleName thrift security exception
+c SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table id
+c SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName thrift security exception
+table id SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName thrift security exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName can compact
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName c
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table id
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName thrift security exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName can compact
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName c
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table id
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName thrift security exception

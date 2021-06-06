@@ -1,0 +1,152 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas entity
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName field schema
+list SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName schema list
+field schema SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName schema list
+atlas entity SimpleName SimpleType SingleVariableDeclaration SimpleName table
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas entity
+column position SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName column position
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+field schema SimpleName SimpleType SingleVariableDeclaration SimpleName fs
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral processing field {}
+log SimpleName MethodInvocation SimpleName fs
+debug SimpleName MethodInvocation StringLiteral processing field {}
+debug SimpleName MethodInvocation SimpleName fs
+processing field {} StringLiteral MethodInvocation SimpleName fs
+hive data typeshive column QualifiedName MethodInvocation SimpleName get name
+atlas entity SimpleName SimpleType ClassInstanceCreation MethodInvocation QualifiedName hive data typeshive column
+atlas entity SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get name
+column SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName atlas entity
+column SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation QualifiedName hive data typeshive column
+column SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get name
+atlas entity SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName column
+base hive event SimpleName MethodInvocation SimpleName get object id
+base hive event SimpleName MethodInvocation SimpleName table
+get object id SimpleName MethodInvocation SimpleName table
+column SimpleName MethodInvocation SimpleName set attribute
+column SimpleName MethodInvocation SimpleName attribute table
+column SimpleName MethodInvocation MethodInvocation SimpleName base hive event
+column SimpleName MethodInvocation MethodInvocation SimpleName get object id
+column SimpleName MethodInvocation MethodInvocation SimpleName table
+set attribute SimpleName MethodInvocation SimpleName attribute table
+set attribute SimpleName MethodInvocation MethodInvocation SimpleName base hive event
+set attribute SimpleName MethodInvocation MethodInvocation SimpleName get object id
+set attribute SimpleName MethodInvocation MethodInvocation SimpleName table
+attribute table SimpleName MethodInvocation MethodInvocation SimpleName base hive event
+attribute table SimpleName MethodInvocation MethodInvocation SimpleName get object id
+attribute table SimpleName MethodInvocation MethodInvocation SimpleName table
+table SimpleName MethodInvocation SimpleName get attribute
+table SimpleName MethodInvocation SimpleName attribute qualified name
+get attribute SimpleName MethodInvocation SimpleName attribute qualified name
+string SimpleName SimpleType CastExpression MethodInvocation SimpleName table
+string SimpleName SimpleType CastExpression MethodInvocation SimpleName get attribute
+string SimpleName SimpleType CastExpression MethodInvocation SimpleName attribute qualified name
+fs SimpleName MethodInvocation SimpleName get name
+get column qualified name SimpleName MethodInvocation CastExpression SimpleType SimpleName string
+get column qualified name SimpleName MethodInvocation CastExpression MethodInvocation SimpleName table
+get column qualified name SimpleName MethodInvocation CastExpression MethodInvocation SimpleName get attribute
+get column qualified name SimpleName MethodInvocation CastExpression MethodInvocation SimpleName attribute qualified name
+get column qualified name SimpleName MethodInvocation MethodInvocation SimpleName fs
+get column qualified name SimpleName MethodInvocation MethodInvocation SimpleName get name
+column SimpleName MethodInvocation SimpleName set attribute
+column SimpleName MethodInvocation SimpleName attribute qualified name
+column SimpleName MethodInvocation MethodInvocation SimpleName get column qualified name
+column SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName fs
+column SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get name
+set attribute SimpleName MethodInvocation SimpleName attribute qualified name
+set attribute SimpleName MethodInvocation MethodInvocation SimpleName get column qualified name
+set attribute SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName fs
+set attribute SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get name
+attribute qualified name SimpleName MethodInvocation MethodInvocation SimpleName get column qualified name
+attribute qualified name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName fs
+attribute qualified name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get name
+fs SimpleName MethodInvocation SimpleName get name
+column SimpleName MethodInvocation SimpleName set attribute
+column SimpleName MethodInvocation SimpleName attribute name
+column SimpleName MethodInvocation MethodInvocation SimpleName fs
+column SimpleName MethodInvocation MethodInvocation SimpleName get name
+set attribute SimpleName MethodInvocation SimpleName attribute name
+set attribute SimpleName MethodInvocation MethodInvocation SimpleName fs
+set attribute SimpleName MethodInvocation MethodInvocation SimpleName get name
+attribute name SimpleName MethodInvocation MethodInvocation SimpleName fs
+attribute name SimpleName MethodInvocation MethodInvocation SimpleName get name
+table SimpleName MethodInvocation SimpleName get attribute
+table SimpleName MethodInvocation SimpleName attribute owner
+get attribute SimpleName MethodInvocation SimpleName attribute owner
+column SimpleName MethodInvocation SimpleName set attribute
+column SimpleName MethodInvocation SimpleName attribute owner
+column SimpleName MethodInvocation MethodInvocation SimpleName table
+column SimpleName MethodInvocation MethodInvocation SimpleName get attribute
+column SimpleName MethodInvocation MethodInvocation SimpleName attribute owner
+set attribute SimpleName MethodInvocation SimpleName attribute owner
+set attribute SimpleName MethodInvocation MethodInvocation SimpleName table
+set attribute SimpleName MethodInvocation MethodInvocation SimpleName get attribute
+set attribute SimpleName MethodInvocation MethodInvocation SimpleName attribute owner
+attribute owner SimpleName MethodInvocation MethodInvocation SimpleName table
+attribute owner SimpleName MethodInvocation MethodInvocation SimpleName get attribute
+attribute owner SimpleName MethodInvocation MethodInvocation SimpleName attribute owner
+fs SimpleName MethodInvocation SimpleName get type
+column SimpleName MethodInvocation SimpleName set attribute
+column SimpleName MethodInvocation SimpleName attribute col type
+column SimpleName MethodInvocation MethodInvocation SimpleName fs
+column SimpleName MethodInvocation MethodInvocation SimpleName get type
+set attribute SimpleName MethodInvocation SimpleName attribute col type
+set attribute SimpleName MethodInvocation MethodInvocation SimpleName fs
+set attribute SimpleName MethodInvocation MethodInvocation SimpleName get type
+attribute col type SimpleName MethodInvocation MethodInvocation SimpleName fs
+attribute col type SimpleName MethodInvocation MethodInvocation SimpleName get type
+column SimpleName MethodInvocation SimpleName set attribute
+column SimpleName MethodInvocation SimpleName attribute col position
+column SimpleName MethodInvocation PostfixExpression SimpleName column position
+set attribute SimpleName MethodInvocation SimpleName attribute col position
+set attribute SimpleName MethodInvocation PostfixExpression SimpleName column position
+attribute col position SimpleName MethodInvocation PostfixExpression SimpleName column position
+fs SimpleName MethodInvocation SimpleName get comment
+column SimpleName MethodInvocation SimpleName set attribute
+column SimpleName MethodInvocation SimpleName attribute comment
+column SimpleName MethodInvocation MethodInvocation SimpleName fs
+column SimpleName MethodInvocation MethodInvocation SimpleName get comment
+set attribute SimpleName MethodInvocation SimpleName attribute comment
+set attribute SimpleName MethodInvocation MethodInvocation SimpleName fs
+set attribute SimpleName MethodInvocation MethodInvocation SimpleName get comment
+attribute comment SimpleName MethodInvocation MethodInvocation SimpleName fs
+attribute comment SimpleName MethodInvocation MethodInvocation SimpleName get comment
+ret SimpleName MethodInvocation SimpleName add
+ret SimpleName MethodInvocation SimpleName column
+add SimpleName MethodInvocation SimpleName column
+field schema SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName schema list
+fs SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName schema list
+int PrimitiveType VariableDeclarationStatement Block EnhancedForStatement SimpleName schema list
+int PrimitiveType VariableDeclarationStatement Block ReturnStatement SimpleName ret
+schema list SimpleName EnhancedForStatement Block ReturnStatement SimpleName ret
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName atlas entity
+private Modifier MethodDeclaration SimpleName to columns
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName schema list
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas entity
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName table
+private Modifier MethodDeclaration SimpleType SimpleName atlas hook exception
+list SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName to columns
+atlas entity SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName to columns
+to columns SimpleName MethodDeclaration SingleVariableDeclaration SimpleName schema list
+to columns SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas entity
+to columns SimpleName MethodDeclaration SingleVariableDeclaration SimpleName table
+to columns SimpleName MethodDeclaration SimpleType SimpleName atlas hook exception
+to columns SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+to columns SimpleName MethodDeclaration Block EnhancedForStatement SimpleName schema list
+to columns SimpleName MethodDeclaration Block ReturnStatement SimpleName ret
+schema list SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table
+schema list SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas hook exception
+table SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas hook exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleName to columns
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName schema list
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas hook exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleName to columns
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName schema list
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas hook exception

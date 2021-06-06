@@ -1,0 +1,131 @@
+depends on methods SimpleName MemberValuePair StringLiteral test create
+test SimpleName NormalAnnotation MemberValuePair SimpleName depends on methods
+test SimpleName NormalAnnotation MemberValuePair StringLiteral test create
+tbl entity SimpleName MethodInvocation SimpleName get entity
+atlas entity SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName tbl entity
+atlas entity SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get entity
+table entity SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName atlas entity
+table entity SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName tbl entity
+table entity SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get entity
+atlas entity SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName table entity
+atlas entities with ext info SimpleName SimpleType ClassInstanceCreation SimpleName table entity
+entities info SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName atlas entities with ext info
+entities info SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName table entity
+atlas entities with ext info SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName entities info
+entities info SimpleName MethodInvocation SimpleName add referred entity
+entities info SimpleName MethodInvocation SimpleName table entity
+add referred entity SimpleName MethodInvocation SimpleName table entity
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+table entity SimpleName MethodInvocation SimpleName get attribute
+table entity SimpleName MethodInvocation StringLiteral parameters map
+get attribute SimpleName MethodInvocation StringLiteral parameters map
+params map SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName table entity
+params map SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get attribute
+params map SimpleName VariableDeclarationFragment CastExpression MethodInvocation StringLiteral parameters map
+params map SimpleName MethodInvocation SimpleName put
+params map SimpleName MethodInvocation StringLiteral new param
+params map SimpleName MethodInvocation StringLiteral value
+put SimpleName MethodInvocation StringLiteral new param
+put SimpleName MethodInvocation StringLiteral value
+new param StringLiteral MethodInvocation StringLiteral value
+atlas entity stream SimpleName SimpleType ClassInstanceCreation SimpleName entities info
+entity store SimpleName MethodInvocation SimpleName create or update
+entity store SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName atlas entity stream
+entity store SimpleName MethodInvocation ClassInstanceCreation SimpleName entities info
+entity store SimpleName MethodInvocation BooleanLiteral false
+create or update SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName atlas entity stream
+create or update SimpleName MethodInvocation ClassInstanceCreation SimpleName entities info
+create or update SimpleName MethodInvocation BooleanLiteral false
+atlas entity stream SimpleName SimpleType ClassInstanceCreation MethodInvocation BooleanLiteral false
+entities info SimpleName ClassInstanceCreation MethodInvocation BooleanLiteral false
+response SimpleName VariableDeclarationFragment MethodInvocation SimpleName entity store
+response SimpleName VariableDeclarationFragment MethodInvocation SimpleName create or update
+response SimpleName VariableDeclarationFragment MethodInvocation ClassInstanceCreation SimpleName entities info
+response SimpleName VariableDeclarationFragment MethodInvocation BooleanLiteral false
+entity mutation response SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName response
+validate mutation response SimpleName MethodInvocation SimpleName response
+validate mutation response SimpleName MethodInvocation QualifiedName entity mutationsentity operationupdate
+validate mutation response SimpleName MethodInvocation NumberLiteral empty
+response SimpleName MethodInvocation QualifiedName entity mutationsentity operationupdate
+response SimpleName MethodInvocation NumberLiteral empty
+entity mutationsentity operationupdate QualifiedName MethodInvocation NumberLiteral empty
+response SimpleName MethodInvocation SimpleName get first updated entity by type name
+response SimpleName MethodInvocation SimpleName table type
+get first updated entity by type name SimpleName MethodInvocation SimpleName table type
+updated table SimpleName VariableDeclarationFragment MethodInvocation SimpleName response
+updated table SimpleName VariableDeclarationFragment MethodInvocation SimpleName get first updated entity by type name
+updated table SimpleName VariableDeclarationFragment MethodInvocation SimpleName table type
+atlas entity header SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName updated table
+get entity from store SimpleName MethodInvocation SimpleName updated table
+validate entity SimpleName MethodInvocation SimpleName entities info
+validate entity SimpleName MethodInvocation MethodInvocation SimpleName get entity from store
+validate entity SimpleName MethodInvocation MethodInvocation SimpleName updated table
+entities info SimpleName MethodInvocation MethodInvocation SimpleName get entity from store
+entities info SimpleName MethodInvocation MethodInvocation SimpleName updated table
+params map SimpleName MethodInvocation SimpleName remove
+params map SimpleName MethodInvocation StringLiteral key
+remove SimpleName MethodInvocation StringLiteral key
+atlas entity stream SimpleName SimpleType ClassInstanceCreation SimpleName entities info
+entity store SimpleName MethodInvocation SimpleName create or update
+entity store SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName atlas entity stream
+entity store SimpleName MethodInvocation ClassInstanceCreation SimpleName entities info
+entity store SimpleName MethodInvocation BooleanLiteral false
+create or update SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName atlas entity stream
+create or update SimpleName MethodInvocation ClassInstanceCreation SimpleName entities info
+create or update SimpleName MethodInvocation BooleanLiteral false
+atlas entity stream SimpleName SimpleType ClassInstanceCreation MethodInvocation BooleanLiteral false
+entities info SimpleName ClassInstanceCreation MethodInvocation BooleanLiteral false
+response SimpleName Assignment MethodInvocation SimpleName entity store
+response SimpleName Assignment MethodInvocation SimpleName create or update
+response SimpleName Assignment MethodInvocation ClassInstanceCreation SimpleName entities info
+response SimpleName Assignment MethodInvocation BooleanLiteral false
+validate mutation response SimpleName MethodInvocation SimpleName response
+validate mutation response SimpleName MethodInvocation QualifiedName entity mutationsentity operationupdate
+validate mutation response SimpleName MethodInvocation NumberLiteral empty
+response SimpleName MethodInvocation QualifiedName entity mutationsentity operationupdate
+response SimpleName MethodInvocation NumberLiteral empty
+entity mutationsentity operationupdate QualifiedName MethodInvocation NumberLiteral empty
+response SimpleName MethodInvocation SimpleName get first updated entity by type name
+response SimpleName MethodInvocation SimpleName table type
+get first updated entity by type name SimpleName MethodInvocation SimpleName table type
+updated table SimpleName Assignment MethodInvocation SimpleName response
+updated table SimpleName Assignment MethodInvocation SimpleName get first updated entity by type name
+updated table SimpleName Assignment MethodInvocation SimpleName table type
+get entity from store SimpleName MethodInvocation SimpleName updated table
+validate entity SimpleName MethodInvocation SimpleName entities info
+validate entity SimpleName MethodInvocation MethodInvocation SimpleName get entity from store
+validate entity SimpleName MethodInvocation MethodInvocation SimpleName updated table
+entities info SimpleName MethodInvocation MethodInvocation SimpleName get entity from store
+entities info SimpleName MethodInvocation MethodInvocation SimpleName updated table
+test SimpleName NormalAnnotation MethodDeclaration Modifier public
+depends on methods SimpleName MemberValuePair NormalAnnotation MethodDeclaration Modifier public
+test create StringLiteral MemberValuePair NormalAnnotation MethodDeclaration Modifier public
+test SimpleName NormalAnnotation MethodDeclaration PrimitiveType void
+depends on methods SimpleName MemberValuePair NormalAnnotation MethodDeclaration PrimitiveType void
+test create StringLiteral MemberValuePair NormalAnnotation MethodDeclaration PrimitiveType void
+test SimpleName NormalAnnotation MethodDeclaration SimpleName test map of primitives update
+depends on methods SimpleName MemberValuePair NormalAnnotation MethodDeclaration SimpleName test map of primitives update
+test create StringLiteral MemberValuePair NormalAnnotation MethodDeclaration SimpleName test map of primitives update
+test SimpleName NormalAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test map of primitives update
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName test map of primitives update
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+test map of primitives update SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration NormalAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test map of primitives update
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration NormalAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test map of primitives update
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

@@ -1,0 +1,163 @@
+ha configurationatlas server address prefix QualifiedName InfixExpression StringLiteral id
+configuration SimpleName MethodInvocation SimpleName get string
+configuration SimpleName MethodInvocation InfixExpression QualifiedName ha configurationatlas server address prefix
+configuration SimpleName MethodInvocation InfixExpression StringLiteral id
+get string SimpleName MethodInvocation InfixExpression QualifiedName ha configurationatlas server address prefix
+get string SimpleName MethodInvocation InfixExpression StringLiteral id
+when SimpleName MethodInvocation MethodInvocation SimpleName configuration
+when SimpleName MethodInvocation MethodInvocation SimpleName get string
+when SimpleName MethodInvocation MethodInvocation InfixExpression QualifiedName ha configurationatlas server address prefix
+when SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral id
+when SimpleName MethodInvocation MethodInvocation SimpleName then return
+configuration SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+get string SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+when SimpleName MethodInvocation MethodInvocation SimpleName host port
+configuration SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName host port
+get string SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName host port
+then return SimpleName MethodInvocation SimpleName host port
+configuration SimpleName MethodInvocation SimpleName get string
+configuration SimpleName MethodInvocation QualifiedName ha configurationatlas server ha zk root key
+configuration SimpleName MethodInvocation QualifiedName ha configurationatlas server zk root default
+get string SimpleName MethodInvocation QualifiedName ha configurationatlas server ha zk root key
+get string SimpleName MethodInvocation QualifiedName ha configurationatlas server zk root default
+ha configurationatlas server ha zk root key QualifiedName MethodInvocation QualifiedName ha configurationatlas server zk root default
+when SimpleName MethodInvocation MethodInvocation SimpleName configuration
+when SimpleName MethodInvocation MethodInvocation SimpleName get string
+when SimpleName MethodInvocation MethodInvocation QualifiedName ha configurationatlas server ha zk root key
+when SimpleName MethodInvocation MethodInvocation QualifiedName ha configurationatlas server zk root default
+when SimpleName MethodInvocation MethodInvocation SimpleName then return
+configuration SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+get string SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+ha configurationatlas server ha zk root key QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+ha configurationatlas server zk root default QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+when SimpleName MethodInvocation MethodInvocation QualifiedName ha configurationatlas server zk root default
+configuration SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName ha configurationatlas server zk root default
+get string SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName ha configurationatlas server zk root default
+ha configurationatlas server ha zk root key QualifiedName MethodInvocation MethodInvocation MethodInvocation QualifiedName ha configurationatlas server zk root default
+ha configurationatlas server zk root default QualifiedName MethodInvocation MethodInvocation MethodInvocation QualifiedName ha configurationatlas server zk root default
+then return SimpleName MethodInvocation QualifiedName ha configurationatlas server zk root default
+curator factory SimpleName MethodInvocation SimpleName client instance
+when SimpleName MethodInvocation MethodInvocation SimpleName curator factory
+when SimpleName MethodInvocation MethodInvocation SimpleName client instance
+when SimpleName MethodInvocation MethodInvocation SimpleName then return
+curator factory SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+client instance SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+when SimpleName MethodInvocation MethodInvocation SimpleName curator framework
+curator factory SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName curator framework
+client instance SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName curator framework
+then return SimpleName MethodInvocation SimpleName curator framework
+mock SimpleName MethodInvocation TypeLiteral SimpleType SimpleName exists builder
+exists builder SimpleName VariableDeclarationFragment MethodInvocation SimpleName mock
+exists builder SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName exists builder
+curator framework SimpleName MethodInvocation SimpleName check exists
+when SimpleName MethodInvocation MethodInvocation SimpleName curator framework
+when SimpleName MethodInvocation MethodInvocation SimpleName check exists
+when SimpleName MethodInvocation MethodInvocation SimpleName then return
+curator framework SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+check exists SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+when SimpleName MethodInvocation MethodInvocation SimpleName exists builder
+curator framework SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName exists builder
+check exists SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName exists builder
+then return SimpleName MethodInvocation SimpleName exists builder
+exists builder SimpleName MethodInvocation SimpleName for path
+exists builder SimpleName MethodInvocation MethodInvocation SimpleName get path
+for path SimpleName MethodInvocation MethodInvocation SimpleName get path
+when SimpleName MethodInvocation MethodInvocation SimpleName exists builder
+when SimpleName MethodInvocation MethodInvocation SimpleName for path
+when SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get path
+when SimpleName MethodInvocation MethodInvocation SimpleName then return
+exists builder SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+for path SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+mock SimpleName MethodInvocation TypeLiteral SimpleType SimpleName create builder
+create builder SimpleName VariableDeclarationFragment MethodInvocation SimpleName mock
+create builder SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName create builder
+curator framework SimpleName MethodInvocation SimpleName create
+when SimpleName MethodInvocation MethodInvocation SimpleName curator framework
+when SimpleName MethodInvocation MethodInvocation SimpleName create
+when SimpleName MethodInvocation MethodInvocation SimpleName then return
+curator framework SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+create SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+when SimpleName MethodInvocation MethodInvocation SimpleName create builder
+curator framework SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName create builder
+create SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName create builder
+then return SimpleName MethodInvocation SimpleName create builder
+create builder SimpleName MethodInvocation SimpleName with mode
+create builder SimpleName MethodInvocation QualifiedName create modeephemeral
+with mode SimpleName MethodInvocation QualifiedName create modeephemeral
+when SimpleName MethodInvocation MethodInvocation SimpleName create builder
+when SimpleName MethodInvocation MethodInvocation SimpleName with mode
+when SimpleName MethodInvocation MethodInvocation QualifiedName create modeephemeral
+when SimpleName MethodInvocation MethodInvocation SimpleName then return
+create builder SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+with mode SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+create modeephemeral QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+when SimpleName MethodInvocation MethodInvocation SimpleName create builder
+create builder SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName create builder
+with mode SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName create builder
+create modeephemeral QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName create builder
+then return SimpleName MethodInvocation SimpleName create builder
+create builder SimpleName MethodInvocation SimpleName with acl
+create builder SimpleName MethodInvocation QualifiedName zoo defsidsopen acl unsafe
+with acl SimpleName MethodInvocation QualifiedName zoo defsidsopen acl unsafe
+when SimpleName MethodInvocation MethodInvocation SimpleName create builder
+when SimpleName MethodInvocation MethodInvocation SimpleName with acl
+when SimpleName MethodInvocation MethodInvocation QualifiedName zoo defsidsopen acl unsafe
+when SimpleName MethodInvocation MethodInvocation SimpleName then return
+create builder SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+with acl SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+zoo defsidsopen acl unsafe QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+when SimpleName MethodInvocation MethodInvocation SimpleName create builder
+create builder SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName create builder
+with acl SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName create builder
+zoo defsidsopen acl unsafe QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName create builder
+then return SimpleName MethodInvocation SimpleName create builder
+mock SimpleName MethodInvocation TypeLiteral SimpleType SimpleName set data builder
+set data builder SimpleName VariableDeclarationFragment MethodInvocation SimpleName mock
+set data builder SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName set data builder
+curator framework SimpleName MethodInvocation SimpleName set data
+when SimpleName MethodInvocation MethodInvocation SimpleName curator framework
+when SimpleName MethodInvocation MethodInvocation SimpleName set data
+when SimpleName MethodInvocation MethodInvocation SimpleName then return
+curator framework SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+set data SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+when SimpleName MethodInvocation MethodInvocation SimpleName set data builder
+curator framework SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName set data builder
+set data SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName set data builder
+then return SimpleName MethodInvocation SimpleName set data builder
+active instance state SimpleName SimpleType ClassInstanceCreation SimpleName configuration
+active instance state SimpleName SimpleType ClassInstanceCreation SimpleName curator factory
+configuration SimpleName ClassInstanceCreation SimpleName curator factory
+active instance state SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName active instance state
+active instance state SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName configuration
+active instance state SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName curator factory
+active instance state SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName active instance state
+active instance state SimpleName MethodInvocation SimpleName update
+active instance state SimpleName MethodInvocation StringLiteral id
+update SimpleName MethodInvocation StringLiteral id
+verify SimpleName MethodInvocation SimpleName create builder
+verify SimpleName MethodInvocation MethodInvocation SimpleName for path
+create builder SimpleName MethodInvocation MethodInvocation SimpleName for path
+verify SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get path
+create builder SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get path
+for path SimpleName MethodInvocation MethodInvocation SimpleName get path
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test shared path is created if not exists
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test shared path is created if not exists
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName test shared path is created if not exists
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+test shared path is created if not exists SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test shared path is created if not exists
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test shared path is created if not exists
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

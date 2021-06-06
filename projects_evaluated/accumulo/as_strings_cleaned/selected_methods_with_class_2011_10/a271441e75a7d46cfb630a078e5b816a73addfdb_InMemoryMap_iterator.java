@@ -1,0 +1,67 @@
+sorted key value iterator SimpleName SimpleType ParameterizedType SimpleType SimpleName key
+sorted key value iterator SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+key SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+map SimpleName MethodInvocation SimpleName skv iterator
+iter SimpleName Assignment MethodInvocation SimpleName map
+iter SimpleName Assignment MethodInvocation SimpleName skv iterator
+cached configuration SimpleName MethodInvocation SimpleName get instance
+conf SimpleName VariableDeclarationFragment MethodInvocation SimpleName cached configuration
+conf SimpleName VariableDeclarationFragment MethodInvocation SimpleName get instance
+configuration SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName conf
+file system SimpleName MethodInvocation SimpleName get local
+file system SimpleName MethodInvocation SimpleName conf
+get local SimpleName MethodInvocation SimpleName conf
+trace file system SimpleName MethodInvocation SimpleName wrap
+trace file system SimpleName MethodInvocation MethodInvocation SimpleName file system
+trace file system SimpleName MethodInvocation MethodInvocation SimpleName get local
+trace file system SimpleName MethodInvocation MethodInvocation SimpleName conf
+wrap SimpleName MethodInvocation MethodInvocation SimpleName file system
+wrap SimpleName MethodInvocation MethodInvocation SimpleName get local
+wrap SimpleName MethodInvocation MethodInvocation SimpleName conf
+fs SimpleName VariableDeclarationFragment MethodInvocation SimpleName trace file system
+fs SimpleName VariableDeclarationFragment MethodInvocation SimpleName wrap
+fs SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName file system
+fs SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get local
+fs SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName conf
+file system SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName fs
+my map filereader QualifiedName SimpleType ClassInstanceCreation SimpleName fs
+my map filereader QualifiedName SimpleType ClassInstanceCreation SimpleName mem dump file
+my map filereader QualifiedName SimpleType ClassInstanceCreation SimpleName conf
+fs SimpleName ClassInstanceCreation SimpleName mem dump file
+fs SimpleName ClassInstanceCreation SimpleName conf
+mem dump file SimpleName ClassInstanceCreation SimpleName conf
+map file operationsrange iterator QualifiedName SimpleType ClassInstanceCreation ClassInstanceCreation SimpleName fs
+map file operationsrange iterator QualifiedName SimpleType ClassInstanceCreation ClassInstanceCreation SimpleName mem dump file
+map file operationsrange iterator QualifiedName SimpleType ClassInstanceCreation ClassInstanceCreation SimpleName conf
+reader SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType QualifiedName map file operationsrange iterator
+reader SimpleName VariableDeclarationFragment ClassInstanceCreation ClassInstanceCreation SimpleName fs
+reader SimpleName VariableDeclarationFragment ClassInstanceCreation ClassInstanceCreation SimpleName mem dump file
+reader SimpleName VariableDeclarationFragment ClassInstanceCreation ClassInstanceCreation SimpleName conf
+file skv iterator SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName reader
+readers SimpleName MethodInvocation SimpleName add
+readers SimpleName MethodInvocation SimpleName reader
+add SimpleName MethodInvocation SimpleName reader
+iter SimpleName Assignment SimpleName reader
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName iterator
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName io exception
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName sorted key value iterator
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName key
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName value
+public Modifier MethodDeclaration SimpleName iterator
+public Modifier MethodDeclaration SimpleType SimpleName io exception
+public Modifier MethodDeclaration Block ReturnStatement SimpleName iter
+sorted key value iterator SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName iterator
+key SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName iterator
+value SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName iterator
+iterator SimpleName MethodDeclaration SimpleType SimpleName io exception
+iterator SimpleName MethodDeclaration Block ReturnStatement SimpleName iter
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName iterator
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName iterator
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

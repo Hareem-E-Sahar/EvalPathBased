@@ -1,0 +1,102 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName label
+string SimpleName SimpleType SingleVariableDeclaration SimpleName index name
+atlas edge direction SimpleName SimpleType SingleVariableDeclaration SimpleName edge direction
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas property key
+list SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName property keys
+atlas property key SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName property keys
+management SimpleName MethodInvocation SimpleName get edge label
+management SimpleName MethodInvocation SimpleName label
+get edge label SimpleName MethodInvocation SimpleName label
+edge label SimpleName VariableDeclarationFragment MethodInvocation SimpleName management
+edge label SimpleName VariableDeclarationFragment MethodInvocation SimpleName get edge label
+edge label SimpleName VariableDeclarationFragment MethodInvocation SimpleName label
+edge label SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName edge label
+management SimpleName MethodInvocation SimpleName make edge label
+management SimpleName MethodInvocation SimpleName label
+make edge label SimpleName MethodInvocation SimpleName label
+management SimpleName MethodInvocation MethodInvocation SimpleName make
+make edge label SimpleName MethodInvocation MethodInvocation SimpleName make
+label SimpleName MethodInvocation MethodInvocation SimpleName make
+edge label SimpleName Assignment MethodInvocation MethodInvocation SimpleName management
+edge label SimpleName Assignment MethodInvocation MethodInvocation SimpleName make edge label
+edge label SimpleName Assignment MethodInvocation MethodInvocation SimpleName label
+edge label SimpleName Assignment MethodInvocation SimpleName make
+titan object factory SimpleName MethodInvocation SimpleName create direction
+titan object factory SimpleName MethodInvocation SimpleName edge direction
+create direction SimpleName MethodInvocation SimpleName edge direction
+direction SimpleName VariableDeclarationFragment MethodInvocation SimpleName titan object factory
+direction SimpleName VariableDeclarationFragment MethodInvocation SimpleName create direction
+direction SimpleName VariableDeclarationFragment MethodInvocation SimpleName edge direction
+direction SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName direction
+titan object factory SimpleName MethodInvocation SimpleName create property keys
+titan object factory SimpleName MethodInvocation SimpleName property keys
+create property keys SimpleName MethodInvocation SimpleName property keys
+keys SimpleName VariableDeclarationFragment MethodInvocation SimpleName titan object factory
+keys SimpleName VariableDeclarationFragment MethodInvocation SimpleName create property keys
+keys SimpleName VariableDeclarationFragment MethodInvocation SimpleName property keys
+management SimpleName MethodInvocation SimpleName build edge index
+management SimpleName MethodInvocation SimpleName edge label
+management SimpleName MethodInvocation SimpleName index name
+management SimpleName MethodInvocation SimpleName direction
+management SimpleName MethodInvocation SimpleName keys
+build edge index SimpleName MethodInvocation SimpleName edge label
+build edge index SimpleName MethodInvocation SimpleName index name
+build edge index SimpleName MethodInvocation SimpleName direction
+build edge index SimpleName MethodInvocation SimpleName keys
+edge label SimpleName MethodInvocation SimpleName index name
+edge label SimpleName MethodInvocation SimpleName direction
+edge label SimpleName MethodInvocation SimpleName keys
+index name SimpleName MethodInvocation SimpleName direction
+index name SimpleName MethodInvocation SimpleName keys
+direction SimpleName MethodInvocation SimpleName keys
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName create edge index
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName label
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName index name
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName create edge index
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName label
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName index name
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas edge direction
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName edge direction
+void PrimitiveType MethodDeclaration SimpleName create edge index
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName label
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName index name
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas edge direction
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName edge direction
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName property keys
+create edge index SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+create edge index SimpleName MethodDeclaration SingleVariableDeclaration SimpleName label
+create edge index SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+create edge index SimpleName MethodDeclaration SingleVariableDeclaration SimpleName index name
+create edge index SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas edge direction
+create edge index SimpleName MethodDeclaration SingleVariableDeclaration SimpleName edge direction
+create edge index SimpleName MethodDeclaration SingleVariableDeclaration SimpleName property keys
+label SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName index name
+label SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName edge direction
+label SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName property keys
+index name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName edge direction
+index name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName property keys
+edge direction SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName property keys
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName create edge index
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName label
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName index name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName edge direction
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName property keys
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create edge index
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName label
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName index name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName edge direction
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName property keys

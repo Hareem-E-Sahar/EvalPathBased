@@ -1,0 +1,92 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName source name
+type def SimpleName SimpleType SingleVariableDeclaration SimpleName type def
+null type def from StringLiteral InfixExpression SimpleName source name
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation InfixExpression StringLiteral null type def from
+log SimpleName MethodInvocation InfixExpression SimpleName source name
+error SimpleName MethodInvocation InfixExpression StringLiteral null type def from
+error SimpleName MethodInvocation InfixExpression SimpleName source name
+type def SimpleName MethodInvocation SimpleName get guid
+type def SimpleName MethodInvocation SimpleName get name
+type def SimpleName MethodInvocation SimpleName get version
+type def SimpleName MethodInvocation SimpleName get category
+valid type def id SimpleName MethodInvocation SimpleName source name
+valid type def id SimpleName MethodInvocation MethodInvocation SimpleName type def
+valid type def id SimpleName MethodInvocation MethodInvocation SimpleName get guid
+valid type def id SimpleName MethodInvocation MethodInvocation SimpleName type def
+valid type def id SimpleName MethodInvocation MethodInvocation SimpleName get name
+valid type def id SimpleName MethodInvocation MethodInvocation SimpleName type def
+valid type def id SimpleName MethodInvocation MethodInvocation SimpleName get version
+valid type def id SimpleName MethodInvocation MethodInvocation SimpleName type def
+valid type def id SimpleName MethodInvocation MethodInvocation SimpleName get category
+source name SimpleName MethodInvocation MethodInvocation SimpleName type def
+source name SimpleName MethodInvocation MethodInvocation SimpleName get guid
+source name SimpleName MethodInvocation MethodInvocation SimpleName type def
+source name SimpleName MethodInvocation MethodInvocation SimpleName get name
+source name SimpleName MethodInvocation MethodInvocation SimpleName type def
+source name SimpleName MethodInvocation MethodInvocation SimpleName get version
+source name SimpleName MethodInvocation MethodInvocation SimpleName type def
+source name SimpleName MethodInvocation MethodInvocation SimpleName get category
+type def SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName type def
+type def SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get name
+get guid SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName type def
+get guid SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get name
+type def SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName type def
+type def SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get version
+get guid SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName type def
+get guid SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get version
+type def SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName type def
+type def SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get category
+get guid SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName type def
+get guid SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get category
+type def SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName type def
+type def SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get version
+get name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName type def
+get name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get version
+type def SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName type def
+type def SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get category
+get name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName type def
+get name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get category
+type def SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName type def
+type def SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get category
+get version SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName type def
+get version SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get category
+good type def from StringLiteral InfixExpression SimpleName source name
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation InfixExpression StringLiteral good type def from
+log SimpleName MethodInvocation InfixExpression SimpleName source name
+debug SimpleName MethodInvocation InfixExpression StringLiteral good type def from
+debug SimpleName MethodInvocation InfixExpression SimpleName source name
+bad type def from StringLiteral InfixExpression SimpleName source name
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation InfixExpression StringLiteral bad type def from
+log SimpleName MethodInvocation InfixExpression SimpleName source name
+error SimpleName MethodInvocation InfixExpression StringLiteral bad type def from
+error SimpleName MethodInvocation InfixExpression SimpleName source name
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName valid type def
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName source name
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName type def
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName type def
+boolean PrimitiveType MethodDeclaration SimpleName valid type def
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName source name
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName type def
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName type def
+valid type def SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+valid type def SimpleName MethodDeclaration SingleVariableDeclaration SimpleName source name
+valid type def SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName type def
+valid type def SimpleName MethodDeclaration SingleVariableDeclaration SimpleName type def
+source name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type def
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName valid type def
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName source name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type def
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName valid type def
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName source name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type def

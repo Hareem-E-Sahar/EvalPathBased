@@ -1,0 +1,105 @@
+list SimpleName SimpleType ParameterizedType SimpleType QualifiedName hook notificationhook notification message
+list SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entities
+hook notificationhook notification message QualifiedName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entities
+atlas properties SimpleName MethodInvocation SimpleName get int
+atlas properties SimpleName MethodInvocation MethodInvocation SimpleName get number of retries property key
+atlas properties SimpleName MethodInvocation NumberLiteral empty
+get int SimpleName MethodInvocation MethodInvocation SimpleName get number of retries property key
+get int SimpleName MethodInvocation NumberLiteral empty
+get number of retries property key SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+max retries SimpleName VariableDeclarationFragment MethodInvocation SimpleName atlas properties
+max retries SimpleName VariableDeclarationFragment MethodInvocation SimpleName get int
+max retries SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get number of retries property key
+max retries SimpleName VariableDeclarationFragment MethodInvocation NumberLiteral empty
+final Modifier VariableDeclarationStatement PrimitiveType int
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName max retries
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName atlas properties
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get int
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName max retries
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName atlas properties
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get int
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation NumberLiteral empty
+entities SimpleName MethodInvocation SimpleName to string
+message SimpleName VariableDeclarationFragment MethodInvocation SimpleName entities
+message SimpleName VariableDeclarationFragment MethodInvocation SimpleName to string
+final Modifier VariableDeclarationStatement SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName message
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName entities
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName to string
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName message
+num retries SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName num retries
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+notif interface SimpleName MethodInvocation SimpleName send
+notif interface SimpleName MethodInvocation QualifiedName notification interfacenotification typehook
+notif interface SimpleName MethodInvocation SimpleName entities
+send SimpleName MethodInvocation QualifiedName notification interfacenotification typehook
+send SimpleName MethodInvocation SimpleName entities
+notification interfacenotification typehook QualifiedName MethodInvocation SimpleName entities
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+num retries SimpleName InfixExpression SimpleName max retries
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral failed to notify atlas for entity {}. retrying
+log SimpleName MethodInvocation SimpleName message
+log SimpleName MethodInvocation SimpleName e
+debug SimpleName MethodInvocation StringLiteral failed to notify atlas for entity {}. retrying
+debug SimpleName MethodInvocation SimpleName message
+debug SimpleName MethodInvocation SimpleName e
+failed to notify atlas for entity {}. retrying StringLiteral MethodInvocation SimpleName message
+failed to notify atlas for entity {}. retrying StringLiteral MethodInvocation SimpleName e
+message SimpleName MethodInvocation SimpleName e
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation StringLiteral failed to notify atlas for entity {} after {} retries quitting
+log SimpleName MethodInvocation SimpleName message
+log SimpleName MethodInvocation SimpleName max retries
+log SimpleName MethodInvocation SimpleName e
+error SimpleName MethodInvocation StringLiteral failed to notify atlas for entity {} after {} retries quitting
+error SimpleName MethodInvocation SimpleName message
+error SimpleName MethodInvocation SimpleName max retries
+error SimpleName MethodInvocation SimpleName e
+failed to notify atlas for entity {} after {} retries quitting StringLiteral MethodInvocation SimpleName message
+failed to notify atlas for entity {} after {} retries quitting StringLiteral MethodInvocation SimpleName max retries
+failed to notify atlas for entity {} after {} retries quitting StringLiteral MethodInvocation SimpleName e
+message SimpleName MethodInvocation SimpleName max retries
+message SimpleName MethodInvocation SimpleName e
+max retries SimpleName MethodInvocation SimpleName e
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+final Modifier VariableDeclarationStatement Block WhileStatement BooleanLiteral true
+int PrimitiveType VariableDeclarationStatement Block WhileStatement BooleanLiteral true
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+final Modifier VariableDeclarationStatement Block WhileStatement BooleanLiteral true
+int PrimitiveType VariableDeclarationStatement Block WhileStatement BooleanLiteral true
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName notify entities
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName entities
+protected Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+protected Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+protected Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+protected Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+protected Modifier MethodDeclaration Block WhileStatement BooleanLiteral true
+void PrimitiveType MethodDeclaration SimpleName notify entities
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName entities
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement Modifier final
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement Modifier final
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+void PrimitiveType MethodDeclaration Block WhileStatement BooleanLiteral true
+notify entities SimpleName MethodDeclaration SingleVariableDeclaration SimpleName entities
+notify entities SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+notify entities SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+notify entities SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+notify entities SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+notify entities SimpleName MethodDeclaration Block WhileStatement BooleanLiteral true
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName notify entities
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entities
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName notify entities
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entities

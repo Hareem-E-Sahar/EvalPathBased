@@ -1,0 +1,271 @@
+depends on methods SimpleName MemberValuePair StringLiteral test get trait names
+test SimpleName NormalAnnotation MemberValuePair SimpleName depends on methods
+test SimpleName NormalAnnotation MemberValuePair StringLiteral test get trait names
+pii trait StringLiteral InfixExpression MethodInvocation SimpleName random string
+trait name SimpleName Assignment InfixExpression StringLiteral pii trait
+trait name SimpleName Assignment InfixExpression MethodInvocation SimpleName random string
+collections SimpleName MethodInvocation SimpleType SimpleName string
+collections SimpleName MethodInvocation SimpleName empty set
+string SimpleName SimpleType MethodInvocation SimpleName empty set
+atlas type util SimpleName MethodInvocation SimpleName create trait type def
+atlas type util SimpleName MethodInvocation SimpleName trait name
+atlas type util SimpleName MethodInvocation MethodInvocation SimpleName collections
+atlas type util SimpleName MethodInvocation MethodInvocation SimpleType SimpleName string
+atlas type util SimpleName MethodInvocation MethodInvocation SimpleName empty set
+create trait type def SimpleName MethodInvocation SimpleName trait name
+create trait type def SimpleName MethodInvocation MethodInvocation SimpleName collections
+create trait type def SimpleName MethodInvocation MethodInvocation SimpleType SimpleName string
+create trait type def SimpleName MethodInvocation MethodInvocation SimpleName empty set
+trait name SimpleName MethodInvocation MethodInvocation SimpleName collections
+trait name SimpleName MethodInvocation MethodInvocation SimpleType SimpleName string
+trait name SimpleName MethodInvocation MethodInvocation SimpleName empty set
+pii trait SimpleName VariableDeclarationFragment MethodInvocation SimpleName atlas type util
+pii trait SimpleName VariableDeclarationFragment MethodInvocation SimpleName create trait type def
+pii trait SimpleName VariableDeclarationFragment MethodInvocation SimpleName trait name
+pii trait SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName collections
+pii trait SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName empty set
+atlas classification def SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName pii trait
+collections SimpleName MethodInvocation SimpleName empty list
+collections SimpleName MethodInvocation SimpleName empty list
+collections SimpleName MethodInvocation SimpleName singleton list
+collections SimpleName MethodInvocation SimpleName pii trait
+singleton list SimpleName MethodInvocation SimpleName pii trait
+collections SimpleName MethodInvocation SimpleName empty list
+atlas types def SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName collections
+atlas types def SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName empty list
+atlas types def SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName collections
+atlas types def SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName empty list
+atlas types def SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName collections
+atlas types def SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName singleton list
+atlas types def SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName pii trait
+atlas types def SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName collections
+atlas types def SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName empty list
+collections SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName collections
+collections SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName empty list
+empty list SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName collections
+empty list SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName empty list
+collections SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName collections
+collections SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName singleton list
+collections SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName pii trait
+empty list SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName collections
+empty list SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName singleton list
+empty list SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName pii trait
+collections SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName collections
+collections SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName empty list
+empty list SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName collections
+empty list SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName empty list
+collections SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName collections
+collections SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName singleton list
+collections SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName pii trait
+empty list SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName collections
+empty list SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName singleton list
+empty list SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName pii trait
+collections SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName collections
+collections SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName empty list
+empty list SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName collections
+empty list SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName empty list
+collections SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName collections
+collections SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName empty list
+singleton list SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName collections
+singleton list SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName empty list
+pii trait SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName collections
+pii trait SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName empty list
+types def SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName atlas types def
+types def SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName collections
+types def SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName empty list
+types def SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName collections
+types def SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName empty list
+types def SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName collections
+types def SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName singleton list
+types def SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName pii trait
+types def SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName collections
+types def SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName empty list
+atlas types def SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName types def
+create type SimpleName MethodInvocation SimpleName types def
+create hive table SimpleName MethodInvocation MethodInvocation SimpleName get guid
+table guid SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName create hive table
+table guid SimpleName VariableDeclarationFragment MethodInvocation SimpleName get guid
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName table guid
+pii trait SimpleName MethodInvocation SimpleName get name
+atlas classification SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName pii trait
+atlas classification SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get name
+classification SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName atlas classification
+classification SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName pii trait
+classification SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get name
+atlas classification SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName classification
+time boundary SimpleName SimpleType ClassInstanceCreation StringLiteral / / : :
+time boundary SimpleName SimpleType ClassInstanceCreation StringLiteral / / : :
+time boundary SimpleName SimpleType ClassInstanceCreation StringLiteral gmt
+/ / : : StringLiteral ClassInstanceCreation StringLiteral / / : :
+/ / : : StringLiteral ClassInstanceCreation StringLiteral gmt
+/ / : : StringLiteral ClassInstanceCreation StringLiteral gmt
+validity period SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName time boundary
+validity period SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral / / : :
+validity period SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral / / : :
+validity period SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral gmt
+time boundary SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName validity period
+classification SimpleName MethodInvocation SimpleName set entity guid
+classification SimpleName MethodInvocation SimpleName table guid
+set entity guid SimpleName MethodInvocation SimpleName table guid
+classification SimpleName MethodInvocation SimpleName add vality period
+classification SimpleName MethodInvocation SimpleName validity period
+add vality period SimpleName MethodInvocation SimpleName validity period
+collections SimpleName MethodInvocation SimpleName singleton list
+collections SimpleName MethodInvocation SimpleName classification
+singleton list SimpleName MethodInvocation SimpleName classification
+atlas client v SimpleName MethodInvocation SimpleName add classifications
+atlas client v SimpleName MethodInvocation SimpleName table guid
+atlas client v SimpleName MethodInvocation MethodInvocation SimpleName collections
+atlas client v SimpleName MethodInvocation MethodInvocation SimpleName singleton list
+atlas client v SimpleName MethodInvocation MethodInvocation SimpleName classification
+add classifications SimpleName MethodInvocation SimpleName table guid
+add classifications SimpleName MethodInvocation MethodInvocation SimpleName collections
+add classifications SimpleName MethodInvocation MethodInvocation SimpleName singleton list
+add classifications SimpleName MethodInvocation MethodInvocation SimpleName classification
+table guid SimpleName MethodInvocation MethodInvocation SimpleName collections
+table guid SimpleName MethodInvocation MethodInvocation SimpleName singleton list
+table guid SimpleName MethodInvocation MethodInvocation SimpleName classification
+assert entity audit SimpleName MethodInvocation SimpleName table guid
+assert entity audit SimpleName MethodInvocation QualifiedName entity audit evententity audit actiontag add
+table guid SimpleName MethodInvocation QualifiedName entity audit evententity audit actiontag add
+atlas client v SimpleName MethodInvocation SimpleName get classifications
+atlas client v SimpleName MethodInvocation SimpleName table guid
+get classifications SimpleName MethodInvocation SimpleName table guid
+classifications SimpleName VariableDeclarationFragment MethodInvocation SimpleName atlas client v
+classifications SimpleName VariableDeclarationFragment MethodInvocation SimpleName get classifications
+classifications SimpleName VariableDeclarationFragment MethodInvocation SimpleName table guid
+atlas classifications SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName classifications
+assert not null SimpleName MethodInvocation SimpleName classifications
+classifications SimpleName MethodInvocation SimpleName get list
+assert not null SimpleName MethodInvocation MethodInvocation SimpleName classifications
+assert not null SimpleName MethodInvocation MethodInvocation SimpleName get list
+classifications SimpleName MethodInvocation SimpleName get list
+classifications SimpleName MethodInvocation MethodInvocation SimpleName size
+get list SimpleName MethodInvocation MethodInvocation SimpleName size
+classifications SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral empty
+get list SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral empty
+size SimpleName MethodInvocation InfixExpression NumberLiteral empty
+assert true SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName size
+assert true SimpleName MethodInvocation InfixExpression NumberLiteral empty
+found classification SimpleName VariableDeclarationFragment BooleanLiteral false
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName found classification
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment BooleanLiteral false
+atlas classification SimpleName SimpleType SingleVariableDeclaration SimpleName entity classification
+classifications SimpleName MethodInvocation SimpleName get list
+entity classification SimpleName MethodInvocation SimpleName get type name
+pii trait SimpleName MethodInvocation SimpleName get name
+string utils SimpleName MethodInvocation SimpleName equals ignore case
+string utils SimpleName MethodInvocation MethodInvocation SimpleName entity classification
+string utils SimpleName MethodInvocation MethodInvocation SimpleName get type name
+string utils SimpleName MethodInvocation MethodInvocation SimpleName pii trait
+string utils SimpleName MethodInvocation MethodInvocation SimpleName get name
+equals ignore case SimpleName MethodInvocation MethodInvocation SimpleName entity classification
+equals ignore case SimpleName MethodInvocation MethodInvocation SimpleName get type name
+equals ignore case SimpleName MethodInvocation MethodInvocation SimpleName pii trait
+equals ignore case SimpleName MethodInvocation MethodInvocation SimpleName get name
+entity classification SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName pii trait
+entity classification SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get name
+get type name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName pii trait
+get type name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get name
+found classification SimpleName Assignment BooleanLiteral true
+entity classification SimpleName MethodInvocation SimpleName get type name
+pii trait SimpleName MethodInvocation SimpleName get name
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName entity classification
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get type name
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName pii trait
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get name
+entity classification SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName pii trait
+entity classification SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get name
+get type name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName pii trait
+get type name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get name
+entity classification SimpleName MethodInvocation SimpleName get validity periods
+assert not null SimpleName MethodInvocation MethodInvocation SimpleName entity classification
+assert not null SimpleName MethodInvocation MethodInvocation SimpleName get validity periods
+entity classification SimpleName MethodInvocation SimpleName get validity periods
+entity classification SimpleName MethodInvocation MethodInvocation SimpleName size
+get validity periods SimpleName MethodInvocation MethodInvocation SimpleName size
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName entity classification
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get validity periods
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName size
+assert equals SimpleName MethodInvocation NumberLiteral empty
+entity classification SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+get validity periods SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+size SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+entity classification SimpleName MethodInvocation SimpleName get validity periods
+entity classification SimpleName MethodInvocation MethodInvocation SimpleName get
+get validity periods SimpleName MethodInvocation MethodInvocation SimpleName get
+entity classification SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+get validity periods SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+get SimpleName MethodInvocation NumberLiteral empty
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName entity classification
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get validity periods
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get
+assert equals SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+assert equals SimpleName MethodInvocation SimpleName validity period
+entity classification SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName validity period
+get validity periods SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName validity period
+get SimpleName MethodInvocation MethodInvocation SimpleName validity period
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName validity period
+assert equals SimpleName MethodInvocation SimpleName entity classification
+assert equals SimpleName MethodInvocation SimpleName classification
+entity classification SimpleName MethodInvocation SimpleName classification
+entity classification SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName classifications
+entity classification SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName get list
+pii trait SimpleName MethodInvocation SimpleName get name
+classification StringLiteral InfixExpression MethodInvocation SimpleName pii trait
+classification StringLiteral InfixExpression MethodInvocation SimpleName get name
+classification StringLiteral InfixExpression StringLiteral is missing for entity
+classification StringLiteral InfixExpression SimpleName table guid
+classification StringLiteral InfixExpression StringLiteral empty
+pii trait SimpleName MethodInvocation InfixExpression StringLiteral is missing for entity
+get name SimpleName MethodInvocation InfixExpression StringLiteral is missing for entity
+pii trait SimpleName MethodInvocation InfixExpression SimpleName table guid
+get name SimpleName MethodInvocation InfixExpression SimpleName table guid
+pii trait SimpleName MethodInvocation InfixExpression StringLiteral empty
+get name SimpleName MethodInvocation InfixExpression StringLiteral empty
+is missing for entity StringLiteral InfixExpression SimpleName table guid
+is missing for entity StringLiteral InfixExpression StringLiteral empty
+table guid SimpleName InfixExpression StringLiteral empty
+assert true SimpleName MethodInvocation SimpleName found classification
+assert true SimpleName MethodInvocation InfixExpression StringLiteral classification
+assert true SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName pii trait
+assert true SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get name
+assert true SimpleName MethodInvocation InfixExpression StringLiteral is missing for entity
+assert true SimpleName MethodInvocation InfixExpression SimpleName table guid
+assert true SimpleName MethodInvocation InfixExpression StringLiteral empty
+found classification SimpleName MethodInvocation InfixExpression StringLiteral classification
+found classification SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName pii trait
+found classification SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get name
+found classification SimpleName MethodInvocation InfixExpression StringLiteral is missing for entity
+found classification SimpleName MethodInvocation InfixExpression SimpleName table guid
+found classification SimpleName MethodInvocation InfixExpression StringLiteral empty
+test SimpleName NormalAnnotation MethodDeclaration Modifier public
+depends on methods SimpleName MemberValuePair NormalAnnotation MethodDeclaration Modifier public
+test get trait names StringLiteral MemberValuePair NormalAnnotation MethodDeclaration Modifier public
+test SimpleName NormalAnnotation MethodDeclaration PrimitiveType void
+depends on methods SimpleName MemberValuePair NormalAnnotation MethodDeclaration PrimitiveType void
+test get trait names StringLiteral MemberValuePair NormalAnnotation MethodDeclaration PrimitiveType void
+test SimpleName NormalAnnotation MethodDeclaration SimpleName test add trait with validity period
+depends on methods SimpleName MemberValuePair NormalAnnotation MethodDeclaration SimpleName test add trait with validity period
+test get trait names StringLiteral MemberValuePair NormalAnnotation MethodDeclaration SimpleName test add trait with validity period
+test SimpleName NormalAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test add trait with validity period
+public Modifier MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+void PrimitiveType MethodDeclaration SimpleName test add trait with validity period
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+test add trait with validity period SimpleName MethodDeclaration SimpleType SimpleName exception
+test add trait with validity period SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration NormalAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test add trait with validity period
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration NormalAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test add trait with validity period
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

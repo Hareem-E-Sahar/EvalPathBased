@@ -1,0 +1,45 @@
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+entry SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName e
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName e
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName e
+e SimpleName MethodInvocation SimpleName get key
+propertytable iterator prefix QualifiedName MethodInvocation SimpleName get key
+e SimpleName MethodInvocation MethodInvocation SimpleName starts with
+get key SimpleName MethodInvocation MethodInvocation SimpleName starts with
+e SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName propertytable iterator prefix
+e SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get key
+get key SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName propertytable iterator prefix
+get key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get key
+starts with SimpleName MethodInvocation MethodInvocation QualifiedName propertytable iterator prefix
+starts with SimpleName MethodInvocation MethodInvocation SimpleName get key
+e SimpleName MethodInvocation SimpleName get key
+propertytable constraint prefix QualifiedName MethodInvocation SimpleName get key
+e SimpleName MethodInvocation MethodInvocation SimpleName starts with
+get key SimpleName MethodInvocation MethodInvocation SimpleName starts with
+e SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName propertytable constraint prefix
+e SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get key
+get key SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName propertytable constraint prefix
+get key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get key
+starts with SimpleName MethodInvocation MethodInvocation QualifiedName propertytable constraint prefix
+starts with SimpleName MethodInvocation MethodInvocation SimpleName get key
+starts with SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName starts with
+protected Modifier MethodDeclaration PrimitiveType boolean
+protected Modifier MethodDeclaration SimpleName is iter const
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName e
+protected Modifier MethodDeclaration Block ReturnStatement BooleanLiteral false
+boolean PrimitiveType MethodDeclaration SimpleName is iter const
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName e
+boolean PrimitiveType MethodDeclaration Block ReturnStatement BooleanLiteral false
+is iter const SimpleName MethodDeclaration SingleVariableDeclaration SimpleName e
+is iter const SimpleName MethodDeclaration Block ReturnStatement BooleanLiteral false
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName is iter const
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName e
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName is iter const
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName e

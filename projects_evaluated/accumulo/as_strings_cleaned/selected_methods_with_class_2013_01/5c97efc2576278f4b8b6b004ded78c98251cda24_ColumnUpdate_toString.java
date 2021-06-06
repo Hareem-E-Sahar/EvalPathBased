@@ -1,0 +1,130 @@
+arrays SimpleName MethodInvocation SimpleName to string
+arrays SimpleName MethodInvocation SimpleName column family
+to string SimpleName MethodInvocation SimpleName column family
+string SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName arrays
+string SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName to string
+string SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName column family
+arrays SimpleName MethodInvocation SimpleName to string
+arrays SimpleName MethodInvocation SimpleName column qualifier
+to string SimpleName MethodInvocation SimpleName column qualifier
+string SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName arrays
+string SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName to string
+string SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName column qualifier
+arrays SimpleName MethodInvocation SimpleName to string
+arrays SimpleName MethodInvocation SimpleName column visibility
+to string SimpleName MethodInvocation SimpleName column visibility
+string SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName arrays
+string SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName to string
+string SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName column visibility
+has timestamp SimpleName ConditionalExpression SimpleName timestamp
+has timestamp SimpleName ConditionalExpression StringLiteral no time stamp
+timestamp SimpleName ConditionalExpression StringLiteral no time stamp
+arrays SimpleName MethodInvocation SimpleName to string
+arrays SimpleName MethodInvocation SimpleName val
+to string SimpleName MethodInvocation SimpleName val
+string SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral :
+arrays SimpleName MethodInvocation ClassInstanceCreation InfixExpression StringLiteral :
+to string SimpleName MethodInvocation ClassInstanceCreation InfixExpression StringLiteral :
+column family SimpleName MethodInvocation ClassInstanceCreation InfixExpression StringLiteral :
+string SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral [
+arrays SimpleName MethodInvocation ClassInstanceCreation InfixExpression StringLiteral [
+to string SimpleName MethodInvocation ClassInstanceCreation InfixExpression StringLiteral [
+column family SimpleName MethodInvocation ClassInstanceCreation InfixExpression StringLiteral [
+string SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral ]
+arrays SimpleName MethodInvocation ClassInstanceCreation InfixExpression StringLiteral ]
+to string SimpleName MethodInvocation ClassInstanceCreation InfixExpression StringLiteral ]
+column family SimpleName MethodInvocation ClassInstanceCreation InfixExpression StringLiteral ]
+: StringLiteral InfixExpression ClassInstanceCreation SimpleType SimpleName string
+: StringLiteral InfixExpression ClassInstanceCreation MethodInvocation SimpleName arrays
+: StringLiteral InfixExpression ClassInstanceCreation MethodInvocation SimpleName to string
+: StringLiteral InfixExpression ClassInstanceCreation MethodInvocation SimpleName column qualifier
+: StringLiteral InfixExpression StringLiteral [
+: StringLiteral InfixExpression ClassInstanceCreation SimpleType SimpleName string
+: StringLiteral InfixExpression ClassInstanceCreation MethodInvocation SimpleName arrays
+: StringLiteral InfixExpression ClassInstanceCreation MethodInvocation SimpleName to string
+: StringLiteral InfixExpression ClassInstanceCreation MethodInvocation SimpleName column visibility
+: StringLiteral InfixExpression StringLiteral ]
+: StringLiteral InfixExpression ParenthesizedExpression ConditionalExpression SimpleName has timestamp
+: StringLiteral InfixExpression ParenthesizedExpression ConditionalExpression SimpleName timestamp
+: StringLiteral InfixExpression ParenthesizedExpression ConditionalExpression StringLiteral no time stamp
+string SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral [
+arrays SimpleName MethodInvocation ClassInstanceCreation InfixExpression StringLiteral [
+to string SimpleName MethodInvocation ClassInstanceCreation InfixExpression StringLiteral [
+column qualifier SimpleName MethodInvocation ClassInstanceCreation InfixExpression StringLiteral [
+string SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral ]
+arrays SimpleName MethodInvocation ClassInstanceCreation InfixExpression StringLiteral ]
+to string SimpleName MethodInvocation ClassInstanceCreation InfixExpression StringLiteral ]
+column qualifier SimpleName MethodInvocation ClassInstanceCreation InfixExpression StringLiteral ]
+string SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral empty
+arrays SimpleName MethodInvocation ClassInstanceCreation InfixExpression StringLiteral empty
+to string SimpleName MethodInvocation ClassInstanceCreation InfixExpression StringLiteral empty
+column qualifier SimpleName MethodInvocation ClassInstanceCreation InfixExpression StringLiteral empty
+[ StringLiteral InfixExpression ClassInstanceCreation SimpleType SimpleName string
+[ StringLiteral InfixExpression ClassInstanceCreation MethodInvocation SimpleName arrays
+[ StringLiteral InfixExpression ClassInstanceCreation MethodInvocation SimpleName to string
+[ StringLiteral InfixExpression ClassInstanceCreation MethodInvocation SimpleName column visibility
+[ StringLiteral InfixExpression StringLiteral ]
+[ StringLiteral InfixExpression ParenthesizedExpression ConditionalExpression SimpleName has timestamp
+[ StringLiteral InfixExpression ParenthesizedExpression ConditionalExpression SimpleName timestamp
+[ StringLiteral InfixExpression ParenthesizedExpression ConditionalExpression StringLiteral no time stamp
+[ StringLiteral InfixExpression StringLiteral empty
+[ StringLiteral InfixExpression MethodInvocation SimpleName arrays
+[ StringLiteral InfixExpression MethodInvocation SimpleName to string
+[ StringLiteral InfixExpression MethodInvocation SimpleName val
+string SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral ]
+arrays SimpleName MethodInvocation ClassInstanceCreation InfixExpression StringLiteral ]
+to string SimpleName MethodInvocation ClassInstanceCreation InfixExpression StringLiteral ]
+column visibility SimpleName MethodInvocation ClassInstanceCreation InfixExpression StringLiteral ]
+string SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral empty
+arrays SimpleName MethodInvocation ClassInstanceCreation InfixExpression StringLiteral empty
+to string SimpleName MethodInvocation ClassInstanceCreation InfixExpression StringLiteral empty
+column visibility SimpleName MethodInvocation ClassInstanceCreation InfixExpression StringLiteral empty
+string SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral empty
+arrays SimpleName MethodInvocation ClassInstanceCreation InfixExpression StringLiteral empty
+to string SimpleName MethodInvocation ClassInstanceCreation InfixExpression StringLiteral empty
+column visibility SimpleName MethodInvocation ClassInstanceCreation InfixExpression StringLiteral empty
+] StringLiteral InfixExpression ParenthesizedExpression ConditionalExpression SimpleName has timestamp
+] StringLiteral InfixExpression ParenthesizedExpression ConditionalExpression SimpleName timestamp
+] StringLiteral InfixExpression ParenthesizedExpression ConditionalExpression StringLiteral no time stamp
+] StringLiteral InfixExpression StringLiteral empty
+] StringLiteral InfixExpression MethodInvocation SimpleName arrays
+] StringLiteral InfixExpression MethodInvocation SimpleName to string
+] StringLiteral InfixExpression MethodInvocation SimpleName val
+] StringLiteral InfixExpression StringLiteral empty
+] StringLiteral InfixExpression SimpleName deleted
+has timestamp SimpleName ConditionalExpression ParenthesizedExpression InfixExpression StringLiteral empty
+timestamp SimpleName ConditionalExpression ParenthesizedExpression InfixExpression StringLiteral empty
+no time stamp StringLiteral ConditionalExpression ParenthesizedExpression InfixExpression StringLiteral empty
+has timestamp SimpleName ConditionalExpression ParenthesizedExpression InfixExpression StringLiteral empty
+timestamp SimpleName ConditionalExpression ParenthesizedExpression InfixExpression StringLiteral empty
+no time stamp StringLiteral ConditionalExpression ParenthesizedExpression InfixExpression StringLiteral empty
+has timestamp SimpleName ConditionalExpression ParenthesizedExpression InfixExpression SimpleName deleted
+timestamp SimpleName ConditionalExpression ParenthesizedExpression InfixExpression SimpleName deleted
+no time stamp StringLiteral ConditionalExpression ParenthesizedExpression InfixExpression SimpleName deleted
+empty StringLiteral InfixExpression MethodInvocation SimpleName arrays
+empty StringLiteral InfixExpression MethodInvocation SimpleName to string
+empty StringLiteral InfixExpression MethodInvocation SimpleName val
+empty StringLiteral InfixExpression StringLiteral empty
+empty StringLiteral InfixExpression SimpleName deleted
+arrays SimpleName MethodInvocation InfixExpression StringLiteral empty
+to string SimpleName MethodInvocation InfixExpression StringLiteral empty
+val SimpleName MethodInvocation InfixExpression StringLiteral empty
+arrays SimpleName MethodInvocation InfixExpression SimpleName deleted
+to string SimpleName MethodInvocation InfixExpression SimpleName deleted
+val SimpleName MethodInvocation InfixExpression SimpleName deleted
+empty StringLiteral InfixExpression SimpleName deleted
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName string
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName to string
+public Modifier MethodDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName to string
+string SimpleName SimpleType MethodDeclaration SimpleName to string
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName to string
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName to string

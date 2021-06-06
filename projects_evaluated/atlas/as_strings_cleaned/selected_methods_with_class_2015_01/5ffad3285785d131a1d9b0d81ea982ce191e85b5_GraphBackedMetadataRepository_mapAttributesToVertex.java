@@ -1,0 +1,190 @@
+id SimpleName SimpleType SingleVariableDeclaration SimpleName id
+i typed instance SimpleName SimpleType SingleVariableDeclaration SimpleName typed instance
+vertex SimpleName SimpleType SingleVariableDeclaration SimpleName instance vertex
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName id
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName vertex
+id SimpleName SimpleType ParameterizedType SimpleType SimpleName vertex
+map SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName id to vertex map
+id SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName id to vertex map
+vertex SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName id to vertex map
+attribute info SimpleName SimpleType SingleVariableDeclaration SimpleName attribute info
+i data type SimpleName SimpleType SingleVariableDeclaration SimpleName data type
+typed instance SimpleName MethodInvocation SimpleName get type name
+typed instance SimpleName MethodInvocation InfixExpression StringLiteral .
+get type name SimpleName MethodInvocation InfixExpression StringLiteral .
+typed instance SimpleName MethodInvocation InfixExpression QualifiedName attribute infoname
+get type name SimpleName MethodInvocation InfixExpression QualifiedName attribute infoname
+. StringLiteral InfixExpression QualifiedName attribute infoname
+property name SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName typed instance
+property name SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName get type name
+property name SimpleName VariableDeclarationFragment InfixExpression StringLiteral .
+property name SimpleName VariableDeclarationFragment InfixExpression QualifiedName attribute infoname
+final Modifier VariableDeclarationStatement SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName property name
+final Modifier VariableDeclarationStatement VariableDeclarationFragment InfixExpression StringLiteral .
+final Modifier VariableDeclarationStatement VariableDeclarationFragment InfixExpression QualifiedName attribute infoname
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName property name
+data type SimpleName MethodInvocation SimpleName get type category
+map primitive to vertex SimpleName MethodInvocation SimpleName typed instance
+map primitive to vertex SimpleName MethodInvocation SimpleName instance vertex
+map primitive to vertex SimpleName MethodInvocation SimpleName attribute info
+typed instance SimpleName MethodInvocation SimpleName instance vertex
+typed instance SimpleName MethodInvocation SimpleName attribute info
+instance vertex SimpleName MethodInvocation SimpleName attribute info
+typed instance SimpleName MethodInvocation SimpleName get int
+typed instance SimpleName MethodInvocation QualifiedName attribute infoname
+get int SimpleName MethodInvocation QualifiedName attribute infoname
+instance vertex SimpleName MethodInvocation SimpleName set property
+instance vertex SimpleName MethodInvocation SimpleName property name
+instance vertex SimpleName MethodInvocation MethodInvocation SimpleName typed instance
+instance vertex SimpleName MethodInvocation MethodInvocation SimpleName get int
+instance vertex SimpleName MethodInvocation MethodInvocation QualifiedName attribute infoname
+set property SimpleName MethodInvocation SimpleName property name
+set property SimpleName MethodInvocation MethodInvocation SimpleName typed instance
+set property SimpleName MethodInvocation MethodInvocation SimpleName get int
+set property SimpleName MethodInvocation MethodInvocation QualifiedName attribute infoname
+property name SimpleName MethodInvocation MethodInvocation SimpleName typed instance
+property name SimpleName MethodInvocation MethodInvocation SimpleName get int
+property name SimpleName MethodInvocation MethodInvocation QualifiedName attribute infoname
+typed instance SimpleName MethodInvocation SimpleName get
+typed instance SimpleName MethodInvocation QualifiedName attribute infoname
+get SimpleName MethodInvocation QualifiedName attribute infoname
+i typed struct SimpleName SimpleType CastExpression MethodInvocation SimpleName typed instance
+i typed struct SimpleName SimpleType CastExpression MethodInvocation SimpleName get
+i typed struct SimpleName SimpleType CastExpression MethodInvocation QualifiedName attribute infoname
+map struct instance to vertex SimpleName MethodInvocation SimpleName id
+map struct instance to vertex SimpleName MethodInvocation CastExpression SimpleType SimpleName i typed struct
+map struct instance to vertex SimpleName MethodInvocation CastExpression MethodInvocation SimpleName typed instance
+map struct instance to vertex SimpleName MethodInvocation CastExpression MethodInvocation SimpleName get
+map struct instance to vertex SimpleName MethodInvocation CastExpression MethodInvocation QualifiedName attribute infoname
+map struct instance to vertex SimpleName MethodInvocation SimpleName attribute info
+map struct instance to vertex SimpleName MethodInvocation SimpleName id to vertex map
+id SimpleName MethodInvocation CastExpression SimpleType SimpleName i typed struct
+id SimpleName MethodInvocation CastExpression MethodInvocation SimpleName typed instance
+id SimpleName MethodInvocation CastExpression MethodInvocation SimpleName get
+id SimpleName MethodInvocation CastExpression MethodInvocation QualifiedName attribute infoname
+id SimpleName MethodInvocation SimpleName attribute info
+id SimpleName MethodInvocation SimpleName id to vertex map
+i typed struct SimpleName SimpleType CastExpression MethodInvocation SimpleName attribute info
+typed instance SimpleName MethodInvocation CastExpression MethodInvocation SimpleName attribute info
+get SimpleName MethodInvocation CastExpression MethodInvocation SimpleName attribute info
+attribute infoname QualifiedName MethodInvocation CastExpression MethodInvocation SimpleName attribute info
+i typed struct SimpleName SimpleType CastExpression MethodInvocation SimpleName id to vertex map
+typed instance SimpleName MethodInvocation CastExpression MethodInvocation SimpleName id to vertex map
+get SimpleName MethodInvocation CastExpression MethodInvocation SimpleName id to vertex map
+attribute infoname QualifiedName MethodInvocation CastExpression MethodInvocation SimpleName id to vertex map
+attribute info SimpleName MethodInvocation SimpleName id to vertex map
+struct instance vertex SimpleName VariableDeclarationFragment MethodInvocation SimpleName map struct instance to vertex
+struct instance vertex SimpleName VariableDeclarationFragment MethodInvocation SimpleName id
+struct instance vertex SimpleName VariableDeclarationFragment MethodInvocation SimpleName attribute info
+struct instance vertex SimpleName VariableDeclarationFragment MethodInvocation SimpleName id to vertex map
+vertex SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName struct instance vertex
+graph helper SimpleName MethodInvocation SimpleName add edge
+graph helper SimpleName MethodInvocation SimpleName instance vertex
+graph helper SimpleName MethodInvocation SimpleName struct instance vertex
+graph helper SimpleName MethodInvocation SimpleName property name
+add edge SimpleName MethodInvocation SimpleName instance vertex
+add edge SimpleName MethodInvocation SimpleName struct instance vertex
+add edge SimpleName MethodInvocation SimpleName property name
+instance vertex SimpleName MethodInvocation SimpleName struct instance vertex
+instance vertex SimpleName MethodInvocation SimpleName property name
+struct instance vertex SimpleName MethodInvocation SimpleName property name
+typed instance SimpleName MethodInvocation SimpleName get
+typed instance SimpleName MethodInvocation QualifiedName attribute infoname
+get SimpleName MethodInvocation QualifiedName attribute infoname
+id SimpleName SimpleType CastExpression MethodInvocation SimpleName typed instance
+id SimpleName SimpleType CastExpression MethodInvocation SimpleName get
+id SimpleName SimpleType CastExpression MethodInvocation QualifiedName attribute infoname
+reference id SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName id
+reference id SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName typed instance
+reference id SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get
+reference id SimpleName VariableDeclarationFragment CastExpression MethodInvocation QualifiedName attribute infoname
+id SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName reference id
+map class reference as edge SimpleName MethodInvocation SimpleName instance vertex
+map class reference as edge SimpleName MethodInvocation SimpleName id to vertex map
+map class reference as edge SimpleName MethodInvocation SimpleName property name
+map class reference as edge SimpleName MethodInvocation SimpleName reference id
+instance vertex SimpleName MethodInvocation SimpleName id to vertex map
+instance vertex SimpleName MethodInvocation SimpleName property name
+instance vertex SimpleName MethodInvocation SimpleName reference id
+id to vertex map SimpleName MethodInvocation SimpleName property name
+id to vertex map SimpleName MethodInvocation SimpleName reference id
+property name SimpleName MethodInvocation SimpleName reference id
+data type SimpleName MethodInvocation SwitchStatement SwitchCase SimpleName primitive
+get type category SimpleName MethodInvocation SwitchStatement SwitchCase SimpleName primitive
+data type SimpleName MethodInvocation SwitchStatement SwitchCase SimpleName enum
+get type category SimpleName MethodInvocation SwitchStatement SwitchCase SimpleName enum
+primitive SimpleName SwitchCase SwitchStatement SwitchCase SimpleName enum
+enum SimpleName SwitchCase SwitchStatement SwitchCase SimpleName array
+enum SimpleName SwitchCase SwitchStatement SwitchCase SimpleName map
+array SimpleName SwitchCase SwitchStatement SwitchCase SimpleName map
+array SimpleName SwitchCase SwitchStatement SwitchCase SimpleName struct
+map SimpleName SwitchCase SwitchStatement SwitchCase SimpleName struct
+struct SimpleName SwitchCase SwitchStatement SwitchCase SimpleName trait
+trait SimpleName SwitchCase SwitchStatement SwitchCase SimpleName class
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName map attributes to vertex
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName id
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName id
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName i typed instance
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName typed instance
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName vertex
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName instance vertex
+void PrimitiveType MethodDeclaration SimpleName map attributes to vertex
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName id
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName id
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName i typed instance
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName typed instance
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName vertex
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName instance vertex
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName id to vertex map
+map attributes to vertex SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName id
+map attributes to vertex SimpleName MethodDeclaration SingleVariableDeclaration SimpleName id
+map attributes to vertex SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName i typed instance
+map attributes to vertex SimpleName MethodDeclaration SingleVariableDeclaration SimpleName typed instance
+map attributes to vertex SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName vertex
+map attributes to vertex SimpleName MethodDeclaration SingleVariableDeclaration SimpleName instance vertex
+map attributes to vertex SimpleName MethodDeclaration SingleVariableDeclaration SimpleName id to vertex map
+map attributes to vertex SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName attribute info
+map attributes to vertex SimpleName MethodDeclaration SingleVariableDeclaration SimpleName attribute info
+id SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName typed instance
+id SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName instance vertex
+id SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName id to vertex map
+id SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attribute info
+id SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName data type
+typed instance SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName instance vertex
+typed instance SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName id to vertex map
+typed instance SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attribute info
+typed instance SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName data type
+typed instance SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName metadata exception
+instance vertex SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName id to vertex map
+instance vertex SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attribute info
+instance vertex SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName data type
+instance vertex SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName metadata exception
+id to vertex map SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attribute info
+id to vertex map SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName data type
+id to vertex map SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName metadata exception
+attribute info SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName data type
+attribute info SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName metadata exception
+data type SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName metadata exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName map attributes to vertex
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName id
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName typed instance
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName instance vertex
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName id to vertex map
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attribute info
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName data type
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName metadata exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName map attributes to vertex
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName id
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName typed instance
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName instance vertex
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName id to vertex map
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attribute info
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName data type
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName metadata exception

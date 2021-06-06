@@ -1,0 +1,68 @@
+atlas entity type SimpleName SimpleType SingleVariableDeclaration SimpleName entity type
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+map SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName attr values
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName attr values
+object SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName attr values
+find by unique attributes SimpleName MethodInvocation SimpleName entity type
+find by unique attributes SimpleName MethodInvocation SimpleName attr values
+entity type SimpleName MethodInvocation SimpleName attr values
+vertex SimpleName VariableDeclarationFragment MethodInvocation SimpleName find by unique attributes
+vertex SimpleName VariableDeclarationFragment MethodInvocation SimpleName entity type
+vertex SimpleName VariableDeclarationFragment MethodInvocation SimpleName attr values
+atlas vertex SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName vertex
+entity type SimpleName MethodInvocation SimpleName get type name
+attr values SimpleName MethodInvocation SimpleName to string
+atlas base exception SimpleName SimpleType ClassInstanceCreation QualifiedName atlas error codeinstance by unique attribute not found
+atlas base exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName entity type
+atlas base exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get type name
+atlas base exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName attr values
+atlas base exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName to string
+atlas error codeinstance by unique attribute not found QualifiedName ClassInstanceCreation MethodInvocation SimpleName entity type
+atlas error codeinstance by unique attribute not found QualifiedName ClassInstanceCreation MethodInvocation SimpleName get type name
+atlas error codeinstance by unique attribute not found QualifiedName ClassInstanceCreation MethodInvocation SimpleName attr values
+atlas error codeinstance by unique attribute not found QualifiedName ClassInstanceCreation MethodInvocation SimpleName to string
+entity type SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName attr values
+entity type SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName to string
+get type name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName attr values
+get type name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName to string
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName atlas vertex
+public Modifier MethodDeclaration SimpleName get vertex by unique attributes
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas entity type
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName entity type
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName attr values
+static Modifier MethodDeclaration SimpleType SimpleName atlas vertex
+static Modifier MethodDeclaration SimpleName get vertex by unique attributes
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas entity type
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName entity type
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName attr values
+static Modifier MethodDeclaration SimpleType SimpleName atlas base exception
+atlas vertex SimpleName SimpleType MethodDeclaration SimpleName get vertex by unique attributes
+atlas vertex SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName entity type
+atlas vertex SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName attr values
+atlas vertex SimpleName SimpleType MethodDeclaration SimpleType SimpleName atlas base exception
+get vertex by unique attributes SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas entity type
+get vertex by unique attributes SimpleName MethodDeclaration SingleVariableDeclaration SimpleName entity type
+get vertex by unique attributes SimpleName MethodDeclaration SingleVariableDeclaration SimpleName attr values
+get vertex by unique attributes SimpleName MethodDeclaration SimpleType SimpleName atlas base exception
+get vertex by unique attributes SimpleName MethodDeclaration Block ReturnStatement SimpleName vertex
+entity type SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attr values
+entity type SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+attr values SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas vertex
+public Modifier TypeDeclaration MethodDeclaration SimpleName get vertex by unique attributes
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity type
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attr values
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas vertex
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get vertex by unique attributes
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity type
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attr values
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception

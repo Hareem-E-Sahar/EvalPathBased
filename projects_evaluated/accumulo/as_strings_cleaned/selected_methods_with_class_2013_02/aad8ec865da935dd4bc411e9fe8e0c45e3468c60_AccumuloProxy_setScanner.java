@@ -1,0 +1,19 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName scanner
+scanner SimpleName FieldAccess Assignment SimpleName scanner
+public Modifier MethodDeclaration SimpleType SimpleName close scanner args
+public Modifier MethodDeclaration SimpleName set scanner
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName scanner
+close scanner args SimpleName SimpleType MethodDeclaration SimpleName set scanner
+close scanner args SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName scanner
+set scanner SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+set scanner SimpleName MethodDeclaration SingleVariableDeclaration SimpleName scanner
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName close scanner args
+public Modifier TypeDeclaration MethodDeclaration SimpleName set scanner
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName scanner
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName close scanner args
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set scanner
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName scanner

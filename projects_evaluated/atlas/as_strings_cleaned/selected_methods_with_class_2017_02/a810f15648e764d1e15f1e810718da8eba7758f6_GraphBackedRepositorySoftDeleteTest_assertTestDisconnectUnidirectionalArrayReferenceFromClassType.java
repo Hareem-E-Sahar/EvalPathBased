@@ -1,0 +1,81 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName i typed referenceable instance
+list SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName columns
+i typed referenceable instance SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName columns
+string SimpleName SimpleType SingleVariableDeclaration SimpleName column guid
+columns SimpleName MethodInvocation SimpleName size
+assert SimpleName MethodInvocation SimpleName assert equals
+assert SimpleName MethodInvocation MethodInvocation SimpleName columns
+assert SimpleName MethodInvocation MethodInvocation SimpleName size
+assert SimpleName MethodInvocation NumberLiteral empty
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName columns
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName size
+assert equals SimpleName MethodInvocation NumberLiteral empty
+columns SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+size SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+i typed referenceable instance SimpleName SimpleType SingleVariableDeclaration SimpleName column
+column SimpleName MethodInvocation SimpleName get id
+column SimpleName MethodInvocation MethodInvocation SimpleName get id
+get id SimpleName MethodInvocation MethodInvocation SimpleName get id
+column SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName equals
+get id SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName equals
+get id SimpleName MethodInvocation MethodInvocation SimpleName equals
+column SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName column guid
+get id SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName column guid
+get id SimpleName MethodInvocation MethodInvocation SimpleName column guid
+equals SimpleName MethodInvocation SimpleName column guid
+column SimpleName MethodInvocation SimpleName get id
+column SimpleName MethodInvocation MethodInvocation SimpleName get state
+get id SimpleName MethodInvocation MethodInvocation SimpleName get state
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName column
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get id
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get state
+assert equals SimpleName MethodInvocation QualifiedName identity statedeleted
+column SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName identity statedeleted
+get id SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName identity statedeleted
+get state SimpleName MethodInvocation MethodInvocation QualifiedName identity statedeleted
+column SimpleName MethodInvocation SimpleName get id
+column SimpleName MethodInvocation MethodInvocation SimpleName get state
+get id SimpleName MethodInvocation MethodInvocation SimpleName get state
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName column
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get id
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get state
+assert equals SimpleName MethodInvocation QualifiedName identity stateactive
+column SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName identity stateactive
+get id SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName identity stateactive
+get state SimpleName MethodInvocation MethodInvocation QualifiedName identity stateactive
+i typed referenceable instance SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName columns
+column SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName columns
+override SimpleName MarkerAnnotation MethodDeclaration Modifier protected
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName assert test disconnect unidirectional array reference from class type
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName columns
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName column guid
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName assert test disconnect unidirectional array reference from class type
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName columns
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName column guid
+protected Modifier MethodDeclaration Block EnhancedForStatement SimpleName columns
+void PrimitiveType MethodDeclaration SimpleName assert test disconnect unidirectional array reference from class type
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName columns
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName column guid
+void PrimitiveType MethodDeclaration Block EnhancedForStatement SimpleName columns
+assert test disconnect unidirectional array reference from class type SimpleName MethodDeclaration SingleVariableDeclaration SimpleName columns
+assert test disconnect unidirectional array reference from class type SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+assert test disconnect unidirectional array reference from class type SimpleName MethodDeclaration SingleVariableDeclaration SimpleName column guid
+assert test disconnect unidirectional array reference from class type SimpleName MethodDeclaration Block EnhancedForStatement SimpleName columns
+columns SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName column guid
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName assert test disconnect unidirectional array reference from class type
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName columns
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName column guid
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName assert test disconnect unidirectional array reference from class type
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName columns
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName column guid

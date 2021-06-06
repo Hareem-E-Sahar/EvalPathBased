@@ -1,0 +1,12 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName related asset
+array list SimpleName SimpleType ParameterizedType ClassInstanceCreation SimpleName related assets
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName related asset
+public Modifier MethodDeclaration SimpleName get related assets
+list SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get related assets
+related asset SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get related assets
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName get related assets
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get related assets

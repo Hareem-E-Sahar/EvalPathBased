@@ -1,0 +1,49 @@
+url encoder SimpleName MethodInvocation SimpleName encode
+url encoder SimpleName MethodInvocation SimpleName value
+url encoder SimpleName MethodInvocation StringLiteral utf
+encode SimpleName MethodInvocation SimpleName value
+encode SimpleName MethodInvocation StringLiteral utf
+value SimpleName MethodInvocation StringLiteral utf
+iterator name SimpleName InfixExpression SimpleName field sep
+iterator name SimpleName InfixExpression SimpleName key
+iterator name SimpleName InfixExpression SimpleName field sep
+iterator name SimpleName InfixExpression MethodInvocation SimpleName url encoder
+iterator name SimpleName InfixExpression MethodInvocation SimpleName encode
+iterator name SimpleName InfixExpression MethodInvocation SimpleName value
+iterator name SimpleName InfixExpression MethodInvocation StringLiteral utf
+field sep SimpleName InfixExpression SimpleName key
+field sep SimpleName InfixExpression SimpleName field sep
+field sep SimpleName InfixExpression MethodInvocation SimpleName url encoder
+field sep SimpleName InfixExpression MethodInvocation SimpleName encode
+field sep SimpleName InfixExpression MethodInvocation SimpleName value
+field sep SimpleName InfixExpression MethodInvocation StringLiteral utf
+key SimpleName InfixExpression SimpleName field sep
+key SimpleName InfixExpression MethodInvocation SimpleName url encoder
+key SimpleName InfixExpression MethodInvocation SimpleName encode
+key SimpleName InfixExpression MethodInvocation SimpleName value
+key SimpleName InfixExpression MethodInvocation StringLiteral utf
+field sep SimpleName InfixExpression MethodInvocation SimpleName url encoder
+field sep SimpleName InfixExpression MethodInvocation SimpleName encode
+field sep SimpleName InfixExpression MethodInvocation SimpleName value
+field sep SimpleName InfixExpression MethodInvocation StringLiteral utf
+string SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName iterator name
+string SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName field sep
+string SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName key
+string SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName field sep
+unsupported encoding exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+runtime exception SimpleName SimpleType ClassInstanceCreation SimpleName e
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName string
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName to string
+public Modifier MethodDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName to string
+string SimpleName SimpleType MethodDeclaration SimpleName to string
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName to string
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName to string

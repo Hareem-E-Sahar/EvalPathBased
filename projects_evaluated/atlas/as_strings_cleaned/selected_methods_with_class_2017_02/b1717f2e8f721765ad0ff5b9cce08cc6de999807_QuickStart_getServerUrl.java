@@ -1,0 +1,46 @@
+string SimpleName SimpleType ArrayType SingleVariableDeclaration SimpleName args
+argslength QualifiedName InfixExpression NumberLiteral empty
+args SimpleName ArrayAccess NumberLiteral empty
+args SimpleName ArrayAccess MethodInvocation SimpleName split
+empty NumberLiteral ArrayAccess MethodInvocation SimpleName split
+args SimpleName ArrayAccess MethodInvocation StringLiteral empty
+empty NumberLiteral ArrayAccess MethodInvocation StringLiteral empty
+split SimpleName MethodInvocation StringLiteral empty
+application properties SimpleName MethodInvocation SimpleName get
+configuration SimpleName VariableDeclarationFragment MethodInvocation SimpleName application properties
+configuration SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+configuration SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName configuration
+configuration SimpleName MethodInvocation SimpleName get string array
+configuration SimpleName MethodInvocation SimpleName atlas rest address
+get string array SimpleName MethodInvocation SimpleName atlas rest address
+urls SimpleName VariableDeclarationFragment MethodInvocation SimpleName configuration
+urls SimpleName VariableDeclarationFragment MethodInvocation SimpleName get string array
+urls SimpleName VariableDeclarationFragment MethodInvocation SimpleName atlas rest address
+urlslength QualifiedName InfixExpression NumberLiteral empty
+urls SimpleName InfixExpression InfixExpression InfixExpression QualifiedName urlslength
+urls SimpleName InfixExpression InfixExpression InfixExpression NumberLiteral empty
+systemout QualifiedName MethodInvocation SimpleName println
+systemout QualifiedName MethodInvocation StringLiteral usage quick start v py atlas endpoint of format httphttpsatlasfqdnatlas port like httplocalhost >
+println SimpleName MethodInvocation StringLiteral usage quick start v py atlas endpoint of format httphttpsatlasfqdnatlas port like httplocalhost >
+system SimpleName MethodInvocation SimpleName exit
+system SimpleName MethodInvocation PrefixExpression NumberLiteral empty
+exit SimpleName MethodInvocation PrefixExpression NumberLiteral empty
+static Modifier MethodDeclaration ArrayType SimpleType SimpleName string
+static Modifier MethodDeclaration SimpleName get server url
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName args
+static Modifier MethodDeclaration SimpleType SimpleName atlas exception
+static Modifier MethodDeclaration Block ReturnStatement SimpleName urls
+string SimpleName SimpleType ArrayType MethodDeclaration SimpleName get server url
+get server url SimpleName MethodDeclaration SingleVariableDeclaration SimpleName args
+get server url SimpleName MethodDeclaration SimpleType SimpleName atlas exception
+get server url SimpleName MethodDeclaration Block ReturnStatement SimpleName urls
+args SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleName get server url
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName args
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get server url
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName args
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception

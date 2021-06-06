@@ -1,0 +1,94 @@
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName expected props
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName expected props
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName expected props
+sb SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName string buffer
+string buffer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName sb
+string SimpleName SimpleType SingleVariableDeclaration SimpleName expected prop key
+expected props SimpleName MethodInvocation SimpleName key set
+sb SimpleName MethodInvocation SimpleName length
+sb SimpleName MethodInvocation InfixExpression NumberLiteral empty
+length SimpleName MethodInvocation InfixExpression NumberLiteral empty
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation StringLiteral empty
+append SimpleName MethodInvocation StringLiteral empty
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation StringLiteral empty
+append SimpleName MethodInvocation StringLiteral empty
+sb SimpleName MethodInvocation MethodInvocation SimpleName append
+append SimpleName MethodInvocation MethodInvocation SimpleName append
+empty StringLiteral MethodInvocation MethodInvocation SimpleName append
+sb SimpleName MethodInvocation MethodInvocation SimpleName expected prop key
+append SimpleName MethodInvocation MethodInvocation SimpleName expected prop key
+empty StringLiteral MethodInvocation MethodInvocation SimpleName expected prop key
+append SimpleName MethodInvocation SimpleName expected prop key
+sb SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName append
+append SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName append
+empty StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName append
+append SimpleName MethodInvocation MethodInvocation SimpleName append
+expected prop key SimpleName MethodInvocation MethodInvocation SimpleName append
+sb SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral empty
+append SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral empty
+empty StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral empty
+append SimpleName MethodInvocation MethodInvocation StringLiteral empty
+expected prop key SimpleName MethodInvocation MethodInvocation StringLiteral empty
+append SimpleName MethodInvocation StringLiteral empty
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation StringLiteral =
+append SimpleName MethodInvocation StringLiteral =
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation StringLiteral empty
+append SimpleName MethodInvocation StringLiteral empty
+expected props SimpleName MethodInvocation SimpleName get
+expected props SimpleName MethodInvocation SimpleName expected prop key
+get SimpleName MethodInvocation SimpleName expected prop key
+sb SimpleName MethodInvocation MethodInvocation SimpleName append
+append SimpleName MethodInvocation MethodInvocation SimpleName append
+empty StringLiteral MethodInvocation MethodInvocation SimpleName append
+sb SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName expected props
+sb SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+sb SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName expected prop key
+append SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName expected props
+append SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+append SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName expected prop key
+empty StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName expected props
+empty StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName get
+empty StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName expected prop key
+append SimpleName MethodInvocation MethodInvocation SimpleName expected props
+append SimpleName MethodInvocation MethodInvocation SimpleName get
+append SimpleName MethodInvocation MethodInvocation SimpleName expected prop key
+sb SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName append
+append SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName append
+empty StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName append
+append SimpleName MethodInvocation MethodInvocation SimpleName append
+expected props SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName append
+get SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName append
+expected prop key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName append
+sb SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral empty
+append SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral empty
+empty StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral empty
+append SimpleName MethodInvocation MethodInvocation StringLiteral empty
+expected props SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral empty
+get SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral empty
+expected prop key SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral empty
+append SimpleName MethodInvocation StringLiteral empty
+expected prop key SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName expected props
+expected prop key SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName key set
+sb SimpleName MethodInvocation SimpleName to string
+private Modifier MethodDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SimpleName get serialized props
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName expected props
+string SimpleName SimpleType MethodDeclaration SimpleName get serialized props
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName expected props
+get serialized props SimpleName MethodDeclaration SingleVariableDeclaration SimpleName expected props
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName get serialized props
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName expected props
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get serialized props
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName expected props

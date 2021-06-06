@@ -1,0 +1,157 @@
+configuration SimpleName SimpleType SingleVariableDeclaration SimpleName configuration
+atlaskafka StringLiteral InfixExpression SimpleName zookeeper prefix
+atlaskafka StringLiteral InfixExpression StringLiteral connect
+zookeeper prefix SimpleName InfixExpression StringLiteral connect
+configuration SimpleName MethodInvocation SimpleName get string
+configuration SimpleName MethodInvocation InfixExpression StringLiteral atlaskafka
+configuration SimpleName MethodInvocation InfixExpression SimpleName zookeeper prefix
+configuration SimpleName MethodInvocation InfixExpression StringLiteral connect
+get string SimpleName MethodInvocation InfixExpression StringLiteral atlaskafka
+get string SimpleName MethodInvocation InfixExpression SimpleName zookeeper prefix
+get string SimpleName MethodInvocation InfixExpression StringLiteral connect
+zookeeper connect string SimpleName VariableDeclarationFragment MethodInvocation SimpleName configuration
+zookeeper connect string SimpleName VariableDeclarationFragment MethodInvocation SimpleName get string
+zookeeper connect string SimpleName VariableDeclarationFragment MethodInvocation InfixExpression StringLiteral atlaskafka
+zookeeper connect string SimpleName VariableDeclarationFragment MethodInvocation InfixExpression SimpleName zookeeper prefix
+zookeeper connect string SimpleName VariableDeclarationFragment MethodInvocation InfixExpression StringLiteral connect
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName zookeeper connect string
+configuration SimpleName MethodInvocation SimpleName contains key
+configuration SimpleName MethodInvocation SimpleName ha zookeeper connect
+contains key SimpleName MethodInvocation SimpleName ha zookeeper connect
+configuration SimpleName MethodInvocation SimpleName get string
+configuration SimpleName MethodInvocation SimpleName ha zookeeper connect
+get string SimpleName MethodInvocation SimpleName ha zookeeper connect
+zookeeper connect string SimpleName Assignment MethodInvocation SimpleName configuration
+zookeeper connect string SimpleName Assignment MethodInvocation SimpleName get string
+zookeeper connect string SimpleName Assignment MethodInvocation SimpleName ha zookeeper connect
+configuration SimpleName MethodInvocation SimpleName get string
+configuration SimpleName MethodInvocation SimpleName atlas server ha zk root key
+configuration SimpleName MethodInvocation SimpleName atlas server zk root default
+get string SimpleName MethodInvocation SimpleName atlas server ha zk root key
+get string SimpleName MethodInvocation SimpleName atlas server zk root default
+atlas server ha zk root key SimpleName MethodInvocation SimpleName atlas server zk root default
+zk root SimpleName VariableDeclarationFragment MethodInvocation SimpleName configuration
+zk root SimpleName VariableDeclarationFragment MethodInvocation SimpleName get string
+zk root SimpleName VariableDeclarationFragment MethodInvocation SimpleName atlas server ha zk root key
+zk root SimpleName VariableDeclarationFragment MethodInvocation SimpleName atlas server zk root default
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName zk root
+configuration SimpleName MethodInvocation SimpleName get int
+configuration SimpleName MethodInvocation SimpleName ha zookeeper retry sleeptime millis
+configuration SimpleName MethodInvocation SimpleName default zookeeper connect sleeptime millis
+get int SimpleName MethodInvocation SimpleName ha zookeeper retry sleeptime millis
+get int SimpleName MethodInvocation SimpleName default zookeeper connect sleeptime millis
+ha zookeeper retry sleeptime millis SimpleName MethodInvocation SimpleName default zookeeper connect sleeptime millis
+retries sleep time millis SimpleName VariableDeclarationFragment MethodInvocation SimpleName configuration
+retries sleep time millis SimpleName VariableDeclarationFragment MethodInvocation SimpleName get int
+retries sleep time millis SimpleName VariableDeclarationFragment MethodInvocation SimpleName ha zookeeper retry sleeptime millis
+retries sleep time millis SimpleName VariableDeclarationFragment MethodInvocation SimpleName default zookeeper connect sleeptime millis
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName retries sleep time millis
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName configuration
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get int
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName ha zookeeper retry sleeptime millis
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName default zookeeper connect sleeptime millis
+configuration SimpleName MethodInvocation SimpleName get int
+configuration SimpleName MethodInvocation SimpleName ha zookeeper num retries
+configuration SimpleName MethodInvocation SimpleName default zookeeper connect num retries
+get int SimpleName MethodInvocation SimpleName ha zookeeper num retries
+get int SimpleName MethodInvocation SimpleName default zookeeper connect num retries
+ha zookeeper num retries SimpleName MethodInvocation SimpleName default zookeeper connect num retries
+num retries SimpleName VariableDeclarationFragment MethodInvocation SimpleName configuration
+num retries SimpleName VariableDeclarationFragment MethodInvocation SimpleName get int
+num retries SimpleName VariableDeclarationFragment MethodInvocation SimpleName ha zookeeper num retries
+num retries SimpleName VariableDeclarationFragment MethodInvocation SimpleName default zookeeper connect num retries
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName num retries
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName configuration
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get int
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName ha zookeeper num retries
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName default zookeeper connect num retries
+configuration SimpleName MethodInvocation SimpleName get int
+configuration SimpleName MethodInvocation SimpleName ha zookeeper session timeout ms
+configuration SimpleName MethodInvocation SimpleName default zookeeper session timeout millis
+get int SimpleName MethodInvocation SimpleName ha zookeeper session timeout ms
+get int SimpleName MethodInvocation SimpleName default zookeeper session timeout millis
+ha zookeeper session timeout ms SimpleName MethodInvocation SimpleName default zookeeper session timeout millis
+session timeout SimpleName VariableDeclarationFragment MethodInvocation SimpleName configuration
+session timeout SimpleName VariableDeclarationFragment MethodInvocation SimpleName get int
+session timeout SimpleName VariableDeclarationFragment MethodInvocation SimpleName ha zookeeper session timeout ms
+session timeout SimpleName VariableDeclarationFragment MethodInvocation SimpleName default zookeeper session timeout millis
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName session timeout
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName configuration
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get int
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName ha zookeeper session timeout ms
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName default zookeeper session timeout millis
+configuration SimpleName MethodInvocation SimpleName get string
+configuration SimpleName MethodInvocation SimpleName ha zookeeper acl
+get string SimpleName MethodInvocation SimpleName ha zookeeper acl
+acl SimpleName VariableDeclarationFragment MethodInvocation SimpleName configuration
+acl SimpleName VariableDeclarationFragment MethodInvocation SimpleName get string
+acl SimpleName VariableDeclarationFragment MethodInvocation SimpleName ha zookeeper acl
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName acl
+configuration SimpleName MethodInvocation SimpleName get string
+configuration SimpleName MethodInvocation SimpleName ha zookeeper auth
+get string SimpleName MethodInvocation SimpleName ha zookeeper auth
+auth SimpleName VariableDeclarationFragment MethodInvocation SimpleName configuration
+auth SimpleName VariableDeclarationFragment MethodInvocation SimpleName get string
+auth SimpleName VariableDeclarationFragment MethodInvocation SimpleName ha zookeeper auth
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName auth
+zookeeper properties SimpleName SimpleType ClassInstanceCreation SimpleName zookeeper connect string
+zookeeper properties SimpleName SimpleType ClassInstanceCreation SimpleName zk root
+zookeeper properties SimpleName SimpleType ClassInstanceCreation SimpleName retries sleep time millis
+zookeeper properties SimpleName SimpleType ClassInstanceCreation SimpleName num retries
+zookeeper properties SimpleName SimpleType ClassInstanceCreation SimpleName session timeout
+zookeeper connect string SimpleName ClassInstanceCreation SimpleName zk root
+zookeeper connect string SimpleName ClassInstanceCreation SimpleName retries sleep time millis
+zookeeper connect string SimpleName ClassInstanceCreation SimpleName num retries
+zookeeper connect string SimpleName ClassInstanceCreation SimpleName session timeout
+zookeeper connect string SimpleName ClassInstanceCreation SimpleName acl
+zk root SimpleName ClassInstanceCreation SimpleName retries sleep time millis
+zk root SimpleName ClassInstanceCreation SimpleName num retries
+zk root SimpleName ClassInstanceCreation SimpleName session timeout
+zk root SimpleName ClassInstanceCreation SimpleName acl
+zk root SimpleName ClassInstanceCreation SimpleName auth
+retries sleep time millis SimpleName ClassInstanceCreation SimpleName num retries
+retries sleep time millis SimpleName ClassInstanceCreation SimpleName session timeout
+retries sleep time millis SimpleName ClassInstanceCreation SimpleName acl
+retries sleep time millis SimpleName ClassInstanceCreation SimpleName auth
+num retries SimpleName ClassInstanceCreation SimpleName session timeout
+num retries SimpleName ClassInstanceCreation SimpleName acl
+num retries SimpleName ClassInstanceCreation SimpleName auth
+session timeout SimpleName ClassInstanceCreation SimpleName acl
+session timeout SimpleName ClassInstanceCreation SimpleName auth
+acl SimpleName ClassInstanceCreation SimpleName auth
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName zookeeper properties
+public Modifier MethodDeclaration SimpleName get zookeeper properties
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName configuration
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName configuration
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+static Modifier MethodDeclaration SimpleType SimpleName zookeeper properties
+static Modifier MethodDeclaration SimpleName get zookeeper properties
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName configuration
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName configuration
+static Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+static Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+static Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+zookeeper properties SimpleName SimpleType MethodDeclaration SimpleName get zookeeper properties
+zookeeper properties SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName configuration
+get zookeeper properties SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName configuration
+get zookeeper properties SimpleName MethodDeclaration SingleVariableDeclaration SimpleName configuration
+get zookeeper properties SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+get zookeeper properties SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+get zookeeper properties SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName zookeeper properties
+public Modifier TypeDeclaration MethodDeclaration SimpleName get zookeeper properties
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName configuration
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName zookeeper properties
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get zookeeper properties
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName configuration

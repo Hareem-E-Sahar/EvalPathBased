@@ -1,0 +1,327 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName user id
+string SimpleName SimpleType SingleVariableDeclaration SimpleName entity type guid
+instance properties SimpleName SimpleType SingleVariableDeclaration SimpleName initial properties
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName classification
+list SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName initial classifications
+classification SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName initial classifications
+instance status SimpleName SimpleType SingleVariableDeclaration SimpleName initial status
+method name SimpleName VariableDeclarationFragment StringLiteral add entity
+final Modifier VariableDeclarationStatement SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName method name
+final Modifier VariableDeclarationStatement VariableDeclarationFragment StringLiteral add entity
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName method name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral add entity
+entity guid parameter name SimpleName VariableDeclarationFragment StringLiteral entity type guid
+final Modifier VariableDeclarationStatement SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName entity guid parameter name
+final Modifier VariableDeclarationStatement VariableDeclarationFragment StringLiteral entity type guid
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName entity guid parameter name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral entity type guid
+properties parameter name SimpleName VariableDeclarationFragment StringLiteral initial properties
+final Modifier VariableDeclarationStatement SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName properties parameter name
+final Modifier VariableDeclarationStatement VariableDeclarationFragment StringLiteral initial properties
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName properties parameter name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral initial properties
+classifications parameter name SimpleName VariableDeclarationFragment StringLiteral initial classifications
+final Modifier VariableDeclarationStatement SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName classifications parameter name
+final Modifier VariableDeclarationStatement VariableDeclarationFragment StringLiteral initial classifications
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName classifications parameter name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral initial classifications
+initial status parameter name SimpleName VariableDeclarationFragment StringLiteral initial status
+final Modifier VariableDeclarationStatement SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName initial status parameter name
+final Modifier VariableDeclarationStatement VariableDeclarationFragment StringLiteral initial status
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName initial status parameter name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral initial status
+validate repository connector SimpleName MethodInvocation SimpleName method name
+parent connector SimpleName MethodInvocation SimpleName validate repository is active
+parent connector SimpleName MethodInvocation SimpleName method name
+validate repository is active SimpleName MethodInvocation SimpleName method name
+repository validator SimpleName MethodInvocation SimpleName validate user id
+repository validator SimpleName MethodInvocation SimpleName repository name
+repository validator SimpleName MethodInvocation SimpleName user id
+repository validator SimpleName MethodInvocation SimpleName method name
+validate user id SimpleName MethodInvocation SimpleName repository name
+validate user id SimpleName MethodInvocation SimpleName user id
+validate user id SimpleName MethodInvocation SimpleName method name
+repository name SimpleName MethodInvocation SimpleName user id
+repository name SimpleName MethodInvocation SimpleName method name
+user id SimpleName MethodInvocation SimpleName method name
+repository validator SimpleName MethodInvocation SimpleName validate type guid
+repository validator SimpleName MethodInvocation SimpleName repository name
+repository validator SimpleName MethodInvocation SimpleName entity guid parameter name
+repository validator SimpleName MethodInvocation SimpleName entity type guid
+repository validator SimpleName MethodInvocation SimpleName method name
+validate type guid SimpleName MethodInvocation SimpleName repository name
+validate type guid SimpleName MethodInvocation SimpleName entity guid parameter name
+validate type guid SimpleName MethodInvocation SimpleName entity type guid
+validate type guid SimpleName MethodInvocation SimpleName method name
+repository name SimpleName MethodInvocation SimpleName entity guid parameter name
+repository name SimpleName MethodInvocation SimpleName entity type guid
+repository name SimpleName MethodInvocation SimpleName method name
+entity guid parameter name SimpleName MethodInvocation SimpleName entity type guid
+entity guid parameter name SimpleName MethodInvocation SimpleName method name
+entity type guid SimpleName MethodInvocation SimpleName method name
+repository helper SimpleName MethodInvocation SimpleName get type def
+repository helper SimpleName MethodInvocation SimpleName repository name
+repository helper SimpleName MethodInvocation SimpleName entity type guid
+get type def SimpleName MethodInvocation SimpleName repository name
+get type def SimpleName MethodInvocation SimpleName entity type guid
+repository name SimpleName MethodInvocation SimpleName entity type guid
+type def SimpleName VariableDeclarationFragment MethodInvocation SimpleName repository helper
+type def SimpleName VariableDeclarationFragment MethodInvocation SimpleName get type def
+type def SimpleName VariableDeclarationFragment MethodInvocation SimpleName repository name
+type def SimpleName VariableDeclarationFragment MethodInvocation SimpleName entity type guid
+type def SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName type def
+repository validator SimpleName MethodInvocation SimpleName validate type def for instance
+repository validator SimpleName MethodInvocation SimpleName repository name
+repository validator SimpleName MethodInvocation SimpleName entity guid parameter name
+repository validator SimpleName MethodInvocation SimpleName type def
+repository validator SimpleName MethodInvocation SimpleName method name
+validate type def for instance SimpleName MethodInvocation SimpleName repository name
+validate type def for instance SimpleName MethodInvocation SimpleName entity guid parameter name
+validate type def for instance SimpleName MethodInvocation SimpleName type def
+validate type def for instance SimpleName MethodInvocation SimpleName method name
+repository name SimpleName MethodInvocation SimpleName entity guid parameter name
+repository name SimpleName MethodInvocation SimpleName type def
+repository name SimpleName MethodInvocation SimpleName method name
+entity guid parameter name SimpleName MethodInvocation SimpleName type def
+entity guid parameter name SimpleName MethodInvocation SimpleName method name
+type def SimpleName MethodInvocation SimpleName method name
+type def SimpleName MethodInvocation SimpleName get name
+repository validator SimpleName MethodInvocation SimpleName validate classification list
+repository validator SimpleName MethodInvocation SimpleName repository name
+repository validator SimpleName MethodInvocation SimpleName classifications parameter name
+repository validator SimpleName MethodInvocation SimpleName initial classifications
+repository validator SimpleName MethodInvocation MethodInvocation SimpleName type def
+repository validator SimpleName MethodInvocation MethodInvocation SimpleName get name
+validate classification list SimpleName MethodInvocation SimpleName repository name
+validate classification list SimpleName MethodInvocation SimpleName classifications parameter name
+validate classification list SimpleName MethodInvocation SimpleName initial classifications
+validate classification list SimpleName MethodInvocation MethodInvocation SimpleName type def
+validate classification list SimpleName MethodInvocation MethodInvocation SimpleName get name
+validate classification list SimpleName MethodInvocation SimpleName method name
+repository name SimpleName MethodInvocation SimpleName classifications parameter name
+repository name SimpleName MethodInvocation SimpleName initial classifications
+repository name SimpleName MethodInvocation MethodInvocation SimpleName type def
+repository name SimpleName MethodInvocation MethodInvocation SimpleName get name
+repository name SimpleName MethodInvocation SimpleName method name
+classifications parameter name SimpleName MethodInvocation SimpleName initial classifications
+classifications parameter name SimpleName MethodInvocation MethodInvocation SimpleName type def
+classifications parameter name SimpleName MethodInvocation MethodInvocation SimpleName get name
+classifications parameter name SimpleName MethodInvocation SimpleName method name
+initial classifications SimpleName MethodInvocation MethodInvocation SimpleName type def
+initial classifications SimpleName MethodInvocation MethodInvocation SimpleName get name
+initial classifications SimpleName MethodInvocation SimpleName method name
+type def SimpleName MethodInvocation MethodInvocation SimpleName method name
+get name SimpleName MethodInvocation MethodInvocation SimpleName method name
+repository validator SimpleName MethodInvocation SimpleName validate properties for type
+repository validator SimpleName MethodInvocation SimpleName repository name
+repository validator SimpleName MethodInvocation SimpleName properties parameter name
+repository validator SimpleName MethodInvocation SimpleName type def
+repository validator SimpleName MethodInvocation SimpleName initial properties
+validate properties for type SimpleName MethodInvocation SimpleName repository name
+validate properties for type SimpleName MethodInvocation SimpleName properties parameter name
+validate properties for type SimpleName MethodInvocation SimpleName type def
+validate properties for type SimpleName MethodInvocation SimpleName initial properties
+validate properties for type SimpleName MethodInvocation SimpleName method name
+repository name SimpleName MethodInvocation SimpleName properties parameter name
+repository name SimpleName MethodInvocation SimpleName type def
+repository name SimpleName MethodInvocation SimpleName initial properties
+repository name SimpleName MethodInvocation SimpleName method name
+properties parameter name SimpleName MethodInvocation SimpleName type def
+properties parameter name SimpleName MethodInvocation SimpleName initial properties
+properties parameter name SimpleName MethodInvocation SimpleName method name
+type def SimpleName MethodInvocation SimpleName initial properties
+type def SimpleName MethodInvocation SimpleName method name
+initial properties SimpleName MethodInvocation SimpleName method name
+repository validator SimpleName MethodInvocation SimpleName validate instance status
+repository validator SimpleName MethodInvocation SimpleName repository name
+repository validator SimpleName MethodInvocation SimpleName initial status parameter name
+repository validator SimpleName MethodInvocation SimpleName initial status
+repository validator SimpleName MethodInvocation SimpleName type def
+validate instance status SimpleName MethodInvocation SimpleName repository name
+validate instance status SimpleName MethodInvocation SimpleName initial status parameter name
+validate instance status SimpleName MethodInvocation SimpleName initial status
+validate instance status SimpleName MethodInvocation SimpleName type def
+validate instance status SimpleName MethodInvocation SimpleName method name
+repository name SimpleName MethodInvocation SimpleName initial status parameter name
+repository name SimpleName MethodInvocation SimpleName initial status
+repository name SimpleName MethodInvocation SimpleName type def
+repository name SimpleName MethodInvocation SimpleName method name
+initial status parameter name SimpleName MethodInvocation SimpleName initial status
+initial status parameter name SimpleName MethodInvocation SimpleName type def
+initial status parameter name SimpleName MethodInvocation SimpleName method name
+initial status SimpleName MethodInvocation SimpleName type def
+initial status SimpleName MethodInvocation SimpleName method name
+type def SimpleName MethodInvocation SimpleName method name
+real metadata collection SimpleName MethodInvocation SimpleName add entity
+real metadata collection SimpleName MethodInvocation SimpleName user id
+real metadata collection SimpleName MethodInvocation SimpleName entity type guid
+real metadata collection SimpleName MethodInvocation SimpleName initial properties
+real metadata collection SimpleName MethodInvocation SimpleName initial classifications
+add entity SimpleName MethodInvocation SimpleName user id
+add entity SimpleName MethodInvocation SimpleName entity type guid
+add entity SimpleName MethodInvocation SimpleName initial properties
+add entity SimpleName MethodInvocation SimpleName initial classifications
+add entity SimpleName MethodInvocation SimpleName initial status
+user id SimpleName MethodInvocation SimpleName entity type guid
+user id SimpleName MethodInvocation SimpleName initial properties
+user id SimpleName MethodInvocation SimpleName initial classifications
+user id SimpleName MethodInvocation SimpleName initial status
+entity type guid SimpleName MethodInvocation SimpleName initial properties
+entity type guid SimpleName MethodInvocation SimpleName initial classifications
+entity type guid SimpleName MethodInvocation SimpleName initial status
+initial properties SimpleName MethodInvocation SimpleName initial classifications
+initial properties SimpleName MethodInvocation SimpleName initial status
+initial classifications SimpleName MethodInvocation SimpleName initial status
+entity SimpleName VariableDeclarationFragment MethodInvocation SimpleName real metadata collection
+entity SimpleName VariableDeclarationFragment MethodInvocation SimpleName add entity
+entity SimpleName VariableDeclarationFragment MethodInvocation SimpleName user id
+entity SimpleName VariableDeclarationFragment MethodInvocation SimpleName entity type guid
+entity SimpleName VariableDeclarationFragment MethodInvocation SimpleName initial properties
+entity SimpleName VariableDeclarationFragment MethodInvocation SimpleName initial classifications
+entity SimpleName VariableDeclarationFragment MethodInvocation SimpleName initial status
+entity detail SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName entity
+entity SimpleName MethodInvocation SimpleName get metadata collection id
+entity SimpleName MethodInvocation SimpleName set metadata collection id
+entity SimpleName MethodInvocation SimpleName metadata collection id
+set metadata collection id SimpleName MethodInvocation SimpleName metadata collection id
+entity SimpleName MethodInvocation SimpleName set instance provenance type
+entity SimpleName MethodInvocation QualifiedName instance provenance typelocal cohort
+set instance provenance type SimpleName MethodInvocation QualifiedName instance provenance typelocal cohort
+outbound repository event processor SimpleName MethodInvocation SimpleName process new entity event
+outbound repository event processor SimpleName MethodInvocation SimpleName repository name
+outbound repository event processor SimpleName MethodInvocation SimpleName metadata collection id
+outbound repository event processor SimpleName MethodInvocation SimpleName local server name
+outbound repository event processor SimpleName MethodInvocation SimpleName local server type
+process new entity event SimpleName MethodInvocation SimpleName repository name
+process new entity event SimpleName MethodInvocation SimpleName metadata collection id
+process new entity event SimpleName MethodInvocation SimpleName local server name
+process new entity event SimpleName MethodInvocation SimpleName local server type
+process new entity event SimpleName MethodInvocation SimpleName local organization name
+repository name SimpleName MethodInvocation SimpleName metadata collection id
+repository name SimpleName MethodInvocation SimpleName local server name
+repository name SimpleName MethodInvocation SimpleName local server type
+repository name SimpleName MethodInvocation SimpleName local organization name
+repository name SimpleName MethodInvocation SimpleName entity
+metadata collection id SimpleName MethodInvocation SimpleName local server name
+metadata collection id SimpleName MethodInvocation SimpleName local server type
+metadata collection id SimpleName MethodInvocation SimpleName local organization name
+metadata collection id SimpleName MethodInvocation SimpleName entity
+local server name SimpleName MethodInvocation SimpleName local server type
+local server name SimpleName MethodInvocation SimpleName local organization name
+local server name SimpleName MethodInvocation SimpleName entity
+local server type SimpleName MethodInvocation SimpleName local organization name
+local server type SimpleName MethodInvocation SimpleName entity
+local organization name SimpleName MethodInvocation SimpleName entity
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+public Modifier MethodDeclaration SimpleType SimpleName entity detail
+public Modifier MethodDeclaration SimpleName add entity
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName user id
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName entity type guid
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName instance properties
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName initial properties
+entity detail SimpleName SimpleType MethodDeclaration SimpleName add entity
+entity detail SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName user id
+entity detail SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName entity type guid
+entity detail SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName initial properties
+entity detail SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName initial classifications
+add entity SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+add entity SimpleName MethodDeclaration SingleVariableDeclaration SimpleName user id
+add entity SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+add entity SimpleName MethodDeclaration SingleVariableDeclaration SimpleName entity type guid
+add entity SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName instance properties
+add entity SimpleName MethodDeclaration SingleVariableDeclaration SimpleName initial properties
+add entity SimpleName MethodDeclaration SingleVariableDeclaration SimpleName initial classifications
+add entity SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName instance status
+add entity SimpleName MethodDeclaration SingleVariableDeclaration SimpleName initial status
+user id SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity type guid
+user id SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName initial properties
+user id SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName initial classifications
+user id SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName initial status
+user id SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName invalid parameter exception
+entity type guid SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName initial properties
+entity type guid SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName initial classifications
+entity type guid SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName initial status
+entity type guid SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName invalid parameter exception
+entity type guid SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName repository error exception
+initial properties SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName initial classifications
+initial properties SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName initial status
+initial properties SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName invalid parameter exception
+initial properties SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName repository error exception
+initial properties SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName type error exception
+initial classifications SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName initial status
+initial classifications SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName invalid parameter exception
+initial classifications SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName repository error exception
+initial classifications SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName type error exception
+initial classifications SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName property error exception
+initial status SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName invalid parameter exception
+initial status SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName repository error exception
+initial status SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName type error exception
+initial status SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName property error exception
+initial status SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName classification error exception
+invalid parameter exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName repository error exception
+invalid parameter exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName type error exception
+invalid parameter exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName property error exception
+invalid parameter exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName classification error exception
+invalid parameter exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName status not supported exception
+repository error exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName type error exception
+repository error exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName property error exception
+repository error exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName classification error exception
+repository error exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName status not supported exception
+repository error exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName user not authorized exception
+type error exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName property error exception
+type error exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName classification error exception
+type error exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName status not supported exception
+type error exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName user not authorized exception
+property error exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName classification error exception
+property error exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName status not supported exception
+property error exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName user not authorized exception
+classification error exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName status not supported exception
+classification error exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName user not authorized exception
+status not supported exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName user not authorized exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName entity detail
+public Modifier TypeDeclaration MethodDeclaration SimpleName add entity
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName user id
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity type guid
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName initial properties
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName initial classifications
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName initial status
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName invalid parameter exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName repository error exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName type error exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName property error exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName classification error exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName status not supported exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName user not authorized exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName entity detail
+test SimpleName TypeDeclaration MethodDeclaration SimpleName add entity
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName user id
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity type guid
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName initial properties
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName initial classifications
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName initial status
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName invalid parameter exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName repository error exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName type error exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName property error exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName classification error exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName status not supported exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName user not authorized exception

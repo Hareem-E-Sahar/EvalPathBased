@@ -1,0 +1,79 @@
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas term categorization header
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas term categorization header
+final Modifier SingleVariableDeclaration SimpleType SimpleName atlas glossary term
+final Modifier SingleVariableDeclaration SimpleName term
+atlas glossary term SimpleName SimpleType SingleVariableDeclaration SimpleName term
+term SimpleName MethodInvocation SimpleName get categories
+objects SimpleName MethodInvocation SimpleName non null
+objects SimpleName MethodInvocation MethodInvocation SimpleName term
+objects SimpleName MethodInvocation MethodInvocation SimpleName get categories
+non null SimpleName MethodInvocation MethodInvocation SimpleName term
+non null SimpleName MethodInvocation MethodInvocation SimpleName get categories
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas term categorization header
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas term categorization header
+atlas term categorization header SimpleName SimpleType SingleVariableDeclaration SimpleName c
+term SimpleName MethodInvocation SimpleName get categories
+c SimpleName MethodInvocation SimpleName get category guid
+map SimpleName MethodInvocation SimpleName get
+map SimpleName MethodInvocation MethodInvocation SimpleName c
+map SimpleName MethodInvocation MethodInvocation SimpleName get category guid
+get SimpleName MethodInvocation MethodInvocation SimpleName c
+get SimpleName MethodInvocation MethodInvocation SimpleName get category guid
+header SimpleName VariableDeclarationFragment MethodInvocation SimpleName map
+header SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+header SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName c
+header SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get category guid
+atlas term categorization header SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName header
+header SimpleName MethodInvocation SimpleName get relation guid
+string utils SimpleName MethodInvocation SimpleName is empty
+string utils SimpleName MethodInvocation MethodInvocation SimpleName header
+string utils SimpleName MethodInvocation MethodInvocation SimpleName get relation guid
+is empty SimpleName MethodInvocation MethodInvocation SimpleName header
+is empty SimpleName MethodInvocation MethodInvocation SimpleName get relation guid
+c SimpleName MethodInvocation SimpleName get relation guid
+string utils SimpleName MethodInvocation SimpleName is not empty
+string utils SimpleName MethodInvocation MethodInvocation SimpleName c
+string utils SimpleName MethodInvocation MethodInvocation SimpleName get relation guid
+is not empty SimpleName MethodInvocation MethodInvocation SimpleName c
+is not empty SimpleName MethodInvocation MethodInvocation SimpleName get relation guid
+string utils SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName string utils
+string utils SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName is not empty
+is empty SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName string utils
+is empty SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName is not empty
+c SimpleName MethodInvocation SimpleName get category guid
+map SimpleName MethodInvocation SimpleName put
+map SimpleName MethodInvocation MethodInvocation SimpleName c
+map SimpleName MethodInvocation MethodInvocation SimpleName get category guid
+map SimpleName MethodInvocation SimpleName c
+put SimpleName MethodInvocation MethodInvocation SimpleName c
+put SimpleName MethodInvocation MethodInvocation SimpleName get category guid
+put SimpleName MethodInvocation SimpleName c
+c SimpleName MethodInvocation MethodInvocation SimpleName c
+get category guid SimpleName MethodInvocation MethodInvocation SimpleName c
+c SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName term
+c SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName get categories
+collections SimpleName MethodInvocation SimpleName empty map
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName map
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName atlas term categorization header
+private Modifier MethodDeclaration SimpleName get associated categories
+private Modifier MethodDeclaration SingleVariableDeclaration Modifier final
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas glossary term
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName term
+map SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get associated categories
+string SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get associated categories
+atlas term categorization header SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get associated categories
+get associated categories SimpleName MethodDeclaration SingleVariableDeclaration Modifier final
+get associated categories SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas glossary term
+get associated categories SimpleName MethodDeclaration SingleVariableDeclaration SimpleName term
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleName get associated categories
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName term
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get associated categories
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName term

@@ -1,0 +1,170 @@
+connector SimpleName SimpleType SingleVariableDeclaration SimpleName conn
+string SimpleName SimpleType SingleVariableDeclaration SimpleName table id
+long PrimitiveType SingleVariableDeclaration SimpleName tid
+conn SimpleName MethodInvocation SimpleName create scanner
+conn SimpleName MethodInvocation QualifiedName metadata tablename
+conn SimpleName MethodInvocation QualifiedName authorizationsempty
+create scanner SimpleName MethodInvocation QualifiedName metadata tablename
+create scanner SimpleName MethodInvocation QualifiedName authorizationsempty
+metadata tablename QualifiedName MethodInvocation QualifiedName authorizationsempty
+isolated scanner SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName conn
+isolated scanner SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName create scanner
+isolated scanner SimpleName SimpleType ClassInstanceCreation MethodInvocation QualifiedName metadata tablename
+isolated scanner SimpleName SimpleType ClassInstanceCreation MethodInvocation QualifiedName authorizationsempty
+mscanner SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName isolated scanner
+mscanner SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName conn
+mscanner SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName create scanner
+mscanner SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation QualifiedName metadata tablename
+mscanner SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation QualifiedName authorizationsempty
+scanner SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName mscanner
+text SimpleName SimpleType ClassInstanceCreation SimpleName table id
+key extent SimpleName SimpleType ClassInstanceCreation ClassInstanceCreation SimpleName table id
+key extent SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName to metadata range
+table id SimpleName ClassInstanceCreation ClassInstanceCreation MethodInvocation SimpleName to metadata range
+mscanner SimpleName MethodInvocation SimpleName set range
+mscanner SimpleName MethodInvocation MethodInvocation SimpleName to metadata range
+set range SimpleName MethodInvocation MethodInvocation SimpleName to metadata range
+mscanner SimpleName MethodInvocation SimpleName fetch column family
+mscanner SimpleName MethodInvocation QualifiedName tablets sectionbulk file column familyname
+fetch column family SimpleName MethodInvocation QualifiedName tablets sectionbulk file column familyname
+conn SimpleName MethodInvocation SimpleName create batch writer
+conn SimpleName MethodInvocation QualifiedName metadata tablename
+conn SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName batch writer config
+create batch writer SimpleName MethodInvocation QualifiedName metadata tablename
+create batch writer SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName batch writer config
+metadata tablename QualifiedName MethodInvocation ClassInstanceCreation SimpleType SimpleName batch writer config
+bw SimpleName VariableDeclarationFragment MethodInvocation SimpleName conn
+bw SimpleName VariableDeclarationFragment MethodInvocation SimpleName create batch writer
+bw SimpleName VariableDeclarationFragment MethodInvocation QualifiedName metadata tablename
+batch writer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName bw
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName key
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+key SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+entry SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+key SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+value SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+looking at entry StringLiteral InfixExpression SimpleName entry
+looking at entry StringLiteral InfixExpression StringLiteral with tid
+looking at entry StringLiteral InfixExpression SimpleName tid
+entry SimpleName InfixExpression StringLiteral with tid
+entry SimpleName InfixExpression SimpleName tid
+with tid StringLiteral InfixExpression SimpleName tid
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation InfixExpression StringLiteral looking at entry
+log SimpleName MethodInvocation InfixExpression SimpleName entry
+log SimpleName MethodInvocation InfixExpression StringLiteral with tid
+log SimpleName MethodInvocation InfixExpression SimpleName tid
+debug SimpleName MethodInvocation InfixExpression StringLiteral looking at entry
+debug SimpleName MethodInvocation InfixExpression SimpleName entry
+debug SimpleName MethodInvocation InfixExpression StringLiteral with tid
+debug SimpleName MethodInvocation InfixExpression SimpleName tid
+entry SimpleName MethodInvocation SimpleName get value
+entry SimpleName MethodInvocation MethodInvocation SimpleName to string
+get value SimpleName MethodInvocation MethodInvocation SimpleName to string
+long SimpleName MethodInvocation SimpleName parse long
+long SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName entry
+long SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get value
+long SimpleName MethodInvocation MethodInvocation SimpleName to string
+parse long SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName entry
+parse long SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get value
+parse long SimpleName MethodInvocation MethodInvocation SimpleName to string
+long SimpleName MethodInvocation InfixExpression SimpleName tid
+parse long SimpleName MethodInvocation InfixExpression SimpleName tid
+to string SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName tid
+deleting entry StringLiteral InfixExpression SimpleName entry
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation InfixExpression StringLiteral deleting entry
+log SimpleName MethodInvocation InfixExpression SimpleName entry
+debug SimpleName MethodInvocation InfixExpression StringLiteral deleting entry
+debug SimpleName MethodInvocation InfixExpression SimpleName entry
+entry SimpleName MethodInvocation SimpleName get key
+entry SimpleName MethodInvocation MethodInvocation SimpleName get row
+get key SimpleName MethodInvocation MethodInvocation SimpleName get row
+mutation SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get row
+m SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName mutation
+m SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get row
+mutation SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName m
+entry SimpleName MethodInvocation SimpleName get key
+entry SimpleName MethodInvocation MethodInvocation SimpleName get column family
+get key SimpleName MethodInvocation MethodInvocation SimpleName get column family
+entry SimpleName MethodInvocation SimpleName get key
+entry SimpleName MethodInvocation MethodInvocation SimpleName get column qualifier
+get key SimpleName MethodInvocation MethodInvocation SimpleName get column qualifier
+m SimpleName MethodInvocation SimpleName put delete
+m SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName entry
+m SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get key
+m SimpleName MethodInvocation MethodInvocation SimpleName get column family
+m SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName entry
+m SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get key
+m SimpleName MethodInvocation MethodInvocation SimpleName get column qualifier
+put delete SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName entry
+put delete SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get key
+put delete SimpleName MethodInvocation MethodInvocation SimpleName get column family
+put delete SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName entry
+put delete SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get key
+put delete SimpleName MethodInvocation MethodInvocation SimpleName get column qualifier
+get column family SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get column qualifier
+bw SimpleName MethodInvocation SimpleName add mutation
+bw SimpleName MethodInvocation SimpleName m
+add mutation SimpleName MethodInvocation SimpleName m
+entry SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName mscanner
+bw SimpleName MethodInvocation SimpleName close
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName remove bulk load entries
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName connector
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName conn
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName table id
+static Modifier MethodDeclaration PrimitiveType void
+static Modifier MethodDeclaration SimpleName remove bulk load entries
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName connector
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName conn
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName table id
+static Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType long
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName tid
+void PrimitiveType MethodDeclaration SimpleName remove bulk load entries
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName connector
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName conn
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName table id
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType long
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName tid
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+remove bulk load entries SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName connector
+remove bulk load entries SimpleName MethodDeclaration SingleVariableDeclaration SimpleName conn
+remove bulk load entries SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+remove bulk load entries SimpleName MethodDeclaration SingleVariableDeclaration SimpleName table id
+remove bulk load entries SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType long
+remove bulk load entries SimpleName MethodDeclaration SingleVariableDeclaration SimpleName tid
+remove bulk load entries SimpleName MethodDeclaration SimpleType SimpleName exception
+remove bulk load entries SimpleName MethodDeclaration Block EnhancedForStatement SimpleName mscanner
+conn SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table id
+conn SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+conn SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName tid
+conn SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+table id SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+table id SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName tid
+table id SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+long PrimitiveType SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+tid SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName remove bulk load entries
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName conn
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table id
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName tid
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName remove bulk load entries
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName conn
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table id
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName tid
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

@@ -1,0 +1,41 @@
+long PrimitiveType SingleVariableDeclaration SimpleName tid
+transactions in progress StringLiteral InfixExpression SimpleName counts
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation InfixExpression StringLiteral transactions in progress
+log SimpleName MethodInvocation InfixExpression SimpleName counts
+debug SimpleName MethodInvocation InfixExpression StringLiteral transactions in progress
+debug SimpleName MethodInvocation InfixExpression SimpleName counts
+counts SimpleName MethodInvocation SimpleName get
+counts SimpleName MethodInvocation SimpleName tid
+get SimpleName MethodInvocation SimpleName tid
+count SimpleName VariableDeclarationFragment MethodInvocation SimpleName counts
+count SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+count SimpleName VariableDeclarationFragment MethodInvocation SimpleName tid
+atomic integer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName count
+count SimpleName MethodInvocation SimpleName get
+count SimpleName MethodInvocation InfixExpression NumberLiteral empty
+get SimpleName MethodInvocation InfixExpression NumberLiteral empty
+count SimpleName InfixExpression InfixExpression InfixExpression NumberLiteral empty
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName is active
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType long
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName tid
+public Modifier MethodDeclaration Block SynchronizedStatement SimpleName counts
+boolean PrimitiveType MethodDeclaration SimpleName is active
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType long
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName tid
+boolean PrimitiveType MethodDeclaration Block SynchronizedStatement SimpleName counts
+is active SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType long
+is active SimpleName MethodDeclaration SingleVariableDeclaration SimpleName tid
+is active SimpleName MethodDeclaration Block SynchronizedStatement SimpleName counts
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName is active
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName tid
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName is active
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName tid

@@ -1,0 +1,16 @@
+exception SimpleName SimpleType ClassInstanceCreation StringLiteral lock deleted before acquired
+lw SimpleName MethodInvocation SimpleName failed to acquire lock
+lw SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName exception
+lw SimpleName MethodInvocation ClassInstanceCreation StringLiteral lock deleted before acquired
+failed to acquire lock SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName exception
+failed to acquire lock SimpleName MethodInvocation ClassInstanceCreation StringLiteral lock deleted before acquired
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName failed to acquire lock
+void PrimitiveType MethodDeclaration SimpleName failed to acquire lock
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName failed to acquire lock
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName failed to acquire lock

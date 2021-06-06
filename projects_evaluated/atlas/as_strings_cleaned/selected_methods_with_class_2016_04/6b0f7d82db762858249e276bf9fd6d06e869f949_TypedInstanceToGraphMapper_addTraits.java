@@ -1,0 +1,84 @@
+i typed referenceable instance SimpleName SimpleType SingleVariableDeclaration SimpleName typed instance
+vertex SimpleName SimpleType SingleVariableDeclaration SimpleName instance vertex
+class type SimpleName SimpleType SingleVariableDeclaration SimpleName class type
+string SimpleName SimpleType SingleVariableDeclaration SimpleName trait name
+typed instance SimpleName MethodInvocation SimpleName get traits
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral mapping trait {}
+log SimpleName MethodInvocation SimpleName trait name
+debug SimpleName MethodInvocation StringLiteral mapping trait {}
+debug SimpleName MethodInvocation SimpleName trait name
+mapping trait {} StringLiteral MethodInvocation SimpleName trait name
+graph helper SimpleName MethodInvocation SimpleName add property
+graph helper SimpleName MethodInvocation SimpleName instance vertex
+graph helper SimpleName MethodInvocation QualifiedName constantstrait names property key
+graph helper SimpleName MethodInvocation SimpleName trait name
+add property SimpleName MethodInvocation SimpleName instance vertex
+add property SimpleName MethodInvocation QualifiedName constantstrait names property key
+add property SimpleName MethodInvocation SimpleName trait name
+instance vertex SimpleName MethodInvocation QualifiedName constantstrait names property key
+instance vertex SimpleName MethodInvocation SimpleName trait name
+constantstrait names property key QualifiedName MethodInvocation SimpleName trait name
+typed instance SimpleName MethodInvocation SimpleName get trait
+typed instance SimpleName MethodInvocation SimpleName trait name
+get trait SimpleName MethodInvocation SimpleName trait name
+i typed struct SimpleName SimpleType CastExpression MethodInvocation SimpleName typed instance
+i typed struct SimpleName SimpleType CastExpression MethodInvocation SimpleName get trait
+i typed struct SimpleName SimpleType CastExpression MethodInvocation SimpleName trait name
+trait instance SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName i typed struct
+trait instance SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName typed instance
+trait instance SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get trait
+trait instance SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName trait name
+i typed struct SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName trait instance
+map trait instance to vertex SimpleName MethodInvocation SimpleName trait instance
+map trait instance to vertex SimpleName MethodInvocation SimpleName class type
+map trait instance to vertex SimpleName MethodInvocation SimpleName instance vertex
+trait instance SimpleName MethodInvocation SimpleName class type
+trait instance SimpleName MethodInvocation SimpleName instance vertex
+class type SimpleName MethodInvocation SimpleName instance vertex
+trait name SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName typed instance
+trait name SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName get traits
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName add traits
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName i typed referenceable instance
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName typed instance
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName vertex
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName instance vertex
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName class type
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName class type
+void PrimitiveType MethodDeclaration SimpleName add traits
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName i typed referenceable instance
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName typed instance
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName vertex
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName instance vertex
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName class type
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName class type
+void PrimitiveType MethodDeclaration SimpleType SimpleName atlas exception
+add traits SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName i typed referenceable instance
+add traits SimpleName MethodDeclaration SingleVariableDeclaration SimpleName typed instance
+add traits SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName vertex
+add traits SimpleName MethodDeclaration SingleVariableDeclaration SimpleName instance vertex
+add traits SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName class type
+add traits SimpleName MethodDeclaration SingleVariableDeclaration SimpleName class type
+add traits SimpleName MethodDeclaration SimpleType SimpleName atlas exception
+typed instance SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName instance vertex
+typed instance SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName class type
+typed instance SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+instance vertex SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName class type
+instance vertex SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+class type SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName add traits
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName typed instance
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName instance vertex
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName class type
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName add traits
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName typed instance
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName instance vertex
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName class type
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception

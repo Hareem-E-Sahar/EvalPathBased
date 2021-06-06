@@ -1,0 +1,38 @@
+int PrimitiveType SingleVariableDeclaration SimpleName depth
+partial key SimpleName SimpleType SingleVariableDeclaration SimpleName d
+partial key SimpleName MethodInvocation SimpleName values
+depth SimpleName InfixExpression QualifiedName ddepth
+depth SimpleName InfixExpression IfStatement ReturnStatement SimpleName d
+ddepth QualifiedName InfixExpression IfStatement ReturnStatement SimpleName d
+d SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName partial key
+d SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName values
+invalid legacy depth StringLiteral InfixExpression SimpleName depth
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral invalid legacy depth
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName depth
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName partial key
+public Modifier MethodDeclaration SimpleName get by depth
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName depth
+static Modifier MethodDeclaration SimpleType SimpleName partial key
+static Modifier MethodDeclaration SimpleName get by depth
+static Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName depth
+partial key SimpleName SimpleType MethodDeclaration SimpleName get by depth
+partial key SimpleName SimpleType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+partial key SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName depth
+get by depth SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+get by depth SimpleName MethodDeclaration SingleVariableDeclaration SimpleName depth
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName partial key
+public Modifier TypeDeclaration MethodDeclaration SimpleName get by depth
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName depth
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName partial key
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get by depth
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName depth

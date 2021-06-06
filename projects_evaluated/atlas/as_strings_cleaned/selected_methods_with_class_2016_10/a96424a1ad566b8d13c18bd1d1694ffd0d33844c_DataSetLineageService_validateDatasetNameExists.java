@@ -1,0 +1,134 @@
+type utilspair QualifiedName SimpleType ParameterizedType SimpleType SimpleName string
+type utilspair QualifiedName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType SingleVariableDeclaration SimpleName dataset name
+iterator SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas vertex
+graph SimpleName MethodInvocation SimpleName query
+graph SimpleName MethodInvocation MethodInvocation SimpleName has
+query SimpleName MethodInvocation MethodInvocation SimpleName has
+graph SimpleName MethodInvocation MethodInvocation StringLiteral referenceablequalified name
+query SimpleName MethodInvocation MethodInvocation StringLiteral referenceablequalified name
+graph SimpleName MethodInvocation MethodInvocation SimpleName dataset name
+query SimpleName MethodInvocation MethodInvocation SimpleName dataset name
+has SimpleName MethodInvocation StringLiteral referenceablequalified name
+has SimpleName MethodInvocation SimpleName dataset name
+referenceablequalified name StringLiteral MethodInvocation SimpleName dataset name
+identity stateactive QualifiedName MethodInvocation SimpleName name
+graph SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName has
+query SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName has
+has SimpleName MethodInvocation MethodInvocation SimpleName has
+referenceablequalified name StringLiteral MethodInvocation MethodInvocation SimpleName has
+dataset name SimpleName MethodInvocation MethodInvocation SimpleName has
+graph SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName constantsstate property key
+query SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName constantsstate property key
+has SimpleName MethodInvocation MethodInvocation QualifiedName constantsstate property key
+referenceablequalified name StringLiteral MethodInvocation MethodInvocation QualifiedName constantsstate property key
+dataset name SimpleName MethodInvocation MethodInvocation QualifiedName constantsstate property key
+has SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName identity stateactive
+has SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName name
+referenceablequalified name StringLiteral MethodInvocation MethodInvocation MethodInvocation QualifiedName identity stateactive
+referenceablequalified name StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName name
+dataset name SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName identity stateactive
+dataset name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName name
+has SimpleName MethodInvocation QualifiedName constantsstate property key
+has SimpleName MethodInvocation MethodInvocation QualifiedName identity stateactive
+has SimpleName MethodInvocation MethodInvocation SimpleName name
+constantsstate property key QualifiedName MethodInvocation MethodInvocation QualifiedName identity stateactive
+constantsstate property key QualifiedName MethodInvocation MethodInvocation SimpleName name
+has SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName has
+referenceablequalified name StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName has
+dataset name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName has
+has SimpleName MethodInvocation MethodInvocation SimpleName has
+constantsstate property key QualifiedName MethodInvocation MethodInvocation SimpleName has
+identity stateactive QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName has
+name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName has
+has SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName constantssuper types property key
+referenceablequalified name StringLiteral MethodInvocation MethodInvocation MethodInvocation QualifiedName constantssuper types property key
+dataset name SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName constantssuper types property key
+has SimpleName MethodInvocation MethodInvocation QualifiedName constantssuper types property key
+constantsstate property key QualifiedName MethodInvocation MethodInvocation QualifiedName constantssuper types property key
+identity stateactive QualifiedName MethodInvocation MethodInvocation MethodInvocation QualifiedName constantssuper types property key
+name SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName constantssuper types property key
+has SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName atlas clientdata set super type
+referenceablequalified name StringLiteral MethodInvocation MethodInvocation MethodInvocation QualifiedName atlas clientdata set super type
+dataset name SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName atlas clientdata set super type
+has SimpleName MethodInvocation MethodInvocation QualifiedName atlas clientdata set super type
+constantsstate property key QualifiedName MethodInvocation MethodInvocation QualifiedName atlas clientdata set super type
+identity stateactive QualifiedName MethodInvocation MethodInvocation MethodInvocation QualifiedName atlas clientdata set super type
+name SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName atlas clientdata set super type
+has SimpleName MethodInvocation QualifiedName constantssuper types property key
+has SimpleName MethodInvocation QualifiedName atlas clientdata set super type
+constantssuper types property key QualifiedName MethodInvocation QualifiedName atlas clientdata set super type
+has SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName vertices
+constantsstate property key QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName vertices
+has SimpleName MethodInvocation MethodInvocation SimpleName vertices
+constantssuper types property key QualifiedName MethodInvocation MethodInvocation SimpleName vertices
+atlas clientdata set super type QualifiedName MethodInvocation MethodInvocation SimpleName vertices
+has SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName iterator
+constantssuper types property key QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName iterator
+atlas clientdata set super type QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName iterator
+vertices SimpleName MethodInvocation MethodInvocation SimpleName iterator
+results SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName vertices
+results SimpleName VariableDeclarationFragment MethodInvocation SimpleName iterator
+results SimpleName MethodInvocation SimpleName has next
+results SimpleName MethodInvocation SimpleName next
+vertex SimpleName VariableDeclarationFragment MethodInvocation SimpleName results
+vertex SimpleName VariableDeclarationFragment MethodInvocation SimpleName next
+atlas vertex SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName vertex
+graph helper SimpleName MethodInvocation SimpleName get type name
+graph helper SimpleName MethodInvocation SimpleName vertex
+get type name SimpleName MethodInvocation SimpleName vertex
+graph helper SimpleName MethodInvocation SimpleName get id from vertex
+graph helper SimpleName MethodInvocation SimpleName vertex
+get id from vertex SimpleName MethodInvocation SimpleName vertex
+type utilspair QualifiedName MethodInvocation SimpleName of
+type utilspair QualifiedName MethodInvocation MethodInvocation SimpleName graph helper
+type utilspair QualifiedName MethodInvocation MethodInvocation SimpleName get type name
+type utilspair QualifiedName MethodInvocation MethodInvocation SimpleName vertex
+type utilspair QualifiedName MethodInvocation MethodInvocation SimpleName graph helper
+type utilspair QualifiedName MethodInvocation MethodInvocation SimpleName get id from vertex
+type utilspair QualifiedName MethodInvocation MethodInvocation SimpleName vertex
+of SimpleName MethodInvocation MethodInvocation SimpleName graph helper
+of SimpleName MethodInvocation MethodInvocation SimpleName get type name
+of SimpleName MethodInvocation MethodInvocation SimpleName vertex
+of SimpleName MethodInvocation MethodInvocation SimpleName graph helper
+of SimpleName MethodInvocation MethodInvocation SimpleName get id from vertex
+of SimpleName MethodInvocation MethodInvocation SimpleName vertex
+graph helper SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName graph helper
+graph helper SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get id from vertex
+graph helper SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName vertex
+get type name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName graph helper
+get type name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get id from vertex
+get type name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName vertex
+vertex SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName graph helper
+vertex SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get id from vertex
+vertex SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName vertex
+dataset with name = StringLiteral InfixExpression SimpleName dataset name
+dataset with name = StringLiteral InfixExpression StringLiteral does not exist
+dataset name SimpleName InfixExpression StringLiteral does not exist
+entity not found exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral dataset with name =
+entity not found exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName dataset name
+entity not found exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral does not exist
+private Modifier MethodDeclaration ParameterizedType SimpleType QualifiedName type utilspair
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+private Modifier MethodDeclaration SimpleName validate dataset name exists
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName dataset name
+private Modifier MethodDeclaration SimpleType SimpleName atlas exception
+type utilspair QualifiedName SimpleType ParameterizedType MethodDeclaration SimpleName validate dataset name exists
+string SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName validate dataset name exists
+string SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName validate dataset name exists
+validate dataset name exists SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+validate dataset name exists SimpleName MethodDeclaration SingleVariableDeclaration SimpleName dataset name
+validate dataset name exists SimpleName MethodDeclaration SimpleType SimpleName atlas exception
+dataset name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleName validate dataset name exists
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName dataset name
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleName validate dataset name exists
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName dataset name
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception

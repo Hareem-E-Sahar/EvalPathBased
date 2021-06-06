@@ -1,0 +1,45 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName guid
+referenceable SimpleName SimpleType SingleVariableDeclaration SimpleName entity
+request context SimpleName MethodInvocation SimpleName create context
+metadata service SimpleName MethodInvocation SimpleName update entity partial by guid
+metadata service SimpleName MethodInvocation SimpleName guid
+metadata service SimpleName MethodInvocation SimpleName entity
+update entity partial by guid SimpleName MethodInvocation SimpleName guid
+update entity partial by guid SimpleName MethodInvocation SimpleName entity
+guid SimpleName MethodInvocation SimpleName entity
+metadata service SimpleName MethodInvocation MethodInvocation SimpleName get entity result
+update entity partial by guid SimpleName MethodInvocation MethodInvocation SimpleName get entity result
+guid SimpleName MethodInvocation MethodInvocation SimpleName get entity result
+entity SimpleName MethodInvocation MethodInvocation SimpleName get entity result
+private Modifier MethodDeclaration SimpleType QualifiedName atlas cliententity result
+private Modifier MethodDeclaration SimpleName update entity partial
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName guid
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName referenceable
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName entity
+private Modifier MethodDeclaration SimpleType SimpleName atlas exception
+atlas cliententity result QualifiedName SimpleType MethodDeclaration SimpleName update entity partial
+atlas cliententity result QualifiedName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName guid
+atlas cliententity result QualifiedName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName entity
+atlas cliententity result QualifiedName SimpleType MethodDeclaration SimpleType SimpleName atlas exception
+update entity partial SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+update entity partial SimpleName MethodDeclaration SingleVariableDeclaration SimpleName guid
+update entity partial SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName referenceable
+update entity partial SimpleName MethodDeclaration SingleVariableDeclaration SimpleName entity
+update entity partial SimpleName MethodDeclaration SimpleType SimpleName atlas exception
+guid SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity
+guid SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+entity SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType QualifiedName atlas cliententity result
+public Modifier TypeDeclaration MethodDeclaration SimpleName update entity partial
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName guid
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType QualifiedName atlas cliententity result
+test SimpleName TypeDeclaration MethodDeclaration SimpleName update entity partial
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName guid
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception

@@ -1,0 +1,253 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName action description
+string SimpleName SimpleType SingleVariableDeclaration SimpleName log message id
+omrs audit log record severity SimpleName SimpleType SingleVariableDeclaration SimpleName severity
+string SimpleName SimpleType SingleVariableDeclaration SimpleName log message
+string SimpleName SimpleType SingleVariableDeclaration SimpleName additional information
+string SimpleName SimpleType SingleVariableDeclaration SimpleName system action
+string SimpleName SimpleType SingleVariableDeclaration SimpleName user action
+severity SimpleName InfixExpression QualifiedName omrs audit log record severityerror
+severity SimpleName InfixExpression QualifiedName omrs audit log record severityexception
+log message id SimpleName InfixExpression StringLiteral empty
+log message id SimpleName InfixExpression SimpleName log message
+empty StringLiteral InfixExpression SimpleName log message
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation InfixExpression SimpleName log message id
+log SimpleName MethodInvocation InfixExpression StringLiteral empty
+log SimpleName MethodInvocation InfixExpression SimpleName log message
+log SimpleName MethodInvocation SimpleName action description
+log SimpleName MethodInvocation SimpleName log message id
+log SimpleName MethodInvocation SimpleName severity
+error SimpleName MethodInvocation InfixExpression SimpleName log message id
+error SimpleName MethodInvocation InfixExpression StringLiteral empty
+error SimpleName MethodInvocation InfixExpression SimpleName log message
+error SimpleName MethodInvocation SimpleName action description
+error SimpleName MethodInvocation SimpleName log message id
+error SimpleName MethodInvocation SimpleName severity
+error SimpleName MethodInvocation SimpleName log message
+log message id SimpleName InfixExpression MethodInvocation SimpleName action description
+empty StringLiteral InfixExpression MethodInvocation SimpleName action description
+log message SimpleName InfixExpression MethodInvocation SimpleName action description
+log message id SimpleName InfixExpression MethodInvocation SimpleName log message id
+empty StringLiteral InfixExpression MethodInvocation SimpleName log message id
+log message SimpleName InfixExpression MethodInvocation SimpleName log message id
+log message id SimpleName InfixExpression MethodInvocation SimpleName severity
+empty StringLiteral InfixExpression MethodInvocation SimpleName severity
+log message SimpleName InfixExpression MethodInvocation SimpleName severity
+log message id SimpleName InfixExpression MethodInvocation SimpleName log message
+empty StringLiteral InfixExpression MethodInvocation SimpleName log message
+log message SimpleName InfixExpression MethodInvocation SimpleName log message
+log message id SimpleName InfixExpression MethodInvocation SimpleName additional information
+empty StringLiteral InfixExpression MethodInvocation SimpleName additional information
+log message SimpleName InfixExpression MethodInvocation SimpleName additional information
+action description SimpleName MethodInvocation SimpleName log message id
+action description SimpleName MethodInvocation SimpleName severity
+action description SimpleName MethodInvocation SimpleName log message
+action description SimpleName MethodInvocation SimpleName additional information
+action description SimpleName MethodInvocation SimpleName system action
+log message id SimpleName MethodInvocation SimpleName severity
+log message id SimpleName MethodInvocation SimpleName log message
+log message id SimpleName MethodInvocation SimpleName additional information
+log message id SimpleName MethodInvocation SimpleName system action
+log message id SimpleName MethodInvocation SimpleName user action
+severity SimpleName MethodInvocation SimpleName log message
+severity SimpleName MethodInvocation SimpleName additional information
+severity SimpleName MethodInvocation SimpleName system action
+severity SimpleName MethodInvocation SimpleName user action
+log message SimpleName MethodInvocation SimpleName additional information
+log message SimpleName MethodInvocation SimpleName system action
+log message SimpleName MethodInvocation SimpleName user action
+additional information SimpleName MethodInvocation SimpleName system action
+additional information SimpleName MethodInvocation SimpleName user action
+system action SimpleName MethodInvocation SimpleName user action
+log message id SimpleName InfixExpression StringLiteral empty
+log message id SimpleName InfixExpression SimpleName log message
+empty StringLiteral InfixExpression SimpleName log message
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation InfixExpression SimpleName log message id
+log SimpleName MethodInvocation InfixExpression StringLiteral empty
+log SimpleName MethodInvocation InfixExpression SimpleName log message
+log SimpleName MethodInvocation SimpleName action description
+log SimpleName MethodInvocation SimpleName log message id
+log SimpleName MethodInvocation SimpleName severity
+info SimpleName MethodInvocation InfixExpression SimpleName log message id
+info SimpleName MethodInvocation InfixExpression StringLiteral empty
+info SimpleName MethodInvocation InfixExpression SimpleName log message
+info SimpleName MethodInvocation SimpleName action description
+info SimpleName MethodInvocation SimpleName log message id
+info SimpleName MethodInvocation SimpleName severity
+info SimpleName MethodInvocation SimpleName log message
+log message id SimpleName InfixExpression MethodInvocation SimpleName action description
+empty StringLiteral InfixExpression MethodInvocation SimpleName action description
+log message SimpleName InfixExpression MethodInvocation SimpleName action description
+log message id SimpleName InfixExpression MethodInvocation SimpleName log message id
+empty StringLiteral InfixExpression MethodInvocation SimpleName log message id
+log message SimpleName InfixExpression MethodInvocation SimpleName log message id
+log message id SimpleName InfixExpression MethodInvocation SimpleName severity
+empty StringLiteral InfixExpression MethodInvocation SimpleName severity
+log message SimpleName InfixExpression MethodInvocation SimpleName severity
+log message id SimpleName InfixExpression MethodInvocation SimpleName log message
+empty StringLiteral InfixExpression MethodInvocation SimpleName log message
+log message SimpleName InfixExpression MethodInvocation SimpleName log message
+log message id SimpleName InfixExpression MethodInvocation SimpleName additional information
+empty StringLiteral InfixExpression MethodInvocation SimpleName additional information
+log message SimpleName InfixExpression MethodInvocation SimpleName additional information
+action description SimpleName MethodInvocation SimpleName log message id
+action description SimpleName MethodInvocation SimpleName severity
+action description SimpleName MethodInvocation SimpleName log message
+action description SimpleName MethodInvocation SimpleName additional information
+action description SimpleName MethodInvocation SimpleName system action
+log message id SimpleName MethodInvocation SimpleName severity
+log message id SimpleName MethodInvocation SimpleName log message
+log message id SimpleName MethodInvocation SimpleName additional information
+log message id SimpleName MethodInvocation SimpleName system action
+log message id SimpleName MethodInvocation SimpleName user action
+severity SimpleName MethodInvocation SimpleName log message
+severity SimpleName MethodInvocation SimpleName additional information
+severity SimpleName MethodInvocation SimpleName system action
+severity SimpleName MethodInvocation SimpleName user action
+log message SimpleName MethodInvocation SimpleName additional information
+log message SimpleName MethodInvocation SimpleName system action
+log message SimpleName MethodInvocation SimpleName user action
+additional information SimpleName MethodInvocation SimpleName system action
+additional information SimpleName MethodInvocation SimpleName user action
+system action SimpleName MethodInvocation SimpleName user action
+severity SimpleName Assignment QualifiedName omrs audit log record severityunknown
+omrs audit log store SimpleName SimpleType SingleVariableDeclaration SimpleName audit log store
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+additional information array SimpleName MethodInvocation SimpleName add
+additional information array SimpleName MethodInvocation SimpleName additional information
+add SimpleName MethodInvocation SimpleName additional information
+severity SimpleName MethodInvocation SimpleName get severity name
+omrs audit log record SimpleName SimpleType ClassInstanceCreation SimpleName originator
+omrs audit log record SimpleName SimpleType ClassInstanceCreation SimpleName reporting component
+omrs audit log record SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName severity
+omrs audit log record SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get severity name
+omrs audit log record SimpleName SimpleType ClassInstanceCreation SimpleName log message id
+omrs audit log record SimpleName SimpleType ClassInstanceCreation SimpleName log message
+originator SimpleName ClassInstanceCreation SimpleName reporting component
+originator SimpleName ClassInstanceCreation MethodInvocation SimpleName severity
+originator SimpleName ClassInstanceCreation MethodInvocation SimpleName get severity name
+originator SimpleName ClassInstanceCreation SimpleName log message id
+originator SimpleName ClassInstanceCreation SimpleName log message
+originator SimpleName ClassInstanceCreation SimpleName additional information array
+reporting component SimpleName ClassInstanceCreation MethodInvocation SimpleName severity
+reporting component SimpleName ClassInstanceCreation MethodInvocation SimpleName get severity name
+reporting component SimpleName ClassInstanceCreation SimpleName log message id
+reporting component SimpleName ClassInstanceCreation SimpleName log message
+reporting component SimpleName ClassInstanceCreation SimpleName additional information array
+reporting component SimpleName ClassInstanceCreation SimpleName system action
+severity SimpleName MethodInvocation ClassInstanceCreation SimpleName log message id
+get severity name SimpleName MethodInvocation ClassInstanceCreation SimpleName log message id
+severity SimpleName MethodInvocation ClassInstanceCreation SimpleName log message
+get severity name SimpleName MethodInvocation ClassInstanceCreation SimpleName log message
+severity SimpleName MethodInvocation ClassInstanceCreation SimpleName additional information array
+get severity name SimpleName MethodInvocation ClassInstanceCreation SimpleName additional information array
+severity SimpleName MethodInvocation ClassInstanceCreation SimpleName system action
+get severity name SimpleName MethodInvocation ClassInstanceCreation SimpleName system action
+severity SimpleName MethodInvocation ClassInstanceCreation SimpleName user action
+get severity name SimpleName MethodInvocation ClassInstanceCreation SimpleName user action
+log message id SimpleName ClassInstanceCreation SimpleName log message
+log message id SimpleName ClassInstanceCreation SimpleName additional information array
+log message id SimpleName ClassInstanceCreation SimpleName system action
+log message id SimpleName ClassInstanceCreation SimpleName user action
+log message SimpleName ClassInstanceCreation SimpleName additional information array
+log message SimpleName ClassInstanceCreation SimpleName system action
+log message SimpleName ClassInstanceCreation SimpleName user action
+additional information array SimpleName ClassInstanceCreation SimpleName system action
+additional information array SimpleName ClassInstanceCreation SimpleName user action
+system action SimpleName ClassInstanceCreation SimpleName user action
+log record SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName omrs audit log record
+log record SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName originator
+log record SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName reporting component
+log record SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName severity
+log record SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get severity name
+log record SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName log message id
+log record SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName log message
+log record SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName additional information array
+log record SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName system action
+log record SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName user action
+omrs audit log record SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName log record
+audit log store SimpleName MethodInvocation SimpleName store log record
+audit log store SimpleName MethodInvocation SimpleName log record
+store log record SimpleName MethodInvocation SimpleName log record
+throwable SimpleName SimpleType SingleVariableDeclaration SimpleName error
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation StringLiteral error writing audit log
+log SimpleName MethodInvocation SimpleName log record
+log SimpleName MethodInvocation SimpleName error
+error SimpleName MethodInvocation StringLiteral error writing audit log
+error SimpleName MethodInvocation SimpleName log record
+error SimpleName MethodInvocation SimpleName error
+error writing audit log StringLiteral MethodInvocation SimpleName log record
+error writing audit log StringLiteral MethodInvocation SimpleName error
+log record SimpleName MethodInvocation SimpleName error
+omrs audit log store SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName audit log stores
+audit log store SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName audit log stores
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName log record
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName action description
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName log message id
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName omrs audit log record severity
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName severity
+void PrimitiveType MethodDeclaration SimpleName log record
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName action description
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName log message id
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName omrs audit log record severity
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName severity
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName log message
+log record SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+log record SimpleName MethodDeclaration SingleVariableDeclaration SimpleName action description
+log record SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+log record SimpleName MethodDeclaration SingleVariableDeclaration SimpleName log message id
+log record SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName omrs audit log record severity
+log record SimpleName MethodDeclaration SingleVariableDeclaration SimpleName severity
+log record SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+log record SimpleName MethodDeclaration SingleVariableDeclaration SimpleName log message
+log record SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+log record SimpleName MethodDeclaration SingleVariableDeclaration SimpleName additional information
+action description SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName log message id
+action description SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName severity
+action description SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName log message
+action description SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName additional information
+action description SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName system action
+log message id SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName severity
+log message id SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName log message
+log message id SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName additional information
+log message id SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName system action
+log message id SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName user action
+severity SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName log message
+severity SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName additional information
+severity SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName system action
+severity SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName user action
+log message SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName additional information
+log message SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName system action
+log message SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName user action
+additional information SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName system action
+additional information SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName user action
+system action SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName user action
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName log record
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName action description
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName log message id
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName severity
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName log message
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName additional information
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName system action
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName user action
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName log record
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName action description
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName log message id
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName severity
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName log message
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName additional information
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName system action
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName user action

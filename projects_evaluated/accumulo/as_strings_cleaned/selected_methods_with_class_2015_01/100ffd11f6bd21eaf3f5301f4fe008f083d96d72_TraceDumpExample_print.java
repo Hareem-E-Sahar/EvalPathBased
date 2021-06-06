@@ -1,0 +1,28 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName line
+systemout QualifiedName MethodInvocation SimpleName println
+systemout QualifiedName MethodInvocation SimpleName line
+println SimpleName MethodInvocation SimpleName line
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName print
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName line
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName print
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName line
+void PrimitiveType MethodDeclaration SimpleName print
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName line
+print SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+print SimpleName MethodDeclaration SingleVariableDeclaration SimpleName line
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName print
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName line
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName print
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName line

@@ -1,0 +1,129 @@
+byte PrimitiveType ArrayType ArrayCreation NumberLiteral empty
+test SimpleName VariableDeclarationFragment ArrayCreation ArrayType PrimitiveType byte
+test SimpleName VariableDeclarationFragment ArrayCreation NumberLiteral empty
+byte PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName test
+byte PrimitiveType ArrayType ArrayCreation NumberLiteral empty
+test SimpleName VariableDeclarationFragment ArrayCreation ArrayType PrimitiveType byte
+test SimpleName VariableDeclarationFragment ArrayCreation NumberLiteral empty
+byte PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName test
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+i SimpleName InfixExpression NumberLiteral empty
+test SimpleName ArrayAccess SimpleName i
+xff NumberLiteral InfixExpression SimpleName i
+byte PrimitiveType CastExpression ParenthesizedExpression InfixExpression NumberLiteral xff
+byte PrimitiveType CastExpression ParenthesizedExpression InfixExpression SimpleName i
+test SimpleName ArrayAccess Assignment CastExpression PrimitiveType byte
+i SimpleName ArrayAccess Assignment CastExpression PrimitiveType byte
+test SimpleName ArrayAccess SimpleName i
+empty NumberLiteral InfixExpression SimpleName i
+xff NumberLiteral InfixExpression ParenthesizedExpression InfixExpression NumberLiteral empty
+xff NumberLiteral InfixExpression ParenthesizedExpression InfixExpression SimpleName i
+byte PrimitiveType CastExpression ParenthesizedExpression InfixExpression NumberLiteral xff
+test SimpleName ArrayAccess Assignment CastExpression PrimitiveType byte
+i SimpleName ArrayAccess Assignment CastExpression PrimitiveType byte
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+empty NumberLiteral InfixExpression ForStatement PostfixExpression SimpleName i
+array byte sequence SimpleName SimpleType ClassInstanceCreation SimpleName test
+bs SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName array byte sequence
+bs SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName test
+array byte sequence SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName bs
+locality group util SimpleName MethodInvocation SimpleName encode column family
+locality group util SimpleName MethodInvocation SimpleName bs
+encode column family SimpleName MethodInvocation SimpleName bs
+ecf SimpleName VariableDeclarationFragment MethodInvocation SimpleName locality group util
+ecf SimpleName VariableDeclarationFragment MethodInvocation SimpleName encode column family
+ecf SimpleName VariableDeclarationFragment MethodInvocation SimpleName bs
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ecf
+locality group util SimpleName MethodInvocation SimpleName decode column family
+locality group util SimpleName MethodInvocation SimpleName ecf
+decode column family SimpleName MethodInvocation SimpleName ecf
+bs SimpleName VariableDeclarationFragment MethodInvocation SimpleName locality group util
+bs SimpleName VariableDeclarationFragment MethodInvocation SimpleName decode column family
+bs SimpleName VariableDeclarationFragment MethodInvocation SimpleName ecf
+byte sequence SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName bs
+assert equals SimpleName MethodInvocation SimpleName bs
+assert equals SimpleName MethodInvocation SimpleName bs
+bs SimpleName MethodInvocation SimpleName bs
+locality group util SimpleName MethodInvocation SimpleName encode column family
+locality group util SimpleName MethodInvocation SimpleName bs
+encode column family SimpleName MethodInvocation SimpleName bs
+assert equals SimpleName MethodInvocation SimpleName ecf
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName locality group util
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName encode column family
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName bs
+ecf SimpleName MethodInvocation MethodInvocation SimpleName locality group util
+ecf SimpleName MethodInvocation MethodInvocation SimpleName encode column family
+ecf SimpleName MethodInvocation MethodInvocation SimpleName bs
+hash set SimpleName SimpleType ParameterizedType SimpleType SimpleName text
+hash set SimpleName SimpleType ParameterizedType SimpleType SimpleName text
+hash set SimpleName SimpleType ParameterizedType SimpleType SimpleName byte sequence
+hash set SimpleName SimpleType ParameterizedType SimpleType SimpleName byte sequence
+text SimpleName SimpleType ClassInstanceCreation SimpleName test
+in SimpleName MethodInvocation SimpleName add
+in SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName text
+in SimpleName MethodInvocation ClassInstanceCreation SimpleName test
+add SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName text
+add SimpleName MethodInvocation ClassInstanceCreation SimpleName test
+array byte sequence SimpleName SimpleType ClassInstanceCreation SimpleName test
+in SimpleName MethodInvocation SimpleName add
+in SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName array byte sequence
+in SimpleName MethodInvocation ClassInstanceCreation SimpleName test
+add SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName array byte sequence
+add SimpleName MethodInvocation ClassInstanceCreation SimpleName test
+text SimpleName SimpleType ClassInstanceCreation SimpleName test
+in SimpleName MethodInvocation SimpleName add
+in SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName text
+in SimpleName MethodInvocation ClassInstanceCreation SimpleName test
+add SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName text
+add SimpleName MethodInvocation ClassInstanceCreation SimpleName test
+array byte sequence SimpleName SimpleType ClassInstanceCreation SimpleName test
+in SimpleName MethodInvocation SimpleName add
+in SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName array byte sequence
+in SimpleName MethodInvocation ClassInstanceCreation SimpleName test
+add SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName array byte sequence
+add SimpleName MethodInvocation ClassInstanceCreation SimpleName test
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName byte sequence
+locality group util SimpleName MethodInvocation SimpleName encode column families
+locality group util SimpleName MethodInvocation SimpleName in
+encode column families SimpleName MethodInvocation SimpleName in
+locality group util SimpleName MethodInvocation SimpleName decode column families
+locality group util SimpleName MethodInvocation MethodInvocation SimpleName locality group util
+locality group util SimpleName MethodInvocation MethodInvocation SimpleName encode column families
+locality group util SimpleName MethodInvocation MethodInvocation SimpleName in
+decode column families SimpleName MethodInvocation MethodInvocation SimpleName locality group util
+decode column families SimpleName MethodInvocation MethodInvocation SimpleName encode column families
+decode column families SimpleName MethodInvocation MethodInvocation SimpleName in
+out SimpleName VariableDeclarationFragment MethodInvocation SimpleName locality group util
+out SimpleName VariableDeclarationFragment MethodInvocation SimpleName decode column families
+out SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName locality group util
+out SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName encode column families
+out SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName in
+assert equals SimpleName MethodInvocation SimpleName in
+assert equals SimpleName MethodInvocation SimpleName out
+in SimpleName MethodInvocation SimpleName out
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test encoding
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test encoding
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName test encoding
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+test encoding SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test encoding
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test encoding
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

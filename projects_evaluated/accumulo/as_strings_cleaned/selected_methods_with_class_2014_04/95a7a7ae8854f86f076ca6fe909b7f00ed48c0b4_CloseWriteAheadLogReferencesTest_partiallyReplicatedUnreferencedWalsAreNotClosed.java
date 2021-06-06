@@ -1,0 +1,147 @@
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+collections SimpleName MethodInvocation SimpleName empty set
+wals SimpleName VariableDeclarationFragment MethodInvocation SimpleName collections
+wals SimpleName VariableDeclarationFragment MethodInvocation SimpleName empty set
+test name SimpleName MethodInvocation SimpleName get method name
+mock instance SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName test name
+mock instance SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get method name
+inst SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName mock instance
+inst SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName test name
+inst SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get method name
+instance SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName inst
+password token SimpleName SimpleType ClassInstanceCreation StringLiteral empty
+inst SimpleName MethodInvocation SimpleName get connector
+inst SimpleName MethodInvocation StringLiteral root
+inst SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName password token
+inst SimpleName MethodInvocation ClassInstanceCreation StringLiteral empty
+get connector SimpleName MethodInvocation StringLiteral root
+get connector SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName password token
+get connector SimpleName MethodInvocation ClassInstanceCreation StringLiteral empty
+root StringLiteral MethodInvocation ClassInstanceCreation SimpleType SimpleName password token
+root StringLiteral MethodInvocation ClassInstanceCreation StringLiteral empty
+conn SimpleName VariableDeclarationFragment MethodInvocation SimpleName inst
+conn SimpleName VariableDeclarationFragment MethodInvocation SimpleName get connector
+conn SimpleName VariableDeclarationFragment MethodInvocation StringLiteral root
+conn SimpleName VariableDeclarationFragment MethodInvocation ClassInstanceCreation StringLiteral empty
+connector SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName conn
+replication table SimpleName MethodInvocation SimpleName create
+replication table SimpleName MethodInvocation SimpleName conn
+create SimpleName MethodInvocation SimpleName conn
+conn SimpleName MethodInvocation SimpleName create batch writer
+conn SimpleName MethodInvocation QualifiedName replication tablename
+conn SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName batch writer config
+create batch writer SimpleName MethodInvocation QualifiedName replication tablename
+create batch writer SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName batch writer config
+replication tablename QualifiedName MethodInvocation ClassInstanceCreation SimpleType SimpleName batch writer config
+bw SimpleName VariableDeclarationFragment MethodInvocation SimpleName conn
+bw SimpleName VariableDeclarationFragment MethodInvocation SimpleName create batch writer
+bw SimpleName VariableDeclarationFragment MethodInvocation QualifiedName replication tablename
+batch writer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName bw
+mutation SimpleName SimpleType ClassInstanceCreation StringLiteral fileaccumulowaltserverport
+m SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName mutation
+m SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral fileaccumulowaltserverport
+mutation SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName m
+text SimpleName SimpleType ClassInstanceCreation StringLiteral empty
+status util SimpleName MethodInvocation SimpleName ingested until
+status util SimpleName MethodInvocation NumberLiteral empty
+ingested until SimpleName MethodInvocation NumberLiteral empty
+protobuf util SimpleName MethodInvocation SimpleName to value
+protobuf util SimpleName MethodInvocation MethodInvocation SimpleName status util
+protobuf util SimpleName MethodInvocation MethodInvocation SimpleName ingested until
+protobuf util SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+to value SimpleName MethodInvocation MethodInvocation SimpleName status util
+to value SimpleName MethodInvocation MethodInvocation SimpleName ingested until
+to value SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+status section SimpleName MethodInvocation SimpleName add
+status section SimpleName MethodInvocation SimpleName m
+status section SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName text
+status section SimpleName MethodInvocation ClassInstanceCreation StringLiteral empty
+status section SimpleName MethodInvocation MethodInvocation SimpleName protobuf util
+status section SimpleName MethodInvocation MethodInvocation SimpleName to value
+status section SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName status util
+status section SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName ingested until
+status section SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+add SimpleName MethodInvocation SimpleName m
+add SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName text
+add SimpleName MethodInvocation ClassInstanceCreation StringLiteral empty
+add SimpleName MethodInvocation MethodInvocation SimpleName protobuf util
+add SimpleName MethodInvocation MethodInvocation SimpleName to value
+add SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName status util
+add SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName ingested until
+add SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+m SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName text
+m SimpleName MethodInvocation ClassInstanceCreation StringLiteral empty
+m SimpleName MethodInvocation MethodInvocation SimpleName protobuf util
+m SimpleName MethodInvocation MethodInvocation SimpleName to value
+m SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName status util
+m SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName ingested until
+m SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+empty StringLiteral ClassInstanceCreation MethodInvocation MethodInvocation SimpleName protobuf util
+empty StringLiteral ClassInstanceCreation MethodInvocation MethodInvocation SimpleName to value
+bw SimpleName MethodInvocation SimpleName add mutation
+bw SimpleName MethodInvocation SimpleName m
+add mutation SimpleName MethodInvocation SimpleName m
+bw SimpleName MethodInvocation SimpleName close
+refs SimpleName MethodInvocation SimpleName update replication table
+refs SimpleName MethodInvocation SimpleName conn
+refs SimpleName MethodInvocation SimpleName wals
+update replication table SimpleName MethodInvocation SimpleName conn
+update replication table SimpleName MethodInvocation SimpleName wals
+conn SimpleName MethodInvocation SimpleName wals
+replication table SimpleName MethodInvocation SimpleName get scanner
+replication table SimpleName MethodInvocation SimpleName conn
+get scanner SimpleName MethodInvocation SimpleName conn
+s SimpleName VariableDeclarationFragment MethodInvocation SimpleName replication table
+s SimpleName VariableDeclarationFragment MethodInvocation SimpleName get scanner
+s SimpleName VariableDeclarationFragment MethodInvocation SimpleName conn
+scanner SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName s
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName key
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+key SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+iterables SimpleName MethodInvocation SimpleName get only element
+iterables SimpleName MethodInvocation SimpleName s
+get only element SimpleName MethodInvocation SimpleName s
+entry SimpleName VariableDeclarationFragment MethodInvocation SimpleName iterables
+entry SimpleName VariableDeclarationFragment MethodInvocation SimpleName get only element
+entry SimpleName VariableDeclarationFragment MethodInvocation SimpleName s
+entry SimpleName MethodInvocation SimpleName get value
+entry SimpleName MethodInvocation MethodInvocation SimpleName get
+get value SimpleName MethodInvocation MethodInvocation SimpleName get
+status SimpleName MethodInvocation SimpleName parse from
+status SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName entry
+status SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get value
+status SimpleName MethodInvocation MethodInvocation SimpleName get
+parse from SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName entry
+parse from SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get value
+parse from SimpleName MethodInvocation MethodInvocation SimpleName get
+status SimpleName VariableDeclarationFragment MethodInvocation SimpleName status
+status SimpleName VariableDeclarationFragment MethodInvocation SimpleName parse from
+status SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get
+status SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName status
+status SimpleName MethodInvocation SimpleName get closed
+assert SimpleName MethodInvocation SimpleName assert false
+assert SimpleName MethodInvocation MethodInvocation SimpleName status
+assert SimpleName MethodInvocation MethodInvocation SimpleName get closed
+assert false SimpleName MethodInvocation MethodInvocation SimpleName status
+assert false SimpleName MethodInvocation MethodInvocation SimpleName get closed
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName partially replicated unreferenced wals are not closed
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName partially replicated unreferenced wals are not closed
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName partially replicated unreferenced wals are not closed
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+partially replicated unreferenced wals are not closed SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName partially replicated unreferenced wals are not closed
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName partially replicated unreferenced wals are not closed
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

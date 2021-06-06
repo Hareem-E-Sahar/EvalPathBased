@@ -1,0 +1,80 @@
+create mock SimpleName MethodInvocation TypeLiteral SimpleType SimpleName volume manager
+vol mgr SimpleName Assignment MethodInvocation SimpleName create mock
+create mock SimpleName MethodInvocation TypeLiteral SimpleType SimpleName instance
+instance SimpleName Assignment MethodInvocation SimpleName create mock
+instance SimpleName MethodInvocation SimpleName get instance id
+expect SimpleName MethodInvocation MethodInvocation SimpleName instance
+expect SimpleName MethodInvocation MethodInvocation SimpleName get instance id
+expect SimpleName MethodInvocation MethodInvocation SimpleName and return
+instance SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName and return
+get instance id SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName and return
+expect SimpleName MethodInvocation MethodInvocation StringLiteral mock
+instance SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral mock
+get instance id SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral mock
+and return SimpleName MethodInvocation StringLiteral mock
+expect SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName any times
+and return SimpleName MethodInvocation MethodInvocation SimpleName any times
+mock StringLiteral MethodInvocation MethodInvocation SimpleName any times
+opts SimpleName Assignment ClassInstanceCreation SimpleType SimpleName opts
+system config SimpleName Assignment MethodInvocation SimpleName mock system config
+create mock SimpleName MethodInvocation TypeLiteral SimpleType SimpleName server configuration factory
+factory SimpleName VariableDeclarationFragment MethodInvocation SimpleName create mock
+server configuration factory SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName factory
+factory SimpleName MethodInvocation SimpleName get instance
+expect SimpleName MethodInvocation MethodInvocation SimpleName factory
+expect SimpleName MethodInvocation MethodInvocation SimpleName get instance
+expect SimpleName MethodInvocation MethodInvocation SimpleName and return
+factory SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName and return
+get instance SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName and return
+expect SimpleName MethodInvocation MethodInvocation SimpleName instance
+factory SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName instance
+get instance SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName instance
+and return SimpleName MethodInvocation SimpleName instance
+expect SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName any times
+and return SimpleName MethodInvocation MethodInvocation SimpleName any times
+instance SimpleName MethodInvocation MethodInvocation SimpleName any times
+factory SimpleName MethodInvocation SimpleName get configuration
+expect SimpleName MethodInvocation MethodInvocation SimpleName factory
+expect SimpleName MethodInvocation MethodInvocation SimpleName get configuration
+expect SimpleName MethodInvocation MethodInvocation SimpleName and return
+factory SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName and return
+get configuration SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName and return
+expect SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName mock system config
+and return SimpleName MethodInvocation MethodInvocation SimpleName mock system config
+expect SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName any times
+and return SimpleName MethodInvocation MethodInvocation SimpleName any times
+mock system config SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName any times
+replay SimpleName MethodInvocation SimpleName instance
+replay SimpleName MethodInvocation SimpleName factory
+instance SimpleName MethodInvocation SimpleName factory
+system credentials SimpleName MethodInvocation SimpleName get
+system credentials SimpleName MethodInvocation SimpleName instance
+get SimpleName MethodInvocation SimpleName instance
+credentials SimpleName Assignment MethodInvocation SimpleName system credentials
+credentials SimpleName Assignment MethodInvocation SimpleName get
+credentials SimpleName Assignment MethodInvocation SimpleName instance
+simple garbage collector SimpleName SimpleType ClassInstanceCreation SimpleName opts
+simple garbage collector SimpleName SimpleType ClassInstanceCreation SimpleName vol mgr
+simple garbage collector SimpleName SimpleType ClassInstanceCreation SimpleName factory
+opts SimpleName ClassInstanceCreation SimpleName vol mgr
+opts SimpleName ClassInstanceCreation SimpleName factory
+vol mgr SimpleName ClassInstanceCreation SimpleName factory
+gc SimpleName Assignment ClassInstanceCreation SimpleType SimpleName simple garbage collector
+gc SimpleName Assignment ClassInstanceCreation SimpleName opts
+gc SimpleName Assignment ClassInstanceCreation SimpleName vol mgr
+gc SimpleName Assignment ClassInstanceCreation SimpleName factory
+before SimpleName MarkerAnnotation MethodDeclaration Modifier public
+before SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+before SimpleName MarkerAnnotation MethodDeclaration SimpleName set up
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set up
+void PrimitiveType MethodDeclaration SimpleName set up
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName before
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set up
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName before
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set up

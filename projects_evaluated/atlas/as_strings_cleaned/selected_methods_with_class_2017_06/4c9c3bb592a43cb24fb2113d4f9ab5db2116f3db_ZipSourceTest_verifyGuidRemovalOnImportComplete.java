@@ -1,0 +1,49 @@
+zip source SimpleName SimpleType SingleVariableDeclaration SimpleName zip source
+string SimpleName SimpleType SingleVariableDeclaration SimpleName guid
+zip source SimpleName MethodInvocation SimpleName get by guid
+zip source SimpleName MethodInvocation SimpleName guid
+get by guid SimpleName MethodInvocation SimpleName guid
+e SimpleName VariableDeclarationFragment MethodInvocation SimpleName zip source
+e SimpleName VariableDeclarationFragment MethodInvocation SimpleName get by guid
+e SimpleName VariableDeclarationFragment MethodInvocation SimpleName guid
+atlas entity SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName e
+assert not null SimpleName MethodInvocation SimpleName e
+zip source SimpleName MethodInvocation SimpleName on import complete
+zip source SimpleName MethodInvocation SimpleName guid
+on import complete SimpleName MethodInvocation SimpleName guid
+zip source SimpleName MethodInvocation SimpleName get by guid
+zip source SimpleName MethodInvocation SimpleName guid
+get by guid SimpleName MethodInvocation SimpleName guid
+e SimpleName Assignment MethodInvocation SimpleName zip source
+e SimpleName Assignment MethodInvocation SimpleName get by guid
+e SimpleName Assignment MethodInvocation SimpleName guid
+assert SimpleName MethodInvocation SimpleName assert null
+assert SimpleName MethodInvocation SimpleName e
+assert null SimpleName MethodInvocation SimpleName e
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName verify guid removal on import complete
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName zip source
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName zip source
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName guid
+void PrimitiveType MethodDeclaration SimpleName verify guid removal on import complete
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName zip source
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName zip source
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName guid
+verify guid removal on import complete SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName zip source
+verify guid removal on import complete SimpleName MethodDeclaration SingleVariableDeclaration SimpleName zip source
+verify guid removal on import complete SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+verify guid removal on import complete SimpleName MethodDeclaration SingleVariableDeclaration SimpleName guid
+zip source SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName guid
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName verify guid removal on import complete
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName zip source
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName guid
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName verify guid removal on import complete
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName zip source
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName guid

@@ -1,0 +1,80 @@
+atlas base exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+e SimpleName MethodInvocation SimpleName get atlas error code
+e SimpleName MethodInvocation InfixExpression QualifiedName atlas error codeclassification not found
+get atlas error code SimpleName MethodInvocation InfixExpression QualifiedName atlas error codeclassification not found
+e SimpleName MethodInvocation SimpleName get atlas error code
+e SimpleName MethodInvocation InfixExpression QualifiedName atlas error codeinstance guid not found
+get atlas error code SimpleName MethodInvocation InfixExpression QualifiedName atlas error codeinstance guid not found
+atlas error codeclassification not found QualifiedName InfixExpression InfixExpression InfixExpression QualifiedName atlas error codeinstance guid not found
+e SimpleName MethodInvocation SimpleName get atlas error code
+e SimpleName MethodInvocation InfixExpression QualifiedName atlas error codeinstance by unique attribute not found
+get atlas error code SimpleName MethodInvocation InfixExpression QualifiedName atlas error codeinstance by unique attribute not found
+servlets SimpleName MethodInvocation SimpleName get error response
+servlets SimpleName MethodInvocation SimpleName e
+servlets SimpleName MethodInvocation QualifiedName responsestatusnot found
+get error response SimpleName MethodInvocation SimpleName e
+get error response SimpleName MethodInvocation QualifiedName responsestatusnot found
+e SimpleName MethodInvocation QualifiedName responsestatusnot found
+web application exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName servlets
+web application exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get error response
+web application exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName e
+web application exception SimpleName SimpleType ClassInstanceCreation MethodInvocation QualifiedName responsestatusnot found
+e SimpleName MethodInvocation SimpleName get atlas error code
+e SimpleName MethodInvocation InfixExpression QualifiedName atlas error codeinvalid parameters
+get atlas error code SimpleName MethodInvocation InfixExpression QualifiedName atlas error codeinvalid parameters
+e SimpleName MethodInvocation SimpleName get atlas error code
+e SimpleName MethodInvocation InfixExpression QualifiedName atlas error codeinstance crud invalid params
+get atlas error code SimpleName MethodInvocation InfixExpression QualifiedName atlas error codeinstance crud invalid params
+atlas error codeinvalid parameters QualifiedName InfixExpression InfixExpression InfixExpression QualifiedName atlas error codeinstance crud invalid params
+servlets SimpleName MethodInvocation SimpleName get error response
+servlets SimpleName MethodInvocation SimpleName e
+servlets SimpleName MethodInvocation QualifiedName responsestatusbad request
+get error response SimpleName MethodInvocation SimpleName e
+get error response SimpleName MethodInvocation QualifiedName responsestatusbad request
+e SimpleName MethodInvocation QualifiedName responsestatusbad request
+web application exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName servlets
+web application exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get error response
+web application exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName e
+web application exception SimpleName SimpleType ClassInstanceCreation MethodInvocation QualifiedName responsestatusbad request
+e SimpleName MethodInvocation SimpleName get atlas error code
+e SimpleName MethodInvocation MethodInvocation SimpleName get http code
+get atlas error code SimpleName MethodInvocation MethodInvocation SimpleName get http code
+servlets SimpleName MethodInvocation SimpleName get error response
+servlets SimpleName MethodInvocation SimpleName e
+servlets SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName e
+servlets SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get atlas error code
+servlets SimpleName MethodInvocation MethodInvocation SimpleName get http code
+get error response SimpleName MethodInvocation SimpleName e
+get error response SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName e
+get error response SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get atlas error code
+get error response SimpleName MethodInvocation MethodInvocation SimpleName get http code
+e SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName e
+e SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get atlas error code
+e SimpleName MethodInvocation MethodInvocation SimpleName get http code
+web application exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName servlets
+web application exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get error response
+web application exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName e
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName web application exception
+public Modifier MethodDeclaration SimpleName to web application exception
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas base exception
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName e
+static Modifier MethodDeclaration SimpleType SimpleName web application exception
+static Modifier MethodDeclaration SimpleName to web application exception
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas base exception
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName e
+web application exception SimpleName SimpleType MethodDeclaration SimpleName to web application exception
+web application exception SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName e
+to web application exception SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas base exception
+to web application exception SimpleName MethodDeclaration SingleVariableDeclaration SimpleName e
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName web application exception
+public Modifier TypeDeclaration MethodDeclaration SimpleName to web application exception
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName e
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName web application exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleName to web application exception
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName e

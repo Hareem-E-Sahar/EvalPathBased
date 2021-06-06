@@ -1,0 +1,91 @@
+key SimpleName SimpleType SingleVariableDeclaration SimpleName key
+value SimpleName SimpleType SingleVariableDeclaration SimpleName value
+illegal state exception SimpleName SimpleType ClassInstanceCreation StringLiteral cannont append data closed
+key SimpleName MethodInvocation SimpleName compare to
+key SimpleName MethodInvocation SimpleName prev key
+compare to SimpleName MethodInvocation SimpleName prev key
+key SimpleName MethodInvocation InfixExpression NumberLiteral empty
+compare to SimpleName MethodInvocation InfixExpression NumberLiteral empty
+prev key SimpleName MethodInvocation InfixExpression NumberLiteral empty
+keys appended outoforder new key StringLiteral InfixExpression SimpleName key
+keys appended outoforder new key StringLiteral InfixExpression StringLiteral previous key
+keys appended outoforder new key StringLiteral InfixExpression SimpleName prev key
+key SimpleName InfixExpression StringLiteral previous key
+key SimpleName InfixExpression SimpleName prev key
+previous key StringLiteral InfixExpression SimpleName prev key
+illegal state exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral keys appended outoforder new key
+illegal state exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName key
+illegal state exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral previous key
+illegal state exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName prev key
+current locality group SimpleName MethodInvocation SimpleName update column count
+current locality group SimpleName MethodInvocation SimpleName key
+update column count SimpleName MethodInvocation SimpleName key
+current locality group SimpleName MethodInvocation SimpleName get first key
+current locality group SimpleName MethodInvocation SimpleName set first key
+current locality group SimpleName MethodInvocation SimpleName key
+set first key SimpleName MethodInvocation SimpleName key
+file writer SimpleName MethodInvocation SimpleName prepare data block
+block writer SimpleName Assignment MethodInvocation SimpleName file writer
+block writer SimpleName Assignment MethodInvocation SimpleName prepare data block
+block writer SimpleName MethodInvocation SimpleName get raw size
+block writer SimpleName MethodInvocation InfixExpression SimpleName block size
+get raw size SimpleName MethodInvocation InfixExpression SimpleName block size
+close block SimpleName MethodInvocation SimpleName prev key
+close block SimpleName MethodInvocation BooleanLiteral false
+prev key SimpleName MethodInvocation BooleanLiteral false
+file writer SimpleName MethodInvocation SimpleName prepare data block
+block writer SimpleName Assignment MethodInvocation SimpleName file writer
+block writer SimpleName Assignment MethodInvocation SimpleName prepare data block
+relative key SimpleName SimpleType ClassInstanceCreation SimpleName last key in block
+relative key SimpleName SimpleType ClassInstanceCreation SimpleName key
+last key in block SimpleName ClassInstanceCreation SimpleName key
+rk SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName relative key
+rk SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName last key in block
+rk SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName key
+relative key SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName rk
+rk SimpleName MethodInvocation SimpleName write
+rk SimpleName MethodInvocation SimpleName block writer
+write SimpleName MethodInvocation SimpleName block writer
+value SimpleName MethodInvocation SimpleName write
+value SimpleName MethodInvocation SimpleName block writer
+write SimpleName MethodInvocation SimpleName block writer
+key SimpleName SimpleType ClassInstanceCreation SimpleName key
+prev key SimpleName Assignment ClassInstanceCreation SimpleType SimpleName key
+prev key SimpleName Assignment ClassInstanceCreation SimpleName key
+last key in block SimpleName Assignment SimpleName prev key
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName append
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName key
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName key
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName value
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName value
+public Modifier MethodDeclaration SimpleType SimpleName io exception
+void PrimitiveType MethodDeclaration SimpleName append
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName key
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName key
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName value
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName value
+void PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+void PrimitiveType MethodDeclaration Block IfStatement SimpleName data closed
+append SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName key
+append SimpleName MethodDeclaration SingleVariableDeclaration SimpleName key
+append SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName value
+append SimpleName MethodDeclaration SingleVariableDeclaration SimpleName value
+append SimpleName MethodDeclaration SimpleType SimpleName io exception
+append SimpleName MethodDeclaration Block IfStatement SimpleName data closed
+key SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value
+key SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+value SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName append
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName key
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName append
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName key
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

@@ -1,0 +1,61 @@
+system SimpleName MethodInvocation SimpleName get property
+system SimpleName MethodInvocation StringLiteral atlasconf
+get property SimpleName MethodInvocation StringLiteral atlasconf
+conf location SimpleName VariableDeclarationFragment MethodInvocation SimpleName system
+conf location SimpleName VariableDeclarationFragment MethodInvocation SimpleName get property
+conf location SimpleName VariableDeclarationFragment MethodInvocation StringLiteral atlasconf
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName conf location
+file SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ssl dir
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName persist dir
+secure client utils SimpleName SimpleType TypeLiteral MethodInvocation SimpleName get resource
+secure client utils SimpleName SimpleType TypeLiteral MethodInvocation StringLiteral /
+get resource SimpleName MethodInvocation StringLiteral /
+resource SimpleName VariableDeclarationFragment MethodInvocation SimpleName get resource
+resource SimpleName VariableDeclarationFragment MethodInvocation StringLiteral /
+url SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName resource
+resource SimpleName MethodInvocation SimpleName to uri
+resource SimpleName MethodInvocation MethodInvocation SimpleName get path
+to uri SimpleName MethodInvocation MethodInvocation SimpleName get path
+persist dir SimpleName Assignment MethodInvocation MethodInvocation SimpleName resource
+persist dir SimpleName Assignment MethodInvocation MethodInvocation SimpleName to uri
+persist dir SimpleName Assignment MethodInvocation SimpleName get path
+file SimpleName SimpleType ClassInstanceCreation SimpleName persist dir
+ssl dir SimpleName Assignment ClassInstanceCreation SimpleType SimpleName file
+ssl dir SimpleName Assignment ClassInstanceCreation SimpleName persist dir
+file SimpleName SimpleType ClassInstanceCreation SimpleName conf location
+ssl dir SimpleName Assignment ClassInstanceCreation SimpleType SimpleName file
+ssl dir SimpleName Assignment ClassInstanceCreation SimpleName conf location
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation StringLiteral sslclientxml will be created in {}
+log SimpleName MethodInvocation SimpleName ssl dir
+info SimpleName MethodInvocation StringLiteral sslclientxml will be created in {}
+info SimpleName MethodInvocation SimpleName ssl dir
+sslclientxml will be created in {} StringLiteral MethodInvocation SimpleName ssl dir
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+atlas exception SimpleName SimpleType ClassInstanceCreation StringLiteral failed to find client configuration directory
+atlas exception SimpleName SimpleType ClassInstanceCreation SimpleName e
+failed to find client configuration directory StringLiteral ClassInstanceCreation SimpleName e
+file SimpleName SimpleType ClassInstanceCreation SimpleName ssl dir
+file SimpleName SimpleType ClassInstanceCreation QualifiedName security propertiesssl client properties
+ssl dir SimpleName ClassInstanceCreation QualifiedName security propertiesssl client properties
+private Modifier MethodDeclaration Modifier static
+private Modifier MethodDeclaration SimpleType SimpleName file
+private Modifier MethodDeclaration SimpleName get ssl client file
+private Modifier MethodDeclaration SimpleType SimpleName atlas exception
+static Modifier MethodDeclaration SimpleType SimpleName file
+static Modifier MethodDeclaration SimpleName get ssl client file
+static Modifier MethodDeclaration SimpleType SimpleName atlas exception
+file SimpleName SimpleType MethodDeclaration SimpleName get ssl client file
+file SimpleName SimpleType MethodDeclaration SimpleType SimpleName atlas exception
+get ssl client file SimpleName MethodDeclaration SimpleType SimpleName atlas exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName file
+public Modifier TypeDeclaration MethodDeclaration SimpleName get ssl client file
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName file
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get ssl client file
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception

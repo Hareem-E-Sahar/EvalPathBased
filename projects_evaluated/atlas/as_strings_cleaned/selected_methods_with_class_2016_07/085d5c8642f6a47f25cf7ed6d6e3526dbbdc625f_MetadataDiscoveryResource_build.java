@@ -1,0 +1,38 @@
+preconditions SimpleName MethodInvocation SimpleName check not null
+preconditions SimpleName MethodInvocation SimpleName full text results
+check not null SimpleName MethodInvocation SimpleName full text results
+full text results SimpleName MethodInvocation SimpleName length
+count SimpleName MethodInvocation MethodInvocation SimpleName full text results
+count SimpleName MethodInvocation MethodInvocation SimpleName length
+query type SimpleName MethodInvocation SimpleName query type fulltext
+response SimpleName VariableDeclarationFragment SuperMethodInvocation SimpleName build
+json object SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName response
+response SimpleName MethodInvocation SimpleName put
+response SimpleName MethodInvocation QualifiedName atlas clientresults
+response SimpleName MethodInvocation SimpleName full text results
+put SimpleName MethodInvocation QualifiedName atlas clientresults
+put SimpleName MethodInvocation SimpleName full text results
+atlas clientresults QualifiedName MethodInvocation SimpleName full text results
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName json object
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName build
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName json exception
+public Modifier MethodDeclaration SimpleType SimpleName json object
+public Modifier MethodDeclaration SimpleName build
+public Modifier MethodDeclaration SimpleType SimpleName json exception
+public Modifier MethodDeclaration Block ReturnStatement SimpleName response
+json object SimpleName SimpleType MethodDeclaration SimpleName build
+json object SimpleName SimpleType MethodDeclaration SimpleType SimpleName json exception
+build SimpleName MethodDeclaration SimpleType SimpleName json exception
+build SimpleName MethodDeclaration Block ReturnStatement SimpleName response
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName json object
+public Modifier TypeDeclaration MethodDeclaration SimpleName build
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName json exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName json object
+test SimpleName TypeDeclaration MethodDeclaration SimpleName build
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName json exception

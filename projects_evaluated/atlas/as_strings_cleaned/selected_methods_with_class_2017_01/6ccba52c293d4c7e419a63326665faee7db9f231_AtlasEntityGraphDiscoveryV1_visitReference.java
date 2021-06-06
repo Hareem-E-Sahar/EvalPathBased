@@ -1,0 +1,100 @@
+atlas entity type SimpleName SimpleType SingleVariableDeclaration SimpleName type
+object SimpleName SimpleType SingleVariableDeclaration SimpleName entity
+boolean PrimitiveType SingleVariableDeclaration SimpleName is managed entity
+entity SimpleName InstanceofExpression SimpleType SimpleName atlas object id
+atlas object id SimpleName SimpleType CastExpression SimpleName entity
+entity SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName get guid
+guid SimpleName VariableDeclarationFragment MethodInvocation SimpleName get guid
+final Modifier VariableDeclarationStatement SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName guid
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get guid
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName guid
+discovered entities SimpleName MethodInvocation SimpleName add un resolved id reference
+discovered entities SimpleName MethodInvocation SimpleName type
+discovered entities SimpleName MethodInvocation SimpleName guid
+add un resolved id reference SimpleName MethodInvocation SimpleName type
+add un resolved id reference SimpleName MethodInvocation SimpleName guid
+type SimpleName MethodInvocation SimpleName guid
+entity SimpleName InstanceofExpression SimpleType SimpleName atlas entity
+atlas entity SimpleName SimpleType CastExpression SimpleName entity
+entity obj SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName atlas entity
+entity obj SimpleName VariableDeclarationFragment CastExpression SimpleName entity
+atlas entity SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName entity obj
+entity obj SimpleName MethodInvocation SimpleName get guid
+processed ids SimpleName MethodInvocation SimpleName contains
+processed ids SimpleName MethodInvocation MethodInvocation SimpleName entity obj
+processed ids SimpleName MethodInvocation MethodInvocation SimpleName get guid
+contains SimpleName MethodInvocation MethodInvocation SimpleName entity obj
+contains SimpleName MethodInvocation MethodInvocation SimpleName get guid
+entity obj SimpleName MethodInvocation SimpleName get guid
+processed ids SimpleName MethodInvocation SimpleName add
+processed ids SimpleName MethodInvocation MethodInvocation SimpleName entity obj
+processed ids SimpleName MethodInvocation MethodInvocation SimpleName get guid
+add SimpleName MethodInvocation MethodInvocation SimpleName entity obj
+add SimpleName MethodInvocation MethodInvocation SimpleName get guid
+discovered entities SimpleName MethodInvocation SimpleName add root entity
+discovered entities SimpleName MethodInvocation SimpleName entity obj
+add root entity SimpleName MethodInvocation SimpleName entity obj
+visit struct SimpleName MethodInvocation SimpleName type
+visit struct SimpleName MethodInvocation SimpleName entity obj
+type SimpleName MethodInvocation SimpleName entity obj
+discovered entities SimpleName MethodInvocation SimpleName add un resolved entity reference
+discovered entities SimpleName MethodInvocation SimpleName entity obj
+add un resolved entity reference SimpleName MethodInvocation SimpleName entity obj
+entity SimpleName MethodInvocation SimpleName get class
+invalid object type StringLiteral InfixExpression MethodInvocation SimpleName entity
+invalid object type StringLiteral InfixExpression MethodInvocation SimpleName get class
+atlas base exception SimpleName SimpleType ClassInstanceCreation QualifiedName atlas error codeinstance crud invalid params
+atlas base exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral invalid object type
+atlas error codeinstance crud invalid params QualifiedName ClassInstanceCreation InfixExpression StringLiteral invalid object type
+atlas error codeinstance crud invalid params QualifiedName ClassInstanceCreation InfixExpression MethodInvocation SimpleName entity
+atlas error codeinstance crud invalid params QualifiedName ClassInstanceCreation InfixExpression MethodInvocation SimpleName get class
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName visit reference
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas entity type
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName type
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName entity
+private Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName is managed entity
+void PrimitiveType MethodDeclaration SimpleName visit reference
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas entity type
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName type
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName entity
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName is managed entity
+void PrimitiveType MethodDeclaration SimpleType SimpleName atlas base exception
+visit reference SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas entity type
+visit reference SimpleName MethodDeclaration SingleVariableDeclaration SimpleName type
+visit reference SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+visit reference SimpleName MethodDeclaration SingleVariableDeclaration SimpleName entity
+visit reference SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+visit reference SimpleName MethodDeclaration SingleVariableDeclaration SimpleName is managed entity
+visit reference SimpleName MethodDeclaration SimpleType SimpleName atlas base exception
+type SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity
+type SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+type SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName is managed entity
+type SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+entity SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+entity SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName is managed entity
+entity SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+boolean PrimitiveType SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+is managed entity SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName visit reference
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName is managed entity
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName visit reference
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName is managed entity
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception

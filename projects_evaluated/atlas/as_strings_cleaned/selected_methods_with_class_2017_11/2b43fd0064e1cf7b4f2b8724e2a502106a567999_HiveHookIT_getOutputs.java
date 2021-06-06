@@ -1,0 +1,92 @@
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName write entity
+string SimpleName SimpleType SingleVariableDeclaration SimpleName input name
+entitytype QualifiedName SimpleType SingleVariableDeclaration SimpleName entity type
+entity SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName write entity
+final Modifier VariableDeclarationStatement SimpleType SimpleName write entity
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName entity
+write entity SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName entity
+entitytypedfs dir QualifiedName MethodInvocation SimpleName equals
+entitytypedfs dir QualifiedName MethodInvocation SimpleName entity type
+equals SimpleName MethodInvocation SimpleName entity type
+entitytypelocal dir QualifiedName MethodInvocation SimpleName equals
+entitytypelocal dir QualifiedName MethodInvocation SimpleName entity type
+equals SimpleName MethodInvocation SimpleName entity type
+entitytypedfs dir QualifiedName MethodInvocation InfixExpression MethodInvocation QualifiedName entitytypelocal dir
+entitytypedfs dir QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+entitytypedfs dir QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName entity type
+equals SimpleName MethodInvocation InfixExpression MethodInvocation QualifiedName entitytypelocal dir
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName entity type
+entity type SimpleName MethodInvocation InfixExpression MethodInvocation QualifiedName entitytypelocal dir
+entity type SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+entity type SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName entity type
+path SimpleName SimpleType ClassInstanceCreation SimpleName input name
+path SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName to string
+input name SimpleName ClassInstanceCreation MethodInvocation SimpleName to string
+lower SimpleName MethodInvocation MethodInvocation ClassInstanceCreation SimpleName input name
+lower SimpleName MethodInvocation MethodInvocation SimpleName to string
+entity SimpleName MethodInvocation SimpleName set name
+entity SimpleName MethodInvocation MethodInvocation SimpleName lower
+entity SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to string
+set name SimpleName MethodInvocation MethodInvocation SimpleName lower
+set name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to string
+entity SimpleName MethodInvocation SimpleName set typ
+entity SimpleName MethodInvocation SimpleName entity type
+set typ SimpleName MethodInvocation SimpleName entity type
+get qualified tbl name SimpleName MethodInvocation SimpleName input name
+entity SimpleName MethodInvocation SimpleName set name
+entity SimpleName MethodInvocation MethodInvocation SimpleName get qualified tbl name
+entity SimpleName MethodInvocation MethodInvocation SimpleName input name
+set name SimpleName MethodInvocation MethodInvocation SimpleName get qualified tbl name
+set name SimpleName MethodInvocation MethodInvocation SimpleName input name
+entity SimpleName MethodInvocation SimpleName set typ
+entity SimpleName MethodInvocation SimpleName entity type
+set typ SimpleName MethodInvocation SimpleName entity type
+entity type SimpleName InfixExpression QualifiedName entitytypetable
+hive meta store bridgehive client QualifiedName MethodInvocation SimpleName get table
+hive meta store bridgehive client QualifiedName MethodInvocation SimpleName default db
+hive meta store bridgehive client QualifiedName MethodInvocation SimpleName input name
+get table SimpleName MethodInvocation SimpleName default db
+get table SimpleName MethodInvocation SimpleName input name
+default db SimpleName MethodInvocation SimpleName input name
+entity SimpleName MethodInvocation SimpleName set t
+entity SimpleName MethodInvocation MethodInvocation QualifiedName hive meta store bridgehive client
+entity SimpleName MethodInvocation MethodInvocation SimpleName get table
+entity SimpleName MethodInvocation MethodInvocation SimpleName default db
+entity SimpleName MethodInvocation MethodInvocation SimpleName input name
+set t SimpleName MethodInvocation MethodInvocation QualifiedName hive meta store bridgehive client
+set t SimpleName MethodInvocation MethodInvocation SimpleName get table
+set t SimpleName MethodInvocation MethodInvocation SimpleName default db
+set t SimpleName MethodInvocation MethodInvocation SimpleName input name
+linked hash set SimpleName SimpleType ParameterizedType SimpleType SimpleName write entity
+add SimpleName MethodInvocation SimpleName entity
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName set
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName write entity
+private Modifier MethodDeclaration SimpleName get outputs
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName input name
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType QualifiedName entitytype
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName entity type
+private Modifier MethodDeclaration SimpleType SimpleName hive exception
+set SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get outputs
+write entity SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get outputs
+get outputs SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get outputs SimpleName MethodDeclaration SingleVariableDeclaration SimpleName input name
+get outputs SimpleName MethodDeclaration SingleVariableDeclaration SimpleType QualifiedName entitytype
+get outputs SimpleName MethodDeclaration SingleVariableDeclaration SimpleName entity type
+get outputs SimpleName MethodDeclaration SimpleType SimpleName hive exception
+get outputs SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+input name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity type
+input name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName hive exception
+entity type SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName hive exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleName get outputs
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName input name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity type
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName hive exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get outputs
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName input name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity type
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName hive exception

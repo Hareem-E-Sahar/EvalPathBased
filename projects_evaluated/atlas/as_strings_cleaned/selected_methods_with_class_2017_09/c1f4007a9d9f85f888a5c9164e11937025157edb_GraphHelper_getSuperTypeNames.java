@@ -1,0 +1,57 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+atlas vertex SimpleName SimpleType ParameterizedType WildcardType ?
+atlas vertex SimpleName SimpleType ParameterizedType WildcardType ?
+? WildcardType ParameterizedType WildcardType ?
+atlas vertex SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entity vertex
+? WildcardType ParameterizedType SingleVariableDeclaration SimpleName entity vertex
+? WildcardType ParameterizedType SingleVariableDeclaration SimpleName entity vertex
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+collection SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+entity vertex SimpleName MethodInvocation SimpleName get property values
+entity vertex SimpleName MethodInvocation QualifiedName constantssuper types property key
+entity vertex SimpleName MethodInvocation TypeLiteral SimpleType SimpleName string
+get property values SimpleName MethodInvocation QualifiedName constantssuper types property key
+get property values SimpleName MethodInvocation TypeLiteral SimpleType SimpleName string
+constantssuper types property key QualifiedName MethodInvocation TypeLiteral SimpleType SimpleName string
+property values SimpleName VariableDeclarationFragment MethodInvocation SimpleName entity vertex
+property values SimpleName VariableDeclarationFragment MethodInvocation SimpleName get property values
+property values SimpleName VariableDeclarationFragment MethodInvocation QualifiedName constantssuper types property key
+collection utils SimpleName MethodInvocation SimpleName is not empty
+collection utils SimpleName MethodInvocation SimpleName property values
+is not empty SimpleName MethodInvocation SimpleName property values
+string SimpleName SimpleType SingleVariableDeclaration SimpleName value
+super types SimpleName MethodInvocation SimpleName add
+super types SimpleName MethodInvocation SimpleName value
+add SimpleName MethodInvocation SimpleName value
+string SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName property values
+value SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName property values
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName get super type names
+public Modifier MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+public Modifier MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName entity vertex
+public Modifier MethodDeclaration Block ReturnStatement SimpleName super types
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+static Modifier MethodDeclaration SimpleName get super type names
+static Modifier MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+static Modifier MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName entity vertex
+static Modifier MethodDeclaration Block ReturnStatement SimpleName super types
+list SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get super type names
+string SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get super type names
+get super type names SimpleName MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+get super type names SimpleName MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+get super type names SimpleName MethodDeclaration SingleVariableDeclaration SimpleName entity vertex
+get super type names SimpleName MethodDeclaration Block ReturnStatement SimpleName super types
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleName get super type names
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity vertex
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get super type names
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity vertex

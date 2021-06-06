@@ -1,0 +1,60 @@
+type store SimpleName InstanceofExpression SimpleType SimpleName graph backed type store
+graph backed type store SimpleName SimpleType CastExpression SimpleName type store
+gb type store SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName graph backed type store
+gb type store SimpleName VariableDeclarationFragment CastExpression SimpleName type store
+graph backed type store SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName gb type store
+gb type store SimpleName MethodInvocation SimpleName find vertex
+gb type store SimpleName MethodInvocation QualifiedName type categoryclass
+gb type store SimpleName MethodInvocation StringLiteral department
+find vertex SimpleName MethodInvocation QualifiedName type categoryclass
+find vertex SimpleName MethodInvocation StringLiteral department
+type categoryclass QualifiedName MethodInvocation StringLiteral department
+type vertex SimpleName VariableDeclarationFragment MethodInvocation SimpleName gb type store
+type vertex SimpleName VariableDeclarationFragment MethodInvocation SimpleName find vertex
+type vertex SimpleName VariableDeclarationFragment MethodInvocation QualifiedName type categoryclass
+type vertex SimpleName VariableDeclarationFragment MethodInvocation StringLiteral department
+atlas vertex SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName type vertex
+gb type store SimpleName MethodInvocation SimpleName get edge label
+gb type store SimpleName MethodInvocation StringLiteral department
+gb type store SimpleName MethodInvocation StringLiteral employees
+get edge label SimpleName MethodInvocation StringLiteral department
+get edge label SimpleName MethodInvocation StringLiteral employees
+department StringLiteral MethodInvocation StringLiteral employees
+count outgoing edges SimpleName MethodInvocation SimpleName type vertex
+count outgoing edges SimpleName MethodInvocation MethodInvocation SimpleName gb type store
+count outgoing edges SimpleName MethodInvocation MethodInvocation SimpleName get edge label
+count outgoing edges SimpleName MethodInvocation MethodInvocation StringLiteral department
+count outgoing edges SimpleName MethodInvocation MethodInvocation StringLiteral employees
+type vertex SimpleName MethodInvocation MethodInvocation SimpleName gb type store
+type vertex SimpleName MethodInvocation MethodInvocation SimpleName get edge label
+type vertex SimpleName MethodInvocation MethodInvocation StringLiteral department
+type vertex SimpleName MethodInvocation MethodInvocation StringLiteral employees
+edge count SimpleName VariableDeclarationFragment MethodInvocation SimpleName count outgoing edges
+edge count SimpleName VariableDeclarationFragment MethodInvocation SimpleName type vertex
+edge count SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName gb type store
+edge count SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get edge label
+edge count SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation StringLiteral department
+edge count SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation StringLiteral employees
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName edge count
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName count outgoing edges
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName type vertex
+assert SimpleName MethodInvocation SimpleName assert equals
+assert SimpleName MethodInvocation SimpleName edge count
+assert SimpleName MethodInvocation NumberLiteral empty
+assert SimpleName MethodInvocation StringLiteral should only be edge for employees attribute on department type atlas vertex
+assert equals SimpleName MethodInvocation SimpleName edge count
+assert equals SimpleName MethodInvocation NumberLiteral empty
+assert equals SimpleName MethodInvocation StringLiteral should only be edge for employees attribute on department type atlas vertex
+edge count SimpleName MethodInvocation NumberLiteral empty
+edge count SimpleName MethodInvocation StringLiteral should only be edge for employees attribute on department type atlas vertex
+empty NumberLiteral MethodInvocation StringLiteral should only be edge for employees attribute on department type atlas vertex
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName verify edges
+void PrimitiveType MethodDeclaration SimpleName verify edges
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName verify edges
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName verify edges

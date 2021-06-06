@@ -1,0 +1,44 @@
+sorted key value iterator SimpleName SimpleType ParameterizedType SimpleType SimpleName key
+sorted key value iterator SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+key SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+map SimpleName MethodInvocation SimpleName skv iterator
+iter SimpleName Assignment MethodInvocation SimpleName map
+iter SimpleName Assignment MethodInvocation SimpleName skv iterator
+mem key conversion iterator SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get reader
+iter SimpleName Assignment ClassInstanceCreation SimpleType SimpleName mem key conversion iterator
+iter SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName get reader
+parent SimpleName MethodInvocation SimpleName get reader
+parent SimpleName MethodInvocation MethodInvocation SimpleName deep copy
+get reader SimpleName MethodInvocation MethodInvocation SimpleName deep copy
+parent SimpleName MethodInvocation MethodInvocation SimpleName env
+get reader SimpleName MethodInvocation MethodInvocation SimpleName env
+deep copy SimpleName MethodInvocation SimpleName env
+mem key conversion iterator SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName deep copy
+mem key conversion iterator SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName env
+iter SimpleName Assignment ClassInstanceCreation SimpleType SimpleName mem key conversion iterator
+iter SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName deep copy
+iter SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName env
+parent SimpleName InfixExpression IfStatement SynchronizedStatement SimpleName parent
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName iterator
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName io exception
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName sorted key value iterator
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName key
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName value
+public Modifier MethodDeclaration SimpleName iterator
+public Modifier MethodDeclaration SimpleType SimpleName io exception
+public Modifier MethodDeclaration Block ReturnStatement SimpleName iter
+sorted key value iterator SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName iterator
+key SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName iterator
+value SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName iterator
+iterator SimpleName MethodDeclaration SimpleType SimpleName io exception
+iterator SimpleName MethodDeclaration Block ReturnStatement SimpleName iter
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName iterator
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName iterator
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

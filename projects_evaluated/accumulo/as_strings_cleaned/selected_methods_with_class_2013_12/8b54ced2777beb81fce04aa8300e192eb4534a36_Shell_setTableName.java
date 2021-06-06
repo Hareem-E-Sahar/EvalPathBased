@@ -1,0 +1,29 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName table name
+table name SimpleName MethodInvocation SimpleName is empty
+table name SimpleName InfixExpression InfixExpression MethodInvocation SimpleName table name
+table name SimpleName InfixExpression InfixExpression MethodInvocation SimpleName is empty
+tables SimpleName MethodInvocation SimpleName qualified
+tables SimpleName MethodInvocation SimpleName table name
+qualified SimpleName MethodInvocation SimpleName table name
+empty StringLiteral ConditionalExpression MethodInvocation SimpleName tables
+empty StringLiteral ConditionalExpression MethodInvocation SimpleName qualified
+empty StringLiteral ConditionalExpression MethodInvocation SimpleName table name
+table name SimpleName FieldAccess Assignment ConditionalExpression StringLiteral empty
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set table name
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName table name
+void PrimitiveType MethodDeclaration SimpleName set table name
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName table name
+set table name SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+set table name SimpleName MethodDeclaration SingleVariableDeclaration SimpleName table name
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set table name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table name
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set table name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table name

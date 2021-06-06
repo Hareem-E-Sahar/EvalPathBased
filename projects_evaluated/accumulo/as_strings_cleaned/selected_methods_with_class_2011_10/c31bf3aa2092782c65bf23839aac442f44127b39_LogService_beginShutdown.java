@@ -1,0 +1,60 @@
+t info SimpleName SimpleType SingleVariableDeclaration SimpleName tinfo
+auth info SimpleName SimpleType SingleVariableDeclaration SimpleName credentials
+check for system privs SimpleName MethodInvocation StringLiteral begin shutdown
+check for system privs SimpleName MethodInvocation SimpleName credentials
+begin shutdown StringLiteral MethodInvocation SimpleName credentials
+writer SimpleName MethodInvocation SimpleName begin shutdown
+writer SimpleName MethodInvocation SimpleName tinfo
+writer SimpleName MethodInvocation SimpleName credentials
+begin shutdown SimpleName MethodInvocation SimpleName tinfo
+begin shutdown SimpleName MethodInvocation SimpleName credentials
+tinfo SimpleName MethodInvocation SimpleName credentials
+switch state SimpleName MethodInvocation QualifiedName shutdown statewaiting for halt
+thrift security exception SimpleName SimpleType SingleVariableDeclaration SimpleName ex
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation SimpleName ex
+log SimpleName MethodInvocation SimpleName ex
+error SimpleName MethodInvocation SimpleName ex
+error SimpleName MethodInvocation SimpleName ex
+ex SimpleName MethodInvocation SimpleName ex
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName begin shutdown
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName tinfo
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName credentials
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName begin shutdown
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName t info
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName tinfo
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName auth info
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName credentials
+public Modifier MethodDeclaration SimpleType SimpleName t exception
+void PrimitiveType MethodDeclaration SimpleName begin shutdown
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName t info
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName tinfo
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName auth info
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName credentials
+void PrimitiveType MethodDeclaration SimpleType SimpleName t exception
+begin shutdown SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName t info
+begin shutdown SimpleName MethodDeclaration SingleVariableDeclaration SimpleName tinfo
+begin shutdown SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName auth info
+begin shutdown SimpleName MethodDeclaration SingleVariableDeclaration SimpleName credentials
+begin shutdown SimpleName MethodDeclaration SimpleType SimpleName t exception
+tinfo SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName credentials
+tinfo SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName t exception
+credentials SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName t exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName begin shutdown
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName tinfo
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName credentials
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName t exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName begin shutdown
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName tinfo
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName credentials
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName t exception

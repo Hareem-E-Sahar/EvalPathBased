@@ -1,0 +1,380 @@
+string SimpleName SimpleType ArrayType SingleVariableDeclaration SimpleName args
+argslength QualifiedName InfixExpression NumberLiteral empty
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation StringLiteral usage dump table s table name
+error SimpleName MethodInvocation StringLiteral usage dump table s table name
+summarize SimpleName VariableDeclarationFragment BooleanLiteral false
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName summarize
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment BooleanLiteral false
+tablename index SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName tablename index
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+args SimpleName ArrayAccess NumberLiteral empty
+args SimpleName ArrayAccess MethodInvocation SimpleName equals
+empty NumberLiteral ArrayAccess MethodInvocation SimpleName equals
+args SimpleName ArrayAccess MethodInvocation StringLiteral s
+empty NumberLiteral ArrayAccess MethodInvocation StringLiteral s
+equals SimpleName MethodInvocation StringLiteral s
+summarize SimpleName Assignment BooleanLiteral true
+cached configuration SimpleName MethodInvocation SimpleName get instance
+conf SimpleName VariableDeclarationFragment MethodInvocation SimpleName cached configuration
+conf SimpleName VariableDeclarationFragment MethodInvocation SimpleName get instance
+configuration SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName conf
+file system SimpleName MethodInvocation SimpleName get
+file system SimpleName MethodInvocation SimpleName conf
+get SimpleName MethodInvocation SimpleName conf
+fs SimpleName VariableDeclarationFragment MethodInvocation SimpleName file system
+fs SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+fs SimpleName VariableDeclarationFragment MethodInvocation SimpleName conf
+file system SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName fs
+total count SimpleName VariableDeclarationFragment NumberLiteral empty
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName total count
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+key SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName min
+key SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName max
+key SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName key
+key SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName key
+value SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName value
+value SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName value
+server constants SimpleName MethodInvocation SimpleName get tables dir
+args SimpleName ArrayAccess SimpleName tablename index
+server constants SimpleName MethodInvocation InfixExpression StringLiteral /
+get tables dir SimpleName MethodInvocation InfixExpression StringLiteral /
+server constants SimpleName MethodInvocation InfixExpression ArrayAccess SimpleName args
+server constants SimpleName MethodInvocation InfixExpression ArrayAccess SimpleName tablename index
+get tables dir SimpleName MethodInvocation InfixExpression ArrayAccess SimpleName args
+get tables dir SimpleName MethodInvocation InfixExpression ArrayAccess SimpleName tablename index
+/ StringLiteral InfixExpression ArrayAccess SimpleName args
+/ StringLiteral InfixExpression ArrayAccess SimpleName tablename index
+path SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral /
+fs SimpleName MethodInvocation SimpleName list status
+fs SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName path
+fs SimpleName MethodInvocation ClassInstanceCreation InfixExpression StringLiteral /
+list status SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName path
+list status SimpleName MethodInvocation ClassInstanceCreation InfixExpression StringLiteral /
+tablets SimpleName VariableDeclarationFragment MethodInvocation SimpleName fs
+tablets SimpleName VariableDeclarationFragment MethodInvocation SimpleName list status
+file status SimpleName SimpleType SingleVariableDeclaration SimpleName tablet
+tablet SimpleName MethodInvocation SimpleName get path
+fs SimpleName MethodInvocation SimpleName list status
+fs SimpleName MethodInvocation MethodInvocation SimpleName tablet
+fs SimpleName MethodInvocation MethodInvocation SimpleName get path
+list status SimpleName MethodInvocation MethodInvocation SimpleName tablet
+list status SimpleName MethodInvocation MethodInvocation SimpleName get path
+mapfiles SimpleName VariableDeclarationFragment MethodInvocation SimpleName fs
+mapfiles SimpleName VariableDeclarationFragment MethodInvocation SimpleName list status
+mapfiles SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName tablet
+mapfiles SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get path
+key SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName tablet min
+key SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName tablet max
+tablet count SimpleName VariableDeclarationFragment NumberLiteral empty
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName tablet count
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+file status SimpleName SimpleType SingleVariableDeclaration SimpleName mapfile
+mapfile SimpleName MethodInvocation SimpleName get path
+mapfile SimpleName MethodInvocation MethodInvocation SimpleName to string
+get path SimpleName MethodInvocation MethodInvocation SimpleName to string
+my map filereader QualifiedName SimpleType ClassInstanceCreation SimpleName fs
+my map filereader QualifiedName SimpleType ClassInstanceCreation MethodInvocation SimpleName to string
+my map filereader QualifiedName SimpleType ClassInstanceCreation SimpleName conf
+fs SimpleName ClassInstanceCreation MethodInvocation MethodInvocation SimpleName mapfile
+fs SimpleName ClassInstanceCreation MethodInvocation MethodInvocation SimpleName get path
+fs SimpleName ClassInstanceCreation MethodInvocation SimpleName to string
+fs SimpleName ClassInstanceCreation SimpleName conf
+mapfile SimpleName MethodInvocation MethodInvocation ClassInstanceCreation SimpleName conf
+get path SimpleName MethodInvocation MethodInvocation ClassInstanceCreation SimpleName conf
+to string SimpleName MethodInvocation ClassInstanceCreation SimpleName conf
+mfr SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType QualifiedName my map filereader
+mfr SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName fs
+mfr SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName to string
+mfr SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName conf
+my map filereader QualifiedName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName mfr
+count SimpleName VariableDeclarationFragment NumberLiteral empty
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName count
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+mfr SimpleName MethodInvocation SimpleName next
+mfr SimpleName MethodInvocation SimpleName key
+mfr SimpleName MethodInvocation SimpleName value
+next SimpleName MethodInvocation SimpleName key
+next SimpleName MethodInvocation SimpleName value
+key SimpleName MethodInvocation SimpleName value
+min SimpleName MethodInvocation SimpleName compare to
+min SimpleName MethodInvocation SimpleName key
+compare to SimpleName MethodInvocation SimpleName key
+min SimpleName MethodInvocation InfixExpression NumberLiteral empty
+compare to SimpleName MethodInvocation InfixExpression NumberLiteral empty
+key SimpleName MethodInvocation InfixExpression NumberLiteral empty
+min SimpleName InfixExpression InfixExpression InfixExpression NumberLiteral empty
+key SimpleName SimpleType ClassInstanceCreation SimpleName key
+min SimpleName Assignment ClassInstanceCreation SimpleType SimpleName key
+min SimpleName Assignment ClassInstanceCreation SimpleName key
+tablet min SimpleName MethodInvocation SimpleName compare to
+tablet min SimpleName MethodInvocation SimpleName key
+compare to SimpleName MethodInvocation SimpleName key
+tablet min SimpleName MethodInvocation InfixExpression NumberLiteral empty
+compare to SimpleName MethodInvocation InfixExpression NumberLiteral empty
+key SimpleName MethodInvocation InfixExpression NumberLiteral empty
+tablet min SimpleName InfixExpression InfixExpression InfixExpression NumberLiteral empty
+key SimpleName SimpleType ClassInstanceCreation SimpleName key
+tablet min SimpleName Assignment ClassInstanceCreation SimpleType SimpleName key
+tablet min SimpleName Assignment ClassInstanceCreation SimpleName key
+empty StringLiteral InfixExpression SimpleName key
+systemout QualifiedName MethodInvocation SimpleName printf
+systemout QualifiedName MethodInvocation StringLiteral (% s
+systemout QualifiedName MethodInvocation InfixExpression StringLiteral empty
+systemout QualifiedName MethodInvocation InfixExpression SimpleName key
+printf SimpleName MethodInvocation StringLiteral (% s
+printf SimpleName MethodInvocation InfixExpression StringLiteral empty
+printf SimpleName MethodInvocation InfixExpression SimpleName key
+(% s StringLiteral MethodInvocation InfixExpression StringLiteral empty
+(% s StringLiteral MethodInvocation InfixExpression SimpleName key
+mfr SimpleName MethodInvocation SimpleName next
+mfr SimpleName MethodInvocation SimpleName key
+mfr SimpleName MethodInvocation SimpleName value
+next SimpleName MethodInvocation SimpleName key
+next SimpleName MethodInvocation SimpleName value
+key SimpleName MethodInvocation SimpleName value
+key SimpleName MethodInvocation SimpleName get row
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation MethodInvocation SimpleName key
+log SimpleName MethodInvocation MethodInvocation SimpleName get row
+info SimpleName MethodInvocation MethodInvocation SimpleName key
+info SimpleName MethodInvocation MethodInvocation SimpleName get row
+count SimpleName InfixExpression NumberLiteral empty
+max SimpleName MethodInvocation SimpleName compare to
+max SimpleName MethodInvocation SimpleName key
+compare to SimpleName MethodInvocation SimpleName key
+max SimpleName MethodInvocation InfixExpression NumberLiteral empty
+compare to SimpleName MethodInvocation InfixExpression NumberLiteral empty
+key SimpleName MethodInvocation InfixExpression NumberLiteral empty
+max SimpleName InfixExpression InfixExpression InfixExpression NumberLiteral empty
+key SimpleName SimpleType ClassInstanceCreation SimpleName key
+max SimpleName Assignment ClassInstanceCreation SimpleType SimpleName key
+max SimpleName Assignment ClassInstanceCreation SimpleName key
+tablet max SimpleName MethodInvocation SimpleName compare to
+tablet max SimpleName MethodInvocation SimpleName key
+compare to SimpleName MethodInvocation SimpleName key
+tablet max SimpleName MethodInvocation InfixExpression NumberLiteral empty
+compare to SimpleName MethodInvocation InfixExpression NumberLiteral empty
+key SimpleName MethodInvocation InfixExpression NumberLiteral empty
+tablet max SimpleName InfixExpression InfixExpression InfixExpression NumberLiteral empty
+key SimpleName SimpleType ClassInstanceCreation SimpleName key
+tablet max SimpleName Assignment ClassInstanceCreation SimpleType SimpleName key
+tablet max SimpleName Assignment ClassInstanceCreation SimpleName key
+empty StringLiteral InfixExpression SimpleName key
+systemout QualifiedName MethodInvocation SimpleName printf
+systemout QualifiedName MethodInvocation StringLiteral % s
+systemout QualifiedName MethodInvocation InfixExpression StringLiteral empty
+systemout QualifiedName MethodInvocation InfixExpression SimpleName key
+printf SimpleName MethodInvocation StringLiteral % s
+printf SimpleName MethodInvocation InfixExpression StringLiteral empty
+printf SimpleName MethodInvocation InfixExpression SimpleName key
+% s StringLiteral MethodInvocation InfixExpression StringLiteral empty
+% s StringLiteral MethodInvocation InfixExpression SimpleName key
+total count SimpleName Assignment SimpleName count
+tablet count SimpleName Assignment SimpleName count
+systemout QualifiedName MethodInvocation SimpleName printf
+systemout QualifiedName MethodInvocation StringLiteral % d
+systemout QualifiedName MethodInvocation SimpleName count
+printf SimpleName MethodInvocation StringLiteral % d
+printf SimpleName MethodInvocation SimpleName count
+% d StringLiteral MethodInvocation SimpleName count
+args SimpleName ArrayAccess SimpleName tablename index
+tablet SimpleName MethodInvocation SimpleName get path
+tablet SimpleName MethodInvocation MethodInvocation SimpleName get name
+get path SimpleName MethodInvocation MethodInvocation SimpleName get name
+mapfile SimpleName MethodInvocation SimpleName get path
+mapfile SimpleName MethodInvocation MethodInvocation SimpleName get name
+get path SimpleName MethodInvocation MethodInvocation SimpleName get name
+args SimpleName ArrayAccess InfixExpression StringLiteral /
+tablename index SimpleName ArrayAccess InfixExpression StringLiteral /
+args SimpleName ArrayAccess InfixExpression MethodInvocation SimpleName get name
+tablename index SimpleName ArrayAccess InfixExpression MethodInvocation SimpleName get name
+args SimpleName ArrayAccess InfixExpression StringLiteral /
+tablename index SimpleName ArrayAccess InfixExpression StringLiteral /
+args SimpleName ArrayAccess InfixExpression MethodInvocation SimpleName get name
+tablename index SimpleName ArrayAccess InfixExpression MethodInvocation SimpleName get name
+/ StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName tablet
+/ StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName get path
+/ StringLiteral InfixExpression MethodInvocation SimpleName get name
+/ StringLiteral InfixExpression StringLiteral /
+/ StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName mapfile
+/ StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName get path
+/ StringLiteral InfixExpression MethodInvocation SimpleName get name
+tablet SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral /
+get path SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral /
+get name SimpleName MethodInvocation InfixExpression StringLiteral /
+get name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get name
+/ StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName mapfile
+/ StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName get path
+/ StringLiteral InfixExpression MethodInvocation SimpleName get name
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation InfixExpression ArrayAccess SimpleName args
+log SimpleName MethodInvocation InfixExpression ArrayAccess SimpleName tablename index
+log SimpleName MethodInvocation InfixExpression StringLiteral /
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get name
+log SimpleName MethodInvocation InfixExpression StringLiteral /
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get name
+info SimpleName MethodInvocation InfixExpression ArrayAccess SimpleName args
+info SimpleName MethodInvocation InfixExpression ArrayAccess SimpleName tablename index
+info SimpleName MethodInvocation InfixExpression StringLiteral /
+info SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get name
+info SimpleName MethodInvocation InfixExpression StringLiteral /
+info SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get name
+long PrimitiveType VariableDeclarationStatement Block IfStatement SimpleName summarize
+long PrimitiveType VariableDeclarationStatement Block IfStatement SimpleName summarize
+summarize SimpleName IfStatement Block IfStatement SimpleName summarize
+file status SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName mapfiles
+mapfile SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName mapfiles
+mapfiles SimpleName EnhancedForStatement Block VariableDeclarationStatement PrimitiveType long
+mapfiles SimpleName EnhancedForStatement Block IfStatement SimpleName summarize
+mapfiles SimpleName EnhancedForStatement Block IfStatement SimpleName summarize
+empty StringLiteral InfixExpression SimpleName tablet min
+empty StringLiteral InfixExpression SimpleName tablet max
+args SimpleName ArrayAccess SimpleName tablename index
+tablet SimpleName MethodInvocation SimpleName get path
+tablet SimpleName MethodInvocation MethodInvocation SimpleName get name
+get path SimpleName MethodInvocation MethodInvocation SimpleName get name
+args SimpleName ArrayAccess InfixExpression StringLiteral /
+tablename index SimpleName ArrayAccess InfixExpression StringLiteral /
+args SimpleName ArrayAccess InfixExpression MethodInvocation SimpleName get name
+tablename index SimpleName ArrayAccess InfixExpression MethodInvocation SimpleName get name
+/ StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName tablet
+/ StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName get path
+/ StringLiteral InfixExpression MethodInvocation SimpleName get name
+systemout QualifiedName MethodInvocation SimpleName printf
+systemout QualifiedName MethodInvocation StringLiteral (% s % s % d s
+systemout QualifiedName MethodInvocation InfixExpression StringLiteral empty
+systemout QualifiedName MethodInvocation InfixExpression SimpleName tablet min
+systemout QualifiedName MethodInvocation InfixExpression StringLiteral empty
+systemout QualifiedName MethodInvocation InfixExpression SimpleName tablet max
+systemout QualifiedName MethodInvocation SimpleName tablet count
+printf SimpleName MethodInvocation StringLiteral (% s % s % d s
+printf SimpleName MethodInvocation InfixExpression StringLiteral empty
+printf SimpleName MethodInvocation InfixExpression SimpleName tablet min
+printf SimpleName MethodInvocation InfixExpression StringLiteral empty
+printf SimpleName MethodInvocation InfixExpression SimpleName tablet max
+printf SimpleName MethodInvocation SimpleName tablet count
+printf SimpleName MethodInvocation InfixExpression ArrayAccess SimpleName args
+printf SimpleName MethodInvocation InfixExpression ArrayAccess SimpleName tablename index
+printf SimpleName MethodInvocation InfixExpression StringLiteral /
+printf SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get name
+(% s % s % d s StringLiteral MethodInvocation InfixExpression StringLiteral empty
+(% s % s % d s StringLiteral MethodInvocation InfixExpression SimpleName tablet min
+(% s % s % d s StringLiteral MethodInvocation InfixExpression StringLiteral empty
+(% s % s % d s StringLiteral MethodInvocation InfixExpression SimpleName tablet max
+(% s % s % d s StringLiteral MethodInvocation SimpleName tablet count
+(% s % s % d s StringLiteral MethodInvocation InfixExpression ArrayAccess SimpleName args
+(% s % s % d s StringLiteral MethodInvocation InfixExpression ArrayAccess SimpleName tablename index
+(% s % s % d s StringLiteral MethodInvocation InfixExpression StringLiteral /
+(% s % s % d s StringLiteral MethodInvocation InfixExpression MethodInvocation SimpleName get name
+empty StringLiteral InfixExpression MethodInvocation InfixExpression StringLiteral empty
+empty StringLiteral InfixExpression MethodInvocation InfixExpression SimpleName tablet max
+tablet min SimpleName InfixExpression MethodInvocation InfixExpression StringLiteral empty
+tablet min SimpleName InfixExpression MethodInvocation InfixExpression SimpleName tablet max
+empty StringLiteral InfixExpression MethodInvocation SimpleName tablet count
+tablet min SimpleName InfixExpression MethodInvocation SimpleName tablet count
+empty StringLiteral InfixExpression MethodInvocation InfixExpression StringLiteral /
+tablet min SimpleName InfixExpression MethodInvocation InfixExpression StringLiteral /
+empty StringLiteral InfixExpression MethodInvocation SimpleName tablet count
+tablet max SimpleName InfixExpression MethodInvocation SimpleName tablet count
+empty StringLiteral InfixExpression MethodInvocation InfixExpression StringLiteral /
+tablet max SimpleName InfixExpression MethodInvocation InfixExpression StringLiteral /
+tablet count SimpleName MethodInvocation InfixExpression ArrayAccess SimpleName args
+tablet count SimpleName MethodInvocation InfixExpression ArrayAccess SimpleName tablename index
+tablet count SimpleName MethodInvocation InfixExpression StringLiteral /
+tablet count SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get name
+long PrimitiveType VariableDeclarationStatement Block EnhancedForStatement SimpleName mapfiles
+long PrimitiveType VariableDeclarationStatement Block IfStatement SimpleName summarize
+mapfiles SimpleName EnhancedForStatement Block IfStatement SimpleName summarize
+file status SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName tablets
+tablet SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName tablets
+tablets SimpleName EnhancedForStatement Block VariableDeclarationStatement PrimitiveType long
+tablets SimpleName EnhancedForStatement Block EnhancedForStatement SimpleName mapfiles
+tablets SimpleName EnhancedForStatement Block IfStatement SimpleName summarize
+empty StringLiteral InfixExpression SimpleName min
+empty StringLiteral InfixExpression SimpleName max
+args SimpleName ArrayAccess SimpleName tablename index
+systemout QualifiedName MethodInvocation SimpleName printf
+systemout QualifiedName MethodInvocation StringLiteral (% s % s % d s
+systemout QualifiedName MethodInvocation InfixExpression StringLiteral empty
+systemout QualifiedName MethodInvocation InfixExpression SimpleName min
+systemout QualifiedName MethodInvocation InfixExpression StringLiteral empty
+systemout QualifiedName MethodInvocation InfixExpression SimpleName max
+systemout QualifiedName MethodInvocation SimpleName total count
+printf SimpleName MethodInvocation StringLiteral (% s % s % d s
+printf SimpleName MethodInvocation InfixExpression StringLiteral empty
+printf SimpleName MethodInvocation InfixExpression SimpleName min
+printf SimpleName MethodInvocation InfixExpression StringLiteral empty
+printf SimpleName MethodInvocation InfixExpression SimpleName max
+printf SimpleName MethodInvocation SimpleName total count
+printf SimpleName MethodInvocation ArrayAccess SimpleName args
+printf SimpleName MethodInvocation ArrayAccess SimpleName tablename index
+(% s % s % d s StringLiteral MethodInvocation InfixExpression StringLiteral empty
+(% s % s % d s StringLiteral MethodInvocation InfixExpression SimpleName min
+(% s % s % d s StringLiteral MethodInvocation InfixExpression StringLiteral empty
+(% s % s % d s StringLiteral MethodInvocation InfixExpression SimpleName max
+(% s % s % d s StringLiteral MethodInvocation SimpleName total count
+(% s % s % d s StringLiteral MethodInvocation ArrayAccess SimpleName args
+(% s % s % d s StringLiteral MethodInvocation ArrayAccess SimpleName tablename index
+empty StringLiteral InfixExpression MethodInvocation InfixExpression StringLiteral empty
+empty StringLiteral InfixExpression MethodInvocation InfixExpression SimpleName max
+min SimpleName InfixExpression MethodInvocation InfixExpression StringLiteral empty
+min SimpleName InfixExpression MethodInvocation InfixExpression SimpleName max
+empty StringLiteral InfixExpression MethodInvocation SimpleName total count
+min SimpleName InfixExpression MethodInvocation SimpleName total count
+empty StringLiteral InfixExpression MethodInvocation ArrayAccess SimpleName args
+empty StringLiteral InfixExpression MethodInvocation ArrayAccess SimpleName tablename index
+min SimpleName InfixExpression MethodInvocation ArrayAccess SimpleName args
+min SimpleName InfixExpression MethodInvocation ArrayAccess SimpleName tablename index
+empty StringLiteral InfixExpression MethodInvocation SimpleName total count
+max SimpleName InfixExpression MethodInvocation SimpleName total count
+empty StringLiteral InfixExpression MethodInvocation ArrayAccess SimpleName args
+empty StringLiteral InfixExpression MethodInvocation ArrayAccess SimpleName tablename index
+max SimpleName InfixExpression MethodInvocation ArrayAccess SimpleName args
+max SimpleName InfixExpression MethodInvocation ArrayAccess SimpleName tablename index
+total count SimpleName MethodInvocation ArrayAccess SimpleName args
+total count SimpleName MethodInvocation ArrayAccess SimpleName tablename index
+boolean PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+boolean PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType long
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType long
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName main
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName args
+public Modifier MethodDeclaration SimpleType SimpleName io exception
+static Modifier MethodDeclaration PrimitiveType void
+static Modifier MethodDeclaration SimpleName main
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName args
+static Modifier MethodDeclaration SimpleType SimpleName io exception
+static Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+static Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+static Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+static Modifier MethodDeclaration Block EnhancedForStatement SimpleName tablets
+void PrimitiveType MethodDeclaration SimpleName main
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName args
+void PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+void PrimitiveType MethodDeclaration Block EnhancedForStatement SimpleName tablets
+main SimpleName MethodDeclaration SingleVariableDeclaration SimpleName args
+main SimpleName MethodDeclaration SimpleType SimpleName io exception
+main SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+main SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+main SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+main SimpleName MethodDeclaration Block EnhancedForStatement SimpleName tablets
+args SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName main
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName args
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName main
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName args
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

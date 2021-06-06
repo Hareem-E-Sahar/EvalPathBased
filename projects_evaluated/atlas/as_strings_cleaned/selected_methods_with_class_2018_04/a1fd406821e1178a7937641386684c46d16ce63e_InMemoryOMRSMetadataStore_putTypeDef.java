@@ -1,0 +1,29 @@
+type def SimpleName SimpleType SingleVariableDeclaration SimpleName type def
+type def SimpleName MethodInvocation SimpleName get guid
+type def store SimpleName MethodInvocation SimpleName put
+type def store SimpleName MethodInvocation MethodInvocation SimpleName type def
+type def store SimpleName MethodInvocation MethodInvocation SimpleName get guid
+type def store SimpleName MethodInvocation SimpleName type def
+put SimpleName MethodInvocation MethodInvocation SimpleName type def
+put SimpleName MethodInvocation MethodInvocation SimpleName get guid
+put SimpleName MethodInvocation SimpleName type def
+type def SimpleName MethodInvocation MethodInvocation SimpleName type def
+get guid SimpleName MethodInvocation MethodInvocation SimpleName type def
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName put type def
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName type def
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName type def
+void PrimitiveType MethodDeclaration SimpleName put type def
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName type def
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName type def
+put type def SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName type def
+put type def SimpleName MethodDeclaration SingleVariableDeclaration SimpleName type def
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName put type def
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type def
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName put type def
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type def

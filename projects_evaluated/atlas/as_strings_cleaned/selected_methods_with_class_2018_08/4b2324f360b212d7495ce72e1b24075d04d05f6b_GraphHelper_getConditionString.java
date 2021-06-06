@@ -1,0 +1,68 @@
+object SimpleName SimpleType ArrayType SingleVariableDeclaration SimpleName args
+condition SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName string builder
+string builder SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName condition
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+i SimpleName InfixExpression QualifiedName argslength
+i SimpleName Assignment NumberLiteral empty
+args SimpleName ArrayAccess SimpleName i
+condition SimpleName MethodInvocation SimpleName append
+condition SimpleName MethodInvocation ArrayAccess SimpleName args
+condition SimpleName MethodInvocation ArrayAccess SimpleName i
+append SimpleName MethodInvocation ArrayAccess SimpleName args
+append SimpleName MethodInvocation ArrayAccess SimpleName i
+condition SimpleName MethodInvocation MethodInvocation SimpleName append
+append SimpleName MethodInvocation MethodInvocation SimpleName append
+args SimpleName ArrayAccess MethodInvocation MethodInvocation SimpleName append
+i SimpleName ArrayAccess MethodInvocation MethodInvocation SimpleName append
+condition SimpleName MethodInvocation MethodInvocation StringLiteral =
+append SimpleName MethodInvocation MethodInvocation StringLiteral =
+args SimpleName ArrayAccess MethodInvocation MethodInvocation StringLiteral =
+i SimpleName ArrayAccess MethodInvocation MethodInvocation StringLiteral =
+append SimpleName MethodInvocation StringLiteral =
+i SimpleName InfixExpression NumberLiteral empty
+args SimpleName ArrayAccess InfixExpression SimpleName i
+args SimpleName ArrayAccess InfixExpression NumberLiteral empty
+condition SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName append
+append SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName append
+append SimpleName MethodInvocation MethodInvocation SimpleName append
+= StringLiteral MethodInvocation MethodInvocation SimpleName append
+append SimpleName MethodInvocation MethodInvocation ArrayAccess SimpleName args
+= StringLiteral MethodInvocation MethodInvocation ArrayAccess SimpleName args
+append SimpleName MethodInvocation ArrayAccess SimpleName args
+append SimpleName MethodInvocation ArrayAccess InfixExpression SimpleName i
+append SimpleName MethodInvocation ArrayAccess InfixExpression NumberLiteral empty
+append SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName append
+= StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName append
+append SimpleName MethodInvocation MethodInvocation SimpleName append
+args SimpleName ArrayAccess MethodInvocation MethodInvocation SimpleName append
+append SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral empty
+= StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral empty
+append SimpleName MethodInvocation MethodInvocation StringLiteral empty
+args SimpleName ArrayAccess MethodInvocation MethodInvocation StringLiteral empty
+append SimpleName MethodInvocation StringLiteral empty
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression QualifiedName argslength
+int PrimitiveType VariableDeclarationExpression ForStatement Assignment SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement Assignment NumberLiteral empty
+i SimpleName InfixExpression ForStatement Assignment SimpleName i
+i SimpleName InfixExpression ForStatement Assignment NumberLiteral empty
+argslength QualifiedName InfixExpression ForStatement Assignment SimpleName i
+argslength QualifiedName InfixExpression ForStatement Assignment NumberLiteral empty
+condition SimpleName MethodInvocation SimpleName to string
+private Modifier MethodDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SimpleName get condition string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName args
+string SimpleName SimpleType MethodDeclaration SimpleName get condition string
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName args
+get condition string SimpleName MethodDeclaration SingleVariableDeclaration SimpleName args
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName get condition string
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName args
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get condition string
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName args

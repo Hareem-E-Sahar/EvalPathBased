@@ -1,0 +1,37 @@
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+propertytserv majc delay QualifiedName MethodInvocation SimpleName get key
+conf SimpleName MethodInvocation SimpleName put
+conf SimpleName MethodInvocation MethodInvocation QualifiedName propertytserv majc delay
+conf SimpleName MethodInvocation MethodInvocation SimpleName get key
+conf SimpleName MethodInvocation StringLiteral empty
+put SimpleName MethodInvocation MethodInvocation QualifiedName propertytserv majc delay
+put SimpleName MethodInvocation MethodInvocation SimpleName get key
+put SimpleName MethodInvocation StringLiteral empty
+propertytserv majc delay QualifiedName MethodInvocation MethodInvocation StringLiteral empty
+get key SimpleName MethodInvocation MethodInvocation StringLiteral empty
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName get initial config
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName map
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName get initial config
+public Modifier MethodDeclaration Block ReturnStatement SimpleName conf
+map SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get initial config
+string SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get initial config
+string SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get initial config
+get initial config SimpleName MethodDeclaration Block ReturnStatement SimpleName conf
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName get initial config
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get initial config

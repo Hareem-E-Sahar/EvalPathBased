@@ -1,0 +1,51 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName type name
+string SimpleName SimpleType SingleVariableDeclaration SimpleName attribute name
+string SimpleName MethodInvocation SimpleName format
+string SimpleName MethodInvocation StringLiteral sss
+string SimpleName MethodInvocation QualifiedName constantsinternal property key prefix
+string SimpleName MethodInvocation SimpleName type name
+string SimpleName MethodInvocation SimpleName attribute name
+format SimpleName MethodInvocation StringLiteral sss
+format SimpleName MethodInvocation QualifiedName constantsinternal property key prefix
+format SimpleName MethodInvocation SimpleName type name
+format SimpleName MethodInvocation SimpleName attribute name
+sss StringLiteral MethodInvocation QualifiedName constantsinternal property key prefix
+sss StringLiteral MethodInvocation SimpleName type name
+sss StringLiteral MethodInvocation SimpleName attribute name
+constantsinternal property key prefix QualifiedName MethodInvocation SimpleName type name
+constantsinternal property key prefix QualifiedName MethodInvocation SimpleName attribute name
+type name SimpleName MethodInvocation SimpleName attribute name
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName get edge label
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName type name
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName attribute name
+static Modifier MethodDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SimpleName get edge label
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName type name
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName attribute name
+string SimpleName SimpleType MethodDeclaration SimpleName get edge label
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName type name
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName attribute name
+get edge label SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get edge label SimpleName MethodDeclaration SingleVariableDeclaration SimpleName type name
+get edge label SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get edge label SimpleName MethodDeclaration SingleVariableDeclaration SimpleName attribute name
+type name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attribute name
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName get edge label
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attribute name
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get edge label
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attribute name

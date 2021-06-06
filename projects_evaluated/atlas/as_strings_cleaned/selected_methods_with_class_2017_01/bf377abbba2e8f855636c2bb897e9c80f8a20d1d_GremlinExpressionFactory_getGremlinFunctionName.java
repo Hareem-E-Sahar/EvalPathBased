@@ -1,0 +1,43 @@
+atlas edge direction SimpleName SimpleType SingleVariableDeclaration SimpleName dir
+unknown atlas edge direction StringLiteral InfixExpression SimpleName dir
+runtime exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral unknown atlas edge direction
+runtime exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName dir
+dir SimpleName SwitchStatement SwitchCase SimpleName in
+dir SimpleName SwitchStatement ReturnStatement StringLiteral in
+dir SimpleName SwitchStatement SwitchCase SimpleName out
+dir SimpleName SwitchStatement ReturnStatement StringLiteral out
+dir SimpleName SwitchStatement SwitchCase SimpleName both
+in SimpleName SwitchCase SwitchStatement ReturnStatement StringLiteral in
+in SimpleName SwitchCase SwitchStatement SwitchCase SimpleName out
+in SimpleName SwitchCase SwitchStatement ReturnStatement StringLiteral out
+in SimpleName SwitchCase SwitchStatement SwitchCase SimpleName both
+in SimpleName SwitchCase SwitchStatement ReturnStatement StringLiteral both
+in StringLiteral ReturnStatement SwitchStatement SwitchCase SimpleName out
+in StringLiteral ReturnStatement SwitchStatement ReturnStatement StringLiteral out
+in StringLiteral ReturnStatement SwitchStatement SwitchCase SimpleName both
+in StringLiteral ReturnStatement SwitchStatement ReturnStatement StringLiteral both
+out SimpleName SwitchCase SwitchStatement ReturnStatement StringLiteral out
+out SimpleName SwitchCase SwitchStatement SwitchCase SimpleName both
+out SimpleName SwitchCase SwitchStatement ReturnStatement StringLiteral both
+out StringLiteral ReturnStatement SwitchStatement SwitchCase SimpleName both
+out StringLiteral ReturnStatement SwitchStatement ReturnStatement StringLiteral both
+both SimpleName SwitchCase SwitchStatement ReturnStatement StringLiteral both
+private Modifier MethodDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SimpleName get gremlin function name
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas edge direction
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName dir
+private Modifier MethodDeclaration Block SwitchStatement SimpleName dir
+string SimpleName SimpleType MethodDeclaration SimpleName get gremlin function name
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName dir
+get gremlin function name SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas edge direction
+get gremlin function name SimpleName MethodDeclaration SingleVariableDeclaration SimpleName dir
+get gremlin function name SimpleName MethodDeclaration Block SwitchStatement SimpleName dir
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName get gremlin function name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName dir
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get gremlin function name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName dir

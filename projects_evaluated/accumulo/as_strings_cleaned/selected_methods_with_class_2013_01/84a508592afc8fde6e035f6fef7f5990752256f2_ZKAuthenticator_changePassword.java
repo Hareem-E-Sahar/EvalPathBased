@@ -1,0 +1,160 @@
+accumulo token SimpleName SimpleType ParameterizedType WildcardType ?
+accumulo token SimpleName SimpleType ParameterizedType WildcardType ?
+? WildcardType ParameterizedType WildcardType ?
+accumulo token SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName token
+? WildcardType ParameterizedType SingleVariableDeclaration SimpleName token
+? WildcardType ParameterizedType SingleVariableDeclaration SimpleName token
+token SimpleName InstanceofExpression SimpleType SimpleName user pass token
+accumulo security exception SimpleName SimpleType ClassInstanceCreation StringLiteral zk authenticator doesnt take this token type
+accumulo security exception SimpleName SimpleType ClassInstanceCreation QualifiedName security error codeinvalid token
+zk authenticator doesnt take this token type StringLiteral ClassInstanceCreation QualifiedName security error codeinvalid token
+user pass token SimpleName SimpleType CastExpression SimpleName token
+upt SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName user pass token
+upt SimpleName VariableDeclarationFragment CastExpression SimpleName token
+user pass token SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName upt
+upt SimpleName MethodInvocation SimpleName get principal
+user exists SimpleName MethodInvocation MethodInvocation SimpleName upt
+user exists SimpleName MethodInvocation MethodInvocation SimpleName get principal
+upt SimpleName MethodInvocation SimpleName get principal
+zk user path SimpleName InfixExpression StringLiteral /
+zk user path SimpleName InfixExpression MethodInvocation SimpleName upt
+zk user path SimpleName InfixExpression MethodInvocation SimpleName get principal
+/ StringLiteral InfixExpression MethodInvocation SimpleName upt
+/ StringLiteral InfixExpression MethodInvocation SimpleName get principal
+zoo cache SimpleName MethodInvocation SimpleName clear
+zoo cache SimpleName MethodInvocation InfixExpression SimpleName zk user path
+zoo cache SimpleName MethodInvocation InfixExpression StringLiteral /
+zoo cache SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName upt
+zoo cache SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get principal
+clear SimpleName MethodInvocation InfixExpression SimpleName zk user path
+clear SimpleName MethodInvocation InfixExpression StringLiteral /
+clear SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName upt
+clear SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get principal
+zoo reader writer SimpleName MethodInvocation SimpleName get retrying instance
+upt SimpleName MethodInvocation SimpleName get principal
+zk user path SimpleName InfixExpression StringLiteral /
+zk user path SimpleName InfixExpression MethodInvocation SimpleName upt
+zk user path SimpleName InfixExpression MethodInvocation SimpleName get principal
+/ StringLiteral InfixExpression MethodInvocation SimpleName upt
+/ StringLiteral InfixExpression MethodInvocation SimpleName get principal
+upt SimpleName MethodInvocation SimpleName get password
+zk security tool SimpleName MethodInvocation SimpleName create pass
+zk security tool SimpleName MethodInvocation MethodInvocation SimpleName upt
+zk security tool SimpleName MethodInvocation MethodInvocation SimpleName get password
+create pass SimpleName MethodInvocation MethodInvocation SimpleName upt
+create pass SimpleName MethodInvocation MethodInvocation SimpleName get password
+zoo reader writer SimpleName MethodInvocation MethodInvocation SimpleName put private persistent data
+get retrying instance SimpleName MethodInvocation MethodInvocation SimpleName put private persistent data
+zoo reader writer SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName zk user path
+zoo reader writer SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral /
+get retrying instance SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName zk user path
+get retrying instance SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral /
+zoo reader writer SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName zk security tool
+zoo reader writer SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName create pass
+get retrying instance SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName zk security tool
+get retrying instance SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName create pass
+zoo reader writer SimpleName MethodInvocation MethodInvocation QualifiedName node exists policyoverwrite
+get retrying instance SimpleName MethodInvocation MethodInvocation QualifiedName node exists policyoverwrite
+put private persistent data SimpleName MethodInvocation InfixExpression SimpleName zk user path
+put private persistent data SimpleName MethodInvocation InfixExpression StringLiteral /
+put private persistent data SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName upt
+put private persistent data SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get principal
+put private persistent data SimpleName MethodInvocation MethodInvocation SimpleName zk security tool
+put private persistent data SimpleName MethodInvocation MethodInvocation SimpleName create pass
+put private persistent data SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName upt
+put private persistent data SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get password
+put private persistent data SimpleName MethodInvocation QualifiedName node exists policyoverwrite
+zk user path SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName zk security tool
+zk user path SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName create pass
+/ StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName zk security tool
+/ StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName create pass
+zk user path SimpleName InfixExpression MethodInvocation QualifiedName node exists policyoverwrite
+/ StringLiteral InfixExpression MethodInvocation QualifiedName node exists policyoverwrite
+upt SimpleName MethodInvocation InfixExpression MethodInvocation QualifiedName node exists policyoverwrite
+get principal SimpleName MethodInvocation InfixExpression MethodInvocation QualifiedName node exists policyoverwrite
+zk security tool SimpleName MethodInvocation MethodInvocation QualifiedName node exists policyoverwrite
+create pass SimpleName MethodInvocation MethodInvocation QualifiedName node exists policyoverwrite
+upt SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName node exists policyoverwrite
+get password SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName node exists policyoverwrite
+keeper exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation SimpleName e
+log SimpleName MethodInvocation SimpleName e
+error SimpleName MethodInvocation SimpleName e
+error SimpleName MethodInvocation SimpleName e
+e SimpleName MethodInvocation SimpleName e
+upt SimpleName MethodInvocation SimpleName get principal
+accumulo security exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName upt
+accumulo security exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get principal
+accumulo security exception SimpleName SimpleType ClassInstanceCreation QualifiedName security error codeconnection error
+accumulo security exception SimpleName SimpleType ClassInstanceCreation SimpleName e
+upt SimpleName MethodInvocation ClassInstanceCreation QualifiedName security error codeconnection error
+get principal SimpleName MethodInvocation ClassInstanceCreation QualifiedName security error codeconnection error
+upt SimpleName MethodInvocation ClassInstanceCreation SimpleName e
+get principal SimpleName MethodInvocation ClassInstanceCreation SimpleName e
+security error codeconnection error QualifiedName ClassInstanceCreation SimpleName e
+interrupted exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation SimpleName e
+log SimpleName MethodInvocation SimpleName e
+error SimpleName MethodInvocation SimpleName e
+error SimpleName MethodInvocation SimpleName e
+e SimpleName MethodInvocation SimpleName e
+runtime exception SimpleName SimpleType ClassInstanceCreation SimpleName e
+accumulo exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation SimpleName e
+log SimpleName MethodInvocation SimpleName e
+error SimpleName MethodInvocation SimpleName e
+error SimpleName MethodInvocation SimpleName e
+e SimpleName MethodInvocation SimpleName e
+upt SimpleName MethodInvocation SimpleName get principal
+accumulo security exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName upt
+accumulo security exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get principal
+accumulo security exception SimpleName SimpleType ClassInstanceCreation QualifiedName security error codedefault security error
+accumulo security exception SimpleName SimpleType ClassInstanceCreation SimpleName e
+upt SimpleName MethodInvocation ClassInstanceCreation QualifiedName security error codedefault security error
+get principal SimpleName MethodInvocation ClassInstanceCreation QualifiedName security error codedefault security error
+upt SimpleName MethodInvocation ClassInstanceCreation SimpleName e
+get principal SimpleName MethodInvocation ClassInstanceCreation SimpleName e
+security error codedefault security error QualifiedName ClassInstanceCreation SimpleName e
+upt SimpleName MethodInvocation SimpleName get principal
+accumulo security exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName upt
+accumulo security exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get principal
+accumulo security exception SimpleName SimpleType ClassInstanceCreation QualifiedName security error codeuser doesnt exist
+upt SimpleName MethodInvocation ClassInstanceCreation QualifiedName security error codeuser doesnt exist
+get principal SimpleName MethodInvocation ClassInstanceCreation QualifiedName security error codeuser doesnt exist
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName change password
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName token
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName accumulo security exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName change password
+public Modifier MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+public Modifier MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName token
+public Modifier MethodDeclaration SimpleType SimpleName accumulo security exception
+void PrimitiveType MethodDeclaration SimpleName change password
+void PrimitiveType MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+void PrimitiveType MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName token
+void PrimitiveType MethodDeclaration SimpleType SimpleName accumulo security exception
+change password SimpleName MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+change password SimpleName MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+change password SimpleName MethodDeclaration SingleVariableDeclaration SimpleName token
+change password SimpleName MethodDeclaration SimpleType SimpleName accumulo security exception
+token SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName change password
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName token
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName change password
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName token
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception

@@ -1,0 +1,24 @@
+atlas vertex query SimpleName SimpleType ParameterizedType SimpleType SimpleName titan vertex
+atlas vertex query SimpleName SimpleType ParameterizedType SimpleType SimpleName titan edge
+titan vertex SimpleName SimpleType ParameterizedType SimpleType SimpleName titan edge
+get as titan vertex SimpleName MethodInvocation MethodInvocation SimpleName query
+titan vertex query SimpleName SimpleType ClassInstanceCreation SimpleName graph
+titan vertex query SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName query
+graph SimpleName ClassInstanceCreation MethodInvocation MethodInvocation SimpleName get as titan vertex
+graph SimpleName ClassInstanceCreation MethodInvocation SimpleName query
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName query
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName atlas vertex query
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName titan vertex
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName titan edge
+public Modifier MethodDeclaration SimpleName query
+atlas vertex query SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName query
+titan vertex SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName query
+titan edge SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName query
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName query
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName query

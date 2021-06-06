@@ -1,0 +1,146 @@
+path SimpleName SingleMemberAnnotation StringLiteral typedefs
+consumes SimpleName SingleMemberAnnotation QualifiedName servletsjson media type
+produces SimpleName SingleMemberAnnotation QualifiedName servletsjson media type
+final Modifier SingleVariableDeclaration SimpleType SimpleName atlas types def
+final Modifier SingleVariableDeclaration SimpleName types def
+atlas types def SimpleName SimpleType SingleVariableDeclaration SimpleName types def
+atlas perf tracer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName perf
+atlas perf tracer SimpleName MethodInvocation SimpleName is perf trace enabled
+atlas perf tracer SimpleName MethodInvocation SimpleName perf log
+is perf trace enabled SimpleName MethodInvocation SimpleName perf log
+atlas type util SimpleName MethodInvocation SimpleName to debug string
+atlas type util SimpleName MethodInvocation SimpleName types def
+to debug string SimpleName MethodInvocation SimpleName types def
+types restupdate atlas type defs StringLiteral InfixExpression MethodInvocation SimpleName atlas type util
+types restupdate atlas type defs StringLiteral InfixExpression MethodInvocation SimpleName to debug string
+types restupdate atlas type defs StringLiteral InfixExpression MethodInvocation SimpleName types def
+types restupdate atlas type defs StringLiteral InfixExpression StringLiteral )
+atlas type util SimpleName MethodInvocation InfixExpression StringLiteral )
+to debug string SimpleName MethodInvocation InfixExpression StringLiteral )
+types def SimpleName MethodInvocation InfixExpression StringLiteral )
+atlas perf tracer SimpleName MethodInvocation SimpleName get perf tracer
+atlas perf tracer SimpleName MethodInvocation SimpleName perf log
+atlas perf tracer SimpleName MethodInvocation InfixExpression StringLiteral types restupdate atlas type defs
+atlas perf tracer SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName atlas type util
+atlas perf tracer SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName to debug string
+atlas perf tracer SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName types def
+atlas perf tracer SimpleName MethodInvocation InfixExpression StringLiteral )
+get perf tracer SimpleName MethodInvocation SimpleName perf log
+get perf tracer SimpleName MethodInvocation InfixExpression StringLiteral types restupdate atlas type defs
+get perf tracer SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName atlas type util
+get perf tracer SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName to debug string
+get perf tracer SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName types def
+get perf tracer SimpleName MethodInvocation InfixExpression StringLiteral )
+perf log SimpleName MethodInvocation InfixExpression StringLiteral types restupdate atlas type defs
+perf log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName atlas type util
+perf log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName to debug string
+perf log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName types def
+perf log SimpleName MethodInvocation InfixExpression StringLiteral )
+perf SimpleName Assignment MethodInvocation SimpleName atlas perf tracer
+perf SimpleName Assignment MethodInvocation SimpleName get perf tracer
+perf SimpleName Assignment MethodInvocation SimpleName perf log
+perf SimpleName Assignment MethodInvocation InfixExpression StringLiteral types restupdate atlas type defs
+perf SimpleName Assignment MethodInvocation InfixExpression StringLiteral )
+type def store SimpleName MethodInvocation SimpleName update types def
+type def store SimpleName MethodInvocation SimpleName types def
+update types def SimpleName MethodInvocation SimpleName types def
+atlas perf tracer SimpleName MethodInvocation SimpleName log
+atlas perf tracer SimpleName MethodInvocation SimpleName perf
+log SimpleName MethodInvocation SimpleName perf
+put SimpleName MarkerAnnotation MethodDeclaration SingleMemberAnnotation SimpleName path
+put SimpleName MarkerAnnotation MethodDeclaration SingleMemberAnnotation StringLiteral typedefs
+put SimpleName MarkerAnnotation MethodDeclaration SingleMemberAnnotation SimpleName consumes
+put SimpleName MarkerAnnotation MethodDeclaration SingleMemberAnnotation QualifiedName servletsjson media type
+put SimpleName MarkerAnnotation MethodDeclaration SingleMemberAnnotation SimpleName produces
+put SimpleName MarkerAnnotation MethodDeclaration SingleMemberAnnotation QualifiedName servletsjson media type
+put SimpleName MarkerAnnotation MethodDeclaration MarkerAnnotation SimpleName experimental
+put SimpleName MarkerAnnotation MethodDeclaration Modifier public
+path SimpleName SingleMemberAnnotation MethodDeclaration SingleMemberAnnotation SimpleName consumes
+path SimpleName SingleMemberAnnotation MethodDeclaration SingleMemberAnnotation QualifiedName servletsjson media type
+typedefs StringLiteral SingleMemberAnnotation MethodDeclaration SingleMemberAnnotation SimpleName consumes
+typedefs StringLiteral SingleMemberAnnotation MethodDeclaration SingleMemberAnnotation QualifiedName servletsjson media type
+path SimpleName SingleMemberAnnotation MethodDeclaration SingleMemberAnnotation SimpleName produces
+path SimpleName SingleMemberAnnotation MethodDeclaration SingleMemberAnnotation QualifiedName servletsjson media type
+typedefs StringLiteral SingleMemberAnnotation MethodDeclaration SingleMemberAnnotation SimpleName produces
+typedefs StringLiteral SingleMemberAnnotation MethodDeclaration SingleMemberAnnotation QualifiedName servletsjson media type
+path SimpleName SingleMemberAnnotation MethodDeclaration MarkerAnnotation SimpleName experimental
+typedefs StringLiteral SingleMemberAnnotation MethodDeclaration MarkerAnnotation SimpleName experimental
+path SimpleName SingleMemberAnnotation MethodDeclaration Modifier public
+typedefs StringLiteral SingleMemberAnnotation MethodDeclaration Modifier public
+path SimpleName SingleMemberAnnotation MethodDeclaration SimpleType SimpleName atlas types def
+typedefs StringLiteral SingleMemberAnnotation MethodDeclaration SimpleType SimpleName atlas types def
+consumes SimpleName SingleMemberAnnotation MethodDeclaration SingleMemberAnnotation SimpleName produces
+consumes SimpleName SingleMemberAnnotation MethodDeclaration SingleMemberAnnotation QualifiedName servletsjson media type
+servletsjson media type QualifiedName SingleMemberAnnotation MethodDeclaration SingleMemberAnnotation SimpleName produces
+servletsjson media type QualifiedName SingleMemberAnnotation MethodDeclaration SingleMemberAnnotation QualifiedName servletsjson media type
+consumes SimpleName SingleMemberAnnotation MethodDeclaration MarkerAnnotation SimpleName experimental
+servletsjson media type QualifiedName SingleMemberAnnotation MethodDeclaration MarkerAnnotation SimpleName experimental
+consumes SimpleName SingleMemberAnnotation MethodDeclaration Modifier public
+servletsjson media type QualifiedName SingleMemberAnnotation MethodDeclaration Modifier public
+consumes SimpleName SingleMemberAnnotation MethodDeclaration SimpleType SimpleName atlas types def
+servletsjson media type QualifiedName SingleMemberAnnotation MethodDeclaration SimpleType SimpleName atlas types def
+consumes SimpleName SingleMemberAnnotation MethodDeclaration SimpleName update atlas type defs
+servletsjson media type QualifiedName SingleMemberAnnotation MethodDeclaration SimpleName update atlas type defs
+produces SimpleName SingleMemberAnnotation MethodDeclaration MarkerAnnotation SimpleName experimental
+servletsjson media type QualifiedName SingleMemberAnnotation MethodDeclaration MarkerAnnotation SimpleName experimental
+produces SimpleName SingleMemberAnnotation MethodDeclaration Modifier public
+servletsjson media type QualifiedName SingleMemberAnnotation MethodDeclaration Modifier public
+produces SimpleName SingleMemberAnnotation MethodDeclaration SimpleType SimpleName atlas types def
+servletsjson media type QualifiedName SingleMemberAnnotation MethodDeclaration SimpleType SimpleName atlas types def
+produces SimpleName SingleMemberAnnotation MethodDeclaration SimpleName update atlas type defs
+servletsjson media type QualifiedName SingleMemberAnnotation MethodDeclaration SimpleName update atlas type defs
+produces SimpleName SingleMemberAnnotation MethodDeclaration SingleVariableDeclaration Modifier final
+produces SimpleName SingleMemberAnnotation MethodDeclaration SingleVariableDeclaration SimpleName types def
+servletsjson media type QualifiedName SingleMemberAnnotation MethodDeclaration SingleVariableDeclaration Modifier final
+servletsjson media type QualifiedName SingleMemberAnnotation MethodDeclaration SingleVariableDeclaration SimpleName types def
+experimental SimpleName MarkerAnnotation MethodDeclaration Modifier public
+experimental SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName atlas types def
+experimental SimpleName MarkerAnnotation MethodDeclaration SimpleName update atlas type defs
+experimental SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration Modifier final
+experimental SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName types def
+experimental SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier MethodDeclaration SimpleType SimpleName atlas types def
+public Modifier MethodDeclaration SimpleName update atlas type defs
+public Modifier MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas types def
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName types def
+public Modifier MethodDeclaration SimpleType SimpleName atlas base exception
+atlas types def SimpleName SimpleType MethodDeclaration SimpleName update atlas type defs
+atlas types def SimpleName SimpleType MethodDeclaration SingleVariableDeclaration Modifier final
+atlas types def SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName types def
+atlas types def SimpleName SimpleType MethodDeclaration SimpleType SimpleName atlas base exception
+update atlas type defs SimpleName MethodDeclaration SingleVariableDeclaration Modifier final
+update atlas type defs SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas types def
+update atlas type defs SimpleName MethodDeclaration SingleVariableDeclaration SimpleName types def
+update atlas type defs SimpleName MethodDeclaration SimpleType SimpleName atlas base exception
+final Modifier SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+types def SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName put
+public Modifier TypeDeclaration MethodDeclaration SingleMemberAnnotation SimpleName path
+public Modifier TypeDeclaration MethodDeclaration SingleMemberAnnotation StringLiteral typedefs
+public Modifier TypeDeclaration MethodDeclaration SingleMemberAnnotation SimpleName consumes
+public Modifier TypeDeclaration MethodDeclaration SingleMemberAnnotation QualifiedName servletsjson media type
+public Modifier TypeDeclaration MethodDeclaration SingleMemberAnnotation SimpleName produces
+public Modifier TypeDeclaration MethodDeclaration SingleMemberAnnotation QualifiedName servletsjson media type
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName experimental
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas types def
+public Modifier TypeDeclaration MethodDeclaration SimpleName update atlas type defs
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName types def
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName put
+test SimpleName TypeDeclaration MethodDeclaration SingleMemberAnnotation SimpleName path
+test SimpleName TypeDeclaration MethodDeclaration SingleMemberAnnotation StringLiteral typedefs
+test SimpleName TypeDeclaration MethodDeclaration SingleMemberAnnotation SimpleName consumes
+test SimpleName TypeDeclaration MethodDeclaration SingleMemberAnnotation QualifiedName servletsjson media type
+test SimpleName TypeDeclaration MethodDeclaration SingleMemberAnnotation SimpleName produces
+test SimpleName TypeDeclaration MethodDeclaration SingleMemberAnnotation QualifiedName servletsjson media type
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName experimental
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas types def
+test SimpleName TypeDeclaration MethodDeclaration SimpleName update atlas type defs
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName types def
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception

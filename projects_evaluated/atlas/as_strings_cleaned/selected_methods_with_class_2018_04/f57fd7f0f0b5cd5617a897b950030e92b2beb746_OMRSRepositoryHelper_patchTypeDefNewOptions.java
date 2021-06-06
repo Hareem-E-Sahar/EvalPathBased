@@ -1,0 +1,37 @@
+type def SimpleName SimpleType SingleVariableDeclaration SimpleName cloned type def
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName type def options
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName type def options
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName type def options
+private Modifier MethodDeclaration SimpleType SimpleName type def
+private Modifier MethodDeclaration SimpleName patch type def new options
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName type def
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName cloned type def
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName type def options
+private Modifier MethodDeclaration SimpleType SimpleName patch error exception
+type def SimpleName SimpleType MethodDeclaration SimpleName patch type def new options
+type def SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName cloned type def
+type def SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName type def options
+type def SimpleName SimpleType MethodDeclaration SimpleType SimpleName patch error exception
+patch type def new options SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName type def
+patch type def new options SimpleName MethodDeclaration SingleVariableDeclaration SimpleName cloned type def
+patch type def new options SimpleName MethodDeclaration SingleVariableDeclaration SimpleName type def options
+patch type def new options SimpleName MethodDeclaration SimpleType SimpleName patch error exception
+cloned type def SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type def options
+cloned type def SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName patch error exception
+type def options SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName patch error exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName type def
+public Modifier TypeDeclaration MethodDeclaration SimpleName patch type def new options
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cloned type def
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type def options
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName patch error exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName type def
+test SimpleName TypeDeclaration MethodDeclaration SimpleName patch type def new options
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cloned type def
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type def options
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName patch error exception

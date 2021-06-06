@@ -1,0 +1,112 @@
+t credentials SimpleName SimpleType SingleVariableDeclaration SimpleName c
+string SimpleName SimpleType SingleVariableDeclaration SimpleName table id
+string SimpleName SimpleType SingleVariableDeclaration SimpleName table name
+text SimpleName SimpleType SingleVariableDeclaration SimpleName start row
+text SimpleName SimpleType SingleVariableDeclaration SimpleName end row
+authenticate SimpleName MethodInvocation SimpleName c
+has system permission with table id SimpleName MethodInvocation SimpleName c
+has system permission with table id SimpleName MethodInvocation QualifiedName system permissionsystem
+has system permission with table id SimpleName MethodInvocation SimpleName table id
+has system permission with table id SimpleName MethodInvocation BooleanLiteral false
+c SimpleName MethodInvocation QualifiedName system permissionsystem
+c SimpleName MethodInvocation SimpleName table id
+c SimpleName MethodInvocation BooleanLiteral false
+system permissionsystem QualifiedName MethodInvocation SimpleName table id
+system permissionsystem QualifiedName MethodInvocation BooleanLiteral false
+table id SimpleName MethodInvocation BooleanLiteral false
+has table permission SimpleName MethodInvocation SimpleName c
+has table permission SimpleName MethodInvocation SimpleName table id
+has table permission SimpleName MethodInvocation QualifiedName table permissionwrite
+has table permission SimpleName MethodInvocation BooleanLiteral false
+c SimpleName MethodInvocation SimpleName table id
+c SimpleName MethodInvocation QualifiedName table permissionwrite
+c SimpleName MethodInvocation BooleanLiteral false
+table id SimpleName MethodInvocation QualifiedName table permissionwrite
+table id SimpleName MethodInvocation BooleanLiteral false
+table permissionwrite QualifiedName MethodInvocation BooleanLiteral false
+has system permission with table id SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName has table permission
+has system permission with table id SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName c
+has system permission with table id SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName table id
+has system permission with table id SimpleName MethodInvocation InfixExpression MethodInvocation QualifiedName table permissionwrite
+has system permission with table id SimpleName MethodInvocation InfixExpression MethodInvocation BooleanLiteral false
+c SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName has table permission
+c SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName c
+c SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName table id
+c SimpleName MethodInvocation InfixExpression MethodInvocation QualifiedName table permissionwrite
+c SimpleName MethodInvocation InfixExpression MethodInvocation BooleanLiteral false
+system permissionsystem QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName has table permission
+system permissionsystem QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName c
+system permissionsystem QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName table id
+system permissionsystem QualifiedName MethodInvocation InfixExpression MethodInvocation QualifiedName table permissionwrite
+system permissionsystem QualifiedName MethodInvocation InfixExpression MethodInvocation BooleanLiteral false
+table id SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName has table permission
+table id SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName c
+table id SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName table id
+table id SimpleName MethodInvocation InfixExpression MethodInvocation QualifiedName table permissionwrite
+table id SimpleName MethodInvocation InfixExpression MethodInvocation BooleanLiteral false
+false BooleanLiteral MethodInvocation InfixExpression MethodInvocation SimpleName has table permission
+false BooleanLiteral MethodInvocation InfixExpression MethodInvocation SimpleName c
+false BooleanLiteral MethodInvocation InfixExpression MethodInvocation SimpleName table id
+false BooleanLiteral MethodInvocation InfixExpression MethodInvocation QualifiedName table permissionwrite
+false BooleanLiteral MethodInvocation InfixExpression MethodInvocation BooleanLiteral false
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName can delete range
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName t credentials
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName c
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName table id
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName table name
+boolean PrimitiveType MethodDeclaration SimpleName can delete range
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName t credentials
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName c
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName table id
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName table name
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName text
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName start row
+can delete range SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName t credentials
+can delete range SimpleName MethodDeclaration SingleVariableDeclaration SimpleName c
+can delete range SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+can delete range SimpleName MethodDeclaration SingleVariableDeclaration SimpleName table id
+can delete range SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+can delete range SimpleName MethodDeclaration SingleVariableDeclaration SimpleName table name
+can delete range SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName text
+can delete range SimpleName MethodDeclaration SingleVariableDeclaration SimpleName start row
+can delete range SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName text
+can delete range SimpleName MethodDeclaration SingleVariableDeclaration SimpleName end row
+c SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table id
+c SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table name
+c SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName start row
+c SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName end row
+c SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName thrift security exception
+table id SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table name
+table id SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName start row
+table id SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName end row
+table id SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName thrift security exception
+table name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName start row
+table name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName end row
+table name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName thrift security exception
+start row SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName end row
+start row SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName thrift security exception
+end row SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName thrift security exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName can delete range
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName c
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table id
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName start row
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName end row
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName thrift security exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName can delete range
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName c
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table id
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName start row
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName end row
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName thrift security exception

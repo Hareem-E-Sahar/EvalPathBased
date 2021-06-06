@@ -1,0 +1,244 @@
+atlas vertex SimpleName SimpleType SingleVariableDeclaration SimpleName instance vertex
+boolean PrimitiveType SingleVariableDeclaration SimpleName force
+log SimpleName MethodInvocation SimpleName is debug enabled
+string SimpleName MethodInvocation SimpleName instance vertex
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral deleting {} force
+log SimpleName MethodInvocation MethodInvocation SimpleName string
+log SimpleName MethodInvocation MethodInvocation SimpleName instance vertex
+log SimpleName MethodInvocation SimpleName force
+debug SimpleName MethodInvocation StringLiteral deleting {} force
+debug SimpleName MethodInvocation MethodInvocation SimpleName string
+debug SimpleName MethodInvocation MethodInvocation SimpleName instance vertex
+debug SimpleName MethodInvocation SimpleName force
+deleting {} force StringLiteral MethodInvocation MethodInvocation SimpleName string
+deleting {} force StringLiteral MethodInvocation MethodInvocation SimpleName instance vertex
+deleting {} force StringLiteral MethodInvocation SimpleName force
+string SimpleName MethodInvocation MethodInvocation SimpleName force
+instance vertex SimpleName MethodInvocation MethodInvocation SimpleName force
+graph helper SimpleName MethodInvocation SimpleName get type name
+graph helper SimpleName MethodInvocation SimpleName instance vertex
+get type name SimpleName MethodInvocation SimpleName instance vertex
+type name SimpleName VariableDeclarationFragment MethodInvocation SimpleName graph helper
+type name SimpleName VariableDeclarationFragment MethodInvocation SimpleName get type name
+type name SimpleName VariableDeclarationFragment MethodInvocation SimpleName instance vertex
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName type name
+type registry SimpleName MethodInvocation SimpleName get type
+type registry SimpleName MethodInvocation SimpleName type name
+get type SimpleName MethodInvocation SimpleName type name
+parent type SimpleName VariableDeclarationFragment MethodInvocation SimpleName type registry
+parent type SimpleName VariableDeclarationFragment MethodInvocation SimpleName get type
+parent type SimpleName VariableDeclarationFragment MethodInvocation SimpleName type name
+atlas type SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName parent type
+parent type SimpleName InstanceofExpression SimpleType SimpleName atlas struct type
+atlas struct type SimpleName SimpleType CastExpression SimpleName parent type
+struct type SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName atlas struct type
+struct type SimpleName VariableDeclarationFragment CastExpression SimpleName parent type
+atlas struct type SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName struct type
+parent type SimpleName InstanceofExpression SimpleType SimpleName atlas entity type
+is entity type SimpleName VariableDeclarationFragment ParenthesizedExpression InstanceofExpression SimpleName parent type
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName is entity type
+atlas struct typeatlas attribute QualifiedName SimpleType SingleVariableDeclaration SimpleName attribute info
+struct type SimpleName MethodInvocation SimpleName get all attributes
+struct type SimpleName MethodInvocation MethodInvocation SimpleName values
+get all attributes SimpleName MethodInvocation MethodInvocation SimpleName values
+log SimpleName MethodInvocation SimpleName is debug enabled
+attribute info SimpleName MethodInvocation SimpleName get name
+string SimpleName MethodInvocation SimpleName instance vertex
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral deleting attribute {} for {}
+log SimpleName MethodInvocation MethodInvocation SimpleName attribute info
+log SimpleName MethodInvocation MethodInvocation SimpleName get name
+log SimpleName MethodInvocation MethodInvocation SimpleName string
+log SimpleName MethodInvocation MethodInvocation SimpleName instance vertex
+debug SimpleName MethodInvocation StringLiteral deleting attribute {} for {}
+debug SimpleName MethodInvocation MethodInvocation SimpleName attribute info
+debug SimpleName MethodInvocation MethodInvocation SimpleName get name
+debug SimpleName MethodInvocation MethodInvocation SimpleName string
+debug SimpleName MethodInvocation MethodInvocation SimpleName instance vertex
+deleting attribute {} for {} StringLiteral MethodInvocation MethodInvocation SimpleName attribute info
+deleting attribute {} for {} StringLiteral MethodInvocation MethodInvocation SimpleName get name
+deleting attribute {} for {} StringLiteral MethodInvocation MethodInvocation SimpleName string
+deleting attribute {} for {} StringLiteral MethodInvocation MethodInvocation SimpleName instance vertex
+attribute info SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName string
+attribute info SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName instance vertex
+get name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName string
+get name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName instance vertex
+attribute info SimpleName MethodInvocation SimpleName is owned ref
+is entity type SimpleName InfixExpression MethodInvocation SimpleName attribute info
+is entity type SimpleName InfixExpression MethodInvocation SimpleName is owned ref
+is owned SimpleName VariableDeclarationFragment InfixExpression SimpleName is entity type
+is owned SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName attribute info
+is owned SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName is owned ref
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName is owned
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment InfixExpression SimpleName is entity type
+attribute info SimpleName MethodInvocation SimpleName get attribute type
+attr type SimpleName VariableDeclarationFragment MethodInvocation SimpleName attribute info
+attr type SimpleName VariableDeclarationFragment MethodInvocation SimpleName get attribute type
+atlas type SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName attr type
+attribute info SimpleName MethodInvocation SimpleName get relationship edge label
+edge label SimpleName VariableDeclarationFragment MethodInvocation SimpleName attribute info
+edge label SimpleName VariableDeclarationFragment MethodInvocation SimpleName get relationship edge label
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName edge label
+attr type SimpleName MethodInvocation SimpleName get type category
+attr type SimpleName MethodInvocation SimpleName get type category
+delete edge reference SimpleName MethodInvocation SimpleName instance vertex
+delete edge reference SimpleName MethodInvocation SimpleName edge label
+delete edge reference SimpleName MethodInvocation MethodInvocation SimpleName attr type
+delete edge reference SimpleName MethodInvocation MethodInvocation SimpleName get type category
+delete edge reference SimpleName MethodInvocation SimpleName is owned
+instance vertex SimpleName MethodInvocation SimpleName edge label
+instance vertex SimpleName MethodInvocation MethodInvocation SimpleName attr type
+instance vertex SimpleName MethodInvocation MethodInvocation SimpleName get type category
+instance vertex SimpleName MethodInvocation SimpleName is owned
+edge label SimpleName MethodInvocation MethodInvocation SimpleName attr type
+edge label SimpleName MethodInvocation MethodInvocation SimpleName get type category
+edge label SimpleName MethodInvocation SimpleName is owned
+attr type SimpleName MethodInvocation MethodInvocation SimpleName is owned
+get type category SimpleName MethodInvocation MethodInvocation SimpleName is owned
+attr type SimpleName MethodInvocation SimpleName get type category
+delete edge reference SimpleName MethodInvocation SimpleName instance vertex
+delete edge reference SimpleName MethodInvocation SimpleName edge label
+delete edge reference SimpleName MethodInvocation MethodInvocation SimpleName attr type
+delete edge reference SimpleName MethodInvocation MethodInvocation SimpleName get type category
+delete edge reference SimpleName MethodInvocation BooleanLiteral false
+instance vertex SimpleName MethodInvocation SimpleName edge label
+instance vertex SimpleName MethodInvocation MethodInvocation SimpleName attr type
+instance vertex SimpleName MethodInvocation MethodInvocation SimpleName get type category
+instance vertex SimpleName MethodInvocation BooleanLiteral false
+edge label SimpleName MethodInvocation MethodInvocation SimpleName attr type
+edge label SimpleName MethodInvocation MethodInvocation SimpleName get type category
+edge label SimpleName MethodInvocation BooleanLiteral false
+attr type SimpleName MethodInvocation MethodInvocation BooleanLiteral false
+get type category SimpleName MethodInvocation MethodInvocation BooleanLiteral false
+atlas array type SimpleName SimpleType CastExpression SimpleName attr type
+arr type SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName atlas array type
+arr type SimpleName VariableDeclarationFragment CastExpression SimpleName attr type
+atlas array type SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName arr type
+arr type SimpleName MethodInvocation SimpleName get element type
+elem type SimpleName VariableDeclarationFragment MethodInvocation SimpleName arr type
+elem type SimpleName VariableDeclarationFragment MethodInvocation SimpleName get element type
+atlas type SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName elem type
+elem type SimpleName MethodInvocation SimpleName get type category
+is reference SimpleName MethodInvocation MethodInvocation SimpleName elem type
+is reference SimpleName MethodInvocation MethodInvocation SimpleName get type category
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas edge
+get collection elements using relationship SimpleName MethodInvocation SimpleName instance vertex
+get collection elements using relationship SimpleName MethodInvocation SimpleName attribute info
+instance vertex SimpleName MethodInvocation SimpleName attribute info
+edges SimpleName VariableDeclarationFragment MethodInvocation SimpleName get collection elements using relationship
+edges SimpleName VariableDeclarationFragment MethodInvocation SimpleName instance vertex
+edges SimpleName VariableDeclarationFragment MethodInvocation SimpleName attribute info
+collection utils SimpleName MethodInvocation SimpleName is not empty
+collection utils SimpleName MethodInvocation SimpleName edges
+is not empty SimpleName MethodInvocation SimpleName edges
+atlas edge SimpleName SimpleType SingleVariableDeclaration SimpleName edge
+elem type SimpleName MethodInvocation SimpleName get type category
+delete edge reference SimpleName MethodInvocation SimpleName edge
+delete edge reference SimpleName MethodInvocation MethodInvocation SimpleName elem type
+delete edge reference SimpleName MethodInvocation MethodInvocation SimpleName get type category
+delete edge reference SimpleName MethodInvocation SimpleName is owned
+delete edge reference SimpleName MethodInvocation BooleanLiteral false
+delete edge reference SimpleName MethodInvocation SimpleName instance vertex
+edge SimpleName MethodInvocation MethodInvocation SimpleName elem type
+edge SimpleName MethodInvocation MethodInvocation SimpleName get type category
+edge SimpleName MethodInvocation SimpleName is owned
+edge SimpleName MethodInvocation BooleanLiteral false
+edge SimpleName MethodInvocation SimpleName instance vertex
+elem type SimpleName MethodInvocation MethodInvocation SimpleName is owned
+get type category SimpleName MethodInvocation MethodInvocation SimpleName is owned
+elem type SimpleName MethodInvocation MethodInvocation BooleanLiteral false
+get type category SimpleName MethodInvocation MethodInvocation BooleanLiteral false
+elem type SimpleName MethodInvocation MethodInvocation SimpleName instance vertex
+get type category SimpleName MethodInvocation MethodInvocation SimpleName instance vertex
+is owned SimpleName MethodInvocation BooleanLiteral false
+is owned SimpleName MethodInvocation SimpleName instance vertex
+false BooleanLiteral MethodInvocation SimpleName instance vertex
+atlas edge SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName edges
+edge SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName edges
+atlas map type SimpleName SimpleType CastExpression SimpleName attr type
+map type SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName atlas map type
+map type SimpleName VariableDeclarationFragment CastExpression SimpleName attr type
+atlas map type SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName map type
+map type SimpleName MethodInvocation SimpleName get value type
+map type SimpleName MethodInvocation MethodInvocation SimpleName get type category
+get value type SimpleName MethodInvocation MethodInvocation SimpleName get type category
+value type category SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName map type
+value type category SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get value type
+value type category SimpleName VariableDeclarationFragment MethodInvocation SimpleName get type category
+type category SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName value type category
+is reference SimpleName MethodInvocation SimpleName value type category
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas edge
+get map values using relationship SimpleName MethodInvocation SimpleName instance vertex
+get map values using relationship SimpleName MethodInvocation SimpleName attribute info
+instance vertex SimpleName MethodInvocation SimpleName attribute info
+edges SimpleName VariableDeclarationFragment MethodInvocation SimpleName get map values using relationship
+edges SimpleName VariableDeclarationFragment MethodInvocation SimpleName instance vertex
+edges SimpleName VariableDeclarationFragment MethodInvocation SimpleName attribute info
+atlas edge SimpleName SimpleType SingleVariableDeclaration SimpleName edge
+delete edge reference SimpleName MethodInvocation SimpleName edge
+delete edge reference SimpleName MethodInvocation SimpleName value type category
+delete edge reference SimpleName MethodInvocation SimpleName is owned
+delete edge reference SimpleName MethodInvocation BooleanLiteral false
+delete edge reference SimpleName MethodInvocation SimpleName instance vertex
+edge SimpleName MethodInvocation SimpleName value type category
+edge SimpleName MethodInvocation SimpleName is owned
+edge SimpleName MethodInvocation BooleanLiteral false
+edge SimpleName MethodInvocation SimpleName instance vertex
+value type category SimpleName MethodInvocation SimpleName is owned
+value type category SimpleName MethodInvocation BooleanLiteral false
+value type category SimpleName MethodInvocation SimpleName instance vertex
+is owned SimpleName MethodInvocation BooleanLiteral false
+is owned SimpleName MethodInvocation SimpleName instance vertex
+false BooleanLiteral MethodInvocation SimpleName instance vertex
+atlas edge SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName edges
+edge SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName edges
+attr type SimpleName MethodInvocation SwitchStatement SwitchCase SimpleName object id type
+get type category SimpleName MethodInvocation SwitchStatement SwitchCase SimpleName object id type
+attr type SimpleName MethodInvocation SwitchStatement SwitchCase SimpleName struct
+get type category SimpleName MethodInvocation SwitchStatement SwitchCase SimpleName struct
+object id type SimpleName SwitchCase SwitchStatement SwitchCase SimpleName struct
+struct SimpleName SwitchCase SwitchStatement SwitchCase SimpleName array
+array SimpleName SwitchCase SwitchStatement SwitchCase SimpleName map
+attribute info SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName values
+delete vertex SimpleName MethodInvocation SimpleName instance vertex
+delete vertex SimpleName MethodInvocation SimpleName force
+instance vertex SimpleName MethodInvocation SimpleName force
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName delete type vertex
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas vertex
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName instance vertex
+protected Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName force
+protected Modifier MethodDeclaration SimpleType SimpleName atlas base exception
+void PrimitiveType MethodDeclaration SimpleName delete type vertex
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas vertex
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName instance vertex
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName force
+void PrimitiveType MethodDeclaration SimpleType SimpleName atlas base exception
+delete type vertex SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas vertex
+delete type vertex SimpleName MethodDeclaration SingleVariableDeclaration SimpleName instance vertex
+delete type vertex SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+delete type vertex SimpleName MethodDeclaration SingleVariableDeclaration SimpleName force
+delete type vertex SimpleName MethodDeclaration SimpleType SimpleName atlas base exception
+instance vertex SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+instance vertex SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName force
+instance vertex SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+boolean PrimitiveType SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+force SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName delete type vertex
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName instance vertex
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName force
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName delete type vertex
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName instance vertex
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName force
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception

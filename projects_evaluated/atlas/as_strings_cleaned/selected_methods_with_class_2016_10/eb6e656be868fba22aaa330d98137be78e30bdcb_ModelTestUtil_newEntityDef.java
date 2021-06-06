@@ -1,0 +1,89 @@
+atlas type registry SimpleName SimpleType SingleVariableDeclaration SimpleName types registry
+atlas entity def SimpleName SimpleType ArrayType SingleVariableDeclaration SimpleName super types
+idx entity def SimpleName MethodInvocation SimpleName get and increment
+ent def idx SimpleName VariableDeclarationFragment MethodInvocation SimpleName idx entity def
+ent def idx SimpleName VariableDeclarationFragment MethodInvocation SimpleName get and increment
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName ent def idx
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName idx entity def
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get and increment
+ret SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName atlas entity def
+atlas entity def SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ret
+prefix entity def SimpleName InfixExpression SimpleName ent def idx
+ret SimpleName MethodInvocation SimpleName set name
+ret SimpleName MethodInvocation InfixExpression SimpleName prefix entity def
+ret SimpleName MethodInvocation InfixExpression SimpleName ent def idx
+set name SimpleName MethodInvocation InfixExpression SimpleName prefix entity def
+set name SimpleName MethodInvocation InfixExpression SimpleName ent def idx
+ret SimpleName MethodInvocation SimpleName get name
+ret SimpleName MethodInvocation SimpleName set description
+ret SimpleName MethodInvocation MethodInvocation SimpleName ret
+ret SimpleName MethodInvocation MethodInvocation SimpleName get name
+set description SimpleName MethodInvocation MethodInvocation SimpleName ret
+set description SimpleName MethodInvocation MethodInvocation SimpleName get name
+new attribute defs with all built in types SimpleName MethodInvocation SimpleName prefix attribute name
+ret SimpleName MethodInvocation SimpleName set attribute defs
+ret SimpleName MethodInvocation MethodInvocation SimpleName new attribute defs with all built in types
+ret SimpleName MethodInvocation MethodInvocation SimpleName prefix attribute name
+set attribute defs SimpleName MethodInvocation MethodInvocation SimpleName new attribute defs with all built in types
+set attribute defs SimpleName MethodInvocation MethodInvocation SimpleName prefix attribute name
+atlas entity def SimpleName SimpleType SingleVariableDeclaration SimpleName super type
+super type SimpleName MethodInvocation SimpleName get name
+ret SimpleName MethodInvocation SimpleName add super type
+ret SimpleName MethodInvocation MethodInvocation SimpleName super type
+ret SimpleName MethodInvocation MethodInvocation SimpleName get name
+add super type SimpleName MethodInvocation MethodInvocation SimpleName super type
+add super type SimpleName MethodInvocation MethodInvocation SimpleName get name
+atlas entity def SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName super types
+super type SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName super types
+types registry SimpleName MethodInvocation SimpleName create transient type registry
+ttr SimpleName VariableDeclarationFragment MethodInvocation SimpleName types registry
+ttr SimpleName VariableDeclarationFragment MethodInvocation SimpleName create transient type registry
+atlas transient type registry SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ttr
+ttr SimpleName MethodInvocation SimpleName add type
+ttr SimpleName MethodInvocation SimpleName ret
+add type SimpleName MethodInvocation SimpleName ret
+types registry SimpleName MethodInvocation SimpleName commit transient type registry
+types registry SimpleName MethodInvocation SimpleName ttr
+commit transient type registry SimpleName MethodInvocation SimpleName ttr
+atlas base exception SimpleName SimpleType SingleVariableDeclaration SimpleName excp
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation StringLiteral failed to create entitydef
+log SimpleName MethodInvocation SimpleName excp
+error SimpleName MethodInvocation StringLiteral failed to create entitydef
+error SimpleName MethodInvocation SimpleName excp
+failed to create entitydef StringLiteral MethodInvocation SimpleName excp
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName atlas entity def
+public Modifier MethodDeclaration SimpleName new entity def
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas type registry
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName types registry
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName super types
+static Modifier MethodDeclaration SimpleType SimpleName atlas entity def
+static Modifier MethodDeclaration SimpleName new entity def
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas type registry
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName types registry
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName super types
+static Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+static Modifier MethodDeclaration Block ReturnStatement SimpleName ret
+atlas entity def SimpleName SimpleType MethodDeclaration SimpleName new entity def
+atlas entity def SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName types registry
+atlas entity def SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName super types
+new entity def SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas type registry
+new entity def SimpleName MethodDeclaration SingleVariableDeclaration SimpleName types registry
+new entity def SimpleName MethodDeclaration SingleVariableDeclaration SimpleName super types
+new entity def SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+new entity def SimpleName MethodDeclaration Block ReturnStatement SimpleName ret
+types registry SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName super types
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas entity def
+public Modifier TypeDeclaration MethodDeclaration SimpleName new entity def
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName types registry
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName super types
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas entity def
+test SimpleName TypeDeclaration MethodDeclaration SimpleName new entity def
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName types registry
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName super types

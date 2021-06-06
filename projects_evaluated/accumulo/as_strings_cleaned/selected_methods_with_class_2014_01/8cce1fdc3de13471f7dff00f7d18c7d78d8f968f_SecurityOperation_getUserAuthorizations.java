@@ -1,0 +1,32 @@
+t credentials SimpleName SimpleType SingleVariableDeclaration SimpleName credentials
+is system user SimpleName MethodInvocation SimpleName credentials
+authenticate SimpleName MethodInvocation SimpleName credentials
+credentials SimpleName MethodInvocation SimpleName get principal
+get user authorizations SimpleName MethodInvocation SimpleName credentials
+get user authorizations SimpleName MethodInvocation MethodInvocation SimpleName credentials
+get user authorizations SimpleName MethodInvocation MethodInvocation SimpleName get principal
+credentials SimpleName MethodInvocation MethodInvocation SimpleName credentials
+credentials SimpleName MethodInvocation MethodInvocation SimpleName get principal
+public Modifier MethodDeclaration SimpleType SimpleName authorizations
+public Modifier MethodDeclaration SimpleName get user authorizations
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName t credentials
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName credentials
+public Modifier MethodDeclaration SimpleType SimpleName thrift security exception
+authorizations SimpleName SimpleType MethodDeclaration SimpleName get user authorizations
+authorizations SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName credentials
+authorizations SimpleName SimpleType MethodDeclaration SimpleType SimpleName thrift security exception
+get user authorizations SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName t credentials
+get user authorizations SimpleName MethodDeclaration SingleVariableDeclaration SimpleName credentials
+get user authorizations SimpleName MethodDeclaration SimpleType SimpleName thrift security exception
+credentials SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName thrift security exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName authorizations
+public Modifier TypeDeclaration MethodDeclaration SimpleName get user authorizations
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName credentials
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName thrift security exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName authorizations
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get user authorizations
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName credentials
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName thrift security exception

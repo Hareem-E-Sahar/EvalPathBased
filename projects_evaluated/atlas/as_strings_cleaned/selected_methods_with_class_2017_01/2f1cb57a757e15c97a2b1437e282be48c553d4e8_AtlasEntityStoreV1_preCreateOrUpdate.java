@@ -1,0 +1,181 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas entity
+final Modifier SingleVariableDeclaration ParameterizedType SimpleType SimpleName list
+final Modifier SingleVariableDeclaration ParameterizedType SimpleType SimpleName atlas entity
+final Modifier SingleVariableDeclaration SimpleName atlas entities
+list SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName atlas entities
+atlas entity SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName atlas entities
+graph discoverer SimpleName MethodInvocation SimpleName discover entities
+graph discoverer SimpleName MethodInvocation SimpleName atlas entities
+discover entities SimpleName MethodInvocation SimpleName atlas entities
+discovered entities SimpleName VariableDeclarationFragment MethodInvocation SimpleName graph discoverer
+discovered entities SimpleName VariableDeclarationFragment MethodInvocation SimpleName discover entities
+discovered entities SimpleName VariableDeclarationFragment MethodInvocation SimpleName atlas entities
+entity graph discovery context SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName discovered entities
+entity mutation context SimpleName SimpleType ClassInstanceCreation SimpleName discovered entities
+context SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName entity mutation context
+context SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName discovered entities
+entity mutation context SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName context
+atlas entity SimpleName SimpleType SingleVariableDeclaration SimpleName entity
+discovered entities SimpleName MethodInvocation SimpleName get root entities
+atlas vertex SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName vertex
+log SimpleName MethodInvocation SimpleName is debug enabled
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral <== atlas entity store v pre create or update {}
+log SimpleName MethodInvocation SimpleName entity
+debug SimpleName MethodInvocation StringLiteral <== atlas entity store v pre create or update {}
+debug SimpleName MethodInvocation SimpleName entity
+<== atlas entity store v pre create or update {} StringLiteral MethodInvocation SimpleName entity
+entity SimpleName MethodInvocation SimpleName get type name
+type registry SimpleName MethodInvocation SimpleName get type
+type registry SimpleName MethodInvocation MethodInvocation SimpleName entity
+type registry SimpleName MethodInvocation MethodInvocation SimpleName get type name
+get type SimpleName MethodInvocation MethodInvocation SimpleName entity
+get type SimpleName MethodInvocation MethodInvocation SimpleName get type name
+atlas entity type SimpleName SimpleType CastExpression MethodInvocation SimpleName type registry
+atlas entity type SimpleName SimpleType CastExpression MethodInvocation SimpleName get type
+entity type SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName atlas entity type
+entity type SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName type registry
+entity type SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get type
+atlas entity type SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName entity type
+entity SimpleName MethodInvocation SimpleName get guid
+discovered entities SimpleName MethodInvocation SimpleName is resolved
+discovered entities SimpleName MethodInvocation MethodInvocation SimpleName entity
+discovered entities SimpleName MethodInvocation MethodInvocation SimpleName get guid
+is resolved SimpleName MethodInvocation MethodInvocation SimpleName entity
+is resolved SimpleName MethodInvocation MethodInvocation SimpleName get guid
+entity SimpleName MethodInvocation SimpleName get guid
+discovered entities SimpleName MethodInvocation SimpleName get resolved reference
+discovered entities SimpleName MethodInvocation MethodInvocation SimpleName entity
+discovered entities SimpleName MethodInvocation MethodInvocation SimpleName get guid
+get resolved reference SimpleName MethodInvocation MethodInvocation SimpleName entity
+get resolved reference SimpleName MethodInvocation MethodInvocation SimpleName get guid
+vertex SimpleName Assignment MethodInvocation SimpleName discovered entities
+vertex SimpleName Assignment MethodInvocation SimpleName get resolved reference
+vertex SimpleName Assignment MethodInvocation MethodInvocation SimpleName entity
+vertex SimpleName Assignment MethodInvocation MethodInvocation SimpleName get guid
+context SimpleName MethodInvocation SimpleName add updated
+context SimpleName MethodInvocation SimpleName entity
+context SimpleName MethodInvocation SimpleName entity type
+context SimpleName MethodInvocation SimpleName vertex
+add updated SimpleName MethodInvocation SimpleName entity
+add updated SimpleName MethodInvocation SimpleName entity type
+add updated SimpleName MethodInvocation SimpleName vertex
+entity SimpleName MethodInvocation SimpleName entity type
+entity SimpleName MethodInvocation SimpleName vertex
+entity type SimpleName MethodInvocation SimpleName vertex
+atlas graph utils v SimpleName MethodInvocation SimpleName get id from vertex
+atlas graph utils v SimpleName MethodInvocation SimpleName vertex
+get id from vertex SimpleName MethodInvocation SimpleName vertex
+guid SimpleName VariableDeclarationFragment MethodInvocation SimpleName atlas graph utils v
+guid SimpleName VariableDeclarationFragment MethodInvocation SimpleName get id from vertex
+guid SimpleName VariableDeclarationFragment MethodInvocation SimpleName vertex
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName guid
+request context v SimpleName MethodInvocation SimpleName get
+request context v SimpleName MethodInvocation MethodInvocation SimpleName record entity update
+get SimpleName MethodInvocation MethodInvocation SimpleName record entity update
+request context v SimpleName MethodInvocation MethodInvocation SimpleName guid
+get SimpleName MethodInvocation MethodInvocation SimpleName guid
+record entity update SimpleName MethodInvocation SimpleName guid
+graph mapper SimpleName MethodInvocation SimpleName create vertex template
+graph mapper SimpleName MethodInvocation SimpleName entity
+graph mapper SimpleName MethodInvocation SimpleName entity type
+create vertex template SimpleName MethodInvocation SimpleName entity
+create vertex template SimpleName MethodInvocation SimpleName entity type
+entity SimpleName MethodInvocation SimpleName entity type
+vertex SimpleName Assignment MethodInvocation SimpleName graph mapper
+vertex SimpleName Assignment MethodInvocation SimpleName create vertex template
+vertex SimpleName Assignment MethodInvocation SimpleName entity
+vertex SimpleName Assignment MethodInvocation SimpleName entity type
+context SimpleName MethodInvocation SimpleName add created
+context SimpleName MethodInvocation SimpleName entity
+context SimpleName MethodInvocation SimpleName entity type
+context SimpleName MethodInvocation SimpleName vertex
+add created SimpleName MethodInvocation SimpleName entity
+add created SimpleName MethodInvocation SimpleName entity type
+add created SimpleName MethodInvocation SimpleName vertex
+entity SimpleName MethodInvocation SimpleName entity type
+entity SimpleName MethodInvocation SimpleName vertex
+entity type SimpleName MethodInvocation SimpleName vertex
+entity type SimpleName MethodInvocation SimpleName get type name
+entity SimpleName MethodInvocation SimpleName get guid
+atlas object id SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName entity type
+atlas object id SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get type name
+atlas object id SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName entity
+atlas object id SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get guid
+entity type SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName entity
+entity type SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get guid
+get type name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName entity
+get type name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get guid
+discovered entities SimpleName MethodInvocation SimpleName add repository resolved reference
+discovered entities SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName atlas object id
+discovered entities SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName entity type
+discovered entities SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get type name
+discovered entities SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName entity
+discovered entities SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get guid
+discovered entities SimpleName MethodInvocation SimpleName vertex
+add repository resolved reference SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName atlas object id
+add repository resolved reference SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName entity type
+add repository resolved reference SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get type name
+add repository resolved reference SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName entity
+add repository resolved reference SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get guid
+add repository resolved reference SimpleName MethodInvocation SimpleName vertex
+atlas object id SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName vertex
+entity type SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName vertex
+get type name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName vertex
+entity SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName vertex
+get guid SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName vertex
+atlas graph utils v SimpleName MethodInvocation SimpleName get id from vertex
+atlas graph utils v SimpleName MethodInvocation SimpleName vertex
+get id from vertex SimpleName MethodInvocation SimpleName vertex
+guid SimpleName VariableDeclarationFragment MethodInvocation SimpleName atlas graph utils v
+guid SimpleName VariableDeclarationFragment MethodInvocation SimpleName get id from vertex
+guid SimpleName VariableDeclarationFragment MethodInvocation SimpleName vertex
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName guid
+request context v SimpleName MethodInvocation SimpleName get
+request context v SimpleName MethodInvocation MethodInvocation SimpleName record entity create
+get SimpleName MethodInvocation MethodInvocation SimpleName record entity create
+request context v SimpleName MethodInvocation MethodInvocation SimpleName guid
+get SimpleName MethodInvocation MethodInvocation SimpleName guid
+record entity create SimpleName MethodInvocation SimpleName guid
+log SimpleName MethodInvocation SimpleName is debug enabled
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral <== atlas entity store v pre create or update {}
+log SimpleName MethodInvocation SimpleName entity
+log SimpleName MethodInvocation SimpleName vertex
+debug SimpleName MethodInvocation StringLiteral <== atlas entity store v pre create or update {}
+debug SimpleName MethodInvocation SimpleName entity
+debug SimpleName MethodInvocation SimpleName vertex
+<== atlas entity store v pre create or update {} StringLiteral MethodInvocation SimpleName entity
+<== atlas entity store v pre create or update {} StringLiteral MethodInvocation SimpleName vertex
+entity SimpleName MethodInvocation SimpleName vertex
+entity SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName discovered entities
+entity SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName get root entities
+public Modifier MethodDeclaration SimpleType SimpleName entity mutation context
+public Modifier MethodDeclaration SimpleName pre create or update
+public Modifier MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName atlas entities
+public Modifier MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier MethodDeclaration Block ReturnStatement SimpleName context
+entity mutation context SimpleName SimpleType MethodDeclaration SimpleName pre create or update
+entity mutation context SimpleName SimpleType MethodDeclaration SingleVariableDeclaration Modifier final
+entity mutation context SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName atlas entities
+entity mutation context SimpleName SimpleType MethodDeclaration SimpleType SimpleName atlas base exception
+pre create or update SimpleName MethodDeclaration SingleVariableDeclaration Modifier final
+pre create or update SimpleName MethodDeclaration SingleVariableDeclaration SimpleName atlas entities
+pre create or update SimpleName MethodDeclaration SimpleType SimpleName atlas base exception
+pre create or update SimpleName MethodDeclaration Block ReturnStatement SimpleName context
+final Modifier SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+atlas entities SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName entity mutation context
+public Modifier TypeDeclaration MethodDeclaration SimpleName pre create or update
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName atlas entities
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName entity mutation context
+test SimpleName TypeDeclaration MethodDeclaration SimpleName pre create or update
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName atlas entities
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception

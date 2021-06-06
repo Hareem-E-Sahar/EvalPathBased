@@ -1,0 +1,168 @@
+atlas type registry SimpleName SimpleType SingleVariableDeclaration SimpleName type registry
+resolve references SimpleName SuperMethodInvocation SimpleName type registry
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas entity type
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas attribute
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas attribute
+get type hierarchy info SimpleName MethodInvocation SimpleName type registry
+get type hierarchy info SimpleName MethodInvocation SimpleName all s
+get type hierarchy info SimpleName MethodInvocation SimpleName all a
+type registry SimpleName MethodInvocation SimpleName all s
+type registry SimpleName MethodInvocation SimpleName all a
+all s SimpleName MethodInvocation SimpleName all a
+string SimpleName SimpleType SingleVariableDeclaration SimpleName super type name
+entity def SimpleName MethodInvocation SimpleName get super types
+type registry SimpleName MethodInvocation SimpleName get type
+type registry SimpleName MethodInvocation SimpleName super type name
+get type SimpleName MethodInvocation SimpleName super type name
+super type SimpleName VariableDeclarationFragment MethodInvocation SimpleName type registry
+super type SimpleName VariableDeclarationFragment MethodInvocation SimpleName get type
+super type SimpleName VariableDeclarationFragment MethodInvocation SimpleName super type name
+atlas type SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName super type
+super type SimpleName InstanceofExpression SimpleType SimpleName atlas entity type
+atlas entity type SimpleName SimpleType CastExpression SimpleName super type
+s SimpleName MethodInvocation SimpleName add
+s SimpleName MethodInvocation CastExpression SimpleType SimpleName atlas entity type
+s SimpleName MethodInvocation CastExpression SimpleName super type
+add SimpleName MethodInvocation CastExpression SimpleType SimpleName atlas entity type
+add SimpleName MethodInvocation CastExpression SimpleName super type
+entity def SimpleName MethodInvocation SimpleName get name
+atlas base exception SimpleName SimpleType ClassInstanceCreation QualifiedName atlas error codeincompatible supertype
+atlas base exception SimpleName SimpleType ClassInstanceCreation SimpleName super type name
+atlas base exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName entity def
+atlas base exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get name
+atlas error codeincompatible supertype QualifiedName ClassInstanceCreation SimpleName super type name
+atlas error codeincompatible supertype QualifiedName ClassInstanceCreation MethodInvocation SimpleName entity def
+atlas error codeincompatible supertype QualifiedName ClassInstanceCreation MethodInvocation SimpleName get name
+super type name SimpleName ClassInstanceCreation MethodInvocation SimpleName entity def
+super type name SimpleName ClassInstanceCreation MethodInvocation SimpleName get name
+super type name SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName entity def
+super type name SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName get super types
+collections SimpleName MethodInvocation SimpleName unmodifiable list
+collections SimpleName MethodInvocation SimpleName s
+unmodifiable list SimpleName MethodInvocation SimpleName s
+super types SimpleName FieldAccess Assignment MethodInvocation SimpleName collections
+super types SimpleName FieldAccess Assignment MethodInvocation SimpleName unmodifiable list
+super types SimpleName FieldAccess Assignment MethodInvocation SimpleName s
+collections SimpleName MethodInvocation SimpleName unmodifiable set
+collections SimpleName MethodInvocation SimpleName all s
+unmodifiable set SimpleName MethodInvocation SimpleName all s
+all super types SimpleName FieldAccess Assignment MethodInvocation SimpleName collections
+all super types SimpleName FieldAccess Assignment MethodInvocation SimpleName unmodifiable set
+all super types SimpleName FieldAccess Assignment MethodInvocation SimpleName all s
+collections SimpleName MethodInvocation SimpleName unmodifiable map
+collections SimpleName MethodInvocation SimpleName all a
+unmodifiable map SimpleName MethodInvocation SimpleName all a
+all attributes SimpleName FieldAccess Assignment MethodInvocation SimpleName collections
+all attributes SimpleName FieldAccess Assignment MethodInvocation SimpleName unmodifiable map
+all attributes SimpleName FieldAccess Assignment MethodInvocation SimpleName all a
+get unique attributes SimpleName MethodInvocation FieldAccess SimpleName all attributes
+uniq attributes SimpleName FieldAccess Assignment MethodInvocation SimpleName get unique attributes
+type and all sub types SimpleName FieldAccess MethodInvocation SimpleName add
+type and all sub types SimpleName FieldAccess MethodInvocation MethodInvocation SimpleName get type name
+add SimpleName MethodInvocation MethodInvocation SimpleName get type name
+type and all super types SimpleName FieldAccess MethodInvocation SimpleName add
+type and all super types SimpleName FieldAccess MethodInvocation MethodInvocation SimpleName get type name
+add SimpleName MethodInvocation MethodInvocation SimpleName get type name
+collections SimpleName MethodInvocation SimpleName unmodifiable set
+collections SimpleName MethodInvocation FieldAccess SimpleName type and all super types
+unmodifiable set SimpleName MethodInvocation FieldAccess SimpleName type and all super types
+type and all super types SimpleName FieldAccess Assignment MethodInvocation SimpleName collections
+type and all super types SimpleName FieldAccess Assignment MethodInvocation SimpleName unmodifiable set
+string SimpleName SimpleType SingleVariableDeclaration SimpleName header attribute name
+get attribute SimpleName MethodInvocation SimpleName header attribute name
+header attribute SimpleName VariableDeclarationFragment MethodInvocation SimpleName get attribute
+header attribute SimpleName VariableDeclarationFragment MethodInvocation SimpleName header attribute name
+atlas attribute SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName header attribute
+header attributes SimpleName FieldAccess MethodInvocation SimpleName put
+header attributes SimpleName FieldAccess MethodInvocation SimpleName header attribute name
+header attributes SimpleName FieldAccess MethodInvocation SimpleName header attribute
+put SimpleName MethodInvocation SimpleName header attribute name
+put SimpleName MethodInvocation SimpleName header attribute
+header attribute name SimpleName MethodInvocation SimpleName header attribute
+string SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName entity header attributes
+header attribute name SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName entity header attributes
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+entity def SimpleName MethodInvocation SimpleName get options
+type def options SimpleName VariableDeclarationFragment MethodInvocation SimpleName entity def
+type def options SimpleName VariableDeclarationFragment MethodInvocation SimpleName get options
+type def options SimpleName MethodInvocation SimpleName get
+type def options SimpleName MethodInvocation SimpleName option schema attributes
+get SimpleName MethodInvocation SimpleName option schema attributes
+type def options SimpleName InfixExpression ConditionalExpression MethodInvocation SimpleName type def options
+type def options SimpleName InfixExpression ConditionalExpression MethodInvocation SimpleName get
+type def options SimpleName InfixExpression ConditionalExpression MethodInvocation SimpleName option schema attributes
+json list SimpleName VariableDeclarationFragment ConditionalExpression InfixExpression SimpleName type def options
+json list SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation SimpleName type def options
+json list SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation SimpleName get
+json list SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation SimpleName option schema attributes
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName json list
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string utils SimpleName MethodInvocation SimpleName is not empty
+string utils SimpleName MethodInvocation SimpleName json list
+is not empty SimpleName MethodInvocation SimpleName json list
+atlas type SimpleName MethodInvocation SimpleName from json
+atlas type SimpleName MethodInvocation SimpleName json list
+atlas type SimpleName MethodInvocation TypeLiteral SimpleType SimpleName list
+from json SimpleName MethodInvocation SimpleName json list
+from json SimpleName MethodInvocation TypeLiteral SimpleType SimpleName list
+json list SimpleName MethodInvocation TypeLiteral SimpleType SimpleName list
+string utils SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName atlas type
+string utils SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName from json
+string utils SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName json list
+is not empty SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName atlas type
+is not empty SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName from json
+is not empty SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName json list
+json list SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName atlas type
+json list SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName from json
+json list SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName json list
+schema attribute names SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation SimpleName string utils
+schema attribute names SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation SimpleName is not empty
+schema attribute names SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation SimpleName json list
+schema attribute names SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation SimpleName atlas type
+schema attribute names SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation SimpleName from json
+schema attribute names SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation SimpleName json list
+collection utils SimpleName MethodInvocation SimpleName is not empty
+collection utils SimpleName MethodInvocation SimpleName schema attribute names
+is not empty SimpleName MethodInvocation SimpleName schema attribute names
+string SimpleName SimpleType SingleVariableDeclaration SimpleName schema attribute name
+get attribute SimpleName MethodInvocation SimpleName schema attribute name
+schema attribute SimpleName VariableDeclarationFragment MethodInvocation SimpleName get attribute
+schema attribute SimpleName VariableDeclarationFragment MethodInvocation SimpleName schema attribute name
+atlas attribute SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName schema attribute
+min info attributes SimpleName FieldAccess MethodInvocation SimpleName put
+min info attributes SimpleName FieldAccess MethodInvocation SimpleName schema attribute name
+min info attributes SimpleName FieldAccess MethodInvocation SimpleName schema attribute
+put SimpleName MethodInvocation SimpleName schema attribute name
+put SimpleName MethodInvocation SimpleName schema attribute
+schema attribute name SimpleName MethodInvocation SimpleName schema attribute
+string SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName schema attribute names
+schema attribute name SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName schema attribute names
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName resolve references
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName type registry
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName atlas base exception
+void PrimitiveType MethodDeclaration SimpleName resolve references
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas type registry
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName type registry
+void PrimitiveType MethodDeclaration SimpleType SimpleName atlas base exception
+void PrimitiveType MethodDeclaration Block EnhancedForStatement SimpleName entity header attributes
+resolve references SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas type registry
+resolve references SimpleName MethodDeclaration SingleVariableDeclaration SimpleName type registry
+resolve references SimpleName MethodDeclaration SimpleType SimpleName atlas base exception
+resolve references SimpleName MethodDeclaration Block EnhancedForStatement SimpleName entity header attributes
+type registry SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName resolve references
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type registry
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName resolve references
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type registry
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception

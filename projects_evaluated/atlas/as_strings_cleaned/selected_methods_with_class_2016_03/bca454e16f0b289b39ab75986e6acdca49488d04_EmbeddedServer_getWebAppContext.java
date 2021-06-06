@@ -1,0 +1,37 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName path
+web app context SimpleName SimpleType ClassInstanceCreation SimpleName path
+web app context SimpleName SimpleType ClassInstanceCreation StringLiteral /
+path SimpleName ClassInstanceCreation StringLiteral /
+application SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName web app context
+application SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName path
+application SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral /
+web app context SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName application
+thread SimpleName MethodInvocation SimpleName current thread
+thread SimpleName MethodInvocation MethodInvocation SimpleName get context class loader
+current thread SimpleName MethodInvocation MethodInvocation SimpleName get context class loader
+application SimpleName MethodInvocation SimpleName set class loader
+application SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName thread
+application SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName current thread
+application SimpleName MethodInvocation MethodInvocation SimpleName get context class loader
+set class loader SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName thread
+set class loader SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName current thread
+set class loader SimpleName MethodInvocation MethodInvocation SimpleName get context class loader
+protected Modifier MethodDeclaration SimpleType SimpleName web app context
+protected Modifier MethodDeclaration SimpleName get web app context
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName path
+protected Modifier MethodDeclaration Block ReturnStatement SimpleName application
+web app context SimpleName SimpleType MethodDeclaration SimpleName get web app context
+web app context SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName path
+get web app context SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get web app context SimpleName MethodDeclaration SingleVariableDeclaration SimpleName path
+get web app context SimpleName MethodDeclaration Block ReturnStatement SimpleName application
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName web app context
+public Modifier TypeDeclaration MethodDeclaration SimpleName get web app context
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName path
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName web app context
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get web app context
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName path

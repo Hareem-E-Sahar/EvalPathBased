@@ -1,0 +1,20 @@
+date SimpleName SimpleType SingleVariableDeclaration SimpleName modified time
+modified time SimpleName FieldAccess Assignment SimpleName modified time
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set modified time
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName date
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName modified time
+void PrimitiveType MethodDeclaration SimpleName set modified time
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName date
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName modified time
+set modified time SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName date
+set modified time SimpleName MethodDeclaration SingleVariableDeclaration SimpleName modified time
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set modified time
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName modified time
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set modified time
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName modified time

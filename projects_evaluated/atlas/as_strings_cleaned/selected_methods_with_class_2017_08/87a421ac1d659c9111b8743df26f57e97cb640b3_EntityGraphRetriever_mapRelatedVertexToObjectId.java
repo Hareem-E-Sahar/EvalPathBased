@@ -1,0 +1,66 @@
+atlas vertex SimpleName SimpleType SingleVariableDeclaration SimpleName entity vertex
+atlas attribute SimpleName SimpleType SingleVariableDeclaration SimpleName attribute
+attribute SimpleName MethodInvocation SimpleName get relationship edge label
+attribute SimpleName MethodInvocation SimpleName get relationship edge direction
+graph helper SimpleName MethodInvocation SimpleName get edge for label
+graph helper SimpleName MethodInvocation SimpleName entity vertex
+graph helper SimpleName MethodInvocation MethodInvocation SimpleName attribute
+graph helper SimpleName MethodInvocation MethodInvocation SimpleName get relationship edge label
+graph helper SimpleName MethodInvocation MethodInvocation SimpleName attribute
+graph helper SimpleName MethodInvocation MethodInvocation SimpleName get relationship edge direction
+get edge for label SimpleName MethodInvocation SimpleName entity vertex
+get edge for label SimpleName MethodInvocation MethodInvocation SimpleName attribute
+get edge for label SimpleName MethodInvocation MethodInvocation SimpleName get relationship edge label
+get edge for label SimpleName MethodInvocation MethodInvocation SimpleName attribute
+get edge for label SimpleName MethodInvocation MethodInvocation SimpleName get relationship edge direction
+entity vertex SimpleName MethodInvocation MethodInvocation SimpleName attribute
+entity vertex SimpleName MethodInvocation MethodInvocation SimpleName get relationship edge label
+entity vertex SimpleName MethodInvocation MethodInvocation SimpleName attribute
+entity vertex SimpleName MethodInvocation MethodInvocation SimpleName get relationship edge direction
+attribute SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName attribute
+attribute SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get relationship edge direction
+get relationship edge label SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName attribute
+get relationship edge label SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get relationship edge direction
+edge SimpleName VariableDeclarationFragment MethodInvocation SimpleName graph helper
+edge SimpleName VariableDeclarationFragment MethodInvocation SimpleName get edge for label
+edge SimpleName VariableDeclarationFragment MethodInvocation SimpleName entity vertex
+edge SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName attribute
+edge SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get relationship edge label
+edge SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName attribute
+edge SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get relationship edge direction
+atlas edge SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName edge
+map vertex to related object id SimpleName MethodInvocation SimpleName entity vertex
+map vertex to related object id SimpleName MethodInvocation SimpleName edge
+entity vertex SimpleName MethodInvocation SimpleName edge
+private Modifier MethodDeclaration SimpleType SimpleName atlas object id
+private Modifier MethodDeclaration SimpleName map related vertex to object id
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas vertex
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName entity vertex
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas attribute
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName attribute
+private Modifier MethodDeclaration SimpleType SimpleName atlas base exception
+atlas object id SimpleName SimpleType MethodDeclaration SimpleName map related vertex to object id
+atlas object id SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName entity vertex
+atlas object id SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName attribute
+atlas object id SimpleName SimpleType MethodDeclaration SimpleType SimpleName atlas base exception
+map related vertex to object id SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas vertex
+map related vertex to object id SimpleName MethodDeclaration SingleVariableDeclaration SimpleName entity vertex
+map related vertex to object id SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas attribute
+map related vertex to object id SimpleName MethodDeclaration SingleVariableDeclaration SimpleName attribute
+map related vertex to object id SimpleName MethodDeclaration SimpleType SimpleName atlas base exception
+entity vertex SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attribute
+entity vertex SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+attribute SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas object id
+public Modifier TypeDeclaration MethodDeclaration SimpleName map related vertex to object id
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity vertex
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attribute
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas object id
+test SimpleName TypeDeclaration MethodDeclaration SimpleName map related vertex to object id
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity vertex
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attribute
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception

@@ -1,0 +1,31 @@
+time boundary SimpleName SimpleType SingleVariableDeclaration SimpleName validity period
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName time boundary
+vp list SimpleName VariableDeclarationFragment FieldAccess SimpleName validity periods
+validity periods SimpleName FieldAccess Assignment SimpleName vp list
+vp list SimpleName MethodInvocation SimpleName add
+vp list SimpleName MethodInvocation SimpleName validity period
+add SimpleName MethodInvocation SimpleName validity period
+json ignore SimpleName MarkerAnnotation MethodDeclaration Modifier public
+json ignore SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+json ignore SimpleName MarkerAnnotation MethodDeclaration SimpleName add vality period
+json ignore SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName validity period
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName add vality period
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName time boundary
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName validity period
+void PrimitiveType MethodDeclaration SimpleName add vality period
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName time boundary
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName validity period
+add vality period SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName time boundary
+add vality period SimpleName MethodDeclaration SingleVariableDeclaration SimpleName validity period
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName json ignore
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName add vality period
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName validity period
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName json ignore
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName add vality period
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName validity period

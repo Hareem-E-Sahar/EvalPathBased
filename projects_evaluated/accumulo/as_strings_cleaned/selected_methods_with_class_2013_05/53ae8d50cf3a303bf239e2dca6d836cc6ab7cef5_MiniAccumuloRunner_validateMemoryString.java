@@ -1,0 +1,69 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName memory string
+units regex SimpleName VariableDeclarationFragment StringLiteral [
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName units regex
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral [
+memory unit SimpleName MethodInvocation SimpleName values
+units SimpleName VariableDeclarationFragment MethodInvocation SimpleName memory unit
+units SimpleName VariableDeclarationFragment MethodInvocation SimpleName values
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+i SimpleName InfixExpression QualifiedName unitslength
+units SimpleName ArrayAccess SimpleName i
+units SimpleName ArrayAccess MethodInvocation SimpleName suffix
+i SimpleName ArrayAccess MethodInvocation SimpleName suffix
+units regex SimpleName Assignment MethodInvocation ArrayAccess SimpleName units
+units regex SimpleName Assignment MethodInvocation ArrayAccess SimpleName i
+units regex SimpleName Assignment MethodInvocation SimpleName suffix
+unitslength QualifiedName InfixExpression NumberLiteral empty
+i SimpleName InfixExpression InfixExpression QualifiedName unitslength
+i SimpleName InfixExpression InfixExpression NumberLiteral empty
+units regex SimpleName Assignment StringLiteral 
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression QualifiedName unitslength
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+unitslength QualifiedName InfixExpression ForStatement PostfixExpression SimpleName i
+units regex SimpleName Assignment StringLiteral ]
+d StringLiteral InfixExpression SimpleName units regex
+pattern SimpleName MethodInvocation SimpleName compile
+pattern SimpleName MethodInvocation InfixExpression StringLiteral d
+pattern SimpleName MethodInvocation InfixExpression SimpleName units regex
+compile SimpleName MethodInvocation InfixExpression StringLiteral d
+compile SimpleName MethodInvocation InfixExpression SimpleName units regex
+p SimpleName VariableDeclarationFragment MethodInvocation SimpleName pattern
+p SimpleName VariableDeclarationFragment MethodInvocation SimpleName compile
+p SimpleName VariableDeclarationFragment MethodInvocation InfixExpression StringLiteral d
+p SimpleName VariableDeclarationFragment MethodInvocation InfixExpression SimpleName units regex
+pattern SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName p
+p SimpleName MethodInvocation SimpleName matcher
+p SimpleName MethodInvocation SimpleName memory string
+matcher SimpleName MethodInvocation SimpleName memory string
+p SimpleName MethodInvocation MethodInvocation SimpleName matches
+matcher SimpleName MethodInvocation MethodInvocation SimpleName matches
+memory string SimpleName MethodInvocation MethodInvocation SimpleName matches
+private Modifier MethodDeclaration Modifier static
+private Modifier MethodDeclaration PrimitiveType boolean
+private Modifier MethodDeclaration SimpleName validate memory string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName memory string
+static Modifier MethodDeclaration PrimitiveType boolean
+static Modifier MethodDeclaration SimpleName validate memory string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName memory string
+boolean PrimitiveType MethodDeclaration SimpleName validate memory string
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName memory string
+validate memory string SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+validate memory string SimpleName MethodDeclaration SingleVariableDeclaration SimpleName memory string
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName validate memory string
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName memory string
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName validate memory string
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName memory string

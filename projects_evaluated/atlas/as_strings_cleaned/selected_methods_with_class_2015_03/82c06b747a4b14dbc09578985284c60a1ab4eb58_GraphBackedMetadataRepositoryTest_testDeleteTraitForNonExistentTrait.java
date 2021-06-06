@@ -1,0 +1,41 @@
+expected exceptions SimpleName MemberValuePair TypeLiteral SimpleType SimpleName repository exception
+test SimpleName NormalAnnotation MemberValuePair SimpleName expected exceptions
+a guid SimpleName VariableDeclarationFragment MethodInvocation SimpleName get guid
+final Modifier VariableDeclarationStatement SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName a guid
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get guid
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName a guid
+repository service SimpleName MethodInvocation SimpleName delete trait
+repository service SimpleName MethodInvocation SimpleName a guid
+repository service SimpleName MethodInvocation StringLiteral pci
+delete trait SimpleName MethodInvocation SimpleName a guid
+delete trait SimpleName MethodInvocation StringLiteral pci
+a guid SimpleName MethodInvocation StringLiteral pci
+assert SimpleName MethodInvocation SimpleName fail
+test SimpleName NormalAnnotation MethodDeclaration Modifier public
+expected exceptions SimpleName MemberValuePair NormalAnnotation MethodDeclaration Modifier public
+test SimpleName NormalAnnotation MethodDeclaration PrimitiveType void
+expected exceptions SimpleName MemberValuePair NormalAnnotation MethodDeclaration PrimitiveType void
+test SimpleName NormalAnnotation MethodDeclaration SimpleName test delete trait for non existent trait
+expected exceptions SimpleName MemberValuePair NormalAnnotation MethodDeclaration SimpleName test delete trait for non existent trait
+test SimpleName NormalAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test delete trait for non existent trait
+public Modifier MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+void PrimitiveType MethodDeclaration SimpleName test delete trait for non existent trait
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement Modifier final
+test delete trait for non existent trait SimpleName MethodDeclaration SimpleType SimpleName exception
+test delete trait for non existent trait SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration NormalAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test delete trait for non existent trait
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration NormalAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test delete trait for non existent trait
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

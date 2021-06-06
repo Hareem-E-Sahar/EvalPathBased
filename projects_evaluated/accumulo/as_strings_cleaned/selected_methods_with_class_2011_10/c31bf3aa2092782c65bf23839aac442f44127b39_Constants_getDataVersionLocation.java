@@ -1,0 +1,29 @@
+accumulo configuration SimpleName SimpleType SingleVariableDeclaration SimpleName conf
+get base dir SimpleName MethodInvocation SimpleName conf
+get base dir SimpleName MethodInvocation InfixExpression StringLiteral version
+conf SimpleName MethodInvocation InfixExpression StringLiteral version
+path SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral version
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName path
+public Modifier MethodDeclaration SimpleName get data version location
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName accumulo configuration
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName conf
+static Modifier MethodDeclaration SimpleType SimpleName path
+static Modifier MethodDeclaration SimpleName get data version location
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName accumulo configuration
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName conf
+path SimpleName SimpleType MethodDeclaration SimpleName get data version location
+path SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName conf
+get data version location SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName accumulo configuration
+get data version location SimpleName MethodDeclaration SingleVariableDeclaration SimpleName conf
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName path
+public Modifier TypeDeclaration MethodDeclaration SimpleName get data version location
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName conf
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName path
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get data version location
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName conf

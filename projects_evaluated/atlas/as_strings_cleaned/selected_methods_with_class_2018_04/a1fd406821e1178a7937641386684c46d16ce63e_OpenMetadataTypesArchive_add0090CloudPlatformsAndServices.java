@@ -1,0 +1,19 @@
+archive builder SimpleName FieldAccess MethodInvocation SimpleName add classification def
+archive builder SimpleName FieldAccess MethodInvocation MethodInvocation SimpleName get cloud provider classification
+add classification def SimpleName MethodInvocation MethodInvocation SimpleName get cloud provider classification
+archive builder SimpleName FieldAccess MethodInvocation SimpleName add classification def
+archive builder SimpleName FieldAccess MethodInvocation MethodInvocation SimpleName get cloud platform classification
+add classification def SimpleName MethodInvocation MethodInvocation SimpleName get cloud platform classification
+archive builder SimpleName FieldAccess MethodInvocation SimpleName add classification def
+archive builder SimpleName FieldAccess MethodInvocation MethodInvocation SimpleName get cloud service classification
+add classification def SimpleName MethodInvocation MethodInvocation SimpleName get cloud service classification
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName add cloud platforms and services
+void PrimitiveType MethodDeclaration SimpleName add cloud platforms and services
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName add cloud platforms and services
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName add cloud platforms and services

@@ -1,0 +1,96 @@
+map counter SimpleName SimpleType ParameterizedType SimpleType SimpleName scan run state
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map counter SimpleName SimpleType ParameterizedType SimpleType SimpleName scan run state
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map counter SimpleName SimpleType ParameterizedType SimpleType SimpleName scan run state
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName long
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName session
+long SimpleName SimpleType ParameterizedType SimpleType SimpleName session
+entry SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+long SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+session SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+sessions SimpleName MethodInvocation SimpleName entry set
+entry SimpleName MethodInvocation SimpleName get value
+session SimpleName VariableDeclarationFragment MethodInvocation SimpleName entry
+session SimpleName VariableDeclarationFragment MethodInvocation SimpleName get value
+session SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName session
+suppress warnings SimpleName SingleMemberAnnotation StringLiteral rawtypes
+suppress warnings SimpleName SingleMemberAnnotation VariableDeclarationStatement SimpleType SimpleName scan task
+rawtypes StringLiteral SingleMemberAnnotation VariableDeclarationStatement SimpleType SimpleName scan task
+suppress warnings SimpleName SingleMemberAnnotation VariableDeclarationStatement VariableDeclarationFragment SimpleName nbt
+rawtypes StringLiteral SingleMemberAnnotation VariableDeclarationStatement VariableDeclarationFragment SimpleName nbt
+scan task SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName nbt
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName table id
+session SimpleName InstanceofExpression SimpleType SimpleName scan session
+scan session SimpleName SimpleType CastExpression SimpleName session
+ss SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName scan session
+ss SimpleName VariableDeclarationFragment CastExpression SimpleName session
+scan session SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ss
+nbt SimpleName Assignment QualifiedName ssnext batch task
+ssextent QualifiedName MethodInvocation SimpleName get table id
+ssextent QualifiedName MethodInvocation MethodInvocation SimpleName to string
+get table id SimpleName MethodInvocation MethodInvocation SimpleName to string
+table id SimpleName Assignment MethodInvocation MethodInvocation QualifiedName ssextent
+table id SimpleName Assignment MethodInvocation MethodInvocation SimpleName get table id
+table id SimpleName Assignment MethodInvocation SimpleName to string
+session SimpleName InstanceofExpression SimpleType SimpleName multi scan session
+multi scan session SimpleName SimpleType CastExpression SimpleName session
+mss SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName multi scan session
+mss SimpleName VariableDeclarationFragment CastExpression SimpleName session
+multi scan session SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName mss
+nbt SimpleName Assignment QualifiedName msslookup task
+mssthread pool extent QualifiedName MethodInvocation SimpleName get table id
+mssthread pool extent QualifiedName MethodInvocation MethodInvocation SimpleName to string
+get table id SimpleName MethodInvocation MethodInvocation SimpleName to string
+table id SimpleName Assignment MethodInvocation MethodInvocation QualifiedName mssthread pool extent
+table id SimpleName Assignment MethodInvocation MethodInvocation SimpleName get table id
+table id SimpleName Assignment MethodInvocation SimpleName to string
+nbt SimpleName MethodInvocation SimpleName get scan run state
+srs SimpleName VariableDeclarationFragment MethodInvocation SimpleName nbt
+srs SimpleName VariableDeclarationFragment MethodInvocation SimpleName get scan run state
+scan run state SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName srs
+srs SimpleName InfixExpression QualifiedName scan run statefinished
+nbt SimpleName InfixExpression InfixExpression InfixExpression SimpleName srs
+nbt SimpleName InfixExpression InfixExpression InfixExpression QualifiedName scan run statefinished
+map counter SimpleName SimpleType ParameterizedType SimpleType SimpleName scan run state
+counts SimpleName MethodInvocation SimpleName get
+counts SimpleName MethodInvocation SimpleName table id
+get SimpleName MethodInvocation SimpleName table id
+state counts SimpleName VariableDeclarationFragment MethodInvocation SimpleName counts
+state counts SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+state counts SimpleName VariableDeclarationFragment MethodInvocation SimpleName table id
+map counter SimpleName SimpleType ParameterizedType SimpleType SimpleName scan run state
+counts SimpleName MethodInvocation SimpleName put
+counts SimpleName MethodInvocation SimpleName table id
+counts SimpleName MethodInvocation SimpleName state counts
+put SimpleName MethodInvocation SimpleName table id
+put SimpleName MethodInvocation SimpleName state counts
+table id SimpleName MethodInvocation SimpleName state counts
+state counts SimpleName MethodInvocation SimpleName increment
+state counts SimpleName MethodInvocation SimpleName srs
+state counts SimpleName MethodInvocation NumberLiteral empty
+increment SimpleName MethodInvocation SimpleName srs
+increment SimpleName MethodInvocation NumberLiteral empty
+srs SimpleName MethodInvocation NumberLiteral empty
+entry SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName sessions
+entry SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName entry set
+public Modifier MethodDeclaration Modifier synchronized
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName map
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName get active scans per table
+public Modifier MethodDeclaration Block ReturnStatement SimpleName counts
+synchronized Modifier MethodDeclaration ParameterizedType SimpleType SimpleName map
+synchronized Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+synchronized Modifier MethodDeclaration SimpleName get active scans per table
+synchronized Modifier MethodDeclaration Block ReturnStatement SimpleName counts
+map SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get active scans per table
+string SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get active scans per table
+get active scans per table SimpleName MethodDeclaration Block ReturnStatement SimpleName counts
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier synchronized
+public Modifier TypeDeclaration MethodDeclaration SimpleName get active scans per table
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier synchronized
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get active scans per table

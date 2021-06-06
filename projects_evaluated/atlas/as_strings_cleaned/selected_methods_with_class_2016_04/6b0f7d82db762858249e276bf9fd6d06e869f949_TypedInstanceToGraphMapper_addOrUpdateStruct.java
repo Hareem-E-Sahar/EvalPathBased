@@ -1,0 +1,124 @@
+vertex SimpleName SimpleType SingleVariableDeclaration SimpleName instance vertex
+attribute info SimpleName SimpleType SingleVariableDeclaration SimpleName attribute info
+i data type SimpleName SimpleType SingleVariableDeclaration SimpleName element type
+i typed struct SimpleName SimpleType SingleVariableDeclaration SimpleName struct attr
+string SimpleName SimpleType SingleVariableDeclaration SimpleName cur val
+string SimpleName SimpleType SingleVariableDeclaration SimpleName edge label
+operation SimpleName SimpleType SingleVariableDeclaration SimpleName operation
+type utilspair QualifiedName SimpleType ParameterizedType SimpleType SimpleName vertex
+type utilspair QualifiedName SimpleType ParameterizedType SimpleType SimpleName edge
+vertex SimpleName SimpleType ParameterizedType SimpleType SimpleName edge
+cur val SimpleName InfixExpression InfixExpression InfixExpression SimpleName struct attr
+remove unused struct reference SimpleName MethodInvocation SimpleName cur val
+remove unused struct reference SimpleName MethodInvocation SimpleName attribute info
+remove unused struct reference SimpleName MethodInvocation SimpleName element type
+cur val SimpleName MethodInvocation SimpleName attribute info
+cur val SimpleName MethodInvocation SimpleName element type
+attribute info SimpleName MethodInvocation SimpleName element type
+cur val SimpleName InfixExpression InfixExpression InfixExpression SimpleName struct attr
+graph helper SimpleName MethodInvocation SimpleName get out going edge by id
+graph helper SimpleName MethodInvocation SimpleName cur val
+get out going edge by id SimpleName MethodInvocation SimpleName cur val
+edge SimpleName VariableDeclarationFragment MethodInvocation SimpleName graph helper
+edge SimpleName VariableDeclarationFragment MethodInvocation SimpleName get out going edge by id
+edge SimpleName VariableDeclarationFragment MethodInvocation SimpleName cur val
+edge SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName edge
+update struct vertex SimpleName MethodInvocation SimpleName struct attr
+update struct vertex SimpleName MethodInvocation SimpleName edge
+update struct vertex SimpleName MethodInvocation SimpleName operation
+struct attr SimpleName MethodInvocation SimpleName edge
+struct attr SimpleName MethodInvocation SimpleName operation
+edge SimpleName MethodInvocation SimpleName operation
+vertex edge pair SimpleName Assignment MethodInvocation SimpleName update struct vertex
+vertex edge pair SimpleName Assignment MethodInvocation SimpleName struct attr
+vertex edge pair SimpleName Assignment MethodInvocation SimpleName edge
+vertex edge pair SimpleName Assignment MethodInvocation SimpleName operation
+add struct vertex SimpleName MethodInvocation SimpleName struct attr
+add struct vertex SimpleName MethodInvocation SimpleName instance vertex
+add struct vertex SimpleName MethodInvocation SimpleName attribute info
+add struct vertex SimpleName MethodInvocation SimpleName edge label
+struct attr SimpleName MethodInvocation SimpleName instance vertex
+struct attr SimpleName MethodInvocation SimpleName attribute info
+struct attr SimpleName MethodInvocation SimpleName edge label
+instance vertex SimpleName MethodInvocation SimpleName attribute info
+instance vertex SimpleName MethodInvocation SimpleName edge label
+attribute info SimpleName MethodInvocation SimpleName edge label
+vertex edge pair SimpleName Assignment MethodInvocation SimpleName add struct vertex
+vertex edge pair SimpleName Assignment MethodInvocation SimpleName struct attr
+vertex edge pair SimpleName Assignment MethodInvocation SimpleName instance vertex
+vertex edge pair SimpleName Assignment MethodInvocation SimpleName attribute info
+vertex edge pair SimpleName Assignment MethodInvocation SimpleName edge label
+vertex edge pairright QualifiedName MethodInvocation SimpleName get id
+vertex edge pairright QualifiedName MethodInvocation MethodInvocation SimpleName to string
+get id SimpleName MethodInvocation MethodInvocation SimpleName to string
+private Modifier MethodDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SimpleName add or update struct
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName vertex
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName instance vertex
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName attribute info
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName attribute info
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName i data type
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName element type
+string SimpleName SimpleType MethodDeclaration SimpleName add or update struct
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName instance vertex
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName attribute info
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName element type
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName struct attr
+add or update struct SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName vertex
+add or update struct SimpleName MethodDeclaration SingleVariableDeclaration SimpleName instance vertex
+add or update struct SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName attribute info
+add or update struct SimpleName MethodDeclaration SingleVariableDeclaration SimpleName attribute info
+add or update struct SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName i data type
+add or update struct SimpleName MethodDeclaration SingleVariableDeclaration SimpleName element type
+add or update struct SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName i typed struct
+add or update struct SimpleName MethodDeclaration SingleVariableDeclaration SimpleName struct attr
+add or update struct SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+add or update struct SimpleName MethodDeclaration SingleVariableDeclaration SimpleName cur val
+instance vertex SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attribute info
+instance vertex SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName element type
+instance vertex SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName struct attr
+instance vertex SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cur val
+instance vertex SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName edge label
+attribute info SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName element type
+attribute info SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName struct attr
+attribute info SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cur val
+attribute info SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName edge label
+attribute info SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName operation
+element type SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName struct attr
+element type SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cur val
+element type SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName edge label
+element type SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName operation
+element type SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+struct attr SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cur val
+struct attr SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName edge label
+struct attr SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName operation
+struct attr SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+cur val SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName edge label
+cur val SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName operation
+cur val SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+edge label SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName operation
+edge label SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+operation SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName add or update struct
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName instance vertex
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attribute info
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName element type
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName struct attr
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cur val
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName edge label
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName operation
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName add or update struct
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName instance vertex
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attribute info
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName element type
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName struct attr
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cur val
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName edge label
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName operation
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception

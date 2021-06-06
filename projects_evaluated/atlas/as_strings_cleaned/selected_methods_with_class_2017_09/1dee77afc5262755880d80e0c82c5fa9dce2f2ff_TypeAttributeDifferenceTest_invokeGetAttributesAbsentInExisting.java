@@ -1,0 +1,38 @@
+list SimpleName SimpleType ParameterizedType SimpleType QualifiedName atlas enum defatlas enum element def
+atlas enum def SimpleName SimpleType SingleVariableDeclaration SimpleName existing
+atlas enum def SimpleName SimpleType SingleVariableDeclaration SimpleName incoming
+type attribute difference SimpleName MethodInvocation SimpleName get elements absent in existing
+type attribute difference SimpleName MethodInvocation SimpleName existing
+type attribute difference SimpleName MethodInvocation SimpleName incoming
+get elements absent in existing SimpleName MethodInvocation SimpleName existing
+get elements absent in existing SimpleName MethodInvocation SimpleName incoming
+existing SimpleName MethodInvocation SimpleName incoming
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+private Modifier MethodDeclaration ParameterizedType SimpleType QualifiedName atlas enum defatlas enum element def
+private Modifier MethodDeclaration SimpleName invoke get attributes absent in existing
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas enum def
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName existing
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas enum def
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName incoming
+private Modifier MethodDeclaration SimpleType SimpleName exception
+list SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName invoke get attributes absent in existing
+atlas enum defatlas enum element def QualifiedName SimpleType ParameterizedType MethodDeclaration SimpleName invoke get attributes absent in existing
+invoke get attributes absent in existing SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas enum def
+invoke get attributes absent in existing SimpleName MethodDeclaration SingleVariableDeclaration SimpleName existing
+invoke get attributes absent in existing SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas enum def
+invoke get attributes absent in existing SimpleName MethodDeclaration SingleVariableDeclaration SimpleName incoming
+invoke get attributes absent in existing SimpleName MethodDeclaration SimpleType SimpleName exception
+existing SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName incoming
+existing SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+incoming SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleName invoke get attributes absent in existing
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName existing
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName incoming
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleName invoke get attributes absent in existing
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName existing
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName incoming
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

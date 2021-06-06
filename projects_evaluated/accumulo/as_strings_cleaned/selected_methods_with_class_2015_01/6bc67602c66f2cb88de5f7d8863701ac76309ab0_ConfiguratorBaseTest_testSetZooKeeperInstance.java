@@ -1,0 +1,193 @@
+conf SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName configuration
+configuration SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName conf
+client configuration SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName with instance
+client configuration SimpleName SimpleType ClassInstanceCreation MethodInvocation StringLiteral test instance name
+with instance SimpleName MethodInvocation StringLiteral test instance name
+with instance SimpleName MethodInvocation MethodInvocation SimpleName with zk hosts
+test instance name StringLiteral MethodInvocation MethodInvocation SimpleName with zk hosts
+with instance SimpleName MethodInvocation MethodInvocation StringLiteral test zoo keepers
+test instance name StringLiteral MethodInvocation MethodInvocation StringLiteral test zoo keepers
+with zk hosts SimpleName MethodInvocation StringLiteral test zoo keepers
+with instance SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName with ssl
+test instance name StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName with ssl
+with zk hosts SimpleName MethodInvocation MethodInvocation SimpleName with ssl
+test zoo keepers StringLiteral MethodInvocation MethodInvocation SimpleName with ssl
+with instance SimpleName MethodInvocation MethodInvocation MethodInvocation BooleanLiteral true
+test instance name StringLiteral MethodInvocation MethodInvocation MethodInvocation BooleanLiteral true
+with zk hosts SimpleName MethodInvocation MethodInvocation BooleanLiteral true
+test zoo keepers StringLiteral MethodInvocation MethodInvocation BooleanLiteral true
+with ssl SimpleName MethodInvocation BooleanLiteral true
+with zk hosts SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName with zk timeout
+test zoo keepers StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName with zk timeout
+with ssl SimpleName MethodInvocation MethodInvocation SimpleName with zk timeout
+true BooleanLiteral MethodInvocation MethodInvocation SimpleName with zk timeout
+with zk hosts SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+test zoo keepers StringLiteral MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+with ssl SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+true BooleanLiteral MethodInvocation MethodInvocation NumberLiteral empty
+with zk timeout SimpleName MethodInvocation NumberLiteral empty
+configurator base SimpleName MethodInvocation SimpleName set zoo keeper instance
+configurator base SimpleName MethodInvocation MethodInvocation SimpleName get class
+configurator base SimpleName MethodInvocation SimpleName conf
+configurator base SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName with ssl
+configurator base SimpleName MethodInvocation MethodInvocation MethodInvocation BooleanLiteral true
+configurator base SimpleName MethodInvocation MethodInvocation SimpleName with zk timeout
+configurator base SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+set zoo keeper instance SimpleName MethodInvocation MethodInvocation SimpleName get class
+set zoo keeper instance SimpleName MethodInvocation SimpleName conf
+set zoo keeper instance SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName with ssl
+set zoo keeper instance SimpleName MethodInvocation MethodInvocation MethodInvocation BooleanLiteral true
+set zoo keeper instance SimpleName MethodInvocation MethodInvocation SimpleName with zk timeout
+set zoo keeper instance SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+get class SimpleName MethodInvocation MethodInvocation SimpleName conf
+get class SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName with zk timeout
+get class SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+conf SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName with ssl
+conf SimpleName MethodInvocation MethodInvocation MethodInvocation BooleanLiteral true
+conf SimpleName MethodInvocation MethodInvocation SimpleName with zk timeout
+conf SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+configurator base SimpleName MethodInvocation SimpleName enum to conf key
+configurator base SimpleName MethodInvocation MethodInvocation SimpleName get class
+configurator base SimpleName MethodInvocation QualifiedName configurator baseinstance optsclient config
+enum to conf key SimpleName MethodInvocation MethodInvocation SimpleName get class
+enum to conf key SimpleName MethodInvocation QualifiedName configurator baseinstance optsclient config
+get class SimpleName MethodInvocation MethodInvocation QualifiedName configurator baseinstance optsclient config
+conf SimpleName MethodInvocation SimpleName get
+conf SimpleName MethodInvocation MethodInvocation SimpleName configurator base
+conf SimpleName MethodInvocation MethodInvocation SimpleName enum to conf key
+conf SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get class
+conf SimpleName MethodInvocation MethodInvocation QualifiedName configurator baseinstance optsclient config
+get SimpleName MethodInvocation MethodInvocation SimpleName configurator base
+get SimpleName MethodInvocation MethodInvocation SimpleName enum to conf key
+get SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get class
+get SimpleName MethodInvocation MethodInvocation QualifiedName configurator baseinstance optsclient config
+client configuration SimpleName MethodInvocation SimpleName deserialize
+client configuration SimpleName MethodInvocation MethodInvocation SimpleName conf
+client configuration SimpleName MethodInvocation MethodInvocation SimpleName get
+client configuration SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName configurator base
+client configuration SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName enum to conf key
+client configuration SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName configurator baseinstance optsclient config
+deserialize SimpleName MethodInvocation MethodInvocation SimpleName conf
+deserialize SimpleName MethodInvocation MethodInvocation SimpleName get
+deserialize SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName configurator base
+deserialize SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName enum to conf key
+deserialize SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName configurator baseinstance optsclient config
+client conf SimpleName VariableDeclarationFragment MethodInvocation SimpleName client configuration
+client conf SimpleName VariableDeclarationFragment MethodInvocation SimpleName deserialize
+client conf SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName conf
+client conf SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get
+client configuration SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName client conf
+client conf SimpleName MethodInvocation SimpleName get
+client conf SimpleName MethodInvocation QualifiedName client propertyinstance name
+get SimpleName MethodInvocation QualifiedName client propertyinstance name
+assert equals SimpleName MethodInvocation StringLiteral test instance name
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName client conf
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get
+assert equals SimpleName MethodInvocation MethodInvocation QualifiedName client propertyinstance name
+test instance name StringLiteral MethodInvocation MethodInvocation SimpleName client conf
+test instance name StringLiteral MethodInvocation MethodInvocation SimpleName get
+test instance name StringLiteral MethodInvocation MethodInvocation QualifiedName client propertyinstance name
+client conf SimpleName MethodInvocation SimpleName get
+client conf SimpleName MethodInvocation QualifiedName client propertyinstance zk host
+get SimpleName MethodInvocation QualifiedName client propertyinstance zk host
+assert equals SimpleName MethodInvocation StringLiteral test zoo keepers
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName client conf
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get
+assert equals SimpleName MethodInvocation MethodInvocation QualifiedName client propertyinstance zk host
+test zoo keepers StringLiteral MethodInvocation MethodInvocation SimpleName client conf
+test zoo keepers StringLiteral MethodInvocation MethodInvocation SimpleName get
+test zoo keepers StringLiteral MethodInvocation MethodInvocation QualifiedName client propertyinstance zk host
+client conf SimpleName MethodInvocation SimpleName get
+client conf SimpleName MethodInvocation QualifiedName client propertyinstance rpc ssl enabled
+get SimpleName MethodInvocation QualifiedName client propertyinstance rpc ssl enabled
+assert equals SimpleName MethodInvocation StringLiteral true
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName client conf
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get
+assert equals SimpleName MethodInvocation MethodInvocation QualifiedName client propertyinstance rpc ssl enabled
+true StringLiteral MethodInvocation MethodInvocation SimpleName client conf
+true StringLiteral MethodInvocation MethodInvocation SimpleName get
+true StringLiteral MethodInvocation MethodInvocation QualifiedName client propertyinstance rpc ssl enabled
+client conf SimpleName MethodInvocation SimpleName get
+client conf SimpleName MethodInvocation QualifiedName client propertyinstance zk timeout
+get SimpleName MethodInvocation QualifiedName client propertyinstance zk timeout
+assert equals SimpleName MethodInvocation StringLiteral empty
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName client conf
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get
+assert equals SimpleName MethodInvocation MethodInvocation QualifiedName client propertyinstance zk timeout
+empty StringLiteral MethodInvocation MethodInvocation SimpleName client conf
+empty StringLiteral MethodInvocation MethodInvocation SimpleName get
+empty StringLiteral MethodInvocation MethodInvocation QualifiedName client propertyinstance zk timeout
+zoo keeper instance SimpleName SimpleType TypeLiteral MethodInvocation SimpleName get simple name
+configurator base SimpleName MethodInvocation SimpleName enum to conf key
+configurator base SimpleName MethodInvocation MethodInvocation SimpleName get class
+configurator base SimpleName MethodInvocation QualifiedName configurator baseinstance optstype
+enum to conf key SimpleName MethodInvocation MethodInvocation SimpleName get class
+enum to conf key SimpleName MethodInvocation QualifiedName configurator baseinstance optstype
+get class SimpleName MethodInvocation MethodInvocation QualifiedName configurator baseinstance optstype
+conf SimpleName MethodInvocation SimpleName get
+conf SimpleName MethodInvocation MethodInvocation SimpleName configurator base
+conf SimpleName MethodInvocation MethodInvocation SimpleName enum to conf key
+conf SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get class
+conf SimpleName MethodInvocation MethodInvocation QualifiedName configurator baseinstance optstype
+get SimpleName MethodInvocation MethodInvocation SimpleName configurator base
+get SimpleName MethodInvocation MethodInvocation SimpleName enum to conf key
+get SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get class
+get SimpleName MethodInvocation MethodInvocation QualifiedName configurator baseinstance optstype
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get simple name
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName conf
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName configurator base
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName enum to conf key
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName configurator baseinstance optstype
+get simple name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName conf
+get simple name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+configurator base SimpleName MethodInvocation SimpleName get instance
+configurator base SimpleName MethodInvocation MethodInvocation SimpleName get class
+configurator base SimpleName MethodInvocation SimpleName conf
+get instance SimpleName MethodInvocation MethodInvocation SimpleName get class
+get instance SimpleName MethodInvocation SimpleName conf
+get class SimpleName MethodInvocation MethodInvocation SimpleName conf
+instance SimpleName VariableDeclarationFragment MethodInvocation SimpleName configurator base
+instance SimpleName VariableDeclarationFragment MethodInvocation SimpleName get instance
+instance SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get class
+instance SimpleName VariableDeclarationFragment MethodInvocation SimpleName conf
+instance SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName instance
+zoo keeper instance SimpleName SimpleType TypeLiteral MethodInvocation SimpleName get name
+instance SimpleName MethodInvocation SimpleName get class
+instance SimpleName MethodInvocation MethodInvocation SimpleName get name
+get class SimpleName MethodInvocation MethodInvocation SimpleName get name
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get name
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName instance
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get class
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get name
+get name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get name
+zoo keeper instance SimpleName SimpleType CastExpression SimpleName instance
+instance SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName get instance name
+assert equals SimpleName MethodInvocation StringLiteral test instance name
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get instance name
+test instance name StringLiteral MethodInvocation MethodInvocation SimpleName get instance name
+zoo keeper instance SimpleName SimpleType CastExpression SimpleName instance
+instance SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName get zoo keepers
+assert equals SimpleName MethodInvocation StringLiteral test zoo keepers
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get zoo keepers
+test zoo keepers StringLiteral MethodInvocation MethodInvocation SimpleName get zoo keepers
+zoo keeper instance SimpleName SimpleType CastExpression SimpleName instance
+instance SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName get zoo keepers session time out
+assert equals SimpleName MethodInvocation NumberLiteral empty
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get zoo keepers session time out
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName get zoo keepers session time out
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test set zoo keeper instance
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test set zoo keeper instance
+void PrimitiveType MethodDeclaration SimpleName test set zoo keeper instance
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test set zoo keeper instance
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test set zoo keeper instance

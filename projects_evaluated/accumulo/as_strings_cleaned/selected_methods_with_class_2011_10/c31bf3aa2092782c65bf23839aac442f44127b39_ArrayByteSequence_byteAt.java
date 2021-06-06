@@ -1,0 +1,46 @@
+int PrimitiveType SingleVariableDeclaration SimpleName i
+i SimpleName InfixExpression NumberLiteral empty
+i < StringLiteral InfixExpression SimpleName i
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral i <
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName i
+i SimpleName InfixExpression SimpleName length
+i >= length StringLiteral InfixExpression SimpleName i
+i >= length StringLiteral InfixExpression StringLiteral >=
+i >= length StringLiteral InfixExpression SimpleName length
+i SimpleName InfixExpression StringLiteral >=
+i SimpleName InfixExpression SimpleName length
+>= StringLiteral InfixExpression SimpleName length
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral i >= length
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName i
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral >=
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName length
+offset SimpleName InfixExpression SimpleName i
+data SimpleName ArrayAccess InfixExpression SimpleName offset
+data SimpleName ArrayAccess InfixExpression SimpleName i
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType byte
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName byte at
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration PrimitiveType int
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName i
+public Modifier MethodDeclaration PrimitiveType byte
+public Modifier MethodDeclaration SimpleName byte at
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName i
+byte PrimitiveType MethodDeclaration SimpleName byte at
+byte PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+byte PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName i
+byte at SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+byte at SimpleName MethodDeclaration SingleVariableDeclaration SimpleName i
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType byte
+public Modifier TypeDeclaration MethodDeclaration SimpleName byte at
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName i
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType byte
+test SimpleName TypeDeclaration MethodDeclaration SimpleName byte at
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName i

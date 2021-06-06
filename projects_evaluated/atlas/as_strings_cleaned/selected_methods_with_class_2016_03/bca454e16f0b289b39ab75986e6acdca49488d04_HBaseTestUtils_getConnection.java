@@ -1,0 +1,22 @@
+hbase test utility SimpleName MethodInvocation SimpleName get connection
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName connection
+public Modifier MethodDeclaration SimpleName get connection
+public Modifier MethodDeclaration SimpleType SimpleName io exception
+static Modifier MethodDeclaration SimpleType SimpleName connection
+static Modifier MethodDeclaration SimpleName get connection
+static Modifier MethodDeclaration SimpleType SimpleName io exception
+connection SimpleName SimpleType MethodDeclaration SimpleName get connection
+connection SimpleName SimpleType MethodDeclaration SimpleType SimpleName io exception
+get connection SimpleName MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName connection
+public Modifier TypeDeclaration MethodDeclaration SimpleName get connection
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName connection
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get connection
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

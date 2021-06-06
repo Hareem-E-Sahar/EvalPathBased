@@ -1,0 +1,37 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+list SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName delete candidate guids
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName delete candidate guids
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName i typed referenceable instance
+repository SimpleName MethodInvocation SimpleName delete entities
+repository SimpleName MethodInvocation SimpleName delete candidate guids
+delete entities SimpleName MethodInvocation SimpleName delete candidate guids
+delete entities result SimpleName VariableDeclarationFragment MethodInvocation SimpleName repository
+delete entities result SimpleName VariableDeclarationFragment MethodInvocation SimpleName delete entities
+delete entities result SimpleName VariableDeclarationFragment MethodInvocation SimpleName delete candidate guids
+delete entities resultright QualifiedName MethodInvocation SimpleName size
+delete entities resultright QualifiedName MethodInvocation InfixExpression NumberLiteral empty
+size SimpleName MethodInvocation InfixExpression NumberLiteral empty
+on entities deleted SimpleName MethodInvocation QualifiedName delete entities resultright
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+private Modifier MethodDeclaration SimpleName delete guids
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName delete candidate guids
+private Modifier MethodDeclaration SimpleType SimpleName atlas exception
+private Modifier MethodDeclaration Block ReturnStatement QualifiedName delete entities resultleft
+list SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName delete guids
+string SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName delete guids
+delete guids SimpleName MethodDeclaration SingleVariableDeclaration SimpleName delete candidate guids
+delete guids SimpleName MethodDeclaration SimpleType SimpleName atlas exception
+delete guids SimpleName MethodDeclaration Block ReturnStatement QualifiedName delete entities resultleft
+delete candidate guids SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleName delete guids
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName delete candidate guids
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleName delete guids
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName delete candidate guids
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception

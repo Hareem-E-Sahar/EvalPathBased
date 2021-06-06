@@ -1,0 +1,179 @@
+expected exceptions SimpleName MemberValuePair TypeLiteral SimpleType SimpleName repository exception
+test SimpleName NormalAnnotation MemberValuePair SimpleName expected exceptions
+edge label SimpleName VariableDeclarationFragment StringLiteral test label
+final Modifier VariableDeclarationStatement SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName edge label
+final Modifier VariableDeclarationStatement VariableDeclarationFragment StringLiteral test label
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName edge label
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral test label
+mock SimpleName MethodInvocation TypeLiteral SimpleType SimpleName titan vertex
+v SimpleName VariableDeclarationFragment MethodInvocation SimpleName mock
+titan vertex SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName v
+mock SimpleName MethodInvocation TypeLiteral SimpleType SimpleName titan vertex
+v SimpleName VariableDeclarationFragment MethodInvocation SimpleName mock
+titan vertex SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName v
+iterable SimpleName SimpleType ParameterizedType SimpleType SimpleName edge
+iterator SimpleName SimpleType ParameterizedType SimpleType SimpleName edge
+iterator SimpleName SimpleType ParameterizedType SimpleType SimpleName edge
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType boolean
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName has next
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName has next
+public Modifier MethodDeclaration Block ReturnStatement BooleanLiteral false
+boolean PrimitiveType MethodDeclaration SimpleName has next
+boolean PrimitiveType MethodDeclaration Block ReturnStatement BooleanLiteral false
+has next SimpleName MethodDeclaration Block ReturnStatement BooleanLiteral false
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName edge
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName next
+public Modifier MethodDeclaration SimpleType SimpleName edge
+public Modifier MethodDeclaration SimpleName next
+edge SimpleName SimpleType MethodDeclaration SimpleName next
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName remove
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName remove
+void PrimitiveType MethodDeclaration SimpleName remove
+public Modifier MethodDeclaration AnonymousClassDeclaration MethodDeclaration Modifier public
+public Modifier MethodDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName next
+boolean PrimitiveType MethodDeclaration AnonymousClassDeclaration MethodDeclaration Modifier public
+boolean PrimitiveType MethodDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName next
+has next SimpleName MethodDeclaration AnonymousClassDeclaration MethodDeclaration Modifier public
+has next SimpleName MethodDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName next
+public Modifier MethodDeclaration AnonymousClassDeclaration MethodDeclaration Modifier public
+public Modifier MethodDeclaration AnonymousClassDeclaration MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName remove
+boolean PrimitiveType MethodDeclaration AnonymousClassDeclaration MethodDeclaration Modifier public
+boolean PrimitiveType MethodDeclaration AnonymousClassDeclaration MethodDeclaration PrimitiveType void
+boolean PrimitiveType MethodDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName remove
+has next SimpleName MethodDeclaration AnonymousClassDeclaration MethodDeclaration Modifier public
+has next SimpleName MethodDeclaration AnonymousClassDeclaration MethodDeclaration PrimitiveType void
+has next SimpleName MethodDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName remove
+public Modifier MethodDeclaration AnonymousClassDeclaration MethodDeclaration Modifier public
+public Modifier MethodDeclaration AnonymousClassDeclaration MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName remove
+next SimpleName MethodDeclaration AnonymousClassDeclaration MethodDeclaration Modifier public
+next SimpleName MethodDeclaration AnonymousClassDeclaration MethodDeclaration PrimitiveType void
+next SimpleName MethodDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName remove
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName iterator
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName iterator
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName edge
+public Modifier MethodDeclaration SimpleName iterator
+iterator SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName iterator
+edge SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName iterator
+iterable SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName no edges iterable
+v SimpleName MethodInvocation SimpleName get edges
+v SimpleName MethodInvocation QualifiedName directionin
+get edges SimpleName MethodInvocation QualifiedName directionin
+when SimpleName MethodInvocation MethodInvocation SimpleName v
+when SimpleName MethodInvocation MethodInvocation SimpleName get edges
+when SimpleName MethodInvocation MethodInvocation QualifiedName directionin
+when SimpleName MethodInvocation MethodInvocation SimpleName then return
+v SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+get edges SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+directionin QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+when SimpleName MethodInvocation MethodInvocation SimpleName no edges iterable
+v SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName no edges iterable
+get edges SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName no edges iterable
+directionin QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName no edges iterable
+then return SimpleName MethodInvocation SimpleName no edges iterable
+v SimpleName MethodInvocation SimpleName get edges
+v SimpleName MethodInvocation QualifiedName directionout
+get edges SimpleName MethodInvocation QualifiedName directionout
+when SimpleName MethodInvocation MethodInvocation SimpleName v
+when SimpleName MethodInvocation MethodInvocation SimpleName get edges
+when SimpleName MethodInvocation MethodInvocation QualifiedName directionout
+when SimpleName MethodInvocation MethodInvocation SimpleName then return
+v SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+get edges SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+directionout QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+when SimpleName MethodInvocation MethodInvocation SimpleName no edges iterable
+v SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName no edges iterable
+get edges SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName no edges iterable
+directionout QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName no edges iterable
+then return SimpleName MethodInvocation SimpleName no edges iterable
+v SimpleName MethodInvocation SimpleName get id
+when SimpleName MethodInvocation MethodInvocation SimpleName v
+when SimpleName MethodInvocation MethodInvocation SimpleName get id
+string SimpleName SimpleType ClassInstanceCreation StringLiteral empty
+when SimpleName MethodInvocation MethodInvocation SimpleName then return
+v SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+get id SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+when SimpleName MethodInvocation MethodInvocation ClassInstanceCreation StringLiteral empty
+then return SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName string
+then return SimpleName MethodInvocation ClassInstanceCreation StringLiteral empty
+v SimpleName MethodInvocation SimpleName get id
+when SimpleName MethodInvocation MethodInvocation SimpleName v
+when SimpleName MethodInvocation MethodInvocation SimpleName get id
+string SimpleName SimpleType ClassInstanceCreation StringLiteral empty
+when SimpleName MethodInvocation MethodInvocation SimpleName then return
+v SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+get id SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+when SimpleName MethodInvocation MethodInvocation ClassInstanceCreation StringLiteral empty
+then return SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName string
+then return SimpleName MethodInvocation ClassInstanceCreation StringLiteral empty
+graph SimpleName MethodInvocation SimpleName add edge
+graph SimpleName MethodInvocation SimpleName v
+graph SimpleName MethodInvocation SimpleName v
+graph SimpleName MethodInvocation SimpleName edge label
+add edge SimpleName MethodInvocation SimpleName v
+add edge SimpleName MethodInvocation SimpleName v
+add edge SimpleName MethodInvocation SimpleName edge label
+v SimpleName MethodInvocation SimpleName v
+v SimpleName MethodInvocation SimpleName edge label
+v SimpleName MethodInvocation SimpleName edge label
+when SimpleName MethodInvocation MethodInvocation SimpleName graph
+when SimpleName MethodInvocation MethodInvocation SimpleName add edge
+when SimpleName MethodInvocation MethodInvocation SimpleName v
+when SimpleName MethodInvocation MethodInvocation SimpleName v
+when SimpleName MethodInvocation MethodInvocation SimpleName edge label
+runtime exception SimpleName SimpleType ClassInstanceCreation StringLiteral unique property constraint violated
+when SimpleName MethodInvocation MethodInvocation SimpleName then throw
+graph SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then throw
+add edge SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then throw
+v SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then throw
+v SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then throw
+edge label SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then throw
+when SimpleName MethodInvocation MethodInvocation ClassInstanceCreation StringLiteral unique property constraint violated
+then throw SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName runtime exception
+then throw SimpleName MethodInvocation ClassInstanceCreation StringLiteral unique property constraint violated
+graph helper instance SimpleName MethodInvocation SimpleName get or create edge
+graph helper instance SimpleName MethodInvocation SimpleName v
+graph helper instance SimpleName MethodInvocation SimpleName v
+graph helper instance SimpleName MethodInvocation SimpleName edge label
+get or create edge SimpleName MethodInvocation SimpleName v
+get or create edge SimpleName MethodInvocation SimpleName v
+get or create edge SimpleName MethodInvocation SimpleName edge label
+v SimpleName MethodInvocation SimpleName v
+v SimpleName MethodInvocation SimpleName edge label
+v SimpleName MethodInvocation SimpleName edge label
+test SimpleName NormalAnnotation MethodDeclaration Modifier public
+expected exceptions SimpleName MemberValuePair NormalAnnotation MethodDeclaration Modifier public
+test SimpleName NormalAnnotation MethodDeclaration PrimitiveType void
+expected exceptions SimpleName MemberValuePair NormalAnnotation MethodDeclaration PrimitiveType void
+test SimpleName NormalAnnotation MethodDeclaration SimpleName test get or create edge label with max retries
+expected exceptions SimpleName MemberValuePair NormalAnnotation MethodDeclaration SimpleName test get or create edge label with max retries
+test SimpleName NormalAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test get or create edge label with max retries
+public Modifier MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+void PrimitiveType MethodDeclaration SimpleName test get or create edge label with max retries
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement Modifier final
+test get or create edge label with max retries SimpleName MethodDeclaration SimpleType SimpleName exception
+test get or create edge label with max retries SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration NormalAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test get or create edge label with max retries
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration NormalAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test get or create edge label with max retries
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

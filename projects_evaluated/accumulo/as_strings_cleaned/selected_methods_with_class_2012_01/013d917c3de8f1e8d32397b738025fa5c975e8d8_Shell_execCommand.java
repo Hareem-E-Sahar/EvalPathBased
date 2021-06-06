@@ -1,0 +1,409 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName input
+boolean PrimitiveType SingleVariableDeclaration SimpleName ignore auth timeout
+boolean PrimitiveType SingleVariableDeclaration SimpleName echo prompt
+get default prompt SimpleName MethodInvocation InfixExpression SimpleName input
+audit SimpleName MethodInvocation SimpleName log
+audit SimpleName MethodInvocation QualifiedName audit levelaudit
+audit SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get default prompt
+audit SimpleName MethodInvocation InfixExpression SimpleName input
+log SimpleName MethodInvocation QualifiedName audit levelaudit
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get default prompt
+log SimpleName MethodInvocation InfixExpression SimpleName input
+audit levelaudit QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName get default prompt
+audit levelaudit QualifiedName MethodInvocation InfixExpression SimpleName input
+reader SimpleName MethodInvocation SimpleName print string
+reader SimpleName MethodInvocation MethodInvocation SimpleName get default prompt
+print string SimpleName MethodInvocation MethodInvocation SimpleName get default prompt
+reader SimpleName MethodInvocation SimpleName print string
+reader SimpleName MethodInvocation SimpleName input
+print string SimpleName MethodInvocation SimpleName input
+reader SimpleName MethodInvocation SimpleName print newline
+quoted string tokenizer SimpleName SimpleType ClassInstanceCreation SimpleName input
+quoted string tokenizer SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get tokens
+input SimpleName ClassInstanceCreation MethodInvocation SimpleName get tokens
+fields SimpleName Assignment MethodInvocation ClassInstanceCreation SimpleName input
+fields SimpleName Assignment MethodInvocation SimpleName get tokens
+bad argument exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+print exception SimpleName MethodInvocation SimpleName e
+fieldslength QualifiedName InfixExpression NumberLiteral empty
+fields SimpleName ArrayAccess NumberLiteral empty
+command SimpleName VariableDeclarationFragment ArrayAccess SimpleName fields
+command SimpleName VariableDeclarationFragment ArrayAccess NumberLiteral empty
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName command
+fieldslength QualifiedName InfixExpression NumberLiteral empty
+arrays SimpleName MethodInvocation SimpleName copy of range
+arrays SimpleName MethodInvocation SimpleName fields
+arrays SimpleName MethodInvocation NumberLiteral empty
+arrays SimpleName MethodInvocation QualifiedName fieldslength
+copy of range SimpleName MethodInvocation SimpleName fields
+copy of range SimpleName MethodInvocation NumberLiteral empty
+copy of range SimpleName MethodInvocation QualifiedName fieldslength
+fields SimpleName MethodInvocation NumberLiteral empty
+fields SimpleName MethodInvocation QualifiedName fieldslength
+empty NumberLiteral MethodInvocation QualifiedName fieldslength
+fieldslength QualifiedName InfixExpression ConditionalExpression MethodInvocation SimpleName arrays
+fieldslength QualifiedName InfixExpression ConditionalExpression MethodInvocation SimpleName copy of range
+fieldslength QualifiedName InfixExpression ConditionalExpression MethodInvocation SimpleName fields
+fieldslength QualifiedName InfixExpression ConditionalExpression MethodInvocation NumberLiteral empty
+fieldslength QualifiedName InfixExpression ConditionalExpression MethodInvocation QualifiedName fieldslength
+empty NumberLiteral InfixExpression ConditionalExpression MethodInvocation SimpleName arrays
+empty NumberLiteral InfixExpression ConditionalExpression MethodInvocation SimpleName copy of range
+empty NumberLiteral InfixExpression ConditionalExpression MethodInvocation SimpleName fields
+empty NumberLiteral InfixExpression ConditionalExpression MethodInvocation NumberLiteral empty
+empty NumberLiteral InfixExpression ConditionalExpression MethodInvocation QualifiedName fieldslength
+fields SimpleName Assignment ConditionalExpression InfixExpression QualifiedName fieldslength
+fields SimpleName Assignment ConditionalExpression InfixExpression NumberLiteral empty
+fields SimpleName Assignment ConditionalExpression MethodInvocation SimpleName arrays
+fields SimpleName Assignment ConditionalExpression MethodInvocation SimpleName copy of range
+fields SimpleName Assignment ConditionalExpression MethodInvocation SimpleName fields
+fields SimpleName Assignment ConditionalExpression MethodInvocation NumberLiteral empty
+fields SimpleName Assignment ConditionalExpression MethodInvocation QualifiedName fieldslength
+command SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName sc
+command SimpleName MethodInvocation SimpleName length
+command SimpleName MethodInvocation InfixExpression NumberLiteral empty
+length SimpleName MethodInvocation InfixExpression NumberLiteral empty
+command factory SimpleName MethodInvocation SimpleName get
+command factory SimpleName MethodInvocation SimpleName command
+get SimpleName MethodInvocation SimpleName command
+sc SimpleName Assignment MethodInvocation SimpleName command factory
+sc SimpleName Assignment MethodInvocation SimpleName get
+sc SimpleName Assignment MethodInvocation SimpleName command
+string SimpleName MethodInvocation SimpleName format
+string SimpleName MethodInvocation StringLiteral unknown command s enter help for a list possible commands
+string SimpleName MethodInvocation SimpleName command
+format SimpleName MethodInvocation StringLiteral unknown command s enter help for a list possible commands
+format SimpleName MethodInvocation SimpleName command
+unknown command s enter help for a list possible commands StringLiteral MethodInvocation SimpleName command
+reader SimpleName MethodInvocation SimpleName print string
+reader SimpleName MethodInvocation MethodInvocation SimpleName string
+reader SimpleName MethodInvocation MethodInvocation SimpleName format
+reader SimpleName MethodInvocation MethodInvocation StringLiteral unknown command s enter help for a list possible commands
+reader SimpleName MethodInvocation MethodInvocation SimpleName command
+print string SimpleName MethodInvocation MethodInvocation SimpleName string
+print string SimpleName MethodInvocation MethodInvocation SimpleName format
+print string SimpleName MethodInvocation MethodInvocation StringLiteral unknown command s enter help for a list possible commands
+print string SimpleName MethodInvocation MethodInvocation SimpleName command
+sc SimpleName InstanceofExpression SimpleType SimpleName exit command
+system SimpleName MethodInvocation SimpleName current time millis
+system SimpleName MethodInvocation InfixExpression SimpleName last user activity
+current time millis SimpleName MethodInvocation InfixExpression SimpleName last user activity
+system SimpleName MethodInvocation InfixExpression InfixExpression SimpleName auth timeout
+current time millis SimpleName MethodInvocation InfixExpression InfixExpression SimpleName auth timeout
+last user activity SimpleName InfixExpression InfixExpression SimpleName auth timeout
+ignore auth timeout SimpleName PrefixExpression InfixExpression InfixExpression SimpleName auth timeout
+reader SimpleName MethodInvocation SimpleName print string
+reader SimpleName MethodInvocation StringLiteral shell has been idle for too long please reauthenticate
+print string SimpleName MethodInvocation StringLiteral shell has been idle for too long please reauthenticate
+auth failed SimpleName VariableDeclarationFragment BooleanLiteral true
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName auth failed
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment BooleanLiteral true
+connector SimpleName MethodInvocation SimpleName whoami
+enter current password for StringLiteral InfixExpression MethodInvocation SimpleName connector
+enter current password for StringLiteral InfixExpression MethodInvocation SimpleName whoami
+enter current password for StringLiteral InfixExpression StringLiteral :
+connector SimpleName MethodInvocation InfixExpression StringLiteral :
+whoami SimpleName MethodInvocation InfixExpression StringLiteral :
+reader SimpleName MethodInvocation SimpleName read line
+reader SimpleName MethodInvocation InfixExpression StringLiteral enter current password for
+reader SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName connector
+reader SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName whoami
+reader SimpleName MethodInvocation InfixExpression StringLiteral :
+reader SimpleName MethodInvocation CharacterLiteral *
+read line SimpleName MethodInvocation InfixExpression StringLiteral enter current password for
+read line SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName connector
+read line SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName whoami
+read line SimpleName MethodInvocation InfixExpression StringLiteral :
+read line SimpleName MethodInvocation CharacterLiteral *
+enter current password for StringLiteral InfixExpression MethodInvocation CharacterLiteral *
+connector SimpleName MethodInvocation InfixExpression MethodInvocation CharacterLiteral *
+whoami SimpleName MethodInvocation InfixExpression MethodInvocation CharacterLiteral *
+: StringLiteral InfixExpression MethodInvocation CharacterLiteral *
+pwd SimpleName VariableDeclarationFragment MethodInvocation SimpleName reader
+pwd SimpleName VariableDeclarationFragment MethodInvocation SimpleName read line
+pwd SimpleName VariableDeclarationFragment MethodInvocation InfixExpression StringLiteral enter current password for
+pwd SimpleName VariableDeclarationFragment MethodInvocation InfixExpression StringLiteral :
+pwd SimpleName VariableDeclarationFragment MethodInvocation CharacterLiteral *
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName pwd
+reader SimpleName MethodInvocation SimpleName print newline
+connector SimpleName MethodInvocation SimpleName security operations
+connector SimpleName MethodInvocation SimpleName whoami
+pwd SimpleName MethodInvocation SimpleName get bytes
+connector SimpleName MethodInvocation MethodInvocation SimpleName authenticate user
+security operations SimpleName MethodInvocation MethodInvocation SimpleName authenticate user
+connector SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName connector
+connector SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName whoami
+security operations SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName connector
+security operations SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName whoami
+connector SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName pwd
+connector SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get bytes
+security operations SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName pwd
+security operations SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get bytes
+authenticate user SimpleName MethodInvocation MethodInvocation SimpleName connector
+authenticate user SimpleName MethodInvocation MethodInvocation SimpleName whoami
+authenticate user SimpleName MethodInvocation MethodInvocation SimpleName pwd
+authenticate user SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+connector SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName pwd
+connector SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get bytes
+whoami SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName pwd
+whoami SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get bytes
+auth failed SimpleName Assignment PrefixExpression MethodInvocation SimpleName authenticate user
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+print exception SimpleName MethodInvocation SimpleName e
+reader SimpleName MethodInvocation SimpleName print string
+reader SimpleName MethodInvocation StringLiteral invalid password
+print string SimpleName MethodInvocation StringLiteral invalid password
+auth failed SimpleName IfStatement ExpressionStatement MethodInvocation SimpleName reader
+auth failed SimpleName IfStatement ExpressionStatement MethodInvocation SimpleName print string
+auth failed SimpleName IfStatement ExpressionStatement MethodInvocation StringLiteral invalid password
+auth failed SimpleName IfStatement Block DoStatement SimpleName auth failed
+system SimpleName MethodInvocation SimpleName current time millis
+last user activity SimpleName Assignment MethodInvocation SimpleName system
+last user activity SimpleName Assignment MethodInvocation SimpleName current time millis
+boolean PrimitiveType VariableDeclarationStatement Block DoStatement SimpleName auth failed
+sc SimpleName MethodInvocation SimpleName get options with help
+parse opts SimpleName VariableDeclarationFragment MethodInvocation SimpleName sc
+parse opts SimpleName VariableDeclarationFragment MethodInvocation SimpleName get options with help
+options SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName parse opts
+basic parser SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName parse
+basic parser SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName parse opts
+basic parser SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName fields
+parse SimpleName MethodInvocation SimpleName parse opts
+parse SimpleName MethodInvocation SimpleName fields
+parse opts SimpleName MethodInvocation SimpleName fields
+cl SimpleName VariableDeclarationFragment MethodInvocation SimpleName parse
+cl SimpleName VariableDeclarationFragment MethodInvocation SimpleName parse opts
+cl SimpleName VariableDeclarationFragment MethodInvocation SimpleName fields
+command line SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName cl
+cl SimpleName MethodInvocation SimpleName get args
+cl SimpleName MethodInvocation FieldAccess SimpleName length
+get args SimpleName MethodInvocation FieldAccess SimpleName length
+actual arg len SimpleName VariableDeclarationFragment FieldAccess MethodInvocation SimpleName cl
+actual arg len SimpleName VariableDeclarationFragment FieldAccess MethodInvocation SimpleName get args
+actual arg len SimpleName VariableDeclarationFragment FieldAccess SimpleName length
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName actual arg len
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment FieldAccess SimpleName length
+sc SimpleName MethodInvocation SimpleName num args
+expected arg len SimpleName VariableDeclarationFragment MethodInvocation SimpleName sc
+expected arg len SimpleName VariableDeclarationFragment MethodInvocation SimpleName num args
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName expected arg len
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName sc
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName num args
+cl SimpleName MethodInvocation SimpleName has option
+cl SimpleName MethodInvocation SimpleName help option
+has option SimpleName MethodInvocation SimpleName help option
+sc SimpleName MethodInvocation SimpleName print help
+expected arg len SimpleName InfixExpression SimpleName no fixed arg length check
+actual arg len SimpleName InfixExpression SimpleName expected arg len
+expected arg len SimpleName InfixExpression InfixExpression InfixExpression SimpleName actual arg len
+expected arg len SimpleName InfixExpression InfixExpression InfixExpression SimpleName expected arg len
+no fixed arg length check SimpleName InfixExpression InfixExpression InfixExpression SimpleName actual arg len
+no fixed arg length check SimpleName InfixExpression InfixExpression InfixExpression SimpleName expected arg len
+expected arg len SimpleName InfixExpression NumberLiteral empty
+expected arg len SimpleName InfixExpression ConditionalExpression StringLiteral empty
+empty NumberLiteral InfixExpression ConditionalExpression StringLiteral empty
+expected arg len SimpleName InfixExpression ConditionalExpression StringLiteral s
+empty NumberLiteral InfixExpression ConditionalExpression StringLiteral s
+empty StringLiteral ConditionalExpression StringLiteral s
+actual arg len SimpleName InfixExpression NumberLiteral empty
+actual arg len SimpleName InfixExpression ConditionalExpression StringLiteral was
+empty NumberLiteral InfixExpression ConditionalExpression StringLiteral was
+actual arg len SimpleName InfixExpression ConditionalExpression StringLiteral were
+empty NumberLiteral InfixExpression ConditionalExpression StringLiteral were
+was StringLiteral ConditionalExpression StringLiteral were
+string SimpleName MethodInvocation SimpleName format
+string SimpleName MethodInvocation StringLiteral expected d arguments there s d
+string SimpleName MethodInvocation SimpleName expected arg len
+string SimpleName MethodInvocation ConditionalExpression InfixExpression SimpleName expected arg len
+string SimpleName MethodInvocation ConditionalExpression InfixExpression NumberLiteral empty
+string SimpleName MethodInvocation ConditionalExpression StringLiteral empty
+string SimpleName MethodInvocation ConditionalExpression StringLiteral s
+string SimpleName MethodInvocation ConditionalExpression InfixExpression SimpleName actual arg len
+string SimpleName MethodInvocation ConditionalExpression InfixExpression NumberLiteral empty
+string SimpleName MethodInvocation ConditionalExpression StringLiteral was
+string SimpleName MethodInvocation ConditionalExpression StringLiteral were
+format SimpleName MethodInvocation StringLiteral expected d arguments there s d
+format SimpleName MethodInvocation SimpleName expected arg len
+format SimpleName MethodInvocation ConditionalExpression InfixExpression SimpleName expected arg len
+format SimpleName MethodInvocation ConditionalExpression InfixExpression NumberLiteral empty
+format SimpleName MethodInvocation ConditionalExpression StringLiteral empty
+format SimpleName MethodInvocation ConditionalExpression StringLiteral s
+format SimpleName MethodInvocation ConditionalExpression InfixExpression SimpleName actual arg len
+format SimpleName MethodInvocation ConditionalExpression InfixExpression NumberLiteral empty
+format SimpleName MethodInvocation ConditionalExpression StringLiteral was
+format SimpleName MethodInvocation ConditionalExpression StringLiteral were
+format SimpleName MethodInvocation SimpleName actual arg len
+expected d arguments there s d StringLiteral MethodInvocation SimpleName expected arg len
+expected d arguments there s d StringLiteral MethodInvocation ConditionalExpression InfixExpression SimpleName expected arg len
+expected d arguments there s d StringLiteral MethodInvocation ConditionalExpression InfixExpression NumberLiteral empty
+expected d arguments there s d StringLiteral MethodInvocation ConditionalExpression StringLiteral empty
+expected d arguments there s d StringLiteral MethodInvocation ConditionalExpression StringLiteral s
+expected d arguments there s d StringLiteral MethodInvocation ConditionalExpression InfixExpression SimpleName actual arg len
+expected d arguments there s d StringLiteral MethodInvocation ConditionalExpression InfixExpression NumberLiteral empty
+expected d arguments there s d StringLiteral MethodInvocation ConditionalExpression StringLiteral was
+expected d arguments there s d StringLiteral MethodInvocation ConditionalExpression StringLiteral were
+expected d arguments there s d StringLiteral MethodInvocation SimpleName actual arg len
+expected arg len SimpleName MethodInvocation ConditionalExpression InfixExpression SimpleName expected arg len
+expected arg len SimpleName MethodInvocation ConditionalExpression InfixExpression NumberLiteral empty
+expected arg len SimpleName MethodInvocation ConditionalExpression StringLiteral empty
+expected arg len SimpleName MethodInvocation ConditionalExpression StringLiteral s
+expected arg len SimpleName MethodInvocation ConditionalExpression InfixExpression SimpleName actual arg len
+expected arg len SimpleName MethodInvocation ConditionalExpression InfixExpression NumberLiteral empty
+expected arg len SimpleName MethodInvocation ConditionalExpression StringLiteral was
+expected arg len SimpleName MethodInvocation ConditionalExpression StringLiteral were
+expected arg len SimpleName MethodInvocation SimpleName actual arg len
+empty StringLiteral ConditionalExpression MethodInvocation ConditionalExpression StringLiteral was
+empty StringLiteral ConditionalExpression MethodInvocation ConditionalExpression StringLiteral were
+s StringLiteral ConditionalExpression MethodInvocation ConditionalExpression StringLiteral was
+s StringLiteral ConditionalExpression MethodInvocation ConditionalExpression StringLiteral were
+expected arg len SimpleName InfixExpression ConditionalExpression MethodInvocation SimpleName actual arg len
+empty NumberLiteral InfixExpression ConditionalExpression MethodInvocation SimpleName actual arg len
+empty StringLiteral ConditionalExpression MethodInvocation SimpleName actual arg len
+s StringLiteral ConditionalExpression MethodInvocation SimpleName actual arg len
+actual arg len SimpleName InfixExpression ConditionalExpression MethodInvocation SimpleName actual arg len
+empty NumberLiteral InfixExpression ConditionalExpression MethodInvocation SimpleName actual arg len
+was StringLiteral ConditionalExpression MethodInvocation SimpleName actual arg len
+were StringLiteral ConditionalExpression MethodInvocation SimpleName actual arg len
+illegal argument exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName string
+illegal argument exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName format
+illegal argument exception SimpleName SimpleType ClassInstanceCreation MethodInvocation StringLiteral expected d arguments there s d
+illegal argument exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName expected arg len
+illegal argument exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName actual arg len
+print exception SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName illegal argument exception
+print exception SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName string
+print exception SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName format
+print exception SimpleName MethodInvocation ClassInstanceCreation MethodInvocation StringLiteral expected d arguments there s d
+print exception SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName expected arg len
+print exception SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName actual arg len
+sc SimpleName MethodInvocation SimpleName print help
+sc SimpleName MethodInvocation SimpleName execute
+sc SimpleName MethodInvocation SimpleName input
+sc SimpleName MethodInvocation SimpleName cl
+execute SimpleName MethodInvocation SimpleName input
+execute SimpleName MethodInvocation SimpleName cl
+input SimpleName MethodInvocation SimpleName cl
+tmp code SimpleName VariableDeclarationFragment MethodInvocation SimpleName sc
+tmp code SimpleName VariableDeclarationFragment MethodInvocation SimpleName execute
+tmp code SimpleName VariableDeclarationFragment MethodInvocation SimpleName input
+tmp code SimpleName VariableDeclarationFragment MethodInvocation SimpleName cl
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName tmp code
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName sc
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName execute
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName input
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName cl
+exit code SimpleName Assignment SimpleName tmp code
+reader SimpleName MethodInvocation SimpleName flush console
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+constraint violation exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+print constraint violation exception SimpleName MethodInvocation SimpleName e
+table not found exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+e SimpleName MethodInvocation SimpleName get table name
+get table name SimpleName MethodInvocation MethodInvocation SimpleName equals
+get table name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName e
+get table name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get table name
+equals SimpleName MethodInvocation MethodInvocation SimpleName e
+equals SimpleName MethodInvocation MethodInvocation SimpleName get table name
+set table name SimpleName MethodInvocation StringLiteral empty
+print exception SimpleName MethodInvocation SimpleName e
+parse exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+e SimpleName InstanceofExpression SimpleType SimpleName missing option exception
+arrays SimpleName MethodInvocation SimpleName as list
+arrays SimpleName MethodInvocation SimpleName fields
+as list SimpleName MethodInvocation SimpleName fields
+- StringLiteral InfixExpression SimpleName help option
+arrays SimpleName MethodInvocation MethodInvocation SimpleName contains
+as list SimpleName MethodInvocation MethodInvocation SimpleName contains
+fields SimpleName MethodInvocation MethodInvocation SimpleName contains
+arrays SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral -
+arrays SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName help option
+as list SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral -
+as list SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName help option
+fields SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral -
+fields SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName help option
+contains SimpleName MethodInvocation InfixExpression StringLiteral -
+contains SimpleName MethodInvocation InfixExpression SimpleName help option
+arrays SimpleName MethodInvocation SimpleName as list
+arrays SimpleName MethodInvocation SimpleName fields
+as list SimpleName MethodInvocation SimpleName fields
+-- StringLiteral InfixExpression SimpleName help long option
+arrays SimpleName MethodInvocation MethodInvocation SimpleName contains
+as list SimpleName MethodInvocation MethodInvocation SimpleName contains
+fields SimpleName MethodInvocation MethodInvocation SimpleName contains
+arrays SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral --
+arrays SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName help long option
+as list SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral --
+as list SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName help long option
+fields SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral --
+fields SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName help long option
+contains SimpleName MethodInvocation InfixExpression StringLiteral --
+contains SimpleName MethodInvocation InfixExpression SimpleName help long option
+contains SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName contains
+print exception SimpleName MethodInvocation SimpleName e
+sc SimpleName MethodInvocation SimpleName print help
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+print exception SimpleName MethodInvocation SimpleName e
+bad argument exception SimpleName SimpleType ClassInstanceCreation StringLiteral unrecognized empty command
+bad argument exception SimpleName SimpleType ClassInstanceCreation SimpleName command
+bad argument exception SimpleName SimpleType ClassInstanceCreation PrefixExpression NumberLiteral empty
+unrecognized empty command StringLiteral ClassInstanceCreation SimpleName command
+unrecognized empty command StringLiteral ClassInstanceCreation PrefixExpression NumberLiteral empty
+command SimpleName ClassInstanceCreation PrefixExpression NumberLiteral empty
+print exception SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName bad argument exception
+print exception SimpleName MethodInvocation ClassInstanceCreation StringLiteral unrecognized empty command
+print exception SimpleName MethodInvocation ClassInstanceCreation SimpleName command
+print exception SimpleName MethodInvocation ClassInstanceCreation PrefixExpression NumberLiteral empty
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName exec command
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName input
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName ignore auth timeout
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName echo prompt
+void PrimitiveType MethodDeclaration SimpleName exec command
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName input
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName ignore auth timeout
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName echo prompt
+void PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+exec command SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+exec command SimpleName MethodDeclaration SingleVariableDeclaration SimpleName input
+exec command SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+exec command SimpleName MethodDeclaration SingleVariableDeclaration SimpleName ignore auth timeout
+exec command SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+exec command SimpleName MethodDeclaration SingleVariableDeclaration SimpleName echo prompt
+exec command SimpleName MethodDeclaration SimpleType SimpleName io exception
+exec command SimpleName MethodDeclaration Block IfStatement SimpleName echo prompt
+input SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+input SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ignore auth timeout
+input SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+input SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName echo prompt
+input SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+boolean PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+boolean PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName echo prompt
+ignore auth timeout SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+ignore auth timeout SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName echo prompt
+boolean PrimitiveType SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+ignore auth timeout SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+boolean PrimitiveType SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+echo prompt SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName exec command
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName input
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ignore auth timeout
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName echo prompt
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName exec command
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName input
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ignore auth timeout
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName echo prompt
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

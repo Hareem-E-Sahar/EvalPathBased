@@ -1,0 +1,67 @@
+configuration SimpleName SimpleType SingleVariableDeclaration SimpleName config
+tsb SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName to string builder
+to string builder SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName tsb
+iterator SimpleName SimpleType ParameterizedType WildcardType ?
+config SimpleName MethodInvocation SimpleName get keys
+keys SimpleName VariableDeclarationFragment MethodInvocation SimpleName config
+keys SimpleName VariableDeclarationFragment MethodInvocation SimpleName get keys
+? WildcardType ParameterizedType VariableDeclarationStatement VariableDeclarationFragment SimpleName keys
+keys SimpleName MethodInvocation SimpleName has next
+tsb SimpleName MethodInvocation SimpleName append
+tsb SimpleName MethodInvocation StringLiteral empty
+append SimpleName MethodInvocation StringLiteral empty
+keys SimpleName MethodInvocation SimpleName next
+string SimpleName SimpleType CastExpression MethodInvocation SimpleName keys
+string SimpleName SimpleType CastExpression MethodInvocation SimpleName next
+k SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName string
+k SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName keys
+k SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName next
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName k
+config SimpleName MethodInvocation SimpleName get string
+config SimpleName MethodInvocation SimpleName k
+get string SimpleName MethodInvocation SimpleName k
+v SimpleName VariableDeclarationFragment MethodInvocation SimpleName config
+v SimpleName VariableDeclarationFragment MethodInvocation SimpleName get string
+v SimpleName VariableDeclarationFragment MethodInvocation SimpleName k
+object SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName v
+config SimpleName MethodInvocation SimpleName get list
+config SimpleName MethodInvocation SimpleName k
+get list SimpleName MethodInvocation SimpleName k
+v SimpleName Assignment MethodInvocation SimpleName config
+v SimpleName Assignment MethodInvocation SimpleName get list
+v SimpleName Assignment MethodInvocation SimpleName k
+v SimpleName MethodInvocation SimpleName to string
+tsb SimpleName MethodInvocation SimpleName append
+tsb SimpleName MethodInvocation SimpleName k
+tsb SimpleName MethodInvocation MethodInvocation SimpleName v
+tsb SimpleName MethodInvocation MethodInvocation SimpleName to string
+append SimpleName MethodInvocation SimpleName k
+append SimpleName MethodInvocation MethodInvocation SimpleName v
+append SimpleName MethodInvocation MethodInvocation SimpleName to string
+k SimpleName MethodInvocation MethodInvocation SimpleName v
+k SimpleName MethodInvocation MethodInvocation SimpleName to string
+tsb SimpleName MethodInvocation SimpleName to string
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName to string value
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName configuration
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName config
+static Modifier MethodDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SimpleName to string value
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName configuration
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName config
+string SimpleName SimpleType MethodDeclaration SimpleName to string value
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName config
+to string value SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName configuration
+to string value SimpleName MethodDeclaration SingleVariableDeclaration SimpleName config
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName to string value
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName config
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName to string value
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName config

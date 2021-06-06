@@ -1,0 +1,85 @@
+r SimpleName MethodInvocation SimpleName next long
+r SimpleName MethodInvocation InfixExpression NumberLiteral x fffffffffffffffl
+next long SimpleName MethodInvocation InfixExpression NumberLiteral x fffffffffffffffl
+x fffffffffffffffl NumberLiteral InfixExpression ParenthesizedExpression InfixExpression NumberLiteral empty
+empty NumberLiteral InfixExpression ParenthesizedExpression InfixExpression NumberLiteral l
+long SimpleName MethodInvocation SimpleName to string
+long SimpleName MethodInvocation InfixExpression NumberLiteral l
+to string SimpleName MethodInvocation InfixExpression NumberLiteral l
+text SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName long
+text SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName to string
+row value SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName text
+row value SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName long
+row value SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName to string
+text SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName row value
+mutation SimpleName SimpleType ClassInstanceCreation SimpleName row value
+m SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName mutation
+m SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName row value
+mutation SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName m
+column SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName column
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+column SimpleName InfixExpression SimpleName num columns per row
+text SimpleName SimpleType ClassInstanceCreation StringLiteral col fam
+column fam SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName text
+column fam SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral col fam
+text SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName column fam
+byte PrimitiveType ArrayType ArrayCreation SimpleName num payload bytes
+bytes SimpleName VariableDeclarationFragment ArrayCreation ArrayType PrimitiveType byte
+bytes SimpleName VariableDeclarationFragment ArrayCreation SimpleName num payload bytes
+byte PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName bytes
+r SimpleName MethodInvocation SimpleName next bytes
+r SimpleName MethodInvocation SimpleName bytes
+next bytes SimpleName MethodInvocation SimpleName bytes
+empty StringLiteral InfixExpression SimpleName column
+text SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral empty
+text SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName column
+value SimpleName SimpleType ClassInstanceCreation SimpleName bytes
+m SimpleName MethodInvocation SimpleName put
+m SimpleName MethodInvocation SimpleName column fam
+m SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName text
+m SimpleName MethodInvocation ClassInstanceCreation InfixExpression StringLiteral empty
+m SimpleName MethodInvocation ClassInstanceCreation InfixExpression SimpleName column
+m SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName value
+m SimpleName MethodInvocation ClassInstanceCreation SimpleName bytes
+put SimpleName MethodInvocation SimpleName column fam
+put SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName text
+put SimpleName MethodInvocation ClassInstanceCreation InfixExpression StringLiteral empty
+put SimpleName MethodInvocation ClassInstanceCreation InfixExpression SimpleName column
+put SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName value
+put SimpleName MethodInvocation ClassInstanceCreation SimpleName bytes
+column fam SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName text
+column fam SimpleName MethodInvocation ClassInstanceCreation InfixExpression StringLiteral empty
+column fam SimpleName MethodInvocation ClassInstanceCreation InfixExpression SimpleName column
+column fam SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName value
+column fam SimpleName MethodInvocation ClassInstanceCreation SimpleName bytes
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName column
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName num columns per row
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName column
+column SimpleName InfixExpression ForStatement PostfixExpression SimpleName column
+num columns per row SimpleName InfixExpression ForStatement PostfixExpression SimpleName column
+mutations so far SimpleName InfixExpression NumberLiteral empty
+mutations so far SimpleName InfixExpression InfixExpression NumberLiteral empty
+empty NumberLiteral InfixExpression InfixExpression NumberLiteral empty
+created StringLiteral InfixExpression SimpleName mutations so far
+created StringLiteral InfixExpression StringLiteral mutations so far
+mutations so far SimpleName InfixExpression StringLiteral mutations so far
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation InfixExpression StringLiteral created
+log SimpleName MethodInvocation InfixExpression SimpleName mutations so far
+log SimpleName MethodInvocation InfixExpression StringLiteral mutations so far
+info SimpleName MethodInvocation InfixExpression StringLiteral created
+info SimpleName MethodInvocation InfixExpression SimpleName mutations so far
+info SimpleName MethodInvocation InfixExpression StringLiteral mutations so far
+public Modifier MethodDeclaration SimpleType SimpleName mutation
+public Modifier MethodDeclaration SimpleName next
+public Modifier MethodDeclaration Block ReturnStatement SimpleName m
+mutation SimpleName SimpleType MethodDeclaration SimpleName next
+next SimpleName MethodDeclaration Block ReturnStatement SimpleName m
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName mutation
+public Modifier TypeDeclaration MethodDeclaration SimpleName next
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName mutation
+test SimpleName TypeDeclaration MethodDeclaration SimpleName next

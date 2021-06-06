@@ -1,0 +1,53 @@
+final Modifier SingleVariableDeclaration SimpleType SimpleName string
+final Modifier SingleVariableDeclaration SimpleName guid
+string SimpleName SimpleType SingleVariableDeclaration SimpleName guid
+log SimpleName MethodInvocation SimpleName is debug enabled
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral retrieving entity with guid
+log SimpleName MethodInvocation SimpleName guid
+debug SimpleName MethodInvocation StringLiteral retrieving entity with guid
+debug SimpleName MethodInvocation SimpleName guid
+retrieving entity with guid StringLiteral MethodInvocation SimpleName guid
+entity mapper SimpleName MethodInvocation SimpleName to atlas entity
+entity mapper SimpleName MethodInvocation SimpleName guid
+entity mapper SimpleName MethodInvocation BooleanLiteral true
+to atlas entity SimpleName MethodInvocation SimpleName guid
+to atlas entity SimpleName MethodInvocation BooleanLiteral true
+guid SimpleName MethodInvocation BooleanLiteral true
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName atlas entity with ext info
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName get by id
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration Modifier final
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName guid
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier MethodDeclaration SimpleType SimpleName atlas entity with ext info
+public Modifier MethodDeclaration SimpleName get by id
+public Modifier MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName guid
+public Modifier MethodDeclaration SimpleType SimpleName atlas base exception
+atlas entity with ext info SimpleName SimpleType MethodDeclaration SimpleName get by id
+atlas entity with ext info SimpleName SimpleType MethodDeclaration SingleVariableDeclaration Modifier final
+atlas entity with ext info SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName guid
+atlas entity with ext info SimpleName SimpleType MethodDeclaration SimpleType SimpleName atlas base exception
+get by id SimpleName MethodDeclaration SingleVariableDeclaration Modifier final
+get by id SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get by id SimpleName MethodDeclaration SingleVariableDeclaration SimpleName guid
+get by id SimpleName MethodDeclaration SimpleType SimpleName atlas base exception
+final Modifier SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+guid SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas entity with ext info
+public Modifier TypeDeclaration MethodDeclaration SimpleName get by id
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName guid
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas entity with ext info
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get by id
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName guid
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception

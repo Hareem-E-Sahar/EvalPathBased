@@ -1,0 +1,68 @@
+tablet location state SimpleName SimpleType SingleVariableDeclaration SimpleName tls
+tlsextent QualifiedName MethodInvocation SimpleName get table id
+tlsextent QualifiedName MethodInvocation MethodInvocation SimpleName equals
+get table id SimpleName MethodInvocation MethodInvocation SimpleName equals
+tlsextent QualifiedName MethodInvocation MethodInvocation SimpleName metadata table id
+get table id SimpleName MethodInvocation MethodInvocation SimpleName metadata table id
+equals SimpleName MethodInvocation SimpleName metadata table id
+equals SimpleName MethodInvocation IfStatement ReturnStatement QualifiedName tablet goal statehosted
+metadata table id SimpleName MethodInvocation IfStatement ReturnStatement QualifiedName tablet goal statehosted
+tlsextent QualifiedName MethodInvocation SimpleName equals
+tlsextent QualifiedName MethodInvocation QualifiedName constantsroot tablet extent
+equals SimpleName MethodInvocation QualifiedName constantsroot tablet extent
+tlsextent QualifiedName MethodInvocation IfStatement ReturnStatement QualifiedName tablet goal statehosted
+equals SimpleName MethodInvocation IfStatement ReturnStatement QualifiedName tablet goal statehosted
+constantsroot tablet extent QualifiedName MethodInvocation IfStatement ReturnStatement QualifiedName tablet goal statehosted
+get master state SimpleName MethodInvocation SwitchStatement SwitchCase SimpleName normal
+get master state SimpleName MethodInvocation SwitchStatement ReturnStatement QualifiedName tablet goal statehosted
+get master state SimpleName MethodInvocation SwitchStatement SwitchCase SimpleName have lock
+get master state SimpleName MethodInvocation SwitchStatement SwitchCase SimpleName initial
+get master state SimpleName MethodInvocation SwitchStatement SwitchCase SimpleName safe mode
+normal SimpleName SwitchCase SwitchStatement ReturnStatement QualifiedName tablet goal statehosted
+normal SimpleName SwitchCase SwitchStatement SwitchCase SimpleName have lock
+normal SimpleName SwitchCase SwitchStatement SwitchCase SimpleName initial
+normal SimpleName SwitchCase SwitchStatement SwitchCase SimpleName safe mode
+tablet goal statehosted QualifiedName ReturnStatement SwitchStatement SwitchCase SimpleName have lock
+tablet goal statehosted QualifiedName ReturnStatement SwitchStatement SwitchCase SimpleName initial
+tablet goal statehosted QualifiedName ReturnStatement SwitchStatement SwitchCase SimpleName safe mode
+tablet goal statehosted QualifiedName ReturnStatement SwitchStatement ReturnStatement QualifiedName tablet goal stateunassigned
+have lock SimpleName SwitchCase SwitchStatement SwitchCase SimpleName initial
+have lock SimpleName SwitchCase SwitchStatement SwitchCase SimpleName safe mode
+have lock SimpleName SwitchCase SwitchStatement ReturnStatement QualifiedName tablet goal stateunassigned
+have lock SimpleName SwitchCase SwitchStatement SwitchCase SimpleName unload metadata tablets
+initial SimpleName SwitchCase SwitchStatement SwitchCase SimpleName safe mode
+initial SimpleName SwitchCase SwitchStatement ReturnStatement QualifiedName tablet goal stateunassigned
+initial SimpleName SwitchCase SwitchStatement SwitchCase SimpleName unload metadata tablets
+safe mode SimpleName SwitchCase SwitchStatement ReturnStatement QualifiedName tablet goal stateunassigned
+safe mode SimpleName SwitchCase SwitchStatement SwitchCase SimpleName unload metadata tablets
+safe mode SimpleName SwitchCase SwitchStatement ReturnStatement QualifiedName tablet goal stateunassigned
+tablet goal stateunassigned QualifiedName ReturnStatement SwitchStatement SwitchCase SimpleName unload metadata tablets
+tablet goal stateunassigned QualifiedName ReturnStatement SwitchStatement ReturnStatement QualifiedName tablet goal stateunassigned
+tablet goal stateunassigned QualifiedName ReturnStatement SwitchStatement SwitchCase SimpleName unload root tablet
+tablet goal stateunassigned QualifiedName ReturnStatement SwitchStatement ReturnStatement QualifiedName tablet goal stateunassigned
+unload metadata tablets SimpleName SwitchCase SwitchStatement ReturnStatement QualifiedName tablet goal stateunassigned
+unload metadata tablets SimpleName SwitchCase SwitchStatement SwitchCase SimpleName unload root tablet
+unload metadata tablets SimpleName SwitchCase SwitchStatement ReturnStatement QualifiedName tablet goal stateunassigned
+unload metadata tablets SimpleName SwitchCase SwitchStatement SwitchCase SimpleName stop
+tablet goal stateunassigned QualifiedName ReturnStatement SwitchStatement SwitchCase SimpleName unload root tablet
+tablet goal stateunassigned QualifiedName ReturnStatement SwitchStatement ReturnStatement QualifiedName tablet goal stateunassigned
+tablet goal stateunassigned QualifiedName ReturnStatement SwitchStatement SwitchCase SimpleName stop
+tablet goal stateunassigned QualifiedName ReturnStatement SwitchStatement ReturnStatement QualifiedName tablet goal stateunassigned
+unload root tablet SimpleName SwitchCase SwitchStatement ReturnStatement QualifiedName tablet goal stateunassigned
+unload root tablet SimpleName SwitchCase SwitchStatement SwitchCase SimpleName stop
+unload root tablet SimpleName SwitchCase SwitchStatement ReturnStatement QualifiedName tablet goal stateunassigned
+tablet goal stateunassigned QualifiedName ReturnStatement SwitchStatement SwitchCase SimpleName stop
+tablet goal stateunassigned QualifiedName ReturnStatement SwitchStatement ReturnStatement QualifiedName tablet goal stateunassigned
+stop SimpleName SwitchCase SwitchStatement ReturnStatement QualifiedName tablet goal stateunassigned
+tablet goal state SimpleName SimpleType MethodDeclaration SimpleName get system goal state
+tablet goal state SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName tls
+get system goal state SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName tablet location state
+get system goal state SimpleName MethodDeclaration SingleVariableDeclaration SimpleName tls
+get system goal state SimpleName MethodDeclaration Block ReturnStatement QualifiedName tablet goal statehosted
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName tablet goal state
+public Modifier TypeDeclaration MethodDeclaration SimpleName get system goal state
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName tls
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName tablet goal state
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get system goal state
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName tls

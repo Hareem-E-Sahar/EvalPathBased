@@ -1,0 +1,36 @@
+atlas graph query SimpleName SimpleType SingleVariableDeclaration SimpleName query
+context SimpleName MethodInvocation SimpleName get classification type
+context SimpleName MethodInvocation SimpleName need classification processor
+context SimpleName MethodInvocation SimpleName get classification type
+context SimpleName MethodInvocation MethodInvocation SimpleName get type and all sub types
+get classification type SimpleName MethodInvocation MethodInvocation SimpleName get type and all sub types
+query SimpleName MethodInvocation SimpleName in
+query SimpleName MethodInvocation QualifiedName constantstrait names property key
+query SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName context
+query SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get classification type
+query SimpleName MethodInvocation MethodInvocation SimpleName get type and all sub types
+in SimpleName MethodInvocation QualifiedName constantstrait names property key
+in SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName context
+in SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get classification type
+in SimpleName MethodInvocation MethodInvocation SimpleName get type and all sub types
+constantstrait names property key QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName context
+constantstrait names property key QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName get classification type
+constantstrait names property key QualifiedName MethodInvocation MethodInvocation SimpleName get type and all sub types
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName add classification name condition if necessary
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas graph query
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName query
+void PrimitiveType MethodDeclaration SimpleName add classification name condition if necessary
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas graph query
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName query
+add classification name condition if necessary SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas graph query
+add classification name condition if necessary SimpleName MethodDeclaration SingleVariableDeclaration SimpleName query
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName add classification name condition if necessary
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName query
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName add classification name condition if necessary
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName query

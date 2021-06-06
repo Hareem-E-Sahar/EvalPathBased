@@ -1,0 +1,184 @@
+multimap SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+multimap SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+connector SimpleName SimpleType SingleVariableDeclaration SimpleName conn
+multimap SimpleName SimpleType ParameterizedType SimpleType SimpleName t server instance
+multimap SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+t server instance SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+hash multimap SimpleName MethodInvocation SimpleName create
+server to table id SimpleName VariableDeclarationFragment MethodInvocation SimpleName hash multimap
+server to table id SimpleName VariableDeclarationFragment MethodInvocation SimpleName create
+conn SimpleName MethodInvocation SimpleName create scanner
+conn SimpleName MethodInvocation QualifiedName metadata tablename
+conn SimpleName MethodInvocation QualifiedName authorizationsempty
+create scanner SimpleName MethodInvocation QualifiedName metadata tablename
+create scanner SimpleName MethodInvocation QualifiedName authorizationsempty
+metadata tablename QualifiedName MethodInvocation QualifiedName authorizationsempty
+scanner SimpleName VariableDeclarationFragment MethodInvocation SimpleName conn
+scanner SimpleName VariableDeclarationFragment MethodInvocation SimpleName create scanner
+scanner SimpleName VariableDeclarationFragment MethodInvocation QualifiedName metadata tablename
+scanner SimpleName VariableDeclarationFragment MethodInvocation QualifiedName authorizationsempty
+scanner SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName scanner
+metadata schematablets section QualifiedName MethodInvocation SimpleName get range
+scanner SimpleName MethodInvocation SimpleName set range
+scanner SimpleName MethodInvocation MethodInvocation QualifiedName metadata schematablets section
+scanner SimpleName MethodInvocation MethodInvocation SimpleName get range
+set range SimpleName MethodInvocation MethodInvocation QualifiedName metadata schematablets section
+set range SimpleName MethodInvocation MethodInvocation SimpleName get range
+scanner SimpleName MethodInvocation SimpleName fetch column family
+scanner SimpleName MethodInvocation QualifiedName metadata schematablets sectioncurrent location column familyname
+fetch column family SimpleName MethodInvocation QualifiedName metadata schematablets sectioncurrent location column familyname
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName key
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+key SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+entry SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+key SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+value SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+entry SimpleName MethodInvocation SimpleName get value
+entry SimpleName MethodInvocation SimpleName get key
+entry SimpleName MethodInvocation MethodInvocation SimpleName get column qualifier
+get key SimpleName MethodInvocation MethodInvocation SimpleName get column qualifier
+t server instance SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName entry
+t server instance SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get value
+t server instance SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get column qualifier
+entry SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get column qualifier
+get value SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get column qualifier
+key SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName t server instance
+key SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName entry
+key SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get value
+key SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get column qualifier
+t server instance SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName key
+entry SimpleName MethodInvocation SimpleName get key
+entry SimpleName MethodInvocation MethodInvocation SimpleName get row
+get key SimpleName MethodInvocation MethodInvocation SimpleName get row
+key extent SimpleName MethodInvocation SimpleName table of metadata row
+key extent SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName entry
+key extent SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get key
+key extent SimpleName MethodInvocation MethodInvocation SimpleName get row
+table of metadata row SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName entry
+table of metadata row SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get key
+table of metadata row SimpleName MethodInvocation MethodInvocation SimpleName get row
+table id SimpleName VariableDeclarationFragment MethodInvocation SimpleName key extent
+table id SimpleName VariableDeclarationFragment MethodInvocation SimpleName table of metadata row
+table id SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get row
+byte PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName table id
+string SimpleName SimpleType ClassInstanceCreation SimpleName table id
+string SimpleName SimpleType ClassInstanceCreation SimpleName utf
+table id SimpleName ClassInstanceCreation SimpleName utf
+server to table id SimpleName MethodInvocation SimpleName put
+server to table id SimpleName MethodInvocation SimpleName key
+server to table id SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName string
+server to table id SimpleName MethodInvocation ClassInstanceCreation SimpleName table id
+server to table id SimpleName MethodInvocation ClassInstanceCreation SimpleName utf
+put SimpleName MethodInvocation SimpleName key
+put SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName string
+put SimpleName MethodInvocation ClassInstanceCreation SimpleName table id
+put SimpleName MethodInvocation ClassInstanceCreation SimpleName utf
+key SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName string
+key SimpleName MethodInvocation ClassInstanceCreation SimpleName table id
+key SimpleName MethodInvocation ClassInstanceCreation SimpleName utf
+entry SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName scanner
+multimap SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+multimap SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+hash multimap SimpleName MethodInvocation SimpleName create
+logs SimpleName VariableDeclarationFragment MethodInvocation SimpleName hash multimap
+logs SimpleName VariableDeclarationFragment MethodInvocation SimpleName create
+conn SimpleName MethodInvocation SimpleName get instance
+zoo reader writer SimpleName MethodInvocation SimpleName get instance
+wal state manager SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName conn
+wal state manager SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get instance
+wal state manager SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName zoo reader writer
+wal state manager SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get instance
+conn SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName zoo reader writer
+conn SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get instance
+get instance SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName zoo reader writer
+get instance SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get instance
+wals SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName wal state manager
+wals SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName conn
+wals SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get instance
+wals SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName zoo reader writer
+wals SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get instance
+wal state manager SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName wals
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName uuid
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName t server instance
+entry SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+t server instance SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+wals SimpleName MethodInvocation SimpleName get all markers
+wals SimpleName MethodInvocation MethodInvocation SimpleName entry set
+get all markers SimpleName MethodInvocation MethodInvocation SimpleName entry set
+uuid SimpleName SimpleType SingleVariableDeclaration SimpleName id
+entry SimpleName MethodInvocation SimpleName get value
+pair SimpleName SimpleType ParameterizedType SimpleType SimpleName wal state
+pair SimpleName SimpleType ParameterizedType SimpleType SimpleName path
+wal state SimpleName SimpleType ParameterizedType SimpleType SimpleName path
+entry SimpleName MethodInvocation SimpleName get key
+wals SimpleName MethodInvocation SimpleName state
+wals SimpleName MethodInvocation MethodInvocation SimpleName entry
+wals SimpleName MethodInvocation MethodInvocation SimpleName get key
+wals SimpleName MethodInvocation SimpleName id
+state SimpleName MethodInvocation MethodInvocation SimpleName entry
+state SimpleName MethodInvocation MethodInvocation SimpleName get key
+state SimpleName MethodInvocation SimpleName id
+entry SimpleName MethodInvocation MethodInvocation SimpleName id
+get key SimpleName MethodInvocation MethodInvocation SimpleName id
+state SimpleName VariableDeclarationFragment MethodInvocation SimpleName wals
+state SimpleName VariableDeclarationFragment MethodInvocation SimpleName state
+state SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName entry
+state SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get key
+state SimpleName VariableDeclarationFragment MethodInvocation SimpleName id
+string SimpleName SimpleType SingleVariableDeclaration SimpleName table id
+entry SimpleName MethodInvocation SimpleName get key
+server to table id SimpleName MethodInvocation SimpleName get
+server to table id SimpleName MethodInvocation MethodInvocation SimpleName entry
+server to table id SimpleName MethodInvocation MethodInvocation SimpleName get key
+get SimpleName MethodInvocation MethodInvocation SimpleName entry
+get SimpleName MethodInvocation MethodInvocation SimpleName get key
+state SimpleName MethodInvocation SimpleName get second
+state SimpleName MethodInvocation MethodInvocation SimpleName to string
+get second SimpleName MethodInvocation MethodInvocation SimpleName to string
+logs SimpleName MethodInvocation SimpleName put
+logs SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName state
+logs SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get second
+logs SimpleName MethodInvocation MethodInvocation SimpleName to string
+logs SimpleName MethodInvocation SimpleName table id
+put SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName state
+put SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get second
+put SimpleName MethodInvocation MethodInvocation SimpleName to string
+put SimpleName MethodInvocation SimpleName table id
+state SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName table id
+get second SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName table id
+to string SimpleName MethodInvocation MethodInvocation SimpleName table id
+table id SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName server to table id
+table id SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName get
+id SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName entry
+id SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName get value
+entry SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName entry set
+scanner SimpleName EnhancedForStatement Block ReturnStatement SimpleName logs
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName multimap
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+private Modifier MethodDeclaration SimpleName get logs
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName connector
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName conn
+private Modifier MethodDeclaration SimpleType SimpleName exception
+private Modifier MethodDeclaration Block EnhancedForStatement SimpleName scanner
+private Modifier MethodDeclaration Block ReturnStatement SimpleName logs
+multimap SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get logs
+string SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get logs
+string SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get logs
+get logs SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName connector
+get logs SimpleName MethodDeclaration SingleVariableDeclaration SimpleName conn
+get logs SimpleName MethodDeclaration SimpleType SimpleName exception
+get logs SimpleName MethodDeclaration Block EnhancedForStatement SimpleName scanner
+get logs SimpleName MethodDeclaration Block ReturnStatement SimpleName logs
+conn SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleName get logs
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName conn
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get logs
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName conn
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

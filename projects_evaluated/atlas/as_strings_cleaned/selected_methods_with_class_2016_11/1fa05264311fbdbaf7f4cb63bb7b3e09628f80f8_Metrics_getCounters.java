@@ -1,0 +1,21 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName name
+counters map SimpleName MethodInvocation SimpleName get
+counters map SimpleName MethodInvocation SimpleName name
+get SimpleName MethodInvocation SimpleName name
+public Modifier MethodDeclaration SimpleType SimpleName counters
+public Modifier MethodDeclaration SimpleName get counters
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName name
+counters SimpleName SimpleType MethodDeclaration SimpleName get counters
+counters SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName name
+get counters SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get counters SimpleName MethodDeclaration SingleVariableDeclaration SimpleName name
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName counters
+public Modifier TypeDeclaration MethodDeclaration SimpleName get counters
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName counters
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get counters
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name

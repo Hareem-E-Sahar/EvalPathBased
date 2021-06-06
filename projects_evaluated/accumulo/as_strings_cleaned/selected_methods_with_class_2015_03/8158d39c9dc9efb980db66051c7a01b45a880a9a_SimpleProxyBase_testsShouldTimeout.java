@@ -1,0 +1,41 @@
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName wait longer
+system SimpleName MethodInvocation SimpleName get property
+system SimpleName MethodInvocation StringLiteral timeoutfactor
+get property SimpleName MethodInvocation StringLiteral timeoutfactor
+integer SimpleName MethodInvocation SimpleName parse int
+integer SimpleName MethodInvocation MethodInvocation SimpleName system
+integer SimpleName MethodInvocation MethodInvocation SimpleName get property
+integer SimpleName MethodInvocation MethodInvocation StringLiteral timeoutfactor
+parse int SimpleName MethodInvocation MethodInvocation SimpleName system
+parse int SimpleName MethodInvocation MethodInvocation SimpleName get property
+parse int SimpleName MethodInvocation MethodInvocation StringLiteral timeoutfactor
+wait longer SimpleName Assignment MethodInvocation SimpleName integer
+wait longer SimpleName Assignment MethodInvocation SimpleName parse int
+wait longer SimpleName Assignment MethodInvocation MethodInvocation SimpleName system
+wait longer SimpleName Assignment MethodInvocation MethodInvocation SimpleName get property
+wait longer SimpleName Assignment MethodInvocation MethodInvocation StringLiteral timeoutfactor
+number format exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+wait longer SimpleName Assignment NumberLiteral empty
+wait longer SimpleName InfixExpression NumberLiteral empty
+wait longer SimpleName InfixExpression NumberLiteral empty
+empty NumberLiteral InfixExpression NumberLiteral empty
+timeout SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName wait longer
+timeout SimpleName SimpleType ClassInstanceCreation InfixExpression NumberLiteral empty
+timeout SimpleName SimpleType ClassInstanceCreation InfixExpression NumberLiteral empty
+rule SimpleName MarkerAnnotation MethodDeclaration Modifier public
+rule SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName timeout
+rule SimpleName MarkerAnnotation MethodDeclaration SimpleName tests should timeout
+public Modifier MethodDeclaration SimpleType SimpleName timeout
+public Modifier MethodDeclaration SimpleName tests should timeout
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+timeout SimpleName SimpleType MethodDeclaration SimpleName tests should timeout
+tests should timeout SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName rule
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName timeout
+public Modifier TypeDeclaration MethodDeclaration SimpleName tests should timeout
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName rule
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName timeout
+test SimpleName TypeDeclaration MethodDeclaration SimpleName tests should timeout

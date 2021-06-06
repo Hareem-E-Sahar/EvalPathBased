@@ -1,0 +1,107 @@
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName tablet server mutations
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName tablet server mutations
+map SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName binned mutations
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName binned mutations
+tablet server mutations SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName binned mutations
+binned mutations SimpleName MethodInvocation SimpleName size
+tablet servers batch sum SimpleName Assignment MethodInvocation SimpleName binned mutations
+tablet servers batch sum SimpleName Assignment MethodInvocation SimpleName size
+binned mutations SimpleName MethodInvocation SimpleName size
+math SimpleName MethodInvocation SimpleName min
+math SimpleName MethodInvocation SimpleName min tablet servers batch
+math SimpleName MethodInvocation MethodInvocation SimpleName binned mutations
+math SimpleName MethodInvocation MethodInvocation SimpleName size
+min SimpleName MethodInvocation SimpleName min tablet servers batch
+min SimpleName MethodInvocation MethodInvocation SimpleName binned mutations
+min SimpleName MethodInvocation MethodInvocation SimpleName size
+min tablet servers batch SimpleName MethodInvocation MethodInvocation SimpleName binned mutations
+min tablet servers batch SimpleName MethodInvocation MethodInvocation SimpleName size
+min tablet servers batch SimpleName Assignment MethodInvocation SimpleName math
+min tablet servers batch SimpleName Assignment MethodInvocation SimpleName min
+min tablet servers batch SimpleName Assignment MethodInvocation SimpleName min tablet servers batch
+min tablet servers batch SimpleName Assignment MethodInvocation MethodInvocation SimpleName binned mutations
+min tablet servers batch SimpleName Assignment MethodInvocation MethodInvocation SimpleName size
+binned mutations SimpleName MethodInvocation SimpleName size
+math SimpleName MethodInvocation SimpleName max
+math SimpleName MethodInvocation SimpleName max tablet servers batch
+math SimpleName MethodInvocation MethodInvocation SimpleName binned mutations
+math SimpleName MethodInvocation MethodInvocation SimpleName size
+max SimpleName MethodInvocation SimpleName max tablet servers batch
+max SimpleName MethodInvocation MethodInvocation SimpleName binned mutations
+max SimpleName MethodInvocation MethodInvocation SimpleName size
+max tablet servers batch SimpleName MethodInvocation MethodInvocation SimpleName binned mutations
+max tablet servers batch SimpleName MethodInvocation MethodInvocation SimpleName size
+max tablet servers batch SimpleName Assignment MethodInvocation SimpleName math
+max tablet servers batch SimpleName Assignment MethodInvocation SimpleName max
+max tablet servers batch SimpleName Assignment MethodInvocation SimpleName max tablet servers batch
+max tablet servers batch SimpleName Assignment MethodInvocation MethodInvocation SimpleName binned mutations
+max tablet servers batch SimpleName Assignment MethodInvocation MethodInvocation SimpleName size
+num tablets SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName num tablets
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName tablet server mutations
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName tablet server mutations
+entry SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+tablet server mutations SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+binned mutations SimpleName MethodInvocation SimpleName entry set
+entry SimpleName MethodInvocation SimpleName get value
+tsm SimpleName VariableDeclarationFragment MethodInvocation SimpleName entry
+tsm SimpleName VariableDeclarationFragment MethodInvocation SimpleName get value
+tablet server mutations SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName tsm
+tsm SimpleName MethodInvocation SimpleName get mutations
+tsm SimpleName MethodInvocation MethodInvocation SimpleName size
+get mutations SimpleName MethodInvocation MethodInvocation SimpleName size
+num tablets SimpleName Assignment MethodInvocation MethodInvocation SimpleName tsm
+num tablets SimpleName Assignment MethodInvocation MethodInvocation SimpleName get mutations
+num tablets SimpleName Assignment MethodInvocation SimpleName size
+entry SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName binned mutations
+entry SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName entry set
+tablet batch sum SimpleName Assignment SimpleName num tablets
+math SimpleName MethodInvocation SimpleName min
+math SimpleName MethodInvocation SimpleName min tablet batch
+math SimpleName MethodInvocation SimpleName num tablets
+min SimpleName MethodInvocation SimpleName min tablet batch
+min SimpleName MethodInvocation SimpleName num tablets
+min tablet batch SimpleName MethodInvocation SimpleName num tablets
+min tablet batch SimpleName Assignment MethodInvocation SimpleName math
+min tablet batch SimpleName Assignment MethodInvocation SimpleName min
+min tablet batch SimpleName Assignment MethodInvocation SimpleName min tablet batch
+min tablet batch SimpleName Assignment MethodInvocation SimpleName num tablets
+math SimpleName MethodInvocation SimpleName max
+math SimpleName MethodInvocation SimpleName max tablet batch
+math SimpleName MethodInvocation SimpleName num tablets
+max SimpleName MethodInvocation SimpleName max tablet batch
+max SimpleName MethodInvocation SimpleName num tablets
+max tablet batch SimpleName MethodInvocation SimpleName num tablets
+max tablet batch SimpleName Assignment MethodInvocation SimpleName math
+max tablet batch SimpleName Assignment MethodInvocation SimpleName max
+max tablet batch SimpleName Assignment MethodInvocation SimpleName max tablet batch
+max tablet batch SimpleName Assignment MethodInvocation SimpleName num tablets
+private Modifier MethodDeclaration Modifier synchronized
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName update batch stats
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName binned mutations
+private Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+synchronized Modifier MethodDeclaration PrimitiveType void
+synchronized Modifier MethodDeclaration SimpleName update batch stats
+synchronized Modifier MethodDeclaration SingleVariableDeclaration SimpleName binned mutations
+synchronized Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+void PrimitiveType MethodDeclaration SimpleName update batch stats
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName binned mutations
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+update batch stats SimpleName MethodDeclaration SingleVariableDeclaration SimpleName binned mutations
+update batch stats SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration Modifier synchronized
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName update batch stats
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName binned mutations
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration Modifier synchronized
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName update batch stats
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName binned mutations

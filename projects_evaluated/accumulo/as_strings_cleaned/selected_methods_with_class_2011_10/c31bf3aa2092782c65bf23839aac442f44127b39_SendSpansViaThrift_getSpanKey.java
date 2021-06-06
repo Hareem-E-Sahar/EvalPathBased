@@ -1,0 +1,56 @@
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName data
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName data
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName data
+data SimpleName MethodInvocation SimpleName get
+data SimpleName MethodInvocation StringLiteral dest
+get SimpleName MethodInvocation StringLiteral dest
+dest SimpleName VariableDeclarationFragment MethodInvocation SimpleName data
+dest SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+dest SimpleName VariableDeclarationFragment MethodInvocation StringLiteral dest
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName dest
+dest SimpleName MethodInvocation SimpleName starts with
+dest SimpleName MethodInvocation SimpleName thrift
+starts with SimpleName MethodInvocation SimpleName thrift
+dest SimpleName InfixExpression InfixExpression MethodInvocation SimpleName dest
+dest SimpleName InfixExpression InfixExpression MethodInvocation SimpleName starts with
+dest SimpleName InfixExpression InfixExpression MethodInvocation SimpleName thrift
+thrift SimpleName MethodInvocation SimpleName length
+dest SimpleName MethodInvocation SimpleName substring
+dest SimpleName MethodInvocation MethodInvocation SimpleName thrift
+dest SimpleName MethodInvocation MethodInvocation SimpleName length
+substring SimpleName MethodInvocation MethodInvocation SimpleName thrift
+substring SimpleName MethodInvocation MethodInvocation SimpleName length
+host address SimpleName VariableDeclarationFragment MethodInvocation SimpleName dest
+host address SimpleName VariableDeclarationFragment MethodInvocation SimpleName substring
+host address SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName thrift
+host address SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName length
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName host address
+host address SimpleName MethodInvocation SimpleName split
+host address SimpleName MethodInvocation StringLiteral :
+host address SimpleName MethodInvocation NumberLiteral empty
+split SimpleName MethodInvocation StringLiteral :
+split SimpleName MethodInvocation NumberLiteral empty
+: StringLiteral MethodInvocation NumberLiteral empty
+host addr SimpleName VariableDeclarationFragment MethodInvocation SimpleName host address
+host addr SimpleName VariableDeclarationFragment MethodInvocation SimpleName split
+host addr SimpleName VariableDeclarationFragment MethodInvocation StringLiteral :
+host addr SimpleName VariableDeclarationFragment MethodInvocation NumberLiteral empty
+host addrlength QualifiedName InfixExpression NumberLiteral empty
+protected Modifier MethodDeclaration SimpleType SimpleName string
+protected Modifier MethodDeclaration SimpleName get span key
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName data
+string SimpleName SimpleType MethodDeclaration SimpleName get span key
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName data
+get span key SimpleName MethodDeclaration SingleVariableDeclaration SimpleName data
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName get span key
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName data
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get span key
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName data

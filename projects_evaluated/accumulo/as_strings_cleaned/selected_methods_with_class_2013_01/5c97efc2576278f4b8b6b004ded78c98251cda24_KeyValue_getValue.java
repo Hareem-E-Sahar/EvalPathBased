@@ -1,0 +1,19 @@
+orgapachethriftt base helper QualifiedName MethodInvocation SimpleName right size
+orgapachethriftt base helper QualifiedName MethodInvocation SimpleName value
+right size SimpleName MethodInvocation SimpleName value
+set value SimpleName MethodInvocation MethodInvocation QualifiedName orgapachethriftt base helper
+set value SimpleName MethodInvocation MethodInvocation SimpleName right size
+set value SimpleName MethodInvocation MethodInvocation SimpleName value
+value SimpleName MethodInvocation SimpleName array
+value SimpleName InfixExpression ConditionalExpression MethodInvocation SimpleName value
+value SimpleName InfixExpression ConditionalExpression MethodInvocation SimpleName array
+public Modifier MethodDeclaration ArrayType PrimitiveType byte
+public Modifier MethodDeclaration SimpleName get value
+byte PrimitiveType ArrayType MethodDeclaration SimpleName get value
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration ArrayType PrimitiveType byte
+public Modifier TypeDeclaration MethodDeclaration SimpleName get value
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration ArrayType PrimitiveType byte
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get value

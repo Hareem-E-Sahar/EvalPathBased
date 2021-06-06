@@ -1,0 +1,86 @@
+gremlin query composercontext QualifiedName SimpleType SingleVariableDeclaration SimpleName context
+string SimpleName SimpleType SingleVariableDeclaration SimpleName attr name
+context SimpleName MethodInvocation SimpleName get active entity type
+et SimpleName VariableDeclarationFragment MethodInvocation SimpleName context
+et SimpleName VariableDeclarationFragment MethodInvocation SimpleName get active entity type
+atlas entity type SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName et
+et SimpleName MethodInvocation SimpleName get attribute type
+et SimpleName MethodInvocation SimpleName attr name
+get attribute type SimpleName MethodInvocation SimpleName attr name
+attr SimpleName VariableDeclarationFragment MethodInvocation SimpleName et
+attr SimpleName VariableDeclarationFragment MethodInvocation SimpleName get attribute type
+attr SimpleName VariableDeclarationFragment MethodInvocation SimpleName attr name
+atlas type SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName attr
+attr SimpleName MethodInvocation SimpleName get type name
+numeric attributes SimpleName MethodInvocation SimpleName contains key
+numeric attributes SimpleName MethodInvocation MethodInvocation SimpleName attr
+numeric attributes SimpleName MethodInvocation MethodInvocation SimpleName get type name
+contains key SimpleName MethodInvocation MethodInvocation SimpleName attr
+contains key SimpleName MethodInvocation MethodInvocation SimpleName get type name
+attr SimpleName InfixExpression InfixExpression MethodInvocation SimpleName numeric attributes
+attr SimpleName InfixExpression InfixExpression MethodInvocation SimpleName contains key
+ret SimpleName VariableDeclarationFragment InfixExpression InfixExpression SimpleName attr
+ret SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName numeric attributes
+ret SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName contains key
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName ret
+attr SimpleName MethodInvocation SimpleName get type name
+numeric attributes SimpleName MethodInvocation SimpleName get
+numeric attributes SimpleName MethodInvocation MethodInvocation SimpleName attr
+numeric attributes SimpleName MethodInvocation MethodInvocation SimpleName get type name
+get SimpleName MethodInvocation MethodInvocation SimpleName attr
+get SimpleName MethodInvocation MethodInvocation SimpleName get type name
+context SimpleName MethodInvocation SimpleName set numeric type formatter
+context SimpleName MethodInvocation MethodInvocation SimpleName numeric attributes
+context SimpleName MethodInvocation MethodInvocation SimpleName get
+context SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName attr
+context SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get type name
+set numeric type formatter SimpleName MethodInvocation MethodInvocation SimpleName numeric attributes
+set numeric type formatter SimpleName MethodInvocation MethodInvocation SimpleName get
+set numeric type formatter SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName attr
+set numeric type formatter SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get type name
+boolean PrimitiveType VariableDeclarationStatement Block IfStatement SimpleName ret
+boolean PrimitiveType VariableDeclarationStatement Block ReturnStatement SimpleName ret
+ret SimpleName IfStatement Block ReturnStatement SimpleName ret
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType boolean
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName is numeric
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName context
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName attr name
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName is numeric
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType QualifiedName gremlin query composercontext
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName context
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName attr name
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+public Modifier MethodDeclaration Block IfStatement SimpleName ret
+public Modifier MethodDeclaration Block ReturnStatement SimpleName ret
+boolean PrimitiveType MethodDeclaration SimpleName is numeric
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType QualifiedName gremlin query composercontext
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName context
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName attr name
+boolean PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+boolean PrimitiveType MethodDeclaration Block IfStatement SimpleName ret
+boolean PrimitiveType MethodDeclaration Block ReturnStatement SimpleName ret
+is numeric SimpleName MethodDeclaration SingleVariableDeclaration SimpleType QualifiedName gremlin query composercontext
+is numeric SimpleName MethodDeclaration SingleVariableDeclaration SimpleName context
+is numeric SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+is numeric SimpleName MethodDeclaration SingleVariableDeclaration SimpleName attr name
+is numeric SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+is numeric SimpleName MethodDeclaration Block IfStatement SimpleName ret
+is numeric SimpleName MethodDeclaration Block ReturnStatement SimpleName ret
+context SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attr name
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName is numeric
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName context
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attr name
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName is numeric
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName context
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attr name

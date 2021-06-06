@@ -1,0 +1,69 @@
+atlas graph management SimpleName SimpleType SingleVariableDeclaration SimpleName management
+create indexes SimpleName MethodInvocation SimpleName management
+create indexes SimpleName MethodInvocation QualifiedName constantstypename property key
+create indexes SimpleName MethodInvocation TypeLiteral SimpleType SimpleName string
+create indexes SimpleName MethodInvocation BooleanLiteral true
+create indexes SimpleName MethodInvocation QualifiedName atlas cardinalitysingle
+management SimpleName MethodInvocation QualifiedName constantstypename property key
+management SimpleName MethodInvocation TypeLiteral SimpleType SimpleName string
+management SimpleName MethodInvocation BooleanLiteral true
+management SimpleName MethodInvocation QualifiedName atlas cardinalitysingle
+management SimpleName MethodInvocation BooleanLiteral true
+constantstypename property key QualifiedName MethodInvocation TypeLiteral SimpleType SimpleName string
+constantstypename property key QualifiedName MethodInvocation BooleanLiteral true
+constantstypename property key QualifiedName MethodInvocation QualifiedName atlas cardinalitysingle
+constantstypename property key QualifiedName MethodInvocation BooleanLiteral true
+constantstypename property key QualifiedName MethodInvocation BooleanLiteral true
+string SimpleName SimpleType TypeLiteral MethodInvocation BooleanLiteral true
+string SimpleName SimpleType TypeLiteral MethodInvocation QualifiedName atlas cardinalitysingle
+string SimpleName SimpleType TypeLiteral MethodInvocation BooleanLiteral true
+string SimpleName SimpleType TypeLiteral MethodInvocation BooleanLiteral true
+true BooleanLiteral MethodInvocation QualifiedName atlas cardinalitysingle
+true BooleanLiteral MethodInvocation BooleanLiteral true
+true BooleanLiteral MethodInvocation BooleanLiteral true
+atlas cardinalitysingle QualifiedName MethodInvocation BooleanLiteral true
+atlas cardinalitysingle QualifiedName MethodInvocation BooleanLiteral true
+true BooleanLiteral MethodInvocation BooleanLiteral true
+create indexes SimpleName MethodInvocation SimpleName management
+create indexes SimpleName MethodInvocation QualifiedName constantsvertex type property key
+create indexes SimpleName MethodInvocation TypeLiteral SimpleType SimpleName string
+create indexes SimpleName MethodInvocation BooleanLiteral false
+create indexes SimpleName MethodInvocation QualifiedName atlas cardinalitysingle
+management SimpleName MethodInvocation QualifiedName constantsvertex type property key
+management SimpleName MethodInvocation TypeLiteral SimpleType SimpleName string
+management SimpleName MethodInvocation BooleanLiteral false
+management SimpleName MethodInvocation QualifiedName atlas cardinalitysingle
+management SimpleName MethodInvocation BooleanLiteral true
+constantsvertex type property key QualifiedName MethodInvocation TypeLiteral SimpleType SimpleName string
+constantsvertex type property key QualifiedName MethodInvocation BooleanLiteral false
+constantsvertex type property key QualifiedName MethodInvocation QualifiedName atlas cardinalitysingle
+constantsvertex type property key QualifiedName MethodInvocation BooleanLiteral true
+constantsvertex type property key QualifiedName MethodInvocation BooleanLiteral true
+string SimpleName SimpleType TypeLiteral MethodInvocation BooleanLiteral false
+string SimpleName SimpleType TypeLiteral MethodInvocation QualifiedName atlas cardinalitysingle
+string SimpleName SimpleType TypeLiteral MethodInvocation BooleanLiteral true
+string SimpleName SimpleType TypeLiteral MethodInvocation BooleanLiteral true
+false BooleanLiteral MethodInvocation QualifiedName atlas cardinalitysingle
+false BooleanLiteral MethodInvocation BooleanLiteral true
+false BooleanLiteral MethodInvocation BooleanLiteral true
+atlas cardinalitysingle QualifiedName MethodInvocation BooleanLiteral true
+atlas cardinalitysingle QualifiedName MethodInvocation BooleanLiteral true
+true BooleanLiteral MethodInvocation BooleanLiteral true
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName create type store indexes
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas graph management
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName management
+void PrimitiveType MethodDeclaration SimpleName create type store indexes
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas graph management
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName management
+create type store indexes SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas graph management
+create type store indexes SimpleName MethodDeclaration SingleVariableDeclaration SimpleName management
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName create type store indexes
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName management
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create type store indexes
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName management

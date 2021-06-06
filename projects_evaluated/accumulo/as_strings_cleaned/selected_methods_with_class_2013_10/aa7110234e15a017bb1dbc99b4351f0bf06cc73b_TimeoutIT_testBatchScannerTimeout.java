@@ -1,0 +1,168 @@
+connector SimpleName SimpleType SingleVariableDeclaration SimpleName conn
+string SimpleName SimpleType SingleVariableDeclaration SimpleName table name
+get connector SimpleName MethodInvocation MethodInvocation SimpleName table operations
+get connector SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName create
+table operations SimpleName MethodInvocation MethodInvocation SimpleName create
+get connector SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName table name
+table operations SimpleName MethodInvocation MethodInvocation SimpleName table name
+create SimpleName MethodInvocation SimpleName table name
+get connector SimpleName MethodInvocation MethodInvocation SimpleName create batch writer
+get connector SimpleName MethodInvocation MethodInvocation SimpleName table name
+create batch writer SimpleName MethodInvocation SimpleName table name
+create batch writer SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName batch writer config
+table name SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName batch writer config
+bw SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get connector
+bw SimpleName VariableDeclarationFragment MethodInvocation SimpleName create batch writer
+bw SimpleName VariableDeclarationFragment MethodInvocation SimpleName table name
+batch writer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName bw
+mutation SimpleName SimpleType ClassInstanceCreation StringLiteral r
+m SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName mutation
+m SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral r
+mutation SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName m
+m SimpleName MethodInvocation SimpleName put
+m SimpleName MethodInvocation StringLiteral cf
+m SimpleName MethodInvocation StringLiteral cq
+m SimpleName MethodInvocation StringLiteral v
+put SimpleName MethodInvocation StringLiteral cf
+put SimpleName MethodInvocation StringLiteral cq
+put SimpleName MethodInvocation StringLiteral v
+cf StringLiteral MethodInvocation StringLiteral cq
+cf StringLiteral MethodInvocation StringLiteral v
+cq StringLiteral MethodInvocation StringLiteral v
+m SimpleName MethodInvocation SimpleName put
+m SimpleName MethodInvocation StringLiteral cf
+m SimpleName MethodInvocation StringLiteral cq
+m SimpleName MethodInvocation StringLiteral v
+put SimpleName MethodInvocation StringLiteral cf
+put SimpleName MethodInvocation StringLiteral cq
+put SimpleName MethodInvocation StringLiteral v
+cf StringLiteral MethodInvocation StringLiteral cq
+cf StringLiteral MethodInvocation StringLiteral v
+cq StringLiteral MethodInvocation StringLiteral v
+m SimpleName MethodInvocation SimpleName put
+m SimpleName MethodInvocation StringLiteral cf
+m SimpleName MethodInvocation StringLiteral cq
+m SimpleName MethodInvocation StringLiteral v
+put SimpleName MethodInvocation StringLiteral cf
+put SimpleName MethodInvocation StringLiteral cq
+put SimpleName MethodInvocation StringLiteral v
+cf StringLiteral MethodInvocation StringLiteral cq
+cf StringLiteral MethodInvocation StringLiteral v
+cq StringLiteral MethodInvocation StringLiteral v
+m SimpleName MethodInvocation SimpleName put
+m SimpleName MethodInvocation StringLiteral cf
+m SimpleName MethodInvocation StringLiteral cq
+m SimpleName MethodInvocation StringLiteral v
+put SimpleName MethodInvocation StringLiteral cf
+put SimpleName MethodInvocation StringLiteral cq
+put SimpleName MethodInvocation StringLiteral v
+cf StringLiteral MethodInvocation StringLiteral cq
+cf StringLiteral MethodInvocation StringLiteral v
+cq StringLiteral MethodInvocation StringLiteral v
+bw SimpleName MethodInvocation SimpleName add mutation
+bw SimpleName MethodInvocation SimpleName m
+add mutation SimpleName MethodInvocation SimpleName m
+bw SimpleName MethodInvocation SimpleName close
+get connector SimpleName MethodInvocation MethodInvocation SimpleName create batch scanner
+get connector SimpleName MethodInvocation MethodInvocation SimpleName table name
+get connector SimpleName MethodInvocation MethodInvocation QualifiedName authorizationsempty
+get connector SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+create batch scanner SimpleName MethodInvocation SimpleName table name
+create batch scanner SimpleName MethodInvocation QualifiedName authorizationsempty
+create batch scanner SimpleName MethodInvocation NumberLiteral empty
+table name SimpleName MethodInvocation QualifiedName authorizationsempty
+table name SimpleName MethodInvocation NumberLiteral empty
+authorizationsempty QualifiedName MethodInvocation NumberLiteral empty
+bs SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get connector
+bs SimpleName VariableDeclarationFragment MethodInvocation SimpleName create batch scanner
+bs SimpleName VariableDeclarationFragment MethodInvocation SimpleName table name
+bs SimpleName VariableDeclarationFragment MethodInvocation QualifiedName authorizationsempty
+bs SimpleName VariableDeclarationFragment MethodInvocation NumberLiteral empty
+batch scanner SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName bs
+collections SimpleName MethodInvocation SimpleName singleton list
+collections SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName range
+singleton list SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName range
+bs SimpleName MethodInvocation SimpleName set ranges
+bs SimpleName MethodInvocation MethodInvocation SimpleName collections
+bs SimpleName MethodInvocation MethodInvocation SimpleName singleton list
+set ranges SimpleName MethodInvocation MethodInvocation SimpleName collections
+set ranges SimpleName MethodInvocation MethodInvocation SimpleName singleton list
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName key
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+key SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+entry SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+key SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+value SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+entry SimpleName MethodInvocation SimpleName get key
+entry SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName bs
+bs SimpleName MethodInvocation SimpleName set timeout
+bs SimpleName MethodInvocation NumberLiteral empty
+bs SimpleName MethodInvocation QualifiedName time unitseconds
+set timeout SimpleName MethodInvocation NumberLiteral empty
+set timeout SimpleName MethodInvocation QualifiedName time unitseconds
+empty NumberLiteral MethodInvocation QualifiedName time unitseconds
+iterator setting SimpleName SimpleType ClassInstanceCreation NumberLiteral empty
+empty NumberLiteral ClassInstanceCreation TypeLiteral SimpleType SimpleName slow iterator
+iter setting SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName iterator setting
+iter setting SimpleName VariableDeclarationFragment ClassInstanceCreation NumberLiteral empty
+iterator setting SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName iter setting
+empty NumberLiteral InfixExpression StringLiteral empty
+iter setting SimpleName MethodInvocation SimpleName add option
+iter setting SimpleName MethodInvocation StringLiteral sleep time
+iter setting SimpleName MethodInvocation InfixExpression NumberLiteral empty
+iter setting SimpleName MethodInvocation InfixExpression StringLiteral empty
+add option SimpleName MethodInvocation StringLiteral sleep time
+add option SimpleName MethodInvocation InfixExpression NumberLiteral empty
+add option SimpleName MethodInvocation InfixExpression StringLiteral empty
+sleep time StringLiteral MethodInvocation InfixExpression NumberLiteral empty
+sleep time StringLiteral MethodInvocation InfixExpression StringLiteral empty
+bs SimpleName MethodInvocation SimpleName add scan iterator
+bs SimpleName MethodInvocation SimpleName iter setting
+add scan iterator SimpleName MethodInvocation SimpleName iter setting
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName key
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+key SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+entry SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+key SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+value SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+entry SimpleName MethodInvocation SimpleName get key
+entry SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName bs
+fail SimpleName MethodInvocation StringLiteral batch scanner did not time out
+timed out exception SimpleName SimpleType SingleVariableDeclaration SimpleName toe
+bs SimpleName MethodInvocation SimpleName close
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test batch scanner timeout
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName connector
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName conn
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName table name
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName test batch scanner timeout
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName connector
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName conn
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName table name
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration Block EnhancedForStatement SimpleName bs
+test batch scanner timeout SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName connector
+test batch scanner timeout SimpleName MethodDeclaration SingleVariableDeclaration SimpleName conn
+test batch scanner timeout SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+test batch scanner timeout SimpleName MethodDeclaration SingleVariableDeclaration SimpleName table name
+test batch scanner timeout SimpleName MethodDeclaration SimpleType SimpleName exception
+test batch scanner timeout SimpleName MethodDeclaration Block EnhancedForStatement SimpleName bs
+conn SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table name
+conn SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+table name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test batch scanner timeout
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName conn
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table name
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test batch scanner timeout
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName conn
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table name
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

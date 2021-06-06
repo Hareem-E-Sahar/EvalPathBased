@@ -1,0 +1,54 @@
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName options
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName options
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName options
+validate options SimpleName SuperMethodInvocation SimpleName options
+validate options SimpleName SuperMethodInvocation InfixExpression BooleanLiteral false
+options SimpleName SuperMethodInvocation InfixExpression BooleanLiteral false
+false BooleanLiteral InfixExpression IfStatement ReturnStatement BooleanLiteral false
+set lossyness SimpleName MethodInvocation SimpleName options
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+options SimpleName MethodInvocation SimpleName get
+options SimpleName MethodInvocation SimpleName lossy
+get SimpleName MethodInvocation SimpleName lossy
+bad boolean StringLiteral InfixExpression SimpleName lossy
+bad boolean StringLiteral InfixExpression StringLiteral :
+bad boolean StringLiteral InfixExpression MethodInvocation SimpleName options
+bad boolean StringLiteral InfixExpression MethodInvocation SimpleName get
+bad boolean StringLiteral InfixExpression MethodInvocation SimpleName lossy
+lossy SimpleName InfixExpression StringLiteral :
+lossy SimpleName InfixExpression MethodInvocation SimpleName options
+lossy SimpleName InfixExpression MethodInvocation SimpleName get
+lossy SimpleName InfixExpression MethodInvocation SimpleName lossy
+: StringLiteral InfixExpression MethodInvocation SimpleName options
+: StringLiteral InfixExpression MethodInvocation SimpleName get
+: StringLiteral InfixExpression MethodInvocation SimpleName lossy
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral bad boolean
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName lossy
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral :
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType boolean
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName validate options
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName options
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName validate options
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName options
+public Modifier MethodDeclaration Block ReturnStatement BooleanLiteral true
+boolean PrimitiveType MethodDeclaration SimpleName validate options
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName options
+boolean PrimitiveType MethodDeclaration Block ReturnStatement BooleanLiteral true
+validate options SimpleName MethodDeclaration SingleVariableDeclaration SimpleName options
+validate options SimpleName MethodDeclaration Block ReturnStatement BooleanLiteral true
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName validate options
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName options
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName validate options
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName options

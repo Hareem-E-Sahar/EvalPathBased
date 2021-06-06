@@ -1,0 +1,132 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName user
+string SimpleName SimpleType SingleVariableDeclaration SimpleName table
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName table permission
+set SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName perms
+table permission SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName perms
+zoo cache SimpleName MethodInvocation SimpleName clear
+zoo reader writer SimpleName MethodInvocation SimpleName get instance
+zk user path SimpleName InfixExpression StringLiteral /
+zk user path SimpleName InfixExpression SimpleName user
+zk user path SimpleName InfixExpression SimpleName zk user table perms
+zk user path SimpleName InfixExpression StringLiteral /
+zk user path SimpleName InfixExpression SimpleName table
+/ StringLiteral InfixExpression SimpleName user
+/ StringLiteral InfixExpression SimpleName zk user table perms
+/ StringLiteral InfixExpression StringLiteral /
+/ StringLiteral InfixExpression SimpleName table
+user SimpleName InfixExpression SimpleName zk user table perms
+user SimpleName InfixExpression StringLiteral /
+user SimpleName InfixExpression SimpleName table
+zk user table perms SimpleName InfixExpression StringLiteral /
+zk user table perms SimpleName InfixExpression SimpleName table
+/ StringLiteral InfixExpression SimpleName table
+tool SimpleName MethodInvocation SimpleName convert table permissions
+tool SimpleName MethodInvocation SimpleName perms
+convert table permissions SimpleName MethodInvocation SimpleName perms
+zoo reader writer SimpleName MethodInvocation MethodInvocation SimpleName put persistent data
+get instance SimpleName MethodInvocation MethodInvocation SimpleName put persistent data
+zoo reader writer SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName zk user path
+zoo reader writer SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral /
+zoo reader writer SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName user
+zoo reader writer SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName zk user table perms
+zoo reader writer SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral /
+zoo reader writer SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName table
+get instance SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName zk user path
+get instance SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral /
+get instance SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName user
+get instance SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName zk user table perms
+get instance SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral /
+get instance SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName table
+zoo reader writer SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName tool
+zoo reader writer SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName convert table permissions
+zoo reader writer SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName perms
+get instance SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName tool
+get instance SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName convert table permissions
+get instance SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName perms
+zoo reader writer SimpleName MethodInvocation MethodInvocation QualifiedName node exists policyfail
+get instance SimpleName MethodInvocation MethodInvocation QualifiedName node exists policyfail
+put persistent data SimpleName MethodInvocation InfixExpression SimpleName zk user path
+put persistent data SimpleName MethodInvocation InfixExpression StringLiteral /
+put persistent data SimpleName MethodInvocation InfixExpression SimpleName user
+put persistent data SimpleName MethodInvocation InfixExpression SimpleName zk user table perms
+put persistent data SimpleName MethodInvocation InfixExpression StringLiteral /
+put persistent data SimpleName MethodInvocation InfixExpression SimpleName table
+put persistent data SimpleName MethodInvocation MethodInvocation SimpleName tool
+put persistent data SimpleName MethodInvocation MethodInvocation SimpleName convert table permissions
+put persistent data SimpleName MethodInvocation MethodInvocation SimpleName perms
+put persistent data SimpleName MethodInvocation QualifiedName node exists policyfail
+zk user path SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName tool
+zk user path SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName convert table permissions
+zk user path SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName perms
+/ StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName tool
+/ StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName convert table permissions
+/ StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName perms
+user SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName tool
+user SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName convert table permissions
+user SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName perms
+zk user table perms SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName tool
+zk user table perms SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName convert table permissions
+zk user table perms SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName perms
+/ StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName tool
+/ StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName convert table permissions
+/ StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName perms
+table SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName tool
+table SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName convert table permissions
+table SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName perms
+zk user path SimpleName InfixExpression MethodInvocation QualifiedName node exists policyfail
+/ StringLiteral InfixExpression MethodInvocation QualifiedName node exists policyfail
+user SimpleName InfixExpression MethodInvocation QualifiedName node exists policyfail
+zk user table perms SimpleName InfixExpression MethodInvocation QualifiedName node exists policyfail
+/ StringLiteral InfixExpression MethodInvocation QualifiedName node exists policyfail
+table SimpleName InfixExpression MethodInvocation QualifiedName node exists policyfail
+tool SimpleName MethodInvocation MethodInvocation QualifiedName node exists policyfail
+convert table permissions SimpleName MethodInvocation MethodInvocation QualifiedName node exists policyfail
+perms SimpleName MethodInvocation MethodInvocation QualifiedName node exists policyfail
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName create table perm
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName user
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName table
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName perms
+void PrimitiveType MethodDeclaration SimpleName create table perm
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName user
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName table
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName perms
+void PrimitiveType MethodDeclaration SimpleType SimpleName keeper exception
+create table perm SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+create table perm SimpleName MethodDeclaration SingleVariableDeclaration SimpleName user
+create table perm SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+create table perm SimpleName MethodDeclaration SingleVariableDeclaration SimpleName table
+create table perm SimpleName MethodDeclaration SingleVariableDeclaration SimpleName perms
+create table perm SimpleName MethodDeclaration SimpleType SimpleName keeper exception
+create table perm SimpleName MethodDeclaration SimpleType SimpleName interrupted exception
+user SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table
+user SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName perms
+user SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName keeper exception
+user SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName interrupted exception
+table SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName perms
+table SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName keeper exception
+table SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName interrupted exception
+perms SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName keeper exception
+perms SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName interrupted exception
+keeper exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName interrupted exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName create table perm
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName user
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName perms
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName keeper exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName interrupted exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create table perm
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName user
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName perms
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName keeper exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName interrupted exception

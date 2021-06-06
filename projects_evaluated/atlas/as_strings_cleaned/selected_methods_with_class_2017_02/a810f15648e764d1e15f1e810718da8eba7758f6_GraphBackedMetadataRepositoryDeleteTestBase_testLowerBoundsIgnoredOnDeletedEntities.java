@@ -1,0 +1,237 @@
+hr dept guid SimpleName VariableDeclarationFragment MethodInvocation SimpleName create hr dept graph
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName hr dept guid
+repository service SimpleName MethodInvocation SimpleName get entity definition
+repository service SimpleName MethodInvocation SimpleName hr dept guid
+get entity definition SimpleName MethodInvocation SimpleName hr dept guid
+hr dept SimpleName VariableDeclarationFragment MethodInvocation SimpleName repository service
+hr dept SimpleName VariableDeclarationFragment MethodInvocation SimpleName get entity definition
+hr dept SimpleName VariableDeclarationFragment MethodInvocation SimpleName hr dept guid
+i typed referenceable instance SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName hr dept
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+get employee name guid map SimpleName MethodInvocation SimpleName hr dept
+name guid map SimpleName VariableDeclarationFragment MethodInvocation SimpleName get employee name guid map
+name guid map SimpleName VariableDeclarationFragment MethodInvocation SimpleName hr dept
+name guid map SimpleName MethodInvocation SimpleName get
+name guid map SimpleName MethodInvocation StringLiteral john
+get SimpleName MethodInvocation StringLiteral john
+repository service SimpleName MethodInvocation SimpleName get entity definition
+repository service SimpleName MethodInvocation MethodInvocation SimpleName name guid map
+repository service SimpleName MethodInvocation MethodInvocation SimpleName get
+repository service SimpleName MethodInvocation MethodInvocation StringLiteral john
+get entity definition SimpleName MethodInvocation MethodInvocation SimpleName name guid map
+get entity definition SimpleName MethodInvocation MethodInvocation SimpleName get
+get entity definition SimpleName MethodInvocation MethodInvocation StringLiteral john
+john SimpleName VariableDeclarationFragment MethodInvocation SimpleName repository service
+john SimpleName VariableDeclarationFragment MethodInvocation SimpleName get entity definition
+john SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName name guid map
+john SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get
+john SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation StringLiteral john
+i typed referenceable instance SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName john
+john SimpleName MethodInvocation SimpleName get id
+john SimpleName MethodInvocation MethodInvocation SimpleName get id
+get id SimpleName MethodInvocation MethodInvocation SimpleName get id
+john guid SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName john
+john guid SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get id
+john guid SimpleName VariableDeclarationFragment MethodInvocation SimpleName get id
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName john guid
+name guid map SimpleName MethodInvocation SimpleName get
+name guid map SimpleName MethodInvocation StringLiteral max
+get SimpleName MethodInvocation StringLiteral max
+repository service SimpleName MethodInvocation SimpleName get entity definition
+repository service SimpleName MethodInvocation MethodInvocation SimpleName name guid map
+repository service SimpleName MethodInvocation MethodInvocation SimpleName get
+repository service SimpleName MethodInvocation MethodInvocation StringLiteral max
+get entity definition SimpleName MethodInvocation MethodInvocation SimpleName name guid map
+get entity definition SimpleName MethodInvocation MethodInvocation SimpleName get
+get entity definition SimpleName MethodInvocation MethodInvocation StringLiteral max
+max SimpleName VariableDeclarationFragment MethodInvocation SimpleName repository service
+max SimpleName VariableDeclarationFragment MethodInvocation SimpleName get entity definition
+max SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName name guid map
+max SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get
+max SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation StringLiteral max
+i typed referenceable instance SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName max
+max SimpleName MethodInvocation SimpleName get id
+max SimpleName MethodInvocation MethodInvocation SimpleName get id
+get id SimpleName MethodInvocation MethodInvocation SimpleName get id
+max guid SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName max
+max guid SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get id
+max guid SimpleName VariableDeclarationFragment MethodInvocation SimpleName get id
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName max guid
+name guid map SimpleName MethodInvocation SimpleName get
+name guid map SimpleName MethodInvocation StringLiteral jane
+get SimpleName MethodInvocation StringLiteral jane
+repository service SimpleName MethodInvocation SimpleName get entity definition
+repository service SimpleName MethodInvocation MethodInvocation SimpleName name guid map
+repository service SimpleName MethodInvocation MethodInvocation SimpleName get
+repository service SimpleName MethodInvocation MethodInvocation StringLiteral jane
+get entity definition SimpleName MethodInvocation MethodInvocation SimpleName name guid map
+get entity definition SimpleName MethodInvocation MethodInvocation SimpleName get
+get entity definition SimpleName MethodInvocation MethodInvocation StringLiteral jane
+jane SimpleName VariableDeclarationFragment MethodInvocation SimpleName repository service
+jane SimpleName VariableDeclarationFragment MethodInvocation SimpleName get entity definition
+jane SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName name guid map
+jane SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get
+jane SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation StringLiteral jane
+i typed referenceable instance SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName jane
+jane SimpleName MethodInvocation SimpleName get id
+jane SimpleName MethodInvocation MethodInvocation SimpleName get id
+get id SimpleName MethodInvocation MethodInvocation SimpleName get id
+jane guid SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName jane
+jane guid SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get id
+jane guid SimpleName VariableDeclarationFragment MethodInvocation SimpleName get id
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName jane guid
+delete entities SimpleName MethodInvocation SimpleName john guid
+delete entities SimpleName MethodInvocation SimpleName max guid
+delete entities SimpleName MethodInvocation SimpleName jane guid
+john guid SimpleName MethodInvocation SimpleName max guid
+john guid SimpleName MethodInvocation SimpleName jane guid
+max guid SimpleName MethodInvocation SimpleName jane guid
+delete result SimpleName VariableDeclarationFragment MethodInvocation SimpleName delete entities
+delete result SimpleName VariableDeclarationFragment MethodInvocation SimpleName john guid
+delete result SimpleName VariableDeclarationFragment MethodInvocation SimpleName max guid
+delete result SimpleName VariableDeclarationFragment MethodInvocation SimpleName jane guid
+entity result SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName delete result
+delete result SimpleName MethodInvocation SimpleName get deleted entities
+delete result SimpleName MethodInvocation MethodInvocation SimpleName size
+get deleted entities SimpleName MethodInvocation MethodInvocation SimpleName size
+assert SimpleName MethodInvocation SimpleName assert equals
+assert SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName delete result
+assert SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get deleted entities
+assert SimpleName MethodInvocation MethodInvocation SimpleName size
+assert SimpleName MethodInvocation NumberLiteral empty
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName delete result
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get deleted entities
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName size
+assert equals SimpleName MethodInvocation NumberLiteral empty
+delete result SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+get deleted entities SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+size SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+delete result SimpleName MethodInvocation SimpleName get deleted entities
+arrays SimpleName MethodInvocation SimpleName as list
+arrays SimpleName MethodInvocation SimpleName john guid
+arrays SimpleName MethodInvocation SimpleName max guid
+arrays SimpleName MethodInvocation SimpleName jane guid
+as list SimpleName MethodInvocation SimpleName john guid
+as list SimpleName MethodInvocation SimpleName max guid
+as list SimpleName MethodInvocation SimpleName jane guid
+john guid SimpleName MethodInvocation SimpleName max guid
+john guid SimpleName MethodInvocation SimpleName jane guid
+max guid SimpleName MethodInvocation SimpleName jane guid
+delete result SimpleName MethodInvocation MethodInvocation SimpleName contains all
+get deleted entities SimpleName MethodInvocation MethodInvocation SimpleName contains all
+delete result SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName arrays
+delete result SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName as list
+delete result SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName john guid
+delete result SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName max guid
+delete result SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName jane guid
+get deleted entities SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName arrays
+get deleted entities SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName as list
+get deleted entities SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName john guid
+get deleted entities SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName max guid
+get deleted entities SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName jane guid
+contains all SimpleName MethodInvocation MethodInvocation SimpleName arrays
+contains all SimpleName MethodInvocation MethodInvocation SimpleName as list
+contains all SimpleName MethodInvocation MethodInvocation SimpleName john guid
+contains all SimpleName MethodInvocation MethodInvocation SimpleName max guid
+contains all SimpleName MethodInvocation MethodInvocation SimpleName jane guid
+assert SimpleName MethodInvocation SimpleName assert true
+assert SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName delete result
+assert SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get deleted entities
+assert SimpleName MethodInvocation MethodInvocation SimpleName contains all
+assert SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName arrays
+assert SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName as list
+assert SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName john guid
+assert SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName max guid
+assert SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName jane guid
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName delete result
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get deleted entities
+assert true SimpleName MethodInvocation MethodInvocation SimpleName contains all
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName arrays
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName as list
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName john guid
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName max guid
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName jane guid
+delete result SimpleName MethodInvocation SimpleName get update entities
+delete result SimpleName MethodInvocation MethodInvocation SimpleName size
+get update entities SimpleName MethodInvocation MethodInvocation SimpleName size
+assert SimpleName MethodInvocation SimpleName assert equals
+assert SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName delete result
+assert SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get update entities
+assert SimpleName MethodInvocation MethodInvocation SimpleName size
+assert SimpleName MethodInvocation NumberLiteral empty
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName delete result
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get update entities
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName size
+assert equals SimpleName MethodInvocation NumberLiteral empty
+delete result SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+get update entities SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+size SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+delete result SimpleName MethodInvocation SimpleName get update entities
+delete result SimpleName MethodInvocation MethodInvocation SimpleName get
+get update entities SimpleName MethodInvocation MethodInvocation SimpleName get
+delete result SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+get update entities SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+get SimpleName MethodInvocation NumberLiteral empty
+assert SimpleName MethodInvocation SimpleName assert equals
+assert SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName delete result
+assert SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get update entities
+assert SimpleName MethodInvocation MethodInvocation SimpleName get
+assert SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+assert SimpleName MethodInvocation SimpleName hr dept guid
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName delete result
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get update entities
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get
+assert equals SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+assert equals SimpleName MethodInvocation SimpleName hr dept guid
+delete result SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName hr dept guid
+get update entities SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName hr dept guid
+get SimpleName MethodInvocation MethodInvocation SimpleName hr dept guid
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName hr dept guid
+repository service SimpleName MethodInvocation SimpleName get entity definition
+repository service SimpleName MethodInvocation SimpleName hr dept guid
+get entity definition SimpleName MethodInvocation SimpleName hr dept guid
+hr dept SimpleName Assignment MethodInvocation SimpleName repository service
+hr dept SimpleName Assignment MethodInvocation SimpleName get entity definition
+hr dept SimpleName Assignment MethodInvocation SimpleName hr dept guid
+hr dept SimpleName MethodInvocation SimpleName get
+hr dept SimpleName MethodInvocation StringLiteral employees
+get SimpleName MethodInvocation StringLiteral employees
+object SimpleName VariableDeclarationFragment MethodInvocation SimpleName hr dept
+object SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+object SimpleName VariableDeclarationFragment MethodInvocation StringLiteral employees
+object SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName object
+object SimpleName InstanceofExpression SimpleType SimpleName list
+assert SimpleName MethodInvocation SimpleName assert true
+assert SimpleName MethodInvocation InstanceofExpression SimpleName object
+assert SimpleName MethodInvocation InstanceofExpression SimpleType SimpleName list
+assert true SimpleName MethodInvocation InstanceofExpression SimpleName object
+assert true SimpleName MethodInvocation InstanceofExpression SimpleType SimpleName list
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName i typed referenceable instance
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName i typed referenceable instance
+list SimpleName SimpleType ParameterizedType CastExpression SimpleName object
+i typed referenceable instance SimpleName SimpleType ParameterizedType CastExpression SimpleName object
+employees SimpleName VariableDeclarationFragment CastExpression SimpleName object
+assert test lower bounds ignored on deleted entities SimpleName MethodInvocation SimpleName employees
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test lower bounds ignored on deleted entities
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test lower bounds ignored on deleted entities
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName test lower bounds ignored on deleted entities
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+test lower bounds ignored on deleted entities SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test lower bounds ignored on deleted entities
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test lower bounds ignored on deleted entities
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

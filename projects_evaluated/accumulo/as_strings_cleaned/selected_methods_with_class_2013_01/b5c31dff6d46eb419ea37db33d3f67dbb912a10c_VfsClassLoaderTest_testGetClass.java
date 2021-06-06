@@ -1,0 +1,43 @@
+class SimpleName SimpleType ParameterizedType WildcardType ?
+cl SimpleName FieldAccess MethodInvocation SimpleName load class
+cl SimpleName FieldAccess MethodInvocation StringLiteral testhello world
+load class SimpleName MethodInvocation StringLiteral testhello world
+hello world class SimpleName VariableDeclarationFragment MethodInvocation FieldAccess SimpleName cl
+hello world class SimpleName VariableDeclarationFragment MethodInvocation SimpleName load class
+hello world class SimpleName VariableDeclarationFragment MethodInvocation StringLiteral testhello world
+? WildcardType ParameterizedType VariableDeclarationStatement VariableDeclarationFragment SimpleName hello world class
+hello world class SimpleName MethodInvocation SimpleName new instance
+o SimpleName VariableDeclarationFragment MethodInvocation SimpleName hello world class
+o SimpleName VariableDeclarationFragment MethodInvocation SimpleName new instance
+object SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName o
+o SimpleName MethodInvocation SimpleName to string
+assert SimpleName MethodInvocation SimpleName assert equals
+assert SimpleName MethodInvocation StringLiteral hello world
+assert SimpleName MethodInvocation MethodInvocation SimpleName o
+assert SimpleName MethodInvocation MethodInvocation SimpleName to string
+assert equals SimpleName MethodInvocation StringLiteral hello world
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName o
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName to string
+hello world StringLiteral MethodInvocation MethodInvocation SimpleName o
+hello world StringLiteral MethodInvocation MethodInvocation SimpleName to string
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test get class
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test get class
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName test get class
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+test get class SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test get class
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test get class
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

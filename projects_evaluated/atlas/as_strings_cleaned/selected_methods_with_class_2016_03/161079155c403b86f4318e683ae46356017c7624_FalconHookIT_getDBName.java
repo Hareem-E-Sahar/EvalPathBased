@@ -1,0 +1,44 @@
+feed SimpleName SimpleType SingleVariableDeclaration SimpleName feed
+feed SimpleName MethodInvocation SimpleName get clusters
+feed SimpleName MethodInvocation MethodInvocation SimpleName get clusters
+get clusters SimpleName MethodInvocation MethodInvocation SimpleName get clusters
+feed SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+get clusters SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+get clusters SimpleName MethodInvocation MethodInvocation SimpleName get
+feed SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+get clusters SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+get clusters SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+get SimpleName MethodInvocation NumberLiteral empty
+get clusters SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get table
+get SimpleName MethodInvocation MethodInvocation SimpleName get table
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName get table
+get SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get uri
+empty NumberLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName get uri
+get table SimpleName MethodInvocation MethodInvocation SimpleName get uri
+uri SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get table
+uri SimpleName VariableDeclarationFragment MethodInvocation SimpleName get uri
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName uri
+uri SimpleName MethodInvocation SimpleName split
+uri SimpleName MethodInvocation StringLiteral :
+split SimpleName MethodInvocation StringLiteral :
+parts SimpleName VariableDeclarationFragment MethodInvocation SimpleName uri
+parts SimpleName VariableDeclarationFragment MethodInvocation SimpleName split
+parts SimpleName VariableDeclarationFragment MethodInvocation StringLiteral :
+parts SimpleName ArrayAccess NumberLiteral empty
+private Modifier MethodDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SimpleName get db name
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName feed
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName feed
+string SimpleName SimpleType MethodDeclaration SimpleName get db name
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName feed
+get db name SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName feed
+get db name SimpleName MethodDeclaration SingleVariableDeclaration SimpleName feed
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName get db name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName feed
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get db name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName feed

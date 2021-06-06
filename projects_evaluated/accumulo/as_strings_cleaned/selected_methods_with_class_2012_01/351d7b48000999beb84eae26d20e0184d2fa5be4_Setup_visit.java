@@ -1,0 +1,223 @@
+state SimpleName SimpleType SingleVariableDeclaration SimpleName state
+properties SimpleName SimpleType SingleVariableDeclaration SimpleName props
+rand SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName random
+random SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName rand
+inet address SimpleName MethodInvocation SimpleName get local host
+inet address SimpleName MethodInvocation MethodInvocation SimpleName get host name
+get local host SimpleName MethodInvocation MethodInvocation SimpleName get host name
+inet address SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName replace all
+get local host SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName replace all
+get host name SimpleName MethodInvocation MethodInvocation SimpleName replace all
+inet address SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral [-.]
+get local host SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral [-.]
+get host name SimpleName MethodInvocation MethodInvocation StringLiteral [-.]
+inet address SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral empty
+get local host SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral empty
+get host name SimpleName MethodInvocation MethodInvocation StringLiteral empty
+replace all SimpleName MethodInvocation StringLiteral [-.]
+replace all SimpleName MethodInvocation StringLiteral empty
+[-.] StringLiteral MethodInvocation StringLiteral empty
+hostname SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get host name
+hostname SimpleName VariableDeclarationFragment MethodInvocation SimpleName replace all
+hostname SimpleName VariableDeclarationFragment MethodInvocation StringLiteral [-.]
+hostname SimpleName VariableDeclarationFragment MethodInvocation StringLiteral empty
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName hostname
+state SimpleName MethodInvocation SimpleName get pid
+pid SimpleName VariableDeclarationFragment MethodInvocation SimpleName state
+pid SimpleName VariableDeclarationFragment MethodInvocation SimpleName get pid
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName pid
+system SimpleName MethodInvocation SimpleName current time millis
+string SimpleName MethodInvocation SimpleName format
+string SimpleName MethodInvocation StringLiteral bulk s s d
+string SimpleName MethodInvocation SimpleName hostname
+string SimpleName MethodInvocation SimpleName pid
+string SimpleName MethodInvocation MethodInvocation SimpleName system
+string SimpleName MethodInvocation MethodInvocation SimpleName current time millis
+format SimpleName MethodInvocation StringLiteral bulk s s d
+format SimpleName MethodInvocation SimpleName hostname
+format SimpleName MethodInvocation SimpleName pid
+format SimpleName MethodInvocation MethodInvocation SimpleName system
+format SimpleName MethodInvocation MethodInvocation SimpleName current time millis
+bulk s s d StringLiteral MethodInvocation SimpleName hostname
+bulk s s d StringLiteral MethodInvocation SimpleName pid
+bulk s s d StringLiteral MethodInvocation MethodInvocation SimpleName system
+bulk s s d StringLiteral MethodInvocation MethodInvocation SimpleName current time millis
+hostname SimpleName MethodInvocation SimpleName pid
+hostname SimpleName MethodInvocation MethodInvocation SimpleName system
+hostname SimpleName MethodInvocation MethodInvocation SimpleName current time millis
+pid SimpleName MethodInvocation MethodInvocation SimpleName system
+pid SimpleName MethodInvocation MethodInvocation SimpleName current time millis
+table name SimpleName Assignment MethodInvocation SimpleName string
+table name SimpleName Assignment MethodInvocation SimpleName format
+table name SimpleName Assignment MethodInvocation StringLiteral bulk s s d
+table name SimpleName Assignment MethodInvocation SimpleName hostname
+table name SimpleName Assignment MethodInvocation SimpleName pid
+table name SimpleName Assignment MethodInvocation MethodInvocation SimpleName system
+table name SimpleName Assignment MethodInvocation MethodInvocation SimpleName current time millis
+starting bulk test on StringLiteral InfixExpression SimpleName table name
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation InfixExpression StringLiteral starting bulk test on
+log SimpleName MethodInvocation InfixExpression SimpleName table name
+info SimpleName MethodInvocation InfixExpression StringLiteral starting bulk test on
+info SimpleName MethodInvocation InfixExpression SimpleName table name
+state SimpleName MethodInvocation SimpleName get connector
+state SimpleName MethodInvocation MethodInvocation SimpleName table operations
+get connector SimpleName MethodInvocation MethodInvocation SimpleName table operations
+table ops SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName state
+table ops SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get connector
+table ops SimpleName VariableDeclarationFragment MethodInvocation SimpleName table operations
+table operations SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName table ops
+table ops SimpleName MethodInvocation SimpleName exists
+table ops SimpleName MethodInvocation MethodInvocation SimpleName get table name
+exists SimpleName MethodInvocation MethodInvocation SimpleName get table name
+table ops SimpleName MethodInvocation SimpleName create
+table ops SimpleName MethodInvocation MethodInvocation SimpleName get table name
+create SimpleName MethodInvocation MethodInvocation SimpleName get table name
+iterator setting SimpleName SimpleType ClassInstanceCreation NumberLiteral empty
+empty NumberLiteral ClassInstanceCreation TypeLiteral SimpleType QualifiedName orgapacheaccumulocoreiteratorsusersumming combiner
+is SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName iterator setting
+is SimpleName VariableDeclarationFragment ClassInstanceCreation NumberLiteral empty
+iterator setting SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName is
+summing combiner SimpleName MethodInvocation SimpleName set encoding type
+summing combiner SimpleName MethodInvocation SimpleName is
+summing combiner SimpleName MethodInvocation QualifiedName long combinertypestring
+set encoding type SimpleName MethodInvocation SimpleName is
+set encoding type SimpleName MethodInvocation QualifiedName long combinertypestring
+is SimpleName MethodInvocation QualifiedName long combinertypestring
+summing combiner SimpleName MethodInvocation SimpleName set columns
+summing combiner SimpleName MethodInvocation SimpleName is
+summing combiner SimpleName MethodInvocation QualifiedName bulk plus onecolnames
+set columns SimpleName MethodInvocation SimpleName is
+set columns SimpleName MethodInvocation QualifiedName bulk plus onecolnames
+is SimpleName MethodInvocation QualifiedName bulk plus onecolnames
+table ops SimpleName MethodInvocation SimpleName attach iterator
+table ops SimpleName MethodInvocation MethodInvocation SimpleName get table name
+table ops SimpleName MethodInvocation SimpleName is
+attach iterator SimpleName MethodInvocation MethodInvocation SimpleName get table name
+attach iterator SimpleName MethodInvocation SimpleName is
+get table name SimpleName MethodInvocation MethodInvocation SimpleName is
+table exists exception SimpleName SimpleType SingleVariableDeclaration SimpleName ex
+state SimpleName MethodInvocation SimpleName set
+state SimpleName MethodInvocation StringLiteral rand
+state SimpleName MethodInvocation SimpleName rand
+set SimpleName MethodInvocation StringLiteral rand
+set SimpleName MethodInvocation SimpleName rand
+rand StringLiteral MethodInvocation SimpleName rand
+cached configuration SimpleName MethodInvocation SimpleName get instance
+file system SimpleName MethodInvocation SimpleName get
+file system SimpleName MethodInvocation MethodInvocation SimpleName cached configuration
+file system SimpleName MethodInvocation MethodInvocation SimpleName get instance
+get SimpleName MethodInvocation MethodInvocation SimpleName cached configuration
+get SimpleName MethodInvocation MethodInvocation SimpleName get instance
+state SimpleName MethodInvocation SimpleName set
+state SimpleName MethodInvocation StringLiteral fs
+state SimpleName MethodInvocation MethodInvocation SimpleName file system
+state SimpleName MethodInvocation MethodInvocation SimpleName get
+state SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName cached configuration
+state SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get instance
+set SimpleName MethodInvocation StringLiteral fs
+set SimpleName MethodInvocation MethodInvocation SimpleName file system
+set SimpleName MethodInvocation MethodInvocation SimpleName get
+set SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName cached configuration
+set SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get instance
+fs StringLiteral MethodInvocation MethodInvocation SimpleName file system
+fs StringLiteral MethodInvocation MethodInvocation SimpleName get
+fs StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName cached configuration
+fs StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName get instance
+blocking queue SimpleName SimpleType ParameterizedType SimpleType SimpleName runnable
+linked blocking queue SimpleName SimpleType ParameterizedType SimpleType SimpleName runnable
+runnable SimpleName SimpleType SingleVariableDeclaration SimpleName r
+logging runnable SimpleName SimpleType ClassInstanceCreation SimpleName log
+logging runnable SimpleName SimpleType ClassInstanceCreation SimpleName r
+log SimpleName ClassInstanceCreation SimpleName r
+daemon SimpleName SimpleType ClassInstanceCreation ClassInstanceCreation SimpleName log
+daemon SimpleName SimpleType ClassInstanceCreation ClassInstanceCreation SimpleName r
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName thread
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName new thread
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName r
+public Modifier MethodDeclaration SimpleType SimpleName thread
+public Modifier MethodDeclaration SimpleName new thread
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName runnable
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName r
+thread SimpleName SimpleType MethodDeclaration SimpleName new thread
+thread SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName r
+new thread SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName runnable
+new thread SimpleName MethodDeclaration SingleVariableDeclaration SimpleName r
+factory SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName thread factory
+thread factory SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName factory
+thread pool executor SimpleName SimpleType ClassInstanceCreation SimpleName core pool size
+thread pool executor SimpleName SimpleType ClassInstanceCreation SimpleName max pool size
+thread pool executor SimpleName SimpleType ClassInstanceCreation NumberLiteral empty
+thread pool executor SimpleName SimpleType ClassInstanceCreation QualifiedName time unitseconds
+thread pool executor SimpleName SimpleType ClassInstanceCreation SimpleName q
+core pool size SimpleName ClassInstanceCreation SimpleName max pool size
+core pool size SimpleName ClassInstanceCreation NumberLiteral empty
+core pool size SimpleName ClassInstanceCreation QualifiedName time unitseconds
+core pool size SimpleName ClassInstanceCreation SimpleName q
+core pool size SimpleName ClassInstanceCreation SimpleName factory
+max pool size SimpleName ClassInstanceCreation NumberLiteral empty
+max pool size SimpleName ClassInstanceCreation QualifiedName time unitseconds
+max pool size SimpleName ClassInstanceCreation SimpleName q
+max pool size SimpleName ClassInstanceCreation SimpleName factory
+empty NumberLiteral ClassInstanceCreation QualifiedName time unitseconds
+empty NumberLiteral ClassInstanceCreation SimpleName q
+empty NumberLiteral ClassInstanceCreation SimpleName factory
+time unitseconds QualifiedName ClassInstanceCreation SimpleName q
+time unitseconds QualifiedName ClassInstanceCreation SimpleName factory
+q SimpleName ClassInstanceCreation SimpleName factory
+e SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName thread pool executor
+e SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName core pool size
+e SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName max pool size
+e SimpleName VariableDeclarationFragment ClassInstanceCreation NumberLiteral empty
+e SimpleName VariableDeclarationFragment ClassInstanceCreation QualifiedName time unitseconds
+e SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName q
+e SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName factory
+thread pool executor SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName e
+state SimpleName MethodInvocation SimpleName set
+state SimpleName MethodInvocation StringLiteral pool
+state SimpleName MethodInvocation SimpleName e
+set SimpleName MethodInvocation StringLiteral pool
+set SimpleName MethodInvocation SimpleName e
+pool StringLiteral MethodInvocation SimpleName e
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName visit
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName state
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName props
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName visit
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName state
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName state
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName properties
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName props
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName visit
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName state
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName state
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName properties
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName props
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+visit SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName state
+visit SimpleName MethodDeclaration SingleVariableDeclaration SimpleName state
+visit SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName properties
+visit SimpleName MethodDeclaration SingleVariableDeclaration SimpleName props
+visit SimpleName MethodDeclaration SimpleType SimpleName exception
+state SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName props
+state SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+props SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName visit
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName state
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName props
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName visit
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName state
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName props
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

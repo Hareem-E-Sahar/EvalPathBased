@@ -1,0 +1,72 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas attribute def
+list SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName attribute defs
+atlas attribute def SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName attribute defs
+attribute defs SimpleName FieldAccess InfixExpression SimpleName attribute defs
+collection utils SimpleName MethodInvocation SimpleName is empty
+collection utils SimpleName MethodInvocation SimpleName attribute defs
+is empty SimpleName MethodInvocation SimpleName attribute defs
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas attribute def
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas attribute def
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas attribute def
+attribute defs SimpleName MethodInvocation SimpleName size
+tmp list SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName attribute defs
+tmp list SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName size
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+hash set SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+list iterator SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas attribute def
+attribute defs SimpleName MethodInvocation SimpleName size
+attribute defs SimpleName MethodInvocation SimpleName list iterator
+attribute defs SimpleName MethodInvocation MethodInvocation SimpleName attribute defs
+attribute defs SimpleName MethodInvocation MethodInvocation SimpleName size
+list iterator SimpleName MethodInvocation MethodInvocation SimpleName attribute defs
+list iterator SimpleName MethodInvocation MethodInvocation SimpleName size
+iter SimpleName VariableDeclarationFragment MethodInvocation SimpleName attribute defs
+iter SimpleName VariableDeclarationFragment MethodInvocation SimpleName list iterator
+iter SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName attribute defs
+iter SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName size
+iter SimpleName MethodInvocation SimpleName has previous
+iter SimpleName MethodInvocation SimpleName previous
+attribute def SimpleName VariableDeclarationFragment MethodInvocation SimpleName iter
+attribute def SimpleName VariableDeclarationFragment MethodInvocation SimpleName previous
+atlas attribute def SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName attribute def
+attribute def SimpleName MethodInvocation SimpleName get name
+attribute def SimpleName InfixExpression ConditionalExpression MethodInvocation SimpleName attribute def
+attribute def SimpleName InfixExpression ConditionalExpression MethodInvocation SimpleName get name
+attrib name SimpleName VariableDeclarationFragment ConditionalExpression InfixExpression SimpleName attribute def
+attrib name SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation SimpleName attribute def
+attrib name SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation SimpleName get name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName attrib name
+attrib name SimpleName MethodInvocation SimpleName to lower case
+attrib name SimpleName Assignment MethodInvocation SimpleName attrib name
+attrib name SimpleName Assignment MethodInvocation SimpleName to lower case
+attrib names SimpleName MethodInvocation SimpleName contains
+attrib names SimpleName MethodInvocation SimpleName attrib name
+contains SimpleName MethodInvocation SimpleName attrib name
+atlas attribute def SimpleName SimpleType ClassInstanceCreation SimpleName attribute def
+tmp list SimpleName MethodInvocation SimpleName add
+tmp list SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName atlas attribute def
+tmp list SimpleName MethodInvocation ClassInstanceCreation SimpleName attribute def
+add SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName atlas attribute def
+add SimpleName MethodInvocation ClassInstanceCreation SimpleName attribute def
+attrib names SimpleName MethodInvocation SimpleName add
+attrib names SimpleName MethodInvocation SimpleName attrib name
+add SimpleName MethodInvocation SimpleName attrib name
+collections SimpleName MethodInvocation SimpleName reverse
+collections SimpleName MethodInvocation SimpleName tmp list
+reverse SimpleName MethodInvocation SimpleName tmp list
+attribute defs SimpleName FieldAccess Assignment SimpleName tmp list
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set attribute defs
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName attribute defs
+void PrimitiveType MethodDeclaration SimpleName set attribute defs
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName attribute defs
+set attribute defs SimpleName MethodDeclaration SingleVariableDeclaration SimpleName attribute defs
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set attribute defs
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attribute defs
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set attribute defs
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attribute defs

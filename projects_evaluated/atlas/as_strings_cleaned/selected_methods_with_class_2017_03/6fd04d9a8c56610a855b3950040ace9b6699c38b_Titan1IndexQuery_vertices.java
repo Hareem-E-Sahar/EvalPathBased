@@ -1,0 +1,55 @@
+result SimpleName SimpleType ParameterizedType SimpleType SimpleName titan vertex
+result SimpleName SimpleType ParameterizedType SimpleType SimpleName titan edge
+titan vertex SimpleName SimpleType ParameterizedType SimpleType SimpleName titan edge
+titan index queryresult QualifiedName SimpleType ParameterizedType SimpleType SimpleName titan vertex
+query SimpleName MethodInvocation SimpleName vertices
+query SimpleName MethodInvocation MethodInvocation SimpleName iterator
+vertices SimpleName MethodInvocation MethodInvocation SimpleName iterator
+results SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName query
+results SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName vertices
+results SimpleName VariableDeclarationFragment MethodInvocation SimpleName iterator
+titan index queryresult QualifiedName SimpleType ParameterizedType SimpleType SimpleName titan vertex
+result SimpleName SimpleType ParameterizedType SimpleType SimpleName titan vertex
+result SimpleName SimpleType ParameterizedType SimpleType SimpleName titan edge
+titan vertex SimpleName SimpleType ParameterizedType SimpleType SimpleName titan edge
+titan index queryresult QualifiedName SimpleType ParameterizedType SimpleType SimpleName titan vertex
+result SimpleName SimpleType ParameterizedType SimpleType SimpleName titan vertex
+result SimpleName SimpleType ParameterizedType SimpleType SimpleName titan edge
+titan vertex SimpleName SimpleType ParameterizedType SimpleType SimpleName titan edge
+result SimpleName SimpleType ParameterizedType SimpleType SimpleName titan vertex
+result SimpleName SimpleType ParameterizedType SimpleType SimpleName titan edge
+titan vertex SimpleName SimpleType ParameterizedType SimpleType SimpleName titan edge
+titan index queryresult QualifiedName SimpleType ParameterizedType SimpleType SimpleName titan vertex
+titan index queryresult QualifiedName SimpleType ParameterizedType SingleVariableDeclaration SimpleName source
+titan vertex SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName source
+result impl SimpleName SimpleType ClassInstanceCreation SimpleName source
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName apply
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName source
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName result
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName titan vertex
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName titan edge
+public Modifier MethodDeclaration SimpleName apply
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName source
+result SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName apply
+titan vertex SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName apply
+titan edge SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName apply
+apply SimpleName MethodDeclaration SingleVariableDeclaration SimpleName source
+iterators SimpleName MethodInvocation SimpleName transform
+iterators SimpleName MethodInvocation SimpleName results
+iterators SimpleName MethodInvocation SimpleName function
+transform SimpleName MethodInvocation SimpleName results
+transform SimpleName MethodInvocation SimpleName function
+results SimpleName MethodInvocation SimpleName function
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName vertices
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName iterator
+public Modifier MethodDeclaration SimpleName vertices
+iterator SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName vertices
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName vertices
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName vertices

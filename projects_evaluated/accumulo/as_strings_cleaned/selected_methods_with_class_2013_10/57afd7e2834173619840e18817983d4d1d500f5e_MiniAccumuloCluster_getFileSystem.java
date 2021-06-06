@@ -1,0 +1,20 @@
+uri SimpleName SimpleType ClassInstanceCreation SimpleName dfs uri
+file system SimpleName MethodInvocation SimpleName get
+file system SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName uri
+file system SimpleName MethodInvocation ClassInstanceCreation SimpleName dfs uri
+file system SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName configuration
+get SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName uri
+get SimpleName MethodInvocation ClassInstanceCreation SimpleName dfs uri
+get SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName configuration
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+runtime exception SimpleName SimpleType ClassInstanceCreation SimpleName e
+public Modifier MethodDeclaration SimpleType SimpleName file system
+public Modifier MethodDeclaration SimpleName get file system
+file system SimpleName SimpleType MethodDeclaration SimpleName get file system
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName file system
+public Modifier TypeDeclaration MethodDeclaration SimpleName get file system
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName file system
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get file system

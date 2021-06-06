@@ -1,0 +1,94 @@
+hdfs zoo instance SimpleName MethodInvocation SimpleName get instance
+hdfs zoo instance SimpleName MethodInvocation MethodInvocation SimpleName get instance id
+get instance SimpleName MethodInvocation MethodInvocation SimpleName get instance id
+extent SimpleName MethodInvocation SimpleName get table id
+constantszroot QualifiedName InfixExpression StringLiteral /
+constantszroot QualifiedName InfixExpression MethodInvocation MethodInvocation SimpleName hdfs zoo instance
+constantszroot QualifiedName InfixExpression MethodInvocation MethodInvocation SimpleName get instance
+constantszroot QualifiedName InfixExpression MethodInvocation SimpleName get instance id
+constantszroot QualifiedName InfixExpression QualifiedName constantsztables
+constantszroot QualifiedName InfixExpression StringLiteral /
+constantszroot QualifiedName InfixExpression MethodInvocation SimpleName extent
+constantszroot QualifiedName InfixExpression MethodInvocation SimpleName get table id
+/ StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName hdfs zoo instance
+/ StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName get instance
+/ StringLiteral InfixExpression MethodInvocation SimpleName get instance id
+/ StringLiteral InfixExpression QualifiedName constantsztables
+/ StringLiteral InfixExpression StringLiteral /
+/ StringLiteral InfixExpression MethodInvocation SimpleName extent
+/ StringLiteral InfixExpression MethodInvocation SimpleName get table id
+/ StringLiteral InfixExpression QualifiedName constantsztable flush id
+hdfs zoo instance SimpleName MethodInvocation MethodInvocation InfixExpression QualifiedName constantsztables
+get instance SimpleName MethodInvocation MethodInvocation InfixExpression QualifiedName constantsztables
+get instance id SimpleName MethodInvocation InfixExpression QualifiedName constantsztables
+hdfs zoo instance SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral /
+get instance SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral /
+get instance id SimpleName MethodInvocation InfixExpression StringLiteral /
+get instance id SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName extent
+get instance id SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get table id
+hdfs zoo instance SimpleName MethodInvocation MethodInvocation InfixExpression QualifiedName constantsztable flush id
+get instance SimpleName MethodInvocation MethodInvocation InfixExpression QualifiedName constantsztable flush id
+get instance id SimpleName MethodInvocation InfixExpression QualifiedName constantsztable flush id
+constantsztables QualifiedName InfixExpression StringLiteral /
+constantsztables QualifiedName InfixExpression MethodInvocation SimpleName extent
+constantsztables QualifiedName InfixExpression MethodInvocation SimpleName get table id
+constantsztables QualifiedName InfixExpression QualifiedName constantsztable flush id
+/ StringLiteral InfixExpression MethodInvocation SimpleName extent
+/ StringLiteral InfixExpression MethodInvocation SimpleName get table id
+/ StringLiteral InfixExpression QualifiedName constantsztable flush id
+extent SimpleName MethodInvocation InfixExpression QualifiedName constantsztable flush id
+get table id SimpleName MethodInvocation InfixExpression QualifiedName constantsztable flush id
+z table path SimpleName VariableDeclarationFragment InfixExpression QualifiedName constantszroot
+z table path SimpleName VariableDeclarationFragment InfixExpression StringLiteral /
+z table path SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName get instance id
+z table path SimpleName VariableDeclarationFragment InfixExpression QualifiedName constantsztables
+z table path SimpleName VariableDeclarationFragment InfixExpression StringLiteral /
+z table path SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName extent
+z table path SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName get table id
+z table path SimpleName VariableDeclarationFragment InfixExpression QualifiedName constantsztable flush id
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName z table path
+zoo reader writer SimpleName MethodInvocation SimpleName get instance
+zoo reader writer SimpleName MethodInvocation MethodInvocation SimpleName get data
+get instance SimpleName MethodInvocation MethodInvocation SimpleName get data
+zoo reader writer SimpleName MethodInvocation MethodInvocation SimpleName z table path
+get instance SimpleName MethodInvocation MethodInvocation SimpleName z table path
+get data SimpleName MethodInvocation SimpleName z table path
+string SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get data
+string SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName z table path
+string SimpleName SimpleType ClassInstanceCreation SimpleName utf
+zoo reader writer SimpleName MethodInvocation MethodInvocation ClassInstanceCreation SimpleName utf
+get instance SimpleName MethodInvocation MethodInvocation ClassInstanceCreation SimpleName utf
+get data SimpleName MethodInvocation ClassInstanceCreation SimpleName utf
+z table path SimpleName MethodInvocation ClassInstanceCreation SimpleName utf
+long SimpleName MethodInvocation SimpleName parse long
+long SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName string
+long SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get data
+long SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName z table path
+long SimpleName MethodInvocation ClassInstanceCreation SimpleName utf
+parse long SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName string
+parse long SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get data
+parse long SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName z table path
+parse long SimpleName MethodInvocation ClassInstanceCreation SimpleName utf
+interrupted exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+runtime exception SimpleName SimpleType ClassInstanceCreation SimpleName e
+number format exception SimpleName SimpleType SingleVariableDeclaration SimpleName nfe
+runtime exception SimpleName SimpleType ClassInstanceCreation SimpleName nfe
+keeper exception SimpleName SimpleType SingleVariableDeclaration SimpleName ke
+ke SimpleName InstanceofExpression SimpleType SimpleName no node exception
+no node exception SimpleName SimpleType CastExpression SimpleName ke
+runtime exception SimpleName SimpleType ClassInstanceCreation SimpleName ke
+public Modifier MethodDeclaration PrimitiveType long
+public Modifier MethodDeclaration SimpleName get flush id
+public Modifier MethodDeclaration SimpleType SimpleName no node exception
+long PrimitiveType MethodDeclaration SimpleName get flush id
+long PrimitiveType MethodDeclaration SimpleType SimpleName no node exception
+get flush id SimpleName MethodDeclaration SimpleType SimpleName no node exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType long
+public Modifier TypeDeclaration MethodDeclaration SimpleName get flush id
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName no node exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType long
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get flush id
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName no node exception

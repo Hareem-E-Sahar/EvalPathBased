@@ -1,0 +1,38 @@
+referenceable SimpleName SimpleType ClassInstanceCreation QualifiedName atlas clientdata set super type
+entity SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName referenceable
+entity SimpleName VariableDeclarationFragment ClassInstanceCreation QualifiedName atlas clientdata set super type
+final Modifier VariableDeclarationStatement SimpleType SimpleName referenceable
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName entity
+final Modifier VariableDeclarationStatement VariableDeclarationFragment ClassInstanceCreation QualifiedName atlas clientdata set super type
+referenceable SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName entity
+db StringLiteral InfixExpression MethodInvocation SimpleName random string
+entity SimpleName MethodInvocation SimpleName set
+entity SimpleName MethodInvocation StringLiteral name
+entity SimpleName MethodInvocation InfixExpression StringLiteral db
+entity SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName random string
+set SimpleName MethodInvocation StringLiteral name
+set SimpleName MethodInvocation InfixExpression StringLiteral db
+set SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName random string
+name StringLiteral MethodInvocation InfixExpression StringLiteral db
+name StringLiteral MethodInvocation InfixExpression MethodInvocation SimpleName random string
+entity SimpleName MethodInvocation SimpleName set
+entity SimpleName MethodInvocation StringLiteral description
+entity SimpleName MethodInvocation MethodInvocation SimpleName random string
+set SimpleName MethodInvocation StringLiteral description
+set SimpleName MethodInvocation MethodInvocation SimpleName random string
+description StringLiteral MethodInvocation MethodInvocation SimpleName random string
+entity SimpleName MethodInvocation SimpleName set
+entity SimpleName MethodInvocation StringLiteral qualified name
+entity SimpleName MethodInvocation MethodInvocation SimpleName random string
+set SimpleName MethodInvocation StringLiteral qualified name
+set SimpleName MethodInvocation MethodInvocation SimpleName random string
+qualified name StringLiteral MethodInvocation MethodInvocation SimpleName random string
+final Modifier VariableDeclarationStatement Block ReturnStatement SimpleName entity
+referenceable SimpleName SimpleType MethodDeclaration SimpleName create entity
+create entity SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+create entity SimpleName MethodDeclaration Block ReturnStatement SimpleName entity
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName referenceable
+public Modifier TypeDeclaration MethodDeclaration SimpleName create entity
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName referenceable
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create entity

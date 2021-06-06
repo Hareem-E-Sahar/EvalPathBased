@@ -1,0 +1,28 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType SingleVariableDeclaration SimpleName name
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+name SimpleName InfixExpression InfixExpression InfixExpression SimpleName params
+params SimpleName MethodInvocation SimpleName get
+params SimpleName MethodInvocation SimpleName name
+get SimpleName MethodInvocation SimpleName name
+ret SimpleName Assignment MethodInvocation SimpleName params
+ret SimpleName Assignment MethodInvocation SimpleName get
+ret SimpleName Assignment MethodInvocation SimpleName name
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName get params
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName name
+public Modifier MethodDeclaration Block ReturnStatement SimpleName ret
+list SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get params
+string SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get params
+get params SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get params SimpleName MethodDeclaration SingleVariableDeclaration SimpleName name
+get params SimpleName MethodDeclaration Block ReturnStatement SimpleName ret
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName get params
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get params
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name

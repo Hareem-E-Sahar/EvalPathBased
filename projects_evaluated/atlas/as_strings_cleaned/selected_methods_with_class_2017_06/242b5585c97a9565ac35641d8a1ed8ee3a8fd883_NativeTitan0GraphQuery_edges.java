@@ -1,0 +1,22 @@
+atlas edge SimpleName SimpleType ParameterizedType SimpleType SimpleName titan vertex
+atlas edge SimpleName SimpleType ParameterizedType SimpleType SimpleName titan edge
+titan vertex SimpleName SimpleType ParameterizedType SimpleType SimpleName titan edge
+query SimpleName MethodInvocation SimpleName edges
+it SimpleName VariableDeclarationFragment MethodInvocation SimpleName query
+it SimpleName VariableDeclarationFragment MethodInvocation SimpleName edges
+iterable SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName it
+graph SimpleName MethodInvocation SimpleName wrap edges
+graph SimpleName MethodInvocation SimpleName it
+wrap edges SimpleName MethodInvocation SimpleName it
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName edges
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName iterable
+public Modifier MethodDeclaration SimpleName edges
+iterable SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName edges
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName edges
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName edges

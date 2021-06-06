@@ -1,0 +1,79 @@
+atlas struct def SimpleName SimpleType SingleVariableDeclaration SimpleName old struct def
+atlas struct def SimpleName SimpleType SingleVariableDeclaration SimpleName new struct def
+is type update applicable SimpleName MethodInvocation SimpleName old struct def
+is type update applicable SimpleName MethodInvocation SimpleName new struct def
+old struct def SimpleName MethodInvocation SimpleName new struct def
+ret SimpleName VariableDeclarationFragment MethodInvocation SimpleName is type update applicable
+ret SimpleName VariableDeclarationFragment MethodInvocation SimpleName old struct def
+ret SimpleName VariableDeclarationFragment MethodInvocation SimpleName new struct def
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName ret
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName is type update applicable
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName old struct def
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName new struct def
+old struct def SimpleName MethodInvocation SimpleName get attribute defs
+collection utils SimpleName MethodInvocation SimpleName is not empty
+collection utils SimpleName MethodInvocation MethodInvocation SimpleName old struct def
+collection utils SimpleName MethodInvocation MethodInvocation SimpleName get attribute defs
+is not empty SimpleName MethodInvocation MethodInvocation SimpleName old struct def
+is not empty SimpleName MethodInvocation MethodInvocation SimpleName get attribute defs
+atlas attribute def SimpleName SimpleType SingleVariableDeclaration SimpleName old attr def
+old struct def SimpleName MethodInvocation SimpleName get attribute defs
+old attr def SimpleName MethodInvocation SimpleName get name
+new struct def SimpleName MethodInvocation SimpleName has attribute
+new struct def SimpleName MethodInvocation MethodInvocation SimpleName old attr def
+new struct def SimpleName MethodInvocation MethodInvocation SimpleName get name
+has attribute SimpleName MethodInvocation MethodInvocation SimpleName old attr def
+has attribute SimpleName MethodInvocation MethodInvocation SimpleName get name
+new struct def SimpleName MethodInvocation SimpleName add attribute
+new struct def SimpleName MethodInvocation SimpleName old attr def
+add attribute SimpleName MethodInvocation SimpleName old attr def
+old attr def SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName old struct def
+old attr def SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName get attribute defs
+boolean PrimitiveType VariableDeclarationStatement Block IfStatement SimpleName ret
+boolean PrimitiveType VariableDeclarationStatement Block ReturnStatement SimpleName ret
+ret SimpleName IfStatement Block ReturnStatement SimpleName ret
+private Modifier MethodDeclaration Modifier static
+private Modifier MethodDeclaration PrimitiveType boolean
+private Modifier MethodDeclaration SimpleName update type attributes
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas struct def
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName old struct def
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas struct def
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName new struct def
+static Modifier MethodDeclaration PrimitiveType boolean
+static Modifier MethodDeclaration SimpleName update type attributes
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas struct def
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName old struct def
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas struct def
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName new struct def
+static Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+static Modifier MethodDeclaration Block IfStatement SimpleName ret
+static Modifier MethodDeclaration Block ReturnStatement SimpleName ret
+boolean PrimitiveType MethodDeclaration SimpleName update type attributes
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas struct def
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName old struct def
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas struct def
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName new struct def
+boolean PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+boolean PrimitiveType MethodDeclaration Block IfStatement SimpleName ret
+boolean PrimitiveType MethodDeclaration Block ReturnStatement SimpleName ret
+update type attributes SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas struct def
+update type attributes SimpleName MethodDeclaration SingleVariableDeclaration SimpleName old struct def
+update type attributes SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas struct def
+update type attributes SimpleName MethodDeclaration SingleVariableDeclaration SimpleName new struct def
+update type attributes SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+update type attributes SimpleName MethodDeclaration Block IfStatement SimpleName ret
+update type attributes SimpleName MethodDeclaration Block ReturnStatement SimpleName ret
+old struct def SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new struct def
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName update type attributes
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName old struct def
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new struct def
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName update type attributes
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName old struct def
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new struct def

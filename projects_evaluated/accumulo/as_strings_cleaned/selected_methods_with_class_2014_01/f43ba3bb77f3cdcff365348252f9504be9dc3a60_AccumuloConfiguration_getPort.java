@@ -1,0 +1,81 @@
+property SimpleName SimpleType SingleVariableDeclaration SimpleName property
+check type SimpleName MethodInvocation SimpleName property
+check type SimpleName MethodInvocation QualifiedName property typeport
+property SimpleName MethodInvocation QualifiedName property typeport
+get SimpleName MethodInvocation SimpleName property
+port string SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+port string SimpleName VariableDeclarationFragment MethodInvocation SimpleName property
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName port string
+integer SimpleName MethodInvocation SimpleName parse int
+integer SimpleName MethodInvocation SimpleName port string
+parse int SimpleName MethodInvocation SimpleName port string
+port SimpleName VariableDeclarationFragment MethodInvocation SimpleName integer
+port SimpleName VariableDeclarationFragment MethodInvocation SimpleName parse int
+port SimpleName VariableDeclarationFragment MethodInvocation SimpleName port string
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName port
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName integer
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName parse int
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName port string
+port SimpleName InfixExpression NumberLiteral empty
+port SimpleName InfixExpression NumberLiteral empty
+port SimpleName InfixExpression NumberLiteral empty
+port SimpleName InfixExpression InfixExpression InfixExpression SimpleName port
+port SimpleName InfixExpression InfixExpression InfixExpression NumberLiteral empty
+empty NumberLiteral InfixExpression InfixExpression InfixExpression SimpleName port
+empty NumberLiteral InfixExpression InfixExpression InfixExpression NumberLiteral empty
+property SimpleName MethodInvocation SimpleName get default value
+invalid port number StringLiteral InfixExpression SimpleName port
+invalid port number StringLiteral InfixExpression StringLiteral using default
+invalid port number StringLiteral InfixExpression MethodInvocation SimpleName property
+invalid port number StringLiteral InfixExpression MethodInvocation SimpleName get default value
+port SimpleName InfixExpression StringLiteral using default
+port SimpleName InfixExpression MethodInvocation SimpleName property
+port SimpleName InfixExpression MethodInvocation SimpleName get default value
+ using default StringLiteral InfixExpression MethodInvocation SimpleName property
+ using default StringLiteral InfixExpression MethodInvocation SimpleName get default value
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation InfixExpression StringLiteral invalid port number
+log SimpleName MethodInvocation InfixExpression SimpleName port
+log SimpleName MethodInvocation InfixExpression StringLiteral using default
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName property
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get default value
+error SimpleName MethodInvocation InfixExpression StringLiteral invalid port number
+error SimpleName MethodInvocation InfixExpression SimpleName port
+error SimpleName MethodInvocation InfixExpression StringLiteral using default
+error SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName property
+error SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get default value
+property SimpleName MethodInvocation SimpleName get default value
+integer SimpleName MethodInvocation SimpleName parse int
+integer SimpleName MethodInvocation MethodInvocation SimpleName property
+integer SimpleName MethodInvocation MethodInvocation SimpleName get default value
+parse int SimpleName MethodInvocation MethodInvocation SimpleName property
+parse int SimpleName MethodInvocation MethodInvocation SimpleName get default value
+port SimpleName Assignment MethodInvocation SimpleName integer
+port SimpleName Assignment MethodInvocation SimpleName parse int
+port SimpleName Assignment MethodInvocation MethodInvocation SimpleName property
+port SimpleName Assignment MethodInvocation MethodInvocation SimpleName get default value
+int PrimitiveType VariableDeclarationStatement Block ReturnStatement SimpleName port
+public Modifier MethodDeclaration PrimitiveType int
+public Modifier MethodDeclaration SimpleName get port
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName property
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName property
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+public Modifier MethodDeclaration Block ReturnStatement SimpleName port
+int PrimitiveType MethodDeclaration SimpleName get port
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName property
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName property
+int PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType MethodDeclaration Block ReturnStatement SimpleName port
+get port SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName property
+get port SimpleName MethodDeclaration SingleVariableDeclaration SimpleName property
+get port SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+get port SimpleName MethodDeclaration Block ReturnStatement SimpleName port
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SimpleName get port
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName property
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get port
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName property

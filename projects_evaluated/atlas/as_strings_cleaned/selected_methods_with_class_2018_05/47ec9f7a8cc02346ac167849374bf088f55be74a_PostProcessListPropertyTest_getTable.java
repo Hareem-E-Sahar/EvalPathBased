@@ -1,0 +1,12 @@
+public Modifier MethodDeclaration SimpleType SimpleName vertex
+public Modifier MethodDeclaration SimpleName get table
+public Modifier MethodDeclaration Block ReturnStatement SimpleName table v
+vertex SimpleName SimpleType MethodDeclaration SimpleName get table
+get table SimpleName MethodDeclaration Block ReturnStatement SimpleName table v
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName vertex
+public Modifier TypeDeclaration MethodDeclaration SimpleName get table
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName vertex
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get table

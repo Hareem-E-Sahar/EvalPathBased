@@ -1,0 +1,41 @@
+atlas vertex SimpleName SimpleType SingleVariableDeclaration SimpleName vertex
+atlas attribute SimpleName SimpleType SingleVariableDeclaration SimpleName attribute
+vertex SimpleName InfixExpression InfixExpression InfixExpression SimpleName attribute
+map vertex to attribute SimpleName MethodInvocation SimpleName vertex
+map vertex to attribute SimpleName MethodInvocation SimpleName attribute
+map vertex to attribute SimpleName MethodInvocation BooleanLiteral false
+vertex SimpleName MethodInvocation SimpleName attribute
+vertex SimpleName MethodInvocation BooleanLiteral false
+attribute SimpleName MethodInvocation BooleanLiteral false
+private Modifier MethodDeclaration SimpleType SimpleName object
+private Modifier MethodDeclaration SimpleName get vertex attribute
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas vertex
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName vertex
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas attribute
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName attribute
+private Modifier MethodDeclaration SimpleType SimpleName atlas base exception
+object SimpleName SimpleType MethodDeclaration SimpleName get vertex attribute
+object SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName vertex
+object SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName attribute
+object SimpleName SimpleType MethodDeclaration SimpleType SimpleName atlas base exception
+get vertex attribute SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas vertex
+get vertex attribute SimpleName MethodDeclaration SingleVariableDeclaration SimpleName vertex
+get vertex attribute SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas attribute
+get vertex attribute SimpleName MethodDeclaration SingleVariableDeclaration SimpleName attribute
+get vertex attribute SimpleName MethodDeclaration SimpleType SimpleName atlas base exception
+vertex SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attribute
+vertex SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+attribute SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName object
+public Modifier TypeDeclaration MethodDeclaration SimpleName get vertex attribute
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName vertex
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attribute
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName object
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get vertex attribute
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName vertex
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attribute
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception

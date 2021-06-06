@@ -1,0 +1,29 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName connection
+list SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName open metadata archive connections
+connection SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName open metadata archive connections
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName open metadata archive store connector
+connection SimpleName SimpleType SingleVariableDeclaration SimpleName archive connection
+get open metadata archive store SimpleName MethodInvocation SimpleName archive connection
+open metadata archives SimpleName MethodInvocation SimpleName add
+open metadata archives SimpleName MethodInvocation MethodInvocation SimpleName get open metadata archive store
+open metadata archives SimpleName MethodInvocation MethodInvocation SimpleName archive connection
+add SimpleName MethodInvocation MethodInvocation SimpleName get open metadata archive store
+add SimpleName MethodInvocation MethodInvocation SimpleName archive connection
+connection SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName open metadata archive connections
+archive connection SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName open metadata archive connections
+omrs archive manager SimpleName SimpleType ClassInstanceCreation SimpleName open metadata archives
+private Modifier MethodDeclaration SimpleType SimpleName omrs archive manager
+private Modifier MethodDeclaration SimpleName initialize open metadata archives
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName open metadata archive connections
+omrs archive manager SimpleName SimpleType MethodDeclaration SimpleName initialize open metadata archives
+omrs archive manager SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName open metadata archive connections
+initialize open metadata archives SimpleName MethodDeclaration SingleVariableDeclaration SimpleName open metadata archive connections
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName omrs archive manager
+public Modifier TypeDeclaration MethodDeclaration SimpleName initialize open metadata archives
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName open metadata archive connections
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName omrs archive manager
+test SimpleName TypeDeclaration MethodDeclaration SimpleName initialize open metadata archives
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName open metadata archive connections

@@ -1,0 +1,40 @@
+log SimpleName MethodInvocation SimpleName is debug enabled
+connection SimpleName MethodInvocation SimpleName get connection name
+connected asset properties requested StringLiteral InfixExpression SimpleName connector instance id
+connected asset properties requested StringLiteral InfixExpression StringLiteral empty
+connected asset properties requested StringLiteral InfixExpression MethodInvocation SimpleName connection
+connected asset properties requested StringLiteral InfixExpression MethodInvocation SimpleName get connection name
+connector instance id SimpleName InfixExpression StringLiteral empty
+connector instance id SimpleName InfixExpression MethodInvocation SimpleName connection
+connector instance id SimpleName InfixExpression MethodInvocation SimpleName get connection name
+empty StringLiteral InfixExpression MethodInvocation SimpleName connection
+empty StringLiteral InfixExpression MethodInvocation SimpleName get connection name
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation InfixExpression StringLiteral connected asset properties requested
+log SimpleName MethodInvocation InfixExpression SimpleName connector instance id
+log SimpleName MethodInvocation InfixExpression StringLiteral empty
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName connection
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get connection name
+debug SimpleName MethodInvocation InfixExpression StringLiteral connected asset properties requested
+debug SimpleName MethodInvocation InfixExpression SimpleName connector instance id
+debug SimpleName MethodInvocation InfixExpression StringLiteral empty
+debug SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName connection
+debug SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get connection name
+connected asset properties SimpleName MethodInvocation SimpleName refresh
+public Modifier MethodDeclaration SimpleType SimpleName connected asset properties
+public Modifier MethodDeclaration SimpleName get connected asset properties
+public Modifier MethodDeclaration SimpleType SimpleName property server exception
+public Modifier MethodDeclaration Block ReturnStatement SimpleName connected asset properties
+connected asset properties SimpleName SimpleType MethodDeclaration SimpleName get connected asset properties
+connected asset properties SimpleName SimpleType MethodDeclaration SimpleType SimpleName property server exception
+get connected asset properties SimpleName MethodDeclaration SimpleType SimpleName property server exception
+get connected asset properties SimpleName MethodDeclaration Block ReturnStatement SimpleName connected asset properties
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName connected asset properties
+public Modifier TypeDeclaration MethodDeclaration SimpleName get connected asset properties
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName property server exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName connected asset properties
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get connected asset properties
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName property server exception

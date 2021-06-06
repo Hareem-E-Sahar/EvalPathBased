@@ -1,0 +1,36 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName query
+parser SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType QualifiedName atlas dslparser
+atlas dslparser QualifiedName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName parser
+atlas dsl parserquery context QualifiedName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName query context
+parser SimpleName MethodInvocation SimpleName parse
+parser SimpleName MethodInvocation SimpleName query
+parse SimpleName MethodInvocation SimpleName query
+query context SimpleName Assignment MethodInvocation SimpleName parser
+query context SimpleName Assignment MethodInvocation SimpleName parse
+query context SimpleName Assignment MethodInvocation SimpleName query
+atlas base exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+e SimpleName MethodInvocation SimpleName get message
+assert false SimpleName MethodInvocation InfixExpression SimpleName e
+assert false SimpleName MethodInvocation MethodInvocation SimpleName e
+assert false SimpleName MethodInvocation MethodInvocation SimpleName get message
+e SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName e
+e SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName get message
+private Modifier MethodDeclaration SimpleType QualifiedName atlas dsl parserquery context
+private Modifier MethodDeclaration SimpleName get parsed query
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName query
+private Modifier MethodDeclaration Block ReturnStatement SimpleName query context
+atlas dsl parserquery context QualifiedName SimpleType MethodDeclaration SimpleName get parsed query
+atlas dsl parserquery context QualifiedName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName query
+get parsed query SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get parsed query SimpleName MethodDeclaration SingleVariableDeclaration SimpleName query
+get parsed query SimpleName MethodDeclaration Block ReturnStatement SimpleName query context
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType QualifiedName atlas dsl parserquery context
+public Modifier TypeDeclaration MethodDeclaration SimpleName get parsed query
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName query
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType QualifiedName atlas dsl parserquery context
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get parsed query
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName query

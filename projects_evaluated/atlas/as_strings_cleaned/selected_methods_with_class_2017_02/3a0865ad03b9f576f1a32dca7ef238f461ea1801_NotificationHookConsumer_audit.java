@@ -1,0 +1,98 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName message user
+atlas clientapi QualifiedName SimpleType SingleVariableDeclaration SimpleName api
+log SimpleName MethodInvocation SimpleName is debug enabled
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral ==> audit
+log SimpleName MethodInvocation SimpleName message user
+log SimpleName MethodInvocation SimpleName api
+debug SimpleName MethodInvocation StringLiteral ==> audit
+debug SimpleName MethodInvocation SimpleName message user
+debug SimpleName MethodInvocation SimpleName api
+==> audit StringLiteral MethodInvocation SimpleName message user
+==> audit StringLiteral MethodInvocation SimpleName api
+message user SimpleName MethodInvocation SimpleName api
+api SimpleName MethodInvocation SimpleName get method
+api SimpleName MethodInvocation SimpleName get path
+date time helper SimpleName MethodInvocation SimpleName format date utc
+date time helper SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName date
+format date utc SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName date
+audit filter SimpleName MethodInvocation SimpleName audit
+audit filter SimpleName MethodInvocation SimpleName message user
+audit filter SimpleName MethodInvocation SimpleName threadname prefix
+audit filter SimpleName MethodInvocation MethodInvocation SimpleName api
+audit filter SimpleName MethodInvocation MethodInvocation SimpleName get method
+audit filter SimpleName MethodInvocation SimpleName localhost
+audit SimpleName MethodInvocation SimpleName message user
+audit SimpleName MethodInvocation SimpleName threadname prefix
+audit SimpleName MethodInvocation MethodInvocation SimpleName api
+audit SimpleName MethodInvocation MethodInvocation SimpleName get method
+audit SimpleName MethodInvocation SimpleName localhost
+audit SimpleName MethodInvocation MethodInvocation SimpleName api
+audit SimpleName MethodInvocation MethodInvocation SimpleName get path
+message user SimpleName MethodInvocation SimpleName threadname prefix
+message user SimpleName MethodInvocation MethodInvocation SimpleName api
+message user SimpleName MethodInvocation MethodInvocation SimpleName get method
+message user SimpleName MethodInvocation SimpleName localhost
+message user SimpleName MethodInvocation MethodInvocation SimpleName api
+message user SimpleName MethodInvocation MethodInvocation SimpleName get path
+message user SimpleName MethodInvocation SimpleName localhost
+threadname prefix SimpleName MethodInvocation MethodInvocation SimpleName api
+threadname prefix SimpleName MethodInvocation MethodInvocation SimpleName get method
+threadname prefix SimpleName MethodInvocation SimpleName localhost
+threadname prefix SimpleName MethodInvocation MethodInvocation SimpleName api
+threadname prefix SimpleName MethodInvocation MethodInvocation SimpleName get path
+threadname prefix SimpleName MethodInvocation SimpleName localhost
+threadname prefix SimpleName MethodInvocation MethodInvocation SimpleName date time helper
+threadname prefix SimpleName MethodInvocation MethodInvocation SimpleName format date utc
+api SimpleName MethodInvocation MethodInvocation SimpleName localhost
+get method SimpleName MethodInvocation MethodInvocation SimpleName localhost
+api SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName api
+api SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get path
+get method SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName api
+get method SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get path
+api SimpleName MethodInvocation MethodInvocation SimpleName localhost
+get method SimpleName MethodInvocation MethodInvocation SimpleName localhost
+api SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName date time helper
+api SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName format date utc
+get method SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName date time helper
+get method SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName format date utc
+localhost SimpleName MethodInvocation MethodInvocation SimpleName api
+localhost SimpleName MethodInvocation MethodInvocation SimpleName get path
+localhost SimpleName MethodInvocation SimpleName localhost
+localhost SimpleName MethodInvocation MethodInvocation SimpleName date time helper
+localhost SimpleName MethodInvocation MethodInvocation SimpleName format date utc
+api SimpleName MethodInvocation MethodInvocation SimpleName localhost
+get path SimpleName MethodInvocation MethodInvocation SimpleName localhost
+api SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName date time helper
+api SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName format date utc
+get path SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName date time helper
+get path SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName format date utc
+localhost SimpleName MethodInvocation MethodInvocation SimpleName date time helper
+localhost SimpleName MethodInvocation MethodInvocation SimpleName format date utc
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName audit
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName message user
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType QualifiedName atlas clientapi
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName api
+void PrimitiveType MethodDeclaration SimpleName audit
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName message user
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType QualifiedName atlas clientapi
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName api
+audit SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+audit SimpleName MethodDeclaration SingleVariableDeclaration SimpleName message user
+audit SimpleName MethodDeclaration SingleVariableDeclaration SimpleType QualifiedName atlas clientapi
+audit SimpleName MethodDeclaration SingleVariableDeclaration SimpleName api
+message user SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName api
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName audit
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName message user
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName api
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName audit
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName message user
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName api

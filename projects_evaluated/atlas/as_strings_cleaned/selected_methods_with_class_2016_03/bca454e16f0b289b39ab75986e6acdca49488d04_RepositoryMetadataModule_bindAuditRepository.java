@@ -1,0 +1,41 @@
+binder SimpleName SimpleType SingleVariableDeclaration SimpleName binder
+binder SimpleName MethodInvocation SimpleName bind
+binder SimpleName MethodInvocation TypeLiteral SimpleType SimpleName entity audit repository
+bind SimpleName MethodInvocation TypeLiteral SimpleType SimpleName entity audit repository
+binder SimpleName MethodInvocation MethodInvocation SimpleName to
+bind SimpleName MethodInvocation MethodInvocation SimpleName to
+to SimpleName MethodInvocation TypeLiteral SimpleType SimpleName h base based audit repository
+binder SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName as eager singleton
+bind SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName as eager singleton
+to SimpleName MethodInvocation MethodInvocation SimpleName as eager singleton
+multibinder SimpleName SimpleType ParameterizedType SimpleType SimpleName service
+multibinder SimpleName MethodInvocation SimpleName new set binder
+multibinder SimpleName MethodInvocation MethodInvocation SimpleName binder
+multibinder SimpleName MethodInvocation TypeLiteral SimpleType SimpleName service
+new set binder SimpleName MethodInvocation MethodInvocation SimpleName binder
+new set binder SimpleName MethodInvocation TypeLiteral SimpleType SimpleName service
+service binder SimpleName VariableDeclarationFragment MethodInvocation SimpleName multibinder
+service binder SimpleName VariableDeclarationFragment MethodInvocation SimpleName new set binder
+service binder SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName binder
+service binder SimpleName MethodInvocation SimpleName add binding
+service binder SimpleName MethodInvocation MethodInvocation SimpleName to
+add binding SimpleName MethodInvocation MethodInvocation SimpleName to
+to SimpleName MethodInvocation TypeLiteral SimpleType SimpleName h base based audit repository
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName bind audit repository
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName binder
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName binder
+void PrimitiveType MethodDeclaration SimpleName bind audit repository
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName binder
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName binder
+bind audit repository SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName binder
+bind audit repository SimpleName MethodDeclaration SingleVariableDeclaration SimpleName binder
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName bind audit repository
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName binder
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName bind audit repository
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName binder

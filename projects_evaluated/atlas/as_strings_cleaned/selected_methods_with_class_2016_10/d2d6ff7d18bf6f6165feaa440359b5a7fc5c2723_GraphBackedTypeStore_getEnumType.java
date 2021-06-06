@@ -1,0 +1,125 @@
+atlas vertex SimpleName SimpleType SingleVariableDeclaration SimpleName vertex
+graph helper SimpleName MethodInvocation SimpleName get single valued property
+graph helper SimpleName MethodInvocation SimpleName vertex
+graph helper SimpleName MethodInvocation QualifiedName constantstypename property key
+graph helper SimpleName MethodInvocation TypeLiteral SimpleType SimpleName string
+get single valued property SimpleName MethodInvocation SimpleName vertex
+get single valued property SimpleName MethodInvocation QualifiedName constantstypename property key
+get single valued property SimpleName MethodInvocation TypeLiteral SimpleType SimpleName string
+vertex SimpleName MethodInvocation QualifiedName constantstypename property key
+vertex SimpleName MethodInvocation TypeLiteral SimpleType SimpleName string
+constantstypename property key QualifiedName MethodInvocation TypeLiteral SimpleType SimpleName string
+type name SimpleName VariableDeclarationFragment MethodInvocation SimpleName graph helper
+type name SimpleName VariableDeclarationFragment MethodInvocation SimpleName get single valued property
+type name SimpleName VariableDeclarationFragment MethodInvocation SimpleName vertex
+type name SimpleName VariableDeclarationFragment MethodInvocation QualifiedName constantstypename property key
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName type name
+graph helper SimpleName MethodInvocation SimpleName get single valued property
+graph helper SimpleName MethodInvocation SimpleName vertex
+graph helper SimpleName MethodInvocation QualifiedName constantstypedescription property key
+graph helper SimpleName MethodInvocation TypeLiteral SimpleType SimpleName string
+get single valued property SimpleName MethodInvocation SimpleName vertex
+get single valued property SimpleName MethodInvocation QualifiedName constantstypedescription property key
+get single valued property SimpleName MethodInvocation TypeLiteral SimpleType SimpleName string
+vertex SimpleName MethodInvocation QualifiedName constantstypedescription property key
+vertex SimpleName MethodInvocation TypeLiteral SimpleType SimpleName string
+constantstypedescription property key QualifiedName MethodInvocation TypeLiteral SimpleType SimpleName string
+type description SimpleName VariableDeclarationFragment MethodInvocation SimpleName graph helper
+type description SimpleName VariableDeclarationFragment MethodInvocation SimpleName get single valued property
+type description SimpleName VariableDeclarationFragment MethodInvocation SimpleName vertex
+type description SimpleName VariableDeclarationFragment MethodInvocation QualifiedName constantstypedescription property key
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName type description
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName enum value
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+get property key SimpleName MethodInvocation SimpleName type name
+vertex SimpleName MethodInvocation SimpleName get list property
+vertex SimpleName MethodInvocation MethodInvocation SimpleName get property key
+vertex SimpleName MethodInvocation MethodInvocation SimpleName type name
+get list property SimpleName MethodInvocation MethodInvocation SimpleName get property key
+get list property SimpleName MethodInvocation MethodInvocation SimpleName type name
+values SimpleName VariableDeclarationFragment MethodInvocation SimpleName vertex
+values SimpleName VariableDeclarationFragment MethodInvocation SimpleName get list property
+values SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get property key
+values SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName type name
+string SimpleName SimpleType SingleVariableDeclaration SimpleName value
+get property key SimpleName MethodInvocation SimpleName type name
+get property key SimpleName MethodInvocation SimpleName value
+type name SimpleName MethodInvocation SimpleName value
+value property SimpleName VariableDeclarationFragment MethodInvocation SimpleName get property key
+value property SimpleName VariableDeclarationFragment MethodInvocation SimpleName type name
+value property SimpleName VariableDeclarationFragment MethodInvocation SimpleName value
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName value property
+graph helper SimpleName MethodInvocation SimpleName get single valued property
+graph helper SimpleName MethodInvocation SimpleName vertex
+graph helper SimpleName MethodInvocation SimpleName value property
+graph helper SimpleName MethodInvocation TypeLiteral SimpleType SimpleName integer
+get single valued property SimpleName MethodInvocation SimpleName vertex
+get single valued property SimpleName MethodInvocation SimpleName value property
+get single valued property SimpleName MethodInvocation TypeLiteral SimpleType SimpleName integer
+vertex SimpleName MethodInvocation SimpleName value property
+vertex SimpleName MethodInvocation TypeLiteral SimpleType SimpleName integer
+value property SimpleName MethodInvocation TypeLiteral SimpleType SimpleName integer
+enum value SimpleName SimpleType ClassInstanceCreation SimpleName value
+enum value SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName graph helper
+enum value SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get single valued property
+enum value SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName vertex
+enum value SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName value property
+value SimpleName ClassInstanceCreation MethodInvocation SimpleName graph helper
+value SimpleName ClassInstanceCreation MethodInvocation SimpleName get single valued property
+value SimpleName ClassInstanceCreation MethodInvocation SimpleName vertex
+value SimpleName ClassInstanceCreation MethodInvocation SimpleName value property
+enum values SimpleName MethodInvocation SimpleName add
+enum values SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName enum value
+enum values SimpleName MethodInvocation ClassInstanceCreation SimpleName value
+enum values SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName graph helper
+enum values SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get single valued property
+enum values SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName vertex
+enum values SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName value property
+add SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName enum value
+add SimpleName MethodInvocation ClassInstanceCreation SimpleName value
+add SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName graph helper
+add SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get single valued property
+add SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName vertex
+add SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName value property
+string SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName values
+value SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName values
+enum values SimpleName MethodInvocation SimpleName size
+enum values SimpleName MethodInvocation SimpleName to array
+enum values SimpleName MethodInvocation ArrayCreation MethodInvocation SimpleName enum values
+enum values SimpleName MethodInvocation ArrayCreation MethodInvocation SimpleName size
+to array SimpleName MethodInvocation ArrayCreation MethodInvocation SimpleName enum values
+to array SimpleName MethodInvocation ArrayCreation MethodInvocation SimpleName size
+enum type definition SimpleName SimpleType ClassInstanceCreation SimpleName type name
+enum type definition SimpleName SimpleType ClassInstanceCreation SimpleName type description
+enum type definition SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName enum values
+enum type definition SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName to array
+type name SimpleName ClassInstanceCreation SimpleName type description
+type name SimpleName ClassInstanceCreation MethodInvocation SimpleName enum values
+type name SimpleName ClassInstanceCreation MethodInvocation SimpleName to array
+type description SimpleName ClassInstanceCreation MethodInvocation SimpleName enum values
+type description SimpleName ClassInstanceCreation MethodInvocation SimpleName to array
+private Modifier MethodDeclaration SimpleType SimpleName enum type definition
+private Modifier MethodDeclaration SimpleName get enum type
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas vertex
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName vertex
+private Modifier MethodDeclaration SimpleType SimpleName atlas exception
+private Modifier MethodDeclaration Block EnhancedForStatement SimpleName values
+enum type definition SimpleName SimpleType MethodDeclaration SimpleName get enum type
+enum type definition SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName vertex
+enum type definition SimpleName SimpleType MethodDeclaration SimpleType SimpleName atlas exception
+get enum type SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas vertex
+get enum type SimpleName MethodDeclaration SingleVariableDeclaration SimpleName vertex
+get enum type SimpleName MethodDeclaration SimpleType SimpleName atlas exception
+get enum type SimpleName MethodDeclaration Block EnhancedForStatement SimpleName values
+vertex SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName enum type definition
+public Modifier TypeDeclaration MethodDeclaration SimpleName get enum type
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName vertex
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName enum type definition
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get enum type
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName vertex
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception

@@ -1,0 +1,500 @@
+table StringLiteral InfixExpression MethodInvocation SimpleName random
+table name SimpleName VariableDeclarationFragment InfixExpression StringLiteral table
+table name SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName random
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName table name
+create table SimpleName MethodInvocation SimpleName table name
+create table SimpleName MethodInvocation NumberLiteral empty
+create table SimpleName MethodInvocation BooleanLiteral true
+table name SimpleName MethodInvocation NumberLiteral empty
+table name SimpleName MethodInvocation BooleanLiteral true
+empty NumberLiteral MethodInvocation BooleanLiteral true
+get entity id SimpleName MethodInvocation SimpleName hive table type
+get entity id SimpleName MethodInvocation StringLiteral name
+get entity id SimpleName MethodInvocation SimpleName table name
+hive table type SimpleName MethodInvocation StringLiteral name
+hive table type SimpleName MethodInvocation SimpleName table name
+name StringLiteral MethodInvocation SimpleName table name
+table id SimpleName VariableDeclarationFragment MethodInvocation SimpleName get entity id
+table id SimpleName VariableDeclarationFragment MethodInvocation SimpleName hive table type
+table id SimpleName VariableDeclarationFragment MethodInvocation StringLiteral name
+table id SimpleName VariableDeclarationFragment MethodInvocation SimpleName table name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName table id
+get schema SimpleName MethodInvocation SimpleName table name
+results SimpleName VariableDeclarationFragment MethodInvocation SimpleName get schema
+results SimpleName VariableDeclarationFragment MethodInvocation SimpleName table name
+json object SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName results
+results SimpleName MethodInvocation SimpleName get json array
+results SimpleName MethodInvocation StringLiteral rows
+get json array SimpleName MethodInvocation StringLiteral rows
+results SimpleName MethodInvocation MethodInvocation SimpleName length
+get json array SimpleName MethodInvocation MethodInvocation SimpleName length
+rows StringLiteral MethodInvocation MethodInvocation SimpleName length
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName results
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get json array
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral rows
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName length
+assert equals SimpleName MethodInvocation NumberLiteral empty
+results SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+get json array SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+rows StringLiteral MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+length SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+get inputs graph SimpleName MethodInvocation SimpleName table name
+results SimpleName Assignment MethodInvocation SimpleName get inputs graph
+results SimpleName Assignment MethodInvocation SimpleName table name
+results SimpleName MethodInvocation SimpleName to string
+instance serialization SimpleName MethodInvocation SimpleName from json struct
+instance serialization SimpleName MethodInvocation MethodInvocation SimpleName results
+instance serialization SimpleName MethodInvocation MethodInvocation SimpleName to string
+instance serialization SimpleName MethodInvocation BooleanLiteral true
+from json struct SimpleName MethodInvocation MethodInvocation SimpleName results
+from json struct SimpleName MethodInvocation MethodInvocation SimpleName to string
+from json struct SimpleName MethodInvocation BooleanLiteral true
+results SimpleName MethodInvocation MethodInvocation BooleanLiteral true
+to string SimpleName MethodInvocation MethodInvocation BooleanLiteral true
+result instance SimpleName VariableDeclarationFragment MethodInvocation SimpleName instance serialization
+result instance SimpleName VariableDeclarationFragment MethodInvocation SimpleName from json struct
+result instance SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName results
+result instance SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName to string
+result instance SimpleName VariableDeclarationFragment MethodInvocation BooleanLiteral true
+struct SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName result instance
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName struct
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName struct
+result instance SimpleName MethodInvocation SimpleName get
+result instance SimpleName MethodInvocation StringLiteral vertices
+get SimpleName MethodInvocation StringLiteral vertices
+map SimpleName SimpleType CastExpression MethodInvocation SimpleName result instance
+map SimpleName SimpleType CastExpression MethodInvocation SimpleName get
+map SimpleName SimpleType CastExpression MethodInvocation StringLiteral vertices
+vertices SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName map
+vertices SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName result instance
+vertices SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get
+vertices SimpleName VariableDeclarationFragment CastExpression MethodInvocation StringLiteral vertices
+vertices SimpleName MethodInvocation SimpleName size
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName vertices
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName size
+assert equals SimpleName MethodInvocation NumberLiteral empty
+vertices SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+size SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+vertices SimpleName MethodInvocation SimpleName get
+vertices SimpleName MethodInvocation SimpleName table id
+get SimpleName MethodInvocation SimpleName table id
+vertex SimpleName VariableDeclarationFragment MethodInvocation SimpleName vertices
+vertex SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+vertex SimpleName VariableDeclarationFragment MethodInvocation SimpleName table id
+struct SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName vertex
+vertex SimpleName MethodInvocation SimpleName get
+vertex SimpleName MethodInvocation StringLiteral vertex id
+get SimpleName MethodInvocation StringLiteral vertex id
+struct SimpleName SimpleType CastExpression MethodInvocation SimpleName vertex
+struct SimpleName SimpleType CastExpression MethodInvocation SimpleName get
+struct SimpleName SimpleType CastExpression MethodInvocation StringLiteral vertex id
+get SimpleName MethodInvocation StringLiteral state
+identity stateactive QualifiedName MethodInvocation SimpleName name
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get
+assert equals SimpleName MethodInvocation MethodInvocation StringLiteral state
+assert equals SimpleName MethodInvocation MethodInvocation QualifiedName identity stateactive
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName name
+get SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName identity stateactive
+get SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName name
+state StringLiteral MethodInvocation MethodInvocation MethodInvocation QualifiedName identity stateactive
+state StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName name
+get outputs graph SimpleName MethodInvocation SimpleName table name
+results SimpleName Assignment MethodInvocation SimpleName get outputs graph
+results SimpleName Assignment MethodInvocation SimpleName table name
+results SimpleName MethodInvocation SimpleName get json object
+results SimpleName MethodInvocation StringLiteral values
+get json object SimpleName MethodInvocation StringLiteral values
+results SimpleName MethodInvocation MethodInvocation SimpleName get json object
+get json object SimpleName MethodInvocation MethodInvocation SimpleName get json object
+values StringLiteral MethodInvocation MethodInvocation SimpleName get json object
+results SimpleName MethodInvocation MethodInvocation StringLiteral vertices
+get json object SimpleName MethodInvocation MethodInvocation StringLiteral vertices
+values StringLiteral MethodInvocation MethodInvocation StringLiteral vertices
+get json object SimpleName MethodInvocation StringLiteral vertices
+results SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName length
+get json object SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName length
+values StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName length
+get json object SimpleName MethodInvocation MethodInvocation SimpleName length
+vertices StringLiteral MethodInvocation MethodInvocation SimpleName length
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get json object
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral vertices
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName length
+assert equals SimpleName MethodInvocation NumberLiteral empty
+get json object SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+vertices StringLiteral MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+length SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+lineage service SimpleName MethodInvocation SimpleName get schema for entity
+lineage service SimpleName MethodInvocation SimpleName table id
+get schema for entity SimpleName MethodInvocation SimpleName table id
+json object SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName lineage service
+json object SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get schema for entity
+json object SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName table id
+results SimpleName Assignment ClassInstanceCreation SimpleType SimpleName json object
+results SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName lineage service
+results SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName get schema for entity
+results SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName table id
+results SimpleName MethodInvocation SimpleName get json array
+results SimpleName MethodInvocation StringLiteral rows
+get json array SimpleName MethodInvocation StringLiteral rows
+results SimpleName MethodInvocation MethodInvocation SimpleName length
+get json array SimpleName MethodInvocation MethodInvocation SimpleName length
+rows StringLiteral MethodInvocation MethodInvocation SimpleName length
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName results
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get json array
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral rows
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName length
+assert equals SimpleName MethodInvocation NumberLiteral empty
+results SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+get json array SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+rows StringLiteral MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+length SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+lineage service SimpleName MethodInvocation SimpleName get inputs graph for entity
+lineage service SimpleName MethodInvocation SimpleName table id
+get inputs graph for entity SimpleName MethodInvocation SimpleName table id
+json object SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName lineage service
+json object SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get inputs graph for entity
+json object SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName table id
+results SimpleName Assignment ClassInstanceCreation SimpleType SimpleName json object
+results SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName lineage service
+results SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName get inputs graph for entity
+results SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName table id
+results SimpleName MethodInvocation SimpleName get json object
+results SimpleName MethodInvocation StringLiteral values
+get json object SimpleName MethodInvocation StringLiteral values
+results SimpleName MethodInvocation MethodInvocation SimpleName get json object
+get json object SimpleName MethodInvocation MethodInvocation SimpleName get json object
+values StringLiteral MethodInvocation MethodInvocation SimpleName get json object
+results SimpleName MethodInvocation MethodInvocation StringLiteral vertices
+get json object SimpleName MethodInvocation MethodInvocation StringLiteral vertices
+values StringLiteral MethodInvocation MethodInvocation StringLiteral vertices
+get json object SimpleName MethodInvocation StringLiteral vertices
+results SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName length
+get json object SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName length
+values StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName length
+get json object SimpleName MethodInvocation MethodInvocation SimpleName length
+vertices StringLiteral MethodInvocation MethodInvocation SimpleName length
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get json object
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral vertices
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName length
+assert equals SimpleName MethodInvocation NumberLiteral empty
+get json object SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+vertices StringLiteral MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+length SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+lineage service SimpleName MethodInvocation SimpleName get outputs graph for entity
+lineage service SimpleName MethodInvocation SimpleName table id
+get outputs graph for entity SimpleName MethodInvocation SimpleName table id
+json object SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName lineage service
+json object SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get outputs graph for entity
+json object SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName table id
+results SimpleName Assignment ClassInstanceCreation SimpleType SimpleName json object
+results SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName lineage service
+results SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName get outputs graph for entity
+results SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName table id
+results SimpleName MethodInvocation SimpleName get json object
+results SimpleName MethodInvocation StringLiteral values
+get json object SimpleName MethodInvocation StringLiteral values
+results SimpleName MethodInvocation MethodInvocation SimpleName get json object
+get json object SimpleName MethodInvocation MethodInvocation SimpleName get json object
+values StringLiteral MethodInvocation MethodInvocation SimpleName get json object
+results SimpleName MethodInvocation MethodInvocation StringLiteral vertices
+get json object SimpleName MethodInvocation MethodInvocation StringLiteral vertices
+values StringLiteral MethodInvocation MethodInvocation StringLiteral vertices
+get json object SimpleName MethodInvocation StringLiteral vertices
+results SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName length
+get json object SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName length
+values StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName length
+get json object SimpleName MethodInvocation MethodInvocation SimpleName length
+vertices StringLiteral MethodInvocation MethodInvocation SimpleName length
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get json object
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral vertices
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName length
+assert equals SimpleName MethodInvocation NumberLiteral empty
+get json object SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+vertices StringLiteral MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+length SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+arrays SimpleName MethodInvocation SimpleName as list
+arrays SimpleName MethodInvocation SimpleName table id
+as list SimpleName MethodInvocation SimpleName table id
+repository SimpleName MethodInvocation SimpleName delete entities
+repository SimpleName MethodInvocation MethodInvocation SimpleName arrays
+repository SimpleName MethodInvocation MethodInvocation SimpleName as list
+repository SimpleName MethodInvocation MethodInvocation SimpleName table id
+delete entities SimpleName MethodInvocation MethodInvocation SimpleName arrays
+delete entities SimpleName MethodInvocation MethodInvocation SimpleName as list
+delete entities SimpleName MethodInvocation MethodInvocation SimpleName table id
+delete result SimpleName VariableDeclarationFragment MethodInvocation SimpleName repository
+delete result SimpleName VariableDeclarationFragment MethodInvocation SimpleName delete entities
+delete result SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName arrays
+delete result SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName as list
+delete result SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName table id
+atlas cliententity result QualifiedName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName delete result
+delete result SimpleName MethodInvocation SimpleName get deleted entities
+delete result SimpleName MethodInvocation MethodInvocation SimpleName contains
+get deleted entities SimpleName MethodInvocation MethodInvocation SimpleName contains
+delete result SimpleName MethodInvocation MethodInvocation SimpleName table id
+get deleted entities SimpleName MethodInvocation MethodInvocation SimpleName table id
+contains SimpleName MethodInvocation SimpleName table id
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName delete result
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get deleted entities
+assert true SimpleName MethodInvocation MethodInvocation SimpleName contains
+assert true SimpleName MethodInvocation MethodInvocation SimpleName table id
+lineage service SimpleName MethodInvocation SimpleName get schema for entity
+lineage service SimpleName MethodInvocation SimpleName table id
+get schema for entity SimpleName MethodInvocation SimpleName table id
+json object SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName lineage service
+json object SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get schema for entity
+json object SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName table id
+results SimpleName Assignment ClassInstanceCreation SimpleType SimpleName json object
+results SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName lineage service
+results SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName get schema for entity
+results SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName table id
+results SimpleName MethodInvocation SimpleName get json array
+results SimpleName MethodInvocation StringLiteral rows
+get json array SimpleName MethodInvocation StringLiteral rows
+results SimpleName MethodInvocation MethodInvocation SimpleName length
+get json array SimpleName MethodInvocation MethodInvocation SimpleName length
+rows StringLiteral MethodInvocation MethodInvocation SimpleName length
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName results
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get json array
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral rows
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName length
+assert equals SimpleName MethodInvocation NumberLiteral empty
+results SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+get json array SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+rows StringLiteral MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+length SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+lineage service SimpleName MethodInvocation SimpleName get inputs graph for entity
+lineage service SimpleName MethodInvocation SimpleName table id
+get inputs graph for entity SimpleName MethodInvocation SimpleName table id
+json object SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName lineage service
+json object SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get inputs graph for entity
+json object SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName table id
+results SimpleName Assignment ClassInstanceCreation SimpleType SimpleName json object
+results SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName lineage service
+results SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName get inputs graph for entity
+results SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName table id
+results SimpleName MethodInvocation SimpleName to string
+instance serialization SimpleName MethodInvocation SimpleName from json struct
+instance serialization SimpleName MethodInvocation MethodInvocation SimpleName results
+instance serialization SimpleName MethodInvocation MethodInvocation SimpleName to string
+instance serialization SimpleName MethodInvocation BooleanLiteral true
+from json struct SimpleName MethodInvocation MethodInvocation SimpleName results
+from json struct SimpleName MethodInvocation MethodInvocation SimpleName to string
+from json struct SimpleName MethodInvocation BooleanLiteral true
+results SimpleName MethodInvocation MethodInvocation BooleanLiteral true
+to string SimpleName MethodInvocation MethodInvocation BooleanLiteral true
+result instance SimpleName Assignment MethodInvocation SimpleName instance serialization
+result instance SimpleName Assignment MethodInvocation SimpleName from json struct
+result instance SimpleName Assignment MethodInvocation MethodInvocation SimpleName results
+result instance SimpleName Assignment MethodInvocation MethodInvocation SimpleName to string
+result instance SimpleName Assignment MethodInvocation BooleanLiteral true
+result instance SimpleName MethodInvocation SimpleName get
+result instance SimpleName MethodInvocation StringLiteral vertices
+get SimpleName MethodInvocation StringLiteral vertices
+map SimpleName SimpleType CastExpression MethodInvocation SimpleName result instance
+map SimpleName SimpleType CastExpression MethodInvocation SimpleName get
+map SimpleName SimpleType CastExpression MethodInvocation StringLiteral vertices
+vertices SimpleName Assignment CastExpression SimpleType SimpleName map
+vertices SimpleName Assignment CastExpression MethodInvocation SimpleName result instance
+vertices SimpleName Assignment CastExpression MethodInvocation SimpleName get
+vertices SimpleName Assignment CastExpression MethodInvocation StringLiteral vertices
+vertices SimpleName MethodInvocation SimpleName size
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName vertices
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName size
+assert equals SimpleName MethodInvocation NumberLiteral empty
+vertices SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+size SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+vertices SimpleName MethodInvocation SimpleName get
+vertices SimpleName MethodInvocation SimpleName table id
+get SimpleName MethodInvocation SimpleName table id
+vertex SimpleName Assignment MethodInvocation SimpleName vertices
+vertex SimpleName Assignment MethodInvocation SimpleName get
+vertex SimpleName Assignment MethodInvocation SimpleName table id
+vertex SimpleName MethodInvocation SimpleName get
+vertex SimpleName MethodInvocation StringLiteral vertex id
+get SimpleName MethodInvocation StringLiteral vertex id
+struct SimpleName SimpleType CastExpression MethodInvocation SimpleName vertex
+struct SimpleName SimpleType CastExpression MethodInvocation SimpleName get
+struct SimpleName SimpleType CastExpression MethodInvocation StringLiteral vertex id
+get SimpleName MethodInvocation StringLiteral state
+identity statedeleted QualifiedName MethodInvocation SimpleName name
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get
+assert equals SimpleName MethodInvocation MethodInvocation StringLiteral state
+assert equals SimpleName MethodInvocation MethodInvocation QualifiedName identity statedeleted
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName name
+get SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName identity statedeleted
+get SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName name
+state StringLiteral MethodInvocation MethodInvocation MethodInvocation QualifiedName identity statedeleted
+state StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName name
+results SimpleName MethodInvocation SimpleName get json object
+results SimpleName MethodInvocation StringLiteral values
+get json object SimpleName MethodInvocation StringLiteral values
+results SimpleName MethodInvocation MethodInvocation SimpleName get json object
+get json object SimpleName MethodInvocation MethodInvocation SimpleName get json object
+values StringLiteral MethodInvocation MethodInvocation SimpleName get json object
+results SimpleName MethodInvocation MethodInvocation StringLiteral vertices
+get json object SimpleName MethodInvocation MethodInvocation StringLiteral vertices
+values StringLiteral MethodInvocation MethodInvocation StringLiteral vertices
+get json object SimpleName MethodInvocation StringLiteral vertices
+results SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName length
+get json object SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName length
+values StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName length
+get json object SimpleName MethodInvocation MethodInvocation SimpleName length
+vertices StringLiteral MethodInvocation MethodInvocation SimpleName length
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get json object
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral vertices
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName length
+assert equals SimpleName MethodInvocation NumberLiteral empty
+get json object SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+vertices StringLiteral MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+length SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+lineage service SimpleName MethodInvocation SimpleName get outputs graph for entity
+lineage service SimpleName MethodInvocation SimpleName table id
+get outputs graph for entity SimpleName MethodInvocation SimpleName table id
+json object SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName lineage service
+json object SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get outputs graph for entity
+json object SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName table id
+results SimpleName Assignment ClassInstanceCreation SimpleType SimpleName json object
+results SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName lineage service
+results SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName get outputs graph for entity
+results SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName table id
+results SimpleName MethodInvocation SimpleName get json object
+results SimpleName MethodInvocation StringLiteral values
+get json object SimpleName MethodInvocation StringLiteral values
+results SimpleName MethodInvocation MethodInvocation SimpleName get json object
+get json object SimpleName MethodInvocation MethodInvocation SimpleName get json object
+values StringLiteral MethodInvocation MethodInvocation SimpleName get json object
+results SimpleName MethodInvocation MethodInvocation StringLiteral vertices
+get json object SimpleName MethodInvocation MethodInvocation StringLiteral vertices
+values StringLiteral MethodInvocation MethodInvocation StringLiteral vertices
+get json object SimpleName MethodInvocation StringLiteral vertices
+results SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName length
+get json object SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName length
+values StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName length
+get json object SimpleName MethodInvocation MethodInvocation SimpleName length
+vertices StringLiteral MethodInvocation MethodInvocation SimpleName length
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get json object
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral vertices
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName length
+assert equals SimpleName MethodInvocation NumberLiteral empty
+get json object SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+vertices StringLiteral MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+length SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+get schema SimpleName MethodInvocation SimpleName table name
+fail SimpleName MethodInvocation StringLiteral expected entity not found exception
+entity not found exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+get inputs graph SimpleName MethodInvocation SimpleName table name
+fail SimpleName MethodInvocation StringLiteral expected entity not found exception
+entity not found exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+get outputs graph SimpleName MethodInvocation SimpleName table name
+fail SimpleName MethodInvocation StringLiteral expected entity not found exception
+entity not found exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+create table SimpleName MethodInvocation SimpleName table name
+create table SimpleName MethodInvocation NumberLiteral empty
+create table SimpleName MethodInvocation BooleanLiteral false
+table name SimpleName MethodInvocation NumberLiteral empty
+table name SimpleName MethodInvocation BooleanLiteral false
+empty NumberLiteral MethodInvocation BooleanLiteral false
+get schema SimpleName MethodInvocation SimpleName table name
+results SimpleName Assignment MethodInvocation SimpleName get schema
+results SimpleName Assignment MethodInvocation SimpleName table name
+results SimpleName MethodInvocation SimpleName get json array
+results SimpleName MethodInvocation StringLiteral rows
+get json array SimpleName MethodInvocation StringLiteral rows
+results SimpleName MethodInvocation MethodInvocation SimpleName length
+get json array SimpleName MethodInvocation MethodInvocation SimpleName length
+rows StringLiteral MethodInvocation MethodInvocation SimpleName length
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName results
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get json array
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral rows
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName length
+assert equals SimpleName MethodInvocation NumberLiteral empty
+results SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+get json array SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+rows StringLiteral MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+length SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+get outputs graph SimpleName MethodInvocation SimpleName table name
+results SimpleName Assignment MethodInvocation SimpleName get outputs graph
+results SimpleName Assignment MethodInvocation SimpleName table name
+results SimpleName MethodInvocation SimpleName get json object
+results SimpleName MethodInvocation StringLiteral values
+get json object SimpleName MethodInvocation StringLiteral values
+results SimpleName MethodInvocation MethodInvocation SimpleName get json object
+get json object SimpleName MethodInvocation MethodInvocation SimpleName get json object
+values StringLiteral MethodInvocation MethodInvocation SimpleName get json object
+results SimpleName MethodInvocation MethodInvocation StringLiteral vertices
+get json object SimpleName MethodInvocation MethodInvocation StringLiteral vertices
+values StringLiteral MethodInvocation MethodInvocation StringLiteral vertices
+get json object SimpleName MethodInvocation StringLiteral vertices
+results SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName length
+get json object SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName length
+values StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName length
+get json object SimpleName MethodInvocation MethodInvocation SimpleName length
+vertices StringLiteral MethodInvocation MethodInvocation SimpleName length
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get json object
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral vertices
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName length
+assert equals SimpleName MethodInvocation NumberLiteral empty
+get json object SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+vertices StringLiteral MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+length SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+get inputs graph SimpleName MethodInvocation SimpleName table name
+results SimpleName Assignment MethodInvocation SimpleName get inputs graph
+results SimpleName Assignment MethodInvocation SimpleName table name
+results SimpleName MethodInvocation SimpleName get json object
+results SimpleName MethodInvocation StringLiteral values
+get json object SimpleName MethodInvocation StringLiteral values
+results SimpleName MethodInvocation MethodInvocation SimpleName get json object
+get json object SimpleName MethodInvocation MethodInvocation SimpleName get json object
+values StringLiteral MethodInvocation MethodInvocation SimpleName get json object
+results SimpleName MethodInvocation MethodInvocation StringLiteral vertices
+get json object SimpleName MethodInvocation MethodInvocation StringLiteral vertices
+values StringLiteral MethodInvocation MethodInvocation StringLiteral vertices
+get json object SimpleName MethodInvocation StringLiteral vertices
+results SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName length
+get json object SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName length
+values StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName length
+get json object SimpleName MethodInvocation MethodInvocation SimpleName length
+vertices StringLiteral MethodInvocation MethodInvocation SimpleName length
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get json object
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral vertices
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName length
+assert equals SimpleName MethodInvocation NumberLiteral empty
+get json object SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+vertices StringLiteral MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+length SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+get entity id SimpleName MethodInvocation SimpleName hive table type
+get entity id SimpleName MethodInvocation StringLiteral name
+get entity id SimpleName MethodInvocation SimpleName table name
+hive table type SimpleName MethodInvocation StringLiteral name
+hive table type SimpleName MethodInvocation SimpleName table name
+name StringLiteral MethodInvocation SimpleName table name
+table id SimpleName Assignment MethodInvocation SimpleName get entity id
+table id SimpleName Assignment MethodInvocation SimpleName hive table type
+table id SimpleName Assignment MethodInvocation StringLiteral name
+table id SimpleName Assignment MethodInvocation SimpleName table name
+lineage service SimpleName MethodInvocation SimpleName get schema for entity
+lineage service SimpleName MethodInvocation SimpleName table id
+get schema for entity SimpleName MethodInvocation SimpleName table id
+json object SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName lineage service
+json object SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get schema for entity
+json object SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName table id
+results SimpleName Assignment ClassInstanceCreation SimpleType SimpleName json object
+results SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName lineage service
+results SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName get schema for entity
+results SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName table id
+results SimpleName MethodInvocation SimpleName get json array
+results SimpleName MethodInvocation StringLiteral rows
+get json array SimpleName MethodInvocation StringLiteral rows
+results SimpleName MethodInvocation MethodInvocation SimpleName length
+get json array SimpleName MethodInvocation MethodInvocation SimpleName length
+rows StringLiteral MethodInvocation MethodInvocation SimpleName length
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName results
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get json array
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral rows
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName length
+assert equals SimpleName MethodInvocation NumberLiteral empty
+results SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+get json array SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+rows StringLiteral MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty

@@ -1,0 +1,81 @@
+client property SimpleName SimpleType SingleVariableDeclaration SimpleName property
+property type SimpleName SimpleType SingleVariableDeclaration SimpleName type
+property SimpleName MethodInvocation SimpleName get type
+property SimpleName MethodInvocation MethodInvocation SimpleName equals
+get type SimpleName MethodInvocation MethodInvocation SimpleName equals
+property SimpleName MethodInvocation MethodInvocation SimpleName type
+get type SimpleName MethodInvocation MethodInvocation SimpleName type
+equals SimpleName MethodInvocation SimpleName type
+property SimpleName MethodInvocation SimpleName get type
+property SimpleName MethodInvocation SimpleName get key
+configuration method intended for type StringLiteral InfixExpression SimpleName type
+configuration method intended for type StringLiteral InfixExpression StringLiteral called with a
+configuration method intended for type StringLiteral InfixExpression MethodInvocation SimpleName property
+configuration method intended for type StringLiteral InfixExpression MethodInvocation SimpleName get type
+configuration method intended for type StringLiteral InfixExpression StringLiteral argument (
+configuration method intended for type StringLiteral InfixExpression MethodInvocation SimpleName property
+configuration method intended for type StringLiteral InfixExpression MethodInvocation SimpleName get key
+type SimpleName InfixExpression StringLiteral called with a
+type SimpleName InfixExpression MethodInvocation SimpleName property
+type SimpleName InfixExpression MethodInvocation SimpleName get type
+type SimpleName InfixExpression StringLiteral argument (
+type SimpleName InfixExpression MethodInvocation SimpleName property
+type SimpleName InfixExpression MethodInvocation SimpleName get key
+type SimpleName InfixExpression StringLiteral )
+called with a StringLiteral InfixExpression MethodInvocation SimpleName property
+called with a StringLiteral InfixExpression MethodInvocation SimpleName get type
+called with a StringLiteral InfixExpression StringLiteral argument (
+called with a StringLiteral InfixExpression MethodInvocation SimpleName property
+called with a StringLiteral InfixExpression MethodInvocation SimpleName get key
+called with a StringLiteral InfixExpression StringLiteral )
+property SimpleName MethodInvocation InfixExpression StringLiteral argument (
+get type SimpleName MethodInvocation InfixExpression StringLiteral argument (
+property SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName property
+property SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get key
+get type SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName property
+get type SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get key
+property SimpleName MethodInvocation InfixExpression StringLiteral )
+get type SimpleName MethodInvocation InfixExpression StringLiteral )
+argument ( StringLiteral InfixExpression MethodInvocation SimpleName property
+argument ( StringLiteral InfixExpression MethodInvocation SimpleName get key
+argument ( StringLiteral InfixExpression StringLiteral )
+property SimpleName MethodInvocation InfixExpression StringLiteral )
+get key SimpleName MethodInvocation InfixExpression StringLiteral )
+msg SimpleName VariableDeclarationFragment InfixExpression StringLiteral configuration method intended for type
+msg SimpleName VariableDeclarationFragment InfixExpression SimpleName type
+msg SimpleName VariableDeclarationFragment InfixExpression StringLiteral called with a
+msg SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName property
+msg SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName get type
+msg SimpleName VariableDeclarationFragment InfixExpression StringLiteral argument (
+msg SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName property
+msg SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName get key
+msg SimpleName VariableDeclarationFragment InfixExpression StringLiteral )
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName msg
+illegal argument exception SimpleName SimpleType ClassInstanceCreation SimpleName msg
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName check type
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName client property
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName property
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName property type
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName type
+void PrimitiveType MethodDeclaration SimpleName check type
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName client property
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName property
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName property type
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName type
+check type SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName client property
+check type SimpleName MethodDeclaration SingleVariableDeclaration SimpleName property
+check type SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName property type
+check type SimpleName MethodDeclaration SingleVariableDeclaration SimpleName type
+property SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName check type
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName property
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName check type
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName property
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type

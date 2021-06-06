@@ -1,0 +1,16 @@
+t server instance SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName result
+result SimpleName Assignment SimpleName current
+result SimpleName Assignment SimpleName future
+result SimpleName Assignment SimpleName last
+public Modifier MethodDeclaration SimpleType SimpleName t server instance
+public Modifier MethodDeclaration SimpleName get server
+public Modifier MethodDeclaration Block ReturnStatement SimpleName result
+t server instance SimpleName SimpleType MethodDeclaration SimpleName get server
+get server SimpleName MethodDeclaration Block ReturnStatement SimpleName result
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName t server instance
+public Modifier TypeDeclaration MethodDeclaration SimpleName get server
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName t server instance
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get server

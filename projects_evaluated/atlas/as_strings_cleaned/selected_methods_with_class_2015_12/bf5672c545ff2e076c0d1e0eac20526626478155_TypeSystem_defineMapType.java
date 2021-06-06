@@ -1,0 +1,44 @@
+i data type SimpleName SimpleType SingleVariableDeclaration SimpleName key type
+i data type SimpleName SimpleType SingleVariableDeclaration SimpleName value type
+define map type SimpleName SuperMethodInvocation SimpleName key type
+define map type SimpleName SuperMethodInvocation SimpleName value type
+key type SimpleName SuperMethodInvocation SimpleName value type
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType QualifiedName data typesmap type
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName define map type
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName key type
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName value type
+public Modifier MethodDeclaration SimpleType QualifiedName data typesmap type
+public Modifier MethodDeclaration SimpleName define map type
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName i data type
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName key type
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName i data type
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName value type
+public Modifier MethodDeclaration SimpleType SimpleName atlas exception
+data typesmap type QualifiedName SimpleType MethodDeclaration SimpleName define map type
+data typesmap type QualifiedName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName key type
+data typesmap type QualifiedName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName value type
+data typesmap type QualifiedName SimpleType MethodDeclaration SimpleType SimpleName atlas exception
+define map type SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName i data type
+define map type SimpleName MethodDeclaration SingleVariableDeclaration SimpleName key type
+define map type SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName i data type
+define map type SimpleName MethodDeclaration SingleVariableDeclaration SimpleName value type
+define map type SimpleName MethodDeclaration SimpleType SimpleName atlas exception
+key type SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value type
+key type SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+value type SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType QualifiedName data typesmap type
+public Modifier TypeDeclaration MethodDeclaration SimpleName define map type
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName key type
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value type
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType QualifiedName data typesmap type
+test SimpleName TypeDeclaration MethodDeclaration SimpleName define map type
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName key type
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value type
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception

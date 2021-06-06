@@ -1,0 +1,40 @@
+configuration SimpleName SimpleType ClassInstanceCreation BooleanLiteral false
+conf SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName configuration
+conf SimpleName VariableDeclarationFragment ClassInstanceCreation BooleanLiteral false
+configuration SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName conf
+conf SimpleName MethodInvocation SimpleName set
+conf SimpleName MethodInvocation QualifiedName common configuration keyshadoop security authentication
+conf SimpleName MethodInvocation StringLiteral kerberos
+set SimpleName MethodInvocation QualifiedName common configuration keyshadoop security authentication
+set SimpleName MethodInvocation StringLiteral kerberos
+common configuration keyshadoop security authentication QualifiedName MethodInvocation StringLiteral kerberos
+user group information SimpleName MethodInvocation SimpleName set configuration
+user group information SimpleName MethodInvocation SimpleName conf
+set configuration SimpleName MethodInvocation SimpleName conf
+user group information SimpleName MethodInvocation SimpleName get current user
+user group information SimpleName MethodInvocation MethodInvocation SimpleName get user name
+get current user SimpleName MethodInvocation MethodInvocation SimpleName get user name
+user SimpleName Assignment MethodInvocation MethodInvocation SimpleName user group information
+user SimpleName Assignment MethodInvocation MethodInvocation SimpleName get current user
+user SimpleName Assignment MethodInvocation SimpleName get user name
+before SimpleName MarkerAnnotation MethodDeclaration Modifier public
+before SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+before SimpleName MarkerAnnotation MethodDeclaration SimpleName setup
+before SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName setup
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName setup
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+setup SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName before
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName setup
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName before
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName setup
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

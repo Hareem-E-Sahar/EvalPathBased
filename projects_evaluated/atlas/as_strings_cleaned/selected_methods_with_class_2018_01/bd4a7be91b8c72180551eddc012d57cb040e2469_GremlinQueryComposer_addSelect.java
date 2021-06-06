@@ -1,0 +1,39 @@
+select clause composer SimpleName SimpleType SingleVariableDeclaration SimpleName select clause composer
+process SimpleName MethodInvocation SimpleName select clause composer
+context SimpleName MethodInvocation SimpleName get error list
+collection utils SimpleName MethodInvocation SimpleName is empty
+collection utils SimpleName MethodInvocation MethodInvocation SimpleName context
+collection utils SimpleName MethodInvocation MethodInvocation SimpleName get error list
+is empty SimpleName MethodInvocation MethodInvocation SimpleName context
+is empty SimpleName MethodInvocation MethodInvocation SimpleName get error list
+add select attr exists check SimpleName MethodInvocation SimpleName select clause composer
+query metadata SimpleName MethodInvocation SimpleName has order by
+query metadata SimpleName MethodInvocation SimpleName has group by
+query metadata SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName query metadata
+query metadata SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName has group by
+has order by SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName query metadata
+has order by SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName has group by
+add select transformation SimpleName MethodInvocation SimpleName select clause composer
+add select transformation SimpleName MethodInvocation BooleanLiteral false
+select clause composer SimpleName MethodInvocation BooleanLiteral false
+context SimpleName FieldAccess MethodInvocation SimpleName set select clause composer
+context SimpleName FieldAccess MethodInvocation SimpleName select clause composer
+set select clause composer SimpleName MethodInvocation SimpleName select clause composer
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName add select
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName select clause composer
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName select clause composer
+void PrimitiveType MethodDeclaration SimpleName add select
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName select clause composer
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName select clause composer
+add select SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName select clause composer
+add select SimpleName MethodDeclaration SingleVariableDeclaration SimpleName select clause composer
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName add select
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName select clause composer
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName add select
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName select clause composer

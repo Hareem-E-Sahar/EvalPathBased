@@ -1,0 +1,69 @@
+volume manager SimpleName SimpleType SingleVariableDeclaration SimpleName fs
+string SimpleName SimpleType SingleVariableDeclaration SimpleName base dir
+site configuration SimpleName MethodInvocation SimpleName get instance
+volume configuration SimpleName MethodInvocation SimpleName get volume uris
+volume configuration SimpleName MethodInvocation MethodInvocation SimpleName site configuration
+volume configuration SimpleName MethodInvocation MethodInvocation SimpleName get instance
+get volume uris SimpleName MethodInvocation MethodInvocation SimpleName site configuration
+get volume uris SimpleName MethodInvocation MethodInvocation SimpleName get instance
+path SimpleName SimpleType ClassInstanceCreation SimpleName base dir
+path SimpleName SimpleType ClassInstanceCreation QualifiedName server constantsinstance id dir
+base dir SimpleName ClassInstanceCreation QualifiedName server constantsinstance id dir
+fs SimpleName MethodInvocation SimpleName exists
+fs SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName path
+fs SimpleName MethodInvocation ClassInstanceCreation SimpleName base dir
+fs SimpleName MethodInvocation ClassInstanceCreation QualifiedName server constantsinstance id dir
+exists SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName path
+exists SimpleName MethodInvocation ClassInstanceCreation SimpleName base dir
+exists SimpleName MethodInvocation ClassInstanceCreation QualifiedName server constantsinstance id dir
+path SimpleName SimpleType ClassInstanceCreation SimpleName base dir
+path SimpleName SimpleType ClassInstanceCreation QualifiedName server constantsversion dir
+base dir SimpleName ClassInstanceCreation QualifiedName server constantsversion dir
+fs SimpleName MethodInvocation SimpleName exists
+fs SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName path
+fs SimpleName MethodInvocation ClassInstanceCreation SimpleName base dir
+fs SimpleName MethodInvocation ClassInstanceCreation QualifiedName server constantsversion dir
+exists SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName path
+exists SimpleName MethodInvocation ClassInstanceCreation SimpleName base dir
+exists SimpleName MethodInvocation ClassInstanceCreation QualifiedName server constantsversion dir
+fs SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName fs
+fs SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName exists
+exists SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName fs
+exists SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName exists
+base dir SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName volume configuration
+base dir SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName get volume uris
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName is initialized
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName volume manager
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName fs
+public Modifier MethodDeclaration SimpleType SimpleName io exception
+static Modifier MethodDeclaration PrimitiveType boolean
+static Modifier MethodDeclaration SimpleName is initialized
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName volume manager
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName fs
+static Modifier MethodDeclaration SimpleType SimpleName io exception
+static Modifier MethodDeclaration Block ReturnStatement BooleanLiteral false
+boolean PrimitiveType MethodDeclaration SimpleName is initialized
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName volume manager
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName fs
+boolean PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+boolean PrimitiveType MethodDeclaration Block ReturnStatement BooleanLiteral false
+is initialized SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName volume manager
+is initialized SimpleName MethodDeclaration SingleVariableDeclaration SimpleName fs
+is initialized SimpleName MethodDeclaration SimpleType SimpleName io exception
+is initialized SimpleName MethodDeclaration Block ReturnStatement BooleanLiteral false
+fs SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName is initialized
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName fs
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName is initialized
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName fs
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

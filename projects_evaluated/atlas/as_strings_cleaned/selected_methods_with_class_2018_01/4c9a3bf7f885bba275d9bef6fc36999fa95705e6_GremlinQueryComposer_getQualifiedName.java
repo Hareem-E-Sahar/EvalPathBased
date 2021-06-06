@@ -1,0 +1,49 @@
+identifier helperadvice QualifiedName SimpleType SingleVariableDeclaration SimpleName ia
+ia SimpleName MethodInvocation SimpleName get qualified name
+s SimpleName VariableDeclarationFragment MethodInvocation SimpleName ia
+s SimpleName VariableDeclarationFragment MethodInvocation SimpleName get qualified name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName s
+string utils SimpleName MethodInvocation SimpleName is empty
+string utils SimpleName MethodInvocation SimpleName s
+is empty SimpleName MethodInvocation SimpleName s
+ia SimpleName MethodInvocation SimpleName get raw
+s SimpleName Assignment MethodInvocation SimpleName ia
+s SimpleName Assignment MethodInvocation SimpleName get raw
+ia SimpleName MethodInvocation SimpleName get raw
+string SimpleName MethodInvocation SimpleName format
+string SimpleName MethodInvocation StringLiteral error s is invalid
+string SimpleName MethodInvocation MethodInvocation SimpleName ia
+string SimpleName MethodInvocation MethodInvocation SimpleName get raw
+format SimpleName MethodInvocation StringLiteral error s is invalid
+format SimpleName MethodInvocation MethodInvocation SimpleName ia
+format SimpleName MethodInvocation MethodInvocation SimpleName get raw
+error s is invalid StringLiteral MethodInvocation MethodInvocation SimpleName ia
+error s is invalid StringLiteral MethodInvocation MethodInvocation SimpleName get raw
+get error list SimpleName MethodInvocation MethodInvocation SimpleName add
+get error list SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName string
+get error list SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName format
+get error list SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral error s is invalid
+add SimpleName MethodInvocation MethodInvocation SimpleName string
+add SimpleName MethodInvocation MethodInvocation SimpleName format
+add SimpleName MethodInvocation MethodInvocation StringLiteral error s is invalid
+add SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName ia
+add SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get raw
+private Modifier MethodDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SimpleName get qualified name
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType QualifiedName identifier helperadvice
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName ia
+private Modifier MethodDeclaration Block ReturnStatement SimpleName s
+string SimpleName SimpleType MethodDeclaration SimpleName get qualified name
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName ia
+get qualified name SimpleName MethodDeclaration SingleVariableDeclaration SimpleType QualifiedName identifier helperadvice
+get qualified name SimpleName MethodDeclaration SingleVariableDeclaration SimpleName ia
+get qualified name SimpleName MethodDeclaration Block ReturnStatement SimpleName s
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName get qualified name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ia
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get qualified name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ia

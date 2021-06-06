@@ -1,0 +1,114 @@
+configuration SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName configuration
+application properties SimpleName MethodInvocation SimpleName get
+configuration SimpleName Assignment MethodInvocation SimpleName application properties
+configuration SimpleName Assignment MethodInvocation SimpleName get
+atlas exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+log SimpleName MethodInvocation SimpleName is error enabled
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation StringLiteral exception while fetching configuration
+log SimpleName MethodInvocation SimpleName e
+error SimpleName MethodInvocation StringLiteral exception while fetching configuration
+error SimpleName MethodInvocation SimpleName e
+exception while fetching configuration StringLiteral MethodInvocation SimpleName e
+ret SimpleName VariableDeclarationFragment SimpleName instance
+atlas authorizer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ret
+atlas authorizer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName instance
+configuration SimpleName MethodInvocation SimpleName get string
+configuration SimpleName MethodInvocation StringLiteral atlasauthorizerimpl
+get string SimpleName MethodInvocation StringLiteral atlasauthorizerimpl
+configuration SimpleName InfixExpression ConditionalExpression MethodInvocation SimpleName configuration
+configuration SimpleName InfixExpression ConditionalExpression MethodInvocation SimpleName get string
+configuration SimpleName InfixExpression ConditionalExpression MethodInvocation StringLiteral atlasauthorizerimpl
+configuration SimpleName InfixExpression ConditionalExpression StringLiteral simple
+configuration SimpleName MethodInvocation ConditionalExpression StringLiteral simple
+get string SimpleName MethodInvocation ConditionalExpression StringLiteral simple
+atlasauthorizerimpl StringLiteral MethodInvocation ConditionalExpression StringLiteral simple
+authorizer class SimpleName VariableDeclarationFragment ConditionalExpression InfixExpression SimpleName configuration
+authorizer class SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation SimpleName configuration
+authorizer class SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation SimpleName get string
+authorizer class SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation StringLiteral atlasauthorizerimpl
+authorizer class SimpleName VariableDeclarationFragment ConditionalExpression StringLiteral simple
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName authorizer class
+string utils SimpleName MethodInvocation SimpleName is not empty
+string utils SimpleName MethodInvocation SimpleName authorizer class
+is not empty SimpleName MethodInvocation SimpleName authorizer class
+string utils SimpleName MethodInvocation SimpleName equals ignore case
+string utils SimpleName MethodInvocation SimpleName authorizer class
+string utils SimpleName MethodInvocation StringLiteral simple
+equals ignore case SimpleName MethodInvocation SimpleName authorizer class
+equals ignore case SimpleName MethodInvocation StringLiteral simple
+authorizer class SimpleName MethodInvocation StringLiteral simple
+authorizer class SimpleName Assignment SimpleName simple authorizer
+string utils SimpleName MethodInvocation SimpleName equals ignore case
+string utils SimpleName MethodInvocation SimpleName authorizer class
+string utils SimpleName MethodInvocation StringLiteral ranger
+equals ignore case SimpleName MethodInvocation SimpleName authorizer class
+equals ignore case SimpleName MethodInvocation StringLiteral ranger
+authorizer class SimpleName MethodInvocation StringLiteral ranger
+authorizer class SimpleName Assignment SimpleName ranger authorizer
+authorizer class SimpleName Assignment SimpleName simple authorizer
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral initializing authorizer :: {}
+log SimpleName MethodInvocation SimpleName authorizer class
+debug SimpleName MethodInvocation StringLiteral initializing authorizer :: {}
+debug SimpleName MethodInvocation SimpleName authorizer class
+initializing authorizer :: {} StringLiteral MethodInvocation SimpleName authorizer class
+class SimpleName MethodInvocation SimpleName for name
+class SimpleName MethodInvocation SimpleName authorizer class
+for name SimpleName MethodInvocation SimpleName authorizer class
+authorizer meta object SimpleName VariableDeclarationFragment MethodInvocation SimpleName class
+authorizer meta object SimpleName VariableDeclarationFragment MethodInvocation SimpleName for name
+authorizer meta object SimpleName VariableDeclarationFragment MethodInvocation SimpleName authorizer class
+class SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName authorizer meta object
+authorizer meta object SimpleName MethodInvocation SimpleName new instance
+atlas authorizer SimpleName SimpleType CastExpression MethodInvocation SimpleName authorizer meta object
+atlas authorizer SimpleName SimpleType CastExpression MethodInvocation SimpleName new instance
+instance SimpleName Assignment CastExpression SimpleType SimpleName atlas authorizer
+instance SimpleName Assignment CastExpression MethodInvocation SimpleName authorizer meta object
+instance SimpleName Assignment CastExpression MethodInvocation SimpleName new instance
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation StringLiteral error while creating authorizer of type {}
+log SimpleName MethodInvocation SimpleName authorizer class
+log SimpleName MethodInvocation SimpleName e
+error SimpleName MethodInvocation StringLiteral error while creating authorizer of type {}
+error SimpleName MethodInvocation SimpleName authorizer class
+error SimpleName MethodInvocation SimpleName e
+error while creating authorizer of type {} StringLiteral MethodInvocation SimpleName authorizer class
+error while creating authorizer of type {} StringLiteral MethodInvocation SimpleName e
+authorizer class SimpleName MethodInvocation SimpleName e
+error while creating authorizer of type StringLiteral InfixExpression SimpleName authorizer class
+error while creating authorizer of type StringLiteral InfixExpression StringLiteral empty
+authorizer class SimpleName InfixExpression StringLiteral empty
+atlas authorization exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral error while creating authorizer of type
+atlas authorization exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName authorizer class
+atlas authorization exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral empty
+atlas authorization exception SimpleName SimpleType ClassInstanceCreation SimpleName e
+error while creating authorizer of type StringLiteral InfixExpression ClassInstanceCreation SimpleName e
+authorizer class SimpleName InfixExpression ClassInstanceCreation SimpleName e
+empty StringLiteral InfixExpression ClassInstanceCreation SimpleName e
+ret SimpleName Assignment SimpleName instance
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName atlas authorizer
+public Modifier MethodDeclaration SimpleName get atlas authorizer
+public Modifier MethodDeclaration SimpleType SimpleName atlas authorization exception
+public Modifier MethodDeclaration Block ReturnStatement SimpleName ret
+static Modifier MethodDeclaration SimpleType SimpleName atlas authorizer
+static Modifier MethodDeclaration SimpleName get atlas authorizer
+static Modifier MethodDeclaration SimpleType SimpleName atlas authorization exception
+static Modifier MethodDeclaration Block ReturnStatement SimpleName ret
+atlas authorizer SimpleName SimpleType MethodDeclaration SimpleName get atlas authorizer
+atlas authorizer SimpleName SimpleType MethodDeclaration SimpleType SimpleName atlas authorization exception
+get atlas authorizer SimpleName MethodDeclaration SimpleType SimpleName atlas authorization exception
+get atlas authorizer SimpleName MethodDeclaration Block ReturnStatement SimpleName ret
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas authorizer
+public Modifier TypeDeclaration MethodDeclaration SimpleName get atlas authorizer
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas authorization exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas authorizer
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get atlas authorizer
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas authorization exception

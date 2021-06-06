@@ -1,0 +1,294 @@
+string builder SimpleName SimpleType SingleVariableDeclaration SimpleName sb
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName tablet server status
+array list SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName tservers
+tablet server status SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName tservers
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation StringLiteral script typetextjavascript
+append SimpleName MethodInvocation StringLiteral script typetextjavascript
+management factory SimpleName MethodInvocation SimpleName get operating system mx bean
+management factory SimpleName MethodInvocation MethodInvocation SimpleName get available processors
+get operating system mx bean SimpleName MethodInvocation MethodInvocation SimpleName get available processors
+var num cores = StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName management factory
+var num cores = StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName get operating system mx bean
+var num cores = StringLiteral InfixExpression MethodInvocation SimpleName get available processors
+var num cores = StringLiteral InfixExpression StringLiteral 
+management factory SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral 
+get operating system mx bean SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral 
+get available processors SimpleName MethodInvocation InfixExpression StringLiteral 
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation InfixExpression StringLiteral var num cores =
+sb SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get available processors
+sb SimpleName MethodInvocation InfixExpression StringLiteral 
+append SimpleName MethodInvocation InfixExpression StringLiteral var num cores =
+append SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get available processors
+append SimpleName MethodInvocation InfixExpression StringLiteral 
+var xmlurl = StringLiteral InfixExpression SimpleName url
+var xmlurl = StringLiteral InfixExpression StringLiteral xml
+url SimpleName InfixExpression StringLiteral xml
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation InfixExpression StringLiteral var xmlurl =
+sb SimpleName MethodInvocation InfixExpression SimpleName url
+sb SimpleName MethodInvocation InfixExpression StringLiteral xml
+append SimpleName MethodInvocation InfixExpression StringLiteral var xmlurl =
+append SimpleName MethodInvocation InfixExpression SimpleName url
+append SimpleName MethodInvocation InfixExpression StringLiteral xml
+var visurl = StringLiteral InfixExpression SimpleName url
+var visurl = StringLiteral InfixExpression StringLiteral vis
+url SimpleName InfixExpression StringLiteral vis
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation InfixExpression StringLiteral var visurl =
+sb SimpleName MethodInvocation InfixExpression SimpleName url
+sb SimpleName MethodInvocation InfixExpression StringLiteral vis
+append SimpleName MethodInvocation InfixExpression StringLiteral var visurl =
+append SimpleName MethodInvocation InfixExpression SimpleName url
+append SimpleName MethodInvocation InfixExpression StringLiteral vis
+var serverurl = StringLiteral InfixExpression SimpleName url
+var serverurl = StringLiteral InfixExpression StringLiteral tserverss
+url SimpleName InfixExpression StringLiteral tserverss
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation InfixExpression StringLiteral var serverurl =
+sb SimpleName MethodInvocation InfixExpression SimpleName url
+sb SimpleName MethodInvocation InfixExpression StringLiteral tserverss
+append SimpleName MethodInvocation InfixExpression StringLiteral var serverurl =
+append SimpleName MethodInvocation InfixExpression SimpleName url
+append SimpleName MethodInvocation InfixExpression StringLiteral tserverss
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation StringLiteral // observable stats that can be connected to motion or color
+append SimpleName MethodInvocation StringLiteral // observable stats that can be connected to motion or color
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation StringLiteral var stat name = [
+append SimpleName MethodInvocation StringLiteral var stat name = [
+stat type SimpleName SimpleType SingleVariableDeclaration SimpleName st
+stat type SimpleName MethodInvocation SimpleName values
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation StringLiteral empty
+append SimpleName MethodInvocation StringLiteral empty
+sb SimpleName MethodInvocation MethodInvocation SimpleName append
+append SimpleName MethodInvocation MethodInvocation SimpleName append
+empty StringLiteral MethodInvocation MethodInvocation SimpleName append
+sb SimpleName MethodInvocation MethodInvocation SimpleName st
+append SimpleName MethodInvocation MethodInvocation SimpleName st
+empty StringLiteral MethodInvocation MethodInvocation SimpleName st
+append SimpleName MethodInvocation SimpleName st
+sb SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName append
+append SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName append
+empty StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName append
+append SimpleName MethodInvocation MethodInvocation SimpleName append
+st SimpleName MethodInvocation MethodInvocation SimpleName append
+sb SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral empty
+append SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral empty
+empty StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral empty
+append SimpleName MethodInvocation MethodInvocation StringLiteral empty
+st SimpleName MethodInvocation MethodInvocation StringLiteral empty
+append SimpleName MethodInvocation StringLiteral empty
+st SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName stat type
+st SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName values
+sb SimpleName MethodInvocation SimpleName length
+sb SimpleName MethodInvocation InfixExpression NumberLiteral empty
+length SimpleName MethodInvocation InfixExpression NumberLiteral empty
+sb SimpleName MethodInvocation SimpleName set length
+sb SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName sb
+sb SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName length
+sb SimpleName MethodInvocation InfixExpression NumberLiteral empty
+set length SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName sb
+set length SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName length
+set length SimpleName MethodInvocation InfixExpression NumberLiteral empty
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation StringLiteral ] 
+append SimpleName MethodInvocation StringLiteral ] 
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation StringLiteral var max stat value = [
+append SimpleName MethodInvocation StringLiteral var max stat value = [
+stat type SimpleName SimpleType SingleVariableDeclaration SimpleName st
+stat type SimpleName MethodInvocation SimpleName values
+st SimpleName MethodInvocation SimpleName get max
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation MethodInvocation SimpleName st
+sb SimpleName MethodInvocation MethodInvocation SimpleName get max
+append SimpleName MethodInvocation MethodInvocation SimpleName st
+append SimpleName MethodInvocation MethodInvocation SimpleName get max
+sb SimpleName MethodInvocation MethodInvocation SimpleName append
+append SimpleName MethodInvocation MethodInvocation SimpleName append
+st SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName append
+get max SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName append
+sb SimpleName MethodInvocation MethodInvocation StringLiteral empty
+append SimpleName MethodInvocation MethodInvocation StringLiteral empty
+st SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral empty
+get max SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral empty
+append SimpleName MethodInvocation StringLiteral empty
+st SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName stat type
+st SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName values
+sb SimpleName MethodInvocation SimpleName length
+sb SimpleName MethodInvocation InfixExpression NumberLiteral empty
+length SimpleName MethodInvocation InfixExpression NumberLiteral empty
+sb SimpleName MethodInvocation SimpleName set length
+sb SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName sb
+sb SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName length
+sb SimpleName MethodInvocation InfixExpression NumberLiteral empty
+set length SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName sb
+set length SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName length
+set length SimpleName MethodInvocation InfixExpression NumberLiteral empty
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation StringLiteral ] // initial values that are systemdependent may increase based on observed values
+append SimpleName MethodInvocation StringLiteral ] // initial values that are systemdependent may increase based on observed values
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation StringLiteral var adjust max = [
+append SimpleName MethodInvocation StringLiteral var adjust max = [
+stat type SimpleName SimpleType SingleVariableDeclaration SimpleName st
+stat type SimpleName MethodInvocation SimpleName values
+st SimpleName MethodInvocation SimpleName get adjust max
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation MethodInvocation SimpleName st
+sb SimpleName MethodInvocation MethodInvocation SimpleName get adjust max
+append SimpleName MethodInvocation MethodInvocation SimpleName st
+append SimpleName MethodInvocation MethodInvocation SimpleName get adjust max
+sb SimpleName MethodInvocation MethodInvocation SimpleName append
+append SimpleName MethodInvocation MethodInvocation SimpleName append
+st SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName append
+get adjust max SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName append
+sb SimpleName MethodInvocation MethodInvocation StringLiteral empty
+append SimpleName MethodInvocation MethodInvocation StringLiteral empty
+st SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral empty
+get adjust max SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral empty
+append SimpleName MethodInvocation StringLiteral empty
+st SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName stat type
+st SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName values
+sb SimpleName MethodInvocation SimpleName length
+sb SimpleName MethodInvocation InfixExpression NumberLiteral empty
+length SimpleName MethodInvocation InfixExpression NumberLiteral empty
+sb SimpleName MethodInvocation SimpleName set length
+sb SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName sb
+sb SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName length
+sb SimpleName MethodInvocation InfixExpression NumberLiteral empty
+set length SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName sb
+set length SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName length
+set length SimpleName MethodInvocation InfixExpression NumberLiteral empty
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation StringLiteral ] // whether to allow increases in the max based on observed values
+append SimpleName MethodInvocation StringLiteral ] // whether to allow increases in the max based on observed values
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation StringLiteral var significance = [
+append SimpleName MethodInvocation StringLiteral var significance = [
+stat type SimpleName SimpleType SingleVariableDeclaration SimpleName st
+stat type SimpleName MethodInvocation SimpleName values
+st SimpleName MethodInvocation SimpleName get significance
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation MethodInvocation SimpleName st
+sb SimpleName MethodInvocation MethodInvocation SimpleName get significance
+append SimpleName MethodInvocation MethodInvocation SimpleName st
+append SimpleName MethodInvocation MethodInvocation SimpleName get significance
+sb SimpleName MethodInvocation MethodInvocation SimpleName append
+append SimpleName MethodInvocation MethodInvocation SimpleName append
+st SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName append
+get significance SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName append
+sb SimpleName MethodInvocation MethodInvocation StringLiteral empty
+append SimpleName MethodInvocation MethodInvocation StringLiteral empty
+st SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral empty
+get significance SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral empty
+append SimpleName MethodInvocation StringLiteral empty
+st SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName stat type
+st SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName values
+sb SimpleName MethodInvocation SimpleName length
+sb SimpleName MethodInvocation InfixExpression NumberLiteral empty
+length SimpleName MethodInvocation InfixExpression NumberLiteral empty
+sb SimpleName MethodInvocation SimpleName set length
+sb SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName sb
+sb SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName length
+sb SimpleName MethodInvocation InfixExpression NumberLiteral empty
+set length SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName sb
+set length SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName length
+set length SimpleName MethodInvocation InfixExpression NumberLiteral empty
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation StringLiteral ] // values will be converted by floorthisvaluethis
+append SimpleName MethodInvocation StringLiteral ] // values will be converted by floorthisvaluethis
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation StringLiteral var num normal stats =
+append SimpleName MethodInvocation StringLiteral var num normal stats =
+stat type SimpleName MethodInvocation SimpleName values
+stat type SimpleName MethodInvocation FieldAccess SimpleName length
+values SimpleName MethodInvocation FieldAccess SimpleName length
+stat type SimpleName MethodInvocation SimpleName num derived
+length SimpleName FieldAccess InfixExpression MethodInvocation SimpleName stat type
+length SimpleName FieldAccess InfixExpression MethodInvocation SimpleName num derived
+sb SimpleName MethodInvocation MethodInvocation SimpleName append
+append SimpleName MethodInvocation MethodInvocation SimpleName append
+var num normal stats = StringLiteral MethodInvocation MethodInvocation SimpleName append
+append SimpleName MethodInvocation InfixExpression FieldAccess SimpleName length
+append SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName stat type
+append SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName num derived
+sb SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName append
+append SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName append
+var num normal stats = StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName append
+append SimpleName MethodInvocation MethodInvocation SimpleName append
+sb SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral 
+append SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral 
+var num normal stats = StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral 
+append SimpleName MethodInvocation MethodInvocation StringLiteral 
+append SimpleName MethodInvocation StringLiteral 
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation StringLiteral script
+append SimpleName MethodInvocation StringLiteral script
+vis servlet SimpleName SimpleType TypeLiteral MethodInvocation SimpleName get class loader
+get class loader SimpleName MethodInvocation MethodInvocation SimpleName get resource as stream
+get class loader SimpleName MethodInvocation MethodInvocation StringLiteral webvisxml
+get resource as stream SimpleName MethodInvocation StringLiteral webvisxml
+data SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get class loader
+data SimpleName VariableDeclarationFragment MethodInvocation SimpleName get resource as stream
+data SimpleName VariableDeclarationFragment MethodInvocation StringLiteral webvisxml
+input stream SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName data
+byte PrimitiveType ArrayType ArrayCreation NumberLiteral empty
+buffer SimpleName VariableDeclarationFragment ArrayCreation ArrayType PrimitiveType byte
+buffer SimpleName VariableDeclarationFragment ArrayCreation NumberLiteral empty
+byte PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName buffer
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName n
+data SimpleName MethodInvocation SimpleName read
+data SimpleName MethodInvocation SimpleName buffer
+read SimpleName MethodInvocation SimpleName buffer
+n SimpleName Assignment MethodInvocation SimpleName data
+n SimpleName Assignment MethodInvocation SimpleName read
+n SimpleName Assignment MethodInvocation SimpleName buffer
+n SimpleName Assignment ParenthesizedExpression InfixExpression NumberLiteral empty
+string SimpleName SimpleType ClassInstanceCreation SimpleName buffer
+string SimpleName SimpleType ClassInstanceCreation NumberLiteral empty
+string SimpleName SimpleType ClassInstanceCreation SimpleName n
+buffer SimpleName ClassInstanceCreation NumberLiteral empty
+buffer SimpleName ClassInstanceCreation SimpleName n
+empty NumberLiteral ClassInstanceCreation SimpleName n
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName string
+sb SimpleName MethodInvocation ClassInstanceCreation SimpleName buffer
+sb SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+sb SimpleName MethodInvocation ClassInstanceCreation SimpleName n
+append SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName string
+append SimpleName MethodInvocation ClassInstanceCreation SimpleName buffer
+append SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+append SimpleName MethodInvocation ClassInstanceCreation SimpleName n
+io exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+e SimpleName MethodInvocation SimpleName print stack trace
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation StringLiteral empty
+append SimpleName MethodInvocation StringLiteral empty
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName do script
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string builder
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName sb
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName tservers
+void PrimitiveType MethodDeclaration SimpleName do script
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string builder
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName sb
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName tservers
+do script SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string builder
+do script SimpleName MethodDeclaration SingleVariableDeclaration SimpleName sb
+do script SimpleName MethodDeclaration SingleVariableDeclaration SimpleName tservers
+sb SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName tservers
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName do script
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName sb
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName tservers
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName do script
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName sb
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName tservers

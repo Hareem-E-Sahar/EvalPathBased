@@ -1,0 +1,22 @@
+cluster type SimpleName SimpleType SingleVariableDeclaration SimpleName type
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName can run test
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName cluster type
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName type
+public Modifier MethodDeclaration Block ReturnStatement BooleanLiteral true
+boolean PrimitiveType MethodDeclaration SimpleName can run test
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName cluster type
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName type
+boolean PrimitiveType MethodDeclaration Block ReturnStatement BooleanLiteral true
+can run test SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName cluster type
+can run test SimpleName MethodDeclaration SingleVariableDeclaration SimpleName type
+can run test SimpleName MethodDeclaration Block ReturnStatement BooleanLiteral true
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName can run test
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName can run test
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type

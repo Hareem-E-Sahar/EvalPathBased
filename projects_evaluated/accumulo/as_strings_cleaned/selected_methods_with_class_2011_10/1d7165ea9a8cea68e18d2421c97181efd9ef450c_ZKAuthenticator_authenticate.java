@@ -1,0 +1,123 @@
+auth info SimpleName SimpleType SingleVariableDeclaration SimpleName credentials
+hdfs zoo instance SimpleName MethodInvocation SimpleName get instance
+hdfs zoo instance SimpleName MethodInvocation MethodInvocation SimpleName get instance id
+get instance SimpleName MethodInvocation MethodInvocation SimpleName get instance id
+credentialsinstance id QualifiedName MethodInvocation SimpleName equals
+credentialsinstance id QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName hdfs zoo instance
+credentialsinstance id QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName get instance
+credentialsinstance id QualifiedName MethodInvocation MethodInvocation SimpleName get instance id
+equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName hdfs zoo instance
+equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get instance
+equals SimpleName MethodInvocation MethodInvocation SimpleName get instance id
+accumulo security exception SimpleName SimpleType ClassInstanceCreation QualifiedName credentialsuser
+accumulo security exception SimpleName SimpleType ClassInstanceCreation QualifiedName security error codeinvalid instanceid
+credentialsuser QualifiedName ClassInstanceCreation QualifiedName security error codeinvalid instanceid
+credentialsuser QualifiedName MethodInvocation SimpleName equals
+credentialsuser QualifiedName MethodInvocation QualifiedName security constantssystem username
+equals SimpleName MethodInvocation QualifiedName security constantssystem username
+security constants SimpleName MethodInvocation SimpleName get system credentials
+credentials SimpleName MethodInvocation SimpleName equals
+credentials SimpleName MethodInvocation MethodInvocation SimpleName security constants
+credentials SimpleName MethodInvocation MethodInvocation SimpleName get system credentials
+equals SimpleName MethodInvocation MethodInvocation SimpleName security constants
+equals SimpleName MethodInvocation MethodInvocation SimpleName get system credentials
+byte PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName pass
+zk user path SimpleName InfixExpression StringLiteral /
+zk user path SimpleName InfixExpression QualifiedName credentialsuser
+/ StringLiteral InfixExpression QualifiedName credentialsuser
+zpath SimpleName VariableDeclarationFragment InfixExpression SimpleName zk user path
+zpath SimpleName VariableDeclarationFragment InfixExpression StringLiteral /
+zpath SimpleName VariableDeclarationFragment InfixExpression QualifiedName credentialsuser
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName zpath
+zoo cache SimpleName MethodInvocation SimpleName get
+zoo cache SimpleName MethodInvocation SimpleName zpath
+get SimpleName MethodInvocation SimpleName zpath
+pass SimpleName Assignment MethodInvocation SimpleName zoo cache
+pass SimpleName Assignment MethodInvocation SimpleName get
+pass SimpleName Assignment MethodInvocation SimpleName zpath
+byte buffer util SimpleName MethodInvocation SimpleName to bytes
+byte buffer util SimpleName MethodInvocation QualifiedName credentialspassword
+to bytes SimpleName MethodInvocation QualifiedName credentialspassword
+tool SimpleName MethodInvocation SimpleName check pass
+tool SimpleName MethodInvocation MethodInvocation SimpleName byte buffer util
+tool SimpleName MethodInvocation MethodInvocation SimpleName to bytes
+tool SimpleName MethodInvocation MethodInvocation QualifiedName credentialspassword
+tool SimpleName MethodInvocation SimpleName pass
+check pass SimpleName MethodInvocation MethodInvocation SimpleName byte buffer util
+check pass SimpleName MethodInvocation MethodInvocation SimpleName to bytes
+check pass SimpleName MethodInvocation MethodInvocation QualifiedName credentialspassword
+check pass SimpleName MethodInvocation SimpleName pass
+byte buffer util SimpleName MethodInvocation MethodInvocation SimpleName pass
+to bytes SimpleName MethodInvocation MethodInvocation SimpleName pass
+credentialspassword QualifiedName MethodInvocation MethodInvocation SimpleName pass
+result SimpleName VariableDeclarationFragment MethodInvocation SimpleName tool
+result SimpleName VariableDeclarationFragment MethodInvocation SimpleName check pass
+result SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName byte buffer util
+result SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName to bytes
+result SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation QualifiedName credentialspassword
+result SimpleName VariableDeclarationFragment MethodInvocation SimpleName pass
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName result
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName tool
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName check pass
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName pass
+zoo cache SimpleName MethodInvocation SimpleName clear
+zoo cache SimpleName MethodInvocation SimpleName zpath
+clear SimpleName MethodInvocation SimpleName zpath
+zoo cache SimpleName MethodInvocation SimpleName get
+zoo cache SimpleName MethodInvocation SimpleName zpath
+get SimpleName MethodInvocation SimpleName zpath
+pass SimpleName Assignment MethodInvocation SimpleName zoo cache
+pass SimpleName Assignment MethodInvocation SimpleName get
+pass SimpleName Assignment MethodInvocation SimpleName zpath
+byte buffer util SimpleName MethodInvocation SimpleName to bytes
+byte buffer util SimpleName MethodInvocation QualifiedName credentialspassword
+to bytes SimpleName MethodInvocation QualifiedName credentialspassword
+tool SimpleName MethodInvocation SimpleName check pass
+tool SimpleName MethodInvocation MethodInvocation SimpleName byte buffer util
+tool SimpleName MethodInvocation MethodInvocation SimpleName to bytes
+tool SimpleName MethodInvocation MethodInvocation QualifiedName credentialspassword
+tool SimpleName MethodInvocation SimpleName pass
+check pass SimpleName MethodInvocation MethodInvocation SimpleName byte buffer util
+check pass SimpleName MethodInvocation MethodInvocation SimpleName to bytes
+check pass SimpleName MethodInvocation MethodInvocation QualifiedName credentialspassword
+check pass SimpleName MethodInvocation SimpleName pass
+byte buffer util SimpleName MethodInvocation MethodInvocation SimpleName pass
+to bytes SimpleName MethodInvocation MethodInvocation SimpleName pass
+credentialspassword QualifiedName MethodInvocation MethodInvocation SimpleName pass
+result SimpleName Assignment MethodInvocation SimpleName tool
+result SimpleName Assignment MethodInvocation SimpleName check pass
+result SimpleName Assignment MethodInvocation MethodInvocation SimpleName byte buffer util
+result SimpleName Assignment MethodInvocation MethodInvocation SimpleName to bytes
+result SimpleName Assignment MethodInvocation MethodInvocation QualifiedName credentialspassword
+result SimpleName Assignment MethodInvocation SimpleName pass
+boolean PrimitiveType VariableDeclarationStatement Block ReturnStatement SimpleName result
+private Modifier MethodDeclaration PrimitiveType boolean
+private Modifier MethodDeclaration SimpleName authenticate
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName auth info
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName credentials
+private Modifier MethodDeclaration SimpleType SimpleName accumulo security exception
+private Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+private Modifier MethodDeclaration Block ReturnStatement SimpleName result
+boolean PrimitiveType MethodDeclaration SimpleName authenticate
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName auth info
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName credentials
+boolean PrimitiveType MethodDeclaration SimpleType SimpleName accumulo security exception
+boolean PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+boolean PrimitiveType MethodDeclaration Block ReturnStatement SimpleName result
+authenticate SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName auth info
+authenticate SimpleName MethodDeclaration SingleVariableDeclaration SimpleName credentials
+authenticate SimpleName MethodDeclaration SimpleType SimpleName accumulo security exception
+authenticate SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+authenticate SimpleName MethodDeclaration Block ReturnStatement SimpleName result
+credentials SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName authenticate
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName credentials
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName authenticate
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName credentials
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception

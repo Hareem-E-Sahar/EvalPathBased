@@ -1,0 +1,72 @@
+mutation SimpleName SimpleType SingleVariableDeclaration SimpleName m
+collection SimpleName SimpleType ParameterizedType SimpleType SimpleName column update
+m SimpleName MethodInvocation SimpleName get updates
+muts SimpleName VariableDeclarationFragment MethodInvocation SimpleName m
+muts SimpleName VariableDeclarationFragment MethodInvocation SimpleName get updates
+column update SimpleName SimpleType SingleVariableDeclaration SimpleName column update
+column update SimpleName MethodInvocation SimpleName has timestamp
+count SimpleName ArrayAccess NumberLiteral empty
+count SimpleName ArrayAccess NumberLiteral empty
+column update SimpleName MethodInvocation SimpleName get timestamp
+math SimpleName MethodInvocation SimpleName max
+math SimpleName MethodInvocation ArrayAccess SimpleName count
+math SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+math SimpleName MethodInvocation MethodInvocation SimpleName column update
+math SimpleName MethodInvocation MethodInvocation SimpleName get timestamp
+max SimpleName MethodInvocation ArrayAccess SimpleName count
+max SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+max SimpleName MethodInvocation MethodInvocation SimpleName column update
+max SimpleName MethodInvocation MethodInvocation SimpleName get timestamp
+count SimpleName ArrayAccess MethodInvocation MethodInvocation SimpleName column update
+count SimpleName ArrayAccess MethodInvocation MethodInvocation SimpleName get timestamp
+empty NumberLiteral ArrayAccess MethodInvocation MethodInvocation SimpleName column update
+empty NumberLiteral ArrayAccess MethodInvocation MethodInvocation SimpleName get timestamp
+count SimpleName ArrayAccess Assignment MethodInvocation SimpleName math
+count SimpleName ArrayAccess Assignment MethodInvocation SimpleName max
+empty NumberLiteral ArrayAccess Assignment MethodInvocation SimpleName math
+empty NumberLiteral ArrayAccess Assignment MethodInvocation SimpleName max
+column update SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName muts
+column update SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName muts
+collections SimpleName MethodInvocation SimpleName singleton list
+collections SimpleName MethodInvocation SimpleName m
+singleton list SimpleName MethodInvocation SimpleName m
+get tablet memory SimpleName MethodInvocation MethodInvocation SimpleName mutate
+get tablet memory SimpleName MethodInvocation MethodInvocation SimpleName commit session
+get tablet memory SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName collections
+get tablet memory SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName singleton list
+get tablet memory SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName m
+mutate SimpleName MethodInvocation SimpleName commit session
+mutate SimpleName MethodInvocation MethodInvocation SimpleName collections
+mutate SimpleName MethodInvocation MethodInvocation SimpleName singleton list
+mutate SimpleName MethodInvocation MethodInvocation SimpleName m
+commit session SimpleName MethodInvocation MethodInvocation SimpleName collections
+commit session SimpleName MethodInvocation MethodInvocation SimpleName singleton list
+commit session SimpleName MethodInvocation MethodInvocation SimpleName m
+count SimpleName ArrayAccess NumberLiteral empty
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName receive
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName m
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName receive
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName mutation
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName m
+public Modifier MethodDeclaration Block EnhancedForStatement SimpleName muts
+void PrimitiveType MethodDeclaration SimpleName receive
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName mutation
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName m
+void PrimitiveType MethodDeclaration Block EnhancedForStatement SimpleName muts
+receive SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName mutation
+receive SimpleName MethodDeclaration SingleVariableDeclaration SimpleName m
+receive SimpleName MethodDeclaration Block EnhancedForStatement SimpleName muts
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName receive
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName m
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName receive
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName m

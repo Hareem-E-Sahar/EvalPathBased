@@ -1,0 +1,85 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName guid
+log SimpleName MethodInvocation SimpleName is debug enabled
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral ==> delete by id
+log SimpleName MethodInvocation SimpleName guid
+debug SimpleName MethodInvocation StringLiteral ==> delete by id
+debug SimpleName MethodInvocation SimpleName guid
+==> delete by id StringLiteral MethodInvocation SimpleName guid
+string utils SimpleName MethodInvocation SimpleName is empty
+string utils SimpleName MethodInvocation SimpleName guid
+is empty SimpleName MethodInvocation SimpleName guid
+atlas base exception SimpleName SimpleType ClassInstanceCreation QualifiedName atlas error coderelationship crud invalid params
+atlas base exception SimpleName SimpleType ClassInstanceCreation StringLiteral emptynull guid
+atlas error coderelationship crud invalid params QualifiedName ClassInstanceCreation StringLiteral emptynull guid
+graph helper SimpleName MethodInvocation SimpleName get edge for guid
+graph helper SimpleName MethodInvocation SimpleName guid
+get edge for guid SimpleName MethodInvocation SimpleName guid
+edge SimpleName VariableDeclarationFragment MethodInvocation SimpleName graph helper
+edge SimpleName VariableDeclarationFragment MethodInvocation SimpleName get edge for guid
+edge SimpleName VariableDeclarationFragment MethodInvocation SimpleName guid
+atlas edge SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName edge
+atlas base exception SimpleName SimpleType ClassInstanceCreation QualifiedName atlas error coderelationship guid not found
+atlas base exception SimpleName SimpleType ClassInstanceCreation SimpleName guid
+atlas error coderelationship guid not found QualifiedName ClassInstanceCreation SimpleName guid
+get state SimpleName MethodInvocation SimpleName edge
+get state SimpleName MethodInvocation InfixExpression SimpleName deleted
+edge SimpleName MethodInvocation InfixExpression SimpleName deleted
+atlas base exception SimpleName SimpleType ClassInstanceCreation QualifiedName atlas error coderelationship already deleted
+atlas base exception SimpleName SimpleType ClassInstanceCreation SimpleName guid
+atlas error coderelationship already deleted QualifiedName ClassInstanceCreation SimpleName guid
+collections SimpleName MethodInvocation SimpleName singleton
+collections SimpleName MethodInvocation SimpleName edge
+singleton SimpleName MethodInvocation SimpleName edge
+delete handler SimpleName MethodInvocation SimpleName delete relationships
+delete handler SimpleName MethodInvocation MethodInvocation SimpleName collections
+delete handler SimpleName MethodInvocation MethodInvocation SimpleName singleton
+delete handler SimpleName MethodInvocation MethodInvocation SimpleName edge
+delete relationships SimpleName MethodInvocation MethodInvocation SimpleName collections
+delete relationships SimpleName MethodInvocation MethodInvocation SimpleName singleton
+delete relationships SimpleName MethodInvocation MethodInvocation SimpleName edge
+log SimpleName MethodInvocation SimpleName is debug enabled
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral <== delete by id {}
+log SimpleName MethodInvocation SimpleName guid
+debug SimpleName MethodInvocation StringLiteral <== delete by id {}
+debug SimpleName MethodInvocation SimpleName guid
+<== delete by id {} StringLiteral MethodInvocation SimpleName guid
+override SimpleName MarkerAnnotation MethodDeclaration MarkerAnnotation SimpleName graph transaction
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName delete by id
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName guid
+graph transaction SimpleName MarkerAnnotation MethodDeclaration Modifier public
+graph transaction SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+graph transaction SimpleName MarkerAnnotation MethodDeclaration SimpleName delete by id
+graph transaction SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName guid
+graph transaction SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName delete by id
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName guid
+public Modifier MethodDeclaration SimpleType SimpleName atlas base exception
+void PrimitiveType MethodDeclaration SimpleName delete by id
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName guid
+void PrimitiveType MethodDeclaration SimpleType SimpleName atlas base exception
+delete by id SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+delete by id SimpleName MethodDeclaration SingleVariableDeclaration SimpleName guid
+delete by id SimpleName MethodDeclaration SimpleType SimpleName atlas base exception
+guid SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName graph transaction
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName delete by id
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName guid
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName graph transaction
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName delete by id
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName guid
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception

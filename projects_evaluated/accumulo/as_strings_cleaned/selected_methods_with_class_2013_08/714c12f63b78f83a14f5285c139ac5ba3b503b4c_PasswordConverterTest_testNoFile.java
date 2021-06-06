@@ -1,0 +1,32 @@
+expected SimpleName MemberValuePair TypeLiteral SimpleType SimpleName parameter exception
+test SimpleName NormalAnnotation MemberValuePair SimpleName expected
+argv SimpleName ArrayAccess NumberLiteral empty
+argv SimpleName ArrayAccess Assignment StringLiteral filedoesnotexist
+empty NumberLiteral ArrayAccess Assignment StringLiteral filedoesnotexist
+j commander SimpleName SimpleType ClassInstanceCreation SimpleName password
+j commander SimpleName SimpleType ClassInstanceCreation SimpleName argv
+password SimpleName ClassInstanceCreation SimpleName argv
+test SimpleName NormalAnnotation MethodDeclaration Modifier public
+expected SimpleName MemberValuePair NormalAnnotation MethodDeclaration Modifier public
+test SimpleName NormalAnnotation MethodDeclaration PrimitiveType void
+expected SimpleName MemberValuePair NormalAnnotation MethodDeclaration PrimitiveType void
+test SimpleName NormalAnnotation MethodDeclaration SimpleName test no file
+expected SimpleName MemberValuePair NormalAnnotation MethodDeclaration SimpleName test no file
+test SimpleName NormalAnnotation MethodDeclaration SimpleType SimpleName file not found exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test no file
+public Modifier MethodDeclaration SimpleType SimpleName file not found exception
+void PrimitiveType MethodDeclaration SimpleName test no file
+void PrimitiveType MethodDeclaration SimpleType SimpleName file not found exception
+test no file SimpleName MethodDeclaration SimpleType SimpleName file not found exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration NormalAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test no file
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName file not found exception
+test SimpleName TypeDeclaration MethodDeclaration NormalAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test no file
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName file not found exception

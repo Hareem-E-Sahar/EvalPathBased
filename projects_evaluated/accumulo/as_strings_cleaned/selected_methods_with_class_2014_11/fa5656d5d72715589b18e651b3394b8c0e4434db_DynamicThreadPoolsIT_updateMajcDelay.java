@@ -1,0 +1,64 @@
+c SimpleName VariableDeclarationFragment MethodInvocation SimpleName get connector
+connector SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName c
+c SimpleName MethodInvocation SimpleName instance operations
+c SimpleName MethodInvocation MethodInvocation SimpleName get system configuration
+instance operations SimpleName MethodInvocation MethodInvocation SimpleName get system configuration
+propertytserv majc delay QualifiedName MethodInvocation SimpleName get key
+c SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+instance operations SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+get system configuration SimpleName MethodInvocation MethodInvocation SimpleName get
+get system configuration SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName propertytserv majc delay
+get system configuration SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get key
+get SimpleName MethodInvocation MethodInvocation QualifiedName propertytserv majc delay
+get SimpleName MethodInvocation MethodInvocation SimpleName get key
+majc delay SimpleName Assignment MethodInvocation MethodInvocation SimpleName get system configuration
+majc delay SimpleName Assignment MethodInvocation SimpleName get
+majc delay SimpleName Assignment MethodInvocation MethodInvocation QualifiedName propertytserv majc delay
+majc delay SimpleName Assignment MethodInvocation MethodInvocation SimpleName get key
+c SimpleName MethodInvocation SimpleName instance operations
+propertytserv majc delay QualifiedName MethodInvocation SimpleName get key
+c SimpleName MethodInvocation MethodInvocation SimpleName set property
+instance operations SimpleName MethodInvocation MethodInvocation SimpleName set property
+c SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName propertytserv majc delay
+c SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get key
+instance operations SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName propertytserv majc delay
+instance operations SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get key
+c SimpleName MethodInvocation MethodInvocation StringLiteral ms
+instance operations SimpleName MethodInvocation MethodInvocation StringLiteral ms
+set property SimpleName MethodInvocation MethodInvocation QualifiedName propertytserv majc delay
+set property SimpleName MethodInvocation MethodInvocation SimpleName get key
+set property SimpleName MethodInvocation StringLiteral ms
+propertytserv majc delay QualifiedName MethodInvocation MethodInvocation StringLiteral ms
+get key SimpleName MethodInvocation MethodInvocation StringLiteral ms
+get cluster type SimpleName MethodInvocation InfixExpression QualifiedName cluster typestandalone
+accumulo configuration SimpleName MethodInvocation SimpleName get time in millis
+accumulo configuration SimpleName MethodInvocation SimpleName majc delay
+get time in millis SimpleName MethodInvocation SimpleName majc delay
+thread SimpleName MethodInvocation SimpleName sleep
+thread SimpleName MethodInvocation MethodInvocation SimpleName accumulo configuration
+thread SimpleName MethodInvocation MethodInvocation SimpleName get time in millis
+thread SimpleName MethodInvocation MethodInvocation SimpleName majc delay
+sleep SimpleName MethodInvocation MethodInvocation SimpleName accumulo configuration
+sleep SimpleName MethodInvocation MethodInvocation SimpleName get time in millis
+sleep SimpleName MethodInvocation MethodInvocation SimpleName majc delay
+before SimpleName MarkerAnnotation MethodDeclaration Modifier public
+before SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+before SimpleName MarkerAnnotation MethodDeclaration SimpleName update majc delay
+before SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName update majc delay
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName update majc delay
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+update majc delay SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName before
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName update majc delay
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName before
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName update majc delay
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

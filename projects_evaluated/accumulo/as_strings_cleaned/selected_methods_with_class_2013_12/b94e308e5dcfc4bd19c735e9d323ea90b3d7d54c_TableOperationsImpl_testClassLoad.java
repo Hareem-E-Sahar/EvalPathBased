@@ -1,0 +1,212 @@
+final Modifier SingleVariableDeclaration SimpleType SimpleName string
+final Modifier SingleVariableDeclaration SimpleName table name
+string SimpleName SimpleType SingleVariableDeclaration SimpleName table name
+final Modifier SingleVariableDeclaration SimpleType SimpleName string
+final Modifier SingleVariableDeclaration SimpleName class name
+string SimpleName SimpleType SingleVariableDeclaration SimpleName class name
+final Modifier SingleVariableDeclaration SimpleType SimpleName string
+final Modifier SingleVariableDeclaration SimpleName as type name
+string SimpleName SimpleType SingleVariableDeclaration SimpleName as type name
+check argument SimpleName MethodInvocation InfixExpression SimpleName table name
+check argument SimpleName MethodInvocation StringLiteral table name is null
+table name SimpleName InfixExpression MethodInvocation StringLiteral table name is null
+check argument SimpleName MethodInvocation InfixExpression SimpleName class name
+check argument SimpleName MethodInvocation StringLiteral class name is null
+class name SimpleName InfixExpression MethodInvocation StringLiteral class name is null
+check argument SimpleName MethodInvocation InfixExpression SimpleName as type name
+check argument SimpleName MethodInvocation StringLiteral as type name is null
+as type name SimpleName InfixExpression MethodInvocation StringLiteral as type name is null
+client exec return SimpleName SimpleType ParameterizedType SimpleType SimpleName boolean
+client exec return SimpleName SimpleType ParameterizedType SimpleType QualifiedName client serviceclient
+boolean SimpleName SimpleType ParameterizedType SimpleType QualifiedName client serviceclient
+client serviceclient QualifiedName SimpleType SingleVariableDeclaration SimpleName client
+tracer SimpleName MethodInvocation SimpleName trace info
+credentials SimpleName MethodInvocation SimpleName to thrift
+credentials SimpleName MethodInvocation SimpleName instance
+to thrift SimpleName MethodInvocation SimpleName instance
+client SimpleName MethodInvocation SimpleName check table class
+client SimpleName MethodInvocation MethodInvocation SimpleName tracer
+client SimpleName MethodInvocation MethodInvocation SimpleName trace info
+client SimpleName MethodInvocation MethodInvocation SimpleName credentials
+client SimpleName MethodInvocation MethodInvocation SimpleName to thrift
+client SimpleName MethodInvocation MethodInvocation SimpleName instance
+client SimpleName MethodInvocation SimpleName table name
+client SimpleName MethodInvocation SimpleName class name
+check table class SimpleName MethodInvocation MethodInvocation SimpleName tracer
+check table class SimpleName MethodInvocation MethodInvocation SimpleName trace info
+check table class SimpleName MethodInvocation MethodInvocation SimpleName credentials
+check table class SimpleName MethodInvocation MethodInvocation SimpleName to thrift
+check table class SimpleName MethodInvocation MethodInvocation SimpleName instance
+check table class SimpleName MethodInvocation SimpleName table name
+check table class SimpleName MethodInvocation SimpleName class name
+check table class SimpleName MethodInvocation SimpleName as type name
+tracer SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName credentials
+tracer SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to thrift
+tracer SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName instance
+trace info SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName credentials
+trace info SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to thrift
+trace info SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName instance
+tracer SimpleName MethodInvocation MethodInvocation SimpleName table name
+trace info SimpleName MethodInvocation MethodInvocation SimpleName table name
+tracer SimpleName MethodInvocation MethodInvocation SimpleName class name
+trace info SimpleName MethodInvocation MethodInvocation SimpleName class name
+tracer SimpleName MethodInvocation MethodInvocation SimpleName as type name
+trace info SimpleName MethodInvocation MethodInvocation SimpleName as type name
+credentials SimpleName MethodInvocation MethodInvocation SimpleName table name
+to thrift SimpleName MethodInvocation MethodInvocation SimpleName table name
+instance SimpleName MethodInvocation MethodInvocation SimpleName table name
+credentials SimpleName MethodInvocation MethodInvocation SimpleName class name
+to thrift SimpleName MethodInvocation MethodInvocation SimpleName class name
+instance SimpleName MethodInvocation MethodInvocation SimpleName class name
+credentials SimpleName MethodInvocation MethodInvocation SimpleName as type name
+to thrift SimpleName MethodInvocation MethodInvocation SimpleName as type name
+instance SimpleName MethodInvocation MethodInvocation SimpleName as type name
+table name SimpleName MethodInvocation SimpleName class name
+table name SimpleName MethodInvocation SimpleName as type name
+class name SimpleName MethodInvocation SimpleName as type name
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName boolean
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName execute
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName client
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration SimpleType SimpleName boolean
+public Modifier MethodDeclaration SimpleName execute
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType QualifiedName client serviceclient
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName client
+public Modifier MethodDeclaration SimpleType SimpleName exception
+boolean SimpleName SimpleType MethodDeclaration SimpleName execute
+boolean SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName client
+boolean SimpleName SimpleType MethodDeclaration SimpleType SimpleName exception
+execute SimpleName MethodDeclaration SingleVariableDeclaration SimpleType QualifiedName client serviceclient
+execute SimpleName MethodDeclaration SingleVariableDeclaration SimpleName client
+execute SimpleName MethodDeclaration SimpleType SimpleName exception
+client SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+server client SimpleName MethodInvocation SimpleName execute raw
+server client SimpleName MethodInvocation SimpleName instance
+execute raw SimpleName MethodInvocation SimpleName instance
+thrift table operation exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+e SimpleName MethodInvocation SimpleName get type
+table not found exception SimpleName SimpleType ClassInstanceCreation SimpleName e
+namespace not found exception SimpleName SimpleType ClassInstanceCreation SimpleName e
+table not found exception SimpleName SimpleType ClassInstanceCreation SimpleName table name
+table not found exception SimpleName SimpleType ClassInstanceCreation ClassInstanceCreation SimpleName e
+table name SimpleName ClassInstanceCreation ClassInstanceCreation SimpleType SimpleName namespace not found exception
+table name SimpleName ClassInstanceCreation ClassInstanceCreation SimpleName e
+accumulo exception SimpleName SimpleType ClassInstanceCreation QualifiedName edescription
+accumulo exception SimpleName SimpleType ClassInstanceCreation SimpleName e
+edescription QualifiedName ClassInstanceCreation SimpleName e
+e SimpleName MethodInvocation SwitchStatement SwitchCase SimpleName notfound
+get type SimpleName MethodInvocation SwitchStatement SwitchCase SimpleName notfound
+e SimpleName MethodInvocation SwitchStatement SwitchCase SimpleName namespace notfound
+get type SimpleName MethodInvocation SwitchStatement SwitchCase SimpleName namespace notfound
+notfound SimpleName SwitchCase SwitchStatement SwitchCase SimpleName namespace notfound
+thrift security exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+accumulo security exception SimpleName SimpleType ClassInstanceCreation QualifiedName euser
+accumulo security exception SimpleName SimpleType ClassInstanceCreation QualifiedName ecode
+accumulo security exception SimpleName SimpleType ClassInstanceCreation SimpleName e
+euser QualifiedName ClassInstanceCreation QualifiedName ecode
+euser QualifiedName ClassInstanceCreation SimpleName e
+ecode QualifiedName ClassInstanceCreation SimpleName e
+accumulo exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+accumulo exception SimpleName SimpleType ClassInstanceCreation SimpleName e
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType boolean
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName test class load
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration Modifier final
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName table name
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration Modifier final
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName class name
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName test class load
+public Modifier MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName table name
+public Modifier MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName class name
+public Modifier MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName as type name
+boolean PrimitiveType MethodDeclaration SimpleName test class load
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration Modifier final
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName table name
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration Modifier final
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName class name
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration Modifier final
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName as type name
+boolean PrimitiveType MethodDeclaration SimpleType SimpleName table not found exception
+test class load SimpleName MethodDeclaration SingleVariableDeclaration Modifier final
+test class load SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+test class load SimpleName MethodDeclaration SingleVariableDeclaration SimpleName table name
+test class load SimpleName MethodDeclaration SingleVariableDeclaration Modifier final
+test class load SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+test class load SimpleName MethodDeclaration SingleVariableDeclaration SimpleName class name
+test class load SimpleName MethodDeclaration SingleVariableDeclaration Modifier final
+test class load SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+test class load SimpleName MethodDeclaration SingleVariableDeclaration SimpleName as type name
+test class load SimpleName MethodDeclaration SimpleType SimpleName table not found exception
+test class load SimpleName MethodDeclaration SimpleType SimpleName accumulo exception
+final Modifier SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+final Modifier SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName class name
+table name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+table name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName class name
+final Modifier SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+final Modifier SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName as type name
+table name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+table name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName as type name
+final Modifier SingleVariableDeclaration MethodDeclaration SimpleType SimpleName table not found exception
+table name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName table not found exception
+final Modifier SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+table name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+final Modifier SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+table name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+final Modifier SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+final Modifier SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName as type name
+class name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+class name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName as type name
+final Modifier SingleVariableDeclaration MethodDeclaration SimpleType SimpleName table not found exception
+class name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName table not found exception
+final Modifier SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+class name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+final Modifier SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+class name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+final Modifier SingleVariableDeclaration MethodDeclaration SimpleType SimpleName table not found exception
+as type name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName table not found exception
+final Modifier SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+as type name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+final Modifier SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+as type name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+table not found exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName accumulo exception
+table not found exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName accumulo security exception
+accumulo exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName accumulo security exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName test class load
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName class name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName as type name
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName table not found exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test class load
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName class name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName as type name
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName table not found exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception

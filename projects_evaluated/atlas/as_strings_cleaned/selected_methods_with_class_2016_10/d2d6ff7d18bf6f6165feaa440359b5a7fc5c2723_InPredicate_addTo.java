@@ -1,0 +1,31 @@
+native titan graph query SimpleName SimpleType SingleVariableDeclaration SimpleName query
+query SimpleName MethodInvocation SimpleName in
+query SimpleName MethodInvocation SimpleName property name
+query SimpleName MethodInvocation SimpleName values
+in SimpleName MethodInvocation SimpleName property name
+in SimpleName MethodInvocation SimpleName values
+property name SimpleName MethodInvocation SimpleName values
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName add to
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName query
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName add to
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName native titan graph query
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName query
+void PrimitiveType MethodDeclaration SimpleName add to
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName native titan graph query
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName query
+add to SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName native titan graph query
+add to SimpleName MethodDeclaration SingleVariableDeclaration SimpleName query
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName add to
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName query
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName add to
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName query

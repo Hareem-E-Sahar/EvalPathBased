@@ -1,0 +1,55 @@
+depends on methods SimpleName MemberValuePair StringLiteral test submit entity
+test SimpleName NormalAnnotation MemberValuePair SimpleName depends on methods
+test SimpleName NormalAnnotation MemberValuePair StringLiteral test submit entity
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+atlas client v SimpleName MethodInvocation SimpleName list entities
+atlas client v SimpleName MethodInvocation SimpleName hive table type
+list entities SimpleName MethodInvocation SimpleName hive table type
+entities SimpleName VariableDeclarationFragment MethodInvocation SimpleName atlas client v
+entities SimpleName VariableDeclarationFragment MethodInvocation SimpleName list entities
+entities SimpleName VariableDeclarationFragment MethodInvocation SimpleName hive table type
+assert SimpleName MethodInvocation SimpleName assert not null
+assert SimpleName MethodInvocation SimpleName entities
+assert not null SimpleName MethodInvocation SimpleName entities
+table id SimpleName MethodInvocation SimpleName get id
+entities SimpleName MethodInvocation SimpleName contains
+entities SimpleName MethodInvocation MethodInvocation SimpleName table id
+entities SimpleName MethodInvocation MethodInvocation SimpleName get id
+contains SimpleName MethodInvocation MethodInvocation SimpleName table id
+contains SimpleName MethodInvocation MethodInvocation SimpleName get id
+assert SimpleName MethodInvocation SimpleName assert true
+assert SimpleName MethodInvocation MethodInvocation SimpleName entities
+assert SimpleName MethodInvocation MethodInvocation SimpleName contains
+assert SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName table id
+assert SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get id
+assert true SimpleName MethodInvocation MethodInvocation SimpleName entities
+assert true SimpleName MethodInvocation MethodInvocation SimpleName contains
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName table id
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get id
+test SimpleName NormalAnnotation MethodDeclaration Modifier public
+depends on methods SimpleName MemberValuePair NormalAnnotation MethodDeclaration Modifier public
+test submit entity StringLiteral MemberValuePair NormalAnnotation MethodDeclaration Modifier public
+test SimpleName NormalAnnotation MethodDeclaration PrimitiveType void
+depends on methods SimpleName MemberValuePair NormalAnnotation MethodDeclaration PrimitiveType void
+test submit entity StringLiteral MemberValuePair NormalAnnotation MethodDeclaration PrimitiveType void
+test SimpleName NormalAnnotation MethodDeclaration SimpleName test get entity list
+depends on methods SimpleName MemberValuePair NormalAnnotation MethodDeclaration SimpleName test get entity list
+test submit entity StringLiteral MemberValuePair NormalAnnotation MethodDeclaration SimpleName test get entity list
+test SimpleName NormalAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test get entity list
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName test get entity list
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+test get entity list SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration NormalAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test get entity list
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration NormalAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test get entity list
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

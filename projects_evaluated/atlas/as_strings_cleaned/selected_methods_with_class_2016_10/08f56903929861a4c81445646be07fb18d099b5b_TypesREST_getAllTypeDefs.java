@@ -1,0 +1,76 @@
+path SimpleName SingleMemberAnnotation StringLiteral typedefs
+produces SimpleName SingleMemberAnnotation QualifiedName servletsjson media type
+search filter SimpleName VariableDeclarationFragment MethodInvocation SimpleName get search filter
+search filter SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName search filter
+atlas types def SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName types def
+type def store SimpleName MethodInvocation SimpleName search types def
+type def store SimpleName MethodInvocation SimpleName search filter
+search types def SimpleName MethodInvocation SimpleName search filter
+types def SimpleName Assignment MethodInvocation SimpleName type def store
+types def SimpleName Assignment MethodInvocation SimpleName search types def
+types def SimpleName Assignment MethodInvocation SimpleName search filter
+atlas base exception SimpleName SimpleType SingleVariableDeclaration SimpleName ex
+servlets SimpleName MethodInvocation SimpleName get error response
+servlets SimpleName MethodInvocation SimpleName ex
+servlets SimpleName MethodInvocation QualifiedName responsestatusnot found
+get error response SimpleName MethodInvocation SimpleName ex
+get error response SimpleName MethodInvocation QualifiedName responsestatusnot found
+ex SimpleName MethodInvocation QualifiedName responsestatusnot found
+web application exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName servlets
+web application exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get error response
+web application exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName ex
+web application exception SimpleName SimpleType ClassInstanceCreation MethodInvocation QualifiedName responsestatusnot found
+get SimpleName MarkerAnnotation MethodDeclaration SingleMemberAnnotation SimpleName path
+get SimpleName MarkerAnnotation MethodDeclaration SingleMemberAnnotation StringLiteral typedefs
+get SimpleName MarkerAnnotation MethodDeclaration SingleMemberAnnotation SimpleName produces
+get SimpleName MarkerAnnotation MethodDeclaration SingleMemberAnnotation QualifiedName servletsjson media type
+get SimpleName MarkerAnnotation MethodDeclaration Modifier public
+get SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName atlas types def
+get SimpleName MarkerAnnotation MethodDeclaration SimpleName get all type defs
+path SimpleName SingleMemberAnnotation MethodDeclaration SingleMemberAnnotation SimpleName produces
+path SimpleName SingleMemberAnnotation MethodDeclaration SingleMemberAnnotation QualifiedName servletsjson media type
+typedefs StringLiteral SingleMemberAnnotation MethodDeclaration SingleMemberAnnotation SimpleName produces
+typedefs StringLiteral SingleMemberAnnotation MethodDeclaration SingleMemberAnnotation QualifiedName servletsjson media type
+path SimpleName SingleMemberAnnotation MethodDeclaration Modifier public
+typedefs StringLiteral SingleMemberAnnotation MethodDeclaration Modifier public
+path SimpleName SingleMemberAnnotation MethodDeclaration SimpleType SimpleName atlas types def
+typedefs StringLiteral SingleMemberAnnotation MethodDeclaration SimpleType SimpleName atlas types def
+path SimpleName SingleMemberAnnotation MethodDeclaration SimpleName get all type defs
+typedefs StringLiteral SingleMemberAnnotation MethodDeclaration SimpleName get all type defs
+path SimpleName SingleMemberAnnotation MethodDeclaration SimpleType SimpleName exception
+typedefs StringLiteral SingleMemberAnnotation MethodDeclaration SimpleType SimpleName exception
+produces SimpleName SingleMemberAnnotation MethodDeclaration Modifier public
+servletsjson media type QualifiedName SingleMemberAnnotation MethodDeclaration Modifier public
+produces SimpleName SingleMemberAnnotation MethodDeclaration SimpleType SimpleName atlas types def
+servletsjson media type QualifiedName SingleMemberAnnotation MethodDeclaration SimpleType SimpleName atlas types def
+produces SimpleName SingleMemberAnnotation MethodDeclaration SimpleName get all type defs
+servletsjson media type QualifiedName SingleMemberAnnotation MethodDeclaration SimpleName get all type defs
+produces SimpleName SingleMemberAnnotation MethodDeclaration SimpleType SimpleName exception
+servletsjson media type QualifiedName SingleMemberAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration SimpleType SimpleName atlas types def
+public Modifier MethodDeclaration SimpleName get all type defs
+public Modifier MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration Block ReturnStatement SimpleName types def
+atlas types def SimpleName SimpleType MethodDeclaration SimpleName get all type defs
+atlas types def SimpleName SimpleType MethodDeclaration SimpleType SimpleName exception
+get all type defs SimpleName MethodDeclaration SimpleType SimpleName exception
+get all type defs SimpleName MethodDeclaration Block ReturnStatement SimpleName types def
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName get
+public Modifier TypeDeclaration MethodDeclaration SingleMemberAnnotation SimpleName path
+public Modifier TypeDeclaration MethodDeclaration SingleMemberAnnotation StringLiteral typedefs
+public Modifier TypeDeclaration MethodDeclaration SingleMemberAnnotation SimpleName produces
+public Modifier TypeDeclaration MethodDeclaration SingleMemberAnnotation QualifiedName servletsjson media type
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas types def
+public Modifier TypeDeclaration MethodDeclaration SimpleName get all type defs
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName get
+test SimpleName TypeDeclaration MethodDeclaration SingleMemberAnnotation SimpleName path
+test SimpleName TypeDeclaration MethodDeclaration SingleMemberAnnotation StringLiteral typedefs
+test SimpleName TypeDeclaration MethodDeclaration SingleMemberAnnotation SimpleName produces
+test SimpleName TypeDeclaration MethodDeclaration SingleMemberAnnotation QualifiedName servletsjson media type
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas types def
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get all type defs
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

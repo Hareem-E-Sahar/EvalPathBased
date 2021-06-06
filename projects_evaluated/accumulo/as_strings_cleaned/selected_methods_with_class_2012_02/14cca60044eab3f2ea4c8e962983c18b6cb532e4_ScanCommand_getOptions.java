@@ -1,0 +1,229 @@
+o SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName options
+options SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName o
+option SimpleName SimpleType ClassInstanceCreation StringLiteral s
+option SimpleName SimpleType ClassInstanceCreation StringLiteral scanauthorizations
+option SimpleName SimpleType ClassInstanceCreation BooleanLiteral true
+option SimpleName SimpleType ClassInstanceCreation StringLiteral scan authorizations all user auths are used if this argument is not specified
+s StringLiteral ClassInstanceCreation StringLiteral scanauthorizations
+s StringLiteral ClassInstanceCreation BooleanLiteral true
+s StringLiteral ClassInstanceCreation StringLiteral scan authorizations all user auths are used if this argument is not specified
+scanauthorizations StringLiteral ClassInstanceCreation BooleanLiteral true
+scanauthorizations StringLiteral ClassInstanceCreation StringLiteral scan authorizations all user auths are used if this argument is not specified
+true BooleanLiteral ClassInstanceCreation StringLiteral scan authorizations all user auths are used if this argument is not specified
+scan opt auths SimpleName Assignment ClassInstanceCreation SimpleType SimpleName option
+scan opt auths SimpleName Assignment ClassInstanceCreation StringLiteral s
+scan opt auths SimpleName Assignment ClassInstanceCreation StringLiteral scanauthorizations
+scan opt auths SimpleName Assignment ClassInstanceCreation BooleanLiteral true
+scan opt auths SimpleName Assignment ClassInstanceCreation StringLiteral scan authorizations all user auths are used if this argument is not specified
+option SimpleName SimpleType ClassInstanceCreation StringLiteral b
+option SimpleName SimpleType ClassInstanceCreation StringLiteral beginrow
+option SimpleName SimpleType ClassInstanceCreation BooleanLiteral true
+option SimpleName SimpleType ClassInstanceCreation StringLiteral begin row inclusive
+b StringLiteral ClassInstanceCreation StringLiteral beginrow
+b StringLiteral ClassInstanceCreation BooleanLiteral true
+b StringLiteral ClassInstanceCreation StringLiteral begin row inclusive
+beginrow StringLiteral ClassInstanceCreation BooleanLiteral true
+beginrow StringLiteral ClassInstanceCreation StringLiteral begin row inclusive
+true BooleanLiteral ClassInstanceCreation StringLiteral begin row inclusive
+scan opt start row SimpleName Assignment ClassInstanceCreation SimpleType SimpleName option
+scan opt start row SimpleName Assignment ClassInstanceCreation StringLiteral b
+scan opt start row SimpleName Assignment ClassInstanceCreation StringLiteral beginrow
+scan opt start row SimpleName Assignment ClassInstanceCreation BooleanLiteral true
+scan opt start row SimpleName Assignment ClassInstanceCreation StringLiteral begin row inclusive
+option SimpleName SimpleType ClassInstanceCreation StringLiteral e
+option SimpleName SimpleType ClassInstanceCreation StringLiteral endrow
+option SimpleName SimpleType ClassInstanceCreation BooleanLiteral true
+option SimpleName SimpleType ClassInstanceCreation StringLiteral end row inclusive
+e StringLiteral ClassInstanceCreation StringLiteral endrow
+e StringLiteral ClassInstanceCreation BooleanLiteral true
+e StringLiteral ClassInstanceCreation StringLiteral end row inclusive
+endrow StringLiteral ClassInstanceCreation BooleanLiteral true
+endrow StringLiteral ClassInstanceCreation StringLiteral end row inclusive
+true BooleanLiteral ClassInstanceCreation StringLiteral end row inclusive
+scan opt end row SimpleName Assignment ClassInstanceCreation SimpleType SimpleName option
+scan opt end row SimpleName Assignment ClassInstanceCreation StringLiteral e
+scan opt end row SimpleName Assignment ClassInstanceCreation StringLiteral endrow
+scan opt end row SimpleName Assignment ClassInstanceCreation BooleanLiteral true
+scan opt end row SimpleName Assignment ClassInstanceCreation StringLiteral end row inclusive
+option SimpleName SimpleType ClassInstanceCreation StringLiteral r
+option SimpleName SimpleType ClassInstanceCreation StringLiteral row
+option SimpleName SimpleType ClassInstanceCreation BooleanLiteral true
+option SimpleName SimpleType ClassInstanceCreation StringLiteral row to scan
+r StringLiteral ClassInstanceCreation StringLiteral row
+r StringLiteral ClassInstanceCreation BooleanLiteral true
+r StringLiteral ClassInstanceCreation StringLiteral row to scan
+row StringLiteral ClassInstanceCreation BooleanLiteral true
+row StringLiteral ClassInstanceCreation StringLiteral row to scan
+true BooleanLiteral ClassInstanceCreation StringLiteral row to scan
+scan opt row SimpleName Assignment ClassInstanceCreation SimpleType SimpleName option
+scan opt row SimpleName Assignment ClassInstanceCreation StringLiteral r
+scan opt row SimpleName Assignment ClassInstanceCreation StringLiteral row
+scan opt row SimpleName Assignment ClassInstanceCreation BooleanLiteral true
+scan opt row SimpleName Assignment ClassInstanceCreation StringLiteral row to scan
+option SimpleName SimpleType ClassInstanceCreation StringLiteral c
+option SimpleName SimpleType ClassInstanceCreation StringLiteral columns
+option SimpleName SimpleType ClassInstanceCreation BooleanLiteral true
+option SimpleName SimpleType ClassInstanceCreation StringLiteral commaseparated columns
+c StringLiteral ClassInstanceCreation StringLiteral columns
+c StringLiteral ClassInstanceCreation BooleanLiteral true
+c StringLiteral ClassInstanceCreation StringLiteral commaseparated columns
+columns StringLiteral ClassInstanceCreation BooleanLiteral true
+columns StringLiteral ClassInstanceCreation StringLiteral commaseparated columns
+true BooleanLiteral ClassInstanceCreation StringLiteral commaseparated columns
+scan opt columns SimpleName Assignment ClassInstanceCreation SimpleType SimpleName option
+scan opt columns SimpleName Assignment ClassInstanceCreation StringLiteral c
+scan opt columns SimpleName Assignment ClassInstanceCreation StringLiteral columns
+scan opt columns SimpleName Assignment ClassInstanceCreation BooleanLiteral true
+scan opt columns SimpleName Assignment ClassInstanceCreation StringLiteral commaseparated columns
+option SimpleName SimpleType ClassInstanceCreation StringLiteral st
+option SimpleName SimpleType ClassInstanceCreation StringLiteral showtimestamps
+option SimpleName SimpleType ClassInstanceCreation BooleanLiteral false
+option SimpleName SimpleType ClassInstanceCreation StringLiteral enables displaying timestamps
+st StringLiteral ClassInstanceCreation StringLiteral showtimestamps
+st StringLiteral ClassInstanceCreation BooleanLiteral false
+st StringLiteral ClassInstanceCreation StringLiteral enables displaying timestamps
+showtimestamps StringLiteral ClassInstanceCreation BooleanLiteral false
+showtimestamps StringLiteral ClassInstanceCreation StringLiteral enables displaying timestamps
+false BooleanLiteral ClassInstanceCreation StringLiteral enables displaying timestamps
+timestamp opt SimpleName Assignment ClassInstanceCreation SimpleType SimpleName option
+timestamp opt SimpleName Assignment ClassInstanceCreation StringLiteral st
+timestamp opt SimpleName Assignment ClassInstanceCreation StringLiteral showtimestamps
+timestamp opt SimpleName Assignment ClassInstanceCreation BooleanLiteral false
+timestamp opt SimpleName Assignment ClassInstanceCreation StringLiteral enables displaying timestamps
+option SimpleName SimpleType ClassInstanceCreation StringLiteral np
+option SimpleName SimpleType ClassInstanceCreation StringLiteral nopagination
+option SimpleName SimpleType ClassInstanceCreation BooleanLiteral false
+option SimpleName SimpleType ClassInstanceCreation StringLiteral disables pagination of output
+np StringLiteral ClassInstanceCreation StringLiteral nopagination
+np StringLiteral ClassInstanceCreation BooleanLiteral false
+np StringLiteral ClassInstanceCreation StringLiteral disables pagination of output
+nopagination StringLiteral ClassInstanceCreation BooleanLiteral false
+nopagination StringLiteral ClassInstanceCreation StringLiteral disables pagination of output
+false BooleanLiteral ClassInstanceCreation StringLiteral disables pagination of output
+disable pagination opt SimpleName Assignment ClassInstanceCreation SimpleType SimpleName option
+disable pagination opt SimpleName Assignment ClassInstanceCreation StringLiteral np
+disable pagination opt SimpleName Assignment ClassInstanceCreation StringLiteral nopagination
+disable pagination opt SimpleName Assignment ClassInstanceCreation BooleanLiteral false
+disable pagination opt SimpleName Assignment ClassInstanceCreation StringLiteral disables pagination of output
+option SimpleName SimpleType ClassInstanceCreation QualifiedName shelltable option
+option SimpleName SimpleType ClassInstanceCreation StringLiteral table name
+option SimpleName SimpleType ClassInstanceCreation BooleanLiteral true
+option SimpleName SimpleType ClassInstanceCreation StringLiteral table to be scanned
+shelltable option QualifiedName ClassInstanceCreation StringLiteral table name
+shelltable option QualifiedName ClassInstanceCreation BooleanLiteral true
+shelltable option QualifiedName ClassInstanceCreation StringLiteral table to be scanned
+table name StringLiteral ClassInstanceCreation BooleanLiteral true
+table name StringLiteral ClassInstanceCreation StringLiteral table to be scanned
+true BooleanLiteral ClassInstanceCreation StringLiteral table to be scanned
+table opt SimpleName Assignment ClassInstanceCreation SimpleType SimpleName option
+table opt SimpleName Assignment ClassInstanceCreation QualifiedName shelltable option
+table opt SimpleName Assignment ClassInstanceCreation StringLiteral table name
+table opt SimpleName Assignment ClassInstanceCreation BooleanLiteral true
+table opt SimpleName Assignment ClassInstanceCreation StringLiteral table to be scanned
+option SimpleName SimpleType ClassInstanceCreation StringLiteral f
+option SimpleName SimpleType ClassInstanceCreation StringLiteral show few
+option SimpleName SimpleType ClassInstanceCreation BooleanLiteral true
+option SimpleName SimpleType ClassInstanceCreation StringLiteral only shows certain amount of characters
+f StringLiteral ClassInstanceCreation StringLiteral show few
+f StringLiteral ClassInstanceCreation BooleanLiteral true
+f StringLiteral ClassInstanceCreation StringLiteral only shows certain amount of characters
+show few StringLiteral ClassInstanceCreation BooleanLiteral true
+show few StringLiteral ClassInstanceCreation StringLiteral only shows certain amount of characters
+true BooleanLiteral ClassInstanceCreation StringLiteral only shows certain amount of characters
+show few opt SimpleName Assignment ClassInstanceCreation SimpleType SimpleName option
+show few opt SimpleName Assignment ClassInstanceCreation StringLiteral f
+show few opt SimpleName Assignment ClassInstanceCreation StringLiteral show few
+show few opt SimpleName Assignment ClassInstanceCreation BooleanLiteral true
+show few opt SimpleName Assignment ClassInstanceCreation StringLiteral only shows certain amount of characters
+option SimpleName SimpleType ClassInstanceCreation StringLiteral fm
+option SimpleName SimpleType ClassInstanceCreation StringLiteral formatter
+option SimpleName SimpleType ClassInstanceCreation BooleanLiteral true
+option SimpleName SimpleType ClassInstanceCreation StringLiteral fully qualified name of the formatter class to use
+fm StringLiteral ClassInstanceCreation StringLiteral formatter
+fm StringLiteral ClassInstanceCreation BooleanLiteral true
+fm StringLiteral ClassInstanceCreation StringLiteral fully qualified name of the formatter class to use
+formatter StringLiteral ClassInstanceCreation BooleanLiteral true
+formatter StringLiteral ClassInstanceCreation StringLiteral fully qualified name of the formatter class to use
+true BooleanLiteral ClassInstanceCreation StringLiteral fully qualified name of the formatter class to use
+formatter opt SimpleName Assignment ClassInstanceCreation SimpleType SimpleName option
+formatter opt SimpleName Assignment ClassInstanceCreation StringLiteral fm
+formatter opt SimpleName Assignment ClassInstanceCreation StringLiteral formatter
+formatter opt SimpleName Assignment ClassInstanceCreation BooleanLiteral true
+formatter opt SimpleName Assignment ClassInstanceCreation StringLiteral fully qualified name of the formatter class to use
+scan opt auths SimpleName MethodInvocation SimpleName set arg name
+scan opt auths SimpleName MethodInvocation StringLiteral commaseparatedauthorizations
+set arg name SimpleName MethodInvocation StringLiteral commaseparatedauthorizations
+scan opt row SimpleName MethodInvocation SimpleName set arg name
+scan opt row SimpleName MethodInvocation StringLiteral row
+set arg name SimpleName MethodInvocation StringLiteral row
+scan opt start row SimpleName MethodInvocation SimpleName set arg name
+scan opt start row SimpleName MethodInvocation StringLiteral startrow
+set arg name SimpleName MethodInvocation StringLiteral startrow
+scan opt end row SimpleName MethodInvocation SimpleName set arg name
+scan opt end row SimpleName MethodInvocation StringLiteral endrow
+set arg name SimpleName MethodInvocation StringLiteral endrow
+scan opt columns SimpleName MethodInvocation SimpleName set arg name
+scan opt columns SimpleName MethodInvocation StringLiteral columnfamilycolumnqualifiercolumnfamilycolumnqualifier
+set arg name SimpleName MethodInvocation StringLiteral columnfamilycolumnqualifiercolumnfamilycolumnqualifier
+table opt SimpleName MethodInvocation SimpleName set arg name
+table opt SimpleName MethodInvocation StringLiteral table
+set arg name SimpleName MethodInvocation StringLiteral table
+table opt SimpleName MethodInvocation SimpleName set required
+table opt SimpleName MethodInvocation BooleanLiteral false
+set required SimpleName MethodInvocation BooleanLiteral false
+show few opt SimpleName MethodInvocation SimpleName set required
+show few opt SimpleName MethodInvocation BooleanLiteral false
+set required SimpleName MethodInvocation BooleanLiteral false
+show few opt SimpleName MethodInvocation SimpleName set arg name
+show few opt SimpleName MethodInvocation StringLiteral int
+set arg name SimpleName MethodInvocation StringLiteral int
+formatter opt SimpleName MethodInvocation SimpleName set arg name
+formatter opt SimpleName MethodInvocation StringLiteral class name
+set arg name SimpleName MethodInvocation StringLiteral class name
+o SimpleName MethodInvocation SimpleName add option
+o SimpleName MethodInvocation SimpleName scan opt auths
+add option SimpleName MethodInvocation SimpleName scan opt auths
+o SimpleName MethodInvocation SimpleName add option
+o SimpleName MethodInvocation SimpleName scan opt row
+add option SimpleName MethodInvocation SimpleName scan opt row
+o SimpleName MethodInvocation SimpleName add option
+o SimpleName MethodInvocation SimpleName scan opt start row
+add option SimpleName MethodInvocation SimpleName scan opt start row
+o SimpleName MethodInvocation SimpleName add option
+o SimpleName MethodInvocation SimpleName scan opt end row
+add option SimpleName MethodInvocation SimpleName scan opt end row
+o SimpleName MethodInvocation SimpleName add option
+o SimpleName MethodInvocation SimpleName scan opt columns
+add option SimpleName MethodInvocation SimpleName scan opt columns
+o SimpleName MethodInvocation SimpleName add option
+o SimpleName MethodInvocation SimpleName timestamp opt
+add option SimpleName MethodInvocation SimpleName timestamp opt
+o SimpleName MethodInvocation SimpleName add option
+o SimpleName MethodInvocation SimpleName disable pagination opt
+add option SimpleName MethodInvocation SimpleName disable pagination opt
+o SimpleName MethodInvocation SimpleName add option
+o SimpleName MethodInvocation SimpleName table opt
+add option SimpleName MethodInvocation SimpleName table opt
+o SimpleName MethodInvocation SimpleName add option
+o SimpleName MethodInvocation SimpleName show few opt
+add option SimpleName MethodInvocation SimpleName show few opt
+o SimpleName MethodInvocation SimpleName add option
+o SimpleName MethodInvocation SimpleName formatter opt
+add option SimpleName MethodInvocation SimpleName formatter opt
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName options
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName get options
+public Modifier MethodDeclaration SimpleType SimpleName options
+public Modifier MethodDeclaration SimpleName get options
+public Modifier MethodDeclaration Block ReturnStatement SimpleName o
+options SimpleName SimpleType MethodDeclaration SimpleName get options
+get options SimpleName MethodDeclaration Block ReturnStatement SimpleName o
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName options
+public Modifier TypeDeclaration MethodDeclaration SimpleName get options
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName options
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get options

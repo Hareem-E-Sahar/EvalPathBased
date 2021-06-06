@@ -1,0 +1,20 @@
+h base based audit repository SimpleName SimpleType TypeLiteral MethodInvocation SimpleName get name
+application properties SimpleName MethodInvocation SimpleName get class
+application properties SimpleName MethodInvocation SimpleName audit repository implementation property
+application properties SimpleName MethodInvocation MethodInvocation SimpleName get name
+application properties SimpleName MethodInvocation TypeLiteral SimpleType SimpleName entity audit repository
+get class SimpleName MethodInvocation SimpleName audit repository implementation property
+get class SimpleName MethodInvocation MethodInvocation SimpleName get name
+get class SimpleName MethodInvocation TypeLiteral SimpleType SimpleName entity audit repository
+audit repository implementation property SimpleName MethodInvocation MethodInvocation SimpleName get name
+audit repository implementation property SimpleName MethodInvocation TypeLiteral SimpleType SimpleName entity audit repository
+atlas exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+runtime exception SimpleName SimpleType ClassInstanceCreation SimpleName e
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName class
+private Modifier MethodDeclaration SimpleName get audit repository impl
+class SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get audit repository impl
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleName get audit repository impl
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get audit repository impl

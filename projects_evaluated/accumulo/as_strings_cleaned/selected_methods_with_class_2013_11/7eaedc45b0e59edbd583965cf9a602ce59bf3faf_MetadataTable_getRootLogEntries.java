@@ -1,0 +1,87 @@
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName log entry
+array list SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName result
+log entry SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName result
+zoo reader writer SimpleName MethodInvocation SimpleName get instance
+zoo SimpleName VariableDeclarationFragment MethodInvocation SimpleName zoo reader writer
+zoo SimpleName VariableDeclarationFragment MethodInvocation SimpleName get instance
+i zoo reader writer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName zoo
+root SimpleName VariableDeclarationFragment MethodInvocation SimpleName get zookeeper log location
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName root
+result SimpleName MethodInvocation SimpleName clear
+string SimpleName SimpleType SingleVariableDeclaration SimpleName child
+zoo SimpleName MethodInvocation SimpleName get children
+zoo SimpleName MethodInvocation SimpleName root
+get children SimpleName MethodInvocation SimpleName root
+e SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName log entry
+log entry SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName e
+root SimpleName InfixExpression StringLiteral /
+root SimpleName InfixExpression SimpleName child
+/ StringLiteral InfixExpression SimpleName child
+zoo SimpleName MethodInvocation SimpleName get data
+zoo SimpleName MethodInvocation InfixExpression SimpleName root
+zoo SimpleName MethodInvocation InfixExpression StringLiteral /
+zoo SimpleName MethodInvocation InfixExpression SimpleName child
+get data SimpleName MethodInvocation InfixExpression SimpleName root
+get data SimpleName MethodInvocation InfixExpression StringLiteral /
+get data SimpleName MethodInvocation InfixExpression SimpleName child
+e SimpleName MethodInvocation SimpleName from bytes
+e SimpleName MethodInvocation MethodInvocation SimpleName zoo
+e SimpleName MethodInvocation MethodInvocation SimpleName get data
+e SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName root
+e SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral /
+e SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName child
+from bytes SimpleName MethodInvocation MethodInvocation SimpleName zoo
+from bytes SimpleName MethodInvocation MethodInvocation SimpleName get data
+from bytes SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName root
+from bytes SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral /
+from bytes SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName child
+result SimpleName MethodInvocation SimpleName add
+result SimpleName MethodInvocation SimpleName e
+add SimpleName MethodInvocation SimpleName e
+keeper exceptionno node exception QualifiedName SimpleType SingleVariableDeclaration SimpleName ex
+child SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName zoo
+child SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName get children
+child SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName root
+private Modifier MethodDeclaration Modifier static
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName get root log entries
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName result
+private Modifier MethodDeclaration SimpleType SimpleName keeper exception
+static Modifier MethodDeclaration PrimitiveType void
+static Modifier MethodDeclaration SimpleName get root log entries
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName result
+static Modifier MethodDeclaration SimpleType SimpleName keeper exception
+static Modifier MethodDeclaration SimpleType SimpleName interrupted exception
+void PrimitiveType MethodDeclaration SimpleName get root log entries
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName result
+void PrimitiveType MethodDeclaration SimpleType SimpleName keeper exception
+void PrimitiveType MethodDeclaration SimpleType SimpleName interrupted exception
+void PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+get root log entries SimpleName MethodDeclaration SingleVariableDeclaration SimpleName result
+get root log entries SimpleName MethodDeclaration SimpleType SimpleName keeper exception
+get root log entries SimpleName MethodDeclaration SimpleType SimpleName interrupted exception
+get root log entries SimpleName MethodDeclaration SimpleType SimpleName io exception
+get root log entries SimpleName MethodDeclaration Block WhileStatement BooleanLiteral true
+result SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName keeper exception
+result SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName interrupted exception
+result SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+keeper exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName interrupted exception
+keeper exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName io exception
+interrupted exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName get root log entries
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName result
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName keeper exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName interrupted exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get root log entries
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName result
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName keeper exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName interrupted exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

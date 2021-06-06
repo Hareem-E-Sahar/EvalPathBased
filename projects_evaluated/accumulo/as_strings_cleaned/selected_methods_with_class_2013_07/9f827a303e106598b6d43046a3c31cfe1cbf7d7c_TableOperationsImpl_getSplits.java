@@ -1,0 +1,54 @@
+collection SimpleName SimpleType ParameterizedType SimpleType SimpleName text
+string SimpleName SimpleType SingleVariableDeclaration SimpleName table name
+int PrimitiveType SingleVariableDeclaration SimpleName max splits
+list splits SimpleName MethodInvocation SimpleName table name
+list splits SimpleName MethodInvocation SimpleName max splits
+table name SimpleName MethodInvocation SimpleName max splits
+accumulo security exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+runtime exception SimpleName SimpleType ClassInstanceCreation SimpleName e
+deprecated SimpleName MarkerAnnotation MethodDeclaration MarkerAnnotation SimpleName override
+deprecated SimpleName MarkerAnnotation MethodDeclaration Modifier public
+deprecated SimpleName MarkerAnnotation MethodDeclaration SimpleName get splits
+deprecated SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName table name
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName get splits
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName table name
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration PrimitiveType int
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName max splits
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName collection
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName text
+public Modifier MethodDeclaration SimpleName get splits
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName table name
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName max splits
+public Modifier MethodDeclaration SimpleType SimpleName table not found exception
+collection SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get splits
+text SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get splits
+get splits SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get splits SimpleName MethodDeclaration SingleVariableDeclaration SimpleName table name
+get splits SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+get splits SimpleName MethodDeclaration SingleVariableDeclaration SimpleName max splits
+get splits SimpleName MethodDeclaration SimpleType SimpleName table not found exception
+table name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+table name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName max splits
+table name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName table not found exception
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SimpleType SimpleName table not found exception
+max splits SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName table not found exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName deprecated
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName get splits
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName max splits
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName table not found exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName deprecated
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get splits
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName max splits
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName table not found exception

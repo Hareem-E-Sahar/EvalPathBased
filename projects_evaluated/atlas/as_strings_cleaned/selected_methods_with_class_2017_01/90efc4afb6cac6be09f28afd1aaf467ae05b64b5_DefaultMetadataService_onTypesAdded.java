@@ -1,0 +1,39 @@
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName i data type
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName i data type
+map SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName types added
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName types added
+i data type SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName types added
+types change listener SimpleName SimpleType SingleVariableDeclaration SimpleName listener
+types added SimpleName MethodInvocation SimpleName values
+listener SimpleName MethodInvocation SimpleName on add
+listener SimpleName MethodInvocation MethodInvocation SimpleName types added
+listener SimpleName MethodInvocation MethodInvocation SimpleName values
+on add SimpleName MethodInvocation MethodInvocation SimpleName types added
+on add SimpleName MethodInvocation MethodInvocation SimpleName values
+types change listener SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName type change listeners
+listener SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName type change listeners
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName on types added
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName types added
+private Modifier MethodDeclaration SimpleType SimpleName atlas exception
+private Modifier MethodDeclaration Block EnhancedForStatement SimpleName type change listeners
+void PrimitiveType MethodDeclaration SimpleName on types added
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName types added
+void PrimitiveType MethodDeclaration SimpleType SimpleName atlas exception
+void PrimitiveType MethodDeclaration Block EnhancedForStatement SimpleName type change listeners
+on types added SimpleName MethodDeclaration SingleVariableDeclaration SimpleName types added
+on types added SimpleName MethodDeclaration SimpleType SimpleName atlas exception
+on types added SimpleName MethodDeclaration Block EnhancedForStatement SimpleName type change listeners
+types added SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName on types added
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName types added
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName on types added
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName types added
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception

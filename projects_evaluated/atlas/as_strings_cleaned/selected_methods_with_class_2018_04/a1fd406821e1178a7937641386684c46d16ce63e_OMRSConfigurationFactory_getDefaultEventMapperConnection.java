@@ -1,0 +1,10 @@
+private Modifier MethodDeclaration SimpleType SimpleName connection
+private Modifier MethodDeclaration SimpleName get default event mapper connection
+connection SimpleName SimpleType MethodDeclaration SimpleName get default event mapper connection
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName connection
+public Modifier TypeDeclaration MethodDeclaration SimpleName get default event mapper connection
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName connection
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get default event mapper connection

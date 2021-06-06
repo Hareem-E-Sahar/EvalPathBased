@@ -1,0 +1,10 @@
+public Modifier MethodDeclaration SimpleType SimpleName groovy expression
+public Modifier MethodDeclaration SimpleName get closure argument value
+groovy expression SimpleName SimpleType MethodDeclaration SimpleName get closure argument value
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName groovy expression
+public Modifier TypeDeclaration MethodDeclaration SimpleName get closure argument value
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName groovy expression
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get closure argument value

@@ -1,0 +1,107 @@
+boolean PrimitiveType SingleVariableDeclaration SimpleName fail on error
+string SimpleName SimpleType SingleVariableDeclaration SimpleName database to import
+string SimpleName SimpleType SingleVariableDeclaration SimpleName table to import
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+final Modifier VariableDeclarationStatement ParameterizedType SimpleType SimpleName list
+final Modifier VariableDeclarationStatement ParameterizedType SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName database names
+string utils SimpleName MethodInvocation SimpleName is empty
+string utils SimpleName MethodInvocation SimpleName database to import
+is empty SimpleName MethodInvocation SimpleName database to import
+hive client SimpleName MethodInvocation SimpleName get all databases
+database names SimpleName Assignment MethodInvocation SimpleName hive client
+database names SimpleName Assignment MethodInvocation SimpleName get all databases
+hive client SimpleName MethodInvocation SimpleName get databases by pattern
+hive client SimpleName MethodInvocation SimpleName database to import
+get databases by pattern SimpleName MethodInvocation SimpleName database to import
+database names SimpleName Assignment MethodInvocation SimpleName hive client
+database names SimpleName Assignment MethodInvocation SimpleName get databases by pattern
+database names SimpleName Assignment MethodInvocation SimpleName database to import
+collection utils SimpleName MethodInvocation SimpleName is empty
+collection utils SimpleName MethodInvocation SimpleName database names
+is empty SimpleName MethodInvocation SimpleName database names
+database names SimpleName MethodInvocation SimpleName size
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation StringLiteral found {} databases
+log SimpleName MethodInvocation MethodInvocation SimpleName database names
+log SimpleName MethodInvocation MethodInvocation SimpleName size
+info SimpleName MethodInvocation StringLiteral found {} databases
+info SimpleName MethodInvocation MethodInvocation SimpleName database names
+info SimpleName MethodInvocation MethodInvocation SimpleName size
+found {} databases StringLiteral MethodInvocation MethodInvocation SimpleName database names
+found {} databases StringLiteral MethodInvocation MethodInvocation SimpleName size
+string SimpleName SimpleType SingleVariableDeclaration SimpleName database name
+register database SimpleName MethodInvocation SimpleName database name
+db entity SimpleName VariableDeclarationFragment MethodInvocation SimpleName register database
+db entity SimpleName VariableDeclarationFragment MethodInvocation SimpleName database name
+atlas entity with ext info SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName db entity
+db entity SimpleName MethodInvocation SimpleName get entity
+import tables SimpleName MethodInvocation MethodInvocation SimpleName db entity
+import tables SimpleName MethodInvocation MethodInvocation SimpleName get entity
+import tables SimpleName MethodInvocation SimpleName database name
+import tables SimpleName MethodInvocation SimpleName table to import
+import tables SimpleName MethodInvocation SimpleName fail on error
+db entity SimpleName MethodInvocation MethodInvocation SimpleName database name
+get entity SimpleName MethodInvocation MethodInvocation SimpleName database name
+db entity SimpleName MethodInvocation MethodInvocation SimpleName table to import
+get entity SimpleName MethodInvocation MethodInvocation SimpleName table to import
+db entity SimpleName MethodInvocation MethodInvocation SimpleName fail on error
+get entity SimpleName MethodInvocation MethodInvocation SimpleName fail on error
+database name SimpleName MethodInvocation SimpleName table to import
+database name SimpleName MethodInvocation SimpleName fail on error
+table to import SimpleName MethodInvocation SimpleName fail on error
+string SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName database names
+database name SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName database names
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation StringLiteral no database found
+info SimpleName MethodInvocation StringLiteral no database found
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName import databases
+private Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName fail on error
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName database to import
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName table to import
+void PrimitiveType MethodDeclaration SimpleName import databases
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName fail on error
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName database to import
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName table to import
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+import databases SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+import databases SimpleName MethodDeclaration SingleVariableDeclaration SimpleName fail on error
+import databases SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+import databases SimpleName MethodDeclaration SingleVariableDeclaration SimpleName database to import
+import databases SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+import databases SimpleName MethodDeclaration SingleVariableDeclaration SimpleName table to import
+import databases SimpleName MethodDeclaration SimpleType SimpleName exception
+import databases SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+boolean PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName database to import
+fail on error SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName database to import
+boolean PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table to import
+fail on error SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table to import
+boolean PrimitiveType SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+fail on error SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+database to import SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table to import
+database to import SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+table to import SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName import databases
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName fail on error
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName database to import
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table to import
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName import databases
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName fail on error
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName database to import
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table to import
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

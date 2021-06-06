@@ -1,0 +1,189 @@
+referenceable SimpleName SimpleType SingleVariableDeclaration SimpleName table ref
+int PrimitiveType SingleVariableDeclaration SimpleName num buckets
+immutable list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+immutable list SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName bucket col names
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName bucket col names
+immutable list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+immutable list SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName sortcol names
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName sortcol names
+table ref SimpleName MethodInvocation SimpleName get
+table ref SimpleName MethodInvocation QualifiedName hive meta store bridgestorage desc
+get SimpleName MethodInvocation QualifiedName hive meta store bridgestorage desc
+referenceable SimpleName SimpleType CastExpression MethodInvocation SimpleName table ref
+referenceable SimpleName SimpleType CastExpression MethodInvocation SimpleName get
+referenceable SimpleName SimpleType CastExpression MethodInvocation QualifiedName hive meta store bridgestorage desc
+sd ref SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName referenceable
+sd ref SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName table ref
+sd ref SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get
+sd ref SimpleName VariableDeclarationFragment CastExpression MethodInvocation QualifiedName hive meta store bridgestorage desc
+referenceable SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName sd ref
+sd ref SimpleName MethodInvocation SimpleName get
+sd ref SimpleName MethodInvocation QualifiedName hive meta store bridgestorage num buckets
+get SimpleName MethodInvocation QualifiedName hive meta store bridgestorage num buckets
+scalamathbig int QualifiedName SimpleType CastExpression MethodInvocation SimpleName sd ref
+scalamathbig int QualifiedName SimpleType CastExpression MethodInvocation SimpleName get
+scalamathbig int QualifiedName SimpleType CastExpression MethodInvocation QualifiedName hive meta store bridgestorage num buckets
+assert SimpleName MethodInvocation SimpleName assert equals
+assert SimpleName MethodInvocation MethodInvocation SimpleName int value
+assert SimpleName MethodInvocation SimpleName num buckets
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName int value
+assert equals SimpleName MethodInvocation SimpleName num buckets
+int value SimpleName MethodInvocation MethodInvocation SimpleName num buckets
+sd ref SimpleName MethodInvocation SimpleName get
+sd ref SimpleName MethodInvocation StringLiteral bucket cols
+get SimpleName MethodInvocation StringLiteral bucket cols
+assert SimpleName MethodInvocation SimpleName assert equals
+assert SimpleName MethodInvocation MethodInvocation SimpleName sd ref
+assert SimpleName MethodInvocation MethodInvocation SimpleName get
+assert SimpleName MethodInvocation MethodInvocation StringLiteral bucket cols
+assert SimpleName MethodInvocation SimpleName bucket col names
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName sd ref
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get
+assert equals SimpleName MethodInvocation MethodInvocation StringLiteral bucket cols
+assert equals SimpleName MethodInvocation SimpleName bucket col names
+sd ref SimpleName MethodInvocation MethodInvocation SimpleName bucket col names
+get SimpleName MethodInvocation MethodInvocation SimpleName bucket col names
+bucket cols StringLiteral MethodInvocation MethodInvocation SimpleName bucket col names
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName struct
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName struct
+sd ref SimpleName MethodInvocation SimpleName get
+sd ref SimpleName MethodInvocation StringLiteral sort cols
+get SimpleName MethodInvocation StringLiteral sort cols
+hive order struct list SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName sd ref
+hive order struct list SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get
+hive order struct list SimpleName VariableDeclarationFragment CastExpression MethodInvocation StringLiteral sort cols
+assert SimpleName MethodInvocation SimpleName assert not null
+assert SimpleName MethodInvocation SimpleName hive order struct list
+assert not null SimpleName MethodInvocation SimpleName hive order struct list
+hive order struct list SimpleName MethodInvocation SimpleName size
+sortcol names SimpleName MethodInvocation SimpleName size
+assert SimpleName MethodInvocation SimpleName assert equals
+assert SimpleName MethodInvocation MethodInvocation SimpleName hive order struct list
+assert SimpleName MethodInvocation MethodInvocation SimpleName size
+assert SimpleName MethodInvocation MethodInvocation SimpleName sortcol names
+assert SimpleName MethodInvocation MethodInvocation SimpleName size
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName hive order struct list
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName size
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName sortcol names
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName size
+hive order struct list SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName sortcol names
+hive order struct list SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName size
+size SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName sortcol names
+size SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName size
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+sortcol names SimpleName MethodInvocation SimpleName size
+i SimpleName InfixExpression MethodInvocation SimpleName sortcol names
+i SimpleName InfixExpression MethodInvocation SimpleName size
+hive order struct list SimpleName MethodInvocation SimpleName get
+hive order struct list SimpleName MethodInvocation SimpleName i
+get SimpleName MethodInvocation SimpleName i
+hive order struct list SimpleName MethodInvocation MethodInvocation SimpleName get
+get SimpleName MethodInvocation MethodInvocation SimpleName get
+i SimpleName MethodInvocation MethodInvocation SimpleName get
+hive order struct list SimpleName MethodInvocation MethodInvocation StringLiteral col
+get SimpleName MethodInvocation MethodInvocation StringLiteral col
+i SimpleName MethodInvocation MethodInvocation StringLiteral col
+get SimpleName MethodInvocation StringLiteral col
+sortcol names SimpleName MethodInvocation SimpleName get
+sortcol names SimpleName MethodInvocation SimpleName i
+get SimpleName MethodInvocation SimpleName i
+assert SimpleName MethodInvocation SimpleName assert equals
+assert SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName hive order struct list
+assert SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+assert SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName i
+assert SimpleName MethodInvocation MethodInvocation SimpleName get
+assert SimpleName MethodInvocation MethodInvocation StringLiteral col
+assert SimpleName MethodInvocation MethodInvocation SimpleName sortcol names
+assert SimpleName MethodInvocation MethodInvocation SimpleName get
+assert SimpleName MethodInvocation MethodInvocation SimpleName i
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName hive order struct list
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName i
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get
+assert equals SimpleName MethodInvocation MethodInvocation StringLiteral col
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName sortcol names
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName i
+get SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName sortcol names
+get SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+get SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName i
+col StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName sortcol names
+col StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName get
+col StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName i
+hive order struct list SimpleName MethodInvocation SimpleName get
+hive order struct list SimpleName MethodInvocation SimpleName i
+get SimpleName MethodInvocation SimpleName i
+hive order struct list SimpleName MethodInvocation MethodInvocation SimpleName get
+get SimpleName MethodInvocation MethodInvocation SimpleName get
+i SimpleName MethodInvocation MethodInvocation SimpleName get
+hive order struct list SimpleName MethodInvocation MethodInvocation StringLiteral order
+get SimpleName MethodInvocation MethodInvocation StringLiteral order
+i SimpleName MethodInvocation MethodInvocation StringLiteral order
+get SimpleName MethodInvocation StringLiteral order
+scalamathbig int QualifiedName SimpleType CastExpression MethodInvocation SimpleName get
+scalamathbig int QualifiedName SimpleType CastExpression MethodInvocation StringLiteral order
+assert SimpleName MethodInvocation SimpleName assert equals
+assert SimpleName MethodInvocation MethodInvocation SimpleName int value
+assert SimpleName MethodInvocation NumberLiteral empty
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName int value
+assert equals SimpleName MethodInvocation NumberLiteral empty
+int value SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName verify bucket sorting properties
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName referenceable
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName table ref
+private Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName num buckets
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName bucket col names
+void PrimitiveType MethodDeclaration SimpleName verify bucket sorting properties
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName referenceable
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName table ref
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName num buckets
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName bucket col names
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName sortcol names
+verify bucket sorting properties SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName referenceable
+verify bucket sorting properties SimpleName MethodDeclaration SingleVariableDeclaration SimpleName table ref
+verify bucket sorting properties SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+verify bucket sorting properties SimpleName MethodDeclaration SingleVariableDeclaration SimpleName num buckets
+verify bucket sorting properties SimpleName MethodDeclaration SingleVariableDeclaration SimpleName bucket col names
+verify bucket sorting properties SimpleName MethodDeclaration SingleVariableDeclaration SimpleName sortcol names
+verify bucket sorting properties SimpleName MethodDeclaration SimpleType SimpleName exception
+table ref SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+table ref SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName num buckets
+table ref SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName bucket col names
+table ref SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName sortcol names
+table ref SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName bucket col names
+num buckets SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName bucket col names
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName sortcol names
+num buckets SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName sortcol names
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+num buckets SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+bucket col names SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName sortcol names
+bucket col names SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+sortcol names SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName verify bucket sorting properties
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table ref
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName num buckets
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName bucket col names
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName sortcol names
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName verify bucket sorting properties
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table ref
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName num buckets
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName bucket col names
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName sortcol names
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

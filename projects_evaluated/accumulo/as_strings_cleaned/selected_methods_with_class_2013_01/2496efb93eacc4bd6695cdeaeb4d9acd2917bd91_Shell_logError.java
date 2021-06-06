@@ -1,0 +1,37 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName s
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation SimpleName s
+error SimpleName MethodInvocation SimpleName s
+error StringLiteral InfixExpression SimpleName s
+error StringLiteral InfixExpression StringLiteral empty
+s SimpleName InfixExpression StringLiteral empty
+reader SimpleName MethodInvocation SimpleName print string
+reader SimpleName MethodInvocation InfixExpression StringLiteral error
+reader SimpleName MethodInvocation InfixExpression SimpleName s
+reader SimpleName MethodInvocation InfixExpression StringLiteral empty
+print string SimpleName MethodInvocation InfixExpression StringLiteral error
+print string SimpleName MethodInvocation InfixExpression SimpleName s
+print string SimpleName MethodInvocation InfixExpression StringLiteral empty
+reader SimpleName MethodInvocation SimpleName flush console
+io exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName log error
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName s
+private Modifier MethodDeclaration Block IfStatement SimpleName log errors to console
+void PrimitiveType MethodDeclaration SimpleName log error
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName s
+void PrimitiveType MethodDeclaration Block IfStatement SimpleName log errors to console
+log error SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+log error SimpleName MethodDeclaration SingleVariableDeclaration SimpleName s
+log error SimpleName MethodDeclaration Block IfStatement SimpleName log errors to console
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName log error
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName s
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName log error
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName s

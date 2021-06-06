@@ -1,0 +1,26 @@
+request context SimpleName MethodInvocation SimpleName get metrics
+request metrics SimpleName VariableDeclarationFragment MethodInvocation SimpleName request context
+request metrics SimpleName VariableDeclarationFragment MethodInvocation SimpleName get metrics
+metrics SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName request metrics
+request metrics SimpleName MethodInvocation SimpleName is empty
+metrics log SimpleName MethodInvocation SimpleName info
+metrics log SimpleName MethodInvocation StringLiteral {}
+metrics log SimpleName MethodInvocation SimpleName request metrics
+info SimpleName MethodInvocation StringLiteral {}
+info SimpleName MethodInvocation SimpleName request metrics
+{} StringLiteral MethodInvocation SimpleName request metrics
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName record metrics
+static Modifier MethodDeclaration PrimitiveType void
+static Modifier MethodDeclaration SimpleName record metrics
+void PrimitiveType MethodDeclaration SimpleName record metrics
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName record metrics
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName record metrics

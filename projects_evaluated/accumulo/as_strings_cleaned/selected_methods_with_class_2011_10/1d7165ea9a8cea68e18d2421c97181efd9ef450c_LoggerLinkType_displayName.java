@@ -1,0 +1,47 @@
+recovery status SimpleName SimpleType SingleVariableDeclaration SimpleName status
+statushost QualifiedName InfixExpression IfStatement ReturnStatement StringLiteral unknown
+address util SimpleName MethodInvocation SimpleName parse address
+address util SimpleName MethodInvocation QualifiedName statushost
+address util SimpleName MethodInvocation NumberLiteral empty
+parse address SimpleName MethodInvocation QualifiedName statushost
+parse address SimpleName MethodInvocation NumberLiteral empty
+statushost QualifiedName MethodInvocation NumberLiteral empty
+monitor address SimpleName VariableDeclarationFragment MethodInvocation SimpleName address util
+monitor address SimpleName VariableDeclarationFragment MethodInvocation SimpleName parse address
+monitor address SimpleName VariableDeclarationFragment MethodInvocation QualifiedName statushost
+monitor address SimpleName VariableDeclarationFragment MethodInvocation NumberLiteral empty
+inet socket address SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName monitor address
+monitor address SimpleName MethodInvocation SimpleName get host name
+monitor address SimpleName MethodInvocation SimpleName get port
+monitor address SimpleName MethodInvocation InfixExpression StringLiteral :
+get host name SimpleName MethodInvocation InfixExpression StringLiteral :
+monitor address SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName monitor address
+monitor address SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get port
+get host name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName monitor address
+get host name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get port
+: StringLiteral InfixExpression MethodInvocation SimpleName monitor address
+: StringLiteral InfixExpression MethodInvocation SimpleName get port
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName display name
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName recovery status
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName status
+static Modifier MethodDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SimpleName display name
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName recovery status
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName status
+string SimpleName SimpleType MethodDeclaration SimpleName display name
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName status
+display name SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName recovery status
+display name SimpleName MethodDeclaration SingleVariableDeclaration SimpleName status
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName display name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName status
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName display name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName status

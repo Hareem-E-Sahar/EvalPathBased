@@ -1,0 +1,112 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName atlas endpoint
+hive conf SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName hive conf
+hive conf SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName hive conf
+hive conf SimpleName MethodInvocation SimpleName set var
+hive conf SimpleName MethodInvocation QualifiedName hive confconf varspreexechooks
+hive conf SimpleName MethodInvocation StringLiteral empty
+set var SimpleName MethodInvocation QualifiedName hive confconf varspreexechooks
+set var SimpleName MethodInvocation StringLiteral empty
+hive confconf varspreexechooks QualifiedName MethodInvocation StringLiteral empty
+hive hook SimpleName SimpleType TypeLiteral MethodInvocation SimpleName get name
+hive conf SimpleName MethodInvocation SimpleName set var
+hive conf SimpleName MethodInvocation QualifiedName hive confconf varspostexechooks
+hive conf SimpleName MethodInvocation MethodInvocation SimpleName get name
+set var SimpleName MethodInvocation QualifiedName hive confconf varspostexechooks
+set var SimpleName MethodInvocation MethodInvocation SimpleName get name
+hive confconf varspostexechooks QualifiedName MethodInvocation MethodInvocation SimpleName get name
+hive conf SimpleName MethodInvocation SimpleName set bool var
+hive conf SimpleName MethodInvocation QualifiedName hive confconf varshive support concurrency
+hive conf SimpleName MethodInvocation BooleanLiteral false
+set bool var SimpleName MethodInvocation QualifiedName hive confconf varshive support concurrency
+set bool var SimpleName MethodInvocation BooleanLiteral false
+hive confconf varshive support concurrency QualifiedName MethodInvocation BooleanLiteral false
+system SimpleName MethodInvocation SimpleName get property
+system SimpleName MethodInvocation StringLiteral userdir
+get property SimpleName MethodInvocation StringLiteral userdir
+system SimpleName MethodInvocation InfixExpression StringLiteral targetmetastore
+get property SimpleName MethodInvocation InfixExpression StringLiteral targetmetastore
+userdir StringLiteral MethodInvocation InfixExpression StringLiteral targetmetastore
+hive conf SimpleName MethodInvocation SimpleName set var
+hive conf SimpleName MethodInvocation QualifiedName hive confconf varsmetastorewarehouse
+hive conf SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName system
+hive conf SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get property
+hive conf SimpleName MethodInvocation InfixExpression MethodInvocation StringLiteral userdir
+hive conf SimpleName MethodInvocation InfixExpression StringLiteral targetmetastore
+set var SimpleName MethodInvocation QualifiedName hive confconf varsmetastorewarehouse
+set var SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName system
+set var SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get property
+set var SimpleName MethodInvocation InfixExpression MethodInvocation StringLiteral userdir
+set var SimpleName MethodInvocation InfixExpression StringLiteral targetmetastore
+hive confconf varsmetastorewarehouse QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName system
+hive confconf varsmetastorewarehouse QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName get property
+hive confconf varsmetastorewarehouse QualifiedName MethodInvocation InfixExpression MethodInvocation StringLiteral userdir
+hive confconf varsmetastorewarehouse QualifiedName MethodInvocation InfixExpression StringLiteral targetmetastore
+hive conf SimpleName MethodInvocation SimpleName set
+hive conf SimpleName MethodInvocation QualifiedName hive meta store bridgeatlas endpoint
+hive conf SimpleName MethodInvocation SimpleName atlas endpoint
+set SimpleName MethodInvocation QualifiedName hive meta store bridgeatlas endpoint
+set SimpleName MethodInvocation SimpleName atlas endpoint
+hive meta store bridgeatlas endpoint QualifiedName MethodInvocation SimpleName atlas endpoint
+hive conf SimpleName MethodInvocation SimpleName set var
+hive conf SimpleName MethodInvocation QualifiedName hive confconf varsmetastoreconnecturlkey
+hive conf SimpleName MethodInvocation StringLiteral jdbcderbytargetmetastore dbcreatetrue
+set var SimpleName MethodInvocation QualifiedName hive confconf varsmetastoreconnecturlkey
+set var SimpleName MethodInvocation StringLiteral jdbcderbytargetmetastore dbcreatetrue
+hive confconf varsmetastoreconnecturlkey QualifiedName MethodInvocation StringLiteral jdbcderbytargetmetastore dbcreatetrue
+hive conf SimpleName MethodInvocation SimpleName set
+hive conf SimpleName MethodInvocation QualifiedName hive hookconf sync
+hive conf SimpleName MethodInvocation StringLiteral true
+set SimpleName MethodInvocation QualifiedName hive hookconf sync
+set SimpleName MethodInvocation StringLiteral true
+hive hookconf sync QualifiedName MethodInvocation StringLiteral true
+hive conf SimpleName MethodInvocation SimpleName set
+hive conf SimpleName MethodInvocation QualifiedName hive meta store bridgehive cluster name
+hive conf SimpleName MethodInvocation SimpleName cluster name
+set SimpleName MethodInvocation QualifiedName hive meta store bridgehive cluster name
+set SimpleName MethodInvocation SimpleName cluster name
+hive meta store bridgehive cluster name QualifiedName MethodInvocation SimpleName cluster name
+hive conf SimpleName MethodInvocation SimpleName set bool var
+hive conf SimpleName MethodInvocation QualifiedName hive confconf varshivetestmode
+hive conf SimpleName MethodInvocation BooleanLiteral true
+set bool var SimpleName MethodInvocation QualifiedName hive confconf varshivetestmode
+set bool var SimpleName MethodInvocation BooleanLiteral true
+hive confconf varshivetestmode QualifiedName MethodInvocation BooleanLiteral true
+hive conf SimpleName MethodInvocation SimpleName set var
+hive conf SimpleName MethodInvocation QualifiedName hive confconf varshivetestmodeprefix
+hive conf SimpleName MethodInvocation StringLiteral empty
+set var SimpleName MethodInvocation QualifiedName hive confconf varshivetestmodeprefix
+set var SimpleName MethodInvocation StringLiteral empty
+hive confconf varshivetestmodeprefix QualifiedName MethodInvocation StringLiteral empty
+hive conf SimpleName MethodInvocation SimpleName set
+hive conf SimpleName MethodInvocation StringLiteral fspfileimpl
+hive conf SimpleName MethodInvocation StringLiteral orgapachehadoopfsproxy local file system
+set SimpleName MethodInvocation StringLiteral fspfileimpl
+set SimpleName MethodInvocation StringLiteral orgapachehadoopfsproxy local file system
+fspfileimpl StringLiteral MethodInvocation StringLiteral orgapachehadoopfsproxy local file system
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName hive conf
+public Modifier MethodDeclaration SimpleName create hive conf
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName atlas endpoint
+public Modifier MethodDeclaration Block ReturnStatement SimpleName hive conf
+static Modifier MethodDeclaration SimpleType SimpleName hive conf
+static Modifier MethodDeclaration SimpleName create hive conf
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName atlas endpoint
+static Modifier MethodDeclaration Block ReturnStatement SimpleName hive conf
+hive conf SimpleName SimpleType MethodDeclaration SimpleName create hive conf
+hive conf SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName atlas endpoint
+create hive conf SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+create hive conf SimpleName MethodDeclaration SingleVariableDeclaration SimpleName atlas endpoint
+create hive conf SimpleName MethodDeclaration Block ReturnStatement SimpleName hive conf
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName hive conf
+public Modifier TypeDeclaration MethodDeclaration SimpleName create hive conf
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName atlas endpoint
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName hive conf
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create hive conf
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName atlas endpoint

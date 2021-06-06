@@ -1,0 +1,500 @@
+depends on methods SimpleName MemberValuePair StringLiteral test create
+test SimpleName NormalAnnotation MemberValuePair SimpleName depends on methods
+test SimpleName NormalAnnotation MemberValuePair StringLiteral test create
+tbl entity SimpleName MethodInvocation SimpleName get entity
+atlas entity SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName tbl entity
+atlas entity SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get entity
+table entity SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName atlas entity
+table entity SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName tbl entity
+table entity SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get entity
+atlas entity SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName table entity
+atlas entities with ext info SimpleName SimpleType ClassInstanceCreation SimpleName table entity
+entities info SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName atlas entities with ext info
+entities info SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName table entity
+atlas entities with ext info SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName entities info
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas struct
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas struct
+atlas struct SimpleName SimpleType ClassInstanceCreation QualifiedName test utilspartition struct type
+atlas struct SimpleName SimpleType ClassInstanceCreation QualifiedName test utils v name
+atlas struct SimpleName SimpleType ClassInstanceCreation StringLiteral test
+test utilspartition struct type QualifiedName ClassInstanceCreation QualifiedName test utils v name
+test utilspartition struct type QualifiedName ClassInstanceCreation StringLiteral test
+test utils v name QualifiedName ClassInstanceCreation StringLiteral test
+parts map SimpleName MethodInvocation SimpleName put
+parts map SimpleName MethodInvocation StringLiteral part
+parts map SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName atlas struct
+parts map SimpleName MethodInvocation ClassInstanceCreation QualifiedName test utilspartition struct type
+parts map SimpleName MethodInvocation ClassInstanceCreation QualifiedName test utils v name
+parts map SimpleName MethodInvocation ClassInstanceCreation StringLiteral test
+put SimpleName MethodInvocation StringLiteral part
+put SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName atlas struct
+put SimpleName MethodInvocation ClassInstanceCreation QualifiedName test utilspartition struct type
+put SimpleName MethodInvocation ClassInstanceCreation QualifiedName test utils v name
+put SimpleName MethodInvocation ClassInstanceCreation StringLiteral test
+part StringLiteral MethodInvocation ClassInstanceCreation SimpleType SimpleName atlas struct
+part StringLiteral MethodInvocation ClassInstanceCreation QualifiedName test utilspartition struct type
+part StringLiteral MethodInvocation ClassInstanceCreation QualifiedName test utils v name
+part StringLiteral MethodInvocation ClassInstanceCreation StringLiteral test
+table entity SimpleName MethodInvocation SimpleName set attribute
+table entity SimpleName MethodInvocation StringLiteral partitions map
+table entity SimpleName MethodInvocation SimpleName parts map
+set attribute SimpleName MethodInvocation StringLiteral partitions map
+set attribute SimpleName MethodInvocation SimpleName parts map
+partitions map StringLiteral MethodInvocation SimpleName parts map
+entities info SimpleName MethodInvocation SimpleName add referred entity
+entities info SimpleName MethodInvocation SimpleName table entity
+add referred entity SimpleName MethodInvocation SimpleName table entity
+atlas entity stream SimpleName SimpleType ClassInstanceCreation SimpleName entities info
+entity store SimpleName MethodInvocation SimpleName create or update
+entity store SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName atlas entity stream
+entity store SimpleName MethodInvocation ClassInstanceCreation SimpleName entities info
+create or update SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName atlas entity stream
+create or update SimpleName MethodInvocation ClassInstanceCreation SimpleName entities info
+response SimpleName VariableDeclarationFragment MethodInvocation SimpleName entity store
+response SimpleName VariableDeclarationFragment MethodInvocation SimpleName create or update
+response SimpleName VariableDeclarationFragment MethodInvocation ClassInstanceCreation SimpleName entities info
+entity mutation response SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName response
+response SimpleName MethodInvocation SimpleName get first updated entity by type name
+response SimpleName MethodInvocation QualifiedName test utils v table type
+get first updated entity by type name SimpleName MethodInvocation QualifiedName test utils v table type
+table definition SimpleName VariableDeclarationFragment MethodInvocation SimpleName response
+table definition SimpleName VariableDeclarationFragment MethodInvocation SimpleName get first updated entity by type name
+table definition SimpleName VariableDeclarationFragment MethodInvocation QualifiedName test utils v table type
+atlas entity header SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName table definition
+get entity from store SimpleName MethodInvocation SimpleName table definition
+validate entity SimpleName MethodInvocation SimpleName entities info
+validate entity SimpleName MethodInvocation MethodInvocation SimpleName get entity from store
+validate entity SimpleName MethodInvocation MethodInvocation SimpleName table definition
+entities info SimpleName MethodInvocation MethodInvocation SimpleName get entity from store
+entities info SimpleName MethodInvocation MethodInvocation SimpleName table definition
+parts map SimpleName MethodInvocation SimpleName get
+parts map SimpleName MethodInvocation StringLiteral part
+get SimpleName MethodInvocation StringLiteral part
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas struct
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas struct
+table definition SimpleName MethodInvocation SimpleName get attribute
+table definition SimpleName MethodInvocation StringLiteral partitions map
+get attribute SimpleName MethodInvocation StringLiteral partitions map
+get SimpleName MethodInvocation StringLiteral part
+parts map SimpleName MethodInvocation MethodInvocation SimpleName equals
+get SimpleName MethodInvocation MethodInvocation SimpleName equals
+part StringLiteral MethodInvocation MethodInvocation SimpleName equals
+parts map SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+parts map SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral part
+get SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+get SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral part
+part StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName get
+part StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral part
+equals SimpleName MethodInvocation MethodInvocation SimpleName get
+equals SimpleName MethodInvocation MethodInvocation StringLiteral part
+assert SimpleName MethodInvocation SimpleName assert true
+assert SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName parts map
+assert SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+assert SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral part
+assert SimpleName MethodInvocation MethodInvocation SimpleName equals
+assert SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+assert SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral part
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName parts map
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral part
+assert true SimpleName MethodInvocation MethodInvocation SimpleName equals
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral part
+atlas struct SimpleName SimpleType ClassInstanceCreation QualifiedName test utilspartition struct type
+atlas struct SimpleName SimpleType ClassInstanceCreation QualifiedName test utils v name
+atlas struct SimpleName SimpleType ClassInstanceCreation StringLiteral test
+test utilspartition struct type QualifiedName ClassInstanceCreation QualifiedName test utils v name
+test utilspartition struct type QualifiedName ClassInstanceCreation StringLiteral test
+test utils v name QualifiedName ClassInstanceCreation StringLiteral test
+parts map SimpleName MethodInvocation SimpleName put
+parts map SimpleName MethodInvocation StringLiteral part
+parts map SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName atlas struct
+parts map SimpleName MethodInvocation ClassInstanceCreation QualifiedName test utilspartition struct type
+parts map SimpleName MethodInvocation ClassInstanceCreation QualifiedName test utils v name
+parts map SimpleName MethodInvocation ClassInstanceCreation StringLiteral test
+put SimpleName MethodInvocation StringLiteral part
+put SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName atlas struct
+put SimpleName MethodInvocation ClassInstanceCreation QualifiedName test utilspartition struct type
+put SimpleName MethodInvocation ClassInstanceCreation QualifiedName test utils v name
+put SimpleName MethodInvocation ClassInstanceCreation StringLiteral test
+part StringLiteral MethodInvocation ClassInstanceCreation SimpleType SimpleName atlas struct
+part StringLiteral MethodInvocation ClassInstanceCreation QualifiedName test utilspartition struct type
+part StringLiteral MethodInvocation ClassInstanceCreation QualifiedName test utils v name
+part StringLiteral MethodInvocation ClassInstanceCreation StringLiteral test
+table entity SimpleName MethodInvocation SimpleName set attribute
+table entity SimpleName MethodInvocation StringLiteral partitions map
+table entity SimpleName MethodInvocation SimpleName parts map
+set attribute SimpleName MethodInvocation StringLiteral partitions map
+set attribute SimpleName MethodInvocation SimpleName parts map
+partitions map StringLiteral MethodInvocation SimpleName parts map
+atlas entity stream SimpleName SimpleType ClassInstanceCreation SimpleName entities info
+entity store SimpleName MethodInvocation SimpleName create or update
+entity store SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName atlas entity stream
+entity store SimpleName MethodInvocation ClassInstanceCreation SimpleName entities info
+create or update SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName atlas entity stream
+create or update SimpleName MethodInvocation ClassInstanceCreation SimpleName entities info
+response SimpleName Assignment MethodInvocation SimpleName entity store
+response SimpleName Assignment MethodInvocation SimpleName create or update
+response SimpleName Assignment MethodInvocation ClassInstanceCreation SimpleName entities info
+response SimpleName MethodInvocation SimpleName get first updated entity by type name
+response SimpleName MethodInvocation QualifiedName test utils v table type
+get first updated entity by type name SimpleName MethodInvocation QualifiedName test utils v table type
+table definition SimpleName VariableDeclarationFragment MethodInvocation SimpleName response
+table definition SimpleName VariableDeclarationFragment MethodInvocation SimpleName get first updated entity by type name
+table definition SimpleName VariableDeclarationFragment MethodInvocation QualifiedName test utils v table type
+atlas entity header SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName table definition
+get entity from store SimpleName MethodInvocation SimpleName table definition
+validate entity SimpleName MethodInvocation SimpleName entities info
+validate entity SimpleName MethodInvocation MethodInvocation SimpleName get entity from store
+validate entity SimpleName MethodInvocation MethodInvocation SimpleName table definition
+entities info SimpleName MethodInvocation MethodInvocation SimpleName get entity from store
+entities info SimpleName MethodInvocation MethodInvocation SimpleName table definition
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas struct
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas struct
+table definition SimpleName MethodInvocation SimpleName get attribute
+table definition SimpleName MethodInvocation StringLiteral partitions map
+get attribute SimpleName MethodInvocation StringLiteral partitions map
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName size
+assert equals SimpleName MethodInvocation NumberLiteral empty
+size SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+parts map SimpleName MethodInvocation SimpleName get
+parts map SimpleName MethodInvocation StringLiteral part
+get SimpleName MethodInvocation StringLiteral part
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas struct
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas struct
+table definition SimpleName MethodInvocation SimpleName get attribute
+table definition SimpleName MethodInvocation StringLiteral partitions map
+get attribute SimpleName MethodInvocation StringLiteral partitions map
+get SimpleName MethodInvocation StringLiteral part
+parts map SimpleName MethodInvocation MethodInvocation SimpleName equals
+get SimpleName MethodInvocation MethodInvocation SimpleName equals
+part StringLiteral MethodInvocation MethodInvocation SimpleName equals
+parts map SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+parts map SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral part
+get SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+get SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral part
+part StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName get
+part StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral part
+equals SimpleName MethodInvocation MethodInvocation SimpleName get
+equals SimpleName MethodInvocation MethodInvocation StringLiteral part
+assert SimpleName MethodInvocation SimpleName assert true
+assert SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName parts map
+assert SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+assert SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral part
+assert SimpleName MethodInvocation MethodInvocation SimpleName equals
+assert SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+assert SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral part
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName parts map
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral part
+assert true SimpleName MethodInvocation MethodInvocation SimpleName equals
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral part
+parts map SimpleName MethodInvocation SimpleName remove
+parts map SimpleName MethodInvocation StringLiteral part
+remove SimpleName MethodInvocation StringLiteral part
+atlas struct SimpleName SimpleType ClassInstanceCreation QualifiedName test utilspartition struct type
+atlas struct SimpleName SimpleType ClassInstanceCreation QualifiedName test utils v name
+atlas struct SimpleName SimpleType ClassInstanceCreation StringLiteral test
+test utilspartition struct type QualifiedName ClassInstanceCreation QualifiedName test utils v name
+test utilspartition struct type QualifiedName ClassInstanceCreation StringLiteral test
+test utils v name QualifiedName ClassInstanceCreation StringLiteral test
+parts map SimpleName MethodInvocation SimpleName put
+parts map SimpleName MethodInvocation StringLiteral part
+parts map SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName atlas struct
+parts map SimpleName MethodInvocation ClassInstanceCreation QualifiedName test utilspartition struct type
+parts map SimpleName MethodInvocation ClassInstanceCreation QualifiedName test utils v name
+parts map SimpleName MethodInvocation ClassInstanceCreation StringLiteral test
+put SimpleName MethodInvocation StringLiteral part
+put SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName atlas struct
+put SimpleName MethodInvocation ClassInstanceCreation QualifiedName test utilspartition struct type
+put SimpleName MethodInvocation ClassInstanceCreation QualifiedName test utils v name
+put SimpleName MethodInvocation ClassInstanceCreation StringLiteral test
+part StringLiteral MethodInvocation ClassInstanceCreation SimpleType SimpleName atlas struct
+part StringLiteral MethodInvocation ClassInstanceCreation QualifiedName test utilspartition struct type
+part StringLiteral MethodInvocation ClassInstanceCreation QualifiedName test utils v name
+part StringLiteral MethodInvocation ClassInstanceCreation StringLiteral test
+table entity SimpleName MethodInvocation SimpleName set attribute
+table entity SimpleName MethodInvocation StringLiteral partitions map
+table entity SimpleName MethodInvocation SimpleName parts map
+set attribute SimpleName MethodInvocation StringLiteral partitions map
+set attribute SimpleName MethodInvocation SimpleName parts map
+partitions map StringLiteral MethodInvocation SimpleName parts map
+atlas entity stream SimpleName SimpleType ClassInstanceCreation SimpleName entities info
+entity store SimpleName MethodInvocation SimpleName create or update
+entity store SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName atlas entity stream
+entity store SimpleName MethodInvocation ClassInstanceCreation SimpleName entities info
+create or update SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName atlas entity stream
+create or update SimpleName MethodInvocation ClassInstanceCreation SimpleName entities info
+response SimpleName Assignment MethodInvocation SimpleName entity store
+response SimpleName Assignment MethodInvocation SimpleName create or update
+response SimpleName Assignment MethodInvocation ClassInstanceCreation SimpleName entities info
+response SimpleName MethodInvocation SimpleName get first updated entity by type name
+response SimpleName MethodInvocation QualifiedName test utils v table type
+get first updated entity by type name SimpleName MethodInvocation QualifiedName test utils v table type
+table definition SimpleName VariableDeclarationFragment MethodInvocation SimpleName response
+table definition SimpleName VariableDeclarationFragment MethodInvocation SimpleName get first updated entity by type name
+table definition SimpleName VariableDeclarationFragment MethodInvocation QualifiedName test utils v table type
+atlas entity header SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName table definition
+get entity from store SimpleName MethodInvocation SimpleName table definition
+validate entity SimpleName MethodInvocation SimpleName entities info
+validate entity SimpleName MethodInvocation MethodInvocation SimpleName get entity from store
+validate entity SimpleName MethodInvocation MethodInvocation SimpleName table definition
+entities info SimpleName MethodInvocation MethodInvocation SimpleName get entity from store
+entities info SimpleName MethodInvocation MethodInvocation SimpleName table definition
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas struct
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas struct
+table definition SimpleName MethodInvocation SimpleName get attribute
+table definition SimpleName MethodInvocation StringLiteral partitions map
+get attribute SimpleName MethodInvocation StringLiteral partitions map
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName size
+assert equals SimpleName MethodInvocation NumberLiteral empty
+size SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas struct
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas struct
+table definition SimpleName MethodInvocation SimpleName get attribute
+table definition SimpleName MethodInvocation StringLiteral partitions map
+get attribute SimpleName MethodInvocation StringLiteral partitions map
+get SimpleName MethodInvocation StringLiteral part
+assert SimpleName MethodInvocation SimpleName assert null
+assert SimpleName MethodInvocation MethodInvocation SimpleName get
+assert SimpleName MethodInvocation MethodInvocation StringLiteral part
+assert null SimpleName MethodInvocation MethodInvocation SimpleName get
+assert null SimpleName MethodInvocation MethodInvocation StringLiteral part
+parts map SimpleName MethodInvocation SimpleName get
+parts map SimpleName MethodInvocation StringLiteral part
+get SimpleName MethodInvocation StringLiteral part
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas struct
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas struct
+table definition SimpleName MethodInvocation SimpleName get attribute
+table definition SimpleName MethodInvocation StringLiteral partitions map
+get attribute SimpleName MethodInvocation StringLiteral partitions map
+get SimpleName MethodInvocation StringLiteral part
+parts map SimpleName MethodInvocation MethodInvocation SimpleName equals
+get SimpleName MethodInvocation MethodInvocation SimpleName equals
+part StringLiteral MethodInvocation MethodInvocation SimpleName equals
+parts map SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+parts map SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral part
+get SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+get SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral part
+part StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName get
+part StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral part
+equals SimpleName MethodInvocation MethodInvocation SimpleName get
+equals SimpleName MethodInvocation MethodInvocation StringLiteral part
+assert SimpleName MethodInvocation SimpleName assert true
+assert SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName parts map
+assert SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+assert SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral part
+assert SimpleName MethodInvocation MethodInvocation SimpleName equals
+assert SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+assert SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral part
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName parts map
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral part
+assert true SimpleName MethodInvocation MethodInvocation SimpleName equals
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral part
+parts map SimpleName MethodInvocation SimpleName get
+parts map SimpleName MethodInvocation StringLiteral part
+get SimpleName MethodInvocation StringLiteral part
+partition SimpleName VariableDeclarationFragment MethodInvocation SimpleName parts map
+partition SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+partition SimpleName VariableDeclarationFragment MethodInvocation StringLiteral part
+atlas struct SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName partition
+partition SimpleName MethodInvocation SimpleName set attribute
+partition SimpleName MethodInvocation QualifiedName test utils v name
+partition SimpleName MethodInvocation StringLiteral test updated
+set attribute SimpleName MethodInvocation QualifiedName test utils v name
+set attribute SimpleName MethodInvocation StringLiteral test updated
+test utils v name QualifiedName MethodInvocation StringLiteral test updated
+atlas entity stream SimpleName SimpleType ClassInstanceCreation SimpleName entities info
+entity store SimpleName MethodInvocation SimpleName create or update
+entity store SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName atlas entity stream
+entity store SimpleName MethodInvocation ClassInstanceCreation SimpleName entities info
+create or update SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName atlas entity stream
+create or update SimpleName MethodInvocation ClassInstanceCreation SimpleName entities info
+response SimpleName Assignment MethodInvocation SimpleName entity store
+response SimpleName Assignment MethodInvocation SimpleName create or update
+response SimpleName Assignment MethodInvocation ClassInstanceCreation SimpleName entities info
+response SimpleName MethodInvocation SimpleName get first updated entity by type name
+response SimpleName MethodInvocation QualifiedName test utils v table type
+get first updated entity by type name SimpleName MethodInvocation QualifiedName test utils v table type
+table definition SimpleName VariableDeclarationFragment MethodInvocation SimpleName response
+table definition SimpleName VariableDeclarationFragment MethodInvocation SimpleName get first updated entity by type name
+table definition SimpleName VariableDeclarationFragment MethodInvocation QualifiedName test utils v table type
+atlas entity header SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName table definition
+get entity from store SimpleName MethodInvocation SimpleName table definition
+validate entity SimpleName MethodInvocation SimpleName entities info
+validate entity SimpleName MethodInvocation MethodInvocation SimpleName get entity from store
+validate entity SimpleName MethodInvocation MethodInvocation SimpleName table definition
+entities info SimpleName MethodInvocation MethodInvocation SimpleName get entity from store
+entities info SimpleName MethodInvocation MethodInvocation SimpleName table definition
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas struct
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas struct
+table definition SimpleName MethodInvocation SimpleName get attribute
+table definition SimpleName MethodInvocation StringLiteral partitions map
+get attribute SimpleName MethodInvocation StringLiteral partitions map
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName size
+assert equals SimpleName MethodInvocation NumberLiteral empty
+size SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas struct
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas struct
+table definition SimpleName MethodInvocation SimpleName get attribute
+table definition SimpleName MethodInvocation StringLiteral partitions map
+get attribute SimpleName MethodInvocation StringLiteral partitions map
+get SimpleName MethodInvocation StringLiteral part
+assert SimpleName MethodInvocation SimpleName assert null
+assert SimpleName MethodInvocation MethodInvocation SimpleName get
+assert SimpleName MethodInvocation MethodInvocation StringLiteral part
+assert null SimpleName MethodInvocation MethodInvocation SimpleName get
+assert null SimpleName MethodInvocation MethodInvocation StringLiteral part
+parts map SimpleName MethodInvocation SimpleName get
+parts map SimpleName MethodInvocation StringLiteral part
+get SimpleName MethodInvocation StringLiteral part
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas struct
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas struct
+table definition SimpleName MethodInvocation SimpleName get attribute
+table definition SimpleName MethodInvocation StringLiteral partitions map
+get attribute SimpleName MethodInvocation StringLiteral partitions map
+get SimpleName MethodInvocation StringLiteral part
+parts map SimpleName MethodInvocation MethodInvocation SimpleName equals
+get SimpleName MethodInvocation MethodInvocation SimpleName equals
+part StringLiteral MethodInvocation MethodInvocation SimpleName equals
+parts map SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+parts map SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral part
+get SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+get SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral part
+part StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName get
+part StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral part
+equals SimpleName MethodInvocation MethodInvocation SimpleName get
+equals SimpleName MethodInvocation MethodInvocation StringLiteral part
+assert SimpleName MethodInvocation SimpleName assert true
+assert SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName parts map
+assert SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+assert SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral part
+assert SimpleName MethodInvocation MethodInvocation SimpleName equals
+assert SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+assert SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral part
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName parts map
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral part
+assert true SimpleName MethodInvocation MethodInvocation SimpleName equals
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral part
+atlas entity SimpleName SimpleType ClassInstanceCreation QualifiedName test utils v column type
+atlas entity SimpleName SimpleType ClassInstanceCreation QualifiedName test utils v name
+atlas entity SimpleName SimpleType ClassInstanceCreation StringLiteral test
+test utils v column type QualifiedName ClassInstanceCreation QualifiedName test utils v name
+test utils v column type QualifiedName ClassInstanceCreation StringLiteral test
+test utils v name QualifiedName ClassInstanceCreation StringLiteral test
+col SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName atlas entity
+col SimpleName VariableDeclarationFragment ClassInstanceCreation QualifiedName test utils v column type
+col SimpleName VariableDeclarationFragment ClassInstanceCreation QualifiedName test utils v name
+col SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral test
+atlas entity SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName col
+col SimpleName MethodInvocation SimpleName set attribute
+col SimpleName MethodInvocation StringLiteral type
+col SimpleName MethodInvocation StringLiteral string
+set attribute SimpleName MethodInvocation StringLiteral type
+set attribute SimpleName MethodInvocation StringLiteral string
+type StringLiteral MethodInvocation StringLiteral string
+table entity SimpleName MethodInvocation SimpleName get atlas object id
+col SimpleName MethodInvocation SimpleName set attribute
+col SimpleName MethodInvocation StringLiteral table
+col SimpleName MethodInvocation MethodInvocation SimpleName table entity
+col SimpleName MethodInvocation MethodInvocation SimpleName get atlas object id
+set attribute SimpleName MethodInvocation StringLiteral table
+set attribute SimpleName MethodInvocation MethodInvocation SimpleName table entity
+set attribute SimpleName MethodInvocation MethodInvocation SimpleName get atlas object id
+table StringLiteral MethodInvocation MethodInvocation SimpleName table entity
+table StringLiteral MethodInvocation MethodInvocation SimpleName get atlas object id
+atlas entity with ext info SimpleName SimpleType ClassInstanceCreation SimpleName col
+col with extended info SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName atlas entity with ext info
+col with extended info SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName col
+atlas entity with ext info SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName col with extended info
+col with extended info SimpleName MethodInvocation SimpleName add referred entity
+col with extended info SimpleName MethodInvocation SimpleName table entity
+add referred entity SimpleName MethodInvocation SimpleName table entity
+db entity SimpleName MethodInvocation SimpleName get entity
+col with extended info SimpleName MethodInvocation SimpleName add referred entity
+col with extended info SimpleName MethodInvocation MethodInvocation SimpleName db entity
+col with extended info SimpleName MethodInvocation MethodInvocation SimpleName get entity
+add referred entity SimpleName MethodInvocation MethodInvocation SimpleName db entity
+add referred entity SimpleName MethodInvocation MethodInvocation SimpleName get entity
+atlas entity stream SimpleName SimpleType ClassInstanceCreation SimpleName col with extended info
+entity store SimpleName MethodInvocation SimpleName create or update
+entity store SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName atlas entity stream
+entity store SimpleName MethodInvocation ClassInstanceCreation SimpleName col with extended info
+create or update SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName atlas entity stream
+create or update SimpleName MethodInvocation ClassInstanceCreation SimpleName col with extended info
+atlas entity SimpleName SimpleType ClassInstanceCreation QualifiedName test utilscolumn type
+atlas entity SimpleName SimpleType ClassInstanceCreation QualifiedName test utils v name
+atlas entity SimpleName SimpleType ClassInstanceCreation StringLiteral test
+test utilscolumn type QualifiedName ClassInstanceCreation QualifiedName test utils v name
+test utilscolumn type QualifiedName ClassInstanceCreation StringLiteral test
+test utils v name QualifiedName ClassInstanceCreation StringLiteral test
+col SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName atlas entity
+col SimpleName VariableDeclarationFragment ClassInstanceCreation QualifiedName test utilscolumn type
+col SimpleName VariableDeclarationFragment ClassInstanceCreation QualifiedName test utils v name
+col SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral test
+atlas entity SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName col
+col SimpleName MethodInvocation SimpleName set attribute
+col SimpleName MethodInvocation StringLiteral type
+col SimpleName MethodInvocation StringLiteral string
+set attribute SimpleName MethodInvocation StringLiteral type
+set attribute SimpleName MethodInvocation StringLiteral string
+type StringLiteral MethodInvocation StringLiteral string
+table entity SimpleName MethodInvocation SimpleName get atlas object id
+col SimpleName MethodInvocation SimpleName set attribute
+col SimpleName MethodInvocation StringLiteral table
+col SimpleName MethodInvocation MethodInvocation SimpleName table entity
+col SimpleName MethodInvocation MethodInvocation SimpleName get atlas object id
+set attribute SimpleName MethodInvocation StringLiteral table
+set attribute SimpleName MethodInvocation MethodInvocation SimpleName table entity
+set attribute SimpleName MethodInvocation MethodInvocation SimpleName get atlas object id
+table StringLiteral MethodInvocation MethodInvocation SimpleName table entity
+table StringLiteral MethodInvocation MethodInvocation SimpleName get atlas object id
+atlas entity with ext info SimpleName SimpleType ClassInstanceCreation SimpleName col
+col with extended info SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName atlas entity with ext info
+col with extended info SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName col
+atlas entity with ext info SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName col with extended info
+col with extended info SimpleName MethodInvocation SimpleName add referred entity
+col with extended info SimpleName MethodInvocation SimpleName table entity
+add referred entity SimpleName MethodInvocation SimpleName table entity
+db entity SimpleName MethodInvocation SimpleName get entity
+col with extended info SimpleName MethodInvocation SimpleName add referred entity
+col with extended info SimpleName MethodInvocation MethodInvocation SimpleName db entity
+col with extended info SimpleName MethodInvocation MethodInvocation SimpleName get entity
+add referred entity SimpleName MethodInvocation MethodInvocation SimpleName db entity
+add referred entity SimpleName MethodInvocation MethodInvocation SimpleName get entity
+atlas entity stream SimpleName SimpleType ClassInstanceCreation SimpleName col with extended info
+entity store SimpleName MethodInvocation SimpleName create or update
+entity store SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName atlas entity stream
+entity store SimpleName MethodInvocation ClassInstanceCreation SimpleName col with extended info
+create or update SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName atlas entity stream
+create or update SimpleName MethodInvocation ClassInstanceCreation SimpleName col with extended info
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas object id
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas object id
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas object id
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas object id
+col SimpleName MethodInvocation SimpleName get atlas object id
+columns map SimpleName MethodInvocation SimpleName put
+columns map SimpleName MethodInvocation StringLiteral col
+columns map SimpleName MethodInvocation MethodInvocation SimpleName col
+columns map SimpleName MethodInvocation MethodInvocation SimpleName get atlas object id
+put SimpleName MethodInvocation StringLiteral col
+put SimpleName MethodInvocation MethodInvocation SimpleName col
+put SimpleName MethodInvocation MethodInvocation SimpleName get atlas object id
+col StringLiteral MethodInvocation MethodInvocation SimpleName col

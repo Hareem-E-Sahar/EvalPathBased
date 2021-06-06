@@ -1,0 +1,31 @@
+application properties SimpleName MethodInvocation SimpleName get
+config properties SimpleName VariableDeclarationFragment MethodInvocation SimpleName application properties
+config properties SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+configuration SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName config properties
+application properties SimpleName MethodInvocation SimpleName get subset configuration
+application properties SimpleName MethodInvocation SimpleName config properties
+application properties SimpleName MethodInvocation SimpleName graph prefix
+get subset configuration SimpleName MethodInvocation SimpleName config properties
+get subset configuration SimpleName MethodInvocation SimpleName graph prefix
+config properties SimpleName MethodInvocation SimpleName graph prefix
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName configuration
+public Modifier MethodDeclaration SimpleName get configuration
+public Modifier MethodDeclaration SimpleType SimpleName atlas exception
+static Modifier MethodDeclaration SimpleType SimpleName configuration
+static Modifier MethodDeclaration SimpleName get configuration
+static Modifier MethodDeclaration SimpleType SimpleName atlas exception
+configuration SimpleName SimpleType MethodDeclaration SimpleName get configuration
+configuration SimpleName SimpleType MethodDeclaration SimpleType SimpleName atlas exception
+get configuration SimpleName MethodDeclaration SimpleType SimpleName atlas exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName configuration
+public Modifier TypeDeclaration MethodDeclaration SimpleName get configuration
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName configuration
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get configuration
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception

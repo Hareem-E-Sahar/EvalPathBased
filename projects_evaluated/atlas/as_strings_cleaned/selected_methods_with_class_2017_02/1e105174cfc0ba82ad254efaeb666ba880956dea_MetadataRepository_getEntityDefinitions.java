@@ -1,0 +1,20 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName i typed referenceable instance
+string SimpleName SimpleType SingleVariableDeclaration SimpleName guids
+list SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get entity definitions
+i typed referenceable instance SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get entity definitions
+get entity definitions SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get entity definitions SimpleName MethodDeclaration SingleVariableDeclaration SimpleName guids
+get entity definitions SimpleName MethodDeclaration SimpleType SimpleName repository exception
+get entity definitions SimpleName MethodDeclaration SimpleType SimpleName entity not found exception
+guids SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName repository exception
+guids SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName entity not found exception
+repository exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName entity not found exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration SimpleName get entity definitions
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName guids
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName repository exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName entity not found exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get entity definitions
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName guids
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName repository exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName entity not found exception

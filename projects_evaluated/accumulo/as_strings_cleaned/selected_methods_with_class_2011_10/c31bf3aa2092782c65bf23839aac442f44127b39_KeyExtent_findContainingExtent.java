@@ -1,0 +1,87 @@
+key extent SimpleName SimpleType SingleVariableDeclaration SimpleName extent
+sorted set SimpleName SimpleType ParameterizedType SimpleType SimpleName key extent
+sorted set SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName extents
+key extent SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName extents
+key extent SimpleName SimpleType ClassInstanceCreation SimpleName extent
+lookup extent SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName key extent
+lookup extent SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName extent
+key extent SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName lookup extent
+lookup extent SimpleName MethodInvocation SimpleName set prev end row
+lookup extent SimpleName MethodInvocation CastExpression SimpleType SimpleName text
+set prev end row SimpleName MethodInvocation CastExpression SimpleType SimpleName text
+sorted set SimpleName SimpleType ParameterizedType SimpleType SimpleName key extent
+extents SimpleName MethodInvocation SimpleName tail set
+extents SimpleName MethodInvocation SimpleName lookup extent
+tail set SimpleName MethodInvocation SimpleName lookup extent
+tail set SimpleName VariableDeclarationFragment MethodInvocation SimpleName extents
+tail set SimpleName VariableDeclarationFragment MethodInvocation SimpleName tail set
+tail set SimpleName VariableDeclarationFragment MethodInvocation SimpleName lookup extent
+tail set SimpleName MethodInvocation SimpleName is empty
+tail set SimpleName MethodInvocation SimpleName first
+first SimpleName VariableDeclarationFragment MethodInvocation SimpleName tail set
+first SimpleName VariableDeclarationFragment MethodInvocation SimpleName first
+key extent SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName first
+first SimpleName MethodInvocation SimpleName get table id
+extent SimpleName MethodInvocation SimpleName get table id
+first SimpleName MethodInvocation MethodInvocation SimpleName compare to
+get table id SimpleName MethodInvocation MethodInvocation SimpleName compare to
+first SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName extent
+first SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get table id
+get table id SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName extent
+get table id SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get table id
+compare to SimpleName MethodInvocation MethodInvocation SimpleName extent
+compare to SimpleName MethodInvocation MethodInvocation SimpleName get table id
+first SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral empty
+get table id SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral empty
+compare to SimpleName MethodInvocation InfixExpression NumberLiteral empty
+extent SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral empty
+get table id SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral empty
+first SimpleName MethodInvocation SimpleName get prev end row
+extent SimpleName MethodInvocation SimpleName get prev end row
+extent SimpleName MethodInvocation SimpleName get prev end row
+first SimpleName MethodInvocation SimpleName get prev end row
+extent SimpleName MethodInvocation MethodInvocation SimpleName compare to
+get prev end row SimpleName MethodInvocation MethodInvocation SimpleName compare to
+extent SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName first
+extent SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get prev end row
+get prev end row SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName first
+get prev end row SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get prev end row
+compare to SimpleName MethodInvocation MethodInvocation SimpleName first
+compare to SimpleName MethodInvocation MethodInvocation SimpleName get prev end row
+extent SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral empty
+get prev end row SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral empty
+compare to SimpleName MethodInvocation InfixExpression NumberLiteral empty
+first SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral empty
+get prev end row SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral empty
+empty NumberLiteral InfixExpression IfStatement ReturnStatement SimpleName first
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName key extent
+public Modifier MethodDeclaration SimpleName find containing extent
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName key extent
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName extent
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName extents
+static Modifier MethodDeclaration SimpleType SimpleName key extent
+static Modifier MethodDeclaration SimpleName find containing extent
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName key extent
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName extent
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName extents
+key extent SimpleName SimpleType MethodDeclaration SimpleName find containing extent
+key extent SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName extent
+key extent SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName extents
+find containing extent SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName key extent
+find containing extent SimpleName MethodDeclaration SingleVariableDeclaration SimpleName extent
+find containing extent SimpleName MethodDeclaration SingleVariableDeclaration SimpleName extents
+extent SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName extents
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName key extent
+public Modifier TypeDeclaration MethodDeclaration SimpleName find containing extent
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName extent
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName extents
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName key extent
+test SimpleName TypeDeclaration MethodDeclaration SimpleName find containing extent
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName extent
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName extents

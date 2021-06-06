@@ -1,0 +1,90 @@
+long PrimitiveType SingleVariableDeclaration SimpleName position
+position SimpleName InfixExpression SimpleName sync size
+position SimpleName InfixExpression InfixExpression SimpleName end
+sync size SimpleName InfixExpression InfixExpression SimpleName end
+seek SimpleName MethodInvocation SimpleName end
+position SimpleName InfixExpression NumberLiteral empty
+seek SimpleName MethodInvocation InfixExpression SimpleName position
+seek SimpleName MethodInvocation InfixExpression NumberLiteral empty
+in SimpleName MethodInvocation SimpleName read fully
+in SimpleName MethodInvocation SimpleName sync check
+read fully SimpleName MethodInvocation SimpleName sync check
+sync len SimpleName VariableDeclarationFragment QualifiedName synclength
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName sync len
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment QualifiedName synclength
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+in SimpleName MethodInvocation SimpleName get pos
+in SimpleName MethodInvocation InfixExpression SimpleName end
+get pos SimpleName MethodInvocation InfixExpression SimpleName end
+j SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName j
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+j SimpleName InfixExpression SimpleName sync len
+sync SimpleName ArrayAccess SimpleName j
+i SimpleName InfixExpression SimpleName j
+i SimpleName InfixExpression ParenthesizedExpression InfixExpression SimpleName sync len
+j SimpleName InfixExpression ParenthesizedExpression InfixExpression SimpleName sync len
+sync check SimpleName ArrayAccess InfixExpression SimpleName sync len
+sync SimpleName ArrayAccess InfixExpression ArrayAccess SimpleName sync check
+j SimpleName ArrayAccess InfixExpression ArrayAccess SimpleName sync check
+j SimpleName InfixExpression ForStatement PostfixExpression SimpleName j
+sync len SimpleName InfixExpression ForStatement PostfixExpression SimpleName j
+j SimpleName InfixExpression SimpleName sync len
+in SimpleName MethodInvocation SimpleName get pos
+in SimpleName MethodInvocation InfixExpression SimpleName sync size
+get pos SimpleName MethodInvocation InfixExpression SimpleName sync size
+in SimpleName MethodInvocation SimpleName seek
+in SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName in
+in SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get pos
+in SimpleName MethodInvocation InfixExpression SimpleName sync size
+seek SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName in
+seek SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get pos
+seek SimpleName MethodInvocation InfixExpression SimpleName sync size
+i SimpleName InfixExpression SimpleName sync len
+sync check SimpleName ArrayAccess InfixExpression SimpleName i
+sync check SimpleName ArrayAccess InfixExpression SimpleName sync len
+in SimpleName MethodInvocation SimpleName read byte
+sync check SimpleName ArrayAccess Assignment MethodInvocation SimpleName in
+sync check SimpleName ArrayAccess Assignment MethodInvocation SimpleName read byte
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName end
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+end SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+checksum exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+handle checksum exception SimpleName MethodInvocation SimpleName e
+public Modifier MethodDeclaration Modifier synchronized
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName sync
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType long
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName position
+public Modifier MethodDeclaration SimpleType SimpleName io exception
+synchronized Modifier MethodDeclaration PrimitiveType void
+synchronized Modifier MethodDeclaration SimpleName sync
+synchronized Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType long
+synchronized Modifier MethodDeclaration SingleVariableDeclaration SimpleName position
+synchronized Modifier MethodDeclaration SimpleType SimpleName io exception
+void PrimitiveType MethodDeclaration SimpleName sync
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType long
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName position
+void PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+sync SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType long
+sync SimpleName MethodDeclaration SingleVariableDeclaration SimpleName position
+sync SimpleName MethodDeclaration SimpleType SimpleName io exception
+long PrimitiveType SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+position SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier synchronized
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName sync
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName position
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier synchronized
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName sync
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName position
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

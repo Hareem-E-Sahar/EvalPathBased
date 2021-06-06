@@ -1,0 +1,57 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName t
+string SimpleName SimpleType SingleVariableDeclaration SimpleName file
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName t
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName files
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName files
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName t
+files SimpleName MethodInvocation SimpleName get
+files SimpleName MethodInvocation SimpleName file
+get SimpleName MethodInvocation SimpleName file
+ofl SimpleName VariableDeclarationFragment MethodInvocation SimpleName files
+ofl SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+ofl SimpleName VariableDeclarationFragment MethodInvocation SimpleName file
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName t
+files SimpleName MethodInvocation SimpleName put
+files SimpleName MethodInvocation SimpleName file
+files SimpleName MethodInvocation SimpleName ofl
+put SimpleName MethodInvocation SimpleName file
+put SimpleName MethodInvocation SimpleName ofl
+file SimpleName MethodInvocation SimpleName ofl
+private Modifier MethodDeclaration Modifier static
+private Modifier MethodDeclaration TypeParameter SimpleName t
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName t
+private Modifier MethodDeclaration SimpleName get file list
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName file
+static Modifier MethodDeclaration TypeParameter SimpleName t
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName t
+static Modifier MethodDeclaration SimpleName get file list
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName file
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName files
+t SimpleName TypeParameter MethodDeclaration SimpleName get file list
+t SimpleName TypeParameter MethodDeclaration SingleVariableDeclaration SimpleName file
+t SimpleName TypeParameter MethodDeclaration SingleVariableDeclaration SimpleName files
+list SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get file list
+t SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get file list
+get file list SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get file list SimpleName MethodDeclaration SingleVariableDeclaration SimpleName file
+get file list SimpleName MethodDeclaration SingleVariableDeclaration SimpleName files
+get file list SimpleName MethodDeclaration Block ReturnStatement SimpleName ofl
+file SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName files
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration TypeParameter SimpleName t
+public Modifier TypeDeclaration MethodDeclaration SimpleName get file list
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName file
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName files
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration TypeParameter SimpleName t
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get file list
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName file
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName files

@@ -1,0 +1,20 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName type def patch
+list SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName type def patches
+type def patch SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName type def patches
+array list SimpleName SimpleType ParameterizedType ClassInstanceCreation SimpleName type def patches
+type def patches SimpleName FieldAccess Assignment ClassInstanceCreation SimpleName type def patches
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set type def patches
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName type def patches
+void PrimitiveType MethodDeclaration SimpleName set type def patches
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName type def patches
+set type def patches SimpleName MethodDeclaration SingleVariableDeclaration SimpleName type def patches
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set type def patches
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type def patches
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set type def patches
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type def patches

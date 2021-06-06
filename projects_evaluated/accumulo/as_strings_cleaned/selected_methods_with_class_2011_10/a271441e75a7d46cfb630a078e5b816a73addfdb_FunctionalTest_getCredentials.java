@@ -1,0 +1,26 @@
+get password SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+byte buffer SimpleName MethodInvocation SimpleName wrap
+byte buffer SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get password
+byte buffer SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+wrap SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get password
+wrap SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+get instance SimpleName MethodInvocation MethodInvocation SimpleName get instance id
+auth info SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get username
+auth info SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName byte buffer
+auth info SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName wrap
+auth info SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get instance id
+get username SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName byte buffer
+get username SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName wrap
+get username SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get instance id
+byte buffer SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get instance id
+wrap SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get instance id
+protected Modifier MethodDeclaration SimpleType SimpleName auth info
+protected Modifier MethodDeclaration SimpleName get credentials
+auth info SimpleName SimpleType MethodDeclaration SimpleName get credentials
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName auth info
+public Modifier TypeDeclaration MethodDeclaration SimpleName get credentials
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName auth info
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get credentials

@@ -1,0 +1,500 @@
+suppress warnings SimpleName SingleMemberAnnotation StringLiteral deprecation
+string SimpleName SimpleType SingleVariableDeclaration SimpleName args
+opts SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName options
+options SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName opts
+option SimpleName SimpleType ClassInstanceCreation StringLiteral u
+option SimpleName SimpleType ClassInstanceCreation StringLiteral user
+option SimpleName SimpleType ClassInstanceCreation BooleanLiteral true
+option SimpleName SimpleType ClassInstanceCreation StringLiteral username defaults to your os user
+u StringLiteral ClassInstanceCreation StringLiteral user
+u StringLiteral ClassInstanceCreation BooleanLiteral true
+u StringLiteral ClassInstanceCreation StringLiteral username defaults to your os user
+user StringLiteral ClassInstanceCreation BooleanLiteral true
+user StringLiteral ClassInstanceCreation StringLiteral username defaults to your os user
+true BooleanLiteral ClassInstanceCreation StringLiteral username defaults to your os user
+username option SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName option
+username option SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral u
+username option SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral user
+username option SimpleName VariableDeclarationFragment ClassInstanceCreation BooleanLiteral true
+username option SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral username defaults to your os user
+option SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName username option
+username option SimpleName MethodInvocation SimpleName set arg name
+username option SimpleName MethodInvocation StringLiteral user
+set arg name SimpleName MethodInvocation StringLiteral user
+opts SimpleName MethodInvocation SimpleName add option
+opts SimpleName MethodInvocation SimpleName username option
+add option SimpleName MethodInvocation SimpleName username option
+option SimpleName SimpleType ClassInstanceCreation StringLiteral p
+option SimpleName SimpleType ClassInstanceCreation StringLiteral password
+option SimpleName SimpleType ClassInstanceCreation BooleanLiteral true
+option SimpleName SimpleType ClassInstanceCreation StringLiteral password prompt for password if this option is missing
+p StringLiteral ClassInstanceCreation StringLiteral password
+p StringLiteral ClassInstanceCreation BooleanLiteral true
+p StringLiteral ClassInstanceCreation StringLiteral password prompt for password if this option is missing
+password StringLiteral ClassInstanceCreation BooleanLiteral true
+password StringLiteral ClassInstanceCreation StringLiteral password prompt for password if this option is missing
+true BooleanLiteral ClassInstanceCreation StringLiteral password prompt for password if this option is missing
+passw option SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName option
+passw option SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral p
+passw option SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral password
+passw option SimpleName VariableDeclarationFragment ClassInstanceCreation BooleanLiteral true
+passw option SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral password prompt for password if this option is missing
+option SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName passw option
+passw option SimpleName MethodInvocation SimpleName set arg name
+passw option SimpleName MethodInvocation StringLiteral pass
+set arg name SimpleName MethodInvocation StringLiteral pass
+opts SimpleName MethodInvocation SimpleName add option
+opts SimpleName MethodInvocation SimpleName passw option
+add option SimpleName MethodInvocation SimpleName passw option
+option SimpleName SimpleType ClassInstanceCreation StringLiteral disabletabcompletion
+option SimpleName SimpleType ClassInstanceCreation BooleanLiteral false
+option SimpleName SimpleType ClassInstanceCreation StringLiteral disables tab completion for less overhead when scripting
+disabletabcompletion StringLiteral ClassInstanceCreation BooleanLiteral false
+disabletabcompletion StringLiteral ClassInstanceCreation StringLiteral disables tab completion for less overhead when scripting
+false BooleanLiteral ClassInstanceCreation StringLiteral disables tab completion for less overhead when scripting
+tab complete option SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName option
+tab complete option SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral disabletabcompletion
+tab complete option SimpleName VariableDeclarationFragment ClassInstanceCreation BooleanLiteral false
+tab complete option SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral disables tab completion for less overhead when scripting
+option SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName tab complete option
+opts SimpleName MethodInvocation SimpleName add option
+opts SimpleName MethodInvocation SimpleName tab complete option
+add option SimpleName MethodInvocation SimpleName tab complete option
+option SimpleName SimpleType ClassInstanceCreation StringLiteral debug
+option SimpleName SimpleType ClassInstanceCreation BooleanLiteral false
+option SimpleName SimpleType ClassInstanceCreation StringLiteral enables client debugging
+debug StringLiteral ClassInstanceCreation BooleanLiteral false
+debug StringLiteral ClassInstanceCreation StringLiteral enables client debugging
+false BooleanLiteral ClassInstanceCreation StringLiteral enables client debugging
+debug option SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName option
+debug option SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral debug
+debug option SimpleName VariableDeclarationFragment ClassInstanceCreation BooleanLiteral false
+debug option SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral enables client debugging
+option SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName debug option
+opts SimpleName MethodInvocation SimpleName add option
+opts SimpleName MethodInvocation SimpleName debug option
+add option SimpleName MethodInvocation SimpleName debug option
+option SimpleName SimpleType ClassInstanceCreation StringLiteral fake
+option SimpleName SimpleType ClassInstanceCreation BooleanLiteral false
+option SimpleName SimpleType ClassInstanceCreation StringLiteral fake a connection to accumulo
+fake StringLiteral ClassInstanceCreation BooleanLiteral false
+fake StringLiteral ClassInstanceCreation StringLiteral fake a connection to accumulo
+false BooleanLiteral ClassInstanceCreation StringLiteral fake a connection to accumulo
+fake option SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName option
+fake option SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral fake
+fake option SimpleName VariableDeclarationFragment ClassInstanceCreation BooleanLiteral false
+fake option SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral fake a connection to accumulo
+option SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName fake option
+opts SimpleName MethodInvocation SimpleName add option
+opts SimpleName MethodInvocation SimpleName fake option
+add option SimpleName MethodInvocation SimpleName fake option
+option SimpleName SimpleType ClassInstanceCreation SimpleName help option
+option SimpleName SimpleType ClassInstanceCreation SimpleName help long option
+option SimpleName SimpleType ClassInstanceCreation BooleanLiteral false
+option SimpleName SimpleType ClassInstanceCreation StringLiteral display this help
+help option SimpleName ClassInstanceCreation SimpleName help long option
+help option SimpleName ClassInstanceCreation BooleanLiteral false
+help option SimpleName ClassInstanceCreation StringLiteral display this help
+help long option SimpleName ClassInstanceCreation BooleanLiteral false
+help long option SimpleName ClassInstanceCreation StringLiteral display this help
+false BooleanLiteral ClassInstanceCreation StringLiteral display this help
+help opt SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName option
+help opt SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName help option
+help opt SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName help long option
+help opt SimpleName VariableDeclarationFragment ClassInstanceCreation BooleanLiteral false
+help opt SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral display this help
+option SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName help opt
+opts SimpleName MethodInvocation SimpleName add option
+opts SimpleName MethodInvocation SimpleName help opt
+add option SimpleName MethodInvocation SimpleName help opt
+option SimpleName SimpleType ClassInstanceCreation StringLiteral e
+option SimpleName SimpleType ClassInstanceCreation StringLiteral executecommand
+option SimpleName SimpleType ClassInstanceCreation BooleanLiteral true
+option SimpleName SimpleType ClassInstanceCreation StringLiteral executes a command and then exits
+e StringLiteral ClassInstanceCreation StringLiteral executecommand
+e StringLiteral ClassInstanceCreation BooleanLiteral true
+e StringLiteral ClassInstanceCreation StringLiteral executes a command and then exits
+executecommand StringLiteral ClassInstanceCreation BooleanLiteral true
+executecommand StringLiteral ClassInstanceCreation StringLiteral executes a command and then exits
+true BooleanLiteral ClassInstanceCreation StringLiteral executes a command and then exits
+exec command opt SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName option
+exec command opt SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral e
+exec command opt SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral executecommand
+exec command opt SimpleName VariableDeclarationFragment ClassInstanceCreation BooleanLiteral true
+exec command opt SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral executes a command and then exits
+option SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName exec command opt
+opts SimpleName MethodInvocation SimpleName add option
+opts SimpleName MethodInvocation SimpleName exec command opt
+add option SimpleName MethodInvocation SimpleName exec command opt
+exec file group SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName option group
+option group SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName exec file group
+option SimpleName SimpleType ClassInstanceCreation StringLiteral f
+option SimpleName SimpleType ClassInstanceCreation StringLiteral executefile
+option SimpleName SimpleType ClassInstanceCreation BooleanLiteral true
+option SimpleName SimpleType ClassInstanceCreation StringLiteral executes commands from a file at startup
+f StringLiteral ClassInstanceCreation StringLiteral executefile
+f StringLiteral ClassInstanceCreation BooleanLiteral true
+f StringLiteral ClassInstanceCreation StringLiteral executes commands from a file at startup
+executefile StringLiteral ClassInstanceCreation BooleanLiteral true
+executefile StringLiteral ClassInstanceCreation StringLiteral executes commands from a file at startup
+true BooleanLiteral ClassInstanceCreation StringLiteral executes commands from a file at startup
+execfile option SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName option
+execfile option SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral f
+execfile option SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral executefile
+execfile option SimpleName VariableDeclarationFragment ClassInstanceCreation BooleanLiteral true
+execfile option SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral executes commands from a file at startup
+option SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName execfile option
+execfile option SimpleName MethodInvocation SimpleName set arg name
+execfile option SimpleName MethodInvocation StringLiteral file
+set arg name SimpleName MethodInvocation StringLiteral file
+exec file group SimpleName MethodInvocation SimpleName add option
+exec file group SimpleName MethodInvocation SimpleName execfile option
+add option SimpleName MethodInvocation SimpleName execfile option
+option SimpleName SimpleType ClassInstanceCreation StringLiteral fv
+option SimpleName SimpleType ClassInstanceCreation StringLiteral executefileverbose
+option SimpleName SimpleType ClassInstanceCreation BooleanLiteral true
+option SimpleName SimpleType ClassInstanceCreation StringLiteral executes commands from a file at startup with commands shown
+fv StringLiteral ClassInstanceCreation StringLiteral executefileverbose
+fv StringLiteral ClassInstanceCreation BooleanLiteral true
+fv StringLiteral ClassInstanceCreation StringLiteral executes commands from a file at startup with commands shown
+executefileverbose StringLiteral ClassInstanceCreation BooleanLiteral true
+executefileverbose StringLiteral ClassInstanceCreation StringLiteral executes commands from a file at startup with commands shown
+true BooleanLiteral ClassInstanceCreation StringLiteral executes commands from a file at startup with commands shown
+execfile verbose option SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName option
+execfile verbose option SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral fv
+execfile verbose option SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral executefileverbose
+execfile verbose option SimpleName VariableDeclarationFragment ClassInstanceCreation BooleanLiteral true
+execfile verbose option SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral executes commands from a file at startup with commands shown
+option SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName execfile verbose option
+execfile verbose option SimpleName MethodInvocation SimpleName set arg name
+execfile verbose option SimpleName MethodInvocation StringLiteral file
+set arg name SimpleName MethodInvocation StringLiteral file
+exec file group SimpleName MethodInvocation SimpleName add option
+exec file group SimpleName MethodInvocation SimpleName execfile verbose option
+add option SimpleName MethodInvocation SimpleName execfile verbose option
+opts SimpleName MethodInvocation SimpleName add option group
+opts SimpleName MethodInvocation SimpleName exec file group
+add option group SimpleName MethodInvocation SimpleName exec file group
+instance options SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName option group
+option group SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName instance options
+option SimpleName SimpleType ClassInstanceCreation StringLiteral h
+option SimpleName SimpleType ClassInstanceCreation StringLiteral hdfs zoo instance
+option SimpleName SimpleType ClassInstanceCreation BooleanLiteral false
+option SimpleName SimpleType ClassInstanceCreation StringLiteral use hdfs zoo instance
+h StringLiteral ClassInstanceCreation StringLiteral hdfs zoo instance
+h StringLiteral ClassInstanceCreation BooleanLiteral false
+h StringLiteral ClassInstanceCreation StringLiteral use hdfs zoo instance
+hdfs zoo instance StringLiteral ClassInstanceCreation BooleanLiteral false
+hdfs zoo instance StringLiteral ClassInstanceCreation StringLiteral use hdfs zoo instance
+false BooleanLiteral ClassInstanceCreation StringLiteral use hdfs zoo instance
+hdfs zoo instance SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName option
+hdfs zoo instance SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral h
+hdfs zoo instance SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral hdfs zoo instance
+hdfs zoo instance SimpleName VariableDeclarationFragment ClassInstanceCreation BooleanLiteral false
+hdfs zoo instance SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral use hdfs zoo instance
+option SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName hdfs zoo instance
+instance options SimpleName MethodInvocation SimpleName add option
+instance options SimpleName MethodInvocation SimpleName hdfs zoo instance
+add option SimpleName MethodInvocation SimpleName hdfs zoo instance
+option SimpleName SimpleType ClassInstanceCreation StringLiteral z
+option SimpleName SimpleType ClassInstanceCreation StringLiteral zoo keeper instance
+option SimpleName SimpleType ClassInstanceCreation BooleanLiteral true
+option SimpleName SimpleType ClassInstanceCreation StringLiteral use a zookeeper instance with the given instance name and list of zoo hosts
+z StringLiteral ClassInstanceCreation StringLiteral zoo keeper instance
+z StringLiteral ClassInstanceCreation BooleanLiteral true
+z StringLiteral ClassInstanceCreation StringLiteral use a zookeeper instance with the given instance name and list of zoo hosts
+zoo keeper instance StringLiteral ClassInstanceCreation BooleanLiteral true
+zoo keeper instance StringLiteral ClassInstanceCreation StringLiteral use a zookeeper instance with the given instance name and list of zoo hosts
+true BooleanLiteral ClassInstanceCreation StringLiteral use a zookeeper instance with the given instance name and list of zoo hosts
+zoo keeper instance SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName option
+zoo keeper instance SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral z
+zoo keeper instance SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral zoo keeper instance
+zoo keeper instance SimpleName VariableDeclarationFragment ClassInstanceCreation BooleanLiteral true
+zoo keeper instance SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral use a zookeeper instance with the given instance name and list of zoo hosts
+option SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName zoo keeper instance
+zoo keeper instance SimpleName MethodInvocation SimpleName set arg name
+zoo keeper instance SimpleName MethodInvocation StringLiteral name hosts
+set arg name SimpleName MethodInvocation StringLiteral name hosts
+zoo keeper instance SimpleName MethodInvocation SimpleName set args
+zoo keeper instance SimpleName MethodInvocation NumberLiteral empty
+set args SimpleName MethodInvocation NumberLiteral empty
+instance options SimpleName MethodInvocation SimpleName add option
+instance options SimpleName MethodInvocation SimpleName zoo keeper instance
+add option SimpleName MethodInvocation SimpleName zoo keeper instance
+opts SimpleName MethodInvocation SimpleName add option group
+opts SimpleName MethodInvocation SimpleName instance options
+add option group SimpleName MethodInvocation SimpleName instance options
+auth timeout options SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName option group
+option group SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName auth timeout options
+minutes the shell can be idle without reentering a password default StringLiteral InfixExpression SimpleName default auth timeout
+minutes the shell can be idle without reentering a password default StringLiteral InfixExpression StringLiteral min
+default auth timeout SimpleName InfixExpression StringLiteral min
+option SimpleName SimpleType ClassInstanceCreation StringLiteral authtimeout
+option SimpleName SimpleType ClassInstanceCreation BooleanLiteral true
+option SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral minutes the shell can be idle without reentering a password default
+option SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName default auth timeout
+option SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral min
+authtimeout StringLiteral ClassInstanceCreation BooleanLiteral true
+authtimeout StringLiteral ClassInstanceCreation InfixExpression StringLiteral minutes the shell can be idle without reentering a password default
+authtimeout StringLiteral ClassInstanceCreation InfixExpression SimpleName default auth timeout
+authtimeout StringLiteral ClassInstanceCreation InfixExpression StringLiteral min
+true BooleanLiteral ClassInstanceCreation InfixExpression StringLiteral minutes the shell can be idle without reentering a password default
+true BooleanLiteral ClassInstanceCreation InfixExpression SimpleName default auth timeout
+true BooleanLiteral ClassInstanceCreation InfixExpression StringLiteral min
+auth timeout opt SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName option
+auth timeout opt SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral authtimeout
+auth timeout opt SimpleName VariableDeclarationFragment ClassInstanceCreation BooleanLiteral true
+auth timeout opt SimpleName VariableDeclarationFragment ClassInstanceCreation InfixExpression StringLiteral minutes the shell can be idle without reentering a password default
+auth timeout opt SimpleName VariableDeclarationFragment ClassInstanceCreation InfixExpression SimpleName default auth timeout
+auth timeout opt SimpleName VariableDeclarationFragment ClassInstanceCreation InfixExpression StringLiteral min
+option SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName auth timeout opt
+auth timeout opt SimpleName MethodInvocation SimpleName set arg name
+auth timeout opt SimpleName MethodInvocation StringLiteral minutes
+set arg name SimpleName MethodInvocation StringLiteral minutes
+auth timeout options SimpleName MethodInvocation SimpleName add option
+auth timeout options SimpleName MethodInvocation SimpleName auth timeout opt
+add option SimpleName MethodInvocation SimpleName auth timeout opt
+option SimpleName SimpleType ClassInstanceCreation StringLiteral disableauthtimeout
+option SimpleName SimpleType ClassInstanceCreation BooleanLiteral false
+option SimpleName SimpleType ClassInstanceCreation StringLiteral disables requiring the user to retype a password after being idle
+disableauthtimeout StringLiteral ClassInstanceCreation BooleanLiteral false
+disableauthtimeout StringLiteral ClassInstanceCreation StringLiteral disables requiring the user to retype a password after being idle
+false BooleanLiteral ClassInstanceCreation StringLiteral disables requiring the user to retype a password after being idle
+disable auth timeout opt SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName option
+disable auth timeout opt SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral disableauthtimeout
+disable auth timeout opt SimpleName VariableDeclarationFragment ClassInstanceCreation BooleanLiteral false
+disable auth timeout opt SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral disables requiring the user to retype a password after being idle
+option SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName disable auth timeout opt
+auth timeout options SimpleName MethodInvocation SimpleName add option
+auth timeout options SimpleName MethodInvocation SimpleName disable auth timeout opt
+add option SimpleName MethodInvocation SimpleName disable auth timeout opt
+opts SimpleName MethodInvocation SimpleName add option group
+opts SimpleName MethodInvocation SimpleName auth timeout options
+add option group SimpleName MethodInvocation SimpleName auth timeout options
+command line SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName cl
+basic parser SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName parse
+basic parser SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName opts
+basic parser SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName args
+parse SimpleName MethodInvocation SimpleName opts
+parse SimpleName MethodInvocation SimpleName args
+opts SimpleName MethodInvocation SimpleName args
+cl SimpleName Assignment MethodInvocation SimpleName parse
+cl SimpleName Assignment MethodInvocation SimpleName opts
+cl SimpleName Assignment MethodInvocation SimpleName args
+cl SimpleName MethodInvocation SimpleName get args
+cl SimpleName MethodInvocation FieldAccess SimpleName length
+get args SimpleName MethodInvocation FieldAccess SimpleName length
+cl SimpleName MethodInvocation FieldAccess InfixExpression NumberLiteral empty
+get args SimpleName MethodInvocation FieldAccess InfixExpression NumberLiteral empty
+length SimpleName FieldAccess InfixExpression NumberLiteral empty
+cl SimpleName MethodInvocation SimpleName get arg list
+unrecognized arguments StringLiteral InfixExpression MethodInvocation SimpleName cl
+unrecognized arguments StringLiteral InfixExpression MethodInvocation SimpleName get arg list
+parse exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral unrecognized arguments
+help opt SimpleName MethodInvocation SimpleName get opt
+cl SimpleName MethodInvocation SimpleName has option
+cl SimpleName MethodInvocation MethodInvocation SimpleName help opt
+cl SimpleName MethodInvocation MethodInvocation SimpleName get opt
+has option SimpleName MethodInvocation MethodInvocation SimpleName help opt
+has option SimpleName MethodInvocation MethodInvocation SimpleName get opt
+config error SimpleName Assignment BooleanLiteral true
+print help SimpleName MethodInvocation StringLiteral shell
+print help SimpleName MethodInvocation SimpleName shell description
+print help SimpleName MethodInvocation SimpleName opts
+shell StringLiteral MethodInvocation SimpleName shell description
+shell StringLiteral MethodInvocation SimpleName opts
+shell description SimpleName MethodInvocation SimpleName opts
+debug option SimpleName MethodInvocation SimpleName get long opt
+cl SimpleName MethodInvocation SimpleName has option
+cl SimpleName MethodInvocation MethodInvocation SimpleName debug option
+cl SimpleName MethodInvocation MethodInvocation SimpleName get long opt
+has option SimpleName MethodInvocation MethodInvocation SimpleName debug option
+has option SimpleName MethodInvocation MethodInvocation SimpleName get long opt
+set debugging SimpleName MethodInvocation MethodInvocation SimpleName cl
+set debugging SimpleName MethodInvocation MethodInvocation SimpleName has option
+set debugging SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName debug option
+set debugging SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get long opt
+auth timeout opt SimpleName MethodInvocation SimpleName get long opt
+cl SimpleName MethodInvocation SimpleName get option value
+cl SimpleName MethodInvocation MethodInvocation SimpleName auth timeout opt
+cl SimpleName MethodInvocation MethodInvocation SimpleName get long opt
+cl SimpleName MethodInvocation SimpleName default auth timeout
+get option value SimpleName MethodInvocation MethodInvocation SimpleName auth timeout opt
+get option value SimpleName MethodInvocation MethodInvocation SimpleName get long opt
+get option value SimpleName MethodInvocation SimpleName default auth timeout
+auth timeout opt SimpleName MethodInvocation MethodInvocation SimpleName default auth timeout
+get long opt SimpleName MethodInvocation MethodInvocation SimpleName default auth timeout
+integer SimpleName MethodInvocation SimpleName parse int
+integer SimpleName MethodInvocation MethodInvocation SimpleName cl
+integer SimpleName MethodInvocation MethodInvocation SimpleName get option value
+integer SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName auth timeout opt
+integer SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get long opt
+integer SimpleName MethodInvocation MethodInvocation SimpleName default auth timeout
+parse int SimpleName MethodInvocation MethodInvocation SimpleName cl
+parse int SimpleName MethodInvocation MethodInvocation SimpleName get option value
+parse int SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName auth timeout opt
+parse int SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get long opt
+parse int SimpleName MethodInvocation MethodInvocation SimpleName default auth timeout
+integer SimpleName MethodInvocation InfixExpression NumberLiteral empty
+parse int SimpleName MethodInvocation InfixExpression NumberLiteral empty
+cl SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral empty
+get option value SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral empty
+default auth timeout SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral empty
+integer SimpleName MethodInvocation InfixExpression NumberLiteral empty
+parse int SimpleName MethodInvocation InfixExpression NumberLiteral empty
+cl SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral empty
+get option value SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral empty
+default auth timeout SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral empty
+empty NumberLiteral InfixExpression NumberLiteral empty
+auth timeout SimpleName Assignment InfixExpression MethodInvocation SimpleName integer
+auth timeout SimpleName Assignment InfixExpression MethodInvocation SimpleName parse int
+auth timeout SimpleName Assignment InfixExpression NumberLiteral empty
+auth timeout SimpleName Assignment InfixExpression NumberLiteral empty
+disable auth timeout opt SimpleName MethodInvocation SimpleName get long opt
+cl SimpleName MethodInvocation SimpleName has option
+cl SimpleName MethodInvocation MethodInvocation SimpleName disable auth timeout opt
+cl SimpleName MethodInvocation MethodInvocation SimpleName get long opt
+has option SimpleName MethodInvocation MethodInvocation SimpleName disable auth timeout opt
+has option SimpleName MethodInvocation MethodInvocation SimpleName get long opt
+disable auth timeout SimpleName Assignment MethodInvocation SimpleName cl
+disable auth timeout SimpleName Assignment MethodInvocation SimpleName has option
+disable auth timeout SimpleName Assignment MethodInvocation MethodInvocation SimpleName disable auth timeout opt
+disable auth timeout SimpleName Assignment MethodInvocation MethodInvocation SimpleName get long opt
+zoo keeper instance SimpleName MethodInvocation SimpleName get opt
+cl SimpleName MethodInvocation SimpleName has option
+cl SimpleName MethodInvocation MethodInvocation SimpleName zoo keeper instance
+cl SimpleName MethodInvocation MethodInvocation SimpleName get opt
+has option SimpleName MethodInvocation MethodInvocation SimpleName zoo keeper instance
+has option SimpleName MethodInvocation MethodInvocation SimpleName get opt
+zoo keeper instance SimpleName MethodInvocation SimpleName get opt
+cl SimpleName MethodInvocation SimpleName get option values
+cl SimpleName MethodInvocation MethodInvocation SimpleName zoo keeper instance
+cl SimpleName MethodInvocation MethodInvocation SimpleName get opt
+get option values SimpleName MethodInvocation MethodInvocation SimpleName zoo keeper instance
+get option values SimpleName MethodInvocation MethodInvocation SimpleName get opt
+cl SimpleName MethodInvocation FieldAccess SimpleName length
+get option values SimpleName MethodInvocation FieldAccess SimpleName length
+zoo keeper instance SimpleName MethodInvocation MethodInvocation FieldAccess SimpleName length
+get opt SimpleName MethodInvocation MethodInvocation FieldAccess SimpleName length
+cl SimpleName MethodInvocation FieldAccess InfixExpression NumberLiteral empty
+get option values SimpleName MethodInvocation FieldAccess InfixExpression NumberLiteral empty
+length SimpleName FieldAccess InfixExpression NumberLiteral empty
+cl SimpleName MethodInvocation InfixExpression InfixExpression NumberLiteral empty
+has option SimpleName MethodInvocation InfixExpression InfixExpression NumberLiteral empty
+missing argument exception SimpleName SimpleType ClassInstanceCreation SimpleName zoo keeper instance
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+config error SimpleName Assignment BooleanLiteral true
+print exception SimpleName MethodInvocation SimpleName e
+print help SimpleName MethodInvocation StringLiteral shell
+print help SimpleName MethodInvocation SimpleName shell description
+print help SimpleName MethodInvocation SimpleName opts
+shell StringLiteral MethodInvocation SimpleName shell description
+shell StringLiteral MethodInvocation SimpleName opts
+shell description SimpleName MethodInvocation SimpleName opts
+system SimpleName MethodInvocation SimpleName get property
+system SimpleName MethodInvocation StringLiteral username
+get property SimpleName MethodInvocation StringLiteral username
+sys user SimpleName VariableDeclarationFragment MethodInvocation SimpleName system
+sys user SimpleName VariableDeclarationFragment MethodInvocation SimpleName get property
+sys user SimpleName VariableDeclarationFragment MethodInvocation StringLiteral username
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName sys user
+sys user SimpleName Assignment StringLiteral root
+username option SimpleName MethodInvocation SimpleName get opt
+cl SimpleName MethodInvocation SimpleName get option value
+cl SimpleName MethodInvocation MethodInvocation SimpleName username option
+cl SimpleName MethodInvocation MethodInvocation SimpleName get opt
+cl SimpleName MethodInvocation SimpleName sys user
+get option value SimpleName MethodInvocation MethodInvocation SimpleName username option
+get option value SimpleName MethodInvocation MethodInvocation SimpleName get opt
+get option value SimpleName MethodInvocation SimpleName sys user
+username option SimpleName MethodInvocation MethodInvocation SimpleName sys user
+get opt SimpleName MethodInvocation MethodInvocation SimpleName sys user
+user SimpleName VariableDeclarationFragment MethodInvocation SimpleName cl
+user SimpleName VariableDeclarationFragment MethodInvocation SimpleName get option value
+user SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName username option
+user SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get opt
+user SimpleName VariableDeclarationFragment MethodInvocation SimpleName sys user
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName user
+passw option SimpleName MethodInvocation SimpleName get opt
+cl SimpleName MethodInvocation SimpleName get option value
+cl SimpleName MethodInvocation MethodInvocation SimpleName passw option
+cl SimpleName MethodInvocation MethodInvocation SimpleName get opt
+get option value SimpleName MethodInvocation MethodInvocation SimpleName passw option
+get option value SimpleName MethodInvocation MethodInvocation SimpleName get opt
+passw SimpleName VariableDeclarationFragment MethodInvocation SimpleName cl
+passw SimpleName VariableDeclarationFragment MethodInvocation SimpleName get option value
+passw SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName passw option
+passw SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get opt
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName passw
+tab complete option SimpleName MethodInvocation SimpleName get long opt
+cl SimpleName MethodInvocation SimpleName has option
+cl SimpleName MethodInvocation MethodInvocation SimpleName tab complete option
+cl SimpleName MethodInvocation MethodInvocation SimpleName get long opt
+has option SimpleName MethodInvocation MethodInvocation SimpleName tab complete option
+has option SimpleName MethodInvocation MethodInvocation SimpleName get long opt
+tab completion SimpleName Assignment PrefixExpression MethodInvocation SimpleName cl
+tab completion SimpleName Assignment PrefixExpression MethodInvocation SimpleName has option
+fake option SimpleName MethodInvocation SimpleName get long opt
+cl SimpleName MethodInvocation SimpleName has option
+cl SimpleName MethodInvocation MethodInvocation SimpleName fake option
+cl SimpleName MethodInvocation MethodInvocation SimpleName get long opt
+has option SimpleName MethodInvocation MethodInvocation SimpleName fake option
+has option SimpleName MethodInvocation MethodInvocation SimpleName get long opt
+instance SimpleName Assignment ClassInstanceCreation SimpleType SimpleName mock instance
+hdfs zoo instance SimpleName MethodInvocation SimpleName get opt
+cl SimpleName MethodInvocation SimpleName has option
+cl SimpleName MethodInvocation MethodInvocation SimpleName hdfs zoo instance
+cl SimpleName MethodInvocation MethodInvocation SimpleName get opt
+has option SimpleName MethodInvocation MethodInvocation SimpleName hdfs zoo instance
+has option SimpleName MethodInvocation MethodInvocation SimpleName get opt
+accumulo configuration SimpleName MethodInvocation SimpleName get site configuration
+get default instance SimpleName MethodInvocation MethodInvocation SimpleName accumulo configuration
+get default instance SimpleName MethodInvocation MethodInvocation SimpleName get site configuration
+instance SimpleName Assignment MethodInvocation SimpleName get default instance
+instance SimpleName Assignment MethodInvocation MethodInvocation SimpleName accumulo configuration
+instance SimpleName Assignment MethodInvocation MethodInvocation SimpleName get site configuration
+zoo keeper instance SimpleName MethodInvocation SimpleName get opt
+cl SimpleName MethodInvocation SimpleName has option
+cl SimpleName MethodInvocation MethodInvocation SimpleName zoo keeper instance
+cl SimpleName MethodInvocation MethodInvocation SimpleName get opt
+has option SimpleName MethodInvocation MethodInvocation SimpleName zoo keeper instance
+has option SimpleName MethodInvocation MethodInvocation SimpleName get opt
+zoo keeper instance SimpleName MethodInvocation SimpleName get opt
+cl SimpleName MethodInvocation SimpleName get option values
+cl SimpleName MethodInvocation MethodInvocation SimpleName zoo keeper instance
+cl SimpleName MethodInvocation MethodInvocation SimpleName get opt
+get option values SimpleName MethodInvocation MethodInvocation SimpleName zoo keeper instance
+get option values SimpleName MethodInvocation MethodInvocation SimpleName get opt
+zk opts SimpleName VariableDeclarationFragment MethodInvocation SimpleName cl
+zk opts SimpleName VariableDeclarationFragment MethodInvocation SimpleName get option values
+zk opts SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName zoo keeper instance
+zk opts SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get opt
+zk opts SimpleName ArrayAccess NumberLiteral empty
+zk opts SimpleName ArrayAccess NumberLiteral empty
+zoo keeper instance SimpleName SimpleType ClassInstanceCreation ArrayAccess SimpleName zk opts
+zoo keeper instance SimpleName SimpleType ClassInstanceCreation ArrayAccess NumberLiteral empty
+zoo keeper instance SimpleName SimpleType ClassInstanceCreation ArrayAccess SimpleName zk opts
+zoo keeper instance SimpleName SimpleType ClassInstanceCreation ArrayAccess NumberLiteral empty
+zk opts SimpleName ArrayAccess ClassInstanceCreation ArrayAccess SimpleName zk opts
+zk opts SimpleName ArrayAccess ClassInstanceCreation ArrayAccess NumberLiteral empty
+empty NumberLiteral ArrayAccess ClassInstanceCreation ArrayAccess SimpleName zk opts
+empty NumberLiteral ArrayAccess ClassInstanceCreation ArrayAccess NumberLiteral empty
+instance SimpleName Assignment ClassInstanceCreation SimpleType SimpleName zoo keeper instance
+instance SimpleName Assignment ClassInstanceCreation ArrayAccess SimpleName zk opts
+instance SimpleName Assignment ClassInstanceCreation ArrayAccess NumberLiteral empty
+instance SimpleName Assignment ClassInstanceCreation ArrayAccess SimpleName zk opts
+instance SimpleName Assignment ClassInstanceCreation ArrayAccess NumberLiteral empty
+accumulo configuration SimpleName MethodInvocation SimpleName get site configuration
+get default instance SimpleName MethodInvocation MethodInvocation SimpleName accumulo configuration
+get default instance SimpleName MethodInvocation MethodInvocation SimpleName get site configuration
+instance SimpleName Assignment MethodInvocation SimpleName get default instance
+instance SimpleName Assignment MethodInvocation MethodInvocation SimpleName accumulo configuration
+instance SimpleName Assignment MethodInvocation MethodInvocation SimpleName get site configuration
+byte PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName pass
+fake option SimpleName MethodInvocation SimpleName get long opt
+cl SimpleName MethodInvocation SimpleName has option
+cl SimpleName MethodInvocation MethodInvocation SimpleName fake option
+cl SimpleName MethodInvocation MethodInvocation SimpleName get long opt
+has option SimpleName MethodInvocation MethodInvocation SimpleName fake option
+has option SimpleName MethodInvocation MethodInvocation SimpleName get long opt
+zoo reader SimpleName SimpleType ClassInstanceCreation SimpleName instance

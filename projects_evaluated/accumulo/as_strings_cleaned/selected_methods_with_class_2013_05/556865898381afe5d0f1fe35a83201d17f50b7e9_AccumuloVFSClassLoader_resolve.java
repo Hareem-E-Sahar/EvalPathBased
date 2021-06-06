@@ -1,0 +1,165 @@
+file system manager SimpleName SimpleType SingleVariableDeclaration SimpleName vfs
+string SimpleName SimpleType SingleVariableDeclaration SimpleName uris
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName file object
+array list SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName paths to monitor
+file object SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName paths to monitor
+file object SimpleName SimpleType ArrayType ArrayCreation NumberLiteral empty
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName file object
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName file object
+paths to monitor SimpleName MethodInvocation SimpleName clear
+string SimpleName SimpleType SingleVariableDeclaration SimpleName path
+uris SimpleName MethodInvocation SimpleName split
+uris SimpleName MethodInvocation StringLiteral empty
+split SimpleName MethodInvocation StringLiteral empty
+path SimpleName MethodInvocation SimpleName trim
+path SimpleName Assignment MethodInvocation SimpleName path
+path SimpleName Assignment MethodInvocation SimpleName trim
+path SimpleName MethodInvocation SimpleName equals
+path SimpleName MethodInvocation StringLiteral empty
+equals SimpleName MethodInvocation StringLiteral empty
+system SimpleName MethodInvocation SimpleName getenv
+accumulo class loader SimpleName MethodInvocation SimpleName replace env vars
+accumulo class loader SimpleName MethodInvocation SimpleName path
+accumulo class loader SimpleName MethodInvocation MethodInvocation SimpleName system
+accumulo class loader SimpleName MethodInvocation MethodInvocation SimpleName getenv
+replace env vars SimpleName MethodInvocation SimpleName path
+replace env vars SimpleName MethodInvocation MethodInvocation SimpleName system
+replace env vars SimpleName MethodInvocation MethodInvocation SimpleName getenv
+path SimpleName MethodInvocation MethodInvocation SimpleName system
+path SimpleName MethodInvocation MethodInvocation SimpleName getenv
+path SimpleName Assignment MethodInvocation SimpleName accumulo class loader
+path SimpleName Assignment MethodInvocation SimpleName replace env vars
+path SimpleName Assignment MethodInvocation SimpleName path
+path SimpleName Assignment MethodInvocation MethodInvocation SimpleName system
+path SimpleName Assignment MethodInvocation MethodInvocation SimpleName getenv
+vfs SimpleName MethodInvocation SimpleName resolve file
+vfs SimpleName MethodInvocation SimpleName path
+resolve file SimpleName MethodInvocation SimpleName path
+fo SimpleName VariableDeclarationFragment MethodInvocation SimpleName vfs
+fo SimpleName VariableDeclarationFragment MethodInvocation SimpleName resolve file
+fo SimpleName VariableDeclarationFragment MethodInvocation SimpleName path
+file object SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName fo
+fo SimpleName MethodInvocation SimpleName get type
+classpath SimpleName MethodInvocation SimpleName add
+classpath SimpleName MethodInvocation SimpleName fo
+add SimpleName MethodInvocation SimpleName fo
+paths to monitor SimpleName MethodInvocation SimpleName add
+paths to monitor SimpleName MethodInvocation SimpleName fo
+add SimpleName MethodInvocation SimpleName fo
+paths to monitor SimpleName MethodInvocation SimpleName add
+paths to monitor SimpleName MethodInvocation SimpleName fo
+add SimpleName MethodInvocation SimpleName fo
+file object SimpleName SimpleType SingleVariableDeclaration SimpleName child
+fo SimpleName MethodInvocation SimpleName get children
+classpath SimpleName MethodInvocation SimpleName add
+classpath SimpleName MethodInvocation SimpleName child
+add SimpleName MethodInvocation SimpleName child
+child SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName fo
+child SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName get children
+fo SimpleName MethodInvocation SimpleName get name
+fo SimpleName MethodInvocation MethodInvocation SimpleName get base name
+get name SimpleName MethodInvocation MethodInvocation SimpleName get base name
+pattern SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName fo
+pattern SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get name
+pattern SimpleName VariableDeclarationFragment MethodInvocation SimpleName get base name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName pattern
+fo SimpleName MethodInvocation SimpleName get parent
+fo SimpleName MethodInvocation SimpleName get parent
+fo SimpleName MethodInvocation MethodInvocation SimpleName get type
+get parent SimpleName MethodInvocation MethodInvocation SimpleName get type
+fo SimpleName MethodInvocation MethodInvocation InfixExpression QualifiedName file typefolder
+get parent SimpleName MethodInvocation MethodInvocation InfixExpression QualifiedName file typefolder
+get type SimpleName MethodInvocation InfixExpression QualifiedName file typefolder
+fo SimpleName MethodInvocation SimpleName get parent
+paths to monitor SimpleName MethodInvocation SimpleName add
+paths to monitor SimpleName MethodInvocation MethodInvocation SimpleName fo
+paths to monitor SimpleName MethodInvocation MethodInvocation SimpleName get parent
+add SimpleName MethodInvocation MethodInvocation SimpleName fo
+add SimpleName MethodInvocation MethodInvocation SimpleName get parent
+fo SimpleName MethodInvocation SimpleName get parent
+fo SimpleName MethodInvocation MethodInvocation SimpleName get children
+get parent SimpleName MethodInvocation MethodInvocation SimpleName get children
+children SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName fo
+children SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get parent
+children SimpleName VariableDeclarationFragment MethodInvocation SimpleName get children
+file object SimpleName SimpleType SingleVariableDeclaration SimpleName child
+child SimpleName MethodInvocation SimpleName get type
+child SimpleName MethodInvocation InfixExpression QualifiedName file typefile
+get type SimpleName MethodInvocation InfixExpression QualifiedName file typefile
+child SimpleName MethodInvocation SimpleName get name
+child SimpleName MethodInvocation MethodInvocation SimpleName get base name
+get name SimpleName MethodInvocation MethodInvocation SimpleName get base name
+child SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName matches
+get name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName matches
+get base name SimpleName MethodInvocation MethodInvocation SimpleName matches
+child SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName pattern
+get name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName pattern
+get base name SimpleName MethodInvocation MethodInvocation SimpleName pattern
+matches SimpleName MethodInvocation SimpleName pattern
+file typefile QualifiedName InfixExpression InfixExpression MethodInvocation SimpleName matches
+file typefile QualifiedName InfixExpression InfixExpression MethodInvocation SimpleName pattern
+classpath SimpleName MethodInvocation SimpleName add
+classpath SimpleName MethodInvocation SimpleName child
+add SimpleName MethodInvocation SimpleName child
+file object SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName children
+child SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName children
+ignoring classpath entry StringLiteral InfixExpression SimpleName fo
+log SimpleName MethodInvocation SimpleName warn
+log SimpleName MethodInvocation InfixExpression StringLiteral ignoring classpath entry
+log SimpleName MethodInvocation InfixExpression SimpleName fo
+warn SimpleName MethodInvocation InfixExpression StringLiteral ignoring classpath entry
+warn SimpleName MethodInvocation InfixExpression SimpleName fo
+ignoring classpath entry StringLiteral InfixExpression SimpleName fo
+log SimpleName MethodInvocation SimpleName warn
+log SimpleName MethodInvocation InfixExpression StringLiteral ignoring classpath entry
+log SimpleName MethodInvocation InfixExpression SimpleName fo
+warn SimpleName MethodInvocation InfixExpression StringLiteral ignoring classpath entry
+warn SimpleName MethodInvocation InfixExpression SimpleName fo
+fo SimpleName MethodInvocation SwitchStatement SwitchCase SimpleName file
+get type SimpleName MethodInvocation SwitchStatement SwitchCase SimpleName file
+fo SimpleName MethodInvocation SwitchStatement SwitchCase SimpleName folder
+get type SimpleName MethodInvocation SwitchStatement SwitchCase SimpleName folder
+file SimpleName SwitchCase SwitchStatement SwitchCase SimpleName folder
+folder SimpleName SwitchCase SwitchStatement SwitchCase SimpleName imaginary
+path SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName uris
+path SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName split
+path SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation StringLiteral empty
+classpath SimpleName MethodInvocation SimpleName size
+classpath SimpleName MethodInvocation SimpleName to array
+classpath SimpleName MethodInvocation ArrayCreation MethodInvocation SimpleName classpath
+classpath SimpleName MethodInvocation ArrayCreation MethodInvocation SimpleName size
+to array SimpleName MethodInvocation ArrayCreation MethodInvocation SimpleName classpath
+to array SimpleName MethodInvocation ArrayCreation MethodInvocation SimpleName size
+static Modifier MethodDeclaration ArrayType SimpleType SimpleName file object
+static Modifier MethodDeclaration SimpleName resolve
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName file system manager
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName vfs
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName uris
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName paths to monitor
+file object SimpleName SimpleType ArrayType MethodDeclaration SimpleName resolve
+resolve SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName file system manager
+resolve SimpleName MethodDeclaration SingleVariableDeclaration SimpleName vfs
+resolve SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+resolve SimpleName MethodDeclaration SingleVariableDeclaration SimpleName uris
+resolve SimpleName MethodDeclaration SingleVariableDeclaration SimpleName paths to monitor
+resolve SimpleName MethodDeclaration SimpleType SimpleName file system exception
+vfs SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName uris
+vfs SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName paths to monitor
+vfs SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName file system exception
+uris SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName paths to monitor
+uris SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName file system exception
+paths to monitor SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName file system exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleName resolve
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName vfs
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName uris
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName paths to monitor
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName file system exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleName resolve
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName vfs
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName uris
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName paths to monitor
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName file system exception

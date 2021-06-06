@@ -1,0 +1,30 @@
+atlas object id SimpleName SimpleType SingleVariableDeclaration SimpleName entity
+entity SimpleName MethodInvocation SimpleName get guid
+entity SimpleName MethodInvocation SimpleName get guid
+deleted entities SimpleName MethodInvocation SimpleName put
+deleted entities SimpleName MethodInvocation MethodInvocation SimpleName entity
+deleted entities SimpleName MethodInvocation MethodInvocation SimpleName get guid
+deleted entities SimpleName MethodInvocation SimpleName entity
+put SimpleName MethodInvocation MethodInvocation SimpleName entity
+put SimpleName MethodInvocation MethodInvocation SimpleName get guid
+put SimpleName MethodInvocation SimpleName entity
+entity SimpleName MethodInvocation MethodInvocation SimpleName entity
+get guid SimpleName MethodInvocation MethodInvocation SimpleName entity
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName record entity delete
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas object id
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName entity
+void PrimitiveType MethodDeclaration SimpleName record entity delete
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas object id
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName entity
+record entity delete SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas object id
+record entity delete SimpleName MethodDeclaration SingleVariableDeclaration SimpleName entity
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName record entity delete
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName record entity delete
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity

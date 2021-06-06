@@ -1,0 +1,34 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName guid
+string SimpleName SimpleType SingleVariableDeclaration SimpleName attribute
+string SimpleName SimpleType SingleVariableDeclaration SimpleName value
+create update entities result SimpleName SimpleType MethodDeclaration SimpleName update entity attribute by guid
+create update entities result SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName guid
+create update entities result SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName attribute
+create update entities result SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName value
+create update entities result SimpleName SimpleType MethodDeclaration SimpleType SimpleName atlas exception
+update entity attribute by guid SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+update entity attribute by guid SimpleName MethodDeclaration SingleVariableDeclaration SimpleName guid
+update entity attribute by guid SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+update entity attribute by guid SimpleName MethodDeclaration SingleVariableDeclaration SimpleName attribute
+update entity attribute by guid SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+update entity attribute by guid SimpleName MethodDeclaration SingleVariableDeclaration SimpleName value
+update entity attribute by guid SimpleName MethodDeclaration SimpleType SimpleName atlas exception
+guid SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attribute
+guid SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value
+guid SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+attribute SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value
+attribute SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+value SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName create update entities result
+public Modifier TypeDeclaration MethodDeclaration SimpleName update entity attribute by guid
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName guid
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attribute
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName create update entities result
+test SimpleName TypeDeclaration MethodDeclaration SimpleName update entity attribute by guid
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName guid
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attribute
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception

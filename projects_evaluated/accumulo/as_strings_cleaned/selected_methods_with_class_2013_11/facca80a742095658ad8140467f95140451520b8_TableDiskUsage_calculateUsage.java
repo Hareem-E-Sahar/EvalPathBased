@@ -1,0 +1,139 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName long
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName integer
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName long
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName integer
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName long
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+entry SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+table files SimpleName MethodInvocation SimpleName entry set
+entry SimpleName MethodInvocation SimpleName get key
+arrays SimpleName MethodInvocation SimpleName as list
+arrays SimpleName MethodInvocation MethodInvocation SimpleName entry
+arrays SimpleName MethodInvocation MethodInvocation SimpleName get key
+as list SimpleName MethodInvocation MethodInvocation SimpleName entry
+as list SimpleName MethodInvocation MethodInvocation SimpleName get key
+file sizes StringLiteral InfixExpression SimpleName file sizes
+file sizes StringLiteral InfixExpression StringLiteral key
+file sizes StringLiteral InfixExpression MethodInvocation SimpleName arrays
+file sizes StringLiteral InfixExpression MethodInvocation SimpleName as list
+file sizes StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName entry
+file sizes StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName get key
+file sizes SimpleName InfixExpression StringLiteral key
+file sizes SimpleName InfixExpression MethodInvocation SimpleName arrays
+file sizes SimpleName InfixExpression MethodInvocation SimpleName as list
+file sizes SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName entry
+file sizes SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName get key
+key StringLiteral InfixExpression MethodInvocation SimpleName arrays
+key StringLiteral InfixExpression MethodInvocation SimpleName as list
+key StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName entry
+key StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName get key
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation InfixExpression StringLiteral file sizes
+log SimpleName MethodInvocation InfixExpression SimpleName file sizes
+log SimpleName MethodInvocation InfixExpression StringLiteral key
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName arrays
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName as list
+info SimpleName MethodInvocation InfixExpression StringLiteral file sizes
+info SimpleName MethodInvocation InfixExpression SimpleName file sizes
+info SimpleName MethodInvocation InfixExpression StringLiteral key
+info SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName arrays
+info SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName as list
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName integer
+entry SimpleName MethodInvocation SimpleName get value
+arrays SimpleName MethodInvocation SimpleName as list
+arrays SimpleName MethodInvocation MethodInvocation SimpleName entry
+arrays SimpleName MethodInvocation MethodInvocation SimpleName get value
+as list SimpleName MethodInvocation MethodInvocation SimpleName entry
+as list SimpleName MethodInvocation MethodInvocation SimpleName get value
+key SimpleName VariableDeclarationFragment MethodInvocation SimpleName arrays
+key SimpleName VariableDeclarationFragment MethodInvocation SimpleName as list
+key SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName entry
+key SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get value
+entry SimpleName MethodInvocation SimpleName get key
+file sizes SimpleName MethodInvocation SimpleName get
+file sizes SimpleName MethodInvocation MethodInvocation SimpleName entry
+file sizes SimpleName MethodInvocation MethodInvocation SimpleName get key
+get SimpleName MethodInvocation MethodInvocation SimpleName entry
+get SimpleName MethodInvocation MethodInvocation SimpleName get key
+size SimpleName VariableDeclarationFragment MethodInvocation SimpleName file sizes
+size SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+size SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName entry
+size SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get key
+long SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName size
+usage SimpleName MethodInvocation SimpleName get
+usage SimpleName MethodInvocation SimpleName key
+get SimpleName MethodInvocation SimpleName key
+tables usage SimpleName VariableDeclarationFragment MethodInvocation SimpleName usage
+tables usage SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+tables usage SimpleName VariableDeclarationFragment MethodInvocation SimpleName key
+long SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName tables usage
+tables usage SimpleName Assignment NumberLiteral l
+tables usage SimpleName Assignment SimpleName size
+usage SimpleName MethodInvocation SimpleName put
+usage SimpleName MethodInvocation SimpleName key
+usage SimpleName MethodInvocation SimpleName tables usage
+put SimpleName MethodInvocation SimpleName key
+put SimpleName MethodInvocation SimpleName tables usage
+key SimpleName MethodInvocation SimpleName tables usage
+entry SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName table files
+entry SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName entry set
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName long
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName long
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName integer
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName long
+entry SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+long SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+usage SimpleName MethodInvocation SimpleName entry set
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName integer
+entry SimpleName MethodInvocation SimpleName get key
+key SimpleName VariableDeclarationFragment MethodInvocation SimpleName entry
+key SimpleName VariableDeclarationFragment MethodInvocation SimpleName get key
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+key SimpleName MethodInvocation SimpleName size
+i SimpleName InfixExpression MethodInvocation SimpleName key
+i SimpleName InfixExpression MethodInvocation SimpleName size
+key SimpleName MethodInvocation SimpleName get
+key SimpleName MethodInvocation SimpleName i
+get SimpleName MethodInvocation SimpleName i
+key SimpleName MethodInvocation InfixExpression NumberLiteral empty
+get SimpleName MethodInvocation InfixExpression NumberLiteral empty
+i SimpleName MethodInvocation InfixExpression NumberLiteral empty
+external ids SimpleName MethodInvocation SimpleName get
+external ids SimpleName MethodInvocation SimpleName i
+get SimpleName MethodInvocation SimpleName i
+external key SimpleName MethodInvocation SimpleName add
+external key SimpleName MethodInvocation MethodInvocation SimpleName external ids
+external key SimpleName MethodInvocation MethodInvocation SimpleName get
+external key SimpleName MethodInvocation MethodInvocation SimpleName i
+add SimpleName MethodInvocation MethodInvocation SimpleName external ids
+add SimpleName MethodInvocation MethodInvocation SimpleName get
+add SimpleName MethodInvocation MethodInvocation SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+entry SimpleName MethodInvocation SimpleName get value
+external usage SimpleName MethodInvocation SimpleName put
+external usage SimpleName MethodInvocation SimpleName external key
+external usage SimpleName MethodInvocation MethodInvocation SimpleName entry
+external usage SimpleName MethodInvocation MethodInvocation SimpleName get value
+put SimpleName MethodInvocation SimpleName external key
+put SimpleName MethodInvocation MethodInvocation SimpleName entry
+put SimpleName MethodInvocation MethodInvocation SimpleName get value
+external key SimpleName MethodInvocation MethodInvocation SimpleName entry
+external key SimpleName MethodInvocation MethodInvocation SimpleName get value
+entry SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName usage
+entry SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName entry set
+map SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName calculate usage
+long SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName calculate usage
+calculate usage SimpleName MethodDeclaration Block ReturnStatement SimpleName external usage
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration SimpleName calculate usage
+test SimpleName TypeDeclaration MethodDeclaration SimpleName calculate usage

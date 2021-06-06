@@ -1,0 +1,112 @@
+key SimpleName SimpleType SingleVariableDeclaration SimpleName key
+range SimpleName MethodInvocation SimpleName after end key
+range SimpleName MethodInvocation SimpleName key
+after end key SimpleName MethodInvocation SimpleName key
+range SimpleName MethodInvocation SimpleName get end key
+range SimpleName MethodInvocation SimpleName get end key
+range SimpleName MethodInvocation SimpleName is end key inclusive
+range SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName range
+range SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get end key
+range SimpleName SimpleType ClassInstanceCreation BooleanLiteral true
+range SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName range
+range SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get end key
+range SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName range
+range SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName is end key inclusive
+range SimpleName MethodInvocation ClassInstanceCreation BooleanLiteral true
+get end key SimpleName MethodInvocation ClassInstanceCreation BooleanLiteral true
+range SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName range
+range SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get end key
+get end key SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName range
+get end key SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get end key
+range SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName range
+range SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName is end key inclusive
+get end key SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName range
+get end key SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName is end key inclusive
+true BooleanLiteral ClassInstanceCreation MethodInvocation SimpleName range
+true BooleanLiteral ClassInstanceCreation MethodInvocation SimpleName get end key
+true BooleanLiteral ClassInstanceCreation MethodInvocation SimpleName range
+true BooleanLiteral ClassInstanceCreation MethodInvocation SimpleName is end key inclusive
+range SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName range
+range SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName is end key inclusive
+get end key SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName range
+get end key SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName is end key inclusive
+range SimpleName Assignment ClassInstanceCreation SimpleType SimpleName range
+range SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName range
+range SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName get end key
+range SimpleName Assignment ClassInstanceCreation BooleanLiteral true
+range SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName range
+range SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName get end key
+range SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName range
+range SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName is end key inclusive
+source SimpleName MethodInvocation SimpleName seek
+source SimpleName MethodInvocation SimpleName range
+source SimpleName MethodInvocation SimpleName column families
+source SimpleName MethodInvocation SimpleName inclusive
+seek SimpleName MethodInvocation SimpleName range
+seek SimpleName MethodInvocation SimpleName column families
+seek SimpleName MethodInvocation SimpleName inclusive
+range SimpleName MethodInvocation SimpleName column families
+range SimpleName MethodInvocation SimpleName inclusive
+column families SimpleName MethodInvocation SimpleName inclusive
+range SimpleName MethodInvocation SimpleName get end key
+range SimpleName MethodInvocation SimpleName is end key inclusive
+range SimpleName SimpleType ClassInstanceCreation SimpleName key
+range SimpleName SimpleType ClassInstanceCreation BooleanLiteral true
+range SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName range
+range SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get end key
+range SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName range
+range SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName is end key inclusive
+key SimpleName ClassInstanceCreation BooleanLiteral true
+key SimpleName ClassInstanceCreation MethodInvocation SimpleName range
+key SimpleName ClassInstanceCreation MethodInvocation SimpleName get end key
+key SimpleName ClassInstanceCreation MethodInvocation SimpleName range
+key SimpleName ClassInstanceCreation MethodInvocation SimpleName is end key inclusive
+true BooleanLiteral ClassInstanceCreation MethodInvocation SimpleName range
+true BooleanLiteral ClassInstanceCreation MethodInvocation SimpleName get end key
+true BooleanLiteral ClassInstanceCreation MethodInvocation SimpleName range
+true BooleanLiteral ClassInstanceCreation MethodInvocation SimpleName is end key inclusive
+range SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName range
+range SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName is end key inclusive
+get end key SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName range
+get end key SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName is end key inclusive
+range SimpleName Assignment ClassInstanceCreation SimpleType SimpleName range
+range SimpleName Assignment ClassInstanceCreation SimpleName key
+range SimpleName Assignment ClassInstanceCreation BooleanLiteral true
+range SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName range
+range SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName get end key
+range SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName range
+range SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName is end key inclusive
+source SimpleName MethodInvocation SimpleName seek
+source SimpleName MethodInvocation SimpleName range
+source SimpleName MethodInvocation SimpleName column families
+source SimpleName MethodInvocation SimpleName inclusive
+seek SimpleName MethodInvocation SimpleName range
+seek SimpleName MethodInvocation SimpleName column families
+seek SimpleName MethodInvocation SimpleName inclusive
+range SimpleName MethodInvocation SimpleName column families
+range SimpleName MethodInvocation SimpleName inclusive
+column families SimpleName MethodInvocation SimpleName inclusive
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName reseek
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName key
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName key
+private Modifier MethodDeclaration SimpleType SimpleName io exception
+void PrimitiveType MethodDeclaration SimpleName reseek
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName key
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName key
+void PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+reseek SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName key
+reseek SimpleName MethodDeclaration SingleVariableDeclaration SimpleName key
+reseek SimpleName MethodDeclaration SimpleType SimpleName io exception
+key SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName reseek
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName key
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName reseek
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName key
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

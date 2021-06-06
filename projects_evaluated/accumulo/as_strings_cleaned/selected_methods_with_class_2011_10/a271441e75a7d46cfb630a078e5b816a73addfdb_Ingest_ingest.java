@@ -1,0 +1,285 @@
+file SimpleName SimpleType SingleVariableDeclaration SimpleName src
+column visibility SimpleName SimpleType SingleVariableDeclaration SimpleName cv
+batch writer SimpleName SimpleType SingleVariableDeclaration SimpleName dir bw
+batch writer SimpleName SimpleType SingleVariableDeclaration SimpleName index bw
+file data ingest SimpleName SimpleType SingleVariableDeclaration SimpleName fdi
+batch writer SimpleName SimpleType SingleVariableDeclaration SimpleName data
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName path
+src SimpleName MethodInvocation SimpleName get canonical path
+path SimpleName Assignment MethodInvocation SimpleName src
+path SimpleName Assignment MethodInvocation SimpleName get canonical path
+io exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+src SimpleName MethodInvocation SimpleName get absolute path
+path SimpleName Assignment MethodInvocation SimpleName src
+path SimpleName Assignment MethodInvocation SimpleName get absolute path
+systemout QualifiedName MethodInvocation SimpleName println
+systemout QualifiedName MethodInvocation SimpleName path
+println SimpleName MethodInvocation SimpleName path
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName hash
+src SimpleName MethodInvocation SimpleName is directory
+fdi SimpleName MethodInvocation SimpleName insert file data
+fdi SimpleName MethodInvocation SimpleName path
+fdi SimpleName MethodInvocation SimpleName data
+insert file data SimpleName MethodInvocation SimpleName path
+insert file data SimpleName MethodInvocation SimpleName data
+path SimpleName MethodInvocation SimpleName data
+hash SimpleName Assignment MethodInvocation SimpleName fdi
+hash SimpleName Assignment MethodInvocation SimpleName insert file data
+hash SimpleName Assignment MethodInvocation SimpleName path
+hash SimpleName Assignment MethodInvocation SimpleName data
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+src SimpleName MethodInvocation SimpleName is directory
+src SimpleName MethodInvocation SimpleName is hidden
+src SimpleName MethodInvocation SimpleName can execute
+src SimpleName MethodInvocation SimpleName length
+src SimpleName MethodInvocation SimpleName last modified
+build mutation SimpleName MethodInvocation SimpleName cv
+build mutation SimpleName MethodInvocation SimpleName path
+build mutation SimpleName MethodInvocation MethodInvocation SimpleName src
+build mutation SimpleName MethodInvocation MethodInvocation SimpleName is directory
+build mutation SimpleName MethodInvocation MethodInvocation SimpleName src
+build mutation SimpleName MethodInvocation MethodInvocation SimpleName is hidden
+build mutation SimpleName MethodInvocation MethodInvocation SimpleName src
+build mutation SimpleName MethodInvocation MethodInvocation SimpleName can execute
+cv SimpleName MethodInvocation SimpleName path
+cv SimpleName MethodInvocation MethodInvocation SimpleName src
+cv SimpleName MethodInvocation MethodInvocation SimpleName is directory
+cv SimpleName MethodInvocation MethodInvocation SimpleName src
+cv SimpleName MethodInvocation MethodInvocation SimpleName is hidden
+cv SimpleName MethodInvocation MethodInvocation SimpleName src
+cv SimpleName MethodInvocation MethodInvocation SimpleName can execute
+cv SimpleName MethodInvocation MethodInvocation SimpleName src
+cv SimpleName MethodInvocation MethodInvocation SimpleName length
+path SimpleName MethodInvocation MethodInvocation SimpleName src
+path SimpleName MethodInvocation MethodInvocation SimpleName is directory
+path SimpleName MethodInvocation MethodInvocation SimpleName src
+path SimpleName MethodInvocation MethodInvocation SimpleName is hidden
+path SimpleName MethodInvocation MethodInvocation SimpleName src
+path SimpleName MethodInvocation MethodInvocation SimpleName can execute
+path SimpleName MethodInvocation MethodInvocation SimpleName src
+path SimpleName MethodInvocation MethodInvocation SimpleName length
+path SimpleName MethodInvocation MethodInvocation SimpleName src
+path SimpleName MethodInvocation MethodInvocation SimpleName last modified
+src SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName src
+src SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName is hidden
+is directory SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName src
+is directory SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName is hidden
+src SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName src
+src SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName can execute
+is directory SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName src
+is directory SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName can execute
+src SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName src
+src SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName length
+is directory SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName src
+is directory SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName length
+src SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName src
+src SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName last modified
+is directory SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName src
+is directory SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName last modified
+src SimpleName MethodInvocation MethodInvocation SimpleName hash
+is directory SimpleName MethodInvocation MethodInvocation SimpleName hash
+src SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName src
+src SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName can execute
+is hidden SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName src
+is hidden SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName can execute
+src SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName src
+src SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName length
+is hidden SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName src
+is hidden SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName length
+src SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName src
+src SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName last modified
+is hidden SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName src
+is hidden SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName last modified
+src SimpleName MethodInvocation MethodInvocation SimpleName hash
+is hidden SimpleName MethodInvocation MethodInvocation SimpleName hash
+src SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName src
+src SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName length
+can execute SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName src
+can execute SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName length
+src SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName src
+src SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName last modified
+can execute SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName src
+can execute SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName last modified
+src SimpleName MethodInvocation MethodInvocation SimpleName hash
+can execute SimpleName MethodInvocation MethodInvocation SimpleName hash
+src SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName src
+src SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName last modified
+length SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName src
+length SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName last modified
+src SimpleName MethodInvocation MethodInvocation SimpleName hash
+length SimpleName MethodInvocation MethodInvocation SimpleName hash
+src SimpleName MethodInvocation MethodInvocation SimpleName hash
+last modified SimpleName MethodInvocation MethodInvocation SimpleName hash
+dir bw SimpleName MethodInvocation SimpleName add mutation
+dir bw SimpleName MethodInvocation MethodInvocation SimpleName build mutation
+dir bw SimpleName MethodInvocation MethodInvocation SimpleName cv
+dir bw SimpleName MethodInvocation MethodInvocation SimpleName path
+dir bw SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName src
+dir bw SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName is directory
+dir bw SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName src
+dir bw SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName is hidden
+dir bw SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName src
+dir bw SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName can execute
+dir bw SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName src
+dir bw SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName length
+dir bw SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName src
+dir bw SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName last modified
+dir bw SimpleName MethodInvocation MethodInvocation SimpleName hash
+add mutation SimpleName MethodInvocation MethodInvocation SimpleName build mutation
+add mutation SimpleName MethodInvocation MethodInvocation SimpleName cv
+add mutation SimpleName MethodInvocation MethodInvocation SimpleName path
+add mutation SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName src
+add mutation SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName is directory
+add mutation SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName src
+add mutation SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName is hidden
+add mutation SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName src
+add mutation SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName can execute
+add mutation SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName src
+add mutation SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName length
+add mutation SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName src
+add mutation SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName last modified
+add mutation SimpleName MethodInvocation MethodInvocation SimpleName hash
+query util SimpleName MethodInvocation SimpleName get forward index
+query util SimpleName MethodInvocation SimpleName path
+get forward index SimpleName MethodInvocation SimpleName path
+row SimpleName VariableDeclarationFragment MethodInvocation SimpleName query util
+row SimpleName VariableDeclarationFragment MethodInvocation SimpleName get forward index
+row SimpleName VariableDeclarationFragment MethodInvocation SimpleName path
+text SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName row
+query util SimpleName MethodInvocation SimpleName get row
+query util SimpleName MethodInvocation SimpleName path
+get row SimpleName MethodInvocation SimpleName path
+text SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName query util
+text SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get row
+text SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName path
+p SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName text
+p SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName query util
+p SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get row
+p SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName path
+text SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName p
+mutation SimpleName SimpleType ClassInstanceCreation SimpleName row
+m SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName mutation
+m SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName row
+mutation SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName m
+m SimpleName MethodInvocation SimpleName put
+m SimpleName MethodInvocation QualifiedName query utilindex colf
+m SimpleName MethodInvocation SimpleName p
+m SimpleName MethodInvocation SimpleName cv
+m SimpleName MethodInvocation SimpleName null value
+put SimpleName MethodInvocation QualifiedName query utilindex colf
+put SimpleName MethodInvocation SimpleName p
+put SimpleName MethodInvocation SimpleName cv
+put SimpleName MethodInvocation SimpleName null value
+query utilindex colf QualifiedName MethodInvocation SimpleName p
+query utilindex colf QualifiedName MethodInvocation SimpleName cv
+query utilindex colf QualifiedName MethodInvocation SimpleName null value
+p SimpleName MethodInvocation SimpleName cv
+p SimpleName MethodInvocation SimpleName null value
+cv SimpleName MethodInvocation SimpleName null value
+index bw SimpleName MethodInvocation SimpleName add mutation
+index bw SimpleName MethodInvocation SimpleName m
+add mutation SimpleName MethodInvocation SimpleName m
+query util SimpleName MethodInvocation SimpleName get reverse index
+query util SimpleName MethodInvocation SimpleName path
+get reverse index SimpleName MethodInvocation SimpleName path
+row SimpleName Assignment MethodInvocation SimpleName query util
+row SimpleName Assignment MethodInvocation SimpleName get reverse index
+row SimpleName Assignment MethodInvocation SimpleName path
+mutation SimpleName SimpleType ClassInstanceCreation SimpleName row
+m SimpleName Assignment ClassInstanceCreation SimpleType SimpleName mutation
+m SimpleName Assignment ClassInstanceCreation SimpleName row
+m SimpleName MethodInvocation SimpleName put
+m SimpleName MethodInvocation QualifiedName query utilindex colf
+m SimpleName MethodInvocation SimpleName p
+m SimpleName MethodInvocation SimpleName cv
+m SimpleName MethodInvocation SimpleName null value
+put SimpleName MethodInvocation QualifiedName query utilindex colf
+put SimpleName MethodInvocation SimpleName p
+put SimpleName MethodInvocation SimpleName cv
+put SimpleName MethodInvocation SimpleName null value
+query utilindex colf QualifiedName MethodInvocation SimpleName p
+query utilindex colf QualifiedName MethodInvocation SimpleName cv
+query utilindex colf QualifiedName MethodInvocation SimpleName null value
+p SimpleName MethodInvocation SimpleName cv
+p SimpleName MethodInvocation SimpleName null value
+cv SimpleName MethodInvocation SimpleName null value
+index bw SimpleName MethodInvocation SimpleName add mutation
+index bw SimpleName MethodInvocation SimpleName m
+add mutation SimpleName MethodInvocation SimpleName m
+private Modifier MethodDeclaration Modifier static
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName ingest
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName file
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName src
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName column visibility
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName cv
+static Modifier MethodDeclaration PrimitiveType void
+static Modifier MethodDeclaration SimpleName ingest
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName file
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName src
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName column visibility
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName cv
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName batch writer
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName dir bw
+void PrimitiveType MethodDeclaration SimpleName ingest
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName file
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName src
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName column visibility
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName cv
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName batch writer
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName dir bw
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName batch writer
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName index bw
+ingest SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName file
+ingest SimpleName MethodDeclaration SingleVariableDeclaration SimpleName src
+ingest SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName column visibility
+ingest SimpleName MethodDeclaration SingleVariableDeclaration SimpleName cv
+ingest SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName batch writer
+ingest SimpleName MethodDeclaration SingleVariableDeclaration SimpleName dir bw
+ingest SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName batch writer
+ingest SimpleName MethodDeclaration SingleVariableDeclaration SimpleName index bw
+ingest SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName file data ingest
+ingest SimpleName MethodDeclaration SingleVariableDeclaration SimpleName fdi
+src SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cv
+src SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName dir bw
+src SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName index bw
+src SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName fdi
+src SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName data
+cv SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName dir bw
+cv SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName index bw
+cv SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName fdi
+cv SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName data
+cv SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+dir bw SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName index bw
+dir bw SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName fdi
+dir bw SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName data
+dir bw SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+index bw SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName fdi
+index bw SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName data
+index bw SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+fdi SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName data
+fdi SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+data SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName ingest
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName src
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cv
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName dir bw
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName index bw
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName fdi
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName data
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName ingest
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName src
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cv
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName dir bw
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName index bw
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName fdi
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName data
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

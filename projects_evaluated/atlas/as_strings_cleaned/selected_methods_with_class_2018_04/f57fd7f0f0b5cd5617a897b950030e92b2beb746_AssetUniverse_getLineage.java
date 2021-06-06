@@ -1,0 +1,11 @@
+lineage SimpleName SimpleType ClassInstanceCreation SimpleName lineage
+public Modifier MethodDeclaration SimpleType SimpleName lineage
+public Modifier MethodDeclaration SimpleName get lineage
+lineage SimpleName SimpleType MethodDeclaration SimpleName get lineage
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName lineage
+public Modifier TypeDeclaration MethodDeclaration SimpleName get lineage
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName lineage
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get lineage

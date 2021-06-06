@@ -1,0 +1,23 @@
+get sys user name SimpleName MethodInvocation InfixExpression SimpleName user pass
+state SimpleName MethodInvocation SimpleName get
+state SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get sys user name
+state SimpleName MethodInvocation InfixExpression SimpleName user pass
+get SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get sys user name
+get SimpleName MethodInvocation InfixExpression SimpleName user pass
+obj SimpleName VariableDeclarationFragment MethodInvocation SimpleName state
+obj SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+obj SimpleName VariableDeclarationFragment MethodInvocation InfixExpression SimpleName user pass
+object SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName obj
+obj SimpleName InstanceofExpression SimpleType SimpleName password token
+password token SimpleName SimpleType CastExpression SimpleName obj
+obj SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName get password
+public Modifier MethodDeclaration ArrayType PrimitiveType byte
+public Modifier MethodDeclaration SimpleName get sys password
+byte PrimitiveType ArrayType MethodDeclaration SimpleName get sys password
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration ArrayType PrimitiveType byte
+public Modifier TypeDeclaration MethodDeclaration SimpleName get sys password
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration ArrayType PrimitiveType byte
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get sys password

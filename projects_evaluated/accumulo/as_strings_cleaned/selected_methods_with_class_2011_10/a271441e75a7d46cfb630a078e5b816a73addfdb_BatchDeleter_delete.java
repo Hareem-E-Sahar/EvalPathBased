@@ -1,0 +1,21 @@
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName delete
+public Modifier MethodDeclaration SimpleType SimpleName mutations rejected exception
+public Modifier MethodDeclaration SimpleType SimpleName table not found exception
+void PrimitiveType MethodDeclaration SimpleName delete
+void PrimitiveType MethodDeclaration SimpleType SimpleName mutations rejected exception
+void PrimitiveType MethodDeclaration SimpleType SimpleName table not found exception
+delete SimpleName MethodDeclaration SimpleType SimpleName mutations rejected exception
+delete SimpleName MethodDeclaration SimpleType SimpleName table not found exception
+mutations rejected exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName table not found exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName delete
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName mutations rejected exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName table not found exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName delete
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName mutations rejected exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName table not found exception

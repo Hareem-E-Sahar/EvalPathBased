@@ -1,0 +1,99 @@
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName file to server map
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName file to server map
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName file to server map
+gc status SimpleName SimpleType SingleVariableDeclaration SimpleName status
+count SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName count
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+iterator SimpleName SimpleType ParameterizedType SimpleType SimpleName log entry
+security constants SimpleName MethodInvocation SimpleName get system credentials
+metadata table SimpleName MethodInvocation SimpleName get log entries
+metadata table SimpleName MethodInvocation MethodInvocation SimpleName security constants
+metadata table SimpleName MethodInvocation MethodInvocation SimpleName get system credentials
+get log entries SimpleName MethodInvocation MethodInvocation SimpleName security constants
+get log entries SimpleName MethodInvocation MethodInvocation SimpleName get system credentials
+iterator SimpleName VariableDeclarationFragment MethodInvocation SimpleName metadata table
+iterator SimpleName VariableDeclarationFragment MethodInvocation SimpleName get log entries
+iterator SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName security constants
+iterator SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get system credentials
+iterator SimpleName MethodInvocation SimpleName has next
+string SimpleName SimpleType SingleVariableDeclaration SimpleName filename
+iterator SimpleName MethodInvocation SimpleName next
+iterator SimpleName MethodInvocation FieldAccess SimpleName log set
+next SimpleName MethodInvocation FieldAccess SimpleName log set
+filename SimpleName MethodInvocation SimpleName split
+filename SimpleName MethodInvocation StringLiteral /
+filename SimpleName MethodInvocation NumberLiteral empty
+split SimpleName MethodInvocation StringLiteral /
+split SimpleName MethodInvocation NumberLiteral empty
+/ StringLiteral MethodInvocation NumberLiteral empty
+filename SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+split SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+/ StringLiteral MethodInvocation ArrayAccess NumberLiteral empty
+empty NumberLiteral MethodInvocation ArrayAccess NumberLiteral empty
+filename SimpleName Assignment ArrayAccess MethodInvocation SimpleName filename
+filename SimpleName Assignment ArrayAccess MethodInvocation SimpleName split
+filename SimpleName Assignment ArrayAccess MethodInvocation StringLiteral /
+filename SimpleName Assignment ArrayAccess MethodInvocation NumberLiteral empty
+filename SimpleName Assignment ArrayAccess NumberLiteral empty
+file to server map SimpleName MethodInvocation SimpleName remove
+file to server map SimpleName MethodInvocation SimpleName filename
+remove SimpleName MethodInvocation SimpleName filename
+filename SimpleName SingleVariableDeclaration EnhancedForStatement FieldAccess SimpleName log set
+int PrimitiveType VariableDeclarationStatement Block ReturnStatement SimpleName count
+private Modifier MethodDeclaration Modifier static
+private Modifier MethodDeclaration PrimitiveType int
+private Modifier MethodDeclaration SimpleName remove metadata entries
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName file to server map
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName gc status
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName status
+static Modifier MethodDeclaration PrimitiveType int
+static Modifier MethodDeclaration SimpleName remove metadata entries
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName file to server map
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName gc status
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName status
+static Modifier MethodDeclaration SimpleType SimpleName io exception
+int PrimitiveType MethodDeclaration SimpleName remove metadata entries
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName file to server map
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName gc status
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName status
+int PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+int PrimitiveType MethodDeclaration SimpleType SimpleName keeper exception
+remove metadata entries SimpleName MethodDeclaration SingleVariableDeclaration SimpleName file to server map
+remove metadata entries SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName gc status
+remove metadata entries SimpleName MethodDeclaration SingleVariableDeclaration SimpleName status
+remove metadata entries SimpleName MethodDeclaration SimpleType SimpleName io exception
+remove metadata entries SimpleName MethodDeclaration SimpleType SimpleName keeper exception
+remove metadata entries SimpleName MethodDeclaration SimpleType SimpleName interrupted exception
+file to server map SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName status
+file to server map SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+file to server map SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName keeper exception
+file to server map SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName interrupted exception
+status SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+status SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName keeper exception
+status SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName interrupted exception
+io exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName keeper exception
+io exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName interrupted exception
+keeper exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName interrupted exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SimpleName remove metadata entries
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName file to server map
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName status
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName keeper exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName interrupted exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SimpleName remove metadata entries
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName file to server map
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName status
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName keeper exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName interrupted exception

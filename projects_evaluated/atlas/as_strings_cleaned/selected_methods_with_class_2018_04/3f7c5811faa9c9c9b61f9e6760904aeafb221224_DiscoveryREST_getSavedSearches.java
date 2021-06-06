@@ -1,0 +1,135 @@
+path SimpleName SingleMemberAnnotation StringLiteral saved
+consumes SimpleName SingleMemberAnnotation QualifiedName servletsjson media type
+produces SimpleName SingleMemberAnnotation QualifiedName servletsjson media type
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas user saved search
+query param SimpleName SingleMemberAnnotation StringLiteral user
+query param SimpleName SingleMemberAnnotation SingleVariableDeclaration SimpleType SimpleName string
+user StringLiteral SingleMemberAnnotation SingleVariableDeclaration SimpleType SimpleName string
+query param SimpleName SingleMemberAnnotation SingleVariableDeclaration SimpleName user name
+user StringLiteral SingleMemberAnnotation SingleVariableDeclaration SimpleName user name
+string SimpleName SimpleType SingleVariableDeclaration SimpleName user name
+servlets SimpleName MethodInvocation SimpleName validate query param length
+servlets SimpleName MethodInvocation StringLiteral user
+servlets SimpleName MethodInvocation SimpleName user name
+validate query param length SimpleName MethodInvocation StringLiteral user
+validate query param length SimpleName MethodInvocation SimpleName user name
+user StringLiteral MethodInvocation SimpleName user name
+atlas perf tracer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName perf
+atlas perf tracer SimpleName MethodInvocation SimpleName is perf trace enabled
+atlas perf tracer SimpleName MethodInvocation SimpleName perf log
+is perf trace enabled SimpleName MethodInvocation SimpleName perf log
+discovery restget saved searchesuser name StringLiteral InfixExpression SimpleName user name
+discovery restget saved searchesuser name StringLiteral InfixExpression StringLiteral )
+user name SimpleName InfixExpression StringLiteral )
+atlas perf tracer SimpleName MethodInvocation SimpleName get perf tracer
+atlas perf tracer SimpleName MethodInvocation SimpleName perf log
+atlas perf tracer SimpleName MethodInvocation InfixExpression StringLiteral discovery restget saved searchesuser name
+atlas perf tracer SimpleName MethodInvocation InfixExpression SimpleName user name
+atlas perf tracer SimpleName MethodInvocation InfixExpression StringLiteral )
+get perf tracer SimpleName MethodInvocation SimpleName perf log
+get perf tracer SimpleName MethodInvocation InfixExpression StringLiteral discovery restget saved searchesuser name
+get perf tracer SimpleName MethodInvocation InfixExpression SimpleName user name
+get perf tracer SimpleName MethodInvocation InfixExpression StringLiteral )
+perf log SimpleName MethodInvocation InfixExpression StringLiteral discovery restget saved searchesuser name
+perf log SimpleName MethodInvocation InfixExpression SimpleName user name
+perf log SimpleName MethodInvocation InfixExpression StringLiteral )
+perf SimpleName Assignment MethodInvocation SimpleName atlas perf tracer
+perf SimpleName Assignment MethodInvocation SimpleName get perf tracer
+perf SimpleName Assignment MethodInvocation SimpleName perf log
+perf SimpleName Assignment MethodInvocation InfixExpression StringLiteral discovery restget saved searchesuser name
+perf SimpleName Assignment MethodInvocation InfixExpression SimpleName user name
+perf SimpleName Assignment MethodInvocation InfixExpression StringLiteral )
+servlets SimpleName MethodInvocation SimpleName get user name
+servlets SimpleName MethodInvocation SimpleName http servlet request
+get user name SimpleName MethodInvocation SimpleName http servlet request
+atlas discovery service SimpleName MethodInvocation SimpleName get saved searches
+atlas discovery service SimpleName MethodInvocation MethodInvocation SimpleName servlets
+atlas discovery service SimpleName MethodInvocation MethodInvocation SimpleName get user name
+atlas discovery service SimpleName MethodInvocation MethodInvocation SimpleName http servlet request
+atlas discovery service SimpleName MethodInvocation SimpleName user name
+get saved searches SimpleName MethodInvocation MethodInvocation SimpleName servlets
+get saved searches SimpleName MethodInvocation MethodInvocation SimpleName get user name
+get saved searches SimpleName MethodInvocation MethodInvocation SimpleName http servlet request
+get saved searches SimpleName MethodInvocation SimpleName user name
+servlets SimpleName MethodInvocation MethodInvocation SimpleName user name
+get user name SimpleName MethodInvocation MethodInvocation SimpleName user name
+http servlet request SimpleName MethodInvocation MethodInvocation SimpleName user name
+atlas perf tracer SimpleName MethodInvocation SimpleName log
+atlas perf tracer SimpleName MethodInvocation SimpleName perf
+log SimpleName MethodInvocation SimpleName perf
+get SimpleName MarkerAnnotation MethodDeclaration SingleMemberAnnotation SimpleName path
+get SimpleName MarkerAnnotation MethodDeclaration SingleMemberAnnotation StringLiteral saved
+get SimpleName MarkerAnnotation MethodDeclaration SingleMemberAnnotation SimpleName consumes
+get SimpleName MarkerAnnotation MethodDeclaration SingleMemberAnnotation QualifiedName servletsjson media type
+get SimpleName MarkerAnnotation MethodDeclaration SingleMemberAnnotation SimpleName produces
+get SimpleName MarkerAnnotation MethodDeclaration SingleMemberAnnotation QualifiedName servletsjson media type
+get SimpleName MarkerAnnotation MethodDeclaration Modifier public
+path SimpleName SingleMemberAnnotation MethodDeclaration SingleMemberAnnotation SimpleName consumes
+path SimpleName SingleMemberAnnotation MethodDeclaration SingleMemberAnnotation QualifiedName servletsjson media type
+saved StringLiteral SingleMemberAnnotation MethodDeclaration SingleMemberAnnotation SimpleName consumes
+saved StringLiteral SingleMemberAnnotation MethodDeclaration SingleMemberAnnotation QualifiedName servletsjson media type
+path SimpleName SingleMemberAnnotation MethodDeclaration SingleMemberAnnotation SimpleName produces
+path SimpleName SingleMemberAnnotation MethodDeclaration SingleMemberAnnotation QualifiedName servletsjson media type
+saved StringLiteral SingleMemberAnnotation MethodDeclaration SingleMemberAnnotation SimpleName produces
+saved StringLiteral SingleMemberAnnotation MethodDeclaration SingleMemberAnnotation QualifiedName servletsjson media type
+path SimpleName SingleMemberAnnotation MethodDeclaration Modifier public
+saved StringLiteral SingleMemberAnnotation MethodDeclaration Modifier public
+path SimpleName SingleMemberAnnotation MethodDeclaration SimpleName get saved searches
+saved StringLiteral SingleMemberAnnotation MethodDeclaration SimpleName get saved searches
+consumes SimpleName SingleMemberAnnotation MethodDeclaration SingleMemberAnnotation SimpleName produces
+consumes SimpleName SingleMemberAnnotation MethodDeclaration SingleMemberAnnotation QualifiedName servletsjson media type
+servletsjson media type QualifiedName SingleMemberAnnotation MethodDeclaration SingleMemberAnnotation SimpleName produces
+servletsjson media type QualifiedName SingleMemberAnnotation MethodDeclaration SingleMemberAnnotation QualifiedName servletsjson media type
+consumes SimpleName SingleMemberAnnotation MethodDeclaration Modifier public
+servletsjson media type QualifiedName SingleMemberAnnotation MethodDeclaration Modifier public
+consumes SimpleName SingleMemberAnnotation MethodDeclaration SimpleName get saved searches
+servletsjson media type QualifiedName SingleMemberAnnotation MethodDeclaration SimpleName get saved searches
+consumes SimpleName SingleMemberAnnotation MethodDeclaration SingleVariableDeclaration SimpleName user name
+servletsjson media type QualifiedName SingleMemberAnnotation MethodDeclaration SingleVariableDeclaration SimpleName user name
+produces SimpleName SingleMemberAnnotation MethodDeclaration Modifier public
+servletsjson media type QualifiedName SingleMemberAnnotation MethodDeclaration Modifier public
+produces SimpleName SingleMemberAnnotation MethodDeclaration SimpleName get saved searches
+servletsjson media type QualifiedName SingleMemberAnnotation MethodDeclaration SimpleName get saved searches
+produces SimpleName SingleMemberAnnotation MethodDeclaration SingleVariableDeclaration SimpleName user name
+servletsjson media type QualifiedName SingleMemberAnnotation MethodDeclaration SingleVariableDeclaration SimpleName user name
+produces SimpleName SingleMemberAnnotation MethodDeclaration SimpleType SimpleName atlas base exception
+servletsjson media type QualifiedName SingleMemberAnnotation MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName atlas user saved search
+public Modifier MethodDeclaration SimpleName get saved searches
+public Modifier MethodDeclaration SingleVariableDeclaration SingleMemberAnnotation SimpleName query param
+public Modifier MethodDeclaration SingleVariableDeclaration SingleMemberAnnotation StringLiteral user
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName user name
+public Modifier MethodDeclaration SimpleType SimpleName atlas base exception
+list SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get saved searches
+atlas user saved search SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get saved searches
+get saved searches SimpleName MethodDeclaration SingleVariableDeclaration SingleMemberAnnotation SimpleName query param
+get saved searches SimpleName MethodDeclaration SingleVariableDeclaration SingleMemberAnnotation StringLiteral user
+get saved searches SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get saved searches SimpleName MethodDeclaration SingleVariableDeclaration SimpleName user name
+get saved searches SimpleName MethodDeclaration SimpleType SimpleName atlas base exception
+user name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName get
+public Modifier TypeDeclaration MethodDeclaration SingleMemberAnnotation SimpleName path
+public Modifier TypeDeclaration MethodDeclaration SingleMemberAnnotation StringLiteral saved
+public Modifier TypeDeclaration MethodDeclaration SingleMemberAnnotation SimpleName consumes
+public Modifier TypeDeclaration MethodDeclaration SingleMemberAnnotation QualifiedName servletsjson media type
+public Modifier TypeDeclaration MethodDeclaration SingleMemberAnnotation SimpleName produces
+public Modifier TypeDeclaration MethodDeclaration SingleMemberAnnotation QualifiedName servletsjson media type
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName get saved searches
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName user name
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName get
+test SimpleName TypeDeclaration MethodDeclaration SingleMemberAnnotation SimpleName path
+test SimpleName TypeDeclaration MethodDeclaration SingleMemberAnnotation StringLiteral saved
+test SimpleName TypeDeclaration MethodDeclaration SingleMemberAnnotation SimpleName consumes
+test SimpleName TypeDeclaration MethodDeclaration SingleMemberAnnotation QualifiedName servletsjson media type
+test SimpleName TypeDeclaration MethodDeclaration SingleMemberAnnotation SimpleName produces
+test SimpleName TypeDeclaration MethodDeclaration SingleMemberAnnotation QualifiedName servletsjson media type
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get saved searches
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName user name
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception

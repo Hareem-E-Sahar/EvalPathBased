@@ -1,0 +1,21 @@
+native titan graph query SimpleName SimpleType ParameterizedType SimpleType SimpleName titan vertex
+native titan graph query SimpleName SimpleType ParameterizedType SimpleType SimpleName titan edge
+titan vertex SimpleName SimpleType ParameterizedType SimpleType SimpleName titan edge
+titan graph SimpleName SimpleType CastExpression SimpleName graph
+native titan graph query SimpleName SimpleType ClassInstanceCreation CastExpression SimpleName graph
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName create native titan query
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName native titan graph query
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName titan vertex
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName titan edge
+public Modifier MethodDeclaration SimpleName create native titan query
+native titan graph query SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName create native titan query
+titan vertex SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName create native titan query
+titan edge SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName create native titan query
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName create native titan query
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create native titan query

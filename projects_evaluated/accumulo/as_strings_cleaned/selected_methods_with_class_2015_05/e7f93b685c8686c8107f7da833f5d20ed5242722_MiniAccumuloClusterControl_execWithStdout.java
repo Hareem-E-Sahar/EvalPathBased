@@ -1,0 +1,124 @@
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName integer
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+integer SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+class SimpleName SimpleType ParameterizedType WildcardType ?
+class SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName clz
+? WildcardType ParameterizedType SingleVariableDeclaration SimpleName clz
+string SimpleName SimpleType ArrayType SingleVariableDeclaration SimpleName args
+cluster SimpleName MethodInvocation SimpleName exec
+cluster SimpleName MethodInvocation SimpleName clz
+cluster SimpleName MethodInvocation SimpleName args
+exec SimpleName MethodInvocation SimpleName clz
+exec SimpleName MethodInvocation SimpleName args
+clz SimpleName MethodInvocation SimpleName args
+p SimpleName VariableDeclarationFragment MethodInvocation SimpleName cluster
+p SimpleName VariableDeclarationFragment MethodInvocation SimpleName exec
+p SimpleName VariableDeclarationFragment MethodInvocation SimpleName clz
+p SimpleName VariableDeclarationFragment MethodInvocation SimpleName args
+process SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName p
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName exit code
+p SimpleName MethodInvocation SimpleName wait for
+exit code SimpleName Assignment MethodInvocation SimpleName p
+exit code SimpleName Assignment MethodInvocation SimpleName wait for
+interrupted exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+log SimpleName MethodInvocation SimpleName warn
+log SimpleName MethodInvocation StringLiteral interrupted waiting for process to exit
+log SimpleName MethodInvocation SimpleName e
+warn SimpleName MethodInvocation StringLiteral interrupted waiting for process to exit
+warn SimpleName MethodInvocation SimpleName e
+interrupted waiting for process to exit StringLiteral MethodInvocation SimpleName e
+thread SimpleName MethodInvocation SimpleName current thread
+thread SimpleName MethodInvocation MethodInvocation SimpleName interrupt
+current thread SimpleName MethodInvocation MethodInvocation SimpleName interrupt
+io exception SimpleName SimpleType ClassInstanceCreation SimpleName e
+log writer SimpleName SimpleType SingleVariableDeclaration SimpleName writer
+cluster SimpleName MethodInvocation SimpleName get log writers
+writer SimpleName MethodInvocation SimpleName flush
+writer SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName cluster
+writer SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName get log writers
+cluster SimpleName MethodInvocation SimpleName get config
+cluster SimpleName MethodInvocation MethodInvocation SimpleName get log dir
+get config SimpleName MethodInvocation MethodInvocation SimpleName get log dir
+clz SimpleName MethodInvocation SimpleName get simple name
+p SimpleName MethodInvocation SimpleName hash code
+cluster SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral /
+get config SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral /
+get log dir SimpleName MethodInvocation InfixExpression StringLiteral /
+get log dir SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName clz
+get log dir SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get simple name
+cluster SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral empty
+get config SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral empty
+get log dir SimpleName MethodInvocation InfixExpression StringLiteral empty
+get log dir SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName p
+get log dir SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName hash code
+cluster SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral out
+get config SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral out
+get log dir SimpleName MethodInvocation InfixExpression StringLiteral out
+/ StringLiteral InfixExpression MethodInvocation SimpleName clz
+/ StringLiteral InfixExpression MethodInvocation SimpleName get simple name
+/ StringLiteral InfixExpression StringLiteral empty
+/ StringLiteral InfixExpression MethodInvocation SimpleName p
+/ StringLiteral InfixExpression MethodInvocation SimpleName hash code
+/ StringLiteral InfixExpression StringLiteral out
+clz SimpleName MethodInvocation InfixExpression StringLiteral empty
+get simple name SimpleName MethodInvocation InfixExpression StringLiteral empty
+clz SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName p
+clz SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName hash code
+get simple name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName p
+get simple name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName hash code
+clz SimpleName MethodInvocation InfixExpression StringLiteral out
+get simple name SimpleName MethodInvocation InfixExpression StringLiteral out
+empty StringLiteral InfixExpression MethodInvocation SimpleName p
+empty StringLiteral InfixExpression MethodInvocation SimpleName hash code
+empty StringLiteral InfixExpression StringLiteral out
+p SimpleName MethodInvocation InfixExpression StringLiteral out
+hash code SimpleName MethodInvocation InfixExpression StringLiteral out
+file input stream SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral /
+file input stream SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral empty
+file input stream SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral out
+read all SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName file input stream
+read all SimpleName MethodInvocation ClassInstanceCreation InfixExpression StringLiteral /
+read all SimpleName MethodInvocation ClassInstanceCreation InfixExpression StringLiteral empty
+read all SimpleName MethodInvocation ClassInstanceCreation InfixExpression StringLiteral out
+maps SimpleName MethodInvocation SimpleName immutable entry
+maps SimpleName MethodInvocation SimpleName exit code
+maps SimpleName MethodInvocation MethodInvocation SimpleName read all
+immutable entry SimpleName MethodInvocation SimpleName exit code
+immutable entry SimpleName MethodInvocation MethodInvocation SimpleName read all
+exit code SimpleName MethodInvocation MethodInvocation SimpleName read all
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName exec with stdout
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName clz
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName args
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName entry
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName integer
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName exec with stdout
+public Modifier MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName clz
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName args
+public Modifier MethodDeclaration SimpleType SimpleName io exception
+entry SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName exec with stdout
+integer SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName exec with stdout
+string SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName exec with stdout
+exec with stdout SimpleName MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+exec with stdout SimpleName MethodDeclaration SingleVariableDeclaration SimpleName clz
+exec with stdout SimpleName MethodDeclaration SingleVariableDeclaration SimpleName args
+exec with stdout SimpleName MethodDeclaration SimpleType SimpleName io exception
+exec with stdout SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+clz SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName args
+clz SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+args SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName exec with stdout
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName clz
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName args
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName exec with stdout
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName clz
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName args
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

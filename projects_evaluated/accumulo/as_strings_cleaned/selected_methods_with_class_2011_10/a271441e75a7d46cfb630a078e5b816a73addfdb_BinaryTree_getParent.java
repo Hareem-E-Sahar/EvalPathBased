@@ -1,0 +1,13 @@
+binary tree SimpleName SimpleType ParameterizedType SimpleType SimpleName t
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName binary tree
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName t
+public Modifier MethodDeclaration SimpleName get parent
+public Modifier MethodDeclaration Block ReturnStatement SimpleName parent
+binary tree SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get parent
+t SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get parent
+get parent SimpleName MethodDeclaration Block ReturnStatement SimpleName parent
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName get parent
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get parent

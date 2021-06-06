@@ -1,0 +1,100 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName user id
+string SimpleName SimpleType SingleVariableDeclaration SimpleName comment guid
+comment type SimpleName SimpleType SingleVariableDeclaration SimpleName comment type
+string SimpleName SimpleType SingleVariableDeclaration SimpleName comment text
+method name SimpleName VariableDeclarationFragment StringLiteral add comment reply
+final Modifier VariableDeclarationStatement SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName method name
+final Modifier VariableDeclarationStatement VariableDeclarationFragment StringLiteral add comment reply
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName method name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral add comment reply
+guid parameter SimpleName VariableDeclarationFragment StringLiteral asset guid
+final Modifier VariableDeclarationStatement SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName guid parameter
+final Modifier VariableDeclarationStatement VariableDeclarationFragment StringLiteral asset guid
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName guid parameter
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral asset guid
+add comment to entity SimpleName MethodInvocation SimpleName user id
+add comment to entity SimpleName MethodInvocation SimpleName comment guid
+add comment to entity SimpleName MethodInvocation SimpleName guid parameter
+add comment to entity SimpleName MethodInvocation SimpleName comment type
+add comment to entity SimpleName MethodInvocation SimpleName comment text
+user id SimpleName MethodInvocation SimpleName comment guid
+user id SimpleName MethodInvocation SimpleName guid parameter
+user id SimpleName MethodInvocation SimpleName comment type
+user id SimpleName MethodInvocation SimpleName comment text
+user id SimpleName MethodInvocation SimpleName method name
+comment guid SimpleName MethodInvocation SimpleName guid parameter
+comment guid SimpleName MethodInvocation SimpleName comment type
+comment guid SimpleName MethodInvocation SimpleName comment text
+comment guid SimpleName MethodInvocation SimpleName method name
+guid parameter SimpleName MethodInvocation SimpleName comment type
+guid parameter SimpleName MethodInvocation SimpleName comment text
+guid parameter SimpleName MethodInvocation SimpleName method name
+comment type SimpleName MethodInvocation SimpleName comment text
+comment type SimpleName MethodInvocation SimpleName method name
+comment text SimpleName MethodInvocation SimpleName method name
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+public Modifier MethodDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName add comment reply
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName user id
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName comment guid
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName comment type
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName comment type
+string SimpleName SimpleType MethodDeclaration SimpleName add comment reply
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName user id
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName comment guid
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName comment type
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName comment text
+add comment reply SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+add comment reply SimpleName MethodDeclaration SingleVariableDeclaration SimpleName user id
+add comment reply SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+add comment reply SimpleName MethodDeclaration SingleVariableDeclaration SimpleName comment guid
+add comment reply SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName comment type
+add comment reply SimpleName MethodDeclaration SingleVariableDeclaration SimpleName comment type
+add comment reply SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+add comment reply SimpleName MethodDeclaration SingleVariableDeclaration SimpleName comment text
+add comment reply SimpleName MethodDeclaration SimpleType SimpleName invalid parameter exception
+user id SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName comment guid
+user id SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName comment type
+user id SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName comment text
+user id SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName invalid parameter exception
+user id SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName property server exception
+comment guid SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName comment type
+comment guid SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName comment text
+comment guid SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName invalid parameter exception
+comment guid SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName property server exception
+comment guid SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName user not authorized exception
+comment type SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName comment text
+comment type SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName invalid parameter exception
+comment type SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName property server exception
+comment type SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName user not authorized exception
+comment text SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName invalid parameter exception
+comment text SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName property server exception
+comment text SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName user not authorized exception
+invalid parameter exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName property server exception
+invalid parameter exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName user not authorized exception
+property server exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName user not authorized exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName add comment reply
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName user id
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName comment guid
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName comment type
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName comment text
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName invalid parameter exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName property server exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName user not authorized exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName add comment reply
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName user id
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName comment guid
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName comment type
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName comment text
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName invalid parameter exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName property server exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName user not authorized exception

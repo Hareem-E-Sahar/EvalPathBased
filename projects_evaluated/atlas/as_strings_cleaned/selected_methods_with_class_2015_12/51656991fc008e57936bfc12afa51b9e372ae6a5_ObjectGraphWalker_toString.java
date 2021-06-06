@@ -1,0 +1,38 @@
+string builder SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName append
+string builder SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName instance
+append SimpleName MethodInvocation SimpleName instance
+append SimpleName MethodInvocation MethodInvocation SimpleName append
+instance SimpleName MethodInvocation MethodInvocation SimpleName append
+append SimpleName MethodInvocation MethodInvocation SimpleName a info
+instance SimpleName MethodInvocation MethodInvocation SimpleName a info
+append SimpleName MethodInvocation SimpleName a info
+append SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName append
+instance SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName append
+append SimpleName MethodInvocation MethodInvocation SimpleName append
+a info SimpleName MethodInvocation MethodInvocation SimpleName append
+append SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName value
+instance SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName value
+append SimpleName MethodInvocation MethodInvocation SimpleName value
+a info SimpleName MethodInvocation MethodInvocation SimpleName value
+append SimpleName MethodInvocation SimpleName value
+string SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName append
+string SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName a info
+string SimpleName VariableDeclarationFragment MethodInvocation SimpleName append
+string SimpleName VariableDeclarationFragment MethodInvocation SimpleName value
+string builder SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName string
+string SimpleName MethodInvocation SimpleName to string
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName string
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName to string
+public Modifier MethodDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName to string
+string SimpleName SimpleType MethodDeclaration SimpleName to string
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName to string
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName to string

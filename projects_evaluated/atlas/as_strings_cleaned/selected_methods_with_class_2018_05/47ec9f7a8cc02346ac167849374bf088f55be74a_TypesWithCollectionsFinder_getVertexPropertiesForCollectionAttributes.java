@@ -1,0 +1,36 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+atlas struct type SimpleName SimpleType SingleVariableDeclaration SimpleName type
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+atlas attribute SimpleName SimpleType SingleVariableDeclaration SimpleName attr
+type SimpleName MethodInvocation SimpleName get all attributes
+type SimpleName MethodInvocation MethodInvocation SimpleName values
+get all attributes SimpleName MethodInvocation MethodInvocation SimpleName values
+add if collection attribute SimpleName MethodInvocation SimpleName attr
+add if collection attribute SimpleName MethodInvocation SimpleName collection properties
+attr SimpleName MethodInvocation SimpleName collection properties
+attr SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName values
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation StringLiteral add vertex properties for collection attributes
+log SimpleName MethodInvocation SimpleName e
+error SimpleName MethodInvocation StringLiteral add vertex properties for collection attributes
+error SimpleName MethodInvocation SimpleName e
+add vertex properties for collection attributes StringLiteral MethodInvocation SimpleName e
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName map
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+static Modifier MethodDeclaration SimpleName get vertex properties for collection attributes
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas struct type
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName type
+map SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get vertex properties for collection attributes
+string SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get vertex properties for collection attributes
+get vertex properties for collection attributes SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas struct type
+get vertex properties for collection attributes SimpleName MethodDeclaration SingleVariableDeclaration SimpleName type
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleName get vertex properties for collection attributes
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get vertex properties for collection attributes
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type

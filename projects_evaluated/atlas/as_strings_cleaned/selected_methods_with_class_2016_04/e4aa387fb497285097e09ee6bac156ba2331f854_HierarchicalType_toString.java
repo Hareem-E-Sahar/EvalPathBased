@@ -1,0 +1,45 @@
+name StringLiteral InfixExpression SimpleName name
+name StringLiteral InfixExpression StringLiteral description
+name StringLiteral InfixExpression SimpleName description
+name StringLiteral InfixExpression StringLiteral super types
+name StringLiteral InfixExpression SimpleName super types
+name SimpleName InfixExpression StringLiteral description
+name SimpleName InfixExpression SimpleName description
+name SimpleName InfixExpression StringLiteral super types
+name SimpleName InfixExpression SimpleName super types
+name SimpleName InfixExpression StringLiteral immediate attrs
+description StringLiteral InfixExpression SimpleName description
+description StringLiteral InfixExpression StringLiteral super types
+description StringLiteral InfixExpression SimpleName super types
+description StringLiteral InfixExpression StringLiteral immediate attrs
+description StringLiteral InfixExpression SimpleName immediate attrs
+description SimpleName InfixExpression StringLiteral super types
+description SimpleName InfixExpression SimpleName super types
+description SimpleName InfixExpression StringLiteral immediate attrs
+description SimpleName InfixExpression SimpleName immediate attrs
+description SimpleName InfixExpression StringLiteral ]
+super types StringLiteral InfixExpression SimpleName super types
+super types StringLiteral InfixExpression StringLiteral immediate attrs
+super types StringLiteral InfixExpression SimpleName immediate attrs
+super types StringLiteral InfixExpression StringLiteral ]
+super types SimpleName InfixExpression StringLiteral immediate attrs
+super types SimpleName InfixExpression SimpleName immediate attrs
+super types SimpleName InfixExpression StringLiteral ]
+immediate attrs StringLiteral InfixExpression SimpleName immediate attrs
+immediate attrs StringLiteral InfixExpression StringLiteral ]
+immediate attrs SimpleName InfixExpression StringLiteral ]
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName string
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName to string
+public Modifier MethodDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName to string
+string SimpleName SimpleType MethodDeclaration SimpleName to string
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName to string
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName to string

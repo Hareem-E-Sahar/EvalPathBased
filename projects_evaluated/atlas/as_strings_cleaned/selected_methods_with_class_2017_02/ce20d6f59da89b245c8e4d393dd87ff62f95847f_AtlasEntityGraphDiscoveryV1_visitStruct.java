@@ -1,0 +1,83 @@
+atlas struct type SimpleName SimpleType SingleVariableDeclaration SimpleName struct type
+object SimpleName SimpleType SingleVariableDeclaration SimpleName val
+struct type SimpleName InfixExpression InfixExpression InfixExpression SimpleName val
+atlas struct SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName struct
+val SimpleName InstanceofExpression SimpleType SimpleName atlas struct
+atlas struct SimpleName SimpleType CastExpression SimpleName val
+struct SimpleName Assignment CastExpression SimpleType SimpleName atlas struct
+struct SimpleName Assignment CastExpression SimpleName val
+val SimpleName InstanceofExpression SimpleType SimpleName map
+map SimpleName SimpleType CastExpression SimpleName val
+atlas type util SimpleName MethodInvocation SimpleName to struct attributes
+atlas type util SimpleName MethodInvocation CastExpression SimpleType SimpleName map
+atlas type util SimpleName MethodInvocation CastExpression SimpleName val
+to struct attributes SimpleName MethodInvocation CastExpression SimpleType SimpleName map
+to struct attributes SimpleName MethodInvocation CastExpression SimpleName val
+attributes SimpleName VariableDeclarationFragment MethodInvocation SimpleName atlas type util
+attributes SimpleName VariableDeclarationFragment MethodInvocation SimpleName to struct attributes
+attributes SimpleName VariableDeclarationFragment MethodInvocation CastExpression SimpleName val
+map SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName attributes
+struct type SimpleName MethodInvocation SimpleName get type name
+atlas struct SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName struct type
+atlas struct SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get type name
+atlas struct SimpleName SimpleType ClassInstanceCreation SimpleName attributes
+struct type SimpleName MethodInvocation ClassInstanceCreation SimpleName attributes
+get type name SimpleName MethodInvocation ClassInstanceCreation SimpleName attributes
+struct SimpleName Assignment ClassInstanceCreation SimpleType SimpleName atlas struct
+struct SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName struct type
+struct SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName get type name
+struct SimpleName Assignment ClassInstanceCreation SimpleName attributes
+val SimpleName MethodInvocation SimpleName to string
+atlas base exception SimpleName SimpleType ClassInstanceCreation QualifiedName atlas error codeinvalid struct value
+atlas base exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName val
+atlas base exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName to string
+atlas error codeinvalid struct value QualifiedName ClassInstanceCreation MethodInvocation SimpleName val
+atlas error codeinvalid struct value QualifiedName ClassInstanceCreation MethodInvocation SimpleName to string
+atlas attribute SimpleName SimpleType SingleVariableDeclaration SimpleName attribute
+struct type SimpleName MethodInvocation SimpleName get all attributes
+struct type SimpleName MethodInvocation MethodInvocation SimpleName values
+get all attributes SimpleName MethodInvocation MethodInvocation SimpleName values
+attribute SimpleName MethodInvocation SimpleName get attribute type
+attr type SimpleName VariableDeclarationFragment MethodInvocation SimpleName attribute
+attr type SimpleName VariableDeclarationFragment MethodInvocation SimpleName get attribute type
+atlas type SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName attr type
+attribute SimpleName MethodInvocation SimpleName get name
+struct SimpleName MethodInvocation SimpleName get attribute
+struct SimpleName MethodInvocation MethodInvocation SimpleName attribute
+struct SimpleName MethodInvocation MethodInvocation SimpleName get name
+get attribute SimpleName MethodInvocation MethodInvocation SimpleName attribute
+get attribute SimpleName MethodInvocation MethodInvocation SimpleName get name
+attr val SimpleName VariableDeclarationFragment MethodInvocation SimpleName struct
+attr val SimpleName VariableDeclarationFragment MethodInvocation SimpleName get attribute
+attr val SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName attribute
+attr val SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get name
+object SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName attr val
+visit attribute SimpleName MethodInvocation SimpleName attr type
+visit attribute SimpleName MethodInvocation SimpleName attr val
+attr type SimpleName MethodInvocation SimpleName attr val
+attribute SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName values
+void PrimitiveType MethodDeclaration SimpleName visit struct
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas struct type
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName struct type
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName val
+void PrimitiveType MethodDeclaration SimpleType SimpleName atlas base exception
+visit struct SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas struct type
+visit struct SimpleName MethodDeclaration SingleVariableDeclaration SimpleName struct type
+visit struct SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+visit struct SimpleName MethodDeclaration SingleVariableDeclaration SimpleName val
+visit struct SimpleName MethodDeclaration SimpleType SimpleName atlas base exception
+struct type SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName val
+struct type SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+val SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName visit struct
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName struct type
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName val
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName visit struct
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName struct type
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName val
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception

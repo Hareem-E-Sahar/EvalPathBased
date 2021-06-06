@@ -1,0 +1,17 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas vertex
+public Modifier MethodDeclaration Modifier abstract
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName atlas vertex
+public Modifier MethodDeclaration SimpleName execute
+abstract Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+abstract Modifier MethodDeclaration ParameterizedType SimpleType SimpleName atlas vertex
+abstract Modifier MethodDeclaration SimpleName execute
+list SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName execute
+atlas vertex SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName execute
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier abstract
+public Modifier TypeDeclaration MethodDeclaration SimpleName execute
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier abstract
+test SimpleName TypeDeclaration MethodDeclaration SimpleName execute

@@ -1,0 +1,13 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas type permission
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName atlas type permission
+public Modifier MethodDeclaration SimpleName get type permissions
+public Modifier MethodDeclaration Block ReturnStatement SimpleName type permissions
+list SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get type permissions
+atlas type permission SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get type permissions
+get type permissions SimpleName MethodDeclaration Block ReturnStatement SimpleName type permissions
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName get type permissions
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get type permissions

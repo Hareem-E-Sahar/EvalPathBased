@@ -1,0 +1,99 @@
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+atlas vertex SimpleName SimpleType SingleVariableDeclaration SimpleName instance vertex
+string SimpleName SimpleType SingleVariableDeclaration SimpleName property name
+atlas type SimpleName SimpleType SingleVariableDeclaration SimpleName map value type
+encode property key SimpleName MethodInvocation SimpleName property name
+encoded property name SimpleName VariableDeclarationFragment MethodInvocation SimpleName encode property key
+encoded property name SimpleName VariableDeclarationFragment MethodInvocation SimpleName property name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName encoded property name
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+get list property SimpleName MethodInvocation SimpleName instance vertex
+get list property SimpleName MethodInvocation SimpleName encoded property name
+instance vertex SimpleName MethodInvocation SimpleName encoded property name
+current keys SimpleName VariableDeclarationFragment MethodInvocation SimpleName get list property
+current keys SimpleName VariableDeclarationFragment MethodInvocation SimpleName instance vertex
+current keys SimpleName VariableDeclarationFragment MethodInvocation SimpleName encoded property name
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+collection utils SimpleName MethodInvocation SimpleName is not empty
+collection utils SimpleName MethodInvocation SimpleName current keys
+is not empty SimpleName MethodInvocation SimpleName current keys
+string SimpleName SimpleType SingleVariableDeclaration SimpleName key
+encode property key SimpleName MethodInvocation SimpleName key
+get qualified name for map key SimpleName MethodInvocation SimpleName encoded property name
+get qualified name for map key SimpleName MethodInvocation MethodInvocation SimpleName encode property key
+get qualified name for map key SimpleName MethodInvocation MethodInvocation SimpleName key
+encoded property name SimpleName MethodInvocation MethodInvocation SimpleName encode property key
+encoded property name SimpleName MethodInvocation MethodInvocation SimpleName key
+property name for key SimpleName VariableDeclarationFragment MethodInvocation SimpleName get qualified name for map key
+property name for key SimpleName VariableDeclarationFragment MethodInvocation SimpleName encoded property name
+property name for key SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName encode property key
+property name for key SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName key
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName property name for key
+get map value property SimpleName MethodInvocation SimpleName map value type
+get map value property SimpleName MethodInvocation SimpleName instance vertex
+get map value property SimpleName MethodInvocation SimpleName property name for key
+map value type SimpleName MethodInvocation SimpleName instance vertex
+map value type SimpleName MethodInvocation SimpleName property name for key
+instance vertex SimpleName MethodInvocation SimpleName property name for key
+property value for key SimpleName VariableDeclarationFragment MethodInvocation SimpleName get map value property
+property value for key SimpleName VariableDeclarationFragment MethodInvocation SimpleName map value type
+property value for key SimpleName VariableDeclarationFragment MethodInvocation SimpleName instance vertex
+property value for key SimpleName VariableDeclarationFragment MethodInvocation SimpleName property name for key
+object SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName property value for key
+ret SimpleName MethodInvocation SimpleName put
+ret SimpleName MethodInvocation SimpleName key
+ret SimpleName MethodInvocation SimpleName property value for key
+put SimpleName MethodInvocation SimpleName key
+put SimpleName MethodInvocation SimpleName property value for key
+key SimpleName MethodInvocation SimpleName property value for key
+string SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName current keys
+key SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName current keys
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName map
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName object
+public Modifier MethodDeclaration SimpleName get primitive map
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas vertex
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName instance vertex
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName property name
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName map
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName object
+static Modifier MethodDeclaration SimpleName get primitive map
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas vertex
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName instance vertex
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName property name
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas type
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName map value type
+map SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get primitive map
+string SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get primitive map
+object SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get primitive map
+get primitive map SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas vertex
+get primitive map SimpleName MethodDeclaration SingleVariableDeclaration SimpleName instance vertex
+get primitive map SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get primitive map SimpleName MethodDeclaration SingleVariableDeclaration SimpleName property name
+get primitive map SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas type
+get primitive map SimpleName MethodDeclaration SingleVariableDeclaration SimpleName map value type
+get primitive map SimpleName MethodDeclaration Block ReturnStatement SimpleName ret
+instance vertex SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName property name
+instance vertex SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName map value type
+property name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName map value type
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleName get primitive map
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName instance vertex
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName property name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName map value type
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get primitive map
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName instance vertex
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName property name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName map value type

@@ -1,0 +1,45 @@
+identifier helperinfo QualifiedName SimpleType SingleVariableDeclaration SimpleName rhs i
+string SimpleName SimpleType SingleVariableDeclaration SimpleName rhs
+rhs i SimpleName MethodInvocation SimpleName is numeric
+rhs i SimpleName MethodInvocation IfStatement ReturnStatement SimpleName rhs
+is numeric SimpleName MethodInvocation IfStatement ReturnStatement SimpleName rhs
+identifier helper SimpleName MethodInvocation SimpleName is true or false
+identifier helper SimpleName MethodInvocation SimpleName rhs
+is true or false SimpleName MethodInvocation SimpleName rhs
+identifier helper SimpleName MethodInvocation IfStatement ReturnStatement SimpleName rhs
+is true or false SimpleName MethodInvocation IfStatement ReturnStatement SimpleName rhs
+rhs SimpleName MethodInvocation IfStatement ReturnStatement SimpleName rhs
+identifier helper SimpleName MethodInvocation SimpleName is quoted
+identifier helper SimpleName MethodInvocation SimpleName rhs
+is quoted SimpleName MethodInvocation SimpleName rhs
+identifier helper SimpleName MethodInvocation IfStatement ReturnStatement SimpleName rhs
+is quoted SimpleName MethodInvocation IfStatement ReturnStatement SimpleName rhs
+rhs SimpleName MethodInvocation IfStatement ReturnStatement SimpleName rhs
+identifier helper SimpleName MethodInvocation SimpleName get quoted
+identifier helper SimpleName MethodInvocation SimpleName rhs
+get quoted SimpleName MethodInvocation SimpleName rhs
+private Modifier MethodDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SimpleName add quotes if necessary
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType QualifiedName identifier helperinfo
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName rhs i
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName rhs
+string SimpleName SimpleType MethodDeclaration SimpleName add quotes if necessary
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName rhs i
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName rhs
+add quotes if necessary SimpleName MethodDeclaration SingleVariableDeclaration SimpleType QualifiedName identifier helperinfo
+add quotes if necessary SimpleName MethodDeclaration SingleVariableDeclaration SimpleName rhs i
+add quotes if necessary SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+add quotes if necessary SimpleName MethodDeclaration SingleVariableDeclaration SimpleName rhs
+rhs i SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName rhs
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName add quotes if necessary
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName rhs i
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName rhs
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName add quotes if necessary
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName rhs i
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName rhs

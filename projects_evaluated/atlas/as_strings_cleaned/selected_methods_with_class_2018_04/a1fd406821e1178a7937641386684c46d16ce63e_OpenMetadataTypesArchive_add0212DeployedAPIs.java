@@ -1,0 +1,25 @@
+archive builder SimpleName FieldAccess MethodInvocation SimpleName add entity def
+archive builder SimpleName FieldAccess MethodInvocation MethodInvocation SimpleName get deployed api entity
+add entity def SimpleName MethodInvocation MethodInvocation SimpleName get deployed api entity
+archive builder SimpleName FieldAccess MethodInvocation SimpleName add relationship def
+archive builder SimpleName FieldAccess MethodInvocation MethodInvocation SimpleName get api endpoint relationship
+add relationship def SimpleName MethodInvocation MethodInvocation SimpleName get api endpoint relationship
+archive builder SimpleName FieldAccess MethodInvocation SimpleName add classification def
+archive builder SimpleName FieldAccess MethodInvocation MethodInvocation SimpleName get request response interface classification
+add classification def SimpleName MethodInvocation MethodInvocation SimpleName get request response interface classification
+archive builder SimpleName FieldAccess MethodInvocation SimpleName add classification def
+archive builder SimpleName FieldAccess MethodInvocation MethodInvocation SimpleName get listener interface classification
+add classification def SimpleName MethodInvocation MethodInvocation SimpleName get listener interface classification
+archive builder SimpleName FieldAccess MethodInvocation SimpleName add classification def
+archive builder SimpleName FieldAccess MethodInvocation MethodInvocation SimpleName get publisher interface classification
+add classification def SimpleName MethodInvocation MethodInvocation SimpleName get publisher interface classification
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName add deployed ap is
+void PrimitiveType MethodDeclaration SimpleName add deployed ap is
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName add deployed ap is
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName add deployed ap is

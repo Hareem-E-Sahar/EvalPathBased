@@ -1,0 +1,23 @@
+int PrimitiveType SingleVariableDeclaration SimpleName priority
+priority SimpleName FieldAccess Assignment SimpleName priority
+set priority is set SimpleName MethodInvocation BooleanLiteral true
+public Modifier MethodDeclaration SimpleType SimpleName iterator setting
+public Modifier MethodDeclaration SimpleName set priority
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName priority
+iterator setting SimpleName SimpleType MethodDeclaration SimpleName set priority
+iterator setting SimpleName SimpleType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+iterator setting SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName priority
+set priority SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+set priority SimpleName MethodDeclaration SingleVariableDeclaration SimpleName priority
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName iterator setting
+public Modifier TypeDeclaration MethodDeclaration SimpleName set priority
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName priority
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName iterator setting
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set priority
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName priority

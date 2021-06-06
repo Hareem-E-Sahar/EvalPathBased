@@ -1,0 +1,55 @@
+iterator setting SimpleName SimpleType SingleVariableDeclaration SimpleName is
+string SimpleName SimpleType SingleVariableDeclaration SimpleName index colf
+string SimpleName SimpleType SingleVariableDeclaration SimpleName doc colf prefix
+set index colf SimpleName MethodInvocation SimpleName is
+set index colf SimpleName MethodInvocation SimpleName index colf
+is SimpleName MethodInvocation SimpleName index colf
+set doc colf prefix SimpleName MethodInvocation SimpleName is
+set doc colf prefix SimpleName MethodInvocation SimpleName doc colf prefix
+is SimpleName MethodInvocation SimpleName doc colf prefix
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set colfs
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName iterator setting
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName is
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName index colf
+static Modifier MethodDeclaration PrimitiveType void
+static Modifier MethodDeclaration SimpleName set colfs
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName iterator setting
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName is
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName index colf
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName doc colf prefix
+void PrimitiveType MethodDeclaration SimpleName set colfs
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName iterator setting
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName is
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName index colf
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName doc colf prefix
+set colfs SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName iterator setting
+set colfs SimpleName MethodDeclaration SingleVariableDeclaration SimpleName is
+set colfs SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+set colfs SimpleName MethodDeclaration SingleVariableDeclaration SimpleName index colf
+set colfs SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+set colfs SimpleName MethodDeclaration SingleVariableDeclaration SimpleName doc colf prefix
+is SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName index colf
+is SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName doc colf prefix
+index colf SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName doc colf prefix
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set colfs
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName is
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName index colf
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName doc colf prefix
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set colfs
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName is
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName index colf
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName doc colf prefix

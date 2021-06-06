@@ -1,0 +1,21 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName guid
+entities SimpleName MethodInvocation SimpleName get
+entities SimpleName MethodInvocation SimpleName guid
+get SimpleName MethodInvocation SimpleName guid
+public Modifier MethodDeclaration SimpleType SimpleName atlas entity
+public Modifier MethodDeclaration SimpleName get by id
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName guid
+atlas entity SimpleName SimpleType MethodDeclaration SimpleName get by id
+atlas entity SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName guid
+get by id SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get by id SimpleName MethodDeclaration SingleVariableDeclaration SimpleName guid
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas entity
+public Modifier TypeDeclaration MethodDeclaration SimpleName get by id
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName guid
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas entity
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get by id
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName guid

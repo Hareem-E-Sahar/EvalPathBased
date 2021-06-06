@@ -1,0 +1,15 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType SingleVariableDeclaration SimpleName typename
+list SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get entity guids
+string SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get entity guids
+get entity guids SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get entity guids SimpleName MethodDeclaration SingleVariableDeclaration SimpleName typename
+get entity guids SimpleName MethodDeclaration SimpleType SimpleName atlas base exception
+typename SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration SimpleName get entity guids
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName typename
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get entity guids
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName typename
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception

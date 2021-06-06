@@ -1,0 +1,255 @@
+user table name SimpleName VariableDeclarationFragment StringLiteral a
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName user table name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral a
+mock instance SimpleName SimpleType ClassInstanceCreation StringLiteral metadata test
+instance SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName mock instance
+instance SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral metadata test
+mock instance SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName instance
+password token SimpleName SimpleType ClassInstanceCreation StringLiteral empty
+instance SimpleName MethodInvocation SimpleName get connector
+instance SimpleName MethodInvocation StringLiteral root
+instance SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName password token
+instance SimpleName MethodInvocation ClassInstanceCreation StringLiteral empty
+get connector SimpleName MethodInvocation StringLiteral root
+get connector SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName password token
+get connector SimpleName MethodInvocation ClassInstanceCreation StringLiteral empty
+root StringLiteral MethodInvocation ClassInstanceCreation SimpleType SimpleName password token
+root StringLiteral MethodInvocation ClassInstanceCreation StringLiteral empty
+connector SimpleName VariableDeclarationFragment MethodInvocation SimpleName instance
+connector SimpleName VariableDeclarationFragment MethodInvocation SimpleName get connector
+connector SimpleName VariableDeclarationFragment MethodInvocation StringLiteral root
+connector SimpleName VariableDeclarationFragment MethodInvocation ClassInstanceCreation StringLiteral empty
+connector SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName connector
+connector SimpleName MethodInvocation SimpleName table operations
+connector SimpleName MethodInvocation MethodInvocation SimpleName create
+table operations SimpleName MethodInvocation MethodInvocation SimpleName create
+connector SimpleName MethodInvocation MethodInvocation SimpleName user table name
+table operations SimpleName MethodInvocation MethodInvocation SimpleName user table name
+create SimpleName MethodInvocation SimpleName user table name
+connector SimpleName MethodInvocation SimpleName table operations
+connector SimpleName MethodInvocation MethodInvocation SimpleName table id map
+table operations SimpleName MethodInvocation MethodInvocation SimpleName table id map
+connector SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+table operations SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+table id map SimpleName MethodInvocation MethodInvocation SimpleName get
+connector SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName user table name
+table operations SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName user table name
+table id map SimpleName MethodInvocation MethodInvocation SimpleName user table name
+get SimpleName MethodInvocation SimpleName user table name
+user table id SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName table id map
+user table id SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+user table id SimpleName VariableDeclarationFragment MethodInvocation SimpleName user table name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName user table id
+password token SimpleName SimpleType ClassInstanceCreation StringLiteral empty
+credentials SimpleName SimpleType ClassInstanceCreation StringLiteral root
+credentials SimpleName SimpleType ClassInstanceCreation ClassInstanceCreation StringLiteral empty
+root StringLiteral ClassInstanceCreation ClassInstanceCreation SimpleType SimpleName password token
+root StringLiteral ClassInstanceCreation ClassInstanceCreation StringLiteral empty
+credentials SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName credentials
+credentials SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral root
+credentials SimpleName VariableDeclarationFragment ClassInstanceCreation ClassInstanceCreation StringLiteral empty
+credentials SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName credentials
+client context SimpleName SimpleType ClassInstanceCreation SimpleName instance
+client context SimpleName SimpleType ClassInstanceCreation SimpleName credentials
+instance SimpleName ClassInstanceCreation SimpleName credentials
+instance SimpleName ClassInstanceCreation ClassInstanceCreation SimpleType SimpleName client configuration
+credentials SimpleName ClassInstanceCreation ClassInstanceCreation SimpleType SimpleName client configuration
+context SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName client context
+context SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName instance
+context SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName credentials
+client context SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName context
+metadata servicer SimpleName MethodInvocation SimpleName for table id
+metadata servicer SimpleName MethodInvocation SimpleName context
+metadata servicer SimpleName MethodInvocation QualifiedName root tableid
+for table id SimpleName MethodInvocation SimpleName context
+for table id SimpleName MethodInvocation QualifiedName root tableid
+context SimpleName MethodInvocation QualifiedName root tableid
+ms SimpleName VariableDeclarationFragment MethodInvocation SimpleName metadata servicer
+ms SimpleName VariableDeclarationFragment MethodInvocation SimpleName for table id
+ms SimpleName VariableDeclarationFragment MethodInvocation SimpleName context
+ms SimpleName VariableDeclarationFragment MethodInvocation QualifiedName root tableid
+metadata servicer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ms
+ms SimpleName InstanceofExpression SimpleType SimpleName servicer for root table
+assert true SimpleName MethodInvocation InstanceofExpression SimpleName ms
+assert true SimpleName MethodInvocation InstanceofExpression SimpleType SimpleName servicer for root table
+ms SimpleName InstanceofExpression SimpleType SimpleName table metadata servicer
+assert false SimpleName MethodInvocation InstanceofExpression SimpleName ms
+assert false SimpleName MethodInvocation InstanceofExpression SimpleType SimpleName table metadata servicer
+ms SimpleName MethodInvocation SimpleName get serviced table id
+assert equals SimpleName MethodInvocation QualifiedName root tableid
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName ms
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get serviced table id
+root tableid QualifiedName MethodInvocation MethodInvocation SimpleName ms
+root tableid QualifiedName MethodInvocation MethodInvocation SimpleName get serviced table id
+metadata servicer SimpleName MethodInvocation SimpleName for table id
+metadata servicer SimpleName MethodInvocation SimpleName context
+metadata servicer SimpleName MethodInvocation QualifiedName metadata tableid
+for table id SimpleName MethodInvocation SimpleName context
+for table id SimpleName MethodInvocation QualifiedName metadata tableid
+context SimpleName MethodInvocation QualifiedName metadata tableid
+ms SimpleName Assignment MethodInvocation SimpleName metadata servicer
+ms SimpleName Assignment MethodInvocation SimpleName for table id
+ms SimpleName Assignment MethodInvocation SimpleName context
+ms SimpleName Assignment MethodInvocation QualifiedName metadata tableid
+ms SimpleName InstanceofExpression SimpleType SimpleName servicer for metadata table
+assert true SimpleName MethodInvocation InstanceofExpression SimpleName ms
+assert true SimpleName MethodInvocation InstanceofExpression SimpleType SimpleName servicer for metadata table
+ms SimpleName InstanceofExpression SimpleType SimpleName table metadata servicer
+assert true SimpleName MethodInvocation InstanceofExpression SimpleName ms
+assert true SimpleName MethodInvocation InstanceofExpression SimpleType SimpleName table metadata servicer
+table metadata servicer SimpleName SimpleType CastExpression SimpleName ms
+ms SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName get servicing table name
+assert equals SimpleName MethodInvocation QualifiedName root tablename
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get servicing table name
+root tablename QualifiedName MethodInvocation MethodInvocation SimpleName get servicing table name
+ms SimpleName MethodInvocation SimpleName get serviced table id
+assert equals SimpleName MethodInvocation QualifiedName metadata tableid
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName ms
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get serviced table id
+metadata tableid QualifiedName MethodInvocation MethodInvocation SimpleName ms
+metadata tableid QualifiedName MethodInvocation MethodInvocation SimpleName get serviced table id
+metadata servicer SimpleName MethodInvocation SimpleName for table id
+metadata servicer SimpleName MethodInvocation SimpleName context
+metadata servicer SimpleName MethodInvocation SimpleName user table id
+for table id SimpleName MethodInvocation SimpleName context
+for table id SimpleName MethodInvocation SimpleName user table id
+context SimpleName MethodInvocation SimpleName user table id
+ms SimpleName Assignment MethodInvocation SimpleName metadata servicer
+ms SimpleName Assignment MethodInvocation SimpleName for table id
+ms SimpleName Assignment MethodInvocation SimpleName context
+ms SimpleName Assignment MethodInvocation SimpleName user table id
+ms SimpleName InstanceofExpression SimpleType SimpleName servicer for user tables
+assert true SimpleName MethodInvocation InstanceofExpression SimpleName ms
+assert true SimpleName MethodInvocation InstanceofExpression SimpleType SimpleName servicer for user tables
+ms SimpleName InstanceofExpression SimpleType SimpleName table metadata servicer
+assert true SimpleName MethodInvocation InstanceofExpression SimpleName ms
+assert true SimpleName MethodInvocation InstanceofExpression SimpleType SimpleName table metadata servicer
+table metadata servicer SimpleName SimpleType CastExpression SimpleName ms
+ms SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName get servicing table name
+assert equals SimpleName MethodInvocation QualifiedName metadata tablename
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get servicing table name
+metadata tablename QualifiedName MethodInvocation MethodInvocation SimpleName get servicing table name
+ms SimpleName MethodInvocation SimpleName get serviced table id
+assert equals SimpleName MethodInvocation SimpleName user table id
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName ms
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get serviced table id
+user table id SimpleName MethodInvocation MethodInvocation SimpleName ms
+user table id SimpleName MethodInvocation MethodInvocation SimpleName get serviced table id
+metadata servicer SimpleName MethodInvocation SimpleName for table name
+metadata servicer SimpleName MethodInvocation SimpleName context
+metadata servicer SimpleName MethodInvocation QualifiedName root tablename
+for table name SimpleName MethodInvocation SimpleName context
+for table name SimpleName MethodInvocation QualifiedName root tablename
+context SimpleName MethodInvocation QualifiedName root tablename
+ms SimpleName Assignment MethodInvocation SimpleName metadata servicer
+ms SimpleName Assignment MethodInvocation SimpleName for table name
+ms SimpleName Assignment MethodInvocation SimpleName context
+ms SimpleName Assignment MethodInvocation QualifiedName root tablename
+ms SimpleName InstanceofExpression SimpleType SimpleName servicer for root table
+assert true SimpleName MethodInvocation InstanceofExpression SimpleName ms
+assert true SimpleName MethodInvocation InstanceofExpression SimpleType SimpleName servicer for root table
+ms SimpleName InstanceofExpression SimpleType SimpleName table metadata servicer
+assert false SimpleName MethodInvocation InstanceofExpression SimpleName ms
+assert false SimpleName MethodInvocation InstanceofExpression SimpleType SimpleName table metadata servicer
+ms SimpleName MethodInvocation SimpleName get serviced table id
+assert equals SimpleName MethodInvocation QualifiedName root tableid
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName ms
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get serviced table id
+root tableid QualifiedName MethodInvocation MethodInvocation SimpleName ms
+root tableid QualifiedName MethodInvocation MethodInvocation SimpleName get serviced table id
+metadata servicer SimpleName MethodInvocation SimpleName for table name
+metadata servicer SimpleName MethodInvocation SimpleName context
+metadata servicer SimpleName MethodInvocation QualifiedName metadata tablename
+for table name SimpleName MethodInvocation SimpleName context
+for table name SimpleName MethodInvocation QualifiedName metadata tablename
+context SimpleName MethodInvocation QualifiedName metadata tablename
+ms SimpleName Assignment MethodInvocation SimpleName metadata servicer
+ms SimpleName Assignment MethodInvocation SimpleName for table name
+ms SimpleName Assignment MethodInvocation SimpleName context
+ms SimpleName Assignment MethodInvocation QualifiedName metadata tablename
+ms SimpleName InstanceofExpression SimpleType SimpleName servicer for metadata table
+assert true SimpleName MethodInvocation InstanceofExpression SimpleName ms
+assert true SimpleName MethodInvocation InstanceofExpression SimpleType SimpleName servicer for metadata table
+ms SimpleName InstanceofExpression SimpleType SimpleName table metadata servicer
+assert true SimpleName MethodInvocation InstanceofExpression SimpleName ms
+assert true SimpleName MethodInvocation InstanceofExpression SimpleType SimpleName table metadata servicer
+table metadata servicer SimpleName SimpleType CastExpression SimpleName ms
+ms SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName get servicing table name
+assert equals SimpleName MethodInvocation QualifiedName root tablename
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get servicing table name
+root tablename QualifiedName MethodInvocation MethodInvocation SimpleName get servicing table name
+ms SimpleName MethodInvocation SimpleName get serviced table id
+assert equals SimpleName MethodInvocation QualifiedName metadata tableid
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName ms
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get serviced table id
+metadata tableid QualifiedName MethodInvocation MethodInvocation SimpleName ms
+metadata tableid QualifiedName MethodInvocation MethodInvocation SimpleName get serviced table id
+metadata servicer SimpleName MethodInvocation SimpleName for table name
+metadata servicer SimpleName MethodInvocation SimpleName context
+metadata servicer SimpleName MethodInvocation SimpleName user table name
+for table name SimpleName MethodInvocation SimpleName context
+for table name SimpleName MethodInvocation SimpleName user table name
+context SimpleName MethodInvocation SimpleName user table name
+ms SimpleName Assignment MethodInvocation SimpleName metadata servicer
+ms SimpleName Assignment MethodInvocation SimpleName for table name
+ms SimpleName Assignment MethodInvocation SimpleName context
+ms SimpleName Assignment MethodInvocation SimpleName user table name
+ms SimpleName InstanceofExpression SimpleType SimpleName servicer for user tables
+assert true SimpleName MethodInvocation InstanceofExpression SimpleName ms
+assert true SimpleName MethodInvocation InstanceofExpression SimpleType SimpleName servicer for user tables
+ms SimpleName InstanceofExpression SimpleType SimpleName table metadata servicer
+assert true SimpleName MethodInvocation InstanceofExpression SimpleName ms
+assert true SimpleName MethodInvocation InstanceofExpression SimpleType SimpleName table metadata servicer
+table metadata servicer SimpleName SimpleType CastExpression SimpleName ms
+ms SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName get servicing table name
+assert equals SimpleName MethodInvocation QualifiedName metadata tablename
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get servicing table name
+metadata tablename QualifiedName MethodInvocation MethodInvocation SimpleName get servicing table name
+ms SimpleName MethodInvocation SimpleName get serviced table id
+assert equals SimpleName MethodInvocation SimpleName user table id
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName ms
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get serviced table id
+user table id SimpleName MethodInvocation MethodInvocation SimpleName ms
+user table id SimpleName MethodInvocation MethodInvocation SimpleName get serviced table id
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test get correct servicer
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName accumulo exception
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName accumulo security exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test get correct servicer
+public Modifier MethodDeclaration SimpleType SimpleName accumulo exception
+public Modifier MethodDeclaration SimpleType SimpleName accumulo security exception
+public Modifier MethodDeclaration SimpleType SimpleName table exists exception
+void PrimitiveType MethodDeclaration SimpleName test get correct servicer
+void PrimitiveType MethodDeclaration SimpleType SimpleName accumulo exception
+void PrimitiveType MethodDeclaration SimpleType SimpleName accumulo security exception
+void PrimitiveType MethodDeclaration SimpleType SimpleName table exists exception
+void PrimitiveType MethodDeclaration SimpleType SimpleName table not found exception
+test get correct servicer SimpleName MethodDeclaration SimpleType SimpleName accumulo exception
+test get correct servicer SimpleName MethodDeclaration SimpleType SimpleName accumulo security exception
+test get correct servicer SimpleName MethodDeclaration SimpleType SimpleName table exists exception
+test get correct servicer SimpleName MethodDeclaration SimpleType SimpleName table not found exception
+accumulo exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName accumulo security exception
+accumulo exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName table exists exception
+accumulo exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName table not found exception
+accumulo security exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName table exists exception
+accumulo security exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName table not found exception
+table exists exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName table not found exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test get correct servicer
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName table exists exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName table not found exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test get correct servicer
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName table exists exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName table not found exception

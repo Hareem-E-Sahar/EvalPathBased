@@ -1,0 +1,13 @@
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName is jdwp enabled
+public Modifier MethodDeclaration Block ReturnStatement SimpleName jdwp enabled
+boolean PrimitiveType MethodDeclaration SimpleName is jdwp enabled
+boolean PrimitiveType MethodDeclaration Block ReturnStatement SimpleName jdwp enabled
+is jdwp enabled SimpleName MethodDeclaration Block ReturnStatement SimpleName jdwp enabled
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName is jdwp enabled
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName is jdwp enabled

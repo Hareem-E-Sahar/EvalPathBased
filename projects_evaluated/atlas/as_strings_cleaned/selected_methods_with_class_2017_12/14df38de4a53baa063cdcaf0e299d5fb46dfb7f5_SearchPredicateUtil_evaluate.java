@@ -1,0 +1,85 @@
+final Modifier SingleVariableDeclaration SimpleType SimpleName object
+final Modifier SingleVariableDeclaration SimpleName object
+object SimpleName SimpleType SingleVariableDeclaration SimpleName object
+final Modifier VariableDeclarationStatement PrimitiveType boolean
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName ret
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName ret
+object SimpleName InstanceofExpression SimpleType SimpleName atlas vertex
+atlas vertex SimpleName SimpleType CastExpression SimpleName object
+vertex SimpleName VariableDeclarationFragment ConditionalExpression CastExpression SimpleName object
+atlas vertex SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName vertex
+object SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName attr value
+collection SimpleName SimpleType TypeLiteral MethodInvocation SimpleName is assignable from
+collection SimpleName SimpleType TypeLiteral MethodInvocation SimpleName attr class
+is assignable from SimpleName MethodInvocation SimpleName attr class
+vertex SimpleName MethodInvocation SimpleName get property values
+vertex SimpleName MethodInvocation SimpleName attr name
+vertex SimpleName MethodInvocation SimpleName attr class
+get property values SimpleName MethodInvocation SimpleName attr name
+get property values SimpleName MethodInvocation SimpleName attr class
+attr name SimpleName MethodInvocation SimpleName attr class
+attr value SimpleName Assignment MethodInvocation SimpleName vertex
+attr value SimpleName Assignment MethodInvocation SimpleName get property values
+attr value SimpleName Assignment MethodInvocation SimpleName attr name
+attr value SimpleName Assignment MethodInvocation SimpleName attr class
+atlas graph utils v SimpleName MethodInvocation SimpleName get property
+atlas graph utils v SimpleName MethodInvocation SimpleName vertex
+atlas graph utils v SimpleName MethodInvocation SimpleName attr name
+atlas graph utils v SimpleName MethodInvocation SimpleName attr class
+get property SimpleName MethodInvocation SimpleName vertex
+get property SimpleName MethodInvocation SimpleName attr name
+get property SimpleName MethodInvocation SimpleName attr class
+vertex SimpleName MethodInvocation SimpleName attr name
+vertex SimpleName MethodInvocation SimpleName attr class
+attr name SimpleName MethodInvocation SimpleName attr class
+attr value SimpleName Assignment MethodInvocation SimpleName atlas graph utils v
+attr value SimpleName Assignment MethodInvocation SimpleName get property
+attr value SimpleName Assignment MethodInvocation SimpleName vertex
+attr value SimpleName Assignment MethodInvocation SimpleName attr name
+attr value SimpleName Assignment MethodInvocation SimpleName attr class
+is null valid SimpleName InfixExpression InfixExpression SimpleName attr value
+compare value SimpleName MethodInvocation SimpleName attr value
+ret SimpleName Assignment InfixExpression MethodInvocation SimpleName compare value
+ret SimpleName Assignment InfixExpression MethodInvocation SimpleName attr value
+ret SimpleName Assignment BooleanLiteral false
+final Modifier VariableDeclarationStatement Block ReturnStatement SimpleName ret
+boolean PrimitiveType VariableDeclarationStatement Block ReturnStatement SimpleName ret
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType boolean
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName evaluate
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration Modifier final
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName object
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName evaluate
+public Modifier MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName object
+public Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+public Modifier MethodDeclaration Block ReturnStatement SimpleName ret
+boolean PrimitiveType MethodDeclaration SimpleName evaluate
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration Modifier final
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName object
+boolean PrimitiveType MethodDeclaration Block VariableDeclarationStatement Modifier final
+boolean PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+boolean PrimitiveType MethodDeclaration Block ReturnStatement SimpleName ret
+evaluate SimpleName MethodDeclaration SingleVariableDeclaration Modifier final
+evaluate SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+evaluate SimpleName MethodDeclaration SingleVariableDeclaration SimpleName object
+evaluate SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+evaluate SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+evaluate SimpleName MethodDeclaration Block ReturnStatement SimpleName ret
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName evaluate
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName object
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName evaluate
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName object

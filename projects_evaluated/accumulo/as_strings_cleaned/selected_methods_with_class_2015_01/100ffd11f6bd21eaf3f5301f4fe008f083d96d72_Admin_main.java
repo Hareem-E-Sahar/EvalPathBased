@@ -1,0 +1,437 @@
+string SimpleName SimpleType ArrayType SingleVariableDeclaration SimpleName args
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName everything
+opts SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName admin opts
+admin opts SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName opts
+j commander SimpleName SimpleType ClassInstanceCreation SimpleName opts
+cl SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName j commander
+cl SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName opts
+j commander SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName cl
+admin SimpleName SimpleType TypeLiteral MethodInvocation SimpleName get name
+cl SimpleName MethodInvocation SimpleName set program name
+cl SimpleName MethodInvocation MethodInvocation SimpleName get name
+set program name SimpleName MethodInvocation MethodInvocation SimpleName get name
+check tablets command SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName check tablets command
+check tablets command SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName check tablets command
+cl SimpleName MethodInvocation SimpleName add command
+cl SimpleName MethodInvocation StringLiteral check tablets
+cl SimpleName MethodInvocation SimpleName check tablets command
+add command SimpleName MethodInvocation StringLiteral check tablets
+add command SimpleName MethodInvocation SimpleName check tablets command
+check tablets StringLiteral MethodInvocation SimpleName check tablets command
+list intances opts SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName list instances command
+list instances command SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName list intances opts
+cl SimpleName MethodInvocation SimpleName add command
+cl SimpleName MethodInvocation StringLiteral list instances
+cl SimpleName MethodInvocation SimpleName list intances opts
+add command SimpleName MethodInvocation StringLiteral list instances
+add command SimpleName MethodInvocation SimpleName list intances opts
+list instances StringLiteral MethodInvocation SimpleName list intances opts
+ping command SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName ping command
+ping command SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ping command
+cl SimpleName MethodInvocation SimpleName add command
+cl SimpleName MethodInvocation StringLiteral ping
+cl SimpleName MethodInvocation SimpleName ping command
+add command SimpleName MethodInvocation StringLiteral ping
+add command SimpleName MethodInvocation SimpleName ping command
+ping StringLiteral MethodInvocation SimpleName ping command
+dump config command SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName dump config command
+dump config command SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName dump config command
+cl SimpleName MethodInvocation SimpleName add command
+cl SimpleName MethodInvocation StringLiteral dump config
+cl SimpleName MethodInvocation SimpleName dump config command
+add command SimpleName MethodInvocation StringLiteral dump config
+add command SimpleName MethodInvocation SimpleName dump config command
+dump config StringLiteral MethodInvocation SimpleName dump config command
+volumes command SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName volumes command
+volumes command SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName volumes command
+cl SimpleName MethodInvocation SimpleName add command
+cl SimpleName MethodInvocation StringLiteral volumes
+cl SimpleName MethodInvocation SimpleName volumes command
+add command SimpleName MethodInvocation StringLiteral volumes
+add command SimpleName MethodInvocation SimpleName volumes command
+volumes StringLiteral MethodInvocation SimpleName volumes command
+stop opts SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName stop command
+stop command SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName stop opts
+cl SimpleName MethodInvocation SimpleName add command
+cl SimpleName MethodInvocation StringLiteral stop
+cl SimpleName MethodInvocation SimpleName stop opts
+add command SimpleName MethodInvocation StringLiteral stop
+add command SimpleName MethodInvocation SimpleName stop opts
+stop StringLiteral MethodInvocation SimpleName stop opts
+stop all opts SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName stop all command
+stop all command SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName stop all opts
+cl SimpleName MethodInvocation SimpleName add command
+cl SimpleName MethodInvocation StringLiteral stop all
+cl SimpleName MethodInvocation SimpleName stop all opts
+add command SimpleName MethodInvocation StringLiteral stop all
+add command SimpleName MethodInvocation SimpleName stop all opts
+stop all StringLiteral MethodInvocation SimpleName stop all opts
+stop master opts SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName stop master command
+stop master command SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName stop master opts
+cl SimpleName MethodInvocation SimpleName add command
+cl SimpleName MethodInvocation StringLiteral stop master
+cl SimpleName MethodInvocation SimpleName stop master opts
+add command SimpleName MethodInvocation StringLiteral stop master
+add command SimpleName MethodInvocation SimpleName stop master opts
+stop master StringLiteral MethodInvocation SimpleName stop master opts
+randomize volumes opts SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName randomize volumes command
+randomize volumes command SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName randomize volumes opts
+cl SimpleName MethodInvocation SimpleName add command
+cl SimpleName MethodInvocation StringLiteral randomize volumes
+cl SimpleName MethodInvocation SimpleName randomize volumes opts
+add command SimpleName MethodInvocation StringLiteral randomize volumes
+add command SimpleName MethodInvocation SimpleName randomize volumes opts
+randomize volumes StringLiteral MethodInvocation SimpleName randomize volumes opts
+cl SimpleName MethodInvocation SimpleName parse
+cl SimpleName MethodInvocation SimpleName args
+parse SimpleName MethodInvocation SimpleName args
+cl SimpleName MethodInvocation SimpleName get parsed command
+optshelp QualifiedName InfixExpression InfixExpression MethodInvocation SimpleName cl
+optshelp QualifiedName InfixExpression InfixExpression MethodInvocation SimpleName get parsed command
+cl SimpleName MethodInvocation SimpleName usage
+opts SimpleName MethodInvocation SimpleName get instance
+instance SimpleName VariableDeclarationFragment MethodInvocation SimpleName opts
+instance SimpleName VariableDeclarationFragment MethodInvocation SimpleName get instance
+instance SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName instance
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName principal
+authentication token SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName token
+opts SimpleName MethodInvocation SimpleName get token
+system credentials SimpleName MethodInvocation SimpleName get
+system credentials SimpleName MethodInvocation MethodInvocation SimpleName get principal
+get SimpleName MethodInvocation MethodInvocation SimpleName get principal
+principal SimpleName Assignment MethodInvocation MethodInvocation SimpleName system credentials
+principal SimpleName Assignment MethodInvocation MethodInvocation SimpleName get
+principal SimpleName Assignment MethodInvocation SimpleName get principal
+system credentials SimpleName MethodInvocation SimpleName get
+system credentials SimpleName MethodInvocation MethodInvocation SimpleName get token
+get SimpleName MethodInvocation MethodInvocation SimpleName get token
+token SimpleName Assignment MethodInvocation MethodInvocation SimpleName system credentials
+token SimpleName Assignment MethodInvocation MethodInvocation SimpleName get
+token SimpleName Assignment MethodInvocation SimpleName get token
+principal SimpleName Assignment QualifiedName optsprincipal
+opts SimpleName MethodInvocation SimpleName get token
+token SimpleName Assignment MethodInvocation SimpleName opts
+token SimpleName Assignment MethodInvocation SimpleName get token
+rc SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName rc
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+cl SimpleName MethodInvocation SimpleName get parsed command
+cl SimpleName MethodInvocation MethodInvocation SimpleName equals
+get parsed command SimpleName MethodInvocation MethodInvocation SimpleName equals
+cl SimpleName MethodInvocation MethodInvocation StringLiteral list instances
+get parsed command SimpleName MethodInvocation MethodInvocation StringLiteral list instances
+equals SimpleName MethodInvocation StringLiteral list instances
+instance SimpleName MethodInvocation SimpleName get zoo keepers
+list instances SimpleName MethodInvocation SimpleName list instances
+list instances SimpleName MethodInvocation MethodInvocation SimpleName instance
+list instances SimpleName MethodInvocation MethodInvocation SimpleName get zoo keepers
+list instances SimpleName MethodInvocation QualifiedName list intances optsprint all
+list instances SimpleName MethodInvocation QualifiedName list intances optsprint errors
+list instances SimpleName MethodInvocation MethodInvocation SimpleName instance
+list instances SimpleName MethodInvocation MethodInvocation SimpleName get zoo keepers
+list instances SimpleName MethodInvocation QualifiedName list intances optsprint all
+list instances SimpleName MethodInvocation QualifiedName list intances optsprint errors
+instance SimpleName MethodInvocation MethodInvocation QualifiedName list intances optsprint all
+get zoo keepers SimpleName MethodInvocation MethodInvocation QualifiedName list intances optsprint all
+instance SimpleName MethodInvocation MethodInvocation QualifiedName list intances optsprint errors
+get zoo keepers SimpleName MethodInvocation MethodInvocation QualifiedName list intances optsprint errors
+list intances optsprint all QualifiedName MethodInvocation QualifiedName list intances optsprint errors
+cl SimpleName MethodInvocation SimpleName get parsed command
+cl SimpleName MethodInvocation MethodInvocation SimpleName equals
+get parsed command SimpleName MethodInvocation MethodInvocation SimpleName equals
+cl SimpleName MethodInvocation MethodInvocation StringLiteral ping
+get parsed command SimpleName MethodInvocation MethodInvocation StringLiteral ping
+equals SimpleName MethodInvocation StringLiteral ping
+ping SimpleName MethodInvocation SimpleName instance
+ping SimpleName MethodInvocation SimpleName principal
+ping SimpleName MethodInvocation SimpleName token
+ping SimpleName MethodInvocation QualifiedName ping commandargs
+instance SimpleName MethodInvocation SimpleName principal
+instance SimpleName MethodInvocation SimpleName token
+instance SimpleName MethodInvocation QualifiedName ping commandargs
+principal SimpleName MethodInvocation SimpleName token
+principal SimpleName MethodInvocation QualifiedName ping commandargs
+token SimpleName MethodInvocation QualifiedName ping commandargs
+ping SimpleName MethodInvocation InfixExpression NumberLiteral empty
+instance SimpleName MethodInvocation InfixExpression NumberLiteral empty
+principal SimpleName MethodInvocation InfixExpression NumberLiteral empty
+token SimpleName MethodInvocation InfixExpression NumberLiteral empty
+ping commandargs QualifiedName MethodInvocation InfixExpression NumberLiteral empty
+rc SimpleName Assignment NumberLiteral empty
+cl SimpleName MethodInvocation SimpleName get parsed command
+cl SimpleName MethodInvocation MethodInvocation SimpleName equals
+get parsed command SimpleName MethodInvocation MethodInvocation SimpleName equals
+cl SimpleName MethodInvocation MethodInvocation StringLiteral check tablets
+get parsed command SimpleName MethodInvocation MethodInvocation StringLiteral check tablets
+equals SimpleName MethodInvocation StringLiteral check tablets
+systemout QualifiedName MethodInvocation SimpleName println
+systemout QualifiedName MethodInvocation StringLiteral *** looking for offline tablets ***
+println SimpleName MethodInvocation StringLiteral *** looking for offline tablets ***
+credentials SimpleName SimpleType ClassInstanceCreation SimpleName principal
+credentials SimpleName SimpleType ClassInstanceCreation SimpleName token
+principal SimpleName ClassInstanceCreation SimpleName token
+find offline tablets SimpleName MethodInvocation SimpleName find offline
+find offline tablets SimpleName MethodInvocation SimpleName instance
+find offline tablets SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName credentials
+find offline tablets SimpleName MethodInvocation ClassInstanceCreation SimpleName principal
+find offline tablets SimpleName MethodInvocation ClassInstanceCreation SimpleName token
+find offline tablets SimpleName MethodInvocation QualifiedName check tablets commandtable
+find offline SimpleName MethodInvocation SimpleName instance
+find offline SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName credentials
+find offline SimpleName MethodInvocation ClassInstanceCreation SimpleName principal
+find offline SimpleName MethodInvocation ClassInstanceCreation SimpleName token
+find offline SimpleName MethodInvocation QualifiedName check tablets commandtable
+instance SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName credentials
+instance SimpleName MethodInvocation ClassInstanceCreation SimpleName principal
+instance SimpleName MethodInvocation ClassInstanceCreation SimpleName token
+instance SimpleName MethodInvocation QualifiedName check tablets commandtable
+credentials SimpleName SimpleType ClassInstanceCreation MethodInvocation QualifiedName check tablets commandtable
+principal SimpleName ClassInstanceCreation MethodInvocation QualifiedName check tablets commandtable
+token SimpleName ClassInstanceCreation MethodInvocation QualifiedName check tablets commandtable
+find offline tablets SimpleName MethodInvocation InfixExpression NumberLiteral empty
+find offline SimpleName MethodInvocation InfixExpression NumberLiteral empty
+instance SimpleName MethodInvocation InfixExpression NumberLiteral empty
+principal SimpleName ClassInstanceCreation MethodInvocation InfixExpression NumberLiteral empty
+token SimpleName ClassInstanceCreation MethodInvocation InfixExpression NumberLiteral empty
+check tablets commandtable QualifiedName MethodInvocation InfixExpression NumberLiteral empty
+rc SimpleName Assignment NumberLiteral empty
+systemout QualifiedName MethodInvocation SimpleName println
+systemout QualifiedName MethodInvocation StringLiteral *** looking for missing files ***
+println SimpleName MethodInvocation StringLiteral *** looking for missing files ***
+remove entries for missing files SimpleName MethodInvocation SimpleName check all tables
+remove entries for missing files SimpleName MethodInvocation SimpleName instance
+remove entries for missing files SimpleName MethodInvocation SimpleName principal
+remove entries for missing files SimpleName MethodInvocation SimpleName token
+remove entries for missing files SimpleName MethodInvocation QualifiedName check tablets commandfix files
+check all tables SimpleName MethodInvocation SimpleName instance
+check all tables SimpleName MethodInvocation SimpleName principal
+check all tables SimpleName MethodInvocation SimpleName token
+check all tables SimpleName MethodInvocation QualifiedName check tablets commandfix files
+instance SimpleName MethodInvocation SimpleName principal
+instance SimpleName MethodInvocation SimpleName token
+instance SimpleName MethodInvocation QualifiedName check tablets commandfix files
+principal SimpleName MethodInvocation SimpleName token
+principal SimpleName MethodInvocation QualifiedName check tablets commandfix files
+token SimpleName MethodInvocation QualifiedName check tablets commandfix files
+remove entries for missing files SimpleName MethodInvocation InfixExpression NumberLiteral empty
+check all tables SimpleName MethodInvocation InfixExpression NumberLiteral empty
+instance SimpleName MethodInvocation InfixExpression NumberLiteral empty
+principal SimpleName MethodInvocation InfixExpression NumberLiteral empty
+token SimpleName MethodInvocation InfixExpression NumberLiteral empty
+check tablets commandfix files QualifiedName MethodInvocation InfixExpression NumberLiteral empty
+rc SimpleName Assignment NumberLiteral empty
+remove entries for missing files SimpleName MethodInvocation SimpleName check table
+remove entries for missing files SimpleName MethodInvocation SimpleName instance
+remove entries for missing files SimpleName MethodInvocation SimpleName principal
+remove entries for missing files SimpleName MethodInvocation SimpleName token
+remove entries for missing files SimpleName MethodInvocation QualifiedName check tablets commandtable
+check table SimpleName MethodInvocation SimpleName instance
+check table SimpleName MethodInvocation SimpleName principal
+check table SimpleName MethodInvocation SimpleName token
+check table SimpleName MethodInvocation QualifiedName check tablets commandtable
+check table SimpleName MethodInvocation QualifiedName check tablets commandfix files
+instance SimpleName MethodInvocation SimpleName principal
+instance SimpleName MethodInvocation SimpleName token
+instance SimpleName MethodInvocation QualifiedName check tablets commandtable
+instance SimpleName MethodInvocation QualifiedName check tablets commandfix files
+principal SimpleName MethodInvocation SimpleName token
+principal SimpleName MethodInvocation QualifiedName check tablets commandtable
+principal SimpleName MethodInvocation QualifiedName check tablets commandfix files
+token SimpleName MethodInvocation QualifiedName check tablets commandtable
+token SimpleName MethodInvocation QualifiedName check tablets commandfix files
+check tablets commandtable QualifiedName MethodInvocation QualifiedName check tablets commandfix files
+remove entries for missing files SimpleName MethodInvocation InfixExpression NumberLiteral empty
+check table SimpleName MethodInvocation InfixExpression NumberLiteral empty
+instance SimpleName MethodInvocation InfixExpression NumberLiteral empty
+principal SimpleName MethodInvocation InfixExpression NumberLiteral empty
+token SimpleName MethodInvocation InfixExpression NumberLiteral empty
+check tablets commandtable QualifiedName MethodInvocation InfixExpression NumberLiteral empty
+check tablets commandfix files QualifiedName MethodInvocation InfixExpression NumberLiteral empty
+rc SimpleName Assignment NumberLiteral empty
+cl SimpleName MethodInvocation SimpleName get parsed command
+cl SimpleName MethodInvocation MethodInvocation SimpleName equals
+get parsed command SimpleName MethodInvocation MethodInvocation SimpleName equals
+cl SimpleName MethodInvocation MethodInvocation StringLiteral stop
+get parsed command SimpleName MethodInvocation MethodInvocation StringLiteral stop
+equals SimpleName MethodInvocation StringLiteral stop
+credentials SimpleName SimpleType ClassInstanceCreation SimpleName principal
+credentials SimpleName SimpleType ClassInstanceCreation SimpleName token
+principal SimpleName ClassInstanceCreation SimpleName token
+stop tablet server SimpleName MethodInvocation SimpleName instance
+stop tablet server SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName credentials
+stop tablet server SimpleName MethodInvocation ClassInstanceCreation SimpleName principal
+stop tablet server SimpleName MethodInvocation ClassInstanceCreation SimpleName token
+stop tablet server SimpleName MethodInvocation QualifiedName stop optsargs
+stop tablet server SimpleName MethodInvocation QualifiedName optsforce
+instance SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName credentials
+instance SimpleName MethodInvocation ClassInstanceCreation SimpleName principal
+instance SimpleName MethodInvocation ClassInstanceCreation SimpleName token
+instance SimpleName MethodInvocation QualifiedName stop optsargs
+instance SimpleName MethodInvocation QualifiedName optsforce
+credentials SimpleName SimpleType ClassInstanceCreation MethodInvocation QualifiedName stop optsargs
+principal SimpleName ClassInstanceCreation MethodInvocation QualifiedName stop optsargs
+token SimpleName ClassInstanceCreation MethodInvocation QualifiedName stop optsargs
+credentials SimpleName SimpleType ClassInstanceCreation MethodInvocation QualifiedName optsforce
+principal SimpleName ClassInstanceCreation MethodInvocation QualifiedName optsforce
+token SimpleName ClassInstanceCreation MethodInvocation QualifiedName optsforce
+stop optsargs QualifiedName MethodInvocation QualifiedName optsforce
+cl SimpleName MethodInvocation SimpleName get parsed command
+cl SimpleName MethodInvocation MethodInvocation SimpleName equals
+get parsed command SimpleName MethodInvocation MethodInvocation SimpleName equals
+cl SimpleName MethodInvocation MethodInvocation StringLiteral dump config
+get parsed command SimpleName MethodInvocation MethodInvocation StringLiteral dump config
+equals SimpleName MethodInvocation StringLiteral dump config
+print config SimpleName MethodInvocation SimpleName instance
+print config SimpleName MethodInvocation SimpleName principal
+print config SimpleName MethodInvocation SimpleName token
+print config SimpleName MethodInvocation SimpleName dump config command
+instance SimpleName MethodInvocation SimpleName principal
+instance SimpleName MethodInvocation SimpleName token
+instance SimpleName MethodInvocation SimpleName dump config command
+principal SimpleName MethodInvocation SimpleName token
+principal SimpleName MethodInvocation SimpleName dump config command
+token SimpleName MethodInvocation SimpleName dump config command
+cl SimpleName MethodInvocation SimpleName get parsed command
+cl SimpleName MethodInvocation MethodInvocation SimpleName equals
+get parsed command SimpleName MethodInvocation MethodInvocation SimpleName equals
+cl SimpleName MethodInvocation MethodInvocation StringLiteral volumes
+get parsed command SimpleName MethodInvocation MethodInvocation StringLiteral volumes
+equals SimpleName MethodInvocation StringLiteral volumes
+list volumes used SimpleName MethodInvocation SimpleName list volumes
+list volumes used SimpleName MethodInvocation SimpleName instance
+list volumes used SimpleName MethodInvocation SimpleName principal
+list volumes used SimpleName MethodInvocation SimpleName token
+list volumes SimpleName MethodInvocation SimpleName instance
+list volumes SimpleName MethodInvocation SimpleName principal
+list volumes SimpleName MethodInvocation SimpleName token
+instance SimpleName MethodInvocation SimpleName principal
+instance SimpleName MethodInvocation SimpleName token
+principal SimpleName MethodInvocation SimpleName token
+cl SimpleName MethodInvocation SimpleName get parsed command
+cl SimpleName MethodInvocation MethodInvocation SimpleName equals
+get parsed command SimpleName MethodInvocation MethodInvocation SimpleName equals
+cl SimpleName MethodInvocation MethodInvocation StringLiteral randomize volumes
+get parsed command SimpleName MethodInvocation MethodInvocation StringLiteral randomize volumes
+equals SimpleName MethodInvocation StringLiteral randomize volumes
+instance SimpleName MethodInvocation SimpleName get connector
+instance SimpleName MethodInvocation SimpleName principal
+instance SimpleName MethodInvocation SimpleName token
+get connector SimpleName MethodInvocation SimpleName principal
+get connector SimpleName MethodInvocation SimpleName token
+principal SimpleName MethodInvocation SimpleName token
+randomize volumes SimpleName MethodInvocation SimpleName randomize
+randomize volumes SimpleName MethodInvocation MethodInvocation SimpleName instance
+randomize volumes SimpleName MethodInvocation MethodInvocation SimpleName get connector
+randomize volumes SimpleName MethodInvocation MethodInvocation SimpleName principal
+randomize volumes SimpleName MethodInvocation MethodInvocation SimpleName token
+randomize volumes SimpleName MethodInvocation QualifiedName randomize volumes optstable
+randomize SimpleName MethodInvocation MethodInvocation SimpleName instance
+randomize SimpleName MethodInvocation MethodInvocation SimpleName get connector
+randomize SimpleName MethodInvocation MethodInvocation SimpleName principal
+randomize SimpleName MethodInvocation MethodInvocation SimpleName token
+randomize SimpleName MethodInvocation QualifiedName randomize volumes optstable
+instance SimpleName MethodInvocation MethodInvocation QualifiedName randomize volumes optstable
+get connector SimpleName MethodInvocation MethodInvocation QualifiedName randomize volumes optstable
+principal SimpleName MethodInvocation MethodInvocation QualifiedName randomize volumes optstable
+token SimpleName MethodInvocation MethodInvocation QualifiedName randomize volumes optstable
+rc SimpleName Assignment MethodInvocation SimpleName randomize volumes
+rc SimpleName Assignment MethodInvocation SimpleName randomize
+rc SimpleName Assignment MethodInvocation MethodInvocation SimpleName instance
+rc SimpleName Assignment MethodInvocation MethodInvocation SimpleName get connector
+rc SimpleName Assignment MethodInvocation MethodInvocation SimpleName principal
+rc SimpleName Assignment MethodInvocation MethodInvocation SimpleName token
+rc SimpleName Assignment MethodInvocation QualifiedName randomize volumes optstable
+cl SimpleName MethodInvocation SimpleName get parsed command
+cl SimpleName MethodInvocation MethodInvocation SimpleName equals
+get parsed command SimpleName MethodInvocation MethodInvocation SimpleName equals
+cl SimpleName MethodInvocation MethodInvocation StringLiteral stop all
+get parsed command SimpleName MethodInvocation MethodInvocation StringLiteral stop all
+equals SimpleName MethodInvocation StringLiteral stop all
+everything SimpleName Assignment MethodInvocation MethodInvocation SimpleName cl
+everything SimpleName Assignment MethodInvocation MethodInvocation SimpleName get parsed command
+everything SimpleName Assignment MethodInvocation SimpleName equals
+everything SimpleName Assignment MethodInvocation StringLiteral stop all
+flush all SimpleName MethodInvocation SimpleName instance
+flush all SimpleName MethodInvocation SimpleName principal
+flush all SimpleName MethodInvocation SimpleName token
+instance SimpleName MethodInvocation SimpleName principal
+instance SimpleName MethodInvocation SimpleName token
+principal SimpleName MethodInvocation SimpleName token
+everything SimpleName IfStatement ExpressionStatement MethodInvocation SimpleName flush all
+everything SimpleName IfStatement ExpressionStatement MethodInvocation SimpleName instance
+everything SimpleName IfStatement ExpressionStatement MethodInvocation SimpleName principal
+everything SimpleName IfStatement ExpressionStatement MethodInvocation SimpleName token
+credentials SimpleName SimpleType ClassInstanceCreation SimpleName principal
+credentials SimpleName SimpleType ClassInstanceCreation SimpleName token
+principal SimpleName ClassInstanceCreation SimpleName token
+stop server SimpleName MethodInvocation SimpleName instance
+stop server SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName credentials
+stop server SimpleName MethodInvocation ClassInstanceCreation SimpleName principal
+stop server SimpleName MethodInvocation ClassInstanceCreation SimpleName token
+stop server SimpleName MethodInvocation SimpleName everything
+instance SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName credentials
+instance SimpleName MethodInvocation ClassInstanceCreation SimpleName principal
+instance SimpleName MethodInvocation ClassInstanceCreation SimpleName token
+instance SimpleName MethodInvocation SimpleName everything
+credentials SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName everything
+principal SimpleName ClassInstanceCreation MethodInvocation SimpleName everything
+token SimpleName ClassInstanceCreation MethodInvocation SimpleName everything
+rc SimpleName InfixExpression NumberLiteral empty
+system SimpleName MethodInvocation SimpleName exit
+system SimpleName MethodInvocation SimpleName rc
+exit SimpleName MethodInvocation SimpleName rc
+accumulo exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation SimpleName e
+log SimpleName MethodInvocation SimpleName e
+error SimpleName MethodInvocation SimpleName e
+error SimpleName MethodInvocation SimpleName e
+e SimpleName MethodInvocation SimpleName e
+system SimpleName MethodInvocation SimpleName exit
+system SimpleName MethodInvocation NumberLiteral empty
+exit SimpleName MethodInvocation NumberLiteral empty
+accumulo security exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation SimpleName e
+log SimpleName MethodInvocation SimpleName e
+error SimpleName MethodInvocation SimpleName e
+error SimpleName MethodInvocation SimpleName e
+e SimpleName MethodInvocation SimpleName e
+system SimpleName MethodInvocation SimpleName exit
+system SimpleName MethodInvocation NumberLiteral empty
+exit SimpleName MethodInvocation NumberLiteral empty
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation SimpleName e
+log SimpleName MethodInvocation SimpleName e
+error SimpleName MethodInvocation SimpleName e
+error SimpleName MethodInvocation SimpleName e
+e SimpleName MethodInvocation SimpleName e
+system SimpleName MethodInvocation SimpleName exit
+system SimpleName MethodInvocation NumberLiteral empty
+exit SimpleName MethodInvocation NumberLiteral empty
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName main
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName args
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+static Modifier MethodDeclaration PrimitiveType void
+static Modifier MethodDeclaration SimpleName main
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName args
+static Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+void PrimitiveType MethodDeclaration SimpleName main
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName args
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+main SimpleName MethodDeclaration SingleVariableDeclaration SimpleName args
+main SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName main
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName args
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName main
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName args

@@ -1,0 +1,8 @@
+long PrimitiveType MethodDeclaration SimpleName entries
+long PrimitiveType MethodDeclaration Block ReturnStatement SimpleName kv entries
+entries SimpleName MethodDeclaration Block ReturnStatement SimpleName kv entries
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType long
+public Modifier TypeDeclaration MethodDeclaration SimpleName entries
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType long
+test SimpleName TypeDeclaration MethodDeclaration SimpleName entries

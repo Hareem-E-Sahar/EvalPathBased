@@ -1,0 +1,27 @@
+long PrimitiveType SingleVariableDeclaration SimpleName time
+next time SimpleName FieldAccess MethodInvocation SimpleName get
+next time SimpleName FieldAccess MethodInvocation InfixExpression SimpleName time
+get SimpleName MethodInvocation InfixExpression SimpleName time
+next time SimpleName FieldAccess MethodInvocation SimpleName set
+next time SimpleName FieldAccess MethodInvocation SimpleName time
+set SimpleName MethodInvocation SimpleName time
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName use max time from wa log
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration PrimitiveType long
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName time
+void PrimitiveType MethodDeclaration SimpleName use max time from wa log
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType long
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName time
+use max time from wa log SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType long
+use max time from wa log SimpleName MethodDeclaration SingleVariableDeclaration SimpleName time
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName use max time from wa log
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName time
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName use max time from wa log
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName time

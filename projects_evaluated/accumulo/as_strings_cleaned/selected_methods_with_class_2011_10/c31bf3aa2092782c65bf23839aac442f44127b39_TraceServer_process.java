@@ -1,0 +1,108 @@
+watched event SimpleName SimpleType SingleVariableDeclaration SimpleName event
+event SimpleName MethodInvocation SimpleName get path
+event SimpleName MethodInvocation SimpleName get type
+event SimpleName MethodInvocation SimpleName get state
+event StringLiteral InfixExpression MethodInvocation SimpleName event
+event StringLiteral InfixExpression MethodInvocation SimpleName get path
+event StringLiteral InfixExpression StringLiteral empty
+event StringLiteral InfixExpression MethodInvocation SimpleName event
+event StringLiteral InfixExpression MethodInvocation SimpleName get type
+event StringLiteral InfixExpression StringLiteral empty
+event StringLiteral InfixExpression MethodInvocation SimpleName event
+event StringLiteral InfixExpression MethodInvocation SimpleName get state
+event SimpleName MethodInvocation InfixExpression StringLiteral empty
+get path SimpleName MethodInvocation InfixExpression StringLiteral empty
+event SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName event
+event SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get type
+get path SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName event
+get path SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get type
+event SimpleName MethodInvocation InfixExpression StringLiteral empty
+get path SimpleName MethodInvocation InfixExpression StringLiteral empty
+event SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName event
+event SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get state
+get path SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName event
+get path SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get state
+empty StringLiteral InfixExpression MethodInvocation SimpleName event
+empty StringLiteral InfixExpression MethodInvocation SimpleName get type
+empty StringLiteral InfixExpression StringLiteral empty
+empty StringLiteral InfixExpression MethodInvocation SimpleName event
+empty StringLiteral InfixExpression MethodInvocation SimpleName get state
+event SimpleName MethodInvocation InfixExpression StringLiteral empty
+get type SimpleName MethodInvocation InfixExpression StringLiteral empty
+event SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName event
+event SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get state
+get type SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName event
+get type SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get state
+empty StringLiteral InfixExpression MethodInvocation SimpleName event
+empty StringLiteral InfixExpression MethodInvocation SimpleName get state
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation InfixExpression StringLiteral event
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName event
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get path
+log SimpleName MethodInvocation InfixExpression StringLiteral empty
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName event
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get type
+log SimpleName MethodInvocation InfixExpression StringLiteral empty
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName event
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get state
+debug SimpleName MethodInvocation InfixExpression StringLiteral event
+debug SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName event
+debug SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get path
+debug SimpleName MethodInvocation InfixExpression StringLiteral empty
+debug SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName event
+debug SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get type
+debug SimpleName MethodInvocation InfixExpression StringLiteral empty
+debug SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName event
+debug SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get state
+event SimpleName MethodInvocation SimpleName get state
+event SimpleName MethodInvocation InfixExpression QualifiedName keeper stateexpired
+get state SimpleName MethodInvocation InfixExpression QualifiedName keeper stateexpired
+event SimpleName MethodInvocation SimpleName get path
+logger lost zookeeper registration at StringLiteral InfixExpression MethodInvocation SimpleName event
+logger lost zookeeper registration at StringLiteral InfixExpression MethodInvocation SimpleName get path
+log SimpleName MethodInvocation SimpleName warn
+log SimpleName MethodInvocation InfixExpression StringLiteral logger lost zookeeper registration at
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName event
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get path
+warn SimpleName MethodInvocation InfixExpression StringLiteral logger lost zookeeper registration at
+warn SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName event
+warn SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get path
+server SimpleName MethodInvocation SimpleName stop
+event SimpleName MethodInvocation SimpleName get type
+event SimpleName MethodInvocation InfixExpression QualifiedName event typenode deleted
+get type SimpleName MethodInvocation InfixExpression QualifiedName event typenode deleted
+event SimpleName MethodInvocation SimpleName get path
+logger zookeeper entry lost StringLiteral InfixExpression MethodInvocation SimpleName event
+logger zookeeper entry lost StringLiteral InfixExpression MethodInvocation SimpleName get path
+log SimpleName MethodInvocation SimpleName warn
+log SimpleName MethodInvocation InfixExpression StringLiteral logger zookeeper entry lost
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName event
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get path
+warn SimpleName MethodInvocation InfixExpression StringLiteral logger zookeeper entry lost
+warn SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName event
+warn SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get path
+server SimpleName MethodInvocation SimpleName stop
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName process
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName event
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName process
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName watched event
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName event
+void PrimitiveType MethodDeclaration SimpleName process
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName watched event
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName event
+process SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName watched event
+process SimpleName MethodDeclaration SingleVariableDeclaration SimpleName event
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName process
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName event
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName process
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName event

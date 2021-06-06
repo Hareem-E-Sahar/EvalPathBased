@@ -1,0 +1,22 @@
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName properties to set
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName properties to set
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName properties to set
+properties to set SimpleName FieldAccess Assignment SimpleName properties to set
+public Modifier MethodDeclaration SimpleType SimpleName clone table args
+public Modifier MethodDeclaration SimpleName set properties to set
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName properties to set
+clone table args SimpleName SimpleType MethodDeclaration SimpleName set properties to set
+clone table args SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName properties to set
+set properties to set SimpleName MethodDeclaration SingleVariableDeclaration SimpleName properties to set
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName clone table args
+public Modifier TypeDeclaration MethodDeclaration SimpleName set properties to set
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName properties to set
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName clone table args
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set properties to set
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName properties to set

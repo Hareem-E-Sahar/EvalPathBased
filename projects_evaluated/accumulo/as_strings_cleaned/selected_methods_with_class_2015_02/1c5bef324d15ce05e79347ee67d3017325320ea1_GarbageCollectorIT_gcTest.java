@@ -1,0 +1,136 @@
+c SimpleName VariableDeclarationFragment MethodInvocation SimpleName get connector
+connector SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName c
+c SimpleName MethodInvocation SimpleName table operations
+c SimpleName MethodInvocation MethodInvocation SimpleName create
+table operations SimpleName MethodInvocation MethodInvocation SimpleName create
+c SimpleName MethodInvocation MethodInvocation StringLiteral test ingest
+table operations SimpleName MethodInvocation MethodInvocation StringLiteral test ingest
+create SimpleName MethodInvocation StringLiteral test ingest
+c SimpleName MethodInvocation SimpleName table operations
+propertytable split threshold QualifiedName MethodInvocation SimpleName get key
+c SimpleName MethodInvocation MethodInvocation SimpleName set property
+table operations SimpleName MethodInvocation MethodInvocation SimpleName set property
+c SimpleName MethodInvocation MethodInvocation StringLiteral test ingest
+table operations SimpleName MethodInvocation MethodInvocation StringLiteral test ingest
+c SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName propertytable split threshold
+c SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get key
+table operations SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName propertytable split threshold
+table operations SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get key
+c SimpleName MethodInvocation MethodInvocation StringLiteral k
+table operations SimpleName MethodInvocation MethodInvocation StringLiteral k
+set property SimpleName MethodInvocation StringLiteral test ingest
+set property SimpleName MethodInvocation MethodInvocation QualifiedName propertytable split threshold
+set property SimpleName MethodInvocation MethodInvocation SimpleName get key
+set property SimpleName MethodInvocation StringLiteral k
+test ingest StringLiteral MethodInvocation MethodInvocation QualifiedName propertytable split threshold
+test ingest StringLiteral MethodInvocation MethodInvocation SimpleName get key
+test ingest StringLiteral MethodInvocation StringLiteral k
+propertytable split threshold QualifiedName MethodInvocation MethodInvocation StringLiteral k
+get key SimpleName MethodInvocation MethodInvocation StringLiteral k
+opts SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType QualifiedName test ingestopts
+test ingestopts QualifiedName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName opts
+vopts SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType QualifiedName verify ingestopts
+verify ingestopts QualifiedName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName vopts
+optsrows QualifiedName Assignment NumberLiteral empty
+voptsrows QualifiedName Assignment Assignment QualifiedName optsrows
+voptsrows QualifiedName Assignment Assignment NumberLiteral empty
+optscols QualifiedName Assignment NumberLiteral empty
+voptscols QualifiedName Assignment Assignment QualifiedName optscols
+voptscols QualifiedName Assignment Assignment NumberLiteral empty
+opts SimpleName MethodInvocation SimpleName set principal
+opts SimpleName MethodInvocation StringLiteral root
+set principal SimpleName MethodInvocation StringLiteral root
+vopts SimpleName MethodInvocation SimpleName set principal
+vopts SimpleName MethodInvocation StringLiteral root
+set principal SimpleName MethodInvocation StringLiteral root
+test ingest SimpleName MethodInvocation SimpleName ingest
+test ingest SimpleName MethodInvocation SimpleName c
+test ingest SimpleName MethodInvocation SimpleName opts
+test ingest SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName batch writer opts
+ingest SimpleName MethodInvocation SimpleName c
+ingest SimpleName MethodInvocation SimpleName opts
+ingest SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName batch writer opts
+c SimpleName MethodInvocation SimpleName opts
+c SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName batch writer opts
+opts SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName batch writer opts
+c SimpleName MethodInvocation SimpleName table operations
+c SimpleName MethodInvocation MethodInvocation SimpleName compact
+table operations SimpleName MethodInvocation MethodInvocation SimpleName compact
+c SimpleName MethodInvocation MethodInvocation StringLiteral test ingest
+table operations SimpleName MethodInvocation MethodInvocation StringLiteral test ingest
+c SimpleName MethodInvocation MethodInvocation BooleanLiteral true
+table operations SimpleName MethodInvocation MethodInvocation BooleanLiteral true
+compact SimpleName MethodInvocation StringLiteral test ingest
+compact SimpleName MethodInvocation BooleanLiteral true
+compact SimpleName MethodInvocation BooleanLiteral true
+test ingest StringLiteral MethodInvocation BooleanLiteral true
+test ingest StringLiteral MethodInvocation BooleanLiteral true
+true BooleanLiteral MethodInvocation BooleanLiteral true
+before SimpleName VariableDeclarationFragment MethodInvocation SimpleName count files
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName before
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName count files
+util wait thread SimpleName MethodInvocation SimpleName sleep
+util wait thread SimpleName MethodInvocation NumberLiteral empty
+sleep SimpleName MethodInvocation NumberLiteral empty
+more SimpleName VariableDeclarationFragment MethodInvocation SimpleName count files
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName more
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName count files
+more SimpleName InfixExpression SimpleName before
+before SimpleName Assignment SimpleName more
+true BooleanLiteral WhileStatement Block VariableDeclarationStatement PrimitiveType int
+get cluster SimpleName MethodInvocation MethodInvocation SimpleName start
+empty NumberLiteral InfixExpression NumberLiteral empty
+util wait thread SimpleName MethodInvocation SimpleName sleep
+util wait thread SimpleName MethodInvocation InfixExpression NumberLiteral empty
+util wait thread SimpleName MethodInvocation InfixExpression NumberLiteral empty
+sleep SimpleName MethodInvocation InfixExpression NumberLiteral empty
+sleep SimpleName MethodInvocation InfixExpression NumberLiteral empty
+after SimpleName VariableDeclarationFragment MethodInvocation SimpleName count files
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName after
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName count files
+verify ingest SimpleName MethodInvocation SimpleName verify ingest
+verify ingest SimpleName MethodInvocation SimpleName c
+verify ingest SimpleName MethodInvocation SimpleName vopts
+verify ingest SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName scanner opts
+verify ingest SimpleName MethodInvocation SimpleName c
+verify ingest SimpleName MethodInvocation SimpleName vopts
+verify ingest SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName scanner opts
+c SimpleName MethodInvocation SimpleName vopts
+c SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName scanner opts
+vopts SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName scanner opts
+after SimpleName InfixExpression SimpleName before
+assert true SimpleName MethodInvocation InfixExpression SimpleName after
+assert true SimpleName MethodInvocation InfixExpression SimpleName before
+int PrimitiveType VariableDeclarationStatement Block WhileStatement BooleanLiteral true
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+true BooleanLiteral WhileStatement Block VariableDeclarationStatement PrimitiveType int
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName gc test
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName gc test
+public Modifier MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+public Modifier MethodDeclaration Block WhileStatement BooleanLiteral true
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+void PrimitiveType MethodDeclaration SimpleName gc test
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+void PrimitiveType MethodDeclaration Block WhileStatement BooleanLiteral true
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+gc test SimpleName MethodDeclaration SimpleType SimpleName exception
+gc test SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+gc test SimpleName MethodDeclaration Block WhileStatement BooleanLiteral true
+gc test SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName gc test
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName gc test
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

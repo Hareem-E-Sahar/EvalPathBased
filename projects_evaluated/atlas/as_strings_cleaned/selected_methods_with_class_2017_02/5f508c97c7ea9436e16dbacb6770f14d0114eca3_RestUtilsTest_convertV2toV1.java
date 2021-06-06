@@ -1,0 +1,86 @@
+hierarchical type definition SimpleName SimpleType ParameterizedType SimpleType SimpleName class type
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas entity def
+list SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName to convert
+atlas entity def SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName to convert
+create registry SimpleName MethodInvocation SimpleName to convert
+reg SimpleName VariableDeclarationFragment MethodInvocation SimpleName create registry
+reg SimpleName VariableDeclarationFragment MethodInvocation SimpleName to convert
+atlas type registry SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName reg
+hierarchical type definition SimpleName SimpleType ParameterizedType SimpleType SimpleName class type
+to convert SimpleName MethodInvocation SimpleName size
+result SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName to convert
+result SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName size
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+to convert SimpleName MethodInvocation SimpleName size
+i SimpleName InfixExpression MethodInvocation SimpleName to convert
+i SimpleName InfixExpression MethodInvocation SimpleName size
+to convert SimpleName MethodInvocation SimpleName get
+to convert SimpleName MethodInvocation SimpleName i
+get SimpleName MethodInvocation SimpleName i
+entity def SimpleName VariableDeclarationFragment MethodInvocation SimpleName to convert
+entity def SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+entity def SimpleName VariableDeclarationFragment MethodInvocation SimpleName i
+atlas entity def SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName entity def
+entity def SimpleName MethodInvocation SimpleName get name
+reg SimpleName MethodInvocation SimpleName get entity type by name
+reg SimpleName MethodInvocation MethodInvocation SimpleName entity def
+reg SimpleName MethodInvocation MethodInvocation SimpleName get name
+get entity type by name SimpleName MethodInvocation MethodInvocation SimpleName entity def
+get entity type by name SimpleName MethodInvocation MethodInvocation SimpleName get name
+entity SimpleName VariableDeclarationFragment MethodInvocation SimpleName reg
+entity SimpleName VariableDeclarationFragment MethodInvocation SimpleName get entity type by name
+entity SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName entity def
+entity SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get name
+atlas entity type SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName entity
+hierarchical type definition SimpleName SimpleType ParameterizedType SimpleType SimpleName class type
+rest utils SimpleName MethodInvocation SimpleName to types def
+rest utils SimpleName MethodInvocation SimpleName entity
+rest utils SimpleName MethodInvocation SimpleName reg
+to types def SimpleName MethodInvocation SimpleName entity
+to types def SimpleName MethodInvocation SimpleName reg
+entity SimpleName MethodInvocation SimpleName reg
+rest utils SimpleName MethodInvocation MethodInvocation SimpleName class types as java list
+to types def SimpleName MethodInvocation MethodInvocation SimpleName class types as java list
+entity SimpleName MethodInvocation MethodInvocation SimpleName class types as java list
+reg SimpleName MethodInvocation MethodInvocation SimpleName class types as java list
+rest utils SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+to types def SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+entity SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+reg SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+class types as java list SimpleName MethodInvocation MethodInvocation SimpleName get
+rest utils SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+to types def SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+entity SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+reg SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+class types as java list SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+get SimpleName MethodInvocation NumberLiteral empty
+converted SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName class types as java list
+converted SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+converted SimpleName VariableDeclarationFragment MethodInvocation NumberLiteral empty
+result SimpleName MethodInvocation SimpleName add
+result SimpleName MethodInvocation SimpleName converted
+add SimpleName MethodInvocation SimpleName converted
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+private Modifier MethodDeclaration SimpleName convert v to v
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName to convert
+private Modifier MethodDeclaration SimpleType SimpleName atlas base exception
+private Modifier MethodDeclaration Block ReturnStatement SimpleName result
+list SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName convert v to v
+convert v to v SimpleName MethodDeclaration SingleVariableDeclaration SimpleName to convert
+convert v to v SimpleName MethodDeclaration SimpleType SimpleName atlas base exception
+convert v to v SimpleName MethodDeclaration Block ReturnStatement SimpleName result
+to convert SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleName convert v to v
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName to convert
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleName convert v to v
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName to convert
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception

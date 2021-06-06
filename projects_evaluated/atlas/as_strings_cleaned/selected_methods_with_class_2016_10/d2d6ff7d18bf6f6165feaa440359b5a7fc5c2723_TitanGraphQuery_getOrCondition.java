@@ -1,0 +1,12 @@
+private Modifier MethodDeclaration SimpleType SimpleName or condition
+private Modifier MethodDeclaration SimpleName get or condition
+private Modifier MethodDeclaration Block ReturnStatement SimpleName query condition
+or condition SimpleName SimpleType MethodDeclaration SimpleName get or condition
+get or condition SimpleName MethodDeclaration Block ReturnStatement SimpleName query condition
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName or condition
+public Modifier TypeDeclaration MethodDeclaration SimpleName get or condition
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName or condition
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get or condition

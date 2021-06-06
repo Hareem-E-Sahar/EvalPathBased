@@ -1,0 +1,13 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName attribute definition
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName attribute definition
+public Modifier MethodDeclaration SimpleName get attribute definitions
+public Modifier MethodDeclaration Block ReturnStatement SimpleName attribute definitions
+list SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get attribute definitions
+attribute definition SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get attribute definitions
+get attribute definitions SimpleName MethodDeclaration Block ReturnStatement SimpleName attribute definitions
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName get attribute definitions
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get attribute definitions

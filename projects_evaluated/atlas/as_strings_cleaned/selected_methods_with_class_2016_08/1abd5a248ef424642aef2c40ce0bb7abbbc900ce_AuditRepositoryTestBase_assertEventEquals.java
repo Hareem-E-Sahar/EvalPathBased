@@ -1,0 +1,70 @@
+entity audit event SimpleName SimpleType SingleVariableDeclaration SimpleName actual
+entity audit event SimpleName SimpleType SingleVariableDeclaration SimpleName expected
+assert not null SimpleName MethodInvocation SimpleName actual
+actual SimpleName MethodInvocation SimpleName get entity id
+expected SimpleName MethodInvocation SimpleName get entity id
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName actual
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get entity id
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName expected
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get entity id
+actual SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName expected
+actual SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get entity id
+get entity id SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName expected
+get entity id SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get entity id
+actual SimpleName MethodInvocation SimpleName get action
+expected SimpleName MethodInvocation SimpleName get action
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName actual
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get action
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName expected
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get action
+actual SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName expected
+actual SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get action
+get action SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName expected
+get action SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get action
+actual SimpleName MethodInvocation SimpleName get timestamp
+expected SimpleName MethodInvocation SimpleName get timestamp
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName actual
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get timestamp
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName expected
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get timestamp
+actual SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName expected
+actual SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get timestamp
+get timestamp SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName expected
+get timestamp SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get timestamp
+actual SimpleName MethodInvocation SimpleName get details
+expected SimpleName MethodInvocation SimpleName get details
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName actual
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get details
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName expected
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get details
+actual SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName expected
+actual SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get details
+get details SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName expected
+get details SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get details
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName assert event equals
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName entity audit event
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName actual
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName entity audit event
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName expected
+void PrimitiveType MethodDeclaration SimpleName assert event equals
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName entity audit event
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName actual
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName entity audit event
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName expected
+assert event equals SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName entity audit event
+assert event equals SimpleName MethodDeclaration SingleVariableDeclaration SimpleName actual
+assert event equals SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName entity audit event
+assert event equals SimpleName MethodDeclaration SingleVariableDeclaration SimpleName expected
+actual SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName expected
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName assert event equals
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName actual
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName expected
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName assert event equals
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName actual
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName expected

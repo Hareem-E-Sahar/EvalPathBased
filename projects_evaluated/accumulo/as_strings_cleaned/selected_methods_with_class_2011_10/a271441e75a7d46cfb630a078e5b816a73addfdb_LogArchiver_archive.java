@@ -1,0 +1,144 @@
+final Modifier SingleVariableDeclaration SimpleType SimpleName string
+final Modifier SingleVariableDeclaration SimpleName full name
+string SimpleName SimpleType SingleVariableDeclaration SimpleName full name
+path SimpleName SimpleType ClassInstanceCreation SimpleName full name
+full path SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName path
+full path SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName full name
+final Modifier VariableDeclarationStatement SimpleType SimpleName path
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName full path
+final Modifier VariableDeclarationStatement VariableDeclarationFragment ClassInstanceCreation SimpleName full name
+path SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName full path
+full path SimpleName MethodInvocation SimpleName get name
+name SimpleName VariableDeclarationFragment MethodInvocation SimpleName full path
+name SimpleName VariableDeclarationFragment MethodInvocation SimpleName get name
+final Modifier VariableDeclarationStatement SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName name
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName full path
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName name
+archiving SimpleName MethodInvocation SimpleName contains
+archiving SimpleName MethodInvocation SimpleName name
+contains SimpleName MethodInvocation SimpleName name
+archiving SimpleName MethodInvocation SimpleName add
+archiving SimpleName MethodInvocation SimpleName name
+add SimpleName MethodInvocation SimpleName name
+src SimpleName MethodInvocation SimpleName delete
+src SimpleName MethodInvocation SimpleName full path
+src SimpleName MethodInvocation BooleanLiteral true
+delete SimpleName MethodInvocation SimpleName full path
+delete SimpleName MethodInvocation BooleanLiteral true
+full path SimpleName MethodInvocation BooleanLiteral true
+full path SimpleName InfixExpression StringLiteral deleted
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation InfixExpression SimpleName full path
+log SimpleName MethodInvocation InfixExpression StringLiteral deleted
+info SimpleName MethodInvocation InfixExpression SimpleName full path
+info SimpleName MethodInvocation InfixExpression StringLiteral deleted
+unable to delete StringLiteral InfixExpression SimpleName full path
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation InfixExpression StringLiteral unable to delete
+log SimpleName MethodInvocation InfixExpression SimpleName full path
+error SimpleName MethodInvocation InfixExpression StringLiteral unable to delete
+error SimpleName MethodInvocation InfixExpression SimpleName full path
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName ex
+error trying to delete StringLiteral InfixExpression SimpleName full path
+error trying to delete StringLiteral InfixExpression StringLiteral :
+error trying to delete StringLiteral InfixExpression SimpleName ex
+full path SimpleName InfixExpression StringLiteral :
+full path SimpleName InfixExpression SimpleName ex
+: StringLiteral InfixExpression SimpleName ex
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation InfixExpression StringLiteral error trying to delete
+log SimpleName MethodInvocation InfixExpression SimpleName full path
+log SimpleName MethodInvocation InfixExpression StringLiteral :
+log SimpleName MethodInvocation InfixExpression SimpleName ex
+error SimpleName MethodInvocation InfixExpression StringLiteral error trying to delete
+error SimpleName MethodInvocation InfixExpression SimpleName full path
+error SimpleName MethodInvocation InfixExpression StringLiteral :
+error SimpleName MethodInvocation InfixExpression SimpleName ex
+archiving SimpleName MethodInvocation SimpleName remove
+archiving SimpleName MethodInvocation SimpleName name
+remove SimpleName MethodInvocation SimpleName name
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName run
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName run
+void PrimitiveType MethodDeclaration SimpleName run
+thread pool SimpleName MethodInvocation SimpleName execute
+thread pool SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName runnable
+execute SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName runnable
+archiving StringLiteral InfixExpression SimpleName name
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation InfixExpression StringLiteral archiving
+log SimpleName MethodInvocation InfixExpression SimpleName name
+info SimpleName MethodInvocation InfixExpression StringLiteral archiving
+info SimpleName MethodInvocation InfixExpression SimpleName name
+archive name SimpleName MethodInvocation SimpleName full name
+src SimpleName MethodInvocation SimpleName rename
+src SimpleName MethodInvocation SimpleName full path
+src SimpleName MethodInvocation MethodInvocation SimpleName archive name
+src SimpleName MethodInvocation MethodInvocation SimpleName full name
+rename SimpleName MethodInvocation SimpleName full path
+rename SimpleName MethodInvocation MethodInvocation SimpleName archive name
+rename SimpleName MethodInvocation MethodInvocation SimpleName full name
+full path SimpleName MethodInvocation MethodInvocation SimpleName archive name
+full path SimpleName MethodInvocation MethodInvocation SimpleName full name
+log archive task SimpleName SimpleType ClassInstanceCreation SimpleName src
+log archive task SimpleName SimpleType ClassInstanceCreation SimpleName dest
+log archive task SimpleName SimpleType ClassInstanceCreation SimpleName full name
+log archive task SimpleName SimpleType ClassInstanceCreation SimpleName dest dir
+src SimpleName ClassInstanceCreation SimpleName dest
+src SimpleName ClassInstanceCreation SimpleName full name
+src SimpleName ClassInstanceCreation SimpleName dest dir
+dest SimpleName ClassInstanceCreation SimpleName full name
+dest SimpleName ClassInstanceCreation SimpleName dest dir
+full name SimpleName ClassInstanceCreation SimpleName dest dir
+thread pool SimpleName MethodInvocation SimpleName execute
+thread pool SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName log archive task
+thread pool SimpleName MethodInvocation ClassInstanceCreation SimpleName src
+thread pool SimpleName MethodInvocation ClassInstanceCreation SimpleName dest
+thread pool SimpleName MethodInvocation ClassInstanceCreation SimpleName full name
+thread pool SimpleName MethodInvocation ClassInstanceCreation SimpleName dest dir
+execute SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName log archive task
+execute SimpleName MethodInvocation ClassInstanceCreation SimpleName src
+execute SimpleName MethodInvocation ClassInstanceCreation SimpleName dest
+execute SimpleName MethodInvocation ClassInstanceCreation SimpleName full name
+execute SimpleName MethodInvocation ClassInstanceCreation SimpleName dest dir
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName archive
+public Modifier MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName full name
+public Modifier MethodDeclaration SimpleType SimpleName io exception
+public Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+public Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+void PrimitiveType MethodDeclaration SimpleName archive
+void PrimitiveType MethodDeclaration SingleVariableDeclaration Modifier final
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName full name
+void PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement Modifier final
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement Modifier final
+archive SimpleName MethodDeclaration SingleVariableDeclaration Modifier final
+archive SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+archive SimpleName MethodDeclaration SingleVariableDeclaration SimpleName full name
+archive SimpleName MethodDeclaration SimpleType SimpleName io exception
+archive SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+archive SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+final Modifier SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+full name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName archive
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName full name
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName archive
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName full name
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

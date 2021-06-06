@@ -1,0 +1,62 @@
+configuration SimpleName SimpleType SingleVariableDeclaration SimpleName conf
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName block size
+conf SimpleName MethodInvocation SimpleName get boolean
+conf SimpleName MethodInvocation SimpleName instance has been set
+conf SimpleName MethodInvocation BooleanLiteral false
+get boolean SimpleName MethodInvocation SimpleName instance has been set
+get boolean SimpleName MethodInvocation BooleanLiteral false
+instance has been set SimpleName MethodInvocation BooleanLiteral false
+get instance SimpleName MethodInvocation SimpleName conf
+get instance SimpleName MethodInvocation MethodInvocation SimpleName get configuration
+conf SimpleName MethodInvocation MethodInvocation SimpleName get configuration
+get instance SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get memory in bytes
+conf SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get memory in bytes
+get configuration SimpleName MethodInvocation MethodInvocation SimpleName get memory in bytes
+get instance SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName propertytable file compressed block size
+conf SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName propertytable file compressed block size
+get configuration SimpleName MethodInvocation MethodInvocation QualifiedName propertytable file compressed block size
+get memory in bytes SimpleName MethodInvocation QualifiedName propertytable file compressed block size
+int PrimitiveType CastExpression MethodInvocation MethodInvocation SimpleName get configuration
+int PrimitiveType CastExpression MethodInvocation SimpleName get memory in bytes
+int PrimitiveType CastExpression MethodInvocation QualifiedName propertytable file compressed block size
+block size SimpleName Assignment CastExpression PrimitiveType int
+block size SimpleName Assignment CastExpression MethodInvocation SimpleName get memory in bytes
+block size SimpleName Assignment CastExpression MethodInvocation QualifiedName propertytable file compressed block size
+get block size SimpleName MethodInvocation SimpleName conf
+block size SimpleName Assignment MethodInvocation SimpleName get block size
+block size SimpleName Assignment MethodInvocation SimpleName conf
+conf SimpleName MethodInvocation SimpleName set int
+conf SimpleName MethodInvocation StringLiteral ioseqfilecompressblocksize
+conf SimpleName MethodInvocation SimpleName block size
+set int SimpleName MethodInvocation StringLiteral ioseqfilecompressblocksize
+set int SimpleName MethodInvocation SimpleName block size
+ioseqfilecompressblocksize StringLiteral MethodInvocation SimpleName block size
+protected Modifier MethodDeclaration Modifier static
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName handle block size
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName configuration
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName conf
+protected Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+static Modifier MethodDeclaration PrimitiveType void
+static Modifier MethodDeclaration SimpleName handle block size
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName configuration
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName conf
+static Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+void PrimitiveType MethodDeclaration SimpleName handle block size
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName configuration
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName conf
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+handle block size SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName configuration
+handle block size SimpleName MethodDeclaration SingleVariableDeclaration SimpleName conf
+handle block size SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName handle block size
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName conf
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName handle block size
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName conf

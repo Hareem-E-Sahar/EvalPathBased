@@ -1,0 +1,122 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas entity def
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName class type definition
+list SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName class type definitions
+class type definition SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName class type definitions
+atlas type registry SimpleName SimpleType SingleVariableDeclaration SimpleName registry
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas entity def
+class type definition SimpleName SimpleType SingleVariableDeclaration SimpleName class type
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas attribute def
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas attribute def
+class type SimpleName MethodInvocation SimpleName get attribute definitions
+collection utils SimpleName MethodInvocation SimpleName is not empty
+collection utils SimpleName MethodInvocation MethodInvocation SimpleName class type
+collection utils SimpleName MethodInvocation MethodInvocation SimpleName get attribute definitions
+is not empty SimpleName MethodInvocation MethodInvocation SimpleName class type
+is not empty SimpleName MethodInvocation MethodInvocation SimpleName get attribute definitions
+attribute definition SimpleName SimpleType SingleVariableDeclaration SimpleName old attr
+class type SimpleName MethodInvocation SimpleName get attribute definitions
+to atlas attribute def SimpleName MethodInvocation SimpleName old attr
+new attr SimpleName VariableDeclarationFragment MethodInvocation SimpleName to atlas attribute def
+new attr SimpleName VariableDeclarationFragment MethodInvocation SimpleName old attr
+atlas attribute def SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName new attr
+attr defs SimpleName MethodInvocation SimpleName add
+attr defs SimpleName MethodInvocation SimpleName new attr
+add SimpleName MethodInvocation SimpleName new attr
+old attr SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName class type
+old attr SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName get attribute definitions
+class type SimpleName MethodInvocation SimpleName get type name
+class type SimpleName MethodInvocation SimpleName get type description
+class type SimpleName MethodInvocation SimpleName get type version
+class type SimpleName MethodInvocation SimpleName get super types
+atlas entity def SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName class type
+atlas entity def SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get type name
+atlas entity def SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName class type
+atlas entity def SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get type description
+atlas entity def SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName class type
+atlas entity def SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get type version
+atlas entity def SimpleName SimpleType ClassInstanceCreation SimpleName attr defs
+atlas entity def SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName class type
+atlas entity def SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get super types
+class type SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName class type
+class type SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get type description
+get type name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName class type
+get type name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get type description
+class type SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName class type
+class type SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get type version
+get type name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName class type
+get type name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get type version
+class type SimpleName MethodInvocation ClassInstanceCreation SimpleName attr defs
+get type name SimpleName MethodInvocation ClassInstanceCreation SimpleName attr defs
+class type SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName class type
+class type SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get super types
+get type name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName class type
+get type name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get super types
+class type SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName class type
+class type SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get type version
+get type description SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName class type
+get type description SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get type version
+class type SimpleName MethodInvocation ClassInstanceCreation SimpleName attr defs
+get type description SimpleName MethodInvocation ClassInstanceCreation SimpleName attr defs
+class type SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName class type
+class type SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get super types
+get type description SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName class type
+get type description SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get super types
+class type SimpleName MethodInvocation ClassInstanceCreation SimpleName attr defs
+get type version SimpleName MethodInvocation ClassInstanceCreation SimpleName attr defs
+class type SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName class type
+class type SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get super types
+get type version SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName class type
+get type version SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get super types
+attr defs SimpleName ClassInstanceCreation MethodInvocation SimpleName class type
+attr defs SimpleName ClassInstanceCreation MethodInvocation SimpleName get super types
+entity def SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName atlas entity def
+entity def SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName class type
+entity def SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get type name
+entity def SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName class type
+entity def SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get type description
+entity def SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName class type
+entity def SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get type version
+entity def SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName attr defs
+entity def SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName class type
+entity def SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get super types
+atlas entity def SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName entity def
+ret SimpleName MethodInvocation SimpleName add
+ret SimpleName MethodInvocation SimpleName entity def
+add SimpleName MethodInvocation SimpleName entity def
+class type definition SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName class type definitions
+class type SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName class type definitions
+class type definitions SimpleName EnhancedForStatement Block ReturnStatement SimpleName ret
+private Modifier MethodDeclaration Modifier static
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName atlas entity def
+private Modifier MethodDeclaration SimpleName to atlas entity defs
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName class type definitions
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas type registry
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName registry
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName atlas entity def
+static Modifier MethodDeclaration SimpleName to atlas entity defs
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName class type definitions
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas type registry
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName registry
+static Modifier MethodDeclaration Block EnhancedForStatement SimpleName class type definitions
+static Modifier MethodDeclaration Block ReturnStatement SimpleName ret
+list SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName to atlas entity defs
+atlas entity def SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName to atlas entity defs
+to atlas entity defs SimpleName MethodDeclaration SingleVariableDeclaration SimpleName class type definitions
+to atlas entity defs SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas type registry
+to atlas entity defs SimpleName MethodDeclaration SingleVariableDeclaration SimpleName registry
+to atlas entity defs SimpleName MethodDeclaration Block EnhancedForStatement SimpleName class type definitions
+to atlas entity defs SimpleName MethodDeclaration Block ReturnStatement SimpleName ret
+class type definitions SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName registry
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleName to atlas entity defs
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName class type definitions
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName registry
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleName to atlas entity defs
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName class type definitions
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName registry

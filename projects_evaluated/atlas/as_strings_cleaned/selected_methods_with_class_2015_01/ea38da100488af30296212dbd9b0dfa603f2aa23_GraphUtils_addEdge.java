@@ -1,0 +1,108 @@
+vertex SimpleName SimpleType SingleVariableDeclaration SimpleName from vertex
+vertex SimpleName SimpleType SingleVariableDeclaration SimpleName to vertex
+string SimpleName SimpleType SingleVariableDeclaration SimpleName vertex property key
+string SimpleName SimpleType SingleVariableDeclaration SimpleName edge label
+string SimpleName SimpleType SingleVariableDeclaration SimpleName timestamp
+find edge SimpleName MethodInvocation SimpleName from vertex
+find edge SimpleName MethodInvocation SimpleName to vertex
+find edge SimpleName MethodInvocation SimpleName vertex property key
+find edge SimpleName MethodInvocation SimpleName edge label
+from vertex SimpleName MethodInvocation SimpleName to vertex
+from vertex SimpleName MethodInvocation SimpleName vertex property key
+from vertex SimpleName MethodInvocation SimpleName edge label
+to vertex SimpleName MethodInvocation SimpleName vertex property key
+to vertex SimpleName MethodInvocation SimpleName edge label
+vertex property key SimpleName MethodInvocation SimpleName edge label
+edge SimpleName VariableDeclarationFragment MethodInvocation SimpleName find edge
+edge SimpleName VariableDeclarationFragment MethodInvocation SimpleName from vertex
+edge SimpleName VariableDeclarationFragment MethodInvocation SimpleName to vertex
+edge SimpleName VariableDeclarationFragment MethodInvocation SimpleName vertex property key
+edge SimpleName VariableDeclarationFragment MethodInvocation SimpleName edge label
+edge SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName edge
+from vertex SimpleName MethodInvocation SimpleName add edge
+from vertex SimpleName MethodInvocation SimpleName edge label
+from vertex SimpleName MethodInvocation SimpleName to vertex
+add edge SimpleName MethodInvocation SimpleName edge label
+add edge SimpleName MethodInvocation SimpleName to vertex
+edge label SimpleName MethodInvocation SimpleName to vertex
+edge SimpleName InfixExpression ConditionalExpression SimpleName edge
+edge SimpleName InfixExpression ConditionalExpression MethodInvocation SimpleName from vertex
+edge SimpleName InfixExpression ConditionalExpression MethodInvocation SimpleName add edge
+edge SimpleName InfixExpression ConditionalExpression MethodInvocation SimpleName edge label
+edge SimpleName InfixExpression ConditionalExpression MethodInvocation SimpleName to vertex
+edge SimpleName ConditionalExpression MethodInvocation SimpleName from vertex
+edge SimpleName ConditionalExpression MethodInvocation SimpleName add edge
+edge SimpleName ConditionalExpression MethodInvocation SimpleName edge label
+edge SimpleName ConditionalExpression MethodInvocation SimpleName to vertex
+edge to vertex SimpleName VariableDeclarationFragment ConditionalExpression InfixExpression SimpleName edge
+edge to vertex SimpleName VariableDeclarationFragment ConditionalExpression SimpleName edge
+edge to vertex SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation SimpleName from vertex
+edge to vertex SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation SimpleName add edge
+edge to vertex SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation SimpleName edge label
+edge to vertex SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation SimpleName to vertex
+edge SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName edge to vertex
+edge to vertex SimpleName MethodInvocation SimpleName set property
+edge to vertex SimpleName MethodInvocation QualifiedName constantstimestamp property key
+edge to vertex SimpleName MethodInvocation SimpleName timestamp
+set property SimpleName MethodInvocation QualifiedName constantstimestamp property key
+set property SimpleName MethodInvocation SimpleName timestamp
+constantstimestamp property key QualifiedName MethodInvocation SimpleName timestamp
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName edge
+public Modifier MethodDeclaration SimpleName add edge
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName vertex
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName from vertex
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName vertex
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName to vertex
+static Modifier MethodDeclaration SimpleType SimpleName edge
+static Modifier MethodDeclaration SimpleName add edge
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName vertex
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName from vertex
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName vertex
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName to vertex
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName vertex property key
+edge SimpleName SimpleType MethodDeclaration SimpleName add edge
+edge SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName from vertex
+edge SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName to vertex
+edge SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName vertex property key
+edge SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName edge label
+add edge SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName vertex
+add edge SimpleName MethodDeclaration SingleVariableDeclaration SimpleName from vertex
+add edge SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName vertex
+add edge SimpleName MethodDeclaration SingleVariableDeclaration SimpleName to vertex
+add edge SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+add edge SimpleName MethodDeclaration SingleVariableDeclaration SimpleName vertex property key
+add edge SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+add edge SimpleName MethodDeclaration SingleVariableDeclaration SimpleName edge label
+add edge SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+add edge SimpleName MethodDeclaration SingleVariableDeclaration SimpleName timestamp
+from vertex SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName to vertex
+from vertex SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName vertex property key
+from vertex SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName edge label
+from vertex SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName timestamp
+to vertex SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName vertex property key
+to vertex SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName edge label
+to vertex SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName timestamp
+vertex property key SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName edge label
+vertex property key SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName timestamp
+edge label SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName timestamp
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName edge
+public Modifier TypeDeclaration MethodDeclaration SimpleName add edge
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName from vertex
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName to vertex
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName vertex property key
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName edge label
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName timestamp
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName edge
+test SimpleName TypeDeclaration MethodDeclaration SimpleName add edge
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName from vertex
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName to vertex
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName vertex property key
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName edge label
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName timestamp

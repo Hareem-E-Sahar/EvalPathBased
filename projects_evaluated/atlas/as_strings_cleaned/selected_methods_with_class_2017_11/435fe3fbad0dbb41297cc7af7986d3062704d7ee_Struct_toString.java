@@ -1,0 +1,49 @@
+string builder SimpleName SimpleType SingleVariableDeclaration SimpleName sb
+sb SimpleName Assignment ClassInstanceCreation SimpleType SimpleName string builder
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation StringLiteral struct
+append SimpleName MethodInvocation StringLiteral struct
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation StringLiteral type name
+append SimpleName MethodInvocation StringLiteral type name
+sb SimpleName MethodInvocation MethodInvocation SimpleName append
+append SimpleName MethodInvocation MethodInvocation SimpleName append
+type name StringLiteral MethodInvocation MethodInvocation SimpleName append
+sb SimpleName MethodInvocation MethodInvocation SimpleName type name
+append SimpleName MethodInvocation MethodInvocation SimpleName type name
+type name StringLiteral MethodInvocation MethodInvocation SimpleName type name
+append SimpleName MethodInvocation SimpleName type name
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation StringLiteral values
+append SimpleName MethodInvocation StringLiteral values
+atlas base type def SimpleName MethodInvocation SimpleName dump objects
+atlas base type def SimpleName MethodInvocation SimpleName values
+atlas base type def SimpleName MethodInvocation SimpleName sb
+dump objects SimpleName MethodInvocation SimpleName values
+dump objects SimpleName MethodInvocation SimpleName sb
+values SimpleName MethodInvocation SimpleName sb
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation StringLiteral }
+append SimpleName MethodInvocation StringLiteral }
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation StringLiteral }
+append SimpleName MethodInvocation StringLiteral }
+public Modifier MethodDeclaration SimpleType SimpleName string builder
+public Modifier MethodDeclaration SimpleName to string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string builder
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName sb
+public Modifier MethodDeclaration Block ReturnStatement SimpleName sb
+string builder SimpleName SimpleType MethodDeclaration SimpleName to string
+string builder SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName sb
+to string SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string builder
+to string SimpleName MethodDeclaration SingleVariableDeclaration SimpleName sb
+to string SimpleName MethodDeclaration Block ReturnStatement SimpleName sb
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string builder
+public Modifier TypeDeclaration MethodDeclaration SimpleName to string
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName sb
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string builder
+test SimpleName TypeDeclaration MethodDeclaration SimpleName to string
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName sb

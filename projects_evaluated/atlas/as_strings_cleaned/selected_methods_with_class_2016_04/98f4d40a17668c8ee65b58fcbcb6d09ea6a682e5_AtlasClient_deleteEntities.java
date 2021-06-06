@@ -1,0 +1,75 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+final Modifier SingleVariableDeclaration SimpleType SimpleName string
+final Modifier SingleVariableDeclaration SimpleName guids
+string SimpleName SimpleType SingleVariableDeclaration SimpleName guids
+api SimpleName VariableDeclarationFragment QualifiedName apidelete entities
+api SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName api
+api SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment QualifiedName apidelete entities
+get resource SimpleName MethodInvocation SimpleName api
+resource SimpleName VariableDeclarationFragment MethodInvocation SimpleName get resource
+resource SimpleName VariableDeclarationFragment MethodInvocation SimpleName api
+web resource SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName resource
+string SimpleName SimpleType SingleVariableDeclaration SimpleName guid
+guid SimpleName MethodInvocation SimpleName to lower case
+resource SimpleName MethodInvocation SimpleName query param
+resource SimpleName MethodInvocation MethodInvocation SimpleName guid
+resource SimpleName MethodInvocation MethodInvocation SimpleName to lower case
+resource SimpleName MethodInvocation SimpleName guid
+query param SimpleName MethodInvocation MethodInvocation SimpleName guid
+query param SimpleName MethodInvocation MethodInvocation SimpleName to lower case
+query param SimpleName MethodInvocation SimpleName guid
+guid SimpleName MethodInvocation MethodInvocation SimpleName guid
+to lower case SimpleName MethodInvocation MethodInvocation SimpleName guid
+resource SimpleName Assignment MethodInvocation SimpleName resource
+resource SimpleName Assignment MethodInvocation SimpleName query param
+resource SimpleName Assignment MethodInvocation MethodInvocation SimpleName guid
+resource SimpleName Assignment MethodInvocation MethodInvocation SimpleName to lower case
+resource SimpleName Assignment MethodInvocation SimpleName guid
+string SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName guids
+guid SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName guids
+guids SimpleName EnhancedForStatement Block ReturnStatement SimpleName resource
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName web resource
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName create resource
+public Modifier MethodDeclaration SimpleType SimpleName web resource
+public Modifier MethodDeclaration SimpleName create resource
+public Modifier MethodDeclaration Block EnhancedForStatement SimpleName guids
+public Modifier MethodDeclaration Block ReturnStatement SimpleName resource
+web resource SimpleName SimpleType MethodDeclaration SimpleName create resource
+create resource SimpleName MethodDeclaration Block EnhancedForStatement SimpleName guids
+create resource SimpleName MethodDeclaration Block ReturnStatement SimpleName resource
+call api with retries SimpleName MethodInvocation QualifiedName apidelete entities
+call api with retries SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName resource creator
+apidelete entities QualifiedName MethodInvocation ClassInstanceCreation SimpleType SimpleName resource creator
+json response SimpleName VariableDeclarationFragment MethodInvocation SimpleName call api with retries
+json response SimpleName VariableDeclarationFragment MethodInvocation QualifiedName apidelete entities
+json object SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName json response
+extract results SimpleName MethodInvocation SimpleName json response
+extract results SimpleName MethodInvocation SimpleName guid
+json response SimpleName MethodInvocation SimpleName guid
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName delete entities
+public Modifier MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName guids
+public Modifier MethodDeclaration SimpleType SimpleName atlas service exception
+list SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName delete entities
+string SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName delete entities
+delete entities SimpleName MethodDeclaration SingleVariableDeclaration Modifier final
+delete entities SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+delete entities SimpleName MethodDeclaration SingleVariableDeclaration SimpleName guids
+delete entities SimpleName MethodDeclaration SimpleType SimpleName atlas service exception
+final Modifier SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas service exception
+guids SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas service exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName delete entities
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName guids
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas service exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName delete entities
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName guids
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas service exception

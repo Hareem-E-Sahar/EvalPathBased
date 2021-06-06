@@ -1,0 +1,25 @@
+current user SimpleName MethodInvocation SimpleName get authenticated ugi
+current user SimpleName MethodInvocation MethodInvocation SimpleName get short user name
+get authenticated ugi SimpleName MethodInvocation MethodInvocation SimpleName get short user name
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName ioe
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName get user
+public Modifier MethodDeclaration SimpleType SimpleName falcon exception
+static Modifier MethodDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SimpleName get user
+static Modifier MethodDeclaration SimpleType SimpleName falcon exception
+string SimpleName SimpleType MethodDeclaration SimpleName get user
+string SimpleName SimpleType MethodDeclaration SimpleType SimpleName falcon exception
+get user SimpleName MethodDeclaration SimpleType SimpleName falcon exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName get user
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName falcon exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get user
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName falcon exception

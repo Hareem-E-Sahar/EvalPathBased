@@ -1,0 +1,10 @@
+public Modifier MethodDeclaration SimpleType SimpleName metadata
+public Modifier MethodDeclaration SimpleName get metadata
+metadata SimpleName SimpleType MethodDeclaration SimpleName get metadata
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName metadata
+public Modifier TypeDeclaration MethodDeclaration SimpleName get metadata
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName metadata
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get metadata

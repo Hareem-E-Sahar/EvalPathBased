@@ -1,0 +1,317 @@
+table StringLiteral InfixExpression MethodInvocation SimpleName random
+table name SimpleName VariableDeclarationFragment InfixExpression StringLiteral table
+table name SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName random
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName table name
+create table SimpleName MethodInvocation SimpleName table name
+create table SimpleName MethodInvocation NumberLiteral empty
+create table SimpleName MethodInvocation BooleanLiteral true
+table name SimpleName MethodInvocation NumberLiteral empty
+table name SimpleName MethodInvocation BooleanLiteral true
+empty NumberLiteral MethodInvocation BooleanLiteral true
+get entity id SimpleName MethodInvocation SimpleName hive table type
+get entity id SimpleName MethodInvocation StringLiteral name
+get entity id SimpleName MethodInvocation SimpleName table name
+hive table type SimpleName MethodInvocation StringLiteral name
+hive table type SimpleName MethodInvocation SimpleName table name
+name StringLiteral MethodInvocation SimpleName table name
+entity guid SimpleName VariableDeclarationFragment MethodInvocation SimpleName get entity id
+entity guid SimpleName VariableDeclarationFragment MethodInvocation SimpleName hive table type
+entity guid SimpleName VariableDeclarationFragment MethodInvocation StringLiteral name
+entity guid SimpleName VariableDeclarationFragment MethodInvocation SimpleName table name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName entity guid
+get input lineage info SimpleName MethodInvocation SimpleName entity guid
+get input lineage info SimpleName MethodInvocation NumberLiteral empty
+entity guid SimpleName MethodInvocation NumberLiteral empty
+input lineage SimpleName VariableDeclarationFragment MethodInvocation SimpleName get input lineage info
+input lineage SimpleName VariableDeclarationFragment MethodInvocation SimpleName entity guid
+input lineage SimpleName VariableDeclarationFragment MethodInvocation NumberLiteral empty
+atlas lineage info SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName input lineage
+assert not null SimpleName MethodInvocation SimpleName input lineage
+input lineage = StringLiteral InfixExpression SimpleName input lineage
+systemout QualifiedName MethodInvocation SimpleName println
+systemout QualifiedName MethodInvocation InfixExpression StringLiteral input lineage =
+systemout QualifiedName MethodInvocation InfixExpression SimpleName input lineage
+println SimpleName MethodInvocation InfixExpression StringLiteral input lineage =
+println SimpleName MethodInvocation InfixExpression SimpleName input lineage
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas entity header
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas entity header
+input lineage SimpleName MethodInvocation SimpleName get guid entity map
+entities input SimpleName VariableDeclarationFragment MethodInvocation SimpleName input lineage
+entities input SimpleName VariableDeclarationFragment MethodInvocation SimpleName get guid entity map
+assert not null SimpleName MethodInvocation SimpleName entities input
+entities input SimpleName MethodInvocation SimpleName size
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName entities input
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName size
+assert equals SimpleName MethodInvocation NumberLiteral empty
+entities input SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+size SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName lineage relation
+input lineage SimpleName MethodInvocation SimpleName get relations
+relations input SimpleName VariableDeclarationFragment MethodInvocation SimpleName input lineage
+relations input SimpleName VariableDeclarationFragment MethodInvocation SimpleName get relations
+assert not null SimpleName MethodInvocation SimpleName relations input
+relations input SimpleName MethodInvocation SimpleName size
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName relations input
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName size
+assert equals SimpleName MethodInvocation NumberLiteral empty
+relations input SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+size SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+entities input SimpleName MethodInvocation SimpleName get
+entities input SimpleName MethodInvocation SimpleName entity guid
+get SimpleName MethodInvocation SimpleName entity guid
+table entity input SimpleName VariableDeclarationFragment MethodInvocation SimpleName entities input
+table entity input SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+table entity input SimpleName VariableDeclarationFragment MethodInvocation SimpleName entity guid
+atlas entity header SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName table entity input
+table entity input SimpleName MethodInvocation SimpleName get status
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName table entity input
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get status
+assert equals SimpleName MethodInvocation QualifiedName statusactive
+table entity input SimpleName MethodInvocation MethodInvocation QualifiedName statusactive
+get status SimpleName MethodInvocation MethodInvocation QualifiedName statusactive
+get output lineage info SimpleName MethodInvocation SimpleName entity guid
+get output lineage info SimpleName MethodInvocation NumberLiteral empty
+entity guid SimpleName MethodInvocation NumberLiteral empty
+output lineage SimpleName VariableDeclarationFragment MethodInvocation SimpleName get output lineage info
+output lineage SimpleName VariableDeclarationFragment MethodInvocation SimpleName entity guid
+output lineage SimpleName VariableDeclarationFragment MethodInvocation NumberLiteral empty
+atlas lineage info SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName output lineage
+assert not null SimpleName MethodInvocation SimpleName output lineage
+output lineage = StringLiteral InfixExpression SimpleName output lineage
+systemout QualifiedName MethodInvocation SimpleName println
+systemout QualifiedName MethodInvocation InfixExpression StringLiteral output lineage =
+systemout QualifiedName MethodInvocation InfixExpression SimpleName output lineage
+println SimpleName MethodInvocation InfixExpression StringLiteral output lineage =
+println SimpleName MethodInvocation InfixExpression SimpleName output lineage
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas entity header
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas entity header
+output lineage SimpleName MethodInvocation SimpleName get guid entity map
+entities output SimpleName VariableDeclarationFragment MethodInvocation SimpleName output lineage
+entities output SimpleName VariableDeclarationFragment MethodInvocation SimpleName get guid entity map
+assert not null SimpleName MethodInvocation SimpleName entities output
+entities output SimpleName MethodInvocation SimpleName size
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName entities output
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName size
+assert equals SimpleName MethodInvocation NumberLiteral empty
+entities output SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+size SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName lineage relation
+output lineage SimpleName MethodInvocation SimpleName get relations
+relations output SimpleName VariableDeclarationFragment MethodInvocation SimpleName output lineage
+relations output SimpleName VariableDeclarationFragment MethodInvocation SimpleName get relations
+assert not null SimpleName MethodInvocation SimpleName relations output
+relations output SimpleName MethodInvocation SimpleName size
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName relations output
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName size
+assert equals SimpleName MethodInvocation NumberLiteral empty
+relations output SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+size SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+entities output SimpleName MethodInvocation SimpleName get
+entities output SimpleName MethodInvocation SimpleName entity guid
+get SimpleName MethodInvocation SimpleName entity guid
+table entity output SimpleName VariableDeclarationFragment MethodInvocation SimpleName entities output
+table entity output SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+table entity output SimpleName VariableDeclarationFragment MethodInvocation SimpleName entity guid
+atlas entity header SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName table entity output
+table entity output SimpleName MethodInvocation SimpleName get status
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName table entity output
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get status
+assert equals SimpleName MethodInvocation QualifiedName statusactive
+table entity output SimpleName MethodInvocation MethodInvocation QualifiedName statusactive
+get status SimpleName MethodInvocation MethodInvocation QualifiedName statusactive
+get both lineage info SimpleName MethodInvocation SimpleName entity guid
+get both lineage info SimpleName MethodInvocation NumberLiteral empty
+entity guid SimpleName MethodInvocation NumberLiteral empty
+both lineage SimpleName VariableDeclarationFragment MethodInvocation SimpleName get both lineage info
+both lineage SimpleName VariableDeclarationFragment MethodInvocation SimpleName entity guid
+both lineage SimpleName VariableDeclarationFragment MethodInvocation NumberLiteral empty
+atlas lineage info SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName both lineage
+assert not null SimpleName MethodInvocation SimpleName both lineage
+both lineage = StringLiteral InfixExpression SimpleName both lineage
+systemout QualifiedName MethodInvocation SimpleName println
+systemout QualifiedName MethodInvocation InfixExpression StringLiteral both lineage =
+systemout QualifiedName MethodInvocation InfixExpression SimpleName both lineage
+println SimpleName MethodInvocation InfixExpression StringLiteral both lineage =
+println SimpleName MethodInvocation InfixExpression SimpleName both lineage
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas entity header
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas entity header
+both lineage SimpleName MethodInvocation SimpleName get guid entity map
+entities both SimpleName VariableDeclarationFragment MethodInvocation SimpleName both lineage
+entities both SimpleName VariableDeclarationFragment MethodInvocation SimpleName get guid entity map
+assert not null SimpleName MethodInvocation SimpleName entities both
+entities both SimpleName MethodInvocation SimpleName size
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName entities both
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName size
+assert equals SimpleName MethodInvocation NumberLiteral empty
+entities both SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+size SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName lineage relation
+both lineage SimpleName MethodInvocation SimpleName get relations
+relations both SimpleName VariableDeclarationFragment MethodInvocation SimpleName both lineage
+relations both SimpleName VariableDeclarationFragment MethodInvocation SimpleName get relations
+assert not null SimpleName MethodInvocation SimpleName relations both
+relations both SimpleName MethodInvocation SimpleName size
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName relations both
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName size
+assert equals SimpleName MethodInvocation NumberLiteral empty
+relations both SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+size SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+entities both SimpleName MethodInvocation SimpleName get
+entities both SimpleName MethodInvocation SimpleName entity guid
+get SimpleName MethodInvocation SimpleName entity guid
+table entity both SimpleName VariableDeclarationFragment MethodInvocation SimpleName entities both
+table entity both SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+table entity both SimpleName VariableDeclarationFragment MethodInvocation SimpleName entity guid
+atlas entity header SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName table entity both
+table entity both SimpleName MethodInvocation SimpleName get status
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName table entity both
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get status
+assert equals SimpleName MethodInvocation QualifiedName statusactive
+table entity both SimpleName MethodInvocation MethodInvocation QualifiedName statusactive
+get status SimpleName MethodInvocation MethodInvocation QualifiedName statusactive
+arrays SimpleName MethodInvocation SimpleName as list
+arrays SimpleName MethodInvocation SimpleName entity guid
+as list SimpleName MethodInvocation SimpleName entity guid
+repository SimpleName MethodInvocation SimpleName delete entities
+repository SimpleName MethodInvocation MethodInvocation SimpleName arrays
+repository SimpleName MethodInvocation MethodInvocation SimpleName as list
+repository SimpleName MethodInvocation MethodInvocation SimpleName entity guid
+delete entities SimpleName MethodInvocation MethodInvocation SimpleName arrays
+delete entities SimpleName MethodInvocation MethodInvocation SimpleName as list
+delete entities SimpleName MethodInvocation MethodInvocation SimpleName entity guid
+delete result SimpleName VariableDeclarationFragment MethodInvocation SimpleName repository
+delete result SimpleName VariableDeclarationFragment MethodInvocation SimpleName delete entities
+delete result SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName arrays
+delete result SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName as list
+delete result SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName entity guid
+atlas cliententity result QualifiedName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName delete result
+delete result SimpleName MethodInvocation SimpleName get deleted entities
+delete result SimpleName MethodInvocation MethodInvocation SimpleName contains
+get deleted entities SimpleName MethodInvocation MethodInvocation SimpleName contains
+delete result SimpleName MethodInvocation MethodInvocation SimpleName entity guid
+get deleted entities SimpleName MethodInvocation MethodInvocation SimpleName entity guid
+contains SimpleName MethodInvocation SimpleName entity guid
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName delete result
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get deleted entities
+assert true SimpleName MethodInvocation MethodInvocation SimpleName contains
+assert true SimpleName MethodInvocation MethodInvocation SimpleName entity guid
+get input lineage info SimpleName MethodInvocation SimpleName entity guid
+get input lineage info SimpleName MethodInvocation NumberLiteral empty
+entity guid SimpleName MethodInvocation NumberLiteral empty
+input lineage SimpleName Assignment MethodInvocation SimpleName get input lineage info
+input lineage SimpleName Assignment MethodInvocation SimpleName entity guid
+input lineage SimpleName Assignment MethodInvocation NumberLiteral empty
+input lineage SimpleName MethodInvocation SimpleName get guid entity map
+input lineage SimpleName MethodInvocation MethodInvocation SimpleName get
+get guid entity map SimpleName MethodInvocation MethodInvocation SimpleName get
+input lineage SimpleName MethodInvocation MethodInvocation SimpleName entity guid
+get guid entity map SimpleName MethodInvocation MethodInvocation SimpleName entity guid
+get SimpleName MethodInvocation SimpleName entity guid
+table entity input SimpleName Assignment MethodInvocation MethodInvocation SimpleName input lineage
+table entity input SimpleName Assignment MethodInvocation MethodInvocation SimpleName get guid entity map
+table entity input SimpleName Assignment MethodInvocation SimpleName get
+table entity input SimpleName Assignment MethodInvocation SimpleName entity guid
+table entity input SimpleName MethodInvocation SimpleName get status
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName table entity input
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get status
+assert equals SimpleName MethodInvocation QualifiedName statusdeleted
+table entity input SimpleName MethodInvocation MethodInvocation QualifiedName statusdeleted
+get status SimpleName MethodInvocation MethodInvocation QualifiedName statusdeleted
+input lineage SimpleName MethodInvocation SimpleName get guid entity map
+input lineage SimpleName MethodInvocation MethodInvocation SimpleName size
+get guid entity map SimpleName MethodInvocation MethodInvocation SimpleName size
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName input lineage
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get guid entity map
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName size
+assert equals SimpleName MethodInvocation NumberLiteral empty
+input lineage SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+get guid entity map SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+size SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+get output lineage info SimpleName MethodInvocation SimpleName entity guid
+get output lineage info SimpleName MethodInvocation NumberLiteral empty
+entity guid SimpleName MethodInvocation NumberLiteral empty
+output lineage SimpleName Assignment MethodInvocation SimpleName get output lineage info
+output lineage SimpleName Assignment MethodInvocation SimpleName entity guid
+output lineage SimpleName Assignment MethodInvocation NumberLiteral empty
+output lineage SimpleName MethodInvocation SimpleName get guid entity map
+output lineage SimpleName MethodInvocation MethodInvocation SimpleName get
+get guid entity map SimpleName MethodInvocation MethodInvocation SimpleName get
+output lineage SimpleName MethodInvocation MethodInvocation SimpleName entity guid
+get guid entity map SimpleName MethodInvocation MethodInvocation SimpleName entity guid
+get SimpleName MethodInvocation SimpleName entity guid
+table entity output SimpleName Assignment MethodInvocation MethodInvocation SimpleName output lineage
+table entity output SimpleName Assignment MethodInvocation MethodInvocation SimpleName get guid entity map
+table entity output SimpleName Assignment MethodInvocation SimpleName get
+table entity output SimpleName Assignment MethodInvocation SimpleName entity guid
+table entity output SimpleName MethodInvocation SimpleName get status
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName table entity output
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get status
+assert equals SimpleName MethodInvocation QualifiedName statusdeleted
+table entity output SimpleName MethodInvocation MethodInvocation QualifiedName statusdeleted
+get status SimpleName MethodInvocation MethodInvocation QualifiedName statusdeleted
+output lineage SimpleName MethodInvocation SimpleName get guid entity map
+output lineage SimpleName MethodInvocation MethodInvocation SimpleName size
+get guid entity map SimpleName MethodInvocation MethodInvocation SimpleName size
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName output lineage
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get guid entity map
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName size
+assert equals SimpleName MethodInvocation NumberLiteral empty
+output lineage SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+get guid entity map SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+size SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+get both lineage info SimpleName MethodInvocation SimpleName entity guid
+get both lineage info SimpleName MethodInvocation NumberLiteral empty
+entity guid SimpleName MethodInvocation NumberLiteral empty
+both lineage SimpleName Assignment MethodInvocation SimpleName get both lineage info
+both lineage SimpleName Assignment MethodInvocation SimpleName entity guid
+both lineage SimpleName Assignment MethodInvocation NumberLiteral empty
+both lineage SimpleName MethodInvocation SimpleName get guid entity map
+both lineage SimpleName MethodInvocation MethodInvocation SimpleName get
+get guid entity map SimpleName MethodInvocation MethodInvocation SimpleName get
+both lineage SimpleName MethodInvocation MethodInvocation SimpleName entity guid
+get guid entity map SimpleName MethodInvocation MethodInvocation SimpleName entity guid
+get SimpleName MethodInvocation SimpleName entity guid
+table entity both SimpleName Assignment MethodInvocation MethodInvocation SimpleName both lineage
+table entity both SimpleName Assignment MethodInvocation MethodInvocation SimpleName get guid entity map
+table entity both SimpleName Assignment MethodInvocation SimpleName get
+table entity both SimpleName Assignment MethodInvocation SimpleName entity guid
+table entity both SimpleName MethodInvocation SimpleName get status
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName table entity both
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get status
+assert equals SimpleName MethodInvocation QualifiedName statusdeleted
+table entity both SimpleName MethodInvocation MethodInvocation QualifiedName statusdeleted
+get status SimpleName MethodInvocation MethodInvocation QualifiedName statusdeleted
+both lineage SimpleName MethodInvocation SimpleName get guid entity map
+both lineage SimpleName MethodInvocation MethodInvocation SimpleName size
+get guid entity map SimpleName MethodInvocation MethodInvocation SimpleName size
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName both lineage
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get guid entity map
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName size
+assert equals SimpleName MethodInvocation NumberLiteral empty
+both lineage SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+get guid entity map SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+size SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test new lineage with delete
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test new lineage with delete
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName test new lineage with delete
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+test new lineage with delete SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test new lineage with delete
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test new lineage with delete
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

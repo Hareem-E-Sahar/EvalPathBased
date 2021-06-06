@@ -1,0 +1,69 @@
+i typed referenceable instance SimpleName SimpleType SingleVariableDeclaration SimpleName typed reference
+id SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName id
+typed reference SimpleName InstanceofExpression SimpleType SimpleName id
+id SimpleName SimpleType CastExpression SimpleName typed reference
+typed reference SimpleName MethodInvocation SimpleName get id
+typed reference SimpleName InstanceofExpression ConditionalExpression CastExpression SimpleName typed reference
+typed reference SimpleName InstanceofExpression ConditionalExpression MethodInvocation SimpleName typed reference
+typed reference SimpleName InstanceofExpression ConditionalExpression MethodInvocation SimpleName get id
+typed reference SimpleName CastExpression ConditionalExpression MethodInvocation SimpleName typed reference
+typed reference SimpleName CastExpression ConditionalExpression MethodInvocation SimpleName get id
+id SimpleName Assignment ConditionalExpression InstanceofExpression SimpleName typed reference
+id SimpleName Assignment ConditionalExpression CastExpression SimpleName typed reference
+id SimpleName Assignment ConditionalExpression MethodInvocation SimpleName typed reference
+id SimpleName Assignment ConditionalExpression MethodInvocation SimpleName get id
+id SimpleName MethodInvocation SimpleName is unassigned
+id to vertex map SimpleName MethodInvocation SimpleName get
+id to vertex map SimpleName MethodInvocation SimpleName id
+get SimpleName MethodInvocation SimpleName id
+class vertex SimpleName VariableDeclarationFragment MethodInvocation SimpleName id to vertex map
+class vertex SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+class vertex SimpleName VariableDeclarationFragment MethodInvocation SimpleName id
+vertex SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName class vertex
+class vertex SimpleName MethodInvocation SimpleName get property
+class vertex SimpleName MethodInvocation QualifiedName constantsguid property key
+get property SimpleName MethodInvocation QualifiedName constantsguid property key
+guid SimpleName VariableDeclarationFragment MethodInvocation SimpleName class vertex
+guid SimpleName VariableDeclarationFragment MethodInvocation SimpleName get property
+guid SimpleName VariableDeclarationFragment MethodInvocation QualifiedName constantsguid property key
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName guid
+typed reference SimpleName MethodInvocation SimpleName get type name
+id SimpleName SimpleType ClassInstanceCreation SimpleName guid
+id SimpleName SimpleType ClassInstanceCreation NumberLiteral empty
+id SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName typed reference
+id SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get type name
+guid SimpleName ClassInstanceCreation NumberLiteral empty
+guid SimpleName ClassInstanceCreation MethodInvocation SimpleName typed reference
+guid SimpleName ClassInstanceCreation MethodInvocation SimpleName get type name
+empty NumberLiteral ClassInstanceCreation MethodInvocation SimpleName typed reference
+empty NumberLiteral ClassInstanceCreation MethodInvocation SimpleName get type name
+id SimpleName Assignment ClassInstanceCreation SimpleType SimpleName id
+id SimpleName Assignment ClassInstanceCreation SimpleName guid
+id SimpleName Assignment ClassInstanceCreation NumberLiteral empty
+id SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName typed reference
+id SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName get type name
+private Modifier MethodDeclaration SimpleType SimpleName id
+private Modifier MethodDeclaration SimpleName get id
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName i typed referenceable instance
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName typed reference
+private Modifier MethodDeclaration SimpleType SimpleName entity not found exception
+private Modifier MethodDeclaration Block ReturnStatement SimpleName id
+id SimpleName SimpleType MethodDeclaration SimpleName get id
+id SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName typed reference
+id SimpleName SimpleType MethodDeclaration SimpleType SimpleName entity not found exception
+get id SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName i typed referenceable instance
+get id SimpleName MethodDeclaration SingleVariableDeclaration SimpleName typed reference
+get id SimpleName MethodDeclaration SimpleType SimpleName entity not found exception
+get id SimpleName MethodDeclaration Block ReturnStatement SimpleName id
+typed reference SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName entity not found exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName id
+public Modifier TypeDeclaration MethodDeclaration SimpleName get id
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName typed reference
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName entity not found exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName id
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get id
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName typed reference
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName entity not found exception

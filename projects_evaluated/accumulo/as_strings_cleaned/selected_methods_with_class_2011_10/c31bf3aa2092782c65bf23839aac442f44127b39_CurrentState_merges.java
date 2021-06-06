@@ -1,0 +1,6 @@
+collection SimpleName SimpleType ParameterizedType SimpleType SimpleName merge info
+collection SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName merges
+merge info SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName merges
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration SimpleName merges
+test SimpleName TypeDeclaration MethodDeclaration SimpleName merges

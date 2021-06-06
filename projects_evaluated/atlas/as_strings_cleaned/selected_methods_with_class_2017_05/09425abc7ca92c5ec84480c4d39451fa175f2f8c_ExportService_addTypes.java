@@ -1,0 +1,51 @@
+atlas entity SimpleName SimpleType SingleVariableDeclaration SimpleName entity
+export context SimpleName SimpleType SingleVariableDeclaration SimpleName context
+entity SimpleName MethodInvocation SimpleName get type name
+add entity type SimpleName MethodInvocation MethodInvocation SimpleName entity
+add entity type SimpleName MethodInvocation MethodInvocation SimpleName get type name
+add entity type SimpleName MethodInvocation SimpleName context
+entity SimpleName MethodInvocation MethodInvocation SimpleName context
+get type name SimpleName MethodInvocation MethodInvocation SimpleName context
+entity SimpleName MethodInvocation SimpleName get classifications
+collection utils SimpleName MethodInvocation SimpleName is not empty
+collection utils SimpleName MethodInvocation MethodInvocation SimpleName entity
+collection utils SimpleName MethodInvocation MethodInvocation SimpleName get classifications
+is not empty SimpleName MethodInvocation MethodInvocation SimpleName entity
+is not empty SimpleName MethodInvocation MethodInvocation SimpleName get classifications
+atlas classification SimpleName SimpleType SingleVariableDeclaration SimpleName c
+entity SimpleName MethodInvocation SimpleName get classifications
+c SimpleName MethodInvocation SimpleName get type name
+add classification type SimpleName MethodInvocation MethodInvocation SimpleName c
+add classification type SimpleName MethodInvocation MethodInvocation SimpleName get type name
+add classification type SimpleName MethodInvocation SimpleName context
+c SimpleName MethodInvocation MethodInvocation SimpleName context
+get type name SimpleName MethodInvocation MethodInvocation SimpleName context
+c SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName entity
+c SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName get classifications
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName add types
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas entity
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName entity
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName export context
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName context
+void PrimitiveType MethodDeclaration SimpleName add types
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas entity
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName entity
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName export context
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName context
+add types SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas entity
+add types SimpleName MethodDeclaration SingleVariableDeclaration SimpleName entity
+add types SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName export context
+add types SimpleName MethodDeclaration SingleVariableDeclaration SimpleName context
+entity SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName context
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName add types
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName context
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName add types
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName context

@@ -1,0 +1,102 @@
+class SimpleName SimpleType SingleVariableDeclaration SimpleName clazz
+struct SimpleName SimpleType SingleVariableDeclaration SimpleName r
+field SimpleName SimpleType SingleVariableDeclaration SimpleName f
+clazz SimpleName MethodInvocation SimpleName get declared fields
+f SimpleName MethodInvocation SimpleName get modifiers
+modifier SimpleName MethodInvocation SimpleName is transient
+modifier SimpleName MethodInvocation MethodInvocation SimpleName f
+modifier SimpleName MethodInvocation MethodInvocation SimpleName get modifiers
+is transient SimpleName MethodInvocation MethodInvocation SimpleName f
+is transient SimpleName MethodInvocation MethodInvocation SimpleName get modifiers
+f SimpleName MethodInvocation SimpleName get name
+field name SimpleName VariableDeclarationFragment MethodInvocation SimpleName f
+field name SimpleName VariableDeclarationFragment MethodInvocation SimpleName get name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName field name
+f SimpleName MethodInvocation SimpleName set accessible
+f SimpleName MethodInvocation BooleanLiteral true
+set accessible SimpleName MethodInvocation BooleanLiteral true
+f SimpleName MethodInvocation SimpleName get
+value SimpleName VariableDeclarationFragment MethodInvocation SimpleName f
+value SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+object SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName value
+value SimpleName InstanceofExpression SimpleType SimpleName list
+list SimpleName SimpleType CastExpression SimpleName value
+list value SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName list
+list value SimpleName VariableDeclarationFragment CastExpression SimpleName value
+list SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName list value
+list value SimpleName MethodInvocation SimpleName size
+array list SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName list value
+array list SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName size
+to set SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName array list
+to set SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName list value
+to set SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName size
+list SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName to set
+object SimpleName SimpleType SingleVariableDeclaration SimpleName list item
+object SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName to add
+convert value SimpleName MethodInvocation SimpleName list item
+to add SimpleName Assignment MethodInvocation SimpleName convert value
+to add SimpleName Assignment MethodInvocation SimpleName list item
+to set SimpleName MethodInvocation SimpleName add
+to set SimpleName MethodInvocation SimpleName to add
+add SimpleName MethodInvocation SimpleName to add
+object SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName list value
+list item SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName list value
+r SimpleName MethodInvocation SimpleName set
+r SimpleName MethodInvocation SimpleName field name
+r SimpleName MethodInvocation SimpleName to set
+set SimpleName MethodInvocation SimpleName field name
+set SimpleName MethodInvocation SimpleName to set
+field name SimpleName MethodInvocation SimpleName to set
+convert value SimpleName MethodInvocation SimpleName value
+converted SimpleName VariableDeclarationFragment MethodInvocation SimpleName convert value
+converted SimpleName VariableDeclarationFragment MethodInvocation SimpleName value
+object SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName converted
+r SimpleName MethodInvocation SimpleName set
+r SimpleName MethodInvocation SimpleName field name
+r SimpleName MethodInvocation SimpleName converted
+set SimpleName MethodInvocation SimpleName field name
+set SimpleName MethodInvocation SimpleName converted
+field name SimpleName MethodInvocation SimpleName converted
+f SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName clazz
+f SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName get declared fields
+clazz SimpleName InfixExpression TypeLiteral SimpleType SimpleName struct instance
+clazz SimpleName MethodInvocation SimpleName get superclass
+add declared fields SimpleName MethodInvocation MethodInvocation SimpleName clazz
+add declared fields SimpleName MethodInvocation MethodInvocation SimpleName get superclass
+add declared fields SimpleName MethodInvocation SimpleName r
+clazz SimpleName MethodInvocation MethodInvocation SimpleName r
+get superclass SimpleName MethodInvocation MethodInvocation SimpleName r
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName add declared fields
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName class
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName clazz
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName struct
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName r
+protected Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName add declared fields
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName class
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName clazz
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName struct
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName r
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+add declared fields SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName class
+add declared fields SimpleName MethodDeclaration SingleVariableDeclaration SimpleName clazz
+add declared fields SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName struct
+add declared fields SimpleName MethodDeclaration SingleVariableDeclaration SimpleName r
+add declared fields SimpleName MethodDeclaration SimpleType SimpleName exception
+clazz SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName r
+clazz SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+r SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName add declared fields
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName clazz
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName r
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName add declared fields
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName clazz
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName r
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

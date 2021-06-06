@@ -1,0 +1,47 @@
+key SimpleName SimpleType SingleVariableDeclaration SimpleName k
+compare to SimpleName SuperMethodInvocation SimpleName k
+cmp SimpleName VariableDeclarationFragment SuperMethodInvocation SimpleName compare to
+cmp SimpleName VariableDeclarationFragment SuperMethodInvocation SimpleName k
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName cmp
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SuperMethodInvocation SimpleName compare to
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SuperMethodInvocation SimpleName k
+cmp SimpleName InfixExpression NumberLiteral empty
+k SimpleName InstanceofExpression SimpleType SimpleName mem key
+cmp SimpleName InfixExpression InfixExpression InstanceofExpression SimpleName k
+empty NumberLiteral InfixExpression InfixExpression InstanceofExpression SimpleName k
+mem key SimpleName SimpleType CastExpression SimpleName k
+k SimpleName CastExpression ParenthesizedExpression FieldAccess SimpleName mutation count
+mutation count SimpleName FieldAccess InfixExpression SimpleName mutation count
+cmp SimpleName Assignment InfixExpression FieldAccess SimpleName mutation count
+cmp SimpleName Assignment InfixExpression SimpleName mutation count
+int PrimitiveType VariableDeclarationStatement Block ReturnStatement SimpleName cmp
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType int
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName compare to
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName k
+public Modifier MethodDeclaration PrimitiveType int
+public Modifier MethodDeclaration SimpleName compare to
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName key
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName k
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+public Modifier MethodDeclaration Block ReturnStatement SimpleName cmp
+int PrimitiveType MethodDeclaration SimpleName compare to
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName key
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName k
+int PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType MethodDeclaration Block ReturnStatement SimpleName cmp
+compare to SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName key
+compare to SimpleName MethodDeclaration SingleVariableDeclaration SimpleName k
+compare to SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+compare to SimpleName MethodDeclaration Block ReturnStatement SimpleName cmp
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SimpleName compare to
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName k
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SimpleName compare to
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName k

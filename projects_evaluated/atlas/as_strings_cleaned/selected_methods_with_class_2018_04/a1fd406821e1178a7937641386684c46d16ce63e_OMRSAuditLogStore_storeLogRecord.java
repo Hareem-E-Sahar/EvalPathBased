@@ -1,0 +1,17 @@
+omrs audit log record SimpleName SimpleType SingleVariableDeclaration SimpleName log record
+string SimpleName SimpleType MethodDeclaration SimpleName store log record
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName log record
+string SimpleName SimpleType MethodDeclaration SimpleType SimpleName invalid parameter exception
+store log record SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName omrs audit log record
+store log record SimpleName MethodDeclaration SingleVariableDeclaration SimpleName log record
+store log record SimpleName MethodDeclaration SimpleType SimpleName invalid parameter exception
+log record SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName invalid parameter exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName store log record
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName log record
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName invalid parameter exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName store log record
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName log record
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName invalid parameter exception

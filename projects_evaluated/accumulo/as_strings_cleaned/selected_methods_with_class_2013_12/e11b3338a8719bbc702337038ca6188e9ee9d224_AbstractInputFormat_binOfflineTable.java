@@ -1,0 +1,88 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName range
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName key extent
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+job context SimpleName SimpleType SingleVariableDeclaration SimpleName context
+string SimpleName SimpleType SingleVariableDeclaration SimpleName table id
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName range
+list SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName ranges
+range SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName ranges
+get instance SimpleName MethodInvocation SimpleName context
+instance SimpleName VariableDeclarationFragment MethodInvocation SimpleName get instance
+instance SimpleName VariableDeclarationFragment MethodInvocation SimpleName context
+instance SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName instance
+get principal SimpleName MethodInvocation SimpleName context
+get authentication token SimpleName MethodInvocation SimpleName context
+instance SimpleName MethodInvocation SimpleName get connector
+instance SimpleName MethodInvocation MethodInvocation SimpleName get principal
+instance SimpleName MethodInvocation MethodInvocation SimpleName context
+instance SimpleName MethodInvocation MethodInvocation SimpleName get authentication token
+instance SimpleName MethodInvocation MethodInvocation SimpleName context
+get connector SimpleName MethodInvocation MethodInvocation SimpleName get principal
+get connector SimpleName MethodInvocation MethodInvocation SimpleName context
+get connector SimpleName MethodInvocation MethodInvocation SimpleName get authentication token
+get connector SimpleName MethodInvocation MethodInvocation SimpleName context
+get principal SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get authentication token
+get principal SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName context
+context SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get authentication token
+context SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName context
+conn SimpleName VariableDeclarationFragment MethodInvocation SimpleName instance
+conn SimpleName VariableDeclarationFragment MethodInvocation SimpleName get connector
+conn SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get principal
+conn SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName context
+conn SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get authentication token
+conn SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName context
+connector SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName conn
+input configurator SimpleName MethodInvocation SimpleName bin offline
+input configurator SimpleName MethodInvocation SimpleName table id
+input configurator SimpleName MethodInvocation SimpleName ranges
+input configurator SimpleName MethodInvocation SimpleName instance
+input configurator SimpleName MethodInvocation SimpleName conn
+bin offline SimpleName MethodInvocation SimpleName table id
+bin offline SimpleName MethodInvocation SimpleName ranges
+bin offline SimpleName MethodInvocation SimpleName instance
+bin offline SimpleName MethodInvocation SimpleName conn
+table id SimpleName MethodInvocation SimpleName ranges
+table id SimpleName MethodInvocation SimpleName instance
+table id SimpleName MethodInvocation SimpleName conn
+ranges SimpleName MethodInvocation SimpleName instance
+ranges SimpleName MethodInvocation SimpleName conn
+instance SimpleName MethodInvocation SimpleName conn
+map SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName bin offline table
+string SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName bin offline table
+bin offline table SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName job context
+bin offline table SimpleName MethodDeclaration SingleVariableDeclaration SimpleName context
+bin offline table SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+bin offline table SimpleName MethodDeclaration SingleVariableDeclaration SimpleName table id
+bin offline table SimpleName MethodDeclaration SingleVariableDeclaration SimpleName ranges
+bin offline table SimpleName MethodDeclaration SimpleType SimpleName table not found exception
+bin offline table SimpleName MethodDeclaration SimpleType SimpleName accumulo exception
+context SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table id
+context SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ranges
+context SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName table not found exception
+context SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+context SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+table id SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ranges
+table id SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName table not found exception
+table id SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+table id SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+ranges SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName table not found exception
+ranges SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+ranges SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+table not found exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName accumulo exception
+table not found exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName accumulo security exception
+accumulo exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName accumulo security exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration SimpleName bin offline table
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName context
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table id
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ranges
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName table not found exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleName bin offline table
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName context
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table id
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ranges
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName table not found exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception

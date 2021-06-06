@@ -1,0 +1,195 @@
+struct type SimpleName VariableDeclarationFragment StringLiteral struct type
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName struct type
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral struct type
+entity type SimpleName VariableDeclarationFragment StringLiteral entity type
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName entity type
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral entity type
+entity with complex coll type SimpleName VariableDeclarationFragment StringLiteral entity with complex collection attr
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName entity with complex coll type
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral entity with complex collection attr
+expected total count SimpleName VariableDeclarationFragment NumberLiteral empty
+final Modifier VariableDeclarationStatement PrimitiveType int
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName expected total count
+final Modifier VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName expected total count
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+expected entity type count SimpleName VariableDeclarationFragment NumberLiteral empty
+final Modifier VariableDeclarationStatement PrimitiveType int
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName expected entity type count
+final Modifier VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName expected entity type count
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+expected struct type count SimpleName VariableDeclarationFragment NumberLiteral empty
+final Modifier VariableDeclarationStatement PrimitiveType int
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName expected struct type count
+final Modifier VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName expected struct type count
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+expected entity with complex coll type count SimpleName VariableDeclarationFragment NumberLiteral empty
+final Modifier VariableDeclarationStatement PrimitiveType int
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName expected entity with complex coll type count
+final Modifier VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName expected entity with complex coll type count
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+run file importer SimpleName MethodInvocation StringLiteral complexattr db
+assert type count name guid SimpleName MethodInvocation SimpleName struct type
+assert type count name guid SimpleName MethodInvocation SimpleName expected struct type count
+assert type count name guid SimpleName MethodInvocation StringLiteral empty
+assert type count name guid SimpleName MethodInvocation StringLiteral empty
+struct type SimpleName MethodInvocation SimpleName expected struct type count
+struct type SimpleName MethodInvocation StringLiteral empty
+struct type SimpleName MethodInvocation StringLiteral empty
+expected struct type count SimpleName MethodInvocation StringLiteral empty
+expected struct type count SimpleName MethodInvocation StringLiteral empty
+empty StringLiteral MethodInvocation StringLiteral empty
+assert type count name guid SimpleName MethodInvocation SimpleName entity type
+assert type count name guid SimpleName MethodInvocation SimpleName expected entity type count
+assert type count name guid SimpleName MethodInvocation StringLiteral empty
+assert type count name guid SimpleName MethodInvocation StringLiteral empty
+entity type SimpleName MethodInvocation SimpleName expected entity type count
+entity type SimpleName MethodInvocation StringLiteral empty
+entity type SimpleName MethodInvocation StringLiteral empty
+expected entity type count SimpleName MethodInvocation StringLiteral empty
+expected entity type count SimpleName MethodInvocation StringLiteral empty
+empty StringLiteral MethodInvocation StringLiteral empty
+assert type count name guid SimpleName MethodInvocation SimpleName entity with complex coll type
+assert type count name guid SimpleName MethodInvocation SimpleName expected entity with complex coll type count
+assert type count name guid SimpleName MethodInvocation StringLiteral empty
+assert type count name guid SimpleName MethodInvocation StringLiteral empty
+entity with complex coll type SimpleName MethodInvocation SimpleName expected entity with complex coll type count
+entity with complex coll type SimpleName MethodInvocation StringLiteral empty
+entity with complex coll type SimpleName MethodInvocation StringLiteral empty
+expected entity with complex coll type count SimpleName MethodInvocation StringLiteral empty
+expected entity with complex coll type count SimpleName MethodInvocation StringLiteral empty
+empty StringLiteral MethodInvocation StringLiteral empty
+get vertex SimpleName MethodInvocation SimpleName entity with complex coll type
+get vertex SimpleName MethodInvocation StringLiteral empty
+entity with complex coll type SimpleName MethodInvocation StringLiteral empty
+get vertex SimpleName MethodInvocation MethodInvocation SimpleName get edges
+entity with complex coll type SimpleName MethodInvocation MethodInvocation SimpleName get edges
+empty StringLiteral MethodInvocation MethodInvocation SimpleName get edges
+get vertex SimpleName MethodInvocation MethodInvocation QualifiedName atlas edge directionout
+entity with complex coll type SimpleName MethodInvocation MethodInvocation QualifiedName atlas edge directionout
+empty StringLiteral MethodInvocation MethodInvocation QualifiedName atlas edge directionout
+get edges SimpleName MethodInvocation QualifiedName atlas edge directionout
+get vertex SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName iterator
+entity with complex coll type SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName iterator
+empty StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName iterator
+get edges SimpleName MethodInvocation MethodInvocation SimpleName iterator
+atlas edge directionout QualifiedName MethodInvocation MethodInvocation SimpleName iterator
+assert edges with label SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get edges
+assert edges with label SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName atlas edge directionout
+assert edges with label SimpleName MethodInvocation MethodInvocation SimpleName iterator
+assert edges with label SimpleName MethodInvocation NumberLiteral empty
+assert edges with label SimpleName MethodInvocation StringLiteral entity with complex collection attrlist of entities
+get edges SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+atlas edge directionout QualifiedName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+iterator SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+get edges SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral entity with complex collection attrlist of entities
+atlas edge directionout QualifiedName MethodInvocation MethodInvocation MethodInvocation StringLiteral entity with complex collection attrlist of entities
+iterator SimpleName MethodInvocation MethodInvocation StringLiteral entity with complex collection attrlist of entities
+empty NumberLiteral MethodInvocation StringLiteral entity with complex collection attrlist of entities
+get vertex SimpleName MethodInvocation SimpleName entity with complex coll type
+get vertex SimpleName MethodInvocation StringLiteral empty
+entity with complex coll type SimpleName MethodInvocation StringLiteral empty
+get vertex SimpleName MethodInvocation MethodInvocation SimpleName get edges
+entity with complex coll type SimpleName MethodInvocation MethodInvocation SimpleName get edges
+empty StringLiteral MethodInvocation MethodInvocation SimpleName get edges
+get vertex SimpleName MethodInvocation MethodInvocation QualifiedName atlas edge directionout
+entity with complex coll type SimpleName MethodInvocation MethodInvocation QualifiedName atlas edge directionout
+empty StringLiteral MethodInvocation MethodInvocation QualifiedName atlas edge directionout
+get edges SimpleName MethodInvocation QualifiedName atlas edge directionout
+get vertex SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName iterator
+entity with complex coll type SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName iterator
+empty StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName iterator
+get edges SimpleName MethodInvocation MethodInvocation SimpleName iterator
+atlas edge directionout QualifiedName MethodInvocation MethodInvocation SimpleName iterator
+assert edges with label SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get edges
+assert edges with label SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName atlas edge directionout
+assert edges with label SimpleName MethodInvocation MethodInvocation SimpleName iterator
+assert edges with label SimpleName MethodInvocation NumberLiteral empty
+assert edges with label SimpleName MethodInvocation StringLiteral entity with complex collection attrmap of structs
+get edges SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+atlas edge directionout QualifiedName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+iterator SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+get edges SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral entity with complex collection attrmap of structs
+atlas edge directionout QualifiedName MethodInvocation MethodInvocation MethodInvocation StringLiteral entity with complex collection attrmap of structs
+iterator SimpleName MethodInvocation MethodInvocation StringLiteral entity with complex collection attrmap of structs
+empty NumberLiteral MethodInvocation StringLiteral entity with complex collection attrmap of structs
+assert migration status SimpleName MethodInvocation SimpleName expected total count
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName verify
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName io exception
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName verify
+public Modifier MethodDeclaration SimpleType SimpleName io exception
+public Modifier MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+public Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+public Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+public Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+void PrimitiveType MethodDeclaration SimpleName verify
+void PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+void PrimitiveType MethodDeclaration SimpleType SimpleName atlas base exception
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement Modifier final
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement Modifier final
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement Modifier final
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement Modifier final
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+verify SimpleName MethodDeclaration SimpleType SimpleName io exception
+verify SimpleName MethodDeclaration SimpleType SimpleName atlas base exception
+verify SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+verify SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+verify SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+verify SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+verify SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+verify SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+verify SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+verify SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+io exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName verify
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName verify
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception

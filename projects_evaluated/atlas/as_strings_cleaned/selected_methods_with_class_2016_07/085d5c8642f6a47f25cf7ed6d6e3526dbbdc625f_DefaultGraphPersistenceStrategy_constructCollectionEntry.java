@@ -1,0 +1,90 @@
+i data type SimpleName SimpleType ParameterizedType SimpleType SimpleName u
+i data type SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName element type
+u SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName element type
+object SimpleName SimpleType SingleVariableDeclaration SimpleName value
+element type SimpleName MethodInvocation SimpleName get type category
+construct instance SimpleName MethodInvocation SimpleName element type
+construct instance SimpleName MethodInvocation SimpleName value
+element type SimpleName MethodInvocation SimpleName value
+string SimpleName SimpleType CastExpression SimpleName value
+edge id SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName string
+edge id SimpleName VariableDeclarationFragment CastExpression SimpleName value
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName edge id
+metadata repository SimpleName MethodInvocation SimpleName get graph to instance mapper
+metadata repository SimpleName MethodInvocation MethodInvocation SimpleName get referred entity
+get graph to instance mapper SimpleName MethodInvocation MethodInvocation SimpleName get referred entity
+metadata repository SimpleName MethodInvocation MethodInvocation SimpleName edge id
+get graph to instance mapper SimpleName MethodInvocation MethodInvocation SimpleName edge id
+metadata repository SimpleName MethodInvocation MethodInvocation SimpleName element type
+get graph to instance mapper SimpleName MethodInvocation MethodInvocation SimpleName element type
+get referred entity SimpleName MethodInvocation SimpleName edge id
+get referred entity SimpleName MethodInvocation SimpleName element type
+edge id SimpleName MethodInvocation SimpleName element type
+u SimpleName SimpleType CastExpression MethodInvocation SimpleName get referred entity
+u SimpleName SimpleType CastExpression MethodInvocation SimpleName edge id
+u SimpleName SimpleType CastExpression MethodInvocation SimpleName element type
+load for type StringLiteral InfixExpression SimpleName element type
+load for type StringLiteral InfixExpression StringLiteral in collections is not supported
+element type SimpleName InfixExpression StringLiteral in collections is not supported
+unsupported operation exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral load for type
+unsupported operation exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName element type
+unsupported operation exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral in collections is not supported
+element type SimpleName MethodInvocation SwitchStatement SwitchCase SimpleName primitive
+get type category SimpleName MethodInvocation SwitchStatement SwitchCase SimpleName primitive
+element type SimpleName MethodInvocation SwitchStatement SwitchCase SimpleName enum
+get type category SimpleName MethodInvocation SwitchStatement SwitchCase SimpleName enum
+element type SimpleName MethodInvocation SwitchStatement SwitchCase SimpleName struct
+get type category SimpleName MethodInvocation SwitchStatement SwitchCase SimpleName struct
+element type SimpleName MethodInvocation SwitchStatement SwitchCase SimpleName class
+get type category SimpleName MethodInvocation SwitchStatement SwitchCase SimpleName class
+primitive SimpleName SwitchCase SwitchStatement SwitchCase SimpleName enum
+primitive SimpleName SwitchCase SwitchStatement SwitchCase SimpleName struct
+primitive SimpleName SwitchCase SwitchStatement SwitchCase SimpleName class
+enum SimpleName SwitchCase SwitchStatement SwitchCase SimpleName struct
+enum SimpleName SwitchCase SwitchStatement SwitchCase SimpleName class
+struct SimpleName SwitchCase SwitchStatement SwitchCase SimpleName class
+struct SimpleName SwitchCase SwitchStatement SwitchCase SimpleName array
+struct SimpleName SwitchCase SwitchStatement SwitchCase SimpleName map
+class SimpleName SwitchCase SwitchStatement SwitchCase SimpleName array
+class SimpleName SwitchCase SwitchStatement SwitchCase SimpleName map
+class SimpleName SwitchCase SwitchStatement SwitchCase SimpleName trait
+array SimpleName SwitchCase SwitchStatement SwitchCase SimpleName map
+array SimpleName SwitchCase SwitchStatement SwitchCase SimpleName trait
+map SimpleName SwitchCase SwitchStatement SwitchCase SimpleName trait
+public Modifier MethodDeclaration TypeParameter SimpleName u
+public Modifier MethodDeclaration SimpleType SimpleName u
+public Modifier MethodDeclaration SimpleName construct collection entry
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName element type
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName value
+u SimpleName TypeParameter MethodDeclaration SimpleType SimpleName u
+u SimpleName TypeParameter MethodDeclaration SimpleName construct collection entry
+u SimpleName TypeParameter MethodDeclaration SingleVariableDeclaration SimpleName element type
+u SimpleName TypeParameter MethodDeclaration SingleVariableDeclaration SimpleName value
+u SimpleName TypeParameter MethodDeclaration SimpleType SimpleName atlas exception
+u SimpleName SimpleType MethodDeclaration SimpleName construct collection entry
+u SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName element type
+u SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName value
+u SimpleName SimpleType MethodDeclaration SimpleType SimpleName atlas exception
+construct collection entry SimpleName MethodDeclaration SingleVariableDeclaration SimpleName element type
+construct collection entry SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+construct collection entry SimpleName MethodDeclaration SingleVariableDeclaration SimpleName value
+construct collection entry SimpleName MethodDeclaration SimpleType SimpleName atlas exception
+element type SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value
+element type SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+value SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration TypeParameter SimpleName u
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName u
+public Modifier TypeDeclaration MethodDeclaration SimpleName construct collection entry
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName element type
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration TypeParameter SimpleName u
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName u
+test SimpleName TypeDeclaration MethodDeclaration SimpleName construct collection entry
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName element type
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception

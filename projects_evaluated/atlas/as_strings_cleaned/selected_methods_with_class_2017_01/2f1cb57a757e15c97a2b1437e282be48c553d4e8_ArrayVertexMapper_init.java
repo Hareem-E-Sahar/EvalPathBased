@@ -1,0 +1,14 @@
+struct vertex mapper SimpleName SimpleType SingleVariableDeclaration SimpleName struct vertex mapper
+struct vertex mapper SimpleName FieldAccess Assignment SimpleName struct vertex mapper
+void PrimitiveType MethodDeclaration SimpleName init
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName struct vertex mapper
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName struct vertex mapper
+init SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName struct vertex mapper
+init SimpleName MethodDeclaration SingleVariableDeclaration SimpleName struct vertex mapper
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName init
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName struct vertex mapper
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName init
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName struct vertex mapper

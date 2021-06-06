@@ -1,0 +1,112 @@
+hive client SimpleName MethodInvocation SimpleName get all databases
+when SimpleName MethodInvocation MethodInvocation SimpleName hive client
+when SimpleName MethodInvocation MethodInvocation SimpleName get all databases
+arrays SimpleName MethodInvocation SimpleName as list
+arrays SimpleName MethodInvocation ArrayCreation ArrayInitializer SimpleName test db name
+as list SimpleName MethodInvocation ArrayCreation ArrayInitializer SimpleName test db name
+when SimpleName MethodInvocation MethodInvocation SimpleName then return
+hive client SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+get all databases SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+when SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName arrays
+when SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName as list
+then return SimpleName MethodInvocation MethodInvocation SimpleName arrays
+then return SimpleName MethodInvocation MethodInvocation SimpleName as list
+description SimpleName VariableDeclarationFragment StringLiteral this is a default database
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName description
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral this is a default database
+hive client SimpleName MethodInvocation SimpleName get database
+hive client SimpleName MethodInvocation SimpleName test db name
+get database SimpleName MethodInvocation SimpleName test db name
+when SimpleName MethodInvocation MethodInvocation SimpleName hive client
+when SimpleName MethodInvocation MethodInvocation SimpleName get database
+when SimpleName MethodInvocation MethodInvocation SimpleName test db name
+database SimpleName SimpleType ClassInstanceCreation SimpleName test db name
+database SimpleName SimpleType ClassInstanceCreation SimpleName description
+database SimpleName SimpleType ClassInstanceCreation StringLiteral userhivedefault
+test db name SimpleName ClassInstanceCreation SimpleName description
+test db name SimpleName ClassInstanceCreation StringLiteral userhivedefault
+description SimpleName ClassInstanceCreation StringLiteral userhivedefault
+when SimpleName MethodInvocation MethodInvocation SimpleName then return
+hive client SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+get database SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+test db name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+when SimpleName MethodInvocation MethodInvocation ClassInstanceCreation SimpleName test db name
+when SimpleName MethodInvocation MethodInvocation ClassInstanceCreation SimpleName description
+when SimpleName MethodInvocation MethodInvocation ClassInstanceCreation StringLiteral userhivedefault
+then return SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName database
+then return SimpleName MethodInvocation ClassInstanceCreation SimpleName test db name
+then return SimpleName MethodInvocation ClassInstanceCreation SimpleName description
+then return SimpleName MethodInvocation ClassInstanceCreation StringLiteral userhivedefault
+hive client SimpleName MethodInvocation SimpleName get all tables
+hive client SimpleName MethodInvocation SimpleName test db name
+get all tables SimpleName MethodInvocation SimpleName test db name
+when SimpleName MethodInvocation MethodInvocation SimpleName hive client
+when SimpleName MethodInvocation MethodInvocation SimpleName get all tables
+when SimpleName MethodInvocation MethodInvocation SimpleName test db name
+arrays SimpleName MethodInvocation SimpleName as list
+when SimpleName MethodInvocation MethodInvocation SimpleName then return
+hive client SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+get all tables SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+test db name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+when SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName arrays
+when SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName as list
+then return SimpleName MethodInvocation MethodInvocation SimpleName arrays
+then return SimpleName MethodInvocation MethodInvocation SimpleName as list
+return existing database SimpleName MethodInvocation SimpleName test db name
+return existing database SimpleName MethodInvocation SimpleName atlas client
+return existing database SimpleName MethodInvocation SimpleName cluster name
+test db name SimpleName MethodInvocation SimpleName atlas client
+test db name SimpleName MethodInvocation SimpleName cluster name
+atlas client SimpleName MethodInvocation SimpleName cluster name
+hive meta store bridge SimpleName SimpleType ClassInstanceCreation SimpleName cluster name
+hive meta store bridge SimpleName SimpleType ClassInstanceCreation SimpleName hive client
+hive meta store bridge SimpleName SimpleType ClassInstanceCreation SimpleName atlas client
+cluster name SimpleName ClassInstanceCreation SimpleName hive client
+cluster name SimpleName ClassInstanceCreation SimpleName atlas client
+hive client SimpleName ClassInstanceCreation SimpleName atlas client
+bridge SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName hive meta store bridge
+bridge SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName cluster name
+bridge SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName hive client
+bridge SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName atlas client
+hive meta store bridge SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName bridge
+bridge SimpleName MethodInvocation SimpleName import hive metadata
+verify SimpleName MethodInvocation SimpleName atlas client
+eq SimpleName MethodInvocation StringLiteral e b - - aa db a e
+matches referenceable property SimpleName SimpleType ClassInstanceCreation QualifiedName hive meta store bridgedescription attr
+matches referenceable property SimpleName SimpleType ClassInstanceCreation SimpleName description
+hive meta store bridgedescription attr QualifiedName ClassInstanceCreation SimpleName description
+arg that SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName matches referenceable property
+arg that SimpleName MethodInvocation ClassInstanceCreation QualifiedName hive meta store bridgedescription attr
+arg that SimpleName MethodInvocation ClassInstanceCreation SimpleName description
+referenceable SimpleName SimpleType CastExpression MethodInvocation SimpleName arg that
+verify SimpleName MethodInvocation MethodInvocation SimpleName update entity
+atlas client SimpleName MethodInvocation MethodInvocation SimpleName update entity
+verify SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName eq
+verify SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral e b - - aa db a e
+atlas client SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName eq
+atlas client SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral e b - - aa db a e
+update entity SimpleName MethodInvocation MethodInvocation SimpleName eq
+update entity SimpleName MethodInvocation MethodInvocation StringLiteral e b - - aa db a e
+update entity SimpleName MethodInvocation CastExpression SimpleType SimpleName referenceable
+update entity SimpleName MethodInvocation CastExpression MethodInvocation SimpleName arg that
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test import that updates registered database
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test import that updates registered database
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName test import that updates registered database
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+test import that updates registered database SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test import that updates registered database
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test import that updates registered database
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

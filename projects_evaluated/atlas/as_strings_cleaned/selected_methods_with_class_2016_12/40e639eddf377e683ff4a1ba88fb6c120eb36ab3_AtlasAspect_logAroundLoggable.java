@@ -1,0 +1,172 @@
+around SimpleName SingleMemberAnnotation StringLiteral annotationorgapacheatlasaspectloggable && execution *(..))
+proceeding join point SimpleName SimpleType SingleVariableDeclaration SimpleName join point
+join point SimpleName MethodInvocation SimpleName get signature
+method sign SimpleName VariableDeclarationFragment MethodInvocation SimpleName join point
+method sign SimpleName VariableDeclarationFragment MethodInvocation SimpleName get signature
+signature SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName method sign
+method sign SimpleName MethodInvocation SimpleName get declaring type
+method sign SimpleName MethodInvocation MethodInvocation SimpleName get simple name
+get declaring type SimpleName MethodInvocation MethodInvocation SimpleName get simple name
+method sign SimpleName MethodInvocation SimpleName get name
+method sign SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral .
+get declaring type SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral .
+get simple name SimpleName MethodInvocation InfixExpression StringLiteral .
+get simple name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName method sign
+get simple name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get name
+. StringLiteral InfixExpression MethodInvocation SimpleName method sign
+. StringLiteral InfixExpression MethodInvocation SimpleName get name
+method name SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName get simple name
+method name SimpleName VariableDeclarationFragment InfixExpression StringLiteral .
+method name SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName method sign
+method name SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName get name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName method name
+log SimpleName MethodInvocation SimpleName is debug enabled
+join point SimpleName MethodInvocation SimpleName get args
+arrays SimpleName MethodInvocation SimpleName to string
+arrays SimpleName MethodInvocation MethodInvocation SimpleName join point
+arrays SimpleName MethodInvocation MethodInvocation SimpleName get args
+to string SimpleName MethodInvocation MethodInvocation SimpleName join point
+to string SimpleName MethodInvocation MethodInvocation SimpleName get args
+string SimpleName MethodInvocation SimpleName format
+string SimpleName MethodInvocation StringLiteral ==> ss
+string SimpleName MethodInvocation SimpleName method name
+string SimpleName MethodInvocation MethodInvocation SimpleName arrays
+string SimpleName MethodInvocation MethodInvocation SimpleName to string
+string SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName join point
+string SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get args
+format SimpleName MethodInvocation StringLiteral ==> ss
+format SimpleName MethodInvocation SimpleName method name
+format SimpleName MethodInvocation MethodInvocation SimpleName arrays
+format SimpleName MethodInvocation MethodInvocation SimpleName to string
+format SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName join point
+format SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get args
+==> ss StringLiteral MethodInvocation SimpleName method name
+==> ss StringLiteral MethodInvocation MethodInvocation SimpleName arrays
+==> ss StringLiteral MethodInvocation MethodInvocation SimpleName to string
+==> ss StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName join point
+==> ss StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName get args
+method name SimpleName MethodInvocation MethodInvocation SimpleName arrays
+method name SimpleName MethodInvocation MethodInvocation SimpleName to string
+method name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName join point
+method name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get args
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation MethodInvocation SimpleName string
+log SimpleName MethodInvocation MethodInvocation SimpleName format
+log SimpleName MethodInvocation MethodInvocation StringLiteral ==> ss
+log SimpleName MethodInvocation MethodInvocation SimpleName method name
+log SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName arrays
+log SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to string
+debug SimpleName MethodInvocation MethodInvocation SimpleName string
+debug SimpleName MethodInvocation MethodInvocation SimpleName format
+debug SimpleName MethodInvocation MethodInvocation StringLiteral ==> ss
+debug SimpleName MethodInvocation MethodInvocation SimpleName method name
+debug SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName arrays
+debug SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to string
+join point SimpleName MethodInvocation SimpleName proceed
+response SimpleName VariableDeclarationFragment MethodInvocation SimpleName join point
+response SimpleName VariableDeclarationFragment MethodInvocation SimpleName proceed
+object SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName response
+log SimpleName MethodInvocation SimpleName is debug enabled
+join point SimpleName MethodInvocation SimpleName get args
+arrays SimpleName MethodInvocation SimpleName to string
+arrays SimpleName MethodInvocation MethodInvocation SimpleName join point
+arrays SimpleName MethodInvocation MethodInvocation SimpleName get args
+to string SimpleName MethodInvocation MethodInvocation SimpleName join point
+to string SimpleName MethodInvocation MethodInvocation SimpleName get args
+response SimpleName InstanceofExpression SimpleType SimpleName list
+list SimpleName SimpleType CastExpression SimpleName response
+response SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName size
+response SimpleName InstanceofExpression ConditionalExpression MethodInvocation SimpleName size
+response SimpleName InstanceofExpression ConditionalExpression SimpleName response
+list SimpleName SimpleType InstanceofExpression ConditionalExpression SimpleName response
+size SimpleName MethodInvocation ConditionalExpression SimpleName response
+string SimpleName MethodInvocation SimpleName format
+string SimpleName MethodInvocation StringLiteral <== ss s
+string SimpleName MethodInvocation SimpleName method name
+string SimpleName MethodInvocation MethodInvocation SimpleName arrays
+string SimpleName MethodInvocation MethodInvocation SimpleName to string
+string SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName join point
+string SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get args
+string SimpleName MethodInvocation ConditionalExpression InstanceofExpression SimpleName response
+string SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName size
+string SimpleName MethodInvocation ConditionalExpression SimpleName response
+format SimpleName MethodInvocation StringLiteral <== ss s
+format SimpleName MethodInvocation SimpleName method name
+format SimpleName MethodInvocation MethodInvocation SimpleName arrays
+format SimpleName MethodInvocation MethodInvocation SimpleName to string
+format SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName join point
+format SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get args
+format SimpleName MethodInvocation ConditionalExpression InstanceofExpression SimpleName response
+format SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName size
+format SimpleName MethodInvocation ConditionalExpression SimpleName response
+<== ss s StringLiteral MethodInvocation SimpleName method name
+<== ss s StringLiteral MethodInvocation MethodInvocation SimpleName arrays
+<== ss s StringLiteral MethodInvocation MethodInvocation SimpleName to string
+<== ss s StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName join point
+<== ss s StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName get args
+<== ss s StringLiteral MethodInvocation ConditionalExpression InstanceofExpression SimpleName response
+<== ss s StringLiteral MethodInvocation ConditionalExpression MethodInvocation SimpleName size
+<== ss s StringLiteral MethodInvocation ConditionalExpression SimpleName response
+method name SimpleName MethodInvocation MethodInvocation SimpleName arrays
+method name SimpleName MethodInvocation MethodInvocation SimpleName to string
+method name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName join point
+method name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get args
+method name SimpleName MethodInvocation ConditionalExpression InstanceofExpression SimpleName response
+method name SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName size
+method name SimpleName MethodInvocation ConditionalExpression SimpleName response
+arrays SimpleName MethodInvocation MethodInvocation ConditionalExpression SimpleName response
+to string SimpleName MethodInvocation MethodInvocation ConditionalExpression SimpleName response
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation MethodInvocation SimpleName string
+log SimpleName MethodInvocation MethodInvocation SimpleName format
+log SimpleName MethodInvocation MethodInvocation StringLiteral <== ss s
+log SimpleName MethodInvocation MethodInvocation SimpleName method name
+log SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName arrays
+log SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to string
+log SimpleName MethodInvocation MethodInvocation ConditionalExpression SimpleName response
+debug SimpleName MethodInvocation MethodInvocation SimpleName string
+debug SimpleName MethodInvocation MethodInvocation SimpleName format
+debug SimpleName MethodInvocation MethodInvocation StringLiteral <== ss s
+debug SimpleName MethodInvocation MethodInvocation SimpleName method name
+debug SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName arrays
+debug SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to string
+debug SimpleName MethodInvocation MethodInvocation ConditionalExpression SimpleName response
+around SimpleName SingleMemberAnnotation MethodDeclaration Modifier public
+annotationorgapacheatlasaspectloggable && execution *(..)) StringLiteral SingleMemberAnnotation MethodDeclaration Modifier public
+around SimpleName SingleMemberAnnotation MethodDeclaration SimpleType SimpleName object
+annotationorgapacheatlasaspectloggable && execution *(..)) StringLiteral SingleMemberAnnotation MethodDeclaration SimpleType SimpleName object
+around SimpleName SingleMemberAnnotation MethodDeclaration SimpleName log around loggable
+annotationorgapacheatlasaspectloggable && execution *(..)) StringLiteral SingleMemberAnnotation MethodDeclaration SimpleName log around loggable
+around SimpleName SingleMemberAnnotation MethodDeclaration SingleVariableDeclaration SimpleName join point
+annotationorgapacheatlasaspectloggable && execution *(..)) StringLiteral SingleMemberAnnotation MethodDeclaration SingleVariableDeclaration SimpleName join point
+around SimpleName SingleMemberAnnotation MethodDeclaration SimpleType SimpleName throwable
+annotationorgapacheatlasaspectloggable && execution *(..)) StringLiteral SingleMemberAnnotation MethodDeclaration SimpleType SimpleName throwable
+public Modifier MethodDeclaration SimpleType SimpleName object
+public Modifier MethodDeclaration SimpleName log around loggable
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName proceeding join point
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName join point
+public Modifier MethodDeclaration SimpleType SimpleName throwable
+public Modifier MethodDeclaration Block ReturnStatement SimpleName response
+object SimpleName SimpleType MethodDeclaration SimpleName log around loggable
+object SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName join point
+object SimpleName SimpleType MethodDeclaration SimpleType SimpleName throwable
+log around loggable SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName proceeding join point
+log around loggable SimpleName MethodDeclaration SingleVariableDeclaration SimpleName join point
+log around loggable SimpleName MethodDeclaration SimpleType SimpleName throwable
+log around loggable SimpleName MethodDeclaration Block ReturnStatement SimpleName response
+join point SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName throwable
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration SingleMemberAnnotation SimpleName around
+public Modifier TypeDeclaration MethodDeclaration SingleMemberAnnotation StringLiteral annotationorgapacheatlasaspectloggable && execution *(..))
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName object
+public Modifier TypeDeclaration MethodDeclaration SimpleName log around loggable
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName join point
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName throwable
+test SimpleName TypeDeclaration MethodDeclaration SingleMemberAnnotation SimpleName around
+test SimpleName TypeDeclaration MethodDeclaration SingleMemberAnnotation StringLiteral annotationorgapacheatlasaspectloggable && execution *(..))
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName object
+test SimpleName TypeDeclaration MethodDeclaration SimpleName log around loggable
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName join point
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName throwable

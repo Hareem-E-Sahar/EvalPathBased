@@ -1,0 +1,22 @@
+int PrimitiveType SingleVariableDeclaration SimpleName factor
+factor SimpleName FieldAccess Assignment SimpleName factor
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set factor
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName factor
+void PrimitiveType MethodDeclaration SimpleName set factor
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName factor
+set factor SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+set factor SimpleName MethodDeclaration SingleVariableDeclaration SimpleName factor
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set factor
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName factor
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set factor
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName factor

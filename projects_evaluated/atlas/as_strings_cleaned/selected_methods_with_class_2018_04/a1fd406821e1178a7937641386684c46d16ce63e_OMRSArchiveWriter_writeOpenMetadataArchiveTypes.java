@@ -1,0 +1,29 @@
+configuration factory SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName omrs configuration factory
+omrs configuration factory SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName configuration factory
+configuration factory SimpleName MethodInvocation SimpleName get open metadata types connection
+connection SimpleName VariableDeclarationFragment MethodInvocation SimpleName configuration factory
+connection SimpleName VariableDeclarationFragment MethodInvocation SimpleName get open metadata types connection
+connection SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName connection
+get open metadata archive SimpleName MethodInvocation SimpleName connection
+open metadata archive store SimpleName VariableDeclarationFragment MethodInvocation SimpleName get open metadata archive
+open metadata archive store SimpleName VariableDeclarationFragment MethodInvocation SimpleName connection
+open metadata archive store SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName open metadata archive store
+open metadata types archive SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName open metadata types archive
+open metadata types archive SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName open metadata types archive
+open metadata types archive SimpleName MethodInvocation SimpleName get open metadata archive
+open metadata archive SimpleName VariableDeclarationFragment MethodInvocation SimpleName open metadata types archive
+open metadata archive SimpleName VariableDeclarationFragment MethodInvocation SimpleName get open metadata archive
+open metadata archive SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName open metadata archive
+open metadata archive store SimpleName MethodInvocation SimpleName set archive contents
+open metadata archive store SimpleName MethodInvocation SimpleName open metadata archive
+set archive contents SimpleName MethodInvocation SimpleName open metadata archive
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName write open metadata archive types
+void PrimitiveType MethodDeclaration SimpleName write open metadata archive types
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName write open metadata archive types
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName write open metadata archive types

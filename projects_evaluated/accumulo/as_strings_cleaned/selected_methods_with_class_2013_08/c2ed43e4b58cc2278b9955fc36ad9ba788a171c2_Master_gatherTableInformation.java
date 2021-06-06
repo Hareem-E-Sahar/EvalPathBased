@@ -1,0 +1,197 @@
+sorted map SimpleName SimpleType ParameterizedType SimpleType SimpleName t server instance
+sorted map SimpleName SimpleType ParameterizedType SimpleType SimpleName tablet server status
+t server instance SimpleName SimpleType ParameterizedType SimpleType SimpleName tablet server status
+system SimpleName MethodInvocation SimpleName current time millis
+start SimpleName VariableDeclarationFragment MethodInvocation SimpleName system
+start SimpleName VariableDeclarationFragment MethodInvocation SimpleName current time millis
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName start
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName system
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName current time millis
+sorted map SimpleName SimpleType ParameterizedType SimpleType SimpleName t server instance
+sorted map SimpleName SimpleType ParameterizedType SimpleType SimpleName tablet server status
+t server instance SimpleName SimpleType ParameterizedType SimpleType SimpleName tablet server status
+tree map SimpleName SimpleType ParameterizedType SimpleType SimpleName t server instance
+tree map SimpleName SimpleType ParameterizedType SimpleType SimpleName tablet server status
+t server instance SimpleName SimpleType ParameterizedType SimpleType SimpleName tablet server status
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName t server instance
+tserver set SimpleName MethodInvocation SimpleName get current servers
+current servers SimpleName VariableDeclarationFragment MethodInvocation SimpleName tserver set
+current servers SimpleName VariableDeclarationFragment MethodInvocation SimpleName get current servers
+t server instance SimpleName SimpleType SingleVariableDeclaration SimpleName server
+thread SimpleName MethodInvocation SimpleName current thread
+t SimpleName VariableDeclarationFragment MethodInvocation SimpleName thread
+t SimpleName VariableDeclarationFragment MethodInvocation SimpleName current thread
+thread SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName t
+t SimpleName MethodInvocation SimpleName get name
+old name SimpleName VariableDeclarationFragment MethodInvocation SimpleName t
+old name SimpleName VariableDeclarationFragment MethodInvocation SimpleName get name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName old name
+getting status from StringLiteral InfixExpression SimpleName server
+t SimpleName MethodInvocation SimpleName set name
+t SimpleName MethodInvocation InfixExpression StringLiteral getting status from
+t SimpleName MethodInvocation InfixExpression SimpleName server
+set name SimpleName MethodInvocation InfixExpression StringLiteral getting status from
+set name SimpleName MethodInvocation InfixExpression SimpleName server
+tserver set SimpleName MethodInvocation SimpleName get connection
+tserver set SimpleName MethodInvocation SimpleName server
+get connection SimpleName MethodInvocation SimpleName server
+connection SimpleName VariableDeclarationFragment MethodInvocation SimpleName tserver set
+connection SimpleName VariableDeclarationFragment MethodInvocation SimpleName get connection
+connection SimpleName VariableDeclarationFragment MethodInvocation SimpleName server
+t server connection SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName connection
+no connection to StringLiteral InfixExpression SimpleName server
+io exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral no connection to
+io exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName server
+connection SimpleName MethodInvocation SimpleName get table map
+connection SimpleName MethodInvocation BooleanLiteral false
+get table map SimpleName MethodInvocation BooleanLiteral false
+status SimpleName VariableDeclarationFragment MethodInvocation SimpleName connection
+status SimpleName VariableDeclarationFragment MethodInvocation SimpleName get table map
+status SimpleName VariableDeclarationFragment MethodInvocation BooleanLiteral false
+tablet server status SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName status
+result SimpleName MethodInvocation SimpleName put
+result SimpleName MethodInvocation SimpleName server
+result SimpleName MethodInvocation SimpleName status
+put SimpleName MethodInvocation SimpleName server
+put SimpleName MethodInvocation SimpleName status
+server SimpleName MethodInvocation SimpleName status
+t SimpleName MethodInvocation SimpleName set name
+t SimpleName MethodInvocation SimpleName old name
+set name SimpleName MethodInvocation SimpleName old name
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName ex
+ex SimpleName MethodInvocation SimpleName to string
+unable to get tablet server status StringLiteral InfixExpression SimpleName server
+unable to get tablet server status StringLiteral InfixExpression StringLiteral empty
+unable to get tablet server status StringLiteral InfixExpression MethodInvocation SimpleName ex
+unable to get tablet server status StringLiteral InfixExpression MethodInvocation SimpleName to string
+server SimpleName InfixExpression StringLiteral empty
+server SimpleName InfixExpression MethodInvocation SimpleName ex
+server SimpleName InfixExpression MethodInvocation SimpleName to string
+empty StringLiteral InfixExpression MethodInvocation SimpleName ex
+empty StringLiteral InfixExpression MethodInvocation SimpleName to string
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation InfixExpression StringLiteral unable to get tablet server status
+log SimpleName MethodInvocation InfixExpression SimpleName server
+log SimpleName MethodInvocation InfixExpression StringLiteral empty
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName ex
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName to string
+error SimpleName MethodInvocation InfixExpression StringLiteral unable to get tablet server status
+error SimpleName MethodInvocation InfixExpression SimpleName server
+error SimpleName MethodInvocation InfixExpression StringLiteral empty
+error SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName ex
+error SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName to string
+unable to get tablet server status StringLiteral InfixExpression SimpleName server
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation InfixExpression StringLiteral unable to get tablet server status
+log SimpleName MethodInvocation InfixExpression SimpleName server
+log SimpleName MethodInvocation SimpleName ex
+debug SimpleName MethodInvocation InfixExpression StringLiteral unable to get tablet server status
+debug SimpleName MethodInvocation InfixExpression SimpleName server
+debug SimpleName MethodInvocation SimpleName ex
+unable to get tablet server status StringLiteral InfixExpression MethodInvocation SimpleName ex
+server SimpleName InfixExpression MethodInvocation SimpleName ex
+bad servers SimpleName MethodInvocation SimpleName get
+bad servers SimpleName MethodInvocation SimpleName server
+get SimpleName MethodInvocation SimpleName server
+bad servers SimpleName MethodInvocation MethodInvocation SimpleName increment and get
+get SimpleName MethodInvocation MethodInvocation SimpleName increment and get
+server SimpleName MethodInvocation MethodInvocation SimpleName increment and get
+bad servers SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName max bad status count
+get SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName max bad status count
+server SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName max bad status count
+increment and get SimpleName MethodInvocation InfixExpression SimpleName max bad status count
+attempting to stop StringLiteral InfixExpression SimpleName server
+log SimpleName MethodInvocation SimpleName warn
+log SimpleName MethodInvocation InfixExpression StringLiteral attempting to stop
+log SimpleName MethodInvocation InfixExpression SimpleName server
+warn SimpleName MethodInvocation InfixExpression StringLiteral attempting to stop
+warn SimpleName MethodInvocation InfixExpression SimpleName server
+tserver set SimpleName MethodInvocation SimpleName get connection
+tserver set SimpleName MethodInvocation SimpleName server
+get connection SimpleName MethodInvocation SimpleName server
+connection SimpleName VariableDeclarationFragment MethodInvocation SimpleName tserver set
+connection SimpleName VariableDeclarationFragment MethodInvocation SimpleName get connection
+connection SimpleName VariableDeclarationFragment MethodInvocation SimpleName server
+t server connection SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName connection
+connection SimpleName MethodInvocation SimpleName halt
+connection SimpleName MethodInvocation SimpleName master lock
+halt SimpleName MethodInvocation SimpleName master lock
+t transport exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation StringLiteral error talking to troublesome tablet server
+log SimpleName MethodInvocation SimpleName e
+info SimpleName MethodInvocation StringLiteral error talking to troublesome tablet server
+info SimpleName MethodInvocation SimpleName e
+error talking to troublesome tablet server StringLiteral MethodInvocation SimpleName e
+bad servers SimpleName MethodInvocation SimpleName remove
+bad servers SimpleName MethodInvocation SimpleName server
+remove SimpleName MethodInvocation SimpleName server
+tserver set SimpleName MethodInvocation SimpleName remove
+tserver set SimpleName MethodInvocation SimpleName server
+remove SimpleName MethodInvocation SimpleName server
+t server instance SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName current servers
+server SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName current servers
+bad servers SimpleName MethodInvocation SimpleName key set
+bad servers SimpleName MethodInvocation MethodInvocation SimpleName retain all
+key set SimpleName MethodInvocation MethodInvocation SimpleName retain all
+bad servers SimpleName MethodInvocation MethodInvocation SimpleName current servers
+key set SimpleName MethodInvocation MethodInvocation SimpleName current servers
+retain all SimpleName MethodInvocation SimpleName current servers
+result SimpleName MethodInvocation SimpleName size
+system SimpleName MethodInvocation SimpleName current time millis
+system SimpleName MethodInvocation InfixExpression SimpleName start
+current time millis SimpleName MethodInvocation InfixExpression SimpleName start
+start SimpleName InfixExpression ParenthesizedExpression InfixExpression NumberLiteral .
+string SimpleName MethodInvocation SimpleName format
+string SimpleName MethodInvocation StringLiteral finished gathering information from d servers in %. f seconds
+string SimpleName MethodInvocation MethodInvocation SimpleName result
+string SimpleName MethodInvocation MethodInvocation SimpleName size
+string SimpleName MethodInvocation InfixExpression NumberLiteral .
+format SimpleName MethodInvocation StringLiteral finished gathering information from d servers in %. f seconds
+format SimpleName MethodInvocation MethodInvocation SimpleName result
+format SimpleName MethodInvocation MethodInvocation SimpleName size
+format SimpleName MethodInvocation InfixExpression NumberLiteral .
+finished gathering information from d servers in %. f seconds StringLiteral MethodInvocation MethodInvocation SimpleName result
+finished gathering information from d servers in %. f seconds StringLiteral MethodInvocation MethodInvocation SimpleName size
+finished gathering information from d servers in %. f seconds StringLiteral MethodInvocation InfixExpression NumberLiteral .
+result SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral .
+size SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral .
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation MethodInvocation SimpleName string
+log SimpleName MethodInvocation MethodInvocation SimpleName format
+log SimpleName MethodInvocation MethodInvocation StringLiteral finished gathering information from d servers in %. f seconds
+log SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName result
+log SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName size
+log SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral .
+debug SimpleName MethodInvocation MethodInvocation SimpleName string
+debug SimpleName MethodInvocation MethodInvocation SimpleName format
+debug SimpleName MethodInvocation MethodInvocation StringLiteral finished gathering information from d servers in %. f seconds
+debug SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName result
+debug SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName size
+debug SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral .
+long PrimitiveType VariableDeclarationStatement Block EnhancedForStatement SimpleName current servers
+long PrimitiveType VariableDeclarationStatement Block SynchronizedStatement SimpleName bad servers
+current servers SimpleName EnhancedForStatement Block SynchronizedStatement SimpleName bad servers
+current servers SimpleName EnhancedForStatement Block ReturnStatement SimpleName result
+bad servers SimpleName SynchronizedStatement Block ReturnStatement SimpleName result
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName sorted map
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName t server instance
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName tablet server status
+private Modifier MethodDeclaration SimpleName gather table information
+private Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+private Modifier MethodDeclaration Block EnhancedForStatement SimpleName current servers
+private Modifier MethodDeclaration Block SynchronizedStatement SimpleName bad servers
+private Modifier MethodDeclaration Block ReturnStatement SimpleName result
+sorted map SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName gather table information
+t server instance SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName gather table information
+tablet server status SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName gather table information
+gather table information SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+gather table information SimpleName MethodDeclaration Block EnhancedForStatement SimpleName current servers
+gather table information SimpleName MethodDeclaration Block SynchronizedStatement SimpleName bad servers
+gather table information SimpleName MethodDeclaration Block ReturnStatement SimpleName result
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleName gather table information
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleName gather table information

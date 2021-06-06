@@ -1,0 +1,97 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName params
+log SimpleName MethodInvocation SimpleName is debug enabled
+arrays SimpleName MethodInvocation SimpleName to string
+arrays SimpleName MethodInvocation SimpleName params
+to string SimpleName MethodInvocation SimpleName params
+string SimpleName MethodInvocation SimpleName format
+string SimpleName MethodInvocation StringLiteral <== omrs audit codeget messages
+string SimpleName MethodInvocation MethodInvocation SimpleName arrays
+string SimpleName MethodInvocation MethodInvocation SimpleName to string
+string SimpleName MethodInvocation MethodInvocation SimpleName params
+format SimpleName MethodInvocation StringLiteral <== omrs audit codeget messages
+format SimpleName MethodInvocation MethodInvocation SimpleName arrays
+format SimpleName MethodInvocation MethodInvocation SimpleName to string
+format SimpleName MethodInvocation MethodInvocation SimpleName params
+<== omrs audit codeget messages StringLiteral MethodInvocation MethodInvocation SimpleName arrays
+<== omrs audit codeget messages StringLiteral MethodInvocation MethodInvocation SimpleName to string
+<== omrs audit codeget messages StringLiteral MethodInvocation MethodInvocation SimpleName params
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation MethodInvocation SimpleName string
+log SimpleName MethodInvocation MethodInvocation SimpleName format
+log SimpleName MethodInvocation MethodInvocation StringLiteral <== omrs audit codeget messages
+log SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName arrays
+log SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to string
+log SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName params
+debug SimpleName MethodInvocation MethodInvocation SimpleName string
+debug SimpleName MethodInvocation MethodInvocation SimpleName format
+debug SimpleName MethodInvocation MethodInvocation StringLiteral <== omrs audit codeget messages
+debug SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName arrays
+debug SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to string
+debug SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName params
+message format SimpleName SimpleType ClassInstanceCreation SimpleName log message
+mf SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName message format
+mf SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName log message
+message format SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName mf
+mf SimpleName MethodInvocation SimpleName format
+mf SimpleName MethodInvocation SimpleName params
+format SimpleName MethodInvocation SimpleName params
+result SimpleName VariableDeclarationFragment MethodInvocation SimpleName mf
+result SimpleName VariableDeclarationFragment MethodInvocation SimpleName format
+result SimpleName VariableDeclarationFragment MethodInvocation SimpleName params
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName result
+log SimpleName MethodInvocation SimpleName is debug enabled
+arrays SimpleName MethodInvocation SimpleName to string
+arrays SimpleName MethodInvocation SimpleName params
+to string SimpleName MethodInvocation SimpleName params
+string SimpleName MethodInvocation SimpleName format
+string SimpleName MethodInvocation StringLiteral ==> omrs audit codeget messages s
+string SimpleName MethodInvocation MethodInvocation SimpleName arrays
+string SimpleName MethodInvocation MethodInvocation SimpleName to string
+string SimpleName MethodInvocation MethodInvocation SimpleName params
+string SimpleName MethodInvocation SimpleName result
+format SimpleName MethodInvocation StringLiteral ==> omrs audit codeget messages s
+format SimpleName MethodInvocation MethodInvocation SimpleName arrays
+format SimpleName MethodInvocation MethodInvocation SimpleName to string
+format SimpleName MethodInvocation MethodInvocation SimpleName params
+format SimpleName MethodInvocation SimpleName result
+==> omrs audit codeget messages s StringLiteral MethodInvocation MethodInvocation SimpleName arrays
+==> omrs audit codeget messages s StringLiteral MethodInvocation MethodInvocation SimpleName to string
+==> omrs audit codeget messages s StringLiteral MethodInvocation MethodInvocation SimpleName params
+==> omrs audit codeget messages s StringLiteral MethodInvocation SimpleName result
+arrays SimpleName MethodInvocation MethodInvocation SimpleName result
+to string SimpleName MethodInvocation MethodInvocation SimpleName result
+params SimpleName MethodInvocation MethodInvocation SimpleName result
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation MethodInvocation SimpleName string
+log SimpleName MethodInvocation MethodInvocation SimpleName format
+log SimpleName MethodInvocation MethodInvocation StringLiteral ==> omrs audit codeget messages s
+log SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName arrays
+log SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to string
+log SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName params
+log SimpleName MethodInvocation MethodInvocation SimpleName result
+debug SimpleName MethodInvocation MethodInvocation SimpleName string
+debug SimpleName MethodInvocation MethodInvocation SimpleName format
+debug SimpleName MethodInvocation MethodInvocation StringLiteral ==> omrs audit codeget messages s
+debug SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName arrays
+debug SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to string
+debug SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName params
+debug SimpleName MethodInvocation MethodInvocation SimpleName result
+public Modifier MethodDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName get formatted log message
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName params
+public Modifier MethodDeclaration Block ReturnStatement SimpleName result
+string SimpleName SimpleType MethodDeclaration SimpleName get formatted log message
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName params
+get formatted log message SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get formatted log message SimpleName MethodDeclaration SingleVariableDeclaration SimpleName params
+get formatted log message SimpleName MethodDeclaration Block ReturnStatement SimpleName result
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName get formatted log message
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName params
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get formatted log message
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName params

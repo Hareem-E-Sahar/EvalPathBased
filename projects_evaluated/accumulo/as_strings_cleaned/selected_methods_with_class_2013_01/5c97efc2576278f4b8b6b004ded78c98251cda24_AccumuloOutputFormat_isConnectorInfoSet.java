@@ -1,0 +1,35 @@
+job context SimpleName SimpleType SingleVariableDeclaration SimpleName context
+context SimpleName MethodInvocation SimpleName get configuration
+output configurator SimpleName MethodInvocation SimpleName is connector info set
+output configurator SimpleName MethodInvocation SimpleName class
+output configurator SimpleName MethodInvocation MethodInvocation SimpleName context
+output configurator SimpleName MethodInvocation MethodInvocation SimpleName get configuration
+is connector info set SimpleName MethodInvocation SimpleName class
+is connector info set SimpleName MethodInvocation MethodInvocation SimpleName context
+is connector info set SimpleName MethodInvocation MethodInvocation SimpleName get configuration
+class SimpleName MethodInvocation MethodInvocation SimpleName context
+class SimpleName MethodInvocation MethodInvocation SimpleName get configuration
+protected Modifier MethodDeclaration Modifier static
+protected Modifier MethodDeclaration SimpleType SimpleName boolean
+protected Modifier MethodDeclaration SimpleName is connector info set
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName job context
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName context
+static Modifier MethodDeclaration SimpleType SimpleName boolean
+static Modifier MethodDeclaration SimpleName is connector info set
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName job context
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName context
+boolean SimpleName SimpleType MethodDeclaration SimpleName is connector info set
+boolean SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName context
+is connector info set SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName job context
+is connector info set SimpleName MethodDeclaration SingleVariableDeclaration SimpleName context
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName is connector info set
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName context
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName is connector info set
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName context

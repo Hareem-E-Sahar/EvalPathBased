@@ -1,0 +1,68 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName scheme
+string SimpleName SimpleType SingleVariableDeclaration SimpleName id
+scheme SimpleName MethodInvocation SimpleName equals ignore case
+scheme SimpleName MethodInvocation SimpleName sasl scheme
+equals ignore case SimpleName MethodInvocation SimpleName sasl scheme
+scheme SimpleName MethodInvocation SimpleName equals ignore case
+scheme SimpleName MethodInvocation SimpleName ip scheme
+equals ignore case SimpleName MethodInvocation SimpleName ip scheme
+scheme SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName scheme
+scheme SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals ignore case
+scheme SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName ip scheme
+equals ignore case SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName scheme
+equals ignore case SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals ignore case
+equals ignore case SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName ip scheme
+sasl scheme SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName scheme
+sasl scheme SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals ignore case
+sasl scheme SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName ip scheme
+scheme SimpleName MethodInvocation SimpleName equals ignore case
+scheme SimpleName MethodInvocation SimpleName world scheme
+equals ignore case SimpleName MethodInvocation SimpleName world scheme
+scheme SimpleName MethodInvocation SimpleName equals ignore case
+scheme SimpleName MethodInvocation SimpleName auth scheme
+equals ignore case SimpleName MethodInvocation SimpleName auth scheme
+scheme SimpleName MethodInvocation SimpleName equals ignore case
+scheme SimpleName MethodInvocation SimpleName digest scheme
+equals ignore case SimpleName MethodInvocation SimpleName digest scheme
+scheme SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName scheme
+scheme SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals ignore case
+scheme SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName digest scheme
+equals ignore case SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName scheme
+equals ignore case SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals ignore case
+equals ignore case SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName digest scheme
+auth scheme SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName scheme
+auth scheme SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals ignore case
+auth scheme SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName digest scheme
+id SimpleName MethodInvocation SimpleName split
+id SimpleName MethodInvocation StringLiteral :
+split SimpleName MethodInvocation StringLiteral :
+id SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+split SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+: StringLiteral MethodInvocation ArrayAccess NumberLiteral empty
+private Modifier MethodDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SimpleName get id for logging
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName scheme
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName id
+private Modifier MethodDeclaration Block ReturnStatement StringLiteral unknown
+string SimpleName SimpleType MethodDeclaration SimpleName get id for logging
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName scheme
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName id
+get id for logging SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get id for logging SimpleName MethodDeclaration SingleVariableDeclaration SimpleName scheme
+get id for logging SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get id for logging SimpleName MethodDeclaration SingleVariableDeclaration SimpleName id
+get id for logging SimpleName MethodDeclaration Block ReturnStatement StringLiteral unknown
+scheme SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName id
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName get id for logging
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName scheme
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName id
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get id for logging
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName scheme
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName id

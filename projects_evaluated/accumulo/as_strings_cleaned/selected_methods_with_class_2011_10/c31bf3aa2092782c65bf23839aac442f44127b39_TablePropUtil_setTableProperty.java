@@ -1,0 +1,117 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName table id
+string SimpleName SimpleType SingleVariableDeclaration SimpleName property
+string SimpleName SimpleType SingleVariableDeclaration SimpleName value
+is property valid SimpleName MethodInvocation SimpleName property
+is property valid SimpleName MethodInvocation SimpleName value
+property SimpleName MethodInvocation SimpleName value
+get table path SimpleName MethodInvocation SimpleName table id
+zk table path SimpleName VariableDeclarationFragment MethodInvocation SimpleName get table path
+zk table path SimpleName VariableDeclarationFragment MethodInvocation SimpleName table id
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName zk table path
+zoo reader writer SimpleName MethodInvocation SimpleName get instance
+byte PrimitiveType ArrayType ArrayCreation NumberLiteral empty
+zoo reader writer SimpleName MethodInvocation MethodInvocation SimpleName put persistent data
+get instance SimpleName MethodInvocation MethodInvocation SimpleName put persistent data
+zoo reader writer SimpleName MethodInvocation MethodInvocation SimpleName zk table path
+get instance SimpleName MethodInvocation MethodInvocation SimpleName zk table path
+zoo reader writer SimpleName MethodInvocation MethodInvocation ArrayCreation NumberLiteral empty
+get instance SimpleName MethodInvocation MethodInvocation ArrayCreation NumberLiteral empty
+zoo reader writer SimpleName MethodInvocation MethodInvocation QualifiedName node exists policyskip
+get instance SimpleName MethodInvocation MethodInvocation QualifiedName node exists policyskip
+put persistent data SimpleName MethodInvocation SimpleName zk table path
+put persistent data SimpleName MethodInvocation ArrayCreation ArrayType PrimitiveType byte
+put persistent data SimpleName MethodInvocation ArrayCreation NumberLiteral empty
+put persistent data SimpleName MethodInvocation QualifiedName node exists policyskip
+zk table path SimpleName MethodInvocation ArrayCreation ArrayType PrimitiveType byte
+zk table path SimpleName MethodInvocation ArrayCreation NumberLiteral empty
+zk table path SimpleName MethodInvocation QualifiedName node exists policyskip
+byte PrimitiveType ArrayType ArrayCreation MethodInvocation QualifiedName node exists policyskip
+empty NumberLiteral ArrayCreation MethodInvocation QualifiedName node exists policyskip
+zk table path SimpleName InfixExpression StringLiteral /
+zk table path SimpleName InfixExpression SimpleName property
+/ StringLiteral InfixExpression SimpleName property
+z path SimpleName VariableDeclarationFragment InfixExpression SimpleName zk table path
+z path SimpleName VariableDeclarationFragment InfixExpression StringLiteral /
+z path SimpleName VariableDeclarationFragment InfixExpression SimpleName property
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName z path
+zoo reader writer SimpleName MethodInvocation SimpleName get instance
+value SimpleName MethodInvocation SimpleName get bytes
+zoo reader writer SimpleName MethodInvocation MethodInvocation SimpleName put persistent data
+get instance SimpleName MethodInvocation MethodInvocation SimpleName put persistent data
+zoo reader writer SimpleName MethodInvocation MethodInvocation SimpleName z path
+get instance SimpleName MethodInvocation MethodInvocation SimpleName z path
+zoo reader writer SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName value
+zoo reader writer SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get bytes
+get instance SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName value
+get instance SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get bytes
+zoo reader writer SimpleName MethodInvocation MethodInvocation QualifiedName node exists policyoverwrite
+get instance SimpleName MethodInvocation MethodInvocation QualifiedName node exists policyoverwrite
+put persistent data SimpleName MethodInvocation SimpleName z path
+put persistent data SimpleName MethodInvocation MethodInvocation SimpleName value
+put persistent data SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+put persistent data SimpleName MethodInvocation QualifiedName node exists policyoverwrite
+z path SimpleName MethodInvocation MethodInvocation SimpleName value
+z path SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+z path SimpleName MethodInvocation QualifiedName node exists policyoverwrite
+value SimpleName MethodInvocation MethodInvocation QualifiedName node exists policyoverwrite
+get bytes SimpleName MethodInvocation MethodInvocation QualifiedName node exists policyoverwrite
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName set table property
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName table id
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName property
+static Modifier MethodDeclaration PrimitiveType boolean
+static Modifier MethodDeclaration SimpleName set table property
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName table id
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName property
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName value
+boolean PrimitiveType MethodDeclaration SimpleName set table property
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName table id
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName property
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName value
+boolean PrimitiveType MethodDeclaration SimpleType SimpleName keeper exception
+set table property SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+set table property SimpleName MethodDeclaration SingleVariableDeclaration SimpleName table id
+set table property SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+set table property SimpleName MethodDeclaration SingleVariableDeclaration SimpleName property
+set table property SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+set table property SimpleName MethodDeclaration SingleVariableDeclaration SimpleName value
+set table property SimpleName MethodDeclaration SimpleType SimpleName keeper exception
+set table property SimpleName MethodDeclaration SimpleType SimpleName interrupted exception
+table id SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName property
+table id SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value
+table id SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName keeper exception
+table id SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName interrupted exception
+property SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value
+property SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName keeper exception
+property SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName interrupted exception
+value SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName keeper exception
+value SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName interrupted exception
+keeper exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName interrupted exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName set table property
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table id
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName property
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName keeper exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName interrupted exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set table property
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table id
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName property
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName keeper exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName interrupted exception

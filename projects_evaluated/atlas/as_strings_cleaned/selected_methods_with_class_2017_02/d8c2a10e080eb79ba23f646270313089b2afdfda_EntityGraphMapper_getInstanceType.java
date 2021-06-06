@@ -1,0 +1,33 @@
+object SimpleName SimpleType SingleVariableDeclaration SimpleName val
+get id SimpleName MethodInvocation SimpleName val
+guid SimpleName VariableDeclarationFragment MethodInvocation SimpleName get id
+guid SimpleName VariableDeclarationFragment MethodInvocation SimpleName val
+atlas object id SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName guid
+get context SimpleName MethodInvocation MethodInvocation SimpleName get type
+get context SimpleName MethodInvocation MethodInvocation SimpleName guid
+get type SimpleName MethodInvocation SimpleName guid
+atlas entity type SimpleName SimpleType CastExpression MethodInvocation SimpleName get type
+atlas entity type SimpleName SimpleType CastExpression MethodInvocation SimpleName guid
+public Modifier MethodDeclaration SimpleType SimpleName atlas entity type
+public Modifier MethodDeclaration SimpleName get instance type
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName val
+public Modifier MethodDeclaration SimpleType SimpleName atlas base exception
+atlas entity type SimpleName SimpleType MethodDeclaration SimpleName get instance type
+atlas entity type SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName val
+atlas entity type SimpleName SimpleType MethodDeclaration SimpleType SimpleName atlas base exception
+get instance type SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+get instance type SimpleName MethodDeclaration SingleVariableDeclaration SimpleName val
+get instance type SimpleName MethodDeclaration SimpleType SimpleName atlas base exception
+val SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas entity type
+public Modifier TypeDeclaration MethodDeclaration SimpleName get instance type
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName val
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas entity type
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get instance type
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName val
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception

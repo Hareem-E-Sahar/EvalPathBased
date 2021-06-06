@@ -1,0 +1,48 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName op
+op SimpleName MethodInvocation SimpleName equals
+op SimpleName MethodInvocation StringLiteral =
+equals SimpleName MethodInvocation StringLiteral =
+op SimpleName MethodInvocation SimpleName equals
+op SimpleName MethodInvocation StringLiteral !=
+equals SimpleName MethodInvocation StringLiteral !=
+op SimpleName MethodInvocation SimpleName equals
+op SimpleName MethodInvocation StringLiteral >
+equals SimpleName MethodInvocation StringLiteral >
+op SimpleName MethodInvocation SimpleName equals
+op SimpleName MethodInvocation StringLiteral >=
+equals SimpleName MethodInvocation StringLiteral >=
+op SimpleName MethodInvocation SimpleName equals
+op SimpleName MethodInvocation StringLiteral <
+equals SimpleName MethodInvocation StringLiteral <
+op SimpleName MethodInvocation SimpleName equals
+op SimpleName MethodInvocation StringLiteral <=
+equals SimpleName MethodInvocation StringLiteral <=
+comparison operator StringLiteral InfixExpression SimpleName op
+comparison operator StringLiteral InfixExpression StringLiteral not supported in gremlin
+op SimpleName InfixExpression StringLiteral not supported in gremlin
+atlas exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral comparison operator
+atlas exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName op
+atlas exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral not supported in gremlin
+private Modifier MethodDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SimpleName get comparison function
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName op
+private Modifier MethodDeclaration SimpleType SimpleName atlas exception
+string SimpleName SimpleType MethodDeclaration SimpleName get comparison function
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName op
+string SimpleName SimpleType MethodDeclaration SimpleType SimpleName atlas exception
+get comparison function SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get comparison function SimpleName MethodDeclaration SingleVariableDeclaration SimpleName op
+get comparison function SimpleName MethodDeclaration SimpleType SimpleName atlas exception
+op SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName get comparison function
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName op
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get comparison function
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName op
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception

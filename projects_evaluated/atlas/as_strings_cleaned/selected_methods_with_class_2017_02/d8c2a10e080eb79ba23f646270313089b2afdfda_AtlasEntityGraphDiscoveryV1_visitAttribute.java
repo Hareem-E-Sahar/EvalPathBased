@@ -1,0 +1,125 @@
+atlas struct type SimpleName SimpleType SingleVariableDeclaration SimpleName parent type
+atlas type SimpleName SimpleType SingleVariableDeclaration SimpleName attr type
+atlas attribute def SimpleName SimpleType SingleVariableDeclaration SimpleName attr def
+object SimpleName SimpleType SingleVariableDeclaration SimpleName val
+attr type SimpleName MethodInvocation SimpleName get type category
+is primitive SimpleName MethodInvocation MethodInvocation SimpleName attr type
+is primitive SimpleName MethodInvocation MethodInvocation SimpleName get type category
+attr type SimpleName MethodInvocation SimpleName get type category
+attr type SimpleName MethodInvocation InfixExpression QualifiedName type categoryarray
+get type category SimpleName MethodInvocation InfixExpression QualifiedName type categoryarray
+atlas array type SimpleName SimpleType CastExpression SimpleName attr type
+array type SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName atlas array type
+array type SimpleName VariableDeclarationFragment CastExpression SimpleName attr type
+atlas array type SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName array type
+array type SimpleName MethodInvocation SimpleName get element type
+elem type SimpleName VariableDeclarationFragment MethodInvocation SimpleName array type
+elem type SimpleName VariableDeclarationFragment MethodInvocation SimpleName get element type
+atlas type SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName elem type
+visit collection references SimpleName MethodInvocation SimpleName parent type
+visit collection references SimpleName MethodInvocation SimpleName attr type
+visit collection references SimpleName MethodInvocation SimpleName attr def
+visit collection references SimpleName MethodInvocation SimpleName elem type
+visit collection references SimpleName MethodInvocation SimpleName val
+parent type SimpleName MethodInvocation SimpleName attr type
+parent type SimpleName MethodInvocation SimpleName attr def
+parent type SimpleName MethodInvocation SimpleName elem type
+parent type SimpleName MethodInvocation SimpleName val
+attr type SimpleName MethodInvocation SimpleName attr def
+attr type SimpleName MethodInvocation SimpleName elem type
+attr type SimpleName MethodInvocation SimpleName val
+attr def SimpleName MethodInvocation SimpleName elem type
+attr def SimpleName MethodInvocation SimpleName val
+elem type SimpleName MethodInvocation SimpleName val
+attr type SimpleName MethodInvocation SimpleName get type category
+attr type SimpleName MethodInvocation InfixExpression QualifiedName type categorymap
+get type category SimpleName MethodInvocation InfixExpression QualifiedName type categorymap
+atlas map type SimpleName SimpleType CastExpression SimpleName attr type
+attr type SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName get key type
+key type SimpleName VariableDeclarationFragment MethodInvocation SimpleName get key type
+atlas type SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName key type
+atlas map type SimpleName SimpleType CastExpression SimpleName attr type
+attr type SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName get value type
+value type SimpleName VariableDeclarationFragment MethodInvocation SimpleName get value type
+atlas type SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName value type
+visit map references SimpleName MethodInvocation SimpleName parent type
+visit map references SimpleName MethodInvocation SimpleName attr type
+visit map references SimpleName MethodInvocation SimpleName attr def
+visit map references SimpleName MethodInvocation SimpleName key type
+visit map references SimpleName MethodInvocation SimpleName value type
+parent type SimpleName MethodInvocation SimpleName attr type
+parent type SimpleName MethodInvocation SimpleName attr def
+parent type SimpleName MethodInvocation SimpleName key type
+parent type SimpleName MethodInvocation SimpleName value type
+parent type SimpleName MethodInvocation SimpleName val
+attr type SimpleName MethodInvocation SimpleName attr def
+attr type SimpleName MethodInvocation SimpleName key type
+attr type SimpleName MethodInvocation SimpleName value type
+attr type SimpleName MethodInvocation SimpleName val
+attr def SimpleName MethodInvocation SimpleName key type
+attr def SimpleName MethodInvocation SimpleName value type
+attr def SimpleName MethodInvocation SimpleName val
+key type SimpleName MethodInvocation SimpleName value type
+key type SimpleName MethodInvocation SimpleName val
+value type SimpleName MethodInvocation SimpleName val
+attr type SimpleName MethodInvocation SimpleName get type category
+attr type SimpleName MethodInvocation InfixExpression QualifiedName type categorystruct
+get type category SimpleName MethodInvocation InfixExpression QualifiedName type categorystruct
+atlas struct type SimpleName SimpleType CastExpression SimpleName attr type
+visit struct SimpleName MethodInvocation CastExpression SimpleType SimpleName atlas struct type
+visit struct SimpleName MethodInvocation CastExpression SimpleName attr type
+visit struct SimpleName MethodInvocation SimpleName val
+atlas struct type SimpleName SimpleType CastExpression MethodInvocation SimpleName val
+attr type SimpleName CastExpression MethodInvocation SimpleName val
+attr type SimpleName MethodInvocation SimpleName get type category
+attr type SimpleName MethodInvocation InfixExpression QualifiedName type categoryentity
+get type category SimpleName MethodInvocation InfixExpression QualifiedName type categoryentity
+atlas entity type SimpleName SimpleType CastExpression SimpleName attr type
+visit reference SimpleName MethodInvocation CastExpression SimpleType SimpleName atlas entity type
+visit reference SimpleName MethodInvocation CastExpression SimpleName attr type
+visit reference SimpleName MethodInvocation SimpleName val
+atlas entity type SimpleName SimpleType CastExpression MethodInvocation SimpleName val
+attr type SimpleName CastExpression MethodInvocation SimpleName val
+void PrimitiveType MethodDeclaration SimpleName visit attribute
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas struct type
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName parent type
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas type
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName attr type
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas attribute def
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName attr def
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName val
+visit attribute SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas struct type
+visit attribute SimpleName MethodDeclaration SingleVariableDeclaration SimpleName parent type
+visit attribute SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas type
+visit attribute SimpleName MethodDeclaration SingleVariableDeclaration SimpleName attr type
+visit attribute SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas attribute def
+visit attribute SimpleName MethodDeclaration SingleVariableDeclaration SimpleName attr def
+visit attribute SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+visit attribute SimpleName MethodDeclaration SingleVariableDeclaration SimpleName val
+visit attribute SimpleName MethodDeclaration SimpleType SimpleName atlas base exception
+parent type SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attr type
+parent type SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attr def
+parent type SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName val
+parent type SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+attr type SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attr def
+attr type SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName val
+attr type SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+attr def SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName val
+attr def SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+val SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName visit attribute
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName parent type
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attr type
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attr def
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName val
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName visit attribute
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName parent type
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attr type
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attr def
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName val
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception

@@ -1,0 +1,76 @@
+filter SimpleName MethodInvocation StringLiteral /*
+filter SimpleName MethodInvocation MethodInvocation SimpleName through
+/* StringLiteral MethodInvocation MethodInvocation SimpleName through
+through SimpleName MethodInvocation TypeLiteral SimpleType SimpleName audit filter
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+enumeration SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+get servlet context SimpleName MethodInvocation MethodInvocation SimpleName get init parameter names
+init param names SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get servlet context
+init param names SimpleName VariableDeclarationFragment MethodInvocation SimpleName get init parameter names
+init param names SimpleName MethodInvocation SimpleName has more elements
+init param names SimpleName MethodInvocation SimpleName next element
+init param name SimpleName VariableDeclarationFragment MethodInvocation SimpleName init param names
+init param name SimpleName VariableDeclarationFragment MethodInvocation SimpleName next element
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName init param name
+get servlet context SimpleName MethodInvocation MethodInvocation SimpleName get init parameter
+get servlet context SimpleName MethodInvocation MethodInvocation SimpleName init param name
+get init parameter SimpleName MethodInvocation SimpleName init param name
+init param value SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get servlet context
+init param value SimpleName VariableDeclarationFragment MethodInvocation SimpleName get init parameter
+init param value SimpleName VariableDeclarationFragment MethodInvocation SimpleName init param name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName init param value
+guice ctx param SimpleName MethodInvocation SimpleName equals
+guice ctx param SimpleName MethodInvocation SimpleName init param name
+equals SimpleName MethodInvocation SimpleName init param name
+jersey loading from packages StringLiteral InfixExpression SimpleName init param value
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation InfixExpression StringLiteral jersey loading from packages
+log SimpleName MethodInvocation InfixExpression SimpleName init param value
+info SimpleName MethodInvocation InfixExpression StringLiteral jersey loading from packages
+info SimpleName MethodInvocation InfixExpression SimpleName init param value
+init params SimpleName MethodInvocation SimpleName put
+init params SimpleName MethodInvocation QualifiedName packages resource configproperty packages
+init params SimpleName MethodInvocation SimpleName init param value
+put SimpleName MethodInvocation QualifiedName packages resource configproperty packages
+put SimpleName MethodInvocation SimpleName init param value
+packages resource configproperty packages QualifiedName MethodInvocation SimpleName init param value
+init params SimpleName MethodInvocation SimpleName put
+init params SimpleName MethodInvocation SimpleName init param name
+init params SimpleName MethodInvocation SimpleName init param value
+put SimpleName MethodInvocation SimpleName init param name
+put SimpleName MethodInvocation SimpleName init param value
+init param name SimpleName MethodInvocation SimpleName init param value
+/ StringLiteral InfixExpression QualifiedName atlas clientbase uri
+/ StringLiteral InfixExpression StringLiteral *
+atlas clientbase uri QualifiedName InfixExpression StringLiteral *
+serve SimpleName MethodInvocation InfixExpression StringLiteral /
+serve SimpleName MethodInvocation InfixExpression QualifiedName atlas clientbase uri
+serve SimpleName MethodInvocation InfixExpression StringLiteral *
+serve SimpleName MethodInvocation MethodInvocation SimpleName with
+/ StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName with
+atlas clientbase uri QualifiedName InfixExpression MethodInvocation MethodInvocation SimpleName with
+* StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName with
+serve SimpleName MethodInvocation MethodInvocation SimpleName init params
+/ StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName init params
+atlas clientbase uri QualifiedName InfixExpression MethodInvocation MethodInvocation SimpleName init params
+* StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName init params
+with SimpleName MethodInvocation TypeLiteral SimpleType SimpleName guice container
+with SimpleName MethodInvocation SimpleName init params
+guice container SimpleName SimpleType TypeLiteral MethodInvocation SimpleName init params
+override SimpleName MarkerAnnotation MethodDeclaration Modifier protected
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName configure servlets
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName configure servlets
+void PrimitiveType MethodDeclaration SimpleName configure servlets
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName configure servlets
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName configure servlets

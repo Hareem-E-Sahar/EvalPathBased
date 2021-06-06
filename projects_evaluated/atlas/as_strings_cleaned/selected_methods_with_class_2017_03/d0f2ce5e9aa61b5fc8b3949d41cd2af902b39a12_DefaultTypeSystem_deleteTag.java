@@ -1,0 +1,87 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName guid
+string SimpleName SimpleType SingleVariableDeclaration SimpleName trait name
+metadata service SimpleName MethodInvocation SimpleName delete trait
+metadata service SimpleName MethodInvocation SimpleName guid
+metadata service SimpleName MethodInvocation SimpleName trait name
+delete trait SimpleName MethodInvocation SimpleName guid
+delete trait SimpleName MethodInvocation SimpleName trait name
+guid SimpleName MethodInvocation SimpleName trait name
+trait not found exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+string SimpleName MethodInvocation SimpleName format
+string SimpleName MethodInvocation StringLiteral the trait s doesnt exist for entity s
+string SimpleName MethodInvocation SimpleName trait name
+string SimpleName MethodInvocation SimpleName guid
+format SimpleName MethodInvocation StringLiteral the trait s doesnt exist for entity s
+format SimpleName MethodInvocation SimpleName trait name
+format SimpleName MethodInvocation SimpleName guid
+the trait s doesnt exist for entity s StringLiteral MethodInvocation SimpleName trait name
+the trait s doesnt exist for entity s StringLiteral MethodInvocation SimpleName guid
+trait name SimpleName MethodInvocation SimpleName guid
+resource not found exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName string
+resource not found exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName format
+resource not found exception SimpleName SimpleType ClassInstanceCreation MethodInvocation StringLiteral the trait s doesnt exist for entity s
+resource not found exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName trait name
+resource not found exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName guid
+atlas exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+string SimpleName MethodInvocation SimpleName format
+string SimpleName MethodInvocation StringLiteral unable to delete tag s from entity s
+string SimpleName MethodInvocation SimpleName trait name
+string SimpleName MethodInvocation SimpleName guid
+format SimpleName MethodInvocation StringLiteral unable to delete tag s from entity s
+format SimpleName MethodInvocation SimpleName trait name
+format SimpleName MethodInvocation SimpleName guid
+unable to delete tag s from entity s StringLiteral MethodInvocation SimpleName trait name
+unable to delete tag s from entity s StringLiteral MethodInvocation SimpleName guid
+trait name SimpleName MethodInvocation SimpleName guid
+catalog runtime exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName string
+catalog runtime exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName format
+catalog runtime exception SimpleName SimpleType ClassInstanceCreation MethodInvocation StringLiteral unable to delete tag s from entity s
+catalog runtime exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName trait name
+catalog runtime exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName guid
+catalog runtime exception SimpleName SimpleType ClassInstanceCreation SimpleName e
+string SimpleName MethodInvocation ClassInstanceCreation SimpleName e
+format SimpleName MethodInvocation ClassInstanceCreation SimpleName e
+unable to delete tag s from entity s StringLiteral MethodInvocation ClassInstanceCreation SimpleName e
+trait name SimpleName MethodInvocation ClassInstanceCreation SimpleName e
+guid SimpleName MethodInvocation ClassInstanceCreation SimpleName e
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName delete tag
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName guid
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName trait name
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName delete tag
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName guid
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName trait name
+public Modifier MethodDeclaration SimpleType SimpleName resource not found exception
+void PrimitiveType MethodDeclaration SimpleName delete tag
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName guid
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName trait name
+void PrimitiveType MethodDeclaration SimpleType SimpleName resource not found exception
+delete tag SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+delete tag SimpleName MethodDeclaration SingleVariableDeclaration SimpleName guid
+delete tag SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+delete tag SimpleName MethodDeclaration SingleVariableDeclaration SimpleName trait name
+delete tag SimpleName MethodDeclaration SimpleType SimpleName resource not found exception
+guid SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName trait name
+guid SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName resource not found exception
+trait name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName resource not found exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName delete tag
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName guid
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName trait name
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName resource not found exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName delete tag
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName guid
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName trait name
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName resource not found exception

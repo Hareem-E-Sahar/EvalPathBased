@@ -1,0 +1,31 @@
+dsl query SimpleName VariableDeclarationFragment StringLiteral from blah
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName dsl query
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral from blah
+atlas client v SimpleName MethodInvocation SimpleName dsl search
+atlas client v SimpleName MethodInvocation SimpleName dsl query
+dsl search SimpleName MethodInvocation SimpleName dsl query
+search result SimpleName VariableDeclarationFragment MethodInvocation SimpleName atlas client v
+search result SimpleName VariableDeclarationFragment MethodInvocation SimpleName dsl search
+search result SimpleName VariableDeclarationFragment MethodInvocation SimpleName dsl query
+atlas search result SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName search result
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test search by dsl for unknown type
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test search by dsl for unknown type
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName test search by dsl for unknown type
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+test search by dsl for unknown type SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test search by dsl for unknown type
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test search by dsl for unknown type
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

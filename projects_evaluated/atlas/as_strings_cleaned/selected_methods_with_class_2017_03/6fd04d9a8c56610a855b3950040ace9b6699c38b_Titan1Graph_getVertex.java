@@ -1,0 +1,44 @@
+atlas vertex SimpleName SimpleType ParameterizedType SimpleType SimpleName titan vertex
+atlas vertex SimpleName SimpleType ParameterizedType SimpleType SimpleName titan edge
+titan vertex SimpleName SimpleType ParameterizedType SimpleType SimpleName titan edge
+string SimpleName SimpleType SingleVariableDeclaration SimpleName vertex id
+iterator SimpleName SimpleType ParameterizedType SimpleType SimpleName vertex
+get graph SimpleName MethodInvocation MethodInvocation SimpleName vertices
+get graph SimpleName MethodInvocation MethodInvocation SimpleName vertex id
+vertices SimpleName MethodInvocation SimpleName vertex id
+it SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get graph
+it SimpleName VariableDeclarationFragment MethodInvocation SimpleName vertices
+it SimpleName VariableDeclarationFragment MethodInvocation SimpleName vertex id
+get single element SimpleName MethodInvocation SimpleName it
+get single element SimpleName MethodInvocation SimpleName vertex id
+it SimpleName MethodInvocation SimpleName vertex id
+vertex SimpleName VariableDeclarationFragment MethodInvocation SimpleName get single element
+vertex SimpleName VariableDeclarationFragment MethodInvocation SimpleName it
+vertex SimpleName VariableDeclarationFragment MethodInvocation SimpleName vertex id
+vertex SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName vertex
+graph db object factory SimpleName MethodInvocation SimpleName create vertex
+graph db object factory SimpleName MethodInvocation SimpleName vertex
+create vertex SimpleName MethodInvocation SimpleName vertex
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName get vertex
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName vertex id
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName atlas vertex
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName titan vertex
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName titan edge
+public Modifier MethodDeclaration SimpleName get vertex
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName vertex id
+atlas vertex SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get vertex
+titan vertex SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get vertex
+titan edge SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get vertex
+get vertex SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get vertex SimpleName MethodDeclaration SingleVariableDeclaration SimpleName vertex id
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName get vertex
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName vertex id
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get vertex
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName vertex id

@@ -1,0 +1,43 @@
+collection SimpleName SimpleType ParameterizedType SimpleType SimpleName i data type
+type system SimpleName SimpleType SingleVariableDeclaration SimpleName type system
+type system SimpleName MethodInvocation SimpleName is registered
+type system SimpleName MethodInvocation SimpleName table type
+is registered SimpleName MethodInvocation SimpleName table type
+types def SimpleName VariableDeclarationFragment MethodInvocation SimpleName define hive types
+types def SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName types def
+type system SimpleName MethodInvocation SimpleName define types
+type system SimpleName MethodInvocation SimpleName types def
+define types SimpleName MethodInvocation SimpleName types def
+type system SimpleName MethodInvocation MethodInvocation SimpleName values
+define types SimpleName MethodInvocation MethodInvocation SimpleName values
+types def SimpleName MethodInvocation MethodInvocation SimpleName values
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName collection
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName i data type
+public Modifier MethodDeclaration SimpleName create hive types
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName type system
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName type system
+public Modifier MethodDeclaration SimpleType SimpleName exception
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName collection
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName i data type
+static Modifier MethodDeclaration SimpleName create hive types
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName type system
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName type system
+static Modifier MethodDeclaration SimpleType SimpleName exception
+collection SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName create hive types
+i data type SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName create hive types
+create hive types SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName type system
+create hive types SimpleName MethodDeclaration SingleVariableDeclaration SimpleName type system
+create hive types SimpleName MethodDeclaration SimpleType SimpleName exception
+type system SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleName create hive types
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type system
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create hive types
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type system
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

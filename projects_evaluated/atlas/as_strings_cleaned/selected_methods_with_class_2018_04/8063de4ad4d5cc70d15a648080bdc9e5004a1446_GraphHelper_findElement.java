@@ -1,0 +1,142 @@
+boolean PrimitiveType SingleVariableDeclaration SimpleName is vertex search
+object SimpleName SimpleType SingleVariableDeclaration SimpleName args
+graph SimpleName MethodInvocation SimpleName query
+query SimpleName VariableDeclarationFragment MethodInvocation SimpleName graph
+query SimpleName VariableDeclarationFragment MethodInvocation SimpleName query
+atlas graph query SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName query
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+i SimpleName InfixExpression QualifiedName argslength
+i SimpleName Assignment NumberLiteral empty
+args SimpleName ArrayAccess SimpleName i
+string SimpleName SimpleType CastExpression ArrayAccess SimpleName args
+string SimpleName SimpleType CastExpression ArrayAccess SimpleName i
+i SimpleName InfixExpression NumberLiteral empty
+args SimpleName ArrayAccess InfixExpression SimpleName i
+args SimpleName ArrayAccess InfixExpression NumberLiteral empty
+query SimpleName MethodInvocation SimpleName has
+query SimpleName MethodInvocation CastExpression SimpleType SimpleName string
+query SimpleName MethodInvocation CastExpression ArrayAccess SimpleName args
+query SimpleName MethodInvocation CastExpression ArrayAccess SimpleName i
+query SimpleName MethodInvocation ArrayAccess SimpleName args
+query SimpleName MethodInvocation ArrayAccess InfixExpression SimpleName i
+query SimpleName MethodInvocation ArrayAccess InfixExpression NumberLiteral empty
+has SimpleName MethodInvocation CastExpression SimpleType SimpleName string
+has SimpleName MethodInvocation CastExpression ArrayAccess SimpleName args
+has SimpleName MethodInvocation CastExpression ArrayAccess SimpleName i
+has SimpleName MethodInvocation ArrayAccess SimpleName args
+has SimpleName MethodInvocation ArrayAccess InfixExpression SimpleName i
+has SimpleName MethodInvocation ArrayAccess InfixExpression NumberLiteral empty
+query SimpleName Assignment MethodInvocation SimpleName query
+query SimpleName Assignment MethodInvocation SimpleName has
+query SimpleName Assignment MethodInvocation ArrayAccess SimpleName args
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression QualifiedName argslength
+int PrimitiveType VariableDeclarationExpression ForStatement Assignment SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement Assignment NumberLiteral empty
+i SimpleName InfixExpression ForStatement Assignment SimpleName i
+i SimpleName InfixExpression ForStatement Assignment NumberLiteral empty
+argslength QualifiedName InfixExpression ForStatement Assignment SimpleName i
+argslength QualifiedName InfixExpression ForStatement Assignment NumberLiteral empty
+iterator SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas element
+query SimpleName MethodInvocation SimpleName vertices
+query SimpleName MethodInvocation MethodInvocation SimpleName iterator
+vertices SimpleName MethodInvocation MethodInvocation SimpleName iterator
+query SimpleName MethodInvocation SimpleName edges
+query SimpleName MethodInvocation MethodInvocation SimpleName iterator
+edges SimpleName MethodInvocation MethodInvocation SimpleName iterator
+is vertex search SimpleName ConditionalExpression MethodInvocation MethodInvocation SimpleName query
+is vertex search SimpleName ConditionalExpression MethodInvocation MethodInvocation SimpleName vertices
+is vertex search SimpleName ConditionalExpression MethodInvocation SimpleName iterator
+is vertex search SimpleName ConditionalExpression MethodInvocation MethodInvocation SimpleName query
+is vertex search SimpleName ConditionalExpression MethodInvocation MethodInvocation SimpleName edges
+is vertex search SimpleName ConditionalExpression MethodInvocation SimpleName iterator
+iterator SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName iterator
+results SimpleName VariableDeclarationFragment ConditionalExpression SimpleName is vertex search
+results SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation SimpleName iterator
+results SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation SimpleName iterator
+results SimpleName MethodInvocation SimpleName has next
+results SimpleName InfixExpression InfixExpression MethodInvocation SimpleName results
+results SimpleName InfixExpression InfixExpression MethodInvocation SimpleName has next
+results SimpleName MethodInvocation SimpleName next
+element SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation SimpleName results
+element SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation SimpleName next
+atlas element SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName element
+is vertex search SimpleName ConditionalExpression StringLiteral vertex
+is vertex search SimpleName ConditionalExpression StringLiteral edge
+vertex StringLiteral ConditionalExpression StringLiteral edge
+get condition string SimpleName MethodInvocation SimpleName args
+could not find StringLiteral InfixExpression ParenthesizedExpression ConditionalExpression SimpleName is vertex search
+could not find StringLiteral InfixExpression ParenthesizedExpression ConditionalExpression StringLiteral vertex
+could not find StringLiteral InfixExpression ParenthesizedExpression ConditionalExpression StringLiteral edge
+could not find StringLiteral InfixExpression StringLiteral with condition
+could not find StringLiteral InfixExpression MethodInvocation SimpleName get condition string
+could not find StringLiteral InfixExpression MethodInvocation SimpleName args
+is vertex search SimpleName ConditionalExpression ParenthesizedExpression InfixExpression StringLiteral with condition
+vertex StringLiteral ConditionalExpression ParenthesizedExpression InfixExpression StringLiteral with condition
+edge StringLiteral ConditionalExpression ParenthesizedExpression InfixExpression StringLiteral with condition
+with condition StringLiteral InfixExpression MethodInvocation SimpleName get condition string
+with condition StringLiteral InfixExpression MethodInvocation SimpleName args
+entity not found exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral could not find
+entity not found exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral with condition
+log SimpleName MethodInvocation SimpleName is debug enabled
+string SimpleName MethodInvocation SimpleName element
+get condition string SimpleName MethodInvocation SimpleName args
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral found {} with condition {}
+log SimpleName MethodInvocation MethodInvocation SimpleName string
+log SimpleName MethodInvocation MethodInvocation SimpleName element
+log SimpleName MethodInvocation MethodInvocation SimpleName get condition string
+log SimpleName MethodInvocation MethodInvocation SimpleName args
+debug SimpleName MethodInvocation StringLiteral found {} with condition {}
+debug SimpleName MethodInvocation MethodInvocation SimpleName string
+debug SimpleName MethodInvocation MethodInvocation SimpleName element
+debug SimpleName MethodInvocation MethodInvocation SimpleName get condition string
+debug SimpleName MethodInvocation MethodInvocation SimpleName args
+found {} with condition {} StringLiteral MethodInvocation MethodInvocation SimpleName string
+found {} with condition {} StringLiteral MethodInvocation MethodInvocation SimpleName element
+found {} with condition {} StringLiteral MethodInvocation MethodInvocation SimpleName get condition string
+found {} with condition {} StringLiteral MethodInvocation MethodInvocation SimpleName args
+string SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get condition string
+string SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName args
+element SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get condition string
+element SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName args
+private Modifier MethodDeclaration SimpleType SimpleName atlas element
+private Modifier MethodDeclaration SimpleName find element
+private Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName is vertex search
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName args
+private Modifier MethodDeclaration SimpleType SimpleName entity not found exception
+atlas element SimpleName SimpleType MethodDeclaration SimpleName find element
+atlas element SimpleName SimpleType MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+atlas element SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName is vertex search
+atlas element SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName args
+atlas element SimpleName SimpleType MethodDeclaration SimpleType SimpleName entity not found exception
+find element SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+find element SimpleName MethodDeclaration SingleVariableDeclaration SimpleName is vertex search
+find element SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+find element SimpleName MethodDeclaration SingleVariableDeclaration SimpleName args
+find element SimpleName MethodDeclaration SimpleType SimpleName entity not found exception
+find element SimpleName MethodDeclaration Block ReturnStatement SimpleName element
+boolean PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName args
+is vertex search SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName args
+boolean PrimitiveType SingleVariableDeclaration MethodDeclaration SimpleType SimpleName entity not found exception
+is vertex search SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName entity not found exception
+args SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName entity not found exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas element
+public Modifier TypeDeclaration MethodDeclaration SimpleName find element
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName is vertex search
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName args
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName entity not found exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas element
+test SimpleName TypeDeclaration MethodDeclaration SimpleName find element
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName is vertex search
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName args
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName entity not found exception

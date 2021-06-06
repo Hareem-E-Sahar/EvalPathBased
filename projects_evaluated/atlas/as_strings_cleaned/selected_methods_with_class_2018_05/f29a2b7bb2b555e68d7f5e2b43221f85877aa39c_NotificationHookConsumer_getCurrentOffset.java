@@ -1,0 +1,12 @@
+public Modifier MethodDeclaration SimpleType SimpleName long
+public Modifier MethodDeclaration SimpleName get current offset
+public Modifier MethodDeclaration Block ReturnStatement SimpleName current offset
+long SimpleName SimpleType MethodDeclaration SimpleName get current offset
+get current offset SimpleName MethodDeclaration Block ReturnStatement SimpleName current offset
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName long
+public Modifier TypeDeclaration MethodDeclaration SimpleName get current offset
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName long
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get current offset

@@ -1,0 +1,33 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName name
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+r SimpleName VariableDeclarationFragment FieldAccess SimpleName relationship attributes
+r SimpleName MethodInvocation SimpleName contains key
+r SimpleName MethodInvocation SimpleName name
+contains key SimpleName MethodInvocation SimpleName name
+r SimpleName InfixExpression ConditionalExpression MethodInvocation SimpleName r
+r SimpleName InfixExpression ConditionalExpression MethodInvocation SimpleName contains key
+r SimpleName InfixExpression ConditionalExpression MethodInvocation SimpleName name
+r SimpleName InfixExpression ConditionalExpression BooleanLiteral false
+r SimpleName MethodInvocation ConditionalExpression BooleanLiteral false
+contains key SimpleName MethodInvocation ConditionalExpression BooleanLiteral false
+name SimpleName MethodInvocation ConditionalExpression BooleanLiteral false
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName has relationship attribute
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName name
+boolean PrimitiveType MethodDeclaration SimpleName has relationship attribute
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName name
+has relationship attribute SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+has relationship attribute SimpleName MethodDeclaration SingleVariableDeclaration SimpleName name
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName has relationship attribute
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName has relationship attribute
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name

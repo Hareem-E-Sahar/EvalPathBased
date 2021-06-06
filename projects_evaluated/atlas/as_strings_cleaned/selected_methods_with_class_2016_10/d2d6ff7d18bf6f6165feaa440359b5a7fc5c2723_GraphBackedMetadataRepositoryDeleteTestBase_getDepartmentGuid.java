@@ -1,0 +1,61 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+list SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName guids
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName guids
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName hr dept guid
+string SimpleName SimpleType SingleVariableDeclaration SimpleName guid
+repository service SimpleName MethodInvocation SimpleName get entity definition
+repository service SimpleName MethodInvocation SimpleName guid
+get entity definition SimpleName MethodInvocation SimpleName guid
+entity definition SimpleName VariableDeclarationFragment MethodInvocation SimpleName repository service
+entity definition SimpleName VariableDeclarationFragment MethodInvocation SimpleName get entity definition
+entity definition SimpleName VariableDeclarationFragment MethodInvocation SimpleName guid
+i typed referenceable instance SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName entity definition
+entity definition SimpleName MethodInvocation SimpleName get id
+id SimpleName VariableDeclarationFragment MethodInvocation SimpleName entity definition
+id SimpleName VariableDeclarationFragment MethodInvocation SimpleName get id
+id SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName id
+id SimpleName MethodInvocation SimpleName get type name
+id SimpleName MethodInvocation MethodInvocation SimpleName equals
+get type name SimpleName MethodInvocation MethodInvocation SimpleName equals
+id SimpleName MethodInvocation MethodInvocation StringLiteral department
+get type name SimpleName MethodInvocation MethodInvocation StringLiteral department
+equals SimpleName MethodInvocation StringLiteral department
+id SimpleName MethodInvocation SimpleName get id
+hr dept guid SimpleName Assignment MethodInvocation SimpleName id
+hr dept guid SimpleName Assignment MethodInvocation SimpleName get id
+string SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName guids
+guid SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName guids
+assert SimpleName MethodInvocation SimpleName fail
+assert SimpleName MethodInvocation StringLiteral entity for type department not found
+fail SimpleName MethodInvocation StringLiteral entity for type department not found
+guids SimpleName EnhancedForStatement Block ReturnStatement SimpleName hr dept guid
+private Modifier MethodDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SimpleName get department guid
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName guids
+private Modifier MethodDeclaration SimpleType SimpleName repository exception
+private Modifier MethodDeclaration SimpleType SimpleName entity not found exception
+string SimpleName SimpleType MethodDeclaration SimpleName get department guid
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName guids
+string SimpleName SimpleType MethodDeclaration SimpleType SimpleName repository exception
+string SimpleName SimpleType MethodDeclaration SimpleType SimpleName entity not found exception
+get department guid SimpleName MethodDeclaration SingleVariableDeclaration SimpleName guids
+get department guid SimpleName MethodDeclaration SimpleType SimpleName repository exception
+get department guid SimpleName MethodDeclaration SimpleType SimpleName entity not found exception
+get department guid SimpleName MethodDeclaration Block EnhancedForStatement SimpleName guids
+get department guid SimpleName MethodDeclaration Block ReturnStatement SimpleName hr dept guid
+guids SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName repository exception
+guids SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName entity not found exception
+repository exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName entity not found exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName get department guid
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName guids
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName repository exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName entity not found exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get department guid
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName guids
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName repository exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName entity not found exception

@@ -1,0 +1,61 @@
+collection SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas object id
+collection SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName object ids
+atlas object id SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName object ids
+atlas object id SimpleName SimpleType SingleVariableDeclaration SimpleName object id
+ret SimpleName VariableDeclarationFragment BooleanLiteral false
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName ret
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment BooleanLiteral false
+object ids SimpleName MethodInvocation SimpleName is empty
+object ids SimpleName InfixExpression InfixExpression MethodInvocation SimpleName object ids
+object ids SimpleName InfixExpression InfixExpression MethodInvocation SimpleName is empty
+ret SimpleName Assignment BooleanLiteral false
+atlas object id SimpleName SimpleType SingleVariableDeclaration SimpleName id
+id SimpleName MethodInvocation SimpleName get guid
+object id SimpleName MethodInvocation SimpleName get guid
+string utils SimpleName MethodInvocation SimpleName equals
+string utils SimpleName MethodInvocation MethodInvocation SimpleName id
+string utils SimpleName MethodInvocation MethodInvocation SimpleName get guid
+string utils SimpleName MethodInvocation MethodInvocation SimpleName object id
+string utils SimpleName MethodInvocation MethodInvocation SimpleName get guid
+equals SimpleName MethodInvocation MethodInvocation SimpleName id
+equals SimpleName MethodInvocation MethodInvocation SimpleName get guid
+equals SimpleName MethodInvocation MethodInvocation SimpleName object id
+equals SimpleName MethodInvocation MethodInvocation SimpleName get guid
+id SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName object id
+id SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get guid
+get guid SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName object id
+get guid SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get guid
+ret SimpleName Assignment BooleanLiteral true
+atlas object id SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName object ids
+id SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName object ids
+boolean PrimitiveType VariableDeclarationStatement Block ReturnStatement SimpleName ret
+private Modifier MethodDeclaration PrimitiveType boolean
+private Modifier MethodDeclaration SimpleName object ids contain
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName object ids
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas object id
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName object id
+private Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+private Modifier MethodDeclaration Block ReturnStatement SimpleName ret
+boolean PrimitiveType MethodDeclaration SimpleName object ids contain
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName object ids
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas object id
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName object id
+boolean PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+boolean PrimitiveType MethodDeclaration Block ReturnStatement SimpleName ret
+object ids contain SimpleName MethodDeclaration SingleVariableDeclaration SimpleName object ids
+object ids contain SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas object id
+object ids contain SimpleName MethodDeclaration SingleVariableDeclaration SimpleName object id
+object ids contain SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+object ids contain SimpleName MethodDeclaration Block ReturnStatement SimpleName ret
+object ids SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName object id
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName object ids contain
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName object ids
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName object id
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName object ids contain
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName object ids
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName object id

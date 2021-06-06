@@ -1,0 +1,219 @@
+multi reader SimpleName SimpleType SingleVariableDeclaration SimpleName reader
+int PrimitiveType SingleVariableDeclaration SimpleName fileno
+key extent SimpleName SimpleType SingleVariableDeclaration SimpleName extent
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+set SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName tablet files
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName tablet files
+last start to finish SimpleName SimpleType SingleVariableDeclaration SimpleName last start to finish
+hash set SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+hash set SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType SingleVariableDeclaration SimpleName path
+get path suffix SimpleName MethodInvocation SimpleName path
+suffixes SimpleName MethodInvocation SimpleName add
+suffixes SimpleName MethodInvocation MethodInvocation SimpleName get path suffix
+suffixes SimpleName MethodInvocation MethodInvocation SimpleName path
+add SimpleName MethodInvocation MethodInvocation SimpleName get path suffix
+add SimpleName MethodInvocation MethodInvocation SimpleName path
+string SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName tablet files
+path SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName tablet files
+tablet files SimpleName EnhancedForStatement ExpressionStatement MethodInvocation SimpleName suffixes
+tablet files SimpleName EnhancedForStatement ExpressionStatement MethodInvocation SimpleName add
+key SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName log file key
+log file key SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName key
+value SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName log file value
+log file value SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName value
+tid SimpleName VariableDeclarationFragment PrefixExpression NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName tid
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment PrefixExpression NumberLiteral empty
+reader SimpleName MethodInvocation SimpleName next
+reader SimpleName MethodInvocation SimpleName key
+reader SimpleName MethodInvocation SimpleName value
+next SimpleName MethodInvocation SimpleName key
+next SimpleName MethodInvocation SimpleName value
+key SimpleName MethodInvocation SimpleName value
+keyevent QualifiedName InfixExpression SimpleName open
+runtime exception SimpleName SimpleType ClassInstanceCreation StringLiteral first log entry value is not open
+keytserver session QualifiedName MethodInvocation SimpleName compare to
+keytserver session QualifiedName MethodInvocation QualifiedName last start to finishtserver session
+compare to SimpleName MethodInvocation QualifiedName last start to finishtserver session
+keytserver session QualifiedName MethodInvocation InfixExpression NumberLiteral empty
+compare to SimpleName MethodInvocation InfixExpression NumberLiteral empty
+last start to finishtserver session QualifiedName MethodInvocation InfixExpression NumberLiteral empty
+last start to finishcompaction status QualifiedName InfixExpression QualifiedName statuslooking for finish
+runtime exception SimpleName SimpleType ClassInstanceCreation StringLiteral compaction finish without preceding compaction start is not followed by a successful minor compaction
+last start to finish SimpleName MethodInvocation SimpleName update
+last start to finish SimpleName MethodInvocation QualifiedName keytserver session
+update SimpleName MethodInvocation QualifiedName keytserver session
+alternative SimpleName VariableDeclarationFragment SimpleName extent
+key extent SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName alternative
+key extent SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName extent
+extent SimpleName MethodInvocation SimpleName is root tablet
+alternative SimpleName Assignment QualifiedName root tableold extent
+log file key SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName define key
+reader SimpleName MethodInvocation SimpleName next
+reader SimpleName MethodInvocation SimpleName key
+reader SimpleName MethodInvocation SimpleName value
+next SimpleName MethodInvocation SimpleName key
+next SimpleName MethodInvocation SimpleName value
+key SimpleName MethodInvocation SimpleName value
+keyevent QualifiedName InfixExpression SimpleName define tablet
+keytablet QualifiedName MethodInvocation SimpleName equals
+keytablet QualifiedName MethodInvocation SimpleName extent
+equals SimpleName MethodInvocation SimpleName extent
+keytablet QualifiedName MethodInvocation SimpleName equals
+keytablet QualifiedName MethodInvocation SimpleName alternative
+equals SimpleName MethodInvocation SimpleName alternative
+keytablet QualifiedName MethodInvocation InfixExpression MethodInvocation QualifiedName keytablet
+keytablet QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+keytablet QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName alternative
+equals SimpleName MethodInvocation InfixExpression MethodInvocation QualifiedName keytablet
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName alternative
+extent SimpleName MethodInvocation InfixExpression MethodInvocation QualifiedName keytablet
+extent SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+extent SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName alternative
+tid SimpleName InfixExpression QualifiedName keytid
+tid SimpleName Assignment QualifiedName keytid
+define key SimpleName Assignment SimpleName key
+key SimpleName Assignment ClassInstanceCreation SimpleType SimpleName log file key
+tid SimpleName InfixExpression NumberLiteral empty
+found tid seq StringLiteral InfixExpression SimpleName tid
+found tid seq StringLiteral InfixExpression StringLiteral empty
+found tid seq StringLiteral InfixExpression QualifiedName define keyseq
+tid SimpleName InfixExpression StringLiteral empty
+tid SimpleName InfixExpression QualifiedName define keyseq
+empty StringLiteral InfixExpression QualifiedName define keyseq
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation InfixExpression StringLiteral found tid seq
+log SimpleName MethodInvocation InfixExpression SimpleName tid
+log SimpleName MethodInvocation InfixExpression StringLiteral empty
+log SimpleName MethodInvocation InfixExpression QualifiedName define keyseq
+debug SimpleName MethodInvocation InfixExpression StringLiteral found tid seq
+debug SimpleName MethodInvocation InfixExpression SimpleName tid
+debug SimpleName MethodInvocation InfixExpression StringLiteral empty
+debug SimpleName MethodInvocation InfixExpression QualifiedName define keyseq
+key SimpleName Assignment SimpleName define key
+keyevent QualifiedName Assignment SimpleName compaction start
+reader SimpleName MethodInvocation SimpleName seek
+reader SimpleName MethodInvocation SimpleName key
+seek SimpleName MethodInvocation SimpleName key
+reader SimpleName MethodInvocation SimpleName next
+reader SimpleName MethodInvocation SimpleName key
+reader SimpleName MethodInvocation SimpleName value
+next SimpleName MethodInvocation SimpleName key
+next SimpleName MethodInvocation SimpleName value
+key SimpleName MethodInvocation SimpleName value
+keytid QualifiedName InfixExpression SimpleName tid
+keyevent QualifiedName InfixExpression SimpleName compaction start
+last start to finishcompaction status QualifiedName InfixExpression QualifiedName statusinitial
+last start to finishcompaction status QualifiedName Assignment QualifiedName statuscomplete
+keyseq QualifiedName InfixExpression QualifiedName last start to finishlast start
+runtime exception SimpleName SimpleType ClassInstanceCreation StringLiteral sequence numbers are not increasing for startstop events
+last start to finish SimpleName MethodInvocation SimpleName update
+last start to finish SimpleName MethodInvocation SimpleName fileno
+last start to finish SimpleName MethodInvocation QualifiedName keyseq
+update SimpleName MethodInvocation SimpleName fileno
+update SimpleName MethodInvocation QualifiedName keyseq
+fileno SimpleName MethodInvocation QualifiedName keyseq
+minor compaction into StringLiteral InfixExpression QualifiedName keyfilename
+minor compaction into StringLiteral InfixExpression StringLiteral finished but was still in the metadata
+keyfilename QualifiedName InfixExpression StringLiteral finished but was still in the metadata
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation InfixExpression StringLiteral minor compaction into
+log SimpleName MethodInvocation InfixExpression QualifiedName keyfilename
+log SimpleName MethodInvocation InfixExpression StringLiteral finished but was still in the metadata
+debug SimpleName MethodInvocation InfixExpression StringLiteral minor compaction into
+debug SimpleName MethodInvocation InfixExpression QualifiedName keyfilename
+debug SimpleName MethodInvocation InfixExpression StringLiteral finished but was still in the metadata
+get path suffix SimpleName MethodInvocation QualifiedName keyfilename
+suffixes SimpleName MethodInvocation SimpleName contains
+suffixes SimpleName MethodInvocation MethodInvocation SimpleName get path suffix
+suffixes SimpleName MethodInvocation MethodInvocation QualifiedName keyfilename
+contains SimpleName MethodInvocation MethodInvocation SimpleName get path suffix
+contains SimpleName MethodInvocation MethodInvocation QualifiedName keyfilename
+last start to finish SimpleName MethodInvocation SimpleName update
+last start to finish SimpleName MethodInvocation PrefixExpression NumberLiteral empty
+update SimpleName MethodInvocation PrefixExpression NumberLiteral empty
+keyevent QualifiedName InfixExpression SimpleName compaction finish
+keyseq QualifiedName InfixExpression QualifiedName last start to finishlast start
+runtime exception SimpleName SimpleType ClassInstanceCreation StringLiteral sequence numbers are not increasing for startstop events
+last start to finishcompaction status QualifiedName InfixExpression QualifiedName statusinitial
+last start to finishcompaction status QualifiedName Assignment QualifiedName statuslooking for finish
+last start to finishlast finish QualifiedName InfixExpression QualifiedName last start to finishlast start
+runtime exception SimpleName SimpleType ClassInstanceCreation StringLiteral compaction finish does not have preceding compaction start event
+last start to finishcompaction status QualifiedName Assignment QualifiedName statuscomplete
+last start to finish SimpleName MethodInvocation SimpleName update
+last start to finish SimpleName MethodInvocation QualifiedName keyseq
+update SimpleName MethodInvocation QualifiedName keyseq
+tablet files SimpleName EnhancedForStatement Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType MethodDeclaration SimpleName find last start to finish
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName multi reader
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName reader
+int PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName fileno
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName key extent
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName extent
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName tablet files
+find last start to finish SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName multi reader
+find last start to finish SimpleName MethodDeclaration SingleVariableDeclaration SimpleName reader
+find last start to finish SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+find last start to finish SimpleName MethodDeclaration SingleVariableDeclaration SimpleName fileno
+find last start to finish SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName key extent
+find last start to finish SimpleName MethodDeclaration SingleVariableDeclaration SimpleName extent
+find last start to finish SimpleName MethodDeclaration SingleVariableDeclaration SimpleName tablet files
+find last start to finish SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName last start to finish
+find last start to finish SimpleName MethodDeclaration SingleVariableDeclaration SimpleName last start to finish
+reader SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+reader SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName fileno
+reader SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName extent
+reader SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName tablet files
+reader SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName last start to finish
+reader SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName extent
+fileno SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName extent
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName tablet files
+fileno SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName tablet files
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName last start to finish
+fileno SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName last start to finish
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+fileno SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SimpleType SimpleName empty map file exception
+fileno SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName empty map file exception
+extent SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName tablet files
+extent SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName last start to finish
+extent SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+extent SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName empty map file exception
+extent SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName unused exception
+tablet files SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName last start to finish
+tablet files SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+tablet files SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName empty map file exception
+tablet files SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName unused exception
+last start to finish SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+last start to finish SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName empty map file exception
+last start to finish SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName unused exception
+io exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName empty map file exception
+io exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName unused exception
+empty map file exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName unused exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SimpleName find last start to finish
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName reader
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName fileno
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName extent
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName tablet files
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName last start to finish
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName empty map file exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName unused exception
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SimpleName find last start to finish
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName reader
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName fileno
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName extent
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName tablet files
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName last start to finish
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName empty map file exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName unused exception

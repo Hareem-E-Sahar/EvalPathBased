@@ -1,0 +1,20 @@
+additional properties SimpleName SimpleType SingleVariableDeclaration SimpleName new additional properties
+additional properties SimpleName Assignment SimpleName new additional properties
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set additional properties
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName additional properties
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName new additional properties
+void PrimitiveType MethodDeclaration SimpleName set additional properties
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName additional properties
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName new additional properties
+set additional properties SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName additional properties
+set additional properties SimpleName MethodDeclaration SingleVariableDeclaration SimpleName new additional properties
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set additional properties
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new additional properties
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set additional properties
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new additional properties

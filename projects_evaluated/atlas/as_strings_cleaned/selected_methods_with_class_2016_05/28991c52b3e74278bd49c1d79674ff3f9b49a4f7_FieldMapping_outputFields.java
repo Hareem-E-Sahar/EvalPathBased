@@ -1,0 +1,142 @@
+i struct SimpleName SimpleType SingleVariableDeclaration SimpleName s
+appendable SimpleName SimpleType SingleVariableDeclaration SimpleName buf
+string SimpleName SimpleType SingleVariableDeclaration SimpleName field prefix
+set SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName in process
+mapentry QualifiedName SimpleType ParameterizedType SimpleType SimpleName string
+mapentry QualifiedName SimpleType ParameterizedType SimpleType SimpleName attribute info
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName attribute info
+mapentry QualifiedName SimpleType ParameterizedType SingleVariableDeclaration SimpleName e
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName e
+attribute info SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName e
+fields SimpleName MethodInvocation SimpleName entry set
+e SimpleName MethodInvocation SimpleName get key
+attr name SimpleName VariableDeclarationFragment MethodInvocation SimpleName e
+attr name SimpleName VariableDeclarationFragment MethodInvocation SimpleName get key
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName attr name
+e SimpleName MethodInvocation SimpleName get value
+i SimpleName VariableDeclarationFragment MethodInvocation SimpleName e
+i SimpleName VariableDeclarationFragment MethodInvocation SimpleName get value
+attribute info SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName i
+s SimpleName MethodInvocation SimpleName get
+s SimpleName MethodInvocation SimpleName attr name
+get SimpleName MethodInvocation SimpleName attr name
+a val SimpleName VariableDeclarationFragment MethodInvocation SimpleName s
+a val SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+a val SimpleName VariableDeclarationFragment MethodInvocation SimpleName attr name
+object SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName a val
+attr name SimpleName InfixExpression StringLiteral :
+type utils SimpleName MethodInvocation SimpleName output val
+type utils SimpleName MethodInvocation InfixExpression SimpleName attr name
+type utils SimpleName MethodInvocation InfixExpression StringLiteral :
+type utils SimpleName MethodInvocation SimpleName buf
+type utils SimpleName MethodInvocation SimpleName field prefix
+output val SimpleName MethodInvocation InfixExpression SimpleName attr name
+output val SimpleName MethodInvocation InfixExpression StringLiteral :
+output val SimpleName MethodInvocation SimpleName buf
+output val SimpleName MethodInvocation SimpleName field prefix
+attr name SimpleName InfixExpression MethodInvocation SimpleName buf
+: StringLiteral InfixExpression MethodInvocation SimpleName buf
+attr name SimpleName InfixExpression MethodInvocation SimpleName field prefix
+: StringLiteral InfixExpression MethodInvocation SimpleName field prefix
+buf SimpleName MethodInvocation SimpleName field prefix
+a val SimpleName InstanceofExpression SimpleType SimpleName id
+a val SimpleName InfixExpression InfixExpression InstanceofExpression SimpleName a val
+a val SimpleName MethodInvocation SimpleName to string
+type utils SimpleName MethodInvocation SimpleName output val
+type utils SimpleName MethodInvocation MethodInvocation SimpleName a val
+type utils SimpleName MethodInvocation MethodInvocation SimpleName to string
+type utils SimpleName MethodInvocation SimpleName buf
+type utils SimpleName MethodInvocation StringLiteral empty
+output val SimpleName MethodInvocation MethodInvocation SimpleName a val
+output val SimpleName MethodInvocation MethodInvocation SimpleName to string
+output val SimpleName MethodInvocation SimpleName buf
+output val SimpleName MethodInvocation StringLiteral empty
+a val SimpleName MethodInvocation MethodInvocation SimpleName buf
+to string SimpleName MethodInvocation MethodInvocation SimpleName buf
+a val SimpleName MethodInvocation MethodInvocation StringLiteral empty
+to string SimpleName MethodInvocation MethodInvocation StringLiteral empty
+buf SimpleName MethodInvocation StringLiteral empty
+i SimpleName MethodInvocation SimpleName data type
+i SimpleName MethodInvocation MethodInvocation SimpleName output
+data type SimpleName MethodInvocation MethodInvocation SimpleName output
+i SimpleName MethodInvocation MethodInvocation SimpleName a val
+data type SimpleName MethodInvocation MethodInvocation SimpleName a val
+i SimpleName MethodInvocation MethodInvocation SimpleName buf
+data type SimpleName MethodInvocation MethodInvocation SimpleName buf
+i SimpleName MethodInvocation MethodInvocation SimpleName field prefix
+data type SimpleName MethodInvocation MethodInvocation SimpleName field prefix
+i SimpleName MethodInvocation MethodInvocation SimpleName in process
+data type SimpleName MethodInvocation MethodInvocation SimpleName in process
+output SimpleName MethodInvocation SimpleName a val
+output SimpleName MethodInvocation SimpleName buf
+output SimpleName MethodInvocation SimpleName field prefix
+output SimpleName MethodInvocation SimpleName in process
+a val SimpleName MethodInvocation SimpleName buf
+a val SimpleName MethodInvocation SimpleName field prefix
+a val SimpleName MethodInvocation SimpleName in process
+buf SimpleName MethodInvocation SimpleName field prefix
+buf SimpleName MethodInvocation SimpleName in process
+field prefix SimpleName MethodInvocation SimpleName in process
+type utils SimpleName MethodInvocation SimpleName output val
+type utils SimpleName MethodInvocation StringLiteral empty
+type utils SimpleName MethodInvocation SimpleName buf
+type utils SimpleName MethodInvocation StringLiteral empty
+output val SimpleName MethodInvocation StringLiteral empty
+output val SimpleName MethodInvocation SimpleName buf
+output val SimpleName MethodInvocation StringLiteral empty
+empty StringLiteral MethodInvocation SimpleName buf
+empty StringLiteral MethodInvocation StringLiteral empty
+buf SimpleName MethodInvocation StringLiteral empty
+e SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName fields
+e SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName entry set
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName output fields
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName i struct
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName s
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName appendable
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName buf
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName field prefix
+void PrimitiveType MethodDeclaration SimpleName output fields
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName i struct
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName s
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName appendable
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName buf
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName field prefix
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName in process
+output fields SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName i struct
+output fields SimpleName MethodDeclaration SingleVariableDeclaration SimpleName s
+output fields SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName appendable
+output fields SimpleName MethodDeclaration SingleVariableDeclaration SimpleName buf
+output fields SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+output fields SimpleName MethodDeclaration SingleVariableDeclaration SimpleName field prefix
+output fields SimpleName MethodDeclaration SingleVariableDeclaration SimpleName in process
+output fields SimpleName MethodDeclaration SimpleType SimpleName atlas exception
+s SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName buf
+s SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName field prefix
+s SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName in process
+s SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+buf SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName field prefix
+buf SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName in process
+buf SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+field prefix SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName in process
+field prefix SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+in process SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName output fields
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName s
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName buf
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName field prefix
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName in process
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName output fields
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName s
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName buf
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName field prefix
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName in process
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception

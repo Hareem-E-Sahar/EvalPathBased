@@ -1,0 +1,30 @@
+collection SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName data types
+on add SimpleName MethodInvocation SimpleName data types
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName on change
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName data types
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName atlas exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName on change
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName data types
+public Modifier MethodDeclaration SimpleType SimpleName atlas exception
+void PrimitiveType MethodDeclaration SimpleName on change
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName data types
+void PrimitiveType MethodDeclaration SimpleType SimpleName atlas exception
+on change SimpleName MethodDeclaration SingleVariableDeclaration SimpleName data types
+on change SimpleName MethodDeclaration SimpleType SimpleName atlas exception
+data types SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName on change
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName data types
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName on change
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName data types
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception

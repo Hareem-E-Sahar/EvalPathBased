@@ -1,0 +1,38 @@
+k SimpleName SimpleType SingleVariableDeclaration SimpleName timer
+total time SimpleName MethodInvocation SimpleName get
+total time SimpleName MethodInvocation SimpleName timer
+get SimpleName MethodInvocation SimpleName timer
+existing time SimpleName VariableDeclarationFragment MethodInvocation SimpleName total time
+existing time SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+existing time SimpleName VariableDeclarationFragment MethodInvocation SimpleName timer
+long SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName existing time
+existing time SimpleName Assignment NumberLiteral l
+public Modifier MethodDeclaration Modifier synchronized
+public Modifier MethodDeclaration PrimitiveType long
+public Modifier MethodDeclaration SimpleName get
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName k
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName timer
+public Modifier MethodDeclaration Block ReturnStatement SimpleName existing time
+synchronized Modifier MethodDeclaration PrimitiveType long
+synchronized Modifier MethodDeclaration SimpleName get
+synchronized Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName k
+synchronized Modifier MethodDeclaration SingleVariableDeclaration SimpleName timer
+synchronized Modifier MethodDeclaration Block ReturnStatement SimpleName existing time
+long PrimitiveType MethodDeclaration SimpleName get
+long PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName k
+long PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName timer
+long PrimitiveType MethodDeclaration Block ReturnStatement SimpleName existing time
+get SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName k
+get SimpleName MethodDeclaration SingleVariableDeclaration SimpleName timer
+get SimpleName MethodDeclaration Block ReturnStatement SimpleName existing time
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier synchronized
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType long
+public Modifier TypeDeclaration MethodDeclaration SimpleName get
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName timer
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier synchronized
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType long
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName timer

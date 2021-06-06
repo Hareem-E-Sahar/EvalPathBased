@@ -1,0 +1,67 @@
+enabled SimpleName MemberValuePair BooleanLiteral true
+test SimpleName NormalAnnotation MemberValuePair SimpleName enabled
+test SimpleName NormalAnnotation MemberValuePair BooleanLiteral true
+atlas entity access request SimpleName SimpleType ClassInstanceCreation QualifiedName atlas privilegeentity update
+request SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName atlas entity access request
+request SimpleName VariableDeclarationFragment ClassInstanceCreation QualifiedName atlas privilegeentity update
+atlas entity access request SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName request
+collections SimpleName MethodInvocation SimpleName singleton
+collections SimpleName MethodInvocation StringLiteral groupnotinpolicyfile
+singleton SimpleName MethodInvocation StringLiteral groupnotinpolicyfile
+request SimpleName MethodInvocation SimpleName set user
+request SimpleName MethodInvocation StringLiteral nonmappeduser
+request SimpleName MethodInvocation MethodInvocation SimpleName collections
+request SimpleName MethodInvocation MethodInvocation SimpleName singleton
+request SimpleName MethodInvocation MethodInvocation StringLiteral groupnotinpolicyfile
+set user SimpleName MethodInvocation StringLiteral nonmappeduser
+set user SimpleName MethodInvocation MethodInvocation SimpleName collections
+set user SimpleName MethodInvocation MethodInvocation SimpleName singleton
+set user SimpleName MethodInvocation MethodInvocation StringLiteral groupnotinpolicyfile
+nonmappeduser StringLiteral MethodInvocation MethodInvocation SimpleName collections
+nonmappeduser StringLiteral MethodInvocation MethodInvocation SimpleName singleton
+nonmappeduser StringLiteral MethodInvocation MethodInvocation StringLiteral groupnotinpolicyfile
+authorizer SimpleName MethodInvocation SimpleName is access allowed
+authorizer SimpleName MethodInvocation SimpleName request
+is access allowed SimpleName MethodInvocation SimpleName request
+is access allowed SimpleName VariableDeclarationFragment MethodInvocation SimpleName authorizer
+is access allowed SimpleName VariableDeclarationFragment MethodInvocation SimpleName is access allowed
+is access allowed SimpleName VariableDeclarationFragment MethodInvocation SimpleName request
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName is access allowed
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName authorizer
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName is access allowed
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName request
+assert j unit SimpleName MethodInvocation SimpleName assert equals
+assert j unit SimpleName MethodInvocation BooleanLiteral false
+assert j unit SimpleName MethodInvocation SimpleName is access allowed
+assert equals SimpleName MethodInvocation BooleanLiteral false
+assert equals SimpleName MethodInvocation SimpleName is access allowed
+false BooleanLiteral MethodInvocation SimpleName is access allowed
+atlas authorization exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation StringLiteral exception in atlas simple authorizer test
+log SimpleName MethodInvocation SimpleName e
+error SimpleName MethodInvocation StringLiteral exception in atlas simple authorizer test
+error SimpleName MethodInvocation SimpleName e
+exception in atlas simple authorizer test StringLiteral MethodInvocation SimpleName e
+assert j unit SimpleName MethodInvocation SimpleName fail
+test SimpleName NormalAnnotation MethodDeclaration Modifier public
+enabled SimpleName MemberValuePair NormalAnnotation MethodDeclaration Modifier public
+true BooleanLiteral MemberValuePair NormalAnnotation MethodDeclaration Modifier public
+test SimpleName NormalAnnotation MethodDeclaration PrimitiveType void
+enabled SimpleName MemberValuePair NormalAnnotation MethodDeclaration PrimitiveType void
+true BooleanLiteral MemberValuePair NormalAnnotation MethodDeclaration PrimitiveType void
+test SimpleName NormalAnnotation MethodDeclaration SimpleName test access not allowed for user and group
+enabled SimpleName MemberValuePair NormalAnnotation MethodDeclaration SimpleName test access not allowed for user and group
+true BooleanLiteral MemberValuePair NormalAnnotation MethodDeclaration SimpleName test access not allowed for user and group
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test access not allowed for user and group
+void PrimitiveType MethodDeclaration SimpleName test access not allowed for user and group
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration NormalAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test access not allowed for user and group
+test SimpleName TypeDeclaration MethodDeclaration NormalAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test access not allowed for user and group

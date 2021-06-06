@@ -1,0 +1,18 @@
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation StringLiteral generating the falcon data model
+info SimpleName MethodInvocation StringLiteral generating the falcon data model
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName create data model
+public Modifier MethodDeclaration SimpleType SimpleName atlas exception
+void PrimitiveType MethodDeclaration SimpleName create data model
+void PrimitiveType MethodDeclaration SimpleType SimpleName atlas exception
+create data model SimpleName MethodDeclaration SimpleType SimpleName atlas exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName create data model
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create data model
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception

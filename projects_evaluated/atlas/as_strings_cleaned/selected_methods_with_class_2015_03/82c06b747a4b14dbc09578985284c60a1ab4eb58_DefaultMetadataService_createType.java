@@ -1,0 +1,103 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName type name
+string SimpleName SimpleType SingleVariableDeclaration SimpleName type definition
+validate type does not exist SimpleName MethodInvocation SimpleName type name
+validate type does not exist SimpleName MethodInvocation SimpleName type definition
+type name SimpleName MethodInvocation SimpleName type definition
+types serialization SimpleName MethodInvocation SimpleName from json
+types serialization SimpleName MethodInvocation SimpleName type definition
+from json SimpleName MethodInvocation SimpleName type definition
+types def SimpleName VariableDeclarationFragment MethodInvocation SimpleName types serialization
+types def SimpleName VariableDeclarationFragment MethodInvocation SimpleName from json
+types def SimpleName VariableDeclarationFragment MethodInvocation SimpleName type definition
+types def SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName types def
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName i data type
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName i data type
+type system SimpleName MethodInvocation SimpleName define types
+type system SimpleName MethodInvocation SimpleName types def
+define types SimpleName MethodInvocation SimpleName types def
+types added SimpleName VariableDeclarationFragment MethodInvocation SimpleName type system
+types added SimpleName VariableDeclarationFragment MethodInvocation SimpleName define types
+types added SimpleName VariableDeclarationFragment MethodInvocation SimpleName types def
+on types added to repo SimpleName MethodInvocation SimpleName types added
+response SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName json object
+json object SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName response
+mapentry QualifiedName SimpleType ParameterizedType SimpleType SimpleName string
+mapentry QualifiedName SimpleType ParameterizedType SimpleType SimpleName i data type
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName i data type
+mapentry QualifiedName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+i data type SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+types added SimpleName MethodInvocation SimpleName entry set
+entry SimpleName MethodInvocation SimpleName get key
+entry SimpleName MethodInvocation SimpleName get value
+entry SimpleName MethodInvocation MethodInvocation SimpleName get name
+get value SimpleName MethodInvocation MethodInvocation SimpleName get name
+response SimpleName MethodInvocation SimpleName put
+response SimpleName MethodInvocation MethodInvocation SimpleName entry
+response SimpleName MethodInvocation MethodInvocation SimpleName get key
+response SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName entry
+response SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get value
+response SimpleName MethodInvocation MethodInvocation SimpleName get name
+put SimpleName MethodInvocation MethodInvocation SimpleName entry
+put SimpleName MethodInvocation MethodInvocation SimpleName get key
+put SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName entry
+put SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get value
+put SimpleName MethodInvocation MethodInvocation SimpleName get name
+entry SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get name
+get key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get name
+entry SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName types added
+entry SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName entry set
+json exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation StringLiteral unable to persist type {}
+log SimpleName MethodInvocation SimpleName type name
+log SimpleName MethodInvocation SimpleName e
+error SimpleName MethodInvocation StringLiteral unable to persist type {}
+error SimpleName MethodInvocation SimpleName type name
+error SimpleName MethodInvocation SimpleName e
+unable to persist type {} StringLiteral MethodInvocation SimpleName type name
+unable to persist type {} StringLiteral MethodInvocation SimpleName e
+type name SimpleName MethodInvocation SimpleName e
+unable to create response for StringLiteral InfixExpression SimpleName type name
+metadata exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral unable to create response for
+metadata exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName type name
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName json object
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName create type
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName type name
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName type definition
+public Modifier MethodDeclaration SimpleType SimpleName json object
+public Modifier MethodDeclaration SimpleName create type
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName type name
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName type definition
+public Modifier MethodDeclaration SimpleType SimpleName metadata exception
+json object SimpleName SimpleType MethodDeclaration SimpleName create type
+json object SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName type name
+json object SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName type definition
+json object SimpleName SimpleType MethodDeclaration SimpleType SimpleName metadata exception
+create type SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+create type SimpleName MethodDeclaration SingleVariableDeclaration SimpleName type name
+create type SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+create type SimpleName MethodDeclaration SingleVariableDeclaration SimpleName type definition
+create type SimpleName MethodDeclaration SimpleType SimpleName metadata exception
+type name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type definition
+type name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName metadata exception
+type definition SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName metadata exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName json object
+public Modifier TypeDeclaration MethodDeclaration SimpleName create type
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type definition
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName metadata exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName json object
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create type
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type definition
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName metadata exception

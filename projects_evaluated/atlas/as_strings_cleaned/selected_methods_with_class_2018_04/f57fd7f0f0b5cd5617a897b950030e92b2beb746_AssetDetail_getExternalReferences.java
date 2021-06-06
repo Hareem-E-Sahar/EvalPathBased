@@ -1,0 +1,12 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName external reference
+array list SimpleName SimpleType ParameterizedType ClassInstanceCreation SimpleName external references
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName external reference
+public Modifier MethodDeclaration SimpleName get external references
+list SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get external references
+external reference SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get external references
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName get external references
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get external references

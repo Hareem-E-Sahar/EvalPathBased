@@ -1,0 +1,67 @@
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName type filter
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+type filter SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName filter map
+type filter SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName filter map
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName filter map
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName type filter
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+type filter SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+entry SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName filter entry
+type filter SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName filter entry
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName filter entry
+filter map SimpleName MethodInvocation SimpleName entry set
+filter entry SimpleName MethodInvocation SimpleName get key
+filter entry SimpleName MethodInvocation SimpleName get value
+assert valid type category SimpleName MethodInvocation MethodInvocation SimpleName filter entry
+assert valid type category SimpleName MethodInvocation MethodInvocation SimpleName get value
+filter entry SimpleName MethodInvocation SimpleName get value
+has SimpleName MethodInvocation MethodInvocation SimpleName filter entry
+has SimpleName MethodInvocation MethodInvocation SimpleName get value
+log SimpleName MethodInvocation SimpleName is debug enabled
+filter entry SimpleName MethodInvocation SimpleName get value
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral {}: supertype does not exist
+log SimpleName MethodInvocation MethodInvocation SimpleName filter entry
+log SimpleName MethodInvocation MethodInvocation SimpleName get value
+debug SimpleName MethodInvocation StringLiteral {}: supertype does not exist
+debug SimpleName MethodInvocation MethodInvocation SimpleName filter entry
+debug SimpleName MethodInvocation MethodInvocation SimpleName get value
+{}: supertype does not exist StringLiteral MethodInvocation MethodInvocation SimpleName filter entry
+{}: supertype does not exist StringLiteral MethodInvocation MethodInvocation SimpleName get value
+filter entry SimpleName MethodInvocation SimpleName get key
+unhandled filter StringLiteral InfixExpression MethodInvocation SimpleName filter entry
+unhandled filter StringLiteral InfixExpression MethodInvocation SimpleName get key
+illegal state exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral unhandled filter
+filter entry SimpleName MethodInvocation SwitchStatement SwitchCase SimpleName category
+get key SimpleName MethodInvocation SwitchStatement SwitchCase SimpleName category
+filter entry SimpleName MethodInvocation SwitchStatement SwitchCase SimpleName supertype
+get key SimpleName MethodInvocation SwitchStatement SwitchCase SimpleName supertype
+filter entry SimpleName MethodInvocation SwitchStatement SwitchCase SimpleName not supertype
+get key SimpleName MethodInvocation SwitchStatement SwitchCase SimpleName not supertype
+category SimpleName SwitchCase SwitchStatement SwitchCase SimpleName supertype
+category SimpleName SwitchCase SwitchStatement SwitchCase SimpleName not supertype
+supertype SimpleName SwitchCase SwitchStatement SwitchCase SimpleName not supertype
+filter entry SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName filter map
+filter entry SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName entry set
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName assert filter
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName filter map
+private Modifier MethodDeclaration SimpleType SimpleName atlas exception
+void PrimitiveType MethodDeclaration SimpleName assert filter
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName filter map
+void PrimitiveType MethodDeclaration SimpleType SimpleName atlas exception
+assert filter SimpleName MethodDeclaration SingleVariableDeclaration SimpleName filter map
+assert filter SimpleName MethodDeclaration SimpleType SimpleName atlas exception
+filter map SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName assert filter
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName filter map
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName assert filter
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName filter map
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception

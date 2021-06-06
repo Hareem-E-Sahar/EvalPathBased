@@ -1,0 +1,21 @@
+sorted set SimpleName SimpleType ParameterizedType SimpleType SimpleName text
+sorted set SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName partition keys
+text SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName partition keys
+splits SimpleName MethodInvocation SimpleName add all
+splits SimpleName MethodInvocation SimpleName partition keys
+add all SimpleName MethodInvocation SimpleName partition keys
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName add splits
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName partition keys
+void PrimitiveType MethodDeclaration SimpleName add splits
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName partition keys
+add splits SimpleName MethodDeclaration SingleVariableDeclaration SimpleName partition keys
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName add splits
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName partition keys
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName add splits
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName partition keys

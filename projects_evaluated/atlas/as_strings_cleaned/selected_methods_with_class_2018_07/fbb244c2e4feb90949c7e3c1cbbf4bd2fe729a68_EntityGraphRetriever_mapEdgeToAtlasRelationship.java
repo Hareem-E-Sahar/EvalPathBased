@@ -1,0 +1,51 @@
+atlas edge SimpleName SimpleType SingleVariableDeclaration SimpleName edge
+boolean PrimitiveType SingleVariableDeclaration SimpleName extended info
+ret SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName atlas relationship with ext info
+atlas relationship with ext info SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ret
+map system attributes SimpleName MethodInvocation SimpleName edge
+map system attributes SimpleName MethodInvocation SimpleName ret
+map system attributes SimpleName MethodInvocation SimpleName extended info
+edge SimpleName MethodInvocation SimpleName ret
+edge SimpleName MethodInvocation SimpleName extended info
+ret SimpleName MethodInvocation SimpleName extended info
+map attributes SimpleName MethodInvocation SimpleName edge
+map attributes SimpleName MethodInvocation SimpleName ret
+edge SimpleName MethodInvocation SimpleName ret
+public Modifier MethodDeclaration SimpleType SimpleName atlas relationship with ext info
+public Modifier MethodDeclaration SimpleName map edge to atlas relationship
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas edge
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName edge
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName extended info
+public Modifier MethodDeclaration SimpleType SimpleName atlas base exception
+atlas relationship with ext info SimpleName SimpleType MethodDeclaration SimpleName map edge to atlas relationship
+atlas relationship with ext info SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName edge
+atlas relationship with ext info SimpleName SimpleType MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+atlas relationship with ext info SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName extended info
+atlas relationship with ext info SimpleName SimpleType MethodDeclaration SimpleType SimpleName atlas base exception
+map edge to atlas relationship SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas edge
+map edge to atlas relationship SimpleName MethodDeclaration SingleVariableDeclaration SimpleName edge
+map edge to atlas relationship SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+map edge to atlas relationship SimpleName MethodDeclaration SingleVariableDeclaration SimpleName extended info
+map edge to atlas relationship SimpleName MethodDeclaration SimpleType SimpleName atlas base exception
+map edge to atlas relationship SimpleName MethodDeclaration Block ReturnStatement SimpleName ret
+edge SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+edge SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName extended info
+edge SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+boolean PrimitiveType SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+extended info SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas relationship with ext info
+public Modifier TypeDeclaration MethodDeclaration SimpleName map edge to atlas relationship
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName edge
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName extended info
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas relationship with ext info
+test SimpleName TypeDeclaration MethodDeclaration SimpleName map edge to atlas relationship
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName edge
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName extended info
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception

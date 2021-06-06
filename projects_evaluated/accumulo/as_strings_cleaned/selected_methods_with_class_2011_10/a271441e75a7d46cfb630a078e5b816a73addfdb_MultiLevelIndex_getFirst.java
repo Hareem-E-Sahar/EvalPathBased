@@ -1,0 +1,38 @@
+current pos SimpleName Assignment NumberLiteral empty
+index block SimpleName MethodInvocation SimpleName get level
+index block SimpleName MethodInvocation InfixExpression NumberLiteral empty
+get level SimpleName MethodInvocation InfixExpression NumberLiteral empty
+index block SimpleName MethodInvocation SimpleName get index
+index block SimpleName MethodInvocation MethodInvocation SimpleName get
+get index SimpleName MethodInvocation MethodInvocation SimpleName get
+index block SimpleName MethodInvocation MethodInvocation SimpleName current pos
+get index SimpleName MethodInvocation MethodInvocation SimpleName current pos
+get SimpleName MethodInvocation SimpleName current pos
+ie SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName index block
+ie SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get index
+ie SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+ie SimpleName VariableDeclarationFragment MethodInvocation SimpleName current pos
+index entry SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ie
+get index block SimpleName MethodInvocation SimpleName ie
+node SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get index block
+node SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName ie
+child SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName node
+child SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get index block
+child SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName ie
+node SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName child
+child SimpleName MethodInvocation SimpleName get first
+private Modifier MethodDeclaration SimpleType SimpleName node
+private Modifier MethodDeclaration SimpleName get first
+private Modifier MethodDeclaration SimpleType SimpleName io exception
+node SimpleName SimpleType MethodDeclaration SimpleName get first
+node SimpleName SimpleType MethodDeclaration SimpleType SimpleName io exception
+get first SimpleName MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName node
+public Modifier TypeDeclaration MethodDeclaration SimpleName get first
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName node
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get first
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

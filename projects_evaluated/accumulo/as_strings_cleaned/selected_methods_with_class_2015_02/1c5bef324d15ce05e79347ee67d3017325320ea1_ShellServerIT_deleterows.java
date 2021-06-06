@@ -1,0 +1,157 @@
+name SimpleName MethodInvocation SimpleName get method name
+table SimpleName VariableDeclarationFragment MethodInvocation SimpleName name
+table SimpleName VariableDeclarationFragment MethodInvocation SimpleName get method name
+final Modifier VariableDeclarationStatement SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName table
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName name
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get method name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName table
+createtable StringLiteral InfixExpression SimpleName table
+ts SimpleName MethodInvocation SimpleName exec
+ts SimpleName MethodInvocation InfixExpression StringLiteral createtable
+ts SimpleName MethodInvocation InfixExpression SimpleName table
+exec SimpleName MethodInvocation InfixExpression StringLiteral createtable
+exec SimpleName MethodInvocation InfixExpression SimpleName table
+get table id SimpleName MethodInvocation SimpleName table
+table id SimpleName VariableDeclarationFragment MethodInvocation SimpleName get table id
+table id SimpleName VariableDeclarationFragment MethodInvocation SimpleName table
+final Modifier VariableDeclarationStatement SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName table id
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get table id
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName table
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName table id
+count files SimpleName MethodInvocation SimpleName table id
+base SimpleName VariableDeclarationFragment MethodInvocation SimpleName count files
+base SimpleName VariableDeclarationFragment MethodInvocation SimpleName table id
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName base
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName count files
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName table id
+assert equals SimpleName MethodInvocation NumberLiteral empty
+assert equals SimpleName MethodInvocation SimpleName base
+empty NumberLiteral MethodInvocation SimpleName base
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation StringLiteral adding splits
+info SimpleName MethodInvocation StringLiteral adding splits
+ts SimpleName MethodInvocation SimpleName exec
+ts SimpleName MethodInvocation StringLiteral addsplits row row
+exec SimpleName MethodInvocation StringLiteral addsplits row row
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation StringLiteral writing records
+info SimpleName MethodInvocation StringLiteral writing records
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation StringLiteral flushing table
+info SimpleName MethodInvocation StringLiteral flushing table
+flush w t StringLiteral InfixExpression SimpleName table
+ts SimpleName MethodInvocation SimpleName exec
+ts SimpleName MethodInvocation InfixExpression StringLiteral flush w t
+ts SimpleName MethodInvocation InfixExpression SimpleName table
+exec SimpleName MethodInvocation InfixExpression StringLiteral flush w t
+exec SimpleName MethodInvocation InfixExpression SimpleName table
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation StringLiteral table flush completed
+info SimpleName MethodInvocation StringLiteral table flush completed
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+get files SimpleName MethodInvocation SimpleName table id
+files SimpleName VariableDeclarationFragment MethodInvocation SimpleName get files
+files SimpleName VariableDeclarationFragment MethodInvocation SimpleName table id
+files SimpleName MethodInvocation SimpleName size
+empty NumberLiteral InfixExpression MethodInvocation SimpleName files
+empty NumberLiteral InfixExpression MethodInvocation SimpleName size
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation StringLiteral more than files were found compacting before proceeding
+info SimpleName MethodInvocation StringLiteral more than files were found compacting before proceeding
+compact w t StringLiteral InfixExpression SimpleName table
+ts SimpleName MethodInvocation SimpleName exec
+ts SimpleName MethodInvocation InfixExpression StringLiteral compact w t
+ts SimpleName MethodInvocation InfixExpression SimpleName table
+exec SimpleName MethodInvocation InfixExpression StringLiteral compact w t
+exec SimpleName MethodInvocation InfixExpression SimpleName table
+get files SimpleName MethodInvocation SimpleName table id
+files SimpleName Assignment MethodInvocation SimpleName get files
+files SimpleName Assignment MethodInvocation SimpleName table id
+expected to only find files after compaction StringLiteral InfixExpression SimpleName files
+files SimpleName MethodInvocation SimpleName size
+assert equals SimpleName MethodInvocation InfixExpression StringLiteral expected to only find files after compaction
+assert equals SimpleName MethodInvocation InfixExpression SimpleName files
+assert equals SimpleName MethodInvocation NumberLiteral empty
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName files
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName size
+expected to only find files after compaction StringLiteral InfixExpression MethodInvocation NumberLiteral empty
+files SimpleName InfixExpression MethodInvocation NumberLiteral empty
+expected to only find files after compaction StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName files
+expected to only find files after compaction StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName size
+files SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName files
+files SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName size
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName files
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName size
+assert not null SimpleName MethodInvocation SimpleName files
+found the following files StringLiteral InfixExpression SimpleName files
+files SimpleName MethodInvocation SimpleName size
+assert equals SimpleName MethodInvocation InfixExpression StringLiteral found the following files
+assert equals SimpleName MethodInvocation InfixExpression SimpleName files
+assert equals SimpleName MethodInvocation NumberLiteral empty
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName files
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName size
+found the following files StringLiteral InfixExpression MethodInvocation NumberLiteral empty
+files SimpleName InfixExpression MethodInvocation NumberLiteral empty
+found the following files StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName files
+found the following files StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName size
+files SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName files
+files SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName size
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName files
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName size
+deleterows t StringLiteral InfixExpression SimpleName table
+deleterows t StringLiteral InfixExpression StringLiteral b row e row
+table SimpleName InfixExpression StringLiteral b row e row
+ts SimpleName MethodInvocation SimpleName exec
+ts SimpleName MethodInvocation InfixExpression StringLiteral deleterows t
+ts SimpleName MethodInvocation InfixExpression SimpleName table
+ts SimpleName MethodInvocation InfixExpression StringLiteral b row e row
+exec SimpleName MethodInvocation InfixExpression StringLiteral deleterows t
+exec SimpleName MethodInvocation InfixExpression SimpleName table
+exec SimpleName MethodInvocation InfixExpression StringLiteral b row e row
+count files SimpleName MethodInvocation SimpleName table id
+assert equals SimpleName MethodInvocation NumberLiteral empty
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName count files
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName table id
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName count files
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName table id
+deletetable f StringLiteral InfixExpression SimpleName table
+ts SimpleName MethodInvocation SimpleName exec
+ts SimpleName MethodInvocation InfixExpression StringLiteral deletetable f
+ts SimpleName MethodInvocation InfixExpression SimpleName table
+exec SimpleName MethodInvocation InfixExpression StringLiteral deletetable f
+exec SimpleName MethodInvocation InfixExpression SimpleName table
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName deleterows
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName deleterows
+public Modifier MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+public Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+void PrimitiveType MethodDeclaration SimpleName deleterows
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement Modifier final
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement Modifier final
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+deleterows SimpleName MethodDeclaration SimpleType SimpleName exception
+deleterows SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+deleterows SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+deleterows SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName deleterows
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName deleterows
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

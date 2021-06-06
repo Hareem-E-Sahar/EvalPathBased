@@ -1,0 +1,49 @@
+byte PrimitiveType ArrayType SingleVariableDeclaration SimpleName ba
+sb SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName string builder
+string builder SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName sb
+byte PrimitiveType SingleVariableDeclaration SimpleName b
+b SimpleName InfixExpression NumberLiteral x
+b SimpleName InfixExpression NumberLiteral x e
+char PrimitiveType CastExpression SimpleName b
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation CastExpression PrimitiveType char
+sb SimpleName MethodInvocation CastExpression SimpleName b
+append SimpleName MethodInvocation CastExpression PrimitiveType char
+append SimpleName MethodInvocation CastExpression SimpleName b
+string SimpleName MethodInvocation SimpleName format
+string SimpleName MethodInvocation StringLiteral x x
+string SimpleName MethodInvocation SimpleName b
+format SimpleName MethodInvocation StringLiteral x x
+format SimpleName MethodInvocation SimpleName b
+x x StringLiteral MethodInvocation SimpleName b
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation MethodInvocation SimpleName string
+sb SimpleName MethodInvocation MethodInvocation SimpleName format
+sb SimpleName MethodInvocation MethodInvocation StringLiteral x x
+sb SimpleName MethodInvocation MethodInvocation SimpleName b
+append SimpleName MethodInvocation MethodInvocation SimpleName string
+append SimpleName MethodInvocation MethodInvocation SimpleName format
+append SimpleName MethodInvocation MethodInvocation StringLiteral x x
+append SimpleName MethodInvocation MethodInvocation SimpleName b
+byte PrimitiveType SingleVariableDeclaration EnhancedForStatement SimpleName ba
+b SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName ba
+sb SimpleName MethodInvocation SimpleName to string
+private Modifier MethodDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SimpleName hex dump
+private Modifier MethodDeclaration SingleVariableDeclaration ArrayType PrimitiveType byte
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName ba
+private Modifier MethodDeclaration Block EnhancedForStatement SimpleName ba
+string SimpleName SimpleType MethodDeclaration SimpleName hex dump
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName ba
+hex dump SimpleName MethodDeclaration SingleVariableDeclaration ArrayType PrimitiveType byte
+hex dump SimpleName MethodDeclaration SingleVariableDeclaration SimpleName ba
+hex dump SimpleName MethodDeclaration Block EnhancedForStatement SimpleName ba
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName hex dump
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ba
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName hex dump
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ba

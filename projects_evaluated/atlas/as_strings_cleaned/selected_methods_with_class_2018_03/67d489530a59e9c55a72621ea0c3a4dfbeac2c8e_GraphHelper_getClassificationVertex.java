@@ -1,0 +1,49 @@
+atlas vertex SimpleName SimpleType SingleVariableDeclaration SimpleName entity vertex
+string SimpleName SimpleType SingleVariableDeclaration SimpleName classification name
+atlas vertex SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ret
+get classification edge SimpleName MethodInvocation SimpleName entity vertex
+get classification edge SimpleName MethodInvocation SimpleName classification name
+entity vertex SimpleName MethodInvocation SimpleName classification name
+edge SimpleName VariableDeclarationFragment MethodInvocation SimpleName get classification edge
+edge SimpleName VariableDeclarationFragment MethodInvocation SimpleName entity vertex
+edge SimpleName VariableDeclarationFragment MethodInvocation SimpleName classification name
+atlas edge SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName edge
+edge SimpleName MethodInvocation SimpleName get in vertex
+ret SimpleName Assignment MethodInvocation SimpleName edge
+ret SimpleName Assignment MethodInvocation SimpleName get in vertex
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName atlas vertex
+public Modifier MethodDeclaration SimpleName get classification vertex
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas vertex
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName entity vertex
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName classification name
+static Modifier MethodDeclaration SimpleType SimpleName atlas vertex
+static Modifier MethodDeclaration SimpleName get classification vertex
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas vertex
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName entity vertex
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName classification name
+static Modifier MethodDeclaration Block ReturnStatement SimpleName ret
+atlas vertex SimpleName SimpleType MethodDeclaration SimpleName get classification vertex
+atlas vertex SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName entity vertex
+atlas vertex SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName classification name
+get classification vertex SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas vertex
+get classification vertex SimpleName MethodDeclaration SingleVariableDeclaration SimpleName entity vertex
+get classification vertex SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get classification vertex SimpleName MethodDeclaration SingleVariableDeclaration SimpleName classification name
+get classification vertex SimpleName MethodDeclaration Block ReturnStatement SimpleName ret
+entity vertex SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName classification name
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas vertex
+public Modifier TypeDeclaration MethodDeclaration SimpleName get classification vertex
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity vertex
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName classification name
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas vertex
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get classification vertex
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity vertex
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName classification name

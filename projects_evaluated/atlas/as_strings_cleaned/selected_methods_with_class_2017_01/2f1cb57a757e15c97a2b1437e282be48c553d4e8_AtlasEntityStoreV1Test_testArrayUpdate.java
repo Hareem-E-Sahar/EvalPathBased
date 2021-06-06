@@ -1,0 +1,102 @@
+depends on methods SimpleName MemberValuePair StringLiteral test create
+test SimpleName NormalAnnotation MemberValuePair SimpleName depends on methods
+test SimpleName NormalAnnotation MemberValuePair StringLiteral test create
+atlas entity SimpleName SimpleType ClassInstanceCreation SimpleName entity created
+entity clone SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName atlas entity
+entity clone SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName entity created
+atlas entity SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName entity clone
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas entity
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas entity
+entity clone SimpleName MethodInvocation SimpleName get attribute
+entity clone SimpleName MethodInvocation StringLiteral employees
+get attribute SimpleName MethodInvocation StringLiteral employees
+employees SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName entity clone
+employees SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get attribute
+employees SimpleName VariableDeclarationFragment CastExpression MethodInvocation StringLiteral employees
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas entity
+array list SimpleName SimpleType ParameterizedType ClassInstanceCreation SimpleName employees
+updated employees SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName employees
+clear sub ordinates SimpleName MethodInvocation SimpleName updated employees
+clear sub ordinates SimpleName MethodInvocation NumberLiteral empty
+updated employees SimpleName MethodInvocation NumberLiteral empty
+entity clone SimpleName MethodInvocation SimpleName set attribute
+entity clone SimpleName MethodInvocation StringLiteral employees
+entity clone SimpleName MethodInvocation SimpleName updated employees
+set attribute SimpleName MethodInvocation StringLiteral employees
+set attribute SimpleName MethodInvocation SimpleName updated employees
+employees StringLiteral MethodInvocation SimpleName updated employees
+entity store SimpleName MethodInvocation SimpleName create or update
+entity store SimpleName MethodInvocation SimpleName entity clone
+create or update SimpleName MethodInvocation SimpleName entity clone
+response SimpleName VariableDeclarationFragment MethodInvocation SimpleName entity store
+response SimpleName VariableDeclarationFragment MethodInvocation SimpleName create or update
+response SimpleName VariableDeclarationFragment MethodInvocation SimpleName entity clone
+entity mutation response SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName response
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas entity header
+response SimpleName MethodInvocation SimpleName get entities by operation
+response SimpleName MethodInvocation QualifiedName entity mutationsentity operationupdate
+get entities by operation SimpleName MethodInvocation QualifiedName entity mutationsentity operationupdate
+entities updated SimpleName VariableDeclarationFragment MethodInvocation SimpleName response
+entities updated SimpleName VariableDeclarationFragment MethodInvocation SimpleName get entities by operation
+entities updated SimpleName VariableDeclarationFragment MethodInvocation QualifiedName entity mutationsentity operationupdate
+assert SimpleName MethodInvocation SimpleName assert not null
+assert SimpleName MethodInvocation SimpleName entities updated
+assert not null SimpleName MethodInvocation SimpleName entities updated
+entities updated SimpleName MethodInvocation SimpleName size
+assert SimpleName MethodInvocation SimpleName assert equals
+assert SimpleName MethodInvocation MethodInvocation SimpleName entities updated
+assert SimpleName MethodInvocation MethodInvocation SimpleName size
+assert SimpleName MethodInvocation NumberLiteral empty
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName entities updated
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName size
+assert equals SimpleName MethodInvocation NumberLiteral empty
+entities updated SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+size SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+entities updated SimpleName MethodInvocation SimpleName get
+entities updated SimpleName MethodInvocation NumberLiteral empty
+get SimpleName MethodInvocation NumberLiteral empty
+dept entity SimpleName VariableDeclarationFragment MethodInvocation SimpleName entities updated
+dept entity SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+dept entity SimpleName VariableDeclarationFragment MethodInvocation NumberLiteral empty
+atlas entity header SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName dept entity
+dept entity SimpleName MethodInvocation SimpleName get guid
+metadata service SimpleName MethodInvocation SimpleName get entity definition
+metadata service SimpleName MethodInvocation MethodInvocation SimpleName dept entity
+metadata service SimpleName MethodInvocation MethodInvocation SimpleName get guid
+get entity definition SimpleName MethodInvocation MethodInvocation SimpleName dept entity
+get entity definition SimpleName MethodInvocation MethodInvocation SimpleName get guid
+instance SimpleName VariableDeclarationFragment MethodInvocation SimpleName metadata service
+instance SimpleName VariableDeclarationFragment MethodInvocation SimpleName get entity definition
+instance SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName dept entity
+instance SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get guid
+i typed referenceable instance SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName instance
+assert attributes SimpleName MethodInvocation SimpleName dept entity
+assert attributes SimpleName MethodInvocation SimpleName instance
+dept entity SimpleName MethodInvocation SimpleName instance
+test SimpleName NormalAnnotation MethodDeclaration Modifier public
+depends on methods SimpleName MemberValuePair NormalAnnotation MethodDeclaration Modifier public
+test create StringLiteral MemberValuePair NormalAnnotation MethodDeclaration Modifier public
+test SimpleName NormalAnnotation MethodDeclaration PrimitiveType void
+depends on methods SimpleName MemberValuePair NormalAnnotation MethodDeclaration PrimitiveType void
+test create StringLiteral MemberValuePair NormalAnnotation MethodDeclaration PrimitiveType void
+test SimpleName NormalAnnotation MethodDeclaration SimpleName test array update
+depends on methods SimpleName MemberValuePair NormalAnnotation MethodDeclaration SimpleName test array update
+test create StringLiteral MemberValuePair NormalAnnotation MethodDeclaration SimpleName test array update
+test SimpleName NormalAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test array update
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName test array update
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+test array update SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration NormalAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test array update
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration NormalAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test array update
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

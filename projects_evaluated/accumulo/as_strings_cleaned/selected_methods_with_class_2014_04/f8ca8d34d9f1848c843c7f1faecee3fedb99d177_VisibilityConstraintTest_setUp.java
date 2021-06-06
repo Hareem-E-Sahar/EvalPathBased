@@ -1,0 +1,68 @@
+vc SimpleName Assignment ClassInstanceCreation SimpleType SimpleName visibility constraint
+mutation SimpleName SimpleType ClassInstanceCreation StringLiteral r
+mutation SimpleName Assignment ClassInstanceCreation SimpleType SimpleName mutation
+mutation SimpleName Assignment ClassInstanceCreation StringLiteral r
+good StringLiteral MethodInvocation SimpleName get bytes
+good StringLiteral MethodInvocation QualifiedName standard charsetsutf
+get bytes SimpleName MethodInvocation QualifiedName standard charsetsutf
+array byte sequence SimpleName SimpleType ClassInstanceCreation MethodInvocation StringLiteral good
+array byte sequence SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get bytes
+array byte sequence SimpleName SimpleType ClassInstanceCreation MethodInvocation QualifiedName standard charsetsutf
+bs SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName array byte sequence
+bs SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation StringLiteral good
+bs SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get bytes
+bs SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation QualifiedName standard charsetsutf
+array byte sequence SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName bs
+create nice mock SimpleName MethodInvocation TypeLiteral SimpleType SimpleName authorization container
+ac SimpleName VariableDeclarationFragment MethodInvocation SimpleName create nice mock
+authorization container SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ac
+ac SimpleName MethodInvocation SimpleName contains
+ac SimpleName MethodInvocation SimpleName bs
+contains SimpleName MethodInvocation SimpleName bs
+expect SimpleName MethodInvocation MethodInvocation SimpleName ac
+expect SimpleName MethodInvocation MethodInvocation SimpleName contains
+expect SimpleName MethodInvocation MethodInvocation SimpleName bs
+expect SimpleName MethodInvocation MethodInvocation SimpleName and return
+ac SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName and return
+contains SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName and return
+bs SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName and return
+expect SimpleName MethodInvocation MethodInvocation BooleanLiteral true
+ac SimpleName MethodInvocation MethodInvocation MethodInvocation BooleanLiteral true
+contains SimpleName MethodInvocation MethodInvocation MethodInvocation BooleanLiteral true
+bs SimpleName MethodInvocation MethodInvocation MethodInvocation BooleanLiteral true
+and return SimpleName MethodInvocation BooleanLiteral true
+replay SimpleName MethodInvocation SimpleName ac
+create mock SimpleName MethodInvocation TypeLiteral SimpleType SimpleName environment
+env SimpleName Assignment MethodInvocation SimpleName create mock
+env SimpleName MethodInvocation SimpleName get authorizations container
+expect SimpleName MethodInvocation MethodInvocation SimpleName env
+expect SimpleName MethodInvocation MethodInvocation SimpleName get authorizations container
+expect SimpleName MethodInvocation MethodInvocation SimpleName and return
+env SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName and return
+get authorizations container SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName and return
+expect SimpleName MethodInvocation MethodInvocation SimpleName ac
+env SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName ac
+get authorizations container SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName ac
+and return SimpleName MethodInvocation SimpleName ac
+replay SimpleName MethodInvocation SimpleName env
+before SimpleName MarkerAnnotation MethodDeclaration Modifier public
+before SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+before SimpleName MarkerAnnotation MethodDeclaration SimpleName set up
+before SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set up
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName set up
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+set up SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName before
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set up
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName before
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set up
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

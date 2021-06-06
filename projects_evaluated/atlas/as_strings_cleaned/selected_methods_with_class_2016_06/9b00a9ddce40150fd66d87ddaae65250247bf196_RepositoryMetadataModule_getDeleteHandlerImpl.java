@@ -1,0 +1,32 @@
+configuration SimpleName SimpleType SingleVariableDeclaration SimpleName configuration
+soft delete handler SimpleName SimpleType TypeLiteral MethodInvocation SimpleName get name
+application properties SimpleName MethodInvocation SimpleName get class
+application properties SimpleName MethodInvocation SimpleName configuration
+application properties SimpleName MethodInvocation SimpleName delete handler implementation property
+application properties SimpleName MethodInvocation MethodInvocation SimpleName get name
+application properties SimpleName MethodInvocation TypeLiteral SimpleType SimpleName delete handler
+get class SimpleName MethodInvocation SimpleName configuration
+get class SimpleName MethodInvocation SimpleName delete handler implementation property
+get class SimpleName MethodInvocation MethodInvocation SimpleName get name
+get class SimpleName MethodInvocation TypeLiteral SimpleType SimpleName delete handler
+configuration SimpleName MethodInvocation SimpleName delete handler implementation property
+configuration SimpleName MethodInvocation MethodInvocation SimpleName get name
+configuration SimpleName MethodInvocation TypeLiteral SimpleType SimpleName delete handler
+delete handler implementation property SimpleName MethodInvocation MethodInvocation SimpleName get name
+delete handler implementation property SimpleName MethodInvocation TypeLiteral SimpleType SimpleName delete handler
+atlas exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+runtime exception SimpleName SimpleType ClassInstanceCreation SimpleName e
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName class
+private Modifier MethodDeclaration SimpleName get delete handler impl
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName configuration
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName configuration
+class SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get delete handler impl
+get delete handler impl SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName configuration
+get delete handler impl SimpleName MethodDeclaration SingleVariableDeclaration SimpleName configuration
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleName get delete handler impl
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName configuration
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get delete handler impl
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName configuration

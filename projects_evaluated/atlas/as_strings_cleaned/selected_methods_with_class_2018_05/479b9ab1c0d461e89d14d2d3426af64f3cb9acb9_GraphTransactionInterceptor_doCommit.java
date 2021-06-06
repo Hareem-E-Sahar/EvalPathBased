@@ -1,0 +1,58 @@
+final Modifier SingleVariableDeclaration SimpleType SimpleName string
+final Modifier SingleVariableDeclaration SimpleName invoking class
+string SimpleName SimpleType SingleVariableDeclaration SimpleName invoking class
+final Modifier SingleVariableDeclaration SimpleType SimpleName string
+final Modifier SingleVariableDeclaration SimpleName invoked method name
+string SimpleName SimpleType SingleVariableDeclaration SimpleName invoked method name
+graph SimpleName MethodInvocation SimpleName commit
+log SimpleName MethodInvocation SimpleName is debug enabled
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral graph commit txn {}.{}
+log SimpleName MethodInvocation SimpleName invoking class
+log SimpleName MethodInvocation SimpleName invoked method name
+debug SimpleName MethodInvocation StringLiteral graph commit txn {}.{}
+debug SimpleName MethodInvocation SimpleName invoking class
+debug SimpleName MethodInvocation SimpleName invoked method name
+graph commit txn {}.{} StringLiteral MethodInvocation SimpleName invoking class
+graph commit txn {}.{} StringLiteral MethodInvocation SimpleName invoked method name
+invoking class SimpleName MethodInvocation SimpleName invoked method name
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName do commit
+private Modifier MethodDeclaration SingleVariableDeclaration Modifier final
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName invoking class
+private Modifier MethodDeclaration SingleVariableDeclaration Modifier final
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName invoked method name
+void PrimitiveType MethodDeclaration SimpleName do commit
+void PrimitiveType MethodDeclaration SingleVariableDeclaration Modifier final
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName invoking class
+void PrimitiveType MethodDeclaration SingleVariableDeclaration Modifier final
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName invoked method name
+do commit SimpleName MethodDeclaration SingleVariableDeclaration Modifier final
+do commit SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+do commit SimpleName MethodDeclaration SingleVariableDeclaration SimpleName invoking class
+do commit SimpleName MethodDeclaration SingleVariableDeclaration Modifier final
+do commit SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+do commit SimpleName MethodDeclaration SingleVariableDeclaration SimpleName invoked method name
+final Modifier SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+final Modifier SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName invoked method name
+invoking class SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+invoking class SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName invoked method name
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName do commit
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName invoking class
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName invoked method name
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName do commit
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName invoking class
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName invoked method name

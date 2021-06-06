@@ -1,0 +1,79 @@
+pair SimpleName SimpleType ParameterizedType SimpleType SimpleName text
+pair SimpleName SimpleType ParameterizedType SimpleType SimpleName key extent
+text SimpleName SimpleType ParameterizedType SimpleType SimpleName key extent
+key extent SimpleName SimpleType SingleVariableDeclaration SimpleName extent
+t server instance SimpleName SimpleType SingleVariableDeclaration SimpleName instance
+store SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName zoo tablet state store
+zoo tablet state store SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName store
+store SimpleName MethodInvocation SimpleName iterator
+store SimpleName MethodInvocation MethodInvocation SimpleName has next
+iterator SimpleName MethodInvocation MethodInvocation SimpleName has next
+accumulo exception SimpleName SimpleType ClassInstanceCreation StringLiteral illegal state location is not set in zookeeper
+store SimpleName MethodInvocation SimpleName iterator
+store SimpleName MethodInvocation MethodInvocation SimpleName next
+iterator SimpleName MethodInvocation MethodInvocation SimpleName next
+next SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName store
+next SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName iterator
+next SimpleName VariableDeclarationFragment MethodInvocation SimpleName next
+tablet location state SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName next
+instance SimpleName MethodInvocation SimpleName equals
+instance SimpleName MethodInvocation QualifiedName nextfuture
+equals SimpleName MethodInvocation QualifiedName nextfuture
+accumulo exception SimpleName SimpleType ClassInstanceCreation StringLiteral future location is not to this server for the root tablet
+accumulo exception SimpleName SimpleType ClassInstanceCreation StringLiteral root tablet already has a location set
+pair SimpleName SimpleType ParameterizedType SimpleType SimpleName text
+pair SimpleName SimpleType ParameterizedType SimpleType SimpleName key extent
+text SimpleName SimpleType ParameterizedType SimpleType SimpleName key extent
+metadata table util SimpleName MethodInvocation SimpleName get root tablet dir
+text SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName metadata table util
+text SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get root tablet dir
+io exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+accumulo exception SimpleName SimpleType ClassInstanceCreation SimpleName e
+private Modifier MethodDeclaration Modifier static
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName pair
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName text
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName key extent
+private Modifier MethodDeclaration SimpleName verify root tablet
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName key extent
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName extent
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName t server instance
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName instance
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName pair
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName text
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName key extent
+static Modifier MethodDeclaration SimpleName verify root tablet
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName key extent
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName extent
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName t server instance
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName instance
+static Modifier MethodDeclaration SimpleType SimpleName distributed store exception
+pair SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName verify root tablet
+text SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName verify root tablet
+key extent SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName verify root tablet
+verify root tablet SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName key extent
+verify root tablet SimpleName MethodDeclaration SingleVariableDeclaration SimpleName extent
+verify root tablet SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName t server instance
+verify root tablet SimpleName MethodDeclaration SingleVariableDeclaration SimpleName instance
+verify root tablet SimpleName MethodDeclaration SimpleType SimpleName distributed store exception
+verify root tablet SimpleName MethodDeclaration SimpleType SimpleName accumulo exception
+extent SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName instance
+extent SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName distributed store exception
+extent SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+instance SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName distributed store exception
+instance SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+distributed store exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName accumulo exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleName verify root tablet
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName extent
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName instance
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName distributed store exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleName verify root tablet
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName extent
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName instance
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName distributed store exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo exception

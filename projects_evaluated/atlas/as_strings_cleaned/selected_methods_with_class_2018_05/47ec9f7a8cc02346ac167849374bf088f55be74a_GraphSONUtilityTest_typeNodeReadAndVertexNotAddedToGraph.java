@@ -1,0 +1,56 @@
+entity node SimpleName VariableDeclarationFragment MethodInvocation SimpleName get db type
+json node SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName entity node
+tinker graph SimpleName MethodInvocation SimpleName open
+tg SimpleName VariableDeclarationFragment MethodInvocation SimpleName tinker graph
+tg SimpleName VariableDeclarationFragment MethodInvocation SimpleName open
+tinker graph SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName tg
+graph son utility SimpleName SimpleType ClassInstanceCreation SimpleName empty relationship cache
+gu SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName graph son utility
+gu SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName empty relationship cache
+graph son utility SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName gu
+gu SimpleName MethodInvocation SimpleName vertex from json
+gu SimpleName MethodInvocation SimpleName tg
+gu SimpleName MethodInvocation SimpleName entity node
+vertex from json SimpleName MethodInvocation SimpleName tg
+vertex from json SimpleName MethodInvocation SimpleName entity node
+tg SimpleName MethodInvocation SimpleName entity node
+tg SimpleName MethodInvocation SimpleName traversal
+tg SimpleName MethodInvocation MethodInvocation SimpleName v
+traversal SimpleName MethodInvocation MethodInvocation SimpleName v
+tg SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName count
+traversal SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName count
+v SimpleName MethodInvocation MethodInvocation SimpleName count
+v SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName next
+count SimpleName MethodInvocation MethodInvocation SimpleName next
+long PrimitiveType CastExpression MethodInvocation MethodInvocation SimpleName count
+long PrimitiveType CastExpression MethodInvocation SimpleName next
+assert SimpleName MethodInvocation SimpleName assert equals
+assert SimpleName MethodInvocation CastExpression PrimitiveType long
+assert SimpleName MethodInvocation CastExpression MethodInvocation SimpleName next
+assert SimpleName MethodInvocation NumberLiteral l
+assert equals SimpleName MethodInvocation CastExpression PrimitiveType long
+assert equals SimpleName MethodInvocation CastExpression MethodInvocation SimpleName next
+assert equals SimpleName MethodInvocation NumberLiteral l
+long PrimitiveType CastExpression MethodInvocation NumberLiteral l
+next SimpleName MethodInvocation CastExpression MethodInvocation NumberLiteral l
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName type node read and vertex not added to graph
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName io exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName type node read and vertex not added to graph
+public Modifier MethodDeclaration SimpleType SimpleName io exception
+void PrimitiveType MethodDeclaration SimpleName type node read and vertex not added to graph
+void PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+type node read and vertex not added to graph SimpleName MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName type node read and vertex not added to graph
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName type node read and vertex not added to graph
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

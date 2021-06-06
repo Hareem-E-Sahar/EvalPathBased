@@ -1,0 +1,111 @@
+simple reader SimpleName SimpleType SingleVariableDeclaration SimpleName in
+old read bytes SimpleName MethodInvocation SimpleName in
+cf SimpleName VariableDeclarationFragment MethodInvocation SimpleName old read bytes
+cf SimpleName VariableDeclarationFragment MethodInvocation SimpleName in
+byte PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName cf
+old read bytes SimpleName MethodInvocation SimpleName in
+cq SimpleName VariableDeclarationFragment MethodInvocation SimpleName old read bytes
+cq SimpleName VariableDeclarationFragment MethodInvocation SimpleName in
+byte PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName cq
+old read bytes SimpleName MethodInvocation SimpleName in
+cv SimpleName VariableDeclarationFragment MethodInvocation SimpleName old read bytes
+cv SimpleName VariableDeclarationFragment MethodInvocation SimpleName in
+byte PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName cv
+in SimpleName MethodInvocation SimpleName read boolean
+hasts SimpleName VariableDeclarationFragment MethodInvocation SimpleName in
+hasts SimpleName VariableDeclarationFragment MethodInvocation SimpleName read boolean
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName hasts
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName in
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName read boolean
+in SimpleName MethodInvocation SimpleName read long
+ts SimpleName VariableDeclarationFragment MethodInvocation SimpleName in
+ts SimpleName VariableDeclarationFragment MethodInvocation SimpleName read long
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName ts
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName in
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName read long
+in SimpleName MethodInvocation SimpleName read boolean
+deleted SimpleName VariableDeclarationFragment MethodInvocation SimpleName in
+deleted SimpleName VariableDeclarationFragment MethodInvocation SimpleName read boolean
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName deleted
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName in
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName read boolean
+byte PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName val
+in SimpleName MethodInvocation SimpleName read int
+val len SimpleName VariableDeclarationFragment MethodInvocation SimpleName in
+val len SimpleName VariableDeclarationFragment MethodInvocation SimpleName read int
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName val len
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName in
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName read int
+val len SimpleName InfixExpression NumberLiteral empty
+empty NumberLiteral PrefixExpression InfixExpression SimpleName val len
+val len SimpleName InfixExpression ParenthesizedExpression InfixExpression NumberLiteral empty
+values SimpleName MethodInvocation SimpleName get
+values SimpleName MethodInvocation InfixExpression NumberLiteral empty
+get SimpleName MethodInvocation InfixExpression NumberLiteral empty
+val SimpleName Assignment MethodInvocation SimpleName values
+val SimpleName Assignment MethodInvocation SimpleName get
+val SimpleName Assignment MethodInvocation InfixExpression NumberLiteral empty
+val len SimpleName InfixExpression NumberLiteral empty
+val SimpleName Assignment SimpleName empty bytes
+byte PrimitiveType ArrayType ArrayCreation SimpleName val len
+val SimpleName Assignment ArrayCreation ArrayType PrimitiveType byte
+val SimpleName Assignment ArrayCreation SimpleName val len
+in SimpleName MethodInvocation SimpleName read bytes
+in SimpleName MethodInvocation SimpleName val
+read bytes SimpleName MethodInvocation SimpleName val
+new column update SimpleName MethodInvocation SimpleName cf
+new column update SimpleName MethodInvocation SimpleName cq
+new column update SimpleName MethodInvocation SimpleName cv
+new column update SimpleName MethodInvocation SimpleName hasts
+new column update SimpleName MethodInvocation SimpleName ts
+cf SimpleName MethodInvocation SimpleName cq
+cf SimpleName MethodInvocation SimpleName cv
+cf SimpleName MethodInvocation SimpleName hasts
+cf SimpleName MethodInvocation SimpleName ts
+cf SimpleName MethodInvocation SimpleName deleted
+cq SimpleName MethodInvocation SimpleName cv
+cq SimpleName MethodInvocation SimpleName hasts
+cq SimpleName MethodInvocation SimpleName ts
+cq SimpleName MethodInvocation SimpleName deleted
+cq SimpleName MethodInvocation SimpleName val
+cv SimpleName MethodInvocation SimpleName hasts
+cv SimpleName MethodInvocation SimpleName ts
+cv SimpleName MethodInvocation SimpleName deleted
+cv SimpleName MethodInvocation SimpleName val
+hasts SimpleName MethodInvocation SimpleName ts
+hasts SimpleName MethodInvocation SimpleName deleted
+hasts SimpleName MethodInvocation SimpleName val
+ts SimpleName MethodInvocation SimpleName deleted
+ts SimpleName MethodInvocation SimpleName val
+deleted SimpleName MethodInvocation SimpleName val
+boolean PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType long
+boolean PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType boolean
+boolean PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+long PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType boolean
+long PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+boolean PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+private Modifier MethodDeclaration SimpleType SimpleName column update
+private Modifier MethodDeclaration SimpleName old deserialize column update
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName simple reader
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName in
+private Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+private Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+private Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+private Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+column update SimpleName SimpleType MethodDeclaration SimpleName old deserialize column update
+column update SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName in
+old deserialize column update SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName simple reader
+old deserialize column update SimpleName MethodDeclaration SingleVariableDeclaration SimpleName in
+old deserialize column update SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+old deserialize column update SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+old deserialize column update SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+old deserialize column update SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName column update
+public Modifier TypeDeclaration MethodDeclaration SimpleName old deserialize column update
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName in
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName column update
+test SimpleName TypeDeclaration MethodDeclaration SimpleName old deserialize column update
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName in

@@ -1,0 +1,31 @@
+runtime exception SimpleName SimpleType ClassInstanceCreation StringLiteral calling close deep copies on a deep copy is not supported
+deep copy SimpleName IfStatement ThrowStatement ClassInstanceCreation StringLiteral calling close deep copies on a deep copy is not supported
+reader SimpleName SimpleType SingleVariableDeclaration SimpleName deep copy
+deep copy SimpleName MethodInvocation SimpleName close locality group readers
+reader SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName deep copies
+deep copy SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName deep copies
+deep copies SimpleName EnhancedForStatement ExpressionStatement MethodInvocation SimpleName deep copy
+deep copies SimpleName EnhancedForStatement ExpressionStatement MethodInvocation SimpleName close locality group readers
+deep copies SimpleName MethodInvocation SimpleName clear
+deep copy SimpleName IfStatement Block EnhancedForStatement SimpleName deep copies
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName close deep copies
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName close deep copies
+public Modifier MethodDeclaration Block IfStatement SimpleName deep copy
+public Modifier MethodDeclaration Block EnhancedForStatement SimpleName deep copies
+void PrimitiveType MethodDeclaration SimpleName close deep copies
+void PrimitiveType MethodDeclaration Block IfStatement SimpleName deep copy
+void PrimitiveType MethodDeclaration Block EnhancedForStatement SimpleName deep copies
+close deep copies SimpleName MethodDeclaration Block IfStatement SimpleName deep copy
+close deep copies SimpleName MethodDeclaration Block EnhancedForStatement SimpleName deep copies
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName close deep copies
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName close deep copies

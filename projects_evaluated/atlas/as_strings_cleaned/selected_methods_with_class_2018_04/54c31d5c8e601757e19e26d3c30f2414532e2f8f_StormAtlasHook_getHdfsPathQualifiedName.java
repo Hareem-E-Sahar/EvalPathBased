@@ -1,0 +1,51 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName cluster name
+string SimpleName SimpleType SingleVariableDeclaration SimpleName hdfs path
+hdfs path SimpleName MethodInvocation SimpleName to lower case
+string SimpleName MethodInvocation SimpleName format
+string SimpleName MethodInvocation StringLiteral ss
+string SimpleName MethodInvocation MethodInvocation SimpleName hdfs path
+string SimpleName MethodInvocation MethodInvocation SimpleName to lower case
+string SimpleName MethodInvocation SimpleName cluster name
+format SimpleName MethodInvocation StringLiteral ss
+format SimpleName MethodInvocation MethodInvocation SimpleName hdfs path
+format SimpleName MethodInvocation MethodInvocation SimpleName to lower case
+format SimpleName MethodInvocation SimpleName cluster name
+ss StringLiteral MethodInvocation MethodInvocation SimpleName hdfs path
+ss StringLiteral MethodInvocation MethodInvocation SimpleName to lower case
+ss StringLiteral MethodInvocation SimpleName cluster name
+hdfs path SimpleName MethodInvocation MethodInvocation SimpleName cluster name
+to lower case SimpleName MethodInvocation MethodInvocation SimpleName cluster name
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName get hdfs path qualified name
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName cluster name
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName hdfs path
+static Modifier MethodDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SimpleName get hdfs path qualified name
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName cluster name
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName hdfs path
+string SimpleName SimpleType MethodDeclaration SimpleName get hdfs path qualified name
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName cluster name
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName hdfs path
+get hdfs path qualified name SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get hdfs path qualified name SimpleName MethodDeclaration SingleVariableDeclaration SimpleName cluster name
+get hdfs path qualified name SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get hdfs path qualified name SimpleName MethodDeclaration SingleVariableDeclaration SimpleName hdfs path
+cluster name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName hdfs path
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName get hdfs path qualified name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cluster name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName hdfs path
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get hdfs path qualified name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cluster name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName hdfs path

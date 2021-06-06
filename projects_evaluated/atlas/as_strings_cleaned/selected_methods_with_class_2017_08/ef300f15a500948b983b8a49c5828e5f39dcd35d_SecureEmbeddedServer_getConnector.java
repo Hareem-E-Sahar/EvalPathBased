@@ -1,0 +1,308 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName host
+int PrimitiveType SingleVariableDeclaration SimpleName port
+config SimpleName VariableDeclarationFragment MethodInvocation SimpleName get configuration
+orgapachecommonsconfigurationconfiguration QualifiedName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName config
+ssl context factory SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName ssl context factory
+ssl context factory SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ssl context factory
+system SimpleName MethodInvocation SimpleName get property
+system SimpleName MethodInvocation SimpleName keystore file key
+system SimpleName MethodInvocation SimpleName default keystore file location
+get property SimpleName MethodInvocation SimpleName keystore file key
+get property SimpleName MethodInvocation SimpleName default keystore file location
+keystore file key SimpleName MethodInvocation SimpleName default keystore file location
+config SimpleName MethodInvocation SimpleName get string
+config SimpleName MethodInvocation SimpleName keystore file key
+config SimpleName MethodInvocation MethodInvocation SimpleName system
+config SimpleName MethodInvocation MethodInvocation SimpleName get property
+config SimpleName MethodInvocation MethodInvocation SimpleName keystore file key
+config SimpleName MethodInvocation MethodInvocation SimpleName default keystore file location
+get string SimpleName MethodInvocation SimpleName keystore file key
+get string SimpleName MethodInvocation MethodInvocation SimpleName system
+get string SimpleName MethodInvocation MethodInvocation SimpleName get property
+get string SimpleName MethodInvocation MethodInvocation SimpleName keystore file key
+get string SimpleName MethodInvocation MethodInvocation SimpleName default keystore file location
+keystore file key SimpleName MethodInvocation MethodInvocation SimpleName system
+keystore file key SimpleName MethodInvocation MethodInvocation SimpleName get property
+keystore file key SimpleName MethodInvocation MethodInvocation SimpleName keystore file key
+keystore file key SimpleName MethodInvocation MethodInvocation SimpleName default keystore file location
+ssl context factory SimpleName MethodInvocation SimpleName set key store path
+ssl context factory SimpleName MethodInvocation MethodInvocation SimpleName config
+ssl context factory SimpleName MethodInvocation MethodInvocation SimpleName get string
+ssl context factory SimpleName MethodInvocation MethodInvocation SimpleName keystore file key
+ssl context factory SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName system
+ssl context factory SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get property
+ssl context factory SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName keystore file key
+ssl context factory SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName default keystore file location
+set key store path SimpleName MethodInvocation MethodInvocation SimpleName config
+set key store path SimpleName MethodInvocation MethodInvocation SimpleName get string
+set key store path SimpleName MethodInvocation MethodInvocation SimpleName keystore file key
+set key store path SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName system
+set key store path SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get property
+set key store path SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName keystore file key
+set key store path SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName default keystore file location
+get password SimpleName MethodInvocation SimpleName config
+get password SimpleName MethodInvocation SimpleName keystore password key
+config SimpleName MethodInvocation SimpleName keystore password key
+ssl context factory SimpleName MethodInvocation SimpleName set key store password
+ssl context factory SimpleName MethodInvocation MethodInvocation SimpleName get password
+ssl context factory SimpleName MethodInvocation MethodInvocation SimpleName config
+ssl context factory SimpleName MethodInvocation MethodInvocation SimpleName keystore password key
+set key store password SimpleName MethodInvocation MethodInvocation SimpleName get password
+set key store password SimpleName MethodInvocation MethodInvocation SimpleName config
+set key store password SimpleName MethodInvocation MethodInvocation SimpleName keystore password key
+get password SimpleName MethodInvocation SimpleName config
+get password SimpleName MethodInvocation SimpleName server cert password key
+config SimpleName MethodInvocation SimpleName server cert password key
+ssl context factory SimpleName MethodInvocation SimpleName set key manager password
+ssl context factory SimpleName MethodInvocation MethodInvocation SimpleName get password
+ssl context factory SimpleName MethodInvocation MethodInvocation SimpleName config
+ssl context factory SimpleName MethodInvocation MethodInvocation SimpleName server cert password key
+set key manager password SimpleName MethodInvocation MethodInvocation SimpleName get password
+set key manager password SimpleName MethodInvocation MethodInvocation SimpleName config
+set key manager password SimpleName MethodInvocation MethodInvocation SimpleName server cert password key
+system SimpleName MethodInvocation SimpleName get property
+system SimpleName MethodInvocation SimpleName truststore file key
+system SimpleName MethodInvocation SimpleName defatult trustore file location
+get property SimpleName MethodInvocation SimpleName truststore file key
+get property SimpleName MethodInvocation SimpleName defatult trustore file location
+truststore file key SimpleName MethodInvocation SimpleName defatult trustore file location
+config SimpleName MethodInvocation SimpleName get string
+config SimpleName MethodInvocation SimpleName truststore file key
+config SimpleName MethodInvocation MethodInvocation SimpleName system
+config SimpleName MethodInvocation MethodInvocation SimpleName get property
+config SimpleName MethodInvocation MethodInvocation SimpleName truststore file key
+config SimpleName MethodInvocation MethodInvocation SimpleName defatult trustore file location
+get string SimpleName MethodInvocation SimpleName truststore file key
+get string SimpleName MethodInvocation MethodInvocation SimpleName system
+get string SimpleName MethodInvocation MethodInvocation SimpleName get property
+get string SimpleName MethodInvocation MethodInvocation SimpleName truststore file key
+get string SimpleName MethodInvocation MethodInvocation SimpleName defatult trustore file location
+truststore file key SimpleName MethodInvocation MethodInvocation SimpleName system
+truststore file key SimpleName MethodInvocation MethodInvocation SimpleName get property
+truststore file key SimpleName MethodInvocation MethodInvocation SimpleName truststore file key
+truststore file key SimpleName MethodInvocation MethodInvocation SimpleName defatult trustore file location
+ssl context factory SimpleName MethodInvocation SimpleName set trust store path
+ssl context factory SimpleName MethodInvocation MethodInvocation SimpleName config
+ssl context factory SimpleName MethodInvocation MethodInvocation SimpleName get string
+ssl context factory SimpleName MethodInvocation MethodInvocation SimpleName truststore file key
+ssl context factory SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName system
+ssl context factory SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get property
+ssl context factory SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName truststore file key
+ssl context factory SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName defatult trustore file location
+set trust store path SimpleName MethodInvocation MethodInvocation SimpleName config
+set trust store path SimpleName MethodInvocation MethodInvocation SimpleName get string
+set trust store path SimpleName MethodInvocation MethodInvocation SimpleName truststore file key
+set trust store path SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName system
+set trust store path SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get property
+set trust store path SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName truststore file key
+set trust store path SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName defatult trustore file location
+get password SimpleName MethodInvocation SimpleName config
+get password SimpleName MethodInvocation SimpleName truststore password key
+config SimpleName MethodInvocation SimpleName truststore password key
+ssl context factory SimpleName MethodInvocation SimpleName set trust store password
+ssl context factory SimpleName MethodInvocation MethodInvocation SimpleName get password
+ssl context factory SimpleName MethodInvocation MethodInvocation SimpleName config
+ssl context factory SimpleName MethodInvocation MethodInvocation SimpleName truststore password key
+set trust store password SimpleName MethodInvocation MethodInvocation SimpleName get password
+set trust store password SimpleName MethodInvocation MethodInvocation SimpleName config
+set trust store password SimpleName MethodInvocation MethodInvocation SimpleName truststore password key
+boolean SimpleName MethodInvocation SimpleName get boolean
+boolean SimpleName MethodInvocation SimpleName client auth key
+get boolean SimpleName MethodInvocation SimpleName client auth key
+config SimpleName MethodInvocation SimpleName get boolean
+config SimpleName MethodInvocation SimpleName client auth key
+config SimpleName MethodInvocation MethodInvocation SimpleName boolean
+config SimpleName MethodInvocation MethodInvocation SimpleName get boolean
+config SimpleName MethodInvocation MethodInvocation SimpleName client auth key
+get boolean SimpleName MethodInvocation SimpleName client auth key
+get boolean SimpleName MethodInvocation MethodInvocation SimpleName boolean
+get boolean SimpleName MethodInvocation MethodInvocation SimpleName get boolean
+get boolean SimpleName MethodInvocation MethodInvocation SimpleName client auth key
+client auth key SimpleName MethodInvocation MethodInvocation SimpleName boolean
+client auth key SimpleName MethodInvocation MethodInvocation SimpleName get boolean
+client auth key SimpleName MethodInvocation MethodInvocation SimpleName client auth key
+ssl context factory SimpleName MethodInvocation SimpleName set want client auth
+ssl context factory SimpleName MethodInvocation MethodInvocation SimpleName config
+ssl context factory SimpleName MethodInvocation MethodInvocation SimpleName get boolean
+ssl context factory SimpleName MethodInvocation MethodInvocation SimpleName client auth key
+ssl context factory SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName boolean
+ssl context factory SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get boolean
+ssl context factory SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName client auth key
+set want client auth SimpleName MethodInvocation MethodInvocation SimpleName config
+set want client auth SimpleName MethodInvocation MethodInvocation SimpleName get boolean
+set want client auth SimpleName MethodInvocation MethodInvocation SimpleName client auth key
+set want client auth SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName boolean
+set want client auth SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get boolean
+set want client auth SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName client auth key
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+config SimpleName MethodInvocation SimpleName get list
+config SimpleName MethodInvocation SimpleName atlas ssl exclude cipher suites
+config SimpleName MethodInvocation SimpleName default cipher suites
+get list SimpleName MethodInvocation SimpleName atlas ssl exclude cipher suites
+get list SimpleName MethodInvocation SimpleName default cipher suites
+atlas ssl exclude cipher suites SimpleName MethodInvocation SimpleName default cipher suites
+cipher list SimpleName VariableDeclarationFragment MethodInvocation SimpleName config
+cipher list SimpleName VariableDeclarationFragment MethodInvocation SimpleName get list
+cipher list SimpleName VariableDeclarationFragment MethodInvocation SimpleName atlas ssl exclude cipher suites
+cipher list SimpleName VariableDeclarationFragment MethodInvocation SimpleName default cipher suites
+cipher list SimpleName MethodInvocation SimpleName size
+cipher list SimpleName MethodInvocation SimpleName to array
+cipher list SimpleName MethodInvocation ArrayCreation MethodInvocation SimpleName cipher list
+cipher list SimpleName MethodInvocation ArrayCreation MethodInvocation SimpleName size
+to array SimpleName MethodInvocation ArrayCreation MethodInvocation SimpleName cipher list
+to array SimpleName MethodInvocation ArrayCreation MethodInvocation SimpleName size
+ssl context factory SimpleName MethodInvocation SimpleName set exclude cipher suites
+ssl context factory SimpleName MethodInvocation MethodInvocation SimpleName cipher list
+ssl context factory SimpleName MethodInvocation MethodInvocation SimpleName to array
+set exclude cipher suites SimpleName MethodInvocation MethodInvocation SimpleName cipher list
+set exclude cipher suites SimpleName MethodInvocation MethodInvocation SimpleName to array
+ssl context factory SimpleName MethodInvocation SimpleName set renegotiation allowed
+ssl context factory SimpleName MethodInvocation BooleanLiteral false
+set renegotiation allowed SimpleName MethodInvocation BooleanLiteral false
+config SimpleName MethodInvocation SimpleName contains key
+config SimpleName MethodInvocation SimpleName atlas ssl exclude protocols
+contains key SimpleName MethodInvocation SimpleName atlas ssl exclude protocols
+config SimpleName MethodInvocation SimpleName get string array
+config SimpleName MethodInvocation SimpleName atlas ssl exclude protocols
+get string array SimpleName MethodInvocation SimpleName atlas ssl exclude protocols
+config SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName config
+config SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName get string array
+config SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName atlas ssl exclude protocols
+contains key SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName config
+contains key SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName get string array
+contains key SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName atlas ssl exclude protocols
+atlas ssl exclude protocols SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName config
+atlas ssl exclude protocols SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName get string array
+atlas ssl exclude protocols SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName atlas ssl exclude protocols
+config SimpleName MethodInvocation ConditionalExpression SimpleName default exclude protocols
+contains key SimpleName MethodInvocation ConditionalExpression SimpleName default exclude protocols
+atlas ssl exclude protocols SimpleName MethodInvocation ConditionalExpression SimpleName default exclude protocols
+config SimpleName MethodInvocation ConditionalExpression SimpleName default exclude protocols
+get string array SimpleName MethodInvocation ConditionalExpression SimpleName default exclude protocols
+atlas ssl exclude protocols SimpleName MethodInvocation ConditionalExpression SimpleName default exclude protocols
+excluded protocols SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation SimpleName config
+excluded protocols SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation SimpleName contains key
+excluded protocols SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation SimpleName atlas ssl exclude protocols
+excluded protocols SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation SimpleName config
+excluded protocols SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation SimpleName get string array
+excluded protocols SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation SimpleName atlas ssl exclude protocols
+excluded protocols SimpleName VariableDeclarationFragment ConditionalExpression SimpleName default exclude protocols
+excluded protocolslength QualifiedName InfixExpression NumberLiteral empty
+excluded protocols SimpleName InfixExpression InfixExpression InfixExpression QualifiedName excluded protocolslength
+excluded protocols SimpleName InfixExpression InfixExpression InfixExpression NumberLiteral empty
+ssl context factory SimpleName MethodInvocation SimpleName add exclude protocols
+ssl context factory SimpleName MethodInvocation SimpleName excluded protocols
+add exclude protocols SimpleName MethodInvocation SimpleName excluded protocols
+http config SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName http configuration
+http configuration SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName http config
+http config SimpleName MethodInvocation SimpleName set secure scheme
+http config SimpleName MethodInvocation StringLiteral https
+set secure scheme SimpleName MethodInvocation StringLiteral https
+atlas configurationwebserver request buffer size QualifiedName MethodInvocation SimpleName get int
+buffer size SimpleName VariableDeclarationFragment MethodInvocation QualifiedName atlas configurationwebserver request buffer size
+buffer size SimpleName VariableDeclarationFragment MethodInvocation SimpleName get int
+final Modifier VariableDeclarationStatement PrimitiveType int
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName buffer size
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation QualifiedName atlas configurationwebserver request buffer size
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get int
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName buffer size
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation QualifiedName atlas configurationwebserver request buffer size
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get int
+http config SimpleName MethodInvocation SimpleName set secure port
+http config SimpleName MethodInvocation SimpleName port
+set secure port SimpleName MethodInvocation SimpleName port
+http config SimpleName MethodInvocation SimpleName set request header size
+http config SimpleName MethodInvocation SimpleName buffer size
+set request header size SimpleName MethodInvocation SimpleName buffer size
+http config SimpleName MethodInvocation SimpleName set response header size
+http config SimpleName MethodInvocation SimpleName buffer size
+set response header size SimpleName MethodInvocation SimpleName buffer size
+http config SimpleName MethodInvocation SimpleName set send server version
+http config SimpleName MethodInvocation BooleanLiteral true
+set send server version SimpleName MethodInvocation BooleanLiteral true
+http config SimpleName MethodInvocation SimpleName set send date header
+http config SimpleName MethodInvocation BooleanLiteral false
+set send date header SimpleName MethodInvocation BooleanLiteral false
+http configuration SimpleName SimpleType ClassInstanceCreation SimpleName http config
+https config SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName http configuration
+https config SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName http config
+http configuration SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName https config
+https config SimpleName MethodInvocation SimpleName add customizer
+https config SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName secure request customizer
+add customizer SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName secure request customizer
+http versionhttp QualifiedName MethodInvocation SimpleName as string
+ssl connection factory SimpleName SimpleType ClassInstanceCreation SimpleName ssl context factory
+ssl connection factory SimpleName SimpleType ClassInstanceCreation MethodInvocation QualifiedName http versionhttp
+ssl connection factory SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName as string
+ssl context factory SimpleName ClassInstanceCreation MethodInvocation QualifiedName http versionhttp
+ssl context factory SimpleName ClassInstanceCreation MethodInvocation SimpleName as string
+http connection factory SimpleName SimpleType ClassInstanceCreation SimpleName https config
+server connector SimpleName SimpleType ClassInstanceCreation SimpleName server
+server connector SimpleName SimpleType ClassInstanceCreation ClassInstanceCreation SimpleName ssl context factory
+server connector SimpleName SimpleType ClassInstanceCreation ClassInstanceCreation SimpleName https config
+server SimpleName ClassInstanceCreation ClassInstanceCreation SimpleType SimpleName ssl connection factory
+server SimpleName ClassInstanceCreation ClassInstanceCreation SimpleName ssl context factory
+server SimpleName ClassInstanceCreation ClassInstanceCreation MethodInvocation QualifiedName http versionhttp
+server SimpleName ClassInstanceCreation ClassInstanceCreation MethodInvocation SimpleName as string
+server SimpleName ClassInstanceCreation ClassInstanceCreation SimpleType SimpleName http connection factory
+server SimpleName ClassInstanceCreation ClassInstanceCreation SimpleName https config
+ssl context factory SimpleName ClassInstanceCreation ClassInstanceCreation ClassInstanceCreation SimpleName https config
+ssl connector SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName server connector
+ssl connector SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName server
+ssl connector SimpleName VariableDeclarationFragment ClassInstanceCreation ClassInstanceCreation SimpleName ssl context factory
+ssl connector SimpleName VariableDeclarationFragment ClassInstanceCreation ClassInstanceCreation SimpleName https config
+server connector SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ssl connector
+ssl connector SimpleName MethodInvocation SimpleName set port
+ssl connector SimpleName MethodInvocation SimpleName port
+set port SimpleName MethodInvocation SimpleName port
+server SimpleName MethodInvocation SimpleName add connector
+server SimpleName MethodInvocation SimpleName ssl connector
+add connector SimpleName MethodInvocation SimpleName ssl connector
+override SimpleName MarkerAnnotation MethodDeclaration Modifier protected
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName connector
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName get connector
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName host
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration PrimitiveType int
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName port
+protected Modifier MethodDeclaration SimpleType SimpleName connector
+protected Modifier MethodDeclaration SimpleName get connector
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName host
+protected Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName port
+protected Modifier MethodDeclaration SimpleType SimpleName io exception
+connector SimpleName SimpleType MethodDeclaration SimpleName get connector
+connector SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName host
+connector SimpleName SimpleType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+connector SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName port
+connector SimpleName SimpleType MethodDeclaration SimpleType SimpleName io exception
+get connector SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get connector SimpleName MethodDeclaration SingleVariableDeclaration SimpleName host
+get connector SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+get connector SimpleName MethodDeclaration SingleVariableDeclaration SimpleName port
+get connector SimpleName MethodDeclaration SimpleType SimpleName io exception
+get connector SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+get connector SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+get connector SimpleName MethodDeclaration Block ReturnStatement SimpleName ssl connector
+host SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+host SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName port
+host SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+port SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName connector
+public Modifier TypeDeclaration MethodDeclaration SimpleName get connector
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName host
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName port
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName connector
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get connector
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName host
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName port
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

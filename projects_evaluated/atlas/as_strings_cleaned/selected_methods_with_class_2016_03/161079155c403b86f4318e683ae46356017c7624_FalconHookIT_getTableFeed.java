@@ -1,0 +1,88 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName feed resource
+string SimpleName SimpleType SingleVariableDeclaration SimpleName cluster name
+feed StringLiteral InfixExpression MethodInvocation SimpleName random
+load entity SimpleName MethodInvocation QualifiedName entity typefeed
+load entity SimpleName MethodInvocation SimpleName feed resource
+load entity SimpleName MethodInvocation InfixExpression StringLiteral feed
+load entity SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName random
+entity typefeed QualifiedName MethodInvocation SimpleName feed resource
+entity typefeed QualifiedName MethodInvocation InfixExpression StringLiteral feed
+entity typefeed QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName random
+feed resource SimpleName MethodInvocation InfixExpression StringLiteral feed
+feed resource SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName random
+feed SimpleName VariableDeclarationFragment MethodInvocation SimpleName load entity
+feed SimpleName VariableDeclarationFragment MethodInvocation QualifiedName entity typefeed
+feed SimpleName VariableDeclarationFragment MethodInvocation SimpleName feed resource
+feed SimpleName VariableDeclarationFragment MethodInvocation InfixExpression StringLiteral feed
+feed SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName feed
+feed SimpleName MethodInvocation SimpleName get clusters
+feed SimpleName MethodInvocation MethodInvocation SimpleName get clusters
+get clusters SimpleName MethodInvocation MethodInvocation SimpleName get clusters
+feed SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+get clusters SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+get clusters SimpleName MethodInvocation MethodInvocation SimpleName get
+feed SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+get clusters SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+get clusters SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+get SimpleName MethodInvocation NumberLiteral empty
+feed cluster SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get clusters
+feed cluster SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+feed cluster SimpleName VariableDeclarationFragment MethodInvocation NumberLiteral empty
+orgapachefalconentityv feedcluster QualifiedName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName feed cluster
+feed cluster SimpleName MethodInvocation SimpleName set name
+feed cluster SimpleName MethodInvocation SimpleName cluster name
+set name SimpleName MethodInvocation SimpleName cluster name
+feed cluster SimpleName MethodInvocation SimpleName get table
+db StringLiteral InfixExpression MethodInvocation SimpleName random
+table StringLiteral InfixExpression MethodInvocation SimpleName random
+get table uri SimpleName MethodInvocation InfixExpression StringLiteral db
+get table uri SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName random
+get table uri SimpleName MethodInvocation InfixExpression StringLiteral table
+get table uri SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName random
+db StringLiteral InfixExpression MethodInvocation InfixExpression StringLiteral table
+feed cluster SimpleName MethodInvocation MethodInvocation SimpleName set uri
+get table SimpleName MethodInvocation MethodInvocation SimpleName set uri
+feed cluster SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get table uri
+get table SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get table uri
+set uri SimpleName MethodInvocation MethodInvocation SimpleName get table uri
+set uri SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral db
+set uri SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral table
+store SimpleName MethodInvocation SimpleName publish
+store SimpleName MethodInvocation QualifiedName entity typefeed
+store SimpleName MethodInvocation SimpleName feed
+publish SimpleName MethodInvocation QualifiedName entity typefeed
+publish SimpleName MethodInvocation SimpleName feed
+entity typefeed QualifiedName MethodInvocation SimpleName feed
+private Modifier MethodDeclaration SimpleType SimpleName feed
+private Modifier MethodDeclaration SimpleName get table feed
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName feed resource
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName cluster name
+private Modifier MethodDeclaration SimpleType SimpleName exception
+feed SimpleName SimpleType MethodDeclaration SimpleName get table feed
+feed SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName feed resource
+feed SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName cluster name
+feed SimpleName SimpleType MethodDeclaration SimpleType SimpleName exception
+get table feed SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get table feed SimpleName MethodDeclaration SingleVariableDeclaration SimpleName feed resource
+get table feed SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get table feed SimpleName MethodDeclaration SingleVariableDeclaration SimpleName cluster name
+get table feed SimpleName MethodDeclaration SimpleType SimpleName exception
+get table feed SimpleName MethodDeclaration Block ReturnStatement SimpleName feed
+feed resource SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cluster name
+feed resource SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+cluster name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName feed
+public Modifier TypeDeclaration MethodDeclaration SimpleName get table feed
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName feed resource
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cluster name
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName feed
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get table feed
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName feed resource
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cluster name
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

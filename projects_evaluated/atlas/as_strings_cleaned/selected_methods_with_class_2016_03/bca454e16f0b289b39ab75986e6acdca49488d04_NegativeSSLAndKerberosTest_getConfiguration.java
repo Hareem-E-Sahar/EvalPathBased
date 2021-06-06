@@ -1,0 +1,17 @@
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName configuration
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName get configuration
+public Modifier MethodDeclaration SimpleType SimpleName configuration
+public Modifier MethodDeclaration SimpleName get configuration
+public Modifier MethodDeclaration Block ReturnStatement SimpleName configuration
+configuration SimpleName SimpleType MethodDeclaration SimpleName get configuration
+get configuration SimpleName MethodDeclaration Block ReturnStatement SimpleName configuration
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName configuration
+public Modifier TypeDeclaration MethodDeclaration SimpleName get configuration
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName configuration
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get configuration

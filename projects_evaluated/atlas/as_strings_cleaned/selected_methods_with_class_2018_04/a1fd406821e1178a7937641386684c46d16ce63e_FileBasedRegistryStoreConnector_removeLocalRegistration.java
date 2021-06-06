@@ -1,0 +1,15 @@
+log SimpleName MethodInvocation SimpleName is debug enabled
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral emptying cohort registry store
+debug SimpleName MethodInvocation StringLiteral emptying cohort registry store
+write registry store properties SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName cohort membership
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName remove local registration
+void PrimitiveType MethodDeclaration SimpleName remove local registration
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName remove local registration
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName remove local registration

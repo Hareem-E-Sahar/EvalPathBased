@@ -1,0 +1,72 @@
+scanner iterator SimpleName MethodInvocation SimpleName has next
+mapentry QualifiedName SimpleType ParameterizedType SimpleType SimpleName key
+mapentry QualifiedName SimpleType ParameterizedType SimpleType SimpleName value
+key SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+scanner iterator SimpleName MethodInvocation SimpleName next
+entry SimpleName VariableDeclarationFragment MethodInvocation SimpleName scanner iterator
+entry SimpleName VariableDeclarationFragment MethodInvocation SimpleName next
+entry SimpleName MethodInvocation SimpleName get key
+current key SimpleName Assignment MethodInvocation SimpleName entry
+current key SimpleName Assignment MethodInvocation SimpleName get key
+current k SimpleName Assignment Assignment SimpleName current key
+current k SimpleName Assignment Assignment MethodInvocation SimpleName entry
+current k SimpleName Assignment Assignment MethodInvocation SimpleName get key
+entry SimpleName MethodInvocation SimpleName get value
+current value SimpleName Assignment MethodInvocation SimpleName entry
+current value SimpleName Assignment MethodInvocation SimpleName get value
+current v SimpleName Assignment Assignment SimpleName current value
+current v SimpleName Assignment Assignment MethodInvocation SimpleName entry
+current v SimpleName Assignment Assignment MethodInvocation SimpleName get value
+log SimpleName MethodInvocation SimpleName is trace enabled
+default formatter SimpleName MethodInvocation SimpleName format entry
+default formatter SimpleName MethodInvocation SimpleName entry
+default formatter SimpleName MethodInvocation BooleanLiteral true
+format entry SimpleName MethodInvocation SimpleName entry
+format entry SimpleName MethodInvocation BooleanLiteral true
+entry SimpleName MethodInvocation BooleanLiteral true
+processing keyvalue pair StringLiteral InfixExpression MethodInvocation SimpleName default formatter
+processing keyvalue pair StringLiteral InfixExpression MethodInvocation SimpleName format entry
+processing keyvalue pair StringLiteral InfixExpression MethodInvocation SimpleName entry
+processing keyvalue pair StringLiteral InfixExpression MethodInvocation BooleanLiteral true
+log SimpleName MethodInvocation SimpleName trace
+log SimpleName MethodInvocation InfixExpression StringLiteral processing keyvalue pair
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName default formatter
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName format entry
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName entry
+log SimpleName MethodInvocation InfixExpression MethodInvocation BooleanLiteral true
+trace SimpleName MethodInvocation InfixExpression StringLiteral processing keyvalue pair
+trace SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName default formatter
+trace SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName format entry
+trace SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName entry
+trace SimpleName MethodInvocation InfixExpression MethodInvocation BooleanLiteral true
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType boolean
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName next key value
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName io exception
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName interrupted exception
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName next key value
+public Modifier MethodDeclaration SimpleType SimpleName io exception
+public Modifier MethodDeclaration SimpleType SimpleName interrupted exception
+public Modifier MethodDeclaration Block ReturnStatement BooleanLiteral false
+boolean PrimitiveType MethodDeclaration SimpleName next key value
+boolean PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+boolean PrimitiveType MethodDeclaration SimpleType SimpleName interrupted exception
+boolean PrimitiveType MethodDeclaration Block ReturnStatement BooleanLiteral false
+next key value SimpleName MethodDeclaration SimpleType SimpleName io exception
+next key value SimpleName MethodDeclaration SimpleType SimpleName interrupted exception
+next key value SimpleName MethodDeclaration Block ReturnStatement BooleanLiteral false
+io exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName interrupted exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName next key value
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName interrupted exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName next key value
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName interrupted exception

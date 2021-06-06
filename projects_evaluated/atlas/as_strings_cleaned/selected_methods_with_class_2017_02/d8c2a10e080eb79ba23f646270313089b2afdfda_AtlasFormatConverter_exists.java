@@ -1,0 +1,32 @@
+atlas entity with associations SimpleName SimpleType SingleVariableDeclaration SimpleName entity
+entity SimpleName MethodInvocation SimpleName get guid
+entities SimpleName MethodInvocation SimpleName contains key
+entities SimpleName MethodInvocation MethodInvocation SimpleName entity
+entities SimpleName MethodInvocation MethodInvocation SimpleName get guid
+contains key SimpleName MethodInvocation MethodInvocation SimpleName entity
+contains key SimpleName MethodInvocation MethodInvocation SimpleName get guid
+entities SimpleName InfixExpression ConditionalExpression MethodInvocation SimpleName entities
+entities SimpleName InfixExpression ConditionalExpression MethodInvocation SimpleName contains key
+entities SimpleName InfixExpression ConditionalExpression BooleanLiteral false
+entities SimpleName MethodInvocation ConditionalExpression BooleanLiteral false
+contains key SimpleName MethodInvocation ConditionalExpression BooleanLiteral false
+entity SimpleName MethodInvocation MethodInvocation ConditionalExpression BooleanLiteral false
+get guid SimpleName MethodInvocation MethodInvocation ConditionalExpression BooleanLiteral false
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName exists
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas entity with associations
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName entity
+boolean PrimitiveType MethodDeclaration SimpleName exists
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas entity with associations
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName entity
+exists SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas entity with associations
+exists SimpleName MethodDeclaration SingleVariableDeclaration SimpleName entity
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName exists
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName exists
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity

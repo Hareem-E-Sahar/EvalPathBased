@@ -1,0 +1,230 @@
+assert not null SimpleName MethodInvocation SimpleName metrics service
+metrics service SimpleName MethodInvocation SimpleName get metrics
+metrics service SimpleName MethodInvocation BooleanLiteral false
+get metrics SimpleName MethodInvocation BooleanLiteral false
+metrics SimpleName VariableDeclarationFragment MethodInvocation SimpleName metrics service
+metrics SimpleName VariableDeclarationFragment MethodInvocation SimpleName get metrics
+metrics SimpleName VariableDeclarationFragment MethodInvocation BooleanLiteral false
+atlas metrics SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName metrics
+assert not null SimpleName MethodInvocation SimpleName metrics
+metrics SimpleName MethodInvocation SimpleName get metric
+metrics SimpleName MethodInvocation StringLiteral entity
+metrics SimpleName MethodInvocation StringLiteral entity active
+get metric SimpleName MethodInvocation StringLiteral entity
+get metric SimpleName MethodInvocation StringLiteral entity active
+entity StringLiteral MethodInvocation StringLiteral entity active
+map SimpleName SimpleType CastExpression MethodInvocation SimpleName metrics
+map SimpleName SimpleType CastExpression MethodInvocation SimpleName get metric
+map SimpleName SimpleType CastExpression MethodInvocation StringLiteral entity
+map SimpleName SimpleType CastExpression MethodInvocation StringLiteral entity active
+active metrics SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName map
+active metrics SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName metrics
+active metrics SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get metric
+active metrics SimpleName VariableDeclarationFragment CastExpression MethodInvocation StringLiteral entity
+active metrics SimpleName VariableDeclarationFragment CastExpression MethodInvocation StringLiteral entity active
+map SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName active metrics
+assert not null SimpleName MethodInvocation SimpleName active metrics
+active metrics SimpleName MethodInvocation SimpleName get
+active metrics SimpleName MethodInvocation StringLiteral a
+get SimpleName MethodInvocation StringLiteral a
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName active metrics
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get
+assert equals SimpleName MethodInvocation MethodInvocation StringLiteral a
+assert equals SimpleName MethodInvocation NumberLiteral empty
+active metrics SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+get SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+a StringLiteral MethodInvocation MethodInvocation NumberLiteral empty
+active metrics SimpleName MethodInvocation SimpleName get
+active metrics SimpleName MethodInvocation StringLiteral b
+get SimpleName MethodInvocation StringLiteral b
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName active metrics
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get
+assert equals SimpleName MethodInvocation MethodInvocation StringLiteral b
+assert equals SimpleName MethodInvocation NumberLiteral empty
+active metrics SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+get SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+b StringLiteral MethodInvocation MethodInvocation NumberLiteral empty
+metrics SimpleName MethodInvocation SimpleName get metric
+metrics SimpleName MethodInvocation StringLiteral entity
+metrics SimpleName MethodInvocation StringLiteral entity deleted
+get metric SimpleName MethodInvocation StringLiteral entity
+get metric SimpleName MethodInvocation StringLiteral entity deleted
+entity StringLiteral MethodInvocation StringLiteral entity deleted
+map SimpleName SimpleType CastExpression MethodInvocation SimpleName metrics
+map SimpleName SimpleType CastExpression MethodInvocation SimpleName get metric
+map SimpleName SimpleType CastExpression MethodInvocation StringLiteral entity
+map SimpleName SimpleType CastExpression MethodInvocation StringLiteral entity deleted
+deleted metrics SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName map
+deleted metrics SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName metrics
+deleted metrics SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get metric
+deleted metrics SimpleName VariableDeclarationFragment CastExpression MethodInvocation StringLiteral entity
+deleted metrics SimpleName VariableDeclarationFragment CastExpression MethodInvocation StringLiteral entity deleted
+map SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName deleted metrics
+deleted metrics SimpleName MethodInvocation SimpleName get
+deleted metrics SimpleName MethodInvocation StringLiteral b
+get SimpleName MethodInvocation StringLiteral b
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName deleted metrics
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get
+assert equals SimpleName MethodInvocation MethodInvocation StringLiteral b
+assert equals SimpleName MethodInvocation NumberLiteral empty
+deleted metrics SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+get SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+b StringLiteral MethodInvocation MethodInvocation NumberLiteral empty
+metrics SimpleName MethodInvocation SimpleName get numeric metric
+metrics SimpleName MethodInvocation StringLiteral general
+metrics SimpleName MethodInvocation StringLiteral type unused count
+get numeric metric SimpleName MethodInvocation StringLiteral general
+get numeric metric SimpleName MethodInvocation StringLiteral type unused count
+general StringLiteral MethodInvocation StringLiteral type unused count
+unused type count SimpleName VariableDeclarationFragment MethodInvocation SimpleName metrics
+unused type count SimpleName VariableDeclarationFragment MethodInvocation SimpleName get numeric metric
+unused type count SimpleName VariableDeclarationFragment MethodInvocation StringLiteral general
+unused type count SimpleName VariableDeclarationFragment MethodInvocation StringLiteral type unused count
+number SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName unused type count
+assert equals SimpleName MethodInvocation SimpleName unused type count
+assert equals SimpleName MethodInvocation NumberLiteral empty
+unused type count SimpleName MethodInvocation NumberLiteral empty
+metrics SimpleName MethodInvocation SimpleName get numeric metric
+metrics SimpleName MethodInvocation StringLiteral general
+metrics SimpleName MethodInvocation StringLiteral entity count
+get numeric metric SimpleName MethodInvocation StringLiteral general
+get numeric metric SimpleName MethodInvocation StringLiteral entity count
+general StringLiteral MethodInvocation StringLiteral entity count
+c count SimpleName VariableDeclarationFragment MethodInvocation SimpleName metrics
+c count SimpleName VariableDeclarationFragment MethodInvocation SimpleName get numeric metric
+c count SimpleName VariableDeclarationFragment MethodInvocation StringLiteral general
+c count SimpleName VariableDeclarationFragment MethodInvocation StringLiteral entity count
+number SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName c count
+assert equals SimpleName MethodInvocation SimpleName c count
+assert equals SimpleName MethodInvocation NumberLiteral empty
+c count SimpleName MethodInvocation NumberLiteral empty
+metrics SimpleName MethodInvocation SimpleName get metric
+metrics SimpleName MethodInvocation StringLiteral general
+metrics SimpleName MethodInvocation StringLiteral tag count
+get metric SimpleName MethodInvocation StringLiteral general
+get metric SimpleName MethodInvocation StringLiteral tag count
+general StringLiteral MethodInvocation StringLiteral tag count
+number SimpleName SimpleType CastExpression MethodInvocation SimpleName metrics
+number SimpleName SimpleType CastExpression MethodInvocation SimpleName get metric
+number SimpleName SimpleType CastExpression MethodInvocation StringLiteral general
+number SimpleName SimpleType CastExpression MethodInvocation StringLiteral tag count
+a tags SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName number
+a tags SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName metrics
+a tags SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get metric
+a tags SimpleName VariableDeclarationFragment CastExpression MethodInvocation StringLiteral general
+a tags SimpleName VariableDeclarationFragment CastExpression MethodInvocation StringLiteral tag count
+number SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName a tags
+assert equals SimpleName MethodInvocation SimpleName a tags
+assert equals SimpleName MethodInvocation NumberLiteral empty
+a tags SimpleName MethodInvocation NumberLiteral empty
+metrics SimpleName MethodInvocation SimpleName get metric
+metrics SimpleName MethodInvocation StringLiteral tag
+metrics SimpleName MethodInvocation StringLiteral tag entities
+get metric SimpleName MethodInvocation StringLiteral tag
+get metric SimpleName MethodInvocation StringLiteral tag entities
+tag StringLiteral MethodInvocation StringLiteral tag entities
+map SimpleName SimpleType CastExpression MethodInvocation SimpleName metrics
+map SimpleName SimpleType CastExpression MethodInvocation SimpleName get metric
+map SimpleName SimpleType CastExpression MethodInvocation StringLiteral tag
+map SimpleName SimpleType CastExpression MethodInvocation StringLiteral tag entities
+tagged entity metric SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName map
+tagged entity metric SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName metrics
+tagged entity metric SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get metric
+tagged entity metric SimpleName VariableDeclarationFragment CastExpression MethodInvocation StringLiteral tag
+tagged entity metric SimpleName VariableDeclarationFragment CastExpression MethodInvocation StringLiteral tag entities
+map SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName tagged entity metric
+assert not null SimpleName MethodInvocation SimpleName tagged entity metric
+tagged entity metric SimpleName MethodInvocation SimpleName get
+tagged entity metric SimpleName MethodInvocation StringLiteral d
+get SimpleName MethodInvocation StringLiteral d
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName tagged entity metric
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get
+assert equals SimpleName MethodInvocation MethodInvocation StringLiteral d
+assert equals SimpleName MethodInvocation NumberLiteral empty
+tagged entity metric SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+get SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+d StringLiteral MethodInvocation MethodInvocation NumberLiteral empty
+tagged entity metric SimpleName MethodInvocation SimpleName get
+tagged entity metric SimpleName MethodInvocation StringLiteral e
+get SimpleName MethodInvocation StringLiteral e
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName tagged entity metric
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get
+assert equals SimpleName MethodInvocation MethodInvocation StringLiteral e
+assert equals SimpleName MethodInvocation NumberLiteral empty
+tagged entity metric SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+get SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+e StringLiteral MethodInvocation MethodInvocation NumberLiteral empty
+tagged entity metric SimpleName MethodInvocation SimpleName get
+tagged entity metric SimpleName MethodInvocation StringLiteral f
+get SimpleName MethodInvocation StringLiteral f
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName tagged entity metric
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get
+assert equals SimpleName MethodInvocation MethodInvocation StringLiteral f
+assert equals SimpleName MethodInvocation NumberLiteral empty
+tagged entity metric SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+get SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+f StringLiteral MethodInvocation MethodInvocation NumberLiteral empty
+verify SimpleName MethodInvocation SimpleName mock graph
+verify SimpleName MethodInvocation MethodInvocation SimpleName at least once
+mock graph SimpleName MethodInvocation MethodInvocation SimpleName at least once
+verify SimpleName MethodInvocation MethodInvocation SimpleName execute gremlin script
+mock graph SimpleName MethodInvocation MethodInvocation SimpleName execute gremlin script
+at least once SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName execute gremlin script
+verify SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName any string
+mock graph SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName any string
+verify SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName any boolean
+mock graph SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName any boolean
+execute gremlin script SimpleName MethodInvocation MethodInvocation SimpleName any string
+execute gremlin script SimpleName MethodInvocation MethodInvocation SimpleName any boolean
+any string SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName any boolean
+metrics service SimpleName MethodInvocation SimpleName get metrics
+metrics service SimpleName MethodInvocation BooleanLiteral false
+get metrics SimpleName MethodInvocation BooleanLiteral false
+verify zero interactions SimpleName MethodInvocation SimpleName mock graph
+thread SimpleName MethodInvocation SimpleName sleep
+thread SimpleName MethodInvocation NumberLiteral empty
+sleep SimpleName MethodInvocation NumberLiteral empty
+metrics service SimpleName MethodInvocation SimpleName get metrics
+metrics service SimpleName MethodInvocation BooleanLiteral true
+get metrics SimpleName MethodInvocation BooleanLiteral true
+verify SimpleName MethodInvocation SimpleName mock graph
+verify SimpleName MethodInvocation MethodInvocation SimpleName at least once
+mock graph SimpleName MethodInvocation MethodInvocation SimpleName at least once
+verify SimpleName MethodInvocation MethodInvocation SimpleName execute gremlin script
+mock graph SimpleName MethodInvocation MethodInvocation SimpleName execute gremlin script
+at least once SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName execute gremlin script
+verify SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName any string
+mock graph SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName any string
+verify SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName any boolean
+mock graph SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName any boolean
+execute gremlin script SimpleName MethodInvocation MethodInvocation SimpleName any string
+execute gremlin script SimpleName MethodInvocation MethodInvocation SimpleName any boolean
+any string SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName any boolean
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test get metrics
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName interrupted exception
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test get metrics
+public Modifier MethodDeclaration SimpleType SimpleName interrupted exception
+public Modifier MethodDeclaration SimpleType SimpleName atlas base exception
+void PrimitiveType MethodDeclaration SimpleName test get metrics
+void PrimitiveType MethodDeclaration SimpleType SimpleName interrupted exception
+void PrimitiveType MethodDeclaration SimpleType SimpleName atlas base exception
+test get metrics SimpleName MethodDeclaration SimpleType SimpleName interrupted exception
+test get metrics SimpleName MethodDeclaration SimpleType SimpleName atlas base exception
+interrupted exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test get metrics
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName interrupted exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test get metrics
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName interrupted exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception

@@ -1,0 +1,55 @@
+hive meta store bridge SimpleName SimpleType SingleVariableDeclaration SimpleName dgi bridge
+hive event SimpleName SimpleType SingleVariableDeclaration SimpleName event
+eventinputs QualifiedName MethodInvocation SimpleName size
+eventinputs QualifiedName MethodInvocation InfixExpression NumberLiteral empty
+size SimpleName MethodInvocation InfixExpression NumberLiteral empty
+eventinputs QualifiedName InfixExpression InfixExpression InfixExpression NumberLiteral empty
+eventoutputs QualifiedName MethodInvocation SimpleName size
+eventoutputs QualifiedName MethodInvocation InfixExpression NumberLiteral empty
+size SimpleName MethodInvocation InfixExpression NumberLiteral empty
+eventoutputs QualifiedName InfixExpression InfixExpression InfixExpression NumberLiteral empty
+write entity SimpleName SimpleType SingleVariableDeclaration SimpleName write entity
+write entity SimpleName MethodInvocation SimpleName get type
+write entity SimpleName MethodInvocation InfixExpression QualifiedName entitytypetable
+get type SimpleName MethodInvocation InfixExpression QualifiedName entitytypetable
+create or update entities SimpleName MethodInvocation SimpleName dgi bridge
+create or update entities SimpleName MethodInvocation SimpleName write entity
+dgi bridge SimpleName MethodInvocation SimpleName write entity
+write entity SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement QualifiedName eventoutputs
+write entity SimpleName SingleVariableDeclaration EnhancedForStatement QualifiedName eventoutputs
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName alter table
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName hive meta store bridge
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName dgi bridge
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName hive event
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName event
+private Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName alter table
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName hive meta store bridge
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName dgi bridge
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName hive event
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName event
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration Block EnhancedForStatement QualifiedName eventoutputs
+alter table SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName hive meta store bridge
+alter table SimpleName MethodDeclaration SingleVariableDeclaration SimpleName dgi bridge
+alter table SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName hive event
+alter table SimpleName MethodDeclaration SingleVariableDeclaration SimpleName event
+alter table SimpleName MethodDeclaration SimpleType SimpleName exception
+alter table SimpleName MethodDeclaration Block EnhancedForStatement QualifiedName eventoutputs
+dgi bridge SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName event
+dgi bridge SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+event SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName alter table
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName dgi bridge
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName event
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName alter table
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName dgi bridge
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName event
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

@@ -1,0 +1,57 @@
+titan graph service SimpleName MethodInvocation SimpleName get titan graph
+graph SimpleName VariableDeclarationFragment MethodInvocation SimpleName titan graph service
+graph SimpleName VariableDeclarationFragment MethodInvocation SimpleName get titan graph
+titan graph SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName graph
+graph SimpleName MethodInvocation SimpleName query
+graph SimpleName MethodInvocation MethodInvocation SimpleName has
+query SimpleName MethodInvocation MethodInvocation SimpleName has
+graph SimpleName MethodInvocation MethodInvocation QualifiedName constantsentity type property key
+query SimpleName MethodInvocation MethodInvocation QualifiedName constantsentity type property key
+graph SimpleName MethodInvocation MethodInvocation QualifiedName compareequal
+query SimpleName MethodInvocation MethodInvocation QualifiedName compareequal
+graph SimpleName MethodInvocation MethodInvocation SimpleName table type
+query SimpleName MethodInvocation MethodInvocation SimpleName table type
+has SimpleName MethodInvocation QualifiedName constantsentity type property key
+has SimpleName MethodInvocation QualifiedName compareequal
+has SimpleName MethodInvocation SimpleName table type
+constantsentity type property key QualifiedName MethodInvocation QualifiedName compareequal
+constantsentity type property key QualifiedName MethodInvocation SimpleName table type
+compareequal QualifiedName MethodInvocation SimpleName table type
+query SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName graph
+query SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName query
+query SimpleName VariableDeclarationFragment MethodInvocation SimpleName has
+query SimpleName VariableDeclarationFragment MethodInvocation QualifiedName constantsentity type property key
+query SimpleName VariableDeclarationFragment MethodInvocation QualifiedName compareequal
+query SimpleName VariableDeclarationFragment MethodInvocation SimpleName table type
+graph query SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName query
+iterator SimpleName SimpleType ParameterizedType SimpleType SimpleName vertex
+query SimpleName MethodInvocation SimpleName vertices
+query SimpleName MethodInvocation MethodInvocation SimpleName iterator
+vertices SimpleName MethodInvocation MethodInvocation SimpleName iterator
+results SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName query
+results SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName vertices
+results SimpleName VariableDeclarationFragment MethodInvocation SimpleName iterator
+results SimpleName MethodInvocation SimpleName has next
+results SimpleName MethodInvocation SimpleName next
+results SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName results
+results SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName next
+has next SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName results
+has next SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName next
+table vertex SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation SimpleName results
+table vertex SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation SimpleName has next
+table vertex SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation SimpleName results
+table vertex SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation SimpleName next
+vertex SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName table vertex
+assert SimpleName MethodInvocation SimpleName fail
+private Modifier MethodDeclaration SimpleType SimpleName vertex
+private Modifier MethodDeclaration SimpleName get table entity vertex
+private Modifier MethodDeclaration Block ReturnStatement SimpleName table vertex
+vertex SimpleName SimpleType MethodDeclaration SimpleName get table entity vertex
+get table entity vertex SimpleName MethodDeclaration Block ReturnStatement SimpleName table vertex
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName vertex
+public Modifier TypeDeclaration MethodDeclaration SimpleName get table entity vertex
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName vertex
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get table entity vertex

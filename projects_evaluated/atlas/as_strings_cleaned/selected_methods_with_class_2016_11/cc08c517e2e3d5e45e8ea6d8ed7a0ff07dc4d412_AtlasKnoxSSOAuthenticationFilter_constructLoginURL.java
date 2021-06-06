@@ -1,0 +1,199 @@
+http servlet request SimpleName SimpleType SingleVariableDeclaration SimpleName request
+boolean PrimitiveType SingleVariableDeclaration SimpleName is xml request
+delimiter SimpleName VariableDeclarationFragment StringLiteral ?
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName delimiter
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral ?
+authentication provider url SimpleName MethodInvocation SimpleName contains
+authentication provider url SimpleName MethodInvocation StringLiteral ?
+contains SimpleName MethodInvocation StringLiteral ?
+delimiter SimpleName Assignment StringLiteral &
+login url SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName string builder
+string builder SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName login url
+atlas application url SimpleName VariableDeclarationFragment StringLiteral empty
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName atlas application url
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral empty
+request SimpleName MethodInvocation SimpleName get header
+request SimpleName MethodInvocation StringLiteral referer
+get header SimpleName MethodInvocation StringLiteral referer
+referal url SimpleName VariableDeclarationFragment MethodInvocation SimpleName request
+referal url SimpleName VariableDeclarationFragment MethodInvocation SimpleName get header
+referal url SimpleName VariableDeclarationFragment MethodInvocation StringLiteral referer
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName referal url
+request SimpleName MethodInvocation SimpleName get scheme
+request SimpleName MethodInvocation SimpleName get server name
+request SimpleName MethodInvocation SimpleName get server port
+request SimpleName MethodInvocation SimpleName get context path
+request SimpleName MethodInvocation InfixExpression StringLiteral ://
+get scheme SimpleName MethodInvocation InfixExpression StringLiteral ://
+request SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName request
+request SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get server name
+get scheme SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName request
+get scheme SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get server name
+request SimpleName MethodInvocation InfixExpression StringLiteral :
+get scheme SimpleName MethodInvocation InfixExpression StringLiteral :
+request SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName request
+request SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get server port
+get scheme SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName request
+get scheme SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get server port
+request SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName request
+request SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get context path
+get scheme SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName request
+get scheme SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get context path
+:// StringLiteral InfixExpression MethodInvocation SimpleName request
+:// StringLiteral InfixExpression MethodInvocation SimpleName get server name
+:// StringLiteral InfixExpression StringLiteral :
+:// StringLiteral InfixExpression MethodInvocation SimpleName request
+:// StringLiteral InfixExpression MethodInvocation SimpleName get server port
+:// StringLiteral InfixExpression MethodInvocation SimpleName request
+:// StringLiteral InfixExpression MethodInvocation SimpleName get context path
+request SimpleName MethodInvocation InfixExpression StringLiteral :
+get server name SimpleName MethodInvocation InfixExpression StringLiteral :
+request SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName request
+request SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get server port
+get server name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName request
+get server name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get server port
+request SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName request
+request SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get context path
+get server name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName request
+get server name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get context path
+: StringLiteral InfixExpression MethodInvocation SimpleName request
+: StringLiteral InfixExpression MethodInvocation SimpleName get server port
+: StringLiteral InfixExpression MethodInvocation SimpleName request
+: StringLiteral InfixExpression MethodInvocation SimpleName get context path
+request SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName request
+request SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get context path
+get server port SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName request
+get server port SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get context path
+atlas application url SimpleName Assignment InfixExpression MethodInvocation SimpleName request
+atlas application url SimpleName Assignment InfixExpression MethodInvocation SimpleName get scheme
+atlas application url SimpleName Assignment InfixExpression StringLiteral ://
+atlas application url SimpleName Assignment InfixExpression MethodInvocation SimpleName request
+atlas application url SimpleName Assignment InfixExpression MethodInvocation SimpleName get server name
+atlas application url SimpleName Assignment InfixExpression StringLiteral :
+atlas application url SimpleName Assignment InfixExpression MethodInvocation SimpleName request
+atlas application url SimpleName Assignment InfixExpression MethodInvocation SimpleName get server port
+atlas application url SimpleName Assignment InfixExpression MethodInvocation SimpleName request
+atlas application url SimpleName Assignment InfixExpression MethodInvocation SimpleName get context path
+atlas application url SimpleName Assignment SimpleName referal url
+login url SimpleName MethodInvocation SimpleName append
+login url SimpleName MethodInvocation SimpleName authentication provider url
+append SimpleName MethodInvocation SimpleName authentication provider url
+login url SimpleName MethodInvocation MethodInvocation SimpleName append
+append SimpleName MethodInvocation MethodInvocation SimpleName append
+authentication provider url SimpleName MethodInvocation MethodInvocation SimpleName append
+login url SimpleName MethodInvocation MethodInvocation SimpleName delimiter
+append SimpleName MethodInvocation MethodInvocation SimpleName delimiter
+authentication provider url SimpleName MethodInvocation MethodInvocation SimpleName delimiter
+append SimpleName MethodInvocation SimpleName delimiter
+login url SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName append
+append SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName append
+authentication provider url SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName append
+append SimpleName MethodInvocation MethodInvocation SimpleName append
+delimiter SimpleName MethodInvocation MethodInvocation SimpleName append
+login url SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName original url query param
+append SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName original url query param
+authentication provider url SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName original url query param
+append SimpleName MethodInvocation MethodInvocation SimpleName original url query param
+delimiter SimpleName MethodInvocation MethodInvocation SimpleName original url query param
+append SimpleName MethodInvocation SimpleName original url query param
+append SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName append
+delimiter SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName append
+append SimpleName MethodInvocation MethodInvocation SimpleName append
+original url query param SimpleName MethodInvocation MethodInvocation SimpleName append
+append SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral =
+delimiter SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral =
+append SimpleName MethodInvocation MethodInvocation StringLiteral =
+original url query param SimpleName MethodInvocation MethodInvocation StringLiteral =
+append SimpleName MethodInvocation StringLiteral =
+append SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName append
+original url query param SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName append
+append SimpleName MethodInvocation MethodInvocation SimpleName append
+= StringLiteral MethodInvocation MethodInvocation SimpleName append
+append SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName atlas application url
+original url query param SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName atlas application url
+append SimpleName MethodInvocation MethodInvocation SimpleName atlas application url
+= StringLiteral MethodInvocation MethodInvocation SimpleName atlas application url
+append SimpleName MethodInvocation SimpleName atlas application url
+login url SimpleName MethodInvocation SimpleName append
+login url SimpleName MethodInvocation SimpleName authentication provider url
+append SimpleName MethodInvocation SimpleName authentication provider url
+login url SimpleName MethodInvocation MethodInvocation SimpleName append
+append SimpleName MethodInvocation MethodInvocation SimpleName append
+authentication provider url SimpleName MethodInvocation MethodInvocation SimpleName append
+login url SimpleName MethodInvocation MethodInvocation SimpleName delimiter
+append SimpleName MethodInvocation MethodInvocation SimpleName delimiter
+authentication provider url SimpleName MethodInvocation MethodInvocation SimpleName delimiter
+append SimpleName MethodInvocation SimpleName delimiter
+login url SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName append
+append SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName append
+authentication provider url SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName append
+append SimpleName MethodInvocation MethodInvocation SimpleName append
+delimiter SimpleName MethodInvocation MethodInvocation SimpleName append
+login url SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName original url query param
+append SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName original url query param
+authentication provider url SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName original url query param
+append SimpleName MethodInvocation MethodInvocation SimpleName original url query param
+delimiter SimpleName MethodInvocation MethodInvocation SimpleName original url query param
+append SimpleName MethodInvocation SimpleName original url query param
+append SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName append
+delimiter SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName append
+append SimpleName MethodInvocation MethodInvocation SimpleName append
+original url query param SimpleName MethodInvocation MethodInvocation SimpleName append
+append SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral =
+delimiter SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral =
+append SimpleName MethodInvocation MethodInvocation StringLiteral =
+original url query param SimpleName MethodInvocation MethodInvocation StringLiteral =
+append SimpleName MethodInvocation StringLiteral =
+request SimpleName MethodInvocation SimpleName get request url
+get original query string SimpleName MethodInvocation SimpleName request
+request SimpleName MethodInvocation MethodInvocation SimpleName append
+get request url SimpleName MethodInvocation MethodInvocation SimpleName append
+request SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get original query string
+request SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName request
+get request url SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get original query string
+get request url SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName request
+append SimpleName MethodInvocation MethodInvocation SimpleName get original query string
+append SimpleName MethodInvocation MethodInvocation SimpleName request
+append SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName append
+original url query param SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName append
+append SimpleName MethodInvocation MethodInvocation SimpleName append
+= StringLiteral MethodInvocation MethodInvocation SimpleName append
+append SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName append
+= StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName append
+append SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName request
+append SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get request url
+append SimpleName MethodInvocation MethodInvocation SimpleName append
+append SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get original query string
+append SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName request
+login url SimpleName MethodInvocation SimpleName to string
+protected Modifier MethodDeclaration SimpleType SimpleName string
+protected Modifier MethodDeclaration SimpleName construct login url
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName http servlet request
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName request
+protected Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName is xml request
+protected Modifier MethodDeclaration Block IfStatement SimpleName is xml request
+string SimpleName SimpleType MethodDeclaration SimpleName construct login url
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName request
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName is xml request
+construct login url SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName http servlet request
+construct login url SimpleName MethodDeclaration SingleVariableDeclaration SimpleName request
+construct login url SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+construct login url SimpleName MethodDeclaration SingleVariableDeclaration SimpleName is xml request
+construct login url SimpleName MethodDeclaration Block IfStatement SimpleName is xml request
+request SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+request SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName is xml request
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName construct login url
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName request
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName is xml request
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName construct login url
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName request
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName is xml request

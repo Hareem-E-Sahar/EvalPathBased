@@ -1,0 +1,76 @@
+atlas repository configuration SimpleName MethodInvocation SimpleName reset excluded operations
+configuration SimpleName MethodInvocation SimpleName get string array
+configuration SimpleName MethodInvocation QualifiedName atlas repository configurationaudit excluded operations
+get string array SimpleName MethodInvocation QualifiedName atlas repository configurationaudit excluded operations
+when SimpleName MethodInvocation MethodInvocation SimpleName configuration
+when SimpleName MethodInvocation MethodInvocation SimpleName get string array
+when SimpleName MethodInvocation MethodInvocation QualifiedName atlas repository configurationaudit excluded operations
+version StringLiteral ArrayInitializer StringLiteral ping
+when SimpleName MethodInvocation MethodInvocation SimpleName then return
+configuration SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+get string array SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+atlas repository configurationaudit excluded operations QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+then return SimpleName MethodInvocation ArrayCreation ArrayInitializer StringLiteral version
+then return SimpleName MethodInvocation ArrayCreation ArrayInitializer StringLiteral ping
+audit filter SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName audit filter
+audit filter SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName audit filter
+audit filter SimpleName MethodInvocation SimpleName is operation excluded from audit
+audit filter SimpleName MethodInvocation StringLiteral get
+audit filter SimpleName MethodInvocation StringLiteral version
+audit filter SimpleName MethodInvocation SimpleName configuration
+is operation excluded from audit SimpleName MethodInvocation StringLiteral get
+is operation excluded from audit SimpleName MethodInvocation StringLiteral version
+is operation excluded from audit SimpleName MethodInvocation SimpleName configuration
+get StringLiteral MethodInvocation StringLiteral version
+get StringLiteral MethodInvocation SimpleName configuration
+version StringLiteral MethodInvocation SimpleName configuration
+assert false SimpleName MethodInvocation MethodInvocation SimpleName audit filter
+assert false SimpleName MethodInvocation MethodInvocation SimpleName is operation excluded from audit
+assert false SimpleName MethodInvocation MethodInvocation StringLiteral get
+assert false SimpleName MethodInvocation MethodInvocation StringLiteral version
+assert false SimpleName MethodInvocation MethodInvocation SimpleName configuration
+audit filter SimpleName MethodInvocation SimpleName is operation excluded from audit
+audit filter SimpleName MethodInvocation StringLiteral get
+audit filter SimpleName MethodInvocation StringLiteral ping
+audit filter SimpleName MethodInvocation SimpleName configuration
+is operation excluded from audit SimpleName MethodInvocation StringLiteral get
+is operation excluded from audit SimpleName MethodInvocation StringLiteral ping
+is operation excluded from audit SimpleName MethodInvocation SimpleName configuration
+get StringLiteral MethodInvocation StringLiteral ping
+get StringLiteral MethodInvocation SimpleName configuration
+ping StringLiteral MethodInvocation SimpleName configuration
+assert false SimpleName MethodInvocation MethodInvocation SimpleName audit filter
+assert false SimpleName MethodInvocation MethodInvocation SimpleName is operation excluded from audit
+assert false SimpleName MethodInvocation MethodInvocation StringLiteral get
+assert false SimpleName MethodInvocation MethodInvocation StringLiteral ping
+assert false SimpleName MethodInvocation MethodInvocation SimpleName configuration
+audit filter SimpleName MethodInvocation SimpleName is operation excluded from audit
+audit filter SimpleName MethodInvocation StringLiteral get
+audit filter SimpleName MethodInvocation StringLiteral types
+audit filter SimpleName MethodInvocation SimpleName configuration
+is operation excluded from audit SimpleName MethodInvocation StringLiteral get
+is operation excluded from audit SimpleName MethodInvocation StringLiteral types
+is operation excluded from audit SimpleName MethodInvocation SimpleName configuration
+get StringLiteral MethodInvocation StringLiteral types
+get StringLiteral MethodInvocation SimpleName configuration
+types StringLiteral MethodInvocation SimpleName configuration
+assert false SimpleName MethodInvocation MethodInvocation SimpleName audit filter
+assert false SimpleName MethodInvocation MethodInvocation SimpleName is operation excluded from audit
+assert false SimpleName MethodInvocation MethodInvocation StringLiteral get
+assert false SimpleName MethodInvocation MethodInvocation StringLiteral types
+assert false SimpleName MethodInvocation MethodInvocation SimpleName configuration
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test verify not excluded operations
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test verify not excluded operations
+void PrimitiveType MethodDeclaration SimpleName test verify not excluded operations
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test verify not excluded operations
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test verify not excluded operations

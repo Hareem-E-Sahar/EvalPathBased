@@ -1,0 +1,41 @@
+hash set SimpleName SimpleType ParameterizedType SimpleType SimpleName byte sequence
+string SimpleName SimpleType ArrayType SingleVariableDeclaration SimpleName columns
+hash set SimpleName SimpleType ParameterizedType SimpleType SimpleName byte sequence
+hash set SimpleName SimpleType ParameterizedType SimpleType SimpleName byte sequence
+string SimpleName SimpleType SingleVariableDeclaration SimpleName c
+array byte sequence SimpleName SimpleType ClassInstanceCreation SimpleName c
+column set SimpleName MethodInvocation SimpleName add
+column set SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName array byte sequence
+column set SimpleName MethodInvocation ClassInstanceCreation SimpleName c
+add SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName array byte sequence
+add SimpleName MethodInvocation ClassInstanceCreation SimpleName c
+string SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName columns
+c SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName columns
+columns SimpleName EnhancedForStatement Block ReturnStatement SimpleName column set
+private Modifier MethodDeclaration Modifier static
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName hash set
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName byte sequence
+private Modifier MethodDeclaration SimpleName create column bss
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName columns
+private Modifier MethodDeclaration Block EnhancedForStatement SimpleName columns
+private Modifier MethodDeclaration Block ReturnStatement SimpleName column set
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName hash set
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName byte sequence
+static Modifier MethodDeclaration SimpleName create column bss
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName columns
+static Modifier MethodDeclaration Block EnhancedForStatement SimpleName columns
+static Modifier MethodDeclaration Block ReturnStatement SimpleName column set
+hash set SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName create column bss
+byte sequence SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName create column bss
+create column bss SimpleName MethodDeclaration SingleVariableDeclaration SimpleName columns
+create column bss SimpleName MethodDeclaration Block EnhancedForStatement SimpleName columns
+create column bss SimpleName MethodDeclaration Block ReturnStatement SimpleName column set
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleName create column bss
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName columns
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create column bss
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName columns

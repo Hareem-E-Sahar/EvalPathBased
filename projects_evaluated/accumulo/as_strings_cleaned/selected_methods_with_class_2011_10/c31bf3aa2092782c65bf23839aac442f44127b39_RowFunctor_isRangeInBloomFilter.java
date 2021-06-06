@@ -1,0 +1,73 @@
+range SimpleName SimpleType SingleVariableDeclaration SimpleName range
+partial key SimpleName SimpleType SingleVariableDeclaration SimpleName key depth
+range SimpleName MethodInvocation SimpleName get start key
+range SimpleName MethodInvocation SimpleName get end key
+range SimpleName MethodInvocation SimpleName get start key
+range SimpleName MethodInvocation SimpleName get end key
+range SimpleName MethodInvocation MethodInvocation SimpleName equals
+get start key SimpleName MethodInvocation MethodInvocation SimpleName equals
+range SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName range
+range SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get end key
+get start key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName range
+get start key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get end key
+range SimpleName MethodInvocation MethodInvocation SimpleName key depth
+get start key SimpleName MethodInvocation MethodInvocation SimpleName key depth
+equals SimpleName MethodInvocation MethodInvocation SimpleName range
+equals SimpleName MethodInvocation MethodInvocation SimpleName get end key
+equals SimpleName MethodInvocation SimpleName key depth
+range SimpleName MethodInvocation MethodInvocation SimpleName key depth
+get end key SimpleName MethodInvocation MethodInvocation SimpleName key depth
+equals SimpleName MethodInvocation IfStatement ReturnStatement BooleanLiteral true
+key depth SimpleName MethodInvocation IfStatement ReturnStatement BooleanLiteral true
+range SimpleName MethodInvocation SimpleName get start key
+range SimpleName MethodInvocation MethodInvocation SimpleName following key
+get start key SimpleName MethodInvocation MethodInvocation SimpleName following key
+range SimpleName MethodInvocation MethodInvocation SimpleName key depth
+get start key SimpleName MethodInvocation MethodInvocation SimpleName key depth
+following key SimpleName MethodInvocation SimpleName key depth
+range SimpleName MethodInvocation SimpleName get end key
+range SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName equals
+get start key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName equals
+following key SimpleName MethodInvocation MethodInvocation SimpleName equals
+key depth SimpleName MethodInvocation MethodInvocation SimpleName equals
+following key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName range
+following key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get end key
+key depth SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName range
+key depth SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get end key
+range SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName partial keyrow colfam colqual colvis time
+get start key SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName partial keyrow colfam colqual colvis time
+following key SimpleName MethodInvocation MethodInvocation QualifiedName partial keyrow colfam colqual colvis time
+key depth SimpleName MethodInvocation MethodInvocation QualifiedName partial keyrow colfam colqual colvis time
+equals SimpleName MethodInvocation MethodInvocation SimpleName range
+equals SimpleName MethodInvocation MethodInvocation SimpleName get end key
+equals SimpleName MethodInvocation QualifiedName partial keyrow colfam colqual colvis time
+range SimpleName MethodInvocation MethodInvocation QualifiedName partial keyrow colfam colqual colvis time
+get end key SimpleName MethodInvocation MethodInvocation QualifiedName partial keyrow colfam colqual colvis time
+range SimpleName MethodInvocation SimpleName is end key inclusive
+static Modifier MethodDeclaration PrimitiveType boolean
+static Modifier MethodDeclaration SimpleName is range in bloom filter
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName range
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName range
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName partial key
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName key depth
+boolean PrimitiveType MethodDeclaration SimpleName is range in bloom filter
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName range
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName range
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName partial key
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName key depth
+is range in bloom filter SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName range
+is range in bloom filter SimpleName MethodDeclaration SingleVariableDeclaration SimpleName range
+is range in bloom filter SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName partial key
+is range in bloom filter SimpleName MethodDeclaration SingleVariableDeclaration SimpleName key depth
+range SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName key depth
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName is range in bloom filter
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName range
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName key depth
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName is range in bloom filter
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName range
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName key depth

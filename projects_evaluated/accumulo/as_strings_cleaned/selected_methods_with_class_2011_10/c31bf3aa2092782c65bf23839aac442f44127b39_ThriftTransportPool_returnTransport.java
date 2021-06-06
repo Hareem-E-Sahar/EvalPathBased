@@ -1,0 +1,188 @@
+t transport SimpleName SimpleType SingleVariableDeclaration SimpleName tsc
+exist in cache SimpleName VariableDeclarationFragment BooleanLiteral false
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName exist in cache
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment BooleanLiteral false
+cached t transport SimpleName SimpleType CastExpression SimpleName tsc
+ctsc SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName cached t transport
+ctsc SimpleName VariableDeclarationFragment CastExpression SimpleName tsc
+cached t transport SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ctsc
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName cached connection
+ctsc SimpleName MethodInvocation SimpleName get cache key
+cache SimpleName MethodInvocation SimpleName get
+cache SimpleName MethodInvocation MethodInvocation SimpleName ctsc
+cache SimpleName MethodInvocation MethodInvocation SimpleName get cache key
+get SimpleName MethodInvocation MethodInvocation SimpleName ctsc
+get SimpleName MethodInvocation MethodInvocation SimpleName get cache key
+ccl SimpleName VariableDeclarationFragment MethodInvocation SimpleName cache
+ccl SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+ccl SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName ctsc
+ccl SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get cache key
+iterator SimpleName SimpleType ParameterizedType SimpleType SimpleName cached connection
+ccl SimpleName MethodInvocation SimpleName iterator
+iterator SimpleName VariableDeclarationFragment MethodInvocation SimpleName ccl
+iterator SimpleName VariableDeclarationFragment MethodInvocation SimpleName iterator
+iterator SimpleName MethodInvocation SimpleName has next
+iterator SimpleName MethodInvocation SimpleName next
+cached connection SimpleName VariableDeclarationFragment MethodInvocation SimpleName iterator
+cached connection SimpleName VariableDeclarationFragment MethodInvocation SimpleName next
+cached connection SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName cached connection
+cached connectiontransport QualifiedName InfixExpression SimpleName tsc
+tsc SimpleName MethodInvocation SimpleName close
+iterator SimpleName MethodInvocation SimpleName remove
+log SimpleName MethodInvocation SimpleName is trace enabled
+ctsc SimpleName MethodInvocation SimpleName get cache key
+returned connection had error StringLiteral InfixExpression MethodInvocation SimpleName ctsc
+returned connection had error StringLiteral InfixExpression MethodInvocation SimpleName get cache key
+log SimpleName MethodInvocation SimpleName trace
+log SimpleName MethodInvocation InfixExpression StringLiteral returned connection had error
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName ctsc
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get cache key
+trace SimpleName MethodInvocation InfixExpression StringLiteral returned connection had error
+trace SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName ctsc
+trace SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get cache key
+ctsc SimpleName MethodInvocation SimpleName get cache key
+error count SimpleName MethodInvocation SimpleName get
+error count SimpleName MethodInvocation MethodInvocation SimpleName ctsc
+error count SimpleName MethodInvocation MethodInvocation SimpleName get cache key
+get SimpleName MethodInvocation MethodInvocation SimpleName ctsc
+get SimpleName MethodInvocation MethodInvocation SimpleName get cache key
+ecount SimpleName VariableDeclarationFragment MethodInvocation SimpleName error count
+ecount SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+ecount SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName ctsc
+ecount SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get cache key
+long SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ecount
+ecount SimpleName Assignment NumberLiteral l
+ctsc SimpleName MethodInvocation SimpleName get cache key
+error count SimpleName MethodInvocation SimpleName put
+error count SimpleName MethodInvocation MethodInvocation SimpleName ctsc
+error count SimpleName MethodInvocation MethodInvocation SimpleName get cache key
+error count SimpleName MethodInvocation SimpleName ecount
+put SimpleName MethodInvocation MethodInvocation SimpleName ctsc
+put SimpleName MethodInvocation MethodInvocation SimpleName get cache key
+put SimpleName MethodInvocation SimpleName ecount
+ctsc SimpleName MethodInvocation MethodInvocation SimpleName ecount
+get cache key SimpleName MethodInvocation MethodInvocation SimpleName ecount
+ctsc SimpleName MethodInvocation SimpleName get cache key
+error time SimpleName MethodInvocation SimpleName get
+error time SimpleName MethodInvocation MethodInvocation SimpleName ctsc
+error time SimpleName MethodInvocation MethodInvocation SimpleName get cache key
+get SimpleName MethodInvocation MethodInvocation SimpleName ctsc
+get SimpleName MethodInvocation MethodInvocation SimpleName get cache key
+etime SimpleName VariableDeclarationFragment MethodInvocation SimpleName error time
+etime SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+etime SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName ctsc
+etime SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get cache key
+long SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName etime
+ctsc SimpleName MethodInvocation SimpleName get cache key
+system SimpleName MethodInvocation SimpleName current time millis
+error time SimpleName MethodInvocation SimpleName put
+error time SimpleName MethodInvocation MethodInvocation SimpleName ctsc
+error time SimpleName MethodInvocation MethodInvocation SimpleName get cache key
+error time SimpleName MethodInvocation MethodInvocation SimpleName system
+error time SimpleName MethodInvocation MethodInvocation SimpleName current time millis
+put SimpleName MethodInvocation MethodInvocation SimpleName ctsc
+put SimpleName MethodInvocation MethodInvocation SimpleName get cache key
+put SimpleName MethodInvocation MethodInvocation SimpleName system
+put SimpleName MethodInvocation MethodInvocation SimpleName current time millis
+ctsc SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName system
+ctsc SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName current time millis
+get cache key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName system
+get cache key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName current time millis
+ecount SimpleName InfixExpression SimpleName error threshold
+ctsc SimpleName MethodInvocation SimpleName get cache key
+servers warned about SimpleName MethodInvocation SimpleName contains
+servers warned about SimpleName MethodInvocation MethodInvocation SimpleName ctsc
+servers warned about SimpleName MethodInvocation MethodInvocation SimpleName get cache key
+contains SimpleName MethodInvocation MethodInvocation SimpleName ctsc
+contains SimpleName MethodInvocation MethodInvocation SimpleName get cache key
+ctsc SimpleName MethodInvocation SimpleName get cache key
+server StringLiteral InfixExpression MethodInvocation SimpleName ctsc
+server StringLiteral InfixExpression MethodInvocation SimpleName get cache key
+server StringLiteral InfixExpression StringLiteral had
+server StringLiteral InfixExpression SimpleName ecount
+server StringLiteral InfixExpression StringLiteral failures in a short time period will not complain anymore
+ctsc SimpleName MethodInvocation InfixExpression StringLiteral had
+get cache key SimpleName MethodInvocation InfixExpression StringLiteral had
+ctsc SimpleName MethodInvocation InfixExpression SimpleName ecount
+get cache key SimpleName MethodInvocation InfixExpression SimpleName ecount
+ctsc SimpleName MethodInvocation InfixExpression StringLiteral failures in a short time period will not complain anymore
+get cache key SimpleName MethodInvocation InfixExpression StringLiteral failures in a short time period will not complain anymore
+had StringLiteral InfixExpression SimpleName ecount
+had StringLiteral InfixExpression StringLiteral failures in a short time period will not complain anymore
+ecount SimpleName InfixExpression StringLiteral failures in a short time period will not complain anymore
+log SimpleName MethodInvocation SimpleName warn
+log SimpleName MethodInvocation InfixExpression StringLiteral server
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName ctsc
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get cache key
+log SimpleName MethodInvocation InfixExpression StringLiteral had
+log SimpleName MethodInvocation InfixExpression SimpleName ecount
+log SimpleName MethodInvocation InfixExpression StringLiteral failures in a short time period will not complain anymore
+warn SimpleName MethodInvocation InfixExpression StringLiteral server
+warn SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName ctsc
+warn SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get cache key
+warn SimpleName MethodInvocation InfixExpression StringLiteral had
+warn SimpleName MethodInvocation InfixExpression SimpleName ecount
+warn SimpleName MethodInvocation InfixExpression StringLiteral failures in a short time period will not complain anymore
+ctsc SimpleName MethodInvocation SimpleName get cache key
+servers warned about SimpleName MethodInvocation SimpleName add
+servers warned about SimpleName MethodInvocation MethodInvocation SimpleName ctsc
+servers warned about SimpleName MethodInvocation MethodInvocation SimpleName get cache key
+add SimpleName MethodInvocation MethodInvocation SimpleName ctsc
+add SimpleName MethodInvocation MethodInvocation SimpleName get cache key
+cached connection SimpleName MethodInvocation SimpleName set reserved
+cached connection SimpleName MethodInvocation BooleanLiteral false
+set reserved SimpleName MethodInvocation BooleanLiteral false
+log SimpleName MethodInvocation SimpleName is trace enabled
+ctsc SimpleName MethodInvocation SimpleName get cache key
+returned connection StringLiteral InfixExpression MethodInvocation SimpleName ctsc
+returned connection StringLiteral InfixExpression MethodInvocation SimpleName get cache key
+returned connection StringLiteral InfixExpression StringLiteral io count :
+returned connection StringLiteral InfixExpression QualifiedName cached connectiontransportio count
+ctsc SimpleName MethodInvocation InfixExpression StringLiteral io count :
+get cache key SimpleName MethodInvocation InfixExpression StringLiteral io count :
+ctsc SimpleName MethodInvocation InfixExpression QualifiedName cached connectiontransportio count
+get cache key SimpleName MethodInvocation InfixExpression QualifiedName cached connectiontransportio count
+io count : StringLiteral InfixExpression QualifiedName cached connectiontransportio count
+log SimpleName MethodInvocation SimpleName trace
+log SimpleName MethodInvocation InfixExpression StringLiteral returned connection
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName ctsc
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get cache key
+log SimpleName MethodInvocation InfixExpression StringLiteral io count :
+log SimpleName MethodInvocation InfixExpression QualifiedName cached connectiontransportio count
+trace SimpleName MethodInvocation InfixExpression StringLiteral returned connection
+trace SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName ctsc
+trace SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get cache key
+trace SimpleName MethodInvocation InfixExpression StringLiteral io count :
+trace SimpleName MethodInvocation InfixExpression QualifiedName cached connectiontransportio count
+system SimpleName MethodInvocation SimpleName current time millis
+cached connectionlast return time QualifiedName Assignment MethodInvocation SimpleName system
+cached connectionlast return time QualifiedName Assignment MethodInvocation SimpleName current time millis
+cached connection SimpleName MethodInvocation SimpleName set reserved
+cached connection SimpleName MethodInvocation BooleanLiteral false
+set reserved SimpleName MethodInvocation BooleanLiteral false
+exist in cache SimpleName Assignment BooleanLiteral true
+log SimpleName MethodInvocation SimpleName warn
+log SimpleName MethodInvocation StringLiteral returned tablet server connection to cache that did not come from cache
+warn SimpleName MethodInvocation StringLiteral returned tablet server connection to cache that did not come from cache
+tsc SimpleName MethodInvocation SimpleName close
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName return transport
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName t transport
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName tsc
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+void PrimitiveType MethodDeclaration SimpleName return transport
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName t transport
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName tsc
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+return transport SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName t transport
+return transport SimpleName MethodDeclaration SingleVariableDeclaration SimpleName tsc
+return transport SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName return transport
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName tsc
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName return transport
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName tsc

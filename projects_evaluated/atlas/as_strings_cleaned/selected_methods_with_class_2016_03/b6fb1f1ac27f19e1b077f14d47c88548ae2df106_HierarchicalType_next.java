@@ -1,0 +1,61 @@
+path queue SimpleName MethodInvocation SimpleName poll
+p SimpleName VariableDeclarationFragment MethodInvocation SimpleName path queue
+p SimpleName VariableDeclarationFragment MethodInvocation SimpleName poll
+path SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName p
+st SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName t
+type system SimpleName MethodInvocation SimpleName get data type
+type system SimpleName MethodInvocation SimpleName super type class
+type system SimpleName MethodInvocation QualifiedName ptype name
+get data type SimpleName MethodInvocation SimpleName super type class
+get data type SimpleName MethodInvocation QualifiedName ptype name
+super type class SimpleName MethodInvocation QualifiedName ptype name
+st SimpleName SimpleType CastExpression MethodInvocation SimpleName type system
+st SimpleName SimpleType CastExpression MethodInvocation SimpleName get data type
+st SimpleName SimpleType CastExpression MethodInvocation SimpleName super type class
+st SimpleName SimpleType CastExpression MethodInvocation QualifiedName ptype name
+t SimpleName Assignment CastExpression SimpleType SimpleName st
+t SimpleName Assignment CastExpression MethodInvocation SimpleName type system
+t SimpleName Assignment CastExpression MethodInvocation SimpleName get data type
+t SimpleName Assignment CastExpression MethodInvocation SimpleName super type class
+t SimpleName Assignment CastExpression MethodInvocation QualifiedName ptype name
+atlas exception SimpleName SimpleType SingleVariableDeclaration SimpleName me
+runtime exception SimpleName SimpleType ClassInstanceCreation SimpleName me
+immutable list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+s ts SimpleName VariableDeclarationFragment QualifiedName tsuper types
+string SimpleName SimpleType SingleVariableDeclaration SimpleName s t
+s t SimpleName InfixExpression StringLiteral .
+s t SimpleName InfixExpression QualifiedName ppath name
+. StringLiteral InfixExpression QualifiedName ppath name
+nm SimpleName VariableDeclarationFragment InfixExpression SimpleName s t
+nm SimpleName VariableDeclarationFragment InfixExpression StringLiteral .
+nm SimpleName VariableDeclarationFragment InfixExpression QualifiedName ppath name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName nm
+path name to path map SimpleName MethodInvocation SimpleName get
+path name to path map SimpleName MethodInvocation SimpleName nm
+get SimpleName MethodInvocation SimpleName nm
+path queue SimpleName MethodInvocation SimpleName add
+path queue SimpleName MethodInvocation MethodInvocation SimpleName path name to path map
+path queue SimpleName MethodInvocation MethodInvocation SimpleName get
+path queue SimpleName MethodInvocation MethodInvocation SimpleName nm
+add SimpleName MethodInvocation MethodInvocation SimpleName path name to path map
+add SimpleName MethodInvocation MethodInvocation SimpleName get
+add SimpleName MethodInvocation MethodInvocation SimpleName nm
+string SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName s ts
+s t SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName s ts
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName path
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName next
+public Modifier MethodDeclaration SimpleType SimpleName path
+public Modifier MethodDeclaration SimpleName next
+public Modifier MethodDeclaration Block ReturnStatement SimpleName p
+path SimpleName SimpleType MethodDeclaration SimpleName next
+next SimpleName MethodDeclaration Block ReturnStatement SimpleName p
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName path
+public Modifier TypeDeclaration MethodDeclaration SimpleName next
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName path
+test SimpleName TypeDeclaration MethodDeclaration SimpleName next

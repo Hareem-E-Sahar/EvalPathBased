@@ -1,0 +1,12 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName location
+array list SimpleName SimpleType ParameterizedType ClassInstanceCreation SimpleName known locations
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName location
+public Modifier MethodDeclaration SimpleName get known locations
+list SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get known locations
+location SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get known locations
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName get known locations
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get known locations

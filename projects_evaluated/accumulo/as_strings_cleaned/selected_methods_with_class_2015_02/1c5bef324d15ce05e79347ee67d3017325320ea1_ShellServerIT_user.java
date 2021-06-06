@@ -1,0 +1,406 @@
+name SimpleName MethodInvocation SimpleName get method name
+table SimpleName VariableDeclarationFragment MethodInvocation SimpleName name
+table SimpleName VariableDeclarationFragment MethodInvocation SimpleName get method name
+final Modifier VariableDeclarationStatement SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName table
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName name
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get method name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName table
+get token SimpleName MethodInvocation InstanceofExpression SimpleType SimpleName kerberos token
+kerberos enabled SimpleName VariableDeclarationFragment InstanceofExpression MethodInvocation SimpleName get token
+kerberos enabled SimpleName VariableDeclarationFragment InstanceofExpression SimpleType SimpleName kerberos token
+final Modifier VariableDeclarationStatement PrimitiveType boolean
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName kerberos enabled
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName kerberos enabled
+tsinput QualifiedName MethodInvocation SimpleName set
+tsinput QualifiedName MethodInvocation StringLiteral secretsecret
+set SimpleName MethodInvocation StringLiteral secretsecret
+ts SimpleName MethodInvocation SimpleName exec
+ts SimpleName MethodInvocation StringLiteral createuser xyzzy
+ts SimpleName MethodInvocation BooleanLiteral true
+exec SimpleName MethodInvocation StringLiteral createuser xyzzy
+exec SimpleName MethodInvocation BooleanLiteral true
+createuser xyzzy StringLiteral MethodInvocation BooleanLiteral true
+ts SimpleName MethodInvocation SimpleName exec
+ts SimpleName MethodInvocation StringLiteral users
+ts SimpleName MethodInvocation BooleanLiteral true
+ts SimpleName MethodInvocation StringLiteral xyzzy
+ts SimpleName MethodInvocation BooleanLiteral true
+exec SimpleName MethodInvocation StringLiteral users
+exec SimpleName MethodInvocation BooleanLiteral true
+exec SimpleName MethodInvocation StringLiteral xyzzy
+exec SimpleName MethodInvocation BooleanLiteral true
+users StringLiteral MethodInvocation BooleanLiteral true
+users StringLiteral MethodInvocation StringLiteral xyzzy
+users StringLiteral MethodInvocation BooleanLiteral true
+true BooleanLiteral MethodInvocation StringLiteral xyzzy
+true BooleanLiteral MethodInvocation BooleanLiteral true
+xyzzy StringLiteral MethodInvocation BooleanLiteral true
+ts SimpleName MethodInvocation SimpleName exec
+ts SimpleName MethodInvocation StringLiteral userpermissions u xyzzy
+ts SimpleName MethodInvocation BooleanLiteral true
+exec SimpleName MethodInvocation StringLiteral userpermissions u xyzzy
+exec SimpleName MethodInvocation BooleanLiteral true
+userpermissions u xyzzy StringLiteral MethodInvocation BooleanLiteral true
+perms SimpleName VariableDeclarationFragment MethodInvocation SimpleName ts
+perms SimpleName VariableDeclarationFragment MethodInvocation SimpleName exec
+perms SimpleName VariableDeclarationFragment MethodInvocation StringLiteral userpermissions u xyzzy
+perms SimpleName VariableDeclarationFragment MethodInvocation BooleanLiteral true
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName perms
+table permissions ( StringLiteral InfixExpression QualifiedName metadata tablename
+table permissions ( StringLiteral InfixExpression StringLiteral ): tableread
+metadata tablename QualifiedName InfixExpression StringLiteral ): tableread
+perms SimpleName MethodInvocation SimpleName contains
+perms SimpleName MethodInvocation InfixExpression StringLiteral table permissions (
+perms SimpleName MethodInvocation InfixExpression QualifiedName metadata tablename
+perms SimpleName MethodInvocation InfixExpression StringLiteral ): tableread
+contains SimpleName MethodInvocation InfixExpression StringLiteral table permissions (
+contains SimpleName MethodInvocation InfixExpression QualifiedName metadata tablename
+contains SimpleName MethodInvocation InfixExpression StringLiteral ): tableread
+assert true SimpleName MethodInvocation MethodInvocation SimpleName perms
+assert true SimpleName MethodInvocation MethodInvocation SimpleName contains
+assert true SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral table permissions (
+assert true SimpleName MethodInvocation MethodInvocation InfixExpression QualifiedName metadata tablename
+assert true SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral ): tableread
+ts SimpleName MethodInvocation SimpleName exec
+ts SimpleName MethodInvocation StringLiteral grant u xyzzy s systemcreate table
+ts SimpleName MethodInvocation BooleanLiteral true
+exec SimpleName MethodInvocation StringLiteral grant u xyzzy s systemcreate table
+exec SimpleName MethodInvocation BooleanLiteral true
+grant u xyzzy s systemcreate table StringLiteral MethodInvocation BooleanLiteral true
+ts SimpleName MethodInvocation SimpleName exec
+ts SimpleName MethodInvocation StringLiteral userpermissions u xyzzy
+ts SimpleName MethodInvocation BooleanLiteral true
+exec SimpleName MethodInvocation StringLiteral userpermissions u xyzzy
+exec SimpleName MethodInvocation BooleanLiteral true
+userpermissions u xyzzy StringLiteral MethodInvocation BooleanLiteral true
+perms SimpleName Assignment MethodInvocation SimpleName ts
+perms SimpleName Assignment MethodInvocation SimpleName exec
+perms SimpleName Assignment MethodInvocation StringLiteral userpermissions u xyzzy
+perms SimpleName Assignment MethodInvocation BooleanLiteral true
+perms SimpleName MethodInvocation SimpleName contains
+perms SimpleName MethodInvocation StringLiteral empty
+contains SimpleName MethodInvocation StringLiteral empty
+assert true SimpleName MethodInvocation MethodInvocation SimpleName perms
+assert true SimpleName MethodInvocation MethodInvocation SimpleName contains
+assert true SimpleName MethodInvocation MethodInvocation StringLiteral empty
+grant u StringLiteral InfixExpression MethodInvocation SimpleName get principal
+grant u StringLiteral InfixExpression StringLiteral t
+grant u StringLiteral InfixExpression QualifiedName metadata tablename
+grant u StringLiteral InfixExpression StringLiteral tablewrite
+get principal SimpleName MethodInvocation InfixExpression StringLiteral t
+get principal SimpleName MethodInvocation InfixExpression QualifiedName metadata tablename
+get principal SimpleName MethodInvocation InfixExpression StringLiteral tablewrite
+t StringLiteral InfixExpression QualifiedName metadata tablename
+t StringLiteral InfixExpression StringLiteral tablewrite
+metadata tablename QualifiedName InfixExpression StringLiteral tablewrite
+ts SimpleName MethodInvocation SimpleName exec
+ts SimpleName MethodInvocation InfixExpression StringLiteral grant u
+ts SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get principal
+ts SimpleName MethodInvocation InfixExpression StringLiteral t
+ts SimpleName MethodInvocation InfixExpression QualifiedName metadata tablename
+ts SimpleName MethodInvocation InfixExpression StringLiteral tablewrite
+ts SimpleName MethodInvocation BooleanLiteral true
+exec SimpleName MethodInvocation InfixExpression StringLiteral grant u
+exec SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get principal
+exec SimpleName MethodInvocation InfixExpression StringLiteral t
+exec SimpleName MethodInvocation InfixExpression QualifiedName metadata tablename
+exec SimpleName MethodInvocation InfixExpression StringLiteral tablewrite
+exec SimpleName MethodInvocation BooleanLiteral true
+grant u StringLiteral InfixExpression MethodInvocation BooleanLiteral true
+get principal SimpleName MethodInvocation InfixExpression MethodInvocation BooleanLiteral true
+t StringLiteral InfixExpression MethodInvocation BooleanLiteral true
+metadata tablename QualifiedName InfixExpression MethodInvocation BooleanLiteral true
+tablewrite StringLiteral InfixExpression MethodInvocation BooleanLiteral true
+grant u StringLiteral InfixExpression MethodInvocation SimpleName get principal
+grant u StringLiteral InfixExpression StringLiteral t
+grant u StringLiteral InfixExpression QualifiedName metadata tablename
+grant u StringLiteral InfixExpression StringLiteral tablegoofy
+get principal SimpleName MethodInvocation InfixExpression StringLiteral t
+get principal SimpleName MethodInvocation InfixExpression QualifiedName metadata tablename
+get principal SimpleName MethodInvocation InfixExpression StringLiteral tablegoofy
+t StringLiteral InfixExpression QualifiedName metadata tablename
+t StringLiteral InfixExpression StringLiteral tablegoofy
+metadata tablename QualifiedName InfixExpression StringLiteral tablegoofy
+ts SimpleName MethodInvocation SimpleName exec
+ts SimpleName MethodInvocation InfixExpression StringLiteral grant u
+ts SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get principal
+ts SimpleName MethodInvocation InfixExpression StringLiteral t
+ts SimpleName MethodInvocation InfixExpression QualifiedName metadata tablename
+ts SimpleName MethodInvocation InfixExpression StringLiteral tablegoofy
+ts SimpleName MethodInvocation BooleanLiteral false
+exec SimpleName MethodInvocation InfixExpression StringLiteral grant u
+exec SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get principal
+exec SimpleName MethodInvocation InfixExpression StringLiteral t
+exec SimpleName MethodInvocation InfixExpression QualifiedName metadata tablename
+exec SimpleName MethodInvocation InfixExpression StringLiteral tablegoofy
+exec SimpleName MethodInvocation BooleanLiteral false
+grant u StringLiteral InfixExpression MethodInvocation BooleanLiteral false
+get principal SimpleName MethodInvocation InfixExpression MethodInvocation BooleanLiteral false
+t StringLiteral InfixExpression MethodInvocation BooleanLiteral false
+metadata tablename QualifiedName InfixExpression MethodInvocation BooleanLiteral false
+tablegoofy StringLiteral InfixExpression MethodInvocation BooleanLiteral false
+grant u StringLiteral InfixExpression MethodInvocation SimpleName get principal
+grant u StringLiteral InfixExpression StringLiteral s foo
+get principal SimpleName MethodInvocation InfixExpression StringLiteral s foo
+ts SimpleName MethodInvocation SimpleName exec
+ts SimpleName MethodInvocation InfixExpression StringLiteral grant u
+ts SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get principal
+ts SimpleName MethodInvocation InfixExpression StringLiteral s foo
+ts SimpleName MethodInvocation BooleanLiteral false
+exec SimpleName MethodInvocation InfixExpression StringLiteral grant u
+exec SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get principal
+exec SimpleName MethodInvocation InfixExpression StringLiteral s foo
+exec SimpleName MethodInvocation BooleanLiteral false
+grant u StringLiteral InfixExpression MethodInvocation BooleanLiteral false
+get principal SimpleName MethodInvocation InfixExpression MethodInvocation BooleanLiteral false
+s foo StringLiteral InfixExpression MethodInvocation BooleanLiteral false
+grant u xyzzy t StringLiteral InfixExpression QualifiedName metadata tablename
+grant u xyzzy t StringLiteral InfixExpression StringLiteral foo
+metadata tablename QualifiedName InfixExpression StringLiteral foo
+ts SimpleName MethodInvocation SimpleName exec
+ts SimpleName MethodInvocation InfixExpression StringLiteral grant u xyzzy t
+ts SimpleName MethodInvocation InfixExpression QualifiedName metadata tablename
+ts SimpleName MethodInvocation InfixExpression StringLiteral foo
+ts SimpleName MethodInvocation BooleanLiteral false
+exec SimpleName MethodInvocation InfixExpression StringLiteral grant u xyzzy t
+exec SimpleName MethodInvocation InfixExpression QualifiedName metadata tablename
+exec SimpleName MethodInvocation InfixExpression StringLiteral foo
+exec SimpleName MethodInvocation BooleanLiteral false
+grant u xyzzy t StringLiteral InfixExpression MethodInvocation BooleanLiteral false
+metadata tablename QualifiedName InfixExpression MethodInvocation BooleanLiteral false
+foo StringLiteral InfixExpression MethodInvocation BooleanLiteral false
+tsinput QualifiedName MethodInvocation SimpleName set
+tsinput QualifiedName MethodInvocation StringLiteral secretsecret
+set SimpleName MethodInvocation StringLiteral secretsecret
+ts SimpleName MethodInvocation SimpleName exec
+ts SimpleName MethodInvocation StringLiteral user xyzzy
+ts SimpleName MethodInvocation BooleanLiteral true
+exec SimpleName MethodInvocation StringLiteral user xyzzy
+exec SimpleName MethodInvocation BooleanLiteral true
+user xyzzy StringLiteral MethodInvocation BooleanLiteral true
+createtable StringLiteral InfixExpression SimpleName table
+ts SimpleName MethodInvocation SimpleName exec
+ts SimpleName MethodInvocation InfixExpression StringLiteral createtable
+ts SimpleName MethodInvocation InfixExpression SimpleName table
+ts SimpleName MethodInvocation BooleanLiteral true
+ts SimpleName MethodInvocation StringLiteral xyzzy
+ts SimpleName MethodInvocation BooleanLiteral true
+exec SimpleName MethodInvocation InfixExpression StringLiteral createtable
+exec SimpleName MethodInvocation InfixExpression SimpleName table
+exec SimpleName MethodInvocation BooleanLiteral true
+exec SimpleName MethodInvocation StringLiteral xyzzy
+exec SimpleName MethodInvocation BooleanLiteral true
+createtable StringLiteral InfixExpression MethodInvocation BooleanLiteral true
+table SimpleName InfixExpression MethodInvocation BooleanLiteral true
+createtable StringLiteral InfixExpression MethodInvocation StringLiteral xyzzy
+table SimpleName InfixExpression MethodInvocation StringLiteral xyzzy
+createtable StringLiteral InfixExpression MethodInvocation BooleanLiteral true
+table SimpleName InfixExpression MethodInvocation BooleanLiteral true
+true BooleanLiteral MethodInvocation StringLiteral xyzzy
+true BooleanLiteral MethodInvocation BooleanLiteral true
+xyzzy StringLiteral MethodInvocation BooleanLiteral true
+ts SimpleName MethodInvocation SimpleName exec
+ts SimpleName MethodInvocation StringLiteral insert row cf cq
+ts SimpleName MethodInvocation BooleanLiteral true
+exec SimpleName MethodInvocation StringLiteral insert row cf cq
+exec SimpleName MethodInvocation BooleanLiteral true
+insert row cf cq StringLiteral MethodInvocation BooleanLiteral true
+ts SimpleName MethodInvocation SimpleName exec
+ts SimpleName MethodInvocation StringLiteral scan
+ts SimpleName MethodInvocation BooleanLiteral true
+ts SimpleName MethodInvocation StringLiteral row
+ts SimpleName MethodInvocation BooleanLiteral true
+exec SimpleName MethodInvocation StringLiteral scan
+exec SimpleName MethodInvocation BooleanLiteral true
+exec SimpleName MethodInvocation StringLiteral row
+exec SimpleName MethodInvocation BooleanLiteral true
+scan StringLiteral MethodInvocation BooleanLiteral true
+scan StringLiteral MethodInvocation StringLiteral row
+scan StringLiteral MethodInvocation BooleanLiteral true
+true BooleanLiteral MethodInvocation StringLiteral row
+true BooleanLiteral MethodInvocation BooleanLiteral true
+row StringLiteral MethodInvocation BooleanLiteral true
+droptable f StringLiteral InfixExpression SimpleName table
+ts SimpleName MethodInvocation SimpleName exec
+ts SimpleName MethodInvocation InfixExpression StringLiteral droptable f
+ts SimpleName MethodInvocation InfixExpression SimpleName table
+ts SimpleName MethodInvocation BooleanLiteral true
+exec SimpleName MethodInvocation InfixExpression StringLiteral droptable f
+exec SimpleName MethodInvocation InfixExpression SimpleName table
+exec SimpleName MethodInvocation BooleanLiteral true
+droptable f StringLiteral InfixExpression MethodInvocation BooleanLiteral true
+table SimpleName InfixExpression MethodInvocation BooleanLiteral true
+get root password SimpleName MethodInvocation InfixExpression StringLiteral empty
+get root password SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get root password
+get root password SimpleName MethodInvocation InfixExpression StringLiteral empty
+empty StringLiteral InfixExpression MethodInvocation SimpleName get root password
+empty StringLiteral InfixExpression StringLiteral empty
+get root password SimpleName MethodInvocation InfixExpression StringLiteral empty
+tsinput QualifiedName MethodInvocation SimpleName set
+tsinput QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName get root password
+tsinput QualifiedName MethodInvocation InfixExpression StringLiteral empty
+tsinput QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName get root password
+tsinput QualifiedName MethodInvocation InfixExpression StringLiteral empty
+set SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get root password
+set SimpleName MethodInvocation InfixExpression StringLiteral empty
+set SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get root password
+set SimpleName MethodInvocation InfixExpression StringLiteral empty
+ts SimpleName MethodInvocation SimpleName exec
+ts SimpleName MethodInvocation StringLiteral user root
+ts SimpleName MethodInvocation BooleanLiteral true
+exec SimpleName MethodInvocation StringLiteral user root
+exec SimpleName MethodInvocation BooleanLiteral true
+user root StringLiteral MethodInvocation BooleanLiteral true
+deleteuser StringLiteral InfixExpression MethodInvocation SimpleName get principal
+ts SimpleName MethodInvocation SimpleName exec
+ts SimpleName MethodInvocation InfixExpression StringLiteral deleteuser
+ts SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get principal
+ts SimpleName MethodInvocation BooleanLiteral false
+ts SimpleName MethodInvocation StringLiteral delete yourself
+ts SimpleName MethodInvocation BooleanLiteral true
+exec SimpleName MethodInvocation InfixExpression StringLiteral deleteuser
+exec SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get principal
+exec SimpleName MethodInvocation BooleanLiteral false
+exec SimpleName MethodInvocation StringLiteral delete yourself
+exec SimpleName MethodInvocation BooleanLiteral true
+deleteuser StringLiteral InfixExpression MethodInvocation BooleanLiteral false
+get principal SimpleName MethodInvocation InfixExpression MethodInvocation BooleanLiteral false
+deleteuser StringLiteral InfixExpression MethodInvocation StringLiteral delete yourself
+get principal SimpleName MethodInvocation InfixExpression MethodInvocation StringLiteral delete yourself
+deleteuser StringLiteral InfixExpression MethodInvocation BooleanLiteral true
+get principal SimpleName MethodInvocation InfixExpression MethodInvocation BooleanLiteral true
+false BooleanLiteral MethodInvocation StringLiteral delete yourself
+false BooleanLiteral MethodInvocation BooleanLiteral true
+delete yourself StringLiteral MethodInvocation BooleanLiteral true
+ts SimpleName MethodInvocation SimpleName exec
+ts SimpleName MethodInvocation StringLiteral revoke u xyzzy s systemcreate table
+ts SimpleName MethodInvocation BooleanLiteral true
+exec SimpleName MethodInvocation StringLiteral revoke u xyzzy s systemcreate table
+exec SimpleName MethodInvocation BooleanLiteral true
+revoke u xyzzy s systemcreate table StringLiteral MethodInvocation BooleanLiteral true
+ts SimpleName MethodInvocation SimpleName exec
+ts SimpleName MethodInvocation StringLiteral revoke u xyzzy s systemgoofy
+ts SimpleName MethodInvocation BooleanLiteral false
+exec SimpleName MethodInvocation StringLiteral revoke u xyzzy s systemgoofy
+exec SimpleName MethodInvocation BooleanLiteral false
+revoke u xyzzy s systemgoofy StringLiteral MethodInvocation BooleanLiteral false
+ts SimpleName MethodInvocation SimpleName exec
+ts SimpleName MethodInvocation StringLiteral revoke u xyzzy s foo
+ts SimpleName MethodInvocation BooleanLiteral false
+exec SimpleName MethodInvocation StringLiteral revoke u xyzzy s foo
+exec SimpleName MethodInvocation BooleanLiteral false
+revoke u xyzzy s foo StringLiteral MethodInvocation BooleanLiteral false
+revoke u xyzzy t StringLiteral InfixExpression QualifiedName metadata tablename
+revoke u xyzzy t StringLiteral InfixExpression StringLiteral tablewrite
+metadata tablename QualifiedName InfixExpression StringLiteral tablewrite
+ts SimpleName MethodInvocation SimpleName exec
+ts SimpleName MethodInvocation InfixExpression StringLiteral revoke u xyzzy t
+ts SimpleName MethodInvocation InfixExpression QualifiedName metadata tablename
+ts SimpleName MethodInvocation InfixExpression StringLiteral tablewrite
+ts SimpleName MethodInvocation BooleanLiteral true
+exec SimpleName MethodInvocation InfixExpression StringLiteral revoke u xyzzy t
+exec SimpleName MethodInvocation InfixExpression QualifiedName metadata tablename
+exec SimpleName MethodInvocation InfixExpression StringLiteral tablewrite
+exec SimpleName MethodInvocation BooleanLiteral true
+revoke u xyzzy t StringLiteral InfixExpression MethodInvocation BooleanLiteral true
+metadata tablename QualifiedName InfixExpression MethodInvocation BooleanLiteral true
+tablewrite StringLiteral InfixExpression MethodInvocation BooleanLiteral true
+revoke u xyzzy t StringLiteral InfixExpression QualifiedName metadata tablename
+revoke u xyzzy t StringLiteral InfixExpression StringLiteral tablegoofy
+metadata tablename QualifiedName InfixExpression StringLiteral tablegoofy
+ts SimpleName MethodInvocation SimpleName exec
+ts SimpleName MethodInvocation InfixExpression StringLiteral revoke u xyzzy t
+ts SimpleName MethodInvocation InfixExpression QualifiedName metadata tablename
+ts SimpleName MethodInvocation InfixExpression StringLiteral tablegoofy
+ts SimpleName MethodInvocation BooleanLiteral false
+exec SimpleName MethodInvocation InfixExpression StringLiteral revoke u xyzzy t
+exec SimpleName MethodInvocation InfixExpression QualifiedName metadata tablename
+exec SimpleName MethodInvocation InfixExpression StringLiteral tablegoofy
+exec SimpleName MethodInvocation BooleanLiteral false
+revoke u xyzzy t StringLiteral InfixExpression MethodInvocation BooleanLiteral false
+metadata tablename QualifiedName InfixExpression MethodInvocation BooleanLiteral false
+tablegoofy StringLiteral InfixExpression MethodInvocation BooleanLiteral false
+revoke u xyzzy t StringLiteral InfixExpression QualifiedName metadata tablename
+revoke u xyzzy t StringLiteral InfixExpression StringLiteral foo
+metadata tablename QualifiedName InfixExpression StringLiteral foo
+ts SimpleName MethodInvocation SimpleName exec
+ts SimpleName MethodInvocation InfixExpression StringLiteral revoke u xyzzy t
+ts SimpleName MethodInvocation InfixExpression QualifiedName metadata tablename
+ts SimpleName MethodInvocation InfixExpression StringLiteral foo
+ts SimpleName MethodInvocation BooleanLiteral false
+exec SimpleName MethodInvocation InfixExpression StringLiteral revoke u xyzzy t
+exec SimpleName MethodInvocation InfixExpression QualifiedName metadata tablename
+exec SimpleName MethodInvocation InfixExpression StringLiteral foo
+exec SimpleName MethodInvocation BooleanLiteral false
+revoke u xyzzy t StringLiteral InfixExpression MethodInvocation BooleanLiteral false
+metadata tablename QualifiedName InfixExpression MethodInvocation BooleanLiteral false
+foo StringLiteral InfixExpression MethodInvocation BooleanLiteral false
+ts SimpleName MethodInvocation SimpleName exec
+ts SimpleName MethodInvocation StringLiteral deleteuser xyzzy
+ts SimpleName MethodInvocation BooleanLiteral true
+ts SimpleName MethodInvocation StringLiteral deleteuser { xyzzy } yesno
+ts SimpleName MethodInvocation BooleanLiteral true
+exec SimpleName MethodInvocation StringLiteral deleteuser xyzzy
+exec SimpleName MethodInvocation BooleanLiteral true
+exec SimpleName MethodInvocation StringLiteral deleteuser { xyzzy } yesno
+exec SimpleName MethodInvocation BooleanLiteral true
+deleteuser xyzzy StringLiteral MethodInvocation BooleanLiteral true
+deleteuser xyzzy StringLiteral MethodInvocation StringLiteral deleteuser { xyzzy } yesno
+deleteuser xyzzy StringLiteral MethodInvocation BooleanLiteral true
+true BooleanLiteral MethodInvocation StringLiteral deleteuser { xyzzy } yesno
+true BooleanLiteral MethodInvocation BooleanLiteral true
+deleteuser { xyzzy } yesno StringLiteral MethodInvocation BooleanLiteral true
+ts SimpleName MethodInvocation SimpleName exec
+ts SimpleName MethodInvocation StringLiteral deleteuser f xyzzy
+ts SimpleName MethodInvocation BooleanLiteral true
+exec SimpleName MethodInvocation StringLiteral deleteuser f xyzzy
+exec SimpleName MethodInvocation BooleanLiteral true
+deleteuser f xyzzy StringLiteral MethodInvocation BooleanLiteral true
+ts SimpleName MethodInvocation SimpleName exec
+ts SimpleName MethodInvocation StringLiteral users
+ts SimpleName MethodInvocation BooleanLiteral true
+ts SimpleName MethodInvocation StringLiteral xyzzy
+ts SimpleName MethodInvocation BooleanLiteral false
+exec SimpleName MethodInvocation StringLiteral users
+exec SimpleName MethodInvocation BooleanLiteral true
+exec SimpleName MethodInvocation StringLiteral xyzzy
+exec SimpleName MethodInvocation BooleanLiteral false
+users StringLiteral MethodInvocation BooleanLiteral true
+users StringLiteral MethodInvocation StringLiteral xyzzy
+users StringLiteral MethodInvocation BooleanLiteral false
+true BooleanLiteral MethodInvocation StringLiteral xyzzy
+true BooleanLiteral MethodInvocation BooleanLiteral false
+xyzzy StringLiteral MethodInvocation BooleanLiteral false
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType boolean
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName user
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName user
+public Modifier MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+public Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+void PrimitiveType MethodDeclaration SimpleName user
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement Modifier final
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement Modifier final
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+user SimpleName MethodDeclaration SimpleType SimpleName exception
+user SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+user SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+user SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName user
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName user
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

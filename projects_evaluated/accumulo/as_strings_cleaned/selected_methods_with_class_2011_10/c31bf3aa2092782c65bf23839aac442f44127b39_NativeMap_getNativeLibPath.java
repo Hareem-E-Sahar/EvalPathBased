@@ -1,0 +1,28 @@
+platform SimpleName MethodInvocation SimpleName get platform
+native map StringLiteral InfixExpression MethodInvocation SimpleName platform
+native map StringLiteral InfixExpression MethodInvocation SimpleName get platform
+system SimpleName MethodInvocation SimpleName map library name
+system SimpleName MethodInvocation InfixExpression StringLiteral native map
+system SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName platform
+system SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get platform
+map library name SimpleName MethodInvocation InfixExpression StringLiteral native map
+map library name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName platform
+map library name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get platform
+libnativemap StringLiteral InfixExpression MethodInvocation SimpleName system
+libnativemap StringLiteral InfixExpression MethodInvocation SimpleName map library name
+libnativemap StringLiteral InfixExpression MethodInvocation InfixExpression StringLiteral native map
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName get native lib path
+static Modifier MethodDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SimpleName get native lib path
+string SimpleName SimpleType MethodDeclaration SimpleName get native lib path
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName get native lib path
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get native lib path

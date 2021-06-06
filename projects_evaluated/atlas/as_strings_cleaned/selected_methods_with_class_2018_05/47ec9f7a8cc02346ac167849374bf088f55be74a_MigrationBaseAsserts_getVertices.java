@@ -1,0 +1,58 @@
+iterator SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas vertex
+string SimpleName SimpleType SingleVariableDeclaration SimpleName type name
+string SimpleName SimpleType SingleVariableDeclaration SimpleName name
+graph SimpleName MethodInvocation SimpleName query
+graph SimpleName MethodInvocation MethodInvocation SimpleName has
+query SimpleName MethodInvocation MethodInvocation SimpleName has
+graph SimpleName MethodInvocation MethodInvocation SimpleName type name property
+query SimpleName MethodInvocation MethodInvocation SimpleName type name property
+graph SimpleName MethodInvocation MethodInvocation SimpleName type name
+query SimpleName MethodInvocation MethodInvocation SimpleName type name
+has SimpleName MethodInvocation SimpleName type name property
+has SimpleName MethodInvocation SimpleName type name
+type name property SimpleName MethodInvocation SimpleName type name
+query SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName graph
+query SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName query
+query SimpleName VariableDeclarationFragment MethodInvocation SimpleName has
+query SimpleName VariableDeclarationFragment MethodInvocation SimpleName type name property
+query SimpleName VariableDeclarationFragment MethodInvocation SimpleName type name
+atlas graph query SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName query
+string utils SimpleName MethodInvocation SimpleName is empty
+string utils SimpleName MethodInvocation SimpleName name
+is empty SimpleName MethodInvocation SimpleName name
+query SimpleName MethodInvocation SimpleName has
+query SimpleName MethodInvocation SimpleName assert name property
+query SimpleName MethodInvocation SimpleName name
+has SimpleName MethodInvocation SimpleName assert name property
+has SimpleName MethodInvocation SimpleName name
+assert name property SimpleName MethodInvocation SimpleName name
+query SimpleName Assignment MethodInvocation SimpleName query
+query SimpleName Assignment MethodInvocation SimpleName has
+query SimpleName Assignment MethodInvocation SimpleName assert name property
+query SimpleName Assignment MethodInvocation SimpleName name
+query SimpleName MethodInvocation SimpleName vertices
+query SimpleName MethodInvocation MethodInvocation SimpleName iterator
+vertices SimpleName MethodInvocation MethodInvocation SimpleName iterator
+protected Modifier MethodDeclaration ParameterizedType SimpleType SimpleName iterator
+protected Modifier MethodDeclaration ParameterizedType SimpleType SimpleName atlas vertex
+protected Modifier MethodDeclaration SimpleName get vertices
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName type name
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName name
+iterator SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get vertices
+atlas vertex SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get vertices
+get vertices SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get vertices SimpleName MethodDeclaration SingleVariableDeclaration SimpleName type name
+get vertices SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get vertices SimpleName MethodDeclaration SingleVariableDeclaration SimpleName name
+type name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleName get vertices
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get vertices
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name

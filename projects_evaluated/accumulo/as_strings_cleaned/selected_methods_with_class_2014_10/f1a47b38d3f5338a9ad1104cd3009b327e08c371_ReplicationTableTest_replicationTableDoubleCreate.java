@@ -1,0 +1,87 @@
+conn SimpleName MethodInvocation SimpleName table operations
+tops SimpleName VariableDeclarationFragment MethodInvocation SimpleName conn
+tops SimpleName VariableDeclarationFragment MethodInvocation SimpleName table operations
+table operations SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName tops
+tops SimpleName MethodInvocation SimpleName exists
+tops SimpleName MethodInvocation QualifiedName replication tablename
+exists SimpleName MethodInvocation QualifiedName replication tablename
+assert SimpleName MethodInvocation SimpleName assert false
+assert SimpleName MethodInvocation MethodInvocation SimpleName tops
+assert SimpleName MethodInvocation MethodInvocation SimpleName exists
+assert SimpleName MethodInvocation MethodInvocation QualifiedName replication tablename
+assert false SimpleName MethodInvocation MethodInvocation SimpleName tops
+assert false SimpleName MethodInvocation MethodInvocation SimpleName exists
+assert false SimpleName MethodInvocation MethodInvocation QualifiedName replication tablename
+replication util SimpleName MethodInvocation SimpleName create replication table
+replication util SimpleName MethodInvocation SimpleName conn
+create replication table SimpleName MethodInvocation SimpleName conn
+tops SimpleName MethodInvocation SimpleName exists
+tops SimpleName MethodInvocation QualifiedName replication tablename
+exists SimpleName MethodInvocation QualifiedName replication tablename
+assert SimpleName MethodInvocation SimpleName assert true
+assert SimpleName MethodInvocation MethodInvocation SimpleName tops
+assert SimpleName MethodInvocation MethodInvocation SimpleName exists
+assert SimpleName MethodInvocation MethodInvocation QualifiedName replication tablename
+assert true SimpleName MethodInvocation MethodInvocation SimpleName tops
+assert true SimpleName MethodInvocation MethodInvocation SimpleName exists
+assert true SimpleName MethodInvocation MethodInvocation QualifiedName replication tablename
+tops SimpleName MethodInvocation SimpleName table id map
+tops SimpleName MethodInvocation MethodInvocation SimpleName get
+table id map SimpleName MethodInvocation MethodInvocation SimpleName get
+tops SimpleName MethodInvocation MethodInvocation QualifiedName replication tablename
+table id map SimpleName MethodInvocation MethodInvocation QualifiedName replication tablename
+get SimpleName MethodInvocation QualifiedName replication tablename
+table id SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName tops
+table id SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName table id map
+table id SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+table id SimpleName VariableDeclarationFragment MethodInvocation QualifiedName replication tablename
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName table id
+replication util SimpleName MethodInvocation SimpleName create replication table
+replication util SimpleName MethodInvocation SimpleName conn
+create replication table SimpleName MethodInvocation SimpleName conn
+tops SimpleName MethodInvocation SimpleName exists
+tops SimpleName MethodInvocation QualifiedName replication tablename
+exists SimpleName MethodInvocation QualifiedName replication tablename
+assert SimpleName MethodInvocation SimpleName assert true
+assert SimpleName MethodInvocation MethodInvocation SimpleName tops
+assert SimpleName MethodInvocation MethodInvocation SimpleName exists
+assert SimpleName MethodInvocation MethodInvocation QualifiedName replication tablename
+assert true SimpleName MethodInvocation MethodInvocation SimpleName tops
+assert true SimpleName MethodInvocation MethodInvocation SimpleName exists
+assert true SimpleName MethodInvocation MethodInvocation QualifiedName replication tablename
+tops SimpleName MethodInvocation SimpleName table id map
+tops SimpleName MethodInvocation MethodInvocation SimpleName get
+table id map SimpleName MethodInvocation MethodInvocation SimpleName get
+tops SimpleName MethodInvocation MethodInvocation QualifiedName replication tablename
+table id map SimpleName MethodInvocation MethodInvocation QualifiedName replication tablename
+get SimpleName MethodInvocation QualifiedName replication tablename
+assert SimpleName MethodInvocation SimpleName assert equals
+assert SimpleName MethodInvocation SimpleName table id
+assert SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName tops
+assert SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName table id map
+assert SimpleName MethodInvocation MethodInvocation SimpleName get
+assert SimpleName MethodInvocation MethodInvocation QualifiedName replication tablename
+assert equals SimpleName MethodInvocation SimpleName table id
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName tops
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName table id map
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get
+assert equals SimpleName MethodInvocation MethodInvocation QualifiedName replication tablename
+table id SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName tops
+table id SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName table id map
+table id SimpleName MethodInvocation MethodInvocation SimpleName get
+table id SimpleName MethodInvocation MethodInvocation QualifiedName replication tablename
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName replication table double create
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName replication table double create
+void PrimitiveType MethodDeclaration SimpleName replication table double create
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName replication table double create
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName replication table double create

@@ -1,0 +1,50 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName entity type
+param checker SimpleName MethodInvocation SimpleName not empty
+param checker SimpleName MethodInvocation SimpleName entity type
+param checker SimpleName MethodInvocation StringLiteral entity type
+not empty SimpleName MethodInvocation SimpleName entity type
+not empty SimpleName MethodInvocation StringLiteral entity type
+entity type SimpleName MethodInvocation StringLiteral entity type
+type system SimpleName MethodInvocation SimpleName get data type
+type system SimpleName MethodInvocation TypeLiteral SimpleType SimpleName i data type
+type system SimpleName MethodInvocation SimpleName entity type
+get data type SimpleName MethodInvocation TypeLiteral SimpleType SimpleName i data type
+get data type SimpleName MethodInvocation SimpleName entity type
+i data type SimpleName SimpleType TypeLiteral MethodInvocation SimpleName entity type
+type SimpleName VariableDeclarationFragment MethodInvocation SimpleName type system
+type SimpleName VariableDeclarationFragment MethodInvocation SimpleName get data type
+type SimpleName VariableDeclarationFragment MethodInvocation SimpleName entity type
+i data type SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName type
+type SimpleName MethodInvocation SimpleName get type category
+type SimpleName MethodInvocation InfixExpression QualifiedName data typestype categoryclass
+get type category SimpleName MethodInvocation InfixExpression QualifiedName data typestype categoryclass
+type StringLiteral InfixExpression SimpleName entity type
+type StringLiteral InfixExpression StringLiteral not a class type
+entity type SimpleName InfixExpression StringLiteral not a class type
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral type
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName entity type
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral not a class type
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName validate type exists
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName entity type
+private Modifier MethodDeclaration SimpleType SimpleName atlas exception
+void PrimitiveType MethodDeclaration SimpleName validate type exists
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName entity type
+void PrimitiveType MethodDeclaration SimpleType SimpleName atlas exception
+validate type exists SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+validate type exists SimpleName MethodDeclaration SingleVariableDeclaration SimpleName entity type
+validate type exists SimpleName MethodDeclaration SimpleType SimpleName atlas exception
+entity type SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName validate type exists
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity type
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName validate type exists
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity type
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception

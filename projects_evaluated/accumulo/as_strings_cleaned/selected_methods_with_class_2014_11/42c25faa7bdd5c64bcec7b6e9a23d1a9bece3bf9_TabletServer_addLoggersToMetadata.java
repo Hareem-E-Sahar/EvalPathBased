@@ -1,0 +1,182 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName dfs logger
+list SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName logs
+dfs logger SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName logs
+key extent SimpleName SimpleType SingleVariableDeclaration SimpleName extent
+int PrimitiveType SingleVariableDeclaration SimpleName id
+online tablets SimpleName FieldAccess MethodInvocation SimpleName contains key
+online tablets SimpleName FieldAccess MethodInvocation SimpleName extent
+contains key SimpleName MethodInvocation SimpleName extent
+logs SimpleName MethodInvocation SimpleName size
+not adding StringLiteral InfixExpression MethodInvocation SimpleName logs
+not adding StringLiteral InfixExpression MethodInvocation SimpleName size
+not adding StringLiteral InfixExpression StringLiteral logs for extent
+not adding StringLiteral InfixExpression SimpleName extent
+not adding StringLiteral InfixExpression StringLiteral as alias
+not adding StringLiteral InfixExpression SimpleName id
+logs SimpleName MethodInvocation InfixExpression StringLiteral logs for extent
+size SimpleName MethodInvocation InfixExpression StringLiteral logs for extent
+logs SimpleName MethodInvocation InfixExpression SimpleName extent
+size SimpleName MethodInvocation InfixExpression SimpleName extent
+logs SimpleName MethodInvocation InfixExpression StringLiteral as alias
+size SimpleName MethodInvocation InfixExpression StringLiteral as alias
+logs SimpleName MethodInvocation InfixExpression SimpleName id
+size SimpleName MethodInvocation InfixExpression SimpleName id
+logs SimpleName MethodInvocation InfixExpression StringLiteral tablet is offline
+size SimpleName MethodInvocation InfixExpression StringLiteral tablet is offline
+logs for extent StringLiteral InfixExpression SimpleName extent
+logs for extent StringLiteral InfixExpression StringLiteral as alias
+logs for extent StringLiteral InfixExpression SimpleName id
+logs for extent StringLiteral InfixExpression StringLiteral tablet is offline
+extent SimpleName InfixExpression StringLiteral as alias
+extent SimpleName InfixExpression SimpleName id
+extent SimpleName InfixExpression StringLiteral tablet is offline
+as alias StringLiteral InfixExpression SimpleName id
+as alias StringLiteral InfixExpression StringLiteral tablet is offline
+id SimpleName InfixExpression StringLiteral tablet is offline
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation InfixExpression StringLiteral not adding
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName logs
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName size
+log SimpleName MethodInvocation InfixExpression StringLiteral logs for extent
+log SimpleName MethodInvocation InfixExpression SimpleName extent
+log SimpleName MethodInvocation InfixExpression StringLiteral as alias
+log SimpleName MethodInvocation InfixExpression SimpleName id
+log SimpleName MethodInvocation InfixExpression StringLiteral tablet is offline
+info SimpleName MethodInvocation InfixExpression StringLiteral not adding
+info SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName logs
+info SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName size
+info SimpleName MethodInvocation InfixExpression StringLiteral logs for extent
+info SimpleName MethodInvocation InfixExpression SimpleName extent
+info SimpleName MethodInvocation InfixExpression StringLiteral as alias
+info SimpleName MethodInvocation InfixExpression SimpleName id
+info SimpleName MethodInvocation InfixExpression StringLiteral tablet is offline
+logs SimpleName MethodInvocation SimpleName size
+adding StringLiteral InfixExpression MethodInvocation SimpleName logs
+adding StringLiteral InfixExpression MethodInvocation SimpleName size
+adding StringLiteral InfixExpression StringLiteral logs for extent
+adding StringLiteral InfixExpression SimpleName extent
+adding StringLiteral InfixExpression StringLiteral as alias
+adding StringLiteral InfixExpression SimpleName id
+logs SimpleName MethodInvocation InfixExpression StringLiteral logs for extent
+size SimpleName MethodInvocation InfixExpression StringLiteral logs for extent
+logs SimpleName MethodInvocation InfixExpression SimpleName extent
+size SimpleName MethodInvocation InfixExpression SimpleName extent
+logs SimpleName MethodInvocation InfixExpression StringLiteral as alias
+size SimpleName MethodInvocation InfixExpression StringLiteral as alias
+logs SimpleName MethodInvocation InfixExpression SimpleName id
+size SimpleName MethodInvocation InfixExpression SimpleName id
+logs for extent StringLiteral InfixExpression SimpleName extent
+logs for extent StringLiteral InfixExpression StringLiteral as alias
+logs for extent StringLiteral InfixExpression SimpleName id
+extent SimpleName InfixExpression StringLiteral as alias
+extent SimpleName InfixExpression SimpleName id
+as alias StringLiteral InfixExpression SimpleName id
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation InfixExpression StringLiteral adding
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName logs
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName size
+log SimpleName MethodInvocation InfixExpression StringLiteral logs for extent
+log SimpleName MethodInvocation InfixExpression SimpleName extent
+log SimpleName MethodInvocation InfixExpression StringLiteral as alias
+log SimpleName MethodInvocation InfixExpression SimpleName id
+info SimpleName MethodInvocation InfixExpression StringLiteral adding
+info SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName logs
+info SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName size
+info SimpleName MethodInvocation InfixExpression StringLiteral logs for extent
+info SimpleName MethodInvocation InfixExpression SimpleName extent
+info SimpleName MethodInvocation InfixExpression StringLiteral as alias
+info SimpleName MethodInvocation InfixExpression SimpleName id
+relative time SimpleName MethodInvocation SimpleName current time millis
+now SimpleName VariableDeclarationFragment MethodInvocation SimpleName relative time
+now SimpleName VariableDeclarationFragment MethodInvocation SimpleName current time millis
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName now
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName relative time
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName current time millis
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+dfs logger SimpleName SimpleType SingleVariableDeclaration SimpleName log
+log SimpleName MethodInvocation SimpleName get file name
+log set SimpleName MethodInvocation SimpleName add
+log set SimpleName MethodInvocation MethodInvocation SimpleName log
+log set SimpleName MethodInvocation MethodInvocation SimpleName get file name
+add SimpleName MethodInvocation MethodInvocation SimpleName log
+add SimpleName MethodInvocation MethodInvocation SimpleName get file name
+dfs logger SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName logs
+log SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName logs
+logs SimpleName EnhancedForStatement ExpressionStatement MethodInvocation SimpleName log set
+logs SimpleName EnhancedForStatement ExpressionStatement MethodInvocation SimpleName add
+entry SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName log entry
+log entry SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName entry
+entryextent QualifiedName Assignment SimpleName extent
+entrytablet id QualifiedName Assignment SimpleName id
+entrytimestamp QualifiedName Assignment SimpleName now
+logs SimpleName MethodInvocation SimpleName get
+logs SimpleName MethodInvocation NumberLiteral empty
+get SimpleName MethodInvocation NumberLiteral empty
+logs SimpleName MethodInvocation MethodInvocation SimpleName get logger
+get SimpleName MethodInvocation MethodInvocation SimpleName get logger
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName get logger
+entryserver QualifiedName Assignment MethodInvocation MethodInvocation SimpleName logs
+entryserver QualifiedName Assignment MethodInvocation MethodInvocation SimpleName get
+entryserver QualifiedName Assignment MethodInvocation MethodInvocation NumberLiteral empty
+entryserver QualifiedName Assignment MethodInvocation SimpleName get logger
+logs SimpleName MethodInvocation SimpleName get
+logs SimpleName MethodInvocation NumberLiteral empty
+get SimpleName MethodInvocation NumberLiteral empty
+logs SimpleName MethodInvocation MethodInvocation SimpleName get file name
+get SimpleName MethodInvocation MethodInvocation SimpleName get file name
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName get file name
+entryfilename QualifiedName Assignment MethodInvocation MethodInvocation SimpleName logs
+entryfilename QualifiedName Assignment MethodInvocation MethodInvocation SimpleName get
+entryfilename QualifiedName Assignment MethodInvocation MethodInvocation NumberLiteral empty
+entryfilename QualifiedName Assignment MethodInvocation SimpleName get file name
+entrylog set QualifiedName Assignment SimpleName log set
+metadata table util SimpleName MethodInvocation SimpleName add log entry
+metadata table util SimpleName MethodInvocation SimpleName entry
+metadata table util SimpleName MethodInvocation MethodInvocation SimpleName get lock
+add log entry SimpleName MethodInvocation SimpleName entry
+add log entry SimpleName MethodInvocation MethodInvocation SimpleName get lock
+entry SimpleName MethodInvocation MethodInvocation SimpleName get lock
+long PrimitiveType VariableDeclarationStatement Block EnhancedForStatement SimpleName logs
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName add loggers to metadata
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName logs
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName key extent
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName extent
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName id
+void PrimitiveType MethodDeclaration SimpleName add loggers to metadata
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName logs
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName key extent
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName extent
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName id
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+void PrimitiveType MethodDeclaration Block EnhancedForStatement SimpleName logs
+add loggers to metadata SimpleName MethodDeclaration SingleVariableDeclaration SimpleName logs
+add loggers to metadata SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName key extent
+add loggers to metadata SimpleName MethodDeclaration SingleVariableDeclaration SimpleName extent
+add loggers to metadata SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+add loggers to metadata SimpleName MethodDeclaration SingleVariableDeclaration SimpleName id
+add loggers to metadata SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+add loggers to metadata SimpleName MethodDeclaration Block EnhancedForStatement SimpleName logs
+logs SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName extent
+logs SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+logs SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName id
+extent SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+extent SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName id
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName add loggers to metadata
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName logs
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName extent
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName id
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName add loggers to metadata
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName logs
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName extent
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName id

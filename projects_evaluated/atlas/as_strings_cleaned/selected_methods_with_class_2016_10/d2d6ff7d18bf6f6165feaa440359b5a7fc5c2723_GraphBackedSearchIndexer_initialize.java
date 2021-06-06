@@ -1,0 +1,257 @@
+atlas graph SimpleName SimpleType SingleVariableDeclaration SimpleName graph
+graph SimpleName MethodInvocation SimpleName get management system
+management SimpleName VariableDeclarationFragment MethodInvocation SimpleName graph
+management SimpleName VariableDeclarationFragment MethodInvocation SimpleName get management system
+atlas graph management SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName management
+management SimpleName MethodInvocation SimpleName contains property key
+management SimpleName MethodInvocation QualifiedName constantsvertex type property key
+contains property key SimpleName MethodInvocation QualifiedName constantsvertex type property key
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation StringLiteral global indexes already exist for graph
+info SimpleName MethodInvocation StringLiteral global indexes already exist for graph
+management SimpleName MethodInvocation SimpleName commit
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation StringLiteral indexes do not exist creating indexes for graph
+info SimpleName MethodInvocation StringLiteral indexes do not exist creating indexes for graph
+collections SimpleName MethodInvocation SimpleType SimpleName atlas property key
+collections SimpleName MethodInvocation SimpleName empty list
+atlas property key SimpleName SimpleType MethodInvocation SimpleName empty list
+management SimpleName MethodInvocation SimpleName create vertex index
+management SimpleName MethodInvocation QualifiedName constantsvertex index
+management SimpleName MethodInvocation QualifiedName constantsbacking index
+management SimpleName MethodInvocation MethodInvocation SimpleName collections
+management SimpleName MethodInvocation MethodInvocation SimpleType SimpleName atlas property key
+management SimpleName MethodInvocation MethodInvocation SimpleName empty list
+create vertex index SimpleName MethodInvocation QualifiedName constantsvertex index
+create vertex index SimpleName MethodInvocation QualifiedName constantsbacking index
+create vertex index SimpleName MethodInvocation MethodInvocation SimpleName collections
+create vertex index SimpleName MethodInvocation MethodInvocation SimpleType SimpleName atlas property key
+create vertex index SimpleName MethodInvocation MethodInvocation SimpleName empty list
+constantsvertex index QualifiedName MethodInvocation QualifiedName constantsbacking index
+constantsvertex index QualifiedName MethodInvocation MethodInvocation SimpleName collections
+constantsvertex index QualifiedName MethodInvocation MethodInvocation SimpleType SimpleName atlas property key
+constantsvertex index QualifiedName MethodInvocation MethodInvocation SimpleName empty list
+constantsbacking index QualifiedName MethodInvocation MethodInvocation SimpleName collections
+constantsbacking index QualifiedName MethodInvocation MethodInvocation SimpleType SimpleName atlas property key
+constantsbacking index QualifiedName MethodInvocation MethodInvocation SimpleName empty list
+management SimpleName MethodInvocation SimpleName create edge index
+management SimpleName MethodInvocation QualifiedName constantsedge index
+management SimpleName MethodInvocation QualifiedName constantsbacking index
+create edge index SimpleName MethodInvocation QualifiedName constantsedge index
+create edge index SimpleName MethodInvocation QualifiedName constantsbacking index
+constantsedge index QualifiedName MethodInvocation QualifiedName constantsbacking index
+create indexes SimpleName MethodInvocation SimpleName management
+create indexes SimpleName MethodInvocation QualifiedName constantsguid property key
+create indexes SimpleName MethodInvocation TypeLiteral SimpleType SimpleName string
+create indexes SimpleName MethodInvocation BooleanLiteral true
+create indexes SimpleName MethodInvocation QualifiedName atlas cardinalitysingle
+management SimpleName MethodInvocation QualifiedName constantsguid property key
+management SimpleName MethodInvocation TypeLiteral SimpleType SimpleName string
+management SimpleName MethodInvocation BooleanLiteral true
+management SimpleName MethodInvocation QualifiedName atlas cardinalitysingle
+management SimpleName MethodInvocation BooleanLiteral true
+constantsguid property key QualifiedName MethodInvocation TypeLiteral SimpleType SimpleName string
+constantsguid property key QualifiedName MethodInvocation BooleanLiteral true
+constantsguid property key QualifiedName MethodInvocation QualifiedName atlas cardinalitysingle
+constantsguid property key QualifiedName MethodInvocation BooleanLiteral true
+constantsguid property key QualifiedName MethodInvocation BooleanLiteral true
+string SimpleName SimpleType TypeLiteral MethodInvocation BooleanLiteral true
+string SimpleName SimpleType TypeLiteral MethodInvocation QualifiedName atlas cardinalitysingle
+string SimpleName SimpleType TypeLiteral MethodInvocation BooleanLiteral true
+string SimpleName SimpleType TypeLiteral MethodInvocation BooleanLiteral true
+true BooleanLiteral MethodInvocation QualifiedName atlas cardinalitysingle
+true BooleanLiteral MethodInvocation BooleanLiteral true
+true BooleanLiteral MethodInvocation BooleanLiteral true
+atlas cardinalitysingle QualifiedName MethodInvocation BooleanLiteral true
+atlas cardinalitysingle QualifiedName MethodInvocation BooleanLiteral true
+true BooleanLiteral MethodInvocation BooleanLiteral true
+create indexes SimpleName MethodInvocation SimpleName management
+create indexes SimpleName MethodInvocation QualifiedName constantstimestamp property key
+create indexes SimpleName MethodInvocation TypeLiteral SimpleType SimpleName long
+create indexes SimpleName MethodInvocation BooleanLiteral false
+create indexes SimpleName MethodInvocation QualifiedName atlas cardinalitysingle
+management SimpleName MethodInvocation QualifiedName constantstimestamp property key
+management SimpleName MethodInvocation TypeLiteral SimpleType SimpleName long
+management SimpleName MethodInvocation BooleanLiteral false
+management SimpleName MethodInvocation QualifiedName atlas cardinalitysingle
+management SimpleName MethodInvocation BooleanLiteral true
+constantstimestamp property key QualifiedName MethodInvocation TypeLiteral SimpleType SimpleName long
+constantstimestamp property key QualifiedName MethodInvocation BooleanLiteral false
+constantstimestamp property key QualifiedName MethodInvocation QualifiedName atlas cardinalitysingle
+constantstimestamp property key QualifiedName MethodInvocation BooleanLiteral true
+constantstimestamp property key QualifiedName MethodInvocation BooleanLiteral true
+long SimpleName SimpleType TypeLiteral MethodInvocation BooleanLiteral false
+long SimpleName SimpleType TypeLiteral MethodInvocation QualifiedName atlas cardinalitysingle
+long SimpleName SimpleType TypeLiteral MethodInvocation BooleanLiteral true
+long SimpleName SimpleType TypeLiteral MethodInvocation BooleanLiteral true
+false BooleanLiteral MethodInvocation QualifiedName atlas cardinalitysingle
+false BooleanLiteral MethodInvocation BooleanLiteral true
+false BooleanLiteral MethodInvocation BooleanLiteral true
+atlas cardinalitysingle QualifiedName MethodInvocation BooleanLiteral true
+atlas cardinalitysingle QualifiedName MethodInvocation BooleanLiteral true
+true BooleanLiteral MethodInvocation BooleanLiteral true
+create indexes SimpleName MethodInvocation SimpleName management
+create indexes SimpleName MethodInvocation QualifiedName constantsstate property key
+create indexes SimpleName MethodInvocation TypeLiteral SimpleType SimpleName string
+create indexes SimpleName MethodInvocation BooleanLiteral false
+create indexes SimpleName MethodInvocation QualifiedName atlas cardinalitysingle
+management SimpleName MethodInvocation QualifiedName constantsstate property key
+management SimpleName MethodInvocation TypeLiteral SimpleType SimpleName string
+management SimpleName MethodInvocation BooleanLiteral false
+management SimpleName MethodInvocation QualifiedName atlas cardinalitysingle
+management SimpleName MethodInvocation BooleanLiteral false
+constantsstate property key QualifiedName MethodInvocation TypeLiteral SimpleType SimpleName string
+constantsstate property key QualifiedName MethodInvocation BooleanLiteral false
+constantsstate property key QualifiedName MethodInvocation QualifiedName atlas cardinalitysingle
+constantsstate property key QualifiedName MethodInvocation BooleanLiteral false
+constantsstate property key QualifiedName MethodInvocation BooleanLiteral false
+string SimpleName SimpleType TypeLiteral MethodInvocation BooleanLiteral false
+string SimpleName SimpleType TypeLiteral MethodInvocation QualifiedName atlas cardinalitysingle
+string SimpleName SimpleType TypeLiteral MethodInvocation BooleanLiteral false
+string SimpleName SimpleType TypeLiteral MethodInvocation BooleanLiteral false
+false BooleanLiteral MethodInvocation QualifiedName atlas cardinalitysingle
+false BooleanLiteral MethodInvocation BooleanLiteral false
+false BooleanLiteral MethodInvocation BooleanLiteral false
+atlas cardinalitysingle QualifiedName MethodInvocation BooleanLiteral false
+atlas cardinalitysingle QualifiedName MethodInvocation BooleanLiteral false
+false BooleanLiteral MethodInvocation BooleanLiteral false
+create indexes SimpleName MethodInvocation SimpleName management
+create indexes SimpleName MethodInvocation QualifiedName constantsmodification timestamp property key
+create indexes SimpleName MethodInvocation TypeLiteral SimpleType SimpleName long
+create indexes SimpleName MethodInvocation BooleanLiteral false
+create indexes SimpleName MethodInvocation QualifiedName atlas cardinalitysingle
+management SimpleName MethodInvocation QualifiedName constantsmodification timestamp property key
+management SimpleName MethodInvocation TypeLiteral SimpleType SimpleName long
+management SimpleName MethodInvocation BooleanLiteral false
+management SimpleName MethodInvocation QualifiedName atlas cardinalitysingle
+management SimpleName MethodInvocation BooleanLiteral false
+constantsmodification timestamp property key QualifiedName MethodInvocation TypeLiteral SimpleType SimpleName long
+constantsmodification timestamp property key QualifiedName MethodInvocation BooleanLiteral false
+constantsmodification timestamp property key QualifiedName MethodInvocation QualifiedName atlas cardinalitysingle
+constantsmodification timestamp property key QualifiedName MethodInvocation BooleanLiteral false
+constantsmodification timestamp property key QualifiedName MethodInvocation BooleanLiteral false
+long SimpleName SimpleType TypeLiteral MethodInvocation BooleanLiteral false
+long SimpleName SimpleType TypeLiteral MethodInvocation QualifiedName atlas cardinalitysingle
+long SimpleName SimpleType TypeLiteral MethodInvocation BooleanLiteral false
+long SimpleName SimpleType TypeLiteral MethodInvocation BooleanLiteral false
+false BooleanLiteral MethodInvocation QualifiedName atlas cardinalitysingle
+false BooleanLiteral MethodInvocation BooleanLiteral false
+false BooleanLiteral MethodInvocation BooleanLiteral false
+atlas cardinalitysingle QualifiedName MethodInvocation BooleanLiteral false
+atlas cardinalitysingle QualifiedName MethodInvocation BooleanLiteral false
+false BooleanLiteral MethodInvocation BooleanLiteral false
+create indexes SimpleName MethodInvocation SimpleName management
+create indexes SimpleName MethodInvocation QualifiedName constantsentity type property key
+create indexes SimpleName MethodInvocation TypeLiteral SimpleType SimpleName string
+create indexes SimpleName MethodInvocation BooleanLiteral false
+create indexes SimpleName MethodInvocation QualifiedName atlas cardinalitysingle
+management SimpleName MethodInvocation QualifiedName constantsentity type property key
+management SimpleName MethodInvocation TypeLiteral SimpleType SimpleName string
+management SimpleName MethodInvocation BooleanLiteral false
+management SimpleName MethodInvocation QualifiedName atlas cardinalitysingle
+management SimpleName MethodInvocation BooleanLiteral true
+constantsentity type property key QualifiedName MethodInvocation TypeLiteral SimpleType SimpleName string
+constantsentity type property key QualifiedName MethodInvocation BooleanLiteral false
+constantsentity type property key QualifiedName MethodInvocation QualifiedName atlas cardinalitysingle
+constantsentity type property key QualifiedName MethodInvocation BooleanLiteral true
+constantsentity type property key QualifiedName MethodInvocation BooleanLiteral true
+string SimpleName SimpleType TypeLiteral MethodInvocation BooleanLiteral false
+string SimpleName SimpleType TypeLiteral MethodInvocation QualifiedName atlas cardinalitysingle
+string SimpleName SimpleType TypeLiteral MethodInvocation BooleanLiteral true
+string SimpleName SimpleType TypeLiteral MethodInvocation BooleanLiteral true
+false BooleanLiteral MethodInvocation QualifiedName atlas cardinalitysingle
+false BooleanLiteral MethodInvocation BooleanLiteral true
+false BooleanLiteral MethodInvocation BooleanLiteral true
+atlas cardinalitysingle QualifiedName MethodInvocation BooleanLiteral true
+atlas cardinalitysingle QualifiedName MethodInvocation BooleanLiteral true
+true BooleanLiteral MethodInvocation BooleanLiteral true
+create indexes SimpleName MethodInvocation SimpleName management
+create indexes SimpleName MethodInvocation QualifiedName constantssuper types property key
+create indexes SimpleName MethodInvocation TypeLiteral SimpleType SimpleName string
+create indexes SimpleName MethodInvocation BooleanLiteral false
+create indexes SimpleName MethodInvocation QualifiedName atlas cardinalityset
+management SimpleName MethodInvocation QualifiedName constantssuper types property key
+management SimpleName MethodInvocation TypeLiteral SimpleType SimpleName string
+management SimpleName MethodInvocation BooleanLiteral false
+management SimpleName MethodInvocation QualifiedName atlas cardinalityset
+management SimpleName MethodInvocation BooleanLiteral true
+constantssuper types property key QualifiedName MethodInvocation TypeLiteral SimpleType SimpleName string
+constantssuper types property key QualifiedName MethodInvocation BooleanLiteral false
+constantssuper types property key QualifiedName MethodInvocation QualifiedName atlas cardinalityset
+constantssuper types property key QualifiedName MethodInvocation BooleanLiteral true
+constantssuper types property key QualifiedName MethodInvocation BooleanLiteral true
+string SimpleName SimpleType TypeLiteral MethodInvocation BooleanLiteral false
+string SimpleName SimpleType TypeLiteral MethodInvocation QualifiedName atlas cardinalityset
+string SimpleName SimpleType TypeLiteral MethodInvocation BooleanLiteral true
+string SimpleName SimpleType TypeLiteral MethodInvocation BooleanLiteral true
+false BooleanLiteral MethodInvocation QualifiedName atlas cardinalityset
+false BooleanLiteral MethodInvocation BooleanLiteral true
+false BooleanLiteral MethodInvocation BooleanLiteral true
+atlas cardinalityset QualifiedName MethodInvocation BooleanLiteral true
+atlas cardinalityset QualifiedName MethodInvocation BooleanLiteral true
+true BooleanLiteral MethodInvocation BooleanLiteral true
+create indexes SimpleName MethodInvocation SimpleName management
+create indexes SimpleName MethodInvocation QualifiedName constantstrait names property key
+create indexes SimpleName MethodInvocation TypeLiteral SimpleType SimpleName string
+create indexes SimpleName MethodInvocation BooleanLiteral false
+create indexes SimpleName MethodInvocation QualifiedName atlas cardinalityset
+management SimpleName MethodInvocation QualifiedName constantstrait names property key
+management SimpleName MethodInvocation TypeLiteral SimpleType SimpleName string
+management SimpleName MethodInvocation BooleanLiteral false
+management SimpleName MethodInvocation QualifiedName atlas cardinalityset
+management SimpleName MethodInvocation BooleanLiteral true
+constantstrait names property key QualifiedName MethodInvocation TypeLiteral SimpleType SimpleName string
+constantstrait names property key QualifiedName MethodInvocation BooleanLiteral false
+constantstrait names property key QualifiedName MethodInvocation QualifiedName atlas cardinalityset
+constantstrait names property key QualifiedName MethodInvocation BooleanLiteral true
+constantstrait names property key QualifiedName MethodInvocation BooleanLiteral true
+string SimpleName SimpleType TypeLiteral MethodInvocation BooleanLiteral false
+string SimpleName SimpleType TypeLiteral MethodInvocation QualifiedName atlas cardinalityset
+string SimpleName SimpleType TypeLiteral MethodInvocation BooleanLiteral true
+string SimpleName SimpleType TypeLiteral MethodInvocation BooleanLiteral true
+false BooleanLiteral MethodInvocation QualifiedName atlas cardinalityset
+false BooleanLiteral MethodInvocation BooleanLiteral true
+false BooleanLiteral MethodInvocation BooleanLiteral true
+atlas cardinalityset QualifiedName MethodInvocation BooleanLiteral true
+atlas cardinalityset QualifiedName MethodInvocation BooleanLiteral true
+true BooleanLiteral MethodInvocation BooleanLiteral true
+create full text index SimpleName MethodInvocation SimpleName management
+create type store indexes SimpleName MethodInvocation SimpleName management
+commit SimpleName MethodInvocation SimpleName management
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation StringLiteral index creation for global keys complete
+info SimpleName MethodInvocation StringLiteral index creation for global keys complete
+throwable SimpleName SimpleType SingleVariableDeclaration SimpleName t
+rollback SimpleName MethodInvocation SimpleName management
+repository exception SimpleName SimpleType ClassInstanceCreation SimpleName t
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName initialize
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas graph
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName graph
+private Modifier MethodDeclaration SimpleType SimpleName repository exception
+private Modifier MethodDeclaration SimpleType SimpleName index exception
+void PrimitiveType MethodDeclaration SimpleName initialize
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas graph
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName graph
+void PrimitiveType MethodDeclaration SimpleType SimpleName repository exception
+void PrimitiveType MethodDeclaration SimpleType SimpleName index exception
+initialize SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas graph
+initialize SimpleName MethodDeclaration SingleVariableDeclaration SimpleName graph
+initialize SimpleName MethodDeclaration SimpleType SimpleName repository exception
+initialize SimpleName MethodDeclaration SimpleType SimpleName index exception
+graph SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName repository exception
+graph SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName index exception
+repository exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName index exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName initialize
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName graph
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName repository exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName index exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName initialize
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName graph
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName repository exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName index exception

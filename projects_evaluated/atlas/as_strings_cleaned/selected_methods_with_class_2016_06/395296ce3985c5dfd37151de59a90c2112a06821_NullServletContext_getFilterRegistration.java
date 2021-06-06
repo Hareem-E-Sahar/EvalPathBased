@@ -1,0 +1,18 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName filter name
+public Modifier MethodDeclaration SimpleType SimpleName filter registration
+public Modifier MethodDeclaration SimpleName get filter registration
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName filter name
+filter registration SimpleName SimpleType MethodDeclaration SimpleName get filter registration
+filter registration SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName filter name
+get filter registration SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get filter registration SimpleName MethodDeclaration SingleVariableDeclaration SimpleName filter name
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName filter registration
+public Modifier TypeDeclaration MethodDeclaration SimpleName get filter registration
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName filter name
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName filter registration
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get filter registration
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName filter name

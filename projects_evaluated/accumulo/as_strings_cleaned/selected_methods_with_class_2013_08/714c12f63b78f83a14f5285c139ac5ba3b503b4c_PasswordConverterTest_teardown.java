@@ -1,0 +1,18 @@
+system SimpleName MethodInvocation SimpleName set in
+system SimpleName MethodInvocation SimpleName real in
+set in SimpleName MethodInvocation SimpleName real in
+after SimpleName MarkerAnnotation MethodDeclaration Modifier public
+after SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+after SimpleName MarkerAnnotation MethodDeclaration SimpleName teardown
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName teardown
+void PrimitiveType MethodDeclaration SimpleName teardown
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName after
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName teardown
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName after
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName teardown

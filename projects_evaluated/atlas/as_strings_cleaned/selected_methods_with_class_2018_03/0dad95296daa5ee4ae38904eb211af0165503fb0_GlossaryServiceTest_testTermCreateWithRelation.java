@@ -1,0 +1,84 @@
+groups SimpleName MemberValuePair StringLiteral glossarycreate
+depends on methods SimpleName MemberValuePair StringLiteral test term creation without any relations
+test SimpleName NormalAnnotation MemberValuePair SimpleName groups
+test SimpleName NormalAnnotation MemberValuePair StringLiteral glossarycreate
+test SimpleName NormalAnnotation MemberValuePair SimpleName depends on methods
+test SimpleName NormalAnnotation MemberValuePair StringLiteral test term creation without any relations
+groups SimpleName MemberValuePair NormalAnnotation MemberValuePair SimpleName depends on methods
+groups SimpleName MemberValuePair NormalAnnotation MemberValuePair StringLiteral test term creation without any relations
+glossarycreate StringLiteral MemberValuePair NormalAnnotation MemberValuePair SimpleName depends on methods
+glossarycreate StringLiteral MemberValuePair NormalAnnotation MemberValuePair StringLiteral test term creation without any relations
+related term header SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName atlas related term header
+atlas related term header SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName related term header
+checking account SimpleName MethodInvocation SimpleName get guid
+related term header SimpleName MethodInvocation SimpleName set term guid
+related term header SimpleName MethodInvocation MethodInvocation SimpleName checking account
+related term header SimpleName MethodInvocation MethodInvocation SimpleName get guid
+set term guid SimpleName MethodInvocation MethodInvocation SimpleName checking account
+set term guid SimpleName MethodInvocation MethodInvocation SimpleName get guid
+related term header SimpleName MethodInvocation SimpleName set description
+related term header SimpleName MethodInvocation StringLiteral test description
+set description SimpleName MethodInvocation StringLiteral test description
+related term header SimpleName MethodInvocation SimpleName set expression
+related term header SimpleName MethodInvocation StringLiteral test expression
+set expression SimpleName MethodInvocation StringLiteral test expression
+related term header SimpleName MethodInvocation SimpleName set source
+related term header SimpleName MethodInvocation StringLiteral ut
+set source SimpleName MethodInvocation StringLiteral ut
+related term header SimpleName MethodInvocation SimpleName set steward
+related term header SimpleName MethodInvocation StringLiteral ut
+set steward SimpleName MethodInvocation StringLiteral ut
+related term header SimpleName MethodInvocation SimpleName set status
+related term header SimpleName MethodInvocation QualifiedName atlas term relationship statusactive
+set status SimpleName MethodInvocation QualifiedName atlas term relationship statusactive
+collections SimpleName MethodInvocation SimpleName singleton
+collections SimpleName MethodInvocation SimpleName related term header
+singleton SimpleName MethodInvocation SimpleName related term header
+savings account SimpleName MethodInvocation SimpleName set see also
+savings account SimpleName MethodInvocation MethodInvocation SimpleName collections
+savings account SimpleName MethodInvocation MethodInvocation SimpleName singleton
+savings account SimpleName MethodInvocation MethodInvocation SimpleName related term header
+set see also SimpleName MethodInvocation MethodInvocation SimpleName collections
+set see also SimpleName MethodInvocation MethodInvocation SimpleName singleton
+set see also SimpleName MethodInvocation MethodInvocation SimpleName related term header
+glossary service SimpleName MethodInvocation SimpleName create term
+glossary service SimpleName MethodInvocation SimpleName savings account
+create term SimpleName MethodInvocation SimpleName savings account
+savings account SimpleName Assignment MethodInvocation SimpleName glossary service
+savings account SimpleName Assignment MethodInvocation SimpleName create term
+savings account SimpleName Assignment MethodInvocation SimpleName savings account
+assert not null SimpleName MethodInvocation SimpleName savings account
+savings account SimpleName MethodInvocation SimpleName get guid
+assert not null SimpleName MethodInvocation MethodInvocation SimpleName savings account
+assert not null SimpleName MethodInvocation MethodInvocation SimpleName get guid
+atlas base exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+fail SimpleName MethodInvocation StringLiteral term creation with relation shouldve succeeded
+fail SimpleName MethodInvocation SimpleName e
+term creation with relation shouldve succeeded StringLiteral MethodInvocation SimpleName e
+test SimpleName NormalAnnotation MethodDeclaration Modifier public
+groups SimpleName MemberValuePair NormalAnnotation MethodDeclaration Modifier public
+glossarycreate StringLiteral MemberValuePair NormalAnnotation MethodDeclaration Modifier public
+depends on methods SimpleName MemberValuePair NormalAnnotation MethodDeclaration Modifier public
+test term creation without any relations StringLiteral MemberValuePair NormalAnnotation MethodDeclaration Modifier public
+test SimpleName NormalAnnotation MethodDeclaration PrimitiveType void
+groups SimpleName MemberValuePair NormalAnnotation MethodDeclaration PrimitiveType void
+glossarycreate StringLiteral MemberValuePair NormalAnnotation MethodDeclaration PrimitiveType void
+depends on methods SimpleName MemberValuePair NormalAnnotation MethodDeclaration PrimitiveType void
+test term creation without any relations StringLiteral MemberValuePair NormalAnnotation MethodDeclaration PrimitiveType void
+test SimpleName NormalAnnotation MethodDeclaration SimpleName test term create with relation
+groups SimpleName MemberValuePair NormalAnnotation MethodDeclaration SimpleName test term create with relation
+glossarycreate StringLiteral MemberValuePair NormalAnnotation MethodDeclaration SimpleName test term create with relation
+depends on methods SimpleName MemberValuePair NormalAnnotation MethodDeclaration SimpleName test term create with relation
+test term creation without any relations StringLiteral MemberValuePair NormalAnnotation MethodDeclaration SimpleName test term create with relation
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test term create with relation
+void PrimitiveType MethodDeclaration SimpleName test term create with relation
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration NormalAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test term create with relation
+test SimpleName TypeDeclaration MethodDeclaration NormalAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test term create with relation

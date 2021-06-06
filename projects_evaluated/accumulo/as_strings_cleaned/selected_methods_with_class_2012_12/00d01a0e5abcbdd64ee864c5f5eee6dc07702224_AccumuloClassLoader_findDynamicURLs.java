@@ -1,0 +1,83 @@
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName url
+string builder SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get accumulo dynamic classpath strings
+cp SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName string builder
+cp SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get accumulo dynamic classpath strings
+string builder SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName cp
+system SimpleName MethodInvocation SimpleName getenv
+system SimpleName MethodInvocation StringLiteral accumulo xtrajars
+getenv SimpleName MethodInvocation StringLiteral accumulo xtrajars
+env jars SimpleName VariableDeclarationFragment MethodInvocation SimpleName system
+env jars SimpleName VariableDeclarationFragment MethodInvocation SimpleName getenv
+env jars SimpleName VariableDeclarationFragment MethodInvocation StringLiteral accumulo xtrajars
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName env jars
+env jars SimpleName MethodInvocation SimpleName equals
+env jars SimpleName MethodInvocation StringLiteral empty
+equals SimpleName MethodInvocation StringLiteral empty
+cp SimpleName MethodInvocation SimpleName append
+cp SimpleName MethodInvocation StringLiteral empty
+append SimpleName MethodInvocation StringLiteral empty
+cp SimpleName MethodInvocation MethodInvocation SimpleName append
+append SimpleName MethodInvocation MethodInvocation SimpleName append
+empty StringLiteral MethodInvocation MethodInvocation SimpleName append
+cp SimpleName MethodInvocation MethodInvocation SimpleName env jars
+append SimpleName MethodInvocation MethodInvocation SimpleName env jars
+empty StringLiteral MethodInvocation MethodInvocation SimpleName env jars
+append SimpleName MethodInvocation SimpleName env jars
+cp SimpleName Assignment MethodInvocation MethodInvocation SimpleName cp
+cp SimpleName Assignment MethodInvocation MethodInvocation SimpleName append
+cp SimpleName Assignment MethodInvocation MethodInvocation StringLiteral empty
+cp SimpleName Assignment MethodInvocation SimpleName append
+cp SimpleName Assignment MethodInvocation SimpleName env jars
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName url
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName url
+string SimpleName SimpleType SingleVariableDeclaration SimpleName classpath
+cp SimpleName MethodInvocation SimpleName to string
+cp SimpleName MethodInvocation MethodInvocation SimpleName split
+to string SimpleName MethodInvocation MethodInvocation SimpleName split
+cp SimpleName MethodInvocation MethodInvocation StringLiteral empty
+to string SimpleName MethodInvocation MethodInvocation StringLiteral empty
+split SimpleName MethodInvocation StringLiteral empty
+classpath SimpleName MethodInvocation SimpleName starts with
+classpath SimpleName MethodInvocation StringLiteral #
+starts with SimpleName MethodInvocation StringLiteral #
+system SimpleName MethodInvocation SimpleName getenv
+replace env vars SimpleName MethodInvocation SimpleName classpath
+replace env vars SimpleName MethodInvocation MethodInvocation SimpleName system
+replace env vars SimpleName MethodInvocation MethodInvocation SimpleName getenv
+classpath SimpleName MethodInvocation MethodInvocation SimpleName system
+classpath SimpleName MethodInvocation MethodInvocation SimpleName getenv
+add url SimpleName MethodInvocation MethodInvocation SimpleName replace env vars
+add url SimpleName MethodInvocation MethodInvocation SimpleName classpath
+add url SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName system
+add url SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName getenv
+add url SimpleName MethodInvocation SimpleName urls
+replace env vars SimpleName MethodInvocation MethodInvocation SimpleName urls
+classpath SimpleName MethodInvocation MethodInvocation SimpleName urls
+system SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName urls
+getenv SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName urls
+classpath SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName split
+classpath SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation StringLiteral empty
+private Modifier MethodDeclaration Modifier static
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName array list
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName url
+private Modifier MethodDeclaration SimpleName find dynamic ur ls
+private Modifier MethodDeclaration SimpleType SimpleName io exception
+private Modifier MethodDeclaration Block ReturnStatement SimpleName urls
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName array list
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName url
+static Modifier MethodDeclaration SimpleName find dynamic ur ls
+static Modifier MethodDeclaration SimpleType SimpleName io exception
+static Modifier MethodDeclaration Block ReturnStatement SimpleName urls
+array list SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName find dynamic ur ls
+url SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName find dynamic ur ls
+find dynamic ur ls SimpleName MethodDeclaration SimpleType SimpleName io exception
+find dynamic ur ls SimpleName MethodDeclaration Block ReturnStatement SimpleName urls
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleName find dynamic ur ls
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleName find dynamic ur ls
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

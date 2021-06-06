@@ -1,0 +1,42 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName instance type guid
+instance header SimpleName SimpleType SingleVariableDeclaration SimpleName instance
+instance SimpleName MethodInvocation SimpleName get type
+entity type SimpleName VariableDeclarationFragment MethodInvocation SimpleName instance
+entity type SimpleName VariableDeclarationFragment MethodInvocation SimpleName get type
+instance type SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName entity type
+entity type SimpleName MethodInvocation SimpleName get type def guid
+instance type guid SimpleName MethodInvocation SimpleName equals
+instance type guid SimpleName MethodInvocation MethodInvocation SimpleName entity type
+instance type guid SimpleName MethodInvocation MethodInvocation SimpleName get type def guid
+equals SimpleName MethodInvocation MethodInvocation SimpleName entity type
+equals SimpleName MethodInvocation MethodInvocation SimpleName get type def guid
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName verify instance type
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName instance type guid
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName instance header
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName instance
+public Modifier MethodDeclaration Block ReturnStatement BooleanLiteral false
+boolean PrimitiveType MethodDeclaration SimpleName verify instance type
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName instance type guid
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName instance header
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName instance
+boolean PrimitiveType MethodDeclaration Block ReturnStatement BooleanLiteral false
+verify instance type SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+verify instance type SimpleName MethodDeclaration SingleVariableDeclaration SimpleName instance type guid
+verify instance type SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName instance header
+verify instance type SimpleName MethodDeclaration SingleVariableDeclaration SimpleName instance
+verify instance type SimpleName MethodDeclaration Block ReturnStatement BooleanLiteral false
+instance type guid SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName instance
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName verify instance type
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName instance type guid
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName instance
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName verify instance type
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName instance type guid
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName instance

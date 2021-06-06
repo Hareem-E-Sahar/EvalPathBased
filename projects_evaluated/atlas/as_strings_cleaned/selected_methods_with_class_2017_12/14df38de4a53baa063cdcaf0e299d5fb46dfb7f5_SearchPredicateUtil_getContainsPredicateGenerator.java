@@ -1,0 +1,154 @@
+log SimpleName MethodInvocation SimpleName is debug enabled
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral ==> get contains predicate generator
+debug SimpleName MethodInvocation StringLiteral ==> get contains predicate generator
+final Modifier SingleVariableDeclaration SimpleType SimpleName string
+final Modifier SingleVariableDeclaration SimpleName attr name
+string SimpleName SimpleType SingleVariableDeclaration SimpleName attr name
+final Modifier SingleVariableDeclaration SimpleType SimpleName object
+final Modifier SingleVariableDeclaration SimpleName attr val
+object SimpleName SimpleType SingleVariableDeclaration SimpleName attr val
+final Modifier SingleVariableDeclaration SimpleType SimpleName class
+final Modifier SingleVariableDeclaration SimpleName attr class
+class SimpleName SimpleType SingleVariableDeclaration SimpleName attr class
+final Modifier VariableDeclarationStatement SimpleType SimpleName predicate
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName ret
+predicate SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ret
+attr name SimpleName InfixExpression InfixExpression InfixExpression SimpleName attr class
+ret SimpleName Assignment SimpleName always false
+string SimpleName SimpleType TypeLiteral MethodInvocation SimpleName is assignable from
+string SimpleName SimpleType TypeLiteral MethodInvocation SimpleName attr class
+is assignable from SimpleName MethodInvocation SimpleName attr class
+string SimpleName SimpleType CastExpression SimpleName attr val
+string predicate SimpleName MethodInvocation SimpleName get contains predicate
+string predicate SimpleName MethodInvocation SimpleName attr name
+string predicate SimpleName MethodInvocation SimpleName attr class
+string predicate SimpleName MethodInvocation CastExpression SimpleType SimpleName string
+string predicate SimpleName MethodInvocation CastExpression SimpleName attr val
+get contains predicate SimpleName MethodInvocation SimpleName attr name
+get contains predicate SimpleName MethodInvocation SimpleName attr class
+get contains predicate SimpleName MethodInvocation CastExpression SimpleType SimpleName string
+get contains predicate SimpleName MethodInvocation CastExpression SimpleName attr val
+attr name SimpleName MethodInvocation SimpleName attr class
+attr name SimpleName MethodInvocation CastExpression SimpleType SimpleName string
+attr name SimpleName MethodInvocation CastExpression SimpleName attr val
+attr class SimpleName MethodInvocation CastExpression SimpleType SimpleName string
+attr class SimpleName MethodInvocation CastExpression SimpleName attr val
+ret SimpleName Assignment MethodInvocation SimpleName string predicate
+ret SimpleName Assignment MethodInvocation SimpleName get contains predicate
+ret SimpleName Assignment MethodInvocation SimpleName attr name
+ret SimpleName Assignment MethodInvocation SimpleName attr class
+ret SimpleName Assignment MethodInvocation CastExpression SimpleName attr val
+collection SimpleName SimpleType TypeLiteral MethodInvocation SimpleName is assignable from
+collection SimpleName SimpleType TypeLiteral MethodInvocation SimpleName attr class
+is assignable from SimpleName MethodInvocation SimpleName attr class
+final Modifier SingleVariableDeclaration SimpleType SimpleName object
+final Modifier SingleVariableDeclaration SimpleName vertex attr val
+object SimpleName SimpleType SingleVariableDeclaration SimpleName vertex attr val
+collection SimpleName SimpleType CastExpression SimpleName vertex attr val
+vertex attr val SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName contains
+vertex attr val SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName attr val
+contains SimpleName MethodInvocation SimpleName attr val
+override SimpleName MarkerAnnotation MethodDeclaration Modifier protected
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType boolean
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName compare value
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration Modifier final
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName vertex attr val
+protected Modifier MethodDeclaration PrimitiveType boolean
+protected Modifier MethodDeclaration SimpleName compare value
+protected Modifier MethodDeclaration SingleVariableDeclaration Modifier final
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName vertex attr val
+boolean PrimitiveType MethodDeclaration SimpleName compare value
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration Modifier final
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName vertex attr val
+compare value SimpleName MethodDeclaration SingleVariableDeclaration Modifier final
+compare value SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+compare value SimpleName MethodDeclaration SingleVariableDeclaration SimpleName vertex attr val
+vertex attribute predicate SimpleName SimpleType ClassInstanceCreation SimpleName attr name
+vertex attribute predicate SimpleName SimpleType ClassInstanceCreation SimpleName attr class
+attr name SimpleName ClassInstanceCreation SimpleName attr class
+attr name SimpleName ClassInstanceCreation AnonymousClassDeclaration MethodDeclaration Modifier protected
+attr name SimpleName ClassInstanceCreation AnonymousClassDeclaration MethodDeclaration PrimitiveType boolean
+attr name SimpleName ClassInstanceCreation AnonymousClassDeclaration MethodDeclaration SimpleName compare value
+attr class SimpleName ClassInstanceCreation AnonymousClassDeclaration MethodDeclaration Modifier protected
+attr class SimpleName ClassInstanceCreation AnonymousClassDeclaration MethodDeclaration PrimitiveType boolean
+attr class SimpleName ClassInstanceCreation AnonymousClassDeclaration MethodDeclaration SimpleName compare value
+ret SimpleName Assignment ClassInstanceCreation SimpleType SimpleName vertex attribute predicate
+ret SimpleName Assignment ClassInstanceCreation SimpleName attr name
+ret SimpleName Assignment ClassInstanceCreation SimpleName attr class
+ret SimpleName Assignment SimpleName always false
+final Modifier VariableDeclarationStatement Block ReturnStatement SimpleName ret
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName predicate
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName generate predicate
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration Modifier final
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName attr name
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration Modifier final
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName attr val
+public Modifier MethodDeclaration SimpleType SimpleName predicate
+public Modifier MethodDeclaration SimpleName generate predicate
+public Modifier MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName attr name
+public Modifier MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName attr val
+public Modifier MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName class
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName attr class
+predicate SimpleName SimpleType MethodDeclaration SimpleName generate predicate
+predicate SimpleName SimpleType MethodDeclaration SingleVariableDeclaration Modifier final
+predicate SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName attr name
+predicate SimpleName SimpleType MethodDeclaration SingleVariableDeclaration Modifier final
+predicate SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName attr val
+predicate SimpleName SimpleType MethodDeclaration SingleVariableDeclaration Modifier final
+predicate SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName attr class
+generate predicate SimpleName MethodDeclaration SingleVariableDeclaration Modifier final
+generate predicate SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+generate predicate SimpleName MethodDeclaration SingleVariableDeclaration SimpleName attr name
+generate predicate SimpleName MethodDeclaration SingleVariableDeclaration Modifier final
+generate predicate SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+generate predicate SimpleName MethodDeclaration SingleVariableDeclaration SimpleName attr val
+generate predicate SimpleName MethodDeclaration SingleVariableDeclaration Modifier final
+generate predicate SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName class
+generate predicate SimpleName MethodDeclaration SingleVariableDeclaration SimpleName attr class
+generate predicate SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+generate predicate SimpleName MethodDeclaration Block ReturnStatement SimpleName ret
+final Modifier SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+final Modifier SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attr val
+attr name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+attr name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attr val
+final Modifier SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+final Modifier SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attr class
+attr name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+attr name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attr class
+final Modifier SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+final Modifier SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attr class
+attr val SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+attr val SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attr class
+ret SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName vertex attribute predicate generator
+vertex attribute predicate generator SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ret
+log SimpleName MethodInvocation SimpleName is debug enabled
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral <== get contains predicate generator
+debug SimpleName MethodInvocation StringLiteral <== get contains predicate generator
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName vertex attribute predicate generator
+public Modifier MethodDeclaration SimpleName get contains predicate generator
+public Modifier MethodDeclaration Block ReturnStatement SimpleName ret
+static Modifier MethodDeclaration SimpleType SimpleName vertex attribute predicate generator
+static Modifier MethodDeclaration SimpleName get contains predicate generator
+static Modifier MethodDeclaration Block ReturnStatement SimpleName ret
+vertex attribute predicate generator SimpleName SimpleType MethodDeclaration SimpleName get contains predicate generator
+get contains predicate generator SimpleName MethodDeclaration Block ReturnStatement SimpleName ret
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName vertex attribute predicate generator
+public Modifier TypeDeclaration MethodDeclaration SimpleName get contains predicate generator
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName vertex attribute predicate generator
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get contains predicate generator

@@ -1,0 +1,32 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+type utilspair QualifiedName SimpleType ParameterizedType SingleVariableDeclaration SimpleName guids
+on entities added SimpleName MethodInvocation QualifiedName guidsleft
+on entities updated SimpleName MethodInvocation QualifiedName guidsright
+guidsleft QualifiedName MethodInvocation SimpleName add all
+guidsleft QualifiedName MethodInvocation QualifiedName guidsright
+add all SimpleName MethodInvocation QualifiedName guidsright
+json array SimpleName SimpleType ClassInstanceCreation QualifiedName guidsleft
+json array SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName to string
+guidsleft QualifiedName ClassInstanceCreation MethodInvocation SimpleName to string
+private Modifier MethodDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SimpleName on entities added updated
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName guids
+private Modifier MethodDeclaration SimpleType SimpleName atlas exception
+string SimpleName SimpleType MethodDeclaration SimpleName on entities added updated
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName guids
+string SimpleName SimpleType MethodDeclaration SimpleType SimpleName atlas exception
+on entities added updated SimpleName MethodDeclaration SingleVariableDeclaration SimpleName guids
+on entities added updated SimpleName MethodDeclaration SimpleType SimpleName atlas exception
+guids SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName on entities added updated
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName guids
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName on entities added updated
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName guids
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception

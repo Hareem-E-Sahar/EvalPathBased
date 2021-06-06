@@ -1,0 +1,26 @@
+user group information SimpleName SimpleType SingleVariableDeclaration SimpleName ugi
+override SimpleName MarkerAnnotation MethodDeclaration Modifier protected
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName atlas client
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName get atlas client
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName ugi
+protected Modifier MethodDeclaration SimpleType SimpleName atlas client
+protected Modifier MethodDeclaration SimpleName get atlas client
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName user group information
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName ugi
+protected Modifier MethodDeclaration Block ReturnStatement SimpleName atlas client
+atlas client SimpleName SimpleType MethodDeclaration SimpleName get atlas client
+atlas client SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName ugi
+get atlas client SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName user group information
+get atlas client SimpleName MethodDeclaration SingleVariableDeclaration SimpleName ugi
+get atlas client SimpleName MethodDeclaration Block ReturnStatement SimpleName atlas client
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas client
+public Modifier TypeDeclaration MethodDeclaration SimpleName get atlas client
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ugi
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas client
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get atlas client
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ugi

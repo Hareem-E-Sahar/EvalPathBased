@@ -1,0 +1,71 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+final Modifier SingleVariableDeclaration SimpleType SimpleName string
+final Modifier SingleVariableDeclaration SimpleName typename
+string SimpleName SimpleType SingleVariableDeclaration SimpleName typename
+log SimpleName MethodInvocation SimpleName is debug enabled
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral ==> get entity guids
+log SimpleName MethodInvocation SimpleName typename
+debug SimpleName MethodInvocation StringLiteral ==> get entity guids
+debug SimpleName MethodInvocation SimpleName typename
+==> get entity guids StringLiteral MethodInvocation SimpleName typename
+string utils SimpleName MethodInvocation SimpleName is empty
+string utils SimpleName MethodInvocation SimpleName typename
+is empty SimpleName MethodInvocation SimpleName typename
+atlas base exception SimpleName SimpleType ClassInstanceCreation QualifiedName atlas error codeunknown typename
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+atlas graph utils v SimpleName MethodInvocation SimpleName find entity gui ds by type
+atlas graph utils v SimpleName MethodInvocation SimpleName typename
+find entity gui ds by type SimpleName MethodInvocation SimpleName typename
+ret SimpleName VariableDeclarationFragment MethodInvocation SimpleName atlas graph utils v
+ret SimpleName VariableDeclarationFragment MethodInvocation SimpleName find entity gui ds by type
+ret SimpleName VariableDeclarationFragment MethodInvocation SimpleName typename
+log SimpleName MethodInvocation SimpleName is debug enabled
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral <== get entity guids
+log SimpleName MethodInvocation SimpleName typename
+debug SimpleName MethodInvocation StringLiteral <== get entity guids
+debug SimpleName MethodInvocation SimpleName typename
+<== get entity guids StringLiteral MethodInvocation SimpleName typename
+override SimpleName MarkerAnnotation MethodDeclaration MarkerAnnotation SimpleName graph transaction
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName get entity guids
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration Modifier final
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName typename
+graph transaction SimpleName MarkerAnnotation MethodDeclaration Modifier public
+graph transaction SimpleName MarkerAnnotation MethodDeclaration SimpleName get entity guids
+graph transaction SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration Modifier final
+graph transaction SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName typename
+graph transaction SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName get entity guids
+public Modifier MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName typename
+public Modifier MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier MethodDeclaration Block ReturnStatement SimpleName ret
+list SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get entity guids
+string SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get entity guids
+get entity guids SimpleName MethodDeclaration SingleVariableDeclaration Modifier final
+get entity guids SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get entity guids SimpleName MethodDeclaration SingleVariableDeclaration SimpleName typename
+get entity guids SimpleName MethodDeclaration SimpleType SimpleName atlas base exception
+get entity guids SimpleName MethodDeclaration Block ReturnStatement SimpleName ret
+final Modifier SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+typename SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName graph transaction
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName get entity guids
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName typename
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName graph transaction
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get entity guids
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName typename
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception

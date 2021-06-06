@@ -1,0 +1,264 @@
+string SimpleName SimpleType ArrayType SingleVariableDeclaration SimpleName args
+conf SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName configuration
+configuration SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName conf
+suppress warnings SimpleName SingleMemberAnnotation StringLiteral deprecation
+accumulo configuration SimpleName MethodInvocation SimpleName get site configuration
+file util SimpleName MethodInvocation SimpleName get file system
+file util SimpleName MethodInvocation SimpleName conf
+file util SimpleName MethodInvocation MethodInvocation SimpleName accumulo configuration
+file util SimpleName MethodInvocation MethodInvocation SimpleName get site configuration
+get file system SimpleName MethodInvocation SimpleName conf
+get file system SimpleName MethodInvocation MethodInvocation SimpleName accumulo configuration
+get file system SimpleName MethodInvocation MethodInvocation SimpleName get site configuration
+conf SimpleName MethodInvocation MethodInvocation SimpleName accumulo configuration
+conf SimpleName MethodInvocation MethodInvocation SimpleName get site configuration
+fs SimpleName VariableDeclarationFragment MethodInvocation SimpleName file util
+fs SimpleName VariableDeclarationFragment MethodInvocation SimpleName get file system
+fs SimpleName VariableDeclarationFragment MethodInvocation SimpleName conf
+fs SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName accumulo configuration
+fs SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get site configuration
+suppress warnings SimpleName SingleMemberAnnotation VariableDeclarationStatement SimpleType SimpleName file system
+deprecation StringLiteral SingleMemberAnnotation VariableDeclarationStatement SimpleType SimpleName file system
+suppress warnings SimpleName SingleMemberAnnotation VariableDeclarationStatement VariableDeclarationFragment SimpleName fs
+deprecation StringLiteral SingleMemberAnnotation VariableDeclarationStatement VariableDeclarationFragment SimpleName fs
+file system SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName fs
+opts SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName opts
+opts SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName opts
+print info SimpleName SimpleType TypeLiteral MethodInvocation SimpleName get name
+opts SimpleName MethodInvocation SimpleName parse args
+opts SimpleName MethodInvocation MethodInvocation SimpleName get name
+opts SimpleName MethodInvocation SimpleName args
+parse args SimpleName MethodInvocation MethodInvocation SimpleName get name
+parse args SimpleName MethodInvocation SimpleName args
+get name SimpleName MethodInvocation MethodInvocation SimpleName args
+optsfiles QualifiedName MethodInvocation SimpleName is empty
+systemerr QualifiedName MethodInvocation SimpleName println
+systemerr QualifiedName MethodInvocation StringLiteral no files were given
+println SimpleName MethodInvocation StringLiteral no files were given
+system SimpleName MethodInvocation SimpleName exit
+system SimpleName MethodInvocation PrefixExpression NumberLiteral empty
+exit SimpleName MethodInvocation PrefixExpression NumberLiteral empty
+long PrimitiveType ArrayType ArrayCreation NumberLiteral empty
+count buckets SimpleName VariableDeclarationFragment ArrayCreation ArrayType PrimitiveType long
+count buckets SimpleName VariableDeclarationFragment ArrayCreation NumberLiteral empty
+long PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName count buckets
+long PrimitiveType ArrayType ArrayCreation QualifiedName count bucketslength
+size buckets SimpleName VariableDeclarationFragment ArrayCreation ArrayType PrimitiveType long
+size buckets SimpleName VariableDeclarationFragment ArrayCreation QualifiedName count bucketslength
+long PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName size buckets
+total size SimpleName VariableDeclarationFragment NumberLiteral empty
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName total size
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+string SimpleName SimpleType SingleVariableDeclaration SimpleName arg
+path SimpleName SimpleType ClassInstanceCreation SimpleName arg
+path SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName path
+path SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName arg
+path SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName path
+cachable block filereader QualifiedName SimpleType ClassInstanceCreation SimpleName fs
+cachable block filereader QualifiedName SimpleType ClassInstanceCreation SimpleName path
+cachable block filereader QualifiedName SimpleType ClassInstanceCreation SimpleName conf
+fs SimpleName ClassInstanceCreation SimpleName path
+fs SimpleName ClassInstanceCreation SimpleName conf
+path SimpleName ClassInstanceCreation SimpleName conf
+rdr SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType QualifiedName cachable block filereader
+rdr SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName fs
+rdr SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName path
+rdr SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName conf
+cachable block filereader QualifiedName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName rdr
+r filereader QualifiedName SimpleType ClassInstanceCreation SimpleName rdr
+iter SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType QualifiedName r filereader
+iter SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName rdr
+reader SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName iter
+iter SimpleName MethodInvocation SimpleName print info
+systemout QualifiedName MethodInvocation SimpleName println
+orgapacheaccumulocorefilerfilebcfileprint info QualifiedName MethodInvocation SimpleName main
+orgapacheaccumulocorefilerfilebcfileprint info QualifiedName MethodInvocation ArrayCreation ArrayInitializer SimpleName arg
+main SimpleName MethodInvocation ArrayCreation ArrayInitializer SimpleName arg
+optshistogram QualifiedName InfixExpression QualifiedName optsdump
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName byte sequence
+iter SimpleName MethodInvocation SimpleName seek
+iter SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName range
+iter SimpleName MethodInvocation BooleanLiteral false
+seek SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName range
+seek SimpleName MethodInvocation BooleanLiteral false
+range SimpleName SimpleType ClassInstanceCreation MethodInvocation BooleanLiteral false
+iter SimpleName MethodInvocation SimpleName has top
+iter SimpleName MethodInvocation SimpleName get top key
+key SimpleName VariableDeclarationFragment MethodInvocation SimpleName iter
+key SimpleName VariableDeclarationFragment MethodInvocation SimpleName get top key
+key SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName key
+iter SimpleName MethodInvocation SimpleName get top value
+value SimpleName VariableDeclarationFragment MethodInvocation SimpleName iter
+value SimpleName VariableDeclarationFragment MethodInvocation SimpleName get top value
+value SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName value
+key SimpleName InfixExpression StringLiteral ->
+key SimpleName InfixExpression SimpleName value
+-> StringLiteral InfixExpression SimpleName value
+systemout QualifiedName MethodInvocation SimpleName println
+systemout QualifiedName MethodInvocation InfixExpression SimpleName key
+systemout QualifiedName MethodInvocation InfixExpression StringLiteral ->
+systemout QualifiedName MethodInvocation InfixExpression SimpleName value
+println SimpleName MethodInvocation InfixExpression SimpleName key
+println SimpleName MethodInvocation InfixExpression StringLiteral ->
+println SimpleName MethodInvocation InfixExpression SimpleName value
+optsdump QualifiedName IfStatement ExpressionStatement MethodInvocation QualifiedName systemout
+optsdump QualifiedName IfStatement ExpressionStatement MethodInvocation SimpleName println
+key SimpleName MethodInvocation SimpleName get size
+value SimpleName MethodInvocation SimpleName get size
+key SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName value
+key SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get size
+get size SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName value
+get size SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get size
+size SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName key
+size SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName get size
+size SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName value
+size SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName get size
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName size
+math SimpleName MethodInvocation SimpleName log
+math SimpleName MethodInvocation SimpleName size
+log SimpleName MethodInvocation SimpleName size
+int PrimitiveType CastExpression MethodInvocation SimpleName math
+int PrimitiveType CastExpression MethodInvocation SimpleName log
+int PrimitiveType CastExpression MethodInvocation SimpleName size
+bucket SimpleName VariableDeclarationFragment CastExpression PrimitiveType int
+bucket SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName math
+bucket SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName log
+bucket SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName size
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName bucket
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment CastExpression PrimitiveType int
+count buckets SimpleName ArrayAccess SimpleName bucket
+size buckets SimpleName ArrayAccess SimpleName bucket
+size buckets SimpleName ArrayAccess Assignment SimpleName size
+bucket SimpleName ArrayAccess Assignment SimpleName size
+total size SimpleName Assignment SimpleName size
+long PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+optshistogram QualifiedName IfStatement Block VariableDeclarationStatement PrimitiveType long
+optshistogram QualifiedName IfStatement Block VariableDeclarationStatement PrimitiveType int
+iter SimpleName MethodInvocation SimpleName next
+optsdump QualifiedName IfStatement Block IfStatement QualifiedName optshistogram
+iter SimpleName MethodInvocation SimpleName close
+systemout QualifiedName MethodInvocation SimpleName println
+systemout QualifiedName MethodInvocation StringLiteral up to size count age
+println SimpleName MethodInvocation StringLiteral up to size count age
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+i SimpleName InfixExpression QualifiedName count bucketslength
+math SimpleName MethodInvocation SimpleName pow
+math SimpleName MethodInvocation NumberLiteral empty
+math SimpleName MethodInvocation SimpleName i
+pow SimpleName MethodInvocation NumberLiteral empty
+pow SimpleName MethodInvocation SimpleName i
+empty NumberLiteral MethodInvocation SimpleName i
+count buckets SimpleName ArrayAccess SimpleName i
+size buckets SimpleName ArrayAccess SimpleName i
+size buckets SimpleName ArrayAccess InfixExpression NumberLiteral .
+i SimpleName ArrayAccess InfixExpression NumberLiteral .
+size buckets SimpleName ArrayAccess InfixExpression InfixExpression SimpleName total size
+i SimpleName ArrayAccess InfixExpression InfixExpression SimpleName total size
+. NumberLiteral InfixExpression InfixExpression SimpleName total size
+string SimpleName MethodInvocation SimpleName format
+string SimpleName MethodInvocation StringLiteral % . f : % d % . f
+string SimpleName MethodInvocation MethodInvocation SimpleName math
+string SimpleName MethodInvocation MethodInvocation SimpleName pow
+string SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+string SimpleName MethodInvocation MethodInvocation SimpleName i
+string SimpleName MethodInvocation ArrayAccess SimpleName count buckets
+string SimpleName MethodInvocation ArrayAccess SimpleName i
+string SimpleName MethodInvocation InfixExpression InfixExpression NumberLiteral .
+string SimpleName MethodInvocation InfixExpression SimpleName total size
+format SimpleName MethodInvocation StringLiteral % . f : % d % . f
+format SimpleName MethodInvocation MethodInvocation SimpleName math
+format SimpleName MethodInvocation MethodInvocation SimpleName pow
+format SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+format SimpleName MethodInvocation MethodInvocation SimpleName i
+format SimpleName MethodInvocation ArrayAccess SimpleName count buckets
+format SimpleName MethodInvocation ArrayAccess SimpleName i
+format SimpleName MethodInvocation InfixExpression InfixExpression NumberLiteral .
+format SimpleName MethodInvocation InfixExpression SimpleName total size
+% . f : % d % . f StringLiteral MethodInvocation MethodInvocation SimpleName math
+% . f : % d % . f StringLiteral MethodInvocation MethodInvocation SimpleName pow
+% . f : % d % . f StringLiteral MethodInvocation MethodInvocation NumberLiteral empty
+% . f : % d % . f StringLiteral MethodInvocation MethodInvocation SimpleName i
+% . f : % d % . f StringLiteral MethodInvocation ArrayAccess SimpleName count buckets
+% . f : % d % . f StringLiteral MethodInvocation ArrayAccess SimpleName i
+% . f : % d % . f StringLiteral MethodInvocation InfixExpression InfixExpression NumberLiteral .
+% . f : % d % . f StringLiteral MethodInvocation InfixExpression SimpleName total size
+math SimpleName MethodInvocation MethodInvocation ArrayAccess SimpleName count buckets
+math SimpleName MethodInvocation MethodInvocation ArrayAccess SimpleName i
+pow SimpleName MethodInvocation MethodInvocation ArrayAccess SimpleName count buckets
+pow SimpleName MethodInvocation MethodInvocation ArrayAccess SimpleName i
+empty NumberLiteral MethodInvocation MethodInvocation ArrayAccess SimpleName count buckets
+empty NumberLiteral MethodInvocation MethodInvocation ArrayAccess SimpleName i
+i SimpleName MethodInvocation MethodInvocation ArrayAccess SimpleName count buckets
+i SimpleName MethodInvocation MethodInvocation ArrayAccess SimpleName i
+math SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName total size
+pow SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName total size
+empty NumberLiteral MethodInvocation MethodInvocation InfixExpression SimpleName total size
+i SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName total size
+count buckets SimpleName ArrayAccess MethodInvocation InfixExpression SimpleName total size
+i SimpleName ArrayAccess MethodInvocation InfixExpression SimpleName total size
+systemout QualifiedName MethodInvocation SimpleName println
+systemout QualifiedName MethodInvocation MethodInvocation SimpleName string
+systemout QualifiedName MethodInvocation MethodInvocation SimpleName format
+systemout QualifiedName MethodInvocation MethodInvocation StringLiteral % . f : % d % . f
+systemout QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName math
+systemout QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName pow
+systemout QualifiedName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+systemout QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName i
+systemout QualifiedName MethodInvocation MethodInvocation ArrayAccess SimpleName count buckets
+systemout QualifiedName MethodInvocation MethodInvocation ArrayAccess SimpleName i
+systemout QualifiedName MethodInvocation MethodInvocation InfixExpression SimpleName total size
+println SimpleName MethodInvocation MethodInvocation SimpleName string
+println SimpleName MethodInvocation MethodInvocation SimpleName format
+println SimpleName MethodInvocation MethodInvocation StringLiteral % . f : % d % . f
+println SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName math
+println SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName pow
+println SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+println SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName i
+println SimpleName MethodInvocation MethodInvocation ArrayAccess SimpleName count buckets
+println SimpleName MethodInvocation MethodInvocation ArrayAccess SimpleName i
+println SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName total size
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression QualifiedName count bucketslength
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+count bucketslength QualifiedName InfixExpression ForStatement PostfixExpression SimpleName i
+string SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement QualifiedName optsfiles
+arg SimpleName SingleVariableDeclaration EnhancedForStatement QualifiedName optsfiles
+optsfiles QualifiedName EnhancedForStatement Block IfStatement QualifiedName optshistogram
+long PrimitiveType VariableDeclarationStatement Block EnhancedForStatement QualifiedName optsfiles
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName main
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName args
+public Modifier MethodDeclaration SimpleType SimpleName exception
+static Modifier MethodDeclaration PrimitiveType void
+static Modifier MethodDeclaration SimpleName main
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName args
+static Modifier MethodDeclaration SimpleType SimpleName exception
+static Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+static Modifier MethodDeclaration Block EnhancedForStatement QualifiedName optsfiles
+void PrimitiveType MethodDeclaration SimpleName main
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName args
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+void PrimitiveType MethodDeclaration Block EnhancedForStatement QualifiedName optsfiles
+main SimpleName MethodDeclaration SingleVariableDeclaration SimpleName args
+main SimpleName MethodDeclaration SimpleType SimpleName exception
+main SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+main SimpleName MethodDeclaration Block EnhancedForStatement QualifiedName optsfiles
+args SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName main
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName args
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName main
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName args
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

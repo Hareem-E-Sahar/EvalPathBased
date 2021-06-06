@@ -1,0 +1,29 @@
+configuration SimpleName SimpleType SingleVariableDeclaration SimpleName conf
+empty NumberLiteral InfixExpression NumberLiteral empty
+conf SimpleName MethodInvocation SimpleName get int
+conf SimpleName MethodInvocation SimpleName fs input buf size attr
+conf SimpleName MethodInvocation InfixExpression NumberLiteral empty
+conf SimpleName MethodInvocation InfixExpression NumberLiteral empty
+get int SimpleName MethodInvocation SimpleName fs input buf size attr
+get int SimpleName MethodInvocation InfixExpression NumberLiteral empty
+get int SimpleName MethodInvocation InfixExpression NumberLiteral empty
+fs input buf size attr SimpleName MethodInvocation InfixExpression NumberLiteral empty
+fs input buf size attr SimpleName MethodInvocation InfixExpression NumberLiteral empty
+static Modifier MethodDeclaration PrimitiveType int
+static Modifier MethodDeclaration SimpleName get fs input buffer size
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName configuration
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName conf
+int PrimitiveType MethodDeclaration SimpleName get fs input buffer size
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName configuration
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName conf
+get fs input buffer size SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName configuration
+get fs input buffer size SimpleName MethodDeclaration SingleVariableDeclaration SimpleName conf
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SimpleName get fs input buffer size
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName conf
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get fs input buffer size
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName conf

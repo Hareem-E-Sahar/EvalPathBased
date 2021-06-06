@@ -1,0 +1,17 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName attr name
+string SimpleName SimpleType MethodDeclaration SimpleName get string
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName attr name
+string SimpleName SimpleType MethodDeclaration SimpleType SimpleName metadata exception
+get string SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get string SimpleName MethodDeclaration SingleVariableDeclaration SimpleName attr name
+get string SimpleName MethodDeclaration SimpleType SimpleName metadata exception
+attr name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName metadata exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName get string
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attr name
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName metadata exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get string
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attr name
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName metadata exception

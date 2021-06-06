@@ -1,0 +1,286 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName hook notification
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName hook notification
+get hive context SimpleName MethodInvocation MethodInvocation SimpleName get inputs
+collection utils SimpleName MethodInvocation SimpleName is empty
+collection utils SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get hive context
+collection utils SimpleName MethodInvocation MethodInvocation SimpleName get inputs
+is empty SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get hive context
+is empty SimpleName MethodInvocation MethodInvocation SimpleName get inputs
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation StringLiteral alter table rename oldtable not found in inputs list
+error SimpleName MethodInvocation StringLiteral alter table rename oldtable not found in inputs list
+get hive context SimpleName MethodInvocation MethodInvocation SimpleName get inputs
+get hive context SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName iterator
+get inputs SimpleName MethodInvocation MethodInvocation SimpleName iterator
+get inputs SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName next
+iterator SimpleName MethodInvocation MethodInvocation SimpleName next
+iterator SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get table
+next SimpleName MethodInvocation MethodInvocation SimpleName get table
+old table SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName next
+old table SimpleName VariableDeclarationFragment MethodInvocation SimpleName get table
+table SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName old table
+table SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName new table
+get hive context SimpleName MethodInvocation MethodInvocation SimpleName get outputs
+collection utils SimpleName MethodInvocation SimpleName is not empty
+collection utils SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get hive context
+collection utils SimpleName MethodInvocation MethodInvocation SimpleName get outputs
+is not empty SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get hive context
+is not empty SimpleName MethodInvocation MethodInvocation SimpleName get outputs
+write entity SimpleName SimpleType SingleVariableDeclaration SimpleName entity
+get hive context SimpleName MethodInvocation MethodInvocation SimpleName get outputs
+entity SimpleName MethodInvocation SimpleName get type
+entity SimpleName MethodInvocation InfixExpression QualifiedName entitytypetable
+get type SimpleName MethodInvocation InfixExpression QualifiedName entitytypetable
+entity SimpleName MethodInvocation SimpleName get table
+new table SimpleName Assignment MethodInvocation SimpleName entity
+new table SimpleName Assignment MethodInvocation SimpleName get table
+new table SimpleName MethodInvocation SimpleName get db name
+old table SimpleName MethodInvocation SimpleName get db name
+string utils SimpleName MethodInvocation SimpleName equals ignore case
+string utils SimpleName MethodInvocation MethodInvocation SimpleName new table
+string utils SimpleName MethodInvocation MethodInvocation SimpleName get db name
+string utils SimpleName MethodInvocation MethodInvocation SimpleName old table
+string utils SimpleName MethodInvocation MethodInvocation SimpleName get db name
+equals ignore case SimpleName MethodInvocation MethodInvocation SimpleName new table
+equals ignore case SimpleName MethodInvocation MethodInvocation SimpleName get db name
+equals ignore case SimpleName MethodInvocation MethodInvocation SimpleName old table
+equals ignore case SimpleName MethodInvocation MethodInvocation SimpleName get db name
+new table SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName old table
+new table SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get db name
+get db name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName old table
+get db name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get db name
+new table SimpleName MethodInvocation SimpleName get table name
+old table SimpleName MethodInvocation SimpleName get table name
+string utils SimpleName MethodInvocation SimpleName equals ignore case
+string utils SimpleName MethodInvocation MethodInvocation SimpleName new table
+string utils SimpleName MethodInvocation MethodInvocation SimpleName get table name
+string utils SimpleName MethodInvocation MethodInvocation SimpleName old table
+string utils SimpleName MethodInvocation MethodInvocation SimpleName get table name
+equals ignore case SimpleName MethodInvocation MethodInvocation SimpleName new table
+equals ignore case SimpleName MethodInvocation MethodInvocation SimpleName get table name
+equals ignore case SimpleName MethodInvocation MethodInvocation SimpleName old table
+equals ignore case SimpleName MethodInvocation MethodInvocation SimpleName get table name
+new table SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName old table
+new table SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get table name
+get table name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName old table
+get table name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get table name
+string utils SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName string utils
+string utils SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals ignore case
+equals ignore case SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName string utils
+equals ignore case SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals ignore case
+new table SimpleName MethodInvocation SimpleName get db name
+new table SimpleName MethodInvocation SimpleName get table name
+get hive SimpleName MethodInvocation MethodInvocation SimpleName get table
+get hive SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName new table
+get hive SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get db name
+get hive SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName new table
+get hive SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get table name
+get table SimpleName MethodInvocation MethodInvocation SimpleName new table
+get table SimpleName MethodInvocation MethodInvocation SimpleName get db name
+get table SimpleName MethodInvocation MethodInvocation SimpleName new table
+get table SimpleName MethodInvocation MethodInvocation SimpleName get table name
+new table SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName new table
+new table SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get table name
+get db name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName new table
+get db name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get table name
+new table SimpleName Assignment MethodInvocation MethodInvocation SimpleName get hive
+new table SimpleName Assignment MethodInvocation SimpleName get table
+new table SimpleName Assignment MethodInvocation MethodInvocation SimpleName new table
+new table SimpleName Assignment MethodInvocation MethodInvocation SimpleName get db name
+new table SimpleName Assignment MethodInvocation MethodInvocation SimpleName new table
+new table SimpleName Assignment MethodInvocation MethodInvocation SimpleName get table name
+entity SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName get outputs
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation StringLiteral alter table rename renamed table not found in outputs list
+error SimpleName MethodInvocation StringLiteral alter table rename renamed table not found in outputs list
+to table entity SimpleName MethodInvocation SimpleName old table
+old table entity SimpleName VariableDeclarationFragment MethodInvocation SimpleName to table entity
+old table entity SimpleName VariableDeclarationFragment MethodInvocation SimpleName old table
+atlas entity with ext info SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName old table entity
+atlas entities with ext info SimpleName SimpleType ClassInstanceCreation SimpleName old table entity
+entity update request v SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get user name
+entity update request v SimpleName SimpleType ClassInstanceCreation ClassInstanceCreation SimpleName old table entity
+get user name SimpleName MethodInvocation ClassInstanceCreation ClassInstanceCreation SimpleName old table entity
+ret SimpleName MethodInvocation SimpleName add
+ret SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName entity update request v
+ret SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get user name
+ret SimpleName MethodInvocation ClassInstanceCreation ClassInstanceCreation SimpleName old table entity
+add SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName entity update request v
+add SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get user name
+add SimpleName MethodInvocation ClassInstanceCreation ClassInstanceCreation SimpleName old table entity
+to table entity SimpleName MethodInvocation SimpleName new table
+renamed table entity SimpleName VariableDeclarationFragment MethodInvocation SimpleName to table entity
+renamed table entity SimpleName VariableDeclarationFragment MethodInvocation SimpleName new table
+atlas entity with ext info SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName renamed table entity
+renamed table entity SimpleName MethodInvocation SimpleName get entity
+renamed table entity SimpleName MethodInvocation MethodInvocation SimpleName get attribute
+get entity SimpleName MethodInvocation MethodInvocation SimpleName get attribute
+renamed table entity SimpleName MethodInvocation MethodInvocation SimpleName attribute qualified name
+get entity SimpleName MethodInvocation MethodInvocation SimpleName attribute qualified name
+get attribute SimpleName MethodInvocation SimpleName attribute qualified name
+string SimpleName SimpleType CastExpression MethodInvocation SimpleName get attribute
+string SimpleName SimpleType CastExpression MethodInvocation SimpleName attribute qualified name
+renamed table qualified name SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName string
+renamed table qualified name SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get attribute
+renamed table qualified name SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName attribute qualified name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName renamed table qualified name
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas object id
+old table entity SimpleName MethodInvocation SimpleName get entity
+old table entity SimpleName MethodInvocation MethodInvocation SimpleName get attribute
+get entity SimpleName MethodInvocation MethodInvocation SimpleName get attribute
+old table entity SimpleName MethodInvocation MethodInvocation SimpleName attribute columns
+get entity SimpleName MethodInvocation MethodInvocation SimpleName attribute columns
+get attribute SimpleName MethodInvocation SimpleName attribute columns
+rename columns SimpleName MethodInvocation CastExpression MethodInvocation SimpleName get attribute
+rename columns SimpleName MethodInvocation CastExpression MethodInvocation SimpleName attribute columns
+rename columns SimpleName MethodInvocation SimpleName old table entity
+rename columns SimpleName MethodInvocation SimpleName renamed table qualified name
+rename columns SimpleName MethodInvocation SimpleName ret
+get attribute SimpleName MethodInvocation CastExpression MethodInvocation SimpleName old table entity
+attribute columns SimpleName MethodInvocation CastExpression MethodInvocation SimpleName old table entity
+get attribute SimpleName MethodInvocation CastExpression MethodInvocation SimpleName renamed table qualified name
+attribute columns SimpleName MethodInvocation CastExpression MethodInvocation SimpleName renamed table qualified name
+get attribute SimpleName MethodInvocation CastExpression MethodInvocation SimpleName ret
+attribute columns SimpleName MethodInvocation CastExpression MethodInvocation SimpleName ret
+old table entity SimpleName MethodInvocation SimpleName renamed table qualified name
+old table entity SimpleName MethodInvocation SimpleName ret
+renamed table qualified name SimpleName MethodInvocation SimpleName ret
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas object id
+old table entity SimpleName MethodInvocation SimpleName get entity
+old table entity SimpleName MethodInvocation MethodInvocation SimpleName get attribute
+get entity SimpleName MethodInvocation MethodInvocation SimpleName get attribute
+old table entity SimpleName MethodInvocation MethodInvocation SimpleName attribute partition keys
+get entity SimpleName MethodInvocation MethodInvocation SimpleName attribute partition keys
+get attribute SimpleName MethodInvocation SimpleName attribute partition keys
+rename columns SimpleName MethodInvocation CastExpression MethodInvocation SimpleName get attribute
+rename columns SimpleName MethodInvocation CastExpression MethodInvocation SimpleName attribute partition keys
+rename columns SimpleName MethodInvocation SimpleName old table entity
+rename columns SimpleName MethodInvocation SimpleName renamed table qualified name
+rename columns SimpleName MethodInvocation SimpleName ret
+get attribute SimpleName MethodInvocation CastExpression MethodInvocation SimpleName old table entity
+attribute partition keys SimpleName MethodInvocation CastExpression MethodInvocation SimpleName old table entity
+get attribute SimpleName MethodInvocation CastExpression MethodInvocation SimpleName renamed table qualified name
+attribute partition keys SimpleName MethodInvocation CastExpression MethodInvocation SimpleName renamed table qualified name
+get attribute SimpleName MethodInvocation CastExpression MethodInvocation SimpleName ret
+attribute partition keys SimpleName MethodInvocation CastExpression MethodInvocation SimpleName ret
+old table entity SimpleName MethodInvocation SimpleName renamed table qualified name
+old table entity SimpleName MethodInvocation SimpleName ret
+renamed table qualified name SimpleName MethodInvocation SimpleName ret
+rename storage desc SimpleName MethodInvocation SimpleName old table entity
+rename storage desc SimpleName MethodInvocation SimpleName renamed table entity
+rename storage desc SimpleName MethodInvocation SimpleName ret
+old table entity SimpleName MethodInvocation SimpleName renamed table entity
+old table entity SimpleName MethodInvocation SimpleName ret
+renamed table entity SimpleName MethodInvocation SimpleName ret
+remove attribute SimpleName MethodInvocation SimpleName renamed table entity
+remove attribute SimpleName MethodInvocation SimpleName attribute columns
+renamed table entity SimpleName MethodInvocation SimpleName attribute columns
+remove attribute SimpleName MethodInvocation SimpleName renamed table entity
+remove attribute SimpleName MethodInvocation SimpleName attribute partition keys
+renamed table entity SimpleName MethodInvocation SimpleName attribute partition keys
+remove attribute SimpleName MethodInvocation SimpleName renamed table entity
+remove attribute SimpleName MethodInvocation SimpleName attribute storagedesc
+renamed table entity SimpleName MethodInvocation SimpleName attribute storagedesc
+renamed table entity SimpleName MethodInvocation SimpleName get entity
+old table SimpleName MethodInvocation SimpleName get table name
+collections SimpleName MethodInvocation SimpleName singleton list
+collections SimpleName MethodInvocation MethodInvocation SimpleName old table
+collections SimpleName MethodInvocation MethodInvocation SimpleName get table name
+singleton list SimpleName MethodInvocation MethodInvocation SimpleName old table
+singleton list SimpleName MethodInvocation MethodInvocation SimpleName get table name
+renamed table entity SimpleName MethodInvocation MethodInvocation SimpleName set attribute
+get entity SimpleName MethodInvocation MethodInvocation SimpleName set attribute
+renamed table entity SimpleName MethodInvocation MethodInvocation SimpleName attribute aliases
+get entity SimpleName MethodInvocation MethodInvocation SimpleName attribute aliases
+renamed table entity SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName collections
+renamed table entity SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName singleton list
+get entity SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName collections
+get entity SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName singleton list
+set attribute SimpleName MethodInvocation SimpleName attribute aliases
+set attribute SimpleName MethodInvocation MethodInvocation SimpleName collections
+set attribute SimpleName MethodInvocation MethodInvocation SimpleName singleton list
+set attribute SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName old table
+set attribute SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get table name
+attribute aliases SimpleName MethodInvocation MethodInvocation SimpleName collections
+attribute aliases SimpleName MethodInvocation MethodInvocation SimpleName singleton list
+attribute aliases SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName old table
+attribute aliases SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get table name
+old table entity SimpleName MethodInvocation SimpleName get entity
+old table entity SimpleName MethodInvocation MethodInvocation SimpleName get type name
+get entity SimpleName MethodInvocation MethodInvocation SimpleName get type name
+old table entity SimpleName MethodInvocation SimpleName get entity
+old table entity SimpleName MethodInvocation MethodInvocation SimpleName get attribute
+get entity SimpleName MethodInvocation MethodInvocation SimpleName get attribute
+old table entity SimpleName MethodInvocation MethodInvocation SimpleName attribute qualified name
+get entity SimpleName MethodInvocation MethodInvocation SimpleName attribute qualified name
+get attribute SimpleName MethodInvocation SimpleName attribute qualified name
+atlas object id SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get type name
+atlas object id SimpleName SimpleType ClassInstanceCreation SimpleName attribute qualified name
+atlas object id SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get attribute
+atlas object id SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName attribute qualified name
+old table entity SimpleName MethodInvocation MethodInvocation ClassInstanceCreation SimpleName attribute qualified name
+get entity SimpleName MethodInvocation MethodInvocation ClassInstanceCreation SimpleName attribute qualified name
+get type name SimpleName MethodInvocation ClassInstanceCreation SimpleName attribute qualified name
+get type name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get attribute
+get type name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName attribute qualified name
+attribute qualified name SimpleName ClassInstanceCreation MethodInvocation MethodInvocation SimpleName old table entity
+attribute qualified name SimpleName ClassInstanceCreation MethodInvocation MethodInvocation SimpleName get entity
+attribute qualified name SimpleName ClassInstanceCreation MethodInvocation SimpleName get attribute
+attribute qualified name SimpleName ClassInstanceCreation MethodInvocation SimpleName attribute qualified name
+old table id SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName atlas object id
+old table id SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get type name
+old table id SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName attribute qualified name
+old table id SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get attribute
+old table id SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName attribute qualified name
+atlas object id SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName old table id
+entity partial update request v SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get user name
+entity partial update request v SimpleName SimpleType ClassInstanceCreation SimpleName old table id
+entity partial update request v SimpleName SimpleType ClassInstanceCreation SimpleName renamed table entity
+get user name SimpleName MethodInvocation ClassInstanceCreation SimpleName old table id
+get user name SimpleName MethodInvocation ClassInstanceCreation SimpleName renamed table entity
+old table id SimpleName ClassInstanceCreation SimpleName renamed table entity
+ret SimpleName MethodInvocation SimpleName add
+ret SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName entity partial update request v
+ret SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get user name
+ret SimpleName MethodInvocation ClassInstanceCreation SimpleName old table id
+ret SimpleName MethodInvocation ClassInstanceCreation SimpleName renamed table entity
+add SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName entity partial update request v
+add SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get user name
+add SimpleName MethodInvocation ClassInstanceCreation SimpleName old table id
+add SimpleName MethodInvocation ClassInstanceCreation SimpleName renamed table entity
+old table entity SimpleName MethodInvocation SimpleName get entity
+old table entity SimpleName MethodInvocation MethodInvocation SimpleName get attribute
+get entity SimpleName MethodInvocation MethodInvocation SimpleName get attribute
+old table entity SimpleName MethodInvocation MethodInvocation SimpleName attribute qualified name
+get entity SimpleName MethodInvocation MethodInvocation SimpleName attribute qualified name
+get attribute SimpleName MethodInvocation SimpleName attribute qualified name
+string SimpleName SimpleType CastExpression MethodInvocation SimpleName get attribute
+string SimpleName SimpleType CastExpression MethodInvocation SimpleName attribute qualified name
+context SimpleName MethodInvocation SimpleName remove from known table
+context SimpleName MethodInvocation CastExpression SimpleType SimpleName string
+context SimpleName MethodInvocation CastExpression MethodInvocation SimpleName get attribute
+context SimpleName MethodInvocation CastExpression MethodInvocation SimpleName attribute qualified name
+remove from known table SimpleName MethodInvocation CastExpression SimpleType SimpleName string
+remove from known table SimpleName MethodInvocation CastExpression MethodInvocation SimpleName get attribute
+remove from known table SimpleName MethodInvocation CastExpression MethodInvocation SimpleName attribute qualified name
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName get notification messages
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName hook notification
+public Modifier MethodDeclaration SimpleName get notification messages
+public Modifier MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration Block ReturnStatement SimpleName ret
+list SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get notification messages
+hook notification SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get notification messages
+get notification messages SimpleName MethodDeclaration SimpleType SimpleName exception
+get notification messages SimpleName MethodDeclaration Block ReturnStatement SimpleName ret
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName get notification messages
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get notification messages
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

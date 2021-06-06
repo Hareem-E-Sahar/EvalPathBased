@@ -1,0 +1,158 @@
+atlas vertex SimpleName SimpleType SingleVariableDeclaration SimpleName vertex
+ret SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName atlas entity header with associations
+atlas entity header with associations SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ret
+vertex SimpleName MethodInvocation SimpleName get property
+vertex SimpleName MethodInvocation QualifiedName constantstype name property key
+vertex SimpleName MethodInvocation TypeLiteral SimpleType SimpleName string
+get property SimpleName MethodInvocation QualifiedName constantstype name property key
+get property SimpleName MethodInvocation TypeLiteral SimpleType SimpleName string
+constantstype name property key QualifiedName MethodInvocation TypeLiteral SimpleType SimpleName string
+type name SimpleName VariableDeclarationFragment MethodInvocation SimpleName vertex
+type name SimpleName VariableDeclarationFragment MethodInvocation SimpleName get property
+type name SimpleName VariableDeclarationFragment MethodInvocation QualifiedName constantstype name property key
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName type name
+ret SimpleName MethodInvocation SimpleName set type name
+ret SimpleName MethodInvocation SimpleName type name
+set type name SimpleName MethodInvocation SimpleName type name
+vertex SimpleName MethodInvocation SimpleName get property
+vertex SimpleName MethodInvocation QualifiedName constantsguid property key
+vertex SimpleName MethodInvocation TypeLiteral SimpleType SimpleName string
+get property SimpleName MethodInvocation QualifiedName constantsguid property key
+get property SimpleName MethodInvocation TypeLiteral SimpleType SimpleName string
+constantsguid property key QualifiedName MethodInvocation TypeLiteral SimpleType SimpleName string
+ret SimpleName MethodInvocation SimpleName set guid
+ret SimpleName MethodInvocation MethodInvocation SimpleName vertex
+ret SimpleName MethodInvocation MethodInvocation SimpleName get property
+ret SimpleName MethodInvocation MethodInvocation QualifiedName constantsguid property key
+set guid SimpleName MethodInvocation MethodInvocation SimpleName vertex
+set guid SimpleName MethodInvocation MethodInvocation SimpleName get property
+set guid SimpleName MethodInvocation MethodInvocation QualifiedName constantsguid property key
+vertex SimpleName MethodInvocation SimpleName get property
+vertex SimpleName MethodInvocation QualifiedName constantsqualified name
+vertex SimpleName MethodInvocation TypeLiteral SimpleType SimpleName string
+get property SimpleName MethodInvocation QualifiedName constantsqualified name
+get property SimpleName MethodInvocation TypeLiteral SimpleType SimpleName string
+constantsqualified name QualifiedName MethodInvocation TypeLiteral SimpleType SimpleName string
+ret SimpleName MethodInvocation SimpleName set display text
+ret SimpleName MethodInvocation MethodInvocation SimpleName vertex
+ret SimpleName MethodInvocation MethodInvocation SimpleName get property
+ret SimpleName MethodInvocation MethodInvocation QualifiedName constantsqualified name
+set display text SimpleName MethodInvocation MethodInvocation SimpleName vertex
+set display text SimpleName MethodInvocation MethodInvocation SimpleName get property
+set display text SimpleName MethodInvocation MethodInvocation QualifiedName constantsqualified name
+vertex SimpleName MethodInvocation SimpleName get property
+vertex SimpleName MethodInvocation SimpleName property key name
+vertex SimpleName MethodInvocation TypeLiteral SimpleType SimpleName string
+get property SimpleName MethodInvocation SimpleName property key name
+get property SimpleName MethodInvocation TypeLiteral SimpleType SimpleName string
+property key name SimpleName MethodInvocation TypeLiteral SimpleType SimpleName string
+ret SimpleName MethodInvocation SimpleName set attribute
+ret SimpleName MethodInvocation QualifiedName atlas clientname
+ret SimpleName MethodInvocation MethodInvocation SimpleName vertex
+ret SimpleName MethodInvocation MethodInvocation SimpleName get property
+ret SimpleName MethodInvocation MethodInvocation SimpleName property key name
+set attribute SimpleName MethodInvocation QualifiedName atlas clientname
+set attribute SimpleName MethodInvocation MethodInvocation SimpleName vertex
+set attribute SimpleName MethodInvocation MethodInvocation SimpleName get property
+set attribute SimpleName MethodInvocation MethodInvocation SimpleName property key name
+atlas clientname QualifiedName MethodInvocation MethodInvocation SimpleName vertex
+atlas clientname QualifiedName MethodInvocation MethodInvocation SimpleName get property
+atlas clientname QualifiedName MethodInvocation MethodInvocation SimpleName property key name
+vertex SimpleName MethodInvocation SimpleName get property
+vertex SimpleName MethodInvocation SimpleName property key description
+vertex SimpleName MethodInvocation TypeLiteral SimpleType SimpleName string
+get property SimpleName MethodInvocation SimpleName property key description
+get property SimpleName MethodInvocation TypeLiteral SimpleType SimpleName string
+property key description SimpleName MethodInvocation TypeLiteral SimpleType SimpleName string
+ret SimpleName MethodInvocation SimpleName set attribute
+ret SimpleName MethodInvocation QualifiedName atlas clientdescription
+ret SimpleName MethodInvocation MethodInvocation SimpleName vertex
+ret SimpleName MethodInvocation MethodInvocation SimpleName get property
+ret SimpleName MethodInvocation MethodInvocation SimpleName property key description
+set attribute SimpleName MethodInvocation QualifiedName atlas clientdescription
+set attribute SimpleName MethodInvocation MethodInvocation SimpleName vertex
+set attribute SimpleName MethodInvocation MethodInvocation SimpleName get property
+set attribute SimpleName MethodInvocation MethodInvocation SimpleName property key description
+atlas clientdescription QualifiedName MethodInvocation MethodInvocation SimpleName vertex
+atlas clientdescription QualifiedName MethodInvocation MethodInvocation SimpleName get property
+atlas clientdescription QualifiedName MethodInvocation MethodInvocation SimpleName property key description
+vertex SimpleName MethodInvocation SimpleName get property
+vertex SimpleName MethodInvocation SimpleName property key owner
+vertex SimpleName MethodInvocation TypeLiteral SimpleType SimpleName string
+get property SimpleName MethodInvocation SimpleName property key owner
+get property SimpleName MethodInvocation TypeLiteral SimpleType SimpleName string
+property key owner SimpleName MethodInvocation TypeLiteral SimpleType SimpleName string
+ret SimpleName MethodInvocation SimpleName set attribute
+ret SimpleName MethodInvocation QualifiedName atlas clientowner
+ret SimpleName MethodInvocation MethodInvocation SimpleName vertex
+ret SimpleName MethodInvocation MethodInvocation SimpleName get property
+ret SimpleName MethodInvocation MethodInvocation SimpleName property key owner
+set attribute SimpleName MethodInvocation QualifiedName atlas clientowner
+set attribute SimpleName MethodInvocation MethodInvocation SimpleName vertex
+set attribute SimpleName MethodInvocation MethodInvocation SimpleName get property
+set attribute SimpleName MethodInvocation MethodInvocation SimpleName property key owner
+atlas clientowner QualifiedName MethodInvocation MethodInvocation SimpleName vertex
+atlas clientowner QualifiedName MethodInvocation MethodInvocation SimpleName get property
+atlas clientowner QualifiedName MethodInvocation MethodInvocation SimpleName property key owner
+collection SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+vertex SimpleName MethodInvocation SimpleName get property values
+vertex SimpleName MethodInvocation QualifiedName constantstrait names property key
+vertex SimpleName MethodInvocation TypeLiteral SimpleType SimpleName string
+get property values SimpleName MethodInvocation QualifiedName constantstrait names property key
+get property values SimpleName MethodInvocation TypeLiteral SimpleType SimpleName string
+constantstrait names property key QualifiedName MethodInvocation TypeLiteral SimpleType SimpleName string
+classification names SimpleName VariableDeclarationFragment MethodInvocation SimpleName vertex
+classification names SimpleName VariableDeclarationFragment MethodInvocation SimpleName get property values
+classification names SimpleName VariableDeclarationFragment MethodInvocation QualifiedName constantstrait names property key
+collection utils SimpleName MethodInvocation SimpleName is not empty
+collection utils SimpleName MethodInvocation SimpleName classification names
+is not empty SimpleName MethodInvocation SimpleName classification names
+array list SimpleName SimpleType ParameterizedType ClassInstanceCreation SimpleName classification names
+ret SimpleName MethodInvocation SimpleName set classification names
+ret SimpleName MethodInvocation ClassInstanceCreation SimpleName classification names
+set classification names SimpleName MethodInvocation ClassInstanceCreation SimpleName classification names
+vertex SimpleName MethodInvocation SimpleName get property
+vertex SimpleName MethodInvocation QualifiedName constantsstate property key
+vertex SimpleName MethodInvocation TypeLiteral SimpleType SimpleName string
+get property SimpleName MethodInvocation QualifiedName constantsstate property key
+get property SimpleName MethodInvocation TypeLiteral SimpleType SimpleName string
+constantsstate property key QualifiedName MethodInvocation TypeLiteral SimpleType SimpleName string
+state SimpleName VariableDeclarationFragment MethodInvocation SimpleName vertex
+state SimpleName VariableDeclarationFragment MethodInvocation SimpleName get property
+state SimpleName VariableDeclarationFragment MethodInvocation QualifiedName constantsstate property key
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName state
+state SimpleName MethodInvocation SimpleName equals ignore case
+state SimpleName MethodInvocation StringLiteral active
+equals ignore case SimpleName MethodInvocation StringLiteral active
+state SimpleName MethodInvocation ConditionalExpression QualifiedName statusstatus active
+equals ignore case SimpleName MethodInvocation ConditionalExpression QualifiedName statusstatus active
+active StringLiteral MethodInvocation ConditionalExpression QualifiedName statusstatus active
+state SimpleName MethodInvocation ConditionalExpression QualifiedName statusstatus deleted
+equals ignore case SimpleName MethodInvocation ConditionalExpression QualifiedName statusstatus deleted
+active StringLiteral MethodInvocation ConditionalExpression QualifiedName statusstatus deleted
+statusstatus active QualifiedName ConditionalExpression QualifiedName statusstatus deleted
+status SimpleName VariableDeclarationFragment ParenthesizedExpression ConditionalExpression QualifiedName statusstatus active
+status SimpleName VariableDeclarationFragment ParenthesizedExpression ConditionalExpression QualifiedName statusstatus deleted
+status SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName status
+ret SimpleName MethodInvocation SimpleName set status
+ret SimpleName MethodInvocation SimpleName status
+set status SimpleName MethodInvocation SimpleName status
+private Modifier MethodDeclaration SimpleType SimpleName atlas entity header with associations
+private Modifier MethodDeclaration SimpleName to atlas entity headerwith associations
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas vertex
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName vertex
+private Modifier MethodDeclaration Block ReturnStatement SimpleName ret
+atlas entity header with associations SimpleName SimpleType MethodDeclaration SimpleName to atlas entity headerwith associations
+atlas entity header with associations SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName vertex
+to atlas entity headerwith associations SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas vertex
+to atlas entity headerwith associations SimpleName MethodDeclaration SingleVariableDeclaration SimpleName vertex
+to atlas entity headerwith associations SimpleName MethodDeclaration Block ReturnStatement SimpleName ret
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas entity header with associations
+public Modifier TypeDeclaration MethodDeclaration SimpleName to atlas entity headerwith associations
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName vertex
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas entity header with associations
+test SimpleName TypeDeclaration MethodDeclaration SimpleName to atlas entity headerwith associations
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName vertex

@@ -1,0 +1,49 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+list SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName delete candidate guids
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName delete candidate guids
+param checker SimpleName MethodInvocation SimpleName not empty
+param checker SimpleName MethodInvocation SimpleName delete candidate guids
+param checker SimpleName MethodInvocation StringLiteral delete candidate guids cannot be empty
+not empty SimpleName MethodInvocation SimpleName delete candidate guids
+not empty SimpleName MethodInvocation StringLiteral delete candidate guids cannot be empty
+delete candidate guids SimpleName MethodInvocation StringLiteral delete candidate guids cannot be empty
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName i typed referenceable instance
+repository SimpleName MethodInvocation SimpleName delete entities
+repository SimpleName MethodInvocation SimpleName delete candidate guids
+delete entities SimpleName MethodInvocation SimpleName delete candidate guids
+delete entities result SimpleName VariableDeclarationFragment MethodInvocation SimpleName repository
+delete entities result SimpleName VariableDeclarationFragment MethodInvocation SimpleName delete entities
+delete entities result SimpleName VariableDeclarationFragment MethodInvocation SimpleName delete candidate guids
+delete entities resultright QualifiedName MethodInvocation SimpleName size
+delete entities resultright QualifiedName MethodInvocation InfixExpression NumberLiteral empty
+size SimpleName MethodInvocation InfixExpression NumberLiteral empty
+on entities deleted SimpleName MethodInvocation QualifiedName delete entities resultright
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName delete entities
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName delete candidate guids
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName atlas exception
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName delete entities
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName delete candidate guids
+public Modifier MethodDeclaration SimpleType SimpleName atlas exception
+public Modifier MethodDeclaration Block ReturnStatement QualifiedName delete entities resultleft
+list SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName delete entities
+string SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName delete entities
+delete entities SimpleName MethodDeclaration SingleVariableDeclaration SimpleName delete candidate guids
+delete entities SimpleName MethodDeclaration SimpleType SimpleName atlas exception
+delete entities SimpleName MethodDeclaration Block ReturnStatement QualifiedName delete entities resultleft
+delete candidate guids SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName delete entities
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName delete candidate guids
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName delete entities
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName delete candidate guids
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception

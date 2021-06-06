@@ -1,0 +1,17 @@
+orgapacheaccumulocoreutiladdress util QualifiedName MethodInvocation SimpleName to string
+orgapacheaccumulocoreutiladdress util QualifiedName MethodInvocation MethodInvocation SimpleName get location
+to string SimpleName MethodInvocation MethodInvocation SimpleName get location
+orgapacheaccumulocoreutiladdress util QualifiedName MethodInvocation MethodInvocation SimpleName get bytes
+to string SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+get location SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get bytes
+value SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get bytes
+public Modifier MethodDeclaration SimpleType SimpleName value
+public Modifier MethodDeclaration SimpleName as mutation value
+value SimpleName SimpleType MethodDeclaration SimpleName as mutation value
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName value
+public Modifier TypeDeclaration MethodDeclaration SimpleName as mutation value
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName value
+test SimpleName TypeDeclaration MethodDeclaration SimpleName as mutation value

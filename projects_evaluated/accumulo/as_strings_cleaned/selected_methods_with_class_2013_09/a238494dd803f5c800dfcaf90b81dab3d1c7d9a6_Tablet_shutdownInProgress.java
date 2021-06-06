@@ -1,0 +1,24 @@
+runtime SimpleName MethodInvocation SimpleName get runtime
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName run
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName run
+void PrimitiveType MethodDeclaration SimpleName run
+runtime SimpleName MethodInvocation MethodInvocation SimpleName remove shutdown hook
+get runtime SimpleName MethodInvocation MethodInvocation SimpleName remove shutdown hook
+remove shutdown hook SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName thread
+illegal state exception SimpleName SimpleType SingleVariableDeclaration SimpleName ise
+private Modifier MethodDeclaration PrimitiveType boolean
+private Modifier MethodDeclaration SimpleName shutdown in progress
+private Modifier MethodDeclaration Block ReturnStatement BooleanLiteral false
+boolean PrimitiveType MethodDeclaration SimpleName shutdown in progress
+boolean PrimitiveType MethodDeclaration Block ReturnStatement BooleanLiteral false
+shutdown in progress SimpleName MethodDeclaration Block ReturnStatement BooleanLiteral false
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName shutdown in progress
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName shutdown in progress

@@ -1,0 +1,86 @@
+opts SimpleName SimpleType SingleVariableDeclaration SimpleName opts
+configuration SimpleName SimpleType SingleVariableDeclaration SimpleName conf
+volume manager SimpleName SimpleType SingleVariableDeclaration SimpleName fs
+server configuration SimpleName MethodInvocation SimpleName get site configuration
+check init SimpleName MethodInvocation SimpleName conf
+check init SimpleName MethodInvocation SimpleName fs
+check init SimpleName MethodInvocation MethodInvocation SimpleName server configuration
+check init SimpleName MethodInvocation MethodInvocation SimpleName get site configuration
+conf SimpleName MethodInvocation SimpleName fs
+conf SimpleName MethodInvocation MethodInvocation SimpleName server configuration
+conf SimpleName MethodInvocation MethodInvocation SimpleName get site configuration
+fs SimpleName MethodInvocation MethodInvocation SimpleName server configuration
+fs SimpleName MethodInvocation MethodInvocation SimpleName get site configuration
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName instance name path
+get instance name path SimpleName MethodInvocation SimpleName opts
+instance name path SimpleName Assignment MethodInvocation SimpleName get instance name path
+instance name path SimpleName Assignment MethodInvocation SimpleName opts
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+log SimpleName MethodInvocation SimpleName fatal
+log SimpleName MethodInvocation StringLiteral failed to talk to zookeeper
+log SimpleName MethodInvocation SimpleName e
+fatal SimpleName MethodInvocation StringLiteral failed to talk to zookeeper
+fatal SimpleName MethodInvocation SimpleName e
+failed to talk to zookeeper StringLiteral MethodInvocation SimpleName e
+get root password SimpleName MethodInvocation SimpleName opts
+optsrootpass QualifiedName Assignment MethodInvocation SimpleName get root password
+optsrootpass QualifiedName Assignment MethodInvocation SimpleName opts
+initialize SimpleName MethodInvocation SimpleName opts
+initialize SimpleName MethodInvocation SimpleName instance name path
+initialize SimpleName MethodInvocation SimpleName fs
+opts SimpleName MethodInvocation SimpleName instance name path
+opts SimpleName MethodInvocation SimpleName fs
+instance name path SimpleName MethodInvocation SimpleName fs
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName do init
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName opts
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName opts
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName configuration
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName conf
+static Modifier MethodDeclaration PrimitiveType boolean
+static Modifier MethodDeclaration SimpleName do init
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName opts
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName opts
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName configuration
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName conf
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName volume manager
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName fs
+boolean PrimitiveType MethodDeclaration SimpleName do init
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName opts
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName opts
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName configuration
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName conf
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName volume manager
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName fs
+boolean PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+do init SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName opts
+do init SimpleName MethodDeclaration SingleVariableDeclaration SimpleName opts
+do init SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName configuration
+do init SimpleName MethodDeclaration SingleVariableDeclaration SimpleName conf
+do init SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName volume manager
+do init SimpleName MethodDeclaration SingleVariableDeclaration SimpleName fs
+do init SimpleName MethodDeclaration SimpleType SimpleName io exception
+opts SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName conf
+opts SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName fs
+opts SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+conf SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName fs
+conf SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+fs SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName do init
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName opts
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName conf
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName fs
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName do init
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName opts
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName conf
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName fs
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

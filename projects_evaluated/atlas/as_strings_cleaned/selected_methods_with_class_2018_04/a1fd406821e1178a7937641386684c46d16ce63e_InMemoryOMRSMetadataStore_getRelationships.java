@@ -1,0 +1,12 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName relationship
+relationship store SimpleName MethodInvocation SimpleName values
+protected Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+protected Modifier MethodDeclaration ParameterizedType SimpleType SimpleName relationship
+protected Modifier MethodDeclaration SimpleName get relationships
+list SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get relationships
+relationship SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get relationships
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleName get relationships
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get relationships

@@ -1,0 +1,429 @@
+connector SimpleName SimpleType SingleVariableDeclaration SimpleName root conn
+connector SimpleName SimpleType SingleVariableDeclaration SimpleName test user conn
+system permission SimpleName SimpleType SingleVariableDeclaration SimpleName perm
+password SimpleName VariableDeclarationFragment StringLiteral password
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName table name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName table id
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName user
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName password
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral password
+table name SimpleName VariableDeclarationFragment VariableDeclarationStatement VariableDeclarationFragment SimpleName table id
+table name SimpleName VariableDeclarationFragment VariableDeclarationStatement VariableDeclarationFragment SimpleName user
+table name SimpleName VariableDeclarationFragment VariableDeclarationStatement VariableDeclarationFragment SimpleName password
+table name SimpleName VariableDeclarationFragment VariableDeclarationStatement VariableDeclarationFragment StringLiteral password
+table id SimpleName VariableDeclarationFragment VariableDeclarationStatement VariableDeclarationFragment SimpleName user
+table id SimpleName VariableDeclarationFragment VariableDeclarationStatement VariableDeclarationFragment SimpleName password
+table id SimpleName VariableDeclarationFragment VariableDeclarationStatement VariableDeclarationFragment StringLiteral password
+user SimpleName VariableDeclarationFragment VariableDeclarationStatement VariableDeclarationFragment SimpleName password
+user SimpleName VariableDeclarationFragment VariableDeclarationStatement VariableDeclarationFragment StringLiteral password
+confirming that the presence of the StringLiteral InfixExpression SimpleName perm
+confirming that the presence of the StringLiteral InfixExpression StringLiteral permission properly permits the user
+perm SimpleName InfixExpression StringLiteral permission properly permits the user
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation InfixExpression StringLiteral confirming that the presence of the
+log SimpleName MethodInvocation InfixExpression SimpleName perm
+log SimpleName MethodInvocation InfixExpression StringLiteral permission properly permits the user
+debug SimpleName MethodInvocation InfixExpression StringLiteral confirming that the presence of the
+debug SimpleName MethodInvocation InfixExpression SimpleName perm
+debug SimpleName MethodInvocation InfixExpression StringLiteral permission properly permits the user
+table name SimpleName Assignment StringLiteral create table with perm test
+test user conn SimpleName MethodInvocation SimpleName table operations
+test user conn SimpleName MethodInvocation MethodInvocation SimpleName create
+table operations SimpleName MethodInvocation MethodInvocation SimpleName create
+test user conn SimpleName MethodInvocation MethodInvocation SimpleName table name
+table operations SimpleName MethodInvocation MethodInvocation SimpleName table name
+create SimpleName MethodInvocation SimpleName table name
+root conn SimpleName MethodInvocation SimpleName table operations
+root conn SimpleName MethodInvocation MethodInvocation SimpleName list
+table operations SimpleName MethodInvocation MethodInvocation SimpleName list
+root conn SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName contains
+table operations SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName contains
+list SimpleName MethodInvocation MethodInvocation SimpleName contains
+root conn SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName table name
+table operations SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName table name
+list SimpleName MethodInvocation MethodInvocation SimpleName table name
+contains SimpleName MethodInvocation SimpleName table name
+illegal state exception SimpleName SimpleType ClassInstanceCreation StringLiteral should be able to create a table
+table name SimpleName Assignment StringLiteral drop table with perm test
+root conn SimpleName MethodInvocation SimpleName table operations
+root conn SimpleName MethodInvocation MethodInvocation SimpleName create
+table operations SimpleName MethodInvocation MethodInvocation SimpleName create
+root conn SimpleName MethodInvocation MethodInvocation SimpleName table name
+table operations SimpleName MethodInvocation MethodInvocation SimpleName table name
+create SimpleName MethodInvocation SimpleName table name
+test user conn SimpleName MethodInvocation SimpleName table operations
+test user conn SimpleName MethodInvocation MethodInvocation SimpleName delete
+table operations SimpleName MethodInvocation MethodInvocation SimpleName delete
+test user conn SimpleName MethodInvocation MethodInvocation SimpleName table name
+table operations SimpleName MethodInvocation MethodInvocation SimpleName table name
+delete SimpleName MethodInvocation SimpleName table name
+root conn SimpleName MethodInvocation SimpleName table operations
+root conn SimpleName MethodInvocation MethodInvocation SimpleName list
+table operations SimpleName MethodInvocation MethodInvocation SimpleName list
+root conn SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName contains
+table operations SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName contains
+list SimpleName MethodInvocation MethodInvocation SimpleName contains
+root conn SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName table name
+table operations SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName table name
+list SimpleName MethodInvocation MethodInvocation SimpleName table name
+contains SimpleName MethodInvocation SimpleName table name
+illegal state exception SimpleName SimpleType ClassInstanceCreation StringLiteral should be able to delete a table
+table name SimpleName Assignment StringLiteral alter table with perm test
+table name SimpleName InfixExpression StringLiteral empty
+table SimpleName VariableDeclarationFragment InfixExpression SimpleName table name
+table SimpleName VariableDeclarationFragment InfixExpression StringLiteral empty
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName table
+root conn SimpleName MethodInvocation SimpleName table operations
+root conn SimpleName MethodInvocation MethodInvocation SimpleName create
+table operations SimpleName MethodInvocation MethodInvocation SimpleName create
+root conn SimpleName MethodInvocation MethodInvocation SimpleName table name
+table operations SimpleName MethodInvocation MethodInvocation SimpleName table name
+create SimpleName MethodInvocation SimpleName table name
+root conn SimpleName MethodInvocation SimpleName get instance
+tables SimpleName MethodInvocation SimpleName get name to id map
+tables SimpleName MethodInvocation MethodInvocation SimpleName root conn
+tables SimpleName MethodInvocation MethodInvocation SimpleName get instance
+get name to id map SimpleName MethodInvocation MethodInvocation SimpleName root conn
+get name to id map SimpleName MethodInvocation MethodInvocation SimpleName get instance
+tables SimpleName MethodInvocation MethodInvocation SimpleName get
+get name to id map SimpleName MethodInvocation MethodInvocation SimpleName get
+root conn SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+get instance SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+tables SimpleName MethodInvocation MethodInvocation SimpleName table name
+get name to id map SimpleName MethodInvocation MethodInvocation SimpleName table name
+root conn SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName table name
+get instance SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName table name
+get SimpleName MethodInvocation SimpleName table name
+table id SimpleName Assignment MethodInvocation MethodInvocation SimpleName tables
+table id SimpleName Assignment MethodInvocation MethodInvocation SimpleName get name to id map
+table id SimpleName Assignment MethodInvocation SimpleName get
+table id SimpleName Assignment MethodInvocation SimpleName table name
+test user conn SimpleName MethodInvocation SimpleName table operations
+propertytable bloom errorrate QualifiedName MethodInvocation SimpleName get key
+test user conn SimpleName MethodInvocation MethodInvocation SimpleName set property
+table operations SimpleName MethodInvocation MethodInvocation SimpleName set property
+test user conn SimpleName MethodInvocation MethodInvocation SimpleName table name
+table operations SimpleName MethodInvocation MethodInvocation SimpleName table name
+test user conn SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName propertytable bloom errorrate
+test user conn SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get key
+table operations SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName propertytable bloom errorrate
+table operations SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get key
+test user conn SimpleName MethodInvocation MethodInvocation StringLiteral . %
+table operations SimpleName MethodInvocation MethodInvocation StringLiteral . %
+set property SimpleName MethodInvocation SimpleName table name
+set property SimpleName MethodInvocation MethodInvocation QualifiedName propertytable bloom errorrate
+set property SimpleName MethodInvocation MethodInvocation SimpleName get key
+set property SimpleName MethodInvocation StringLiteral . %
+table name SimpleName MethodInvocation MethodInvocation QualifiedName propertytable bloom errorrate
+table name SimpleName MethodInvocation MethodInvocation SimpleName get key
+table name SimpleName MethodInvocation StringLiteral . %
+propertytable bloom errorrate QualifiedName MethodInvocation MethodInvocation StringLiteral . %
+get key SimpleName MethodInvocation MethodInvocation StringLiteral . %
+server configuration SimpleName MethodInvocation SimpleName get table configuration
+server configuration SimpleName MethodInvocation SimpleName table id
+get table configuration SimpleName MethodInvocation SimpleName table id
+server configuration SimpleName MethodInvocation MethodInvocation SimpleName get
+get table configuration SimpleName MethodInvocation MethodInvocation SimpleName get
+table id SimpleName MethodInvocation MethodInvocation SimpleName get
+server configuration SimpleName MethodInvocation MethodInvocation QualifiedName propertytable bloom errorrate
+get table configuration SimpleName MethodInvocation MethodInvocation QualifiedName propertytable bloom errorrate
+table id SimpleName MethodInvocation MethodInvocation QualifiedName propertytable bloom errorrate
+get SimpleName MethodInvocation QualifiedName propertytable bloom errorrate
+server configuration SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName equals
+get table configuration SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName equals
+table id SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName equals
+get SimpleName MethodInvocation MethodInvocation SimpleName equals
+propertytable bloom errorrate QualifiedName MethodInvocation MethodInvocation SimpleName equals
+server configuration SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral . %
+get table configuration SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral . %
+table id SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral . %
+get SimpleName MethodInvocation MethodInvocation StringLiteral . %
+propertytable bloom errorrate QualifiedName MethodInvocation MethodInvocation StringLiteral . %
+equals SimpleName MethodInvocation StringLiteral . %
+illegal state exception SimpleName SimpleType ClassInstanceCreation StringLiteral should be able to set a table property
+test user conn SimpleName MethodInvocation SimpleName table operations
+propertytable bloom errorrate QualifiedName MethodInvocation SimpleName get key
+test user conn SimpleName MethodInvocation MethodInvocation SimpleName remove property
+table operations SimpleName MethodInvocation MethodInvocation SimpleName remove property
+test user conn SimpleName MethodInvocation MethodInvocation SimpleName table name
+table operations SimpleName MethodInvocation MethodInvocation SimpleName table name
+test user conn SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName propertytable bloom errorrate
+test user conn SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get key
+table operations SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName propertytable bloom errorrate
+table operations SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get key
+remove property SimpleName MethodInvocation SimpleName table name
+remove property SimpleName MethodInvocation MethodInvocation QualifiedName propertytable bloom errorrate
+remove property SimpleName MethodInvocation MethodInvocation SimpleName get key
+table name SimpleName MethodInvocation MethodInvocation QualifiedName propertytable bloom errorrate
+table name SimpleName MethodInvocation MethodInvocation SimpleName get key
+server configuration SimpleName MethodInvocation SimpleName get table configuration
+server configuration SimpleName MethodInvocation SimpleName table id
+get table configuration SimpleName MethodInvocation SimpleName table id
+server configuration SimpleName MethodInvocation MethodInvocation SimpleName get
+get table configuration SimpleName MethodInvocation MethodInvocation SimpleName get
+table id SimpleName MethodInvocation MethodInvocation SimpleName get
+server configuration SimpleName MethodInvocation MethodInvocation QualifiedName propertytable bloom errorrate
+get table configuration SimpleName MethodInvocation MethodInvocation QualifiedName propertytable bloom errorrate
+table id SimpleName MethodInvocation MethodInvocation QualifiedName propertytable bloom errorrate
+get SimpleName MethodInvocation QualifiedName propertytable bloom errorrate
+server configuration SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName equals
+get table configuration SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName equals
+table id SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName equals
+get SimpleName MethodInvocation MethodInvocation SimpleName equals
+propertytable bloom errorrate QualifiedName MethodInvocation MethodInvocation SimpleName equals
+server configuration SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral . %
+get table configuration SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral . %
+table id SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral . %
+get SimpleName MethodInvocation MethodInvocation StringLiteral . %
+propertytable bloom errorrate QualifiedName MethodInvocation MethodInvocation StringLiteral . %
+equals SimpleName MethodInvocation StringLiteral . %
+illegal state exception SimpleName SimpleType ClassInstanceCreation StringLiteral should be able to remove a table property
+test user conn SimpleName MethodInvocation SimpleName table operations
+test user conn SimpleName MethodInvocation MethodInvocation SimpleName rename
+table operations SimpleName MethodInvocation MethodInvocation SimpleName rename
+test user conn SimpleName MethodInvocation MethodInvocation SimpleName table name
+table operations SimpleName MethodInvocation MethodInvocation SimpleName table name
+test user conn SimpleName MethodInvocation MethodInvocation SimpleName table
+table operations SimpleName MethodInvocation MethodInvocation SimpleName table
+rename SimpleName MethodInvocation SimpleName table name
+rename SimpleName MethodInvocation SimpleName table
+table name SimpleName MethodInvocation SimpleName table
+root conn SimpleName MethodInvocation SimpleName table operations
+root conn SimpleName MethodInvocation MethodInvocation SimpleName list
+table operations SimpleName MethodInvocation MethodInvocation SimpleName list
+root conn SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName contains
+table operations SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName contains
+list SimpleName MethodInvocation MethodInvocation SimpleName contains
+root conn SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName table name
+table operations SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName table name
+list SimpleName MethodInvocation MethodInvocation SimpleName table name
+contains SimpleName MethodInvocation SimpleName table name
+root conn SimpleName MethodInvocation SimpleName table operations
+root conn SimpleName MethodInvocation MethodInvocation SimpleName list
+table operations SimpleName MethodInvocation MethodInvocation SimpleName list
+root conn SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName contains
+table operations SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName contains
+list SimpleName MethodInvocation MethodInvocation SimpleName contains
+root conn SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName table
+table operations SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName table
+list SimpleName MethodInvocation MethodInvocation SimpleName table
+contains SimpleName MethodInvocation SimpleName table
+illegal state exception SimpleName SimpleType ClassInstanceCreation StringLiteral should be able to rename a table
+user SimpleName Assignment StringLiteral create user with perm test
+test user conn SimpleName MethodInvocation SimpleName security operations
+password SimpleName MethodInvocation SimpleName get bytes
+test user conn SimpleName MethodInvocation MethodInvocation SimpleName create user
+security operations SimpleName MethodInvocation MethodInvocation SimpleName create user
+test user conn SimpleName MethodInvocation MethodInvocation SimpleName user
+security operations SimpleName MethodInvocation MethodInvocation SimpleName user
+test user conn SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName password
+test user conn SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get bytes
+security operations SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName password
+security operations SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get bytes
+test user conn SimpleName MethodInvocation MethodInvocation QualifiedName constantsno auths
+security operations SimpleName MethodInvocation MethodInvocation QualifiedName constantsno auths
+create user SimpleName MethodInvocation SimpleName user
+create user SimpleName MethodInvocation MethodInvocation SimpleName password
+create user SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+create user SimpleName MethodInvocation QualifiedName constantsno auths
+user SimpleName MethodInvocation MethodInvocation SimpleName password
+user SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+user SimpleName MethodInvocation QualifiedName constantsno auths
+password SimpleName MethodInvocation MethodInvocation QualifiedName constantsno auths
+get bytes SimpleName MethodInvocation MethodInvocation QualifiedName constantsno auths
+root conn SimpleName MethodInvocation SimpleName security operations
+password SimpleName MethodInvocation SimpleName get bytes
+root conn SimpleName MethodInvocation MethodInvocation SimpleName authenticate user
+security operations SimpleName MethodInvocation MethodInvocation SimpleName authenticate user
+root conn SimpleName MethodInvocation MethodInvocation SimpleName user
+security operations SimpleName MethodInvocation MethodInvocation SimpleName user
+root conn SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName password
+root conn SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get bytes
+security operations SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName password
+security operations SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get bytes
+authenticate user SimpleName MethodInvocation SimpleName user
+authenticate user SimpleName MethodInvocation MethodInvocation SimpleName password
+authenticate user SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+user SimpleName MethodInvocation MethodInvocation SimpleName password
+user SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+illegal state exception SimpleName SimpleType ClassInstanceCreation StringLiteral should be able to create a user
+user SimpleName Assignment StringLiteral drop user with perm test
+root conn SimpleName MethodInvocation SimpleName security operations
+password SimpleName MethodInvocation SimpleName get bytes
+root conn SimpleName MethodInvocation MethodInvocation SimpleName create user
+security operations SimpleName MethodInvocation MethodInvocation SimpleName create user
+root conn SimpleName MethodInvocation MethodInvocation SimpleName user
+security operations SimpleName MethodInvocation MethodInvocation SimpleName user
+root conn SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName password
+root conn SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get bytes
+security operations SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName password
+security operations SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get bytes
+root conn SimpleName MethodInvocation MethodInvocation QualifiedName constantsno auths
+security operations SimpleName MethodInvocation MethodInvocation QualifiedName constantsno auths
+create user SimpleName MethodInvocation SimpleName user
+create user SimpleName MethodInvocation MethodInvocation SimpleName password
+create user SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+create user SimpleName MethodInvocation QualifiedName constantsno auths
+user SimpleName MethodInvocation MethodInvocation SimpleName password
+user SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+user SimpleName MethodInvocation QualifiedName constantsno auths
+password SimpleName MethodInvocation MethodInvocation QualifiedName constantsno auths
+get bytes SimpleName MethodInvocation MethodInvocation QualifiedName constantsno auths
+test user conn SimpleName MethodInvocation SimpleName security operations
+test user conn SimpleName MethodInvocation MethodInvocation SimpleName drop user
+security operations SimpleName MethodInvocation MethodInvocation SimpleName drop user
+test user conn SimpleName MethodInvocation MethodInvocation SimpleName user
+security operations SimpleName MethodInvocation MethodInvocation SimpleName user
+drop user SimpleName MethodInvocation SimpleName user
+root conn SimpleName MethodInvocation SimpleName security operations
+password SimpleName MethodInvocation SimpleName get bytes
+root conn SimpleName MethodInvocation MethodInvocation SimpleName authenticate user
+security operations SimpleName MethodInvocation MethodInvocation SimpleName authenticate user
+root conn SimpleName MethodInvocation MethodInvocation SimpleName user
+security operations SimpleName MethodInvocation MethodInvocation SimpleName user
+root conn SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName password
+root conn SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get bytes
+security operations SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName password
+security operations SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get bytes
+authenticate user SimpleName MethodInvocation SimpleName user
+authenticate user SimpleName MethodInvocation MethodInvocation SimpleName password
+authenticate user SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+user SimpleName MethodInvocation MethodInvocation SimpleName password
+user SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+illegal state exception SimpleName SimpleType ClassInstanceCreation StringLiteral should be able to delete a user
+user SimpleName Assignment StringLiteral alter user with perm test
+root conn SimpleName MethodInvocation SimpleName security operations
+password SimpleName MethodInvocation SimpleName get bytes
+root conn SimpleName MethodInvocation MethodInvocation SimpleName create user
+security operations SimpleName MethodInvocation MethodInvocation SimpleName create user
+root conn SimpleName MethodInvocation MethodInvocation SimpleName user
+security operations SimpleName MethodInvocation MethodInvocation SimpleName user
+root conn SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName password
+root conn SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get bytes
+security operations SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName password
+security operations SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get bytes
+root conn SimpleName MethodInvocation MethodInvocation QualifiedName constantsno auths
+security operations SimpleName MethodInvocation MethodInvocation QualifiedName constantsno auths
+create user SimpleName MethodInvocation SimpleName user
+create user SimpleName MethodInvocation MethodInvocation SimpleName password
+create user SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+create user SimpleName MethodInvocation QualifiedName constantsno auths
+user SimpleName MethodInvocation MethodInvocation SimpleName password
+user SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+user SimpleName MethodInvocation QualifiedName constantsno auths
+password SimpleName MethodInvocation MethodInvocation QualifiedName constantsno auths
+get bytes SimpleName MethodInvocation MethodInvocation QualifiedName constantsno auths
+test user conn SimpleName MethodInvocation SimpleName security operations
+authorizations SimpleName SimpleType ClassInstanceCreation StringLiteral a
+authorizations SimpleName SimpleType ClassInstanceCreation StringLiteral b
+a StringLiteral ClassInstanceCreation StringLiteral b
+test user conn SimpleName MethodInvocation MethodInvocation SimpleName change user authorizations
+security operations SimpleName MethodInvocation MethodInvocation SimpleName change user authorizations
+test user conn SimpleName MethodInvocation MethodInvocation SimpleName user
+security operations SimpleName MethodInvocation MethodInvocation SimpleName user
+test user conn SimpleName MethodInvocation MethodInvocation ClassInstanceCreation StringLiteral a
+test user conn SimpleName MethodInvocation MethodInvocation ClassInstanceCreation StringLiteral b
+security operations SimpleName MethodInvocation MethodInvocation ClassInstanceCreation StringLiteral a
+security operations SimpleName MethodInvocation MethodInvocation ClassInstanceCreation StringLiteral b
+change user authorizations SimpleName MethodInvocation SimpleName user
+change user authorizations SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName authorizations
+change user authorizations SimpleName MethodInvocation ClassInstanceCreation StringLiteral a
+change user authorizations SimpleName MethodInvocation ClassInstanceCreation StringLiteral b
+user SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName authorizations
+user SimpleName MethodInvocation ClassInstanceCreation StringLiteral a
+user SimpleName MethodInvocation ClassInstanceCreation StringLiteral b
+root conn SimpleName MethodInvocation SimpleName security operations
+root conn SimpleName MethodInvocation MethodInvocation SimpleName get user authorizations
+security operations SimpleName MethodInvocation MethodInvocation SimpleName get user authorizations
+root conn SimpleName MethodInvocation MethodInvocation SimpleName user
+security operations SimpleName MethodInvocation MethodInvocation SimpleName user
+get user authorizations SimpleName MethodInvocation SimpleName user
+root conn SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName is empty
+security operations SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName is empty
+get user authorizations SimpleName MethodInvocation MethodInvocation SimpleName is empty
+user SimpleName MethodInvocation MethodInvocation SimpleName is empty
+illegal state exception SimpleName SimpleType ClassInstanceCreation StringLiteral should be able to alter a user
+unrecognized system permission StringLiteral InfixExpression SimpleName perm
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral unrecognized system permission
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName perm
+perm SimpleName SwitchStatement SwitchCase SimpleName create table
+perm SimpleName SwitchStatement ExpressionStatement Assignment SimpleName table name
+perm SimpleName SwitchStatement ExpressionStatement Assignment StringLiteral create table with perm test
+perm SimpleName SwitchStatement ExpressionStatement MethodInvocation SimpleName create
+perm SimpleName SwitchStatement ExpressionStatement MethodInvocation SimpleName table name
+create table SimpleName SwitchCase SwitchStatement SwitchCase SimpleName drop table
+create user SimpleName SwitchCase SwitchStatement SwitchCase SimpleName drop user
+private Modifier MethodDeclaration Modifier static
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName test granted system permission
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName connector
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName root conn
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName connector
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName test user conn
+static Modifier MethodDeclaration PrimitiveType void
+static Modifier MethodDeclaration SimpleName test granted system permission
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName connector
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName root conn
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName connector
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName test user conn
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName system permission
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName perm
+void PrimitiveType MethodDeclaration SimpleName test granted system permission
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName connector
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName root conn
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName connector
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName test user conn
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName system permission
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName perm
+void PrimitiveType MethodDeclaration SimpleType SimpleName accumulo exception
+test granted system permission SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName connector
+test granted system permission SimpleName MethodDeclaration SingleVariableDeclaration SimpleName root conn
+test granted system permission SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName connector
+test granted system permission SimpleName MethodDeclaration SingleVariableDeclaration SimpleName test user conn
+test granted system permission SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName system permission
+test granted system permission SimpleName MethodDeclaration SingleVariableDeclaration SimpleName perm
+test granted system permission SimpleName MethodDeclaration SimpleType SimpleName accumulo exception
+test granted system permission SimpleName MethodDeclaration SimpleType SimpleName accumulo security exception
+root conn SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName test user conn
+root conn SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName perm
+root conn SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+root conn SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+root conn SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName table not found exception
+test user conn SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName perm
+test user conn SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+test user conn SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+test user conn SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName table not found exception
+test user conn SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName table exists exception
+perm SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+perm SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+perm SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName table not found exception
+perm SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName table exists exception
+accumulo exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName accumulo security exception
+accumulo exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName table not found exception
+accumulo exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName table exists exception
+accumulo security exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName table not found exception
+accumulo security exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName table exists exception
+table not found exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName table exists exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test granted system permission
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName root conn
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName test user conn
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName perm
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName table not found exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName table exists exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test granted system permission
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName root conn
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName test user conn
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName perm
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName table not found exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName table exists exception

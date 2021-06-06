@@ -1,0 +1,24 @@
+expected SimpleName VariableDeclarationFragment StringLiteral gvhas type name dbhasdbnamededuplimit to list
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName expected
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral gvhas type name dbhasdbnamededuplimit to list
+verify SimpleName MethodInvocation StringLiteral db has name
+verify SimpleName MethodInvocation SimpleName expected
+db has name StringLiteral MethodInvocation SimpleName expected
+verify SimpleName MethodInvocation StringLiteral db where db has name
+verify SimpleName MethodInvocation SimpleName expected
+db where db has name StringLiteral MethodInvocation SimpleName expected
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName db has name
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName db has name
+void PrimitiveType MethodDeclaration SimpleName db has name
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName db has name
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName db has name

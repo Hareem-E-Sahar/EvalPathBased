@@ -1,0 +1,54 @@
+key SimpleName SimpleType SingleVariableDeclaration SimpleName key
+value SimpleName SimpleType SingleVariableDeclaration SimpleName value
+contains key SimpleName MethodInvocation SimpleName key
+put SimpleName SuperMethodInvocation SimpleName key
+put SimpleName SuperMethodInvocation SimpleName value
+key SimpleName SuperMethodInvocation SimpleName value
+agg SimpleName MethodInvocation SimpleName reset
+agg SimpleName MethodInvocation SimpleName collect
+agg SimpleName MethodInvocation SimpleName value
+collect SimpleName MethodInvocation SimpleName value
+get SimpleName MethodInvocation SimpleName key
+agg SimpleName MethodInvocation SimpleName collect
+agg SimpleName MethodInvocation MethodInvocation SimpleName get
+agg SimpleName MethodInvocation MethodInvocation SimpleName key
+collect SimpleName MethodInvocation MethodInvocation SimpleName get
+collect SimpleName MethodInvocation MethodInvocation SimpleName key
+agg SimpleName MethodInvocation SimpleName aggregate
+put SimpleName SuperMethodInvocation SimpleName key
+put SimpleName SuperMethodInvocation MethodInvocation SimpleName agg
+put SimpleName SuperMethodInvocation MethodInvocation SimpleName aggregate
+key SimpleName SuperMethodInvocation MethodInvocation SimpleName agg
+key SimpleName SuperMethodInvocation MethodInvocation SimpleName aggregate
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName value
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName put
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName key
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName value
+public Modifier MethodDeclaration SimpleType SimpleName value
+public Modifier MethodDeclaration SimpleName put
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName key
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName key
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName value
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName value
+value SimpleName SimpleType MethodDeclaration SimpleName put
+value SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName key
+value SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName value
+put SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName key
+put SimpleName MethodDeclaration SingleVariableDeclaration SimpleName key
+put SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName value
+put SimpleName MethodDeclaration SingleVariableDeclaration SimpleName value
+key SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName value
+public Modifier TypeDeclaration MethodDeclaration SimpleName put
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName key
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName value
+test SimpleName TypeDeclaration MethodDeclaration SimpleName put
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName key
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value

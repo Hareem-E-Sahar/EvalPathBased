@@ -1,0 +1,101 @@
+atlas entity type SimpleName SimpleType SingleVariableDeclaration SimpleName entity type
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+map SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName uniq attributes
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName uniq attributes
+object SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName uniq attributes
+map utils SimpleName MethodInvocation SimpleName is empty
+map utils SimpleName MethodInvocation SimpleName uniq attributes
+is empty SimpleName MethodInvocation SimpleName uniq attributes
+uniq attributes SimpleName MethodInvocation SimpleName to string
+atlas base exception SimpleName SimpleType ClassInstanceCreation QualifiedName atlas error codeinstance by unique attribute not found
+atlas base exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName uniq attributes
+atlas base exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName to string
+atlas error codeinstance by unique attribute not found QualifiedName ClassInstanceCreation MethodInvocation SimpleName uniq attributes
+atlas error codeinstance by unique attribute not found QualifiedName ClassInstanceCreation MethodInvocation SimpleName to string
+atlas graph utils v SimpleName MethodInvocation SimpleName find by unique attributes
+atlas graph utils v SimpleName MethodInvocation SimpleName entity type
+atlas graph utils v SimpleName MethodInvocation SimpleName uniq attributes
+find by unique attributes SimpleName MethodInvocation SimpleName entity type
+find by unique attributes SimpleName MethodInvocation SimpleName uniq attributes
+entity type SimpleName MethodInvocation SimpleName uniq attributes
+vertex SimpleName VariableDeclarationFragment MethodInvocation SimpleName atlas graph utils v
+vertex SimpleName VariableDeclarationFragment MethodInvocation SimpleName find by unique attributes
+vertex SimpleName VariableDeclarationFragment MethodInvocation SimpleName entity type
+vertex SimpleName VariableDeclarationFragment MethodInvocation SimpleName uniq attributes
+final Modifier VariableDeclarationStatement SimpleType SimpleName atlas vertex
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName vertex
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName atlas graph utils v
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName find by unique attributes
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName entity type
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName uniq attributes
+atlas vertex SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName vertex
+collection SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas vertex
+deletion candidates SimpleName MethodInvocation SimpleName add
+deletion candidates SimpleName MethodInvocation SimpleName vertex
+add SimpleName MethodInvocation SimpleName vertex
+log SimpleName MethodInvocation SimpleName is debug enabled
+deletion request ignored for nonexistent entity with unique attributes StringLiteral InfixExpression SimpleName uniq attributes
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation InfixExpression StringLiteral deletion request ignored for nonexistent entity with unique attributes
+log SimpleName MethodInvocation InfixExpression SimpleName uniq attributes
+debug SimpleName MethodInvocation InfixExpression StringLiteral deletion request ignored for nonexistent entity with unique attributes
+debug SimpleName MethodInvocation InfixExpression SimpleName uniq attributes
+delete vertices SimpleName MethodInvocation SimpleName deletion candidates
+ret SimpleName VariableDeclarationFragment MethodInvocation SimpleName delete vertices
+ret SimpleName VariableDeclarationFragment MethodInvocation SimpleName deletion candidates
+entity mutation response SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ret
+entity change notifier SimpleName MethodInvocation SimpleName on entities mutated
+entity change notifier SimpleName MethodInvocation SimpleName ret
+entity change notifier SimpleName MethodInvocation BooleanLiteral false
+on entities mutated SimpleName MethodInvocation SimpleName ret
+on entities mutated SimpleName MethodInvocation BooleanLiteral false
+ret SimpleName MethodInvocation BooleanLiteral false
+final Modifier VariableDeclarationStatement Block ReturnStatement SimpleName ret
+override SimpleName MarkerAnnotation MethodDeclaration MarkerAnnotation SimpleName graph transaction
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName entity mutation response
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName delete by unique attributes
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName entity type
+graph transaction SimpleName MarkerAnnotation MethodDeclaration Modifier public
+graph transaction SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName entity mutation response
+graph transaction SimpleName MarkerAnnotation MethodDeclaration SimpleName delete by unique attributes
+graph transaction SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName entity type
+graph transaction SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName uniq attributes
+public Modifier MethodDeclaration SimpleType SimpleName entity mutation response
+public Modifier MethodDeclaration SimpleName delete by unique attributes
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas entity type
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName entity type
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName uniq attributes
+public Modifier MethodDeclaration SimpleType SimpleName atlas base exception
+entity mutation response SimpleName SimpleType MethodDeclaration SimpleName delete by unique attributes
+entity mutation response SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName entity type
+entity mutation response SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName uniq attributes
+entity mutation response SimpleName SimpleType MethodDeclaration SimpleType SimpleName atlas base exception
+delete by unique attributes SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas entity type
+delete by unique attributes SimpleName MethodDeclaration SingleVariableDeclaration SimpleName entity type
+delete by unique attributes SimpleName MethodDeclaration SingleVariableDeclaration SimpleName uniq attributes
+delete by unique attributes SimpleName MethodDeclaration SimpleType SimpleName atlas base exception
+delete by unique attributes SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+delete by unique attributes SimpleName MethodDeclaration Block ReturnStatement SimpleName ret
+entity type SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName uniq attributes
+entity type SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+uniq attributes SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName graph transaction
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName entity mutation response
+public Modifier TypeDeclaration MethodDeclaration SimpleName delete by unique attributes
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity type
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName uniq attributes
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName graph transaction
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName entity mutation response
+test SimpleName TypeDeclaration MethodDeclaration SimpleName delete by unique attributes
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity type
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName uniq attributes
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception

@@ -1,0 +1,46 @@
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName name
+field mapping SimpleName MethodInvocation FieldAccess SimpleName fields
+field mapping SimpleName MethodInvocation FieldAccess MethodInvocation SimpleName contains key
+fields SimpleName FieldAccess MethodInvocation SimpleName contains key
+field mapping SimpleName MethodInvocation FieldAccess MethodInvocation StringLiteral name
+fields SimpleName FieldAccess MethodInvocation StringLiteral name
+contains key SimpleName MethodInvocation StringLiteral name
+get string SimpleName MethodInvocation StringLiteral name
+name SimpleName Assignment MethodInvocation SimpleName get string
+name SimpleName Assignment MethodInvocation StringLiteral name
+atlas exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+get id SimpleName MethodInvocation MethodInvocation SimpleName get id
+string SimpleName MethodInvocation SimpleName format
+string SimpleName MethodInvocation StringLiteral entitytypes guids names
+string SimpleName MethodInvocation MethodInvocation SimpleName get type name
+string SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get id
+string SimpleName MethodInvocation MethodInvocation SimpleName get id
+string SimpleName MethodInvocation SimpleName name
+format SimpleName MethodInvocation StringLiteral entitytypes guids names
+format SimpleName MethodInvocation MethodInvocation SimpleName get type name
+format SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get id
+format SimpleName MethodInvocation MethodInvocation SimpleName get id
+format SimpleName MethodInvocation SimpleName name
+entitytypes guids names StringLiteral MethodInvocation MethodInvocation SimpleName get type name
+entitytypes guids names StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName get id
+entitytypes guids names StringLiteral MethodInvocation MethodInvocation SimpleName get id
+entitytypes guids names StringLiteral MethodInvocation SimpleName name
+get type name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get id
+get type name SimpleName MethodInvocation MethodInvocation SimpleName name
+get id SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName name
+get id SimpleName MethodInvocation MethodInvocation SimpleName name
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName string
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName to short string
+public Modifier MethodDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName to short string
+string SimpleName SimpleType MethodDeclaration SimpleName to short string
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName to short string
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName to short string

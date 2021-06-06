@@ -1,0 +1,52 @@
+text SimpleName SimpleType SingleVariableDeclaration SimpleName t
+target SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName replication target
+replication target SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName target
+buffer SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName data input buffer
+data input buffer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName buffer
+t SimpleName MethodInvocation SimpleName get bytes
+t SimpleName MethodInvocation SimpleName get length
+buffer SimpleName MethodInvocation SimpleName reset
+buffer SimpleName MethodInvocation MethodInvocation SimpleName t
+buffer SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+buffer SimpleName MethodInvocation MethodInvocation SimpleName t
+buffer SimpleName MethodInvocation MethodInvocation SimpleName get length
+reset SimpleName MethodInvocation MethodInvocation SimpleName t
+reset SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+reset SimpleName MethodInvocation MethodInvocation SimpleName t
+reset SimpleName MethodInvocation MethodInvocation SimpleName get length
+t SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName t
+t SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get length
+get bytes SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName t
+get bytes SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get length
+target SimpleName MethodInvocation SimpleName read fields
+target SimpleName MethodInvocation SimpleName buffer
+read fields SimpleName MethodInvocation SimpleName buffer
+io exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+runtime exception SimpleName SimpleType ClassInstanceCreation SimpleName e
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName replication target
+public Modifier MethodDeclaration SimpleName from
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName text
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName t
+public Modifier MethodDeclaration Block ReturnStatement SimpleName target
+static Modifier MethodDeclaration SimpleType SimpleName replication target
+static Modifier MethodDeclaration SimpleName from
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName text
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName t
+static Modifier MethodDeclaration Block ReturnStatement SimpleName target
+replication target SimpleName SimpleType MethodDeclaration SimpleName from
+replication target SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName t
+from SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName text
+from SimpleName MethodDeclaration SingleVariableDeclaration SimpleName t
+from SimpleName MethodDeclaration Block ReturnStatement SimpleName target
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName replication target
+public Modifier TypeDeclaration MethodDeclaration SimpleName from
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName t
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName replication target
+test SimpleName TypeDeclaration MethodDeclaration SimpleName from
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName t

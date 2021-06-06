@@ -1,0 +1,108 @@
+accumulo configuration SimpleName SimpleType SingleVariableDeclaration SimpleName conf
+property SimpleName SimpleType SingleVariableDeclaration SimpleName property
+class SimpleName SimpleType ParameterizedType SimpleType SimpleName t
+class SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName base
+t SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName base
+t SimpleName SimpleType SingleVariableDeclaration SimpleName default instance
+conf SimpleName MethodInvocation SimpleName get
+conf SimpleName MethodInvocation SimpleName property
+get SimpleName MethodInvocation SimpleName property
+clazz name SimpleName VariableDeclarationFragment MethodInvocation SimpleName conf
+clazz name SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+clazz name SimpleName VariableDeclarationFragment MethodInvocation SimpleName property
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName clazz name
+t SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName instance
+accumulo vfs class loader SimpleName MethodInvocation SimpleName load class
+accumulo vfs class loader SimpleName MethodInvocation SimpleName clazz name
+accumulo vfs class loader SimpleName MethodInvocation SimpleName base
+load class SimpleName MethodInvocation SimpleName clazz name
+load class SimpleName MethodInvocation SimpleName base
+clazz name SimpleName MethodInvocation SimpleName base
+clazz SimpleName VariableDeclarationFragment MethodInvocation SimpleName accumulo vfs class loader
+clazz SimpleName VariableDeclarationFragment MethodInvocation SimpleName load class
+clazz SimpleName VariableDeclarationFragment MethodInvocation SimpleName clazz name
+clazz SimpleName VariableDeclarationFragment MethodInvocation SimpleName base
+clazz SimpleName MethodInvocation SimpleName new instance
+instance SimpleName Assignment MethodInvocation SimpleName clazz
+instance SimpleName Assignment MethodInvocation SimpleName new instance
+loaded class : StringLiteral InfixExpression SimpleName clazz name
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation InfixExpression StringLiteral loaded class :
+log SimpleName MethodInvocation InfixExpression SimpleName clazz name
+info SimpleName MethodInvocation InfixExpression StringLiteral loaded class :
+info SimpleName MethodInvocation InfixExpression SimpleName clazz name
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+log SimpleName MethodInvocation SimpleName warn
+log SimpleName MethodInvocation StringLiteral failed to load class
+log SimpleName MethodInvocation SimpleName e
+warn SimpleName MethodInvocation StringLiteral failed to load class
+warn SimpleName MethodInvocation SimpleName e
+failed to load class StringLiteral MethodInvocation SimpleName e
+default instance SimpleName MethodInvocation SimpleName get class
+default instance SimpleName MethodInvocation MethodInvocation SimpleName get name
+get class SimpleName MethodInvocation MethodInvocation SimpleName get name
+using StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName default instance
+using StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName get class
+using StringLiteral InfixExpression MethodInvocation SimpleName get name
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation InfixExpression StringLiteral using
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get name
+info SimpleName MethodInvocation InfixExpression StringLiteral using
+info SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get name
+instance SimpleName Assignment SimpleName default instance
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration TypeParameter SimpleName t
+public Modifier MethodDeclaration SimpleType SimpleName t
+public Modifier MethodDeclaration SimpleName create instance from property name
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName accumulo configuration
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName conf
+static Modifier MethodDeclaration TypeParameter SimpleName t
+static Modifier MethodDeclaration SimpleType SimpleName t
+static Modifier MethodDeclaration SimpleName create instance from property name
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName accumulo configuration
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName conf
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName property
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName property
+t SimpleName TypeParameter MethodDeclaration SimpleType SimpleName t
+t SimpleName TypeParameter MethodDeclaration SimpleName create instance from property name
+t SimpleName TypeParameter MethodDeclaration SingleVariableDeclaration SimpleName conf
+t SimpleName TypeParameter MethodDeclaration SingleVariableDeclaration SimpleName property
+t SimpleName TypeParameter MethodDeclaration SingleVariableDeclaration SimpleName base
+t SimpleName SimpleType MethodDeclaration SimpleName create instance from property name
+t SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName conf
+t SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName property
+t SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName base
+t SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName default instance
+create instance from property name SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName accumulo configuration
+create instance from property name SimpleName MethodDeclaration SingleVariableDeclaration SimpleName conf
+create instance from property name SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName property
+create instance from property name SimpleName MethodDeclaration SingleVariableDeclaration SimpleName property
+create instance from property name SimpleName MethodDeclaration SingleVariableDeclaration SimpleName base
+create instance from property name SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName t
+create instance from property name SimpleName MethodDeclaration SingleVariableDeclaration SimpleName default instance
+create instance from property name SimpleName MethodDeclaration Block ReturnStatement SimpleName instance
+conf SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName property
+conf SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName base
+conf SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName default instance
+property SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName base
+property SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName default instance
+base SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName default instance
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration TypeParameter SimpleName t
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName t
+public Modifier TypeDeclaration MethodDeclaration SimpleName create instance from property name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName conf
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName property
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName base
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName default instance
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration TypeParameter SimpleName t
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName t
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create instance from property name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName conf
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName property
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName base
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName default instance

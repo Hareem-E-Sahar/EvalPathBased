@@ -1,0 +1,140 @@
+immutable map SimpleName SimpleType ParameterizedType WildcardType ?
+immutable map SimpleName SimpleType ParameterizedType WildcardType ?
+? WildcardType ParameterizedType WildcardType ?
+immutable map SimpleName SimpleType SingleVariableDeclaration SimpleName val
+multiplicity SimpleName SimpleType SingleVariableDeclaration SimpleName m
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName id
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName id
+id SimpleName SimpleType ParameterizedType SimpleType SimpleName id
+map SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName transient to new ids
+id SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName transient to new ids
+id SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName transient to new ids
+key type SimpleName MethodInvocation SimpleName get type category
+key type SimpleName MethodInvocation InfixExpression QualifiedName type categoryclass
+get type category SimpleName MethodInvocation InfixExpression QualifiedName type categoryclass
+value type SimpleName MethodInvocation SimpleName get type category
+value type SimpleName MethodInvocation InfixExpression QualifiedName type categoryclass
+get type category SimpleName MethodInvocation InfixExpression QualifiedName type categoryclass
+type categoryclass QualifiedName InfixExpression InfixExpression InfixExpression QualifiedName type categoryclass
+immutable map SimpleName MethodInvocation SimpleName builder
+b SimpleName VariableDeclarationFragment MethodInvocation SimpleName immutable map
+b SimpleName VariableDeclarationFragment MethodInvocation SimpleName builder
+immutable mapbuilder QualifiedName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName b
+iterator SimpleName SimpleType ParameterizedType SimpleType QualifiedName mapentry
+val SimpleName MethodInvocation SimpleName entry set
+val SimpleName MethodInvocation MethodInvocation SimpleName iterator
+entry set SimpleName MethodInvocation MethodInvocation SimpleName iterator
+it SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName val
+it SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName entry set
+it SimpleName VariableDeclarationFragment MethodInvocation SimpleName iterator
+it SimpleName MethodInvocation SimpleName has next
+it SimpleName MethodInvocation SimpleName next
+elem SimpleName VariableDeclarationFragment MethodInvocation SimpleName it
+elem SimpleName VariableDeclarationFragment MethodInvocation SimpleName next
+mapentry QualifiedName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName elem
+elem SimpleName MethodInvocation SimpleName get key
+old key SimpleName VariableDeclarationFragment MethodInvocation SimpleName elem
+old key SimpleName VariableDeclarationFragment MethodInvocation SimpleName get key
+object SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName old key
+elem SimpleName MethodInvocation SimpleName get value
+old value SimpleName VariableDeclarationFragment MethodInvocation SimpleName elem
+old value SimpleName VariableDeclarationFragment MethodInvocation SimpleName get value
+object SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName old value
+new key SimpleName VariableDeclarationFragment SimpleName old key
+object SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName new key
+object SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName old key
+new value SimpleName VariableDeclarationFragment SimpleName old value
+object SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName new value
+object SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName old value
+old key SimpleName InstanceofExpression SimpleType SimpleName i referenceable instance
+i referenceable instance SimpleName SimpleType CastExpression SimpleName old key
+old key SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName get id
+old id SimpleName VariableDeclarationFragment MethodInvocation SimpleName get id
+id SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName old id
+transient to new ids SimpleName MethodInvocation SimpleName get
+transient to new ids SimpleName MethodInvocation SimpleName old id
+get SimpleName MethodInvocation SimpleName old id
+new id SimpleName VariableDeclarationFragment MethodInvocation SimpleName transient to new ids
+new id SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+new id SimpleName VariableDeclarationFragment MethodInvocation SimpleName old id
+id SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName new id
+new id SimpleName InfixExpression ConditionalExpression SimpleName old id
+new id SimpleName InfixExpression ConditionalExpression SimpleName new id
+old id SimpleName ConditionalExpression SimpleName new id
+new key SimpleName Assignment ConditionalExpression InfixExpression SimpleName new id
+new key SimpleName Assignment ConditionalExpression SimpleName old id
+new key SimpleName Assignment ConditionalExpression SimpleName new id
+old value SimpleName InstanceofExpression SimpleType SimpleName i referenceable instance
+i referenceable instance SimpleName SimpleType CastExpression SimpleName old value
+old value SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName get id
+old id SimpleName VariableDeclarationFragment MethodInvocation SimpleName get id
+id SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName old id
+transient to new ids SimpleName MethodInvocation SimpleName get
+transient to new ids SimpleName MethodInvocation SimpleName old id
+get SimpleName MethodInvocation SimpleName old id
+new id SimpleName VariableDeclarationFragment MethodInvocation SimpleName transient to new ids
+new id SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+new id SimpleName VariableDeclarationFragment MethodInvocation SimpleName old id
+id SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName new id
+new id SimpleName InfixExpression ConditionalExpression SimpleName old id
+new id SimpleName InfixExpression ConditionalExpression SimpleName new id
+old id SimpleName ConditionalExpression SimpleName new id
+new value SimpleName Assignment ConditionalExpression InfixExpression SimpleName new id
+new value SimpleName Assignment ConditionalExpression SimpleName old id
+new value SimpleName Assignment ConditionalExpression SimpleName new id
+b SimpleName MethodInvocation SimpleName put
+b SimpleName MethodInvocation SimpleName new key
+b SimpleName MethodInvocation SimpleName new value
+put SimpleName MethodInvocation SimpleName new key
+put SimpleName MethodInvocation SimpleName new value
+new key SimpleName MethodInvocation SimpleName new value
+b SimpleName MethodInvocation SimpleName build
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName immutable map
+public Modifier MethodDeclaration ParameterizedType WildcardType ?
+public Modifier MethodDeclaration ParameterizedType WildcardType ?
+public Modifier MethodDeclaration SimpleName map ids
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName immutable map
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName val
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName multiplicity
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName m
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName transient to new ids
+immutable map SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName map ids
+? WildcardType ParameterizedType MethodDeclaration SimpleName map ids
+? WildcardType ParameterizedType MethodDeclaration SimpleName map ids
+? WildcardType ParameterizedType MethodDeclaration SingleVariableDeclaration SimpleName val
+? WildcardType ParameterizedType MethodDeclaration SingleVariableDeclaration SimpleName val
+? WildcardType ParameterizedType MethodDeclaration SingleVariableDeclaration SimpleName m
+? WildcardType ParameterizedType MethodDeclaration SingleVariableDeclaration SimpleName m
+? WildcardType ParameterizedType MethodDeclaration SingleVariableDeclaration SimpleName transient to new ids
+? WildcardType ParameterizedType MethodDeclaration SingleVariableDeclaration SimpleName transient to new ids
+? WildcardType ParameterizedType MethodDeclaration SimpleType SimpleName atlas exception
+? WildcardType ParameterizedType MethodDeclaration SimpleType SimpleName atlas exception
+map ids SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName immutable map
+map ids SimpleName MethodDeclaration SingleVariableDeclaration SimpleName val
+map ids SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName multiplicity
+map ids SimpleName MethodDeclaration SingleVariableDeclaration SimpleName m
+map ids SimpleName MethodDeclaration SingleVariableDeclaration SimpleName transient to new ids
+map ids SimpleName MethodDeclaration SimpleType SimpleName atlas exception
+val SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName m
+val SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName transient to new ids
+val SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+m SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName transient to new ids
+m SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+transient to new ids SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration ParameterizedType WildcardType ?
+public Modifier TypeDeclaration MethodDeclaration ParameterizedType WildcardType ?
+public Modifier TypeDeclaration MethodDeclaration SimpleName map ids
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName val
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName m
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName transient to new ids
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration ParameterizedType WildcardType ?
+test SimpleName TypeDeclaration MethodDeclaration ParameterizedType WildcardType ?
+test SimpleName TypeDeclaration MethodDeclaration SimpleName map ids
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName val
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName m
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName transient to new ids
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception

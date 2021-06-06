@@ -1,0 +1,53 @@
+atlas graph SimpleName SimpleType ParameterizedType SimpleType SimpleName v
+atlas graph SimpleName SimpleType ParameterizedType SimpleType SimpleName e
+v SimpleName SimpleType ParameterizedType SimpleType SimpleName e
+graph database SimpleName SimpleType ParameterizedType WildcardType ?
+graph database SimpleName SimpleType ParameterizedType WildcardType ?
+? WildcardType ParameterizedType WildcardType ?
+db SimpleName VariableDeclarationFragment MethodInvocation SimpleName get graph database
+? WildcardType ParameterizedType VariableDeclarationStatement VariableDeclarationFragment SimpleName db
+? WildcardType ParameterizedType VariableDeclarationStatement VariableDeclarationFragment SimpleName db
+atlas graph SimpleName SimpleType ParameterizedType WildcardType ?
+atlas graph SimpleName SimpleType ParameterizedType WildcardType ?
+? WildcardType ParameterizedType WildcardType ?
+db SimpleName MethodInvocation SimpleName get graph
+graph SimpleName VariableDeclarationFragment MethodInvocation SimpleName db
+graph SimpleName VariableDeclarationFragment MethodInvocation SimpleName get graph
+? WildcardType ParameterizedType VariableDeclarationStatement VariableDeclarationFragment SimpleName graph
+? WildcardType ParameterizedType VariableDeclarationStatement VariableDeclarationFragment SimpleName graph
+atlas graph SimpleName SimpleType ParameterizedType SimpleType SimpleName v
+atlas graph SimpleName SimpleType ParameterizedType SimpleType SimpleName e
+v SimpleName SimpleType ParameterizedType SimpleType SimpleName e
+atlas graph SimpleName SimpleType ParameterizedType CastExpression SimpleName graph
+v SimpleName SimpleType ParameterizedType CastExpression SimpleName graph
+e SimpleName SimpleType ParameterizedType CastExpression SimpleName graph
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration TypeParameter SimpleName v
+public Modifier MethodDeclaration TypeParameter SimpleName e
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName atlas graph
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName v
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName e
+public Modifier MethodDeclaration SimpleName get graph instance
+static Modifier MethodDeclaration TypeParameter SimpleName v
+static Modifier MethodDeclaration TypeParameter SimpleName e
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName atlas graph
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName v
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName e
+static Modifier MethodDeclaration SimpleName get graph instance
+v SimpleName TypeParameter MethodDeclaration TypeParameter SimpleName e
+v SimpleName TypeParameter MethodDeclaration SimpleName get graph instance
+e SimpleName TypeParameter MethodDeclaration SimpleName get graph instance
+atlas graph SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get graph instance
+v SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get graph instance
+e SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get graph instance
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration TypeParameter SimpleName v
+public Modifier TypeDeclaration MethodDeclaration TypeParameter SimpleName e
+public Modifier TypeDeclaration MethodDeclaration SimpleName get graph instance
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration TypeParameter SimpleName v
+test SimpleName TypeDeclaration MethodDeclaration TypeParameter SimpleName e
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get graph instance

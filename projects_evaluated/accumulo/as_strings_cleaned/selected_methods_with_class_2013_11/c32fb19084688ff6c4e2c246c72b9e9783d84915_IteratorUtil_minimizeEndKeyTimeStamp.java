@@ -1,0 +1,76 @@
+range SimpleName SimpleType SingleVariableDeclaration SimpleName range
+seek range SimpleName VariableDeclarationFragment SimpleName range
+range SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName seek range
+range SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName range
+range SimpleName MethodInvocation SimpleName get end key
+range SimpleName MethodInvocation SimpleName get end key
+range SimpleName MethodInvocation MethodInvocation SimpleName get timestamp
+get end key SimpleName MethodInvocation MethodInvocation SimpleName get timestamp
+range SimpleName MethodInvocation MethodInvocation InfixExpression QualifiedName longmin value
+get end key SimpleName MethodInvocation MethodInvocation InfixExpression QualifiedName longmin value
+get timestamp SimpleName MethodInvocation InfixExpression QualifiedName longmin value
+seek range SimpleName MethodInvocation SimpleName get end key
+key SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName seek range
+key SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get end key
+seek key SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName key
+seek key SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName seek range
+seek key SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get end key
+key SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName seek key
+seek key SimpleName MethodInvocation SimpleName set timestamp
+seek key SimpleName MethodInvocation QualifiedName longmin value
+set timestamp SimpleName MethodInvocation QualifiedName longmin value
+range SimpleName MethodInvocation SimpleName get start key
+range SimpleName MethodInvocation SimpleName is start key inclusive
+range SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName range
+range SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get start key
+range SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName range
+range SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName is start key inclusive
+range SimpleName SimpleType ClassInstanceCreation SimpleName seek key
+range SimpleName SimpleType ClassInstanceCreation BooleanLiteral true
+range SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName range
+range SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName is start key inclusive
+get start key SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName range
+get start key SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName is start key inclusive
+range SimpleName MethodInvocation ClassInstanceCreation SimpleName seek key
+get start key SimpleName MethodInvocation ClassInstanceCreation SimpleName seek key
+range SimpleName MethodInvocation ClassInstanceCreation BooleanLiteral true
+get start key SimpleName MethodInvocation ClassInstanceCreation BooleanLiteral true
+range SimpleName MethodInvocation ClassInstanceCreation SimpleName seek key
+is start key inclusive SimpleName MethodInvocation ClassInstanceCreation SimpleName seek key
+range SimpleName MethodInvocation ClassInstanceCreation BooleanLiteral true
+is start key inclusive SimpleName MethodInvocation ClassInstanceCreation BooleanLiteral true
+seek key SimpleName ClassInstanceCreation BooleanLiteral true
+seek range SimpleName Assignment ClassInstanceCreation SimpleType SimpleName range
+seek range SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName range
+seek range SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName get start key
+seek range SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName range
+seek range SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName is start key inclusive
+seek range SimpleName Assignment ClassInstanceCreation SimpleName seek key
+seek range SimpleName Assignment ClassInstanceCreation BooleanLiteral true
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName range
+public Modifier MethodDeclaration SimpleName minimize end key time stamp
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName range
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName range
+public Modifier MethodDeclaration Block ReturnStatement SimpleName seek range
+static Modifier MethodDeclaration SimpleType SimpleName range
+static Modifier MethodDeclaration SimpleName minimize end key time stamp
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName range
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName range
+static Modifier MethodDeclaration Block ReturnStatement SimpleName seek range
+range SimpleName SimpleType MethodDeclaration SimpleName minimize end key time stamp
+range SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName range
+minimize end key time stamp SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName range
+minimize end key time stamp SimpleName MethodDeclaration SingleVariableDeclaration SimpleName range
+minimize end key time stamp SimpleName MethodDeclaration Block ReturnStatement SimpleName seek range
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName range
+public Modifier TypeDeclaration MethodDeclaration SimpleName minimize end key time stamp
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName range
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName range
+test SimpleName TypeDeclaration MethodDeclaration SimpleName minimize end key time stamp
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName range

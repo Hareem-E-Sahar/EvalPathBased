@@ -1,0 +1,54 @@
+atlas vertex SimpleName SimpleType SingleVariableDeclaration SimpleName entity vertex
+string SimpleName SimpleType SingleVariableDeclaration SimpleName classification name
+string utils SimpleName MethodInvocation SimpleName is not empty
+string utils SimpleName MethodInvocation SimpleName classification name
+is not empty SimpleName MethodInvocation SimpleName classification name
+entity vertex SimpleName InfixExpression InfixExpression MethodInvocation SimpleName string utils
+entity vertex SimpleName InfixExpression InfixExpression MethodInvocation SimpleName is not empty
+entity vertex SimpleName InfixExpression InfixExpression MethodInvocation SimpleName classification name
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+get propagated trait names SimpleName MethodInvocation SimpleName entity vertex
+propagated trait names SimpleName VariableDeclarationFragment MethodInvocation SimpleName get propagated trait names
+propagated trait names SimpleName VariableDeclarationFragment MethodInvocation SimpleName entity vertex
+propagated trait names SimpleName MethodInvocation SimpleName remove
+propagated trait names SimpleName MethodInvocation SimpleName classification name
+remove SimpleName MethodInvocation SimpleName classification name
+entity vertex SimpleName MethodInvocation SimpleName remove property
+entity vertex SimpleName MethodInvocation SimpleName propagated trait names property key
+remove property SimpleName MethodInvocation SimpleName propagated trait names property key
+string SimpleName SimpleType SingleVariableDeclaration SimpleName propagated trait name
+add list property SimpleName MethodInvocation SimpleName entity vertex
+add list property SimpleName MethodInvocation SimpleName propagated trait names property key
+add list property SimpleName MethodInvocation SimpleName propagated trait name
+entity vertex SimpleName MethodInvocation SimpleName propagated trait names property key
+entity vertex SimpleName MethodInvocation SimpleName propagated trait name
+propagated trait names property key SimpleName MethodInvocation SimpleName propagated trait name
+string SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName propagated trait names
+propagated trait name SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName propagated trait names
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName remove propagated trait name
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas vertex
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName entity vertex
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName classification name
+void PrimitiveType MethodDeclaration SimpleName remove propagated trait name
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas vertex
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName entity vertex
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName classification name
+remove propagated trait name SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas vertex
+remove propagated trait name SimpleName MethodDeclaration SingleVariableDeclaration SimpleName entity vertex
+remove propagated trait name SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+remove propagated trait name SimpleName MethodDeclaration SingleVariableDeclaration SimpleName classification name
+entity vertex SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName classification name
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName remove propagated trait name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity vertex
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName classification name
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName remove propagated trait name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity vertex
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName classification name

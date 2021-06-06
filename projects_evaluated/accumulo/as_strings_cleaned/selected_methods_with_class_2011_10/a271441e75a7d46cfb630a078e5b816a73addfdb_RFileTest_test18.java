@@ -1,0 +1,500 @@
+trf SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName test r file
+test r file SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName trf
+trf SimpleName MethodInvocation SimpleName open writer
+trf SimpleName MethodInvocation BooleanLiteral false
+open writer SimpleName MethodInvocation BooleanLiteral false
+hash set SimpleName SimpleType ParameterizedType SimpleType SimpleName byte sequence
+hash set SimpleName SimpleType ParameterizedType SimpleType SimpleName byte sequence
+t ncfs SimpleName MethodInvocation NumberLiteral empty
+trfwriter QualifiedName MethodInvocation SimpleName start new locality group
+trfwriter QualifiedName MethodInvocation StringLiteral lg
+trfwriter QualifiedName MethodInvocation MethodInvocation SimpleName t ncfs
+trfwriter QualifiedName MethodInvocation MethodInvocation NumberLiteral empty
+start new locality group SimpleName MethodInvocation StringLiteral lg
+start new locality group SimpleName MethodInvocation MethodInvocation SimpleName t ncfs
+start new locality group SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+lg StringLiteral MethodInvocation MethodInvocation SimpleName t ncfs
+lg StringLiteral MethodInvocation MethodInvocation NumberLiteral empty
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+i SimpleName InfixExpression NumberLiteral empty
+t append SimpleName MethodInvocation SimpleName trf
+t append SimpleName MethodInvocation SimpleName all cf
+t append SimpleName MethodInvocation SimpleName i
+trf SimpleName MethodInvocation SimpleName all cf
+trf SimpleName MethodInvocation SimpleName i
+all cf SimpleName MethodInvocation SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+empty NumberLiteral InfixExpression ForStatement PostfixExpression SimpleName i
+t ncfs SimpleName MethodInvocation NumberLiteral empty
+t ncfs SimpleName MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+trfwriter QualifiedName MethodInvocation SimpleName start new locality group
+trfwriter QualifiedName MethodInvocation StringLiteral lg
+trfwriter QualifiedName MethodInvocation MethodInvocation SimpleName t ncfs
+trfwriter QualifiedName MethodInvocation MethodInvocation NumberLiteral empty
+trfwriter QualifiedName MethodInvocation MethodInvocation NumberLiteral empty
+start new locality group SimpleName MethodInvocation StringLiteral lg
+start new locality group SimpleName MethodInvocation MethodInvocation SimpleName t ncfs
+start new locality group SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+start new locality group SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+lg StringLiteral MethodInvocation MethodInvocation SimpleName t ncfs
+lg StringLiteral MethodInvocation MethodInvocation NumberLiteral empty
+lg StringLiteral MethodInvocation MethodInvocation NumberLiteral empty
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+i SimpleName InfixExpression NumberLiteral empty
+t append SimpleName MethodInvocation SimpleName trf
+t append SimpleName MethodInvocation SimpleName all cf
+t append SimpleName MethodInvocation SimpleName i
+trf SimpleName MethodInvocation SimpleName all cf
+trf SimpleName MethodInvocation SimpleName i
+all cf SimpleName MethodInvocation SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+empty NumberLiteral InfixExpression ForStatement PostfixExpression SimpleName i
+t ncfs SimpleName MethodInvocation NumberLiteral empty
+t ncfs SimpleName MethodInvocation NumberLiteral empty
+t ncfs SimpleName MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+trfwriter QualifiedName MethodInvocation SimpleName start new locality group
+trfwriter QualifiedName MethodInvocation StringLiteral lg
+trfwriter QualifiedName MethodInvocation MethodInvocation SimpleName t ncfs
+trfwriter QualifiedName MethodInvocation MethodInvocation NumberLiteral empty
+trfwriter QualifiedName MethodInvocation MethodInvocation NumberLiteral empty
+trfwriter QualifiedName MethodInvocation MethodInvocation NumberLiteral empty
+start new locality group SimpleName MethodInvocation StringLiteral lg
+start new locality group SimpleName MethodInvocation MethodInvocation SimpleName t ncfs
+start new locality group SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+start new locality group SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+start new locality group SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+lg StringLiteral MethodInvocation MethodInvocation SimpleName t ncfs
+lg StringLiteral MethodInvocation MethodInvocation NumberLiteral empty
+lg StringLiteral MethodInvocation MethodInvocation NumberLiteral empty
+lg StringLiteral MethodInvocation MethodInvocation NumberLiteral empty
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+i SimpleName InfixExpression NumberLiteral empty
+t append SimpleName MethodInvocation SimpleName trf
+t append SimpleName MethodInvocation SimpleName all cf
+t append SimpleName MethodInvocation SimpleName i
+trf SimpleName MethodInvocation SimpleName all cf
+trf SimpleName MethodInvocation SimpleName i
+all cf SimpleName MethodInvocation SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+empty NumberLiteral InfixExpression ForStatement PostfixExpression SimpleName i
+trfwriter QualifiedName MethodInvocation SimpleName start default locality group
+empty NumberLiteral InfixExpression QualifiedName r filewritermax cf in dlg
+empty NumberLiteral InfixExpression NumberLiteral empty
+r filewritermax cf in dlg QualifiedName InfixExpression NumberLiteral empty
+max SimpleName VariableDeclarationFragment InfixExpression NumberLiteral empty
+max SimpleName VariableDeclarationFragment InfixExpression QualifiedName r filewritermax cf in dlg
+max SimpleName VariableDeclarationFragment InfixExpression NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName max
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment InfixExpression NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment InfixExpression QualifiedName r filewritermax cf in dlg
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment InfixExpression NumberLiteral empty
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+i SimpleName InfixExpression SimpleName max
+t append SimpleName MethodInvocation SimpleName trf
+t append SimpleName MethodInvocation SimpleName all cf
+t append SimpleName MethodInvocation SimpleName i
+trf SimpleName MethodInvocation SimpleName all cf
+trf SimpleName MethodInvocation SimpleName i
+all cf SimpleName MethodInvocation SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName max
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+max SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+trf SimpleName MethodInvocation SimpleName close writer
+trf SimpleName MethodInvocation SimpleName open reader
+t ncfs SimpleName MethodInvocation NumberLiteral empty
+t verify SimpleName MethodInvocation MethodInvocation SimpleName t ncfs
+t verify SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+t verify SimpleName MethodInvocation QualifiedName trfreader
+t verify SimpleName MethodInvocation SimpleName all cf
+t verify SimpleName MethodInvocation NumberLiteral empty
+t verify SimpleName MethodInvocation NumberLiteral empty
+t ncfs SimpleName MethodInvocation MethodInvocation QualifiedName trfreader
+empty NumberLiteral MethodInvocation MethodInvocation QualifiedName trfreader
+t ncfs SimpleName MethodInvocation MethodInvocation SimpleName all cf
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName all cf
+t ncfs SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation MethodInvocation NumberLiteral empty
+t ncfs SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation MethodInvocation NumberLiteral empty
+trfreader QualifiedName MethodInvocation SimpleName all cf
+trfreader QualifiedName MethodInvocation NumberLiteral empty
+trfreader QualifiedName MethodInvocation NumberLiteral empty
+all cf SimpleName MethodInvocation NumberLiteral empty
+all cf SimpleName MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+i SimpleName InfixExpression NumberLiteral empty
+t ncfs SimpleName MethodInvocation SimpleName i
+t verify SimpleName MethodInvocation MethodInvocation SimpleName t ncfs
+t verify SimpleName MethodInvocation MethodInvocation SimpleName i
+t verify SimpleName MethodInvocation QualifiedName trfreader
+t verify SimpleName MethodInvocation SimpleName all cf
+t verify SimpleName MethodInvocation NumberLiteral empty
+t verify SimpleName MethodInvocation NumberLiteral empty
+t ncfs SimpleName MethodInvocation MethodInvocation QualifiedName trfreader
+i SimpleName MethodInvocation MethodInvocation QualifiedName trfreader
+t ncfs SimpleName MethodInvocation MethodInvocation SimpleName all cf
+i SimpleName MethodInvocation MethodInvocation SimpleName all cf
+t ncfs SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+i SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+t ncfs SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+i SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+trfreader QualifiedName MethodInvocation SimpleName all cf
+trfreader QualifiedName MethodInvocation NumberLiteral empty
+trfreader QualifiedName MethodInvocation NumberLiteral empty
+all cf SimpleName MethodInvocation NumberLiteral empty
+all cf SimpleName MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+empty NumberLiteral InfixExpression ForStatement PostfixExpression SimpleName i
+max SimpleName InfixExpression NumberLiteral empty
+t ncfs SimpleName MethodInvocation InfixExpression SimpleName max
+t ncfs SimpleName MethodInvocation InfixExpression NumberLiteral empty
+t verify SimpleName MethodInvocation MethodInvocation SimpleName t ncfs
+t verify SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName max
+t verify SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral empty
+t verify SimpleName MethodInvocation QualifiedName trfreader
+t verify SimpleName MethodInvocation SimpleName all cf
+t verify SimpleName MethodInvocation NumberLiteral empty
+t verify SimpleName MethodInvocation NumberLiteral empty
+t ncfs SimpleName MethodInvocation MethodInvocation QualifiedName trfreader
+max SimpleName InfixExpression MethodInvocation MethodInvocation QualifiedName trfreader
+empty NumberLiteral InfixExpression MethodInvocation MethodInvocation QualifiedName trfreader
+t ncfs SimpleName MethodInvocation MethodInvocation SimpleName all cf
+max SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName all cf
+empty NumberLiteral InfixExpression MethodInvocation MethodInvocation SimpleName all cf
+t ncfs SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+max SimpleName InfixExpression MethodInvocation MethodInvocation NumberLiteral empty
+empty NumberLiteral InfixExpression MethodInvocation MethodInvocation NumberLiteral empty
+t ncfs SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+max SimpleName InfixExpression MethodInvocation MethodInvocation NumberLiteral empty
+empty NumberLiteral InfixExpression MethodInvocation MethodInvocation NumberLiteral empty
+trfreader QualifiedName MethodInvocation SimpleName all cf
+trfreader QualifiedName MethodInvocation NumberLiteral empty
+trfreader QualifiedName MethodInvocation NumberLiteral empty
+all cf SimpleName MethodInvocation NumberLiteral empty
+all cf SimpleName MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+t ncfs SimpleName MethodInvocation NumberLiteral empty
+t ncfs SimpleName MethodInvocation NumberLiteral empty
+t ncfs SimpleName MethodInvocation NumberLiteral empty
+t ncfs SimpleName MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+t verify SimpleName MethodInvocation MethodInvocation SimpleName t ncfs
+t verify SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+t verify SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+t verify SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+t verify SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+t verify SimpleName MethodInvocation QualifiedName trfreader
+t verify SimpleName MethodInvocation SimpleName all cf
+t verify SimpleName MethodInvocation NumberLiteral empty
+t verify SimpleName MethodInvocation NumberLiteral empty
+t ncfs SimpleName MethodInvocation MethodInvocation QualifiedName trfreader
+empty NumberLiteral MethodInvocation MethodInvocation QualifiedName trfreader
+empty NumberLiteral MethodInvocation MethodInvocation QualifiedName trfreader
+empty NumberLiteral MethodInvocation MethodInvocation QualifiedName trfreader
+empty NumberLiteral MethodInvocation MethodInvocation QualifiedName trfreader
+t ncfs SimpleName MethodInvocation MethodInvocation SimpleName all cf
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName all cf
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName all cf
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName all cf
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName all cf
+t ncfs SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation MethodInvocation NumberLiteral empty
+t ncfs SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation MethodInvocation NumberLiteral empty
+trfreader QualifiedName MethodInvocation SimpleName all cf
+trfreader QualifiedName MethodInvocation NumberLiteral empty
+trfreader QualifiedName MethodInvocation NumberLiteral empty
+all cf SimpleName MethodInvocation NumberLiteral empty
+all cf SimpleName MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+t ncfs SimpleName MethodInvocation NumberLiteral empty
+t ncfs SimpleName MethodInvocation NumberLiteral empty
+t ncfs SimpleName MethodInvocation NumberLiteral empty
+t ncfs SimpleName MethodInvocation NumberLiteral empty
+t ncfs SimpleName MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+t verify SimpleName MethodInvocation MethodInvocation SimpleName t ncfs
+t verify SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+t verify SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+t verify SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+t verify SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+t verify SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+t verify SimpleName MethodInvocation QualifiedName trfreader
+t verify SimpleName MethodInvocation SimpleName all cf
+t verify SimpleName MethodInvocation NumberLiteral empty
+t verify SimpleName MethodInvocation NumberLiteral empty
+t ncfs SimpleName MethodInvocation MethodInvocation QualifiedName trfreader
+empty NumberLiteral MethodInvocation MethodInvocation QualifiedName trfreader
+empty NumberLiteral MethodInvocation MethodInvocation QualifiedName trfreader
+empty NumberLiteral MethodInvocation MethodInvocation QualifiedName trfreader
+empty NumberLiteral MethodInvocation MethodInvocation QualifiedName trfreader
+empty NumberLiteral MethodInvocation MethodInvocation QualifiedName trfreader
+t ncfs SimpleName MethodInvocation MethodInvocation SimpleName all cf
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName all cf
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName all cf
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName all cf
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName all cf
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName all cf
+t ncfs SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation MethodInvocation NumberLiteral empty
+t ncfs SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation MethodInvocation NumberLiteral empty
+trfreader QualifiedName MethodInvocation SimpleName all cf
+trfreader QualifiedName MethodInvocation NumberLiteral empty
+trfreader QualifiedName MethodInvocation NumberLiteral empty
+all cf SimpleName MethodInvocation NumberLiteral empty
+all cf SimpleName MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+t ncfs SimpleName MethodInvocation NumberLiteral empty
+t ncfs SimpleName MethodInvocation NumberLiteral empty
+t ncfs SimpleName MethodInvocation NumberLiteral empty
+t ncfs SimpleName MethodInvocation NumberLiteral empty
+t ncfs SimpleName MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+t verify SimpleName MethodInvocation MethodInvocation SimpleName t ncfs
+t verify SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+t verify SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+t verify SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+t verify SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+t verify SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+t verify SimpleName MethodInvocation QualifiedName trfreader
+t verify SimpleName MethodInvocation SimpleName all cf
+t verify SimpleName MethodInvocation NumberLiteral empty
+t verify SimpleName MethodInvocation NumberLiteral empty
+t ncfs SimpleName MethodInvocation MethodInvocation QualifiedName trfreader
+empty NumberLiteral MethodInvocation MethodInvocation QualifiedName trfreader
+empty NumberLiteral MethodInvocation MethodInvocation QualifiedName trfreader
+empty NumberLiteral MethodInvocation MethodInvocation QualifiedName trfreader
+empty NumberLiteral MethodInvocation MethodInvocation QualifiedName trfreader
+empty NumberLiteral MethodInvocation MethodInvocation QualifiedName trfreader
+t ncfs SimpleName MethodInvocation MethodInvocation SimpleName all cf
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName all cf
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName all cf
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName all cf
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName all cf
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName all cf
+t ncfs SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation MethodInvocation NumberLiteral empty
+t ncfs SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation MethodInvocation NumberLiteral empty
+trfreader QualifiedName MethodInvocation SimpleName all cf
+trfreader QualifiedName MethodInvocation NumberLiteral empty
+trfreader QualifiedName MethodInvocation NumberLiteral empty
+all cf SimpleName MethodInvocation NumberLiteral empty
+all cf SimpleName MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+t ncfs SimpleName MethodInvocation NumberLiteral empty
+t ncfs SimpleName MethodInvocation NumberLiteral empty
+t ncfs SimpleName MethodInvocation NumberLiteral empty
+t ncfs SimpleName MethodInvocation NumberLiteral empty
+t ncfs SimpleName MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+t verify SimpleName MethodInvocation MethodInvocation SimpleName t ncfs
+t verify SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+t verify SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+t verify SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+t verify SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+t verify SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+t verify SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+t verify SimpleName MethodInvocation QualifiedName trfreader
+t verify SimpleName MethodInvocation SimpleName all cf
+t verify SimpleName MethodInvocation NumberLiteral empty
+t verify SimpleName MethodInvocation NumberLiteral empty
+t ncfs SimpleName MethodInvocation MethodInvocation QualifiedName trfreader
+empty NumberLiteral MethodInvocation MethodInvocation QualifiedName trfreader
+empty NumberLiteral MethodInvocation MethodInvocation QualifiedName trfreader
+empty NumberLiteral MethodInvocation MethodInvocation QualifiedName trfreader
+empty NumberLiteral MethodInvocation MethodInvocation QualifiedName trfreader
+empty NumberLiteral MethodInvocation MethodInvocation QualifiedName trfreader
+empty NumberLiteral MethodInvocation MethodInvocation QualifiedName trfreader
+t ncfs SimpleName MethodInvocation MethodInvocation SimpleName all cf
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName all cf
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName all cf
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName all cf
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName all cf
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName all cf
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName all cf
+t ncfs SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation MethodInvocation NumberLiteral empty
+t ncfs SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation MethodInvocation NumberLiteral empty
+trfreader QualifiedName MethodInvocation SimpleName all cf
+trfreader QualifiedName MethodInvocation NumberLiteral empty
+trfreader QualifiedName MethodInvocation NumberLiteral empty
+all cf SimpleName MethodInvocation NumberLiteral empty
+all cf SimpleName MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+t ncfs SimpleName MethodInvocation NumberLiteral empty
+t ncfs SimpleName MethodInvocation NumberLiteral empty
+t ncfs SimpleName MethodInvocation NumberLiteral empty
+t ncfs SimpleName MethodInvocation NumberLiteral empty
+t ncfs SimpleName MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+t verify SimpleName MethodInvocation MethodInvocation SimpleName t ncfs
+t verify SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+t verify SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+t verify SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+t verify SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+t verify SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+t verify SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+t verify SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+t verify SimpleName MethodInvocation QualifiedName trfreader
+t verify SimpleName MethodInvocation SimpleName all cf
+t verify SimpleName MethodInvocation NumberLiteral empty
+t verify SimpleName MethodInvocation NumberLiteral empty
+t ncfs SimpleName MethodInvocation MethodInvocation QualifiedName trfreader
+empty NumberLiteral MethodInvocation MethodInvocation QualifiedName trfreader
+empty NumberLiteral MethodInvocation MethodInvocation QualifiedName trfreader
+empty NumberLiteral MethodInvocation MethodInvocation QualifiedName trfreader
+empty NumberLiteral MethodInvocation MethodInvocation QualifiedName trfreader
+empty NumberLiteral MethodInvocation MethodInvocation QualifiedName trfreader
+empty NumberLiteral MethodInvocation MethodInvocation QualifiedName trfreader
+empty NumberLiteral MethodInvocation MethodInvocation QualifiedName trfreader
+t ncfs SimpleName MethodInvocation MethodInvocation SimpleName all cf
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName all cf
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName all cf
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName all cf
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName all cf
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName all cf
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName all cf
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName all cf
+t ncfs SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation MethodInvocation NumberLiteral empty
+t ncfs SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation MethodInvocation NumberLiteral empty
+trfreader QualifiedName MethodInvocation SimpleName all cf
+trfreader QualifiedName MethodInvocation NumberLiteral empty
+trfreader QualifiedName MethodInvocation NumberLiteral empty
+all cf SimpleName MethodInvocation NumberLiteral empty
+all cf SimpleName MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty

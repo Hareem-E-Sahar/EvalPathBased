@@ -1,0 +1,45 @@
+atlas edge SimpleName SimpleType ParameterizedType WildcardType ?
+atlas edge SimpleName SimpleType ParameterizedType WildcardType ?
+? WildcardType ParameterizedType WildcardType ?
+atlas edge SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName edge
+? WildcardType ParameterizedType SingleVariableDeclaration SimpleName edge
+? WildcardType ParameterizedType SingleVariableDeclaration SimpleName edge
+log SimpleName MethodInvocation SimpleName is debug enabled
+get edge details SimpleName MethodInvocation SimpleName edge
+edge SimpleName MethodInvocation SimpleName get id for display
+string SimpleName MethodInvocation SimpleName format
+string SimpleName MethodInvocation StringLiteral edgeids
+string SimpleName MethodInvocation MethodInvocation SimpleName edge
+string SimpleName MethodInvocation MethodInvocation SimpleName get id for display
+format SimpleName MethodInvocation StringLiteral edgeids
+format SimpleName MethodInvocation MethodInvocation SimpleName edge
+format SimpleName MethodInvocation MethodInvocation SimpleName get id for display
+edgeids StringLiteral MethodInvocation MethodInvocation SimpleName edge
+edgeids StringLiteral MethodInvocation MethodInvocation SimpleName get id for display
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+public Modifier MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName edge
+static Modifier MethodDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+static Modifier MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName edge
+string SimpleName SimpleType MethodDeclaration SimpleName string
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName edge
+string SimpleName MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+string SimpleName MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+string SimpleName MethodDeclaration SingleVariableDeclaration SimpleName edge
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName edge
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName edge

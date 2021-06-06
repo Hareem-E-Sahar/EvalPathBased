@@ -1,0 +1,49 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas vertex
+atlas vertex SimpleName SimpleType SingleVariableDeclaration SimpleName classification vertex
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas vertex
+get type name SimpleName MethodInvocation SimpleName classification vertex
+classification name SimpleName VariableDeclarationFragment MethodInvocation SimpleName get type name
+classification name SimpleName VariableDeclarationFragment MethodInvocation SimpleName classification vertex
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName classification name
+iterator SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas edge
+get propagated edge label SimpleName MethodInvocation SimpleName classification name
+get incoming edges by label SimpleName MethodInvocation SimpleName classification vertex
+get incoming edges by label SimpleName MethodInvocation MethodInvocation SimpleName get propagated edge label
+get incoming edges by label SimpleName MethodInvocation MethodInvocation SimpleName classification name
+classification vertex SimpleName MethodInvocation MethodInvocation SimpleName get propagated edge label
+classification vertex SimpleName MethodInvocation MethodInvocation SimpleName classification name
+iterator SimpleName VariableDeclarationFragment MethodInvocation SimpleName get incoming edges by label
+iterator SimpleName VariableDeclarationFragment MethodInvocation SimpleName classification vertex
+iterator SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get propagated edge label
+iterator SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName classification name
+iterator SimpleName MethodInvocation SimpleName has next
+iterator SimpleName InfixExpression InfixExpression MethodInvocation SimpleName iterator
+iterator SimpleName InfixExpression InfixExpression MethodInvocation SimpleName has next
+iterator SimpleName MethodInvocation SimpleName next
+propagated edge SimpleName VariableDeclarationFragment MethodInvocation SimpleName iterator
+propagated edge SimpleName VariableDeclarationFragment MethodInvocation SimpleName next
+atlas edge SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName propagated edge
+propagated edge SimpleName MethodInvocation SimpleName get out vertex
+ret SimpleName MethodInvocation SimpleName add
+ret SimpleName MethodInvocation MethodInvocation SimpleName propagated edge
+ret SimpleName MethodInvocation MethodInvocation SimpleName get out vertex
+add SimpleName MethodInvocation MethodInvocation SimpleName propagated edge
+add SimpleName MethodInvocation MethodInvocation SimpleName get out vertex
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName atlas vertex
+public Modifier MethodDeclaration SimpleName get propagated entity vertices from classification
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas vertex
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName classification vertex
+public Modifier MethodDeclaration Block ReturnStatement SimpleName ret
+list SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get propagated entity vertices from classification
+atlas vertex SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get propagated entity vertices from classification
+get propagated entity vertices from classification SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas vertex
+get propagated entity vertices from classification SimpleName MethodDeclaration SingleVariableDeclaration SimpleName classification vertex
+get propagated entity vertices from classification SimpleName MethodDeclaration Block ReturnStatement SimpleName ret
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName get propagated entity vertices from classification
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName classification vertex
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get propagated entity vertices from classification
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName classification vertex

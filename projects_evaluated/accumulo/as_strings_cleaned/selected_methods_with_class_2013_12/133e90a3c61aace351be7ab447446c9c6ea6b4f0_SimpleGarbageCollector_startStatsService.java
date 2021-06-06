@@ -1,0 +1,159 @@
+processor SimpleName SimpleType ParameterizedType SimpleType SimpleName iface
+processor SimpleName SimpleType ParameterizedType SimpleType SimpleName iface
+trace wrap SimpleName MethodInvocation SimpleName service
+processor SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName trace wrap
+processor SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName service
+server configuration SimpleName MethodInvocation SimpleName get system configuration
+server configuration SimpleName MethodInvocation SimpleName instance
+get system configuration SimpleName MethodInvocation SimpleName instance
+conf SimpleName VariableDeclarationFragment MethodInvocation SimpleName server configuration
+conf SimpleName VariableDeclarationFragment MethodInvocation SimpleName get system configuration
+conf SimpleName VariableDeclarationFragment MethodInvocation SimpleName instance
+accumulo configuration SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName conf
+conf SimpleName MethodInvocation SimpleName get port
+conf SimpleName MethodInvocation QualifiedName propertygc port
+get port SimpleName MethodInvocation QualifiedName propertygc port
+port SimpleName VariableDeclarationFragment MethodInvocation SimpleName conf
+port SimpleName VariableDeclarationFragment MethodInvocation SimpleName get port
+port SimpleName VariableDeclarationFragment MethodInvocation QualifiedName propertygc port
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName port
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName conf
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get port
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation QualifiedName propertygc port
+conf SimpleName MethodInvocation SimpleName get memory in bytes
+conf SimpleName MethodInvocation QualifiedName propertygeneral max message size
+get memory in bytes SimpleName MethodInvocation QualifiedName propertygeneral max message size
+max message size SimpleName VariableDeclarationFragment MethodInvocation SimpleName conf
+max message size SimpleName VariableDeclarationFragment MethodInvocation SimpleName get memory in bytes
+max message size SimpleName VariableDeclarationFragment MethodInvocation QualifiedName propertygeneral max message size
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName max message size
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName conf
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get memory in bytes
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation QualifiedName propertygeneral max message size
+opts SimpleName MethodInvocation SimpleName get address
+host and port SimpleName MethodInvocation SimpleName from parts
+host and port SimpleName MethodInvocation MethodInvocation SimpleName opts
+host and port SimpleName MethodInvocation MethodInvocation SimpleName get address
+host and port SimpleName MethodInvocation SimpleName port
+from parts SimpleName MethodInvocation MethodInvocation SimpleName opts
+from parts SimpleName MethodInvocation MethodInvocation SimpleName get address
+from parts SimpleName MethodInvocation SimpleName port
+opts SimpleName MethodInvocation MethodInvocation SimpleName port
+get address SimpleName MethodInvocation MethodInvocation SimpleName port
+result SimpleName VariableDeclarationFragment MethodInvocation SimpleName host and port
+result SimpleName VariableDeclarationFragment MethodInvocation SimpleName from parts
+result SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName opts
+result SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get address
+result SimpleName VariableDeclarationFragment MethodInvocation SimpleName port
+host and port SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName result
+starting garbage collector listening on StringLiteral InfixExpression SimpleName result
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation InfixExpression StringLiteral starting garbage collector listening on
+log SimpleName MethodInvocation InfixExpression SimpleName result
+debug SimpleName MethodInvocation InfixExpression StringLiteral starting garbage collector listening on
+debug SimpleName MethodInvocation InfixExpression SimpleName result
+get class SimpleName MethodInvocation MethodInvocation SimpleName get simple name
+ssl connection params SimpleName MethodInvocation SimpleName for server
+ssl connection params SimpleName MethodInvocation SimpleName conf
+for server SimpleName MethodInvocation SimpleName conf
+t server utils SimpleName MethodInvocation SimpleName start t server
+t server utils SimpleName MethodInvocation SimpleName result
+t server utils SimpleName MethodInvocation SimpleName processor
+t server utils SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get class
+t server utils SimpleName MethodInvocation MethodInvocation SimpleName get simple name
+t server utils SimpleName MethodInvocation StringLiteral gc monitor service
+start t server SimpleName MethodInvocation SimpleName result
+start t server SimpleName MethodInvocation SimpleName processor
+start t server SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get class
+start t server SimpleName MethodInvocation MethodInvocation SimpleName get simple name
+start t server SimpleName MethodInvocation StringLiteral gc monitor service
+start t server SimpleName MethodInvocation NumberLiteral empty
+result SimpleName MethodInvocation SimpleName processor
+result SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get class
+result SimpleName MethodInvocation MethodInvocation SimpleName get simple name
+result SimpleName MethodInvocation StringLiteral gc monitor service
+result SimpleName MethodInvocation NumberLiteral empty
+result SimpleName MethodInvocation NumberLiteral empty
+processor SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get class
+processor SimpleName MethodInvocation MethodInvocation SimpleName get simple name
+processor SimpleName MethodInvocation StringLiteral gc monitor service
+processor SimpleName MethodInvocation NumberLiteral empty
+processor SimpleName MethodInvocation NumberLiteral empty
+processor SimpleName MethodInvocation SimpleName max message size
+get class SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral gc monitor service
+get simple name SimpleName MethodInvocation MethodInvocation StringLiteral gc monitor service
+get class SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+get simple name SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+get class SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+get simple name SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+get class SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName max message size
+get simple name SimpleName MethodInvocation MethodInvocation SimpleName max message size
+get simple name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName ssl connection params
+get simple name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName for server
+get simple name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName conf
+gc monitor service StringLiteral MethodInvocation NumberLiteral empty
+gc monitor service StringLiteral MethodInvocation NumberLiteral empty
+gc monitor service StringLiteral MethodInvocation SimpleName max message size
+gc monitor service StringLiteral MethodInvocation MethodInvocation SimpleName ssl connection params
+gc monitor service StringLiteral MethodInvocation MethodInvocation SimpleName for server
+gc monitor service StringLiteral MethodInvocation MethodInvocation SimpleName conf
+gc monitor service StringLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation SimpleName max message size
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName ssl connection params
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName for server
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName conf
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation SimpleName max message size
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName ssl connection params
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName for server
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName conf
+empty NumberLiteral MethodInvocation NumberLiteral empty
+max message size SimpleName MethodInvocation MethodInvocation SimpleName ssl connection params
+max message size SimpleName MethodInvocation MethodInvocation SimpleName for server
+max message size SimpleName MethodInvocation MethodInvocation SimpleName conf
+max message size SimpleName MethodInvocation NumberLiteral empty
+ssl connection params SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+for server SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+conf SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+t server utils SimpleName MethodInvocation FieldAccess SimpleName address
+start t server SimpleName MethodInvocation FieldAccess SimpleName address
+result SimpleName MethodInvocation FieldAccess SimpleName address
+processor SimpleName MethodInvocation FieldAccess SimpleName address
+get simple name SimpleName MethodInvocation MethodInvocation FieldAccess SimpleName address
+gc monitor service StringLiteral MethodInvocation FieldAccess SimpleName address
+empty NumberLiteral MethodInvocation FieldAccess SimpleName address
+empty NumberLiteral MethodInvocation FieldAccess SimpleName address
+max message size SimpleName MethodInvocation FieldAccess SimpleName address
+ssl connection params SimpleName MethodInvocation MethodInvocation FieldAccess SimpleName address
+for server SimpleName MethodInvocation MethodInvocation FieldAccess SimpleName address
+conf SimpleName MethodInvocation MethodInvocation FieldAccess SimpleName address
+empty NumberLiteral MethodInvocation FieldAccess SimpleName address
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName ex
+log SimpleName MethodInvocation SimpleName fatal
+log SimpleName MethodInvocation SimpleName ex
+log SimpleName MethodInvocation SimpleName ex
+fatal SimpleName MethodInvocation SimpleName ex
+fatal SimpleName MethodInvocation SimpleName ex
+ex SimpleName MethodInvocation SimpleName ex
+runtime exception SimpleName SimpleType ClassInstanceCreation SimpleName ex
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType long
+private Modifier MethodDeclaration SimpleType SimpleName host and port
+private Modifier MethodDeclaration SimpleName start stats service
+private Modifier MethodDeclaration SimpleType SimpleName unknown host exception
+private Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+private Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+host and port SimpleName SimpleType MethodDeclaration SimpleName start stats service
+host and port SimpleName SimpleType MethodDeclaration SimpleType SimpleName unknown host exception
+start stats service SimpleName MethodDeclaration SimpleType SimpleName unknown host exception
+start stats service SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+start stats service SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName host and port
+public Modifier TypeDeclaration MethodDeclaration SimpleName start stats service
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName unknown host exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName host and port
+test SimpleName TypeDeclaration MethodDeclaration SimpleName start stats service
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName unknown host exception

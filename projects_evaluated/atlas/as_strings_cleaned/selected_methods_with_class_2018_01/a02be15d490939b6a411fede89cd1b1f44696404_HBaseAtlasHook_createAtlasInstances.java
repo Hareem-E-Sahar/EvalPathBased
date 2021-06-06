@@ -1,0 +1,56 @@
+h base operation context SimpleName SimpleType SingleVariableDeclaration SimpleName hbase operation context
+hbase operation context SimpleName MethodInvocation SimpleName get operation
+operation SimpleName VariableDeclarationFragment MethodInvocation SimpleName hbase operation context
+operation SimpleName VariableDeclarationFragment MethodInvocation SimpleName get operation
+h base atlas hookoperation QualifiedName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName operation
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation StringLiteral h base atlas hookoperation
+log SimpleName MethodInvocation SimpleName operation
+info SimpleName MethodInvocation StringLiteral h base atlas hookoperation
+info SimpleName MethodInvocation SimpleName operation
+h base atlas hookoperation StringLiteral MethodInvocation SimpleName operation
+create or update namespace instance SimpleName MethodInvocation SimpleName hbase operation context
+delete name space instance SimpleName MethodInvocation SimpleName hbase operation context
+create or update table instance SimpleName MethodInvocation SimpleName hbase operation context
+delete table instance SimpleName MethodInvocation SimpleName hbase operation context
+create or update column family instance SimpleName MethodInvocation SimpleName hbase operation context
+delete column family instance SimpleName MethodInvocation SimpleName hbase operation context
+operation SimpleName SwitchStatement SwitchCase SimpleName create namespace
+operation SimpleName SwitchStatement SwitchCase SimpleName alter namespace
+operation SimpleName SwitchStatement ExpressionStatement MethodInvocation SimpleName create or update namespace instance
+operation SimpleName SwitchStatement ExpressionStatement MethodInvocation SimpleName hbase operation context
+operation SimpleName SwitchStatement SwitchCase SimpleName delete namespace
+create namespace SimpleName SwitchCase SwitchStatement SwitchCase SimpleName alter namespace
+create namespace SimpleName SwitchCase SwitchStatement SwitchCase SimpleName delete namespace
+alter namespace SimpleName SwitchCase SwitchStatement SwitchCase SimpleName delete namespace
+delete namespace SimpleName SwitchCase SwitchStatement SwitchCase SimpleName create table
+delete namespace SimpleName SwitchCase SwitchStatement SwitchCase SimpleName alter table
+create table SimpleName SwitchCase SwitchStatement SwitchCase SimpleName alter table
+create table SimpleName SwitchCase SwitchStatement SwitchCase SimpleName delete table
+alter table SimpleName SwitchCase SwitchStatement SwitchCase SimpleName delete table
+delete table SimpleName SwitchCase SwitchStatement SwitchCase SimpleName create column family
+delete table SimpleName SwitchCase SwitchStatement SwitchCase SimpleName alter column family
+create column family SimpleName SwitchCase SwitchStatement SwitchCase SimpleName alter column family
+create column family SimpleName SwitchCase SwitchStatement SwitchCase SimpleName delete column family
+alter column family SimpleName SwitchCase SwitchStatement SwitchCase SimpleName delete column family
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName create atlas instances
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName h base operation context
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName hbase operation context
+public Modifier MethodDeclaration Block SwitchStatement SimpleName operation
+void PrimitiveType MethodDeclaration SimpleName create atlas instances
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName h base operation context
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName hbase operation context
+void PrimitiveType MethodDeclaration Block SwitchStatement SimpleName operation
+create atlas instances SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName h base operation context
+create atlas instances SimpleName MethodDeclaration SingleVariableDeclaration SimpleName hbase operation context
+create atlas instances SimpleName MethodDeclaration Block SwitchStatement SimpleName operation
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName create atlas instances
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName hbase operation context
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create atlas instances
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName hbase operation context

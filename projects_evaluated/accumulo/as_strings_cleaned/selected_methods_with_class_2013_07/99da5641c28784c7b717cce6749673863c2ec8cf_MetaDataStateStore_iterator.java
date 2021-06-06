@@ -1,0 +1,30 @@
+iterator SimpleName SimpleType ParameterizedType SimpleType SimpleName tablet location state
+metadata schematablets section QualifiedName MethodInvocation SimpleName get range
+meta data table scanner SimpleName SimpleType ClassInstanceCreation SimpleName instance
+meta data table scanner SimpleName SimpleType ClassInstanceCreation SimpleName credentials
+meta data table scanner SimpleName SimpleType ClassInstanceCreation MethodInvocation QualifiedName metadata schematablets section
+meta data table scanner SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get range
+meta data table scanner SimpleName SimpleType ClassInstanceCreation SimpleName state
+instance SimpleName ClassInstanceCreation SimpleName credentials
+instance SimpleName ClassInstanceCreation MethodInvocation QualifiedName metadata schematablets section
+instance SimpleName ClassInstanceCreation MethodInvocation SimpleName get range
+instance SimpleName ClassInstanceCreation SimpleName state
+credentials SimpleName ClassInstanceCreation MethodInvocation QualifiedName metadata schematablets section
+credentials SimpleName ClassInstanceCreation MethodInvocation SimpleName get range
+credentials SimpleName ClassInstanceCreation SimpleName state
+metadata schematablets section QualifiedName MethodInvocation ClassInstanceCreation SimpleName state
+get range SimpleName MethodInvocation ClassInstanceCreation SimpleName state
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName iterator
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName iterator
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName tablet location state
+public Modifier MethodDeclaration SimpleName iterator
+iterator SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName iterator
+tablet location state SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName iterator
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName iterator
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName iterator

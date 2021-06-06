@@ -1,0 +1,262 @@
+key extent SimpleName SimpleType SingleVariableDeclaration SimpleName extent
+t server instance SimpleName SimpleType SingleVariableDeclaration SimpleName instance
+sorted map SimpleName SimpleType ParameterizedType SimpleType SimpleName key
+sorted map SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+key SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+sorted map SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName tablets key values
+key SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName tablets key values
+value SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName tablets key values
+text SimpleName SimpleType SingleVariableDeclaration SimpleName metadata entry
+t server instance SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName future
+value SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName prev end row
+value SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName dir
+value SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName time
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName key
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+key SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+entry SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+key SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+value SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+tablets key values SimpleName MethodInvocation SimpleName entry set
+entry SimpleName MethodInvocation SimpleName get key
+key SimpleName VariableDeclarationFragment MethodInvocation SimpleName entry
+key SimpleName VariableDeclarationFragment MethodInvocation SimpleName get key
+key SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName key
+key SimpleName MethodInvocation SimpleName get row
+metadata entry SimpleName MethodInvocation SimpleName equals
+metadata entry SimpleName MethodInvocation MethodInvocation SimpleName key
+metadata entry SimpleName MethodInvocation MethodInvocation SimpleName get row
+equals SimpleName MethodInvocation MethodInvocation SimpleName key
+equals SimpleName MethodInvocation MethodInvocation SimpleName get row
+key SimpleName MethodInvocation SimpleName get row
+unexpected row in tablet metadata StringLiteral InfixExpression SimpleName metadata entry
+unexpected row in tablet metadata StringLiteral InfixExpression StringLiteral empty
+unexpected row in tablet metadata StringLiteral InfixExpression MethodInvocation SimpleName key
+unexpected row in tablet metadata StringLiteral InfixExpression MethodInvocation SimpleName get row
+metadata entry SimpleName InfixExpression StringLiteral empty
+metadata entry SimpleName InfixExpression MethodInvocation SimpleName key
+metadata entry SimpleName InfixExpression MethodInvocation SimpleName get row
+empty StringLiteral InfixExpression MethodInvocation SimpleName key
+empty StringLiteral InfixExpression MethodInvocation SimpleName get row
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation InfixExpression StringLiteral unexpected row in tablet metadata
+log SimpleName MethodInvocation InfixExpression SimpleName metadata entry
+log SimpleName MethodInvocation InfixExpression StringLiteral empty
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName key
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get row
+info SimpleName MethodInvocation InfixExpression StringLiteral unexpected row in tablet metadata
+info SimpleName MethodInvocation InfixExpression SimpleName metadata entry
+info SimpleName MethodInvocation InfixExpression StringLiteral empty
+info SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName key
+info SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get row
+key SimpleName MethodInvocation SimpleName get column family
+cf SimpleName VariableDeclarationFragment MethodInvocation SimpleName key
+cf SimpleName VariableDeclarationFragment MethodInvocation SimpleName get column family
+text SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName cf
+cf SimpleName MethodInvocation SimpleName equals
+cf SimpleName MethodInvocation QualifiedName tablets sectionfuture location column familyname
+equals SimpleName MethodInvocation QualifiedName tablets sectionfuture location column familyname
+tablet has multiple future locations StringLiteral InfixExpression SimpleName extent
+accumulo exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral tablet has multiple future locations
+accumulo exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName extent
+entry SimpleName MethodInvocation SimpleName get value
+key SimpleName MethodInvocation SimpleName get column qualifier
+t server instance SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName entry
+t server instance SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get value
+t server instance SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName key
+t server instance SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get column qualifier
+entry SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName key
+entry SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get column qualifier
+get value SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName key
+get value SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get column qualifier
+future SimpleName Assignment ClassInstanceCreation SimpleType SimpleName t server instance
+future SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName entry
+future SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName get value
+future SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName key
+future SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName get column qualifier
+cf SimpleName MethodInvocation SimpleName equals
+cf SimpleName MethodInvocation QualifiedName tablets sectioncurrent location column familyname
+equals SimpleName MethodInvocation QualifiedName tablets sectioncurrent location column familyname
+entry SimpleName MethodInvocation SimpleName get value
+key SimpleName MethodInvocation SimpleName get column qualifier
+t server instance SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName entry
+t server instance SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get value
+t server instance SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName key
+t server instance SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get column qualifier
+entry SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName key
+entry SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get column qualifier
+get value SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName key
+get value SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get column qualifier
+tablet seems to be already assigned to StringLiteral InfixExpression ClassInstanceCreation SimpleType SimpleName t server instance
+tablet seems to be already assigned to StringLiteral InfixExpression ClassInstanceCreation MethodInvocation SimpleName entry
+tablet seems to be already assigned to StringLiteral InfixExpression ClassInstanceCreation MethodInvocation SimpleName get value
+tablet seems to be already assigned to StringLiteral InfixExpression ClassInstanceCreation MethodInvocation SimpleName key
+tablet seems to be already assigned to StringLiteral InfixExpression ClassInstanceCreation MethodInvocation SimpleName get column qualifier
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation InfixExpression StringLiteral tablet seems to be already assigned to
+info SimpleName MethodInvocation InfixExpression StringLiteral tablet seems to be already assigned to
+tablets sectiontablet column familyprev row column QualifiedName MethodInvocation SimpleName has columns
+tablets sectiontablet column familyprev row column QualifiedName MethodInvocation SimpleName key
+has columns SimpleName MethodInvocation SimpleName key
+entry SimpleName MethodInvocation SimpleName get value
+prev end row SimpleName Assignment MethodInvocation SimpleName entry
+prev end row SimpleName Assignment MethodInvocation SimpleName get value
+tablets sectionserver column familydirectory column QualifiedName MethodInvocation SimpleName has columns
+tablets sectionserver column familydirectory column QualifiedName MethodInvocation SimpleName key
+has columns SimpleName MethodInvocation SimpleName key
+entry SimpleName MethodInvocation SimpleName get value
+dir SimpleName Assignment MethodInvocation SimpleName entry
+dir SimpleName Assignment MethodInvocation SimpleName get value
+tablets sectionserver column familytime column QualifiedName MethodInvocation SimpleName has columns
+tablets sectionserver column familytime column QualifiedName MethodInvocation SimpleName key
+has columns SimpleName MethodInvocation SimpleName key
+entry SimpleName MethodInvocation SimpleName get value
+time SimpleName Assignment MethodInvocation SimpleName entry
+time SimpleName Assignment MethodInvocation SimpleName get value
+entry SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName tablets key values
+entry SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName entry set
+metadata entry does not have prev row ( StringLiteral InfixExpression SimpleName metadata entry
+metadata entry does not have prev row ( StringLiteral InfixExpression StringLiteral )
+metadata entry SimpleName InfixExpression StringLiteral )
+accumulo exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral metadata entry does not have prev row (
+accumulo exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName metadata entry
+accumulo exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral )
+key extent SimpleName SimpleType ClassInstanceCreation SimpleName metadata entry
+key extent SimpleName SimpleType ClassInstanceCreation SimpleName prev end row
+metadata entry SimpleName ClassInstanceCreation SimpleName prev end row
+ke SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName key extent
+ke SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName metadata entry
+ke SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName prev end row
+key extent SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ke
+extent SimpleName MethodInvocation SimpleName equals
+extent SimpleName MethodInvocation SimpleName ke
+equals SimpleName MethodInvocation SimpleName ke
+ke SimpleName MethodInvocation SimpleName get prev end row
+tablet prev end row mismatch StringLiteral InfixExpression SimpleName extent
+tablet prev end row mismatch StringLiteral InfixExpression StringLiteral empty
+tablet prev end row mismatch StringLiteral InfixExpression MethodInvocation SimpleName ke
+tablet prev end row mismatch StringLiteral InfixExpression MethodInvocation SimpleName get prev end row
+extent SimpleName InfixExpression StringLiteral empty
+extent SimpleName InfixExpression MethodInvocation SimpleName ke
+extent SimpleName InfixExpression MethodInvocation SimpleName get prev end row
+empty StringLiteral InfixExpression MethodInvocation SimpleName ke
+empty StringLiteral InfixExpression MethodInvocation SimpleName get prev end row
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation InfixExpression StringLiteral tablet prev end row mismatch
+log SimpleName MethodInvocation InfixExpression SimpleName extent
+log SimpleName MethodInvocation InfixExpression StringLiteral empty
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName ke
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get prev end row
+info SimpleName MethodInvocation InfixExpression StringLiteral tablet prev end row mismatch
+info SimpleName MethodInvocation InfixExpression SimpleName extent
+info SimpleName MethodInvocation InfixExpression StringLiteral empty
+info SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName ke
+info SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get prev end row
+metadata entry does not have directory ( StringLiteral InfixExpression SimpleName metadata entry
+metadata entry does not have directory ( StringLiteral InfixExpression StringLiteral )
+metadata entry SimpleName InfixExpression StringLiteral )
+accumulo exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral metadata entry does not have directory (
+accumulo exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName metadata entry
+accumulo exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral )
+extent SimpleName MethodInvocation SimpleName equals
+extent SimpleName MethodInvocation QualifiedName root tableold extent
+equals SimpleName MethodInvocation QualifiedName root tableold extent
+metadata entry does not have time ( StringLiteral InfixExpression SimpleName metadata entry
+metadata entry does not have time ( StringLiteral InfixExpression StringLiteral )
+metadata entry SimpleName InfixExpression StringLiteral )
+accumulo exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral metadata entry does not have time (
+accumulo exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName metadata entry
+accumulo exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral )
+the master has not assigned StringLiteral InfixExpression SimpleName extent
+the master has not assigned StringLiteral InfixExpression StringLiteral to
+the master has not assigned StringLiteral InfixExpression SimpleName instance
+extent SimpleName InfixExpression StringLiteral to
+extent SimpleName InfixExpression SimpleName instance
+to StringLiteral InfixExpression SimpleName instance
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation InfixExpression StringLiteral the master has not assigned
+log SimpleName MethodInvocation InfixExpression SimpleName extent
+log SimpleName MethodInvocation InfixExpression StringLiteral to
+log SimpleName MethodInvocation InfixExpression SimpleName instance
+info SimpleName MethodInvocation InfixExpression StringLiteral the master has not assigned
+info SimpleName MethodInvocation InfixExpression SimpleName extent
+info SimpleName MethodInvocation InfixExpression StringLiteral to
+info SimpleName MethodInvocation InfixExpression SimpleName instance
+instance SimpleName MethodInvocation SimpleName equals
+instance SimpleName MethodInvocation SimpleName future
+equals SimpleName MethodInvocation SimpleName future
+table StringLiteral InfixExpression SimpleName extent
+table StringLiteral InfixExpression StringLiteral has been assigned to
+table StringLiteral InfixExpression SimpleName future
+table StringLiteral InfixExpression StringLiteral which is not
+table StringLiteral InfixExpression SimpleName instance
+extent SimpleName InfixExpression StringLiteral has been assigned to
+extent SimpleName InfixExpression SimpleName future
+extent SimpleName InfixExpression StringLiteral which is not
+extent SimpleName InfixExpression SimpleName instance
+has been assigned to StringLiteral InfixExpression SimpleName future
+has been assigned to StringLiteral InfixExpression StringLiteral which is not
+has been assigned to StringLiteral InfixExpression SimpleName instance
+future SimpleName InfixExpression StringLiteral which is not
+future SimpleName InfixExpression SimpleName instance
+which is not StringLiteral InfixExpression SimpleName instance
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation InfixExpression StringLiteral table
+log SimpleName MethodInvocation InfixExpression SimpleName extent
+log SimpleName MethodInvocation InfixExpression StringLiteral has been assigned to
+log SimpleName MethodInvocation InfixExpression SimpleName future
+log SimpleName MethodInvocation InfixExpression StringLiteral which is not
+log SimpleName MethodInvocation InfixExpression SimpleName instance
+info SimpleName MethodInvocation InfixExpression StringLiteral table
+info SimpleName MethodInvocation InfixExpression SimpleName extent
+info SimpleName MethodInvocation InfixExpression StringLiteral has been assigned to
+info SimpleName MethodInvocation InfixExpression SimpleName future
+info SimpleName MethodInvocation InfixExpression StringLiteral which is not
+info SimpleName MethodInvocation InfixExpression SimpleName instance
+static Modifier MethodDeclaration SimpleType SimpleName value
+static Modifier MethodDeclaration SimpleName check tablet metadata
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName key extent
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName extent
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName t server instance
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName instance
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName tablets key values
+value SimpleName SimpleType MethodDeclaration SimpleName check tablet metadata
+value SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName extent
+value SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName instance
+value SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName tablets key values
+value SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName metadata entry
+check tablet metadata SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName key extent
+check tablet metadata SimpleName MethodDeclaration SingleVariableDeclaration SimpleName extent
+check tablet metadata SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName t server instance
+check tablet metadata SimpleName MethodDeclaration SingleVariableDeclaration SimpleName instance
+check tablet metadata SimpleName MethodDeclaration SingleVariableDeclaration SimpleName tablets key values
+check tablet metadata SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName text
+check tablet metadata SimpleName MethodDeclaration SingleVariableDeclaration SimpleName metadata entry
+check tablet metadata SimpleName MethodDeclaration SimpleType SimpleName accumulo exception
+extent SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName instance
+extent SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName tablets key values
+extent SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName metadata entry
+extent SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+instance SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName tablets key values
+instance SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName metadata entry
+instance SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+tablets key values SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName metadata entry
+tablets key values SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+metadata entry SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName value
+public Modifier TypeDeclaration MethodDeclaration SimpleName check tablet metadata
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName extent
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName instance
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName tablets key values
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName metadata entry
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName value
+test SimpleName TypeDeclaration MethodDeclaration SimpleName check tablet metadata
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName extent
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName instance
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName tablets key values
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName metadata entry
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo exception

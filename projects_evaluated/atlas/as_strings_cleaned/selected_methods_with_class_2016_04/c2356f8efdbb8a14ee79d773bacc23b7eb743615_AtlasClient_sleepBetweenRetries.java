@@ -1,0 +1,20 @@
+thread SimpleName MethodInvocation SimpleName sleep
+thread SimpleName MethodInvocation MethodInvocation SimpleName get sleep between retries ms
+sleep SimpleName MethodInvocation MethodInvocation SimpleName get sleep between retries ms
+interrupted exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation StringLiteral interrupted from sleeping between retries
+log SimpleName MethodInvocation SimpleName e
+error SimpleName MethodInvocation StringLiteral interrupted from sleeping between retries
+error SimpleName MethodInvocation SimpleName e
+interrupted from sleeping between retries StringLiteral MethodInvocation SimpleName e
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName sleep between retries
+void PrimitiveType MethodDeclaration SimpleName sleep between retries
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName sleep between retries
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName sleep between retries

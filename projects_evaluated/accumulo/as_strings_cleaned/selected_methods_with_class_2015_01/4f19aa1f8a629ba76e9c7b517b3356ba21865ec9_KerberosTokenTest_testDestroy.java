@@ -1,0 +1,80 @@
+test name SimpleName MethodInvocation SimpleName get method name
+user SimpleName VariableDeclarationFragment MethodInvocation SimpleName test name
+user SimpleName VariableDeclarationFragment MethodInvocation SimpleName get method name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName user
+kdc SimpleName MethodInvocation SimpleName get keytab dir
+user SimpleName InfixExpression StringLiteral keytab
+file SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName kdc
+file SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get keytab dir
+file SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName user
+file SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral keytab
+kdc SimpleName MethodInvocation ClassInstanceCreation InfixExpression SimpleName user
+kdc SimpleName MethodInvocation ClassInstanceCreation InfixExpression StringLiteral keytab
+get keytab dir SimpleName MethodInvocation ClassInstanceCreation InfixExpression SimpleName user
+get keytab dir SimpleName MethodInvocation ClassInstanceCreation InfixExpression StringLiteral keytab
+user keytab SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName file
+user keytab SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName kdc
+user keytab SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get keytab dir
+user keytab SimpleName VariableDeclarationFragment ClassInstanceCreation InfixExpression SimpleName user
+user keytab SimpleName VariableDeclarationFragment ClassInstanceCreation InfixExpression StringLiteral keytab
+file SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName user keytab
+user keytab SimpleName MethodInvocation SimpleName exists
+user keytab SimpleName MethodInvocation SimpleName delete
+kdc SimpleName MethodInvocation SimpleName create principal
+kdc SimpleName MethodInvocation SimpleName user keytab
+kdc SimpleName MethodInvocation SimpleName user
+create principal SimpleName MethodInvocation SimpleName user keytab
+create principal SimpleName MethodInvocation SimpleName user
+user keytab SimpleName MethodInvocation SimpleName user
+kdc SimpleName MethodInvocation SimpleName qualify user
+kdc SimpleName MethodInvocation SimpleName user
+qualify user SimpleName MethodInvocation SimpleName user
+user SimpleName Assignment MethodInvocation SimpleName kdc
+user SimpleName Assignment MethodInvocation SimpleName qualify user
+user SimpleName Assignment MethodInvocation SimpleName user
+user keytab SimpleName MethodInvocation SimpleName get absolute path
+user group information SimpleName MethodInvocation SimpleName login user from keytab
+user group information SimpleName MethodInvocation SimpleName user
+user group information SimpleName MethodInvocation MethodInvocation SimpleName user keytab
+user group information SimpleName MethodInvocation MethodInvocation SimpleName get absolute path
+login user from keytab SimpleName MethodInvocation SimpleName user
+login user from keytab SimpleName MethodInvocation MethodInvocation SimpleName user keytab
+login user from keytab SimpleName MethodInvocation MethodInvocation SimpleName get absolute path
+user SimpleName MethodInvocation MethodInvocation SimpleName user keytab
+user SimpleName MethodInvocation MethodInvocation SimpleName get absolute path
+token SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName kerberos token
+kerberos token SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName token
+token SimpleName MethodInvocation SimpleName get principal
+assert equals SimpleName MethodInvocation SimpleName user
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName token
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get principal
+user SimpleName MethodInvocation MethodInvocation SimpleName token
+user SimpleName MethodInvocation MethodInvocation SimpleName get principal
+token SimpleName MethodInvocation SimpleName destroy
+token SimpleName MethodInvocation SimpleName is destroyed
+assert true SimpleName MethodInvocation MethodInvocation SimpleName token
+assert true SimpleName MethodInvocation MethodInvocation SimpleName is destroyed
+token SimpleName MethodInvocation SimpleName get principal
+assert null SimpleName MethodInvocation MethodInvocation SimpleName token
+assert null SimpleName MethodInvocation MethodInvocation SimpleName get principal
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test destroy
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test destroy
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName test destroy
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+test destroy SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test destroy
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test destroy
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

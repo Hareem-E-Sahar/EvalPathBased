@@ -1,0 +1,40 @@
+collection SimpleName SimpleType ParameterizedType SimpleType SimpleName referenceable
+collection SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entities
+referenceable SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entities
+atlas json SimpleName MethodInvocation SimpleName create v array node
+entity array SimpleName VariableDeclarationFragment MethodInvocation SimpleName atlas json
+entity array SimpleName VariableDeclarationFragment MethodInvocation SimpleName create v array node
+array node SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName entity array
+referenceable SimpleName SimpleType SingleVariableDeclaration SimpleName entity
+atlas type SimpleName MethodInvocation SimpleName to v json
+atlas type SimpleName MethodInvocation SimpleName entity
+to v json SimpleName MethodInvocation SimpleName entity
+entity array SimpleName MethodInvocation SimpleName add
+entity array SimpleName MethodInvocation MethodInvocation SimpleName atlas type
+entity array SimpleName MethodInvocation MethodInvocation SimpleName to v json
+entity array SimpleName MethodInvocation MethodInvocation SimpleName entity
+add SimpleName MethodInvocation MethodInvocation SimpleName atlas type
+add SimpleName MethodInvocation MethodInvocation SimpleName to v json
+add SimpleName MethodInvocation MethodInvocation SimpleName entity
+referenceable SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName entities
+entity SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName entities
+entities SimpleName EnhancedForStatement Block ReturnStatement SimpleName entity array
+private Modifier MethodDeclaration SimpleType SimpleName array node
+private Modifier MethodDeclaration SimpleName get entities array
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName entities
+private Modifier MethodDeclaration Block EnhancedForStatement SimpleName entities
+private Modifier MethodDeclaration Block ReturnStatement SimpleName entity array
+array node SimpleName SimpleType MethodDeclaration SimpleName get entities array
+array node SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName entities
+get entities array SimpleName MethodDeclaration SingleVariableDeclaration SimpleName entities
+get entities array SimpleName MethodDeclaration Block EnhancedForStatement SimpleName entities
+get entities array SimpleName MethodDeclaration Block ReturnStatement SimpleName entity array
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName array node
+public Modifier TypeDeclaration MethodDeclaration SimpleName get entities array
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entities
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName array node
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get entities array
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entities

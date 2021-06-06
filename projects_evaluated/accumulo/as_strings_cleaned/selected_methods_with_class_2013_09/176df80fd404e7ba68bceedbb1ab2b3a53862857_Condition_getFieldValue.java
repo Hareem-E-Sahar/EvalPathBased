@@ -1,0 +1,34 @@
+fields SimpleName SimpleType SingleVariableDeclaration SimpleName field
+long SimpleName MethodInvocation SimpleName value of
+long SimpleName MethodInvocation MethodInvocation SimpleName get timestamp
+value of SimpleName MethodInvocation MethodInvocation SimpleName get timestamp
+field SimpleName SwitchStatement SwitchCase SimpleName column
+field SimpleName SwitchStatement ReturnStatement MethodInvocation SimpleName get column
+field SimpleName SwitchStatement SwitchCase SimpleName timestamp
+field SimpleName SwitchStatement ReturnStatement MethodInvocation SimpleName long
+field SimpleName SwitchStatement ReturnStatement MethodInvocation SimpleName value of
+field SimpleName SwitchStatement SwitchCase SimpleName value
+column SimpleName SwitchCase SwitchStatement SwitchCase SimpleName timestamp
+column SimpleName SwitchCase SwitchStatement SwitchCase SimpleName value
+timestamp SimpleName SwitchCase SwitchStatement SwitchCase SimpleName value
+timestamp SimpleName SwitchCase SwitchStatement SwitchCase SimpleName iterators
+value SimpleName SwitchCase SwitchStatement SwitchCase SimpleName iterators
+public Modifier MethodDeclaration SimpleType SimpleName object
+public Modifier MethodDeclaration SimpleName get field value
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName fields
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName field
+public Modifier MethodDeclaration Block SwitchStatement SimpleName field
+object SimpleName SimpleType MethodDeclaration SimpleName get field value
+object SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName field
+get field value SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName fields
+get field value SimpleName MethodDeclaration SingleVariableDeclaration SimpleName field
+get field value SimpleName MethodDeclaration Block SwitchStatement SimpleName field
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName object
+public Modifier TypeDeclaration MethodDeclaration SimpleName get field value
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName field
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName object
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get field value
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName field

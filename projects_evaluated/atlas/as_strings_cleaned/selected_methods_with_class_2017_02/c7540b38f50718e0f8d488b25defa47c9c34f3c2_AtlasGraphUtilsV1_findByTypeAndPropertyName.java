@@ -1,0 +1,130 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName type name
+string SimpleName SimpleType SingleVariableDeclaration SimpleName property name
+object SimpleName SimpleType SingleVariableDeclaration SimpleName attr val
+atlas graph provider SimpleName MethodInvocation SimpleName get graph instance
+atlas graph provider SimpleName MethodInvocation MethodInvocation SimpleName query
+get graph instance SimpleName MethodInvocation MethodInvocation SimpleName query
+atlas graph provider SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName has
+get graph instance SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName has
+query SimpleName MethodInvocation MethodInvocation SimpleName has
+atlas graph provider SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName constantsentity type property key
+get graph instance SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName constantsentity type property key
+query SimpleName MethodInvocation MethodInvocation QualifiedName constantsentity type property key
+atlas graph provider SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName type name
+get graph instance SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName type name
+query SimpleName MethodInvocation MethodInvocation SimpleName type name
+has SimpleName MethodInvocation QualifiedName constantsentity type property key
+has SimpleName MethodInvocation SimpleName type name
+constantsentity type property key QualifiedName MethodInvocation SimpleName type name
+atlas entitystatusactive QualifiedName MethodInvocation SimpleName name
+query SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName has
+has SimpleName MethodInvocation MethodInvocation SimpleName has
+constantsentity type property key QualifiedName MethodInvocation MethodInvocation SimpleName has
+type name SimpleName MethodInvocation MethodInvocation SimpleName has
+query SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName constantsstate property key
+has SimpleName MethodInvocation MethodInvocation QualifiedName constantsstate property key
+constantsentity type property key QualifiedName MethodInvocation MethodInvocation QualifiedName constantsstate property key
+type name SimpleName MethodInvocation MethodInvocation QualifiedName constantsstate property key
+has SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName atlas entitystatusactive
+has SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName name
+constantsentity type property key QualifiedName MethodInvocation MethodInvocation MethodInvocation QualifiedName atlas entitystatusactive
+constantsentity type property key QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName name
+type name SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName atlas entitystatusactive
+type name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName name
+has SimpleName MethodInvocation QualifiedName constantsstate property key
+has SimpleName MethodInvocation MethodInvocation QualifiedName atlas entitystatusactive
+has SimpleName MethodInvocation MethodInvocation SimpleName name
+constantsstate property key QualifiedName MethodInvocation MethodInvocation QualifiedName atlas entitystatusactive
+constantsstate property key QualifiedName MethodInvocation MethodInvocation SimpleName name
+has SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName has
+constantsentity type property key QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName has
+type name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName has
+has SimpleName MethodInvocation MethodInvocation SimpleName has
+constantsstate property key QualifiedName MethodInvocation MethodInvocation SimpleName has
+atlas entitystatusactive QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName has
+name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName has
+has SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName property name
+constantsentity type property key QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName property name
+type name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName property name
+has SimpleName MethodInvocation MethodInvocation SimpleName property name
+constantsstate property key QualifiedName MethodInvocation MethodInvocation SimpleName property name
+atlas entitystatusactive QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName property name
+name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName property name
+has SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName attr val
+constantsentity type property key QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName attr val
+type name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName attr val
+has SimpleName MethodInvocation MethodInvocation SimpleName attr val
+constantsstate property key QualifiedName MethodInvocation MethodInvocation SimpleName attr val
+atlas entitystatusactive QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName attr val
+name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName attr val
+has SimpleName MethodInvocation SimpleName property name
+has SimpleName MethodInvocation SimpleName attr val
+property name SimpleName MethodInvocation SimpleName attr val
+query SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName has
+query SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation QualifiedName constantsstate property key
+query SimpleName VariableDeclarationFragment MethodInvocation SimpleName has
+query SimpleName VariableDeclarationFragment MethodInvocation SimpleName property name
+query SimpleName VariableDeclarationFragment MethodInvocation SimpleName attr val
+atlas graph query SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName query
+iterator SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas vertex
+query SimpleName MethodInvocation SimpleName vertices
+query SimpleName MethodInvocation MethodInvocation SimpleName iterator
+vertices SimpleName MethodInvocation MethodInvocation SimpleName iterator
+results SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName query
+results SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName vertices
+results SimpleName VariableDeclarationFragment MethodInvocation SimpleName iterator
+results SimpleName MethodInvocation SimpleName has next
+results SimpleName MethodInvocation SimpleName next
+results SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName results
+results SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName next
+has next SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName results
+has next SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName next
+vertex SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation SimpleName results
+vertex SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation SimpleName has next
+vertex SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation SimpleName results
+vertex SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation SimpleName next
+atlas vertex SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName vertex
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName atlas vertex
+public Modifier MethodDeclaration SimpleName find by type and property name
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName type name
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName property name
+static Modifier MethodDeclaration SimpleType SimpleName atlas vertex
+static Modifier MethodDeclaration SimpleName find by type and property name
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName type name
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName property name
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName attr val
+atlas vertex SimpleName SimpleType MethodDeclaration SimpleName find by type and property name
+atlas vertex SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName type name
+atlas vertex SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName property name
+atlas vertex SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName attr val
+find by type and property name SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+find by type and property name SimpleName MethodDeclaration SingleVariableDeclaration SimpleName type name
+find by type and property name SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+find by type and property name SimpleName MethodDeclaration SingleVariableDeclaration SimpleName property name
+find by type and property name SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+find by type and property name SimpleName MethodDeclaration SingleVariableDeclaration SimpleName attr val
+find by type and property name SimpleName MethodDeclaration Block ReturnStatement SimpleName vertex
+type name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName property name
+type name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attr val
+property name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attr val
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas vertex
+public Modifier TypeDeclaration MethodDeclaration SimpleName find by type and property name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName property name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attr val
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas vertex
+test SimpleName TypeDeclaration MethodDeclaration SimpleName find by type and property name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName property name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attr val

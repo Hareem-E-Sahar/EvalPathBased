@@ -1,0 +1,19 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas type permission
+list SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName type permissions
+atlas type permission SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName type permissions
+type permissions SimpleName FieldAccess Assignment SimpleName type permissions
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set type permissions
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName type permissions
+void PrimitiveType MethodDeclaration SimpleName set type permissions
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName type permissions
+set type permissions SimpleName MethodDeclaration SingleVariableDeclaration SimpleName type permissions
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set type permissions
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type permissions
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set type permissions
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type permissions

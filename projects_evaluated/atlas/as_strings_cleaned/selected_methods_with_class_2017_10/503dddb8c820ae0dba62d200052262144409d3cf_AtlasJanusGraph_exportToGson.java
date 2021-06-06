@@ -1,0 +1,64 @@
+output stream SimpleName SimpleType SingleVariableDeclaration SimpleName os
+io core SimpleName MethodInvocation SimpleName graphson
+get graph SimpleName MethodInvocation MethodInvocation SimpleName io
+get graph SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName io core
+get graph SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName graphson
+io SimpleName MethodInvocation MethodInvocation SimpleName io core
+io SimpleName MethodInvocation MethodInvocation SimpleName graphson
+get graph SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName mapper
+io SimpleName MethodInvocation MethodInvocation SimpleName mapper
+io core SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName mapper
+graphson SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName mapper
+io SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName create
+mapper SimpleName MethodInvocation MethodInvocation SimpleName create
+mapper SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName mapper
+mapper SimpleName VariableDeclarationFragment MethodInvocation SimpleName create
+graph son mapper SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName mapper
+graph son writer SimpleName MethodInvocation SimpleName build
+builder SimpleName VariableDeclarationFragment MethodInvocation SimpleName graph son writer
+builder SimpleName VariableDeclarationFragment MethodInvocation SimpleName build
+graph son writerbuilder QualifiedName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName builder
+builder SimpleName MethodInvocation SimpleName mapper
+builder SimpleName MethodInvocation SimpleName mapper
+mapper SimpleName MethodInvocation SimpleName mapper
+builder SimpleName MethodInvocation SimpleName create
+writer SimpleName VariableDeclarationFragment MethodInvocation SimpleName builder
+writer SimpleName VariableDeclarationFragment MethodInvocation SimpleName create
+graph son writer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName writer
+writer SimpleName MethodInvocation SimpleName write graph
+writer SimpleName MethodInvocation SimpleName os
+writer SimpleName MethodInvocation MethodInvocation SimpleName get graph
+write graph SimpleName MethodInvocation SimpleName os
+write graph SimpleName MethodInvocation MethodInvocation SimpleName get graph
+os SimpleName MethodInvocation MethodInvocation SimpleName get graph
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName export to gson
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName os
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName io exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName export to gson
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName output stream
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName os
+public Modifier MethodDeclaration SimpleType SimpleName io exception
+void PrimitiveType MethodDeclaration SimpleName export to gson
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName output stream
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName os
+void PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+export to gson SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName output stream
+export to gson SimpleName MethodDeclaration SingleVariableDeclaration SimpleName os
+export to gson SimpleName MethodDeclaration SimpleType SimpleName io exception
+os SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName export to gson
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName os
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName export to gson
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName os
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

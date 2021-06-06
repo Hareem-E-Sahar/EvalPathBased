@@ -1,0 +1,24 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName key
+state map SimpleName MethodInvocation SimpleName get
+state map SimpleName MethodInvocation SimpleName key
+get SimpleName MethodInvocation SimpleName key
+long SimpleName SimpleType CastExpression MethodInvocation SimpleName state map
+long SimpleName SimpleType CastExpression MethodInvocation SimpleName get
+long SimpleName SimpleType CastExpression MethodInvocation SimpleName key
+public Modifier MethodDeclaration SimpleType SimpleName long
+public Modifier MethodDeclaration SimpleName get long
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName key
+long SimpleName SimpleType MethodDeclaration SimpleName get long
+long SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName key
+get long SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get long SimpleName MethodDeclaration SingleVariableDeclaration SimpleName key
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName long
+public Modifier TypeDeclaration MethodDeclaration SimpleName get long
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName key
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName long
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get long
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName key

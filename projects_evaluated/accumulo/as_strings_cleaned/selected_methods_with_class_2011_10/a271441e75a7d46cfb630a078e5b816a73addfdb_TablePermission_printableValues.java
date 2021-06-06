@@ -1,0 +1,43 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+table permission SimpleName MethodInvocation SimpleName values
+a SimpleName VariableDeclarationFragment MethodInvocation SimpleName table permission
+a SimpleName VariableDeclarationFragment MethodInvocation SimpleName values
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+array list SimpleName SimpleType ParameterizedType ClassInstanceCreation QualifiedName alength
+string SimpleName SimpleType ParameterizedType ClassInstanceCreation QualifiedName alength
+list SimpleName VariableDeclarationFragment ClassInstanceCreation QualifiedName alength
+table permission SimpleName SimpleType SingleVariableDeclaration SimpleName p
+table StringLiteral InfixExpression SimpleName p
+list SimpleName MethodInvocation SimpleName add
+list SimpleName MethodInvocation InfixExpression StringLiteral table
+list SimpleName MethodInvocation InfixExpression SimpleName p
+add SimpleName MethodInvocation InfixExpression StringLiteral table
+add SimpleName MethodInvocation InfixExpression SimpleName p
+table permission SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName a
+p SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName a
+a SimpleName EnhancedForStatement ExpressionStatement MethodInvocation SimpleName list
+a SimpleName EnhancedForStatement ExpressionStatement MethodInvocation SimpleName add
+a SimpleName EnhancedForStatement Block ReturnStatement SimpleName list
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName printable values
+public Modifier MethodDeclaration Block EnhancedForStatement SimpleName a
+public Modifier MethodDeclaration Block ReturnStatement SimpleName list
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+static Modifier MethodDeclaration SimpleName printable values
+static Modifier MethodDeclaration Block EnhancedForStatement SimpleName a
+static Modifier MethodDeclaration Block ReturnStatement SimpleName list
+list SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName printable values
+string SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName printable values
+printable values SimpleName MethodDeclaration Block EnhancedForStatement SimpleName a
+printable values SimpleName MethodDeclaration Block ReturnStatement SimpleName list
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleName printable values
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleName printable values

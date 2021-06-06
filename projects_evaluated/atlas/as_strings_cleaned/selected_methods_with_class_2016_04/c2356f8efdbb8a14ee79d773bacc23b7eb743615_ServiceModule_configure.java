@@ -1,0 +1,45 @@
+multibinder SimpleName SimpleType ParameterizedType SimpleType SimpleName service
+multibinder SimpleName MethodInvocation SimpleName new set binder
+multibinder SimpleName MethodInvocation MethodInvocation SimpleName binder
+multibinder SimpleName MethodInvocation TypeLiteral SimpleType SimpleName service
+new set binder SimpleName MethodInvocation MethodInvocation SimpleName binder
+new set binder SimpleName MethodInvocation TypeLiteral SimpleType SimpleName service
+service binder SimpleName VariableDeclarationFragment MethodInvocation SimpleName multibinder
+service binder SimpleName VariableDeclarationFragment MethodInvocation SimpleName new set binder
+service binder SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName binder
+service binder SimpleName MethodInvocation SimpleName add binding
+service binder SimpleName MethodInvocation MethodInvocation SimpleName to
+add binding SimpleName MethodInvocation MethodInvocation SimpleName to
+to SimpleName MethodInvocation TypeLiteral SimpleType SimpleName kafka notification
+service binder SimpleName MethodInvocation SimpleName add binding
+service binder SimpleName MethodInvocation MethodInvocation SimpleName to
+add binding SimpleName MethodInvocation MethodInvocation SimpleName to
+to SimpleName MethodInvocation TypeLiteral SimpleType SimpleName notification hook consumer
+multibinder SimpleName SimpleType ParameterizedType SimpleType SimpleName entity change listener
+multibinder SimpleName MethodInvocation SimpleName new set binder
+multibinder SimpleName MethodInvocation MethodInvocation SimpleName binder
+multibinder SimpleName MethodInvocation TypeLiteral SimpleType SimpleName entity change listener
+new set binder SimpleName MethodInvocation MethodInvocation SimpleName binder
+new set binder SimpleName MethodInvocation TypeLiteral SimpleType SimpleName entity change listener
+entity change listener binder SimpleName VariableDeclarationFragment MethodInvocation SimpleName multibinder
+entity change listener binder SimpleName VariableDeclarationFragment MethodInvocation SimpleName new set binder
+entity change listener binder SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName binder
+entity change listener binder SimpleName MethodInvocation SimpleName add binding
+entity change listener binder SimpleName MethodInvocation MethodInvocation SimpleName to
+add binding SimpleName MethodInvocation MethodInvocation SimpleName to
+to SimpleName MethodInvocation TypeLiteral SimpleType SimpleName notification entity change listener
+override SimpleName MarkerAnnotation MethodDeclaration Modifier protected
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName configure
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName configure
+void PrimitiveType MethodDeclaration SimpleName configure
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName configure
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName configure

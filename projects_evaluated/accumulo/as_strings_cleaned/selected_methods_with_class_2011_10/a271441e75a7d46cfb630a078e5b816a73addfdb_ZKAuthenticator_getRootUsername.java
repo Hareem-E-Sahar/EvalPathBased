@@ -1,0 +1,28 @@
+zoo cache SimpleName MethodInvocation SimpleName get
+zoo cache SimpleName MethodInvocation SimpleName zk user path
+get SimpleName MethodInvocation SimpleName zk user path
+string SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName zoo cache
+string SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get
+string SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName zk user path
+root user name SimpleName Assignment ClassInstanceCreation SimpleType SimpleName string
+root user name SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName zoo cache
+root user name SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName get
+root user name SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName zk user path
+public Modifier MethodDeclaration Modifier synchronized
+public Modifier MethodDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName get root username
+public Modifier MethodDeclaration Block ReturnStatement SimpleName root user name
+synchronized Modifier MethodDeclaration SimpleType SimpleName string
+synchronized Modifier MethodDeclaration SimpleName get root username
+synchronized Modifier MethodDeclaration Block ReturnStatement SimpleName root user name
+string SimpleName SimpleType MethodDeclaration SimpleName get root username
+get root username SimpleName MethodDeclaration Block ReturnStatement SimpleName root user name
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier synchronized
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName get root username
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier synchronized
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get root username

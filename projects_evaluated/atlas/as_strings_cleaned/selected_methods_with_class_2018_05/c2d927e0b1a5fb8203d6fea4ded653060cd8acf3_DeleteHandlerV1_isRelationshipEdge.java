@@ -1,0 +1,69 @@
+atlas edge SimpleName SimpleType SingleVariableDeclaration SimpleName edge
+ret SimpleName VariableDeclarationFragment BooleanLiteral false
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName ret
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment BooleanLiteral false
+edge SimpleName MethodInvocation SimpleName get out vertex
+get type name SimpleName MethodInvocation MethodInvocation SimpleName edge
+get type name SimpleName MethodInvocation MethodInvocation SimpleName get out vertex
+out vertex type SimpleName VariableDeclarationFragment MethodInvocation SimpleName get type name
+out vertex type SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName edge
+out vertex type SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get out vertex
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName out vertex type
+edge SimpleName MethodInvocation SimpleName get in vertex
+get type name SimpleName MethodInvocation MethodInvocation SimpleName edge
+get type name SimpleName MethodInvocation MethodInvocation SimpleName get in vertex
+in vertex type SimpleName VariableDeclarationFragment MethodInvocation SimpleName get type name
+in vertex type SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName edge
+in vertex type SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get in vertex
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName in vertex type
+graph helper SimpleName MethodInvocation SimpleName is relationship edge
+graph helper SimpleName MethodInvocation SimpleName edge
+is relationship edge SimpleName MethodInvocation SimpleName edge
+edge SimpleName MethodInvocation SimpleName get property keys
+edge SimpleName MethodInvocation MethodInvocation SimpleName contains
+get property keys SimpleName MethodInvocation MethodInvocation SimpleName contains
+edge SimpleName MethodInvocation MethodInvocation SimpleName relationship guid property key
+get property keys SimpleName MethodInvocation MethodInvocation SimpleName relationship guid property key
+contains SimpleName MethodInvocation SimpleName relationship guid property key
+type registry SimpleName MethodInvocation SimpleName get entity type by name
+type registry SimpleName MethodInvocation SimpleName out vertex type
+get entity type by name SimpleName MethodInvocation SimpleName out vertex type
+type registry SimpleName MethodInvocation SimpleName get entity type by name
+type registry SimpleName MethodInvocation SimpleName in vertex type
+get entity type by name SimpleName MethodInvocation SimpleName in vertex type
+graph helper SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName contains
+graph helper SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName relationship guid property key
+is relationship edge SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName contains
+is relationship edge SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName relationship guid property key
+edge SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName contains
+edge SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName relationship guid property key
+ret SimpleName Assignment InfixExpression MethodInvocation SimpleName graph helper
+ret SimpleName Assignment InfixExpression MethodInvocation SimpleName is relationship edge
+ret SimpleName Assignment InfixExpression MethodInvocation SimpleName edge
+ret SimpleName Assignment InfixExpression MethodInvocation SimpleName contains
+ret SimpleName Assignment InfixExpression MethodInvocation SimpleName relationship guid property key
+boolean PrimitiveType VariableDeclarationStatement Block ReturnStatement SimpleName ret
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName is relationship edge
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas edge
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName edge
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+public Modifier MethodDeclaration Block ReturnStatement SimpleName ret
+boolean PrimitiveType MethodDeclaration SimpleName is relationship edge
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas edge
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName edge
+boolean PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+boolean PrimitiveType MethodDeclaration Block ReturnStatement SimpleName ret
+is relationship edge SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas edge
+is relationship edge SimpleName MethodDeclaration SingleVariableDeclaration SimpleName edge
+is relationship edge SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+is relationship edge SimpleName MethodDeclaration Block ReturnStatement SimpleName ret
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName is relationship edge
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName edge
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName is relationship edge
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName edge

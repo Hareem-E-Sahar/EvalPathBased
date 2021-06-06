@@ -1,0 +1,189 @@
+depends on methods SimpleName MemberValuePair StringLiteral test submit entity
+test SimpleName NormalAnnotation MemberValuePair SimpleName depends on methods
+test SimpleName NormalAnnotation MemberValuePair StringLiteral test submit entity
+sleep interval SimpleName VariableDeclarationFragment NumberLiteral empty
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName sleep interval
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+graph provider SimpleName MethodInvocation SimpleName get
+test utils SimpleName MethodInvocation SimpleName dump graph
+test utils SimpleName MethodInvocation MethodInvocation SimpleName graph provider
+test utils SimpleName MethodInvocation MethodInvocation SimpleName get
+dump graph SimpleName MethodInvocation MethodInvocation SimpleName graph provider
+dump graph SimpleName MethodInvocation MethodInvocation SimpleName get
+thread SimpleName MethodInvocation SimpleName sleep
+thread SimpleName MethodInvocation SimpleName sleep interval
+sleep SimpleName MethodInvocation SimpleName sleep interval
+discovery service SimpleName MethodInvocation SimpleName search by full text
+discovery service SimpleName MethodInvocation StringLiteral john
+search by full text SimpleName MethodInvocation StringLiteral john
+response SimpleName VariableDeclarationFragment MethodInvocation SimpleName discovery service
+response SimpleName VariableDeclarationFragment MethodInvocation SimpleName search by full text
+response SimpleName VariableDeclarationFragment MethodInvocation StringLiteral john
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName response
+assert SimpleName MethodInvocation SimpleName assert not null
+assert SimpleName MethodInvocation SimpleName response
+assert not null SimpleName MethodInvocation SimpleName response
+json array SimpleName SimpleType ClassInstanceCreation SimpleName response
+results SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName json array
+results SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName response
+json array SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName results
+results SimpleName MethodInvocation SimpleName length
+assert SimpleName MethodInvocation SimpleName assert equals
+assert SimpleName MethodInvocation MethodInvocation SimpleName results
+assert SimpleName MethodInvocation MethodInvocation SimpleName length
+assert SimpleName MethodInvocation NumberLiteral empty
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName results
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName length
+assert equals SimpleName MethodInvocation NumberLiteral empty
+results SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+length SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+results SimpleName MethodInvocation SimpleName get
+results SimpleName MethodInvocation NumberLiteral empty
+get SimpleName MethodInvocation NumberLiteral empty
+json object SimpleName SimpleType CastExpression MethodInvocation SimpleName results
+json object SimpleName SimpleType CastExpression MethodInvocation SimpleName get
+json object SimpleName SimpleType CastExpression MethodInvocation NumberLiteral empty
+row SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName json object
+row SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName results
+row SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get
+row SimpleName VariableDeclarationFragment CastExpression MethodInvocation NumberLiteral empty
+json object SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName row
+row SimpleName MethodInvocation SimpleName get
+row SimpleName MethodInvocation StringLiteral type name
+get SimpleName MethodInvocation StringLiteral type name
+assert SimpleName MethodInvocation SimpleName assert equals
+assert SimpleName MethodInvocation MethodInvocation SimpleName row
+assert SimpleName MethodInvocation MethodInvocation SimpleName get
+assert SimpleName MethodInvocation MethodInvocation StringLiteral type name
+assert SimpleName MethodInvocation StringLiteral person
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName row
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get
+assert equals SimpleName MethodInvocation MethodInvocation StringLiteral type name
+assert equals SimpleName MethodInvocation StringLiteral person
+row SimpleName MethodInvocation MethodInvocation StringLiteral person
+get SimpleName MethodInvocation MethodInvocation StringLiteral person
+type name StringLiteral MethodInvocation MethodInvocation StringLiteral person
+discovery service SimpleName MethodInvocation SimpleName search by full text
+discovery service SimpleName MethodInvocation StringLiteral jane and santa and clara
+search by full text SimpleName MethodInvocation StringLiteral jane and santa and clara
+response SimpleName Assignment MethodInvocation SimpleName discovery service
+response SimpleName Assignment MethodInvocation SimpleName search by full text
+response SimpleName Assignment MethodInvocation StringLiteral jane and santa and clara
+assert SimpleName MethodInvocation SimpleName assert not null
+assert SimpleName MethodInvocation SimpleName response
+assert not null SimpleName MethodInvocation SimpleName response
+json array SimpleName SimpleType ClassInstanceCreation SimpleName response
+results SimpleName Assignment ClassInstanceCreation SimpleType SimpleName json array
+results SimpleName Assignment ClassInstanceCreation SimpleName response
+results SimpleName MethodInvocation SimpleName length
+assert SimpleName MethodInvocation SimpleName assert equals
+assert SimpleName MethodInvocation MethodInvocation SimpleName results
+assert SimpleName MethodInvocation MethodInvocation SimpleName length
+assert SimpleName MethodInvocation NumberLiteral empty
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName results
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName length
+assert equals SimpleName MethodInvocation NumberLiteral empty
+results SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+length SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+results SimpleName MethodInvocation SimpleName get
+results SimpleName MethodInvocation NumberLiteral empty
+get SimpleName MethodInvocation NumberLiteral empty
+json object SimpleName SimpleType CastExpression MethodInvocation SimpleName results
+json object SimpleName SimpleType CastExpression MethodInvocation SimpleName get
+json object SimpleName SimpleType CastExpression MethodInvocation NumberLiteral empty
+row SimpleName Assignment CastExpression SimpleType SimpleName json object
+row SimpleName Assignment CastExpression MethodInvocation SimpleName results
+row SimpleName Assignment CastExpression MethodInvocation SimpleName get
+row SimpleName Assignment CastExpression MethodInvocation NumberLiteral empty
+row SimpleName MethodInvocation SimpleName get
+row SimpleName MethodInvocation StringLiteral type name
+get SimpleName MethodInvocation StringLiteral type name
+assert SimpleName MethodInvocation SimpleName assert equals
+assert SimpleName MethodInvocation MethodInvocation SimpleName row
+assert SimpleName MethodInvocation MethodInvocation SimpleName get
+assert SimpleName MethodInvocation MethodInvocation StringLiteral type name
+assert SimpleName MethodInvocation StringLiteral manager
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName row
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get
+assert equals SimpleName MethodInvocation MethodInvocation StringLiteral type name
+assert equals SimpleName MethodInvocation StringLiteral manager
+row SimpleName MethodInvocation MethodInvocation StringLiteral manager
+get SimpleName MethodInvocation MethodInvocation StringLiteral manager
+type name StringLiteral MethodInvocation MethodInvocation StringLiteral manager
+discovery service SimpleName MethodInvocation SimpleName search by full text
+discovery service SimpleName MethodInvocation StringLiteral hr and john or jahn
+search by full text SimpleName MethodInvocation StringLiteral hr and john or jahn
+response SimpleName Assignment MethodInvocation SimpleName discovery service
+response SimpleName Assignment MethodInvocation SimpleName search by full text
+response SimpleName Assignment MethodInvocation StringLiteral hr and john or jahn
+assert SimpleName MethodInvocation SimpleName assert not null
+assert SimpleName MethodInvocation SimpleName response
+assert not null SimpleName MethodInvocation SimpleName response
+json array SimpleName SimpleType ClassInstanceCreation SimpleName response
+results SimpleName Assignment ClassInstanceCreation SimpleType SimpleName json array
+results SimpleName Assignment ClassInstanceCreation SimpleName response
+results SimpleName MethodInvocation SimpleName length
+assert SimpleName MethodInvocation SimpleName assert equals
+assert SimpleName MethodInvocation MethodInvocation SimpleName results
+assert SimpleName MethodInvocation MethodInvocation SimpleName length
+assert SimpleName MethodInvocation NumberLiteral empty
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName results
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName length
+assert equals SimpleName MethodInvocation NumberLiteral empty
+results SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+length SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+results SimpleName MethodInvocation SimpleName get
+results SimpleName MethodInvocation NumberLiteral empty
+get SimpleName MethodInvocation NumberLiteral empty
+json object SimpleName SimpleType CastExpression MethodInvocation SimpleName results
+json object SimpleName SimpleType CastExpression MethodInvocation SimpleName get
+json object SimpleName SimpleType CastExpression MethodInvocation NumberLiteral empty
+row SimpleName Assignment CastExpression SimpleType SimpleName json object
+row SimpleName Assignment CastExpression MethodInvocation SimpleName results
+row SimpleName Assignment CastExpression MethodInvocation SimpleName get
+row SimpleName Assignment CastExpression MethodInvocation NumberLiteral empty
+row SimpleName MethodInvocation SimpleName get
+row SimpleName MethodInvocation StringLiteral type name
+get SimpleName MethodInvocation StringLiteral type name
+assert SimpleName MethodInvocation SimpleName assert equals
+assert SimpleName MethodInvocation MethodInvocation SimpleName row
+assert SimpleName MethodInvocation MethodInvocation SimpleName get
+assert SimpleName MethodInvocation MethodInvocation StringLiteral type name
+assert SimpleName MethodInvocation StringLiteral person
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName row
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get
+assert equals SimpleName MethodInvocation MethodInvocation StringLiteral type name
+assert equals SimpleName MethodInvocation StringLiteral person
+row SimpleName MethodInvocation MethodInvocation StringLiteral person
+get SimpleName MethodInvocation MethodInvocation StringLiteral person
+type name StringLiteral MethodInvocation MethodInvocation StringLiteral person
+test SimpleName NormalAnnotation MethodDeclaration Modifier public
+depends on methods SimpleName MemberValuePair NormalAnnotation MethodDeclaration Modifier public
+test submit entity StringLiteral MemberValuePair NormalAnnotation MethodDeclaration Modifier public
+test SimpleName NormalAnnotation MethodDeclaration PrimitiveType void
+depends on methods SimpleName MemberValuePair NormalAnnotation MethodDeclaration PrimitiveType void
+test submit entity StringLiteral MemberValuePair NormalAnnotation MethodDeclaration PrimitiveType void
+test SimpleName NormalAnnotation MethodDeclaration SimpleName test full text search
+depends on methods SimpleName MemberValuePair NormalAnnotation MethodDeclaration SimpleName test full text search
+test submit entity StringLiteral MemberValuePair NormalAnnotation MethodDeclaration SimpleName test full text search
+test SimpleName NormalAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test full text search
+public Modifier MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+void PrimitiveType MethodDeclaration SimpleName test full text search
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+test full text search SimpleName MethodDeclaration SimpleType SimpleName exception
+test full text search SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration NormalAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test full text search
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration NormalAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test full text search
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

@@ -1,0 +1,109 @@
+sorted set SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+sorted set SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName candidates
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName candidates
+hash set SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+hash set SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType SingleVariableDeclaration SimpleName delete
+is dir SimpleName MethodInvocation SimpleName delete
+delete SimpleName MethodInvocation SimpleName split
+delete SimpleName MethodInvocation StringLiteral /
+split SimpleName MethodInvocation StringLiteral /
+delete SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+split SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+/ StringLiteral MethodInvocation ArrayAccess NumberLiteral empty
+table id SimpleName VariableDeclarationFragment ArrayAccess MethodInvocation SimpleName delete
+table id SimpleName VariableDeclarationFragment ArrayAccess MethodInvocation SimpleName split
+table id SimpleName VariableDeclarationFragment ArrayAccess MethodInvocation StringLiteral /
+table id SimpleName VariableDeclarationFragment ArrayAccess NumberLiteral empty
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName table id
+table ids with deletes SimpleName MethodInvocation SimpleName add
+table ids with deletes SimpleName MethodInvocation SimpleName table id
+add SimpleName MethodInvocation SimpleName table id
+string SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName candidates
+delete SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName candidates
+tables SimpleName MethodInvocation SimpleName clear cache
+tables SimpleName MethodInvocation SimpleName instance
+clear cache SimpleName MethodInvocation SimpleName instance
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+tables SimpleName MethodInvocation SimpleName get id to name map
+tables SimpleName MethodInvocation SimpleName instance
+get id to name map SimpleName MethodInvocation SimpleName instance
+tables SimpleName MethodInvocation MethodInvocation SimpleName key set
+get id to name map SimpleName MethodInvocation MethodInvocation SimpleName key set
+instance SimpleName MethodInvocation MethodInvocation SimpleName key set
+table ids in zookeeper SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName tables
+table ids in zookeeper SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get id to name map
+table ids in zookeeper SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName instance
+table ids in zookeeper SimpleName VariableDeclarationFragment MethodInvocation SimpleName key set
+table ids with deletes SimpleName MethodInvocation SimpleName remove all
+table ids with deletes SimpleName MethodInvocation SimpleName table ids in zookeeper
+remove all SimpleName MethodInvocation SimpleName table ids in zookeeper
+string SimpleName SimpleType SingleVariableDeclaration SimpleName del table id
+server constants SimpleName MethodInvocation SimpleName get tables dir
+server constants SimpleName MethodInvocation InfixExpression StringLiteral /
+get tables dir SimpleName MethodInvocation InfixExpression StringLiteral /
+server constants SimpleName MethodInvocation InfixExpression SimpleName del table id
+get tables dir SimpleName MethodInvocation InfixExpression SimpleName del table id
+/ StringLiteral InfixExpression SimpleName del table id
+path SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral /
+path SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName del table id
+fs SimpleName MethodInvocation SimpleName list status
+fs SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName path
+fs SimpleName MethodInvocation ClassInstanceCreation InfixExpression StringLiteral /
+fs SimpleName MethodInvocation ClassInstanceCreation InfixExpression SimpleName del table id
+list status SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName path
+list status SimpleName MethodInvocation ClassInstanceCreation InfixExpression StringLiteral /
+list status SimpleName MethodInvocation ClassInstanceCreation InfixExpression SimpleName del table id
+tablet dirs SimpleName VariableDeclarationFragment MethodInvocation SimpleName fs
+tablet dirs SimpleName VariableDeclarationFragment MethodInvocation SimpleName list status
+tablet dirslength QualifiedName InfixExpression NumberLiteral empty
+server constants SimpleName MethodInvocation SimpleName get tables dir
+server constants SimpleName MethodInvocation InfixExpression StringLiteral /
+get tables dir SimpleName MethodInvocation InfixExpression StringLiteral /
+server constants SimpleName MethodInvocation InfixExpression SimpleName del table id
+get tables dir SimpleName MethodInvocation InfixExpression SimpleName del table id
+/ StringLiteral InfixExpression SimpleName del table id
+path SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral /
+path SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName del table id
+fs SimpleName MethodInvocation SimpleName delete
+fs SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName path
+fs SimpleName MethodInvocation ClassInstanceCreation InfixExpression StringLiteral /
+fs SimpleName MethodInvocation ClassInstanceCreation InfixExpression SimpleName del table id
+fs SimpleName MethodInvocation BooleanLiteral false
+delete SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName path
+delete SimpleName MethodInvocation ClassInstanceCreation InfixExpression StringLiteral /
+delete SimpleName MethodInvocation ClassInstanceCreation InfixExpression SimpleName del table id
+delete SimpleName MethodInvocation BooleanLiteral false
+path SimpleName SimpleType ClassInstanceCreation MethodInvocation BooleanLiteral false
+/ StringLiteral InfixExpression ClassInstanceCreation MethodInvocation BooleanLiteral false
+del table id SimpleName InfixExpression ClassInstanceCreation MethodInvocation BooleanLiteral false
+string SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName table ids with deletes
+del table id SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName table ids with deletes
+candidates SimpleName EnhancedForStatement Block EnhancedForStatement SimpleName table ids with deletes
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName clean up deleted table dirs
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName candidates
+private Modifier MethodDeclaration SimpleType SimpleName exception
+private Modifier MethodDeclaration Block EnhancedForStatement SimpleName candidates
+private Modifier MethodDeclaration Block EnhancedForStatement SimpleName table ids with deletes
+void PrimitiveType MethodDeclaration SimpleName clean up deleted table dirs
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName candidates
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration Block EnhancedForStatement SimpleName candidates
+void PrimitiveType MethodDeclaration Block EnhancedForStatement SimpleName table ids with deletes
+clean up deleted table dirs SimpleName MethodDeclaration SingleVariableDeclaration SimpleName candidates
+clean up deleted table dirs SimpleName MethodDeclaration SimpleType SimpleName exception
+clean up deleted table dirs SimpleName MethodDeclaration Block EnhancedForStatement SimpleName candidates
+clean up deleted table dirs SimpleName MethodDeclaration Block EnhancedForStatement SimpleName table ids with deletes
+candidates SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName clean up deleted table dirs
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName candidates
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName clean up deleted table dirs
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName candidates
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

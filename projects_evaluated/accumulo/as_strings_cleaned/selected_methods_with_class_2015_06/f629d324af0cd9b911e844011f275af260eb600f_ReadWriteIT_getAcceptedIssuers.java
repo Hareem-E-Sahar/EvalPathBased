@@ -1,0 +1,12 @@
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName get accepted issuers
+public Modifier MethodDeclaration ArrayType SimpleType SimpleName x certificate
+public Modifier MethodDeclaration SimpleName get accepted issuers
+x certificate SimpleName SimpleType ArrayType MethodDeclaration SimpleName get accepted issuers
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName get accepted issuers
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get accepted issuers

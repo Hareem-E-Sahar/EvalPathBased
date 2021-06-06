@@ -1,0 +1,51 @@
+table SimpleName SimpleType SingleVariableDeclaration SimpleName table
+ret SimpleName VariableDeclarationFragment BooleanLiteral false
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName ret
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment BooleanLiteral false
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+table SimpleName MethodInvocation SimpleName get parameters
+parameters SimpleName VariableDeclarationFragment MethodInvocation SimpleName table
+parameters SimpleName VariableDeclarationFragment MethodInvocation SimpleName get parameters
+map utils SimpleName MethodInvocation SimpleName is not empty
+map utils SimpleName MethodInvocation SimpleName parameters
+is not empty SimpleName MethodInvocation SimpleName parameters
+parameters SimpleName MethodInvocation SimpleName get
+parameters SimpleName MethodInvocation SimpleName attribute storage handler
+get SimpleName MethodInvocation SimpleName attribute storage handler
+storage handler SimpleName VariableDeclarationFragment MethodInvocation SimpleName parameters
+storage handler SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+storage handler SimpleName VariableDeclarationFragment MethodInvocation SimpleName attribute storage handler
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName storage handler
+storage handler SimpleName MethodInvocation SimpleName equals
+storage handler SimpleName MethodInvocation SimpleName hbase storage handler class
+equals SimpleName MethodInvocation SimpleName hbase storage handler class
+storage handler SimpleName InfixExpression InfixExpression MethodInvocation SimpleName storage handler
+storage handler SimpleName InfixExpression InfixExpression MethodInvocation SimpleName equals
+storage handler SimpleName InfixExpression InfixExpression MethodInvocation SimpleName hbase storage handler class
+boolean PrimitiveType VariableDeclarationStatement Block ReturnStatement SimpleName ret
+protected Modifier MethodDeclaration PrimitiveType boolean
+protected Modifier MethodDeclaration SimpleName is h base store
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName table
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName table
+protected Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+protected Modifier MethodDeclaration Block ReturnStatement SimpleName ret
+boolean PrimitiveType MethodDeclaration SimpleName is h base store
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName table
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName table
+boolean PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+boolean PrimitiveType MethodDeclaration Block ReturnStatement SimpleName ret
+is h base store SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName table
+is h base store SimpleName MethodDeclaration SingleVariableDeclaration SimpleName table
+is h base store SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+is h base store SimpleName MethodDeclaration Block ReturnStatement SimpleName ret
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName is h base store
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName is h base store
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table

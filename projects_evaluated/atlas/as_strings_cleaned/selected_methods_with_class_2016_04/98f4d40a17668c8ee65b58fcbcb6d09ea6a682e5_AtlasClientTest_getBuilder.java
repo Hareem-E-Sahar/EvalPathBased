@@ -1,0 +1,53 @@
+web resource SimpleName SimpleType SingleVariableDeclaration SimpleName resource object
+mock SimpleName MethodInvocation TypeLiteral SimpleType QualifiedName web resourcebuilder
+builder SimpleName VariableDeclarationFragment MethodInvocation SimpleName mock
+web resourcebuilder QualifiedName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName builder
+resource object SimpleName MethodInvocation SimpleName accept
+resource object SimpleName MethodInvocation QualifiedName atlas clientjson media type
+accept SimpleName MethodInvocation QualifiedName atlas clientjson media type
+when SimpleName MethodInvocation MethodInvocation SimpleName resource object
+when SimpleName MethodInvocation MethodInvocation SimpleName accept
+when SimpleName MethodInvocation MethodInvocation QualifiedName atlas clientjson media type
+when SimpleName MethodInvocation MethodInvocation SimpleName then return
+resource object SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+accept SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+atlas clientjson media type QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+when SimpleName MethodInvocation MethodInvocation SimpleName builder
+resource object SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName builder
+accept SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName builder
+atlas clientjson media type QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName builder
+then return SimpleName MethodInvocation SimpleName builder
+builder SimpleName MethodInvocation SimpleName type
+builder SimpleName MethodInvocation QualifiedName atlas clientjson media type
+type SimpleName MethodInvocation QualifiedName atlas clientjson media type
+when SimpleName MethodInvocation MethodInvocation SimpleName builder
+when SimpleName MethodInvocation MethodInvocation SimpleName type
+when SimpleName MethodInvocation MethodInvocation QualifiedName atlas clientjson media type
+when SimpleName MethodInvocation MethodInvocation SimpleName then return
+builder SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+type SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+atlas clientjson media type QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+when SimpleName MethodInvocation MethodInvocation SimpleName builder
+builder SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName builder
+type SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName builder
+atlas clientjson media type QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName builder
+then return SimpleName MethodInvocation SimpleName builder
+private Modifier MethodDeclaration SimpleType QualifiedName web resourcebuilder
+private Modifier MethodDeclaration SimpleName get builder
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName web resource
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName resource object
+private Modifier MethodDeclaration Block ReturnStatement SimpleName builder
+web resourcebuilder QualifiedName SimpleType MethodDeclaration SimpleName get builder
+web resourcebuilder QualifiedName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName resource object
+get builder SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName web resource
+get builder SimpleName MethodDeclaration SingleVariableDeclaration SimpleName resource object
+get builder SimpleName MethodDeclaration Block ReturnStatement SimpleName builder
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType QualifiedName web resourcebuilder
+public Modifier TypeDeclaration MethodDeclaration SimpleName get builder
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName resource object
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType QualifiedName web resourcebuilder
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get builder
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName resource object

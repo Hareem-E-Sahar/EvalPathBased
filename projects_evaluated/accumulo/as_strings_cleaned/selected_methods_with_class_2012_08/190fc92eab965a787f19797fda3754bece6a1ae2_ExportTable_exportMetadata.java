@@ -1,0 +1,201 @@
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+connector SimpleName SimpleType SingleVariableDeclaration SimpleName conn
+string SimpleName SimpleType SingleVariableDeclaration SimpleName table id
+zip output stream SimpleName SimpleType SingleVariableDeclaration SimpleName zip out
+data output stream SimpleName SimpleType SingleVariableDeclaration SimpleName data out
+zip entry SimpleName SimpleType ClassInstanceCreation QualifiedName constantsexport metadata file
+zip out SimpleName MethodInvocation SimpleName put next entry
+zip out SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName zip entry
+zip out SimpleName MethodInvocation ClassInstanceCreation QualifiedName constantsexport metadata file
+put next entry SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName zip entry
+put next entry SimpleName MethodInvocation ClassInstanceCreation QualifiedName constantsexport metadata file
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+conn SimpleName MethodInvocation SimpleName create scanner
+conn SimpleName MethodInvocation QualifiedName constantsmetadata table name
+conn SimpleName MethodInvocation QualifiedName constantsno auths
+create scanner SimpleName MethodInvocation QualifiedName constantsmetadata table name
+create scanner SimpleName MethodInvocation QualifiedName constantsno auths
+constantsmetadata table name QualifiedName MethodInvocation QualifiedName constantsno auths
+meta scanner SimpleName VariableDeclarationFragment MethodInvocation SimpleName conn
+meta scanner SimpleName VariableDeclarationFragment MethodInvocation SimpleName create scanner
+meta scanner SimpleName VariableDeclarationFragment MethodInvocation QualifiedName constantsmetadata table name
+meta scanner SimpleName VariableDeclarationFragment MethodInvocation QualifiedName constantsno auths
+scanner SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName meta scanner
+meta scanner SimpleName MethodInvocation SimpleName fetch column family
+meta scanner SimpleName MethodInvocation QualifiedName constantsmetadata datafile column family
+fetch column family SimpleName MethodInvocation QualifiedName constantsmetadata datafile column family
+constantsmetadata prev row column QualifiedName MethodInvocation SimpleName fetch
+constantsmetadata prev row column QualifiedName MethodInvocation SimpleName meta scanner
+fetch SimpleName MethodInvocation SimpleName meta scanner
+constantsmetadata time column QualifiedName MethodInvocation SimpleName fetch
+constantsmetadata time column QualifiedName MethodInvocation SimpleName meta scanner
+fetch SimpleName MethodInvocation SimpleName meta scanner
+text SimpleName SimpleType ClassInstanceCreation SimpleName table id
+key extent SimpleName SimpleType ClassInstanceCreation ClassInstanceCreation SimpleName table id
+key extent SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName to metadata range
+table id SimpleName ClassInstanceCreation ClassInstanceCreation MethodInvocation SimpleName to metadata range
+meta scanner SimpleName MethodInvocation SimpleName set range
+meta scanner SimpleName MethodInvocation MethodInvocation SimpleName to metadata range
+set range SimpleName MethodInvocation MethodInvocation SimpleName to metadata range
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName key
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+key SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+entry SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+key SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+value SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+entry SimpleName MethodInvocation SimpleName get key
+entry SimpleName MethodInvocation MethodInvocation SimpleName write
+get key SimpleName MethodInvocation MethodInvocation SimpleName write
+entry SimpleName MethodInvocation MethodInvocation SimpleName data out
+get key SimpleName MethodInvocation MethodInvocation SimpleName data out
+write SimpleName MethodInvocation SimpleName data out
+entry SimpleName MethodInvocation SimpleName get value
+entry SimpleName MethodInvocation MethodInvocation SimpleName write
+get value SimpleName MethodInvocation MethodInvocation SimpleName write
+entry SimpleName MethodInvocation MethodInvocation SimpleName data out
+get value SimpleName MethodInvocation MethodInvocation SimpleName data out
+write SimpleName MethodInvocation SimpleName data out
+entry SimpleName MethodInvocation SimpleName get key
+entry SimpleName MethodInvocation MethodInvocation SimpleName get column family
+get key SimpleName MethodInvocation MethodInvocation SimpleName get column family
+entry SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName equals
+get key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName equals
+get column family SimpleName MethodInvocation MethodInvocation SimpleName equals
+entry SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName constantsmetadata datafile column family
+get key SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName constantsmetadata datafile column family
+get column family SimpleName MethodInvocation MethodInvocation QualifiedName constantsmetadata datafile column family
+equals SimpleName MethodInvocation QualifiedName constantsmetadata datafile column family
+entry SimpleName MethodInvocation SimpleName get key
+entry SimpleName MethodInvocation MethodInvocation SimpleName get column qualifier data
+get key SimpleName MethodInvocation MethodInvocation SimpleName get column qualifier data
+entry SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to string
+get key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to string
+get column qualifier data SimpleName MethodInvocation MethodInvocation SimpleName to string
+rel path SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get column qualifier data
+rel path SimpleName VariableDeclarationFragment MethodInvocation SimpleName to string
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName rel path
+rel path SimpleName MethodInvocation SimpleName starts with
+rel path SimpleName MethodInvocation StringLiteral ../
+starts with SimpleName MethodInvocation StringLiteral ../
+rel path SimpleName MethodInvocation SimpleName substring
+rel path SimpleName MethodInvocation NumberLiteral empty
+substring SimpleName MethodInvocation NumberLiteral empty
+rel path SimpleName Assignment MethodInvocation SimpleName rel path
+rel path SimpleName Assignment MethodInvocation SimpleName substring
+rel path SimpleName Assignment MethodInvocation NumberLiteral empty
+/ StringLiteral InfixExpression SimpleName table id
+/ StringLiteral InfixExpression SimpleName rel path
+table id SimpleName InfixExpression SimpleName rel path
+rel path SimpleName Assignment InfixExpression StringLiteral /
+rel path SimpleName Assignment InfixExpression SimpleName table id
+rel path SimpleName Assignment InfixExpression SimpleName rel path
+rel path SimpleName MethodInvocation SimpleName split
+rel path SimpleName MethodInvocation StringLiteral /
+split SimpleName MethodInvocation StringLiteral /
+tokens SimpleName VariableDeclarationFragment MethodInvocation SimpleName rel path
+tokens SimpleName VariableDeclarationFragment MethodInvocation SimpleName split
+tokens SimpleName VariableDeclarationFragment MethodInvocation StringLiteral /
+tokenslength QualifiedName InfixExpression NumberLiteral empty
+illegal path StringLiteral InfixExpression SimpleName rel path
+runtime exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral illegal path
+runtime exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName rel path
+tokens SimpleName ArrayAccess NumberLiteral empty
+filename SimpleName VariableDeclarationFragment ArrayAccess SimpleName tokens
+filename SimpleName VariableDeclarationFragment ArrayAccess NumberLiteral empty
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName filename
+unique files SimpleName MethodInvocation SimpleName get
+unique files SimpleName MethodInvocation SimpleName filename
+get SimpleName MethodInvocation SimpleName filename
+existing path SimpleName VariableDeclarationFragment MethodInvocation SimpleName unique files
+existing path SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+existing path SimpleName VariableDeclarationFragment MethodInvocation SimpleName filename
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName existing path
+unique files SimpleName MethodInvocation SimpleName put
+unique files SimpleName MethodInvocation SimpleName filename
+unique files SimpleName MethodInvocation SimpleName rel path
+put SimpleName MethodInvocation SimpleName filename
+put SimpleName MethodInvocation SimpleName rel path
+filename SimpleName MethodInvocation SimpleName rel path
+existing path SimpleName MethodInvocation SimpleName equals
+existing path SimpleName MethodInvocation SimpleName rel path
+equals SimpleName MethodInvocation SimpleName rel path
+cannot export table with nonunique file names StringLiteral InfixExpression SimpleName filename
+cannot export table with nonunique file names StringLiteral InfixExpression StringLiteral . major compact table
+filename SimpleName InfixExpression StringLiteral . major compact table
+runtime exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral cannot export table with nonunique file names
+runtime exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName filename
+runtime exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral . major compact table
+entry SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName meta scanner
+meta scanner SimpleName EnhancedForStatement Block ReturnStatement SimpleName unique files
+private Modifier MethodDeclaration Modifier static
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName map
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+private Modifier MethodDeclaration SimpleName export metadata
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName connector
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName conn
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName table id
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName map
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+static Modifier MethodDeclaration SimpleName export metadata
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName connector
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName conn
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName table id
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName zip output stream
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName zip out
+map SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName export metadata
+string SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName export metadata
+string SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName export metadata
+export metadata SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName connector
+export metadata SimpleName MethodDeclaration SingleVariableDeclaration SimpleName conn
+export metadata SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+export metadata SimpleName MethodDeclaration SingleVariableDeclaration SimpleName table id
+export metadata SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName zip output stream
+export metadata SimpleName MethodDeclaration SingleVariableDeclaration SimpleName zip out
+export metadata SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName data output stream
+export metadata SimpleName MethodDeclaration SingleVariableDeclaration SimpleName data out
+export metadata SimpleName MethodDeclaration SimpleType SimpleName io exception
+conn SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table id
+conn SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName zip out
+conn SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName data out
+conn SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+conn SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName table not found exception
+table id SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName zip out
+table id SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName data out
+table id SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+table id SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName table not found exception
+zip out SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName data out
+zip out SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+zip out SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName table not found exception
+data out SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+data out SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName table not found exception
+io exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName table not found exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleName export metadata
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName conn
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table id
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName zip out
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName data out
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName table not found exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleName export metadata
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName conn
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table id
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName zip out
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName data out
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName table not found exception

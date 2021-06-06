@@ -1,0 +1,421 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName src table id
+string SimpleName SimpleType SingleVariableDeclaration SimpleName table id
+connector SimpleName SimpleType SingleVariableDeclaration SimpleName conn
+batch writer SimpleName SimpleType SingleVariableDeclaration SimpleName bw
+create clone scanner SimpleName MethodInvocation SimpleName src table id
+create clone scanner SimpleName MethodInvocation SimpleName conn
+src table id SimpleName MethodInvocation SimpleName conn
+text SimpleName SimpleType ClassInstanceCreation SimpleName src table id
+key extent SimpleName SimpleType ClassInstanceCreation ClassInstanceCreation SimpleName src table id
+key extent SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName to metadata range
+src table id SimpleName ClassInstanceCreation ClassInstanceCreation MethodInvocation SimpleName to metadata range
+tablet iterator SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName create clone scanner
+tablet iterator SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName src table id
+tablet iterator SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName conn
+tablet iterator SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName to metadata range
+tablet iterator SimpleName SimpleType ClassInstanceCreation BooleanLiteral true
+tablet iterator SimpleName SimpleType ClassInstanceCreation BooleanLiteral true
+create clone scanner SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName to metadata range
+src table id SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName to metadata range
+conn SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName to metadata range
+create clone scanner SimpleName MethodInvocation ClassInstanceCreation BooleanLiteral true
+src table id SimpleName MethodInvocation ClassInstanceCreation BooleanLiteral true
+conn SimpleName MethodInvocation ClassInstanceCreation BooleanLiteral true
+create clone scanner SimpleName MethodInvocation ClassInstanceCreation BooleanLiteral true
+src table id SimpleName MethodInvocation ClassInstanceCreation BooleanLiteral true
+conn SimpleName MethodInvocation ClassInstanceCreation BooleanLiteral true
+to metadata range SimpleName MethodInvocation ClassInstanceCreation BooleanLiteral true
+to metadata range SimpleName MethodInvocation ClassInstanceCreation BooleanLiteral true
+true BooleanLiteral ClassInstanceCreation BooleanLiteral true
+src iter SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName tablet iterator
+src iter SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName create clone scanner
+src iter SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName src table id
+src iter SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName conn
+src iter SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName to metadata range
+src iter SimpleName VariableDeclarationFragment ClassInstanceCreation BooleanLiteral true
+src iter SimpleName VariableDeclarationFragment ClassInstanceCreation BooleanLiteral true
+tablet iterator SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName src iter
+create clone scanner SimpleName MethodInvocation SimpleName table id
+create clone scanner SimpleName MethodInvocation SimpleName conn
+table id SimpleName MethodInvocation SimpleName conn
+text SimpleName SimpleType ClassInstanceCreation SimpleName table id
+key extent SimpleName SimpleType ClassInstanceCreation ClassInstanceCreation SimpleName table id
+key extent SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName to metadata range
+table id SimpleName ClassInstanceCreation ClassInstanceCreation MethodInvocation SimpleName to metadata range
+tablet iterator SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName create clone scanner
+tablet iterator SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName table id
+tablet iterator SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName conn
+tablet iterator SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName to metadata range
+tablet iterator SimpleName SimpleType ClassInstanceCreation BooleanLiteral true
+tablet iterator SimpleName SimpleType ClassInstanceCreation BooleanLiteral true
+create clone scanner SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName to metadata range
+table id SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName to metadata range
+conn SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName to metadata range
+create clone scanner SimpleName MethodInvocation ClassInstanceCreation BooleanLiteral true
+table id SimpleName MethodInvocation ClassInstanceCreation BooleanLiteral true
+conn SimpleName MethodInvocation ClassInstanceCreation BooleanLiteral true
+create clone scanner SimpleName MethodInvocation ClassInstanceCreation BooleanLiteral true
+table id SimpleName MethodInvocation ClassInstanceCreation BooleanLiteral true
+conn SimpleName MethodInvocation ClassInstanceCreation BooleanLiteral true
+to metadata range SimpleName MethodInvocation ClassInstanceCreation BooleanLiteral true
+to metadata range SimpleName MethodInvocation ClassInstanceCreation BooleanLiteral true
+true BooleanLiteral ClassInstanceCreation BooleanLiteral true
+clone iter SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName tablet iterator
+clone iter SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName create clone scanner
+clone iter SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName table id
+clone iter SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName conn
+clone iter SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName to metadata range
+clone iter SimpleName VariableDeclarationFragment ClassInstanceCreation BooleanLiteral true
+clone iter SimpleName VariableDeclarationFragment ClassInstanceCreation BooleanLiteral true
+tablet iterator SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName clone iter
+clone iter SimpleName MethodInvocation SimpleName has next
+src iter SimpleName MethodInvocation SimpleName has next
+table deleted during clone src table id = StringLiteral InfixExpression SimpleName src table id
+table deleted during clone src table id = StringLiteral InfixExpression StringLiteral table id
+table deleted during clone src table id = StringLiteral InfixExpression SimpleName table id
+src table id SimpleName InfixExpression StringLiteral table id
+src table id SimpleName InfixExpression SimpleName table id
+table id StringLiteral InfixExpression SimpleName table id
+runtime exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral table deleted during clone src table id =
+runtime exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName src table id
+runtime exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral table id
+runtime exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName table id
+rewrites SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName rewrites
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+clone iter SimpleName MethodInvocation SimpleName has next
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName key
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+key SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+clone iter SimpleName MethodInvocation SimpleName next
+clone tablet SimpleName VariableDeclarationFragment MethodInvocation SimpleName clone iter
+clone tablet SimpleName VariableDeclarationFragment MethodInvocation SimpleName next
+clone tablet SimpleName MethodInvocation SimpleName key set
+clone tablet SimpleName MethodInvocation MethodInvocation SimpleName iterator
+key set SimpleName MethodInvocation MethodInvocation SimpleName iterator
+clone tablet SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName next
+key set SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName next
+iterator SimpleName MethodInvocation MethodInvocation SimpleName next
+iterator SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get row
+next SimpleName MethodInvocation MethodInvocation SimpleName get row
+key extent SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get row
+key extent SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get end row
+get row SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get end row
+clone end row SimpleName VariableDeclarationFragment MethodInvocation SimpleName get end row
+text SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName clone end row
+hash set SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+hash set SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+clone successful SimpleName VariableDeclarationFragment BooleanLiteral false
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName clone successful
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment BooleanLiteral false
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName key
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+key SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+entry SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+key SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+value SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+clone tablet SimpleName MethodInvocation SimpleName entry set
+entry SimpleName MethodInvocation SimpleName get key
+entry SimpleName MethodInvocation MethodInvocation SimpleName get column family
+get key SimpleName MethodInvocation MethodInvocation SimpleName get column family
+entry SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName equals
+get key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName equals
+get column family SimpleName MethodInvocation MethodInvocation SimpleName equals
+entry SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName cloned column familyname
+get key SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName cloned column familyname
+get column family SimpleName MethodInvocation MethodInvocation QualifiedName cloned column familyname
+equals SimpleName MethodInvocation QualifiedName cloned column familyname
+clone successful SimpleName Assignment BooleanLiteral true
+entry SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName clone tablet
+entry SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName entry set
+get files SimpleName MethodInvocation SimpleName clone files
+get files SimpleName MethodInvocation SimpleName clone tablet
+clone files SimpleName MethodInvocation SimpleName clone tablet
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName key
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+key SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName key
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+key SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName key
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+key SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+src iter SimpleName MethodInvocation SimpleName next
+src tablet SimpleName VariableDeclarationFragment MethodInvocation SimpleName src iter
+src tablet SimpleName VariableDeclarationFragment MethodInvocation SimpleName next
+src tablets SimpleName MethodInvocation SimpleName add
+src tablets SimpleName MethodInvocation SimpleName src tablet
+add SimpleName MethodInvocation SimpleName src tablet
+src tablet SimpleName MethodInvocation SimpleName key set
+src tablet SimpleName MethodInvocation MethodInvocation SimpleName iterator
+key set SimpleName MethodInvocation MethodInvocation SimpleName iterator
+src tablet SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName next
+key set SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName next
+iterator SimpleName MethodInvocation MethodInvocation SimpleName next
+iterator SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get row
+next SimpleName MethodInvocation MethodInvocation SimpleName get row
+key extent SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get row
+key extent SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get end row
+get row SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get end row
+src end row SimpleName VariableDeclarationFragment MethodInvocation SimpleName get end row
+text SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName src end row
+compare end rows SimpleName MethodInvocation SimpleName clone end row
+compare end rows SimpleName MethodInvocation SimpleName src end row
+clone end row SimpleName MethodInvocation SimpleName src end row
+cmp SimpleName VariableDeclarationFragment MethodInvocation SimpleName compare end rows
+cmp SimpleName VariableDeclarationFragment MethodInvocation SimpleName clone end row
+cmp SimpleName VariableDeclarationFragment MethodInvocation SimpleName src end row
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName cmp
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName compare end rows
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName clone end row
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName src end row
+cmp SimpleName InfixExpression NumberLiteral empty
+tablets deleted from src during clone : StringLiteral InfixExpression SimpleName clone end row
+tablets deleted from src during clone : StringLiteral InfixExpression StringLiteral empty
+tablets deleted from src during clone : StringLiteral InfixExpression SimpleName src end row
+clone end row SimpleName InfixExpression StringLiteral empty
+clone end row SimpleName InfixExpression SimpleName src end row
+empty StringLiteral InfixExpression SimpleName src end row
+tablet iteratortablet deleted exception QualifiedName SimpleType ClassInstanceCreation InfixExpression StringLiteral tablets deleted from src during clone :
+tablet iteratortablet deleted exception QualifiedName SimpleType ClassInstanceCreation InfixExpression SimpleName clone end row
+tablet iteratortablet deleted exception QualifiedName SimpleType ClassInstanceCreation InfixExpression StringLiteral empty
+tablet iteratortablet deleted exception QualifiedName SimpleType ClassInstanceCreation InfixExpression SimpleName src end row
+hash set SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+hash set SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+get files SimpleName MethodInvocation SimpleName src files
+get files SimpleName MethodInvocation SimpleName src tablet
+get files SimpleName MethodInvocation SimpleName src table id
+src files SimpleName MethodInvocation SimpleName src tablet
+src files SimpleName MethodInvocation SimpleName src table id
+src tablet SimpleName MethodInvocation SimpleName src table id
+cmp SimpleName InfixExpression NumberLiteral empty
+src iter SimpleName MethodInvocation SimpleName next
+src tablet SimpleName Assignment MethodInvocation SimpleName src iter
+src tablet SimpleName Assignment MethodInvocation SimpleName next
+src tablets SimpleName MethodInvocation SimpleName add
+src tablets SimpleName MethodInvocation SimpleName src tablet
+add SimpleName MethodInvocation SimpleName src tablet
+src tablet SimpleName MethodInvocation SimpleName key set
+src tablet SimpleName MethodInvocation MethodInvocation SimpleName iterator
+key set SimpleName MethodInvocation MethodInvocation SimpleName iterator
+src tablet SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName next
+key set SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName next
+iterator SimpleName MethodInvocation MethodInvocation SimpleName next
+iterator SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get row
+next SimpleName MethodInvocation MethodInvocation SimpleName get row
+key extent SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get row
+key extent SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get end row
+get row SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get end row
+src end row SimpleName Assignment MethodInvocation SimpleName get end row
+compare end rows SimpleName MethodInvocation SimpleName clone end row
+compare end rows SimpleName MethodInvocation SimpleName src end row
+clone end row SimpleName MethodInvocation SimpleName src end row
+cmp SimpleName Assignment MethodInvocation SimpleName compare end rows
+cmp SimpleName Assignment MethodInvocation SimpleName clone end row
+cmp SimpleName Assignment MethodInvocation SimpleName src end row
+cmp SimpleName InfixExpression NumberLiteral empty
+tablets deleted from src during clone : StringLiteral InfixExpression SimpleName clone end row
+tablets deleted from src during clone : StringLiteral InfixExpression StringLiteral empty
+tablets deleted from src during clone : StringLiteral InfixExpression SimpleName src end row
+clone end row SimpleName InfixExpression StringLiteral empty
+clone end row SimpleName InfixExpression SimpleName src end row
+empty StringLiteral InfixExpression SimpleName src end row
+tablet iteratortablet deleted exception QualifiedName SimpleType ClassInstanceCreation InfixExpression StringLiteral tablets deleted from src during clone :
+tablet iteratortablet deleted exception QualifiedName SimpleType ClassInstanceCreation InfixExpression SimpleName clone end row
+tablet iteratortablet deleted exception QualifiedName SimpleType ClassInstanceCreation InfixExpression StringLiteral empty
+tablet iteratortablet deleted exception QualifiedName SimpleType ClassInstanceCreation InfixExpression SimpleName src end row
+get files SimpleName MethodInvocation SimpleName src files
+get files SimpleName MethodInvocation SimpleName src tablet
+get files SimpleName MethodInvocation SimpleName src table id
+src files SimpleName MethodInvocation SimpleName src tablet
+src files SimpleName MethodInvocation SimpleName src table id
+src tablet SimpleName MethodInvocation SimpleName src table id
+src files SimpleName MethodInvocation SimpleName contains all
+src files SimpleName MethodInvocation SimpleName clone files
+contains all SimpleName MethodInvocation SimpleName clone files
+clone tablet SimpleName MethodInvocation SimpleName key set
+clone tablet SimpleName MethodInvocation MethodInvocation SimpleName iterator
+key set SimpleName MethodInvocation MethodInvocation SimpleName iterator
+clone tablet SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName next
+key set SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName next
+iterator SimpleName MethodInvocation MethodInvocation SimpleName next
+iterator SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get row
+next SimpleName MethodInvocation MethodInvocation SimpleName get row
+mutation SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get row
+m SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName mutation
+m SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get row
+mutation SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName m
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName key
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+key SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+entry SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+key SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+value SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+clone tablet SimpleName MethodInvocation SimpleName entry set
+entry SimpleName MethodInvocation SimpleName get key
+k SimpleName VariableDeclarationFragment MethodInvocation SimpleName entry
+k SimpleName VariableDeclarationFragment MethodInvocation SimpleName get key
+key SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName k
+k SimpleName MethodInvocation SimpleName get column family
+k SimpleName MethodInvocation SimpleName get column qualifier
+k SimpleName MethodInvocation SimpleName get timestamp
+m SimpleName MethodInvocation SimpleName put delete
+m SimpleName MethodInvocation MethodInvocation SimpleName k
+m SimpleName MethodInvocation MethodInvocation SimpleName get column family
+m SimpleName MethodInvocation MethodInvocation SimpleName k
+m SimpleName MethodInvocation MethodInvocation SimpleName get column qualifier
+m SimpleName MethodInvocation MethodInvocation SimpleName k
+m SimpleName MethodInvocation MethodInvocation SimpleName get timestamp
+put delete SimpleName MethodInvocation MethodInvocation SimpleName k
+put delete SimpleName MethodInvocation MethodInvocation SimpleName get column family
+put delete SimpleName MethodInvocation MethodInvocation SimpleName k
+put delete SimpleName MethodInvocation MethodInvocation SimpleName get column qualifier
+put delete SimpleName MethodInvocation MethodInvocation SimpleName k
+put delete SimpleName MethodInvocation MethodInvocation SimpleName get timestamp
+k SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName k
+k SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get column qualifier
+get column family SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName k
+get column family SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get column qualifier
+k SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName k
+k SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get timestamp
+get column family SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName k
+get column family SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get timestamp
+k SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName k
+k SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get timestamp
+get column qualifier SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName k
+get column qualifier SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get timestamp
+entry SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName clone tablet
+entry SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName entry set
+bw SimpleName MethodInvocation SimpleName add mutation
+bw SimpleName MethodInvocation SimpleName m
+add mutation SimpleName MethodInvocation SimpleName m
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName key
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+key SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+map SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName st
+key SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName st
+value SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName st
+create clone mutation SimpleName MethodInvocation SimpleName src table id
+create clone mutation SimpleName MethodInvocation SimpleName table id
+create clone mutation SimpleName MethodInvocation SimpleName st
+src table id SimpleName MethodInvocation SimpleName table id
+src table id SimpleName MethodInvocation SimpleName st
+table id SimpleName MethodInvocation SimpleName st
+bw SimpleName MethodInvocation SimpleName add mutation
+bw SimpleName MethodInvocation MethodInvocation SimpleName create clone mutation
+bw SimpleName MethodInvocation MethodInvocation SimpleName src table id
+bw SimpleName MethodInvocation MethodInvocation SimpleName table id
+bw SimpleName MethodInvocation MethodInvocation SimpleName st
+add mutation SimpleName MethodInvocation MethodInvocation SimpleName create clone mutation
+add mutation SimpleName MethodInvocation MethodInvocation SimpleName src table id
+add mutation SimpleName MethodInvocation MethodInvocation SimpleName table id
+add mutation SimpleName MethodInvocation MethodInvocation SimpleName st
+st SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName src tablets
+src tablets SimpleName EnhancedForStatement ExpressionStatement MethodInvocation SimpleName bw
+src tablets SimpleName EnhancedForStatement ExpressionStatement MethodInvocation SimpleName add mutation
+clone tablet SimpleName MethodInvocation SimpleName key set
+clone tablet SimpleName MethodInvocation MethodInvocation SimpleName iterator
+key set SimpleName MethodInvocation MethodInvocation SimpleName iterator
+clone tablet SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName next
+key set SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName next
+iterator SimpleName MethodInvocation MethodInvocation SimpleName next
+iterator SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get row
+next SimpleName MethodInvocation MethodInvocation SimpleName get row
+mutation SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get row
+m SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName mutation
+m SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get row
+mutation SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName m
+text SimpleName SimpleType ClassInstanceCreation StringLiteral empty
+ok StringLiteral MethodInvocation SimpleName get bytes
+ok StringLiteral MethodInvocation QualifiedName standard charsetsutf
+get bytes SimpleName MethodInvocation QualifiedName standard charsetsutf
+value SimpleName SimpleType ClassInstanceCreation MethodInvocation StringLiteral ok
+value SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get bytes
+value SimpleName SimpleType ClassInstanceCreation MethodInvocation QualifiedName standard charsetsutf
+m SimpleName MethodInvocation SimpleName put
+m SimpleName MethodInvocation QualifiedName cloned column familyname
+m SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName text
+m SimpleName MethodInvocation ClassInstanceCreation StringLiteral empty
+m SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName value
+m SimpleName MethodInvocation ClassInstanceCreation MethodInvocation StringLiteral ok
+m SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get bytes
+m SimpleName MethodInvocation ClassInstanceCreation MethodInvocation QualifiedName standard charsetsutf
+put SimpleName MethodInvocation QualifiedName cloned column familyname
+put SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName text
+put SimpleName MethodInvocation ClassInstanceCreation StringLiteral empty
+put SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName value
+put SimpleName MethodInvocation ClassInstanceCreation MethodInvocation StringLiteral ok
+put SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get bytes
+put SimpleName MethodInvocation ClassInstanceCreation MethodInvocation QualifiedName standard charsetsutf
+cloned column familyname QualifiedName MethodInvocation ClassInstanceCreation SimpleType SimpleName text
+cloned column familyname QualifiedName MethodInvocation ClassInstanceCreation StringLiteral empty
+cloned column familyname QualifiedName MethodInvocation ClassInstanceCreation SimpleType SimpleName value
+cloned column familyname QualifiedName MethodInvocation ClassInstanceCreation MethodInvocation StringLiteral ok
+cloned column familyname QualifiedName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get bytes
+cloned column familyname QualifiedName MethodInvocation ClassInstanceCreation MethodInvocation QualifiedName standard charsetsutf
+bw SimpleName MethodInvocation SimpleName add mutation
+bw SimpleName MethodInvocation SimpleName m
+add mutation SimpleName MethodInvocation SimpleName m
+int PrimitiveType VariableDeclarationStatement Block IfStatement SimpleName clone successful
+bw SimpleName MethodInvocation SimpleName flush
+int PrimitiveType VariableDeclarationStatement Block ReturnStatement SimpleName rewrites
+static Modifier MethodDeclaration PrimitiveType int
+static Modifier MethodDeclaration SimpleName check clone
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName src table id
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName table id
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName connector
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName conn
+int PrimitiveType MethodDeclaration SimpleName check clone
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName src table id
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName table id
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName connector
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName conn
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName batch writer
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName bw
+check clone SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+check clone SimpleName MethodDeclaration SingleVariableDeclaration SimpleName src table id
+check clone SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+check clone SimpleName MethodDeclaration SingleVariableDeclaration SimpleName table id
+check clone SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName connector
+check clone SimpleName MethodDeclaration SingleVariableDeclaration SimpleName conn
+check clone SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName batch writer
+check clone SimpleName MethodDeclaration SingleVariableDeclaration SimpleName bw
+check clone SimpleName MethodDeclaration SimpleType SimpleName table not found exception
+src table id SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table id
+src table id SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName conn
+src table id SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName bw
+src table id SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName table not found exception
+src table id SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName mutations rejected exception
+table id SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName conn
+table id SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName bw
+table id SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName table not found exception
+table id SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName mutations rejected exception
+conn SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName bw
+conn SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName table not found exception
+conn SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName mutations rejected exception
+bw SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName table not found exception
+bw SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName mutations rejected exception
+table not found exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName mutations rejected exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SimpleName check clone
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName src table id
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table id
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName conn
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName bw
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName table not found exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName mutations rejected exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SimpleName check clone
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName src table id
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table id
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName conn
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName bw
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName table not found exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName mutations rejected exception

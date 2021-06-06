@@ -1,0 +1,79 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName from entity name
+string SimpleName SimpleType SingleVariableDeclaration SimpleName to entity name
+entities map SimpleName MethodInvocation SimpleName get
+entities map SimpleName MethodInvocation SimpleName from entity name
+get SimpleName MethodInvocation SimpleName from entity name
+from entity id SimpleName VariableDeclarationFragment MethodInvocation SimpleName entities map
+from entity id SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+from entity id SimpleName VariableDeclarationFragment MethodInvocation SimpleName from entity name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName from entity id
+entities map SimpleName MethodInvocation SimpleName get
+entities map SimpleName MethodInvocation SimpleName to entity name
+get SimpleName MethodInvocation SimpleName to entity name
+to entity id SimpleName VariableDeclarationFragment MethodInvocation SimpleName entities map
+to entity id SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+to entity id SimpleName VariableDeclarationFragment MethodInvocation SimpleName to entity name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName to entity id
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName lineage relation
+lineage info SimpleName MethodInvocation SimpleName get relations
+relations SimpleName VariableDeclarationFragment MethodInvocation SimpleName lineage info
+relations SimpleName VariableDeclarationFragment MethodInvocation SimpleName get relations
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName relationship guid
+atlas lineage infolineage relation QualifiedName SimpleType SingleVariableDeclaration SimpleName relation
+relation SimpleName MethodInvocation SimpleName get from entity id
+relation SimpleName MethodInvocation MethodInvocation SimpleName equals
+get from entity id SimpleName MethodInvocation MethodInvocation SimpleName equals
+relation SimpleName MethodInvocation MethodInvocation SimpleName from entity id
+get from entity id SimpleName MethodInvocation MethodInvocation SimpleName from entity id
+equals SimpleName MethodInvocation SimpleName from entity id
+relation SimpleName MethodInvocation SimpleName get to entity id
+relation SimpleName MethodInvocation MethodInvocation SimpleName equals
+get to entity id SimpleName MethodInvocation MethodInvocation SimpleName equals
+relation SimpleName MethodInvocation MethodInvocation SimpleName to entity id
+get to entity id SimpleName MethodInvocation MethodInvocation SimpleName to entity id
+equals SimpleName MethodInvocation SimpleName to entity id
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName to entity id
+from entity id SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+from entity id SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName to entity id
+relation SimpleName MethodInvocation SimpleName get relationship id
+relationship guid SimpleName Assignment MethodInvocation SimpleName relation
+relationship guid SimpleName Assignment MethodInvocation SimpleName get relationship id
+atlas lineage infolineage relation QualifiedName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName relations
+relation SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName relations
+relationship store SimpleName MethodInvocation SimpleName get by id
+relationship store SimpleName MethodInvocation SimpleName relationship guid
+get by id SimpleName MethodInvocation SimpleName relationship guid
+private Modifier MethodDeclaration SimpleType SimpleName atlas relationship
+private Modifier MethodDeclaration SimpleName get relationship
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName from entity name
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName to entity name
+private Modifier MethodDeclaration SimpleType SimpleName atlas base exception
+atlas relationship SimpleName SimpleType MethodDeclaration SimpleName get relationship
+atlas relationship SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName from entity name
+atlas relationship SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName to entity name
+atlas relationship SimpleName SimpleType MethodDeclaration SimpleType SimpleName atlas base exception
+get relationship SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get relationship SimpleName MethodDeclaration SingleVariableDeclaration SimpleName from entity name
+get relationship SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get relationship SimpleName MethodDeclaration SingleVariableDeclaration SimpleName to entity name
+get relationship SimpleName MethodDeclaration SimpleType SimpleName atlas base exception
+get relationship SimpleName MethodDeclaration Block EnhancedForStatement SimpleName relations
+from entity name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName to entity name
+from entity name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+to entity name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas relationship
+public Modifier TypeDeclaration MethodDeclaration SimpleName get relationship
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName from entity name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName to entity name
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas relationship
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get relationship
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName from entity name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName to entity name
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception

@@ -1,0 +1,104 @@
+immutable list SimpleName SimpleType ParameterizedType SimpleType SimpleName enum type definition
+immutable list SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName enums
+enum type definition SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName enums
+immutable list SimpleName SimpleType ParameterizedType SimpleType SimpleName struct type definition
+immutable list SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName structs
+struct type definition SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName structs
+hierarchical type definition SimpleName SimpleType ParameterizedType SimpleType SimpleName trait type
+immutable list SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName traits
+hierarchical type definition SimpleName SimpleType ParameterizedType SimpleType SimpleName class type
+immutable list SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName classes
+immutable list SimpleName MethodInvocation SimpleType SimpleName enum type definition
+immutable list SimpleName MethodInvocation SimpleName of
+enum type definition SimpleName SimpleType MethodInvocation SimpleName of
+enums SimpleName InfixExpression ParenthesizedExpression ConditionalExpression SimpleName enums
+enums SimpleName ConditionalExpression MethodInvocation SimpleName immutable list
+enums SimpleName ConditionalExpression MethodInvocation SimpleType SimpleName enum type definition
+enums SimpleName ConditionalExpression MethodInvocation SimpleName of
+enums SimpleName Assignment ConditionalExpression SimpleName enums
+enums SimpleName Assignment ConditionalExpression MethodInvocation SimpleName immutable list
+enums SimpleName Assignment ConditionalExpression MethodInvocation SimpleName of
+immutable list SimpleName MethodInvocation SimpleType SimpleName struct type definition
+immutable list SimpleName MethodInvocation SimpleName of
+struct type definition SimpleName SimpleType MethodInvocation SimpleName of
+structs SimpleName InfixExpression ParenthesizedExpression ConditionalExpression SimpleName structs
+structs SimpleName ConditionalExpression MethodInvocation SimpleName immutable list
+structs SimpleName ConditionalExpression MethodInvocation SimpleType SimpleName struct type definition
+structs SimpleName ConditionalExpression MethodInvocation SimpleName of
+structs SimpleName Assignment ConditionalExpression SimpleName structs
+structs SimpleName Assignment ConditionalExpression MethodInvocation SimpleName immutable list
+structs SimpleName Assignment ConditionalExpression MethodInvocation SimpleName of
+hierarchical type definition SimpleName SimpleType ParameterizedType SimpleType SimpleName trait type
+immutable list SimpleName MethodInvocation ParameterizedType SimpleType SimpleName hierarchical type definition
+immutable list SimpleName MethodInvocation ParameterizedType SimpleType SimpleName trait type
+immutable list SimpleName MethodInvocation SimpleName of
+hierarchical type definition SimpleName SimpleType ParameterizedType MethodInvocation SimpleName of
+trait type SimpleName SimpleType ParameterizedType MethodInvocation SimpleName of
+traits SimpleName InfixExpression ParenthesizedExpression ConditionalExpression SimpleName traits
+traits SimpleName ConditionalExpression MethodInvocation SimpleName immutable list
+traits SimpleName ConditionalExpression MethodInvocation SimpleName of
+traits SimpleName Assignment ConditionalExpression SimpleName traits
+traits SimpleName Assignment ConditionalExpression MethodInvocation SimpleName immutable list
+traits SimpleName Assignment ConditionalExpression MethodInvocation SimpleName of
+hierarchical type definition SimpleName SimpleType ParameterizedType SimpleType SimpleName class type
+immutable list SimpleName MethodInvocation ParameterizedType SimpleType SimpleName hierarchical type definition
+immutable list SimpleName MethodInvocation ParameterizedType SimpleType SimpleName class type
+immutable list SimpleName MethodInvocation SimpleName of
+hierarchical type definition SimpleName SimpleType ParameterizedType MethodInvocation SimpleName of
+class type SimpleName SimpleType ParameterizedType MethodInvocation SimpleName of
+classes SimpleName InfixExpression ParenthesizedExpression ConditionalExpression SimpleName classes
+classes SimpleName ConditionalExpression MethodInvocation SimpleName immutable list
+classes SimpleName ConditionalExpression MethodInvocation SimpleName of
+classes SimpleName Assignment ConditionalExpression SimpleName classes
+classes SimpleName Assignment ConditionalExpression MethodInvocation SimpleName immutable list
+classes SimpleName Assignment ConditionalExpression MethodInvocation SimpleName of
+types util SimpleName MethodInvocation SimpleName get types def
+types util SimpleName MethodInvocation SimpleName enums
+types util SimpleName MethodInvocation SimpleName structs
+types util SimpleName MethodInvocation SimpleName traits
+types util SimpleName MethodInvocation SimpleName classes
+get types def SimpleName MethodInvocation SimpleName enums
+get types def SimpleName MethodInvocation SimpleName structs
+get types def SimpleName MethodInvocation SimpleName traits
+get types def SimpleName MethodInvocation SimpleName classes
+enums SimpleName MethodInvocation SimpleName structs
+enums SimpleName MethodInvocation SimpleName traits
+enums SimpleName MethodInvocation SimpleName classes
+structs SimpleName MethodInvocation SimpleName traits
+structs SimpleName MethodInvocation SimpleName classes
+traits SimpleName MethodInvocation SimpleName classes
+protected Modifier MethodDeclaration SimpleType SimpleName types def
+protected Modifier MethodDeclaration SimpleName get types def
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName enums
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName structs
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName traits
+types def SimpleName SimpleType MethodDeclaration SimpleName get types def
+types def SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName enums
+types def SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName structs
+types def SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName traits
+types def SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName classes
+get types def SimpleName MethodDeclaration SingleVariableDeclaration SimpleName enums
+get types def SimpleName MethodDeclaration SingleVariableDeclaration SimpleName structs
+get types def SimpleName MethodDeclaration SingleVariableDeclaration SimpleName traits
+get types def SimpleName MethodDeclaration SingleVariableDeclaration SimpleName classes
+enums SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName structs
+enums SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName traits
+enums SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName classes
+structs SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName traits
+structs SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName classes
+traits SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName classes
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName types def
+public Modifier TypeDeclaration MethodDeclaration SimpleName get types def
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName enums
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName structs
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName traits
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName classes
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName types def
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get types def
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName enums
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName structs
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName traits
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName classes

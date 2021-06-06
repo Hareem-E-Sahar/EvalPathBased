@@ -1,0 +1,13 @@
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName set
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName get entity classifications
+public Modifier MethodDeclaration Block ReturnStatement SimpleName entity classifications
+set SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get entity classifications
+string SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get entity classifications
+get entity classifications SimpleName MethodDeclaration Block ReturnStatement SimpleName entity classifications
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName get entity classifications
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get entity classifications

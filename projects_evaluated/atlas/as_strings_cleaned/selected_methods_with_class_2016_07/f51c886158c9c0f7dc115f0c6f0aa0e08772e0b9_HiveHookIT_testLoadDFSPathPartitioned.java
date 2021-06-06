@@ -1,0 +1,287 @@
+create table SimpleName MethodInvocation BooleanLiteral true
+create table SimpleName MethodInvocation BooleanLiteral true
+create table SimpleName MethodInvocation BooleanLiteral false
+true BooleanLiteral MethodInvocation BooleanLiteral true
+true BooleanLiteral MethodInvocation BooleanLiteral false
+true BooleanLiteral MethodInvocation BooleanLiteral false
+table name SimpleName VariableDeclarationFragment MethodInvocation SimpleName create table
+table name SimpleName VariableDeclarationFragment MethodInvocation BooleanLiteral true
+table name SimpleName VariableDeclarationFragment MethodInvocation BooleanLiteral true
+table name SimpleName VariableDeclarationFragment MethodInvocation BooleanLiteral false
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName table name
+assert table is registered SimpleName MethodInvocation SimpleName default db
+assert table is registered SimpleName MethodInvocation SimpleName table name
+default db SimpleName MethodInvocation SimpleName table name
+create test dfs file SimpleName MethodInvocation StringLiteral load dfs file
+load file SimpleName VariableDeclarationFragment MethodInvocation SimpleName create test dfs file
+load file SimpleName VariableDeclarationFragment MethodInvocation StringLiteral load dfs file
+final Modifier VariableDeclarationStatement SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName load file
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName create test dfs file
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation StringLiteral load dfs file
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName load file
+load data inpath StringLiteral InfixExpression SimpleName load file
+load data inpath StringLiteral InfixExpression StringLiteral into table
+load data inpath StringLiteral InfixExpression SimpleName table name
+load data inpath StringLiteral InfixExpression StringLiteral partitiondt =
+load data inpath StringLiteral InfixExpression SimpleName part file
+load file SimpleName InfixExpression StringLiteral into table
+load file SimpleName InfixExpression SimpleName table name
+load file SimpleName InfixExpression StringLiteral partitiondt =
+load file SimpleName InfixExpression SimpleName part file
+load file SimpleName InfixExpression StringLiteral )
+into table StringLiteral InfixExpression SimpleName table name
+into table StringLiteral InfixExpression StringLiteral partitiondt =
+into table StringLiteral InfixExpression SimpleName part file
+into table StringLiteral InfixExpression StringLiteral )
+table name SimpleName InfixExpression StringLiteral partitiondt =
+table name SimpleName InfixExpression SimpleName part file
+table name SimpleName InfixExpression StringLiteral )
+partitiondt = StringLiteral InfixExpression SimpleName part file
+partitiondt = StringLiteral InfixExpression StringLiteral )
+part file SimpleName InfixExpression StringLiteral )
+query SimpleName VariableDeclarationFragment InfixExpression StringLiteral load data inpath
+query SimpleName VariableDeclarationFragment InfixExpression SimpleName load file
+query SimpleName VariableDeclarationFragment InfixExpression StringLiteral into table
+query SimpleName VariableDeclarationFragment InfixExpression SimpleName table name
+query SimpleName VariableDeclarationFragment InfixExpression StringLiteral partitiondt =
+query SimpleName VariableDeclarationFragment InfixExpression SimpleName part file
+query SimpleName VariableDeclarationFragment InfixExpression StringLiteral )
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName query
+run command SimpleName MethodInvocation SimpleName query
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName write entity
+get outputs SimpleName MethodInvocation SimpleName table name
+get outputs SimpleName MethodInvocation QualifiedName entitytypetable
+table name SimpleName MethodInvocation QualifiedName entitytypetable
+outputs SimpleName VariableDeclarationFragment MethodInvocation SimpleName get outputs
+outputs SimpleName VariableDeclarationFragment MethodInvocation SimpleName table name
+outputs SimpleName VariableDeclarationFragment MethodInvocation QualifiedName entitytypetable
+final Modifier VariableDeclarationStatement ParameterizedType SimpleType SimpleName set
+final Modifier VariableDeclarationStatement ParameterizedType SimpleType SimpleName write entity
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName outputs
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get outputs
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName table name
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation QualifiedName entitytypetable
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName read entity
+get inputs SimpleName MethodInvocation SimpleName load file
+get inputs SimpleName MethodInvocation QualifiedName entitytypedfs dir
+load file SimpleName MethodInvocation QualifiedName entitytypedfs dir
+inputs SimpleName VariableDeclarationFragment MethodInvocation SimpleName get inputs
+inputs SimpleName VariableDeclarationFragment MethodInvocation SimpleName load file
+inputs SimpleName VariableDeclarationFragment MethodInvocation QualifiedName entitytypedfs dir
+final Modifier VariableDeclarationStatement ParameterizedType SimpleType SimpleName set
+final Modifier VariableDeclarationStatement ParameterizedType SimpleType SimpleName read entity
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName inputs
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get inputs
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName load file
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation QualifiedName entitytypedfs dir
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName write entity
+linked hash set SimpleName SimpleType ParameterizedType ClassInstanceCreation SimpleName outputs
+partition ops SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName outputs
+final Modifier VariableDeclarationStatement ParameterizedType SimpleType SimpleName set
+final Modifier VariableDeclarationStatement ParameterizedType SimpleType SimpleName write entity
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName partition ops
+final Modifier VariableDeclarationStatement VariableDeclarationFragment ClassInstanceCreation SimpleName outputs
+default db SimpleName InfixExpression StringLiteral @
+default db SimpleName InfixExpression SimpleName table name
+default db SimpleName InfixExpression StringLiteral dt
+default db SimpleName InfixExpression SimpleName part file
+@ StringLiteral InfixExpression SimpleName table name
+@ StringLiteral InfixExpression StringLiteral dt
+@ StringLiteral InfixExpression SimpleName part file
+table name SimpleName InfixExpression StringLiteral dt
+table name SimpleName InfixExpression SimpleName part file
+dt StringLiteral InfixExpression SimpleName part file
+get outputs SimpleName MethodInvocation InfixExpression SimpleName default db
+get outputs SimpleName MethodInvocation InfixExpression StringLiteral @
+get outputs SimpleName MethodInvocation InfixExpression SimpleName table name
+get outputs SimpleName MethodInvocation InfixExpression StringLiteral dt
+get outputs SimpleName MethodInvocation InfixExpression SimpleName part file
+get outputs SimpleName MethodInvocation QualifiedName entitytypepartition
+default db SimpleName InfixExpression MethodInvocation QualifiedName entitytypepartition
+@ StringLiteral InfixExpression MethodInvocation QualifiedName entitytypepartition
+table name SimpleName InfixExpression MethodInvocation QualifiedName entitytypepartition
+dt StringLiteral InfixExpression MethodInvocation QualifiedName entitytypepartition
+part file SimpleName InfixExpression MethodInvocation QualifiedName entitytypepartition
+partition ops SimpleName MethodInvocation SimpleName add all
+partition ops SimpleName MethodInvocation MethodInvocation SimpleName get outputs
+partition ops SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName default db
+partition ops SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral @
+partition ops SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName table name
+partition ops SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral dt
+partition ops SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName part file
+partition ops SimpleName MethodInvocation MethodInvocation QualifiedName entitytypepartition
+add all SimpleName MethodInvocation MethodInvocation SimpleName get outputs
+add all SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName default db
+add all SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral @
+add all SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName table name
+add all SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral dt
+add all SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName part file
+add all SimpleName MethodInvocation MethodInvocation QualifiedName entitytypepartition
+construct event SimpleName MethodInvocation SimpleName query
+construct event SimpleName MethodInvocation QualifiedName hive operationload
+construct event SimpleName MethodInvocation SimpleName inputs
+construct event SimpleName MethodInvocation SimpleName partition ops
+query SimpleName MethodInvocation QualifiedName hive operationload
+query SimpleName MethodInvocation SimpleName inputs
+query SimpleName MethodInvocation SimpleName partition ops
+hive operationload QualifiedName MethodInvocation SimpleName inputs
+hive operationload QualifiedName MethodInvocation SimpleName partition ops
+inputs SimpleName MethodInvocation SimpleName partition ops
+validate process SimpleName MethodInvocation MethodInvocation SimpleName construct event
+validate process SimpleName MethodInvocation MethodInvocation SimpleName query
+validate process SimpleName MethodInvocation MethodInvocation QualifiedName hive operationload
+validate process SimpleName MethodInvocation MethodInvocation SimpleName inputs
+validate process SimpleName MethodInvocation MethodInvocation SimpleName partition ops
+validate process SimpleName MethodInvocation SimpleName inputs
+validate process SimpleName MethodInvocation SimpleName outputs
+construct event SimpleName MethodInvocation MethodInvocation SimpleName inputs
+query SimpleName MethodInvocation MethodInvocation SimpleName inputs
+hive operationload QualifiedName MethodInvocation MethodInvocation SimpleName inputs
+inputs SimpleName MethodInvocation MethodInvocation SimpleName inputs
+partition ops SimpleName MethodInvocation MethodInvocation SimpleName inputs
+construct event SimpleName MethodInvocation MethodInvocation SimpleName outputs
+query SimpleName MethodInvocation MethodInvocation SimpleName outputs
+hive operationload QualifiedName MethodInvocation MethodInvocation SimpleName outputs
+inputs SimpleName MethodInvocation MethodInvocation SimpleName outputs
+partition ops SimpleName MethodInvocation MethodInvocation SimpleName outputs
+inputs SimpleName MethodInvocation SimpleName outputs
+process reference SimpleName VariableDeclarationFragment MethodInvocation SimpleName validate process
+process reference SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName construct event
+process reference SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName query
+process reference SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation QualifiedName hive operationload
+process reference SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName inputs
+process reference SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName partition ops
+process reference SimpleName VariableDeclarationFragment MethodInvocation SimpleName inputs
+process reference SimpleName VariableDeclarationFragment MethodInvocation SimpleName outputs
+referenceable SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName process reference
+validate hdfs paths SimpleName MethodInvocation SimpleName process reference
+validate hdfs paths SimpleName MethodInvocation SimpleName inputs
+validate hdfs paths SimpleName MethodInvocation SimpleName load file
+process reference SimpleName MethodInvocation SimpleName inputs
+process reference SimpleName MethodInvocation SimpleName load file
+inputs SimpleName MethodInvocation SimpleName load file
+validate output tables SimpleName MethodInvocation SimpleName process reference
+validate output tables SimpleName MethodInvocation SimpleName outputs
+process reference SimpleName MethodInvocation SimpleName outputs
+create test dfs file SimpleName MethodInvocation StringLiteral load dfs file
+load file SimpleName VariableDeclarationFragment MethodInvocation SimpleName create test dfs file
+load file SimpleName VariableDeclarationFragment MethodInvocation StringLiteral load dfs file
+final Modifier VariableDeclarationStatement SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName load file
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName create test dfs file
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation StringLiteral load dfs file
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName load file
+load data inpath StringLiteral InfixExpression SimpleName load file
+load data inpath StringLiteral InfixExpression StringLiteral into table
+load data inpath StringLiteral InfixExpression SimpleName table name
+load data inpath StringLiteral InfixExpression StringLiteral partitiondt =
+load data inpath StringLiteral InfixExpression SimpleName part file
+load file SimpleName InfixExpression StringLiteral into table
+load file SimpleName InfixExpression SimpleName table name
+load file SimpleName InfixExpression StringLiteral partitiondt =
+load file SimpleName InfixExpression SimpleName part file
+load file SimpleName InfixExpression StringLiteral )
+into table StringLiteral InfixExpression SimpleName table name
+into table StringLiteral InfixExpression StringLiteral partitiondt =
+into table StringLiteral InfixExpression SimpleName part file
+into table StringLiteral InfixExpression StringLiteral )
+table name SimpleName InfixExpression StringLiteral partitiondt =
+table name SimpleName InfixExpression SimpleName part file
+table name SimpleName InfixExpression StringLiteral )
+partitiondt = StringLiteral InfixExpression SimpleName part file
+partitiondt = StringLiteral InfixExpression StringLiteral )
+part file SimpleName InfixExpression StringLiteral )
+query SimpleName Assignment InfixExpression StringLiteral load data inpath
+query SimpleName Assignment InfixExpression SimpleName load file
+query SimpleName Assignment InfixExpression StringLiteral into table
+query SimpleName Assignment InfixExpression SimpleName table name
+query SimpleName Assignment InfixExpression StringLiteral partitiondt =
+query SimpleName Assignment InfixExpression SimpleName part file
+query SimpleName Assignment InfixExpression StringLiteral )
+run command SimpleName MethodInvocation SimpleName query
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName read entity
+get inputs SimpleName MethodInvocation SimpleName load file
+get inputs SimpleName MethodInvocation QualifiedName entitytypedfs dir
+load file SimpleName MethodInvocation QualifiedName entitytypedfs dir
+process inputs SimpleName VariableDeclarationFragment MethodInvocation SimpleName get inputs
+process inputs SimpleName VariableDeclarationFragment MethodInvocation SimpleName load file
+process inputs SimpleName VariableDeclarationFragment MethodInvocation QualifiedName entitytypedfs dir
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName read entity
+expected inputs SimpleName MethodInvocation SimpleName add all
+expected inputs SimpleName MethodInvocation SimpleName process inputs
+add all SimpleName MethodInvocation SimpleName process inputs
+expected inputs SimpleName MethodInvocation SimpleName add all
+expected inputs SimpleName MethodInvocation SimpleName inputs
+add all SimpleName MethodInvocation SimpleName inputs
+construct event SimpleName MethodInvocation SimpleName query
+construct event SimpleName MethodInvocation QualifiedName hive operationload
+construct event SimpleName MethodInvocation SimpleName expected inputs
+construct event SimpleName MethodInvocation SimpleName partition ops
+query SimpleName MethodInvocation QualifiedName hive operationload
+query SimpleName MethodInvocation SimpleName expected inputs
+query SimpleName MethodInvocation SimpleName partition ops
+hive operationload QualifiedName MethodInvocation SimpleName expected inputs
+hive operationload QualifiedName MethodInvocation SimpleName partition ops
+expected inputs SimpleName MethodInvocation SimpleName partition ops
+validate process SimpleName MethodInvocation MethodInvocation SimpleName construct event
+validate process SimpleName MethodInvocation MethodInvocation SimpleName query
+validate process SimpleName MethodInvocation MethodInvocation QualifiedName hive operationload
+validate process SimpleName MethodInvocation MethodInvocation SimpleName expected inputs
+validate process SimpleName MethodInvocation MethodInvocation SimpleName partition ops
+validate process SimpleName MethodInvocation SimpleName expected inputs
+validate process SimpleName MethodInvocation SimpleName outputs
+construct event SimpleName MethodInvocation MethodInvocation SimpleName expected inputs
+query SimpleName MethodInvocation MethodInvocation SimpleName expected inputs
+hive operationload QualifiedName MethodInvocation MethodInvocation SimpleName expected inputs
+expected inputs SimpleName MethodInvocation MethodInvocation SimpleName expected inputs
+partition ops SimpleName MethodInvocation MethodInvocation SimpleName expected inputs
+construct event SimpleName MethodInvocation MethodInvocation SimpleName outputs
+query SimpleName MethodInvocation MethodInvocation SimpleName outputs
+hive operationload QualifiedName MethodInvocation MethodInvocation SimpleName outputs
+expected inputs SimpleName MethodInvocation MethodInvocation SimpleName outputs
+partition ops SimpleName MethodInvocation MethodInvocation SimpleName outputs
+expected inputs SimpleName MethodInvocation SimpleName outputs
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test load dfs path partitioned
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test load dfs path partitioned
+public Modifier MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+public Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+public Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+public Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+public Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+void PrimitiveType MethodDeclaration SimpleName test load dfs path partitioned
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement Modifier final
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement Modifier final
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement Modifier final
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement Modifier final
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement Modifier final
+test load dfs path partitioned SimpleName MethodDeclaration SimpleType SimpleName exception
+test load dfs path partitioned SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+test load dfs path partitioned SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+test load dfs path partitioned SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+test load dfs path partitioned SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+test load dfs path partitioned SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test load dfs path partitioned
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test load dfs path partitioned
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

@@ -1,0 +1,91 @@
+atlas entity SimpleName SimpleType SingleVariableDeclaration SimpleName entity
+instance formatters SimpleName MethodInvocation SimpleName get converter
+instance formatters SimpleName MethodInvocation QualifiedName atlas format convertersversion v
+instance formatters SimpleName MethodInvocation QualifiedName atlas format convertersversion v
+instance formatters SimpleName MethodInvocation QualifiedName type categoryentity
+get converter SimpleName MethodInvocation QualifiedName atlas format convertersversion v
+get converter SimpleName MethodInvocation QualifiedName atlas format convertersversion v
+get converter SimpleName MethodInvocation QualifiedName type categoryentity
+atlas format convertersversion v QualifiedName MethodInvocation QualifiedName atlas format convertersversion v
+atlas format convertersversion v QualifiedName MethodInvocation QualifiedName type categoryentity
+atlas format convertersversion v QualifiedName MethodInvocation QualifiedName type categoryentity
+entity formatter SimpleName VariableDeclarationFragment MethodInvocation SimpleName instance formatters
+entity formatter SimpleName VariableDeclarationFragment MethodInvocation SimpleName get converter
+entity formatter SimpleName VariableDeclarationFragment MethodInvocation QualifiedName atlas format convertersversion v
+entity formatter SimpleName VariableDeclarationFragment MethodInvocation QualifiedName atlas format convertersversion v
+entity formatter SimpleName VariableDeclarationFragment MethodInvocation QualifiedName type categoryentity
+atlas format adapter SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName entity formatter
+entity SimpleName MethodInvocation SimpleName get type name
+type registry SimpleName MethodInvocation SimpleName get type
+type registry SimpleName MethodInvocation MethodInvocation SimpleName entity
+type registry SimpleName MethodInvocation MethodInvocation SimpleName get type name
+get type SimpleName MethodInvocation MethodInvocation SimpleName entity
+get type SimpleName MethodInvocation MethodInvocation SimpleName get type name
+entity type SimpleName VariableDeclarationFragment MethodInvocation SimpleName type registry
+entity type SimpleName VariableDeclarationFragment MethodInvocation SimpleName get type
+entity type SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName entity
+entity type SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get type name
+atlas type SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName entity type
+entity formatter SimpleName MethodInvocation SimpleName convert
+entity formatter SimpleName MethodInvocation QualifiedName atlas format convertersversion v
+entity formatter SimpleName MethodInvocation QualifiedName atlas format convertersversion v
+entity formatter SimpleName MethodInvocation SimpleName entity type
+entity formatter SimpleName MethodInvocation SimpleName entity
+convert SimpleName MethodInvocation QualifiedName atlas format convertersversion v
+convert SimpleName MethodInvocation QualifiedName atlas format convertersversion v
+convert SimpleName MethodInvocation SimpleName entity type
+convert SimpleName MethodInvocation SimpleName entity
+atlas format convertersversion v QualifiedName MethodInvocation QualifiedName atlas format convertersversion v
+atlas format convertersversion v QualifiedName MethodInvocation SimpleName entity type
+atlas format convertersversion v QualifiedName MethodInvocation SimpleName entity
+atlas format convertersversion v QualifiedName MethodInvocation SimpleName entity type
+atlas format convertersversion v QualifiedName MethodInvocation SimpleName entity
+entity type SimpleName MethodInvocation SimpleName entity
+referenceable SimpleName SimpleType CastExpression MethodInvocation SimpleName entity formatter
+referenceable SimpleName SimpleType CastExpression MethodInvocation SimpleName convert
+referenceable SimpleName SimpleType CastExpression MethodInvocation QualifiedName atlas format convertersversion v
+referenceable SimpleName SimpleType CastExpression MethodInvocation QualifiedName atlas format convertersversion v
+referenceable SimpleName SimpleType CastExpression MethodInvocation SimpleName entity type
+referenceable SimpleName SimpleType CastExpression MethodInvocation SimpleName entity
+ref SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName referenceable
+ref SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName entity formatter
+ref SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName convert
+ref SimpleName VariableDeclarationFragment CastExpression MethodInvocation QualifiedName atlas format convertersversion v
+ref SimpleName VariableDeclarationFragment CastExpression MethodInvocation QualifiedName atlas format convertersversion v
+ref SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName entity type
+ref SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName entity
+referenceable SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ref
+metadata service SimpleName MethodInvocation SimpleName get typed referenceable instance
+metadata service SimpleName MethodInvocation SimpleName ref
+get typed referenceable instance SimpleName MethodInvocation SimpleName ref
+atlas exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation StringLiteral exception while getting a typed reference for the entity
+log SimpleName MethodInvocation SimpleName e
+error SimpleName MethodInvocation StringLiteral exception while getting a typed reference for the entity
+error SimpleName MethodInvocation SimpleName e
+exception while getting a typed reference for the entity StringLiteral MethodInvocation SimpleName e
+to atlas base exception SimpleName MethodInvocation SimpleName e
+public Modifier MethodDeclaration SimpleType SimpleName i typed referenceable instance
+public Modifier MethodDeclaration SimpleName get i typed referenceable
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas entity
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName entity
+public Modifier MethodDeclaration SimpleType SimpleName atlas base exception
+i typed referenceable instance SimpleName SimpleType MethodDeclaration SimpleName get i typed referenceable
+i typed referenceable instance SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName entity
+i typed referenceable instance SimpleName SimpleType MethodDeclaration SimpleType SimpleName atlas base exception
+get i typed referenceable SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas entity
+get i typed referenceable SimpleName MethodDeclaration SingleVariableDeclaration SimpleName entity
+get i typed referenceable SimpleName MethodDeclaration SimpleType SimpleName atlas base exception
+entity SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName i typed referenceable instance
+public Modifier TypeDeclaration MethodDeclaration SimpleName get i typed referenceable
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName i typed referenceable instance
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get i typed referenceable
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception

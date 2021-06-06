@@ -1,0 +1,72 @@
+tree map SimpleName SimpleType ParameterizedType SimpleType SimpleName key extent
+tree map SimpleName SimpleType ParameterizedType SimpleType SimpleName tablet location
+key extent SimpleName SimpleType ParameterizedType SimpleType SimpleName tablet location
+object SimpleName SimpleType SingleVariableDeclaration SimpleName data
+tree map SimpleName SimpleType ParameterizedType SimpleType SimpleName key extent
+tree map SimpleName SimpleType ParameterizedType SimpleType SimpleName tablet location
+key extent SimpleName SimpleType ParameterizedType SimpleType SimpleName tablet location
+tree map SimpleName SimpleType ParameterizedType SimpleType SimpleName key extent
+tree map SimpleName SimpleType ParameterizedType SimpleType SimpleName tablet location
+key extent SimpleName SimpleType ParameterizedType SimpleType SimpleName tablet location
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+i SimpleName InfixExpression QualifiedName datalength
+i SimpleName Assignment NumberLiteral empty
+data SimpleName ArrayAccess SimpleName i
+key extent SimpleName SimpleType CastExpression ArrayAccess SimpleName data
+key extent SimpleName SimpleType CastExpression ArrayAccess SimpleName i
+ke SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName key extent
+ke SimpleName VariableDeclarationFragment CastExpression ArrayAccess SimpleName data
+ke SimpleName VariableDeclarationFragment CastExpression ArrayAccess SimpleName i
+key extent SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ke
+i SimpleName InfixExpression NumberLiteral empty
+data SimpleName ArrayAccess InfixExpression SimpleName i
+data SimpleName ArrayAccess InfixExpression NumberLiteral empty
+string SimpleName SimpleType CastExpression ArrayAccess SimpleName data
+loc SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName string
+loc SimpleName VariableDeclarationFragment CastExpression ArrayAccess SimpleName data
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName loc
+tablet location SimpleName SimpleType ClassInstanceCreation SimpleName ke
+tablet location SimpleName SimpleType ClassInstanceCreation SimpleName loc
+ke SimpleName ClassInstanceCreation SimpleName loc
+mcke SimpleName MethodInvocation SimpleName put
+mcke SimpleName MethodInvocation SimpleName ke
+mcke SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName tablet location
+mcke SimpleName MethodInvocation ClassInstanceCreation SimpleName ke
+mcke SimpleName MethodInvocation ClassInstanceCreation SimpleName loc
+put SimpleName MethodInvocation SimpleName ke
+put SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName tablet location
+put SimpleName MethodInvocation ClassInstanceCreation SimpleName ke
+put SimpleName MethodInvocation ClassInstanceCreation SimpleName loc
+ke SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName tablet location
+ke SimpleName MethodInvocation ClassInstanceCreation SimpleName ke
+ke SimpleName MethodInvocation ClassInstanceCreation SimpleName loc
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression QualifiedName datalength
+int PrimitiveType VariableDeclarationExpression ForStatement Assignment SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement Assignment NumberLiteral empty
+i SimpleName InfixExpression ForStatement Assignment SimpleName i
+i SimpleName InfixExpression ForStatement Assignment NumberLiteral empty
+datalength QualifiedName InfixExpression ForStatement Assignment SimpleName i
+datalength QualifiedName InfixExpression ForStatement Assignment NumberLiteral empty
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName tree map
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName key extent
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName tablet location
+static Modifier MethodDeclaration SimpleName create meta cache ke
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName data
+static Modifier MethodDeclaration Block ReturnStatement SimpleName mcke
+tree map SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName create meta cache ke
+key extent SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName create meta cache ke
+tablet location SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName create meta cache ke
+create meta cache ke SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+create meta cache ke SimpleName MethodDeclaration SingleVariableDeclaration SimpleName data
+create meta cache ke SimpleName MethodDeclaration Block ReturnStatement SimpleName mcke
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleName create meta cache ke
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName data
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create meta cache ke
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName data

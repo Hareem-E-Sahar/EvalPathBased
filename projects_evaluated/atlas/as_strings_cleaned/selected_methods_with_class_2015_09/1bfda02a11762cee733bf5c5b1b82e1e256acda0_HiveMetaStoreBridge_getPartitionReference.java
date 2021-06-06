@@ -1,0 +1,151 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName db name
+string SimpleName SimpleType SingleVariableDeclaration SimpleName table name
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+list SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName values
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName values
+string utils SimpleName MethodInvocation SimpleName join
+string utils SimpleName MethodInvocation SimpleName values
+string utils SimpleName MethodInvocation StringLiteral empty
+join SimpleName MethodInvocation SimpleName values
+join SimpleName MethodInvocation StringLiteral empty
+values SimpleName MethodInvocation StringLiteral empty
+[ StringLiteral InfixExpression MethodInvocation SimpleName string utils
+[ StringLiteral InfixExpression MethodInvocation SimpleName join
+[ StringLiteral InfixExpression MethodInvocation SimpleName values
+[ StringLiteral InfixExpression MethodInvocation StringLiteral empty
+[ StringLiteral InfixExpression StringLiteral ]
+string utils SimpleName MethodInvocation InfixExpression StringLiteral ]
+join SimpleName MethodInvocation InfixExpression StringLiteral ]
+values SimpleName MethodInvocation InfixExpression StringLiteral ]
+empty StringLiteral MethodInvocation InfixExpression StringLiteral ]
+values str SimpleName VariableDeclarationFragment InfixExpression StringLiteral [
+values str SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName string utils
+values str SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName join
+values str SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName values
+values str SimpleName VariableDeclarationFragment InfixExpression MethodInvocation StringLiteral empty
+values str SimpleName VariableDeclarationFragment InfixExpression StringLiteral ]
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName values str
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral getting reference for partition for {}.{} with values {}
+log SimpleName MethodInvocation SimpleName db name
+log SimpleName MethodInvocation SimpleName table name
+log SimpleName MethodInvocation SimpleName values str
+debug SimpleName MethodInvocation StringLiteral getting reference for partition for {}.{} with values {}
+debug SimpleName MethodInvocation SimpleName db name
+debug SimpleName MethodInvocation SimpleName table name
+debug SimpleName MethodInvocation SimpleName values str
+getting reference for partition for {}.{} with values {} StringLiteral MethodInvocation SimpleName db name
+getting reference for partition for {}.{} with values {} StringLiteral MethodInvocation SimpleName table name
+getting reference for partition for {}.{} with values {} StringLiteral MethodInvocation SimpleName values str
+db name SimpleName MethodInvocation SimpleName table name
+db name SimpleName MethodInvocation SimpleName values str
+table name SimpleName MethodInvocation SimpleName values str
+hive data typeshive partition QualifiedName MethodInvocation SimpleName get name
+type name SimpleName VariableDeclarationFragment MethodInvocation QualifiedName hive data typeshive partition
+type name SimpleName VariableDeclarationFragment MethodInvocation SimpleName get name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName type name
+dataset type SimpleName VariableDeclarationFragment QualifiedName atlas clientdata set super type
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName dataset type
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment QualifiedName atlas clientdata set super type
+get table qualified name SimpleName MethodInvocation SimpleName cluster name
+get table qualified name SimpleName MethodInvocation SimpleName db name
+get table qualified name SimpleName MethodInvocation SimpleName table name
+cluster name SimpleName MethodInvocation SimpleName db name
+cluster name SimpleName MethodInvocation SimpleName table name
+db name SimpleName MethodInvocation SimpleName table name
+table entity name SimpleName VariableDeclarationFragment MethodInvocation SimpleName get table qualified name
+table entity name SimpleName VariableDeclarationFragment MethodInvocation SimpleName cluster name
+table entity name SimpleName VariableDeclarationFragment MethodInvocation SimpleName db name
+table entity name SimpleName VariableDeclarationFragment MethodInvocation SimpleName table name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName table entity name
+gvhas type name shassvalues sasp StringLiteral InfixExpression StringLiteral out stablehassname sbackpto list
+string SimpleName MethodInvocation SimpleName format
+string SimpleName MethodInvocation InfixExpression StringLiteral gvhas type name shassvalues sasp
+string SimpleName MethodInvocation InfixExpression StringLiteral out stablehassname sbackpto list
+string SimpleName MethodInvocation SimpleName type name
+string SimpleName MethodInvocation SimpleName type name
+string SimpleName MethodInvocation SimpleName values str
+format SimpleName MethodInvocation InfixExpression StringLiteral gvhas type name shassvalues sasp
+format SimpleName MethodInvocation InfixExpression StringLiteral out stablehassname sbackpto list
+format SimpleName MethodInvocation SimpleName type name
+format SimpleName MethodInvocation SimpleName type name
+format SimpleName MethodInvocation SimpleName values str
+format SimpleName MethodInvocation SimpleName type name
+gvhas type name shassvalues sasp StringLiteral InfixExpression MethodInvocation SimpleName type name
+out stablehassname sbackpto list StringLiteral InfixExpression MethodInvocation SimpleName type name
+gvhas type name shassvalues sasp StringLiteral InfixExpression MethodInvocation SimpleName type name
+out stablehassname sbackpto list StringLiteral InfixExpression MethodInvocation SimpleName type name
+gvhas type name shassvalues sasp StringLiteral InfixExpression MethodInvocation SimpleName values str
+out stablehassname sbackpto list StringLiteral InfixExpression MethodInvocation SimpleName values str
+gvhas type name shassvalues sasp StringLiteral InfixExpression MethodInvocation SimpleName type name
+out stablehassname sbackpto list StringLiteral InfixExpression MethodInvocation SimpleName type name
+gvhas type name shassvalues sasp StringLiteral InfixExpression MethodInvocation SimpleName dataset type
+out stablehassname sbackpto list StringLiteral InfixExpression MethodInvocation SimpleName dataset type
+type name SimpleName MethodInvocation SimpleName type name
+type name SimpleName MethodInvocation SimpleName values str
+type name SimpleName MethodInvocation SimpleName type name
+type name SimpleName MethodInvocation SimpleName dataset type
+type name SimpleName MethodInvocation SimpleName table entity name
+type name SimpleName MethodInvocation SimpleName values str
+type name SimpleName MethodInvocation SimpleName type name
+type name SimpleName MethodInvocation SimpleName dataset type
+type name SimpleName MethodInvocation SimpleName table entity name
+values str SimpleName MethodInvocation SimpleName type name
+values str SimpleName MethodInvocation SimpleName dataset type
+values str SimpleName MethodInvocation SimpleName table entity name
+type name SimpleName MethodInvocation SimpleName dataset type
+type name SimpleName MethodInvocation SimpleName table entity name
+dataset type SimpleName MethodInvocation SimpleName table entity name
+gremlin query SimpleName VariableDeclarationFragment MethodInvocation SimpleName string
+gremlin query SimpleName VariableDeclarationFragment MethodInvocation SimpleName format
+gremlin query SimpleName VariableDeclarationFragment MethodInvocation InfixExpression StringLiteral gvhas type name shassvalues sasp
+gremlin query SimpleName VariableDeclarationFragment MethodInvocation InfixExpression StringLiteral out stablehassname sbackpto list
+gremlin query SimpleName VariableDeclarationFragment MethodInvocation SimpleName type name
+gremlin query SimpleName VariableDeclarationFragment MethodInvocation SimpleName type name
+gremlin query SimpleName VariableDeclarationFragment MethodInvocation SimpleName values str
+gremlin query SimpleName VariableDeclarationFragment MethodInvocation SimpleName type name
+gremlin query SimpleName VariableDeclarationFragment MethodInvocation SimpleName dataset type
+gremlin query SimpleName VariableDeclarationFragment MethodInvocation SimpleName table entity name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName gremlin query
+get entity reference from gremlin SimpleName MethodInvocation SimpleName type name
+get entity reference from gremlin SimpleName MethodInvocation SimpleName gremlin query
+type name SimpleName MethodInvocation SimpleName gremlin query
+private Modifier MethodDeclaration SimpleType SimpleName referenceable
+private Modifier MethodDeclaration SimpleName get partition reference
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName db name
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName table name
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName values
+referenceable SimpleName SimpleType MethodDeclaration SimpleName get partition reference
+referenceable SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName db name
+referenceable SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName table name
+referenceable SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName values
+referenceable SimpleName SimpleType MethodDeclaration SimpleType SimpleName exception
+get partition reference SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get partition reference SimpleName MethodDeclaration SingleVariableDeclaration SimpleName db name
+get partition reference SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get partition reference SimpleName MethodDeclaration SingleVariableDeclaration SimpleName table name
+get partition reference SimpleName MethodDeclaration SingleVariableDeclaration SimpleName values
+get partition reference SimpleName MethodDeclaration SimpleType SimpleName exception
+db name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table name
+db name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName values
+db name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+table name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName values
+table name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+values SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName referenceable
+public Modifier TypeDeclaration MethodDeclaration SimpleName get partition reference
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName db name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName values
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName referenceable
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get partition reference
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName db name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName values
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

@@ -1,0 +1,27 @@
+object SimpleName SimpleType SingleVariableDeclaration SimpleName object id
+object id SimpleName InstanceofExpression SimpleType SimpleName atlas object id
+atlas object id SimpleName SimpleType CastExpression SimpleName object id
+private Modifier MethodDeclaration Modifier static
+private Modifier MethodDeclaration SimpleType SimpleName atlas object id
+private Modifier MethodDeclaration SimpleName to atlas object id
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName object id
+static Modifier MethodDeclaration SimpleType SimpleName atlas object id
+static Modifier MethodDeclaration SimpleName to atlas object id
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName object id
+atlas object id SimpleName SimpleType MethodDeclaration SimpleName to atlas object id
+atlas object id SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName object id
+to atlas object id SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+to atlas object id SimpleName MethodDeclaration SingleVariableDeclaration SimpleName object id
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas object id
+public Modifier TypeDeclaration MethodDeclaration SimpleName to atlas object id
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName object id
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas object id
+test SimpleName TypeDeclaration MethodDeclaration SimpleName to atlas object id
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName object id

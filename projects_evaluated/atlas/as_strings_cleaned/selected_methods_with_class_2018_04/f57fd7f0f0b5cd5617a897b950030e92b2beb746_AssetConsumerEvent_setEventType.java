@@ -1,0 +1,20 @@
+asset consumer event type SimpleName SimpleType SingleVariableDeclaration SimpleName event type
+event type SimpleName FieldAccess Assignment SimpleName event type
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set event type
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName asset consumer event type
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName event type
+void PrimitiveType MethodDeclaration SimpleName set event type
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName asset consumer event type
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName event type
+set event type SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName asset consumer event type
+set event type SimpleName MethodDeclaration SingleVariableDeclaration SimpleName event type
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set event type
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName event type
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set event type
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName event type

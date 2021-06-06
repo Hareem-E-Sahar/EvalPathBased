@@ -1,0 +1,176 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName server name
+string SimpleName SimpleType SingleVariableDeclaration SimpleName method name
+endpoint SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName endpoint
+endpoint SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName endpoint
+omagserver StringLiteral InfixExpression SimpleName server name
+omagserver StringLiteral InfixExpression StringLiteral config
+server name SimpleName InfixExpression StringLiteral config
+endpoint SimpleName MethodInvocation SimpleName set address
+endpoint SimpleName MethodInvocation InfixExpression StringLiteral omagserver
+endpoint SimpleName MethodInvocation InfixExpression SimpleName server name
+endpoint SimpleName MethodInvocation InfixExpression StringLiteral config
+set address SimpleName MethodInvocation InfixExpression StringLiteral omagserver
+set address SimpleName MethodInvocation InfixExpression SimpleName server name
+set address SimpleName MethodInvocation InfixExpression StringLiteral config
+connector type SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName connector type
+connector type SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName connector type
+file based server config store provider SimpleName SimpleType TypeLiteral MethodInvocation SimpleName get name
+connector type SimpleName MethodInvocation SimpleName set connector provider class name
+connector type SimpleName MethodInvocation MethodInvocation SimpleName get name
+set connector provider class name SimpleName MethodInvocation MethodInvocation SimpleName get name
+connection SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName connection
+connection SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName connection
+connection SimpleName MethodInvocation SimpleName set endpoint
+connection SimpleName MethodInvocation SimpleName endpoint
+set endpoint SimpleName MethodInvocation SimpleName endpoint
+connection SimpleName MethodInvocation SimpleName set connector type
+connection SimpleName MethodInvocation SimpleName connector type
+set connector type SimpleName MethodInvocation SimpleName connector type
+endpoint SimpleName MethodInvocation SimpleName get address
+connection SimpleName MethodInvocation SimpleName set qualified name
+connection SimpleName MethodInvocation MethodInvocation SimpleName endpoint
+connection SimpleName MethodInvocation MethodInvocation SimpleName get address
+set qualified name SimpleName MethodInvocation MethodInvocation SimpleName endpoint
+set qualified name SimpleName MethodInvocation MethodInvocation SimpleName get address
+connector broker SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName connector broker
+connector broker SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName connector broker
+connector broker SimpleName MethodInvocation SimpleName get connector
+connector broker SimpleName MethodInvocation SimpleName connection
+get connector SimpleName MethodInvocation SimpleName connection
+connector SimpleName VariableDeclarationFragment MethodInvocation SimpleName connector broker
+connector SimpleName VariableDeclarationFragment MethodInvocation SimpleName get connector
+connector SimpleName VariableDeclarationFragment MethodInvocation SimpleName connection
+connector SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName connector
+omag server config store SimpleName SimpleType CastExpression SimpleName connector
+server config store SimpleName Assignment CastExpression SimpleType SimpleName omag server config store
+server config store SimpleName Assignment CastExpression SimpleName connector
+throwable SimpleName SimpleType SingleVariableDeclaration SimpleName error
+error code SimpleName VariableDeclarationFragment QualifiedName omag error codebad config file
+omag error code SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName error code
+omag error code SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment QualifiedName omag error codebad config file
+error code SimpleName MethodInvocation SimpleName get error message id
+error SimpleName MethodInvocation SimpleName get message
+error code SimpleName MethodInvocation SimpleName get formatted error message
+error code SimpleName MethodInvocation SimpleName server name
+error code SimpleName MethodInvocation SimpleName method name
+error code SimpleName MethodInvocation MethodInvocation SimpleName error
+error code SimpleName MethodInvocation MethodInvocation SimpleName get message
+get formatted error message SimpleName MethodInvocation SimpleName server name
+get formatted error message SimpleName MethodInvocation SimpleName method name
+get formatted error message SimpleName MethodInvocation MethodInvocation SimpleName error
+get formatted error message SimpleName MethodInvocation MethodInvocation SimpleName get message
+server name SimpleName MethodInvocation SimpleName method name
+server name SimpleName MethodInvocation MethodInvocation SimpleName error
+server name SimpleName MethodInvocation MethodInvocation SimpleName get message
+method name SimpleName MethodInvocation MethodInvocation SimpleName error
+method name SimpleName MethodInvocation MethodInvocation SimpleName get message
+error code SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName error code
+error code SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get formatted error message
+error code SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName server name
+error code SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName method name
+get error message id SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName error code
+get error message id SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get formatted error message
+get error message id SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName server name
+get error message id SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName method name
+error message SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName error code
+error message SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName get error message id
+error message SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName error code
+error message SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName get formatted error message
+error message SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName server name
+error message SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName method name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName error message
+error code SimpleName MethodInvocation SimpleName get http error code
+get class SimpleName MethodInvocation MethodInvocation SimpleName get name
+error code SimpleName MethodInvocation SimpleName get system action
+error code SimpleName MethodInvocation SimpleName get user action
+omag invalid parameter exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName error code
+omag invalid parameter exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get http error code
+omag invalid parameter exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get name
+omag invalid parameter exception SimpleName SimpleType ClassInstanceCreation SimpleName method name
+omag invalid parameter exception SimpleName SimpleType ClassInstanceCreation SimpleName error message
+omag invalid parameter exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName error code
+omag invalid parameter exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get system action
+error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get name
+get http error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get name
+error code SimpleName MethodInvocation ClassInstanceCreation SimpleName method name
+get http error code SimpleName MethodInvocation ClassInstanceCreation SimpleName method name
+error code SimpleName MethodInvocation ClassInstanceCreation SimpleName error message
+get http error code SimpleName MethodInvocation ClassInstanceCreation SimpleName error message
+error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName error code
+error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get system action
+get http error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName error code
+get http error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get system action
+error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName error code
+error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get user action
+get http error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName error code
+get http error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get user action
+get class SimpleName MethodInvocation MethodInvocation ClassInstanceCreation SimpleName method name
+get name SimpleName MethodInvocation ClassInstanceCreation SimpleName method name
+get class SimpleName MethodInvocation MethodInvocation ClassInstanceCreation SimpleName error message
+get name SimpleName MethodInvocation ClassInstanceCreation SimpleName error message
+get name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName error code
+get name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get system action
+get name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName error code
+get name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get user action
+get class SimpleName MethodInvocation MethodInvocation ClassInstanceCreation SimpleName error
+get name SimpleName MethodInvocation ClassInstanceCreation SimpleName error
+method name SimpleName ClassInstanceCreation SimpleName error message
+method name SimpleName ClassInstanceCreation MethodInvocation SimpleName error code
+method name SimpleName ClassInstanceCreation MethodInvocation SimpleName get system action
+method name SimpleName ClassInstanceCreation MethodInvocation SimpleName error code
+method name SimpleName ClassInstanceCreation MethodInvocation SimpleName get user action
+method name SimpleName ClassInstanceCreation SimpleName error
+error message SimpleName ClassInstanceCreation MethodInvocation SimpleName error code
+error message SimpleName ClassInstanceCreation MethodInvocation SimpleName get system action
+error message SimpleName ClassInstanceCreation MethodInvocation SimpleName error code
+error message SimpleName ClassInstanceCreation MethodInvocation SimpleName get user action
+error message SimpleName ClassInstanceCreation SimpleName error
+error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName error code
+error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get user action
+get system action SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName error code
+get system action SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get user action
+error code SimpleName MethodInvocation ClassInstanceCreation SimpleName error
+get system action SimpleName MethodInvocation ClassInstanceCreation SimpleName error
+error code SimpleName MethodInvocation ClassInstanceCreation SimpleName error
+get user action SimpleName MethodInvocation ClassInstanceCreation SimpleName error
+server config store SimpleName MethodInvocation SimpleName retrieve server config
+server config SimpleName VariableDeclarationFragment MethodInvocation SimpleName server config store
+server config SimpleName VariableDeclarationFragment MethodInvocation SimpleName retrieve server config
+omag server config SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName server config
+server config SimpleName Assignment ClassInstanceCreation SimpleType SimpleName omag server config
+server config SimpleName MethodInvocation SimpleName set local server name
+server config SimpleName MethodInvocation SimpleName server name
+set local server name SimpleName MethodInvocation SimpleName server name
+private Modifier MethodDeclaration SimpleType SimpleName omag server config
+private Modifier MethodDeclaration SimpleName get server config
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName server name
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName method name
+private Modifier MethodDeclaration SimpleType SimpleName omag invalid parameter exception
+omag server config SimpleName SimpleType MethodDeclaration SimpleName get server config
+omag server config SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName server name
+omag server config SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName method name
+omag server config SimpleName SimpleType MethodDeclaration SimpleType SimpleName omag invalid parameter exception
+get server config SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get server config SimpleName MethodDeclaration SingleVariableDeclaration SimpleName server name
+get server config SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get server config SimpleName MethodDeclaration SingleVariableDeclaration SimpleName method name
+get server config SimpleName MethodDeclaration SimpleType SimpleName omag invalid parameter exception
+get server config SimpleName MethodDeclaration Block ReturnStatement SimpleName server config
+server name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName method name
+server name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName omag invalid parameter exception
+method name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName omag invalid parameter exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName omag server config
+public Modifier TypeDeclaration MethodDeclaration SimpleName get server config
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName server name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName method name
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName omag invalid parameter exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName omag server config
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get server config
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName server name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName method name
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName omag invalid parameter exception

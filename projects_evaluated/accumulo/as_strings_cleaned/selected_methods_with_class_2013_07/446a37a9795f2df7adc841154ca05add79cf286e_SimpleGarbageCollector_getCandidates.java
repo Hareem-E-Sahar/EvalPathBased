@@ -1,0 +1,103 @@
+sorted set SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+tree set SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+tree set SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+check for bulk processing files SimpleName Assignment BooleanLiteral true
+string SimpleName SimpleType SingleVariableDeclaration SimpleName valid extension
+file operations SimpleName MethodInvocation SimpleName get valid extensions
+string SimpleName SimpleType SingleVariableDeclaration SimpleName dir
+server constants SimpleName MethodInvocation SimpleName get tables dirs
+file status SimpleName SimpleType SingleVariableDeclaration SimpleName stat
+dir SimpleName InfixExpression StringLiteral *.
+dir SimpleName InfixExpression SimpleName valid extension
+*. StringLiteral InfixExpression SimpleName valid extension
+path SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName dir
+path SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral *.
+path SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName valid extension
+fs SimpleName MethodInvocation SimpleName glob status
+fs SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName path
+fs SimpleName MethodInvocation ClassInstanceCreation InfixExpression SimpleName dir
+fs SimpleName MethodInvocation ClassInstanceCreation InfixExpression StringLiteral *.
+fs SimpleName MethodInvocation ClassInstanceCreation InfixExpression SimpleName valid extension
+glob status SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName path
+glob status SimpleName MethodInvocation ClassInstanceCreation InfixExpression SimpleName dir
+glob status SimpleName MethodInvocation ClassInstanceCreation InfixExpression StringLiteral *.
+glob status SimpleName MethodInvocation ClassInstanceCreation InfixExpression SimpleName valid extension
+stat SimpleName MethodInvocation SimpleName get path
+stat SimpleName MethodInvocation MethodInvocation SimpleName to uri
+get path SimpleName MethodInvocation MethodInvocation SimpleName to uri
+stat SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get path
+get path SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get path
+to uri SimpleName MethodInvocation MethodInvocation SimpleName get path
+cand SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName to uri
+cand SimpleName VariableDeclarationFragment MethodInvocation SimpleName get path
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName cand
+server constants SimpleName MethodInvocation SimpleName get root tablet dir
+cand SimpleName MethodInvocation SimpleName contains
+cand SimpleName MethodInvocation MethodInvocation SimpleName server constants
+cand SimpleName MethodInvocation MethodInvocation SimpleName get root tablet dir
+contains SimpleName MethodInvocation MethodInvocation SimpleName server constants
+contains SimpleName MethodInvocation MethodInvocation SimpleName get root tablet dir
+dir SimpleName MethodInvocation SimpleName length
+cand SimpleName MethodInvocation SimpleName substring
+cand SimpleName MethodInvocation MethodInvocation SimpleName dir
+cand SimpleName MethodInvocation MethodInvocation SimpleName length
+substring SimpleName MethodInvocation MethodInvocation SimpleName dir
+substring SimpleName MethodInvocation MethodInvocation SimpleName length
+candidates SimpleName MethodInvocation SimpleName add
+candidates SimpleName MethodInvocation MethodInvocation SimpleName cand
+candidates SimpleName MethodInvocation MethodInvocation SimpleName substring
+candidates SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName dir
+candidates SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName length
+add SimpleName MethodInvocation MethodInvocation SimpleName cand
+add SimpleName MethodInvocation MethodInvocation SimpleName substring
+add SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName dir
+add SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName length
+offline candidate StringLiteral InfixExpression SimpleName cand
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation InfixExpression StringLiteral offline candidate
+log SimpleName MethodInvocation InfixExpression SimpleName cand
+debug SimpleName MethodInvocation InfixExpression StringLiteral offline candidate
+debug SimpleName MethodInvocation InfixExpression SimpleName cand
+stat SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName fs
+stat SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName glob status
+dir SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName server constants
+dir SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName get tables dirs
+valid extension SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName file operations
+valid extension SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName get valid extensions
+io exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation StringLiteral unable to check the filesystem for offline candidates removing all candidates for deletion to be safe
+log SimpleName MethodInvocation SimpleName e
+error SimpleName MethodInvocation StringLiteral unable to check the filesystem for offline candidates removing all candidates for deletion to be safe
+error SimpleName MethodInvocation SimpleName e
+unable to check the filesystem for offline candidates removing all candidates for deletion to be safe StringLiteral MethodInvocation SimpleName e
+candidates SimpleName MethodInvocation SimpleName clear
+offline SimpleName IfStatement Block ReturnStatement SimpleName candidates
+check for bulk processing files SimpleName Assignment BooleanLiteral false
+get batch SimpleName MethodInvocation QualifiedName root tablename
+candidates SimpleName MethodInvocation SimpleName add all
+candidates SimpleName MethodInvocation MethodInvocation SimpleName get batch
+candidates SimpleName MethodInvocation MethodInvocation QualifiedName root tablename
+add all SimpleName MethodInvocation MethodInvocation SimpleName get batch
+add all SimpleName MethodInvocation MethodInvocation QualifiedName root tablename
+candidate mem exceeded SimpleName IfStatement ReturnStatement SimpleName candidates
+get batch SimpleName MethodInvocation QualifiedName metadata tablename
+candidates SimpleName MethodInvocation SimpleName add all
+candidates SimpleName MethodInvocation MethodInvocation SimpleName get batch
+candidates SimpleName MethodInvocation MethodInvocation QualifiedName metadata tablename
+add all SimpleName MethodInvocation MethodInvocation SimpleName get batch
+add all SimpleName MethodInvocation MethodInvocation QualifiedName metadata tablename
+offline SimpleName IfStatement Block IfStatement SimpleName candidate mem exceeded
+offline SimpleName IfStatement Block ReturnStatement SimpleName candidates
+candidate mem exceeded SimpleName IfStatement Block ReturnStatement SimpleName candidates
+sorted set SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get candidates
+string SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get candidates
+get candidates SimpleName MethodDeclaration SimpleType SimpleName exception
+get candidates SimpleName MethodDeclaration Block IfStatement SimpleName offline
+get candidates SimpleName MethodDeclaration Block IfStatement SimpleName candidate mem exceeded
+get candidates SimpleName MethodDeclaration Block ReturnStatement SimpleName candidates
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration SimpleName get candidates
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get candidates
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

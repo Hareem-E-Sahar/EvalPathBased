@@ -1,0 +1,53 @@
+atlas entity type SimpleName SimpleType SingleVariableDeclaration SimpleName entity type
+atlas entity SimpleName SimpleType SingleVariableDeclaration SimpleName entity
+visit struct SimpleName MethodInvocation SimpleName entity type
+visit struct SimpleName MethodInvocation SimpleName entity
+entity type SimpleName MethodInvocation SimpleName entity
+atlas attribute SimpleName SimpleType SingleVariableDeclaration SimpleName attribute
+entity type SimpleName MethodInvocation SimpleName get relationship attributes
+entity type SimpleName MethodInvocation MethodInvocation SimpleName values
+get relationship attributes SimpleName MethodInvocation MethodInvocation SimpleName values
+attribute SimpleName MethodInvocation SimpleName get attribute type
+attr type SimpleName VariableDeclarationFragment MethodInvocation SimpleName attribute
+attr type SimpleName VariableDeclarationFragment MethodInvocation SimpleName get attribute type
+atlas type SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName attr type
+attribute SimpleName MethodInvocation SimpleName get name
+entity SimpleName MethodInvocation SimpleName get relationship attribute
+entity SimpleName MethodInvocation MethodInvocation SimpleName attribute
+entity SimpleName MethodInvocation MethodInvocation SimpleName get name
+get relationship attribute SimpleName MethodInvocation MethodInvocation SimpleName attribute
+get relationship attribute SimpleName MethodInvocation MethodInvocation SimpleName get name
+attr val SimpleName VariableDeclarationFragment MethodInvocation SimpleName entity
+attr val SimpleName VariableDeclarationFragment MethodInvocation SimpleName get relationship attribute
+attr val SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName attribute
+attr val SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get name
+object SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName attr val
+visit attribute SimpleName MethodInvocation SimpleName attr type
+visit attribute SimpleName MethodInvocation SimpleName attr val
+attr type SimpleName MethodInvocation SimpleName attr val
+attribute SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName values
+void PrimitiveType MethodDeclaration SimpleName visit entity
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas entity type
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName entity type
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas entity
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName entity
+void PrimitiveType MethodDeclaration SimpleType SimpleName atlas base exception
+visit entity SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas entity type
+visit entity SimpleName MethodDeclaration SingleVariableDeclaration SimpleName entity type
+visit entity SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas entity
+visit entity SimpleName MethodDeclaration SingleVariableDeclaration SimpleName entity
+visit entity SimpleName MethodDeclaration SimpleType SimpleName atlas base exception
+entity type SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity
+entity type SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+entity SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName visit entity
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity type
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName visit entity
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity type
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception

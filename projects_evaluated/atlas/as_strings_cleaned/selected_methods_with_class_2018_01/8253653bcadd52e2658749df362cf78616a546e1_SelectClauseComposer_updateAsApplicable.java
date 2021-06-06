@@ -1,0 +1,133 @@
+int PrimitiveType SingleVariableDeclaration SimpleName current index
+string SimpleName SimpleType SingleVariableDeclaration SimpleName qualified name
+ret SimpleName VariableDeclarationFragment BooleanLiteral false
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName ret
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment BooleanLiteral false
+current index SimpleName InfixExpression MethodInvocation SimpleName get count idx
+gremlin clauseinline count QualifiedName MethodInvocation SimpleName get
+assign SimpleName MethodInvocation SimpleName current index
+assign SimpleName MethodInvocation StringLiteral count
+assign SimpleName MethodInvocation MethodInvocation QualifiedName gremlin clauseinline count
+assign SimpleName MethodInvocation MethodInvocation SimpleName get
+assign SimpleName MethodInvocation QualifiedName gremlin clauseinline assignment
+current index SimpleName MethodInvocation StringLiteral count
+current index SimpleName MethodInvocation MethodInvocation QualifiedName gremlin clauseinline count
+current index SimpleName MethodInvocation MethodInvocation SimpleName get
+current index SimpleName MethodInvocation QualifiedName gremlin clauseinline assignment
+count StringLiteral MethodInvocation MethodInvocation QualifiedName gremlin clauseinline count
+count StringLiteral MethodInvocation MethodInvocation SimpleName get
+count StringLiteral MethodInvocation QualifiedName gremlin clauseinline assignment
+gremlin clauseinline count QualifiedName MethodInvocation MethodInvocation QualifiedName gremlin clauseinline assignment
+get SimpleName MethodInvocation MethodInvocation QualifiedName gremlin clauseinline assignment
+ret SimpleName Assignment MethodInvocation SimpleName assign
+ret SimpleName Assignment MethodInvocation SimpleName current index
+ret SimpleName Assignment MethodInvocation StringLiteral count
+ret SimpleName Assignment MethodInvocation MethodInvocation QualifiedName gremlin clauseinline count
+ret SimpleName Assignment MethodInvocation MethodInvocation SimpleName get
+ret SimpleName Assignment MethodInvocation QualifiedName gremlin clauseinline assignment
+current index SimpleName InfixExpression MethodInvocation SimpleName get min idx
+assign SimpleName MethodInvocation SimpleName current index
+assign SimpleName MethodInvocation StringLiteral min
+assign SimpleName MethodInvocation SimpleName qualified name
+assign SimpleName MethodInvocation QualifiedName gremlin clauseinline assignment
+assign SimpleName MethodInvocation QualifiedName gremlin clauseinline min
+current index SimpleName MethodInvocation StringLiteral min
+current index SimpleName MethodInvocation SimpleName qualified name
+current index SimpleName MethodInvocation QualifiedName gremlin clauseinline assignment
+current index SimpleName MethodInvocation QualifiedName gremlin clauseinline min
+min StringLiteral MethodInvocation SimpleName qualified name
+min StringLiteral MethodInvocation QualifiedName gremlin clauseinline assignment
+min StringLiteral MethodInvocation QualifiedName gremlin clauseinline min
+qualified name SimpleName MethodInvocation QualifiedName gremlin clauseinline assignment
+qualified name SimpleName MethodInvocation QualifiedName gremlin clauseinline min
+gremlin clauseinline assignment QualifiedName MethodInvocation QualifiedName gremlin clauseinline min
+ret SimpleName Assignment MethodInvocation SimpleName assign
+ret SimpleName Assignment MethodInvocation SimpleName current index
+ret SimpleName Assignment MethodInvocation StringLiteral min
+ret SimpleName Assignment MethodInvocation SimpleName qualified name
+ret SimpleName Assignment MethodInvocation QualifiedName gremlin clauseinline assignment
+ret SimpleName Assignment MethodInvocation QualifiedName gremlin clauseinline min
+current index SimpleName InfixExpression MethodInvocation SimpleName get max idx
+assign SimpleName MethodInvocation SimpleName current index
+assign SimpleName MethodInvocation StringLiteral max
+assign SimpleName MethodInvocation SimpleName qualified name
+assign SimpleName MethodInvocation QualifiedName gremlin clauseinline assignment
+assign SimpleName MethodInvocation QualifiedName gremlin clauseinline max
+current index SimpleName MethodInvocation StringLiteral max
+current index SimpleName MethodInvocation SimpleName qualified name
+current index SimpleName MethodInvocation QualifiedName gremlin clauseinline assignment
+current index SimpleName MethodInvocation QualifiedName gremlin clauseinline max
+max StringLiteral MethodInvocation SimpleName qualified name
+max StringLiteral MethodInvocation QualifiedName gremlin clauseinline assignment
+max StringLiteral MethodInvocation QualifiedName gremlin clauseinline max
+qualified name SimpleName MethodInvocation QualifiedName gremlin clauseinline assignment
+qualified name SimpleName MethodInvocation QualifiedName gremlin clauseinline max
+gremlin clauseinline assignment QualifiedName MethodInvocation QualifiedName gremlin clauseinline max
+ret SimpleName Assignment MethodInvocation SimpleName assign
+ret SimpleName Assignment MethodInvocation SimpleName current index
+ret SimpleName Assignment MethodInvocation StringLiteral max
+ret SimpleName Assignment MethodInvocation SimpleName qualified name
+ret SimpleName Assignment MethodInvocation QualifiedName gremlin clauseinline assignment
+ret SimpleName Assignment MethodInvocation QualifiedName gremlin clauseinline max
+current index SimpleName InfixExpression MethodInvocation SimpleName get sum idx
+assign SimpleName MethodInvocation SimpleName current index
+assign SimpleName MethodInvocation StringLiteral sum
+assign SimpleName MethodInvocation SimpleName qualified name
+assign SimpleName MethodInvocation QualifiedName gremlin clauseinline assignment
+assign SimpleName MethodInvocation QualifiedName gremlin clauseinline sum
+current index SimpleName MethodInvocation StringLiteral sum
+current index SimpleName MethodInvocation SimpleName qualified name
+current index SimpleName MethodInvocation QualifiedName gremlin clauseinline assignment
+current index SimpleName MethodInvocation QualifiedName gremlin clauseinline sum
+sum StringLiteral MethodInvocation SimpleName qualified name
+sum StringLiteral MethodInvocation QualifiedName gremlin clauseinline assignment
+sum StringLiteral MethodInvocation QualifiedName gremlin clauseinline sum
+qualified name SimpleName MethodInvocation QualifiedName gremlin clauseinline assignment
+qualified name SimpleName MethodInvocation QualifiedName gremlin clauseinline sum
+gremlin clauseinline assignment QualifiedName MethodInvocation QualifiedName gremlin clauseinline sum
+ret SimpleName Assignment MethodInvocation SimpleName assign
+ret SimpleName Assignment MethodInvocation SimpleName current index
+ret SimpleName Assignment MethodInvocation StringLiteral sum
+ret SimpleName Assignment MethodInvocation SimpleName qualified name
+ret SimpleName Assignment MethodInvocation QualifiedName gremlin clauseinline assignment
+ret SimpleName Assignment MethodInvocation QualifiedName gremlin clauseinline sum
+attributes SimpleName ArrayAccess SimpleName current index
+attributes SimpleName ArrayAccess Assignment SimpleName qualified name
+current index SimpleName ArrayAccess Assignment SimpleName qualified name
+boolean PrimitiveType VariableDeclarationStatement Block ReturnStatement SimpleName ret
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName update as applicable
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName current index
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName qualified name
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+public Modifier MethodDeclaration Block ReturnStatement SimpleName ret
+boolean PrimitiveType MethodDeclaration SimpleName update as applicable
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName current index
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName qualified name
+boolean PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+boolean PrimitiveType MethodDeclaration Block ReturnStatement SimpleName ret
+update as applicable SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+update as applicable SimpleName MethodDeclaration SingleVariableDeclaration SimpleName current index
+update as applicable SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+update as applicable SimpleName MethodDeclaration SingleVariableDeclaration SimpleName qualified name
+update as applicable SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+update as applicable SimpleName MethodDeclaration Block ReturnStatement SimpleName ret
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName qualified name
+current index SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName qualified name
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName update as applicable
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName current index
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName qualified name
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName update as applicable
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName current index
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName qualified name

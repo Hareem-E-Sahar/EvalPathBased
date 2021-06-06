@@ -1,0 +1,214 @@
+get connector SimpleName MethodInvocation MethodInvocation SimpleName create batch writer
+get connector SimpleName MethodInvocation MethodInvocation StringLiteral cct
+get connector SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+get connector SimpleName MethodInvocation MethodInvocation NumberLiteral l
+get connector SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+create batch writer SimpleName MethodInvocation StringLiteral cct
+create batch writer SimpleName MethodInvocation NumberLiteral empty
+create batch writer SimpleName MethodInvocation NumberLiteral l
+create batch writer SimpleName MethodInvocation NumberLiteral empty
+cct StringLiteral MethodInvocation NumberLiteral empty
+cct StringLiteral MethodInvocation NumberLiteral l
+cct StringLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral l
+empty NumberLiteral MethodInvocation NumberLiteral empty
+l NumberLiteral MethodInvocation NumberLiteral empty
+bw SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get connector
+bw SimpleName VariableDeclarationFragment MethodInvocation SimpleName create batch writer
+bw SimpleName VariableDeclarationFragment MethodInvocation StringLiteral cct
+bw SimpleName VariableDeclarationFragment MethodInvocation NumberLiteral empty
+bw SimpleName VariableDeclarationFragment MethodInvocation NumberLiteral l
+bw SimpleName VariableDeclarationFragment MethodInvocation NumberLiteral empty
+batch writer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName bw
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+i SimpleName InfixExpression NumberLiteral empty
+string SimpleName MethodInvocation SimpleName format
+string SimpleName MethodInvocation StringLiteral % d
+string SimpleName MethodInvocation SimpleName i
+format SimpleName MethodInvocation StringLiteral % d
+format SimpleName MethodInvocation SimpleName i
+% d StringLiteral MethodInvocation SimpleName i
+text SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName string
+text SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName format
+text SimpleName SimpleType ClassInstanceCreation MethodInvocation StringLiteral % d
+text SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName i
+m SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName mutation
+mutation SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName m
+text SimpleName SimpleType ClassInstanceCreation StringLiteral cf
+text SimpleName SimpleType ClassInstanceCreation StringLiteral cq
+foo StringLiteral MethodInvocation SimpleName get bytes
+value SimpleName SimpleType ClassInstanceCreation MethodInvocation StringLiteral foo
+value SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get bytes
+m SimpleName MethodInvocation SimpleName put
+m SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName text
+m SimpleName MethodInvocation ClassInstanceCreation StringLiteral cf
+m SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName text
+m SimpleName MethodInvocation ClassInstanceCreation StringLiteral cq
+m SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName value
+m SimpleName MethodInvocation ClassInstanceCreation MethodInvocation StringLiteral foo
+m SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get bytes
+put SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName text
+put SimpleName MethodInvocation ClassInstanceCreation StringLiteral cf
+put SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName text
+put SimpleName MethodInvocation ClassInstanceCreation StringLiteral cq
+put SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName value
+put SimpleName MethodInvocation ClassInstanceCreation MethodInvocation StringLiteral foo
+put SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get bytes
+cf StringLiteral ClassInstanceCreation MethodInvocation ClassInstanceCreation StringLiteral cq
+bw SimpleName MethodInvocation SimpleName add mutation
+bw SimpleName MethodInvocation SimpleName m
+add mutation SimpleName MethodInvocation SimpleName m
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+empty NumberLiteral InfixExpression ForStatement PostfixExpression SimpleName i
+bw SimpleName MethodInvocation SimpleName flush
+scan task SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get connector
+scan task SimpleName SimpleType ClassInstanceCreation NumberLiteral empty
+get connector SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+st SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName scan task
+st SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get connector
+st SimpleName VariableDeclarationFragment ClassInstanceCreation NumberLiteral empty
+scan task SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName st
+st SimpleName MethodInvocation SimpleName start
+scan task SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get connector
+scan task SimpleName SimpleType ClassInstanceCreation NumberLiteral empty
+get connector SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+st SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName scan task
+st SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get connector
+st SimpleName VariableDeclarationFragment ClassInstanceCreation NumberLiteral empty
+scan task SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName st
+st SimpleName MethodInvocation SimpleName start
+util wait thread SimpleName MethodInvocation SimpleName sleep
+util wait thread SimpleName MethodInvocation NumberLiteral empty
+sleep SimpleName MethodInvocation NumberLiteral empty
+get connector SimpleName MethodInvocation MethodInvocation SimpleName table operations
+get connector SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName flush
+table operations SimpleName MethodInvocation MethodInvocation SimpleName flush
+get connector SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral cct
+table operations SimpleName MethodInvocation MethodInvocation StringLiteral cct
+get connector SimpleName MethodInvocation MethodInvocation MethodInvocation BooleanLiteral true
+table operations SimpleName MethodInvocation MethodInvocation BooleanLiteral true
+flush SimpleName MethodInvocation StringLiteral cct
+flush SimpleName MethodInvocation BooleanLiteral true
+cct StringLiteral MethodInvocation BooleanLiteral true
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+i SimpleName InfixExpression NumberLiteral empty
+string SimpleName MethodInvocation SimpleName format
+string SimpleName MethodInvocation StringLiteral % d
+string SimpleName MethodInvocation SimpleName i
+format SimpleName MethodInvocation StringLiteral % d
+format SimpleName MethodInvocation SimpleName i
+% d StringLiteral MethodInvocation SimpleName i
+text SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName string
+text SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName format
+text SimpleName SimpleType ClassInstanceCreation MethodInvocation StringLiteral % d
+text SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName i
+m SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName mutation
+mutation SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName m
+text SimpleName SimpleType ClassInstanceCreation StringLiteral cf
+text SimpleName SimpleType ClassInstanceCreation StringLiteral cq
+foo StringLiteral MethodInvocation SimpleName get bytes
+value SimpleName SimpleType ClassInstanceCreation MethodInvocation StringLiteral foo
+value SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get bytes
+m SimpleName MethodInvocation SimpleName put
+m SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName text
+m SimpleName MethodInvocation ClassInstanceCreation StringLiteral cf
+m SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName text
+m SimpleName MethodInvocation ClassInstanceCreation StringLiteral cq
+m SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName value
+m SimpleName MethodInvocation ClassInstanceCreation MethodInvocation StringLiteral foo
+m SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get bytes
+put SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName text
+put SimpleName MethodInvocation ClassInstanceCreation StringLiteral cf
+put SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName text
+put SimpleName MethodInvocation ClassInstanceCreation StringLiteral cq
+put SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName value
+put SimpleName MethodInvocation ClassInstanceCreation MethodInvocation StringLiteral foo
+put SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get bytes
+cf StringLiteral ClassInstanceCreation MethodInvocation ClassInstanceCreation StringLiteral cq
+bw SimpleName MethodInvocation SimpleName add mutation
+bw SimpleName MethodInvocation SimpleName m
+add mutation SimpleName MethodInvocation SimpleName m
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+empty NumberLiteral InfixExpression ForStatement PostfixExpression SimpleName i
+bw SimpleName MethodInvocation SimpleName flush
+scan task SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get connector
+scan task SimpleName SimpleType ClassInstanceCreation NumberLiteral empty
+get connector SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+st SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName scan task
+st SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get connector
+st SimpleName VariableDeclarationFragment ClassInstanceCreation NumberLiteral empty
+scan task SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName st
+st SimpleName MethodInvocation SimpleName start
+st SimpleName MethodInvocation SimpleName join
+st SimpleName MethodInvocation SimpleName join
+st count QualifiedName InfixExpression NumberLiteral empty
+thread did not see saw StringLiteral InfixExpression QualifiedName st count
+exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral thread did not see saw
+exception SimpleName SimpleType ClassInstanceCreation InfixExpression QualifiedName st count
+st count QualifiedName InfixExpression NumberLiteral empty
+thread did not see saw StringLiteral InfixExpression QualifiedName st count
+exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral thread did not see saw
+exception SimpleName SimpleType ClassInstanceCreation InfixExpression QualifiedName st count
+scan task SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get connector
+scan task SimpleName SimpleType ClassInstanceCreation NumberLiteral empty
+get connector SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+st SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName scan task
+st SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get connector
+st SimpleName VariableDeclarationFragment ClassInstanceCreation NumberLiteral empty
+scan task SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName st
+st SimpleName MethodInvocation SimpleName start
+util wait thread SimpleName MethodInvocation SimpleName sleep
+util wait thread SimpleName MethodInvocation NumberLiteral empty
+sleep SimpleName MethodInvocation NumberLiteral empty
+get connector SimpleName MethodInvocation MethodInvocation SimpleName table operations
+get connector SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName flush
+table operations SimpleName MethodInvocation MethodInvocation SimpleName flush
+get connector SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral cct
+table operations SimpleName MethodInvocation MethodInvocation StringLiteral cct
+get connector SimpleName MethodInvocation MethodInvocation MethodInvocation BooleanLiteral false
+table operations SimpleName MethodInvocation MethodInvocation BooleanLiteral false
+flush SimpleName MethodInvocation StringLiteral cct
+flush SimpleName MethodInvocation BooleanLiteral false
+cct StringLiteral MethodInvocation BooleanLiteral false
+st SimpleName MethodInvocation SimpleName join
+st count QualifiedName InfixExpression NumberLiteral empty
+thread did not see saw StringLiteral InfixExpression QualifiedName st count
+exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral thread did not see saw
+exception SimpleName SimpleType ClassInstanceCreation InfixExpression QualifiedName st count
+st SimpleName MethodInvocation SimpleName join
+st count QualifiedName InfixExpression NumberLiteral empty
+thread did not see saw StringLiteral InfixExpression QualifiedName st count
+exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral thread did not see saw
+exception SimpleName SimpleType ClassInstanceCreation InfixExpression QualifiedName st count
+bw SimpleName MethodInvocation SimpleName close
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName run
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName run
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName run
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+run SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName run
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName run
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

@@ -1,0 +1,146 @@
+connection SimpleName SimpleType SingleVariableDeclaration SimpleName connection
+local omrs connector provider SimpleName SimpleType SingleVariableDeclaration SimpleName connector provider
+method name SimpleName VariableDeclarationFragment StringLiteral get local omrs connector
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName method name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral get local omrs connector
+connector provider SimpleName MethodInvocation SimpleName get connector
+connector provider SimpleName MethodInvocation SimpleName connection
+get connector SimpleName MethodInvocation SimpleName connection
+local omrs repository connector SimpleName SimpleType CastExpression MethodInvocation SimpleName connector provider
+local omrs repository connector SimpleName SimpleType CastExpression MethodInvocation SimpleName get connector
+local omrs repository connector SimpleName SimpleType CastExpression MethodInvocation SimpleName connection
+local repository connector SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName local omrs repository connector
+local repository connector SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName connector provider
+local repository connector SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get connector
+local repository connector SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName connection
+local omrs repository connector SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName local repository connector
+local repository connector SimpleName MethodInvocation SimpleName set max page size
+local repository connector SimpleName MethodInvocation SimpleName max page size
+set max page size SimpleName MethodInvocation SimpleName max page size
+local repository connector SimpleName MethodInvocation SimpleName set server name
+local repository connector SimpleName MethodInvocation SimpleName local server name
+set server name SimpleName MethodInvocation SimpleName local server name
+local repository connector SimpleName MethodInvocation SimpleName set server type
+local repository connector SimpleName MethodInvocation SimpleName local server type
+set server type SimpleName MethodInvocation SimpleName local server type
+local repository connector SimpleName MethodInvocation SimpleName set organization name
+local repository connector SimpleName MethodInvocation SimpleName local organization name
+set organization name SimpleName MethodInvocation SimpleName local organization name
+omrs repository helper SimpleName SimpleType ClassInstanceCreation SimpleName local repository content manager
+local repository connector SimpleName MethodInvocation SimpleName set repository helper
+local repository connector SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName omrs repository helper
+local repository connector SimpleName MethodInvocation ClassInstanceCreation SimpleName local repository content manager
+set repository helper SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName omrs repository helper
+set repository helper SimpleName MethodInvocation ClassInstanceCreation SimpleName local repository content manager
+omrs repository validator SimpleName SimpleType ClassInstanceCreation SimpleName local repository content manager
+local repository connector SimpleName MethodInvocation SimpleName set repository validator
+local repository connector SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName omrs repository validator
+local repository connector SimpleName MethodInvocation ClassInstanceCreation SimpleName local repository content manager
+set repository validator SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName omrs repository validator
+set repository validator SimpleName MethodInvocation ClassInstanceCreation SimpleName local repository content manager
+local repository connector SimpleName MethodInvocation SimpleName set metadata collection id
+local repository connector SimpleName MethodInvocation SimpleName local metadata collection id
+set metadata collection id SimpleName MethodInvocation SimpleName local metadata collection id
+throwable SimpleName SimpleType SingleVariableDeclaration SimpleName error
+connection SimpleName MethodInvocation SimpleName get connection name
+connection name SimpleName VariableDeclarationFragment MethodInvocation SimpleName connection
+connection name SimpleName VariableDeclarationFragment MethodInvocation SimpleName get connection name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName connection name
+error code SimpleName VariableDeclarationFragment QualifiedName omrs error codeinvalid omrs connection
+omrs error code SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName error code
+omrs error code SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment QualifiedName omrs error codeinvalid omrs connection
+error code SimpleName MethodInvocation SimpleName get error message id
+error code SimpleName MethodInvocation SimpleName get formatted error message
+error code SimpleName MethodInvocation SimpleName connection name
+get formatted error message SimpleName MethodInvocation SimpleName connection name
+error code SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName error code
+error code SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get formatted error message
+error code SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName connection name
+get error message id SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName error code
+get error message id SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get formatted error message
+get error message id SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName connection name
+error message SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName error code
+error message SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName get error message id
+error message SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName error code
+error message SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName get formatted error message
+error message SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName connection name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName error message
+error code SimpleName MethodInvocation SimpleName get http error code
+get class SimpleName MethodInvocation MethodInvocation SimpleName get name
+error code SimpleName MethodInvocation SimpleName get system action
+error code SimpleName MethodInvocation SimpleName get user action
+omrs runtime exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName error code
+omrs runtime exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get http error code
+omrs runtime exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get name
+omrs runtime exception SimpleName SimpleType ClassInstanceCreation SimpleName method name
+omrs runtime exception SimpleName SimpleType ClassInstanceCreation SimpleName error message
+omrs runtime exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName error code
+omrs runtime exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get system action
+error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get name
+get http error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get name
+error code SimpleName MethodInvocation ClassInstanceCreation SimpleName method name
+get http error code SimpleName MethodInvocation ClassInstanceCreation SimpleName method name
+error code SimpleName MethodInvocation ClassInstanceCreation SimpleName error message
+get http error code SimpleName MethodInvocation ClassInstanceCreation SimpleName error message
+error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName error code
+error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get system action
+get http error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName error code
+get http error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get system action
+error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName error code
+error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get user action
+get http error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName error code
+get http error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get user action
+get class SimpleName MethodInvocation MethodInvocation ClassInstanceCreation SimpleName method name
+get name SimpleName MethodInvocation ClassInstanceCreation SimpleName method name
+get class SimpleName MethodInvocation MethodInvocation ClassInstanceCreation SimpleName error message
+get name SimpleName MethodInvocation ClassInstanceCreation SimpleName error message
+get name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName error code
+get name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get system action
+get name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName error code
+get name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get user action
+get class SimpleName MethodInvocation MethodInvocation ClassInstanceCreation SimpleName error
+get name SimpleName MethodInvocation ClassInstanceCreation SimpleName error
+method name SimpleName ClassInstanceCreation SimpleName error message
+method name SimpleName ClassInstanceCreation MethodInvocation SimpleName error code
+method name SimpleName ClassInstanceCreation MethodInvocation SimpleName get system action
+method name SimpleName ClassInstanceCreation MethodInvocation SimpleName error code
+method name SimpleName ClassInstanceCreation MethodInvocation SimpleName get user action
+method name SimpleName ClassInstanceCreation SimpleName error
+error message SimpleName ClassInstanceCreation MethodInvocation SimpleName error code
+error message SimpleName ClassInstanceCreation MethodInvocation SimpleName get system action
+error message SimpleName ClassInstanceCreation MethodInvocation SimpleName error code
+error message SimpleName ClassInstanceCreation MethodInvocation SimpleName get user action
+error message SimpleName ClassInstanceCreation SimpleName error
+error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName error code
+error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get user action
+get system action SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName error code
+get system action SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get user action
+error code SimpleName MethodInvocation ClassInstanceCreation SimpleName error
+get system action SimpleName MethodInvocation ClassInstanceCreation SimpleName error
+error code SimpleName MethodInvocation ClassInstanceCreation SimpleName error
+get user action SimpleName MethodInvocation ClassInstanceCreation SimpleName error
+private Modifier MethodDeclaration SimpleType SimpleName local omrs repository connector
+private Modifier MethodDeclaration SimpleName get local omrs connector
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName connection
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName connection
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName local omrs connector provider
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName connector provider
+local omrs repository connector SimpleName SimpleType MethodDeclaration SimpleName get local omrs connector
+local omrs repository connector SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName connection
+local omrs repository connector SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName connector provider
+get local omrs connector SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName connection
+get local omrs connector SimpleName MethodDeclaration SingleVariableDeclaration SimpleName connection
+get local omrs connector SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName local omrs connector provider
+get local omrs connector SimpleName MethodDeclaration SingleVariableDeclaration SimpleName connector provider
+connection SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName connector provider
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName local omrs repository connector
+public Modifier TypeDeclaration MethodDeclaration SimpleName get local omrs connector
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName connection
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName connector provider
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName local omrs repository connector
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get local omrs connector
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName connection
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName connector provider

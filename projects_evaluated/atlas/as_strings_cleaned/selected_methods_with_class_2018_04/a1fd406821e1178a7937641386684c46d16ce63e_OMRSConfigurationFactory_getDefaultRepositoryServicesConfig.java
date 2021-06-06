@@ -1,0 +1,32 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName local server name
+repository services config SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName repository services config
+repository services config SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName repository services config
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName connection
+get default audit log connection SimpleName MethodInvocation SimpleName local server name
+audit log store connections SimpleName MethodInvocation SimpleName add
+audit log store connections SimpleName MethodInvocation MethodInvocation SimpleName get default audit log connection
+audit log store connections SimpleName MethodInvocation MethodInvocation SimpleName local server name
+add SimpleName MethodInvocation MethodInvocation SimpleName get default audit log connection
+add SimpleName MethodInvocation MethodInvocation SimpleName local server name
+repository services config SimpleName MethodInvocation SimpleName set audit log connections
+repository services config SimpleName MethodInvocation SimpleName audit log store connections
+set audit log connections SimpleName MethodInvocation SimpleName audit log store connections
+public Modifier MethodDeclaration SimpleType SimpleName repository services config
+public Modifier MethodDeclaration SimpleName get default repository services config
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName local server name
+public Modifier MethodDeclaration Block ReturnStatement SimpleName repository services config
+repository services config SimpleName SimpleType MethodDeclaration SimpleName get default repository services config
+repository services config SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName local server name
+get default repository services config SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get default repository services config SimpleName MethodDeclaration SingleVariableDeclaration SimpleName local server name
+get default repository services config SimpleName MethodDeclaration Block ReturnStatement SimpleName repository services config
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName repository services config
+public Modifier TypeDeclaration MethodDeclaration SimpleName get default repository services config
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName local server name
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName repository services config
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get default repository services config
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName local server name

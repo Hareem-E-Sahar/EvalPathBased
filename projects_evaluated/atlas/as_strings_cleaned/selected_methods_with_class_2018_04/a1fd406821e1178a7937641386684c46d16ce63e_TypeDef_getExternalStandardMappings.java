@@ -1,0 +1,12 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName external standard mapping
+array list SimpleName SimpleType ParameterizedType ClassInstanceCreation SimpleName external standard mappings
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName external standard mapping
+public Modifier MethodDeclaration SimpleName get external standard mappings
+list SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get external standard mappings
+external standard mapping SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get external standard mappings
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName get external standard mappings
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get external standard mappings

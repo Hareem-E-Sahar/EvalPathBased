@@ -1,0 +1,37 @@
+system SimpleName MethodInvocation SimpleName get property
+system SimpleName MethodInvocation StringLiteral atlasconf
+get property SimpleName MethodInvocation StringLiteral atlasconf
+original conf SimpleName Assignment MethodInvocation SimpleName system
+original conf SimpleName Assignment MethodInvocation SimpleName get property
+original conf SimpleName Assignment MethodInvocation StringLiteral atlasconf
+system SimpleName MethodInvocation SimpleName set property
+system SimpleName MethodInvocation StringLiteral atlasconf
+system SimpleName MethodInvocation StringLiteral srctestresources
+set property SimpleName MethodInvocation StringLiteral atlasconf
+set property SimpleName MethodInvocation StringLiteral srctestresources
+atlasconf StringLiteral MethodInvocation StringLiteral srctestresources
+atlas authorizer factory SimpleName MethodInvocation SimpleName get atlas authorizer
+authorizer SimpleName Assignment MethodInvocation SimpleName atlas authorizer factory
+authorizer SimpleName Assignment MethodInvocation SimpleName get atlas authorizer
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation StringLiteral exception in atlas simple authorizer test setup failed
+log SimpleName MethodInvocation SimpleName e
+error SimpleName MethodInvocation StringLiteral exception in atlas simple authorizer test setup failed
+error SimpleName MethodInvocation SimpleName e
+exception in atlas simple authorizer test setup failed StringLiteral MethodInvocation SimpleName e
+before method SimpleName MarkerAnnotation MethodDeclaration Modifier public
+before method SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+before method SimpleName MarkerAnnotation MethodDeclaration SimpleName setup
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName setup
+void PrimitiveType MethodDeclaration SimpleName setup
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName before method
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName setup
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName before method
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName setup

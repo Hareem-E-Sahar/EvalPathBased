@@ -1,0 +1,47 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+final Modifier SingleVariableDeclaration SimpleType SimpleName string
+final Modifier SingleVariableDeclaration SimpleName guid
+string SimpleName SimpleType SingleVariableDeclaration SimpleName guid
+call api with body and params SimpleName MethodInvocation QualifiedName apilist traits
+call api with body and params SimpleName MethodInvocation SimpleName guid
+call api with body and params SimpleName MethodInvocation SimpleName uri traits
+apilist traits QualifiedName MethodInvocation SimpleName guid
+apilist traits QualifiedName MethodInvocation SimpleName uri traits
+guid SimpleName MethodInvocation SimpleName uri traits
+json response SimpleName VariableDeclarationFragment MethodInvocation SimpleName call api with body and params
+json response SimpleName VariableDeclarationFragment MethodInvocation QualifiedName apilist traits
+json response SimpleName VariableDeclarationFragment MethodInvocation SimpleName guid
+json response SimpleName VariableDeclarationFragment MethodInvocation SimpleName uri traits
+json object SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName json response
+extract operation SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+extract operation SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+extract results SimpleName MethodInvocation SimpleName json response
+extract results SimpleName MethodInvocation QualifiedName atlas clientresults
+json response SimpleName MethodInvocation QualifiedName atlas clientresults
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName list traits
+public Modifier MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName guid
+public Modifier MethodDeclaration SimpleType SimpleName atlas service exception
+list SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName list traits
+string SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName list traits
+list traits SimpleName MethodDeclaration SingleVariableDeclaration Modifier final
+list traits SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+list traits SimpleName MethodDeclaration SingleVariableDeclaration SimpleName guid
+list traits SimpleName MethodDeclaration SimpleType SimpleName atlas service exception
+final Modifier SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas service exception
+guid SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas service exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName list traits
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName guid
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas service exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName list traits
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName guid
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas service exception

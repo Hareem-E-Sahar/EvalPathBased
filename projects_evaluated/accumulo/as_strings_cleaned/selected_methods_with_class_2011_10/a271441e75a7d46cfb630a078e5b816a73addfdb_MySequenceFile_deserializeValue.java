@@ -1,0 +1,27 @@
+object SimpleName SimpleType SingleVariableDeclaration SimpleName val
+val deserializer SimpleName MethodInvocation SimpleName deserialize
+val deserializer SimpleName MethodInvocation SimpleName val
+deserialize SimpleName MethodInvocation SimpleName val
+private Modifier MethodDeclaration SimpleType SimpleName object
+private Modifier MethodDeclaration SimpleName deserialize value
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName val
+private Modifier MethodDeclaration SimpleType SimpleName io exception
+object SimpleName SimpleType MethodDeclaration SimpleName deserialize value
+object SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName val
+object SimpleName SimpleType MethodDeclaration SimpleType SimpleName io exception
+deserialize value SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+deserialize value SimpleName MethodDeclaration SingleVariableDeclaration SimpleName val
+deserialize value SimpleName MethodDeclaration SimpleType SimpleName io exception
+val SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName object
+public Modifier TypeDeclaration MethodDeclaration SimpleName deserialize value
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName val
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName object
+test SimpleName TypeDeclaration MethodDeclaration SimpleName deserialize value
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName val
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

@@ -1,0 +1,100 @@
+data provider SimpleName MemberValuePair StringLiteral zip file stocks
+test SimpleName NormalAnnotation MemberValuePair SimpleName data provider
+test SimpleName NormalAnnotation MemberValuePair StringLiteral zip file stocks
+zip source SimpleName SimpleType SingleVariableDeclaration SimpleName zip source
+transforms SimpleName VariableDeclarationFragment MethodInvocation SimpleName get transform for hive db
+import transforms SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName transforms
+zip source SimpleName MethodInvocation SimpleName set import transform
+zip source SimpleName MethodInvocation SimpleName transforms
+set import transform SimpleName MethodInvocation SimpleName transforms
+zip source SimpleName MethodInvocation SimpleName has next
+assert SimpleName MethodInvocation SimpleName assert true
+assert SimpleName MethodInvocation MethodInvocation SimpleName zip source
+assert SimpleName MethodInvocation MethodInvocation SimpleName has next
+assert true SimpleName MethodInvocation MethodInvocation SimpleName zip source
+assert true SimpleName MethodInvocation MethodInvocation SimpleName has next
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+zip source SimpleName MethodInvocation SimpleName get creation order
+creation order SimpleName VariableDeclarationFragment MethodInvocation SimpleName zip source
+creation order SimpleName VariableDeclarationFragment MethodInvocation SimpleName get creation order
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+creation order SimpleName MethodInvocation SimpleName size
+i SimpleName InfixExpression MethodInvocation SimpleName creation order
+i SimpleName InfixExpression MethodInvocation SimpleName size
+zip source SimpleName MethodInvocation SimpleName next
+e SimpleName VariableDeclarationFragment MethodInvocation SimpleName zip source
+e SimpleName VariableDeclarationFragment MethodInvocation SimpleName next
+atlas entity SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName e
+e SimpleName MethodInvocation SimpleName get type name
+e SimpleName MethodInvocation MethodInvocation SimpleName equals
+get type name SimpleName MethodInvocation MethodInvocation SimpleName equals
+e SimpleName MethodInvocation MethodInvocation StringLiteral hive db
+get type name SimpleName MethodInvocation MethodInvocation StringLiteral hive db
+equals SimpleName MethodInvocation StringLiteral hive db
+e SimpleName MethodInvocation SimpleName get attribute
+e SimpleName MethodInvocation StringLiteral qualified name
+get attribute SimpleName MethodInvocation StringLiteral qualified name
+o SimpleName VariableDeclarationFragment MethodInvocation SimpleName e
+o SimpleName VariableDeclarationFragment MethodInvocation SimpleName get attribute
+o SimpleName VariableDeclarationFragment MethodInvocation StringLiteral qualified name
+object SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName o
+string SimpleName SimpleType CastExpression SimpleName o
+s SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName string
+s SimpleName VariableDeclarationFragment CastExpression SimpleName o
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName s
+assert not null SimpleName MethodInvocation SimpleName e
+s SimpleName MethodInvocation SimpleName contains
+s SimpleName MethodInvocation StringLiteral cl
+contains SimpleName MethodInvocation StringLiteral cl
+assert true SimpleName MethodInvocation MethodInvocation SimpleName s
+assert true SimpleName MethodInvocation MethodInvocation SimpleName contains
+assert true SimpleName MethodInvocation MethodInvocation StringLiteral cl
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+test SimpleName NormalAnnotation MethodDeclaration Modifier public
+data provider SimpleName MemberValuePair NormalAnnotation MethodDeclaration Modifier public
+zip file stocks StringLiteral MemberValuePair NormalAnnotation MethodDeclaration Modifier public
+test SimpleName NormalAnnotation MethodDeclaration PrimitiveType void
+data provider SimpleName MemberValuePair NormalAnnotation MethodDeclaration PrimitiveType void
+zip file stocks StringLiteral MemberValuePair NormalAnnotation MethodDeclaration PrimitiveType void
+test SimpleName NormalAnnotation MethodDeclaration SimpleName apply transformation
+data provider SimpleName MemberValuePair NormalAnnotation MethodDeclaration SimpleName apply transformation
+zip file stocks StringLiteral MemberValuePair NormalAnnotation MethodDeclaration SimpleName apply transformation
+test SimpleName NormalAnnotation MethodDeclaration SingleVariableDeclaration SimpleName zip source
+test SimpleName NormalAnnotation MethodDeclaration SimpleType SimpleName io exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName apply transformation
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName zip source
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName zip source
+public Modifier MethodDeclaration SimpleType SimpleName io exception
+public Modifier MethodDeclaration SimpleType SimpleName atlas base exception
+void PrimitiveType MethodDeclaration SimpleName apply transformation
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName zip source
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName zip source
+void PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+void PrimitiveType MethodDeclaration SimpleType SimpleName atlas base exception
+apply transformation SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName zip source
+apply transformation SimpleName MethodDeclaration SingleVariableDeclaration SimpleName zip source
+apply transformation SimpleName MethodDeclaration SimpleType SimpleName io exception
+apply transformation SimpleName MethodDeclaration SimpleType SimpleName atlas base exception
+zip source SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+zip source SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+io exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration NormalAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName apply transformation
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName zip source
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+test SimpleName TypeDeclaration MethodDeclaration NormalAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName apply transformation
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName zip source
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception

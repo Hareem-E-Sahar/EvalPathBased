@@ -1,0 +1,49 @@
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName ret
+application properties SimpleName MethodInvocation SimpleName get
+application properties SimpleName MethodInvocation MethodInvocation SimpleName get string
+get SimpleName MethodInvocation MethodInvocation SimpleName get string
+application properties SimpleName MethodInvocation MethodInvocation SimpleName entity notification version property
+get SimpleName MethodInvocation MethodInvocation SimpleName entity notification version property
+application properties SimpleName MethodInvocation MethodInvocation StringLiteral v
+get SimpleName MethodInvocation MethodInvocation StringLiteral v
+get string SimpleName MethodInvocation SimpleName entity notification version property
+get string SimpleName MethodInvocation StringLiteral v
+entity notification version property SimpleName MethodInvocation StringLiteral v
+notification version SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName application properties
+notification version SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get
+notification version SimpleName VariableDeclarationFragment MethodInvocation SimpleName get string
+notification version SimpleName VariableDeclarationFragment MethodInvocation SimpleName entity notification version property
+notification version SimpleName VariableDeclarationFragment MethodInvocation StringLiteral v
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName notification version
+string utils SimpleName MethodInvocation SimpleName equals ignore case
+string utils SimpleName MethodInvocation SimpleName notification version
+string utils SimpleName MethodInvocation StringLiteral v
+equals ignore case SimpleName MethodInvocation SimpleName notification version
+equals ignore case SimpleName MethodInvocation StringLiteral v
+notification version SimpleName MethodInvocation StringLiteral v
+atlas exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+ret SimpleName Assignment BooleanLiteral true
+boolean PrimitiveType VariableDeclarationStatement Block ReturnStatement SimpleName ret
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName is v entity notification enabled
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+public Modifier MethodDeclaration Block ReturnStatement SimpleName ret
+static Modifier MethodDeclaration PrimitiveType boolean
+static Modifier MethodDeclaration SimpleName is v entity notification enabled
+static Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+static Modifier MethodDeclaration Block ReturnStatement SimpleName ret
+boolean PrimitiveType MethodDeclaration SimpleName is v entity notification enabled
+boolean PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+boolean PrimitiveType MethodDeclaration Block ReturnStatement SimpleName ret
+is v entity notification enabled SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+is v entity notification enabled SimpleName MethodDeclaration Block ReturnStatement SimpleName ret
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName is v entity notification enabled
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName is v entity notification enabled

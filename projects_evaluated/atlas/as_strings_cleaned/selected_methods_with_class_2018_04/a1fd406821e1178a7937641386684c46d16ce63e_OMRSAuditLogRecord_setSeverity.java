@@ -1,0 +1,20 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName severity
+severity SimpleName FieldAccess Assignment SimpleName severity
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set severity
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName severity
+void PrimitiveType MethodDeclaration SimpleName set severity
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName severity
+set severity SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+set severity SimpleName MethodDeclaration SingleVariableDeclaration SimpleName severity
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set severity
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName severity
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set severity
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName severity

@@ -1,0 +1,16 @@
+add spans SimpleName MethodInvocation SimpleName scanner
+add spans SimpleName MethodInvocation SimpleName tree
+add spans SimpleName MethodInvocation QualifiedName longmax value
+scanner SimpleName MethodInvocation SimpleName tree
+scanner SimpleName MethodInvocation QualifiedName longmax value
+tree SimpleName MethodInvocation QualifiedName longmax value
+public Modifier MethodDeclaration SimpleType SimpleName long
+public Modifier MethodDeclaration SimpleName run
+long SimpleName SimpleType MethodDeclaration SimpleName run
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName long
+public Modifier TypeDeclaration MethodDeclaration SimpleName run
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName long
+test SimpleName TypeDeclaration MethodDeclaration SimpleName run

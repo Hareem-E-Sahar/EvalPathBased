@@ -1,0 +1,116 @@
+connection SimpleName SimpleType SingleVariableDeclaration SimpleName open metadata archive store connection
+connector broker SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName connector broker
+connector broker SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName connector broker
+connector broker SimpleName MethodInvocation SimpleName get connector
+connector broker SimpleName MethodInvocation SimpleName open metadata archive store connection
+get connector SimpleName MethodInvocation SimpleName open metadata archive store connection
+connector SimpleName VariableDeclarationFragment MethodInvocation SimpleName connector broker
+connector SimpleName VariableDeclarationFragment MethodInvocation SimpleName get connector
+connector SimpleName VariableDeclarationFragment MethodInvocation SimpleName open metadata archive store connection
+connector SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName connector
+open metadata archive store connector SimpleName SimpleType CastExpression SimpleName connector
+throwable SimpleName SimpleType SingleVariableDeclaration SimpleName error
+method name SimpleName VariableDeclarationFragment StringLiteral get open metadata archive store
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName method name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral get open metadata archive store
+log SimpleName MethodInvocation SimpleName is debug enabled
+error SimpleName MethodInvocation SimpleName to string
+unable to create open metadata archive connector StringLiteral InfixExpression MethodInvocation SimpleName error
+unable to create open metadata archive connector StringLiteral InfixExpression MethodInvocation SimpleName to string
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation InfixExpression StringLiteral unable to create open metadata archive connector
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName error
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName to string
+debug SimpleName MethodInvocation InfixExpression StringLiteral unable to create open metadata archive connector
+debug SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName error
+debug SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName to string
+error code SimpleName VariableDeclarationFragment QualifiedName omrs error codenull archive store
+omrs error code SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName error code
+omrs error code SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment QualifiedName omrs error codenull archive store
+error code SimpleName MethodInvocation SimpleName get error message id
+error code SimpleName MethodInvocation SimpleName get formatted error message
+error code SimpleName MethodInvocation SimpleName local server name
+get formatted error message SimpleName MethodInvocation SimpleName local server name
+error code SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName error code
+error code SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get formatted error message
+error code SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName local server name
+get error message id SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName error code
+get error message id SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get formatted error message
+get error message id SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName local server name
+error message SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName error code
+error message SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName get error message id
+error message SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName error code
+error message SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName get formatted error message
+error message SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName local server name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName error message
+error code SimpleName MethodInvocation SimpleName get http error code
+get class SimpleName MethodInvocation MethodInvocation SimpleName get name
+error code SimpleName MethodInvocation SimpleName get system action
+error code SimpleName MethodInvocation SimpleName get user action
+omrs runtime exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName error code
+omrs runtime exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get http error code
+omrs runtime exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get name
+omrs runtime exception SimpleName SimpleType ClassInstanceCreation SimpleName method name
+omrs runtime exception SimpleName SimpleType ClassInstanceCreation SimpleName error message
+omrs runtime exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName error code
+omrs runtime exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get system action
+error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get name
+get http error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get name
+error code SimpleName MethodInvocation ClassInstanceCreation SimpleName method name
+get http error code SimpleName MethodInvocation ClassInstanceCreation SimpleName method name
+error code SimpleName MethodInvocation ClassInstanceCreation SimpleName error message
+get http error code SimpleName MethodInvocation ClassInstanceCreation SimpleName error message
+error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName error code
+error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get system action
+get http error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName error code
+get http error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get system action
+error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName error code
+error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get user action
+get http error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName error code
+get http error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get user action
+get class SimpleName MethodInvocation MethodInvocation ClassInstanceCreation SimpleName method name
+get name SimpleName MethodInvocation ClassInstanceCreation SimpleName method name
+get class SimpleName MethodInvocation MethodInvocation ClassInstanceCreation SimpleName error message
+get name SimpleName MethodInvocation ClassInstanceCreation SimpleName error message
+get name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName error code
+get name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get system action
+get name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName error code
+get name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get user action
+get class SimpleName MethodInvocation MethodInvocation ClassInstanceCreation SimpleName error
+get name SimpleName MethodInvocation ClassInstanceCreation SimpleName error
+method name SimpleName ClassInstanceCreation SimpleName error message
+method name SimpleName ClassInstanceCreation MethodInvocation SimpleName error code
+method name SimpleName ClassInstanceCreation MethodInvocation SimpleName get system action
+method name SimpleName ClassInstanceCreation MethodInvocation SimpleName error code
+method name SimpleName ClassInstanceCreation MethodInvocation SimpleName get user action
+method name SimpleName ClassInstanceCreation SimpleName error
+error message SimpleName ClassInstanceCreation MethodInvocation SimpleName error code
+error message SimpleName ClassInstanceCreation MethodInvocation SimpleName get system action
+error message SimpleName ClassInstanceCreation MethodInvocation SimpleName error code
+error message SimpleName ClassInstanceCreation MethodInvocation SimpleName get user action
+error message SimpleName ClassInstanceCreation SimpleName error
+error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName error code
+error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get user action
+get system action SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName error code
+get system action SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get user action
+error code SimpleName MethodInvocation ClassInstanceCreation SimpleName error
+get system action SimpleName MethodInvocation ClassInstanceCreation SimpleName error
+error code SimpleName MethodInvocation ClassInstanceCreation SimpleName error
+get user action SimpleName MethodInvocation ClassInstanceCreation SimpleName error
+private Modifier MethodDeclaration SimpleType SimpleName open metadata archive store connector
+private Modifier MethodDeclaration SimpleName get open metadata archive store
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName connection
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName open metadata archive store connection
+open metadata archive store connector SimpleName SimpleType MethodDeclaration SimpleName get open metadata archive store
+open metadata archive store connector SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName open metadata archive store connection
+get open metadata archive store SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName connection
+get open metadata archive store SimpleName MethodDeclaration SingleVariableDeclaration SimpleName open metadata archive store connection
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName open metadata archive store connector
+public Modifier TypeDeclaration MethodDeclaration SimpleName get open metadata archive store
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName open metadata archive store connection
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName open metadata archive store connector
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get open metadata archive store
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName open metadata archive store connection

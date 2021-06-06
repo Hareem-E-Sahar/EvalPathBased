@@ -1,0 +1,44 @@
+atlas entities with ext info SimpleName SimpleType SingleVariableDeclaration SimpleName entities with ext info
+atlas entity SimpleName SimpleType SingleVariableDeclaration SimpleName entity
+context SimpleName MethodInvocation SimpleName get entities
+entities with ext info SimpleName MethodInvocation SimpleName add referred entity
+entities with ext info SimpleName MethodInvocation SimpleName entity
+add referred entity SimpleName MethodInvocation SimpleName entity
+entity SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName context
+entity SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName get entities
+entities with ext info SimpleName MethodInvocation SimpleName compact
+entities with ext info SimpleName MethodInvocation SimpleName get entities
+context SimpleName MethodInvocation SimpleName add to known entities
+context SimpleName MethodInvocation MethodInvocation SimpleName entities with ext info
+context SimpleName MethodInvocation MethodInvocation SimpleName get entities
+add to known entities SimpleName MethodInvocation MethodInvocation SimpleName entities with ext info
+add to known entities SimpleName MethodInvocation MethodInvocation SimpleName get entities
+entities with ext info SimpleName MethodInvocation SimpleName get referred entities
+entities with ext info SimpleName MethodInvocation SimpleName get referred entities
+entities with ext info SimpleName MethodInvocation MethodInvocation SimpleName values
+get referred entities SimpleName MethodInvocation MethodInvocation SimpleName values
+context SimpleName MethodInvocation SimpleName add to known entities
+context SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName entities with ext info
+context SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get referred entities
+context SimpleName MethodInvocation MethodInvocation SimpleName values
+add to known entities SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName entities with ext info
+add to known entities SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get referred entities
+add to known entities SimpleName MethodInvocation MethodInvocation SimpleName values
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName add processed entities
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas entities with ext info
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName entities with ext info
+void PrimitiveType MethodDeclaration SimpleName add processed entities
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas entities with ext info
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName entities with ext info
+add processed entities SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas entities with ext info
+add processed entities SimpleName MethodDeclaration SingleVariableDeclaration SimpleName entities with ext info
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName add processed entities
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entities with ext info
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName add processed entities
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entities with ext info

@@ -1,0 +1,86 @@
+rawtypes StringLiteral ArrayInitializer StringLiteral unchecked
+suppress warnings SimpleName SingleMemberAnnotation ArrayInitializer StringLiteral rawtypes
+suppress warnings SimpleName SingleMemberAnnotation ArrayInitializer StringLiteral unchecked
+string SimpleName SimpleType SingleVariableDeclaration SimpleName comparator
+comparator SimpleName MethodInvocation SimpleName length
+comparator SimpleName MethodInvocation InfixExpression NumberLiteral empty
+length SimpleName MethodInvocation InfixExpression NumberLiteral empty
+comparator SimpleName MethodInvocation SimpleName equals
+comparator SimpleName MethodInvocation SimpleName comparator memcmp
+equals SimpleName MethodInvocation SimpleName comparator memcmp
+comparator SimpleName MethodInvocation SimpleName starts with
+comparator SimpleName MethodInvocation SimpleName comparator jclass
+starts with SimpleName MethodInvocation SimpleName comparator jclass
+comparator jclass SimpleName MethodInvocation SimpleName length
+comparator SimpleName MethodInvocation SimpleName substring
+comparator SimpleName MethodInvocation MethodInvocation SimpleName comparator jclass
+comparator SimpleName MethodInvocation MethodInvocation SimpleName length
+substring SimpleName MethodInvocation MethodInvocation SimpleName comparator jclass
+substring SimpleName MethodInvocation MethodInvocation SimpleName length
+comparator SimpleName MethodInvocation MethodInvocation SimpleName trim
+substring SimpleName MethodInvocation MethodInvocation SimpleName trim
+comparator jclass SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName trim
+length SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName trim
+comp class name SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName comparator
+comp class name SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName substring
+comp class name SimpleName VariableDeclarationFragment MethodInvocation SimpleName trim
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName comp class name
+class SimpleName MethodInvocation SimpleName for name
+class SimpleName MethodInvocation SimpleName comp class name
+for name SimpleName MethodInvocation SimpleName comp class name
+comp class SimpleName VariableDeclarationFragment MethodInvocation SimpleName class
+comp class SimpleName VariableDeclarationFragment MethodInvocation SimpleName for name
+comp class SimpleName VariableDeclarationFragment MethodInvocation SimpleName comp class name
+class SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName comp class
+raw comparator SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+comp class SimpleName MethodInvocation SimpleName new instance
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+e SimpleName MethodInvocation SimpleName to string
+failed to instantiate comparator StringLiteral InfixExpression SimpleName comparator
+failed to instantiate comparator StringLiteral InfixExpression StringLiteral (
+failed to instantiate comparator StringLiteral InfixExpression MethodInvocation SimpleName e
+failed to instantiate comparator StringLiteral InfixExpression MethodInvocation SimpleName to string
+failed to instantiate comparator StringLiteral InfixExpression StringLiteral )
+comparator SimpleName InfixExpression StringLiteral (
+comparator SimpleName InfixExpression MethodInvocation SimpleName e
+comparator SimpleName InfixExpression MethodInvocation SimpleName to string
+comparator SimpleName InfixExpression StringLiteral )
+( StringLiteral InfixExpression MethodInvocation SimpleName e
+( StringLiteral InfixExpression MethodInvocation SimpleName to string
+( StringLiteral InfixExpression StringLiteral )
+e SimpleName MethodInvocation InfixExpression StringLiteral )
+to string SimpleName MethodInvocation InfixExpression StringLiteral )
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral failed to instantiate comparator
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName comparator
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral (
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral )
+unsupported comparator StringLiteral InfixExpression SimpleName comparator
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral unsupported comparator
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName comparator
+suppress warnings SimpleName SingleMemberAnnotation MethodDeclaration Modifier static
+rawtypes StringLiteral ArrayInitializer SingleMemberAnnotation MethodDeclaration Modifier static
+unchecked StringLiteral ArrayInitializer SingleMemberAnnotation MethodDeclaration Modifier static
+suppress warnings SimpleName SingleMemberAnnotation MethodDeclaration SimpleType SimpleName bytes comparator
+suppress warnings SimpleName SingleMemberAnnotation MethodDeclaration SimpleName make comparator
+rawtypes StringLiteral ArrayInitializer SingleMemberAnnotation MethodDeclaration SimpleName make comparator
+unchecked StringLiteral ArrayInitializer SingleMemberAnnotation MethodDeclaration SimpleName make comparator
+suppress warnings SimpleName SingleMemberAnnotation MethodDeclaration SingleVariableDeclaration SimpleName comparator
+static Modifier MethodDeclaration SimpleType SimpleName bytes comparator
+static Modifier MethodDeclaration SimpleName make comparator
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName comparator
+bytes comparator SimpleName SimpleType MethodDeclaration SimpleName make comparator
+bytes comparator SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName comparator
+make comparator SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+make comparator SimpleName MethodDeclaration SingleVariableDeclaration SimpleName comparator
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration SingleMemberAnnotation SimpleName suppress warnings
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName bytes comparator
+public Modifier TypeDeclaration MethodDeclaration SimpleName make comparator
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName comparator
+test SimpleName TypeDeclaration MethodDeclaration SingleMemberAnnotation SimpleName suppress warnings
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName bytes comparator
+test SimpleName TypeDeclaration MethodDeclaration SimpleName make comparator
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName comparator

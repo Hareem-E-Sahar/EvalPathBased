@@ -1,0 +1,103 @@
+depends on methods SimpleName MemberValuePair StringLiteral test add trait
+expected exceptions SimpleName MemberValuePair TypeLiteral SimpleType SimpleName atlas service exception
+test SimpleName NormalAnnotation MemberValuePair SimpleName depends on methods
+test SimpleName NormalAnnotation MemberValuePair StringLiteral test add trait
+test SimpleName NormalAnnotation MemberValuePair SimpleName expected exceptions
+depends on methods SimpleName MemberValuePair NormalAnnotation MemberValuePair SimpleName expected exceptions
+test add trait StringLiteral MemberValuePair NormalAnnotation MemberValuePair SimpleName expected exceptions
+pii trait StringLiteral InfixExpression MethodInvocation SimpleName random string
+trait name SimpleName VariableDeclarationFragment InfixExpression StringLiteral pii trait
+trait name SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName random string
+final Modifier VariableDeclarationStatement SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName trait name
+final Modifier VariableDeclarationStatement VariableDeclarationFragment InfixExpression StringLiteral pii trait
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName trait name
+struct SimpleName SimpleType ClassInstanceCreation SimpleName trait name
+trait instance SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName struct
+trait instance SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName trait name
+struct SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName trait instance
+instance serialization SimpleName MethodInvocation SimpleName to json
+instance serialization SimpleName MethodInvocation SimpleName trait instance
+instance serialization SimpleName MethodInvocation BooleanLiteral true
+to json SimpleName MethodInvocation SimpleName trait instance
+to json SimpleName MethodInvocation BooleanLiteral true
+trait instance SimpleName MethodInvocation BooleanLiteral true
+trait instance as json SimpleName VariableDeclarationFragment MethodInvocation SimpleName instance serialization
+trait instance as json SimpleName VariableDeclarationFragment MethodInvocation SimpleName to json
+trait instance as json SimpleName VariableDeclarationFragment MethodInvocation SimpleName trait instance
+trait instance as json SimpleName VariableDeclarationFragment MethodInvocation BooleanLiteral true
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName trait instance as json
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral trait instance as json = {}
+log SimpleName MethodInvocation SimpleName trait instance as json
+debug SimpleName MethodInvocation StringLiteral trait instance as json = {}
+debug SimpleName MethodInvocation SimpleName trait instance as json
+trait instance as json = {} StringLiteral MethodInvocation SimpleName trait instance as json
+table id SimpleName MethodInvocation SimpleName get id
+guid SimpleName VariableDeclarationFragment MethodInvocation SimpleName table id
+guid SimpleName VariableDeclarationFragment MethodInvocation SimpleName get id
+final Modifier VariableDeclarationStatement SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName guid
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName table id
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get id
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName guid
+atlas client v SimpleName MethodInvocation SimpleName call api with body and params
+atlas client v SimpleName MethodInvocation QualifiedName atlas clientapiadd traits
+atlas client v SimpleName MethodInvocation SimpleName trait instance as json
+atlas client v SimpleName MethodInvocation SimpleName guid
+atlas client v SimpleName MethodInvocation SimpleName traits
+call api with body and params SimpleName MethodInvocation QualifiedName atlas clientapiadd traits
+call api with body and params SimpleName MethodInvocation SimpleName trait instance as json
+call api with body and params SimpleName MethodInvocation SimpleName guid
+call api with body and params SimpleName MethodInvocation SimpleName traits
+atlas clientapiadd traits QualifiedName MethodInvocation SimpleName trait instance as json
+atlas clientapiadd traits QualifiedName MethodInvocation SimpleName guid
+atlas clientapiadd traits QualifiedName MethodInvocation SimpleName traits
+trait instance as json SimpleName MethodInvocation SimpleName guid
+trait instance as json SimpleName MethodInvocation SimpleName traits
+guid SimpleName MethodInvocation SimpleName traits
+response SimpleName VariableDeclarationFragment MethodInvocation SimpleName atlas client v
+response SimpleName VariableDeclarationFragment MethodInvocation SimpleName call api with body and params
+response SimpleName VariableDeclarationFragment MethodInvocation QualifiedName atlas clientapiadd traits
+response SimpleName VariableDeclarationFragment MethodInvocation SimpleName trait instance as json
+response SimpleName VariableDeclarationFragment MethodInvocation SimpleName guid
+response SimpleName VariableDeclarationFragment MethodInvocation SimpleName traits
+json object SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName response
+assert not null SimpleName MethodInvocation SimpleName response
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+test SimpleName NormalAnnotation MethodDeclaration Modifier public
+depends on methods SimpleName MemberValuePair NormalAnnotation MethodDeclaration Modifier public
+test add trait StringLiteral MemberValuePair NormalAnnotation MethodDeclaration Modifier public
+expected exceptions SimpleName MemberValuePair NormalAnnotation MethodDeclaration Modifier public
+test SimpleName NormalAnnotation MethodDeclaration PrimitiveType void
+depends on methods SimpleName MemberValuePair NormalAnnotation MethodDeclaration PrimitiveType void
+test add trait StringLiteral MemberValuePair NormalAnnotation MethodDeclaration PrimitiveType void
+expected exceptions SimpleName MemberValuePair NormalAnnotation MethodDeclaration PrimitiveType void
+test SimpleName NormalAnnotation MethodDeclaration SimpleName test add existing trait
+depends on methods SimpleName MemberValuePair NormalAnnotation MethodDeclaration SimpleName test add existing trait
+test add trait StringLiteral MemberValuePair NormalAnnotation MethodDeclaration SimpleName test add existing trait
+expected exceptions SimpleName MemberValuePair NormalAnnotation MethodDeclaration SimpleName test add existing trait
+test SimpleName NormalAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test add existing trait
+public Modifier MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+public Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+void PrimitiveType MethodDeclaration SimpleName test add existing trait
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement Modifier final
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement Modifier final
+test add existing trait SimpleName MethodDeclaration SimpleType SimpleName exception
+test add existing trait SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+test add existing trait SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration NormalAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test add existing trait
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration NormalAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test add existing trait
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

@@ -1,0 +1,56 @@
+system SimpleName MethodInvocation SimpleName get property
+system SimpleName MethodInvocation QualifiedName crypto testconfig file system prop
+get property SimpleName MethodInvocation QualifiedName crypto testconfig file system prop
+old site config property SimpleName VariableDeclarationFragment MethodInvocation SimpleName system
+old site config property SimpleName VariableDeclarationFragment MethodInvocation SimpleName get property
+old site config property SimpleName VariableDeclarationFragment MethodInvocation QualifiedName crypto testconfig file system prop
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName old site config property
+suppress warnings SimpleName SingleMemberAnnotation StringLiteral deprecation
+accumulo configuration SimpleName MethodInvocation SimpleName get site configuration
+conf SimpleName VariableDeclarationFragment MethodInvocation SimpleName accumulo configuration
+conf SimpleName VariableDeclarationFragment MethodInvocation SimpleName get site configuration
+suppress warnings SimpleName SingleMemberAnnotation VariableDeclarationStatement SimpleType SimpleName accumulo configuration
+deprecation StringLiteral SingleMemberAnnotation VariableDeclarationStatement SimpleType SimpleName accumulo configuration
+suppress warnings SimpleName SingleMemberAnnotation VariableDeclarationStatement VariableDeclarationFragment SimpleName conf
+deprecation StringLiteral SingleMemberAnnotation VariableDeclarationStatement VariableDeclarationFragment SimpleName conf
+accumulo configuration SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName conf
+system SimpleName MethodInvocation SimpleName set property
+system SimpleName MethodInvocation QualifiedName crypto testconfig file system prop
+system SimpleName MethodInvocation QualifiedName crypto testcrypto on conf
+set property SimpleName MethodInvocation QualifiedName crypto testconfig file system prop
+set property SimpleName MethodInvocation QualifiedName crypto testcrypto on conf
+crypto testconfig file system prop QualifiedName MethodInvocation QualifiedName crypto testcrypto on conf
+site configuration SimpleName SimpleType CastExpression SimpleName conf
+conf SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName clear and null
+system SimpleName MethodInvocation SimpleName set property
+system SimpleName MethodInvocation QualifiedName crypto testconfig file system prop
+system SimpleName MethodInvocation SimpleName old site config property
+set property SimpleName MethodInvocation QualifiedName crypto testconfig file system prop
+set property SimpleName MethodInvocation SimpleName old site config property
+crypto testconfig file system prop QualifiedName MethodInvocation SimpleName old site config property
+system SimpleName MethodInvocation SimpleName clear property
+system SimpleName MethodInvocation QualifiedName crypto testconfig file system prop
+clear property SimpleName MethodInvocation QualifiedName crypto testconfig file system prop
+site configuration SimpleName SimpleType CastExpression SimpleName conf
+conf SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName clear and null
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test encrypted r files
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test encrypted r files
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName test encrypted r files
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+test encrypted r files SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test encrypted r files
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test encrypted r files
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

@@ -1,0 +1,229 @@
+key extent SimpleName SimpleType SingleVariableDeclaration SimpleName extent
+sorted map SimpleName SimpleType ParameterizedType SimpleType SimpleName file ref
+sorted map SimpleName SimpleType ParameterizedType SimpleType SimpleName data file value
+file ref SimpleName SimpleType ParameterizedType SimpleType SimpleName data file value
+sorted map SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName expected map files
+file ref SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName expected map files
+data file value SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName expected map files
+hdfs zoo instance SimpleName MethodInvocation SimpleName get instance
+system credentials SimpleName MethodInvocation SimpleName get
+system credentials SimpleName MethodInvocation MethodInvocation SimpleName get as thrift
+get SimpleName MethodInvocation MethodInvocation SimpleName get as thrift
+scanner impl SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName hdfs zoo instance
+scanner impl SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get instance
+scanner impl SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get as thrift
+scanner impl SimpleName SimpleType ClassInstanceCreation QualifiedName metadata tableid
+scanner impl SimpleName SimpleType ClassInstanceCreation QualifiedName authorizationsempty
+hdfs zoo instance SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get as thrift
+get instance SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get as thrift
+hdfs zoo instance SimpleName MethodInvocation ClassInstanceCreation QualifiedName metadata tableid
+get instance SimpleName MethodInvocation ClassInstanceCreation QualifiedName metadata tableid
+hdfs zoo instance SimpleName MethodInvocation ClassInstanceCreation QualifiedName authorizationsempty
+get instance SimpleName MethodInvocation ClassInstanceCreation QualifiedName authorizationsempty
+system credentials SimpleName MethodInvocation MethodInvocation ClassInstanceCreation QualifiedName metadata tableid
+get SimpleName MethodInvocation MethodInvocation ClassInstanceCreation QualifiedName metadata tableid
+get as thrift SimpleName MethodInvocation ClassInstanceCreation QualifiedName metadata tableid
+system credentials SimpleName MethodInvocation MethodInvocation ClassInstanceCreation QualifiedName authorizationsempty
+get SimpleName MethodInvocation MethodInvocation ClassInstanceCreation QualifiedName authorizationsempty
+get as thrift SimpleName MethodInvocation ClassInstanceCreation QualifiedName authorizationsempty
+metadata tableid QualifiedName ClassInstanceCreation QualifiedName authorizationsempty
+scanner SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName scanner impl
+scanner SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName hdfs zoo instance
+scanner SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get instance
+scanner SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get as thrift
+scanner SimpleName VariableDeclarationFragment ClassInstanceCreation QualifiedName metadata tableid
+scanner SimpleName VariableDeclarationFragment ClassInstanceCreation QualifiedName authorizationsempty
+scanner SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName scanner
+extent SimpleName MethodInvocation SimpleName to metadata range
+scanner SimpleName MethodInvocation SimpleName set range
+scanner SimpleName MethodInvocation MethodInvocation SimpleName extent
+scanner SimpleName MethodInvocation MethodInvocation SimpleName to metadata range
+set range SimpleName MethodInvocation MethodInvocation SimpleName extent
+set range SimpleName MethodInvocation MethodInvocation SimpleName to metadata range
+hash set SimpleName SimpleType ParameterizedType SimpleType SimpleName column fq
+hash set SimpleName SimpleType ParameterizedType SimpleType SimpleName column fq
+expected columns SimpleName MethodInvocation SimpleName add
+expected columns SimpleName MethodInvocation QualifiedName tablets sectionserver column familydirectory column
+add SimpleName MethodInvocation QualifiedName tablets sectionserver column familydirectory column
+expected columns SimpleName MethodInvocation SimpleName add
+expected columns SimpleName MethodInvocation QualifiedName tablets sectiontablet column familyprev row column
+add SimpleName MethodInvocation QualifiedName tablets sectiontablet column familyprev row column
+expected columns SimpleName MethodInvocation SimpleName add
+expected columns SimpleName MethodInvocation QualifiedName tablets sectionserver column familytime column
+add SimpleName MethodInvocation QualifiedName tablets sectionserver column familytime column
+expected columns SimpleName MethodInvocation SimpleName add
+expected columns SimpleName MethodInvocation QualifiedName tablets sectionserver column familylock column
+add SimpleName MethodInvocation QualifiedName tablets sectionserver column familylock column
+hash set SimpleName SimpleType ParameterizedType SimpleType SimpleName text
+hash set SimpleName SimpleType ParameterizedType SimpleType SimpleName text
+expected column families SimpleName MethodInvocation SimpleName add
+expected column families SimpleName MethodInvocation QualifiedName data file column familyname
+add SimpleName MethodInvocation QualifiedName data file column familyname
+expected column families SimpleName MethodInvocation SimpleName add
+expected column families SimpleName MethodInvocation QualifiedName tablets sectionfuture location column familyname
+add SimpleName MethodInvocation QualifiedName tablets sectionfuture location column familyname
+expected column families SimpleName MethodInvocation SimpleName add
+expected column families SimpleName MethodInvocation QualifiedName tablets sectioncurrent location column familyname
+add SimpleName MethodInvocation QualifiedName tablets sectioncurrent location column familyname
+expected column families SimpleName MethodInvocation SimpleName add
+expected column families SimpleName MethodInvocation QualifiedName tablets sectionlast location column familyname
+add SimpleName MethodInvocation QualifiedName tablets sectionlast location column familyname
+expected column families SimpleName MethodInvocation SimpleName add
+expected column families SimpleName MethodInvocation QualifiedName tablets sectionbulk file column familyname
+add SimpleName MethodInvocation QualifiedName tablets sectionbulk file column familyname
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName key
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+key SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+scanner SimpleName MethodInvocation SimpleName iterator
+iter SimpleName VariableDeclarationFragment MethodInvocation SimpleName scanner
+iter SimpleName VariableDeclarationFragment MethodInvocation SimpleName iterator
+iter SimpleName MethodInvocation SimpleName has next
+iter SimpleName MethodInvocation SimpleName next
+iter SimpleName MethodInvocation MethodInvocation SimpleName get key
+next SimpleName MethodInvocation MethodInvocation SimpleName get key
+key SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName iter
+key SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName next
+key SimpleName VariableDeclarationFragment MethodInvocation SimpleName get key
+key SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName key
+key SimpleName MethodInvocation SimpleName get row
+extent SimpleName MethodInvocation SimpleName get metadata entry
+key SimpleName MethodInvocation MethodInvocation SimpleName equals
+get row SimpleName MethodInvocation MethodInvocation SimpleName equals
+key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName extent
+key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get metadata entry
+get row SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName extent
+get row SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get metadata entry
+equals SimpleName MethodInvocation MethodInvocation SimpleName extent
+equals SimpleName MethodInvocation MethodInvocation SimpleName get metadata entry
+tablet StringLiteral InfixExpression SimpleName extent
+tablet StringLiteral InfixExpression StringLiteral contained unexpected
+tablet StringLiteral InfixExpression QualifiedName metadata tablename
+tablet StringLiteral InfixExpression StringLiteral entry
+tablet StringLiteral InfixExpression SimpleName key
+extent SimpleName InfixExpression StringLiteral contained unexpected
+extent SimpleName InfixExpression QualifiedName metadata tablename
+extent SimpleName InfixExpression StringLiteral entry
+extent SimpleName InfixExpression SimpleName key
+contained unexpected StringLiteral InfixExpression QualifiedName metadata tablename
+contained unexpected StringLiteral InfixExpression StringLiteral entry
+contained unexpected StringLiteral InfixExpression SimpleName key
+metadata tablename QualifiedName InfixExpression StringLiteral entry
+metadata tablename QualifiedName InfixExpression SimpleName key
+entry StringLiteral InfixExpression SimpleName key
+exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral tablet
+exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName extent
+exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral contained unexpected
+exception SimpleName SimpleType ClassInstanceCreation InfixExpression QualifiedName metadata tablename
+exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral entry
+exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName key
+key SimpleName MethodInvocation SimpleName get column family
+expected column families SimpleName MethodInvocation SimpleName contains
+expected column families SimpleName MethodInvocation MethodInvocation SimpleName key
+expected column families SimpleName MethodInvocation MethodInvocation SimpleName get column family
+contains SimpleName MethodInvocation MethodInvocation SimpleName key
+contains SimpleName MethodInvocation MethodInvocation SimpleName get column family
+column fq SimpleName SimpleType ClassInstanceCreation SimpleName key
+expected columns SimpleName MethodInvocation SimpleName remove
+expected columns SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName column fq
+expected columns SimpleName MethodInvocation ClassInstanceCreation SimpleName key
+remove SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName column fq
+remove SimpleName MethodInvocation ClassInstanceCreation SimpleName key
+tablet StringLiteral InfixExpression SimpleName extent
+tablet StringLiteral InfixExpression StringLiteral contained unexpected
+tablet StringLiteral InfixExpression QualifiedName metadata tablename
+tablet StringLiteral InfixExpression StringLiteral entry
+tablet StringLiteral InfixExpression SimpleName key
+extent SimpleName InfixExpression StringLiteral contained unexpected
+extent SimpleName InfixExpression QualifiedName metadata tablename
+extent SimpleName InfixExpression StringLiteral entry
+extent SimpleName InfixExpression SimpleName key
+contained unexpected StringLiteral InfixExpression QualifiedName metadata tablename
+contained unexpected StringLiteral InfixExpression StringLiteral entry
+contained unexpected StringLiteral InfixExpression SimpleName key
+metadata tablename QualifiedName InfixExpression StringLiteral entry
+metadata tablename QualifiedName InfixExpression SimpleName key
+entry StringLiteral InfixExpression SimpleName key
+exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral tablet
+exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName extent
+exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral contained unexpected
+exception SimpleName SimpleType ClassInstanceCreation InfixExpression QualifiedName metadata tablename
+exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral entry
+exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName key
+expected columns StringLiteral InfixExpression SimpleName expected columns
+systemout QualifiedName MethodInvocation SimpleName println
+systemout QualifiedName MethodInvocation InfixExpression StringLiteral expected columns
+systemout QualifiedName MethodInvocation InfixExpression SimpleName expected columns
+println SimpleName MethodInvocation InfixExpression StringLiteral expected columns
+println SimpleName MethodInvocation InfixExpression SimpleName expected columns
+expected columns SimpleName MethodInvocation SimpleName size
+expected columns SimpleName MethodInvocation InfixExpression NumberLiteral empty
+size SimpleName MethodInvocation InfixExpression NumberLiteral empty
+expected columns SimpleName MethodInvocation SimpleName size
+expected columns SimpleName MethodInvocation InfixExpression NumberLiteral empty
+size SimpleName MethodInvocation InfixExpression NumberLiteral empty
+not all expected columns seen StringLiteral InfixExpression SimpleName extent
+not all expected columns seen StringLiteral InfixExpression StringLiteral empty
+not all expected columns seen StringLiteral InfixExpression SimpleName expected columns
+extent SimpleName InfixExpression StringLiteral empty
+extent SimpleName InfixExpression SimpleName expected columns
+empty StringLiteral InfixExpression SimpleName expected columns
+exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral not all expected columns seen
+exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName extent
+exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral empty
+exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName expected columns
+sorted map SimpleName SimpleType ParameterizedType SimpleType SimpleName file ref
+sorted map SimpleName SimpleType ParameterizedType SimpleType SimpleName data file value
+file ref SimpleName SimpleType ParameterizedType SimpleType SimpleName data file value
+system credentials SimpleName MethodInvocation SimpleName get
+system credentials SimpleName MethodInvocation MethodInvocation SimpleName get as thrift
+get SimpleName MethodInvocation MethodInvocation SimpleName get as thrift
+metadata table util SimpleName MethodInvocation SimpleName get data file sizes
+metadata table util SimpleName MethodInvocation SimpleName extent
+metadata table util SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName system credentials
+metadata table util SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+metadata table util SimpleName MethodInvocation MethodInvocation SimpleName get as thrift
+get data file sizes SimpleName MethodInvocation SimpleName extent
+get data file sizes SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName system credentials
+get data file sizes SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+get data file sizes SimpleName MethodInvocation MethodInvocation SimpleName get as thrift
+extent SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName system credentials
+extent SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+extent SimpleName MethodInvocation MethodInvocation SimpleName get as thrift
+fixed map files SimpleName VariableDeclarationFragment MethodInvocation SimpleName metadata table util
+fixed map files SimpleName VariableDeclarationFragment MethodInvocation SimpleName get data file sizes
+fixed map files SimpleName VariableDeclarationFragment MethodInvocation SimpleName extent
+fixed map files SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get as thrift
+verify same SimpleName MethodInvocation SimpleName expected map files
+verify same SimpleName MethodInvocation SimpleName fixed map files
+expected map files SimpleName MethodInvocation SimpleName fixed map files
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName ensure tablet has no unexpected metadata entries
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName key extent
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName extent
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName expected map files
+private Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName ensure tablet has no unexpected metadata entries
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName key extent
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName extent
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName expected map files
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+ensure tablet has no unexpected metadata entries SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName key extent
+ensure tablet has no unexpected metadata entries SimpleName MethodDeclaration SingleVariableDeclaration SimpleName extent
+ensure tablet has no unexpected metadata entries SimpleName MethodDeclaration SingleVariableDeclaration SimpleName expected map files
+ensure tablet has no unexpected metadata entries SimpleName MethodDeclaration SimpleType SimpleName exception
+extent SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName expected map files
+extent SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+expected map files SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName ensure tablet has no unexpected metadata entries
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName extent
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName expected map files
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName ensure tablet has no unexpected metadata entries
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName extent
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName expected map files
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

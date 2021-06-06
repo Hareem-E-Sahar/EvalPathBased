@@ -1,0 +1,265 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName source name
+entity detail SimpleName SimpleType SingleVariableDeclaration SimpleName entity
+string SimpleName SimpleType SingleVariableDeclaration SimpleName old classification name
+string SimpleName SimpleType SingleVariableDeclaration SimpleName method name
+entity detail SimpleName SimpleType ClassInstanceCreation SimpleName entity
+updated entity SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName entity detail
+updated entity SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName entity
+entity detail SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName updated entity
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName classification
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName classification
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName classification
+updated entity SimpleName MethodInvocation SimpleName get classifications
+entity classifications SimpleName VariableDeclarationFragment MethodInvocation SimpleName updated entity
+entity classifications SimpleName VariableDeclarationFragment MethodInvocation SimpleName get classifications
+classification SimpleName SimpleType SingleVariableDeclaration SimpleName existing classification
+existing classification SimpleName MethodInvocation SimpleName get name
+entity classifications map SimpleName MethodInvocation SimpleName put
+entity classifications map SimpleName MethodInvocation MethodInvocation SimpleName existing classification
+entity classifications map SimpleName MethodInvocation MethodInvocation SimpleName get name
+entity classifications map SimpleName MethodInvocation SimpleName existing classification
+put SimpleName MethodInvocation MethodInvocation SimpleName existing classification
+put SimpleName MethodInvocation MethodInvocation SimpleName get name
+put SimpleName MethodInvocation SimpleName existing classification
+existing classification SimpleName MethodInvocation MethodInvocation SimpleName existing classification
+get name SimpleName MethodInvocation MethodInvocation SimpleName existing classification
+classification SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName entity classifications
+existing classification SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName entity classifications
+entity classifications map SimpleName MethodInvocation SimpleName remove
+entity classifications map SimpleName MethodInvocation SimpleName old classification name
+remove SimpleName MethodInvocation SimpleName old classification name
+old classification SimpleName VariableDeclarationFragment MethodInvocation SimpleName entity classifications map
+old classification SimpleName VariableDeclarationFragment MethodInvocation SimpleName remove
+old classification SimpleName VariableDeclarationFragment MethodInvocation SimpleName old classification name
+classification SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName old classification
+error code SimpleName VariableDeclarationFragment QualifiedName omrs error codeentity not classified
+omrs error code SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName error code
+omrs error code SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment QualifiedName omrs error codeentity not classified
+error code SimpleName MethodInvocation SimpleName get error message id
+entity SimpleName MethodInvocation SimpleName get guid
+error code SimpleName MethodInvocation SimpleName get formatted error message
+error code SimpleName MethodInvocation SimpleName method name
+error code SimpleName MethodInvocation SimpleName source name
+error code SimpleName MethodInvocation SimpleName old classification name
+error code SimpleName MethodInvocation MethodInvocation SimpleName entity
+error code SimpleName MethodInvocation MethodInvocation SimpleName get guid
+get formatted error message SimpleName MethodInvocation SimpleName method name
+get formatted error message SimpleName MethodInvocation SimpleName source name
+get formatted error message SimpleName MethodInvocation SimpleName old classification name
+get formatted error message SimpleName MethodInvocation MethodInvocation SimpleName entity
+get formatted error message SimpleName MethodInvocation MethodInvocation SimpleName get guid
+method name SimpleName MethodInvocation SimpleName source name
+method name SimpleName MethodInvocation SimpleName old classification name
+method name SimpleName MethodInvocation MethodInvocation SimpleName entity
+method name SimpleName MethodInvocation MethodInvocation SimpleName get guid
+source name SimpleName MethodInvocation SimpleName old classification name
+source name SimpleName MethodInvocation MethodInvocation SimpleName entity
+source name SimpleName MethodInvocation MethodInvocation SimpleName get guid
+old classification name SimpleName MethodInvocation MethodInvocation SimpleName entity
+old classification name SimpleName MethodInvocation MethodInvocation SimpleName get guid
+error code SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName error code
+error code SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get formatted error message
+error code SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName method name
+error code SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName source name
+error code SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName old classification name
+get error message id SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName error code
+get error message id SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get formatted error message
+get error message id SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName method name
+get error message id SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName source name
+get error message id SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName old classification name
+error message SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName error code
+error message SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName get error message id
+error message SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName error code
+error message SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName get formatted error message
+error message SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName method name
+error message SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName source name
+error message SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName old classification name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName error message
+error code SimpleName MethodInvocation SimpleName get http error code
+get class SimpleName MethodInvocation MethodInvocation SimpleName get name
+error code SimpleName MethodInvocation SimpleName get system action
+error code SimpleName MethodInvocation SimpleName get user action
+classification error exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName error code
+classification error exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get http error code
+classification error exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get name
+classification error exception SimpleName SimpleType ClassInstanceCreation SimpleName method name
+classification error exception SimpleName SimpleType ClassInstanceCreation SimpleName error message
+classification error exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName error code
+classification error exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get system action
+error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get name
+get http error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get name
+error code SimpleName MethodInvocation ClassInstanceCreation SimpleName method name
+get http error code SimpleName MethodInvocation ClassInstanceCreation SimpleName method name
+error code SimpleName MethodInvocation ClassInstanceCreation SimpleName error message
+get http error code SimpleName MethodInvocation ClassInstanceCreation SimpleName error message
+error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName error code
+error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get system action
+get http error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName error code
+get http error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get system action
+error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName error code
+error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get user action
+get http error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName error code
+get http error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get user action
+get class SimpleName MethodInvocation MethodInvocation ClassInstanceCreation SimpleName method name
+get name SimpleName MethodInvocation ClassInstanceCreation SimpleName method name
+get class SimpleName MethodInvocation MethodInvocation ClassInstanceCreation SimpleName error message
+get name SimpleName MethodInvocation ClassInstanceCreation SimpleName error message
+get name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName error code
+get name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get system action
+get name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName error code
+get name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get user action
+method name SimpleName ClassInstanceCreation SimpleName error message
+method name SimpleName ClassInstanceCreation MethodInvocation SimpleName error code
+method name SimpleName ClassInstanceCreation MethodInvocation SimpleName get system action
+method name SimpleName ClassInstanceCreation MethodInvocation SimpleName error code
+method name SimpleName ClassInstanceCreation MethodInvocation SimpleName get user action
+error message SimpleName ClassInstanceCreation MethodInvocation SimpleName error code
+error message SimpleName ClassInstanceCreation MethodInvocation SimpleName get system action
+error message SimpleName ClassInstanceCreation MethodInvocation SimpleName error code
+error message SimpleName ClassInstanceCreation MethodInvocation SimpleName get user action
+error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName error code
+error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get user action
+get system action SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName error code
+get system action SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get user action
+entity classifications map SimpleName MethodInvocation SimpleName is empty
+entity SimpleName MethodInvocation SimpleName set classifications
+entity classifications map SimpleName MethodInvocation SimpleName values
+entity classifications SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName entity classifications map
+entity classifications SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName values
+updated entity SimpleName MethodInvocation SimpleName set classifications
+updated entity SimpleName MethodInvocation SimpleName entity classifications
+set classifications SimpleName MethodInvocation SimpleName entity classifications
+this method name SimpleName VariableDeclarationFragment StringLiteral delete classification from entity
+final Modifier VariableDeclarationStatement SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName this method name
+final Modifier VariableDeclarationStatement VariableDeclarationFragment StringLiteral delete classification from entity
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName this method name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral delete classification from entity
+error code SimpleName VariableDeclarationFragment QualifiedName omrs error codenull classification name
+omrs error code SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName error code
+omrs error code SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment QualifiedName omrs error codenull classification name
+error code SimpleName MethodInvocation SimpleName get error message id
+error code SimpleName MethodInvocation SimpleName get formatted error message
+error code SimpleName MethodInvocation SimpleName source name
+error code SimpleName MethodInvocation SimpleName this method name
+error code SimpleName MethodInvocation SimpleName method name
+get formatted error message SimpleName MethodInvocation SimpleName source name
+get formatted error message SimpleName MethodInvocation SimpleName this method name
+get formatted error message SimpleName MethodInvocation SimpleName method name
+source name SimpleName MethodInvocation SimpleName this method name
+source name SimpleName MethodInvocation SimpleName method name
+this method name SimpleName MethodInvocation SimpleName method name
+error code SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName error code
+error code SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get formatted error message
+error code SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName source name
+error code SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName this method name
+error code SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName method name
+get error message id SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName error code
+get error message id SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get formatted error message
+get error message id SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName source name
+get error message id SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName this method name
+get error message id SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName method name
+error message SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName error code
+error message SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName get error message id
+error message SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName error code
+error message SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName get formatted error message
+error message SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName source name
+error message SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName this method name
+error message SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName method name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName error message
+error code SimpleName MethodInvocation SimpleName get http error code
+get class SimpleName MethodInvocation MethodInvocation SimpleName get name
+error code SimpleName MethodInvocation SimpleName get system action
+error code SimpleName MethodInvocation SimpleName get user action
+omrs logic error exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName error code
+omrs logic error exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get http error code
+omrs logic error exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get name
+omrs logic error exception SimpleName SimpleType ClassInstanceCreation SimpleName method name
+omrs logic error exception SimpleName SimpleType ClassInstanceCreation SimpleName error message
+omrs logic error exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName error code
+omrs logic error exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get system action
+error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get name
+get http error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get name
+error code SimpleName MethodInvocation ClassInstanceCreation SimpleName method name
+get http error code SimpleName MethodInvocation ClassInstanceCreation SimpleName method name
+error code SimpleName MethodInvocation ClassInstanceCreation SimpleName error message
+get http error code SimpleName MethodInvocation ClassInstanceCreation SimpleName error message
+error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName error code
+error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get system action
+get http error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName error code
+get http error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get system action
+error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName error code
+error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get user action
+get http error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName error code
+get http error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get user action
+get class SimpleName MethodInvocation MethodInvocation ClassInstanceCreation SimpleName method name
+get name SimpleName MethodInvocation ClassInstanceCreation SimpleName method name
+get class SimpleName MethodInvocation MethodInvocation ClassInstanceCreation SimpleName error message
+get name SimpleName MethodInvocation ClassInstanceCreation SimpleName error message
+get name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName error code
+get name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get system action
+get name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName error code
+get name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get user action
+method name SimpleName ClassInstanceCreation SimpleName error message
+method name SimpleName ClassInstanceCreation MethodInvocation SimpleName error code
+method name SimpleName ClassInstanceCreation MethodInvocation SimpleName get system action
+method name SimpleName ClassInstanceCreation MethodInvocation SimpleName error code
+method name SimpleName ClassInstanceCreation MethodInvocation SimpleName get user action
+error message SimpleName ClassInstanceCreation MethodInvocation SimpleName error code
+error message SimpleName ClassInstanceCreation MethodInvocation SimpleName get system action
+error message SimpleName ClassInstanceCreation MethodInvocation SimpleName error code
+error message SimpleName ClassInstanceCreation MethodInvocation SimpleName get user action
+error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName error code
+error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get user action
+get system action SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName error code
+get system action SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get user action
+public Modifier MethodDeclaration SimpleType SimpleName entity detail
+public Modifier MethodDeclaration SimpleName delete classification from entity
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName source name
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName entity detail
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName entity
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName old classification name
+entity detail SimpleName SimpleType MethodDeclaration SimpleName delete classification from entity
+entity detail SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName source name
+entity detail SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName entity
+entity detail SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName old classification name
+entity detail SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName method name
+delete classification from entity SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+delete classification from entity SimpleName MethodDeclaration SingleVariableDeclaration SimpleName source name
+delete classification from entity SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName entity detail
+delete classification from entity SimpleName MethodDeclaration SingleVariableDeclaration SimpleName entity
+delete classification from entity SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+delete classification from entity SimpleName MethodDeclaration SingleVariableDeclaration SimpleName old classification name
+delete classification from entity SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+delete classification from entity SimpleName MethodDeclaration SingleVariableDeclaration SimpleName method name
+delete classification from entity SimpleName MethodDeclaration SimpleType SimpleName classification error exception
+source name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity
+source name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName old classification name
+source name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName method name
+source name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName classification error exception
+entity SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName old classification name
+entity SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName method name
+entity SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName classification error exception
+old classification name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName method name
+old classification name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName classification error exception
+method name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName classification error exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName entity detail
+public Modifier TypeDeclaration MethodDeclaration SimpleName delete classification from entity
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName source name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName old classification name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName method name
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName classification error exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName entity detail
+test SimpleName TypeDeclaration MethodDeclaration SimpleName delete classification from entity
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName source name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName old classification name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName method name
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName classification error exception

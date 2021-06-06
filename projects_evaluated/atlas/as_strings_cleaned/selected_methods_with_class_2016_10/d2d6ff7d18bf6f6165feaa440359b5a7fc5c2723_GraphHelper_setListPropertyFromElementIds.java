@@ -1,0 +1,70 @@
+atlas vertex SimpleName SimpleType ParameterizedType WildcardType ?
+atlas vertex SimpleName SimpleType ParameterizedType WildcardType ?
+? WildcardType ParameterizedType WildcardType ?
+atlas vertex SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName instance vertex
+? WildcardType ParameterizedType SingleVariableDeclaration SimpleName instance vertex
+? WildcardType ParameterizedType SingleVariableDeclaration SimpleName instance vertex
+string SimpleName SimpleType SingleVariableDeclaration SimpleName property name
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas element
+list SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName elements
+atlas element SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName elements
+graph helper SimpleName MethodInvocation SimpleName encode property key
+graph helper SimpleName MethodInvocation SimpleName property name
+encode property key SimpleName MethodInvocation SimpleName property name
+actual property name SimpleName VariableDeclarationFragment MethodInvocation SimpleName graph helper
+actual property name SimpleName VariableDeclarationFragment MethodInvocation SimpleName encode property key
+actual property name SimpleName VariableDeclarationFragment MethodInvocation SimpleName property name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName actual property name
+instance vertex SimpleName MethodInvocation SimpleName set property from elements ids
+instance vertex SimpleName MethodInvocation SimpleName actual property name
+instance vertex SimpleName MethodInvocation SimpleName elements
+set property from elements ids SimpleName MethodInvocation SimpleName actual property name
+set property from elements ids SimpleName MethodInvocation SimpleName elements
+actual property name SimpleName MethodInvocation SimpleName elements
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set list property from element ids
+public Modifier MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+public Modifier MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName instance vertex
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName property name
+static Modifier MethodDeclaration PrimitiveType void
+static Modifier MethodDeclaration SimpleName set list property from element ids
+static Modifier MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+static Modifier MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName instance vertex
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName property name
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName elements
+void PrimitiveType MethodDeclaration SimpleName set list property from element ids
+void PrimitiveType MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+void PrimitiveType MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName instance vertex
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName property name
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName elements
+set list property from element ids SimpleName MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+set list property from element ids SimpleName MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+set list property from element ids SimpleName MethodDeclaration SingleVariableDeclaration SimpleName instance vertex
+set list property from element ids SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+set list property from element ids SimpleName MethodDeclaration SingleVariableDeclaration SimpleName property name
+set list property from element ids SimpleName MethodDeclaration SingleVariableDeclaration SimpleName elements
+instance vertex SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName property name
+instance vertex SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName elements
+property name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName elements
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set list property from element ids
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName instance vertex
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName property name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName elements
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set list property from element ids
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName instance vertex
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName property name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName elements

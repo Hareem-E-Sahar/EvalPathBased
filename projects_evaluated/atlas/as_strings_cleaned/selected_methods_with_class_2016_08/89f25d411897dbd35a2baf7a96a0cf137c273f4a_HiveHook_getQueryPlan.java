@@ -1,0 +1,77 @@
+hive conf SimpleName SimpleType SingleVariableDeclaration SimpleName hive conf
+query plan SimpleName SimpleType SingleVariableDeclaration SimpleName query plan
+explain SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName explain task
+explain task SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName explain
+explain SimpleName MethodInvocation SimpleName initialize
+explain SimpleName MethodInvocation SimpleName hive conf
+explain SimpleName MethodInvocation SimpleName query plan
+initialize SimpleName MethodInvocation SimpleName hive conf
+initialize SimpleName MethodInvocation SimpleName query plan
+hive conf SimpleName MethodInvocation SimpleName query plan
+task SimpleName SimpleType ParameterizedType WildcardType ?
+list SimpleName SimpleType ParameterizedType ParameterizedType WildcardType ?
+query plan SimpleName MethodInvocation SimpleName get root tasks
+root tasks SimpleName VariableDeclarationFragment MethodInvocation SimpleName query plan
+root tasks SimpleName VariableDeclarationFragment MethodInvocation SimpleName get root tasks
+query plan SimpleName MethodInvocation SimpleName get fetch task
+explain SimpleName MethodInvocation SimpleName get json plan
+explain SimpleName MethodInvocation SimpleName root tasks
+explain SimpleName MethodInvocation MethodInvocation SimpleName query plan
+explain SimpleName MethodInvocation MethodInvocation SimpleName get fetch task
+get json plan SimpleName MethodInvocation SimpleName root tasks
+get json plan SimpleName MethodInvocation MethodInvocation SimpleName query plan
+get json plan SimpleName MethodInvocation MethodInvocation SimpleName get fetch task
+get json plan SimpleName MethodInvocation BooleanLiteral true
+root tasks SimpleName MethodInvocation MethodInvocation SimpleName query plan
+root tasks SimpleName MethodInvocation MethodInvocation SimpleName get fetch task
+root tasks SimpleName MethodInvocation BooleanLiteral true
+root tasks SimpleName MethodInvocation BooleanLiteral false
+root tasks SimpleName MethodInvocation BooleanLiteral false
+query plan SimpleName MethodInvocation MethodInvocation BooleanLiteral true
+get fetch task SimpleName MethodInvocation MethodInvocation BooleanLiteral true
+query plan SimpleName MethodInvocation MethodInvocation BooleanLiteral false
+get fetch task SimpleName MethodInvocation MethodInvocation BooleanLiteral false
+query plan SimpleName MethodInvocation MethodInvocation BooleanLiteral false
+get fetch task SimpleName MethodInvocation MethodInvocation BooleanLiteral false
+true BooleanLiteral MethodInvocation BooleanLiteral false
+true BooleanLiteral MethodInvocation BooleanLiteral false
+false BooleanLiteral MethodInvocation BooleanLiteral false
+throwable SimpleName SimpleType SingleVariableDeclaration SimpleName e
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation StringLiteral failed to get queryplan
+log SimpleName MethodInvocation SimpleName e
+info SimpleName MethodInvocation StringLiteral failed to get queryplan
+info SimpleName MethodInvocation SimpleName e
+failed to get queryplan StringLiteral MethodInvocation SimpleName e
+private Modifier MethodDeclaration SimpleType SimpleName json object
+private Modifier MethodDeclaration SimpleName get query plan
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName hive conf
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName hive conf
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName query plan
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName query plan
+private Modifier MethodDeclaration SimpleType SimpleName exception
+json object SimpleName SimpleType MethodDeclaration SimpleName get query plan
+json object SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName hive conf
+json object SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName query plan
+json object SimpleName SimpleType MethodDeclaration SimpleType SimpleName exception
+get query plan SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName hive conf
+get query plan SimpleName MethodDeclaration SingleVariableDeclaration SimpleName hive conf
+get query plan SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName query plan
+get query plan SimpleName MethodDeclaration SingleVariableDeclaration SimpleName query plan
+get query plan SimpleName MethodDeclaration SimpleType SimpleName exception
+hive conf SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName query plan
+hive conf SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+query plan SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName json object
+public Modifier TypeDeclaration MethodDeclaration SimpleName get query plan
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName hive conf
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName query plan
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName json object
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get query plan
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName hive conf
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName query plan
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

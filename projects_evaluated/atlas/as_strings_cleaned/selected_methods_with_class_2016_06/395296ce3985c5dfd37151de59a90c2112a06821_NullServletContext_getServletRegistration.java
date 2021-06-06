@@ -1,0 +1,18 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName servlet name
+public Modifier MethodDeclaration SimpleType SimpleName servlet registration
+public Modifier MethodDeclaration SimpleName get servlet registration
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName servlet name
+servlet registration SimpleName SimpleType MethodDeclaration SimpleName get servlet registration
+servlet registration SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName servlet name
+get servlet registration SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get servlet registration SimpleName MethodDeclaration SingleVariableDeclaration SimpleName servlet name
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName servlet registration
+public Modifier TypeDeclaration MethodDeclaration SimpleName get servlet registration
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName servlet name
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName servlet registration
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get servlet registration
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName servlet name

@@ -1,0 +1,60 @@
+ast node SimpleName SimpleType SingleVariableDeclaration SimpleName origin
+node SimpleName VariableDeclarationFragment SimpleName origin
+ast node SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName node
+ast node SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName origin
+ast rewriter SimpleName SimpleType SingleVariableDeclaration SimpleName rewriter
+rewriter SimpleName MethodInvocation SimpleName rewrite
+rewriter SimpleName MethodInvocation SimpleName rw ctx
+rewriter SimpleName MethodInvocation SimpleName node
+rewrite SimpleName MethodInvocation SimpleName rw ctx
+rewrite SimpleName MethodInvocation SimpleName node
+rw ctx SimpleName MethodInvocation SimpleName node
+ast rewriter SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName rewriters
+rewriter SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName rewriters
+node SimpleName MethodInvocation SimpleName get children
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+node SimpleName MethodInvocation SimpleName get children
+node SimpleName MethodInvocation MethodInvocation SimpleName size
+get children SimpleName MethodInvocation MethodInvocation SimpleName size
+i SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName node
+i SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName get children
+i SimpleName InfixExpression MethodInvocation SimpleName size
+node SimpleName MethodInvocation SimpleName get child
+node SimpleName MethodInvocation SimpleName i
+get child SimpleName MethodInvocation SimpleName i
+ast node SimpleName SimpleType CastExpression MethodInvocation SimpleName node
+ast node SimpleName SimpleType CastExpression MethodInvocation SimpleName get child
+ast node SimpleName SimpleType CastExpression MethodInvocation SimpleName i
+rewrite SimpleName MethodInvocation CastExpression SimpleType SimpleName ast node
+rewrite SimpleName MethodInvocation CastExpression MethodInvocation SimpleName node
+rewrite SimpleName MethodInvocation CastExpression MethodInvocation SimpleName get child
+rewrite SimpleName MethodInvocation CastExpression MethodInvocation SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName rewrite
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName ast node
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName origin
+private Modifier MethodDeclaration SimpleType SimpleName rewrite exception
+void PrimitiveType MethodDeclaration SimpleName rewrite
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName ast node
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName origin
+void PrimitiveType MethodDeclaration SimpleType SimpleName rewrite exception
+rewrite SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName ast node
+rewrite SimpleName MethodDeclaration SingleVariableDeclaration SimpleName origin
+rewrite SimpleName MethodDeclaration SimpleType SimpleName rewrite exception
+origin SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName rewrite exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName rewrite
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName origin
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName rewrite exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName rewrite
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName origin
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName rewrite exception

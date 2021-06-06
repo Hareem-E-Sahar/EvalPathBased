@@ -1,0 +1,49 @@
+collection SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas attribute def
+atlas struct type SimpleName SimpleType SingleVariableDeclaration SimpleName struct type
+collection SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas attribute def
+struct type SimpleName MethodInvocation SimpleName get type category
+struct type SimpleName MethodInvocation InfixExpression QualifiedName type categorystruct
+get type category SimpleName MethodInvocation InfixExpression QualifiedName type categorystruct
+struct type SimpleName MethodInvocation SimpleName get struct def
+struct type SimpleName MethodInvocation MethodInvocation SimpleName get attribute defs
+get struct def SimpleName MethodInvocation MethodInvocation SimpleName get attribute defs
+ret SimpleName Assignment MethodInvocation MethodInvocation SimpleName struct type
+ret SimpleName Assignment MethodInvocation MethodInvocation SimpleName get struct def
+ret SimpleName Assignment MethodInvocation SimpleName get attribute defs
+struct type SimpleName MethodInvocation SimpleName get type category
+struct type SimpleName MethodInvocation InfixExpression QualifiedName type categoryclassification
+get type category SimpleName MethodInvocation InfixExpression QualifiedName type categoryclassification
+atlas classification type SimpleName SimpleType CastExpression SimpleName struct type
+struct type SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName get all attribute defs
+get all attribute defs SimpleName MethodInvocation MethodInvocation SimpleName values
+ret SimpleName Assignment MethodInvocation MethodInvocation SimpleName get all attribute defs
+ret SimpleName Assignment MethodInvocation SimpleName values
+struct type SimpleName MethodInvocation SimpleName get type category
+struct type SimpleName MethodInvocation InfixExpression QualifiedName type categoryentity
+get type category SimpleName MethodInvocation InfixExpression QualifiedName type categoryentity
+atlas entity type SimpleName SimpleType CastExpression SimpleName struct type
+struct type SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName get all attribute defs
+get all attribute defs SimpleName MethodInvocation MethodInvocation SimpleName values
+ret SimpleName Assignment MethodInvocation MethodInvocation SimpleName get all attribute defs
+ret SimpleName Assignment MethodInvocation SimpleName values
+collections SimpleName MethodInvocation SimpleName empty list
+ret SimpleName Assignment MethodInvocation SimpleName collections
+ret SimpleName Assignment MethodInvocation SimpleName empty list
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName collection
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName atlas attribute def
+private Modifier MethodDeclaration SimpleName get attribute defs
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas struct type
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName struct type
+private Modifier MethodDeclaration Block ReturnStatement SimpleName ret
+collection SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get attribute defs
+atlas attribute def SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get attribute defs
+get attribute defs SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas struct type
+get attribute defs SimpleName MethodDeclaration SingleVariableDeclaration SimpleName struct type
+get attribute defs SimpleName MethodDeclaration Block ReturnStatement SimpleName ret
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleName get attribute defs
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName struct type
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get attribute defs
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName struct type

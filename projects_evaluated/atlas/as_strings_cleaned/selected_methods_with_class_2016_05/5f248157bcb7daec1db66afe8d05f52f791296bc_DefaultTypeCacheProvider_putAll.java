@@ -1,0 +1,48 @@
+collection SimpleName SimpleType ParameterizedType SimpleType SimpleName i data type
+collection SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName types
+i data type SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName types
+i data type SimpleName SimpleType SingleVariableDeclaration SimpleName type
+assert valid type SimpleName MethodInvocation SimpleName type
+type SimpleName MethodInvocation SimpleName get name
+types SimpleName MethodInvocation SimpleName put
+types SimpleName MethodInvocation MethodInvocation SimpleName type
+types SimpleName MethodInvocation MethodInvocation SimpleName get name
+types SimpleName MethodInvocation SimpleName type
+put SimpleName MethodInvocation MethodInvocation SimpleName type
+put SimpleName MethodInvocation MethodInvocation SimpleName get name
+put SimpleName MethodInvocation SimpleName type
+type SimpleName MethodInvocation MethodInvocation SimpleName type
+get name SimpleName MethodInvocation MethodInvocation SimpleName type
+i data type SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName types
+type SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName types
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName put all
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName types
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName atlas exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName put all
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName types
+public Modifier MethodDeclaration SimpleType SimpleName atlas exception
+public Modifier MethodDeclaration Block EnhancedForStatement SimpleName types
+void PrimitiveType MethodDeclaration SimpleName put all
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName types
+void PrimitiveType MethodDeclaration SimpleType SimpleName atlas exception
+void PrimitiveType MethodDeclaration Block EnhancedForStatement SimpleName types
+put all SimpleName MethodDeclaration SingleVariableDeclaration SimpleName types
+put all SimpleName MethodDeclaration SimpleType SimpleName atlas exception
+put all SimpleName MethodDeclaration Block EnhancedForStatement SimpleName types
+types SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName put all
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName types
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName put all
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName types
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception

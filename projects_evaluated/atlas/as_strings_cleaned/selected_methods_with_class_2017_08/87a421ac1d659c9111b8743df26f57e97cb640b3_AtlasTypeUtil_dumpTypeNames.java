@@ -1,0 +1,63 @@
+list SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName type defs
+string builder SimpleName SimpleType SingleVariableDeclaration SimpleName sb
+collection utils SimpleName MethodInvocation SimpleName is not empty
+collection utils SimpleName MethodInvocation SimpleName type defs
+is not empty SimpleName MethodInvocation SimpleName type defs
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+type defs SimpleName MethodInvocation SimpleName size
+i SimpleName InfixExpression MethodInvocation SimpleName type defs
+i SimpleName InfixExpression MethodInvocation SimpleName size
+type defs SimpleName MethodInvocation SimpleName get
+type defs SimpleName MethodInvocation SimpleName i
+get SimpleName MethodInvocation SimpleName i
+type def SimpleName VariableDeclarationFragment MethodInvocation SimpleName type defs
+type def SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+type def SimpleName VariableDeclarationFragment MethodInvocation SimpleName i
+atlas base type def SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName type def
+i SimpleName InfixExpression NumberLiteral empty
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation StringLiteral empty
+append SimpleName MethodInvocation StringLiteral empty
+type def SimpleName MethodInvocation SimpleName get name
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation MethodInvocation SimpleName type def
+sb SimpleName MethodInvocation MethodInvocation SimpleName get name
+append SimpleName MethodInvocation MethodInvocation SimpleName type def
+append SimpleName MethodInvocation MethodInvocation SimpleName get name
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+private Modifier MethodDeclaration Modifier static
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName dump type names
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName type defs
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string builder
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName sb
+static Modifier MethodDeclaration PrimitiveType void
+static Modifier MethodDeclaration SimpleName dump type names
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName type defs
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string builder
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName sb
+void PrimitiveType MethodDeclaration SimpleName dump type names
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName type defs
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string builder
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName sb
+dump type names SimpleName MethodDeclaration SingleVariableDeclaration SimpleName type defs
+dump type names SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string builder
+dump type names SimpleName MethodDeclaration SingleVariableDeclaration SimpleName sb
+type defs SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName sb
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName dump type names
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type defs
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName sb
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName dump type names
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type defs
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName sb

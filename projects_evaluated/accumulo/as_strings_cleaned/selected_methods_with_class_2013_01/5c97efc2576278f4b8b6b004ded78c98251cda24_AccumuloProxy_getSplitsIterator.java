@@ -1,0 +1,12 @@
+javautiliterator QualifiedName SimpleType ParameterizedType SimpleType SimpleName byte buffer
+splits SimpleName FieldAccess MethodInvocation SimpleName iterator
+public Modifier MethodDeclaration ParameterizedType SimpleType QualifiedName javautiliterator
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName byte buffer
+public Modifier MethodDeclaration SimpleName get splits iterator
+javautiliterator QualifiedName SimpleType ParameterizedType MethodDeclaration SimpleName get splits iterator
+byte buffer SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get splits iterator
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName get splits iterator
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get splits iterator

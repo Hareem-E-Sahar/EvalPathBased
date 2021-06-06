@@ -1,0 +1,11 @@
+unsupported operation exception SimpleName SimpleType ClassInstanceCreation StringLiteral cant get parent
+public Modifier MethodDeclaration SimpleType SimpleName span
+public Modifier MethodDeclaration SimpleName parent
+span SimpleName SimpleType MethodDeclaration SimpleName parent
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName span
+public Modifier TypeDeclaration MethodDeclaration SimpleName parent
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName span
+test SimpleName TypeDeclaration MethodDeclaration SimpleName parent

@@ -1,0 +1,92 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName entity audit event
+string SimpleName SimpleType SingleVariableDeclaration SimpleName guid
+string SimpleName SimpleType SingleVariableDeclaration SimpleName start key
+short PrimitiveType SingleVariableDeclaration SimpleName count
+param checker SimpleName MethodInvocation SimpleName not empty
+param checker SimpleName MethodInvocation SimpleName guid
+param checker SimpleName MethodInvocation StringLiteral entity id
+not empty SimpleName MethodInvocation SimpleName guid
+not empty SimpleName MethodInvocation StringLiteral entity id
+guid SimpleName MethodInvocation StringLiteral entity id
+guid SimpleName Assignment MethodInvocation SimpleName param checker
+guid SimpleName Assignment MethodInvocation SimpleName not empty
+guid SimpleName Assignment MethodInvocation SimpleName guid
+guid SimpleName Assignment MethodInvocation StringLiteral entity id
+param checker SimpleName MethodInvocation SimpleName not empty if not null
+param checker SimpleName MethodInvocation SimpleName start key
+param checker SimpleName MethodInvocation StringLiteral start key
+not empty if not null SimpleName MethodInvocation SimpleName start key
+not empty if not null SimpleName MethodInvocation StringLiteral start key
+start key SimpleName MethodInvocation StringLiteral start key
+start key SimpleName Assignment MethodInvocation SimpleName param checker
+start key SimpleName Assignment MethodInvocation SimpleName not empty if not null
+start key SimpleName Assignment MethodInvocation SimpleName start key
+start key SimpleName Assignment MethodInvocation StringLiteral start key
+param checker SimpleName MethodInvocation SimpleName less than
+param checker SimpleName MethodInvocation SimpleName count
+param checker SimpleName MethodInvocation SimpleName max audit results
+param checker SimpleName MethodInvocation StringLiteral count
+less than SimpleName MethodInvocation SimpleName count
+less than SimpleName MethodInvocation SimpleName max audit results
+less than SimpleName MethodInvocation StringLiteral count
+count SimpleName MethodInvocation SimpleName max audit results
+count SimpleName MethodInvocation StringLiteral count
+max audit results SimpleName MethodInvocation StringLiteral count
+audit repository SimpleName MethodInvocation SimpleName list events
+audit repository SimpleName MethodInvocation SimpleName guid
+audit repository SimpleName MethodInvocation SimpleName start key
+audit repository SimpleName MethodInvocation SimpleName count
+list events SimpleName MethodInvocation SimpleName guid
+list events SimpleName MethodInvocation SimpleName start key
+list events SimpleName MethodInvocation SimpleName count
+guid SimpleName MethodInvocation SimpleName start key
+guid SimpleName MethodInvocation SimpleName count
+start key SimpleName MethodInvocation SimpleName count
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName get audit events
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName guid
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName start key
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName entity audit event
+public Modifier MethodDeclaration SimpleName get audit events
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName guid
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName start key
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType short
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName count
+list SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get audit events
+entity audit event SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get audit events
+get audit events SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get audit events SimpleName MethodDeclaration SingleVariableDeclaration SimpleName guid
+get audit events SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get audit events SimpleName MethodDeclaration SingleVariableDeclaration SimpleName start key
+get audit events SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType short
+get audit events SimpleName MethodDeclaration SingleVariableDeclaration SimpleName count
+get audit events SimpleName MethodDeclaration SimpleType SimpleName atlas exception
+guid SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName start key
+guid SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType short
+guid SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName count
+guid SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+start key SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType short
+start key SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName count
+start key SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+short PrimitiveType SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+count SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName get audit events
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName guid
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName start key
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType short
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName count
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get audit events
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName guid
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName start key
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType short
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName count
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception

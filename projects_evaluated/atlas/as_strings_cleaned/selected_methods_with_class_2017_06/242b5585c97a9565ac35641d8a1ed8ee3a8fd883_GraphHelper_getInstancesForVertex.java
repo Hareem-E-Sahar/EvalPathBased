@@ -1,0 +1,68 @@
+collection SimpleName SimpleType ParameterizedType SimpleType SimpleName indexed instance
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName attribute value map
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName attribute value map
+map SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName map
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName map
+attribute value map SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName map
+atlas vertex SimpleName SimpleType SingleVariableDeclaration SimpleName found vertex
+mapentry QualifiedName SimpleType ParameterizedType SimpleType SimpleName string
+mapentry QualifiedName SimpleType ParameterizedType SimpleType SimpleName attribute value map
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName attribute value map
+mapentry QualifiedName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+attribute value map SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+map SimpleName MethodInvocation SimpleName entry set
+entry SimpleName MethodInvocation SimpleName get key
+property name SimpleName VariableDeclarationFragment MethodInvocation SimpleName entry
+property name SimpleName VariableDeclarationFragment MethodInvocation SimpleName get key
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName property name
+entry SimpleName MethodInvocation SimpleName get value
+value map SimpleName VariableDeclarationFragment MethodInvocation SimpleName entry
+value map SimpleName VariableDeclarationFragment MethodInvocation SimpleName get value
+attribute value map SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName value map
+found vertex SimpleName MethodInvocation SimpleName get property
+found vertex SimpleName MethodInvocation SimpleName property name
+found vertex SimpleName MethodInvocation TypeLiteral SimpleType SimpleName object
+get property SimpleName MethodInvocation SimpleName property name
+get property SimpleName MethodInvocation TypeLiteral SimpleType SimpleName object
+property name SimpleName MethodInvocation TypeLiteral SimpleType SimpleName object
+vertex value SimpleName VariableDeclarationFragment MethodInvocation SimpleName found vertex
+vertex value SimpleName VariableDeclarationFragment MethodInvocation SimpleName get property
+vertex value SimpleName VariableDeclarationFragment MethodInvocation SimpleName property name
+object SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName vertex value
+collection SimpleName SimpleType ParameterizedType SimpleType SimpleName indexed instance
+value map SimpleName MethodInvocation SimpleName get
+value map SimpleName MethodInvocation SimpleName vertex value
+get SimpleName MethodInvocation SimpleName vertex value
+instances SimpleName VariableDeclarationFragment MethodInvocation SimpleName value map
+instances SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+instances SimpleName VariableDeclarationFragment MethodInvocation SimpleName vertex value
+instances SimpleName MethodInvocation SimpleName size
+instances SimpleName MethodInvocation InfixExpression NumberLiteral empty
+size SimpleName MethodInvocation InfixExpression NumberLiteral empty
+instances SimpleName InfixExpression InfixExpression InfixExpression NumberLiteral empty
+entry SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName map
+entry SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName entry set
+collections SimpleName MethodInvocation SimpleName empty list
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName collection
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName indexed instance
+private Modifier MethodDeclaration SimpleName get instances for vertex
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName map
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas vertex
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName found vertex
+collection SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get instances for vertex
+indexed instance SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get instances for vertex
+get instances for vertex SimpleName MethodDeclaration SingleVariableDeclaration SimpleName map
+get instances for vertex SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas vertex
+get instances for vertex SimpleName MethodDeclaration SingleVariableDeclaration SimpleName found vertex
+map SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName found vertex
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleName get instances for vertex
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName map
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName found vertex
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get instances for vertex
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName map
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName found vertex

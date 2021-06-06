@@ -1,0 +1,71 @@
+create file SimpleName MethodInvocation SimpleName xml
+f SimpleName VariableDeclarationFragment MethodInvocation SimpleName create file
+f SimpleName VariableDeclarationFragment MethodInvocation SimpleName xml
+file SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName f
+f SimpleName MethodInvocation SimpleName to uri
+f SimpleName MethodInvocation MethodInvocation SimpleName to string
+to uri SimpleName MethodInvocation MethodInvocation SimpleName to string
+path SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName to string
+p SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName path
+p SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName to string
+path SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName p
+f SimpleName MethodInvocation SimpleName length
+file split SimpleName SimpleType ClassInstanceCreation SimpleName p
+file split SimpleName SimpleType ClassInstanceCreation NumberLiteral empty
+file split SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName f
+file split SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName length
+p SimpleName ClassInstanceCreation NumberLiteral empty
+p SimpleName ClassInstanceCreation MethodInvocation SimpleName f
+p SimpleName ClassInstanceCreation MethodInvocation SimpleName length
+empty NumberLiteral ClassInstanceCreation MethodInvocation SimpleName f
+empty NumberLiteral ClassInstanceCreation MethodInvocation SimpleName length
+wikipedia input split SimpleName SimpleType ClassInstanceCreation ClassInstanceCreation SimpleName p
+wikipedia input split SimpleName SimpleType ClassInstanceCreation ClassInstanceCreation NumberLiteral empty
+wikipedia input split SimpleName SimpleType ClassInstanceCreation NumberLiteral empty
+file split SimpleName SimpleType ClassInstanceCreation ClassInstanceCreation NumberLiteral empty
+p SimpleName ClassInstanceCreation ClassInstanceCreation NumberLiteral empty
+empty NumberLiteral ClassInstanceCreation ClassInstanceCreation NumberLiteral empty
+f SimpleName MethodInvocation ClassInstanceCreation ClassInstanceCreation NumberLiteral empty
+length SimpleName MethodInvocation ClassInstanceCreation ClassInstanceCreation NumberLiteral empty
+split SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName wikipedia input split
+split SimpleName VariableDeclarationFragment ClassInstanceCreation ClassInstanceCreation SimpleName p
+split SimpleName VariableDeclarationFragment ClassInstanceCreation ClassInstanceCreation NumberLiteral empty
+split SimpleName VariableDeclarationFragment ClassInstanceCreation NumberLiteral empty
+wikipedia input split SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName split
+reader SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName aggregating record reader
+aggregating record reader SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName reader
+conf SimpleName MethodInvocation SimpleName set
+conf SimpleName MethodInvocation QualifiedName aggregating record readerstart token
+set SimpleName MethodInvocation QualifiedName aggregating record readerstart token
+conf SimpleName MethodInvocation SimpleName set
+conf SimpleName MethodInvocation QualifiedName aggregating record readerend token
+set SimpleName MethodInvocation QualifiedName aggregating record readerend token
+reader SimpleName MethodInvocation SimpleName initialize
+reader SimpleName MethodInvocation SimpleName split
+reader SimpleName MethodInvocation SimpleName ctx
+initialize SimpleName MethodInvocation SimpleName split
+initialize SimpleName MethodInvocation SimpleName ctx
+split SimpleName MethodInvocation SimpleName ctx
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+reader SimpleName MethodInvocation SimpleName close
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test incorrect args
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test incorrect args
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName test incorrect args
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+test incorrect args SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test incorrect args
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test incorrect args
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

@@ -1,0 +1,56 @@
+job SimpleName SimpleType SingleVariableDeclaration SimpleName job
+long PrimitiveType SingleVariableDeclaration SimpleName file block size
+job SimpleName MethodInvocation SimpleName get configuration
+file output configurator SimpleName MethodInvocation SimpleName set file block size
+file output configurator SimpleName MethodInvocation SimpleName class
+file output configurator SimpleName MethodInvocation MethodInvocation SimpleName job
+file output configurator SimpleName MethodInvocation MethodInvocation SimpleName get configuration
+file output configurator SimpleName MethodInvocation SimpleName file block size
+set file block size SimpleName MethodInvocation SimpleName class
+set file block size SimpleName MethodInvocation MethodInvocation SimpleName job
+set file block size SimpleName MethodInvocation MethodInvocation SimpleName get configuration
+set file block size SimpleName MethodInvocation SimpleName file block size
+class SimpleName MethodInvocation MethodInvocation SimpleName job
+class SimpleName MethodInvocation MethodInvocation SimpleName get configuration
+class SimpleName MethodInvocation SimpleName file block size
+job SimpleName MethodInvocation MethodInvocation SimpleName file block size
+get configuration SimpleName MethodInvocation MethodInvocation SimpleName file block size
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set file block size
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName job
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName job
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType long
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName file block size
+static Modifier MethodDeclaration PrimitiveType void
+static Modifier MethodDeclaration SimpleName set file block size
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName job
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName job
+static Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType long
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName file block size
+void PrimitiveType MethodDeclaration SimpleName set file block size
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName job
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName job
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType long
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName file block size
+set file block size SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName job
+set file block size SimpleName MethodDeclaration SingleVariableDeclaration SimpleName job
+set file block size SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType long
+set file block size SimpleName MethodDeclaration SingleVariableDeclaration SimpleName file block size
+job SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+job SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName file block size
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set file block size
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName job
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName file block size
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set file block size
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName job
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName file block size

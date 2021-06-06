@@ -1,0 +1,90 @@
+key SimpleName SimpleType SingleVariableDeclaration SimpleName k
+text SimpleName SimpleType SingleVariableDeclaration SimpleName buff
+k SimpleName MethodInvocation SimpleName get row
+k SimpleName MethodInvocation SimpleName buff
+get row SimpleName MethodInvocation SimpleName buff
+buff SimpleName MethodInvocation SimpleName find
+buff SimpleName MethodInvocation SimpleName row separator
+find SimpleName MethodInvocation SimpleName row separator
+offset SimpleName VariableDeclarationFragment MethodInvocation SimpleName buff
+offset SimpleName VariableDeclarationFragment MethodInvocation SimpleName find
+offset SimpleName VariableDeclarationFragment MethodInvocation SimpleName row separator
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName offset
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName buff
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName find
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName row separator
+empty NumberLiteral PrefixExpression InfixExpression SimpleName offset
+illegal argument exception SimpleName SimpleType ClassInstanceCreation StringLiteral row does not contain expected separator for order section
+byte PrimitiveType ArrayType ArrayCreation SimpleName offset
+encoded long SimpleName VariableDeclarationFragment ArrayCreation ArrayType PrimitiveType byte
+encoded long SimpleName VariableDeclarationFragment ArrayCreation SimpleName offset
+byte PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName encoded long
+buff SimpleName MethodInvocation SimpleName get bytes
+system SimpleName MethodInvocation SimpleName arraycopy
+system SimpleName MethodInvocation MethodInvocation SimpleName buff
+system SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+system SimpleName MethodInvocation NumberLiteral empty
+system SimpleName MethodInvocation SimpleName encoded long
+system SimpleName MethodInvocation NumberLiteral empty
+arraycopy SimpleName MethodInvocation MethodInvocation SimpleName buff
+arraycopy SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+arraycopy SimpleName MethodInvocation NumberLiteral empty
+arraycopy SimpleName MethodInvocation SimpleName encoded long
+arraycopy SimpleName MethodInvocation NumberLiteral empty
+arraycopy SimpleName MethodInvocation SimpleName offset
+buff SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+get bytes SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+buff SimpleName MethodInvocation MethodInvocation SimpleName encoded long
+get bytes SimpleName MethodInvocation MethodInvocation SimpleName encoded long
+buff SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+get bytes SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+buff SimpleName MethodInvocation MethodInvocation SimpleName offset
+get bytes SimpleName MethodInvocation MethodInvocation SimpleName offset
+empty NumberLiteral MethodInvocation SimpleName encoded long
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation SimpleName offset
+encoded long SimpleName MethodInvocation NumberLiteral empty
+encoded long SimpleName MethodInvocation SimpleName offset
+empty NumberLiteral MethodInvocation SimpleName offset
+long encoder SimpleName MethodInvocation SimpleName decode
+long encoder SimpleName MethodInvocation SimpleName encoded long
+decode SimpleName MethodInvocation SimpleName encoded long
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration PrimitiveType long
+public Modifier MethodDeclaration SimpleName get time closed
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName key
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName k
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName text
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName buff
+static Modifier MethodDeclaration PrimitiveType long
+static Modifier MethodDeclaration SimpleName get time closed
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName key
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName k
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName text
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName buff
+static Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+long PrimitiveType MethodDeclaration SimpleName get time closed
+long PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName key
+long PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName k
+long PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName text
+long PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName buff
+long PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+get time closed SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName key
+get time closed SimpleName MethodDeclaration SingleVariableDeclaration SimpleName k
+get time closed SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName text
+get time closed SimpleName MethodDeclaration SingleVariableDeclaration SimpleName buff
+get time closed SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+k SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName buff
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType long
+public Modifier TypeDeclaration MethodDeclaration SimpleName get time closed
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName k
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName buff
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType long
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get time closed
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName k
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName buff

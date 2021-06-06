@@ -1,0 +1,275 @@
+final Modifier SingleVariableDeclaration SimpleType SimpleName problem report
+final Modifier SingleVariableDeclaration SimpleName pr
+problem report SimpleName SimpleType SingleVariableDeclaration SimpleName pr
+problem reports SimpleName MethodInvocation SimpleName contains key
+problem reports SimpleName MethodInvocation SimpleName pr
+contains key SimpleName MethodInvocation SimpleName pr
+system SimpleName MethodInvocation SimpleName current time millis
+problem reports SimpleName MethodInvocation SimpleName put
+problem reports SimpleName MethodInvocation SimpleName pr
+problem reports SimpleName MethodInvocation MethodInvocation SimpleName system
+problem reports SimpleName MethodInvocation MethodInvocation SimpleName current time millis
+put SimpleName MethodInvocation SimpleName pr
+put SimpleName MethodInvocation MethodInvocation SimpleName system
+put SimpleName MethodInvocation MethodInvocation SimpleName current time millis
+pr SimpleName MethodInvocation MethodInvocation SimpleName system
+pr SimpleName MethodInvocation MethodInvocation SimpleName current time millis
+pr SimpleName MethodInvocation SimpleName get table name
+pr SimpleName MethodInvocation SimpleName get problem type
+pr SimpleName MethodInvocation SimpleName get resource
+filing problem report StringLiteral InfixExpression MethodInvocation SimpleName pr
+filing problem report StringLiteral InfixExpression MethodInvocation SimpleName get table name
+filing problem report StringLiteral InfixExpression StringLiteral empty
+filing problem report StringLiteral InfixExpression MethodInvocation SimpleName pr
+filing problem report StringLiteral InfixExpression MethodInvocation SimpleName get problem type
+filing problem report StringLiteral InfixExpression StringLiteral empty
+filing problem report StringLiteral InfixExpression MethodInvocation SimpleName pr
+filing problem report StringLiteral InfixExpression MethodInvocation SimpleName get resource
+pr SimpleName MethodInvocation InfixExpression StringLiteral empty
+get table name SimpleName MethodInvocation InfixExpression StringLiteral empty
+pr SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName pr
+pr SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get problem type
+get table name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName pr
+get table name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get problem type
+pr SimpleName MethodInvocation InfixExpression StringLiteral empty
+get table name SimpleName MethodInvocation InfixExpression StringLiteral empty
+pr SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName pr
+pr SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get resource
+get table name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName pr
+get table name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get resource
+empty StringLiteral InfixExpression MethodInvocation SimpleName pr
+empty StringLiteral InfixExpression MethodInvocation SimpleName get problem type
+empty StringLiteral InfixExpression StringLiteral empty
+empty StringLiteral InfixExpression MethodInvocation SimpleName pr
+empty StringLiteral InfixExpression MethodInvocation SimpleName get resource
+pr SimpleName MethodInvocation InfixExpression StringLiteral empty
+get problem type SimpleName MethodInvocation InfixExpression StringLiteral empty
+pr SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName pr
+pr SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get resource
+get problem type SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName pr
+get problem type SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get resource
+empty StringLiteral InfixExpression MethodInvocation SimpleName pr
+empty StringLiteral InfixExpression MethodInvocation SimpleName get resource
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation InfixExpression StringLiteral filing problem report
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName pr
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get table name
+log SimpleName MethodInvocation InfixExpression StringLiteral empty
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName pr
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get problem type
+log SimpleName MethodInvocation InfixExpression StringLiteral empty
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName pr
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get resource
+debug SimpleName MethodInvocation InfixExpression StringLiteral filing problem report
+debug SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName pr
+debug SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get table name
+debug SimpleName MethodInvocation InfixExpression StringLiteral empty
+debug SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName pr
+debug SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get problem type
+debug SimpleName MethodInvocation InfixExpression StringLiteral empty
+debug SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName pr
+debug SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get resource
+pr SimpleName MethodInvocation SimpleName get table name
+pr SimpleName MethodInvocation MethodInvocation SimpleName equals
+get table name SimpleName MethodInvocation MethodInvocation SimpleName equals
+pr SimpleName MethodInvocation MethodInvocation QualifiedName constantsmetadata table id
+get table name SimpleName MethodInvocation MethodInvocation QualifiedName constantsmetadata table id
+equals SimpleName MethodInvocation QualifiedName constantsmetadata table id
+pr SimpleName MethodInvocation SimpleName save to zoo keeper
+pr SimpleName MethodInvocation SimpleName save to metadata table
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+pr SimpleName MethodInvocation SimpleName get table name
+pr SimpleName MethodInvocation SimpleName get problem type
+pr SimpleName MethodInvocation SimpleName get resource
+failed to file problem report StringLiteral InfixExpression MethodInvocation SimpleName pr
+failed to file problem report StringLiteral InfixExpression MethodInvocation SimpleName get table name
+failed to file problem report StringLiteral InfixExpression StringLiteral empty
+failed to file problem report StringLiteral InfixExpression MethodInvocation SimpleName pr
+failed to file problem report StringLiteral InfixExpression MethodInvocation SimpleName get problem type
+failed to file problem report StringLiteral InfixExpression StringLiteral empty
+failed to file problem report StringLiteral InfixExpression MethodInvocation SimpleName pr
+failed to file problem report StringLiteral InfixExpression MethodInvocation SimpleName get resource
+pr SimpleName MethodInvocation InfixExpression StringLiteral empty
+get table name SimpleName MethodInvocation InfixExpression StringLiteral empty
+pr SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName pr
+pr SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get problem type
+get table name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName pr
+get table name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get problem type
+pr SimpleName MethodInvocation InfixExpression StringLiteral empty
+get table name SimpleName MethodInvocation InfixExpression StringLiteral empty
+pr SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName pr
+pr SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get resource
+get table name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName pr
+get table name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get resource
+empty StringLiteral InfixExpression MethodInvocation SimpleName pr
+empty StringLiteral InfixExpression MethodInvocation SimpleName get problem type
+empty StringLiteral InfixExpression StringLiteral empty
+empty StringLiteral InfixExpression MethodInvocation SimpleName pr
+empty StringLiteral InfixExpression MethodInvocation SimpleName get resource
+pr SimpleName MethodInvocation InfixExpression StringLiteral empty
+get problem type SimpleName MethodInvocation InfixExpression StringLiteral empty
+pr SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName pr
+pr SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get resource
+get problem type SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName pr
+get problem type SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get resource
+empty StringLiteral InfixExpression MethodInvocation SimpleName pr
+empty StringLiteral InfixExpression MethodInvocation SimpleName get resource
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation InfixExpression StringLiteral failed to file problem report
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName pr
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get table name
+log SimpleName MethodInvocation InfixExpression StringLiteral empty
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName pr
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get problem type
+log SimpleName MethodInvocation InfixExpression StringLiteral empty
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName pr
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get resource
+log SimpleName MethodInvocation SimpleName e
+error SimpleName MethodInvocation InfixExpression StringLiteral failed to file problem report
+error SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName pr
+error SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get table name
+error SimpleName MethodInvocation InfixExpression StringLiteral empty
+error SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName pr
+error SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get problem type
+error SimpleName MethodInvocation InfixExpression StringLiteral empty
+error SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName pr
+error SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get resource
+error SimpleName MethodInvocation SimpleName e
+failed to file problem report StringLiteral InfixExpression MethodInvocation SimpleName e
+pr SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName e
+get table name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName e
+empty StringLiteral InfixExpression MethodInvocation SimpleName e
+pr SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName e
+get problem type SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName e
+empty StringLiteral InfixExpression MethodInvocation SimpleName e
+pr SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName e
+get resource SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName e
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName run
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName run
+void PrimitiveType MethodDeclaration SimpleName run
+r SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName runnable
+runnable SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName r
+logging runnable SimpleName SimpleType ClassInstanceCreation SimpleName log
+logging runnable SimpleName SimpleType ClassInstanceCreation SimpleName r
+log SimpleName ClassInstanceCreation SimpleName r
+report executor SimpleName MethodInvocation SimpleName execute
+report executor SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName logging runnable
+report executor SimpleName MethodInvocation ClassInstanceCreation SimpleName log
+report executor SimpleName MethodInvocation ClassInstanceCreation SimpleName r
+execute SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName logging runnable
+execute SimpleName MethodInvocation ClassInstanceCreation SimpleName log
+execute SimpleName MethodInvocation ClassInstanceCreation SimpleName r
+rejected execution exception SimpleName SimpleType SingleVariableDeclaration SimpleName ree
+pr SimpleName MethodInvocation SimpleName get table name
+pr SimpleName MethodInvocation SimpleName get problem type
+pr SimpleName MethodInvocation SimpleName get resource
+ree SimpleName MethodInvocation SimpleName get message
+failed to report problem StringLiteral InfixExpression MethodInvocation SimpleName pr
+failed to report problem StringLiteral InfixExpression MethodInvocation SimpleName get table name
+failed to report problem StringLiteral InfixExpression StringLiteral empty
+failed to report problem StringLiteral InfixExpression MethodInvocation SimpleName pr
+failed to report problem StringLiteral InfixExpression MethodInvocation SimpleName get problem type
+failed to report problem StringLiteral InfixExpression StringLiteral empty
+failed to report problem StringLiteral InfixExpression MethodInvocation SimpleName pr
+failed to report problem StringLiteral InfixExpression MethodInvocation SimpleName get resource
+pr SimpleName MethodInvocation InfixExpression StringLiteral empty
+get table name SimpleName MethodInvocation InfixExpression StringLiteral empty
+pr SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName pr
+pr SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get problem type
+get table name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName pr
+get table name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get problem type
+pr SimpleName MethodInvocation InfixExpression StringLiteral empty
+get table name SimpleName MethodInvocation InfixExpression StringLiteral empty
+pr SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName pr
+pr SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get resource
+get table name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName pr
+get table name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get resource
+pr SimpleName MethodInvocation InfixExpression StringLiteral empty
+get table name SimpleName MethodInvocation InfixExpression StringLiteral empty
+empty StringLiteral InfixExpression MethodInvocation SimpleName pr
+empty StringLiteral InfixExpression MethodInvocation SimpleName get problem type
+empty StringLiteral InfixExpression StringLiteral empty
+empty StringLiteral InfixExpression MethodInvocation SimpleName pr
+empty StringLiteral InfixExpression MethodInvocation SimpleName get resource
+empty StringLiteral InfixExpression StringLiteral empty
+empty StringLiteral InfixExpression MethodInvocation SimpleName ree
+empty StringLiteral InfixExpression MethodInvocation SimpleName get message
+pr SimpleName MethodInvocation InfixExpression StringLiteral empty
+get problem type SimpleName MethodInvocation InfixExpression StringLiteral empty
+pr SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName pr
+pr SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get resource
+get problem type SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName pr
+get problem type SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get resource
+pr SimpleName MethodInvocation InfixExpression StringLiteral empty
+get problem type SimpleName MethodInvocation InfixExpression StringLiteral empty
+pr SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName ree
+pr SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get message
+get problem type SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName ree
+get problem type SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get message
+empty StringLiteral InfixExpression MethodInvocation SimpleName pr
+empty StringLiteral InfixExpression MethodInvocation SimpleName get resource
+empty StringLiteral InfixExpression StringLiteral empty
+empty StringLiteral InfixExpression MethodInvocation SimpleName ree
+empty StringLiteral InfixExpression MethodInvocation SimpleName get message
+pr SimpleName MethodInvocation InfixExpression StringLiteral empty
+get resource SimpleName MethodInvocation InfixExpression StringLiteral empty
+pr SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName ree
+pr SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get message
+get resource SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName ree
+get resource SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get message
+empty StringLiteral InfixExpression MethodInvocation SimpleName ree
+empty StringLiteral InfixExpression MethodInvocation SimpleName get message
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation InfixExpression StringLiteral failed to report problem
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName pr
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get table name
+log SimpleName MethodInvocation InfixExpression StringLiteral empty
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName pr
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get problem type
+log SimpleName MethodInvocation InfixExpression StringLiteral empty
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName pr
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get resource
+log SimpleName MethodInvocation InfixExpression StringLiteral empty
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName ree
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get message
+error SimpleName MethodInvocation InfixExpression StringLiteral failed to report problem
+error SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName pr
+error SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get table name
+error SimpleName MethodInvocation InfixExpression StringLiteral empty
+error SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName pr
+error SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get problem type
+error SimpleName MethodInvocation InfixExpression StringLiteral empty
+error SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName pr
+error SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get resource
+error SimpleName MethodInvocation InfixExpression StringLiteral empty
+error SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName ree
+error SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get message
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName report
+public Modifier MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName problem report
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName pr
+public Modifier MethodDeclaration Block SynchronizedStatement SimpleName problem reports
+void PrimitiveType MethodDeclaration SimpleName report
+void PrimitiveType MethodDeclaration SingleVariableDeclaration Modifier final
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName problem report
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName pr
+void PrimitiveType MethodDeclaration Block SynchronizedStatement SimpleName problem reports
+report SimpleName MethodDeclaration SingleVariableDeclaration Modifier final
+report SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName problem report
+report SimpleName MethodDeclaration SingleVariableDeclaration SimpleName pr
+report SimpleName MethodDeclaration Block SynchronizedStatement SimpleName problem reports
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName report
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName pr
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName report
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName pr

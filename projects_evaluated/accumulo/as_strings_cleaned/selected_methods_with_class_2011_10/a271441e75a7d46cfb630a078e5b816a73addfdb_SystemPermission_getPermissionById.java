@@ -1,0 +1,35 @@
+byte PrimitiveType SingleVariableDeclaration SimpleName id
+mapping SimpleName MethodInvocation SimpleName contains key
+mapping SimpleName MethodInvocation SimpleName id
+contains key SimpleName MethodInvocation SimpleName id
+mapping SimpleName MethodInvocation SimpleName get
+mapping SimpleName MethodInvocation SimpleName id
+get SimpleName MethodInvocation SimpleName id
+index out of bounds exception SimpleName SimpleType ClassInstanceCreation StringLiteral no such permission
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName system permission
+public Modifier MethodDeclaration SimpleName get permission by id
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType byte
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName id
+static Modifier MethodDeclaration SimpleType SimpleName system permission
+static Modifier MethodDeclaration SimpleName get permission by id
+static Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType byte
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName id
+system permission SimpleName SimpleType MethodDeclaration SimpleName get permission by id
+system permission SimpleName SimpleType MethodDeclaration SingleVariableDeclaration PrimitiveType byte
+system permission SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName id
+get permission by id SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType byte
+get permission by id SimpleName MethodDeclaration SingleVariableDeclaration SimpleName id
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName system permission
+public Modifier TypeDeclaration MethodDeclaration SimpleName get permission by id
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType byte
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName id
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName system permission
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get permission by id
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType byte
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName id

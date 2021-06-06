@@ -1,0 +1,93 @@
+import service SimpleName SimpleType ClassInstanceCreation SimpleName type def store
+import service SimpleName SimpleType ClassInstanceCreation SimpleName type registry
+type def store SimpleName ClassInstanceCreation SimpleName type registry
+import service SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName import service
+import service SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName type def store
+import service SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName type registry
+import service SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName import service
+mock SimpleName MethodInvocation TypeLiteral SimpleType SimpleName atlas import request
+req SimpleName VariableDeclarationFragment MethodInvocation SimpleName mock
+atlas import request SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName req
+answer SimpleName SimpleType ParameterizedType SimpleType SimpleName map
+answer SimpleName SimpleType ParameterizedType SimpleType SimpleName map
+invocation on mock SimpleName SimpleType SingleVariableDeclaration SimpleName invocation on mock
+io exception SimpleName SimpleType ClassInstanceCreation StringLiteral file is read only
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName map
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName answer
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName invocation on mock
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName throwable
+public Modifier MethodDeclaration SimpleType SimpleName map
+public Modifier MethodDeclaration SimpleName answer
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName invocation on mock
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName invocation on mock
+public Modifier MethodDeclaration SimpleType SimpleName throwable
+map SimpleName SimpleType MethodDeclaration SimpleName answer
+map SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName invocation on mock
+map SimpleName SimpleType MethodDeclaration SimpleType SimpleName throwable
+answer SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName invocation on mock
+answer SimpleName MethodDeclaration SingleVariableDeclaration SimpleName invocation on mock
+answer SimpleName MethodDeclaration SimpleType SimpleName throwable
+invocation on mock SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName throwable
+req SimpleName MethodInvocation SimpleName get file name
+when SimpleName MethodInvocation MethodInvocation SimpleName req
+when SimpleName MethodInvocation MethodInvocation SimpleName get file name
+when SimpleName MethodInvocation MethodInvocation SimpleName then return
+req SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+get file name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+when SimpleName MethodInvocation MethodInvocation StringLiteral somefilezip
+req SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral somefilezip
+get file name SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral somefilezip
+then return SimpleName MethodInvocation StringLiteral somefilezip
+req SimpleName MethodInvocation SimpleName get options
+when SimpleName MethodInvocation MethodInvocation SimpleName req
+when SimpleName MethodInvocation MethodInvocation SimpleName get options
+when SimpleName MethodInvocation MethodInvocation SimpleName then answer
+req SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then answer
+get options SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then answer
+when SimpleName MethodInvocation MethodInvocation SimpleName answer
+req SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName answer
+get options SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName answer
+then answer SimpleName MethodInvocation SimpleName answer
+import service SimpleName MethodInvocation SimpleName run
+import service SimpleName MethodInvocation SimpleName req
+import service SimpleName MethodInvocation StringLiteral a
+import service SimpleName MethodInvocation StringLiteral b
+import service SimpleName MethodInvocation StringLiteral c
+run SimpleName MethodInvocation SimpleName req
+run SimpleName MethodInvocation StringLiteral a
+run SimpleName MethodInvocation StringLiteral b
+run SimpleName MethodInvocation StringLiteral c
+req SimpleName MethodInvocation StringLiteral a
+req SimpleName MethodInvocation StringLiteral b
+req SimpleName MethodInvocation StringLiteral c
+a StringLiteral MethodInvocation StringLiteral b
+a StringLiteral MethodInvocation StringLiteral c
+b StringLiteral MethodInvocation StringLiteral c
+atlas base exception SimpleName SimpleType SingleVariableDeclaration SimpleName ex
+ex SimpleName MethodInvocation SimpleName get atlas error code
+ex SimpleName MethodInvocation MethodInvocation SimpleName get error code
+get atlas error code SimpleName MethodInvocation MethodInvocation SimpleName get error code
+atlas error codeinvalid parameters QualifiedName MethodInvocation SimpleName get error code
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName ex
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get atlas error code
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get error code
+assert equals SimpleName MethodInvocation MethodInvocation QualifiedName atlas error codeinvalid parameters
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get error code
+get error code SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName atlas error codeinvalid parameters
+get error code SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get error code
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName import service processes io exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName import service processes io exception
+void PrimitiveType MethodDeclaration SimpleName import service processes io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName import service processes io exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName import service processes io exception

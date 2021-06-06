@@ -1,0 +1,58 @@
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+map SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName obj
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName obj
+object SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName obj
+atlas attribute SimpleName SimpleType SingleVariableDeclaration SimpleName attribute
+relationship attributes SimpleName MethodInvocation SimpleName values
+attribute SimpleName MethodInvocation SimpleName get name
+attribute name SimpleName VariableDeclarationFragment MethodInvocation SimpleName attribute
+attribute name SimpleName VariableDeclarationFragment MethodInvocation SimpleName get name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName attribute name
+attribute SimpleName MethodInvocation SimpleName get attribute def
+attribute def SimpleName VariableDeclarationFragment MethodInvocation SimpleName attribute
+attribute def SimpleName VariableDeclarationFragment MethodInvocation SimpleName get attribute def
+atlas attribute def SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName attribute def
+obj SimpleName MethodInvocation SimpleName contains key
+obj SimpleName MethodInvocation SimpleName attribute name
+contains key SimpleName MethodInvocation SimpleName attribute name
+obj SimpleName MethodInvocation SimpleName get
+obj SimpleName MethodInvocation SimpleName attribute name
+get SimpleName MethodInvocation SimpleName attribute name
+get normalized value SimpleName MethodInvocation MethodInvocation SimpleName obj
+get normalized value SimpleName MethodInvocation MethodInvocation SimpleName get
+get normalized value SimpleName MethodInvocation MethodInvocation SimpleName attribute name
+get normalized value SimpleName MethodInvocation SimpleName attribute def
+obj SimpleName MethodInvocation MethodInvocation SimpleName attribute def
+get SimpleName MethodInvocation MethodInvocation SimpleName attribute def
+attribute name SimpleName MethodInvocation MethodInvocation SimpleName attribute def
+attribute value SimpleName VariableDeclarationFragment MethodInvocation SimpleName get normalized value
+attribute value SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName obj
+attribute value SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get
+attribute value SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName attribute name
+attribute value SimpleName VariableDeclarationFragment MethodInvocation SimpleName attribute def
+object SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName attribute value
+obj SimpleName MethodInvocation SimpleName put
+obj SimpleName MethodInvocation SimpleName attribute name
+obj SimpleName MethodInvocation SimpleName attribute value
+put SimpleName MethodInvocation SimpleName attribute name
+put SimpleName MethodInvocation SimpleName attribute value
+attribute name SimpleName MethodInvocation SimpleName attribute value
+attribute SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName relationship attributes
+attribute SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName values
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName normalize relationship attribute values
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName obj
+void PrimitiveType MethodDeclaration SimpleName normalize relationship attribute values
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName obj
+normalize relationship attribute values SimpleName MethodDeclaration SingleVariableDeclaration SimpleName obj
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName normalize relationship attribute values
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName obj
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName normalize relationship attribute values
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName obj

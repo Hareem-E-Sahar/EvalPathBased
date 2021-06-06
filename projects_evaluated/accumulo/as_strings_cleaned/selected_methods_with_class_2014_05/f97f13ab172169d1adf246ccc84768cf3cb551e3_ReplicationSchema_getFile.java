@@ -1,0 +1,78 @@
+key SimpleName SimpleType SingleVariableDeclaration SimpleName k
+text SimpleName SimpleType SingleVariableDeclaration SimpleName buff
+k SimpleName MethodInvocation SimpleName get row
+k SimpleName MethodInvocation SimpleName buff
+get row SimpleName MethodInvocation SimpleName buff
+buff SimpleName MethodInvocation SimpleName find
+buff SimpleName MethodInvocation SimpleName row separator
+find SimpleName MethodInvocation SimpleName row separator
+offset SimpleName VariableDeclarationFragment MethodInvocation SimpleName buff
+offset SimpleName VariableDeclarationFragment MethodInvocation SimpleName find
+offset SimpleName VariableDeclarationFragment MethodInvocation SimpleName row separator
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName offset
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName buff
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName find
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName row separator
+empty NumberLiteral PrefixExpression InfixExpression SimpleName offset
+illegal argument exception SimpleName SimpleType ClassInstanceCreation StringLiteral row does not contain expected separator for order section
+buff SimpleName MethodInvocation SimpleName get bytes
+offset SimpleName InfixExpression NumberLiteral empty
+buff SimpleName MethodInvocation SimpleName get length
+offset SimpleName InfixExpression NumberLiteral empty
+text SimpleName MethodInvocation SimpleName decode
+text SimpleName MethodInvocation MethodInvocation SimpleName buff
+text SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+text SimpleName MethodInvocation InfixExpression SimpleName offset
+text SimpleName MethodInvocation InfixExpression NumberLiteral empty
+text SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName buff
+text SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get length
+decode SimpleName MethodInvocation MethodInvocation SimpleName buff
+decode SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+decode SimpleName MethodInvocation InfixExpression SimpleName offset
+decode SimpleName MethodInvocation InfixExpression NumberLiteral empty
+decode SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName buff
+decode SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get length
+buff SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName offset
+buff SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral empty
+get bytes SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName offset
+get bytes SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral empty
+character coding exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+illegal argument exception SimpleName SimpleType ClassInstanceCreation StringLiteral could not decode file path
+illegal argument exception SimpleName SimpleType ClassInstanceCreation SimpleName e
+could not decode file path StringLiteral ClassInstanceCreation SimpleName e
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName get file
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName key
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName k
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName text
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName buff
+static Modifier MethodDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SimpleName get file
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName key
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName k
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName text
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName buff
+static Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+string SimpleName SimpleType MethodDeclaration SimpleName get file
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName k
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName buff
+get file SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName key
+get file SimpleName MethodDeclaration SingleVariableDeclaration SimpleName k
+get file SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName text
+get file SimpleName MethodDeclaration SingleVariableDeclaration SimpleName buff
+get file SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+k SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName buff
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName get file
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName k
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName buff
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get file
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName k
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName buff

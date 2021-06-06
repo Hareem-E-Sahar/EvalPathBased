@@ -1,0 +1,142 @@
+long PrimitiveType SingleVariableDeclaration SimpleName expected
+key SimpleName SimpleType SingleVariableDeclaration SimpleName k
+value SimpleName SimpleType SingleVariableDeclaration SimpleName v
+k SimpleName MethodInvocation SimpleName get row
+text util SimpleName MethodInvocation SimpleName get bytes
+text util SimpleName MethodInvocation MethodInvocation SimpleName k
+text util SimpleName MethodInvocation MethodInvocation SimpleName get row
+get bytes SimpleName MethodInvocation MethodInvocation SimpleName k
+get bytes SimpleName MethodInvocation MethodInvocation SimpleName get row
+decode long SimpleName MethodInvocation MethodInvocation SimpleName text util
+decode long SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+decode long SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName k
+decode long SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get row
+expected SimpleName InfixExpression MethodInvocation SimpleName decode long
+expected SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName text util
+expected SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName get bytes
+k SimpleName MethodInvocation SimpleName get row
+text util SimpleName MethodInvocation SimpleName get bytes
+text util SimpleName MethodInvocation MethodInvocation SimpleName k
+text util SimpleName MethodInvocation MethodInvocation SimpleName get row
+get bytes SimpleName MethodInvocation MethodInvocation SimpleName k
+get bytes SimpleName MethodInvocation MethodInvocation SimpleName get row
+decode long SimpleName MethodInvocation MethodInvocation SimpleName text util
+decode long SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+decode long SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName k
+decode long SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get row
+error : expected row StringLiteral InfixExpression SimpleName expected
+error : expected row StringLiteral InfixExpression StringLiteral saw
+error : expected row StringLiteral InfixExpression MethodInvocation SimpleName decode long
+error : expected row StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName text util
+error : expected row StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName get bytes
+expected SimpleName InfixExpression StringLiteral saw
+expected SimpleName InfixExpression MethodInvocation SimpleName decode long
+expected SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName text util
+expected SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName get bytes
+saw StringLiteral InfixExpression MethodInvocation SimpleName decode long
+saw StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName text util
+saw StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName get bytes
+systemerr QualifiedName MethodInvocation SimpleName println
+systemerr QualifiedName MethodInvocation InfixExpression StringLiteral error : expected row
+systemerr QualifiedName MethodInvocation InfixExpression SimpleName expected
+systemerr QualifiedName MethodInvocation InfixExpression StringLiteral saw
+systemerr QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName decode long
+println SimpleName MethodInvocation InfixExpression StringLiteral error : expected row
+println SimpleName MethodInvocation InfixExpression SimpleName expected
+println SimpleName MethodInvocation InfixExpression StringLiteral saw
+println SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName decode long
+systemerr QualifiedName MethodInvocation SimpleName println
+systemerr QualifiedName MethodInvocation StringLiteral exiting
+println SimpleName MethodInvocation StringLiteral exiting
+v SimpleName MethodInvocation SimpleName to string
+empty StringLiteral InfixExpression SimpleName expected
+v SimpleName MethodInvocation MethodInvocation SimpleName equals
+to string SimpleName MethodInvocation MethodInvocation SimpleName equals
+v SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral empty
+v SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName expected
+to string SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral empty
+to string SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName expected
+equals SimpleName MethodInvocation InfixExpression StringLiteral empty
+equals SimpleName MethodInvocation InfixExpression SimpleName expected
+v SimpleName MethodInvocation SimpleName to string
+error : expected value StringLiteral InfixExpression SimpleName expected
+error : expected value StringLiteral InfixExpression StringLiteral saw
+error : expected value StringLiteral InfixExpression MethodInvocation SimpleName v
+error : expected value StringLiteral InfixExpression MethodInvocation SimpleName to string
+expected SimpleName InfixExpression StringLiteral saw
+expected SimpleName InfixExpression MethodInvocation SimpleName v
+expected SimpleName InfixExpression MethodInvocation SimpleName to string
+saw StringLiteral InfixExpression MethodInvocation SimpleName v
+saw StringLiteral InfixExpression MethodInvocation SimpleName to string
+systemerr QualifiedName MethodInvocation SimpleName println
+systemerr QualifiedName MethodInvocation InfixExpression StringLiteral error : expected value
+systemerr QualifiedName MethodInvocation InfixExpression SimpleName expected
+systemerr QualifiedName MethodInvocation InfixExpression StringLiteral saw
+systemerr QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName v
+systemerr QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName to string
+println SimpleName MethodInvocation InfixExpression StringLiteral error : expected value
+println SimpleName MethodInvocation InfixExpression SimpleName expected
+println SimpleName MethodInvocation InfixExpression StringLiteral saw
+println SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName v
+println SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName to string
+systemerr QualifiedName MethodInvocation SimpleName println
+systemerr QualifiedName MethodInvocation StringLiteral exiting
+println SimpleName MethodInvocation StringLiteral exiting
+private Modifier MethodDeclaration Modifier static
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName check key value
+private Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType long
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName expected
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName key
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName k
+static Modifier MethodDeclaration PrimitiveType void
+static Modifier MethodDeclaration SimpleName check key value
+static Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType long
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName expected
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName key
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName k
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName value
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName v
+void PrimitiveType MethodDeclaration SimpleName check key value
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType long
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName expected
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName key
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName k
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName value
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName v
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+check key value SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType long
+check key value SimpleName MethodDeclaration SingleVariableDeclaration SimpleName expected
+check key value SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName key
+check key value SimpleName MethodDeclaration SingleVariableDeclaration SimpleName k
+check key value SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName value
+check key value SimpleName MethodDeclaration SingleVariableDeclaration SimpleName v
+check key value SimpleName MethodDeclaration SimpleType SimpleName exception
+long PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName k
+expected SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName k
+long PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName v
+expected SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName v
+long PrimitiveType SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+expected SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+k SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName v
+k SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+v SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName check key value
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName expected
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName k
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName v
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName check key value
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName expected
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName k
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName v
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

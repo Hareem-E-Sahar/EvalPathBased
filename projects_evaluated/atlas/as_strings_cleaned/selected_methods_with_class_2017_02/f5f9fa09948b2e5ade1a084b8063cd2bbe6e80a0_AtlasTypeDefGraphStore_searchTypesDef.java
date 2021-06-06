@@ -1,0 +1,121 @@
+search filter SimpleName SimpleType SingleVariableDeclaration SimpleName search filter
+types def SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName atlas types def
+final Modifier VariableDeclarationStatement SimpleType SimpleName atlas types def
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName types def
+atlas types def SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName types def
+filter util SimpleName MethodInvocation SimpleName get predicate from search filter
+filter util SimpleName MethodInvocation SimpleName search filter
+get predicate from search filter SimpleName MethodInvocation SimpleName search filter
+search predicates SimpleName VariableDeclarationFragment MethodInvocation SimpleName filter util
+search predicates SimpleName VariableDeclarationFragment MethodInvocation SimpleName get predicate from search filter
+search predicates SimpleName VariableDeclarationFragment MethodInvocation SimpleName search filter
+predicate SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName search predicates
+atlas enum type SimpleName SimpleType SingleVariableDeclaration SimpleName enum type
+type registry SimpleName MethodInvocation SimpleName get all enum types
+search predicates SimpleName MethodInvocation SimpleName evaluate
+search predicates SimpleName MethodInvocation SimpleName enum type
+evaluate SimpleName MethodInvocation SimpleName enum type
+types def SimpleName MethodInvocation SimpleName get enum defs
+enum type SimpleName MethodInvocation SimpleName get enum def
+types def SimpleName MethodInvocation MethodInvocation SimpleName add
+get enum defs SimpleName MethodInvocation MethodInvocation SimpleName add
+types def SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName enum type
+types def SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get enum def
+get enum defs SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName enum type
+get enum defs SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get enum def
+add SimpleName MethodInvocation MethodInvocation SimpleName enum type
+add SimpleName MethodInvocation MethodInvocation SimpleName get enum def
+enum type SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName type registry
+enum type SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName get all enum types
+atlas struct type SimpleName SimpleType SingleVariableDeclaration SimpleName struct type
+type registry SimpleName MethodInvocation SimpleName get all struct types
+search predicates SimpleName MethodInvocation SimpleName evaluate
+search predicates SimpleName MethodInvocation SimpleName struct type
+evaluate SimpleName MethodInvocation SimpleName struct type
+types def SimpleName MethodInvocation SimpleName get struct defs
+struct type SimpleName MethodInvocation SimpleName get struct def
+types def SimpleName MethodInvocation MethodInvocation SimpleName add
+get struct defs SimpleName MethodInvocation MethodInvocation SimpleName add
+types def SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName struct type
+types def SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get struct def
+get struct defs SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName struct type
+get struct defs SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get struct def
+add SimpleName MethodInvocation MethodInvocation SimpleName struct type
+add SimpleName MethodInvocation MethodInvocation SimpleName get struct def
+struct type SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName type registry
+struct type SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName get all struct types
+atlas classification type SimpleName SimpleType SingleVariableDeclaration SimpleName classification type
+type registry SimpleName MethodInvocation SimpleName get all classification types
+search predicates SimpleName MethodInvocation SimpleName evaluate
+search predicates SimpleName MethodInvocation SimpleName classification type
+evaluate SimpleName MethodInvocation SimpleName classification type
+types def SimpleName MethodInvocation SimpleName get classification defs
+classification type SimpleName MethodInvocation SimpleName get classification def
+types def SimpleName MethodInvocation MethodInvocation SimpleName add
+get classification defs SimpleName MethodInvocation MethodInvocation SimpleName add
+types def SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName classification type
+types def SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get classification def
+get classification defs SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName classification type
+get classification defs SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get classification def
+add SimpleName MethodInvocation MethodInvocation SimpleName classification type
+add SimpleName MethodInvocation MethodInvocation SimpleName get classification def
+classification type SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName type registry
+classification type SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName get all classification types
+atlas entity type SimpleName SimpleType SingleVariableDeclaration SimpleName entity type
+type registry SimpleName MethodInvocation SimpleName get all entity types
+search predicates SimpleName MethodInvocation SimpleName evaluate
+search predicates SimpleName MethodInvocation SimpleName entity type
+evaluate SimpleName MethodInvocation SimpleName entity type
+types def SimpleName MethodInvocation SimpleName get entity defs
+entity type SimpleName MethodInvocation SimpleName get entity def
+types def SimpleName MethodInvocation MethodInvocation SimpleName add
+get entity defs SimpleName MethodInvocation MethodInvocation SimpleName add
+types def SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName entity type
+types def SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get entity def
+get entity defs SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName entity type
+get entity defs SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get entity def
+add SimpleName MethodInvocation MethodInvocation SimpleName entity type
+add SimpleName MethodInvocation MethodInvocation SimpleName get entity def
+entity type SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName type registry
+entity type SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName get all entity types
+override SimpleName MarkerAnnotation MethodDeclaration MarkerAnnotation SimpleName graph transaction
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName atlas types def
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName search types def
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName search filter
+graph transaction SimpleName MarkerAnnotation MethodDeclaration Modifier public
+graph transaction SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName atlas types def
+graph transaction SimpleName MarkerAnnotation MethodDeclaration SimpleName search types def
+graph transaction SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName search filter
+graph transaction SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier MethodDeclaration SimpleType SimpleName atlas types def
+public Modifier MethodDeclaration SimpleName search types def
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName search filter
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName search filter
+public Modifier MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+public Modifier MethodDeclaration Block ReturnStatement SimpleName types def
+atlas types def SimpleName SimpleType MethodDeclaration SimpleName search types def
+atlas types def SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName search filter
+atlas types def SimpleName SimpleType MethodDeclaration SimpleType SimpleName atlas base exception
+search types def SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName search filter
+search types def SimpleName MethodDeclaration SingleVariableDeclaration SimpleName search filter
+search types def SimpleName MethodDeclaration SimpleType SimpleName atlas base exception
+search types def SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+search types def SimpleName MethodDeclaration Block ReturnStatement SimpleName types def
+search filter SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName graph transaction
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas types def
+public Modifier TypeDeclaration MethodDeclaration SimpleName search types def
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName search filter
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName graph transaction
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas types def
+test SimpleName TypeDeclaration MethodDeclaration SimpleName search types def
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName search filter
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception

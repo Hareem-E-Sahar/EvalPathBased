@@ -1,0 +1,172 @@
+tree map SimpleName SimpleType ParameterizedType SimpleType SimpleName key
+tree map SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+key SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+tree map SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName map
+key SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName map
+value SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName map
+tablet SimpleName SimpleType SingleVariableDeclaration SimpleName tablet
+empty StringLiteral MethodInvocation SimpleName get bytes
+empty StringLiteral MethodInvocation SimpleName utf
+get bytes SimpleName MethodInvocation SimpleName utf
+value SimpleName SimpleType ClassInstanceCreation MethodInvocation StringLiteral empty
+value SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get bytes
+value SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName utf
+empty size SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName value
+empty size SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation StringLiteral empty
+empty size SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get bytes
+empty size SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName utf
+value SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName empty size
+text SimpleName SimpleType ClassInstanceCreation QualifiedName tablettable id
+key extent SimpleName MethodInvocation SimpleName get metadata entry
+key extent SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName text
+key extent SimpleName MethodInvocation ClassInstanceCreation QualifiedName tablettable id
+key extent SimpleName MethodInvocation QualifiedName tabletend row
+get metadata entry SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName text
+get metadata entry SimpleName MethodInvocation ClassInstanceCreation QualifiedName tablettable id
+get metadata entry SimpleName MethodInvocation QualifiedName tabletend row
+text SimpleName SimpleType ClassInstanceCreation MethodInvocation QualifiedName tabletend row
+tablettable id QualifiedName ClassInstanceCreation MethodInvocation QualifiedName tabletend row
+text SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName key extent
+text SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get metadata entry
+text SimpleName SimpleType ClassInstanceCreation MethodInvocation QualifiedName tabletend row
+extent SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName text
+extent SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName key extent
+extent SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get metadata entry
+extent SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation QualifiedName tabletend row
+text SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName extent
+tabletdir QualifiedName MethodInvocation SimpleName get bytes
+tabletdir QualifiedName MethodInvocation SimpleName utf
+get bytes SimpleName MethodInvocation SimpleName utf
+value SimpleName SimpleType ClassInstanceCreation MethodInvocation QualifiedName tabletdir
+value SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get bytes
+value SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName utf
+add entry SimpleName MethodInvocation SimpleName map
+add entry SimpleName MethodInvocation SimpleName extent
+add entry SimpleName MethodInvocation SimpleName directory column
+add entry SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName value
+add entry SimpleName MethodInvocation ClassInstanceCreation MethodInvocation QualifiedName tabletdir
+add entry SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get bytes
+add entry SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName utf
+map SimpleName MethodInvocation SimpleName extent
+map SimpleName MethodInvocation SimpleName directory column
+map SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName value
+map SimpleName MethodInvocation ClassInstanceCreation MethodInvocation QualifiedName tabletdir
+map SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get bytes
+map SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName utf
+extent SimpleName MethodInvocation SimpleName directory column
+extent SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName value
+extent SimpleName MethodInvocation ClassInstanceCreation MethodInvocation QualifiedName tabletdir
+extent SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get bytes
+extent SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName utf
+directory column SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName value
+directory column SimpleName MethodInvocation ClassInstanceCreation MethodInvocation QualifiedName tabletdir
+directory column SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get bytes
+directory column SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName utf
+tablet timelogical time id QualifiedName InfixExpression StringLiteral empty
+tablet timelogical time id QualifiedName InfixExpression ParenthesizedExpression MethodInvocation SimpleName get bytes
+empty StringLiteral InfixExpression ParenthesizedExpression MethodInvocation SimpleName get bytes
+tablet timelogical time id QualifiedName InfixExpression ParenthesizedExpression MethodInvocation SimpleName utf
+empty StringLiteral InfixExpression ParenthesizedExpression MethodInvocation SimpleName utf
+get bytes SimpleName MethodInvocation SimpleName utf
+value SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get bytes
+value SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName utf
+add entry SimpleName MethodInvocation SimpleName map
+add entry SimpleName MethodInvocation SimpleName extent
+add entry SimpleName MethodInvocation SimpleName time column
+add entry SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName value
+add entry SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get bytes
+add entry SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName utf
+map SimpleName MethodInvocation SimpleName extent
+map SimpleName MethodInvocation SimpleName time column
+map SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName value
+map SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get bytes
+map SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName utf
+extent SimpleName MethodInvocation SimpleName time column
+extent SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName value
+extent SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get bytes
+extent SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName utf
+time column SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName value
+time column SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get bytes
+time column SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName utf
+key extent SimpleName MethodInvocation SimpleName encode prev end row
+key extent SimpleName MethodInvocation QualifiedName tabletprev end row
+encode prev end row SimpleName MethodInvocation QualifiedName tabletprev end row
+add entry SimpleName MethodInvocation SimpleName map
+add entry SimpleName MethodInvocation SimpleName extent
+add entry SimpleName MethodInvocation SimpleName prev row column
+add entry SimpleName MethodInvocation MethodInvocation SimpleName key extent
+add entry SimpleName MethodInvocation MethodInvocation SimpleName encode prev end row
+add entry SimpleName MethodInvocation MethodInvocation QualifiedName tabletprev end row
+map SimpleName MethodInvocation SimpleName extent
+map SimpleName MethodInvocation SimpleName prev row column
+map SimpleName MethodInvocation MethodInvocation SimpleName key extent
+map SimpleName MethodInvocation MethodInvocation SimpleName encode prev end row
+map SimpleName MethodInvocation MethodInvocation QualifiedName tabletprev end row
+extent SimpleName MethodInvocation SimpleName prev row column
+extent SimpleName MethodInvocation MethodInvocation SimpleName key extent
+extent SimpleName MethodInvocation MethodInvocation SimpleName encode prev end row
+extent SimpleName MethodInvocation MethodInvocation QualifiedName tabletprev end row
+prev row column SimpleName MethodInvocation MethodInvocation SimpleName key extent
+prev row column SimpleName MethodInvocation MethodInvocation SimpleName encode prev end row
+prev row column SimpleName MethodInvocation MethodInvocation QualifiedName tabletprev end row
+string SimpleName SimpleType SingleVariableDeclaration SimpleName file
+text SimpleName SimpleType ClassInstanceCreation SimpleName file
+column fq SimpleName SimpleType ClassInstanceCreation QualifiedName data file column familyname
+column fq SimpleName SimpleType ClassInstanceCreation ClassInstanceCreation SimpleName file
+data file column familyname QualifiedName ClassInstanceCreation ClassInstanceCreation SimpleType SimpleName text
+data file column familyname QualifiedName ClassInstanceCreation ClassInstanceCreation SimpleName file
+add entry SimpleName MethodInvocation SimpleName map
+add entry SimpleName MethodInvocation SimpleName extent
+add entry SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName column fq
+add entry SimpleName MethodInvocation ClassInstanceCreation QualifiedName data file column familyname
+add entry SimpleName MethodInvocation ClassInstanceCreation ClassInstanceCreation SimpleName file
+add entry SimpleName MethodInvocation SimpleName empty size
+map SimpleName MethodInvocation SimpleName extent
+map SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName column fq
+map SimpleName MethodInvocation ClassInstanceCreation QualifiedName data file column familyname
+map SimpleName MethodInvocation ClassInstanceCreation ClassInstanceCreation SimpleName file
+map SimpleName MethodInvocation SimpleName empty size
+extent SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName column fq
+extent SimpleName MethodInvocation ClassInstanceCreation QualifiedName data file column familyname
+extent SimpleName MethodInvocation ClassInstanceCreation ClassInstanceCreation SimpleName file
+extent SimpleName MethodInvocation SimpleName empty size
+column fq SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName empty size
+data file column familyname QualifiedName ClassInstanceCreation MethodInvocation SimpleName empty size
+file SimpleName ClassInstanceCreation ClassInstanceCreation MethodInvocation SimpleName empty size
+string SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement QualifiedName tabletfiles
+file SimpleName SingleVariableDeclaration EnhancedForStatement QualifiedName tabletfiles
+private Modifier MethodDeclaration Modifier static
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName create entries for tablet
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName map
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName tablet
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName tablet
+static Modifier MethodDeclaration PrimitiveType void
+static Modifier MethodDeclaration SimpleName create entries for tablet
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName map
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName tablet
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName tablet
+static Modifier MethodDeclaration Block EnhancedForStatement QualifiedName tabletfiles
+void PrimitiveType MethodDeclaration SimpleName create entries for tablet
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName map
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName tablet
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName tablet
+void PrimitiveType MethodDeclaration Block EnhancedForStatement QualifiedName tabletfiles
+create entries for tablet SimpleName MethodDeclaration SingleVariableDeclaration SimpleName map
+create entries for tablet SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName tablet
+create entries for tablet SimpleName MethodDeclaration SingleVariableDeclaration SimpleName tablet
+create entries for tablet SimpleName MethodDeclaration Block EnhancedForStatement QualifiedName tabletfiles
+map SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName tablet
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName create entries for tablet
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName map
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName tablet
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create entries for tablet
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName map
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName tablet

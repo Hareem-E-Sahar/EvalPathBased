@@ -1,0 +1,23 @@
+int PrimitiveType SingleVariableDeclaration SimpleName k
+k SimpleName FieldAccess Assignment SimpleName k
+set k is set SimpleName MethodInvocation BooleanLiteral true
+public Modifier MethodDeclaration SimpleType SimpleName scanner next k args
+public Modifier MethodDeclaration SimpleName set k
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName k
+scanner next k args SimpleName SimpleType MethodDeclaration SimpleName set k
+scanner next k args SimpleName SimpleType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+scanner next k args SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName k
+set k SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+set k SimpleName MethodDeclaration SingleVariableDeclaration SimpleName k
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName scanner next k args
+public Modifier TypeDeclaration MethodDeclaration SimpleName set k
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName k
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName scanner next k args
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set k
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName k

@@ -1,0 +1,85 @@
+depends on methods SimpleName MemberValuePair StringLiteral test consumer consumes new message with auto commit disabled
+test SimpleName NormalAnnotation MemberValuePair SimpleName depends on methods
+test SimpleName NormalAnnotation MemberValuePair StringLiteral test consumer consumes new message with auto commit disabled
+hook notificationentity create request QualifiedName SimpleType ClassInstanceCreation StringLiteral test user
+hook notificationentity create request QualifiedName SimpleType ClassInstanceCreation MethodInvocation SimpleName create entity
+test user StringLiteral ClassInstanceCreation MethodInvocation SimpleName create entity
+produce message SimpleName MethodInvocation ClassInstanceCreation SimpleType QualifiedName hook notificationentity create request
+produce message SimpleName MethodInvocation ClassInstanceCreation StringLiteral test user
+produce message SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName create entity
+notification consumer SimpleName SimpleType ParameterizedType SimpleType QualifiedName hook notificationhook notification message
+create new consumer SimpleName MethodInvocation SimpleName kafka notification
+create new consumer SimpleName MethodInvocation BooleanLiteral true
+kafka notification SimpleName MethodInvocation BooleanLiteral true
+consumer SimpleName VariableDeclarationFragment MethodInvocation SimpleName create new consumer
+consumer SimpleName VariableDeclarationFragment MethodInvocation SimpleName kafka notification
+consumer SimpleName VariableDeclarationFragment MethodInvocation BooleanLiteral true
+mock SimpleName MethodInvocation TypeLiteral SimpleType SimpleName local atlas client
+local atlas client SimpleName VariableDeclarationFragment MethodInvocation SimpleName mock
+local atlas client SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName local atlas client
+notification hook consumer SimpleName SimpleType ClassInstanceCreation SimpleName kafka notification
+notification hook consumer SimpleName SimpleType ClassInstanceCreation SimpleName local atlas client
+kafka notification SimpleName ClassInstanceCreation SimpleName local atlas client
+notification hook consumer SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName notification hook consumer
+notification hook consumer SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName kafka notification
+notification hook consumer SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName local atlas client
+notification hook consumer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName notification hook consumer
+notification hook consumer SimpleName ClassInstanceCreation SimpleType SimpleName hook consumer
+notification hook consumer SimpleName ClassInstanceCreation SimpleName consumer
+hook consumer SimpleName SimpleType ClassInstanceCreation SimpleName consumer
+hook consumer SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName notification hook consumer
+hook consumer SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName hook consumer
+hook consumer SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName consumer
+notification hook consumerhook consumer QualifiedName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName hook consumer
+consume one message SimpleName MethodInvocation SimpleName consumer
+consume one message SimpleName MethodInvocation SimpleName hook consumer
+consumer SimpleName MethodInvocation SimpleName hook consumer
+verify SimpleName MethodInvocation SimpleName local atlas client
+verify SimpleName MethodInvocation MethodInvocation SimpleName set user
+local atlas client SimpleName MethodInvocation MethodInvocation SimpleName set user
+verify SimpleName MethodInvocation MethodInvocation StringLiteral test user
+local atlas client SimpleName MethodInvocation MethodInvocation StringLiteral test user
+set user SimpleName MethodInvocation StringLiteral test user
+hook notificationentity create request QualifiedName SimpleType ClassInstanceCreation StringLiteral test user
+hook notificationentity create request QualifiedName SimpleType ClassInstanceCreation MethodInvocation SimpleName create entity
+test user StringLiteral ClassInstanceCreation MethodInvocation SimpleName create entity
+produce message SimpleName MethodInvocation ClassInstanceCreation SimpleType QualifiedName hook notificationentity create request
+produce message SimpleName MethodInvocation ClassInstanceCreation StringLiteral test user
+produce message SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName create entity
+consume one message SimpleName MethodInvocation SimpleName consumer
+consume one message SimpleName MethodInvocation SimpleName hook consumer
+consumer SimpleName MethodInvocation SimpleName hook consumer
+verify SimpleName MethodInvocation SimpleName local atlas client
+verify SimpleName MethodInvocation MethodInvocation SimpleName set user
+local atlas client SimpleName MethodInvocation MethodInvocation SimpleName set user
+verify SimpleName MethodInvocation MethodInvocation StringLiteral test user
+local atlas client SimpleName MethodInvocation MethodInvocation StringLiteral test user
+set user SimpleName MethodInvocation StringLiteral test user
+kafka notification SimpleName MethodInvocation SimpleName close
+test SimpleName NormalAnnotation MethodDeclaration Modifier public
+depends on methods SimpleName MemberValuePair NormalAnnotation MethodDeclaration Modifier public
+test consumer consumes new message with auto commit disabled StringLiteral MemberValuePair NormalAnnotation MethodDeclaration Modifier public
+test SimpleName NormalAnnotation MethodDeclaration PrimitiveType void
+depends on methods SimpleName MemberValuePair NormalAnnotation MethodDeclaration PrimitiveType void
+test consumer consumes new message with auto commit disabled StringLiteral MemberValuePair NormalAnnotation MethodDeclaration PrimitiveType void
+test SimpleName NormalAnnotation MethodDeclaration SimpleName test consumer remains at same message with auto commit enabled
+depends on methods SimpleName MemberValuePair NormalAnnotation MethodDeclaration SimpleName test consumer remains at same message with auto commit enabled
+test consumer consumes new message with auto commit disabled StringLiteral MemberValuePair NormalAnnotation MethodDeclaration SimpleName test consumer remains at same message with auto commit enabled
+test SimpleName NormalAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test consumer remains at same message with auto commit enabled
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName test consumer remains at same message with auto commit enabled
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+test consumer remains at same message with auto commit enabled SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration NormalAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test consumer remains at same message with auto commit enabled
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration NormalAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test consumer remains at same message with auto commit enabled
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

@@ -1,0 +1,23 @@
+boolean PrimitiveType SingleVariableDeclaration SimpleName stop tablet servers
+stop tablet servers SimpleName FieldAccess Assignment SimpleName stop tablet servers
+set stop tablet servers is set SimpleName MethodInvocation BooleanLiteral true
+public Modifier MethodDeclaration SimpleType SimpleName shutdown args
+public Modifier MethodDeclaration SimpleName set stop tablet servers
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName stop tablet servers
+shutdown args SimpleName SimpleType MethodDeclaration SimpleName set stop tablet servers
+shutdown args SimpleName SimpleType MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+shutdown args SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName stop tablet servers
+set stop tablet servers SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+set stop tablet servers SimpleName MethodDeclaration SingleVariableDeclaration SimpleName stop tablet servers
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName shutdown args
+public Modifier TypeDeclaration MethodDeclaration SimpleName set stop tablet servers
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName stop tablet servers
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName shutdown args
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set stop tablet servers
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName stop tablet servers

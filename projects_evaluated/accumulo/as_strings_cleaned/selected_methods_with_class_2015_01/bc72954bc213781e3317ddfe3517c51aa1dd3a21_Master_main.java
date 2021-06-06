@@ -1,0 +1,115 @@
+string SimpleName SimpleType ArrayType SingleVariableDeclaration SimpleName args
+site configuration SimpleName MethodInvocation SimpleName get instance
+security util SimpleName MethodInvocation SimpleName server login
+security util SimpleName MethodInvocation MethodInvocation SimpleName site configuration
+security util SimpleName MethodInvocation MethodInvocation SimpleName get instance
+server login SimpleName MethodInvocation MethodInvocation SimpleName site configuration
+server login SimpleName MethodInvocation MethodInvocation SimpleName get instance
+opts SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName server opts
+server opts SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName opts
+app SimpleName VariableDeclarationFragment StringLiteral master
+final Modifier VariableDeclarationStatement SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName app
+final Modifier VariableDeclarationStatement VariableDeclarationFragment StringLiteral master
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName app
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral master
+opts SimpleName MethodInvocation SimpleName parse args
+opts SimpleName MethodInvocation SimpleName app
+opts SimpleName MethodInvocation SimpleName args
+parse args SimpleName MethodInvocation SimpleName app
+parse args SimpleName MethodInvocation SimpleName args
+app SimpleName MethodInvocation SimpleName args
+opts SimpleName MethodInvocation SimpleName get address
+hostname SimpleName VariableDeclarationFragment MethodInvocation SimpleName opts
+hostname SimpleName VariableDeclarationFragment MethodInvocation SimpleName get address
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName hostname
+accumulo SimpleName MethodInvocation SimpleName setup logging
+accumulo SimpleName MethodInvocation SimpleName app
+setup logging SimpleName MethodInvocation SimpleName app
+hdfs zoo instance SimpleName MethodInvocation SimpleName get instance
+server configuration factory SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName hdfs zoo instance
+server configuration factory SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get instance
+conf SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName server configuration factory
+conf SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName hdfs zoo instance
+conf SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get instance
+server configuration factory SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName conf
+volume manager impl SimpleName MethodInvocation SimpleName get
+fs SimpleName VariableDeclarationFragment MethodInvocation SimpleName volume manager impl
+fs SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+volume manager SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName fs
+accumulo SimpleName MethodInvocation SimpleName init
+accumulo SimpleName MethodInvocation SimpleName fs
+accumulo SimpleName MethodInvocation SimpleName conf
+accumulo SimpleName MethodInvocation SimpleName app
+init SimpleName MethodInvocation SimpleName fs
+init SimpleName MethodInvocation SimpleName conf
+init SimpleName MethodInvocation SimpleName app
+fs SimpleName MethodInvocation SimpleName conf
+fs SimpleName MethodInvocation SimpleName app
+conf SimpleName MethodInvocation SimpleName app
+master SimpleName SimpleType ClassInstanceCreation SimpleName conf
+master SimpleName SimpleType ClassInstanceCreation SimpleName fs
+master SimpleName SimpleType ClassInstanceCreation SimpleName hostname
+conf SimpleName ClassInstanceCreation SimpleName fs
+conf SimpleName ClassInstanceCreation SimpleName hostname
+fs SimpleName ClassInstanceCreation SimpleName hostname
+master SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName master
+master SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName conf
+master SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName fs
+master SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName hostname
+master SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName master
+conf SimpleName MethodInvocation SimpleName get configuration
+distributed trace SimpleName MethodInvocation SimpleName enable
+distributed trace SimpleName MethodInvocation SimpleName hostname
+distributed trace SimpleName MethodInvocation SimpleName app
+distributed trace SimpleName MethodInvocation MethodInvocation SimpleName conf
+distributed trace SimpleName MethodInvocation MethodInvocation SimpleName get configuration
+enable SimpleName MethodInvocation SimpleName hostname
+enable SimpleName MethodInvocation SimpleName app
+enable SimpleName MethodInvocation MethodInvocation SimpleName conf
+enable SimpleName MethodInvocation MethodInvocation SimpleName get configuration
+hostname SimpleName MethodInvocation SimpleName app
+hostname SimpleName MethodInvocation MethodInvocation SimpleName conf
+hostname SimpleName MethodInvocation MethodInvocation SimpleName get configuration
+app SimpleName MethodInvocation MethodInvocation SimpleName conf
+app SimpleName MethodInvocation MethodInvocation SimpleName get configuration
+master SimpleName MethodInvocation SimpleName run
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName ex
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation StringLiteral unexpected exception exiting
+log SimpleName MethodInvocation SimpleName ex
+error SimpleName MethodInvocation StringLiteral unexpected exception exiting
+error SimpleName MethodInvocation SimpleName ex
+unexpected exception exiting StringLiteral MethodInvocation SimpleName ex
+system SimpleName MethodInvocation SimpleName exit
+system SimpleName MethodInvocation NumberLiteral empty
+exit SimpleName MethodInvocation NumberLiteral empty
+distributed trace SimpleName MethodInvocation SimpleName disable
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName main
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName args
+public Modifier MethodDeclaration SimpleType SimpleName exception
+static Modifier MethodDeclaration PrimitiveType void
+static Modifier MethodDeclaration SimpleName main
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName args
+static Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName main
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName args
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+main SimpleName MethodDeclaration SingleVariableDeclaration SimpleName args
+main SimpleName MethodDeclaration SimpleType SimpleName exception
+args SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName main
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName args
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName main
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName args
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

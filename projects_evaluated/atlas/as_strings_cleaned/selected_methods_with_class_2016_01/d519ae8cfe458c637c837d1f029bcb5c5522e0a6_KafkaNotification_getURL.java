@@ -1,0 +1,29 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName url
+url SimpleName SimpleType ClassInstanceCreation SimpleName url
+malformed url exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+http StringLiteral InfixExpression SimpleName url
+url SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral http
+url SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName url
+private Modifier MethodDeclaration SimpleType SimpleName url
+private Modifier MethodDeclaration SimpleName get url
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName url
+private Modifier MethodDeclaration SimpleType SimpleName malformed url exception
+url SimpleName SimpleType MethodDeclaration SimpleName get url
+url SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName url
+url SimpleName SimpleType MethodDeclaration SimpleType SimpleName malformed url exception
+get url SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get url SimpleName MethodDeclaration SingleVariableDeclaration SimpleName url
+get url SimpleName MethodDeclaration SimpleType SimpleName malformed url exception
+url SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName malformed url exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName url
+public Modifier TypeDeclaration MethodDeclaration SimpleName get url
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName url
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName malformed url exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName url
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get url
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName url
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName malformed url exception

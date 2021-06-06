@@ -1,0 +1,53 @@
+object SimpleName SimpleType SingleVariableDeclaration SimpleName val
+final Modifier VariableDeclarationStatement SimpleType SimpleName atlas struct
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName ret
+atlas struct SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ret
+val SimpleName InstanceofExpression SimpleType SimpleName atlas struct
+atlas struct SimpleName SimpleType CastExpression SimpleName val
+ret SimpleName Assignment CastExpression SimpleType SimpleName atlas struct
+ret SimpleName Assignment CastExpression SimpleName val
+val SimpleName InstanceofExpression SimpleType SimpleName map
+map SimpleName SimpleType CastExpression SimpleName val
+atlas struct SimpleName SimpleType ClassInstanceCreation CastExpression SimpleName val
+ret SimpleName Assignment ClassInstanceCreation SimpleType SimpleName atlas struct
+ret SimpleName Assignment ClassInstanceCreation CastExpression SimpleName val
+val SimpleName InstanceofExpression SimpleType SimpleName string
+val SimpleName MethodInvocation SimpleName to string
+atlas type SimpleName MethodInvocation SimpleName from json
+atlas type SimpleName MethodInvocation MethodInvocation SimpleName val
+atlas type SimpleName MethodInvocation MethodInvocation SimpleName to string
+atlas type SimpleName MethodInvocation TypeLiteral SimpleType SimpleName map
+from json SimpleName MethodInvocation MethodInvocation SimpleName val
+from json SimpleName MethodInvocation MethodInvocation SimpleName to string
+from json SimpleName MethodInvocation TypeLiteral SimpleType SimpleName map
+map SimpleName VariableDeclarationFragment MethodInvocation SimpleName atlas type
+map SimpleName VariableDeclarationFragment MethodInvocation SimpleName from json
+map SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName val
+map SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName to string
+map SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName map
+map SimpleName SimpleType CastExpression SimpleName val
+atlas struct SimpleName SimpleType ClassInstanceCreation CastExpression SimpleName val
+ret SimpleName Assignment ClassInstanceCreation SimpleType SimpleName atlas struct
+ret SimpleName Assignment ClassInstanceCreation CastExpression SimpleName val
+final Modifier VariableDeclarationStatement Block ReturnStatement SimpleName ret
+private Modifier MethodDeclaration SimpleType SimpleName atlas struct
+private Modifier MethodDeclaration SimpleName get struct from value
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName val
+private Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+private Modifier MethodDeclaration Block ReturnStatement SimpleName ret
+atlas struct SimpleName SimpleType MethodDeclaration SimpleName get struct from value
+atlas struct SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName val
+get struct from value SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+get struct from value SimpleName MethodDeclaration SingleVariableDeclaration SimpleName val
+get struct from value SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+get struct from value SimpleName MethodDeclaration Block ReturnStatement SimpleName ret
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas struct
+public Modifier TypeDeclaration MethodDeclaration SimpleName get struct from value
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName val
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas struct
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get struct from value
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName val

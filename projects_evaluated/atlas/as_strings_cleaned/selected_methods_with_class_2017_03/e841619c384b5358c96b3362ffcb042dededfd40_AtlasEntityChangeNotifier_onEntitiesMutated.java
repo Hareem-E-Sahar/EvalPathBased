@@ -1,0 +1,62 @@
+entity mutation response SimpleName SimpleType SingleVariableDeclaration SimpleName entity mutation response
+collection utils SimpleName MethodInvocation SimpleName is empty
+collection utils SimpleName MethodInvocation SimpleName entity change listeners
+is empty SimpleName MethodInvocation SimpleName entity change listeners
+collection utils SimpleName MethodInvocation InfixExpression InfixExpression SimpleName instance converter
+is empty SimpleName MethodInvocation InfixExpression InfixExpression SimpleName instance converter
+entity change listeners SimpleName MethodInvocation InfixExpression InfixExpression SimpleName instance converter
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas entity header
+entity mutation response SimpleName MethodInvocation SimpleName get created entities
+created entities SimpleName VariableDeclarationFragment MethodInvocation SimpleName entity mutation response
+created entities SimpleName VariableDeclarationFragment MethodInvocation SimpleName get created entities
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas entity header
+entity mutation response SimpleName MethodInvocation SimpleName get updated entities
+updated entities SimpleName VariableDeclarationFragment MethodInvocation SimpleName entity mutation response
+updated entities SimpleName VariableDeclarationFragment MethodInvocation SimpleName get updated entities
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas entity header
+entity mutation response SimpleName MethodInvocation SimpleName get partial updated entities
+partially updated entities SimpleName VariableDeclarationFragment MethodInvocation SimpleName entity mutation response
+partially updated entities SimpleName VariableDeclarationFragment MethodInvocation SimpleName get partial updated entities
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas entity header
+entity mutation response SimpleName MethodInvocation SimpleName get deleted entities
+deleted entities SimpleName VariableDeclarationFragment MethodInvocation SimpleName entity mutation response
+deleted entities SimpleName VariableDeclarationFragment MethodInvocation SimpleName get deleted entities
+do full text mapping SimpleName MethodInvocation SimpleName created entities
+do full text mapping SimpleName MethodInvocation SimpleName updated entities
+do full text mapping SimpleName MethodInvocation SimpleName partially updated entities
+notify listeners SimpleName MethodInvocation SimpleName created entities
+notify listeners SimpleName MethodInvocation QualifiedName entity operationcreate
+created entities SimpleName MethodInvocation QualifiedName entity operationcreate
+notify listeners SimpleName MethodInvocation SimpleName updated entities
+notify listeners SimpleName MethodInvocation QualifiedName entity operationupdate
+updated entities SimpleName MethodInvocation QualifiedName entity operationupdate
+notify listeners SimpleName MethodInvocation SimpleName partially updated entities
+notify listeners SimpleName MethodInvocation QualifiedName entity operationpartial update
+partially updated entities SimpleName MethodInvocation QualifiedName entity operationpartial update
+notify listeners SimpleName MethodInvocation SimpleName deleted entities
+notify listeners SimpleName MethodInvocation QualifiedName entity operationdelete
+deleted entities SimpleName MethodInvocation QualifiedName entity operationdelete
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName on entities mutated
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName entity mutation response
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName entity mutation response
+public Modifier MethodDeclaration SimpleType SimpleName atlas base exception
+void PrimitiveType MethodDeclaration SimpleName on entities mutated
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName entity mutation response
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName entity mutation response
+void PrimitiveType MethodDeclaration SimpleType SimpleName atlas base exception
+on entities mutated SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName entity mutation response
+on entities mutated SimpleName MethodDeclaration SingleVariableDeclaration SimpleName entity mutation response
+on entities mutated SimpleName MethodDeclaration SimpleType SimpleName atlas base exception
+entity mutation response SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName on entities mutated
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity mutation response
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName on entities mutated
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity mutation response
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception

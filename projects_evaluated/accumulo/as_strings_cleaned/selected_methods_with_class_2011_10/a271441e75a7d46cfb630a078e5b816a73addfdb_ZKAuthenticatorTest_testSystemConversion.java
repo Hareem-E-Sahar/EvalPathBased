@@ -1,0 +1,58 @@
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName system permission
+tree set SimpleName SimpleType ParameterizedType SimpleType SimpleName system permission
+system permission SimpleName SimpleType SingleVariableDeclaration SimpleName s
+system permission SimpleName MethodInvocation SimpleName values
+perms SimpleName MethodInvocation SimpleName add
+perms SimpleName MethodInvocation SimpleName s
+add SimpleName MethodInvocation SimpleName s
+s SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName system permission
+s SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName values
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName system permission
+zk authenticatortool QualifiedName MethodInvocation SimpleName convert system permissions
+zk authenticatortool QualifiedName MethodInvocation SimpleName perms
+convert system permissions SimpleName MethodInvocation SimpleName perms
+zk authenticatortool QualifiedName MethodInvocation SimpleName convert system permissions
+zk authenticatortool QualifiedName MethodInvocation MethodInvocation QualifiedName zk authenticatortool
+zk authenticatortool QualifiedName MethodInvocation MethodInvocation SimpleName convert system permissions
+zk authenticatortool QualifiedName MethodInvocation MethodInvocation SimpleName perms
+convert system permissions SimpleName MethodInvocation MethodInvocation QualifiedName zk authenticatortool
+convert system permissions SimpleName MethodInvocation MethodInvocation SimpleName convert system permissions
+convert system permissions SimpleName MethodInvocation MethodInvocation SimpleName perms
+converted SimpleName VariableDeclarationFragment MethodInvocation QualifiedName zk authenticatortool
+converted SimpleName VariableDeclarationFragment MethodInvocation SimpleName convert system permissions
+converted SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation QualifiedName zk authenticatortool
+converted SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName convert system permissions
+converted SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName perms
+perms SimpleName MethodInvocation SimpleName size
+converted SimpleName MethodInvocation SimpleName size
+perms SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName converted
+perms SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName size
+size SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName converted
+size SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName size
+assert true SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName perms
+assert true SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName size
+assert true SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName converted
+assert true SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName size
+system permission SimpleName SimpleType SingleVariableDeclaration SimpleName s
+converted SimpleName MethodInvocation SimpleName contains
+converted SimpleName MethodInvocation SimpleName s
+contains SimpleName MethodInvocation SimpleName s
+assert true SimpleName MethodInvocation MethodInvocation SimpleName converted
+assert true SimpleName MethodInvocation MethodInvocation SimpleName contains
+assert true SimpleName MethodInvocation MethodInvocation SimpleName s
+system permission SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName perms
+s SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName perms
+perms SimpleName EnhancedForStatement ExpressionStatement MethodInvocation SimpleName assert true
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test system conversion
+public Modifier MethodDeclaration Block EnhancedForStatement SimpleName perms
+void PrimitiveType MethodDeclaration SimpleName test system conversion
+void PrimitiveType MethodDeclaration Block EnhancedForStatement SimpleName perms
+test system conversion SimpleName MethodDeclaration Block EnhancedForStatement SimpleName perms
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test system conversion
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test system conversion

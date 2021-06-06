@@ -1,0 +1,37 @@
+referenceable SimpleName SimpleType SingleVariableDeclaration SimpleName entity instance
+graph helper SimpleName MethodInvocation SimpleName get typed referenceable instance
+graph helper SimpleName MethodInvocation SimpleName type system
+graph helper SimpleName MethodInvocation SimpleName entity instance
+get typed referenceable instance SimpleName MethodInvocation SimpleName type system
+get typed referenceable instance SimpleName MethodInvocation SimpleName entity instance
+type system SimpleName MethodInvocation SimpleName entity instance
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName i typed referenceable instance
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName get typed referenceable instance
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName entity instance
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName atlas exception
+public Modifier MethodDeclaration SimpleType SimpleName i typed referenceable instance
+public Modifier MethodDeclaration SimpleName get typed referenceable instance
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName referenceable
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName entity instance
+public Modifier MethodDeclaration SimpleType SimpleName atlas exception
+i typed referenceable instance SimpleName SimpleType MethodDeclaration SimpleName get typed referenceable instance
+i typed referenceable instance SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName entity instance
+i typed referenceable instance SimpleName SimpleType MethodDeclaration SimpleType SimpleName atlas exception
+get typed referenceable instance SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName referenceable
+get typed referenceable instance SimpleName MethodDeclaration SingleVariableDeclaration SimpleName entity instance
+get typed referenceable instance SimpleName MethodDeclaration SimpleType SimpleName atlas exception
+entity instance SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName i typed referenceable instance
+public Modifier TypeDeclaration MethodDeclaration SimpleName get typed referenceable instance
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity instance
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName i typed referenceable instance
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get typed referenceable instance
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity instance
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception

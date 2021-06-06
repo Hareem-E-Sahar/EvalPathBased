@@ -1,0 +1,67 @@
+expected exceptions SimpleName MemberValuePair TypeLiteral SimpleType SimpleName atlas service exception
+test SimpleName NormalAnnotation MemberValuePair SimpleName expected exceptions
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+query params SimpleName MethodInvocation SimpleName put
+query params SimpleName MethodInvocation StringLiteral type
+query params SimpleName MethodInvocation StringLiteral blah
+put SimpleName MethodInvocation StringLiteral type
+put SimpleName MethodInvocation StringLiteral blah
+type StringLiteral MethodInvocation StringLiteral blah
+service client SimpleName MethodInvocation SimpleName call api with body
+service client SimpleName MethodInvocation QualifiedName atlas clientapiget entity
+service client SimpleName MethodInvocation SimpleName query params
+call api with body SimpleName MethodInvocation QualifiedName atlas clientapiget entity
+call api with body SimpleName MethodInvocation SimpleName query params
+atlas clientapiget entity QualifiedName MethodInvocation SimpleName query params
+response SimpleName VariableDeclarationFragment MethodInvocation SimpleName service client
+response SimpleName VariableDeclarationFragment MethodInvocation SimpleName call api with body
+response SimpleName VariableDeclarationFragment MethodInvocation QualifiedName atlas clientapiget entity
+response SimpleName VariableDeclarationFragment MethodInvocation SimpleName query params
+json object SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName response
+assert not null SimpleName MethodInvocation SimpleName response
+response SimpleName MethodInvocation SimpleName get
+response SimpleName MethodInvocation QualifiedName atlas clienterror
+get SimpleName MethodInvocation QualifiedName atlas clienterror
+assert SimpleName MethodInvocation SimpleName assert not null
+assert SimpleName MethodInvocation MethodInvocation SimpleName response
+assert SimpleName MethodInvocation MethodInvocation SimpleName get
+assert SimpleName MethodInvocation MethodInvocation QualifiedName atlas clienterror
+assert not null SimpleName MethodInvocation MethodInvocation SimpleName response
+assert not null SimpleName MethodInvocation MethodInvocation SimpleName get
+assert not null SimpleName MethodInvocation MethodInvocation QualifiedName atlas clienterror
+response SimpleName MethodInvocation SimpleName get
+response SimpleName MethodInvocation QualifiedName atlas clientstacktrace
+get SimpleName MethodInvocation QualifiedName atlas clientstacktrace
+assert SimpleName MethodInvocation SimpleName assert not null
+assert SimpleName MethodInvocation MethodInvocation SimpleName response
+assert SimpleName MethodInvocation MethodInvocation SimpleName get
+assert SimpleName MethodInvocation MethodInvocation QualifiedName atlas clientstacktrace
+assert not null SimpleName MethodInvocation MethodInvocation SimpleName response
+assert not null SimpleName MethodInvocation MethodInvocation SimpleName get
+assert not null SimpleName MethodInvocation MethodInvocation QualifiedName atlas clientstacktrace
+test SimpleName NormalAnnotation MethodDeclaration Modifier public
+expected exceptions SimpleName MemberValuePair NormalAnnotation MethodDeclaration Modifier public
+test SimpleName NormalAnnotation MethodDeclaration PrimitiveType void
+expected exceptions SimpleName MemberValuePair NormalAnnotation MethodDeclaration PrimitiveType void
+test SimpleName NormalAnnotation MethodDeclaration SimpleName test get entity list for bad entity type
+expected exceptions SimpleName MemberValuePair NormalAnnotation MethodDeclaration SimpleName test get entity list for bad entity type
+test SimpleName NormalAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test get entity list for bad entity type
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName test get entity list for bad entity type
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+test get entity list for bad entity type SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration NormalAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test get entity list for bad entity type
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration NormalAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test get entity list for bad entity type
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

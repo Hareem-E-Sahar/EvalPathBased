@@ -1,0 +1,19 @@
+key SimpleName SimpleType SingleVariableDeclaration SimpleName success
+success SimpleName FieldAccess Assignment SimpleName success
+public Modifier MethodDeclaration SimpleType SimpleName get following result
+public Modifier MethodDeclaration SimpleName set success
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName key
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName success
+get following result SimpleName SimpleType MethodDeclaration SimpleName set success
+get following result SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName success
+set success SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName key
+set success SimpleName MethodDeclaration SingleVariableDeclaration SimpleName success
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName get following result
+public Modifier TypeDeclaration MethodDeclaration SimpleName set success
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName success
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName get following result
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set success
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName success

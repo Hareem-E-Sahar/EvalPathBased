@@ -1,0 +1,50 @@
+navigable map SimpleName SimpleType ParameterizedType SimpleType SimpleName long
+navigable map SimpleName SimpleType ParameterizedType ArrayType PrimitiveType byte
+long SimpleName SimpleType ParameterizedType ArrayType PrimitiveType byte
+mapentry QualifiedName SimpleType ParameterizedType ArrayType PrimitiveType byte
+mapentry QualifiedName SimpleType ParameterizedType SingleVariableDeclaration SimpleName element
+byte PrimitiveType ArrayType ParameterizedType SingleVariableDeclaration SimpleName element
+entry meta data SimpleName SimpleType SingleVariableDeclaration SimpleName meta
+element SimpleName MethodInvocation SimpleName get value
+element SimpleName MethodInvocation MethodInvocation SimpleName last entry
+get value SimpleName MethodInvocation MethodInvocation SimpleName last entry
+element SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get key
+get value SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get key
+last entry SimpleName MethodInvocation MethodInvocation SimpleName get key
+unsupported meta data StringLiteral InfixExpression SimpleName meta
+unsupported operation exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral unsupported meta data
+unsupported operation exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName meta
+meta SimpleName SwitchStatement SwitchCase SimpleName timestamp
+meta SimpleName SwitchStatement ReturnStatement MethodInvocation SimpleName get key
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName object
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName get meta data
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName element
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName meta
+public Modifier MethodDeclaration SimpleType SimpleName object
+public Modifier MethodDeclaration SimpleName get meta data
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName element
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName entry meta data
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName meta
+public Modifier MethodDeclaration Block SwitchStatement SimpleName meta
+object SimpleName SimpleType MethodDeclaration SimpleName get meta data
+object SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName element
+object SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName meta
+get meta data SimpleName MethodDeclaration SingleVariableDeclaration SimpleName element
+get meta data SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName entry meta data
+get meta data SimpleName MethodDeclaration SingleVariableDeclaration SimpleName meta
+get meta data SimpleName MethodDeclaration Block SwitchStatement SimpleName meta
+element SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName meta
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName object
+public Modifier TypeDeclaration MethodDeclaration SimpleName get meta data
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName element
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName meta
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName object
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get meta data
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName element
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName meta

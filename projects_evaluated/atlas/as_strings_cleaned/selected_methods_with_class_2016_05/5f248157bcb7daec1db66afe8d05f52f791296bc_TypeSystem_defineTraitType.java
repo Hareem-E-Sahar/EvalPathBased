@@ -1,0 +1,32 @@
+hierarchical type definition SimpleName SimpleType SingleVariableDeclaration SimpleName trait def
+atlas exception SimpleName SimpleType ClassInstanceCreation StringLiteral internal error define type called on transient type system
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName trait type
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName define trait type
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName trait def
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName atlas exception
+public Modifier MethodDeclaration SimpleType SimpleName trait type
+public Modifier MethodDeclaration SimpleName define trait type
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName hierarchical type definition
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName trait def
+public Modifier MethodDeclaration SimpleType SimpleName atlas exception
+trait type SimpleName SimpleType MethodDeclaration SimpleName define trait type
+trait type SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName trait def
+trait type SimpleName SimpleType MethodDeclaration SimpleType SimpleName atlas exception
+define trait type SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName hierarchical type definition
+define trait type SimpleName MethodDeclaration SingleVariableDeclaration SimpleName trait def
+define trait type SimpleName MethodDeclaration SimpleType SimpleName atlas exception
+trait def SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName trait type
+public Modifier TypeDeclaration MethodDeclaration SimpleName define trait type
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName trait def
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName trait type
+test SimpleName TypeDeclaration MethodDeclaration SimpleName define trait type
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName trait def
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception

@@ -1,0 +1,44 @@
+long PrimitiveType SingleVariableDeclaration SimpleName time
+writes in progress SimpleName InfixExpression NumberLiteral empty
+waiting for logs < StringLiteral InfixExpression SimpleName writes in progress
+illegal state exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral waiting for logs <
+illegal state exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName writes in progress
+closed SimpleName InfixExpression InfixExpression SimpleName tablet memory
+tablet memory SimpleName MethodInvocation SimpleName get commit session
+commit session SimpleName VariableDeclarationFragment MethodInvocation SimpleName tablet memory
+commit session SimpleName VariableDeclarationFragment MethodInvocation SimpleName get commit session
+commit session SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName commit session
+commit session SimpleName MethodInvocation SimpleName increment commits in progress
+commit session SimpleName MethodInvocation SimpleName update max committed time
+commit session SimpleName MethodInvocation SimpleName time
+update max committed time SimpleName MethodInvocation SimpleName time
+private Modifier MethodDeclaration Modifier synchronized
+private Modifier MethodDeclaration SimpleType SimpleName commit session
+private Modifier MethodDeclaration SimpleName finish preparing mutations
+private Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType long
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName time
+private Modifier MethodDeclaration Block ReturnStatement SimpleName commit session
+synchronized Modifier MethodDeclaration SimpleType SimpleName commit session
+synchronized Modifier MethodDeclaration SimpleName finish preparing mutations
+synchronized Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType long
+synchronized Modifier MethodDeclaration SingleVariableDeclaration SimpleName time
+synchronized Modifier MethodDeclaration Block ReturnStatement SimpleName commit session
+commit session SimpleName SimpleType MethodDeclaration SimpleName finish preparing mutations
+commit session SimpleName SimpleType MethodDeclaration SingleVariableDeclaration PrimitiveType long
+commit session SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName time
+finish preparing mutations SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType long
+finish preparing mutations SimpleName MethodDeclaration SingleVariableDeclaration SimpleName time
+finish preparing mutations SimpleName MethodDeclaration Block ReturnStatement SimpleName commit session
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration Modifier synchronized
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName commit session
+public Modifier TypeDeclaration MethodDeclaration SimpleName finish preparing mutations
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName time
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration Modifier synchronized
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName commit session
+test SimpleName TypeDeclaration MethodDeclaration SimpleName finish preparing mutations
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName time

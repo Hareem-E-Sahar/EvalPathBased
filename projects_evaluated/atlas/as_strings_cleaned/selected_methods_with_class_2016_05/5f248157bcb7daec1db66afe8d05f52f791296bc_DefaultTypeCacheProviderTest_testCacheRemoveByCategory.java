@@ -1,0 +1,71 @@
+cache provider SimpleName MethodInvocation SimpleName remove
+cache provider SimpleName MethodInvocation QualifiedName type categoryclass
+cache provider SimpleName MethodInvocation SimpleName classtype customer
+remove SimpleName MethodInvocation QualifiedName type categoryclass
+remove SimpleName MethodInvocation SimpleName classtype customer
+type categoryclass QualifiedName MethodInvocation SimpleName classtype customer
+cache provider SimpleName MethodInvocation SimpleName get
+cache provider SimpleName MethodInvocation SimpleName classtype customer
+get SimpleName MethodInvocation SimpleName classtype customer
+assert null SimpleName MethodInvocation MethodInvocation SimpleName cache provider
+assert null SimpleName MethodInvocation MethodInvocation SimpleName get
+assert null SimpleName MethodInvocation MethodInvocation SimpleName classtype customer
+cache provider SimpleName MethodInvocation SimpleName has
+cache provider SimpleName MethodInvocation SimpleName classtype customer
+has SimpleName MethodInvocation SimpleName classtype customer
+assert false SimpleName MethodInvocation MethodInvocation SimpleName cache provider
+assert false SimpleName MethodInvocation MethodInvocation SimpleName has
+assert false SimpleName MethodInvocation MethodInvocation SimpleName classtype customer
+cache provider SimpleName MethodInvocation SimpleName get type names
+cache provider SimpleName MethodInvocation QualifiedName type categoryclass
+get type names SimpleName MethodInvocation QualifiedName type categoryclass
+cache provider SimpleName MethodInvocation MethodInvocation SimpleName is empty
+get type names SimpleName MethodInvocation MethodInvocation SimpleName is empty
+type categoryclass QualifiedName MethodInvocation MethodInvocation SimpleName is empty
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName cache provider
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get type names
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName type categoryclass
+assert true SimpleName MethodInvocation MethodInvocation SimpleName is empty
+expected type count SimpleName VariableDeclarationFragment NumberLiteral empty
+final Modifier VariableDeclarationStatement PrimitiveType int
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName expected type count
+final Modifier VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName expected type count
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+cache provider SimpleName MethodInvocation SimpleName get all type names
+cache provider SimpleName MethodInvocation MethodInvocation SimpleName size
+get all type names SimpleName MethodInvocation MethodInvocation SimpleName size
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName cache provider
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get all type names
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName size
+assert equals SimpleName MethodInvocation SimpleName expected type count
+cache provider SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName expected type count
+get all type names SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName expected type count
+size SimpleName MethodInvocation MethodInvocation SimpleName expected type count
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test cache remove by category
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test cache remove by category
+public Modifier MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+void PrimitiveType MethodDeclaration SimpleName test cache remove by category
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement Modifier final
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+test cache remove by category SimpleName MethodDeclaration SimpleType SimpleName exception
+test cache remove by category SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+test cache remove by category SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test cache remove by category
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test cache remove by category
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

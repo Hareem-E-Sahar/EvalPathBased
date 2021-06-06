@@ -1,0 +1,54 @@
+atlas edge SimpleName SimpleType ParameterizedType SimpleType SimpleName titan vertex
+atlas edge SimpleName SimpleType ParameterizedType SimpleType SimpleName titan edge
+titan vertex SimpleName SimpleType ParameterizedType SimpleType SimpleName titan edge
+iterable SimpleName SimpleType ParameterizedType SimpleType SimpleName edge
+iterable SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName it
+edge SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName it
+iterable SimpleName SimpleType ParameterizedType SimpleType SimpleName edge
+iterable SimpleName SimpleType ParameterizedType SimpleType SimpleName edge
+iterable SimpleName SimpleType ParameterizedType CastExpression SimpleName it
+edge SimpleName SimpleType ParameterizedType CastExpression SimpleName it
+result SimpleName VariableDeclarationFragment CastExpression SimpleName it
+atlas edge SimpleName SimpleType ParameterizedType SimpleType SimpleName titan vertex
+atlas edge SimpleName SimpleType ParameterizedType SimpleType SimpleName titan edge
+titan vertex SimpleName SimpleType ParameterizedType SimpleType SimpleName titan edge
+function SimpleName SimpleType ParameterizedType SimpleType SimpleName edge
+atlas edge SimpleName SimpleType ParameterizedType SimpleType SimpleName titan vertex
+atlas edge SimpleName SimpleType ParameterizedType SimpleType SimpleName titan edge
+titan vertex SimpleName SimpleType ParameterizedType SimpleType SimpleName titan edge
+edge SimpleName SimpleType SingleVariableDeclaration SimpleName input
+graph db object factory SimpleName MethodInvocation SimpleName create edge
+graph db object factory SimpleName MethodInvocation ThisExpression SimpleName titan graph
+graph db object factory SimpleName MethodInvocation SimpleName input
+create edge SimpleName MethodInvocation ThisExpression SimpleName titan graph
+create edge SimpleName MethodInvocation SimpleName input
+titan graph SimpleName ThisExpression MethodInvocation SimpleName input
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName apply
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName input
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName atlas edge
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName titan vertex
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName titan edge
+public Modifier MethodDeclaration SimpleName apply
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName edge
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName input
+atlas edge SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName apply
+titan vertex SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName apply
+titan edge SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName apply
+apply SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName edge
+apply SimpleName MethodDeclaration SingleVariableDeclaration SimpleName input
+iterables SimpleName MethodInvocation SimpleName transform
+iterables SimpleName MethodInvocation SimpleName result
+transform SimpleName MethodInvocation SimpleName result
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName iterable
+public Modifier MethodDeclaration SimpleName wrap edges
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName it
+iterable SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName wrap edges
+wrap edges SimpleName MethodDeclaration SingleVariableDeclaration SimpleName it
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName wrap edges
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName it
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName wrap edges
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName it

@@ -1,0 +1,23 @@
+boolean PrimitiveType SingleVariableDeclaration SimpleName has next
+has next SimpleName FieldAccess Assignment SimpleName has next
+set has next is set SimpleName MethodInvocation BooleanLiteral true
+public Modifier MethodDeclaration SimpleType SimpleName key value and peek
+public Modifier MethodDeclaration SimpleName set has next
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName has next
+key value and peek SimpleName SimpleType MethodDeclaration SimpleName set has next
+key value and peek SimpleName SimpleType MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+key value and peek SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName has next
+set has next SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+set has next SimpleName MethodDeclaration SingleVariableDeclaration SimpleName has next
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName key value and peek
+public Modifier TypeDeclaration MethodDeclaration SimpleName set has next
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName has next
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName key value and peek
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set has next
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName has next

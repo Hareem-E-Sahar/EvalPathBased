@@ -1,0 +1,165 @@
+namespace SimpleName VariableDeclarationFragment StringLiteral n
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName namespace
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral n
+namespace SimpleName VariableDeclarationFragment StringLiteral n
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName namespace
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral n
+table SimpleName VariableDeclarationFragment StringLiteral t
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName table
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral t
+accumulo SimpleName MethodInvocation SimpleName get connector
+accumulo SimpleName MethodInvocation StringLiteral root
+accumulo SimpleName MethodInvocation SimpleName secret
+get connector SimpleName MethodInvocation StringLiteral root
+get connector SimpleName MethodInvocation SimpleName secret
+root StringLiteral MethodInvocation SimpleName secret
+c SimpleName VariableDeclarationFragment MethodInvocation SimpleName accumulo
+c SimpleName VariableDeclarationFragment MethodInvocation SimpleName get connector
+c SimpleName VariableDeclarationFragment MethodInvocation StringLiteral root
+c SimpleName VariableDeclarationFragment MethodInvocation SimpleName secret
+connector SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName c
+c SimpleName MethodInvocation SimpleName get instance
+instance SimpleName VariableDeclarationFragment MethodInvocation SimpleName c
+instance SimpleName VariableDeclarationFragment MethodInvocation SimpleName get instance
+instance SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName instance
+c SimpleName MethodInvocation SimpleName table namespace operations
+c SimpleName MethodInvocation MethodInvocation SimpleName create
+table namespace operations SimpleName MethodInvocation MethodInvocation SimpleName create
+c SimpleName MethodInvocation MethodInvocation SimpleName namespace
+table namespace operations SimpleName MethodInvocation MethodInvocation SimpleName namespace
+create SimpleName MethodInvocation SimpleName namespace
+c SimpleName MethodInvocation SimpleName table operations
+namespace SimpleName InfixExpression StringLiteral .
+namespace SimpleName InfixExpression SimpleName table
+. StringLiteral InfixExpression SimpleName table
+c SimpleName MethodInvocation MethodInvocation SimpleName create
+table operations SimpleName MethodInvocation MethodInvocation SimpleName create
+c SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName namespace
+c SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral .
+c SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName table
+table operations SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName namespace
+table operations SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral .
+table operations SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName table
+create SimpleName MethodInvocation InfixExpression SimpleName namespace
+create SimpleName MethodInvocation InfixExpression StringLiteral .
+create SimpleName MethodInvocation InfixExpression SimpleName table
+c SimpleName MethodInvocation SimpleName table namespace operations
+c SimpleName MethodInvocation MethodInvocation SimpleName rename
+table namespace operations SimpleName MethodInvocation MethodInvocation SimpleName rename
+c SimpleName MethodInvocation MethodInvocation SimpleName namespace
+table namespace operations SimpleName MethodInvocation MethodInvocation SimpleName namespace
+c SimpleName MethodInvocation MethodInvocation SimpleName namespace
+table namespace operations SimpleName MethodInvocation MethodInvocation SimpleName namespace
+rename SimpleName MethodInvocation SimpleName namespace
+rename SimpleName MethodInvocation SimpleName namespace
+namespace SimpleName MethodInvocation SimpleName namespace
+c SimpleName MethodInvocation SimpleName table namespace operations
+c SimpleName MethodInvocation MethodInvocation SimpleName exists
+table namespace operations SimpleName MethodInvocation MethodInvocation SimpleName exists
+c SimpleName MethodInvocation MethodInvocation SimpleName namespace
+table namespace operations SimpleName MethodInvocation MethodInvocation SimpleName namespace
+exists SimpleName MethodInvocation SimpleName namespace
+assert true SimpleName MethodInvocation PrefixExpression MethodInvocation SimpleName exists
+assert true SimpleName MethodInvocation PrefixExpression MethodInvocation SimpleName namespace
+c SimpleName MethodInvocation SimpleName table namespace operations
+c SimpleName MethodInvocation MethodInvocation SimpleName exists
+table namespace operations SimpleName MethodInvocation MethodInvocation SimpleName exists
+c SimpleName MethodInvocation MethodInvocation SimpleName namespace
+table namespace operations SimpleName MethodInvocation MethodInvocation SimpleName namespace
+exists SimpleName MethodInvocation SimpleName namespace
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName c
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName table namespace operations
+assert true SimpleName MethodInvocation MethodInvocation SimpleName exists
+assert true SimpleName MethodInvocation MethodInvocation SimpleName namespace
+c SimpleName MethodInvocation SimpleName table operations
+namespace SimpleName InfixExpression StringLiteral .
+namespace SimpleName InfixExpression SimpleName table
+. StringLiteral InfixExpression SimpleName table
+c SimpleName MethodInvocation MethodInvocation SimpleName exists
+table operations SimpleName MethodInvocation MethodInvocation SimpleName exists
+c SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName namespace
+c SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral .
+c SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName table
+table operations SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName namespace
+table operations SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral .
+table operations SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName table
+exists SimpleName MethodInvocation InfixExpression SimpleName namespace
+exists SimpleName MethodInvocation InfixExpression StringLiteral .
+exists SimpleName MethodInvocation InfixExpression SimpleName table
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName c
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName table operations
+assert true SimpleName MethodInvocation MethodInvocation SimpleName exists
+assert true SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName namespace
+assert true SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral .
+assert true SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName table
+namespace SimpleName InfixExpression StringLiteral .
+namespace SimpleName InfixExpression SimpleName table
+. StringLiteral InfixExpression SimpleName table
+tables SimpleName MethodInvocation SimpleName get table id
+tables SimpleName MethodInvocation SimpleName instance
+tables SimpleName MethodInvocation InfixExpression SimpleName namespace
+tables SimpleName MethodInvocation InfixExpression StringLiteral .
+tables SimpleName MethodInvocation InfixExpression SimpleName table
+get table id SimpleName MethodInvocation SimpleName instance
+get table id SimpleName MethodInvocation InfixExpression SimpleName namespace
+get table id SimpleName MethodInvocation InfixExpression StringLiteral .
+get table id SimpleName MethodInvocation InfixExpression SimpleName table
+instance SimpleName MethodInvocation InfixExpression SimpleName namespace
+instance SimpleName MethodInvocation InfixExpression StringLiteral .
+instance SimpleName MethodInvocation InfixExpression SimpleName table
+tid SimpleName VariableDeclarationFragment MethodInvocation SimpleName tables
+tid SimpleName VariableDeclarationFragment MethodInvocation SimpleName get table id
+tid SimpleName VariableDeclarationFragment MethodInvocation SimpleName instance
+tid SimpleName VariableDeclarationFragment MethodInvocation InfixExpression SimpleName namespace
+tid SimpleName VariableDeclarationFragment MethodInvocation InfixExpression StringLiteral .
+tid SimpleName VariableDeclarationFragment MethodInvocation InfixExpression SimpleName table
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName tid
+tables SimpleName MethodInvocation SimpleName get namespace
+tables SimpleName MethodInvocation SimpleName instance
+tables SimpleName MethodInvocation SimpleName tid
+get namespace SimpleName MethodInvocation SimpleName instance
+get namespace SimpleName MethodInvocation SimpleName tid
+instance SimpleName MethodInvocation SimpleName tid
+tnid SimpleName VariableDeclarationFragment MethodInvocation SimpleName tables
+tnid SimpleName VariableDeclarationFragment MethodInvocation SimpleName get namespace
+tnid SimpleName VariableDeclarationFragment MethodInvocation SimpleName instance
+tnid SimpleName VariableDeclarationFragment MethodInvocation SimpleName tid
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName tnid
+table namespaces SimpleName MethodInvocation SimpleName get namespace name
+table namespaces SimpleName MethodInvocation SimpleName instance
+table namespaces SimpleName MethodInvocation SimpleName tnid
+get namespace name SimpleName MethodInvocation SimpleName instance
+get namespace name SimpleName MethodInvocation SimpleName tnid
+instance SimpleName MethodInvocation SimpleName tnid
+tnamespace SimpleName VariableDeclarationFragment MethodInvocation SimpleName table namespaces
+tnamespace SimpleName VariableDeclarationFragment MethodInvocation SimpleName get namespace name
+tnamespace SimpleName VariableDeclarationFragment MethodInvocation SimpleName instance
+tnamespace SimpleName VariableDeclarationFragment MethodInvocation SimpleName tnid
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName tnamespace
+namespace SimpleName MethodInvocation SimpleName equals
+namespace SimpleName MethodInvocation SimpleName tnamespace
+equals SimpleName MethodInvocation SimpleName tnamespace
+assert true SimpleName MethodInvocation MethodInvocation SimpleName namespace
+assert true SimpleName MethodInvocation MethodInvocation SimpleName equals
+assert true SimpleName MethodInvocation MethodInvocation SimpleName tnamespace
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test namespace rename
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test namespace rename
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName test namespace rename
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+test namespace rename SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test namespace rename
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test namespace rename
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

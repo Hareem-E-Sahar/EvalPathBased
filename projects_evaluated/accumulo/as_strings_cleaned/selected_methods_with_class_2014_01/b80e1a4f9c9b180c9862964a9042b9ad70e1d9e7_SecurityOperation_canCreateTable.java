@@ -1,0 +1,58 @@
+t credentials SimpleName SimpleType SingleVariableDeclaration SimpleName c
+string SimpleName SimpleType SingleVariableDeclaration SimpleName table
+string SimpleName SimpleType SingleVariableDeclaration SimpleName namespace id
+authenticate SimpleName MethodInvocation SimpleName c
+has system permission with namespace id SimpleName MethodInvocation SimpleName c
+has system permission with namespace id SimpleName MethodInvocation QualifiedName system permissioncreate table
+has system permission with namespace id SimpleName MethodInvocation SimpleName namespace id
+has system permission with namespace id SimpleName MethodInvocation BooleanLiteral false
+c SimpleName MethodInvocation QualifiedName system permissioncreate table
+c SimpleName MethodInvocation SimpleName namespace id
+c SimpleName MethodInvocation BooleanLiteral false
+system permissioncreate table QualifiedName MethodInvocation SimpleName namespace id
+system permissioncreate table QualifiedName MethodInvocation BooleanLiteral false
+namespace id SimpleName MethodInvocation BooleanLiteral false
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName can create table
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName t credentials
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName c
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName table
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName namespace id
+boolean PrimitiveType MethodDeclaration SimpleName can create table
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName t credentials
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName c
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName table
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName namespace id
+boolean PrimitiveType MethodDeclaration SimpleType SimpleName thrift security exception
+can create table SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName t credentials
+can create table SimpleName MethodDeclaration SingleVariableDeclaration SimpleName c
+can create table SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+can create table SimpleName MethodDeclaration SingleVariableDeclaration SimpleName table
+can create table SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+can create table SimpleName MethodDeclaration SingleVariableDeclaration SimpleName namespace id
+can create table SimpleName MethodDeclaration SimpleType SimpleName thrift security exception
+c SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table
+c SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName namespace id
+c SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName thrift security exception
+table SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName namespace id
+table SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName thrift security exception
+namespace id SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName thrift security exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName can create table
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName c
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName namespace id
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName thrift security exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName can create table
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName c
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName namespace id
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName thrift security exception

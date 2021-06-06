@@ -1,0 +1,13 @@
+key extent SimpleName SimpleType SingleVariableDeclaration SimpleName extent
+void PrimitiveType MethodDeclaration SimpleName tablet closed
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName key extent
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName extent
+tablet closed SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName key extent
+tablet closed SimpleName MethodDeclaration SingleVariableDeclaration SimpleName extent
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName tablet closed
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName extent
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName tablet closed
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName extent

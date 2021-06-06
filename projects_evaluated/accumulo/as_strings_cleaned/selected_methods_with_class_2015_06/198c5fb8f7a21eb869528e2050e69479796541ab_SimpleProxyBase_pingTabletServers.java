@@ -1,0 +1,43 @@
+tservers SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName tservers
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+string SimpleName SimpleType SingleVariableDeclaration SimpleName tserver
+client SimpleName MethodInvocation SimpleName get tablet servers
+client SimpleName MethodInvocation SimpleName creds
+get tablet servers SimpleName MethodInvocation SimpleName creds
+client SimpleName MethodInvocation SimpleName ping tablet server
+client SimpleName MethodInvocation SimpleName creds
+client SimpleName MethodInvocation SimpleName tserver
+ping tablet server SimpleName MethodInvocation SimpleName creds
+ping tablet server SimpleName MethodInvocation SimpleName tserver
+creds SimpleName MethodInvocation SimpleName tserver
+tserver SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName client
+tserver SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName get tablet servers
+tserver SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName creds
+tservers SimpleName InfixExpression NumberLiteral empty
+assert true SimpleName MethodInvocation InfixExpression SimpleName tservers
+assert true SimpleName MethodInvocation InfixExpression NumberLiteral empty
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName ping tablet servers
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName ping tablet servers
+public Modifier MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+void PrimitiveType MethodDeclaration SimpleName ping tablet servers
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+ping tablet servers SimpleName MethodDeclaration SimpleType SimpleName exception
+ping tablet servers SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName ping tablet servers
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName ping tablet servers
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

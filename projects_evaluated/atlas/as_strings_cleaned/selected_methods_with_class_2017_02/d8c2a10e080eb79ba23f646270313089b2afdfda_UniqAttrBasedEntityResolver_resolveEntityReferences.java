@@ -1,0 +1,81 @@
+atlas base exception SimpleName SimpleType ClassInstanceCreation QualifiedName atlas error codeinternal error
+atlas base exception SimpleName SimpleType ClassInstanceCreation StringLiteral unique attribute based entity resolver not initialized
+atlas error codeinternal error QualifiedName ClassInstanceCreation StringLiteral unique attribute based entity resolver not initialized
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas object id
+atlas object id SimpleName SimpleType SingleVariableDeclaration SimpleName entity id
+context SimpleName MethodInvocation SimpleName get unresolved ids by uniq attribs
+optional SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas vertex
+resolve by unique attribute SimpleName MethodInvocation SimpleName entity id
+vertex SimpleName VariableDeclarationFragment MethodInvocation SimpleName resolve by unique attribute
+vertex SimpleName VariableDeclarationFragment MethodInvocation SimpleName entity id
+vertex SimpleName MethodInvocation SimpleName is present
+vertex SimpleName MethodInvocation SimpleName get
+context SimpleName MethodInvocation SimpleName add resolved id
+context SimpleName MethodInvocation SimpleName entity id
+context SimpleName MethodInvocation MethodInvocation SimpleName vertex
+context SimpleName MethodInvocation MethodInvocation SimpleName get
+add resolved id SimpleName MethodInvocation SimpleName entity id
+add resolved id SimpleName MethodInvocation MethodInvocation SimpleName vertex
+add resolved id SimpleName MethodInvocation MethodInvocation SimpleName get
+entity id SimpleName MethodInvocation MethodInvocation SimpleName vertex
+entity id SimpleName MethodInvocation MethodInvocation SimpleName get
+resolved references SimpleName MethodInvocation SimpleName add
+resolved references SimpleName MethodInvocation SimpleName entity id
+add SimpleName MethodInvocation SimpleName entity id
+entity id SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName context
+entity id SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName get unresolved ids by uniq attribs
+context SimpleName MethodInvocation SimpleName remove unresolved ids by uniq attribs
+context SimpleName MethodInvocation SimpleName resolved references
+remove unresolved ids by uniq attribs SimpleName MethodInvocation SimpleName resolved references
+atlas entity SimpleName SimpleType SingleVariableDeclaration SimpleName entity
+context SimpleName MethodInvocation SimpleName get root entities
+entity SimpleName MethodInvocation SimpleName get atlas object id
+entity id SimpleName VariableDeclarationFragment MethodInvocation SimpleName entity
+entity id SimpleName VariableDeclarationFragment MethodInvocation SimpleName get atlas object id
+atlas object id SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName entity id
+context SimpleName MethodInvocation SimpleName is resolved id
+context SimpleName MethodInvocation SimpleName entity id
+is resolved id SimpleName MethodInvocation SimpleName entity id
+optional SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas vertex
+resolve by unique attribute SimpleName MethodInvocation SimpleName entity
+vertex SimpleName VariableDeclarationFragment MethodInvocation SimpleName resolve by unique attribute
+vertex SimpleName VariableDeclarationFragment MethodInvocation SimpleName entity
+vertex SimpleName MethodInvocation SimpleName is present
+vertex SimpleName MethodInvocation SimpleName get
+context SimpleName MethodInvocation SimpleName add resolved id
+context SimpleName MethodInvocation SimpleName entity id
+context SimpleName MethodInvocation MethodInvocation SimpleName vertex
+context SimpleName MethodInvocation MethodInvocation SimpleName get
+add resolved id SimpleName MethodInvocation SimpleName entity id
+add resolved id SimpleName MethodInvocation MethodInvocation SimpleName vertex
+add resolved id SimpleName MethodInvocation MethodInvocation SimpleName get
+entity id SimpleName MethodInvocation MethodInvocation SimpleName vertex
+entity id SimpleName MethodInvocation MethodInvocation SimpleName get
+context SimpleName MethodInvocation SimpleName remove un resolved id
+context SimpleName MethodInvocation SimpleName entity id
+remove un resolved id SimpleName MethodInvocation SimpleName entity id
+entity SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName context
+entity SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName get root entities
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName entity graph discovery context
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName resolve entity references
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier MethodDeclaration SimpleType SimpleName entity graph discovery context
+public Modifier MethodDeclaration SimpleName resolve entity references
+public Modifier MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier MethodDeclaration Block ReturnStatement SimpleName context
+entity graph discovery context SimpleName SimpleType MethodDeclaration SimpleName resolve entity references
+entity graph discovery context SimpleName SimpleType MethodDeclaration SimpleType SimpleName atlas base exception
+resolve entity references SimpleName MethodDeclaration SimpleType SimpleName atlas base exception
+resolve entity references SimpleName MethodDeclaration Block ReturnStatement SimpleName context
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName entity graph discovery context
+public Modifier TypeDeclaration MethodDeclaration SimpleName resolve entity references
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName entity graph discovery context
+test SimpleName TypeDeclaration MethodDeclaration SimpleName resolve entity references
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception

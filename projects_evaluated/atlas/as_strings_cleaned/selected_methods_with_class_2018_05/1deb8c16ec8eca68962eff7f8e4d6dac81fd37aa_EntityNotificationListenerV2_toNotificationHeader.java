@@ -1,0 +1,208 @@
+atlas entity SimpleName SimpleType SingleVariableDeclaration SimpleName entity
+entity SimpleName MethodInvocation SimpleName get type name
+entity SimpleName MethodInvocation SimpleName get guid
+atlas entity header SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName entity
+atlas entity header SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get type name
+atlas entity header SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName entity
+atlas entity header SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get guid
+entity SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName entity
+entity SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get guid
+get type name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName entity
+get type name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get guid
+ret SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName atlas entity header
+ret SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName entity
+ret SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get type name
+ret SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName entity
+ret SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get guid
+atlas entity header SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ret
+entity SimpleName MethodInvocation SimpleName get attribute
+entity SimpleName MethodInvocation SimpleName name
+get attribute SimpleName MethodInvocation SimpleName name
+name SimpleName VariableDeclarationFragment MethodInvocation SimpleName entity
+name SimpleName VariableDeclarationFragment MethodInvocation SimpleName get attribute
+name SimpleName VariableDeclarationFragment MethodInvocation SimpleName name
+object SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName name
+entity SimpleName MethodInvocation SimpleName get attribute
+entity SimpleName MethodInvocation SimpleName qualified name
+get attribute SimpleName MethodInvocation SimpleName qualified name
+name SimpleName InfixExpression ConditionalExpression SimpleName name
+name SimpleName InfixExpression ConditionalExpression MethodInvocation SimpleName entity
+name SimpleName InfixExpression ConditionalExpression MethodInvocation SimpleName get attribute
+name SimpleName InfixExpression ConditionalExpression MethodInvocation SimpleName qualified name
+name SimpleName ConditionalExpression MethodInvocation SimpleName entity
+name SimpleName ConditionalExpression MethodInvocation SimpleName get attribute
+name SimpleName ConditionalExpression MethodInvocation SimpleName qualified name
+display text SimpleName VariableDeclarationFragment ConditionalExpression InfixExpression SimpleName name
+display text SimpleName VariableDeclarationFragment ConditionalExpression SimpleName name
+display text SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation SimpleName entity
+display text SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation SimpleName get attribute
+display text SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation SimpleName qualified name
+object SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName display text
+entity SimpleName MethodInvocation SimpleName get guid
+ret SimpleName MethodInvocation SimpleName set guid
+ret SimpleName MethodInvocation MethodInvocation SimpleName entity
+ret SimpleName MethodInvocation MethodInvocation SimpleName get guid
+set guid SimpleName MethodInvocation MethodInvocation SimpleName entity
+set guid SimpleName MethodInvocation MethodInvocation SimpleName get guid
+entity SimpleName MethodInvocation SimpleName get status
+ret SimpleName MethodInvocation SimpleName set status
+ret SimpleName MethodInvocation MethodInvocation SimpleName entity
+ret SimpleName MethodInvocation MethodInvocation SimpleName get status
+set status SimpleName MethodInvocation MethodInvocation SimpleName entity
+set status SimpleName MethodInvocation MethodInvocation SimpleName get status
+set attribute SimpleName MethodInvocation SimpleName ret
+set attribute SimpleName MethodInvocation SimpleName name
+set attribute SimpleName MethodInvocation SimpleName name
+ret SimpleName MethodInvocation SimpleName name
+ret SimpleName MethodInvocation SimpleName name
+name SimpleName MethodInvocation SimpleName name
+entity SimpleName MethodInvocation SimpleName get attribute
+entity SimpleName MethodInvocation SimpleName description
+get attribute SimpleName MethodInvocation SimpleName description
+set attribute SimpleName MethodInvocation SimpleName ret
+set attribute SimpleName MethodInvocation SimpleName description
+set attribute SimpleName MethodInvocation MethodInvocation SimpleName entity
+set attribute SimpleName MethodInvocation MethodInvocation SimpleName get attribute
+set attribute SimpleName MethodInvocation MethodInvocation SimpleName description
+ret SimpleName MethodInvocation SimpleName description
+ret SimpleName MethodInvocation MethodInvocation SimpleName entity
+ret SimpleName MethodInvocation MethodInvocation SimpleName get attribute
+ret SimpleName MethodInvocation MethodInvocation SimpleName description
+description SimpleName MethodInvocation MethodInvocation SimpleName entity
+description SimpleName MethodInvocation MethodInvocation SimpleName get attribute
+description SimpleName MethodInvocation MethodInvocation SimpleName description
+entity SimpleName MethodInvocation SimpleName get attribute
+entity SimpleName MethodInvocation SimpleName owner
+get attribute SimpleName MethodInvocation SimpleName owner
+set attribute SimpleName MethodInvocation SimpleName ret
+set attribute SimpleName MethodInvocation SimpleName owner
+set attribute SimpleName MethodInvocation MethodInvocation SimpleName entity
+set attribute SimpleName MethodInvocation MethodInvocation SimpleName get attribute
+set attribute SimpleName MethodInvocation MethodInvocation SimpleName owner
+ret SimpleName MethodInvocation SimpleName owner
+ret SimpleName MethodInvocation MethodInvocation SimpleName entity
+ret SimpleName MethodInvocation MethodInvocation SimpleName get attribute
+ret SimpleName MethodInvocation MethodInvocation SimpleName owner
+owner SimpleName MethodInvocation MethodInvocation SimpleName entity
+owner SimpleName MethodInvocation MethodInvocation SimpleName get attribute
+owner SimpleName MethodInvocation MethodInvocation SimpleName owner
+entity SimpleName MethodInvocation SimpleName get attribute
+entity SimpleName MethodInvocation SimpleName create time
+get attribute SimpleName MethodInvocation SimpleName create time
+set attribute SimpleName MethodInvocation SimpleName ret
+set attribute SimpleName MethodInvocation SimpleName create time
+set attribute SimpleName MethodInvocation MethodInvocation SimpleName entity
+set attribute SimpleName MethodInvocation MethodInvocation SimpleName get attribute
+set attribute SimpleName MethodInvocation MethodInvocation SimpleName create time
+ret SimpleName MethodInvocation SimpleName create time
+ret SimpleName MethodInvocation MethodInvocation SimpleName entity
+ret SimpleName MethodInvocation MethodInvocation SimpleName get attribute
+ret SimpleName MethodInvocation MethodInvocation SimpleName create time
+create time SimpleName MethodInvocation MethodInvocation SimpleName entity
+create time SimpleName MethodInvocation MethodInvocation SimpleName get attribute
+create time SimpleName MethodInvocation MethodInvocation SimpleName create time
+display text SimpleName MethodInvocation SimpleName to string
+ret SimpleName MethodInvocation SimpleName set display text
+ret SimpleName MethodInvocation MethodInvocation SimpleName display text
+ret SimpleName MethodInvocation MethodInvocation SimpleName to string
+set display text SimpleName MethodInvocation MethodInvocation SimpleName display text
+set display text SimpleName MethodInvocation MethodInvocation SimpleName to string
+entity SimpleName MethodInvocation SimpleName get type name
+type registry SimpleName MethodInvocation SimpleName get entity type by name
+type registry SimpleName MethodInvocation MethodInvocation SimpleName entity
+type registry SimpleName MethodInvocation MethodInvocation SimpleName get type name
+get entity type by name SimpleName MethodInvocation MethodInvocation SimpleName entity
+get entity type by name SimpleName MethodInvocation MethodInvocation SimpleName get type name
+entity type SimpleName VariableDeclarationFragment MethodInvocation SimpleName type registry
+entity type SimpleName VariableDeclarationFragment MethodInvocation SimpleName get entity type by name
+entity type SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName entity
+entity type SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get type name
+atlas entity type SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName entity type
+atlas attribute SimpleName SimpleType SingleVariableDeclaration SimpleName attribute
+entity type SimpleName MethodInvocation SimpleName get all attributes
+entity type SimpleName MethodInvocation MethodInvocation SimpleName values
+get all attributes SimpleName MethodInvocation MethodInvocation SimpleName values
+attribute SimpleName MethodInvocation SimpleName get attribute def
+attribute SimpleName MethodInvocation MethodInvocation SimpleName get is unique
+get attribute def SimpleName MethodInvocation MethodInvocation SimpleName get is unique
+attribute SimpleName MethodInvocation SimpleName get attribute def
+attribute SimpleName MethodInvocation MethodInvocation SimpleName get include in notification
+get attribute def SimpleName MethodInvocation MethodInvocation SimpleName get include in notification
+get is unique SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get include in notification
+attribute SimpleName MethodInvocation SimpleName get name
+entity SimpleName MethodInvocation SimpleName get attribute
+entity SimpleName MethodInvocation MethodInvocation SimpleName attribute
+entity SimpleName MethodInvocation MethodInvocation SimpleName get name
+get attribute SimpleName MethodInvocation MethodInvocation SimpleName attribute
+get attribute SimpleName MethodInvocation MethodInvocation SimpleName get name
+attr value SimpleName VariableDeclarationFragment MethodInvocation SimpleName entity
+attr value SimpleName VariableDeclarationFragment MethodInvocation SimpleName get attribute
+attr value SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName attribute
+attr value SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get name
+object SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName attr value
+attribute SimpleName MethodInvocation SimpleName get name
+ret SimpleName MethodInvocation SimpleName set attribute
+ret SimpleName MethodInvocation MethodInvocation SimpleName attribute
+ret SimpleName MethodInvocation MethodInvocation SimpleName get name
+ret SimpleName MethodInvocation SimpleName attr value
+set attribute SimpleName MethodInvocation MethodInvocation SimpleName attribute
+set attribute SimpleName MethodInvocation MethodInvocation SimpleName get name
+set attribute SimpleName MethodInvocation SimpleName attr value
+attribute SimpleName MethodInvocation MethodInvocation SimpleName attr value
+get name SimpleName MethodInvocation MethodInvocation SimpleName attr value
+attribute SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName values
+entity SimpleName MethodInvocation SimpleName get classifications
+collection utils SimpleName MethodInvocation SimpleName is not empty
+collection utils SimpleName MethodInvocation MethodInvocation SimpleName entity
+collection utils SimpleName MethodInvocation MethodInvocation SimpleName get classifications
+is not empty SimpleName MethodInvocation MethodInvocation SimpleName entity
+is not empty SimpleName MethodInvocation MethodInvocation SimpleName get classifications
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas classification
+entity SimpleName MethodInvocation SimpleName get classifications
+entity SimpleName MethodInvocation MethodInvocation SimpleName size
+get classifications SimpleName MethodInvocation MethodInvocation SimpleName size
+classifications SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName size
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+entity SimpleName MethodInvocation SimpleName get classifications
+entity SimpleName MethodInvocation MethodInvocation SimpleName size
+get classifications SimpleName MethodInvocation MethodInvocation SimpleName size
+classification names SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName size
+atlas classification SimpleName SimpleType SingleVariableDeclaration SimpleName classification
+entity SimpleName MethodInvocation SimpleName get classifications
+get all classifications SimpleName MethodInvocation MethodInvocation SimpleName entity
+get all classifications SimpleName MethodInvocation MethodInvocation SimpleName get classifications
+classifications SimpleName MethodInvocation SimpleName add
+classifications SimpleName MethodInvocation SimpleName classification
+add SimpleName MethodInvocation SimpleName classification
+classification SimpleName MethodInvocation SimpleName get type name
+classification names SimpleName MethodInvocation SimpleName add
+classification names SimpleName MethodInvocation MethodInvocation SimpleName classification
+classification names SimpleName MethodInvocation MethodInvocation SimpleName get type name
+add SimpleName MethodInvocation MethodInvocation SimpleName classification
+add SimpleName MethodInvocation MethodInvocation SimpleName get type name
+classification SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName get all classifications
+ret SimpleName MethodInvocation SimpleName set classifications
+ret SimpleName MethodInvocation SimpleName classifications
+set classifications SimpleName MethodInvocation SimpleName classifications
+ret SimpleName MethodInvocation SimpleName set classification names
+ret SimpleName MethodInvocation SimpleName classification names
+set classification names SimpleName MethodInvocation SimpleName classification names
+private Modifier MethodDeclaration SimpleType SimpleName atlas entity header
+private Modifier MethodDeclaration SimpleName to notification header
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas entity
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName entity
+private Modifier MethodDeclaration Block ReturnStatement SimpleName ret
+atlas entity header SimpleName SimpleType MethodDeclaration SimpleName to notification header
+atlas entity header SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName entity
+to notification header SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas entity
+to notification header SimpleName MethodDeclaration SingleVariableDeclaration SimpleName entity
+to notification header SimpleName MethodDeclaration Block ReturnStatement SimpleName ret
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas entity header
+public Modifier TypeDeclaration MethodDeclaration SimpleName to notification header
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas entity header
+test SimpleName TypeDeclaration MethodDeclaration SimpleName to notification header
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity

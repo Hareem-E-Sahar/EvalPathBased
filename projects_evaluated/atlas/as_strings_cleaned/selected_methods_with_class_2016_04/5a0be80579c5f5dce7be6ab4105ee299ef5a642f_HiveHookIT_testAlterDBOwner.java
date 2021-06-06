@@ -1,0 +1,92 @@
+db name SimpleName VariableDeclarationFragment MethodInvocation SimpleName create database
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName db name
+owner SimpleName VariableDeclarationFragment StringLiteral test owner
+final Modifier VariableDeclarationStatement SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName owner
+final Modifier VariableDeclarationStatement VariableDeclarationFragment StringLiteral test owner
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName owner
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral test owner
+assert database is registered SimpleName MethodInvocation SimpleName db name
+db id SimpleName VariableDeclarationFragment MethodInvocation SimpleName assert database is registered
+db id SimpleName VariableDeclarationFragment MethodInvocation SimpleName db name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName db id
+fmt query SimpleName VariableDeclarationFragment StringLiteral alter database s set owner s s
+final Modifier VariableDeclarationStatement SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName fmt query
+final Modifier VariableDeclarationStatement VariableDeclarationFragment StringLiteral alter database s set owner s s
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName fmt query
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral alter database s set owner s s
+string SimpleName MethodInvocation SimpleName format
+string SimpleName MethodInvocation SimpleName fmt query
+string SimpleName MethodInvocation SimpleName db name
+string SimpleName MethodInvocation StringLiteral user
+string SimpleName MethodInvocation SimpleName owner
+format SimpleName MethodInvocation SimpleName fmt query
+format SimpleName MethodInvocation SimpleName db name
+format SimpleName MethodInvocation StringLiteral user
+format SimpleName MethodInvocation SimpleName owner
+fmt query SimpleName MethodInvocation SimpleName db name
+fmt query SimpleName MethodInvocation StringLiteral user
+fmt query SimpleName MethodInvocation SimpleName owner
+db name SimpleName MethodInvocation StringLiteral user
+db name SimpleName MethodInvocation SimpleName owner
+user StringLiteral MethodInvocation SimpleName owner
+query SimpleName VariableDeclarationFragment MethodInvocation SimpleName string
+query SimpleName VariableDeclarationFragment MethodInvocation SimpleName format
+query SimpleName VariableDeclarationFragment MethodInvocation SimpleName fmt query
+query SimpleName VariableDeclarationFragment MethodInvocation SimpleName db name
+query SimpleName VariableDeclarationFragment MethodInvocation StringLiteral user
+query SimpleName VariableDeclarationFragment MethodInvocation SimpleName owner
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName query
+run command SimpleName MethodInvocation SimpleName query
+assert database is registered SimpleName MethodInvocation SimpleName db name
+dgi c lient SimpleName MethodInvocation SimpleName get entity
+dgi c lient SimpleName MethodInvocation SimpleName db id
+get entity SimpleName MethodInvocation SimpleName db id
+entity SimpleName VariableDeclarationFragment MethodInvocation SimpleName dgi c lient
+entity SimpleName VariableDeclarationFragment MethodInvocation SimpleName get entity
+entity SimpleName VariableDeclarationFragment MethodInvocation SimpleName db id
+referenceable SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName entity
+entity SimpleName MethodInvocation SimpleName get
+entity SimpleName MethodInvocation QualifiedName hive data model generatorowner
+get SimpleName MethodInvocation QualifiedName hive data model generatorowner
+assert SimpleName MethodInvocation SimpleName assert equals
+assert SimpleName MethodInvocation MethodInvocation SimpleName entity
+assert SimpleName MethodInvocation MethodInvocation SimpleName get
+assert SimpleName MethodInvocation MethodInvocation QualifiedName hive data model generatorowner
+assert SimpleName MethodInvocation SimpleName owner
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName entity
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get
+assert equals SimpleName MethodInvocation MethodInvocation QualifiedName hive data model generatorowner
+assert equals SimpleName MethodInvocation SimpleName owner
+entity SimpleName MethodInvocation MethodInvocation SimpleName owner
+get SimpleName MethodInvocation MethodInvocation SimpleName owner
+hive data model generatorowner QualifiedName MethodInvocation MethodInvocation SimpleName owner
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test alter db owner
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test alter db owner
+public Modifier MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+public Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+void PrimitiveType MethodDeclaration SimpleName test alter db owner
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement Modifier final
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement Modifier final
+test alter db owner SimpleName MethodDeclaration SimpleType SimpleName exception
+test alter db owner SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+test alter db owner SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test alter db owner
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test alter db owner
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

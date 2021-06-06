@@ -1,0 +1,100 @@
+method invocation SimpleName SimpleType SingleVariableDeclaration SimpleName invocation
+atlas graph provider SimpleName MethodInvocation SimpleName get graph instance
+graph SimpleName Assignment MethodInvocation SimpleName atlas graph provider
+graph SimpleName Assignment MethodInvocation SimpleName get graph instance
+is success SimpleName VariableDeclarationFragment BooleanLiteral false
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName is success
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment BooleanLiteral false
+invocation SimpleName MethodInvocation SimpleName proceed
+response SimpleName VariableDeclarationFragment MethodInvocation SimpleName invocation
+response SimpleName VariableDeclarationFragment MethodInvocation SimpleName proceed
+object SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName response
+graph SimpleName MethodInvocation SimpleName commit
+is success SimpleName Assignment BooleanLiteral true
+log SimpleName MethodInvocation SimpleName is debug enabled
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral graph commit
+debug SimpleName MethodInvocation StringLiteral graph commit
+throwable SimpleName SimpleType SingleVariableDeclaration SimpleName t
+log exception SimpleName MethodInvocation SimpleName t
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation StringLiteral graph rollback due to exception
+log SimpleName MethodInvocation SimpleName t
+error SimpleName MethodInvocation StringLiteral graph rollback due to exception
+error SimpleName MethodInvocation SimpleName t
+graph rollback due to exception StringLiteral MethodInvocation SimpleName t
+t SimpleName MethodInvocation SimpleName get class
+t SimpleName MethodInvocation MethodInvocation SimpleName get simple name
+get class SimpleName MethodInvocation MethodInvocation SimpleName get simple name
+t SimpleName MethodInvocation SimpleName get message
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation StringLiteral graph rollback due to exception {}:{}
+log SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName t
+log SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get class
+log SimpleName MethodInvocation MethodInvocation SimpleName get simple name
+log SimpleName MethodInvocation MethodInvocation SimpleName t
+log SimpleName MethodInvocation MethodInvocation SimpleName get message
+error SimpleName MethodInvocation StringLiteral graph rollback due to exception {}:{}
+error SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName t
+error SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get class
+error SimpleName MethodInvocation MethodInvocation SimpleName get simple name
+error SimpleName MethodInvocation MethodInvocation SimpleName t
+error SimpleName MethodInvocation MethodInvocation SimpleName get message
+graph rollback due to exception {}:{} StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName t
+graph rollback due to exception {}:{} StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName get class
+graph rollback due to exception {}:{} StringLiteral MethodInvocation MethodInvocation SimpleName get simple name
+graph rollback due to exception {}:{} StringLiteral MethodInvocation MethodInvocation SimpleName t
+graph rollback due to exception {}:{} StringLiteral MethodInvocation MethodInvocation SimpleName get message
+get simple name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName t
+get simple name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get message
+graph SimpleName MethodInvocation SimpleName rollback
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName post transaction hook
+post transaction hooks SimpleName MethodInvocation SimpleName get
+trx hooks SimpleName VariableDeclarationFragment MethodInvocation SimpleName post transaction hooks
+trx hooks SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+post transaction hooks SimpleName MethodInvocation SimpleName remove
+post transaction hook SimpleName SimpleType SingleVariableDeclaration SimpleName trx hook
+trx hook SimpleName MethodInvocation SimpleName on complete
+trx hook SimpleName MethodInvocation SimpleName is success
+on complete SimpleName MethodInvocation SimpleName is success
+throwable SimpleName SimpleType SingleVariableDeclaration SimpleName t
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation StringLiteral post transaction hook failed
+log SimpleName MethodInvocation SimpleName t
+error SimpleName MethodInvocation StringLiteral post transaction hook failed
+error SimpleName MethodInvocation SimpleName t
+post transaction hook failed StringLiteral MethodInvocation SimpleName t
+post transaction hook SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName trx hooks
+trx hook SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName trx hooks
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName object
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName invoke
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName invocation
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName throwable
+public Modifier MethodDeclaration SimpleType SimpleName object
+public Modifier MethodDeclaration SimpleName invoke
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName method invocation
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName invocation
+public Modifier MethodDeclaration SimpleType SimpleName throwable
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+object SimpleName SimpleType MethodDeclaration SimpleName invoke
+object SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName invocation
+object SimpleName SimpleType MethodDeclaration SimpleType SimpleName throwable
+invoke SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName method invocation
+invoke SimpleName MethodDeclaration SingleVariableDeclaration SimpleName invocation
+invoke SimpleName MethodDeclaration SimpleType SimpleName throwable
+invoke SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+invocation SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName throwable
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName object
+public Modifier TypeDeclaration MethodDeclaration SimpleName invoke
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName invocation
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName throwable
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName object
+test SimpleName TypeDeclaration MethodDeclaration SimpleName invoke
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName invocation
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName throwable

@@ -1,0 +1,57 @@
+expected exceptions SimpleName MemberValuePair TypeLiteral SimpleType SimpleName type not found exception
+test SimpleName NormalAnnotation MemberValuePair SimpleName expected exceptions
+referenceable SimpleName SimpleType ClassInstanceCreation StringLiteral unknown datatype
+entity SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName referenceable
+entity SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral unknown datatype
+referenceable SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName entity
+random string utils SimpleName MethodInvocation SimpleName random alphanumeric
+random string utils SimpleName MethodInvocation NumberLiteral empty
+random alphanumeric SimpleName MethodInvocation NumberLiteral empty
+db name SimpleName VariableDeclarationFragment MethodInvocation SimpleName random string utils
+db name SimpleName VariableDeclarationFragment MethodInvocation SimpleName random alphanumeric
+db name SimpleName VariableDeclarationFragment MethodInvocation NumberLiteral empty
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName db name
+entity SimpleName MethodInvocation SimpleName set
+entity SimpleName MethodInvocation SimpleName name
+entity SimpleName MethodInvocation SimpleName db name
+set SimpleName MethodInvocation SimpleName name
+set SimpleName MethodInvocation SimpleName db name
+name SimpleName MethodInvocation SimpleName db name
+entity SimpleName MethodInvocation SimpleName set
+entity SimpleName MethodInvocation StringLiteral description
+entity SimpleName MethodInvocation StringLiteral us db
+set SimpleName MethodInvocation StringLiteral description
+set SimpleName MethodInvocation StringLiteral us db
+description StringLiteral MethodInvocation StringLiteral us db
+create instance SimpleName MethodInvocation SimpleName entity
+type not found exception SimpleName SimpleType TypeLiteral MethodInvocation SimpleName get simple name
+get simple name SimpleName MethodInvocation InfixExpression StringLiteral was expected but none thrown
+assert SimpleName MethodInvocation SimpleName fail
+assert SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get simple name
+assert SimpleName MethodInvocation InfixExpression StringLiteral was expected but none thrown
+fail SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get simple name
+fail SimpleName MethodInvocation InfixExpression StringLiteral was expected but none thrown
+test SimpleName NormalAnnotation MethodDeclaration Modifier public
+expected exceptions SimpleName MemberValuePair NormalAnnotation MethodDeclaration Modifier public
+test SimpleName NormalAnnotation MethodDeclaration PrimitiveType void
+expected exceptions SimpleName MemberValuePair NormalAnnotation MethodDeclaration PrimitiveType void
+test SimpleName NormalAnnotation MethodDeclaration SimpleName test create entity with unknown datatype
+expected exceptions SimpleName MemberValuePair NormalAnnotation MethodDeclaration SimpleName test create entity with unknown datatype
+test SimpleName NormalAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test create entity with unknown datatype
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName test create entity with unknown datatype
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+test create entity with unknown datatype SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration NormalAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test create entity with unknown datatype
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration NormalAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test create entity with unknown datatype
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

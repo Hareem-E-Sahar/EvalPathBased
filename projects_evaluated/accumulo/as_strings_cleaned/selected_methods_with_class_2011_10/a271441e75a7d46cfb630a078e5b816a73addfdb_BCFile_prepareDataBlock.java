@@ -1,0 +1,47 @@
+blk in progress SimpleName InfixExpression BooleanLiteral true
+illegal state exception SimpleName SimpleType ClassInstanceCreation StringLiteral cannot create data block until previous block is closed
+meta blk seen SimpleName InfixExpression BooleanLiteral true
+illegal state exception SimpleName SimpleType ClassInstanceCreation StringLiteral cannot create data block after meta blocks
+dbr SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName data block register
+data block register SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName dbr
+w block state SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get default compression algorithm
+w block state SimpleName SimpleType ClassInstanceCreation SimpleName out
+w block state SimpleName SimpleType ClassInstanceCreation SimpleName fs output buffer
+w block state SimpleName SimpleType ClassInstanceCreation SimpleName conf
+get default compression algorithm SimpleName MethodInvocation ClassInstanceCreation SimpleName out
+get default compression algorithm SimpleName MethodInvocation ClassInstanceCreation SimpleName fs output buffer
+get default compression algorithm SimpleName MethodInvocation ClassInstanceCreation SimpleName conf
+out SimpleName ClassInstanceCreation SimpleName fs output buffer
+out SimpleName ClassInstanceCreation SimpleName conf
+fs output buffer SimpleName ClassInstanceCreation SimpleName conf
+wbs SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName w block state
+wbs SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get default compression algorithm
+wbs SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName out
+wbs SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName fs output buffer
+wbs SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName conf
+w block state SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName wbs
+block appender SimpleName SimpleType ClassInstanceCreation SimpleName dbr
+block appender SimpleName SimpleType ClassInstanceCreation SimpleName wbs
+dbr SimpleName ClassInstanceCreation SimpleName wbs
+ba SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName block appender
+ba SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName dbr
+ba SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName wbs
+block appender SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ba
+blk in progress SimpleName Assignment BooleanLiteral true
+public Modifier MethodDeclaration SimpleType SimpleName block appender
+public Modifier MethodDeclaration SimpleName prepare data block
+public Modifier MethodDeclaration SimpleType SimpleName io exception
+public Modifier MethodDeclaration Block ReturnStatement SimpleName ba
+block appender SimpleName SimpleType MethodDeclaration SimpleName prepare data block
+block appender SimpleName SimpleType MethodDeclaration SimpleType SimpleName io exception
+prepare data block SimpleName MethodDeclaration SimpleType SimpleName io exception
+prepare data block SimpleName MethodDeclaration Block ReturnStatement SimpleName ba
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName block appender
+public Modifier TypeDeclaration MethodDeclaration SimpleName prepare data block
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName block appender
+test SimpleName TypeDeclaration MethodDeclaration SimpleName prepare data block
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

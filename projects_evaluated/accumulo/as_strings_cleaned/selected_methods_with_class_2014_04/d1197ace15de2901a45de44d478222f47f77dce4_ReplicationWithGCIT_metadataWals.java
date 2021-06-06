@@ -1,0 +1,83 @@
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+connector SimpleName SimpleType SingleVariableDeclaration SimpleName conn
+conn SimpleName MethodInvocation SimpleName create scanner
+conn SimpleName MethodInvocation QualifiedName metadata tablename
+conn SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName authorizations
+create scanner SimpleName MethodInvocation QualifiedName metadata tablename
+create scanner SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName authorizations
+metadata tablename QualifiedName MethodInvocation ClassInstanceCreation SimpleType SimpleName authorizations
+s SimpleName VariableDeclarationFragment MethodInvocation SimpleName conn
+s SimpleName VariableDeclarationFragment MethodInvocation SimpleName create scanner
+s SimpleName VariableDeclarationFragment MethodInvocation QualifiedName metadata tablename
+scanner SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName s
+s SimpleName MethodInvocation SimpleName fetch column family
+s SimpleName MethodInvocation QualifiedName log column familyname
+fetch column family SimpleName MethodInvocation QualifiedName log column familyname
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName key
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+key SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+entry SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+key SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+value SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+entry SimpleName MethodInvocation SimpleName get key
+entry SimpleName MethodInvocation SimpleName get value
+log entry SimpleName MethodInvocation SimpleName from key value
+log entry SimpleName MethodInvocation MethodInvocation SimpleName entry
+log entry SimpleName MethodInvocation MethodInvocation SimpleName get key
+log entry SimpleName MethodInvocation MethodInvocation SimpleName entry
+log entry SimpleName MethodInvocation MethodInvocation SimpleName get value
+from key value SimpleName MethodInvocation MethodInvocation SimpleName entry
+from key value SimpleName MethodInvocation MethodInvocation SimpleName get key
+from key value SimpleName MethodInvocation MethodInvocation SimpleName entry
+from key value SimpleName MethodInvocation MethodInvocation SimpleName get value
+entry SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName entry
+entry SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get value
+get key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName entry
+get key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get value
+log entry SimpleName VariableDeclarationFragment MethodInvocation SimpleName log entry
+log entry SimpleName VariableDeclarationFragment MethodInvocation SimpleName from key value
+log entry SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName entry
+log entry SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get key
+log entry SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName entry
+log entry SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get value
+log entry SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName log entry
+string SimpleName SimpleType SingleVariableDeclaration SimpleName log
+path SimpleName SimpleType ClassInstanceCreation SimpleName log
+path SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName to string
+log SimpleName ClassInstanceCreation MethodInvocation SimpleName to string
+metadata wals SimpleName MethodInvocation SimpleName add
+metadata wals SimpleName MethodInvocation MethodInvocation ClassInstanceCreation SimpleName log
+metadata wals SimpleName MethodInvocation MethodInvocation SimpleName to string
+add SimpleName MethodInvocation MethodInvocation ClassInstanceCreation SimpleName log
+add SimpleName MethodInvocation MethodInvocation SimpleName to string
+string SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement QualifiedName log entrylog set
+log SimpleName SingleVariableDeclaration EnhancedForStatement QualifiedName log entrylog set
+entry SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName s
+s SimpleName EnhancedForStatement Block EnhancedForStatement QualifiedName log entrylog set
+s SimpleName EnhancedForStatement Block ReturnStatement SimpleName metadata wals
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName set
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+private Modifier MethodDeclaration SimpleName metadata wals
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName connector
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName conn
+private Modifier MethodDeclaration SimpleType SimpleName exception
+private Modifier MethodDeclaration Block EnhancedForStatement SimpleName s
+private Modifier MethodDeclaration Block ReturnStatement SimpleName metadata wals
+set SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName metadata wals
+string SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName metadata wals
+metadata wals SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName connector
+metadata wals SimpleName MethodDeclaration SingleVariableDeclaration SimpleName conn
+metadata wals SimpleName MethodDeclaration SimpleType SimpleName exception
+metadata wals SimpleName MethodDeclaration Block EnhancedForStatement SimpleName s
+metadata wals SimpleName MethodDeclaration Block ReturnStatement SimpleName metadata wals
+conn SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleName metadata wals
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName conn
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleName metadata wals
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName conn
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

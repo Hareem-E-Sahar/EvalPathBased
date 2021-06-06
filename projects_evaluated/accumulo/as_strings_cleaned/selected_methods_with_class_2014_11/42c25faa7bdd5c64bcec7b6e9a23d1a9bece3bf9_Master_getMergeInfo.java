@@ -1,0 +1,100 @@
+text SimpleName SimpleType SingleVariableDeclaration SimpleName table id
+get instance SimpleName MethodInvocation MethodInvocation SimpleName get instance id
+zoo util SimpleName MethodInvocation SimpleName get root
+zoo util SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get instance
+zoo util SimpleName MethodInvocation MethodInvocation SimpleName get instance id
+get root SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get instance
+get root SimpleName MethodInvocation MethodInvocation SimpleName get instance id
+table id SimpleName MethodInvocation SimpleName to string
+zoo util SimpleName MethodInvocation InfixExpression QualifiedName constantsztables
+get root SimpleName MethodInvocation InfixExpression QualifiedName constantsztables
+get instance id SimpleName MethodInvocation MethodInvocation InfixExpression QualifiedName constantsztables
+zoo util SimpleName MethodInvocation InfixExpression StringLiteral /
+get root SimpleName MethodInvocation InfixExpression StringLiteral /
+get instance id SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral /
+zoo util SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName table id
+zoo util SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName to string
+get root SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName table id
+get root SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName to string
+zoo util SimpleName MethodInvocation InfixExpression StringLiteral merge
+get root SimpleName MethodInvocation InfixExpression StringLiteral merge
+get instance id SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral merge
+constantsztables QualifiedName InfixExpression StringLiteral /
+constantsztables QualifiedName InfixExpression MethodInvocation SimpleName table id
+constantsztables QualifiedName InfixExpression MethodInvocation SimpleName to string
+constantsztables QualifiedName InfixExpression StringLiteral merge
+/ StringLiteral InfixExpression MethodInvocation SimpleName table id
+/ StringLiteral InfixExpression MethodInvocation SimpleName to string
+/ StringLiteral InfixExpression StringLiteral merge
+table id SimpleName MethodInvocation InfixExpression StringLiteral merge
+to string SimpleName MethodInvocation InfixExpression StringLiteral merge
+path SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName zoo util
+path SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName get root
+path SimpleName VariableDeclarationFragment InfixExpression QualifiedName constantsztables
+path SimpleName VariableDeclarationFragment InfixExpression StringLiteral /
+path SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName table id
+path SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName to string
+path SimpleName VariableDeclarationFragment InfixExpression StringLiteral merge
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName path
+zoo reader writer SimpleName MethodInvocation SimpleName get instance
+zoo reader writer SimpleName MethodInvocation MethodInvocation SimpleName exists
+get instance SimpleName MethodInvocation MethodInvocation SimpleName exists
+zoo reader writer SimpleName MethodInvocation MethodInvocation SimpleName path
+get instance SimpleName MethodInvocation MethodInvocation SimpleName path
+exists SimpleName MethodInvocation SimpleName path
+zoo reader writer SimpleName MethodInvocation SimpleName get instance
+zoo reader writer SimpleName MethodInvocation MethodInvocation SimpleName get data
+get instance SimpleName MethodInvocation MethodInvocation SimpleName get data
+zoo reader writer SimpleName MethodInvocation MethodInvocation SimpleName path
+get instance SimpleName MethodInvocation MethodInvocation SimpleName path
+get data SimpleName MethodInvocation SimpleName path
+get data SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName stat
+path SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName stat
+data SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName zoo reader writer
+data SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get instance
+data SimpleName VariableDeclarationFragment MethodInvocation SimpleName get data
+data SimpleName VariableDeclarationFragment MethodInvocation SimpleName path
+byte PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName data
+in SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName data input buffer
+data input buffer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName in
+in SimpleName MethodInvocation SimpleName reset
+in SimpleName MethodInvocation SimpleName data
+in SimpleName MethodInvocation QualifiedName datalength
+reset SimpleName MethodInvocation SimpleName data
+reset SimpleName MethodInvocation QualifiedName datalength
+data SimpleName MethodInvocation QualifiedName datalength
+info SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName merge info
+merge info SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName info
+info SimpleName MethodInvocation SimpleName read fields
+info SimpleName MethodInvocation SimpleName in
+read fields SimpleName MethodInvocation SimpleName in
+keeper exceptionno node exception QualifiedName SimpleType SingleVariableDeclaration SimpleName ex
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation StringLiteral error reading merge state it probably just finished
+info SimpleName MethodInvocation StringLiteral error reading merge state it probably just finished
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName ex
+log SimpleName MethodInvocation SimpleName warn
+log SimpleName MethodInvocation StringLiteral unexpected error reading merge state
+log SimpleName MethodInvocation SimpleName ex
+warn SimpleName MethodInvocation StringLiteral unexpected error reading merge state
+warn SimpleName MethodInvocation SimpleName ex
+unexpected error reading merge state StringLiteral MethodInvocation SimpleName ex
+public Modifier MethodDeclaration SimpleType SimpleName merge info
+public Modifier MethodDeclaration SimpleName get merge info
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName text
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName table id
+public Modifier MethodDeclaration Block SynchronizedStatement SimpleName merge lock
+merge info SimpleName SimpleType MethodDeclaration SimpleName get merge info
+merge info SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName table id
+get merge info SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName text
+get merge info SimpleName MethodDeclaration SingleVariableDeclaration SimpleName table id
+get merge info SimpleName MethodDeclaration Block SynchronizedStatement SimpleName merge lock
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName merge info
+public Modifier TypeDeclaration MethodDeclaration SimpleName get merge info
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table id
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName merge info
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get merge info
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table id

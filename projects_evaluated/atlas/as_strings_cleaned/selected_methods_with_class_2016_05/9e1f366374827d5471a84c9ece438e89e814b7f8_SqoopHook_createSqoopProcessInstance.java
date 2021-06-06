@@ -1,0 +1,178 @@
+referenceable SimpleName SimpleType SingleVariableDeclaration SimpleName db store ref
+referenceable SimpleName SimpleType SingleVariableDeclaration SimpleName hive table ref
+sqoop job data publisherdata QualifiedName SimpleType SingleVariableDeclaration SimpleName data
+string SimpleName SimpleType SingleVariableDeclaration SimpleName cluster name
+sqoop data typessqoop process QualifiedName MethodInvocation SimpleName get name
+referenceable SimpleName SimpleType ClassInstanceCreation MethodInvocation QualifiedName sqoop data typessqoop process
+referenceable SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get name
+proc ref SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName referenceable
+proc ref SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation QualifiedName sqoop data typessqoop process
+proc ref SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get name
+referenceable SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName proc ref
+get sqoop process name SimpleName MethodInvocation SimpleName data
+get sqoop process name SimpleName MethodInvocation SimpleName cluster name
+data SimpleName MethodInvocation SimpleName cluster name
+sqoop process name SimpleName VariableDeclarationFragment MethodInvocation SimpleName get sqoop process name
+sqoop process name SimpleName VariableDeclarationFragment MethodInvocation SimpleName data
+sqoop process name SimpleName VariableDeclarationFragment MethodInvocation SimpleName cluster name
+final Modifier VariableDeclarationStatement SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName sqoop process name
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get sqoop process name
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName data
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName cluster name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName sqoop process name
+proc ref SimpleName MethodInvocation SimpleName set
+proc ref SimpleName MethodInvocation QualifiedName sqoop data model generatorname
+proc ref SimpleName MethodInvocation SimpleName sqoop process name
+set SimpleName MethodInvocation QualifiedName sqoop data model generatorname
+set SimpleName MethodInvocation SimpleName sqoop process name
+sqoop data model generatorname QualifiedName MethodInvocation SimpleName sqoop process name
+proc ref SimpleName MethodInvocation SimpleName set
+proc ref SimpleName MethodInvocation QualifiedName atlas clientreferenceable attribute name
+proc ref SimpleName MethodInvocation SimpleName sqoop process name
+set SimpleName MethodInvocation QualifiedName atlas clientreferenceable attribute name
+set SimpleName MethodInvocation SimpleName sqoop process name
+atlas clientreferenceable attribute name QualifiedName MethodInvocation SimpleName sqoop process name
+data SimpleName MethodInvocation SimpleName get operation
+proc ref SimpleName MethodInvocation SimpleName set
+proc ref SimpleName MethodInvocation QualifiedName sqoop data model generatoroperation
+proc ref SimpleName MethodInvocation MethodInvocation SimpleName data
+proc ref SimpleName MethodInvocation MethodInvocation SimpleName get operation
+set SimpleName MethodInvocation QualifiedName sqoop data model generatoroperation
+set SimpleName MethodInvocation MethodInvocation SimpleName data
+set SimpleName MethodInvocation MethodInvocation SimpleName get operation
+sqoop data model generatoroperation QualifiedName MethodInvocation MethodInvocation SimpleName data
+sqoop data model generatoroperation QualifiedName MethodInvocation MethodInvocation SimpleName get operation
+proc ref SimpleName MethodInvocation SimpleName set
+proc ref SimpleName MethodInvocation QualifiedName sqoop data model generatorinputs
+proc ref SimpleName MethodInvocation SimpleName db store ref
+set SimpleName MethodInvocation QualifiedName sqoop data model generatorinputs
+set SimpleName MethodInvocation SimpleName db store ref
+sqoop data model generatorinputs QualifiedName MethodInvocation SimpleName db store ref
+proc ref SimpleName MethodInvocation SimpleName set
+proc ref SimpleName MethodInvocation QualifiedName sqoop data model generatoroutputs
+proc ref SimpleName MethodInvocation SimpleName hive table ref
+set SimpleName MethodInvocation QualifiedName sqoop data model generatoroutputs
+set SimpleName MethodInvocation SimpleName hive table ref
+sqoop data model generatoroutputs QualifiedName MethodInvocation SimpleName hive table ref
+data SimpleName MethodInvocation SimpleName get user
+proc ref SimpleName MethodInvocation SimpleName set
+proc ref SimpleName MethodInvocation QualifiedName sqoop data model generatoruser
+proc ref SimpleName MethodInvocation MethodInvocation SimpleName data
+proc ref SimpleName MethodInvocation MethodInvocation SimpleName get user
+set SimpleName MethodInvocation QualifiedName sqoop data model generatoruser
+set SimpleName MethodInvocation MethodInvocation SimpleName data
+set SimpleName MethodInvocation MethodInvocation SimpleName get user
+sqoop data model generatoruser QualifiedName MethodInvocation MethodInvocation SimpleName data
+sqoop data model generatoruser QualifiedName MethodInvocation MethodInvocation SimpleName get user
+data SimpleName MethodInvocation SimpleName get start time
+date SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName data
+date SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get start time
+proc ref SimpleName MethodInvocation SimpleName set
+proc ref SimpleName MethodInvocation QualifiedName sqoop data model generatorstart time
+proc ref SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName date
+proc ref SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName data
+proc ref SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get start time
+set SimpleName MethodInvocation QualifiedName sqoop data model generatorstart time
+set SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName date
+set SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName data
+set SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get start time
+sqoop data model generatorstart time QualifiedName MethodInvocation ClassInstanceCreation SimpleType SimpleName date
+sqoop data model generatorstart time QualifiedName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName data
+sqoop data model generatorstart time QualifiedName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get start time
+data SimpleName MethodInvocation SimpleName get end time
+date SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName data
+date SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get end time
+proc ref SimpleName MethodInvocation SimpleName set
+proc ref SimpleName MethodInvocation QualifiedName sqoop data model generatorend time
+proc ref SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName date
+proc ref SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName data
+proc ref SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get end time
+set SimpleName MethodInvocation QualifiedName sqoop data model generatorend time
+set SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName date
+set SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName data
+set SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get end time
+sqoop data model generatorend time QualifiedName MethodInvocation ClassInstanceCreation SimpleType SimpleName date
+sqoop data model generatorend time QualifiedName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName data
+sqoop data model generatorend time QualifiedName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get end time
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+data SimpleName MethodInvocation SimpleName get options
+options SimpleName VariableDeclarationFragment MethodInvocation SimpleName data
+options SimpleName VariableDeclarationFragment MethodInvocation SimpleName get options
+properties SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName options
+object SimpleName SimpleType SingleVariableDeclaration SimpleName k
+options SimpleName MethodInvocation SimpleName key set
+string SimpleName SimpleType CastExpression SimpleName k
+options SimpleName MethodInvocation SimpleName get
+options SimpleName MethodInvocation SimpleName k
+get SimpleName MethodInvocation SimpleName k
+string SimpleName SimpleType CastExpression MethodInvocation SimpleName options
+string SimpleName SimpleType CastExpression MethodInvocation SimpleName get
+string SimpleName SimpleType CastExpression MethodInvocation SimpleName k
+sqoop options map SimpleName MethodInvocation SimpleName put
+sqoop options map SimpleName MethodInvocation CastExpression SimpleType SimpleName string
+sqoop options map SimpleName MethodInvocation CastExpression SimpleName k
+sqoop options map SimpleName MethodInvocation CastExpression SimpleType SimpleName string
+sqoop options map SimpleName MethodInvocation CastExpression MethodInvocation SimpleName options
+sqoop options map SimpleName MethodInvocation CastExpression MethodInvocation SimpleName get
+sqoop options map SimpleName MethodInvocation CastExpression MethodInvocation SimpleName k
+put SimpleName MethodInvocation CastExpression SimpleType SimpleName string
+put SimpleName MethodInvocation CastExpression SimpleName k
+put SimpleName MethodInvocation CastExpression SimpleType SimpleName string
+put SimpleName MethodInvocation CastExpression MethodInvocation SimpleName options
+put SimpleName MethodInvocation CastExpression MethodInvocation SimpleName get
+put SimpleName MethodInvocation CastExpression MethodInvocation SimpleName k
+k SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName options
+k SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName key set
+proc ref SimpleName MethodInvocation SimpleName set
+proc ref SimpleName MethodInvocation QualifiedName sqoop data model generatorcmd line opts
+proc ref SimpleName MethodInvocation SimpleName sqoop options map
+set SimpleName MethodInvocation QualifiedName sqoop data model generatorcmd line opts
+set SimpleName MethodInvocation SimpleName sqoop options map
+sqoop data model generatorcmd line opts QualifiedName MethodInvocation SimpleName sqoop options map
+private Modifier MethodDeclaration SimpleType SimpleName referenceable
+private Modifier MethodDeclaration SimpleName create sqoop process instance
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName referenceable
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName db store ref
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName referenceable
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName hive table ref
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType QualifiedName sqoop job data publisherdata
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName data
+referenceable SimpleName SimpleType MethodDeclaration SimpleName create sqoop process instance
+referenceable SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName db store ref
+referenceable SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName hive table ref
+referenceable SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName data
+referenceable SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName cluster name
+create sqoop process instance SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName referenceable
+create sqoop process instance SimpleName MethodDeclaration SingleVariableDeclaration SimpleName db store ref
+create sqoop process instance SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName referenceable
+create sqoop process instance SimpleName MethodDeclaration SingleVariableDeclaration SimpleName hive table ref
+create sqoop process instance SimpleName MethodDeclaration SingleVariableDeclaration SimpleType QualifiedName sqoop job data publisherdata
+create sqoop process instance SimpleName MethodDeclaration SingleVariableDeclaration SimpleName data
+create sqoop process instance SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+create sqoop process instance SimpleName MethodDeclaration SingleVariableDeclaration SimpleName cluster name
+create sqoop process instance SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+create sqoop process instance SimpleName MethodDeclaration Block ReturnStatement SimpleName proc ref
+db store ref SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName hive table ref
+db store ref SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName data
+db store ref SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cluster name
+hive table ref SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName data
+hive table ref SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cluster name
+data SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cluster name
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName referenceable
+public Modifier TypeDeclaration MethodDeclaration SimpleName create sqoop process instance
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName db store ref
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName hive table ref
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName data
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cluster name
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName referenceable
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create sqoop process instance
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName db store ref
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName hive table ref
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName data
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cluster name

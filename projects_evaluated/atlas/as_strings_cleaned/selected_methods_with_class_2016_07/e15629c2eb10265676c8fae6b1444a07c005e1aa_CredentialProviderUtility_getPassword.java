@@ -1,0 +1,104 @@
+text device SimpleName SimpleType SingleVariableDeclaration SimpleName text device
+string SimpleName SimpleType SingleVariableDeclaration SimpleName key
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName no match
+char PrimitiveType ArrayType ArrayCreation NumberLiteral empty
+cred SimpleName VariableDeclarationFragment ArrayCreation ArrayType PrimitiveType char
+cred SimpleName VariableDeclarationFragment ArrayCreation NumberLiteral empty
+char PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName cred
+char PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName passwd
+char PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName passwd
+text device SimpleName MethodInvocation SimpleName read password
+text device SimpleName MethodInvocation StringLiteral please enter the password value for s
+text device SimpleName MethodInvocation SimpleName key
+read password SimpleName MethodInvocation StringLiteral please enter the password value for s
+read password SimpleName MethodInvocation SimpleName key
+please enter the password value for s StringLiteral MethodInvocation SimpleName key
+passwd SimpleName Assignment MethodInvocation SimpleName text device
+passwd SimpleName Assignment MethodInvocation SimpleName read password
+passwd SimpleName Assignment MethodInvocation StringLiteral please enter the password value for s
+passwd SimpleName Assignment MethodInvocation SimpleName key
+text device SimpleName MethodInvocation SimpleName read password
+text device SimpleName MethodInvocation StringLiteral please enter the password value for s again
+text device SimpleName MethodInvocation SimpleName key
+read password SimpleName MethodInvocation StringLiteral please enter the password value for s again
+read password SimpleName MethodInvocation SimpleName key
+please enter the password value for s again StringLiteral MethodInvocation SimpleName key
+passwd SimpleName Assignment MethodInvocation SimpleName text device
+passwd SimpleName Assignment MethodInvocation SimpleName read password
+passwd SimpleName Assignment MethodInvocation StringLiteral please enter the password value for s again
+passwd SimpleName Assignment MethodInvocation SimpleName key
+arrays SimpleName MethodInvocation SimpleName equals
+arrays SimpleName MethodInvocation SimpleName passwd
+arrays SimpleName MethodInvocation SimpleName passwd
+equals SimpleName MethodInvocation SimpleName passwd
+equals SimpleName MethodInvocation SimpleName passwd
+passwd SimpleName MethodInvocation SimpleName passwd
+no match SimpleName Assignment PrefixExpression MethodInvocation SimpleName arrays
+no match SimpleName Assignment PrefixExpression MethodInvocation SimpleName equals
+no match SimpleName Assignment PrefixExpression MethodInvocation SimpleName passwd
+no match SimpleName Assignment PrefixExpression MethodInvocation SimpleName passwd
+arrays SimpleName MethodInvocation SimpleName fill
+arrays SimpleName MethodInvocation SimpleName passwd
+arrays SimpleName MethodInvocation CharacterLiteral empty
+fill SimpleName MethodInvocation SimpleName passwd
+fill SimpleName MethodInvocation CharacterLiteral empty
+passwd SimpleName MethodInvocation CharacterLiteral empty
+text device SimpleName MethodInvocation SimpleName printf
+text device SimpleName MethodInvocation StringLiteral password entries dont match please try again
+printf SimpleName MethodInvocation StringLiteral password entries dont match please try again
+passwd length QualifiedName InfixExpression NumberLiteral empty
+text device SimpleName MethodInvocation SimpleName printf
+text device SimpleName MethodInvocation StringLiteral an empty password is not valid please try again
+printf SimpleName MethodInvocation StringLiteral an empty password is not valid please try again
+no match SimpleName Assignment BooleanLiteral true
+cred SimpleName Assignment SimpleName passwd
+arrays SimpleName MethodInvocation SimpleName fill
+arrays SimpleName MethodInvocation SimpleName passwd
+arrays SimpleName MethodInvocation CharacterLiteral empty
+fill SimpleName MethodInvocation SimpleName passwd
+fill SimpleName MethodInvocation CharacterLiteral empty
+passwd SimpleName MethodInvocation CharacterLiteral empty
+no match SimpleName IfStatement Block DoStatement SimpleName no match
+boolean PrimitiveType VariableDeclarationStatement Block DoStatement SimpleName no match
+boolean PrimitiveType VariableDeclarationStatement Block ReturnStatement SimpleName cred
+no match SimpleName DoStatement Block ReturnStatement SimpleName cred
+private Modifier MethodDeclaration Modifier static
+private Modifier MethodDeclaration ArrayType PrimitiveType char
+private Modifier MethodDeclaration SimpleName get password
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName text device
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName text device
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName key
+static Modifier MethodDeclaration ArrayType PrimitiveType char
+static Modifier MethodDeclaration SimpleName get password
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName text device
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName text device
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName key
+static Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+static Modifier MethodDeclaration Block DoStatement SimpleName no match
+static Modifier MethodDeclaration Block ReturnStatement SimpleName cred
+char PrimitiveType ArrayType MethodDeclaration SimpleName get password
+char PrimitiveType ArrayType MethodDeclaration SingleVariableDeclaration SimpleName text device
+char PrimitiveType ArrayType MethodDeclaration SingleVariableDeclaration SimpleName key
+get password SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName text device
+get password SimpleName MethodDeclaration SingleVariableDeclaration SimpleName text device
+get password SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get password SimpleName MethodDeclaration SingleVariableDeclaration SimpleName key
+get password SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+get password SimpleName MethodDeclaration Block DoStatement SimpleName no match
+get password SimpleName MethodDeclaration Block ReturnStatement SimpleName cred
+text device SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName key
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration ArrayType PrimitiveType char
+public Modifier TypeDeclaration MethodDeclaration SimpleName get password
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName text device
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName key
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration ArrayType PrimitiveType char
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get password
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName text device
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName key

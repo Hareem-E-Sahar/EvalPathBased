@@ -1,0 +1,42 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName mv
+mv SimpleName MethodInvocation SimpleName char at
+mv SimpleName MethodInvocation NumberLiteral empty
+char at SimpleName MethodInvocation NumberLiteral empty
+mv SimpleName MethodInvocation InfixExpression SimpleName logical time id
+char at SimpleName MethodInvocation InfixExpression SimpleName logical time id
+empty NumberLiteral MethodInvocation InfixExpression SimpleName logical time id
+mv SimpleName MethodInvocation SimpleName char at
+mv SimpleName MethodInvocation NumberLiteral empty
+char at SimpleName MethodInvocation NumberLiteral empty
+mv SimpleName MethodInvocation InfixExpression SimpleName millis time id
+char at SimpleName MethodInvocation InfixExpression SimpleName millis time id
+empty NumberLiteral MethodInvocation InfixExpression SimpleName millis time id
+logical time id SimpleName InfixExpression InfixExpression InfixExpression SimpleName millis time id
+invalid time type StringLiteral InfixExpression SimpleName mv
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral invalid time type
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName mv
+private Modifier MethodDeclaration Modifier static
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName check type
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName mv
+static Modifier MethodDeclaration PrimitiveType void
+static Modifier MethodDeclaration SimpleName check type
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName mv
+void PrimitiveType MethodDeclaration SimpleName check type
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName mv
+check type SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+check type SimpleName MethodDeclaration SingleVariableDeclaration SimpleName mv
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName check type
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName mv
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName check type
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName mv

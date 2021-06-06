@@ -1,0 +1,12 @@
+public Modifier MethodDeclaration SimpleType SimpleName throwable
+public Modifier MethodDeclaration SimpleName get exception thrown
+public Modifier MethodDeclaration Block ReturnStatement SimpleName exception thrown
+throwable SimpleName SimpleType MethodDeclaration SimpleName get exception thrown
+get exception thrown SimpleName MethodDeclaration Block ReturnStatement SimpleName exception thrown
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName throwable
+public Modifier TypeDeclaration MethodDeclaration SimpleName get exception thrown
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName throwable
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get exception thrown

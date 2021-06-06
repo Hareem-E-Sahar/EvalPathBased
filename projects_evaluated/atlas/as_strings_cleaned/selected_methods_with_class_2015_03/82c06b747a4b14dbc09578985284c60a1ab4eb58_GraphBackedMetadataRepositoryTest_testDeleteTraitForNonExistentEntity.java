@@ -1,0 +1,42 @@
+expected exceptions SimpleName MemberValuePair TypeLiteral SimpleType SimpleName repository exception
+test SimpleName NormalAnnotation MemberValuePair SimpleName expected exceptions
+uuid SimpleName MethodInvocation SimpleName random uuid
+uuid SimpleName MethodInvocation MethodInvocation SimpleName to string
+random uuid SimpleName MethodInvocation MethodInvocation SimpleName to string
+repository service SimpleName MethodInvocation SimpleName delete trait
+repository service SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName uuid
+repository service SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName random uuid
+repository service SimpleName MethodInvocation MethodInvocation SimpleName to string
+repository service SimpleName MethodInvocation SimpleName pii
+delete trait SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName uuid
+delete trait SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName random uuid
+delete trait SimpleName MethodInvocation MethodInvocation SimpleName to string
+delete trait SimpleName MethodInvocation SimpleName pii
+uuid SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName pii
+random uuid SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName pii
+to string SimpleName MethodInvocation MethodInvocation SimpleName pii
+assert SimpleName MethodInvocation SimpleName fail
+test SimpleName NormalAnnotation MethodDeclaration Modifier public
+expected exceptions SimpleName MemberValuePair NormalAnnotation MethodDeclaration Modifier public
+test SimpleName NormalAnnotation MethodDeclaration PrimitiveType void
+expected exceptions SimpleName MemberValuePair NormalAnnotation MethodDeclaration PrimitiveType void
+test SimpleName NormalAnnotation MethodDeclaration SimpleName test delete trait for non existent entity
+expected exceptions SimpleName MemberValuePair NormalAnnotation MethodDeclaration SimpleName test delete trait for non existent entity
+test SimpleName NormalAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test delete trait for non existent entity
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName test delete trait for non existent entity
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+test delete trait for non existent entity SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration NormalAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test delete trait for non existent entity
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration NormalAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test delete trait for non existent entity
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

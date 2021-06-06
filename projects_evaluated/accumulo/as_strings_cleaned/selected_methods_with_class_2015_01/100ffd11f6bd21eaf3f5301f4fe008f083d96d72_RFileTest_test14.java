@@ -1,0 +1,50 @@
+test r file SimpleName SimpleType ClassInstanceCreation SimpleName conf
+trf SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName test r file
+trf SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName conf
+test r file SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName trf
+trf SimpleName MethodInvocation SimpleName open writer
+trf SimpleName MethodInvocation BooleanLiteral false
+open writer SimpleName MethodInvocation BooleanLiteral false
+trfwriter QualifiedName MethodInvocation SimpleName start default locality group
+ncfs SimpleName MethodInvocation StringLiteral a
+ncfs SimpleName MethodInvocation StringLiteral b
+a StringLiteral MethodInvocation StringLiteral b
+trfwriter QualifiedName MethodInvocation SimpleName start new locality group
+trfwriter QualifiedName MethodInvocation StringLiteral lg
+trfwriter QualifiedName MethodInvocation MethodInvocation SimpleName ncfs
+trfwriter QualifiedName MethodInvocation MethodInvocation StringLiteral a
+trfwriter QualifiedName MethodInvocation MethodInvocation StringLiteral b
+start new locality group SimpleName MethodInvocation StringLiteral lg
+start new locality group SimpleName MethodInvocation MethodInvocation SimpleName ncfs
+start new locality group SimpleName MethodInvocation MethodInvocation StringLiteral a
+start new locality group SimpleName MethodInvocation MethodInvocation StringLiteral b
+lg StringLiteral MethodInvocation MethodInvocation SimpleName ncfs
+lg StringLiteral MethodInvocation MethodInvocation StringLiteral a
+lg StringLiteral MethodInvocation MethodInvocation StringLiteral b
+assert false SimpleName MethodInvocation BooleanLiteral true
+illegal state exception SimpleName SimpleType SingleVariableDeclaration SimpleName ioe
+trfwriter QualifiedName MethodInvocation SimpleName start default locality group
+assert false SimpleName MethodInvocation BooleanLiteral true
+illegal state exception SimpleName SimpleType SingleVariableDeclaration SimpleName ioe
+trfwriter QualifiedName MethodInvocation SimpleName close
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName io exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test
+public Modifier MethodDeclaration SimpleType SimpleName io exception
+void PrimitiveType MethodDeclaration SimpleName test
+void PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+test SimpleName MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

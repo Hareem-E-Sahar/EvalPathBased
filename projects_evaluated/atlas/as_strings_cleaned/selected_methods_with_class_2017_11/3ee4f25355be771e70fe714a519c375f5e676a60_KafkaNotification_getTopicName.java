@@ -1,0 +1,20 @@
+notification type SimpleName SimpleType SingleVariableDeclaration SimpleName notification type
+topic map SimpleName MethodInvocation SimpleName get
+topic map SimpleName MethodInvocation SimpleName notification type
+get SimpleName MethodInvocation SimpleName notification type
+visible for testing SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName string
+visible for testing SimpleName MarkerAnnotation MethodDeclaration SimpleName get topic name
+visible for testing SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName notification type
+string SimpleName SimpleType MethodDeclaration SimpleName get topic name
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName notification type
+get topic name SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName notification type
+get topic name SimpleName MethodDeclaration SingleVariableDeclaration SimpleName notification type
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName visible for testing
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName get topic name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName notification type
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName visible for testing
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get topic name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName notification type

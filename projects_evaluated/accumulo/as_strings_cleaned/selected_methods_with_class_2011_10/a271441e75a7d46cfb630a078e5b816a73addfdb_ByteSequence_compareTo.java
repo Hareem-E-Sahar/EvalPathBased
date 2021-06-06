@@ -1,0 +1,72 @@
+byte sequence SimpleName SimpleType SingleVariableDeclaration SimpleName obs
+obs SimpleName MethodInvocation SimpleName is backed by array
+is backed by array SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName obs
+is backed by array SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName is backed by array
+obs SimpleName MethodInvocation SimpleName get backing array
+obs SimpleName MethodInvocation SimpleName offset
+obs SimpleName MethodInvocation SimpleName length
+writable comparator SimpleName MethodInvocation SimpleName compare bytes
+writable comparator SimpleName MethodInvocation MethodInvocation SimpleName get backing array
+writable comparator SimpleName MethodInvocation MethodInvocation SimpleName offset
+writable comparator SimpleName MethodInvocation MethodInvocation SimpleName length
+writable comparator SimpleName MethodInvocation MethodInvocation SimpleName obs
+writable comparator SimpleName MethodInvocation MethodInvocation SimpleName get backing array
+compare bytes SimpleName MethodInvocation MethodInvocation SimpleName get backing array
+compare bytes SimpleName MethodInvocation MethodInvocation SimpleName offset
+compare bytes SimpleName MethodInvocation MethodInvocation SimpleName length
+compare bytes SimpleName MethodInvocation MethodInvocation SimpleName obs
+compare bytes SimpleName MethodInvocation MethodInvocation SimpleName get backing array
+compare bytes SimpleName MethodInvocation MethodInvocation SimpleName obs
+compare bytes SimpleName MethodInvocation MethodInvocation SimpleName offset
+get backing array SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName offset
+get backing array SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName length
+get backing array SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName obs
+get backing array SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get backing array
+get backing array SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName obs
+get backing array SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName offset
+get backing array SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName obs
+get backing array SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName length
+offset SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName length
+offset SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName obs
+offset SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get backing array
+offset SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName obs
+offset SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName offset
+offset SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName obs
+offset SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName length
+length SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName obs
+length SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get backing array
+length SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName obs
+length SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName offset
+length SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName obs
+length SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName length
+obs SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName obs
+obs SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName offset
+get backing array SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName obs
+get backing array SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName offset
+obs SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName obs
+obs SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName length
+get backing array SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName obs
+get backing array SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName length
+obs SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName obs
+obs SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName length
+offset SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName obs
+offset SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName length
+compare bytes SimpleName MethodInvocation SimpleName obs
+public Modifier MethodDeclaration PrimitiveType int
+public Modifier MethodDeclaration SimpleName compare to
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName byte sequence
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName obs
+int PrimitiveType MethodDeclaration SimpleName compare to
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName byte sequence
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName obs
+compare to SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName byte sequence
+compare to SimpleName MethodDeclaration SingleVariableDeclaration SimpleName obs
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SimpleName compare to
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName obs
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SimpleName compare to
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName obs

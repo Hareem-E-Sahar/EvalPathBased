@@ -1,0 +1,34 @@
+atlas exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+e SimpleName InstanceofExpression SimpleType SimpleName entity not found exception
+atlas base exception SimpleName SimpleType ClassInstanceCreation QualifiedName atlas error codeinstance guid not found
+atlas base exception SimpleName SimpleType ClassInstanceCreation SimpleName e
+atlas error codeinstance guid not found QualifiedName ClassInstanceCreation SimpleName e
+e SimpleName InstanceofExpression SimpleType SimpleName type not found exception
+atlas base exception SimpleName SimpleType ClassInstanceCreation QualifiedName atlas error codetype name not found
+atlas base exception SimpleName SimpleType ClassInstanceCreation SimpleName e
+atlas error codetype name not found QualifiedName ClassInstanceCreation SimpleName e
+atlas base exception SimpleName SimpleType ClassInstanceCreation SimpleName e
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier MethodDeclaration SimpleName to atlas base exception
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas exception
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName e
+static Modifier MethodDeclaration SimpleType SimpleName atlas base exception
+static Modifier MethodDeclaration SimpleName to atlas base exception
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas exception
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName e
+atlas base exception SimpleName SimpleType MethodDeclaration SimpleName to atlas base exception
+atlas base exception SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName e
+to atlas base exception SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas exception
+to atlas base exception SimpleName MethodDeclaration SingleVariableDeclaration SimpleName e
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier TypeDeclaration MethodDeclaration SimpleName to atlas base exception
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName e
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleName to atlas base exception
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName e

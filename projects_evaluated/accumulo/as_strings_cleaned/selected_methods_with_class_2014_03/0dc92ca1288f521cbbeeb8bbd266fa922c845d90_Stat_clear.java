@@ -1,0 +1,17 @@
+storeless univariate statistic SimpleName SimpleType SingleVariableDeclaration SimpleName statistic
+statistic SimpleName MethodInvocation SimpleName clear
+storeless univariate statistic SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName stats
+statistic SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName stats
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName clear
+public Modifier MethodDeclaration Block EnhancedForStatement SimpleName stats
+void PrimitiveType MethodDeclaration SimpleName clear
+void PrimitiveType MethodDeclaration Block EnhancedForStatement SimpleName stats
+clear SimpleName MethodDeclaration Block EnhancedForStatement SimpleName stats
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName clear
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName clear

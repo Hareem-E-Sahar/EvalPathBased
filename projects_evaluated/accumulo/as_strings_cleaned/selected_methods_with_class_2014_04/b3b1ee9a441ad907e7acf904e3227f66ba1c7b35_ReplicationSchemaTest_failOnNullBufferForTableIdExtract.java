@@ -1,0 +1,34 @@
+expected SimpleName MemberValuePair TypeLiteral SimpleType SimpleName null pointer exception
+test SimpleName NormalAnnotation MemberValuePair SimpleName expected
+file SimpleName VariableDeclarationFragment StringLiteral hdfsfoo bar
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName file
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral hdfsfoo bar
+key SimpleName SimpleType ClassInstanceCreation SimpleName file
+k SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName key
+k SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName file
+key SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName k
+text SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName extracted file
+status section SimpleName MethodInvocation SimpleName get file
+status section SimpleName MethodInvocation SimpleName k
+status section SimpleName MethodInvocation SimpleName extracted file
+get file SimpleName MethodInvocation SimpleName k
+get file SimpleName MethodInvocation SimpleName extracted file
+k SimpleName MethodInvocation SimpleName extracted file
+test SimpleName NormalAnnotation MethodDeclaration Modifier public
+expected SimpleName MemberValuePair NormalAnnotation MethodDeclaration Modifier public
+test SimpleName NormalAnnotation MethodDeclaration PrimitiveType void
+expected SimpleName MemberValuePair NormalAnnotation MethodDeclaration PrimitiveType void
+test SimpleName NormalAnnotation MethodDeclaration SimpleName fail on null buffer for table id extract
+expected SimpleName MemberValuePair NormalAnnotation MethodDeclaration SimpleName fail on null buffer for table id extract
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName fail on null buffer for table id extract
+void PrimitiveType MethodDeclaration SimpleName fail on null buffer for table id extract
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration NormalAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName fail on null buffer for table id extract
+test SimpleName TypeDeclaration MethodDeclaration NormalAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName fail on null buffer for table id extract

@@ -1,0 +1,118 @@
+col fams SimpleName MethodInvocation SimpleName size
+col famssize : StringLiteral InfixExpression MethodInvocation SimpleName col fams
+col famssize : StringLiteral InfixExpression MethodInvocation SimpleName size
+systemout QualifiedName MethodInvocation SimpleName println
+systemout QualifiedName MethodInvocation InfixExpression StringLiteral col famssize :
+systemout QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName col fams
+systemout QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName size
+println SimpleName MethodInvocation InfixExpression StringLiteral col famssize :
+println SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName col fams
+println SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName size
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName text
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName integer
+text SimpleName SimpleType ParameterizedType SimpleType SimpleName integer
+col fams SimpleName MethodInvocation SimpleName entry set
+es SimpleName VariableDeclarationFragment MethodInvocation SimpleName col fams
+es SimpleName VariableDeclarationFragment MethodInvocation SimpleName entry set
+sum SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName sum
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName text
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName integer
+text SimpleName SimpleType ParameterizedType SimpleType SimpleName integer
+entry SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+text SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+integer SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+entry SimpleName MethodInvocation SimpleName get key
+entry SimpleName MethodInvocation MethodInvocation SimpleName get length
+get key SimpleName MethodInvocation MethodInvocation SimpleName get length
+sum SimpleName Assignment MethodInvocation MethodInvocation SimpleName entry
+sum SimpleName Assignment MethodInvocation MethodInvocation SimpleName get key
+sum SimpleName Assignment MethodInvocation SimpleName get length
+entry SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName es
+total column name bytes : StringLiteral InfixExpression SimpleName sum
+systemout QualifiedName MethodInvocation SimpleName println
+systemout QualifiedName MethodInvocation InfixExpression StringLiteral total column name bytes :
+systemout QualifiedName MethodInvocation InfixExpression SimpleName sum
+println SimpleName MethodInvocation InfixExpression StringLiteral total column name bytes :
+println SimpleName MethodInvocation InfixExpression SimpleName sum
+baos SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName byte array output stream
+byte array output stream SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName baos
+gzip output stream SimpleName SimpleType ClassInstanceCreation SimpleName baos
+data output stream SimpleName SimpleType ClassInstanceCreation ClassInstanceCreation SimpleName baos
+dos SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName data output stream
+dos SimpleName VariableDeclarationFragment ClassInstanceCreation ClassInstanceCreation SimpleName baos
+data output stream SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName dos
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName text
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName integer
+text SimpleName SimpleType ParameterizedType SimpleType SimpleName integer
+entry SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+text SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+integer SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+entry SimpleName MethodInvocation SimpleName get key
+entry SimpleName MethodInvocation MethodInvocation SimpleName write
+get key SimpleName MethodInvocation MethodInvocation SimpleName write
+entry SimpleName MethodInvocation MethodInvocation SimpleName dos
+get key SimpleName MethodInvocation MethodInvocation SimpleName dos
+write SimpleName MethodInvocation SimpleName dos
+entry SimpleName MethodInvocation SimpleName get value
+dos SimpleName MethodInvocation SimpleName write int
+dos SimpleName MethodInvocation MethodInvocation SimpleName entry
+dos SimpleName MethodInvocation MethodInvocation SimpleName get value
+write int SimpleName MethodInvocation MethodInvocation SimpleName entry
+write int SimpleName MethodInvocation MethodInvocation SimpleName get value
+entry SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName es
+dos SimpleName MethodInvocation SimpleName close
+baos SimpleName MethodInvocation SimpleName to byte array
+baos SimpleName MethodInvocation FieldAccess SimpleName length
+to byte array SimpleName MethodInvocation FieldAccess SimpleName length
+compressed column map size : StringLiteral InfixExpression FieldAccess MethodInvocation SimpleName baos
+compressed column map size : StringLiteral InfixExpression FieldAccess MethodInvocation SimpleName to byte array
+compressed column map size : StringLiteral InfixExpression FieldAccess SimpleName length
+systemout QualifiedName MethodInvocation SimpleName println
+systemout QualifiedName MethodInvocation InfixExpression StringLiteral compressed column map size :
+systemout QualifiedName MethodInvocation InfixExpression FieldAccess SimpleName length
+println SimpleName MethodInvocation InfixExpression StringLiteral compressed column map size :
+println SimpleName MethodInvocation InfixExpression FieldAccess SimpleName length
+systemout QualifiedName MethodInvocation SimpleName printf
+systemout QualifiedName MethodInvocation StringLiteral bytes written : d
+systemout QualifiedName MethodInvocation SimpleName bytes written
+printf SimpleName MethodInvocation StringLiteral bytes written : d
+printf SimpleName MethodInvocation SimpleName bytes written
+bytes written : d StringLiteral MethodInvocation SimpleName bytes written
+int PrimitiveType VariableDeclarationStatement Block EnhancedForStatement SimpleName es
+int PrimitiveType VariableDeclarationStatement Block EnhancedForStatement SimpleName es
+es SimpleName EnhancedForStatement Block EnhancedForStatement SimpleName es
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName print stats
+public Modifier MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+public Modifier MethodDeclaration Block EnhancedForStatement SimpleName es
+public Modifier MethodDeclaration Block EnhancedForStatement SimpleName es
+static Modifier MethodDeclaration PrimitiveType void
+static Modifier MethodDeclaration SimpleName print stats
+static Modifier MethodDeclaration SimpleType SimpleName exception
+static Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+static Modifier MethodDeclaration Block EnhancedForStatement SimpleName es
+static Modifier MethodDeclaration Block EnhancedForStatement SimpleName es
+void PrimitiveType MethodDeclaration SimpleName print stats
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+void PrimitiveType MethodDeclaration Block EnhancedForStatement SimpleName es
+void PrimitiveType MethodDeclaration Block EnhancedForStatement SimpleName es
+print stats SimpleName MethodDeclaration SimpleType SimpleName exception
+print stats SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+print stats SimpleName MethodDeclaration Block EnhancedForStatement SimpleName es
+print stats SimpleName MethodDeclaration Block EnhancedForStatement SimpleName es
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName print stats
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName print stats
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

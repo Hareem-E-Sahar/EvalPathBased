@@ -1,0 +1,12 @@
+public Modifier MethodDeclaration ArrayType SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName get locations
+public Modifier MethodDeclaration SimpleType SimpleName io exception
+string SimpleName SimpleType ArrayType MethodDeclaration SimpleName get locations
+get locations SimpleName MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName get locations
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get locations
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

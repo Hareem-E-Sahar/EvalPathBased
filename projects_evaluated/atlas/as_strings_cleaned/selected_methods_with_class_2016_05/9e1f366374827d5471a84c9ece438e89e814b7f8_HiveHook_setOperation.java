@@ -1,0 +1,20 @@
+hive operation SimpleName SimpleType SingleVariableDeclaration SimpleName operation
+operation SimpleName FieldAccess Assignment SimpleName operation
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set operation
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName hive operation
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName operation
+void PrimitiveType MethodDeclaration SimpleName set operation
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName hive operation
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName operation
+set operation SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName hive operation
+set operation SimpleName MethodDeclaration SingleVariableDeclaration SimpleName operation
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set operation
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName operation
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set operation
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName operation

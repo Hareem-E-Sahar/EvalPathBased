@@ -1,0 +1,276 @@
+context SimpleName SimpleType SingleVariableDeclaration SimpleName context
+mutation SimpleName SimpleType SingleVariableDeclaration SimpleName m
+string SimpleName SimpleType SingleVariableDeclaration SimpleName log file
+key extent SimpleName SimpleType SingleVariableDeclaration SimpleName meta tablet
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName column update
+m SimpleName MethodInvocation SimpleName get updates
+columns updates SimpleName VariableDeclarationFragment MethodInvocation SimpleName m
+columns updates SimpleName VariableDeclarationFragment MethodInvocation SimpleName get updates
+text SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName prev row
+timestamp SimpleName VariableDeclarationFragment NumberLiteral empty
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName timestamp
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+m SimpleName MethodInvocation SimpleName get row
+m SimpleName MethodInvocation FieldAccess SimpleName length
+get row SimpleName MethodInvocation FieldAccess SimpleName length
+m SimpleName MethodInvocation FieldAccess InfixExpression NumberLiteral empty
+get row SimpleName MethodInvocation FieldAccess InfixExpression NumberLiteral empty
+length SimpleName FieldAccess InfixExpression NumberLiteral empty
+m SimpleName MethodInvocation SimpleName get row
+m SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+get row SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+m SimpleName MethodInvocation ArrayAccess InfixExpression CharacterLiteral ~
+get row SimpleName MethodInvocation ArrayAccess InfixExpression CharacterLiteral ~
+empty NumberLiteral ArrayAccess InfixExpression CharacterLiteral ~
+empty NumberLiteral InfixExpression InfixExpression InfixExpression CharacterLiteral ~
+column update SimpleName SimpleType SingleVariableDeclaration SimpleName cu
+cu SimpleName MethodInvocation SimpleName get column family
+text SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName cu
+text SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get column family
+cu SimpleName MethodInvocation SimpleName get column qualifier
+text SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName cu
+text SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get column qualifier
+metadata tableprev row column QualifiedName MethodInvocation SimpleName equals
+metadata tableprev row column QualifiedName MethodInvocation ClassInstanceCreation SimpleType SimpleName text
+metadata tableprev row column QualifiedName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName cu
+metadata tableprev row column QualifiedName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get column family
+metadata tableprev row column QualifiedName MethodInvocation ClassInstanceCreation SimpleType SimpleName text
+metadata tableprev row column QualifiedName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName cu
+metadata tableprev row column QualifiedName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get column qualifier
+equals SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName text
+equals SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName cu
+equals SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get column family
+equals SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName text
+equals SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName cu
+equals SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get column qualifier
+cu SimpleName MethodInvocation SimpleName is deleted
+cu SimpleName MethodInvocation SimpleName get value
+text SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName cu
+text SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get value
+prev row SimpleName Assignment ClassInstanceCreation SimpleType SimpleName text
+prev row SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName cu
+prev row SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName get value
+cu SimpleName MethodInvocation SimpleName get timestamp
+timestamp SimpleName Assignment MethodInvocation SimpleName cu
+timestamp SimpleName Assignment MethodInvocation SimpleName get timestamp
+column update SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName columns updates
+cu SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName columns updates
+writable utils SimpleName MethodInvocation SimpleName to byte array
+writable utils SimpleName MethodInvocation SimpleName m
+to byte array SimpleName MethodInvocation SimpleName m
+ser mut SimpleName VariableDeclarationFragment MethodInvocation SimpleName writable utils
+ser mut SimpleName VariableDeclarationFragment MethodInvocation SimpleName to byte array
+ser mut SimpleName VariableDeclarationFragment MethodInvocation SimpleName m
+byte PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName ser mut
+m SimpleName MethodInvocation SimpleName get row
+text SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName m
+text SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get row
+create event SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName mutation
+mutation SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName create event
+string SimpleName MethodInvocation SimpleName format
+string SimpleName MethodInvocation StringLiteral % d
+string SimpleName MethodInvocation SimpleName timestamp
+format SimpleName MethodInvocation StringLiteral % d
+format SimpleName MethodInvocation SimpleName timestamp
+% d StringLiteral MethodInvocation SimpleName timestamp
+text SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName string
+text SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName format
+text SimpleName SimpleType ClassInstanceCreation MethodInvocation StringLiteral % d
+text SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName timestamp
+meta tablet SimpleName MethodInvocation SimpleName to string
+meta tablet SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+to string SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+value SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get bytes
+create event SimpleName MethodInvocation SimpleName put
+create event SimpleName MethodInvocation SimpleName prev row
+create event SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName text
+create event SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName string
+create event SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName format
+create event SimpleName MethodInvocation ClassInstanceCreation MethodInvocation StringLiteral % d
+create event SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName timestamp
+create event SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName value
+create event SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get bytes
+put SimpleName MethodInvocation SimpleName prev row
+put SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName text
+put SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName string
+put SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName format
+put SimpleName MethodInvocation ClassInstanceCreation MethodInvocation StringLiteral % d
+put SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName timestamp
+put SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName value
+put SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get bytes
+prev row SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName text
+prev row SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName string
+prev row SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName format
+prev row SimpleName MethodInvocation ClassInstanceCreation MethodInvocation StringLiteral % d
+prev row SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName timestamp
+prev row SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName value
+prev row SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get bytes
+context SimpleName MethodInvocation SimpleName write
+context SimpleName MethodInvocation SimpleName create events table
+context SimpleName MethodInvocation SimpleName create event
+write SimpleName MethodInvocation SimpleName create events table
+write SimpleName MethodInvocation SimpleName create event
+create events table SimpleName MethodInvocation SimpleName create event
+m SimpleName MethodInvocation SimpleName get row
+text SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName m
+text SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get row
+tablet event SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName mutation
+mutation SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName tablet event
+string SimpleName MethodInvocation SimpleName format
+string SimpleName MethodInvocation StringLiteral % d
+string SimpleName MethodInvocation SimpleName timestamp
+format SimpleName MethodInvocation StringLiteral % d
+format SimpleName MethodInvocation SimpleName timestamp
+% d StringLiteral MethodInvocation SimpleName timestamp
+text SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName string
+text SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName format
+text SimpleName SimpleType ClassInstanceCreation MethodInvocation StringLiteral % d
+text SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName timestamp
+text SimpleName SimpleType ClassInstanceCreation StringLiteral mut
+value SimpleName SimpleType ClassInstanceCreation SimpleName ser mut
+tablet event SimpleName MethodInvocation SimpleName put
+tablet event SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName text
+tablet event SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName string
+tablet event SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName format
+tablet event SimpleName MethodInvocation ClassInstanceCreation MethodInvocation StringLiteral % d
+tablet event SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName timestamp
+tablet event SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName text
+tablet event SimpleName MethodInvocation ClassInstanceCreation StringLiteral mut
+tablet event SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName value
+tablet event SimpleName MethodInvocation ClassInstanceCreation SimpleName ser mut
+put SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName text
+put SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName string
+put SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName format
+put SimpleName MethodInvocation ClassInstanceCreation MethodInvocation StringLiteral % d
+put SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName timestamp
+put SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName text
+put SimpleName MethodInvocation ClassInstanceCreation StringLiteral mut
+put SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName value
+put SimpleName MethodInvocation ClassInstanceCreation SimpleName ser mut
+mut StringLiteral ClassInstanceCreation MethodInvocation ClassInstanceCreation SimpleName ser mut
+string SimpleName MethodInvocation SimpleName format
+string SimpleName MethodInvocation StringLiteral % d
+string SimpleName MethodInvocation SimpleName timestamp
+format SimpleName MethodInvocation StringLiteral % d
+format SimpleName MethodInvocation SimpleName timestamp
+% d StringLiteral MethodInvocation SimpleName timestamp
+text SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName string
+text SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName format
+text SimpleName SimpleType ClassInstanceCreation MethodInvocation StringLiteral % d
+text SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName timestamp
+text SimpleName SimpleType ClassInstanceCreation StringLiteral mtab
+meta tablet SimpleName MethodInvocation SimpleName to string
+meta tablet SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+to string SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+value SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get bytes
+tablet event SimpleName MethodInvocation SimpleName put
+tablet event SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName text
+tablet event SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName string
+tablet event SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName format
+tablet event SimpleName MethodInvocation ClassInstanceCreation MethodInvocation StringLiteral % d
+tablet event SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName timestamp
+tablet event SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName text
+tablet event SimpleName MethodInvocation ClassInstanceCreation StringLiteral mtab
+tablet event SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName value
+tablet event SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get bytes
+put SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName text
+put SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName string
+put SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName format
+put SimpleName MethodInvocation ClassInstanceCreation MethodInvocation StringLiteral % d
+put SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName timestamp
+put SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName text
+put SimpleName MethodInvocation ClassInstanceCreation StringLiteral mtab
+put SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName value
+put SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get bytes
+string SimpleName MethodInvocation SimpleName format
+string SimpleName MethodInvocation StringLiteral % d
+string SimpleName MethodInvocation SimpleName timestamp
+format SimpleName MethodInvocation StringLiteral % d
+format SimpleName MethodInvocation SimpleName timestamp
+% d StringLiteral MethodInvocation SimpleName timestamp
+text SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName string
+text SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName format
+text SimpleName SimpleType ClassInstanceCreation MethodInvocation StringLiteral % d
+text SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName timestamp
+text SimpleName SimpleType ClassInstanceCreation StringLiteral log
+log file SimpleName MethodInvocation SimpleName get bytes
+value SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName log file
+value SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get bytes
+tablet event SimpleName MethodInvocation SimpleName put
+tablet event SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName text
+tablet event SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName string
+tablet event SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName format
+tablet event SimpleName MethodInvocation ClassInstanceCreation MethodInvocation StringLiteral % d
+tablet event SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName timestamp
+tablet event SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName text
+tablet event SimpleName MethodInvocation ClassInstanceCreation StringLiteral log
+tablet event SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName value
+tablet event SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName log file
+tablet event SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get bytes
+put SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName text
+put SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName string
+put SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName format
+put SimpleName MethodInvocation ClassInstanceCreation MethodInvocation StringLiteral % d
+put SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName timestamp
+put SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName text
+put SimpleName MethodInvocation ClassInstanceCreation StringLiteral log
+put SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName value
+put SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName log file
+put SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get bytes
+context SimpleName MethodInvocation SimpleName write
+context SimpleName MethodInvocation SimpleName tablet events table
+context SimpleName MethodInvocation SimpleName tablet event
+write SimpleName MethodInvocation SimpleName tablet events table
+write SimpleName MethodInvocation SimpleName tablet event
+tablet events table SimpleName MethodInvocation SimpleName tablet event
+long PrimitiveType VariableDeclarationStatement Block EnhancedForStatement SimpleName columns updates
+void PrimitiveType MethodDeclaration SimpleName index
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName context
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName context
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName mutation
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName m
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName log file
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName key extent
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName meta tablet
+index SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName context
+index SimpleName MethodDeclaration SingleVariableDeclaration SimpleName context
+index SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName mutation
+index SimpleName MethodDeclaration SingleVariableDeclaration SimpleName m
+index SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+index SimpleName MethodDeclaration SingleVariableDeclaration SimpleName log file
+index SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName key extent
+index SimpleName MethodDeclaration SingleVariableDeclaration SimpleName meta tablet
+index SimpleName MethodDeclaration SimpleType SimpleName io exception
+context SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName m
+context SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName log file
+context SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName meta tablet
+context SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+context SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName interrupted exception
+m SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName log file
+m SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName meta tablet
+m SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+m SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName interrupted exception
+log file SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName meta tablet
+log file SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+log file SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName interrupted exception
+meta tablet SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+meta tablet SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName interrupted exception
+io exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName interrupted exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName index
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName context
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName m
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName log file
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName meta tablet
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName interrupted exception
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName index
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName context
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName m
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName log file
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName meta tablet
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName interrupted exception

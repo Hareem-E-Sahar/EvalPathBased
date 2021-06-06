@@ -1,0 +1,45 @@
+iterator SimpleName SimpleType ParameterizedType SimpleType SimpleName log entry
+credentials SimpleName SimpleType SingleVariableDeclaration SimpleName creds
+log entry iterator SimpleName SimpleType ClassInstanceCreation SimpleName creds
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName iterator
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName log entry
+public Modifier MethodDeclaration SimpleName get log entries
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName credentials
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName creds
+public Modifier MethodDeclaration SimpleType SimpleName io exception
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName iterator
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName log entry
+static Modifier MethodDeclaration SimpleName get log entries
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName credentials
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName creds
+static Modifier MethodDeclaration SimpleType SimpleName io exception
+static Modifier MethodDeclaration SimpleType SimpleName keeper exception
+iterator SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get log entries
+log entry SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get log entries
+get log entries SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName credentials
+get log entries SimpleName MethodDeclaration SingleVariableDeclaration SimpleName creds
+get log entries SimpleName MethodDeclaration SimpleType SimpleName io exception
+get log entries SimpleName MethodDeclaration SimpleType SimpleName keeper exception
+get log entries SimpleName MethodDeclaration SimpleType SimpleName interrupted exception
+creds SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+creds SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName keeper exception
+creds SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName interrupted exception
+io exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName keeper exception
+io exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName interrupted exception
+keeper exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName interrupted exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleName get log entries
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName creds
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName keeper exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName interrupted exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get log entries
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName creds
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName keeper exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName interrupted exception

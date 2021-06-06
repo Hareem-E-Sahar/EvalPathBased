@@ -1,0 +1,52 @@
+entity SimpleName SimpleType SingleVariableDeclaration SimpleName entity
+atlas entity ext info SimpleName SimpleType SingleVariableDeclaration SimpleName entity ext info
+atlas entity SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ret
+entity SimpleName MethodInvocation SimpleName get type
+to atlas entity SimpleName MethodInvocation SimpleName entity
+to atlas entity SimpleName MethodInvocation SimpleName entity ext info
+entity SimpleName MethodInvocation SimpleName entity ext info
+ret SimpleName Assignment MethodInvocation SimpleName to atlas entity
+ret SimpleName Assignment MethodInvocation SimpleName entity
+ret SimpleName Assignment MethodInvocation SimpleName entity ext info
+entity SimpleName MethodInvocation SwitchStatement SwitchCase SimpleName table
+get type SimpleName MethodInvocation SwitchStatement SwitchCase SimpleName table
+entity SimpleName MethodInvocation SwitchStatement SwitchCase SimpleName partition
+get type SimpleName MethodInvocation SwitchStatement SwitchCase SimpleName partition
+entity SimpleName MethodInvocation SwitchStatement SwitchCase SimpleName dfs dir
+get type SimpleName MethodInvocation SwitchStatement SwitchCase SimpleName dfs dir
+table SimpleName SwitchCase SwitchStatement SwitchCase SimpleName partition
+table SimpleName SwitchCase SwitchStatement SwitchCase SimpleName dfs dir
+partition SimpleName SwitchCase SwitchStatement SwitchCase SimpleName dfs dir
+protected Modifier MethodDeclaration SimpleType SimpleName atlas entity
+protected Modifier MethodDeclaration SimpleName get input output entity
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName entity
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName entity
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas entity ext info
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName entity ext info
+protected Modifier MethodDeclaration SimpleType SimpleName exception
+atlas entity SimpleName SimpleType MethodDeclaration SimpleName get input output entity
+atlas entity SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName entity
+atlas entity SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName entity ext info
+atlas entity SimpleName SimpleType MethodDeclaration SimpleType SimpleName exception
+get input output entity SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName entity
+get input output entity SimpleName MethodDeclaration SingleVariableDeclaration SimpleName entity
+get input output entity SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas entity ext info
+get input output entity SimpleName MethodDeclaration SingleVariableDeclaration SimpleName entity ext info
+get input output entity SimpleName MethodDeclaration SimpleType SimpleName exception
+get input output entity SimpleName MethodDeclaration Block ReturnStatement SimpleName ret
+entity SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity ext info
+entity SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+entity ext info SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas entity
+public Modifier TypeDeclaration MethodDeclaration SimpleName get input output entity
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity ext info
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas entity
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get input output entity
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity ext info
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

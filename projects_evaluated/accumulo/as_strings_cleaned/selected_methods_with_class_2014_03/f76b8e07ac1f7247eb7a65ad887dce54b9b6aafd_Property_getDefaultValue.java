@@ -1,0 +1,40 @@
+pconf SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName properties configuration
+properties configuration SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName pconf
+system SimpleName MethodInvocation SimpleName get properties
+system properties SimpleName VariableDeclarationFragment MethodInvocation SimpleName system
+system properties SimpleName VariableDeclarationFragment MethodInvocation SimpleName get properties
+properties SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName system properties
+map configuration SimpleName SimpleType ClassInstanceCreation SimpleName system properties
+pconf SimpleName MethodInvocation SimpleName append
+pconf SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName map configuration
+pconf SimpleName MethodInvocation ClassInstanceCreation SimpleName system properties
+append SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName map configuration
+append SimpleName MethodInvocation ClassInstanceCreation SimpleName system properties
+pconf SimpleName MethodInvocation SimpleName add property
+pconf SimpleName MethodInvocation StringLiteral hack default value
+pconf SimpleName MethodInvocation FieldAccess SimpleName default value
+add property SimpleName MethodInvocation StringLiteral hack default value
+add property SimpleName MethodInvocation FieldAccess SimpleName default value
+hack default value StringLiteral MethodInvocation FieldAccess SimpleName default value
+pconf SimpleName MethodInvocation SimpleName get string
+pconf SimpleName MethodInvocation StringLiteral hack default value
+get string SimpleName MethodInvocation StringLiteral hack default value
+v SimpleName VariableDeclarationFragment MethodInvocation SimpleName pconf
+v SimpleName VariableDeclarationFragment MethodInvocation SimpleName get string
+v SimpleName VariableDeclarationFragment MethodInvocation StringLiteral hack default value
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName v
+type SimpleName FieldAccess InfixExpression QualifiedName property typeabsolutepath
+file SimpleName SimpleType ClassInstanceCreation SimpleName v
+file SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get absolute path
+v SimpleName ClassInstanceCreation MethodInvocation SimpleName get absolute path
+property typeabsolutepath QualifiedName InfixExpression IfStatement ReturnStatement SimpleName v
+public Modifier MethodDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName get default value
+string SimpleName SimpleType MethodDeclaration SimpleName get default value
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName get default value
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get default value

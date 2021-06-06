@@ -1,0 +1,47 @@
+api v SimpleName SimpleType SingleVariableDeclaration SimpleName api v
+web resource SimpleName SimpleType SingleVariableDeclaration SimpleName resource
+call api with resource SimpleName MethodInvocation SimpleName api v
+call api with resource SimpleName MethodInvocation SimpleName resource
+call api with resource SimpleName MethodInvocation TypeLiteral SimpleType SimpleName object node
+api v SimpleName MethodInvocation SimpleName resource
+api v SimpleName MethodInvocation TypeLiteral SimpleType SimpleName object node
+resource SimpleName MethodInvocation TypeLiteral SimpleType SimpleName object node
+visible for testing SimpleName MarkerAnnotation MethodDeclaration Modifier public
+visible for testing SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName object node
+visible for testing SimpleName MarkerAnnotation MethodDeclaration SimpleName call api with resource
+visible for testing SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName api v
+visible for testing SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName resource
+public Modifier MethodDeclaration SimpleType SimpleName object node
+public Modifier MethodDeclaration SimpleName call api with resource
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName api v
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName api v
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName web resource
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName resource
+public Modifier MethodDeclaration SimpleType SimpleName atlas service exception
+object node SimpleName SimpleType MethodDeclaration SimpleName call api with resource
+object node SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName api v
+object node SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName resource
+object node SimpleName SimpleType MethodDeclaration SimpleType SimpleName atlas service exception
+call api with resource SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName api v
+call api with resource SimpleName MethodDeclaration SingleVariableDeclaration SimpleName api v
+call api with resource SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName web resource
+call api with resource SimpleName MethodDeclaration SingleVariableDeclaration SimpleName resource
+call api with resource SimpleName MethodDeclaration SimpleType SimpleName atlas service exception
+api v SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName resource
+api v SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas service exception
+resource SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas service exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName visible for testing
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName object node
+public Modifier TypeDeclaration MethodDeclaration SimpleName call api with resource
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName api v
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName resource
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas service exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName visible for testing
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName object node
+test SimpleName TypeDeclaration MethodDeclaration SimpleName call api with resource
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName api v
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName resource
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas service exception

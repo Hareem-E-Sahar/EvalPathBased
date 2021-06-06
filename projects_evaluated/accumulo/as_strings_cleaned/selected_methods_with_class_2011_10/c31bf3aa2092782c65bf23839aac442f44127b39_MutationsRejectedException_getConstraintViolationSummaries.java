@@ -1,0 +1,13 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName constraint violation summary
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName constraint violation summary
+public Modifier MethodDeclaration SimpleName get constraint violation summaries
+public Modifier MethodDeclaration Block ReturnStatement SimpleName cvsl
+list SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get constraint violation summaries
+constraint violation summary SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get constraint violation summaries
+get constraint violation summaries SimpleName MethodDeclaration Block ReturnStatement SimpleName cvsl
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName get constraint violation summaries
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get constraint violation summaries

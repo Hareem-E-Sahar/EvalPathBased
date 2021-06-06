@@ -1,0 +1,108 @@
+graph persistence strategies SimpleName SimpleType SingleVariableDeclaration SimpleName s
+string SimpleName SimpleType SingleVariableDeclaration SimpleName type name
+groovy expression SimpleName SimpleType SingleVariableDeclaration SimpleName it ref
+s SimpleName MethodInvocation SimpleName type attribute name
+literal expression SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName s
+literal expression SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName type attribute name
+type attr expr SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName literal expression
+type attr expr SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName s
+type attr expr SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName type attribute name
+literal expression SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName type attr expr
+s SimpleName MethodInvocation SimpleName super type attribute name
+literal expression SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName s
+literal expression SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName super type attribute name
+super type attr expr SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName literal expression
+super type attr expr SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName s
+super type attr expr SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName super type attribute name
+literal expression SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName super type attr expr
+literal expression SimpleName SimpleType ClassInstanceCreation SimpleName type name
+type name expr SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName literal expression
+type name expr SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName type name
+literal expression SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName type name expr
+function call expression SimpleName SimpleType ClassInstanceCreation SimpleName eq method
+function call expression SimpleName SimpleType ClassInstanceCreation SimpleName type name expr
+eq method SimpleName ClassInstanceCreation SimpleName type name expr
+function call expression SimpleName SimpleType ClassInstanceCreation SimpleName has method
+function call expression SimpleName SimpleType ClassInstanceCreation SimpleName type attr expr
+function call expression SimpleName SimpleType ClassInstanceCreation ClassInstanceCreation SimpleName eq method
+function call expression SimpleName SimpleType ClassInstanceCreation ClassInstanceCreation SimpleName type name expr
+has method SimpleName ClassInstanceCreation SimpleName type attr expr
+has method SimpleName ClassInstanceCreation ClassInstanceCreation SimpleType SimpleName function call expression
+has method SimpleName ClassInstanceCreation ClassInstanceCreation SimpleName eq method
+has method SimpleName ClassInstanceCreation ClassInstanceCreation SimpleName type name expr
+type attr expr SimpleName ClassInstanceCreation ClassInstanceCreation SimpleType SimpleName function call expression
+type attr expr SimpleName ClassInstanceCreation ClassInstanceCreation SimpleName eq method
+type attr expr SimpleName ClassInstanceCreation ClassInstanceCreation SimpleName type name expr
+result SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName function call expression
+result SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName has method
+result SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName type attr expr
+result SimpleName VariableDeclarationFragment ClassInstanceCreation ClassInstanceCreation SimpleName eq method
+result SimpleName VariableDeclarationFragment ClassInstanceCreation ClassInstanceCreation SimpleName type name expr
+function call expression SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName result
+function call expression SimpleName SimpleType ClassInstanceCreation SimpleName result
+function call expression SimpleName SimpleType ClassInstanceCreation StringLiteral or
+result SimpleName ClassInstanceCreation StringLiteral or
+result SimpleName Assignment ClassInstanceCreation SimpleType SimpleName function call expression
+result SimpleName Assignment ClassInstanceCreation SimpleName result
+result SimpleName Assignment ClassInstanceCreation StringLiteral or
+function call expression SimpleName SimpleType ClassInstanceCreation SimpleName eq method
+function call expression SimpleName SimpleType ClassInstanceCreation SimpleName type name expr
+eq method SimpleName ClassInstanceCreation SimpleName type name expr
+function call expression SimpleName SimpleType ClassInstanceCreation SimpleName has method
+function call expression SimpleName SimpleType ClassInstanceCreation SimpleName super type attr expr
+function call expression SimpleName SimpleType ClassInstanceCreation ClassInstanceCreation SimpleName eq method
+function call expression SimpleName SimpleType ClassInstanceCreation ClassInstanceCreation SimpleName type name expr
+has method SimpleName ClassInstanceCreation SimpleName super type attr expr
+has method SimpleName ClassInstanceCreation ClassInstanceCreation SimpleType SimpleName function call expression
+has method SimpleName ClassInstanceCreation ClassInstanceCreation SimpleName eq method
+has method SimpleName ClassInstanceCreation ClassInstanceCreation SimpleName type name expr
+super type attr expr SimpleName ClassInstanceCreation ClassInstanceCreation SimpleType SimpleName function call expression
+super type attr expr SimpleName ClassInstanceCreation ClassInstanceCreation SimpleName eq method
+super type attr expr SimpleName ClassInstanceCreation ClassInstanceCreation SimpleName type name expr
+result SimpleName Assignment ClassInstanceCreation SimpleType SimpleName function call expression
+result SimpleName Assignment ClassInstanceCreation SimpleName has method
+result SimpleName Assignment ClassInstanceCreation SimpleName super type attr expr
+result SimpleName Assignment ClassInstanceCreation ClassInstanceCreation SimpleName eq method
+result SimpleName Assignment ClassInstanceCreation ClassInstanceCreation SimpleName type name expr
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName groovy expression
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName type test expression
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName s
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName type name
+public Modifier MethodDeclaration SimpleType SimpleName groovy expression
+public Modifier MethodDeclaration SimpleName type test expression
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName graph persistence strategies
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName s
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName type name
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName groovy expression
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName it ref
+groovy expression SimpleName SimpleType MethodDeclaration SimpleName type test expression
+groovy expression SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName s
+groovy expression SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName type name
+groovy expression SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName it ref
+type test expression SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName graph persistence strategies
+type test expression SimpleName MethodDeclaration SingleVariableDeclaration SimpleName s
+type test expression SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+type test expression SimpleName MethodDeclaration SingleVariableDeclaration SimpleName type name
+type test expression SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName groovy expression
+type test expression SimpleName MethodDeclaration SingleVariableDeclaration SimpleName it ref
+type test expression SimpleName MethodDeclaration Block ReturnStatement SimpleName result
+s SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type name
+s SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName it ref
+type name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName it ref
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName groovy expression
+public Modifier TypeDeclaration MethodDeclaration SimpleName type test expression
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName s
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName it ref
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName groovy expression
+test SimpleName TypeDeclaration MethodDeclaration SimpleName type test expression
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName s
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName it ref

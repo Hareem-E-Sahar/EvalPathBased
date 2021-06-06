@@ -1,0 +1,74 @@
+linked hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName type
+linked hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName referenceable
+type SimpleName SimpleType ParameterizedType SimpleType SimpleName referenceable
+hive meta store bridge SimpleName SimpleType SingleVariableDeclaration SimpleName dgi bridge
+hive event context SimpleName SimpleType SingleVariableDeclaration SimpleName event
+entity SimpleName SimpleType SingleVariableDeclaration SimpleName entity
+boolean PrimitiveType SingleVariableDeclaration SimpleName skip temp tables
+create or update entities SimpleName MethodInvocation SimpleName dgi bridge
+create or update entities SimpleName MethodInvocation SimpleName event
+create or update entities SimpleName MethodInvocation SimpleName entity
+create or update entities SimpleName MethodInvocation SimpleName skip temp tables
+dgi bridge SimpleName MethodInvocation SimpleName event
+dgi bridge SimpleName MethodInvocation SimpleName entity
+dgi bridge SimpleName MethodInvocation SimpleName skip temp tables
+event SimpleName MethodInvocation SimpleName entity
+event SimpleName MethodInvocation SimpleName skip temp tables
+entity SimpleName MethodInvocation SimpleName skip temp tables
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+atlas hook exception SimpleName SimpleType ClassInstanceCreation StringLiteral hive hookcreate or update entities failed
+atlas hook exception SimpleName SimpleType ClassInstanceCreation SimpleName e
+hive hookcreate or update entities failed StringLiteral ClassInstanceCreation SimpleName e
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName linked hash map
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName type
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName referenceable
+private Modifier MethodDeclaration SimpleName create or update entities
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName hive meta store bridge
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName dgi bridge
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName hive event context
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName event
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName entity
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName entity
+linked hash map SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName create or update entities
+type SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName create or update entities
+referenceable SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName create or update entities
+create or update entities SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName hive meta store bridge
+create or update entities SimpleName MethodDeclaration SingleVariableDeclaration SimpleName dgi bridge
+create or update entities SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName hive event context
+create or update entities SimpleName MethodDeclaration SingleVariableDeclaration SimpleName event
+create or update entities SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName entity
+create or update entities SimpleName MethodDeclaration SingleVariableDeclaration SimpleName entity
+create or update entities SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+create or update entities SimpleName MethodDeclaration SingleVariableDeclaration SimpleName skip temp tables
+create or update entities SimpleName MethodDeclaration SimpleType SimpleName atlas hook exception
+dgi bridge SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName event
+dgi bridge SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity
+dgi bridge SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+dgi bridge SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName skip temp tables
+dgi bridge SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas hook exception
+event SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity
+event SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+event SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName skip temp tables
+event SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas hook exception
+entity SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+entity SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName skip temp tables
+entity SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas hook exception
+boolean PrimitiveType SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas hook exception
+skip temp tables SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas hook exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleName create or update entities
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName dgi bridge
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName event
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName skip temp tables
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas hook exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create or update entities
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName dgi bridge
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName event
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName skip temp tables
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas hook exception

@@ -1,0 +1,22 @@
+in SimpleName MethodInvocation SimpleName get pos
+public Modifier MethodDeclaration Modifier synchronized
+public Modifier MethodDeclaration PrimitiveType long
+public Modifier MethodDeclaration SimpleName get position
+public Modifier MethodDeclaration SimpleType SimpleName io exception
+synchronized Modifier MethodDeclaration PrimitiveType long
+synchronized Modifier MethodDeclaration SimpleName get position
+synchronized Modifier MethodDeclaration SimpleType SimpleName io exception
+long PrimitiveType MethodDeclaration SimpleName get position
+long PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+get position SimpleName MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier synchronized
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType long
+public Modifier TypeDeclaration MethodDeclaration SimpleName get position
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier synchronized
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType long
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get position
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

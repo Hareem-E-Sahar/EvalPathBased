@@ -1,0 +1,215 @@
+servers SimpleName MethodInvocation SimpleName clear
+char PrimitiveType SingleVariableDeclaration SimpleName c
+abcdefghijklmnopqrstuvwxyz StringLiteral MethodInvocation SimpleName to char array
+character SimpleName MethodInvocation SimpleName to string
+character SimpleName MethodInvocation SimpleName c
+to string SimpleName MethodInvocation SimpleName c
+c string SimpleName VariableDeclarationFragment MethodInvocation SimpleName character
+c string SimpleName VariableDeclarationFragment MethodInvocation SimpleName to string
+c string SimpleName VariableDeclarationFragment MethodInvocation SimpleName c
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName c string
+int PrimitiveType CastExpression SimpleName c
+address util SimpleName MethodInvocation SimpleName parse address
+address util SimpleName MethodInvocation StringLiteral . . .
+address util SimpleName MethodInvocation CastExpression PrimitiveType int
+address util SimpleName MethodInvocation CastExpression SimpleName c
+parse address SimpleName MethodInvocation StringLiteral . . .
+parse address SimpleName MethodInvocation CastExpression PrimitiveType int
+parse address SimpleName MethodInvocation CastExpression SimpleName c
+. . . StringLiteral MethodInvocation CastExpression PrimitiveType int
+. . . StringLiteral MethodInvocation CastExpression SimpleName c
+fake address SimpleName VariableDeclarationFragment MethodInvocation SimpleName address util
+fake address SimpleName VariableDeclarationFragment MethodInvocation SimpleName parse address
+fake address SimpleName VariableDeclarationFragment MethodInvocation StringLiteral . . .
+fake address SimpleName VariableDeclarationFragment MethodInvocation CastExpression PrimitiveType int
+fake address SimpleName VariableDeclarationFragment MethodInvocation CastExpression SimpleName c
+inet socket address SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName fake address
+fake instance SimpleName VariableDeclarationFragment SimpleName c string
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName fake instance
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName c string
+t server instance SimpleName SimpleType ClassInstanceCreation SimpleName fake address
+t server instance SimpleName SimpleType ClassInstanceCreation SimpleName fake instance
+fake address SimpleName ClassInstanceCreation SimpleName fake instance
+tsi SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName t server instance
+tsi SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName fake address
+tsi SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName fake instance
+t server instance SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName tsi
+fake t server SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName fake t server
+fake t server SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName fake t server
+servers SimpleName MethodInvocation SimpleName put
+servers SimpleName MethodInvocation SimpleName tsi
+servers SimpleName MethodInvocation SimpleName fake t server
+put SimpleName MethodInvocation SimpleName tsi
+put SimpleName MethodInvocation SimpleName fake t server
+tsi SimpleName MethodInvocation SimpleName fake t server
+char PrimitiveType SingleVariableDeclaration EnhancedForStatement MethodInvocation StringLiteral abcdefghijklmnopqrstuvwxyz
+char PrimitiveType SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName to char array
+c SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation StringLiteral abcdefghijklmnopqrstuvwxyz
+c SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName to char array
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName t server instance
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName fake t server
+t server instance SimpleName SimpleType ParameterizedType SimpleType SimpleName fake t server
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName t server instance
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName fake t server
+t server instance SimpleName SimpleType ParameterizedType SimpleType SimpleName fake t server
+servers SimpleName MethodInvocation SimpleName entry set
+short list SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName servers
+short list SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName entry set
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName t server instance
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName fake t server
+t server instance SimpleName SimpleType ParameterizedType SimpleType SimpleName fake t server
+short list SimpleName MethodInvocation SimpleName remove
+short list SimpleName MethodInvocation NumberLiteral empty
+remove SimpleName MethodInvocation NumberLiteral empty
+short server SimpleName VariableDeclarationFragment MethodInvocation SimpleName short list
+short server SimpleName VariableDeclarationFragment MethodInvocation SimpleName remove
+short server SimpleName VariableDeclarationFragment MethodInvocation NumberLiteral empty
+c SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName c
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+i SimpleName InfixExpression NumberLiteral empty
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName t server instance
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName fake t server
+t server instance SimpleName SimpleType ParameterizedType SimpleType SimpleName fake t server
+entry SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+t server instance SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+fake t server SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+entry SimpleName MethodInvocation SimpleName get value
+entry SimpleName MethodInvocation FieldAccess SimpleName extents
+get value SimpleName MethodInvocation FieldAccess SimpleName extents
+t StringLiteral InfixExpression SimpleName c
+make extent SimpleName MethodInvocation InfixExpression StringLiteral t
+make extent SimpleName MethodInvocation InfixExpression SimpleName c
+entry SimpleName MethodInvocation FieldAccess MethodInvocation SimpleName add
+get value SimpleName MethodInvocation FieldAccess MethodInvocation SimpleName add
+extents SimpleName FieldAccess MethodInvocation SimpleName add
+extents SimpleName FieldAccess MethodInvocation MethodInvocation SimpleName make extent
+add SimpleName MethodInvocation MethodInvocation SimpleName make extent
+add SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral t
+add SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName c
+entry SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName short list
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+empty NumberLiteral InfixExpression ForStatement PostfixExpression SimpleName i
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+i SimpleName InfixExpression NumberLiteral empty
+short server SimpleName MethodInvocation SimpleName get value
+short server SimpleName MethodInvocation FieldAccess SimpleName extents
+get value SimpleName MethodInvocation FieldAccess SimpleName extents
+s StringLiteral InfixExpression SimpleName i
+make extent SimpleName MethodInvocation InfixExpression StringLiteral s
+make extent SimpleName MethodInvocation InfixExpression SimpleName i
+short server SimpleName MethodInvocation FieldAccess MethodInvocation SimpleName add
+get value SimpleName MethodInvocation FieldAccess MethodInvocation SimpleName add
+extents SimpleName FieldAccess MethodInvocation SimpleName add
+extents SimpleName FieldAccess MethodInvocation MethodInvocation SimpleName make extent
+add SimpleName MethodInvocation MethodInvocation SimpleName make extent
+add SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral s
+add SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+empty NumberLiteral InfixExpression ForStatement PostfixExpression SimpleName i
+balancer SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName test default load balancer
+test default load balancer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName balancer
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName key extent
+collections SimpleName MethodInvocation SimpleName empty set
+migrations SimpleName VariableDeclarationFragment MethodInvocation SimpleName collections
+migrations SimpleName VariableDeclarationFragment MethodInvocation SimpleName empty set
+moved SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName moved
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName tablet migration
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName tablet migration
+get assignments SimpleName MethodInvocation SimpleName servers
+balancer SimpleName MethodInvocation SimpleName balance
+balancer SimpleName MethodInvocation MethodInvocation SimpleName get assignments
+balancer SimpleName MethodInvocation MethodInvocation SimpleName servers
+balancer SimpleName MethodInvocation SimpleName migrations
+balancer SimpleName MethodInvocation SimpleName migrations out
+balance SimpleName MethodInvocation MethodInvocation SimpleName get assignments
+balance SimpleName MethodInvocation MethodInvocation SimpleName servers
+balance SimpleName MethodInvocation SimpleName migrations
+balance SimpleName MethodInvocation SimpleName migrations out
+get assignments SimpleName MethodInvocation MethodInvocation SimpleName migrations
+servers SimpleName MethodInvocation MethodInvocation SimpleName migrations
+get assignments SimpleName MethodInvocation MethodInvocation SimpleName migrations out
+servers SimpleName MethodInvocation MethodInvocation SimpleName migrations out
+migrations SimpleName MethodInvocation SimpleName migrations out
+migrations out SimpleName MethodInvocation SimpleName size
+migrations out SimpleName MethodInvocation InfixExpression NumberLiteral empty
+size SimpleName MethodInvocation InfixExpression NumberLiteral empty
+tablet migration SimpleName SimpleType SingleVariableDeclaration SimpleName migration
+servers SimpleName MethodInvocation SimpleName get
+servers SimpleName MethodInvocation QualifiedName migrationold server
+get SimpleName MethodInvocation QualifiedName migrationold server
+servers SimpleName MethodInvocation FieldAccess SimpleName extents
+get SimpleName MethodInvocation FieldAccess SimpleName extents
+migrationold server QualifiedName MethodInvocation FieldAccess SimpleName extents
+servers SimpleName MethodInvocation FieldAccess MethodInvocation SimpleName remove
+get SimpleName MethodInvocation FieldAccess MethodInvocation SimpleName remove
+migrationold server QualifiedName MethodInvocation FieldAccess MethodInvocation SimpleName remove
+extents SimpleName FieldAccess MethodInvocation SimpleName remove
+servers SimpleName MethodInvocation FieldAccess MethodInvocation QualifiedName migrationtablet
+get SimpleName MethodInvocation FieldAccess MethodInvocation QualifiedName migrationtablet
+migrationold server QualifiedName MethodInvocation FieldAccess MethodInvocation QualifiedName migrationtablet
+extents SimpleName FieldAccess MethodInvocation QualifiedName migrationtablet
+remove SimpleName MethodInvocation QualifiedName migrationtablet
+servers SimpleName MethodInvocation SimpleName get
+servers SimpleName MethodInvocation QualifiedName migrationnew server
+get SimpleName MethodInvocation QualifiedName migrationnew server
+servers SimpleName MethodInvocation FieldAccess SimpleName extents
+get SimpleName MethodInvocation FieldAccess SimpleName extents
+migrationnew server QualifiedName MethodInvocation FieldAccess SimpleName extents
+servers SimpleName MethodInvocation FieldAccess MethodInvocation SimpleName add
+get SimpleName MethodInvocation FieldAccess MethodInvocation SimpleName add
+migrationnew server QualifiedName MethodInvocation FieldAccess MethodInvocation SimpleName add
+extents SimpleName FieldAccess MethodInvocation SimpleName add
+servers SimpleName MethodInvocation FieldAccess MethodInvocation QualifiedName migrationtablet
+get SimpleName MethodInvocation FieldAccess MethodInvocation QualifiedName migrationtablet
+migrationnew server QualifiedName MethodInvocation FieldAccess MethodInvocation QualifiedName migrationtablet
+extents SimpleName FieldAccess MethodInvocation QualifiedName migrationtablet
+add SimpleName MethodInvocation QualifiedName migrationtablet
+tablet migration SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName migrations out
+migration SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName migrations out
+true BooleanLiteral WhileStatement Block EnhancedForStatement SimpleName migrations out
+assert SimpleName MethodInvocation SimpleName assert equals
+assert SimpleName MethodInvocation NumberLiteral empty
+assert SimpleName MethodInvocation SimpleName moved
+assert equals SimpleName MethodInvocation NumberLiteral empty
+assert equals SimpleName MethodInvocation SimpleName moved
+empty NumberLiteral MethodInvocation SimpleName moved
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType VariableDeclarationStatement Block WhileStatement BooleanLiteral true
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test uneven assignment
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test uneven assignment
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+public Modifier MethodDeclaration Block WhileStatement BooleanLiteral true
+void PrimitiveType MethodDeclaration SimpleName test uneven assignment
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+void PrimitiveType MethodDeclaration Block WhileStatement BooleanLiteral true
+test uneven assignment SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+test uneven assignment SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+test uneven assignment SimpleName MethodDeclaration Block WhileStatement BooleanLiteral true
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test uneven assignment
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test uneven assignment

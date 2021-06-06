@@ -1,0 +1,80 @@
+final Modifier SingleVariableDeclaration SimpleType SimpleName string
+final Modifier SingleVariableDeclaration SimpleName dataset name
+string SimpleName SimpleType SingleVariableDeclaration SimpleName dataset name
+string utils SimpleName MethodInvocation SimpleName is empty
+string utils SimpleName MethodInvocation SimpleName dataset name
+is empty SimpleName MethodInvocation SimpleName dataset name
+atlas base exception SimpleName SimpleType ClassInstanceCreation QualifiedName atlas error codebad request
+atlas type registry SimpleName MethodInvocation SimpleName get entity type by name
+atlas type registry SimpleName MethodInvocation StringLiteral hive table
+get entity type by name SimpleName MethodInvocation StringLiteral hive table
+hive table SimpleName VariableDeclarationFragment MethodInvocation SimpleName atlas type registry
+hive table SimpleName VariableDeclarationFragment MethodInvocation SimpleName get entity type by name
+hive table SimpleName VariableDeclarationFragment MethodInvocation StringLiteral hive table
+atlas entity type SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName hive table
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+lookup attributes SimpleName MethodInvocation SimpleName put
+lookup attributes SimpleName MethodInvocation StringLiteral qualified name
+lookup attributes SimpleName MethodInvocation SimpleName dataset name
+put SimpleName MethodInvocation StringLiteral qualified name
+put SimpleName MethodInvocation SimpleName dataset name
+qualified name StringLiteral MethodInvocation SimpleName dataset name
+atlas graph utils v SimpleName MethodInvocation SimpleName get guid by unique attributes
+atlas graph utils v SimpleName MethodInvocation SimpleName hive table
+atlas graph utils v SimpleName MethodInvocation SimpleName lookup attributes
+get guid by unique attributes SimpleName MethodInvocation SimpleName hive table
+get guid by unique attributes SimpleName MethodInvocation SimpleName lookup attributes
+hive table SimpleName MethodInvocation SimpleName lookup attributes
+guid SimpleName VariableDeclarationFragment MethodInvocation SimpleName atlas graph utils v
+guid SimpleName VariableDeclarationFragment MethodInvocation SimpleName get guid by unique attributes
+guid SimpleName VariableDeclarationFragment MethodInvocation SimpleName hive table
+guid SimpleName VariableDeclarationFragment MethodInvocation SimpleName lookup attributes
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName guid
+get schema for hive table by guid SimpleName MethodInvocation SimpleName guid
+override SimpleName MarkerAnnotation MethodDeclaration MarkerAnnotation SimpleName graph transaction
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName schema details
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName get schema for hive table by name
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration Modifier final
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName dataset name
+graph transaction SimpleName MarkerAnnotation MethodDeclaration Modifier public
+graph transaction SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName schema details
+graph transaction SimpleName MarkerAnnotation MethodDeclaration SimpleName get schema for hive table by name
+graph transaction SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration Modifier final
+graph transaction SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName dataset name
+graph transaction SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier MethodDeclaration SimpleType SimpleName schema details
+public Modifier MethodDeclaration SimpleName get schema for hive table by name
+public Modifier MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName dataset name
+public Modifier MethodDeclaration SimpleType SimpleName atlas base exception
+schema details SimpleName SimpleType MethodDeclaration SimpleName get schema for hive table by name
+schema details SimpleName SimpleType MethodDeclaration SingleVariableDeclaration Modifier final
+schema details SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName dataset name
+schema details SimpleName SimpleType MethodDeclaration SimpleType SimpleName atlas base exception
+get schema for hive table by name SimpleName MethodDeclaration SingleVariableDeclaration Modifier final
+get schema for hive table by name SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get schema for hive table by name SimpleName MethodDeclaration SingleVariableDeclaration SimpleName dataset name
+get schema for hive table by name SimpleName MethodDeclaration SimpleType SimpleName atlas base exception
+final Modifier SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+dataset name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName graph transaction
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName schema details
+public Modifier TypeDeclaration MethodDeclaration SimpleName get schema for hive table by name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName dataset name
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName graph transaction
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName schema details
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get schema for hive table by name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName dataset name
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception

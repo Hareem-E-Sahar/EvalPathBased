@@ -1,0 +1,52 @@
+chunk input stream SimpleName SimpleType SingleVariableDeclaration SimpleName cis
+byte PrimitiveType ArrayType SingleVariableDeclaration SimpleName b
+cis SimpleName MethodInvocation SimpleName read
+cis SimpleName MethodInvocation SimpleName b
+read SimpleName MethodInvocation SimpleName b
+io exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+e SimpleName MethodInvocation SimpleName get message
+exception StringLiteral InfixExpression MethodInvocation SimpleName e
+exception StringLiteral InfixExpression MethodInvocation SimpleName get message
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation InfixExpression StringLiteral exception
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName e
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get message
+debug SimpleName MethodInvocation InfixExpression StringLiteral exception
+debug SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName e
+debug SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get message
+private Modifier MethodDeclaration Modifier static
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName assume exception on read
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName chunk input stream
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName cis
+private Modifier MethodDeclaration SingleVariableDeclaration ArrayType PrimitiveType byte
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName b
+static Modifier MethodDeclaration PrimitiveType void
+static Modifier MethodDeclaration SimpleName assume exception on read
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName chunk input stream
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName cis
+static Modifier MethodDeclaration SingleVariableDeclaration ArrayType PrimitiveType byte
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName b
+void PrimitiveType MethodDeclaration SimpleName assume exception on read
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName chunk input stream
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName cis
+void PrimitiveType MethodDeclaration SingleVariableDeclaration ArrayType PrimitiveType byte
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName b
+assume exception on read SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName chunk input stream
+assume exception on read SimpleName MethodDeclaration SingleVariableDeclaration SimpleName cis
+assume exception on read SimpleName MethodDeclaration SingleVariableDeclaration ArrayType PrimitiveType byte
+assume exception on read SimpleName MethodDeclaration SingleVariableDeclaration SimpleName b
+cis SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName b
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName assume exception on read
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cis
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName b
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName assume exception on read
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cis
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName b

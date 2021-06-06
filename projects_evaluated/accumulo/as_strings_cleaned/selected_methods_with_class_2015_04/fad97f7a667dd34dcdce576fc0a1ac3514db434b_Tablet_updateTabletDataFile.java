@@ -1,0 +1,176 @@
+long PrimitiveType SingleVariableDeclaration SimpleName max committed time
+file ref SimpleName SimpleType SingleVariableDeclaration SimpleName new datafile
+file ref SimpleName SimpleType SingleVariableDeclaration SimpleName abs merge file
+data file value SimpleName SimpleType SingleVariableDeclaration SimpleName dfv
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+set SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName unused wal logs
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName unused wal logs
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName file ref
+set SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName files in use by scans
+file ref SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName files in use by scans
+long PrimitiveType SingleVariableDeclaration SimpleName flush id
+max committed time SimpleName InfixExpression SimpleName persisted time
+persisted time SimpleName Assignment SimpleName max committed time
+tablet time SimpleName MethodInvocation SimpleName get metadata value
+tablet time SimpleName MethodInvocation SimpleName persisted time
+get metadata value SimpleName MethodInvocation SimpleName persisted time
+time SimpleName VariableDeclarationFragment MethodInvocation SimpleName tablet time
+time SimpleName VariableDeclarationFragment MethodInvocation SimpleName get metadata value
+time SimpleName VariableDeclarationFragment MethodInvocation SimpleName persisted time
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName time
+tablet server SimpleName MethodInvocation SimpleName get client address string
+tablet server SimpleName MethodInvocation SimpleName get lock
+master metadata util SimpleName MethodInvocation SimpleName update tablet data file
+master metadata util SimpleName MethodInvocation MethodInvocation SimpleName get tablet server
+master metadata util SimpleName MethodInvocation SimpleName extent
+master metadata util SimpleName MethodInvocation SimpleName new datafile
+master metadata util SimpleName MethodInvocation SimpleName abs merge file
+update tablet data file SimpleName MethodInvocation MethodInvocation SimpleName get tablet server
+update tablet data file SimpleName MethodInvocation SimpleName extent
+update tablet data file SimpleName MethodInvocation SimpleName new datafile
+update tablet data file SimpleName MethodInvocation SimpleName abs merge file
+update tablet data file SimpleName MethodInvocation SimpleName dfv
+get tablet server SimpleName MethodInvocation MethodInvocation SimpleName extent
+get tablet server SimpleName MethodInvocation MethodInvocation SimpleName new datafile
+get tablet server SimpleName MethodInvocation MethodInvocation SimpleName abs merge file
+get tablet server SimpleName MethodInvocation MethodInvocation SimpleName dfv
+get tablet server SimpleName MethodInvocation MethodInvocation SimpleName time
+extent SimpleName MethodInvocation SimpleName new datafile
+extent SimpleName MethodInvocation SimpleName abs merge file
+extent SimpleName MethodInvocation SimpleName dfv
+extent SimpleName MethodInvocation SimpleName time
+extent SimpleName MethodInvocation SimpleName files in use by scans
+new datafile SimpleName MethodInvocation SimpleName abs merge file
+new datafile SimpleName MethodInvocation SimpleName dfv
+new datafile SimpleName MethodInvocation SimpleName time
+new datafile SimpleName MethodInvocation SimpleName files in use by scans
+new datafile SimpleName MethodInvocation MethodInvocation SimpleName tablet server
+new datafile SimpleName MethodInvocation MethodInvocation SimpleName get client address string
+abs merge file SimpleName MethodInvocation SimpleName dfv
+abs merge file SimpleName MethodInvocation SimpleName time
+abs merge file SimpleName MethodInvocation SimpleName files in use by scans
+abs merge file SimpleName MethodInvocation MethodInvocation SimpleName tablet server
+abs merge file SimpleName MethodInvocation MethodInvocation SimpleName get client address string
+abs merge file SimpleName MethodInvocation MethodInvocation SimpleName tablet server
+abs merge file SimpleName MethodInvocation MethodInvocation SimpleName get lock
+dfv SimpleName MethodInvocation SimpleName time
+dfv SimpleName MethodInvocation SimpleName files in use by scans
+dfv SimpleName MethodInvocation MethodInvocation SimpleName tablet server
+dfv SimpleName MethodInvocation MethodInvocation SimpleName get client address string
+dfv SimpleName MethodInvocation MethodInvocation SimpleName tablet server
+dfv SimpleName MethodInvocation MethodInvocation SimpleName get lock
+dfv SimpleName MethodInvocation SimpleName unused wal logs
+time SimpleName MethodInvocation SimpleName files in use by scans
+time SimpleName MethodInvocation MethodInvocation SimpleName tablet server
+time SimpleName MethodInvocation MethodInvocation SimpleName get client address string
+time SimpleName MethodInvocation MethodInvocation SimpleName tablet server
+time SimpleName MethodInvocation MethodInvocation SimpleName get lock
+time SimpleName MethodInvocation SimpleName unused wal logs
+time SimpleName MethodInvocation SimpleName last location
+files in use by scans SimpleName MethodInvocation MethodInvocation SimpleName tablet server
+files in use by scans SimpleName MethodInvocation MethodInvocation SimpleName get client address string
+files in use by scans SimpleName MethodInvocation MethodInvocation SimpleName tablet server
+files in use by scans SimpleName MethodInvocation MethodInvocation SimpleName get lock
+files in use by scans SimpleName MethodInvocation SimpleName unused wal logs
+files in use by scans SimpleName MethodInvocation SimpleName last location
+files in use by scans SimpleName MethodInvocation SimpleName flush id
+tablet server SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName tablet server
+tablet server SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get lock
+get client address string SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName tablet server
+get client address string SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get lock
+tablet server SimpleName MethodInvocation MethodInvocation SimpleName unused wal logs
+get client address string SimpleName MethodInvocation MethodInvocation SimpleName unused wal logs
+tablet server SimpleName MethodInvocation MethodInvocation SimpleName last location
+get client address string SimpleName MethodInvocation MethodInvocation SimpleName last location
+tablet server SimpleName MethodInvocation MethodInvocation SimpleName flush id
+get client address string SimpleName MethodInvocation MethodInvocation SimpleName flush id
+tablet server SimpleName MethodInvocation MethodInvocation SimpleName unused wal logs
+get lock SimpleName MethodInvocation MethodInvocation SimpleName unused wal logs
+tablet server SimpleName MethodInvocation MethodInvocation SimpleName last location
+get lock SimpleName MethodInvocation MethodInvocation SimpleName last location
+tablet server SimpleName MethodInvocation MethodInvocation SimpleName flush id
+get lock SimpleName MethodInvocation MethodInvocation SimpleName flush id
+unused wal logs SimpleName MethodInvocation SimpleName last location
+unused wal logs SimpleName MethodInvocation SimpleName flush id
+last location SimpleName MethodInvocation SimpleName flush id
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName update tablet data file
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType long
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName max committed time
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName file ref
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName new datafile
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName file ref
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName abs merge file
+void PrimitiveType MethodDeclaration SimpleName update tablet data file
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType long
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName max committed time
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName file ref
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName new datafile
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName file ref
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName abs merge file
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName data file value
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName dfv
+update tablet data file SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType long
+update tablet data file SimpleName MethodDeclaration SingleVariableDeclaration SimpleName max committed time
+update tablet data file SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName file ref
+update tablet data file SimpleName MethodDeclaration SingleVariableDeclaration SimpleName new datafile
+update tablet data file SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName file ref
+update tablet data file SimpleName MethodDeclaration SingleVariableDeclaration SimpleName abs merge file
+update tablet data file SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName data file value
+update tablet data file SimpleName MethodDeclaration SingleVariableDeclaration SimpleName dfv
+update tablet data file SimpleName MethodDeclaration SingleVariableDeclaration SimpleName unused wal logs
+long PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new datafile
+max committed time SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new datafile
+long PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName abs merge file
+max committed time SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName abs merge file
+long PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName dfv
+max committed time SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName dfv
+long PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName unused wal logs
+max committed time SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName unused wal logs
+long PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName files in use by scans
+max committed time SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName files in use by scans
+new datafile SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName abs merge file
+new datafile SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName dfv
+new datafile SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName unused wal logs
+new datafile SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName files in use by scans
+new datafile SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+new datafile SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName flush id
+abs merge file SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName dfv
+abs merge file SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName unused wal logs
+abs merge file SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName files in use by scans
+abs merge file SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+abs merge file SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName flush id
+dfv SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName unused wal logs
+dfv SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName files in use by scans
+dfv SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+dfv SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName flush id
+unused wal logs SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName files in use by scans
+unused wal logs SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+unused wal logs SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName flush id
+files in use by scans SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+files in use by scans SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName flush id
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName update tablet data file
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName max committed time
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new datafile
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName abs merge file
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName dfv
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName unused wal logs
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName files in use by scans
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName flush id
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName update tablet data file
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName max committed time
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new datafile
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName abs merge file
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName dfv
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName unused wal logs
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName files in use by scans
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName flush id

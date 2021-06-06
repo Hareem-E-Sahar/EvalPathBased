@@ -1,0 +1,20 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName connection
+list SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName open metadata archive connections
+connection SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName open metadata archive connections
+array list SimpleName SimpleType ParameterizedType ClassInstanceCreation SimpleName open metadata archive connections
+open metadata archive connections SimpleName FieldAccess Assignment ClassInstanceCreation SimpleName open metadata archive connections
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set open metadata archive connections
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName open metadata archive connections
+void PrimitiveType MethodDeclaration SimpleName set open metadata archive connections
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName open metadata archive connections
+set open metadata archive connections SimpleName MethodDeclaration SingleVariableDeclaration SimpleName open metadata archive connections
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set open metadata archive connections
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName open metadata archive connections
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set open metadata archive connections
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName open metadata archive connections

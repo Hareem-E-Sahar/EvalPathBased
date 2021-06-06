@@ -1,0 +1,92 @@
+atlas entity SimpleName SimpleType SingleVariableDeclaration SimpleName entity
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas classification
+list SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName updated classifications
+atlas classification SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName updated classifications
+entity SimpleName MethodInvocation SimpleName get guid
+do full text mapping SimpleName MethodInvocation MethodInvocation SimpleName entity
+do full text mapping SimpleName MethodInvocation MethodInvocation SimpleName get guid
+entity change listener v SimpleName SimpleType SingleVariableDeclaration SimpleName listener
+listener SimpleName MethodInvocation SimpleName on classifications updated
+listener SimpleName MethodInvocation SimpleName entity
+listener SimpleName MethodInvocation SimpleName updated classifications
+on classifications updated SimpleName MethodInvocation SimpleName entity
+on classifications updated SimpleName MethodInvocation SimpleName updated classifications
+entity SimpleName MethodInvocation SimpleName updated classifications
+entity change listener v SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName entity change listeners v
+listener SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName entity change listeners v
+entity SimpleName MethodInvocation SimpleName get guid
+do full text mapping SimpleName MethodInvocation MethodInvocation SimpleName entity
+do full text mapping SimpleName MethodInvocation MethodInvocation SimpleName get guid
+entity SimpleName MethodInvocation SimpleName get guid
+to referenceable SimpleName MethodInvocation MethodInvocation SimpleName entity
+to referenceable SimpleName MethodInvocation MethodInvocation SimpleName get guid
+entity ref SimpleName VariableDeclarationFragment MethodInvocation SimpleName to referenceable
+entity ref SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName entity
+entity ref SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get guid
+referenceable SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName entity ref
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName struct
+to struct SimpleName MethodInvocation SimpleName updated classifications
+traits SimpleName VariableDeclarationFragment MethodInvocation SimpleName to struct
+traits SimpleName VariableDeclarationFragment MethodInvocation SimpleName updated classifications
+collection utils SimpleName MethodInvocation SimpleName is empty
+collection utils SimpleName MethodInvocation SimpleName traits
+is empty SimpleName MethodInvocation SimpleName traits
+entity ref SimpleName InfixExpression InfixExpression MethodInvocation SimpleName collection utils
+entity ref SimpleName InfixExpression InfixExpression MethodInvocation SimpleName is empty
+entity ref SimpleName InfixExpression InfixExpression MethodInvocation SimpleName traits
+entity change listener SimpleName SimpleType SingleVariableDeclaration SimpleName listener
+listener SimpleName MethodInvocation SimpleName on traits updated
+listener SimpleName MethodInvocation SimpleName entity ref
+listener SimpleName MethodInvocation SimpleName traits
+on traits updated SimpleName MethodInvocation SimpleName entity ref
+on traits updated SimpleName MethodInvocation SimpleName traits
+entity ref SimpleName MethodInvocation SimpleName traits
+atlas exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+get listener name SimpleName MethodInvocation SimpleName listener
+atlas base exception SimpleName SimpleType ClassInstanceCreation QualifiedName atlas error codenotification failed
+atlas base exception SimpleName SimpleType ClassInstanceCreation SimpleName e
+atlas base exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get listener name
+atlas base exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName listener
+atlas base exception SimpleName SimpleType ClassInstanceCreation StringLiteral trait update
+atlas error codenotification failed QualifiedName ClassInstanceCreation SimpleName e
+atlas error codenotification failed QualifiedName ClassInstanceCreation MethodInvocation SimpleName get listener name
+atlas error codenotification failed QualifiedName ClassInstanceCreation MethodInvocation SimpleName listener
+atlas error codenotification failed QualifiedName ClassInstanceCreation StringLiteral trait update
+e SimpleName ClassInstanceCreation MethodInvocation SimpleName get listener name
+e SimpleName ClassInstanceCreation MethodInvocation SimpleName listener
+e SimpleName ClassInstanceCreation StringLiteral trait update
+get listener name SimpleName MethodInvocation ClassInstanceCreation StringLiteral trait update
+listener SimpleName MethodInvocation ClassInstanceCreation StringLiteral trait update
+entity change listener SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName entity change listeners
+listener SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName entity change listeners
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName on classification updated to entity
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas entity
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName entity
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName updated classifications
+public Modifier MethodDeclaration SimpleType SimpleName atlas base exception
+void PrimitiveType MethodDeclaration SimpleName on classification updated to entity
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas entity
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName entity
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName updated classifications
+void PrimitiveType MethodDeclaration SimpleType SimpleName atlas base exception
+on classification updated to entity SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas entity
+on classification updated to entity SimpleName MethodDeclaration SingleVariableDeclaration SimpleName entity
+on classification updated to entity SimpleName MethodDeclaration SingleVariableDeclaration SimpleName updated classifications
+on classification updated to entity SimpleName MethodDeclaration SimpleType SimpleName atlas base exception
+entity SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName updated classifications
+entity SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+updated classifications SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName on classification updated to entity
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName updated classifications
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName on classification updated to entity
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName updated classifications
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception

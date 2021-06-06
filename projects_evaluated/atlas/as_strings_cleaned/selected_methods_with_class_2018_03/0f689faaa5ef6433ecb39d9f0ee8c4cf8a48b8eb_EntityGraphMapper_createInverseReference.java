@@ -1,0 +1,96 @@
+atlas attribute SimpleName SimpleType SingleVariableDeclaration SimpleName inverse attribute
+atlas struct type SimpleName SimpleType SingleVariableDeclaration SimpleName inverse attribute type
+atlas vertex SimpleName SimpleType SingleVariableDeclaration SimpleName inverse vertex
+atlas vertex SimpleName SimpleType SingleVariableDeclaration SimpleName vertex
+inverse attribute SimpleName MethodInvocation SimpleName get name
+atlas graph utils v SimpleName MethodInvocation SimpleName get qualified attribute property key
+atlas graph utils v SimpleName MethodInvocation SimpleName inverse attribute type
+atlas graph utils v SimpleName MethodInvocation MethodInvocation SimpleName inverse attribute
+atlas graph utils v SimpleName MethodInvocation MethodInvocation SimpleName get name
+get qualified attribute property key SimpleName MethodInvocation SimpleName inverse attribute type
+get qualified attribute property key SimpleName MethodInvocation MethodInvocation SimpleName inverse attribute
+get qualified attribute property key SimpleName MethodInvocation MethodInvocation SimpleName get name
+inverse attribute type SimpleName MethodInvocation MethodInvocation SimpleName inverse attribute
+inverse attribute type SimpleName MethodInvocation MethodInvocation SimpleName get name
+property name SimpleName VariableDeclarationFragment MethodInvocation SimpleName atlas graph utils v
+property name SimpleName VariableDeclarationFragment MethodInvocation SimpleName get qualified attribute property key
+property name SimpleName VariableDeclarationFragment MethodInvocation SimpleName inverse attribute type
+property name SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName inverse attribute
+property name SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName property name
+atlas graph utils v SimpleName MethodInvocation SimpleName get edge label
+atlas graph utils v SimpleName MethodInvocation SimpleName property name
+get edge label SimpleName MethodInvocation SimpleName property name
+inverse edge label SimpleName VariableDeclarationFragment MethodInvocation SimpleName atlas graph utils v
+inverse edge label SimpleName VariableDeclarationFragment MethodInvocation SimpleName get edge label
+inverse edge label SimpleName VariableDeclarationFragment MethodInvocation SimpleName property name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName inverse edge label
+atlas edge SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ret
+graph helper SimpleName MethodInvocation SimpleName get or create edge
+graph helper SimpleName MethodInvocation SimpleName inverse vertex
+graph helper SimpleName MethodInvocation SimpleName vertex
+graph helper SimpleName MethodInvocation SimpleName inverse edge label
+get or create edge SimpleName MethodInvocation SimpleName inverse vertex
+get or create edge SimpleName MethodInvocation SimpleName vertex
+get or create edge SimpleName MethodInvocation SimpleName inverse edge label
+inverse vertex SimpleName MethodInvocation SimpleName vertex
+inverse vertex SimpleName MethodInvocation SimpleName inverse edge label
+vertex SimpleName MethodInvocation SimpleName inverse edge label
+ret SimpleName Assignment MethodInvocation SimpleName graph helper
+ret SimpleName Assignment MethodInvocation SimpleName get or create edge
+ret SimpleName Assignment MethodInvocation SimpleName inverse vertex
+ret SimpleName Assignment MethodInvocation SimpleName vertex
+ret SimpleName Assignment MethodInvocation SimpleName inverse edge label
+repository exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+atlas base exception SimpleName SimpleType ClassInstanceCreation QualifiedName atlas error codeinternal error
+atlas base exception SimpleName SimpleType ClassInstanceCreation SimpleName e
+atlas error codeinternal error QualifiedName ClassInstanceCreation SimpleName e
+private Modifier MethodDeclaration SimpleType SimpleName atlas edge
+private Modifier MethodDeclaration SimpleName create inverse reference
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas attribute
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName inverse attribute
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas struct type
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName inverse attribute type
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas vertex
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName inverse vertex
+atlas edge SimpleName SimpleType MethodDeclaration SimpleName create inverse reference
+atlas edge SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName inverse attribute
+atlas edge SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName inverse attribute type
+atlas edge SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName inverse vertex
+atlas edge SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName vertex
+create inverse reference SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas attribute
+create inverse reference SimpleName MethodDeclaration SingleVariableDeclaration SimpleName inverse attribute
+create inverse reference SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas struct type
+create inverse reference SimpleName MethodDeclaration SingleVariableDeclaration SimpleName inverse attribute type
+create inverse reference SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas vertex
+create inverse reference SimpleName MethodDeclaration SingleVariableDeclaration SimpleName inverse vertex
+create inverse reference SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas vertex
+create inverse reference SimpleName MethodDeclaration SingleVariableDeclaration SimpleName vertex
+create inverse reference SimpleName MethodDeclaration SimpleType SimpleName atlas base exception
+inverse attribute SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName inverse attribute type
+inverse attribute SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName inverse vertex
+inverse attribute SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName vertex
+inverse attribute SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+inverse attribute type SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName inverse vertex
+inverse attribute type SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName vertex
+inverse attribute type SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+inverse vertex SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName vertex
+inverse vertex SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+vertex SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas edge
+public Modifier TypeDeclaration MethodDeclaration SimpleName create inverse reference
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName inverse attribute
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName inverse attribute type
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName inverse vertex
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName vertex
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas edge
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create inverse reference
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName inverse attribute
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName inverse attribute type
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName inverse vertex
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName vertex
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception

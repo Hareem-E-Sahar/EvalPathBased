@@ -1,0 +1,37 @@
+credential SimpleName SimpleType SingleVariableDeclaration SimpleName c
+security SimpleName MethodInvocation SimpleName authenticate user
+security SimpleName MethodInvocation SimpleName c
+security SimpleName MethodInvocation SimpleName c
+authenticate user SimpleName MethodInvocation SimpleName c
+authenticate user SimpleName MethodInvocation SimpleName c
+c SimpleName MethodInvocation SimpleName c
+c SimpleName MethodInvocation SimpleName get principal
+thrift security exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName c
+thrift security exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get principal
+thrift security exception SimpleName SimpleType ClassInstanceCreation QualifiedName security error codebad credentials
+c SimpleName MethodInvocation ClassInstanceCreation QualifiedName security error codebad credentials
+get principal SimpleName MethodInvocation ClassInstanceCreation QualifiedName security error codebad credentials
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName authenticate
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName credential
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName c
+private Modifier MethodDeclaration SimpleType SimpleName thrift security exception
+void PrimitiveType MethodDeclaration SimpleName authenticate
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName credential
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName c
+void PrimitiveType MethodDeclaration SimpleType SimpleName thrift security exception
+authenticate SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName credential
+authenticate SimpleName MethodDeclaration SingleVariableDeclaration SimpleName c
+authenticate SimpleName MethodDeclaration SimpleType SimpleName thrift security exception
+c SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName thrift security exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName authenticate
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName c
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName thrift security exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName authenticate
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName c
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName thrift security exception

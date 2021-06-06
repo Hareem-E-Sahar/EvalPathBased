@@ -1,0 +1,34 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+list SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName guids
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName guids
+call api SimpleName MethodInvocation SimpleName get entity by guid
+call api SimpleName MethodInvocation TypeLiteral SimpleType SimpleName atlas entities
+call api SimpleName MethodInvocation StringLiteral guid
+call api SimpleName MethodInvocation SimpleName guids
+get entity by guid SimpleName MethodInvocation TypeLiteral SimpleType SimpleName atlas entities
+get entity by guid SimpleName MethodInvocation StringLiteral guid
+get entity by guid SimpleName MethodInvocation SimpleName guids
+atlas entities SimpleName SimpleType TypeLiteral MethodInvocation StringLiteral guid
+atlas entities SimpleName SimpleType TypeLiteral MethodInvocation SimpleName guids
+guid StringLiteral MethodInvocation SimpleName guids
+public Modifier MethodDeclaration SimpleType SimpleName atlas entities
+public Modifier MethodDeclaration SimpleName get entity by guids
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName guids
+public Modifier MethodDeclaration SimpleType SimpleName atlas service exception
+atlas entities SimpleName SimpleType MethodDeclaration SimpleName get entity by guids
+atlas entities SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName guids
+atlas entities SimpleName SimpleType MethodDeclaration SimpleType SimpleName atlas service exception
+get entity by guids SimpleName MethodDeclaration SingleVariableDeclaration SimpleName guids
+get entity by guids SimpleName MethodDeclaration SimpleType SimpleName atlas service exception
+guids SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas service exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas entities
+public Modifier TypeDeclaration MethodDeclaration SimpleName get entity by guids
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName guids
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas service exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas entities
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get entity by guids
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName guids
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas service exception

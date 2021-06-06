@@ -1,0 +1,47 @@
+filter based ldap user search SimpleName SimpleType SingleVariableDeclaration SimpleName user search
+ldap context source SimpleName SimpleType SingleVariableDeclaration SimpleName ldap context source
+bind authenticator SimpleName SimpleType ClassInstanceCreation SimpleName ldap context source
+bind authenticator SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName bind authenticator
+bind authenticator SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName ldap context source
+bind authenticator SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName bind authenticator
+bind authenticator SimpleName MethodInvocation SimpleName set user search
+bind authenticator SimpleName MethodInvocation SimpleName user search
+set user search SimpleName MethodInvocation SimpleName user search
+user dn patterns SimpleName VariableDeclarationFragment ArrayCreation ArrayInitializer SimpleName ldap user dn pattern
+bind authenticator SimpleName MethodInvocation SimpleName set user dn patterns
+bind authenticator SimpleName MethodInvocation SimpleName user dn patterns
+set user dn patterns SimpleName MethodInvocation SimpleName user dn patterns
+bind authenticator SimpleName MethodInvocation SimpleName after properties set
+private Modifier MethodDeclaration SimpleType SimpleName bind authenticator
+private Modifier MethodDeclaration SimpleName get bind authenticator
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName filter based ldap user search
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName user search
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName ldap context source
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName ldap context source
+private Modifier MethodDeclaration SimpleType SimpleName exception
+bind authenticator SimpleName SimpleType MethodDeclaration SimpleName get bind authenticator
+bind authenticator SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName user search
+bind authenticator SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName ldap context source
+bind authenticator SimpleName SimpleType MethodDeclaration SimpleType SimpleName exception
+get bind authenticator SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName filter based ldap user search
+get bind authenticator SimpleName MethodDeclaration SingleVariableDeclaration SimpleName user search
+get bind authenticator SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName ldap context source
+get bind authenticator SimpleName MethodDeclaration SingleVariableDeclaration SimpleName ldap context source
+get bind authenticator SimpleName MethodDeclaration SimpleType SimpleName exception
+get bind authenticator SimpleName MethodDeclaration Block ReturnStatement SimpleName bind authenticator
+user search SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ldap context source
+user search SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+ldap context source SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName bind authenticator
+public Modifier TypeDeclaration MethodDeclaration SimpleName get bind authenticator
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName user search
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ldap context source
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName bind authenticator
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get bind authenticator
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName user search
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ldap context source
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

@@ -1,0 +1,72 @@
+hive SimpleName SimpleType SingleVariableDeclaration SimpleName hive client
+string SimpleName SimpleType SingleVariableDeclaration SimpleName database name
+hive client SimpleName MethodInvocation SimpleName get all databases
+when SimpleName MethodInvocation MethodInvocation SimpleName hive client
+when SimpleName MethodInvocation MethodInvocation SimpleName get all databases
+arrays SimpleName MethodInvocation SimpleName as list
+arrays SimpleName MethodInvocation ArrayCreation ArrayInitializer SimpleName database name
+as list SimpleName MethodInvocation ArrayCreation ArrayInitializer SimpleName database name
+when SimpleName MethodInvocation MethodInvocation SimpleName then return
+hive client SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+get all databases SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+when SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName arrays
+when SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName as list
+then return SimpleName MethodInvocation MethodInvocation SimpleName arrays
+then return SimpleName MethodInvocation MethodInvocation SimpleName as list
+hive client SimpleName MethodInvocation SimpleName get database
+hive client SimpleName MethodInvocation SimpleName database name
+get database SimpleName MethodInvocation SimpleName database name
+when SimpleName MethodInvocation MethodInvocation SimpleName hive client
+when SimpleName MethodInvocation MethodInvocation SimpleName get database
+when SimpleName MethodInvocation MethodInvocation SimpleName database name
+database SimpleName SimpleType ClassInstanceCreation SimpleName database name
+database SimpleName SimpleType ClassInstanceCreation StringLiteral default database
+database SimpleName SimpleType ClassInstanceCreation StringLiteral userhivedefault
+database name SimpleName ClassInstanceCreation StringLiteral default database
+database name SimpleName ClassInstanceCreation StringLiteral userhivedefault
+default database StringLiteral ClassInstanceCreation StringLiteral userhivedefault
+when SimpleName MethodInvocation MethodInvocation SimpleName then return
+hive client SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+get database SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+database name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+when SimpleName MethodInvocation MethodInvocation ClassInstanceCreation SimpleName database name
+when SimpleName MethodInvocation MethodInvocation ClassInstanceCreation StringLiteral default database
+when SimpleName MethodInvocation MethodInvocation ClassInstanceCreation StringLiteral userhivedefault
+then return SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName database
+then return SimpleName MethodInvocation ClassInstanceCreation SimpleName database name
+then return SimpleName MethodInvocation ClassInstanceCreation StringLiteral default database
+then return SimpleName MethodInvocation ClassInstanceCreation StringLiteral userhivedefault
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName setup db
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName hive
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName hive client
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName database name
+private Modifier MethodDeclaration SimpleType SimpleName hive exception
+void PrimitiveType MethodDeclaration SimpleName setup db
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName hive
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName hive client
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName database name
+void PrimitiveType MethodDeclaration SimpleType SimpleName hive exception
+setup db SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName hive
+setup db SimpleName MethodDeclaration SingleVariableDeclaration SimpleName hive client
+setup db SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+setup db SimpleName MethodDeclaration SingleVariableDeclaration SimpleName database name
+setup db SimpleName MethodDeclaration SimpleType SimpleName hive exception
+hive client SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName database name
+hive client SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName hive exception
+database name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName hive exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName setup db
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName hive client
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName database name
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName hive exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName setup db
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName hive client
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName database name
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName hive exception

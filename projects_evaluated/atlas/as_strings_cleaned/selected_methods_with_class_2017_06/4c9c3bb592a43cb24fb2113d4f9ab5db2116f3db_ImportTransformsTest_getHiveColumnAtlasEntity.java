@@ -1,0 +1,64 @@
+int PrimitiveType SingleVariableDeclaration SimpleName index
+atlas entity SimpleName SimpleType ClassInstanceCreation StringLiteral hive column
+entity SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName atlas entity
+entity SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral hive column
+atlas entity SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName entity
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+string SimpleName MethodInvocation SimpleName format
+string SimpleName MethodInvocation StringLiteral colstable defaultcl
+string SimpleName MethodInvocation SimpleName index
+format SimpleName MethodInvocation StringLiteral colstable defaultcl
+format SimpleName MethodInvocation SimpleName index
+colstable defaultcl StringLiteral MethodInvocation SimpleName index
+attributes SimpleName MethodInvocation SimpleName put
+attributes SimpleName MethodInvocation SimpleName qualified name
+attributes SimpleName MethodInvocation MethodInvocation SimpleName string
+attributes SimpleName MethodInvocation MethodInvocation SimpleName format
+attributes SimpleName MethodInvocation MethodInvocation StringLiteral colstable defaultcl
+attributes SimpleName MethodInvocation MethodInvocation SimpleName index
+put SimpleName MethodInvocation SimpleName qualified name
+put SimpleName MethodInvocation MethodInvocation SimpleName string
+put SimpleName MethodInvocation MethodInvocation SimpleName format
+put SimpleName MethodInvocation MethodInvocation StringLiteral colstable defaultcl
+put SimpleName MethodInvocation MethodInvocation SimpleName index
+qualified name SimpleName MethodInvocation MethodInvocation SimpleName string
+qualified name SimpleName MethodInvocation MethodInvocation SimpleName format
+qualified name SimpleName MethodInvocation MethodInvocation StringLiteral colstable defaultcl
+qualified name SimpleName MethodInvocation MethodInvocation SimpleName index
+col StringLiteral InfixExpression SimpleName index
+attributes SimpleName MethodInvocation SimpleName put
+attributes SimpleName MethodInvocation StringLiteral name
+attributes SimpleName MethodInvocation InfixExpression StringLiteral col
+attributes SimpleName MethodInvocation InfixExpression SimpleName index
+put SimpleName MethodInvocation StringLiteral name
+put SimpleName MethodInvocation InfixExpression StringLiteral col
+put SimpleName MethodInvocation InfixExpression SimpleName index
+name StringLiteral MethodInvocation InfixExpression StringLiteral col
+name StringLiteral MethodInvocation InfixExpression SimpleName index
+entity SimpleName MethodInvocation SimpleName set attributes
+entity SimpleName MethodInvocation SimpleName attributes
+set attributes SimpleName MethodInvocation SimpleName attributes
+private Modifier MethodDeclaration SimpleType SimpleName atlas entity
+private Modifier MethodDeclaration SimpleName get hive column atlas entity
+private Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName index
+private Modifier MethodDeclaration Block ReturnStatement SimpleName entity
+atlas entity SimpleName SimpleType MethodDeclaration SimpleName get hive column atlas entity
+atlas entity SimpleName SimpleType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+atlas entity SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName index
+get hive column atlas entity SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+get hive column atlas entity SimpleName MethodDeclaration SingleVariableDeclaration SimpleName index
+get hive column atlas entity SimpleName MethodDeclaration Block ReturnStatement SimpleName entity
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas entity
+public Modifier TypeDeclaration MethodDeclaration SimpleName get hive column atlas entity
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName index
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas entity
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get hive column atlas entity
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName index

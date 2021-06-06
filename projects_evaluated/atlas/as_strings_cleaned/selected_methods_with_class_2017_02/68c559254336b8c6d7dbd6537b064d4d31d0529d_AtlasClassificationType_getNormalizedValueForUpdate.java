@@ -1,0 +1,38 @@
+object SimpleName SimpleType SingleVariableDeclaration SimpleName obj
+object SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ret
+is valid value for update SimpleName MethodInvocation SimpleName obj
+obj SimpleName InstanceofExpression SimpleType SimpleName atlas classification
+atlas classification SimpleName SimpleType CastExpression SimpleName obj
+normalize attribute values for update SimpleName MethodInvocation CastExpression SimpleType SimpleName atlas classification
+normalize attribute values for update SimpleName MethodInvocation CastExpression SimpleName obj
+ret SimpleName Assignment SimpleName obj
+obj SimpleName InstanceofExpression SimpleType SimpleName map
+map SimpleName SimpleType CastExpression SimpleName obj
+normalize attribute values for update SimpleName MethodInvocation CastExpression SimpleType SimpleName map
+normalize attribute values for update SimpleName MethodInvocation CastExpression SimpleName obj
+ret SimpleName Assignment SimpleName obj
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName object
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName get normalized value for update
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName obj
+public Modifier MethodDeclaration SimpleType SimpleName object
+public Modifier MethodDeclaration SimpleName get normalized value for update
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName obj
+public Modifier MethodDeclaration Block ReturnStatement SimpleName ret
+object SimpleName SimpleType MethodDeclaration SimpleName get normalized value for update
+object SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName obj
+get normalized value for update SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+get normalized value for update SimpleName MethodDeclaration SingleVariableDeclaration SimpleName obj
+get normalized value for update SimpleName MethodDeclaration Block ReturnStatement SimpleName ret
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName object
+public Modifier TypeDeclaration MethodDeclaration SimpleName get normalized value for update
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName obj
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName object
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get normalized value for update
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName obj

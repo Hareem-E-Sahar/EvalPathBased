@@ -1,0 +1,143 @@
+replication target SimpleName SimpleType ClassInstanceCreation StringLiteral cluster
+replication target SimpleName SimpleType ClassInstanceCreation StringLiteral table
+replication target SimpleName SimpleType ClassInstanceCreation StringLiteral empty
+cluster StringLiteral ClassInstanceCreation StringLiteral table
+cluster StringLiteral ClassInstanceCreation StringLiteral empty
+table StringLiteral ClassInstanceCreation StringLiteral empty
+target SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName replication target
+target SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral cluster
+target SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral table
+target SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral empty
+replication target SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName target
+target SimpleName MethodInvocation SimpleName to text
+serialized target SimpleName VariableDeclarationFragment MethodInvocation SimpleName target
+serialized target SimpleName VariableDeclarationFragment MethodInvocation SimpleName to text
+text SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName serialized target
+create mock SimpleName MethodInvocation TypeLiteral SimpleType SimpleName distributed work queue
+work queue SimpleName VariableDeclarationFragment MethodInvocation SimpleName create mock
+distributed work queue SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName work queue
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+assigner SimpleName MethodInvocation SimpleName set queued work
+assigner SimpleName MethodInvocation SimpleName queued work
+set queued work SimpleName MethodInvocation SimpleName queued work
+assigner SimpleName MethodInvocation SimpleName set work queue
+assigner SimpleName MethodInvocation SimpleName work queue
+set work queue SimpleName MethodInvocation SimpleName work queue
+uuid SimpleName MethodInvocation SimpleName random uuid
+accumulowaltserverport StringLiteral InfixExpression MethodInvocation SimpleName uuid
+accumulowaltserverport StringLiteral InfixExpression MethodInvocation SimpleName random uuid
+path SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral accumulowaltserverport
+p SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName path
+p SimpleName VariableDeclarationFragment ClassInstanceCreation InfixExpression StringLiteral accumulowaltserverport
+path SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName p
+p SimpleName MethodInvocation SimpleName get name
+serialized target SimpleName MethodInvocation SimpleName to string
+p SimpleName MethodInvocation InfixExpression StringLiteral 
+get name SimpleName MethodInvocation InfixExpression StringLiteral 
+p SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName serialized target
+p SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName to string
+get name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName serialized target
+get name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName to string
+ StringLiteral InfixExpression MethodInvocation SimpleName serialized target
+ StringLiteral InfixExpression MethodInvocation SimpleName to string
+p SimpleName MethodInvocation SimpleName to string
+work queue SimpleName MethodInvocation SimpleName add work
+work queue SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName p
+work queue SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get name
+work queue SimpleName MethodInvocation InfixExpression StringLiteral 
+work queue SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName serialized target
+work queue SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName to string
+work queue SimpleName MethodInvocation MethodInvocation SimpleName p
+work queue SimpleName MethodInvocation MethodInvocation SimpleName to string
+add work SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName p
+add work SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get name
+add work SimpleName MethodInvocation InfixExpression StringLiteral 
+add work SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName serialized target
+add work SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName to string
+add work SimpleName MethodInvocation MethodInvocation SimpleName p
+add work SimpleName MethodInvocation MethodInvocation SimpleName to string
+ StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName p
+ StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName to string
+expect last call SimpleName MethodInvocation MethodInvocation SimpleName once
+replay SimpleName MethodInvocation SimpleName work queue
+p SimpleName MethodInvocation SimpleName get name
+p SimpleName MethodInvocation InfixExpression StringLiteral 
+get name SimpleName MethodInvocation InfixExpression StringLiteral 
+p SimpleName MethodInvocation InfixExpression SimpleName serialized target
+get name SimpleName MethodInvocation InfixExpression SimpleName serialized target
+ StringLiteral InfixExpression SimpleName serialized target
+p SimpleName MethodInvocation SimpleName to string
+assigner SimpleName MethodInvocation SimpleName queue work
+assigner SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName p
+assigner SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get name
+assigner SimpleName MethodInvocation InfixExpression StringLiteral 
+assigner SimpleName MethodInvocation InfixExpression SimpleName serialized target
+assigner SimpleName MethodInvocation MethodInvocation SimpleName p
+assigner SimpleName MethodInvocation MethodInvocation SimpleName to string
+queue work SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName p
+queue work SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get name
+queue work SimpleName MethodInvocation InfixExpression StringLiteral 
+queue work SimpleName MethodInvocation InfixExpression SimpleName serialized target
+queue work SimpleName MethodInvocation MethodInvocation SimpleName p
+queue work SimpleName MethodInvocation MethodInvocation SimpleName to string
+ StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName p
+ StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName to string
+serialized target SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName p
+serialized target SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName to string
+queued work SimpleName MethodInvocation SimpleName size
+assert SimpleName MethodInvocation SimpleName assert equals
+assert SimpleName MethodInvocation NumberLiteral empty
+assert SimpleName MethodInvocation MethodInvocation SimpleName queued work
+assert SimpleName MethodInvocation MethodInvocation SimpleName size
+assert equals SimpleName MethodInvocation NumberLiteral empty
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName queued work
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName size
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName queued work
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName size
+p SimpleName MethodInvocation SimpleName get name
+p SimpleName MethodInvocation InfixExpression StringLiteral 
+get name SimpleName MethodInvocation InfixExpression StringLiteral 
+p SimpleName MethodInvocation InfixExpression SimpleName serialized target
+get name SimpleName MethodInvocation InfixExpression SimpleName serialized target
+ StringLiteral InfixExpression SimpleName serialized target
+queued work SimpleName MethodInvocation SimpleName iterator
+queued work SimpleName MethodInvocation MethodInvocation SimpleName next
+iterator SimpleName MethodInvocation MethodInvocation SimpleName next
+assert SimpleName MethodInvocation SimpleName assert equals
+assert SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName p
+assert SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get name
+assert SimpleName MethodInvocation InfixExpression StringLiteral 
+assert SimpleName MethodInvocation InfixExpression SimpleName serialized target
+assert SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName queued work
+assert SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName iterator
+assert SimpleName MethodInvocation MethodInvocation SimpleName next
+assert equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName p
+assert equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get name
+assert equals SimpleName MethodInvocation InfixExpression StringLiteral 
+assert equals SimpleName MethodInvocation InfixExpression SimpleName serialized target
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName queued work
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName iterator
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName next
+ StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName next
+serialized target SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName next
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName work queued using file name
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName work queued using file name
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName work queued using file name
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+work queued using file name SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName work queued using file name
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName work queued using file name
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

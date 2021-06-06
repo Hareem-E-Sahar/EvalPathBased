@@ -1,0 +1,17 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName entity json
+atlas cliententity result QualifiedName SimpleType MethodDeclaration SimpleName update entities
+atlas cliententity result QualifiedName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName entity json
+atlas cliententity result QualifiedName SimpleType MethodDeclaration SimpleType SimpleName atlas exception
+update entities SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+update entities SimpleName MethodDeclaration SingleVariableDeclaration SimpleName entity json
+update entities SimpleName MethodDeclaration SimpleType SimpleName atlas exception
+entity json SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration SimpleType QualifiedName atlas cliententity result
+public Modifier TypeDeclaration MethodDeclaration SimpleName update entities
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity json
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType QualifiedName atlas cliententity result
+test SimpleName TypeDeclaration MethodDeclaration SimpleName update entities
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity json
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception

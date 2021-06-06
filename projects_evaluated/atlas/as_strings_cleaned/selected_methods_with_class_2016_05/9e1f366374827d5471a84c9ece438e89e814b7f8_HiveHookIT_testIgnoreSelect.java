@@ -1,0 +1,37 @@
+table name SimpleName VariableDeclarationFragment MethodInvocation SimpleName create table
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName table name
+select * from StringLiteral InfixExpression SimpleName table name
+query SimpleName VariableDeclarationFragment InfixExpression StringLiteral select * from
+query SimpleName VariableDeclarationFragment InfixExpression SimpleName table name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName query
+run command SimpleName MethodInvocation SimpleName query
+assert process is not registered SimpleName MethodInvocation SimpleName query
+table name SimpleName MethodInvocation SimpleName to upper case
+select * from StringLiteral InfixExpression MethodInvocation SimpleName table name
+select * from StringLiteral InfixExpression MethodInvocation SimpleName to upper case
+query SimpleName Assignment InfixExpression StringLiteral select * from
+query SimpleName Assignment InfixExpression MethodInvocation SimpleName table name
+query SimpleName Assignment InfixExpression MethodInvocation SimpleName to upper case
+run command SimpleName MethodInvocation SimpleName query
+assert process is not registered SimpleName MethodInvocation SimpleName query
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test ignore select
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test ignore select
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName test ignore select
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+test ignore select SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test ignore select
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test ignore select
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

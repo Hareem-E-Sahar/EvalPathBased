@@ -1,0 +1,48 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName db name
+referenceable SimpleName SimpleType ClassInstanceCreation SimpleName database type
+database instance SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName referenceable
+database instance SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName database type
+referenceable SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName database instance
+database instance SimpleName MethodInvocation SimpleName set
+database instance SimpleName MethodInvocation StringLiteral name
+database instance SimpleName MethodInvocation SimpleName db name
+set SimpleName MethodInvocation StringLiteral name
+set SimpleName MethodInvocation SimpleName db name
+name StringLiteral MethodInvocation SimpleName db name
+database instance SimpleName MethodInvocation SimpleName set
+database instance SimpleName MethodInvocation StringLiteral qualified name
+database instance SimpleName MethodInvocation SimpleName db name
+set SimpleName MethodInvocation StringLiteral qualified name
+set SimpleName MethodInvocation SimpleName db name
+qualified name StringLiteral MethodInvocation SimpleName db name
+database instance SimpleName MethodInvocation SimpleName set
+database instance SimpleName MethodInvocation StringLiteral cluster name
+database instance SimpleName MethodInvocation MethodInvocation SimpleName random string
+set SimpleName MethodInvocation StringLiteral cluster name
+set SimpleName MethodInvocation MethodInvocation SimpleName random string
+cluster name StringLiteral MethodInvocation MethodInvocation SimpleName random string
+database instance SimpleName MethodInvocation SimpleName set
+database instance SimpleName MethodInvocation StringLiteral description
+database instance SimpleName MethodInvocation StringLiteral foo database
+set SimpleName MethodInvocation StringLiteral description
+set SimpleName MethodInvocation StringLiteral foo database
+description StringLiteral MethodInvocation StringLiteral foo database
+protected Modifier MethodDeclaration SimpleType SimpleName referenceable
+protected Modifier MethodDeclaration SimpleName create hive db instance
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName db name
+protected Modifier MethodDeclaration Block ReturnStatement SimpleName database instance
+referenceable SimpleName SimpleType MethodDeclaration SimpleName create hive db instance
+referenceable SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName db name
+create hive db instance SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+create hive db instance SimpleName MethodDeclaration SingleVariableDeclaration SimpleName db name
+create hive db instance SimpleName MethodDeclaration Block ReturnStatement SimpleName database instance
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName referenceable
+public Modifier TypeDeclaration MethodDeclaration SimpleName create hive db instance
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName db name
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName referenceable
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create hive db instance
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName db name

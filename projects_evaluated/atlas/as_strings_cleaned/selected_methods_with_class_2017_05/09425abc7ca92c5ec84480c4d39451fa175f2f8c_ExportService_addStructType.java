@@ -1,0 +1,44 @@
+atlas struct type SimpleName SimpleType SingleVariableDeclaration SimpleName struct type
+export context SimpleName SimpleType SingleVariableDeclaration SimpleName context
+struct type SimpleName MethodInvocation SimpleName get type name
+contextstruct types QualifiedName MethodInvocation SimpleName contains
+contextstruct types QualifiedName MethodInvocation MethodInvocation SimpleName struct type
+contextstruct types QualifiedName MethodInvocation MethodInvocation SimpleName get type name
+contains SimpleName MethodInvocation MethodInvocation SimpleName struct type
+contains SimpleName MethodInvocation MethodInvocation SimpleName get type name
+struct type SimpleName MethodInvocation SimpleName get type name
+contextstruct types QualifiedName MethodInvocation SimpleName add
+contextstruct types QualifiedName MethodInvocation MethodInvocation SimpleName struct type
+contextstruct types QualifiedName MethodInvocation MethodInvocation SimpleName get type name
+add SimpleName MethodInvocation MethodInvocation SimpleName struct type
+add SimpleName MethodInvocation MethodInvocation SimpleName get type name
+add attribute types SimpleName MethodInvocation SimpleName struct type
+add attribute types SimpleName MethodInvocation SimpleName context
+struct type SimpleName MethodInvocation SimpleName context
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName add struct type
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas struct type
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName struct type
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName export context
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName context
+void PrimitiveType MethodDeclaration SimpleName add struct type
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas struct type
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName struct type
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName export context
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName context
+add struct type SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas struct type
+add struct type SimpleName MethodDeclaration SingleVariableDeclaration SimpleName struct type
+add struct type SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName export context
+add struct type SimpleName MethodDeclaration SingleVariableDeclaration SimpleName context
+struct type SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName context
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName add struct type
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName struct type
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName context
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName add struct type
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName struct type
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName context

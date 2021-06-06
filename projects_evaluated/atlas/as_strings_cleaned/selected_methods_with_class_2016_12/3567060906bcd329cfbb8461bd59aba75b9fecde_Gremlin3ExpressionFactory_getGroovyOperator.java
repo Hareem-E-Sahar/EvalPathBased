@@ -1,0 +1,34 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName symbol
+to find SimpleName VariableDeclarationFragment SimpleName symbol
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName to find
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName symbol
+to find SimpleName MethodInvocation SimpleName equals
+to find SimpleName MethodInvocation StringLiteral =
+equals SimpleName MethodInvocation StringLiteral =
+to find SimpleName Assignment StringLiteral ==
+comparison operator SimpleName MethodInvocation SimpleName lookup
+comparison operator SimpleName MethodInvocation SimpleName to find
+lookup SimpleName MethodInvocation SimpleName to find
+private Modifier MethodDeclaration SimpleType SimpleName comparison operator
+private Modifier MethodDeclaration SimpleName get groovy operator
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName symbol
+private Modifier MethodDeclaration SimpleType SimpleName atlas exception
+comparison operator SimpleName SimpleType MethodDeclaration SimpleName get groovy operator
+comparison operator SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName symbol
+comparison operator SimpleName SimpleType MethodDeclaration SimpleType SimpleName atlas exception
+get groovy operator SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get groovy operator SimpleName MethodDeclaration SingleVariableDeclaration SimpleName symbol
+get groovy operator SimpleName MethodDeclaration SimpleType SimpleName atlas exception
+symbol SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName comparison operator
+public Modifier TypeDeclaration MethodDeclaration SimpleName get groovy operator
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName symbol
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName comparison operator
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get groovy operator
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName symbol
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception

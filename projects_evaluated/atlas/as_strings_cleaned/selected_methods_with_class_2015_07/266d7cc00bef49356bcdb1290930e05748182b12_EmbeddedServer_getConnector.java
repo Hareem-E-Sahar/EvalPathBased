@@ -1,0 +1,66 @@
+int PrimitiveType SingleVariableDeclaration SimpleName port
+http config SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName http configuration
+http configuration SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName http config
+buffer size SimpleName VariableDeclarationFragment MethodInvocation SimpleName get buffer size
+final Modifier VariableDeclarationStatement PrimitiveType int
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName buffer size
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get buffer size
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName buffer size
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get buffer size
+http config SimpleName MethodInvocation SimpleName set response header size
+http config SimpleName MethodInvocation SimpleName buffer size
+set response header size SimpleName MethodInvocation SimpleName buffer size
+http config SimpleName MethodInvocation SimpleName set request header size
+http config SimpleName MethodInvocation SimpleName buffer size
+set request header size SimpleName MethodInvocation SimpleName buffer size
+http connection factory SimpleName SimpleType ClassInstanceCreation SimpleName http config
+server connector SimpleName SimpleType ClassInstanceCreation SimpleName server
+server connector SimpleName SimpleType ClassInstanceCreation ClassInstanceCreation SimpleName http config
+server SimpleName ClassInstanceCreation ClassInstanceCreation SimpleType SimpleName http connection factory
+server SimpleName ClassInstanceCreation ClassInstanceCreation SimpleName http config
+connector SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName server connector
+connector SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName server
+connector SimpleName VariableDeclarationFragment ClassInstanceCreation ClassInstanceCreation SimpleName http config
+server connector SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName connector
+connector SimpleName MethodInvocation SimpleName set port
+connector SimpleName MethodInvocation SimpleName port
+set port SimpleName MethodInvocation SimpleName port
+connector SimpleName MethodInvocation SimpleName set host
+connector SimpleName MethodInvocation StringLiteral . . .
+set host SimpleName MethodInvocation StringLiteral . . .
+server SimpleName MethodInvocation SimpleName add connector
+server SimpleName MethodInvocation SimpleName connector
+add connector SimpleName MethodInvocation SimpleName connector
+protected Modifier MethodDeclaration SimpleType SimpleName connector
+protected Modifier MethodDeclaration SimpleName get connector
+protected Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName port
+protected Modifier MethodDeclaration SimpleType SimpleName io exception
+protected Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+protected Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+protected Modifier MethodDeclaration Block ReturnStatement SimpleName connector
+connector SimpleName SimpleType MethodDeclaration SimpleName get connector
+connector SimpleName SimpleType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+connector SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName port
+connector SimpleName SimpleType MethodDeclaration SimpleType SimpleName io exception
+get connector SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+get connector SimpleName MethodDeclaration SingleVariableDeclaration SimpleName port
+get connector SimpleName MethodDeclaration SimpleType SimpleName io exception
+get connector SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+get connector SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+get connector SimpleName MethodDeclaration Block ReturnStatement SimpleName connector
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+port SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName connector
+public Modifier TypeDeclaration MethodDeclaration SimpleName get connector
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName port
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName connector
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get connector
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName port
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

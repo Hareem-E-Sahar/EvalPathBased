@@ -1,0 +1,164 @@
+h base operation context SimpleName SimpleType SingleVariableDeclaration SimpleName hbase operation context
+atlas entity SimpleName SimpleType SingleVariableDeclaration SimpleName name space
+h base data typeshbase table QualifiedName MethodInvocation SimpleName get name
+atlas entity SimpleName SimpleType ClassInstanceCreation MethodInvocation QualifiedName h base data typeshbase table
+atlas entity SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get name
+table SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName atlas entity
+table SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation QualifiedName h base data typeshbase table
+table SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get name
+atlas entity SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName table
+get table name SimpleName MethodInvocation SimpleName hbase operation context
+table name SimpleName VariableDeclarationFragment MethodInvocation SimpleName get table name
+table name SimpleName VariableDeclarationFragment MethodInvocation SimpleName hbase operation context
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName table name
+name space SimpleName MethodInvocation SimpleName get attribute
+name space SimpleName MethodInvocation SimpleName attr name
+get attribute SimpleName MethodInvocation SimpleName attr name
+string SimpleName SimpleType CastExpression MethodInvocation SimpleName name space
+string SimpleName SimpleType CastExpression MethodInvocation SimpleName get attribute
+string SimpleName SimpleType CastExpression MethodInvocation SimpleName attr name
+name space name SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName string
+name space name SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName name space
+name space name SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get attribute
+name space name SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName attr name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName name space name
+get table qualified name SimpleName MethodInvocation SimpleName cluster name
+get table qualified name SimpleName MethodInvocation SimpleName name space name
+get table qualified name SimpleName MethodInvocation SimpleName table name
+cluster name SimpleName MethodInvocation SimpleName name space name
+cluster name SimpleName MethodInvocation SimpleName table name
+name space name SimpleName MethodInvocation SimpleName table name
+table q name SimpleName VariableDeclarationFragment MethodInvocation SimpleName get table qualified name
+table q name SimpleName VariableDeclarationFragment MethodInvocation SimpleName cluster name
+table q name SimpleName VariableDeclarationFragment MethodInvocation SimpleName name space name
+table q name SimpleName VariableDeclarationFragment MethodInvocation SimpleName table name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName table q name
+hbase operation context SimpleName MethodInvocation SimpleName get operation
+operation SimpleName VariableDeclarationFragment MethodInvocation SimpleName hbase operation context
+operation SimpleName VariableDeclarationFragment MethodInvocation SimpleName get operation
+operation SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName operation
+system SimpleName MethodInvocation SimpleName current time millis
+date SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName system
+date SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName current time millis
+now SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName date
+now SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName system
+now SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName current time millis
+date SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName now
+table SimpleName MethodInvocation SimpleName set attribute
+table SimpleName MethodInvocation SimpleName referenceable attribute name
+table SimpleName MethodInvocation SimpleName table q name
+set attribute SimpleName MethodInvocation SimpleName referenceable attribute name
+set attribute SimpleName MethodInvocation SimpleName table q name
+referenceable attribute name SimpleName MethodInvocation SimpleName table q name
+table SimpleName MethodInvocation SimpleName set attribute
+table SimpleName MethodInvocation SimpleName attr name
+table SimpleName MethodInvocation SimpleName table name
+set attribute SimpleName MethodInvocation SimpleName attr name
+set attribute SimpleName MethodInvocation SimpleName table name
+attr name SimpleName MethodInvocation SimpleName table name
+table SimpleName MethodInvocation SimpleName set attribute
+table SimpleName MethodInvocation SimpleName attr uri
+table SimpleName MethodInvocation SimpleName table name
+set attribute SimpleName MethodInvocation SimpleName attr uri
+set attribute SimpleName MethodInvocation SimpleName table name
+attr uri SimpleName MethodInvocation SimpleName table name
+hbase operation context SimpleName MethodInvocation SimpleName get owner
+table SimpleName MethodInvocation SimpleName set attribute
+table SimpleName MethodInvocation SimpleName attr owner
+table SimpleName MethodInvocation MethodInvocation SimpleName hbase operation context
+table SimpleName MethodInvocation MethodInvocation SimpleName get owner
+set attribute SimpleName MethodInvocation SimpleName attr owner
+set attribute SimpleName MethodInvocation MethodInvocation SimpleName hbase operation context
+set attribute SimpleName MethodInvocation MethodInvocation SimpleName get owner
+attr owner SimpleName MethodInvocation MethodInvocation SimpleName hbase operation context
+attr owner SimpleName MethodInvocation MethodInvocation SimpleName get owner
+table SimpleName MethodInvocation SimpleName set attribute
+table SimpleName MethodInvocation SimpleName attr description
+table SimpleName MethodInvocation SimpleName table name
+set attribute SimpleName MethodInvocation SimpleName attr description
+set attribute SimpleName MethodInvocation SimpleName table name
+attr description SimpleName MethodInvocation SimpleName table name
+hbase operation context SimpleName MethodInvocation SimpleName get hbase conf
+table SimpleName MethodInvocation SimpleName set attribute
+table SimpleName MethodInvocation SimpleName attr parameters
+table SimpleName MethodInvocation MethodInvocation SimpleName hbase operation context
+table SimpleName MethodInvocation MethodInvocation SimpleName get hbase conf
+set attribute SimpleName MethodInvocation SimpleName attr parameters
+set attribute SimpleName MethodInvocation MethodInvocation SimpleName hbase operation context
+set attribute SimpleName MethodInvocation MethodInvocation SimpleName get hbase conf
+attr parameters SimpleName MethodInvocation MethodInvocation SimpleName hbase operation context
+attr parameters SimpleName MethodInvocation MethodInvocation SimpleName get hbase conf
+atlas type util SimpleName MethodInvocation SimpleName get atlas object id
+atlas type util SimpleName MethodInvocation SimpleName name space
+get atlas object id SimpleName MethodInvocation SimpleName name space
+table SimpleName MethodInvocation SimpleName set attribute
+table SimpleName MethodInvocation SimpleName attr namespace
+table SimpleName MethodInvocation MethodInvocation SimpleName atlas type util
+table SimpleName MethodInvocation MethodInvocation SimpleName get atlas object id
+table SimpleName MethodInvocation MethodInvocation SimpleName name space
+set attribute SimpleName MethodInvocation SimpleName attr namespace
+set attribute SimpleName MethodInvocation MethodInvocation SimpleName atlas type util
+set attribute SimpleName MethodInvocation MethodInvocation SimpleName get atlas object id
+set attribute SimpleName MethodInvocation MethodInvocation SimpleName name space
+attr namespace SimpleName MethodInvocation MethodInvocation SimpleName atlas type util
+attr namespace SimpleName MethodInvocation MethodInvocation SimpleName get atlas object id
+attr namespace SimpleName MethodInvocation MethodInvocation SimpleName name space
+table SimpleName MethodInvocation SimpleName set attribute
+table SimpleName MethodInvocation SimpleName attr create time
+table SimpleName MethodInvocation SimpleName now
+set attribute SimpleName MethodInvocation SimpleName attr create time
+set attribute SimpleName MethodInvocation SimpleName now
+attr create time SimpleName MethodInvocation SimpleName now
+table SimpleName MethodInvocation SimpleName set attribute
+table SimpleName MethodInvocation SimpleName attr modified time
+table SimpleName MethodInvocation SimpleName now
+set attribute SimpleName MethodInvocation SimpleName attr modified time
+set attribute SimpleName MethodInvocation SimpleName now
+attr modified time SimpleName MethodInvocation SimpleName now
+table SimpleName MethodInvocation SimpleName set attribute
+table SimpleName MethodInvocation SimpleName attr modified time
+table SimpleName MethodInvocation SimpleName now
+set attribute SimpleName MethodInvocation SimpleName attr modified time
+set attribute SimpleName MethodInvocation SimpleName now
+attr modified time SimpleName MethodInvocation SimpleName now
+operation SimpleName SwitchStatement SwitchCase SimpleName create table
+operation SimpleName SwitchStatement ExpressionStatement MethodInvocation SimpleName table
+operation SimpleName SwitchStatement ExpressionStatement MethodInvocation SimpleName set attribute
+operation SimpleName SwitchStatement ExpressionStatement MethodInvocation SimpleName attr create time
+operation SimpleName SwitchStatement ExpressionStatement MethodInvocation SimpleName now
+operation SimpleName SwitchStatement ExpressionStatement MethodInvocation SimpleName table
+operation SimpleName SwitchStatement ExpressionStatement MethodInvocation SimpleName set attribute
+operation SimpleName SwitchStatement ExpressionStatement MethodInvocation SimpleName attr modified time
+operation SimpleName SwitchStatement ExpressionStatement MethodInvocation SimpleName now
+operation SimpleName SwitchStatement SwitchCase SimpleName alter table
+create table SimpleName SwitchCase SwitchStatement SwitchCase SimpleName alter table
+operation SimpleName SwitchStatement Block ReturnStatement SimpleName table
+private Modifier MethodDeclaration SimpleType SimpleName atlas entity
+private Modifier MethodDeclaration SimpleName build table
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName h base operation context
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName hbase operation context
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas entity
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName name space
+private Modifier MethodDeclaration Block SwitchStatement SimpleName operation
+private Modifier MethodDeclaration Block ReturnStatement SimpleName table
+atlas entity SimpleName SimpleType MethodDeclaration SimpleName build table
+atlas entity SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName hbase operation context
+atlas entity SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName name space
+build table SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName h base operation context
+build table SimpleName MethodDeclaration SingleVariableDeclaration SimpleName hbase operation context
+build table SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas entity
+build table SimpleName MethodDeclaration SingleVariableDeclaration SimpleName name space
+build table SimpleName MethodDeclaration Block SwitchStatement SimpleName operation
+build table SimpleName MethodDeclaration Block ReturnStatement SimpleName table
+hbase operation context SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name space
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas entity
+public Modifier TypeDeclaration MethodDeclaration SimpleName build table
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName hbase operation context
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name space
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas entity
+test SimpleName TypeDeclaration MethodDeclaration SimpleName build table
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName hbase operation context
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name space

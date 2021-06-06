@@ -1,0 +1,248 @@
+conn SimpleName VariableDeclarationFragment MethodInvocation SimpleName get connector
+connector SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName conn
+name SimpleName MethodInvocation SimpleName get method name
+table name SimpleName VariableDeclarationFragment MethodInvocation SimpleName name
+table name SimpleName VariableDeclarationFragment MethodInvocation SimpleName get method name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName table name
+createtable StringLiteral InfixExpression SimpleName table name
+ts SimpleName MethodInvocation SimpleName exec
+ts SimpleName MethodInvocation InfixExpression StringLiteral createtable
+ts SimpleName MethodInvocation InfixExpression SimpleName table name
+exec SimpleName MethodInvocation InfixExpression StringLiteral createtable
+exec SimpleName MethodInvocation InfixExpression SimpleName table name
+tsinput QualifiedName MethodInvocation SimpleName set
+tsinput QualifiedName MethodInvocation StringLiteral empty
+set SimpleName MethodInvocation StringLiteral empty
+ts SimpleName MethodInvocation SimpleName exec
+ts SimpleName MethodInvocation StringLiteral setiter scan class orgapacheaccumulocoreiteratorscolumn family counter p
+ts SimpleName MethodInvocation BooleanLiteral false
+exec SimpleName MethodInvocation StringLiteral setiter scan class orgapacheaccumulocoreiteratorscolumn family counter p
+exec SimpleName MethodInvocation BooleanLiteral false
+setiter scan class orgapacheaccumulocoreiteratorscolumn family counter p StringLiteral MethodInvocation BooleanLiteral false
+ts SimpleName MethodInvocation SimpleName exec
+ts SimpleName MethodInvocation StringLiteral setiter scan class orgapacheaccumulocoreiteratorscolumn family counter p name cfcounter
+ts SimpleName MethodInvocation BooleanLiteral true
+exec SimpleName MethodInvocation StringLiteral setiter scan class orgapacheaccumulocoreiteratorscolumn family counter p name cfcounter
+exec SimpleName MethodInvocation BooleanLiteral true
+setiter scan class orgapacheaccumulocoreiteratorscolumn family counter p name cfcounter StringLiteral MethodInvocation BooleanLiteral true
+expected key SimpleName VariableDeclarationFragment StringLiteral tableiteratorscancfcounter
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName expected key
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral tableiteratorscancfcounter
+expected value SimpleName VariableDeclarationFragment StringLiteral orgapacheaccumulocoreiteratorscolumn family counter
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName expected value
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral orgapacheaccumulocoreiteratorscolumn family counter
+conn SimpleName MethodInvocation SimpleName table operations
+tops SimpleName VariableDeclarationFragment MethodInvocation SimpleName conn
+tops SimpleName VariableDeclarationFragment MethodInvocation SimpleName table operations
+table operations SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName tops
+check table for property SimpleName MethodInvocation SimpleName tops
+check table for property SimpleName MethodInvocation SimpleName table name
+check table for property SimpleName MethodInvocation SimpleName expected key
+check table for property SimpleName MethodInvocation SimpleName expected value
+tops SimpleName MethodInvocation SimpleName table name
+tops SimpleName MethodInvocation SimpleName expected key
+tops SimpleName MethodInvocation SimpleName expected value
+table name SimpleName MethodInvocation SimpleName expected key
+table name SimpleName MethodInvocation SimpleName expected value
+expected key SimpleName MethodInvocation SimpleName expected value
+deletetable StringLiteral InfixExpression SimpleName table name
+ts SimpleName MethodInvocation SimpleName exec
+ts SimpleName MethodInvocation InfixExpression StringLiteral deletetable
+ts SimpleName MethodInvocation InfixExpression SimpleName table name
+ts SimpleName MethodInvocation BooleanLiteral true
+exec SimpleName MethodInvocation InfixExpression StringLiteral deletetable
+exec SimpleName MethodInvocation InfixExpression SimpleName table name
+exec SimpleName MethodInvocation BooleanLiteral true
+deletetable StringLiteral InfixExpression MethodInvocation BooleanLiteral true
+table name SimpleName InfixExpression MethodInvocation BooleanLiteral true
+table name SimpleName InfixExpression StringLiteral empty
+table name SimpleName Assignment InfixExpression SimpleName table name
+table name SimpleName Assignment InfixExpression StringLiteral empty
+createtable StringLiteral InfixExpression SimpleName table name
+ts SimpleName MethodInvocation SimpleName exec
+ts SimpleName MethodInvocation InfixExpression StringLiteral createtable
+ts SimpleName MethodInvocation InfixExpression SimpleName table name
+ts SimpleName MethodInvocation BooleanLiteral true
+exec SimpleName MethodInvocation InfixExpression StringLiteral createtable
+exec SimpleName MethodInvocation InfixExpression SimpleName table name
+exec SimpleName MethodInvocation BooleanLiteral true
+createtable StringLiteral InfixExpression MethodInvocation BooleanLiteral true
+table name SimpleName InfixExpression MethodInvocation BooleanLiteral true
+tsinput QualifiedName MethodInvocation SimpleName set
+tsinput QualifiedName MethodInvocation StringLiteral customcfcounter
+set SimpleName MethodInvocation StringLiteral customcfcounter
+ts SimpleName MethodInvocation SimpleName exec
+ts SimpleName MethodInvocation StringLiteral setiter scan class orgapacheaccumulocoreiteratorscolumn family counter p
+ts SimpleName MethodInvocation BooleanLiteral true
+exec SimpleName MethodInvocation StringLiteral setiter scan class orgapacheaccumulocoreiteratorscolumn family counter p
+exec SimpleName MethodInvocation BooleanLiteral true
+setiter scan class orgapacheaccumulocoreiteratorscolumn family counter p StringLiteral MethodInvocation BooleanLiteral true
+expected key SimpleName Assignment StringLiteral tableiteratorscancustomcfcounter
+expected value SimpleName Assignment StringLiteral orgapacheaccumulocoreiteratorscolumn family counter
+check table for property SimpleName MethodInvocation SimpleName tops
+check table for property SimpleName MethodInvocation SimpleName table name
+check table for property SimpleName MethodInvocation SimpleName expected key
+check table for property SimpleName MethodInvocation SimpleName expected value
+tops SimpleName MethodInvocation SimpleName table name
+tops SimpleName MethodInvocation SimpleName expected key
+tops SimpleName MethodInvocation SimpleName expected value
+table name SimpleName MethodInvocation SimpleName expected key
+table name SimpleName MethodInvocation SimpleName expected value
+expected key SimpleName MethodInvocation SimpleName expected value
+deletetable StringLiteral InfixExpression SimpleName table name
+ts SimpleName MethodInvocation SimpleName exec
+ts SimpleName MethodInvocation InfixExpression StringLiteral deletetable
+ts SimpleName MethodInvocation InfixExpression SimpleName table name
+ts SimpleName MethodInvocation BooleanLiteral true
+exec SimpleName MethodInvocation InfixExpression StringLiteral deletetable
+exec SimpleName MethodInvocation InfixExpression SimpleName table name
+exec SimpleName MethodInvocation BooleanLiteral true
+deletetable StringLiteral InfixExpression MethodInvocation BooleanLiteral true
+table name SimpleName InfixExpression MethodInvocation BooleanLiteral true
+table name SimpleName InfixExpression StringLiteral empty
+table name SimpleName Assignment InfixExpression SimpleName table name
+table name SimpleName Assignment InfixExpression StringLiteral empty
+createtable StringLiteral InfixExpression SimpleName table name
+ts SimpleName MethodInvocation SimpleName exec
+ts SimpleName MethodInvocation InfixExpression StringLiteral createtable
+ts SimpleName MethodInvocation InfixExpression SimpleName table name
+ts SimpleName MethodInvocation BooleanLiteral true
+exec SimpleName MethodInvocation InfixExpression StringLiteral createtable
+exec SimpleName MethodInvocation InfixExpression SimpleName table name
+exec SimpleName MethodInvocation BooleanLiteral true
+createtable StringLiteral InfixExpression MethodInvocation BooleanLiteral true
+table name SimpleName InfixExpression MethodInvocation BooleanLiteral true
+tsinput QualifiedName MethodInvocation SimpleName set
+tsinput QualifiedName MethodInvocation StringLiteral customcfcountername value name value
+set SimpleName MethodInvocation StringLiteral customcfcountername value name value
+ts SimpleName MethodInvocation SimpleName exec
+ts SimpleName MethodInvocation StringLiteral setiter scan class orgapacheaccumulocoreiteratorscolumn family counter p
+ts SimpleName MethodInvocation BooleanLiteral true
+exec SimpleName MethodInvocation StringLiteral setiter scan class orgapacheaccumulocoreiteratorscolumn family counter p
+exec SimpleName MethodInvocation BooleanLiteral true
+setiter scan class orgapacheaccumulocoreiteratorscolumn family counter p StringLiteral MethodInvocation BooleanLiteral true
+expected key SimpleName Assignment StringLiteral tableiteratorscancustomcfcounter
+expected value SimpleName Assignment StringLiteral orgapacheaccumulocoreiteratorscolumn family counter
+check table for property SimpleName MethodInvocation SimpleName tops
+check table for property SimpleName MethodInvocation SimpleName table name
+check table for property SimpleName MethodInvocation SimpleName expected key
+check table for property SimpleName MethodInvocation SimpleName expected value
+tops SimpleName MethodInvocation SimpleName table name
+tops SimpleName MethodInvocation SimpleName expected key
+tops SimpleName MethodInvocation SimpleName expected value
+table name SimpleName MethodInvocation SimpleName expected key
+table name SimpleName MethodInvocation SimpleName expected value
+expected key SimpleName MethodInvocation SimpleName expected value
+expected key SimpleName Assignment StringLiteral tableiteratorscancustomcfcounteroptname
+expected value SimpleName Assignment StringLiteral value
+check table for property SimpleName MethodInvocation SimpleName tops
+check table for property SimpleName MethodInvocation SimpleName table name
+check table for property SimpleName MethodInvocation SimpleName expected key
+check table for property SimpleName MethodInvocation SimpleName expected value
+tops SimpleName MethodInvocation SimpleName table name
+tops SimpleName MethodInvocation SimpleName expected key
+tops SimpleName MethodInvocation SimpleName expected value
+table name SimpleName MethodInvocation SimpleName expected key
+table name SimpleName MethodInvocation SimpleName expected value
+expected key SimpleName MethodInvocation SimpleName expected value
+expected key SimpleName Assignment StringLiteral tableiteratorscancustomcfcounteroptname
+expected value SimpleName Assignment StringLiteral value
+check table for property SimpleName MethodInvocation SimpleName tops
+check table for property SimpleName MethodInvocation SimpleName table name
+check table for property SimpleName MethodInvocation SimpleName expected key
+check table for property SimpleName MethodInvocation SimpleName expected value
+tops SimpleName MethodInvocation SimpleName table name
+tops SimpleName MethodInvocation SimpleName expected key
+tops SimpleName MethodInvocation SimpleName expected value
+table name SimpleName MethodInvocation SimpleName expected key
+table name SimpleName MethodInvocation SimpleName expected value
+expected key SimpleName MethodInvocation SimpleName expected value
+deletetable StringLiteral InfixExpression SimpleName table name
+ts SimpleName MethodInvocation SimpleName exec
+ts SimpleName MethodInvocation InfixExpression StringLiteral deletetable
+ts SimpleName MethodInvocation InfixExpression SimpleName table name
+ts SimpleName MethodInvocation BooleanLiteral true
+exec SimpleName MethodInvocation InfixExpression StringLiteral deletetable
+exec SimpleName MethodInvocation InfixExpression SimpleName table name
+exec SimpleName MethodInvocation BooleanLiteral true
+deletetable StringLiteral InfixExpression MethodInvocation BooleanLiteral true
+table name SimpleName InfixExpression MethodInvocation BooleanLiteral true
+table name SimpleName InfixExpression StringLiteral empty
+table name SimpleName Assignment InfixExpression SimpleName table name
+table name SimpleName Assignment InfixExpression StringLiteral empty
+createtable StringLiteral InfixExpression SimpleName table name
+ts SimpleName MethodInvocation SimpleName exec
+ts SimpleName MethodInvocation InfixExpression StringLiteral createtable
+ts SimpleName MethodInvocation InfixExpression SimpleName table name
+ts SimpleName MethodInvocation BooleanLiteral true
+exec SimpleName MethodInvocation InfixExpression StringLiteral createtable
+exec SimpleName MethodInvocation InfixExpression SimpleName table name
+exec SimpleName MethodInvocation BooleanLiteral true
+createtable StringLiteral InfixExpression MethodInvocation BooleanLiteral true
+table name SimpleName InfixExpression MethodInvocation BooleanLiteral true
+tsinput QualifiedName MethodInvocation SimpleName set
+tsinput QualifiedName MethodInvocation StringLiteral name value . value . value . name value
+set SimpleName MethodInvocation StringLiteral name value . value . value . name value
+ts SimpleName MethodInvocation SimpleName exec
+ts SimpleName MethodInvocation StringLiteral setiter scan class orgapacheaccumulocoreiteratorscolumn family counter p name cfcounter
+ts SimpleName MethodInvocation BooleanLiteral true
+exec SimpleName MethodInvocation StringLiteral setiter scan class orgapacheaccumulocoreiteratorscolumn family counter p name cfcounter
+exec SimpleName MethodInvocation BooleanLiteral true
+setiter scan class orgapacheaccumulocoreiteratorscolumn family counter p name cfcounter StringLiteral MethodInvocation BooleanLiteral true
+expected key SimpleName Assignment StringLiteral tableiteratorscancfcounter
+expected value SimpleName Assignment StringLiteral orgapacheaccumulocoreiteratorscolumn family counter
+check table for property SimpleName MethodInvocation SimpleName tops
+check table for property SimpleName MethodInvocation SimpleName table name
+check table for property SimpleName MethodInvocation SimpleName expected key
+check table for property SimpleName MethodInvocation SimpleName expected value
+tops SimpleName MethodInvocation SimpleName table name
+tops SimpleName MethodInvocation SimpleName expected key
+tops SimpleName MethodInvocation SimpleName expected value
+table name SimpleName MethodInvocation SimpleName expected key
+table name SimpleName MethodInvocation SimpleName expected value
+expected key SimpleName MethodInvocation SimpleName expected value
+expected key SimpleName Assignment StringLiteral tableiteratorscancfcounteroptname
+expected value SimpleName Assignment StringLiteral value . value . value .
+check table for property SimpleName MethodInvocation SimpleName tops
+check table for property SimpleName MethodInvocation SimpleName table name
+check table for property SimpleName MethodInvocation SimpleName expected key
+check table for property SimpleName MethodInvocation SimpleName expected value
+tops SimpleName MethodInvocation SimpleName table name
+tops SimpleName MethodInvocation SimpleName expected key
+tops SimpleName MethodInvocation SimpleName expected value
+table name SimpleName MethodInvocation SimpleName expected key
+table name SimpleName MethodInvocation SimpleName expected value
+expected key SimpleName MethodInvocation SimpleName expected value
+expected key SimpleName Assignment StringLiteral tableiteratorscancfcounteroptname
+expected value SimpleName Assignment StringLiteral value
+check table for property SimpleName MethodInvocation SimpleName tops
+check table for property SimpleName MethodInvocation SimpleName table name
+check table for property SimpleName MethodInvocation SimpleName expected key
+check table for property SimpleName MethodInvocation SimpleName expected value
+tops SimpleName MethodInvocation SimpleName table name
+tops SimpleName MethodInvocation SimpleName expected key
+tops SimpleName MethodInvocation SimpleName expected value
+table name SimpleName MethodInvocation SimpleName expected key
+table name SimpleName MethodInvocation SimpleName expected value
+expected key SimpleName MethodInvocation SimpleName expected value
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName set iter option prompt
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set iter option prompt
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName set iter option prompt
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+set iter option prompt SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set iter option prompt
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set iter option prompt
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

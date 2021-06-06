@@ -1,0 +1,79 @@
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+tree map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+tree map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+tree map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+tree map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+iterator scope SimpleName SimpleType SingleVariableDeclaration SimpleName iter scope
+iterator scope SimpleName MethodInvocation SimpleName values
+iter scope SimpleName MethodInvocation SimpleName name
+propertytable iterator prefix QualifiedName InfixExpression MethodInvocation SimpleName iter scope
+propertytable iterator prefix QualifiedName InfixExpression MethodInvocation SimpleName name
+propertytable iterator prefix QualifiedName InfixExpression StringLiteral vers
+iter scope SimpleName MethodInvocation InfixExpression StringLiteral vers
+name SimpleName MethodInvocation InfixExpression StringLiteral vers
+versioning iterator SimpleName SimpleType TypeLiteral MethodInvocation SimpleName get name
+empty StringLiteral InfixExpression MethodInvocation SimpleName get name
+props SimpleName MethodInvocation SimpleName put
+props SimpleName MethodInvocation InfixExpression QualifiedName propertytable iterator prefix
+props SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName iter scope
+props SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName name
+props SimpleName MethodInvocation InfixExpression StringLiteral vers
+props SimpleName MethodInvocation InfixExpression StringLiteral empty
+props SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get name
+put SimpleName MethodInvocation InfixExpression QualifiedName propertytable iterator prefix
+put SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName iter scope
+put SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName name
+put SimpleName MethodInvocation InfixExpression StringLiteral vers
+put SimpleName MethodInvocation InfixExpression StringLiteral empty
+put SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get name
+propertytable iterator prefix QualifiedName InfixExpression MethodInvocation InfixExpression StringLiteral empty
+vers StringLiteral InfixExpression MethodInvocation InfixExpression StringLiteral empty
+iter scope SimpleName MethodInvocation SimpleName name
+propertytable iterator prefix QualifiedName InfixExpression MethodInvocation SimpleName iter scope
+propertytable iterator prefix QualifiedName InfixExpression MethodInvocation SimpleName name
+propertytable iterator prefix QualifiedName InfixExpression StringLiteral versoptmax versions
+iter scope SimpleName MethodInvocation InfixExpression StringLiteral versoptmax versions
+name SimpleName MethodInvocation InfixExpression StringLiteral versoptmax versions
+props SimpleName MethodInvocation SimpleName put
+props SimpleName MethodInvocation InfixExpression QualifiedName propertytable iterator prefix
+props SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName iter scope
+props SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName name
+props SimpleName MethodInvocation InfixExpression StringLiteral versoptmax versions
+props SimpleName MethodInvocation StringLiteral empty
+put SimpleName MethodInvocation InfixExpression QualifiedName propertytable iterator prefix
+put SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName iter scope
+put SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName name
+put SimpleName MethodInvocation InfixExpression StringLiteral versoptmax versions
+put SimpleName MethodInvocation StringLiteral empty
+propertytable iterator prefix QualifiedName InfixExpression MethodInvocation StringLiteral empty
+iter scope SimpleName MethodInvocation InfixExpression MethodInvocation StringLiteral empty
+name SimpleName MethodInvocation InfixExpression MethodInvocation StringLiteral empty
+versoptmax versions StringLiteral InfixExpression MethodInvocation StringLiteral empty
+iter scope SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName iterator scope
+iter scope SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName values
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName map
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName generate initial table properties
+public Modifier MethodDeclaration Block ReturnStatement SimpleName props
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName map
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+static Modifier MethodDeclaration SimpleName generate initial table properties
+static Modifier MethodDeclaration Block ReturnStatement SimpleName props
+map SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName generate initial table properties
+string SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName generate initial table properties
+string SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName generate initial table properties
+generate initial table properties SimpleName MethodDeclaration Block ReturnStatement SimpleName props
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleName generate initial table properties
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleName generate initial table properties

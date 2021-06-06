@@ -1,0 +1,28 @@
+contexts config SimpleName SimpleType SingleVariableDeclaration SimpleName config
+illegal state exception SimpleName SimpleType ClassInstanceCreation StringLiteral context manager config already set
+config SimpleName FieldAccess Assignment SimpleName config
+public Modifier MethodDeclaration Modifier synchronized
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set context config
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName contexts config
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName config
+synchronized Modifier MethodDeclaration PrimitiveType void
+synchronized Modifier MethodDeclaration SimpleName set context config
+synchronized Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName contexts config
+synchronized Modifier MethodDeclaration SingleVariableDeclaration SimpleName config
+void PrimitiveType MethodDeclaration SimpleName set context config
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName contexts config
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName config
+set context config SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName contexts config
+set context config SimpleName MethodDeclaration SingleVariableDeclaration SimpleName config
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier synchronized
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set context config
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName config
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier synchronized
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set context config
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName config

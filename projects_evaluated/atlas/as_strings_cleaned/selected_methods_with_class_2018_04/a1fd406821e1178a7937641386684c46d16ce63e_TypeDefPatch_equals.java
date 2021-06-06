@@ -1,0 +1,65 @@
+object SimpleName SimpleType SingleVariableDeclaration SimpleName object
+object SimpleName MethodInvocation SimpleName get class
+get class SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName object
+get class SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get class
+type def patch SimpleName SimpleType CastExpression SimpleName object
+that SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName type def patch
+that SimpleName VariableDeclarationFragment CastExpression SimpleName object
+type def patch SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName that
+apply to version SimpleName InfixExpression QualifiedName thatapply to version
+update to version SimpleName InfixExpression QualifiedName thatupdate to version
+action SimpleName InfixExpression QualifiedName thataction
+type def guid SimpleName MethodInvocation SimpleName equals
+type def guid SimpleName MethodInvocation QualifiedName thattype def guid
+equals SimpleName MethodInvocation QualifiedName thattype def guid
+type def guid SimpleName InfixExpression ConditionalExpression InfixExpression QualifiedName thattype def guid
+type name SimpleName MethodInvocation SimpleName equals
+type name SimpleName MethodInvocation QualifiedName thattype name
+equals SimpleName MethodInvocation QualifiedName thattype name
+type name SimpleName InfixExpression ConditionalExpression InfixExpression QualifiedName thattype name
+type def attributes SimpleName MethodInvocation SimpleName equals
+type def attributes SimpleName MethodInvocation QualifiedName thattype def attributes
+equals SimpleName MethodInvocation QualifiedName thattype def attributes
+type def attributes SimpleName InfixExpression ConditionalExpression InfixExpression QualifiedName thattype def attributes
+type def options SimpleName MethodInvocation SimpleName equals
+type def options SimpleName MethodInvocation QualifiedName thattype def options
+equals SimpleName MethodInvocation QualifiedName thattype def options
+type def options SimpleName InfixExpression ConditionalExpression InfixExpression QualifiedName thattype def options
+external standard mappings SimpleName MethodInvocation SimpleName equals
+external standard mappings SimpleName MethodInvocation QualifiedName thatexternal standard mappings
+equals SimpleName MethodInvocation QualifiedName thatexternal standard mappings
+external standard mappings SimpleName InfixExpression ConditionalExpression InfixExpression QualifiedName thatexternal standard mappings
+valid instance status list SimpleName MethodInvocation SimpleName equals
+valid instance status list SimpleName MethodInvocation QualifiedName thatvalid instance status list
+equals SimpleName MethodInvocation QualifiedName thatvalid instance status list
+valid instance status list SimpleName InfixExpression ConditionalExpression MethodInvocation SimpleName valid instance status list
+valid instance status list SimpleName InfixExpression ConditionalExpression MethodInvocation SimpleName equals
+valid instance status list SimpleName InfixExpression ConditionalExpression MethodInvocation QualifiedName thatvalid instance status list
+valid instance status list SimpleName InfixExpression ConditionalExpression InfixExpression QualifiedName thatvalid instance status list
+valid instance status list SimpleName MethodInvocation ConditionalExpression InfixExpression QualifiedName thatvalid instance status list
+equals SimpleName MethodInvocation ConditionalExpression InfixExpression QualifiedName thatvalid instance status list
+thatvalid instance status list QualifiedName MethodInvocation ConditionalExpression InfixExpression QualifiedName thatvalid instance status list
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType boolean
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName equals
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName object
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName equals
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName object
+boolean PrimitiveType MethodDeclaration SimpleName equals
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName object
+equals SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+equals SimpleName MethodDeclaration SingleVariableDeclaration SimpleName object
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName equals
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName object
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName equals
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName object

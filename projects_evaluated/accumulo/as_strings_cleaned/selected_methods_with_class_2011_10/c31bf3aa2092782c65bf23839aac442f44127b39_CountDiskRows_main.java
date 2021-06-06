@@ -1,0 +1,152 @@
+string SimpleName SimpleType ArrayType SingleVariableDeclaration SimpleName args
+argslength QualifiedName InfixExpression NumberLiteral empty
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation StringLiteral usage count disk rows tablename
+error SimpleName MethodInvocation StringLiteral usage count disk rows tablename
+cached configuration SimpleName MethodInvocation SimpleName get instance
+conf SimpleName VariableDeclarationFragment MethodInvocation SimpleName cached configuration
+conf SimpleName VariableDeclarationFragment MethodInvocation SimpleName get instance
+configuration SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName conf
+file system SimpleName MethodInvocation SimpleName get
+file system SimpleName MethodInvocation SimpleName conf
+get SimpleName MethodInvocation SimpleName conf
+fs SimpleName VariableDeclarationFragment MethodInvocation SimpleName file system
+fs SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+fs SimpleName VariableDeclarationFragment MethodInvocation SimpleName conf
+file system SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName fs
+key SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName key
+key SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName key
+value SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName value
+value SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName value
+numrows SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName numrows
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+text SimpleName SimpleType ClassInstanceCreation StringLiteral empty
+prev row SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName text
+prev row SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral empty
+text SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName prev row
+text SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName row
+server constants SimpleName MethodInvocation SimpleName get tables dir
+args SimpleName ArrayAccess NumberLiteral empty
+server constants SimpleName MethodInvocation InfixExpression StringLiteral /
+get tables dir SimpleName MethodInvocation InfixExpression StringLiteral /
+server constants SimpleName MethodInvocation InfixExpression ArrayAccess SimpleName args
+server constants SimpleName MethodInvocation InfixExpression ArrayAccess NumberLiteral empty
+get tables dir SimpleName MethodInvocation InfixExpression ArrayAccess SimpleName args
+get tables dir SimpleName MethodInvocation InfixExpression ArrayAccess NumberLiteral empty
+/ StringLiteral InfixExpression ArrayAccess SimpleName args
+/ StringLiteral InfixExpression ArrayAccess NumberLiteral empty
+path SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral /
+fs SimpleName MethodInvocation SimpleName list status
+fs SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName path
+fs SimpleName MethodInvocation ClassInstanceCreation InfixExpression StringLiteral /
+list status SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName path
+list status SimpleName MethodInvocation ClassInstanceCreation InfixExpression StringLiteral /
+tablets SimpleName VariableDeclarationFragment MethodInvocation SimpleName fs
+tablets SimpleName VariableDeclarationFragment MethodInvocation SimpleName list status
+file status SimpleName SimpleType SingleVariableDeclaration SimpleName tablet
+tablet SimpleName MethodInvocation SimpleName get path
+fs SimpleName MethodInvocation SimpleName list status
+fs SimpleName MethodInvocation MethodInvocation SimpleName tablet
+fs SimpleName MethodInvocation MethodInvocation SimpleName get path
+list status SimpleName MethodInvocation MethodInvocation SimpleName tablet
+list status SimpleName MethodInvocation MethodInvocation SimpleName get path
+mapfiles SimpleName VariableDeclarationFragment MethodInvocation SimpleName fs
+mapfiles SimpleName VariableDeclarationFragment MethodInvocation SimpleName list status
+mapfiles SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName tablet
+mapfiles SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get path
+file status SimpleName SimpleType SingleVariableDeclaration SimpleName mapfile
+mapfile SimpleName MethodInvocation SimpleName get path
+mapfile SimpleName MethodInvocation MethodInvocation SimpleName to string
+get path SimpleName MethodInvocation MethodInvocation SimpleName to string
+my map filereader QualifiedName SimpleType ClassInstanceCreation SimpleName fs
+my map filereader QualifiedName SimpleType ClassInstanceCreation MethodInvocation SimpleName to string
+my map filereader QualifiedName SimpleType ClassInstanceCreation SimpleName conf
+fs SimpleName ClassInstanceCreation MethodInvocation MethodInvocation SimpleName mapfile
+fs SimpleName ClassInstanceCreation MethodInvocation MethodInvocation SimpleName get path
+fs SimpleName ClassInstanceCreation MethodInvocation SimpleName to string
+fs SimpleName ClassInstanceCreation SimpleName conf
+mapfile SimpleName MethodInvocation MethodInvocation ClassInstanceCreation SimpleName conf
+get path SimpleName MethodInvocation MethodInvocation ClassInstanceCreation SimpleName conf
+to string SimpleName MethodInvocation ClassInstanceCreation SimpleName conf
+mfr SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType QualifiedName my map filereader
+mfr SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName fs
+mfr SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName to string
+mfr SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName conf
+my map filereader QualifiedName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName mfr
+mfr SimpleName MethodInvocation SimpleName next
+mfr SimpleName MethodInvocation SimpleName key
+mfr SimpleName MethodInvocation SimpleName value
+next SimpleName MethodInvocation SimpleName key
+next SimpleName MethodInvocation SimpleName value
+key SimpleName MethodInvocation SimpleName value
+key SimpleName MethodInvocation SimpleName get row
+row SimpleName Assignment MethodInvocation SimpleName key
+row SimpleName Assignment MethodInvocation SimpleName get row
+row SimpleName MethodInvocation SimpleName equals
+row SimpleName MethodInvocation SimpleName prev row
+equals SimpleName MethodInvocation SimpleName prev row
+text SimpleName SimpleType ClassInstanceCreation SimpleName row
+prev row SimpleName Assignment ClassInstanceCreation SimpleType SimpleName text
+prev row SimpleName Assignment ClassInstanceCreation SimpleName row
+file status SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName mapfiles
+mapfile SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName mapfiles
+file status SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName tablets
+tablet SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName tablets
+tablets SimpleName EnhancedForStatement Block EnhancedForStatement SimpleName mapfiles
+args SimpleName ArrayAccess NumberLiteral empty
+files in directory StringLiteral InfixExpression ArrayAccess SimpleName args
+files in directory StringLiteral InfixExpression ArrayAccess NumberLiteral empty
+files in directory StringLiteral InfixExpression StringLiteral have
+files in directory StringLiteral InfixExpression SimpleName numrows
+args SimpleName ArrayAccess InfixExpression StringLiteral have
+empty NumberLiteral ArrayAccess InfixExpression StringLiteral have
+args SimpleName ArrayAccess InfixExpression SimpleName numrows
+empty NumberLiteral ArrayAccess InfixExpression SimpleName numrows
+have StringLiteral InfixExpression SimpleName numrows
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation InfixExpression StringLiteral files in directory
+log SimpleName MethodInvocation InfixExpression ArrayAccess SimpleName args
+log SimpleName MethodInvocation InfixExpression ArrayAccess NumberLiteral empty
+log SimpleName MethodInvocation InfixExpression StringLiteral have
+log SimpleName MethodInvocation InfixExpression SimpleName numrows
+info SimpleName MethodInvocation InfixExpression StringLiteral files in directory
+info SimpleName MethodInvocation InfixExpression ArrayAccess SimpleName args
+info SimpleName MethodInvocation InfixExpression ArrayAccess NumberLiteral empty
+info SimpleName MethodInvocation InfixExpression StringLiteral have
+info SimpleName MethodInvocation InfixExpression SimpleName numrows
+int PrimitiveType VariableDeclarationStatement Block EnhancedForStatement SimpleName tablets
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName main
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName args
+public Modifier MethodDeclaration SimpleType SimpleName io exception
+static Modifier MethodDeclaration PrimitiveType void
+static Modifier MethodDeclaration SimpleName main
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName args
+static Modifier MethodDeclaration SimpleType SimpleName io exception
+static Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+static Modifier MethodDeclaration Block EnhancedForStatement SimpleName tablets
+void PrimitiveType MethodDeclaration SimpleName main
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName args
+void PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+void PrimitiveType MethodDeclaration Block EnhancedForStatement SimpleName tablets
+main SimpleName MethodDeclaration SingleVariableDeclaration SimpleName args
+main SimpleName MethodDeclaration SimpleType SimpleName io exception
+main SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+main SimpleName MethodDeclaration Block EnhancedForStatement SimpleName tablets
+args SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName main
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName args
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName main
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName args
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

@@ -1,0 +1,46 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName guid
+graph helper SimpleName MethodInvocation SimpleName find vertex by guid
+graph helper SimpleName MethodInvocation SimpleName titan graph
+graph helper SimpleName MethodInvocation SimpleName guid
+find vertex by guid SimpleName MethodInvocation SimpleName titan graph
+find vertex by guid SimpleName MethodInvocation SimpleName guid
+titan graph SimpleName MethodInvocation SimpleName guid
+instance vertex SimpleName VariableDeclarationFragment MethodInvocation SimpleName graph helper
+instance vertex SimpleName VariableDeclarationFragment MethodInvocation SimpleName find vertex by guid
+instance vertex SimpleName VariableDeclarationFragment MethodInvocation SimpleName titan graph
+instance vertex SimpleName VariableDeclarationFragment MethodInvocation SimpleName guid
+vertex SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName instance vertex
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral could not find a vertex for guid
+log SimpleName MethodInvocation SimpleName guid
+debug SimpleName MethodInvocation StringLiteral could not find a vertex for guid
+debug SimpleName MethodInvocation SimpleName guid
+could not find a vertex for guid StringLiteral MethodInvocation SimpleName guid
+could not find an entity in the repository for guid StringLiteral InfixExpression SimpleName guid
+repository exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral could not find an entity in the repository for guid
+repository exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName guid
+private Modifier MethodDeclaration SimpleType SimpleName vertex
+private Modifier MethodDeclaration SimpleName get vertex for guid
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName guid
+private Modifier MethodDeclaration SimpleType SimpleName repository exception
+private Modifier MethodDeclaration Block ReturnStatement SimpleName instance vertex
+vertex SimpleName SimpleType MethodDeclaration SimpleName get vertex for guid
+vertex SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName guid
+vertex SimpleName SimpleType MethodDeclaration SimpleType SimpleName repository exception
+get vertex for guid SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get vertex for guid SimpleName MethodDeclaration SingleVariableDeclaration SimpleName guid
+get vertex for guid SimpleName MethodDeclaration SimpleType SimpleName repository exception
+get vertex for guid SimpleName MethodDeclaration Block ReturnStatement SimpleName instance vertex
+guid SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName repository exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName vertex
+public Modifier TypeDeclaration MethodDeclaration SimpleName get vertex for guid
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName guid
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName repository exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName vertex
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get vertex for guid
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName guid
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName repository exception

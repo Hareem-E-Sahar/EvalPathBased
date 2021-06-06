@@ -1,0 +1,51 @@
+gremlin query composercontext QualifiedName SimpleType SingleVariableDeclaration SimpleName context
+string SimpleName SimpleType SingleVariableDeclaration SimpleName s
+context SimpleName MethodInvocation SimpleName get type name from alias
+context SimpleName MethodInvocation SimpleName s
+get type name from alias SimpleName MethodInvocation SimpleName s
+qn SimpleName VariableDeclarationFragment MethodInvocation SimpleName context
+qn SimpleName VariableDeclarationFragment MethodInvocation SimpleName get type name from alias
+qn SimpleName VariableDeclarationFragment MethodInvocation SimpleName s
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName qn
+string utils SimpleName MethodInvocation SimpleName is empty
+string utils SimpleName MethodInvocation SimpleName qn
+is empty SimpleName MethodInvocation SimpleName qn
+select clause composer SimpleName MethodInvocation SimpleName is keyword
+select clause composer SimpleName MethodInvocation SimpleName s
+is keyword SimpleName MethodInvocation SimpleName s
+string utils SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName select clause composer
+string utils SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName is keyword
+string utils SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName s
+is empty SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName select clause composer
+is empty SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName is keyword
+is empty SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName s
+qn SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName select clause composer
+qn SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName is keyword
+qn SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName s
+private Modifier MethodDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SimpleName get default qualified name for single part name
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType QualifiedName gremlin query composercontext
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName context
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName s
+private Modifier MethodDeclaration Block ReturnStatement SimpleName qn
+string SimpleName SimpleType MethodDeclaration SimpleName get default qualified name for single part name
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName context
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName s
+get default qualified name for single part name SimpleName MethodDeclaration SingleVariableDeclaration SimpleType QualifiedName gremlin query composercontext
+get default qualified name for single part name SimpleName MethodDeclaration SingleVariableDeclaration SimpleName context
+get default qualified name for single part name SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get default qualified name for single part name SimpleName MethodDeclaration SingleVariableDeclaration SimpleName s
+get default qualified name for single part name SimpleName MethodDeclaration Block ReturnStatement SimpleName qn
+context SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName s
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName get default qualified name for single part name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName context
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName s
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get default qualified name for single part name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName context
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName s

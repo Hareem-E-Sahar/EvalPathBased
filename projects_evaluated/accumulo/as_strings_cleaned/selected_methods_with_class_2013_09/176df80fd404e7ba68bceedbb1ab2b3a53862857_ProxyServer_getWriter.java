@@ -1,0 +1,86 @@
+byte buffer SimpleName SimpleType SingleVariableDeclaration SimpleName login
+string SimpleName SimpleType SingleVariableDeclaration SimpleName table name
+writer options SimpleName SimpleType SingleVariableDeclaration SimpleName opts
+cfg SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName batch writer config
+batch writer config SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName cfg
+optsmax memory QualifiedName InfixExpression NumberLiteral empty
+cfg SimpleName MethodInvocation SimpleName set max memory
+cfg SimpleName MethodInvocation QualifiedName optsmax memory
+set max memory SimpleName MethodInvocation QualifiedName optsmax memory
+optsthreads QualifiedName InfixExpression NumberLiteral empty
+cfg SimpleName MethodInvocation SimpleName set max write threads
+cfg SimpleName MethodInvocation QualifiedName optsthreads
+set max write threads SimpleName MethodInvocation QualifiedName optsthreads
+optstimeout ms QualifiedName InfixExpression NumberLiteral empty
+cfg SimpleName MethodInvocation SimpleName set timeout
+cfg SimpleName MethodInvocation QualifiedName optstimeout ms
+cfg SimpleName MethodInvocation QualifiedName time unitmilliseconds
+set timeout SimpleName MethodInvocation QualifiedName optstimeout ms
+set timeout SimpleName MethodInvocation QualifiedName time unitmilliseconds
+optstimeout ms QualifiedName MethodInvocation QualifiedName time unitmilliseconds
+optslatency ms QualifiedName InfixExpression NumberLiteral empty
+cfg SimpleName MethodInvocation SimpleName set max latency
+cfg SimpleName MethodInvocation QualifiedName optslatency ms
+cfg SimpleName MethodInvocation QualifiedName time unitmilliseconds
+set max latency SimpleName MethodInvocation QualifiedName optslatency ms
+set max latency SimpleName MethodInvocation QualifiedName time unitmilliseconds
+optslatency ms QualifiedName MethodInvocation QualifiedName time unitmilliseconds
+result SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName batch writer plus exception
+batch writer plus exception SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName result
+get connector SimpleName MethodInvocation SimpleName login
+get connector SimpleName MethodInvocation MethodInvocation SimpleName create batch writer
+login SimpleName MethodInvocation MethodInvocation SimpleName create batch writer
+get connector SimpleName MethodInvocation MethodInvocation SimpleName table name
+login SimpleName MethodInvocation MethodInvocation SimpleName table name
+get connector SimpleName MethodInvocation MethodInvocation SimpleName cfg
+login SimpleName MethodInvocation MethodInvocation SimpleName cfg
+create batch writer SimpleName MethodInvocation SimpleName table name
+create batch writer SimpleName MethodInvocation SimpleName cfg
+table name SimpleName MethodInvocation SimpleName cfg
+resultwriter QualifiedName Assignment MethodInvocation MethodInvocation SimpleName get connector
+resultwriter QualifiedName Assignment MethodInvocation MethodInvocation SimpleName login
+resultwriter QualifiedName Assignment MethodInvocation SimpleName create batch writer
+resultwriter QualifiedName Assignment MethodInvocation SimpleName table name
+resultwriter QualifiedName Assignment MethodInvocation SimpleName cfg
+private Modifier MethodDeclaration SimpleType SimpleName batch writer plus exception
+private Modifier MethodDeclaration SimpleName get writer
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName byte buffer
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName login
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName table name
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName writer options
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName opts
+batch writer plus exception SimpleName SimpleType MethodDeclaration SimpleName get writer
+batch writer plus exception SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName login
+batch writer plus exception SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName table name
+batch writer plus exception SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName opts
+batch writer plus exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName exception
+get writer SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName byte buffer
+get writer SimpleName MethodDeclaration SingleVariableDeclaration SimpleName login
+get writer SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get writer SimpleName MethodDeclaration SingleVariableDeclaration SimpleName table name
+get writer SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName writer options
+get writer SimpleName MethodDeclaration SingleVariableDeclaration SimpleName opts
+get writer SimpleName MethodDeclaration SimpleType SimpleName exception
+get writer SimpleName MethodDeclaration Block ReturnStatement SimpleName result
+login SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table name
+login SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName opts
+login SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+table name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName opts
+table name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+opts SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName batch writer plus exception
+public Modifier TypeDeclaration MethodDeclaration SimpleName get writer
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName login
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName opts
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName batch writer plus exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get writer
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName login
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName opts
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

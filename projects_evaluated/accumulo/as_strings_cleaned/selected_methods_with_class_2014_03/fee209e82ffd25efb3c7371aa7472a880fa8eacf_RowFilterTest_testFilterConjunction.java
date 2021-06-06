@@ -1,0 +1,118 @@
+mock instance SimpleName SimpleType ClassInstanceCreation StringLiteral rft
+instance SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName mock instance
+instance SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral rft
+mock instance SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName instance
+password token SimpleName SimpleType ClassInstanceCreation StringLiteral empty
+instance SimpleName MethodInvocation SimpleName get connector
+instance SimpleName MethodInvocation StringLiteral empty
+instance SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName password token
+instance SimpleName MethodInvocation ClassInstanceCreation StringLiteral empty
+get connector SimpleName MethodInvocation StringLiteral empty
+get connector SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName password token
+get connector SimpleName MethodInvocation ClassInstanceCreation StringLiteral empty
+empty StringLiteral MethodInvocation ClassInstanceCreation SimpleType SimpleName password token
+empty StringLiteral MethodInvocation ClassInstanceCreation StringLiteral empty
+conn SimpleName VariableDeclarationFragment MethodInvocation SimpleName instance
+conn SimpleName VariableDeclarationFragment MethodInvocation SimpleName get connector
+conn SimpleName VariableDeclarationFragment MethodInvocation StringLiteral empty
+conn SimpleName VariableDeclarationFragment MethodInvocation ClassInstanceCreation StringLiteral empty
+connector SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName conn
+conn SimpleName MethodInvocation SimpleName table operations
+conn SimpleName MethodInvocation MethodInvocation SimpleName create
+table operations SimpleName MethodInvocation MethodInvocation SimpleName create
+conn SimpleName MethodInvocation MethodInvocation StringLiteral filter conjunction
+table operations SimpleName MethodInvocation MethodInvocation StringLiteral filter conjunction
+create SimpleName MethodInvocation StringLiteral filter conjunction
+conn SimpleName MethodInvocation SimpleName create batch writer
+conn SimpleName MethodInvocation StringLiteral filter conjunction
+conn SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName batch writer config
+create batch writer SimpleName MethodInvocation StringLiteral filter conjunction
+create batch writer SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName batch writer config
+filter conjunction StringLiteral MethodInvocation ClassInstanceCreation SimpleType SimpleName batch writer config
+bw SimpleName VariableDeclarationFragment MethodInvocation SimpleName conn
+bw SimpleName VariableDeclarationFragment MethodInvocation SimpleName create batch writer
+bw SimpleName VariableDeclarationFragment MethodInvocation StringLiteral filter conjunction
+batch writer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName bw
+mutation SimpleName SimpleType SingleVariableDeclaration SimpleName m
+bw SimpleName MethodInvocation SimpleName add mutation
+bw SimpleName MethodInvocation SimpleName m
+add mutation SimpleName MethodInvocation SimpleName m
+m SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName create mutations
+conn SimpleName MethodInvocation SimpleName table operations
+iterator setting SimpleName SimpleType ClassInstanceCreation NumberLiteral empty
+iterator setting SimpleName SimpleType ClassInstanceCreation StringLiteral row zero or one
+empty NumberLiteral ClassInstanceCreation StringLiteral row zero or one
+empty NumberLiteral ClassInstanceCreation TypeLiteral SimpleType SimpleName row zero or one filter
+row zero or one StringLiteral ClassInstanceCreation TypeLiteral SimpleType SimpleName row zero or one filter
+conn SimpleName MethodInvocation MethodInvocation SimpleName attach iterator
+table operations SimpleName MethodInvocation MethodInvocation SimpleName attach iterator
+conn SimpleName MethodInvocation MethodInvocation StringLiteral filter conjunction
+table operations SimpleName MethodInvocation MethodInvocation StringLiteral filter conjunction
+conn SimpleName MethodInvocation MethodInvocation ClassInstanceCreation NumberLiteral empty
+conn SimpleName MethodInvocation MethodInvocation ClassInstanceCreation StringLiteral row zero or one
+table operations SimpleName MethodInvocation MethodInvocation ClassInstanceCreation NumberLiteral empty
+table operations SimpleName MethodInvocation MethodInvocation ClassInstanceCreation StringLiteral row zero or one
+attach iterator SimpleName MethodInvocation StringLiteral filter conjunction
+attach iterator SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName iterator setting
+attach iterator SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+attach iterator SimpleName MethodInvocation ClassInstanceCreation StringLiteral row zero or one
+filter conjunction StringLiteral MethodInvocation ClassInstanceCreation SimpleType SimpleName iterator setting
+filter conjunction StringLiteral MethodInvocation ClassInstanceCreation NumberLiteral empty
+filter conjunction StringLiteral MethodInvocation ClassInstanceCreation StringLiteral row zero or one
+conn SimpleName MethodInvocation SimpleName table operations
+iterator setting SimpleName SimpleType ClassInstanceCreation NumberLiteral empty
+iterator setting SimpleName SimpleType ClassInstanceCreation StringLiteral row one or two
+empty NumberLiteral ClassInstanceCreation StringLiteral row one or two
+empty NumberLiteral ClassInstanceCreation TypeLiteral SimpleType SimpleName row one or two filter
+row one or two StringLiteral ClassInstanceCreation TypeLiteral SimpleType SimpleName row one or two filter
+conn SimpleName MethodInvocation MethodInvocation SimpleName attach iterator
+table operations SimpleName MethodInvocation MethodInvocation SimpleName attach iterator
+conn SimpleName MethodInvocation MethodInvocation StringLiteral filter conjunction
+table operations SimpleName MethodInvocation MethodInvocation StringLiteral filter conjunction
+conn SimpleName MethodInvocation MethodInvocation ClassInstanceCreation NumberLiteral empty
+conn SimpleName MethodInvocation MethodInvocation ClassInstanceCreation StringLiteral row one or two
+table operations SimpleName MethodInvocation MethodInvocation ClassInstanceCreation NumberLiteral empty
+table operations SimpleName MethodInvocation MethodInvocation ClassInstanceCreation StringLiteral row one or two
+attach iterator SimpleName MethodInvocation StringLiteral filter conjunction
+attach iterator SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName iterator setting
+attach iterator SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+attach iterator SimpleName MethodInvocation ClassInstanceCreation StringLiteral row one or two
+filter conjunction StringLiteral MethodInvocation ClassInstanceCreation SimpleType SimpleName iterator setting
+filter conjunction StringLiteral MethodInvocation ClassInstanceCreation NumberLiteral empty
+filter conjunction StringLiteral MethodInvocation ClassInstanceCreation StringLiteral row one or two
+conn SimpleName MethodInvocation SimpleName create scanner
+conn SimpleName MethodInvocation StringLiteral filter conjunction
+conn SimpleName MethodInvocation QualifiedName constantsno auths
+create scanner SimpleName MethodInvocation StringLiteral filter conjunction
+create scanner SimpleName MethodInvocation QualifiedName constantsno auths
+filter conjunction StringLiteral MethodInvocation QualifiedName constantsno auths
+scanner SimpleName VariableDeclarationFragment MethodInvocation SimpleName conn
+scanner SimpleName VariableDeclarationFragment MethodInvocation SimpleName create scanner
+scanner SimpleName VariableDeclarationFragment MethodInvocation StringLiteral filter conjunction
+scanner SimpleName VariableDeclarationFragment MethodInvocation QualifiedName constantsno auths
+scanner SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName scanner
+hash set SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+arrays SimpleName MethodInvocation SimpleName as list
+arrays SimpleName MethodInvocation StringLiteral empty
+as list SimpleName MethodInvocation StringLiteral empty
+get rows SimpleName MethodInvocation SimpleName scanner
+assert equals SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName arrays
+assert equals SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName as list
+assert equals SimpleName MethodInvocation ClassInstanceCreation MethodInvocation StringLiteral empty
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get rows
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName scanner
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test filter conjunction
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName test filter conjunction
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+test filter conjunction SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test filter conjunction
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test filter conjunction
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

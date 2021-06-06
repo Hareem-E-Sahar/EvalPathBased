@@ -1,0 +1,37 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+byte buffer SimpleName SimpleType SingleVariableDeclaration SimpleName login
+get connector SimpleName MethodInvocation SimpleName login
+get connector SimpleName MethodInvocation MethodInvocation SimpleName instance operations
+login SimpleName MethodInvocation MethodInvocation SimpleName instance operations
+get connector SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get tablet servers
+login SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get tablet servers
+instance operations SimpleName MethodInvocation MethodInvocation SimpleName get tablet servers
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+t exception SimpleName SimpleType ClassInstanceCreation SimpleName e
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName get tablet servers
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName login
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName t exception
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName get tablet servers
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName byte buffer
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName login
+public Modifier MethodDeclaration SimpleType SimpleName t exception
+list SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get tablet servers
+string SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get tablet servers
+get tablet servers SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName byte buffer
+get tablet servers SimpleName MethodDeclaration SingleVariableDeclaration SimpleName login
+get tablet servers SimpleName MethodDeclaration SimpleType SimpleName t exception
+login SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName t exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName get tablet servers
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName login
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName t exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get tablet servers
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName login
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName t exception

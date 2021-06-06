@@ -1,0 +1,19 @@
+writer options SimpleName SimpleType SingleVariableDeclaration SimpleName opts
+opts SimpleName FieldAccess Assignment SimpleName opts
+public Modifier MethodDeclaration SimpleType SimpleName create writer args
+public Modifier MethodDeclaration SimpleName set opts
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName writer options
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName opts
+create writer args SimpleName SimpleType MethodDeclaration SimpleName set opts
+create writer args SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName opts
+set opts SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName writer options
+set opts SimpleName MethodDeclaration SingleVariableDeclaration SimpleName opts
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName create writer args
+public Modifier TypeDeclaration MethodDeclaration SimpleName set opts
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName opts
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName create writer args
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set opts
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName opts

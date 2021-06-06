@@ -1,0 +1,116 @@
+service client SimpleName MethodInvocation SimpleName get entity
+service client SimpleName MethodInvocation SimpleName hive table type
+service client SimpleName MethodInvocation QualifiedName atlas clientreferenceable attribute name
+service client SimpleName MethodInvocation SimpleName sales fact table
+get entity SimpleName MethodInvocation SimpleName hive table type
+get entity SimpleName MethodInvocation QualifiedName atlas clientreferenceable attribute name
+get entity SimpleName MethodInvocation SimpleName sales fact table
+hive table type SimpleName MethodInvocation QualifiedName atlas clientreferenceable attribute name
+hive table type SimpleName MethodInvocation SimpleName sales fact table
+atlas clientreferenceable attribute name QualifiedName MethodInvocation SimpleName sales fact table
+service client SimpleName MethodInvocation MethodInvocation SimpleName get id
+get entity SimpleName MethodInvocation MethodInvocation SimpleName get id
+hive table type SimpleName MethodInvocation MethodInvocation SimpleName get id
+atlas clientreferenceable attribute name QualifiedName MethodInvocation MethodInvocation SimpleName get id
+sales fact table SimpleName MethodInvocation MethodInvocation SimpleName get id
+service client SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get id
+get entity SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get id
+hive table type SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get id
+atlas clientreferenceable attribute name QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName get id
+sales fact table SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get id
+get id SimpleName MethodInvocation MethodInvocation SimpleName get id
+table id SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get id
+table id SimpleName VariableDeclarationFragment MethodInvocation SimpleName get id
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName table id
+service client SimpleName MethodInvocation SimpleName get output graph for entity
+service client SimpleName MethodInvocation SimpleName table id
+get output graph for entity SimpleName MethodInvocation SimpleName table id
+results SimpleName VariableDeclarationFragment MethodInvocation SimpleName service client
+results SimpleName VariableDeclarationFragment MethodInvocation SimpleName get output graph for entity
+results SimpleName VariableDeclarationFragment MethodInvocation SimpleName table id
+json object SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName results
+assert SimpleName MethodInvocation SimpleName assert not null
+assert SimpleName MethodInvocation SimpleName results
+assert not null SimpleName MethodInvocation SimpleName results
+results SimpleName MethodInvocation SimpleName get json object
+results SimpleName MethodInvocation StringLiteral values
+get json object SimpleName MethodInvocation StringLiteral values
+values SimpleName VariableDeclarationFragment MethodInvocation SimpleName results
+values SimpleName VariableDeclarationFragment MethodInvocation SimpleName get json object
+values SimpleName VariableDeclarationFragment MethodInvocation StringLiteral values
+json object SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName values
+assert SimpleName MethodInvocation SimpleName assert not null
+assert SimpleName MethodInvocation SimpleName values
+assert not null SimpleName MethodInvocation SimpleName values
+values SimpleName MethodInvocation SimpleName get json object
+values SimpleName MethodInvocation StringLiteral vertices
+get json object SimpleName MethodInvocation StringLiteral vertices
+vertices SimpleName VariableDeclarationFragment MethodInvocation SimpleName values
+vertices SimpleName VariableDeclarationFragment MethodInvocation SimpleName get json object
+vertices SimpleName VariableDeclarationFragment MethodInvocation StringLiteral vertices
+final Modifier VariableDeclarationStatement SimpleType SimpleName json object
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName vertices
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName values
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get json object
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation StringLiteral vertices
+json object SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName vertices
+vertices SimpleName MethodInvocation SimpleName length
+assert SimpleName MethodInvocation SimpleName assert equals
+assert SimpleName MethodInvocation MethodInvocation SimpleName vertices
+assert SimpleName MethodInvocation MethodInvocation SimpleName length
+assert SimpleName MethodInvocation NumberLiteral empty
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName vertices
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName length
+assert equals SimpleName MethodInvocation NumberLiteral empty
+vertices SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+length SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+values SimpleName MethodInvocation SimpleName get json object
+values SimpleName MethodInvocation StringLiteral edges
+get json object SimpleName MethodInvocation StringLiteral edges
+edges SimpleName VariableDeclarationFragment MethodInvocation SimpleName values
+edges SimpleName VariableDeclarationFragment MethodInvocation SimpleName get json object
+edges SimpleName VariableDeclarationFragment MethodInvocation StringLiteral edges
+final Modifier VariableDeclarationStatement SimpleType SimpleName json object
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName edges
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName values
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get json object
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation StringLiteral edges
+json object SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName edges
+edges SimpleName MethodInvocation SimpleName length
+assert SimpleName MethodInvocation SimpleName assert equals
+assert SimpleName MethodInvocation MethodInvocation SimpleName edges
+assert SimpleName MethodInvocation MethodInvocation SimpleName length
+assert SimpleName MethodInvocation NumberLiteral empty
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName edges
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName length
+assert equals SimpleName MethodInvocation NumberLiteral empty
+edges SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+length SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test outputs graph for entity
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test outputs graph for entity
+public Modifier MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+public Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+void PrimitiveType MethodDeclaration SimpleName test outputs graph for entity
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement Modifier final
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement Modifier final
+test outputs graph for entity SimpleName MethodDeclaration SimpleType SimpleName exception
+test outputs graph for entity SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+test outputs graph for entity SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test outputs graph for entity
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test outputs graph for entity
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

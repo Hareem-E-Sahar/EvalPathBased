@@ -1,0 +1,286 @@
+state SimpleName SimpleType SingleVariableDeclaration SimpleName state
+properties SimpleName SimpleType SingleVariableDeclaration SimpleName props
+state SimpleName MethodInvocation SimpleName get
+state SimpleName MethodInvocation StringLiteral index table name
+get SimpleName MethodInvocation StringLiteral index table name
+string SimpleName SimpleType CastExpression MethodInvocation SimpleName state
+string SimpleName SimpleType CastExpression MethodInvocation SimpleName get
+string SimpleName SimpleType CastExpression MethodInvocation StringLiteral index table name
+index table name SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName string
+index table name SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName state
+index table name SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get
+index table name SimpleName VariableDeclarationFragment CastExpression MethodInvocation StringLiteral index table name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName index table name
+state SimpleName MethodInvocation SimpleName get
+state SimpleName MethodInvocation StringLiteral doc table name
+get SimpleName MethodInvocation StringLiteral doc table name
+string SimpleName SimpleType CastExpression MethodInvocation SimpleName state
+string SimpleName SimpleType CastExpression MethodInvocation SimpleName get
+string SimpleName SimpleType CastExpression MethodInvocation StringLiteral doc table name
+doc table name SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName string
+doc table name SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName state
+doc table name SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get
+doc table name SimpleName VariableDeclarationFragment CastExpression MethodInvocation StringLiteral doc table name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName doc table name
+state SimpleName MethodInvocation SimpleName get
+state SimpleName MethodInvocation StringLiteral num partitions
+get SimpleName MethodInvocation StringLiteral num partitions
+integer SimpleName SimpleType CastExpression MethodInvocation SimpleName state
+integer SimpleName SimpleType CastExpression MethodInvocation SimpleName get
+integer SimpleName SimpleType CastExpression MethodInvocation StringLiteral num partitions
+num partitions SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName integer
+num partitions SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName state
+num partitions SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get
+num partitions SimpleName VariableDeclarationFragment CastExpression MethodInvocation StringLiteral num partitions
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName num partitions
+state SimpleName MethodInvocation SimpleName get
+state SimpleName MethodInvocation StringLiteral rand
+get SimpleName MethodInvocation StringLiteral rand
+random SimpleName SimpleType CastExpression MethodInvocation SimpleName state
+random SimpleName SimpleType CastExpression MethodInvocation SimpleName get
+random SimpleName SimpleType CastExpression MethodInvocation StringLiteral rand
+rand SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName random
+rand SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName state
+rand SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get
+rand SimpleName VariableDeclarationFragment CastExpression MethodInvocation StringLiteral rand
+random SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName rand
+insert SimpleName MethodInvocation SimpleName generate random word
+insert SimpleName MethodInvocation SimpleName rand
+generate random word SimpleName MethodInvocation SimpleName rand
+word to delete SimpleName VariableDeclarationFragment MethodInvocation SimpleName insert
+word to delete SimpleName VariableDeclarationFragment MethodInvocation SimpleName generate random word
+word to delete SimpleName VariableDeclarationFragment MethodInvocation SimpleName rand
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName word to delete
+state SimpleName MethodInvocation SimpleName get connector
+state SimpleName MethodInvocation MethodInvocation SimpleName create scanner
+get connector SimpleName MethodInvocation MethodInvocation SimpleName create scanner
+state SimpleName MethodInvocation MethodInvocation SimpleName index table name
+get connector SimpleName MethodInvocation MethodInvocation SimpleName index table name
+state SimpleName MethodInvocation MethodInvocation QualifiedName authorizationsempty
+get connector SimpleName MethodInvocation MethodInvocation QualifiedName authorizationsempty
+create scanner SimpleName MethodInvocation SimpleName index table name
+create scanner SimpleName MethodInvocation QualifiedName authorizationsempty
+index table name SimpleName MethodInvocation QualifiedName authorizationsempty
+scanner SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName state
+scanner SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get connector
+scanner SimpleName VariableDeclarationFragment MethodInvocation SimpleName create scanner
+scanner SimpleName VariableDeclarationFragment MethodInvocation SimpleName index table name
+scanner SimpleName VariableDeclarationFragment MethodInvocation QualifiedName authorizationsempty
+scanner SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName scanner
+text SimpleName SimpleType ClassInstanceCreation SimpleName word to delete
+scanner SimpleName MethodInvocation SimpleName fetch column family
+scanner SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName text
+scanner SimpleName MethodInvocation ClassInstanceCreation SimpleName word to delete
+fetch column family SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName text
+fetch column family SimpleName MethodInvocation ClassInstanceCreation SimpleName word to delete
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName range
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName range
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName key
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+key SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+entry SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+key SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+value SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+entry SimpleName MethodInvocation SimpleName get key
+entry SimpleName MethodInvocation MethodInvocation SimpleName get column qualifier
+get key SimpleName MethodInvocation MethodInvocation SimpleName get column qualifier
+range SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get column qualifier
+documents to delete SimpleName MethodInvocation SimpleName add
+documents to delete SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName range
+documents to delete SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get column qualifier
+add SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName range
+add SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get column qualifier
+entry SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName scanner
+scanner SimpleName EnhancedForStatement ExpressionStatement MethodInvocation SimpleName documents to delete
+scanner SimpleName EnhancedForStatement ExpressionStatement MethodInvocation SimpleName add
+documents to delete SimpleName MethodInvocation SimpleName size
+documents to delete SimpleName MethodInvocation InfixExpression NumberLiteral empty
+size SimpleName MethodInvocation InfixExpression NumberLiteral empty
+state SimpleName MethodInvocation SimpleName get connector
+state SimpleName MethodInvocation MethodInvocation SimpleName create batch scanner
+get connector SimpleName MethodInvocation MethodInvocation SimpleName create batch scanner
+state SimpleName MethodInvocation MethodInvocation SimpleName doc table name
+get connector SimpleName MethodInvocation MethodInvocation SimpleName doc table name
+state SimpleName MethodInvocation MethodInvocation QualifiedName authorizationsempty
+get connector SimpleName MethodInvocation MethodInvocation QualifiedName authorizationsempty
+state SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+get connector SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+create batch scanner SimpleName MethodInvocation SimpleName doc table name
+create batch scanner SimpleName MethodInvocation QualifiedName authorizationsempty
+create batch scanner SimpleName MethodInvocation NumberLiteral empty
+doc table name SimpleName MethodInvocation QualifiedName authorizationsempty
+doc table name SimpleName MethodInvocation NumberLiteral empty
+authorizationsempty QualifiedName MethodInvocation NumberLiteral empty
+bscanner SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName state
+bscanner SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get connector
+bscanner SimpleName VariableDeclarationFragment MethodInvocation SimpleName create batch scanner
+bscanner SimpleName VariableDeclarationFragment MethodInvocation SimpleName doc table name
+bscanner SimpleName VariableDeclarationFragment MethodInvocation QualifiedName authorizationsempty
+bscanner SimpleName VariableDeclarationFragment MethodInvocation NumberLiteral empty
+batch scanner SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName bscanner
+bscanner SimpleName MethodInvocation SimpleName set ranges
+bscanner SimpleName MethodInvocation SimpleName documents to delete
+set ranges SimpleName MethodInvocation SimpleName documents to delete
+state SimpleName MethodInvocation SimpleName get multi table batch writer
+state SimpleName MethodInvocation MethodInvocation SimpleName get batch writer
+get multi table batch writer SimpleName MethodInvocation MethodInvocation SimpleName get batch writer
+state SimpleName MethodInvocation MethodInvocation SimpleName index table name
+get multi table batch writer SimpleName MethodInvocation MethodInvocation SimpleName index table name
+get batch writer SimpleName MethodInvocation SimpleName index table name
+ibw SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName state
+ibw SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get multi table batch writer
+ibw SimpleName VariableDeclarationFragment MethodInvocation SimpleName get batch writer
+ibw SimpleName VariableDeclarationFragment MethodInvocation SimpleName index table name
+batch writer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ibw
+state SimpleName MethodInvocation SimpleName get multi table batch writer
+state SimpleName MethodInvocation MethodInvocation SimpleName get batch writer
+get multi table batch writer SimpleName MethodInvocation MethodInvocation SimpleName get batch writer
+state SimpleName MethodInvocation MethodInvocation SimpleName doc table name
+get multi table batch writer SimpleName MethodInvocation MethodInvocation SimpleName doc table name
+get batch writer SimpleName MethodInvocation SimpleName doc table name
+dbw SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName state
+dbw SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get multi table batch writer
+dbw SimpleName VariableDeclarationFragment MethodInvocation SimpleName get batch writer
+dbw SimpleName VariableDeclarationFragment MethodInvocation SimpleName doc table name
+batch writer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName dbw
+count SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName count
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName key
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+key SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+entry SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+key SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+value SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+entry SimpleName MethodInvocation SimpleName get key
+entry SimpleName MethodInvocation MethodInvocation SimpleName get row
+get key SimpleName MethodInvocation MethodInvocation SimpleName get row
+entry SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to string
+get key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to string
+get row SimpleName MethodInvocation MethodInvocation SimpleName to string
+doc id SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get row
+doc id SimpleName VariableDeclarationFragment MethodInvocation SimpleName to string
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName doc id
+entry SimpleName MethodInvocation SimpleName get value
+entry SimpleName MethodInvocation MethodInvocation SimpleName to string
+get value SimpleName MethodInvocation MethodInvocation SimpleName to string
+doc SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName entry
+doc SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get value
+doc SimpleName VariableDeclarationFragment MethodInvocation SimpleName to string
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName doc
+insert SimpleName MethodInvocation SimpleName unindex document
+insert SimpleName MethodInvocation SimpleName ibw
+insert SimpleName MethodInvocation SimpleName doc
+insert SimpleName MethodInvocation SimpleName doc id
+insert SimpleName MethodInvocation SimpleName num partitions
+unindex document SimpleName MethodInvocation SimpleName ibw
+unindex document SimpleName MethodInvocation SimpleName doc
+unindex document SimpleName MethodInvocation SimpleName doc id
+unindex document SimpleName MethodInvocation SimpleName num partitions
+ibw SimpleName MethodInvocation SimpleName doc
+ibw SimpleName MethodInvocation SimpleName doc id
+ibw SimpleName MethodInvocation SimpleName num partitions
+doc SimpleName MethodInvocation SimpleName doc id
+doc SimpleName MethodInvocation SimpleName num partitions
+doc id SimpleName MethodInvocation SimpleName num partitions
+mutation SimpleName SimpleType ClassInstanceCreation SimpleName doc id
+m SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName mutation
+m SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName doc id
+mutation SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName m
+m SimpleName MethodInvocation SimpleName put delete
+m SimpleName MethodInvocation StringLiteral doc
+m SimpleName MethodInvocation StringLiteral empty
+put delete SimpleName MethodInvocation StringLiteral doc
+put delete SimpleName MethodInvocation StringLiteral empty
+doc StringLiteral MethodInvocation StringLiteral empty
+dbw SimpleName MethodInvocation SimpleName add mutation
+dbw SimpleName MethodInvocation SimpleName m
+add mutation SimpleName MethodInvocation SimpleName m
+entry SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName bscanner
+bscanner SimpleName MethodInvocation SimpleName close
+state SimpleName MethodInvocation SimpleName get multi table batch writer
+state SimpleName MethodInvocation MethodInvocation SimpleName flush
+get multi table batch writer SimpleName MethodInvocation MethodInvocation SimpleName flush
+documents to delete SimpleName MethodInvocation SimpleName size
+count SimpleName InfixExpression MethodInvocation SimpleName documents to delete
+count SimpleName InfixExpression MethodInvocation SimpleName size
+documents to delete SimpleName MethodInvocation SimpleName size
+batch scanner did not return expected number of docs StringLiteral InfixExpression SimpleName count
+batch scanner did not return expected number of docs StringLiteral InfixExpression StringLiteral empty
+batch scanner did not return expected number of docs StringLiteral InfixExpression MethodInvocation SimpleName documents to delete
+batch scanner did not return expected number of docs StringLiteral InfixExpression MethodInvocation SimpleName size
+count SimpleName InfixExpression StringLiteral empty
+count SimpleName InfixExpression MethodInvocation SimpleName documents to delete
+count SimpleName InfixExpression MethodInvocation SimpleName size
+empty StringLiteral InfixExpression MethodInvocation SimpleName documents to delete
+empty StringLiteral InfixExpression MethodInvocation SimpleName size
+exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral batch scanner did not return expected number of docs
+exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName count
+exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral empty
+int PrimitiveType VariableDeclarationStatement Block EnhancedForStatement SimpleName bscanner
+documents to delete SimpleName MethodInvocation SimpleName size
+deleted StringLiteral InfixExpression MethodInvocation SimpleName documents to delete
+deleted StringLiteral InfixExpression MethodInvocation SimpleName size
+deleted StringLiteral InfixExpression StringLiteral documents containing
+deleted StringLiteral InfixExpression SimpleName word to delete
+documents to delete SimpleName MethodInvocation InfixExpression StringLiteral documents containing
+size SimpleName MethodInvocation InfixExpression StringLiteral documents containing
+documents to delete SimpleName MethodInvocation InfixExpression SimpleName word to delete
+size SimpleName MethodInvocation InfixExpression SimpleName word to delete
+documents containing StringLiteral InfixExpression SimpleName word to delete
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation InfixExpression StringLiteral deleted
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName documents to delete
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName size
+log SimpleName MethodInvocation InfixExpression StringLiteral documents containing
+log SimpleName MethodInvocation InfixExpression SimpleName word to delete
+debug SimpleName MethodInvocation InfixExpression StringLiteral deleted
+debug SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName documents to delete
+debug SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName size
+debug SimpleName MethodInvocation InfixExpression StringLiteral documents containing
+debug SimpleName MethodInvocation InfixExpression SimpleName word to delete
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName visit
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName state
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName props
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName visit
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName state
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName state
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName properties
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName props
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName visit
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName state
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName state
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName properties
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName props
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+void PrimitiveType MethodDeclaration Block EnhancedForStatement SimpleName scanner
+visit SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName state
+visit SimpleName MethodDeclaration SingleVariableDeclaration SimpleName state
+visit SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName properties
+visit SimpleName MethodDeclaration SingleVariableDeclaration SimpleName props
+visit SimpleName MethodDeclaration SimpleType SimpleName exception
+visit SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+visit SimpleName MethodDeclaration Block EnhancedForStatement SimpleName scanner
+state SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName props
+state SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+props SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName visit
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName state
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName props
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName visit
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName state
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName props
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

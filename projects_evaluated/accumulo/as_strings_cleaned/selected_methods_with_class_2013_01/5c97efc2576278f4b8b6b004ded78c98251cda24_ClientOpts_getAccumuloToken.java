@@ -1,0 +1,16 @@
+user pass token SimpleName SimpleType ClassInstanceCreation SimpleName user
+user pass token SimpleName SimpleType ClassInstanceCreation QualifiedName passwordvalue
+user SimpleName ClassInstanceCreation QualifiedName passwordvalue
+user pass token SimpleName SimpleType ClassInstanceCreation SimpleName user
+user pass token SimpleName SimpleType ClassInstanceCreation QualifiedName secure passwordvalue
+user SimpleName ClassInstanceCreation QualifiedName secure passwordvalue
+public Modifier MethodDeclaration SimpleType SimpleName user pass token
+public Modifier MethodDeclaration SimpleName get accumulo token
+user pass token SimpleName SimpleType MethodDeclaration SimpleName get accumulo token
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName user pass token
+public Modifier TypeDeclaration MethodDeclaration SimpleName get accumulo token
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName user pass token
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get accumulo token

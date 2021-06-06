@@ -1,0 +1,13 @@
+public Modifier MethodDeclaration Modifier abstract
+public Modifier MethodDeclaration ArrayType SimpleType SimpleName command
+public Modifier MethodDeclaration SimpleName get commands
+abstract Modifier MethodDeclaration ArrayType SimpleType SimpleName command
+abstract Modifier MethodDeclaration SimpleName get commands
+command SimpleName SimpleType ArrayType MethodDeclaration SimpleName get commands
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier abstract
+public Modifier TypeDeclaration MethodDeclaration SimpleName get commands
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier abstract
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get commands

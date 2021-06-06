@@ -1,0 +1,157 @@
+key SimpleName SimpleType ClassInstanceCreation StringLiteral t
+key SimpleName SimpleType ClassInstanceCreation StringLiteral tab
+key SimpleName SimpleType ClassInstanceCreation StringLiteral loc
+t StringLiteral ClassInstanceCreation StringLiteral tab
+t StringLiteral ClassInstanceCreation StringLiteral loc
+tab StringLiteral ClassInstanceCreation StringLiteral loc
+srv StringLiteral MethodInvocation SimpleName get bytes
+srv StringLiteral MethodInvocation QualifiedName standard charsetsutf
+get bytes SimpleName MethodInvocation QualifiedName standard charsetsutf
+value SimpleName SimpleType ClassInstanceCreation MethodInvocation StringLiteral srv
+value SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get bytes
+value SimpleName SimpleType ClassInstanceCreation MethodInvocation QualifiedName standard charsetsutf
+data SimpleName MethodInvocation SimpleName put
+data SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName key
+data SimpleName MethodInvocation ClassInstanceCreation StringLiteral t
+data SimpleName MethodInvocation ClassInstanceCreation StringLiteral tab
+data SimpleName MethodInvocation ClassInstanceCreation StringLiteral loc
+data SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName value
+data SimpleName MethodInvocation ClassInstanceCreation MethodInvocation StringLiteral srv
+data SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get bytes
+data SimpleName MethodInvocation ClassInstanceCreation MethodInvocation QualifiedName standard charsetsutf
+put SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName key
+put SimpleName MethodInvocation ClassInstanceCreation StringLiteral t
+put SimpleName MethodInvocation ClassInstanceCreation StringLiteral tab
+put SimpleName MethodInvocation ClassInstanceCreation StringLiteral loc
+put SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName value
+put SimpleName MethodInvocation ClassInstanceCreation MethodInvocation StringLiteral srv
+put SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get bytes
+put SimpleName MethodInvocation ClassInstanceCreation MethodInvocation QualifiedName standard charsetsutf
+key SimpleName SimpleType ClassInstanceCreation StringLiteral t
+key SimpleName SimpleType ClassInstanceCreation StringLiteral tab
+key SimpleName SimpleType ClassInstanceCreation StringLiteral loc
+key SimpleName SimpleType ClassInstanceCreation NumberLiteral empty
+t StringLiteral ClassInstanceCreation StringLiteral tab
+t StringLiteral ClassInstanceCreation StringLiteral loc
+t StringLiteral ClassInstanceCreation NumberLiteral empty
+tab StringLiteral ClassInstanceCreation StringLiteral loc
+tab StringLiteral ClassInstanceCreation NumberLiteral empty
+loc StringLiteral ClassInstanceCreation NumberLiteral empty
+srv StringLiteral MethodInvocation SimpleName get bytes
+srv StringLiteral MethodInvocation QualifiedName standard charsetsutf
+get bytes SimpleName MethodInvocation QualifiedName standard charsetsutf
+value SimpleName SimpleType ClassInstanceCreation MethodInvocation StringLiteral srv
+value SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get bytes
+value SimpleName SimpleType ClassInstanceCreation MethodInvocation QualifiedName standard charsetsutf
+data SimpleName MethodInvocation SimpleName put
+data SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName key
+data SimpleName MethodInvocation ClassInstanceCreation StringLiteral t
+data SimpleName MethodInvocation ClassInstanceCreation StringLiteral tab
+data SimpleName MethodInvocation ClassInstanceCreation StringLiteral loc
+data SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+data SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName value
+data SimpleName MethodInvocation ClassInstanceCreation MethodInvocation StringLiteral srv
+data SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get bytes
+data SimpleName MethodInvocation ClassInstanceCreation MethodInvocation QualifiedName standard charsetsutf
+put SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName key
+put SimpleName MethodInvocation ClassInstanceCreation StringLiteral t
+put SimpleName MethodInvocation ClassInstanceCreation StringLiteral tab
+put SimpleName MethodInvocation ClassInstanceCreation StringLiteral loc
+put SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+put SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName value
+put SimpleName MethodInvocation ClassInstanceCreation MethodInvocation StringLiteral srv
+put SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get bytes
+put SimpleName MethodInvocation ClassInstanceCreation MethodInvocation QualifiedName standard charsetsutf
+key SimpleName SimpleType ClassInstanceCreation StringLiteral t
+key SimpleName SimpleType ClassInstanceCreation StringLiteral tab
+key SimpleName SimpleType ClassInstanceCreation StringLiteral loc
+key SimpleName SimpleType ClassInstanceCreation NumberLiteral empty
+t StringLiteral ClassInstanceCreation StringLiteral tab
+t StringLiteral ClassInstanceCreation StringLiteral loc
+t StringLiteral ClassInstanceCreation NumberLiteral empty
+tab StringLiteral ClassInstanceCreation StringLiteral loc
+tab StringLiteral ClassInstanceCreation NumberLiteral empty
+loc StringLiteral ClassInstanceCreation NumberLiteral empty
+srv StringLiteral MethodInvocation SimpleName get bytes
+srv StringLiteral MethodInvocation QualifiedName standard charsetsutf
+get bytes SimpleName MethodInvocation QualifiedName standard charsetsutf
+value SimpleName SimpleType ClassInstanceCreation MethodInvocation StringLiteral srv
+value SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get bytes
+value SimpleName SimpleType ClassInstanceCreation MethodInvocation QualifiedName standard charsetsutf
+data SimpleName MethodInvocation SimpleName put
+data SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName key
+data SimpleName MethodInvocation ClassInstanceCreation StringLiteral t
+data SimpleName MethodInvocation ClassInstanceCreation StringLiteral tab
+data SimpleName MethodInvocation ClassInstanceCreation StringLiteral loc
+data SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+data SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName value
+data SimpleName MethodInvocation ClassInstanceCreation MethodInvocation StringLiteral srv
+data SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get bytes
+data SimpleName MethodInvocation ClassInstanceCreation MethodInvocation QualifiedName standard charsetsutf
+put SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName key
+put SimpleName MethodInvocation ClassInstanceCreation StringLiteral t
+put SimpleName MethodInvocation ClassInstanceCreation StringLiteral tab
+put SimpleName MethodInvocation ClassInstanceCreation StringLiteral loc
+put SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+put SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName value
+put SimpleName MethodInvocation ClassInstanceCreation MethodInvocation StringLiteral srv
+put SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get bytes
+put SimpleName MethodInvocation ClassInstanceCreation MethodInvocation QualifiedName standard charsetsutf
+data SimpleName MethodInvocation SimpleName entry set
+formatter SimpleName MethodInvocation SimpleName initialize
+formatter SimpleName MethodInvocation MethodInvocation SimpleName data
+formatter SimpleName MethodInvocation MethodInvocation SimpleName entry set
+formatter SimpleName MethodInvocation BooleanLiteral false
+initialize SimpleName MethodInvocation MethodInvocation SimpleName data
+initialize SimpleName MethodInvocation MethodInvocation SimpleName entry set
+initialize SimpleName MethodInvocation BooleanLiteral false
+data SimpleName MethodInvocation MethodInvocation BooleanLiteral false
+entry set SimpleName MethodInvocation MethodInvocation BooleanLiteral false
+formatter SimpleName MethodInvocation SimpleName next
+formatter SimpleName MethodInvocation MethodInvocation SimpleName split
+next SimpleName MethodInvocation MethodInvocation SimpleName split
+formatter SimpleName MethodInvocation MethodInvocation StringLiteral empty
+next SimpleName MethodInvocation MethodInvocation StringLiteral empty
+split SimpleName MethodInvocation StringLiteral empty
+result SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName formatter
+result SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName next
+result SimpleName VariableDeclarationFragment MethodInvocation SimpleName split
+result SimpleName VariableDeclarationFragment MethodInvocation StringLiteral empty
+result SimpleName ArrayAccess NumberLiteral empty
+result SimpleName ArrayAccess MethodInvocation SimpleName ends with
+empty NumberLiteral ArrayAccess MethodInvocation SimpleName ends with
+result SimpleName ArrayAccess MethodInvocation StringLiteral t
+empty NumberLiteral ArrayAccess MethodInvocation StringLiteral t
+ends with SimpleName MethodInvocation StringLiteral t
+assert true SimpleName MethodInvocation MethodInvocation ArrayAccess SimpleName result
+assert true SimpleName MethodInvocation MethodInvocation ArrayAccess NumberLiteral empty
+assert true SimpleName MethodInvocation MethodInvocation SimpleName ends with
+assert true SimpleName MethodInvocation MethodInvocation StringLiteral t
+result SimpleName ArrayAccess NumberLiteral empty
+result SimpleName ArrayAccess MethodInvocation SimpleName ends with
+empty NumberLiteral ArrayAccess MethodInvocation SimpleName ends with
+result SimpleName ArrayAccess MethodInvocation StringLiteral t
+empty NumberLiteral ArrayAccess MethodInvocation StringLiteral t
+ends with SimpleName MethodInvocation StringLiteral t
+assert true SimpleName MethodInvocation MethodInvocation ArrayAccess SimpleName result
+assert true SimpleName MethodInvocation MethodInvocation ArrayAccess NumberLiteral empty
+assert true SimpleName MethodInvocation MethodInvocation SimpleName ends with
+assert true SimpleName MethodInvocation MethodInvocation StringLiteral t
+formatter SimpleName MethodInvocation SimpleName has next
+assert false SimpleName MethodInvocation MethodInvocation SimpleName formatter
+assert false SimpleName MethodInvocation MethodInvocation SimpleName has next
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test aggregate
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test aggregate
+void PrimitiveType MethodDeclaration SimpleName test aggregate
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test aggregate
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test aggregate

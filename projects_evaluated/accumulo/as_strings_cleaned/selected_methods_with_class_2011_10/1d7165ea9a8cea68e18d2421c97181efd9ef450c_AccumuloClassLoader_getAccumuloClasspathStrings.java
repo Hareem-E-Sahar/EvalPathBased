@@ -1,0 +1,24 @@
+get accumulo string SimpleName MethodInvocation SimpleName classpath property name
+get accumulo string SimpleName MethodInvocation SimpleName accumulo classpath value
+classpath property name SimpleName MethodInvocation SimpleName accumulo classpath value
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName get accumulo classpath strings
+public Modifier MethodDeclaration SimpleType SimpleName illegal state exception
+static Modifier MethodDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SimpleName get accumulo classpath strings
+static Modifier MethodDeclaration SimpleType SimpleName illegal state exception
+string SimpleName SimpleType MethodDeclaration SimpleName get accumulo classpath strings
+string SimpleName SimpleType MethodDeclaration SimpleType SimpleName illegal state exception
+get accumulo classpath strings SimpleName MethodDeclaration SimpleType SimpleName illegal state exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName get accumulo classpath strings
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName illegal state exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get accumulo classpath strings
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName illegal state exception

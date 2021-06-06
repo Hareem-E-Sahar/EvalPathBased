@@ -1,0 +1,16 @@
+get graph SimpleName MethodInvocation MethodInvocation SimpleName commit
+after method SimpleName MarkerAnnotation MethodDeclaration Modifier public
+after method SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+after method SimpleName MarkerAnnotation MethodDeclaration SimpleName commit graph
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName commit graph
+void PrimitiveType MethodDeclaration SimpleName commit graph
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName after method
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName commit graph
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName after method
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName commit graph

@@ -1,0 +1,40 @@
+atlas relationship type SimpleName SimpleType SingleVariableDeclaration SimpleName type
+is valid SimpleName VariableDeclarationFragment BooleanLiteral false
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName is valid
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment BooleanLiteral false
+type SimpleName MethodInvocation SimpleName get relationship def
+validate atlas relationship def SimpleName MethodInvocation MethodInvocation SimpleName type
+validate atlas relationship def SimpleName MethodInvocation MethodInvocation SimpleName get relationship def
+is valid SimpleName Assignment BooleanLiteral true
+atlas base exception SimpleName SimpleType SingleVariableDeclaration SimpleName abe
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation StringLiteral validation error for atlas relationship type
+log SimpleName MethodInvocation SimpleName abe
+error SimpleName MethodInvocation StringLiteral validation error for atlas relationship type
+error SimpleName MethodInvocation SimpleName abe
+validation error for atlas relationship type StringLiteral MethodInvocation SimpleName abe
+boolean PrimitiveType VariableDeclarationStatement Block ReturnStatement SimpleName is valid
+private Modifier MethodDeclaration PrimitiveType boolean
+private Modifier MethodDeclaration SimpleName validate atlas relationship type
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas relationship type
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName type
+private Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+private Modifier MethodDeclaration Block ReturnStatement SimpleName is valid
+boolean PrimitiveType MethodDeclaration SimpleName validate atlas relationship type
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas relationship type
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName type
+boolean PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+boolean PrimitiveType MethodDeclaration Block ReturnStatement SimpleName is valid
+validate atlas relationship type SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas relationship type
+validate atlas relationship type SimpleName MethodDeclaration SingleVariableDeclaration SimpleName type
+validate atlas relationship type SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+validate atlas relationship type SimpleName MethodDeclaration Block ReturnStatement SimpleName is valid
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName validate atlas relationship type
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName validate atlas relationship type
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type

@@ -1,0 +1,83 @@
+atlas entity type SimpleName SimpleType SingleVariableDeclaration SimpleName type
+object SimpleName SimpleType SingleVariableDeclaration SimpleName entity
+entity SimpleName InstanceofExpression SimpleType SimpleName atlas object id
+atlas object id SimpleName SimpleType CastExpression SimpleName entity
+obj id SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName atlas object id
+obj id SimpleName VariableDeclarationFragment CastExpression SimpleName entity
+atlas object id SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName obj id
+obj id SimpleName MethodInvocation SimpleName is valid
+invalid object id StringLiteral InfixExpression SimpleName obj id
+atlas base exception SimpleName SimpleType ClassInstanceCreation QualifiedName atlas error codeinstance crud invalid params
+atlas base exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral invalid object id
+atlas base exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName obj id
+atlas error codeinstance crud invalid params QualifiedName ClassInstanceCreation InfixExpression StringLiteral invalid object id
+atlas error codeinstance crud invalid params QualifiedName ClassInstanceCreation InfixExpression SimpleName obj id
+obj id SimpleName MethodInvocation SimpleName get guid
+string utils SimpleName MethodInvocation SimpleName is empty
+string utils SimpleName MethodInvocation MethodInvocation SimpleName obj id
+string utils SimpleName MethodInvocation MethodInvocation SimpleName get guid
+is empty SimpleName MethodInvocation MethodInvocation SimpleName obj id
+is empty SimpleName MethodInvocation MethodInvocation SimpleName get guid
+obj id SimpleName MethodInvocation SimpleName is assigned guid
+obj id SimpleName MethodInvocation SimpleName is un assigned guid
+obj id SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName obj id
+obj id SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName is un assigned guid
+is assigned guid SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName obj id
+is assigned guid SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName is un assigned guid
+discovered entities SimpleName MethodInvocation SimpleName add un resolved id
+discovered entities SimpleName MethodInvocation SimpleName obj id
+add un resolved id SimpleName MethodInvocation SimpleName obj id
+discovered entities SimpleName MethodInvocation SimpleName add unresolved id by uniq attribs
+discovered entities SimpleName MethodInvocation SimpleName obj id
+add unresolved id by uniq attribs SimpleName MethodInvocation SimpleName obj id
+entity SimpleName InstanceofExpression SimpleType SimpleName atlas entity
+type SimpleName MethodInvocation SimpleName get type name
+use atlas object id to refer to another instance instead of atlas entity StringLiteral InfixExpression MethodInvocation SimpleName type
+use atlas object id to refer to another instance instead of atlas entity StringLiteral InfixExpression MethodInvocation SimpleName get type name
+atlas base exception SimpleName SimpleType ClassInstanceCreation QualifiedName atlas error codeinstance crud invalid params
+atlas base exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral use atlas object id to refer to another instance instead of atlas entity
+atlas error codeinstance crud invalid params QualifiedName ClassInstanceCreation InfixExpression StringLiteral use atlas object id to refer to another instance instead of atlas entity
+atlas error codeinstance crud invalid params QualifiedName ClassInstanceCreation InfixExpression MethodInvocation SimpleName type
+atlas error codeinstance crud invalid params QualifiedName ClassInstanceCreation InfixExpression MethodInvocation SimpleName get type name
+entity SimpleName MethodInvocation SimpleName get class
+invalid object type StringLiteral InfixExpression MethodInvocation SimpleName entity
+invalid object type StringLiteral InfixExpression MethodInvocation SimpleName get class
+atlas base exception SimpleName SimpleType ClassInstanceCreation QualifiedName atlas error codeinstance crud invalid params
+atlas base exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral invalid object type
+atlas error codeinstance crud invalid params QualifiedName ClassInstanceCreation InfixExpression StringLiteral invalid object type
+atlas error codeinstance crud invalid params QualifiedName ClassInstanceCreation InfixExpression MethodInvocation SimpleName entity
+atlas error codeinstance crud invalid params QualifiedName ClassInstanceCreation InfixExpression MethodInvocation SimpleName get class
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName visit reference
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas entity type
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName type
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName entity
+private Modifier MethodDeclaration SimpleType SimpleName atlas base exception
+void PrimitiveType MethodDeclaration SimpleName visit reference
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas entity type
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName type
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName entity
+void PrimitiveType MethodDeclaration SimpleType SimpleName atlas base exception
+visit reference SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas entity type
+visit reference SimpleName MethodDeclaration SingleVariableDeclaration SimpleName type
+visit reference SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+visit reference SimpleName MethodDeclaration SingleVariableDeclaration SimpleName entity
+visit reference SimpleName MethodDeclaration SimpleType SimpleName atlas base exception
+type SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity
+type SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+entity SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName visit reference
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName visit reference
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception

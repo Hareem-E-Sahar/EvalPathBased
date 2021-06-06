@@ -1,0 +1,500 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName file
+print stream SimpleName SimpleType SingleVariableDeclaration SimpleName out
+configuration SimpleName SimpleType SingleVariableDeclaration SimpleName conf
+max key sample len SimpleName VariableDeclarationFragment NumberLiteral empty
+final Modifier VariableDeclarationStatement PrimitiveType int
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName max key sample len
+final Modifier VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName max key sample len
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+path SimpleName SimpleType ClassInstanceCreation SimpleName file
+path SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName path
+path SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName file
+path SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName path
+path SimpleName MethodInvocation SimpleName get file system
+path SimpleName MethodInvocation SimpleName conf
+get file system SimpleName MethodInvocation SimpleName conf
+fs SimpleName VariableDeclarationFragment MethodInvocation SimpleName path
+fs SimpleName VariableDeclarationFragment MethodInvocation SimpleName get file system
+fs SimpleName VariableDeclarationFragment MethodInvocation SimpleName conf
+file system SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName fs
+fs SimpleName MethodInvocation SimpleName get file status
+fs SimpleName MethodInvocation SimpleName path
+get file status SimpleName MethodInvocation SimpleName path
+fs SimpleName MethodInvocation MethodInvocation SimpleName get len
+get file status SimpleName MethodInvocation MethodInvocation SimpleName get len
+path SimpleName MethodInvocation MethodInvocation SimpleName get len
+length SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName fs
+length SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get file status
+length SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName path
+length SimpleName VariableDeclarationFragment MethodInvocation SimpleName get len
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName length
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get len
+fs SimpleName MethodInvocation SimpleName open
+fs SimpleName MethodInvocation SimpleName path
+open SimpleName MethodInvocation SimpleName path
+fsdis SimpleName VariableDeclarationFragment MethodInvocation SimpleName fs
+fsdis SimpleName VariableDeclarationFragment MethodInvocation SimpleName open
+fsdis SimpleName VariableDeclarationFragment MethodInvocation SimpleName path
+fs data input stream SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName fsdis
+t filereader QualifiedName SimpleType ClassInstanceCreation SimpleName fsdis
+t filereader QualifiedName SimpleType ClassInstanceCreation SimpleName length
+t filereader QualifiedName SimpleType ClassInstanceCreation SimpleName conf
+fsdis SimpleName ClassInstanceCreation SimpleName length
+fsdis SimpleName ClassInstanceCreation SimpleName conf
+length SimpleName ClassInstanceCreation SimpleName conf
+reader SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType QualifiedName t filereader
+reader SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName fsdis
+reader SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName length
+reader SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName conf
+t filereader QualifiedName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName reader
+linked hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+linked hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+linked hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+linked hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+readerreader bcf QualifiedName MethodInvocation SimpleName get block count
+block cnt SimpleName VariableDeclarationFragment MethodInvocation QualifiedName readerreader bcf
+block cnt SimpleName VariableDeclarationFragment MethodInvocation SimpleName get block count
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName block cnt
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation QualifiedName readerreader bcf
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get block count
+readerreader bcfmeta indexindex QualifiedName MethodInvocation SimpleName size
+meta blk cnt SimpleName VariableDeclarationFragment MethodInvocation QualifiedName readerreader bcfmeta indexindex
+meta blk cnt SimpleName VariableDeclarationFragment MethodInvocation SimpleName size
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName meta blk cnt
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation QualifiedName readerreader bcfmeta indexindex
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName size
+readerreader bcfversion QualifiedName MethodInvocation SimpleName to string
+properties SimpleName MethodInvocation SimpleName put
+properties SimpleName MethodInvocation StringLiteral bc file version
+properties SimpleName MethodInvocation MethodInvocation QualifiedName readerreader bcfversion
+properties SimpleName MethodInvocation MethodInvocation SimpleName to string
+put SimpleName MethodInvocation StringLiteral bc file version
+put SimpleName MethodInvocation MethodInvocation QualifiedName readerreader bcfversion
+put SimpleName MethodInvocation MethodInvocation SimpleName to string
+bc file version StringLiteral MethodInvocation MethodInvocation QualifiedName readerreader bcfversion
+bc file version StringLiteral MethodInvocation MethodInvocation SimpleName to string
+readertfile metaversion QualifiedName MethodInvocation SimpleName to string
+properties SimpleName MethodInvocation SimpleName put
+properties SimpleName MethodInvocation StringLiteral t file version
+properties SimpleName MethodInvocation MethodInvocation QualifiedName readertfile metaversion
+properties SimpleName MethodInvocation MethodInvocation SimpleName to string
+put SimpleName MethodInvocation StringLiteral t file version
+put SimpleName MethodInvocation MethodInvocation QualifiedName readertfile metaversion
+put SimpleName MethodInvocation MethodInvocation SimpleName to string
+t file version StringLiteral MethodInvocation MethodInvocation QualifiedName readertfile metaversion
+t file version StringLiteral MethodInvocation MethodInvocation SimpleName to string
+long SimpleName MethodInvocation SimpleName to string
+long SimpleName MethodInvocation SimpleName length
+to string SimpleName MethodInvocation SimpleName length
+properties SimpleName MethodInvocation SimpleName put
+properties SimpleName MethodInvocation StringLiteral file length
+properties SimpleName MethodInvocation MethodInvocation SimpleName long
+properties SimpleName MethodInvocation MethodInvocation SimpleName to string
+properties SimpleName MethodInvocation MethodInvocation SimpleName length
+put SimpleName MethodInvocation StringLiteral file length
+put SimpleName MethodInvocation MethodInvocation SimpleName long
+put SimpleName MethodInvocation MethodInvocation SimpleName to string
+put SimpleName MethodInvocation MethodInvocation SimpleName length
+file length StringLiteral MethodInvocation MethodInvocation SimpleName long
+file length StringLiteral MethodInvocation MethodInvocation SimpleName to string
+file length StringLiteral MethodInvocation MethodInvocation SimpleName length
+readerreader bcf QualifiedName MethodInvocation SimpleName get default compression name
+properties SimpleName MethodInvocation SimpleName put
+properties SimpleName MethodInvocation StringLiteral data compression
+properties SimpleName MethodInvocation MethodInvocation QualifiedName readerreader bcf
+properties SimpleName MethodInvocation MethodInvocation SimpleName get default compression name
+put SimpleName MethodInvocation StringLiteral data compression
+put SimpleName MethodInvocation MethodInvocation QualifiedName readerreader bcf
+put SimpleName MethodInvocation MethodInvocation SimpleName get default compression name
+data compression StringLiteral MethodInvocation MethodInvocation QualifiedName readerreader bcf
+data compression StringLiteral MethodInvocation MethodInvocation SimpleName get default compression name
+reader SimpleName MethodInvocation SimpleName get entry count
+long SimpleName MethodInvocation SimpleName to string
+long SimpleName MethodInvocation MethodInvocation SimpleName reader
+long SimpleName MethodInvocation MethodInvocation SimpleName get entry count
+to string SimpleName MethodInvocation MethodInvocation SimpleName reader
+to string SimpleName MethodInvocation MethodInvocation SimpleName get entry count
+properties SimpleName MethodInvocation SimpleName put
+properties SimpleName MethodInvocation StringLiteral record count
+properties SimpleName MethodInvocation MethodInvocation SimpleName long
+properties SimpleName MethodInvocation MethodInvocation SimpleName to string
+properties SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName reader
+properties SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get entry count
+put SimpleName MethodInvocation StringLiteral record count
+put SimpleName MethodInvocation MethodInvocation SimpleName long
+put SimpleName MethodInvocation MethodInvocation SimpleName to string
+put SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName reader
+put SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get entry count
+record count StringLiteral MethodInvocation MethodInvocation SimpleName long
+record count StringLiteral MethodInvocation MethodInvocation SimpleName to string
+record count StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName reader
+record count StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName get entry count
+reader SimpleName MethodInvocation SimpleName is sorted
+boolean SimpleName MethodInvocation SimpleName to string
+boolean SimpleName MethodInvocation MethodInvocation SimpleName reader
+boolean SimpleName MethodInvocation MethodInvocation SimpleName is sorted
+to string SimpleName MethodInvocation MethodInvocation SimpleName reader
+to string SimpleName MethodInvocation MethodInvocation SimpleName is sorted
+properties SimpleName MethodInvocation SimpleName put
+properties SimpleName MethodInvocation StringLiteral sorted
+properties SimpleName MethodInvocation MethodInvocation SimpleName boolean
+properties SimpleName MethodInvocation MethodInvocation SimpleName to string
+properties SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName reader
+properties SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName is sorted
+put SimpleName MethodInvocation StringLiteral sorted
+put SimpleName MethodInvocation MethodInvocation SimpleName boolean
+put SimpleName MethodInvocation MethodInvocation SimpleName to string
+put SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName reader
+put SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName is sorted
+sorted StringLiteral MethodInvocation MethodInvocation SimpleName boolean
+sorted StringLiteral MethodInvocation MethodInvocation SimpleName to string
+sorted StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName reader
+sorted StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName is sorted
+reader SimpleName MethodInvocation SimpleName is sorted
+reader SimpleName MethodInvocation SimpleName get comparator name
+properties SimpleName MethodInvocation SimpleName put
+properties SimpleName MethodInvocation StringLiteral comparator
+properties SimpleName MethodInvocation MethodInvocation SimpleName reader
+properties SimpleName MethodInvocation MethodInvocation SimpleName get comparator name
+put SimpleName MethodInvocation StringLiteral comparator
+put SimpleName MethodInvocation MethodInvocation SimpleName reader
+put SimpleName MethodInvocation MethodInvocation SimpleName get comparator name
+comparator StringLiteral MethodInvocation MethodInvocation SimpleName reader
+comparator StringLiteral MethodInvocation MethodInvocation SimpleName get comparator name
+integer SimpleName MethodInvocation SimpleName to string
+integer SimpleName MethodInvocation SimpleName block cnt
+to string SimpleName MethodInvocation SimpleName block cnt
+properties SimpleName MethodInvocation SimpleName put
+properties SimpleName MethodInvocation StringLiteral data block count
+properties SimpleName MethodInvocation MethodInvocation SimpleName integer
+properties SimpleName MethodInvocation MethodInvocation SimpleName to string
+properties SimpleName MethodInvocation MethodInvocation SimpleName block cnt
+put SimpleName MethodInvocation StringLiteral data block count
+put SimpleName MethodInvocation MethodInvocation SimpleName integer
+put SimpleName MethodInvocation MethodInvocation SimpleName to string
+put SimpleName MethodInvocation MethodInvocation SimpleName block cnt
+data block count StringLiteral MethodInvocation MethodInvocation SimpleName integer
+data block count StringLiteral MethodInvocation MethodInvocation SimpleName to string
+data block count StringLiteral MethodInvocation MethodInvocation SimpleName block cnt
+data size SimpleName VariableDeclarationFragment NumberLiteral empty
+data size uncompressed SimpleName VariableDeclarationFragment NumberLiteral empty
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName data size
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName data size uncompressed
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+data size SimpleName VariableDeclarationFragment VariableDeclarationStatement VariableDeclarationFragment SimpleName data size uncompressed
+data size SimpleName VariableDeclarationFragment VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+empty NumberLiteral VariableDeclarationFragment VariableDeclarationStatement VariableDeclarationFragment SimpleName data size uncompressed
+empty NumberLiteral VariableDeclarationFragment VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+block cnt SimpleName InfixExpression NumberLiteral empty
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+i SimpleName InfixExpression SimpleName block cnt
+readerreader bcfdata index QualifiedName MethodInvocation SimpleName get block region list
+readerreader bcfdata index QualifiedName MethodInvocation MethodInvocation SimpleName get
+get block region list SimpleName MethodInvocation MethodInvocation SimpleName get
+readerreader bcfdata index QualifiedName MethodInvocation MethodInvocation SimpleName i
+get block region list SimpleName MethodInvocation MethodInvocation SimpleName i
+get SimpleName MethodInvocation SimpleName i
+region SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation QualifiedName readerreader bcfdata index
+region SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get block region list
+region SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+region SimpleName VariableDeclarationFragment MethodInvocation SimpleName i
+block region SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName region
+region SimpleName MethodInvocation SimpleName get compressed size
+data size SimpleName Assignment MethodInvocation SimpleName region
+data size SimpleName Assignment MethodInvocation SimpleName get compressed size
+region SimpleName MethodInvocation SimpleName get raw size
+data size uncompressed SimpleName Assignment MethodInvocation SimpleName region
+data size uncompressed SimpleName Assignment MethodInvocation SimpleName get raw size
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName block cnt
+int PrimitiveType VariableDeclarationExpression ForStatement PrefixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PrefixExpression SimpleName i
+block cnt SimpleName InfixExpression ForStatement PrefixExpression SimpleName i
+long SimpleName MethodInvocation SimpleName to string
+long SimpleName MethodInvocation SimpleName data size
+to string SimpleName MethodInvocation SimpleName data size
+properties SimpleName MethodInvocation SimpleName put
+properties SimpleName MethodInvocation StringLiteral data block bytes
+properties SimpleName MethodInvocation MethodInvocation SimpleName long
+properties SimpleName MethodInvocation MethodInvocation SimpleName to string
+properties SimpleName MethodInvocation MethodInvocation SimpleName data size
+put SimpleName MethodInvocation StringLiteral data block bytes
+put SimpleName MethodInvocation MethodInvocation SimpleName long
+put SimpleName MethodInvocation MethodInvocation SimpleName to string
+put SimpleName MethodInvocation MethodInvocation SimpleName data size
+data block bytes StringLiteral MethodInvocation MethodInvocation SimpleName long
+data block bytes StringLiteral MethodInvocation MethodInvocation SimpleName to string
+data block bytes StringLiteral MethodInvocation MethodInvocation SimpleName data size
+readerreader bcf QualifiedName MethodInvocation SimpleName get default compression name
+readerreader bcf QualifiedName MethodInvocation InfixExpression StringLiteral none
+get default compression name SimpleName MethodInvocation InfixExpression StringLiteral none
+long SimpleName MethodInvocation SimpleName to string
+long SimpleName MethodInvocation SimpleName data size uncompressed
+to string SimpleName MethodInvocation SimpleName data size uncompressed
+properties SimpleName MethodInvocation SimpleName put
+properties SimpleName MethodInvocation StringLiteral data block uncompressed bytes
+properties SimpleName MethodInvocation MethodInvocation SimpleName long
+properties SimpleName MethodInvocation MethodInvocation SimpleName to string
+properties SimpleName MethodInvocation MethodInvocation SimpleName data size uncompressed
+put SimpleName MethodInvocation StringLiteral data block uncompressed bytes
+put SimpleName MethodInvocation MethodInvocation SimpleName long
+put SimpleName MethodInvocation MethodInvocation SimpleName to string
+put SimpleName MethodInvocation MethodInvocation SimpleName data size uncompressed
+data block uncompressed bytes StringLiteral MethodInvocation MethodInvocation SimpleName long
+data block uncompressed bytes StringLiteral MethodInvocation MethodInvocation SimpleName to string
+data block uncompressed bytes StringLiteral MethodInvocation MethodInvocation SimpleName data size uncompressed
+double PrimitiveType CastExpression SimpleName data size uncompressed
+double PrimitiveType CastExpression InfixExpression SimpleName data size
+data size uncompressed SimpleName CastExpression InfixExpression SimpleName data size
+string SimpleName MethodInvocation SimpleName format
+string SimpleName MethodInvocation StringLiteral :%. f
+string SimpleName MethodInvocation InfixExpression CastExpression PrimitiveType double
+string SimpleName MethodInvocation InfixExpression CastExpression SimpleName data size uncompressed
+string SimpleName MethodInvocation InfixExpression SimpleName data size
+format SimpleName MethodInvocation StringLiteral :%. f
+format SimpleName MethodInvocation InfixExpression CastExpression PrimitiveType double
+format SimpleName MethodInvocation InfixExpression CastExpression SimpleName data size uncompressed
+format SimpleName MethodInvocation InfixExpression SimpleName data size
+:%. f StringLiteral MethodInvocation InfixExpression CastExpression PrimitiveType double
+:%. f StringLiteral MethodInvocation InfixExpression CastExpression SimpleName data size uncompressed
+:%. f StringLiteral MethodInvocation InfixExpression SimpleName data size
+properties SimpleName MethodInvocation SimpleName put
+properties SimpleName MethodInvocation StringLiteral data block compression ratio
+properties SimpleName MethodInvocation MethodInvocation SimpleName string
+properties SimpleName MethodInvocation MethodInvocation SimpleName format
+properties SimpleName MethodInvocation MethodInvocation StringLiteral :%. f
+properties SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName data size
+put SimpleName MethodInvocation StringLiteral data block compression ratio
+put SimpleName MethodInvocation MethodInvocation SimpleName string
+put SimpleName MethodInvocation MethodInvocation SimpleName format
+put SimpleName MethodInvocation MethodInvocation StringLiteral :%. f
+put SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName data size
+data block compression ratio StringLiteral MethodInvocation MethodInvocation SimpleName string
+data block compression ratio StringLiteral MethodInvocation MethodInvocation SimpleName format
+data block compression ratio StringLiteral MethodInvocation MethodInvocation StringLiteral :%. f
+data block compression ratio StringLiteral MethodInvocation MethodInvocation InfixExpression SimpleName data size
+integer SimpleName MethodInvocation SimpleName to string
+integer SimpleName MethodInvocation SimpleName meta blk cnt
+to string SimpleName MethodInvocation SimpleName meta blk cnt
+properties SimpleName MethodInvocation SimpleName put
+properties SimpleName MethodInvocation StringLiteral meta block count
+properties SimpleName MethodInvocation MethodInvocation SimpleName integer
+properties SimpleName MethodInvocation MethodInvocation SimpleName to string
+properties SimpleName MethodInvocation MethodInvocation SimpleName meta blk cnt
+put SimpleName MethodInvocation StringLiteral meta block count
+put SimpleName MethodInvocation MethodInvocation SimpleName integer
+put SimpleName MethodInvocation MethodInvocation SimpleName to string
+put SimpleName MethodInvocation MethodInvocation SimpleName meta blk cnt
+meta block count StringLiteral MethodInvocation MethodInvocation SimpleName integer
+meta block count StringLiteral MethodInvocation MethodInvocation SimpleName to string
+meta block count StringLiteral MethodInvocation MethodInvocation SimpleName meta blk cnt
+meta size SimpleName VariableDeclarationFragment NumberLiteral empty
+meta size uncompressed SimpleName VariableDeclarationFragment NumberLiteral empty
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName meta size
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName meta size uncompressed
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+meta size SimpleName VariableDeclarationFragment VariableDeclarationStatement VariableDeclarationFragment SimpleName meta size uncompressed
+meta size SimpleName VariableDeclarationFragment VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+empty NumberLiteral VariableDeclarationFragment VariableDeclarationStatement VariableDeclarationFragment SimpleName meta size uncompressed
+empty NumberLiteral VariableDeclarationFragment VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+meta blk cnt SimpleName InfixExpression NumberLiteral empty
+collection SimpleName SimpleType ParameterizedType SimpleType SimpleName meta index entry
+readerreader bcfmeta indexindex QualifiedName MethodInvocation SimpleName values
+meta blks SimpleName VariableDeclarationFragment MethodInvocation QualifiedName readerreader bcfmeta indexindex
+meta blks SimpleName VariableDeclarationFragment MethodInvocation SimpleName values
+calculate compression SimpleName VariableDeclarationFragment BooleanLiteral false
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName calculate compression
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment BooleanLiteral false
+iterator SimpleName SimpleType ParameterizedType SimpleType SimpleName meta index entry
+meta blks SimpleName MethodInvocation SimpleName iterator
+it SimpleName VariableDeclarationFragment MethodInvocation SimpleName meta blks
+it SimpleName VariableDeclarationFragment MethodInvocation SimpleName iterator
+it SimpleName MethodInvocation SimpleName has next
+it SimpleName MethodInvocation SimpleName next
+e SimpleName VariableDeclarationFragment MethodInvocation SimpleName it
+e SimpleName VariableDeclarationFragment MethodInvocation SimpleName next
+meta index entry SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName e
+e SimpleName MethodInvocation SimpleName get region
+e SimpleName MethodInvocation MethodInvocation SimpleName get compressed size
+get region SimpleName MethodInvocation MethodInvocation SimpleName get compressed size
+meta size SimpleName Assignment MethodInvocation MethodInvocation SimpleName e
+meta size SimpleName Assignment MethodInvocation MethodInvocation SimpleName get region
+meta size SimpleName Assignment MethodInvocation SimpleName get compressed size
+e SimpleName MethodInvocation SimpleName get region
+e SimpleName MethodInvocation MethodInvocation SimpleName get raw size
+get region SimpleName MethodInvocation MethodInvocation SimpleName get raw size
+meta size uncompressed SimpleName Assignment MethodInvocation MethodInvocation SimpleName e
+meta size uncompressed SimpleName Assignment MethodInvocation MethodInvocation SimpleName get region
+meta size uncompressed SimpleName Assignment MethodInvocation SimpleName get raw size
+e SimpleName MethodInvocation SimpleName get compression algorithm
+e SimpleName MethodInvocation InfixExpression QualifiedName compressionalgorithmnone
+get compression algorithm SimpleName MethodInvocation InfixExpression QualifiedName compressionalgorithmnone
+calculate compression SimpleName Assignment BooleanLiteral true
+long SimpleName MethodInvocation SimpleName to string
+long SimpleName MethodInvocation SimpleName meta size
+to string SimpleName MethodInvocation SimpleName meta size
+properties SimpleName MethodInvocation SimpleName put
+properties SimpleName MethodInvocation StringLiteral meta block bytes
+properties SimpleName MethodInvocation MethodInvocation SimpleName long
+properties SimpleName MethodInvocation MethodInvocation SimpleName to string
+properties SimpleName MethodInvocation MethodInvocation SimpleName meta size
+put SimpleName MethodInvocation StringLiteral meta block bytes
+put SimpleName MethodInvocation MethodInvocation SimpleName long
+put SimpleName MethodInvocation MethodInvocation SimpleName to string
+put SimpleName MethodInvocation MethodInvocation SimpleName meta size
+meta block bytes StringLiteral MethodInvocation MethodInvocation SimpleName long
+meta block bytes StringLiteral MethodInvocation MethodInvocation SimpleName to string
+meta block bytes StringLiteral MethodInvocation MethodInvocation SimpleName meta size
+long SimpleName MethodInvocation SimpleName to string
+long SimpleName MethodInvocation SimpleName meta size uncompressed
+to string SimpleName MethodInvocation SimpleName meta size uncompressed
+properties SimpleName MethodInvocation SimpleName put
+properties SimpleName MethodInvocation StringLiteral meta block uncompressed bytes
+properties SimpleName MethodInvocation MethodInvocation SimpleName long
+properties SimpleName MethodInvocation MethodInvocation SimpleName to string
+properties SimpleName MethodInvocation MethodInvocation SimpleName meta size uncompressed
+put SimpleName MethodInvocation StringLiteral meta block uncompressed bytes
+put SimpleName MethodInvocation MethodInvocation SimpleName long
+put SimpleName MethodInvocation MethodInvocation SimpleName to string
+put SimpleName MethodInvocation MethodInvocation SimpleName meta size uncompressed
+meta block uncompressed bytes StringLiteral MethodInvocation MethodInvocation SimpleName long
+meta block uncompressed bytes StringLiteral MethodInvocation MethodInvocation SimpleName to string
+meta block uncompressed bytes StringLiteral MethodInvocation MethodInvocation SimpleName meta size uncompressed
+double PrimitiveType CastExpression SimpleName meta size uncompressed
+double PrimitiveType CastExpression InfixExpression SimpleName meta size
+meta size uncompressed SimpleName CastExpression InfixExpression SimpleName meta size
+string SimpleName MethodInvocation SimpleName format
+string SimpleName MethodInvocation StringLiteral :%. f
+string SimpleName MethodInvocation InfixExpression CastExpression PrimitiveType double
+string SimpleName MethodInvocation InfixExpression CastExpression SimpleName meta size uncompressed
+string SimpleName MethodInvocation InfixExpression SimpleName meta size
+format SimpleName MethodInvocation StringLiteral :%. f
+format SimpleName MethodInvocation InfixExpression CastExpression PrimitiveType double
+format SimpleName MethodInvocation InfixExpression CastExpression SimpleName meta size uncompressed
+format SimpleName MethodInvocation InfixExpression SimpleName meta size
+:%. f StringLiteral MethodInvocation InfixExpression CastExpression PrimitiveType double
+:%. f StringLiteral MethodInvocation InfixExpression CastExpression SimpleName meta size uncompressed
+:%. f StringLiteral MethodInvocation InfixExpression SimpleName meta size
+properties SimpleName MethodInvocation SimpleName put
+properties SimpleName MethodInvocation StringLiteral meta block compression ratio
+properties SimpleName MethodInvocation MethodInvocation SimpleName string
+properties SimpleName MethodInvocation MethodInvocation SimpleName format
+properties SimpleName MethodInvocation MethodInvocation StringLiteral :%. f
+properties SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName meta size
+put SimpleName MethodInvocation StringLiteral meta block compression ratio
+put SimpleName MethodInvocation MethodInvocation SimpleName string
+put SimpleName MethodInvocation MethodInvocation SimpleName format
+put SimpleName MethodInvocation MethodInvocation StringLiteral :%. f
+put SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName meta size
+meta block compression ratio StringLiteral MethodInvocation MethodInvocation SimpleName string
+meta block compression ratio StringLiteral MethodInvocation MethodInvocation SimpleName format
+meta block compression ratio StringLiteral MethodInvocation MethodInvocation StringLiteral :%. f
+meta block compression ratio StringLiteral MethodInvocation MethodInvocation InfixExpression SimpleName meta size
+boolean PrimitiveType VariableDeclarationStatement Block IfStatement SimpleName calculate compression
+double PrimitiveType CastExpression SimpleName data size
+double PrimitiveType CastExpression InfixExpression SimpleName meta size
+data size SimpleName CastExpression InfixExpression SimpleName meta size
+string SimpleName MethodInvocation SimpleName format
+string SimpleName MethodInvocation StringLiteral :%. f
+string SimpleName MethodInvocation InfixExpression CastExpression PrimitiveType double
+string SimpleName MethodInvocation InfixExpression CastExpression SimpleName data size
+string SimpleName MethodInvocation InfixExpression SimpleName meta size
+format SimpleName MethodInvocation StringLiteral :%. f
+format SimpleName MethodInvocation InfixExpression CastExpression PrimitiveType double
+format SimpleName MethodInvocation InfixExpression CastExpression SimpleName data size
+format SimpleName MethodInvocation InfixExpression SimpleName meta size
+:%. f StringLiteral MethodInvocation InfixExpression CastExpression PrimitiveType double
+:%. f StringLiteral MethodInvocation InfixExpression CastExpression SimpleName data size
+:%. f StringLiteral MethodInvocation InfixExpression SimpleName meta size
+properties SimpleName MethodInvocation SimpleName put
+properties SimpleName MethodInvocation StringLiteral metadata size ratio
+properties SimpleName MethodInvocation MethodInvocation SimpleName string
+properties SimpleName MethodInvocation MethodInvocation SimpleName format
+properties SimpleName MethodInvocation MethodInvocation StringLiteral :%. f
+properties SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName meta size
+put SimpleName MethodInvocation StringLiteral metadata size ratio
+put SimpleName MethodInvocation MethodInvocation SimpleName string
+put SimpleName MethodInvocation MethodInvocation SimpleName format
+put SimpleName MethodInvocation MethodInvocation StringLiteral :%. f
+put SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName meta size
+metadata size ratio StringLiteral MethodInvocation MethodInvocation SimpleName string
+metadata size ratio StringLiteral MethodInvocation MethodInvocation SimpleName format
+metadata size ratio StringLiteral MethodInvocation MethodInvocation StringLiteral :%. f
+metadata size ratio StringLiteral MethodInvocation MethodInvocation InfixExpression SimpleName meta size
+length SimpleName InfixExpression SimpleName data size
+length SimpleName InfixExpression SimpleName meta size
+data size SimpleName InfixExpression SimpleName meta size
+left over bytes SimpleName VariableDeclarationFragment InfixExpression SimpleName length
+left over bytes SimpleName VariableDeclarationFragment InfixExpression SimpleName data size
+left over bytes SimpleName VariableDeclarationFragment InfixExpression SimpleName meta size
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName left over bytes
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment InfixExpression SimpleName length
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment InfixExpression SimpleName data size
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment InfixExpression SimpleName meta size
+bc filemagic QualifiedName MethodInvocation SimpleName size
+bc filemagic QualifiedName MethodInvocation InfixExpression NumberLiteral empty
+size SimpleName MethodInvocation InfixExpression NumberLiteral empty
+longsize QualifiedName InfixExpression QualifiedName bytesize
+empty NumberLiteral InfixExpression InfixExpression InfixExpression QualifiedName longsize
+empty NumberLiteral InfixExpression InfixExpression InfixExpression QualifiedName bytesize
+version SimpleName MethodInvocation SimpleName size
+misc size SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName version
+misc size SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName size
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName misc size
+left over bytes SimpleName InfixExpression SimpleName misc size
+meta index size SimpleName VariableDeclarationFragment InfixExpression SimpleName left over bytes
+meta index size SimpleName VariableDeclarationFragment InfixExpression SimpleName misc size
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName meta index size
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment InfixExpression SimpleName left over bytes
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment InfixExpression SimpleName misc size
+long SimpleName MethodInvocation SimpleName to string
+long SimpleName MethodInvocation SimpleName meta index size
+to string SimpleName MethodInvocation SimpleName meta index size
+properties SimpleName MethodInvocation SimpleName put
+properties SimpleName MethodInvocation StringLiteral meta block index bytes
+properties SimpleName MethodInvocation MethodInvocation SimpleName long
+properties SimpleName MethodInvocation MethodInvocation SimpleName to string
+properties SimpleName MethodInvocation MethodInvocation SimpleName meta index size
+put SimpleName MethodInvocation StringLiteral meta block index bytes
+put SimpleName MethodInvocation MethodInvocation SimpleName long
+put SimpleName MethodInvocation MethodInvocation SimpleName to string
+put SimpleName MethodInvocation MethodInvocation SimpleName meta index size
+meta block index bytes StringLiteral MethodInvocation MethodInvocation SimpleName long
+meta block index bytes StringLiteral MethodInvocation MethodInvocation SimpleName to string
+meta block index bytes StringLiteral MethodInvocation MethodInvocation SimpleName meta index size
+long SimpleName MethodInvocation SimpleName to string
+long SimpleName MethodInvocation SimpleName misc size
+to string SimpleName MethodInvocation SimpleName misc size
+properties SimpleName MethodInvocation SimpleName put
+properties SimpleName MethodInvocation StringLiteral headers etc bytes
+properties SimpleName MethodInvocation MethodInvocation SimpleName long
+properties SimpleName MethodInvocation MethodInvocation SimpleName to string
+properties SimpleName MethodInvocation MethodInvocation SimpleName misc size
+put SimpleName MethodInvocation StringLiteral headers etc bytes
+put SimpleName MethodInvocation MethodInvocation SimpleName long
+put SimpleName MethodInvocation MethodInvocation SimpleName to string
+put SimpleName MethodInvocation MethodInvocation SimpleName misc size
+headers etc bytes StringLiteral MethodInvocation MethodInvocation SimpleName long
+headers etc bytes StringLiteral MethodInvocation MethodInvocation SimpleName to string
+headers etc bytes StringLiteral MethodInvocation MethodInvocation SimpleName misc size
+max key length SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName max key length
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+mapentry QualifiedName SimpleType ParameterizedType SimpleType SimpleName string
+mapentry QualifiedName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+properties SimpleName MethodInvocation SimpleName entry set
+entry set SimpleName VariableDeclarationFragment MethodInvocation SimpleName properties
+entry set SimpleName VariableDeclarationFragment MethodInvocation SimpleName entry set
+mapentry QualifiedName SimpleType ParameterizedType SimpleType SimpleName string
+mapentry QualifiedName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+entry set SimpleName MethodInvocation SimpleName iterator
+it SimpleName VariableDeclarationFragment MethodInvocation SimpleName entry set

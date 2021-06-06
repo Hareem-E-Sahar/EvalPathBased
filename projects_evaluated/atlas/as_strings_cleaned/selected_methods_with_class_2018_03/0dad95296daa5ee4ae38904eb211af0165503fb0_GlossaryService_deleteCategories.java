@@ -1,0 +1,75 @@
+final Modifier SingleVariableDeclaration SimpleType SimpleName atlas glossary
+final Modifier SingleVariableDeclaration SimpleName existing
+atlas glossary SimpleName SimpleType SingleVariableDeclaration SimpleName existing
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas related category header
+final Modifier SingleVariableDeclaration ParameterizedType SimpleType SimpleName set
+final Modifier SingleVariableDeclaration ParameterizedType SimpleType SimpleName atlas related category header
+final Modifier SingleVariableDeclaration SimpleName categories
+set SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName categories
+atlas related category header SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName categories
+collection utils SimpleName MethodInvocation SimpleName is not empty
+collection utils SimpleName MethodInvocation SimpleName categories
+is not empty SimpleName MethodInvocation SimpleName categories
+existing SimpleName MethodInvocation SimpleName get guid
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral deleting categories within glossary guid = {}
+log SimpleName MethodInvocation MethodInvocation SimpleName existing
+log SimpleName MethodInvocation MethodInvocation SimpleName get guid
+debug SimpleName MethodInvocation StringLiteral deleting categories within glossary guid = {}
+debug SimpleName MethodInvocation MethodInvocation SimpleName existing
+debug SimpleName MethodInvocation MethodInvocation SimpleName get guid
+deleting categories within glossary guid = {} StringLiteral MethodInvocation MethodInvocation SimpleName existing
+deleting categories within glossary guid = {} StringLiteral MethodInvocation MethodInvocation SimpleName get guid
+atlas related category header SimpleName SimpleType SingleVariableDeclaration SimpleName category
+category SimpleName MethodInvocation SimpleName get category guid
+delete category SimpleName MethodInvocation MethodInvocation SimpleName category
+delete category SimpleName MethodInvocation MethodInvocation SimpleName get category guid
+atlas related category header SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName categories
+category SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName categories
+debug enabled SimpleName IfStatement Block EnhancedForStatement SimpleName categories
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName delete categories
+private Modifier MethodDeclaration SingleVariableDeclaration Modifier final
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas glossary
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName existing
+private Modifier MethodDeclaration SingleVariableDeclaration Modifier final
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName categories
+private Modifier MethodDeclaration SimpleType SimpleName atlas base exception
+void PrimitiveType MethodDeclaration SimpleName delete categories
+void PrimitiveType MethodDeclaration SingleVariableDeclaration Modifier final
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas glossary
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName existing
+void PrimitiveType MethodDeclaration SingleVariableDeclaration Modifier final
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName categories
+void PrimitiveType MethodDeclaration SimpleType SimpleName atlas base exception
+delete categories SimpleName MethodDeclaration SingleVariableDeclaration Modifier final
+delete categories SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas glossary
+delete categories SimpleName MethodDeclaration SingleVariableDeclaration SimpleName existing
+delete categories SimpleName MethodDeclaration SingleVariableDeclaration Modifier final
+delete categories SimpleName MethodDeclaration SingleVariableDeclaration SimpleName categories
+delete categories SimpleName MethodDeclaration SimpleType SimpleName atlas base exception
+final Modifier SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+final Modifier SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName categories
+existing SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+existing SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName categories
+final Modifier SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+existing SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+final Modifier SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+categories SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName delete categories
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName existing
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName categories
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName delete categories
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName existing
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName categories
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception

@@ -1,0 +1,19 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName msg
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName log
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName msg
+void PrimitiveType MethodDeclaration SimpleName log
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName msg
+log SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+log SimpleName MethodDeclaration SingleVariableDeclaration SimpleName msg
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName log
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName msg
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName log
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName msg

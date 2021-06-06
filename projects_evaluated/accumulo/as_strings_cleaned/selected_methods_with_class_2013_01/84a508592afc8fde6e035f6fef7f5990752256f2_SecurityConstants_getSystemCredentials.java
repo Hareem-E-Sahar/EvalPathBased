@@ -1,0 +1,25 @@
+system SimpleName MethodInvocation SimpleName get security manager
+sm SimpleName VariableDeclarationFragment MethodInvocation SimpleName system
+sm SimpleName VariableDeclarationFragment MethodInvocation SimpleName get security manager
+security manager SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName sm
+sm SimpleName MethodInvocation SimpleName check permission
+sm SimpleName MethodInvocation SimpleName system credentials permission
+check permission SimpleName MethodInvocation SimpleName system credentials permission
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName instance token wrapper
+public Modifier MethodDeclaration SimpleName get system credentials
+public Modifier MethodDeclaration Block ReturnStatement SimpleName system credentials
+static Modifier MethodDeclaration SimpleType SimpleName instance token wrapper
+static Modifier MethodDeclaration SimpleName get system credentials
+static Modifier MethodDeclaration Block ReturnStatement SimpleName system credentials
+instance token wrapper SimpleName SimpleType MethodDeclaration SimpleName get system credentials
+get system credentials SimpleName MethodDeclaration Block ReturnStatement SimpleName system credentials
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName instance token wrapper
+public Modifier TypeDeclaration MethodDeclaration SimpleName get system credentials
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName instance token wrapper
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get system credentials

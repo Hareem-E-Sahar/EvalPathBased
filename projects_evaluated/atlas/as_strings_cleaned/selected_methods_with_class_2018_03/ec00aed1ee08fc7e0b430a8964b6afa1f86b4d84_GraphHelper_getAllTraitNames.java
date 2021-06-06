@@ -1,0 +1,27 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+atlas vertex SimpleName SimpleType SingleVariableDeclaration SimpleName entity vertex
+get trait names SimpleName MethodInvocation SimpleName entity vertex
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName get all trait names
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas vertex
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName entity vertex
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+static Modifier MethodDeclaration SimpleName get all trait names
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas vertex
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName entity vertex
+list SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get all trait names
+string SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get all trait names
+get all trait names SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas vertex
+get all trait names SimpleName MethodDeclaration SingleVariableDeclaration SimpleName entity vertex
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleName get all trait names
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity vertex
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get all trait names
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity vertex

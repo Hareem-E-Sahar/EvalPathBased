@@ -1,0 +1,57 @@
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName key extent
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName security error code
+key extent SimpleName SimpleType ParameterizedType SimpleType SimpleName security error code
+map SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName authorization failures
+key extent SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName authorization failures
+security error code SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName authorization failures
+authorization failures SimpleName MethodInvocation SimpleName size
+authorization failures SimpleName MethodInvocation InfixExpression NumberLiteral empty
+size SimpleName MethodInvocation InfixExpression NumberLiteral empty
+hash set SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+hash set SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+key extent SimpleName SimpleType SingleVariableDeclaration SimpleName ke
+authorization failures SimpleName MethodInvocation SimpleName key set
+ke SimpleName MethodInvocation SimpleName get table id
+ke SimpleName MethodInvocation MethodInvocation SimpleName to string
+get table id SimpleName MethodInvocation MethodInvocation SimpleName to string
+table ids SimpleName MethodInvocation SimpleName add
+table ids SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName ke
+table ids SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get table id
+table ids SimpleName MethodInvocation MethodInvocation SimpleName to string
+add SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName ke
+add SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get table id
+add SimpleName MethodInvocation MethodInvocation SimpleName to string
+ke SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName authorization failures
+ke SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName key set
+tables SimpleName MethodInvocation SimpleName clear cache
+tables SimpleName MethodInvocation SimpleName instance
+clear cache SimpleName MethodInvocation SimpleName instance
+string SimpleName SimpleType SingleVariableDeclaration SimpleName table id
+tables SimpleName MethodInvocation SimpleName exists
+tables SimpleName MethodInvocation SimpleName instance
+tables SimpleName MethodInvocation SimpleName table id
+exists SimpleName MethodInvocation SimpleName instance
+exists SimpleName MethodInvocation SimpleName table id
+instance SimpleName MethodInvocation SimpleName table id
+table deleted exception SimpleName SimpleType ClassInstanceCreation SimpleName table id
+string SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName table ids
+table id SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName table ids
+something failed SimpleName Assignment BooleanLiteral true
+merge authorization failures SimpleName MethodInvocation FieldAccess SimpleName authorization failures
+merge authorization failures SimpleName MethodInvocation SimpleName authorization failures
+authorization failures SimpleName FieldAccess MethodInvocation SimpleName authorization failures
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName update authorization failures
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName authorization failures
+void PrimitiveType MethodDeclaration SimpleName update authorization failures
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName authorization failures
+update authorization failures SimpleName MethodDeclaration SingleVariableDeclaration SimpleName authorization failures
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName update authorization failures
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName authorization failures
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName update authorization failures
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName authorization failures

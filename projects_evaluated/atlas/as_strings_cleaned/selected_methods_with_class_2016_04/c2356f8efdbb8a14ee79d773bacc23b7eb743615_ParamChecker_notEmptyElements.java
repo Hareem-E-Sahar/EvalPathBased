@@ -1,0 +1,67 @@
+collection SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+collection SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+collection SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName list
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName list
+string SimpleName SimpleType SingleVariableDeclaration SimpleName name
+not empty SimpleName MethodInvocation SimpleName list
+not empty SimpleName MethodInvocation SimpleName name
+list SimpleName MethodInvocation SimpleName name
+string SimpleName SimpleType SingleVariableDeclaration SimpleName ele
+string SimpleName MethodInvocation SimpleName format
+string SimpleName MethodInvocation StringLiteral list s element s
+string SimpleName MethodInvocation SimpleName name
+string SimpleName MethodInvocation SimpleName ele
+format SimpleName MethodInvocation StringLiteral list s element s
+format SimpleName MethodInvocation SimpleName name
+format SimpleName MethodInvocation SimpleName ele
+list s element s StringLiteral MethodInvocation SimpleName name
+list s element s StringLiteral MethodInvocation SimpleName ele
+name SimpleName MethodInvocation SimpleName ele
+not empty SimpleName MethodInvocation SimpleName ele
+not empty SimpleName MethodInvocation MethodInvocation SimpleName string
+not empty SimpleName MethodInvocation MethodInvocation SimpleName format
+not empty SimpleName MethodInvocation MethodInvocation StringLiteral list s element s
+not empty SimpleName MethodInvocation MethodInvocation SimpleName name
+not empty SimpleName MethodInvocation MethodInvocation SimpleName ele
+ele SimpleName MethodInvocation MethodInvocation SimpleName string
+ele SimpleName MethodInvocation MethodInvocation SimpleName format
+ele SimpleName MethodInvocation MethodInvocation StringLiteral list s element s
+ele SimpleName MethodInvocation MethodInvocation SimpleName name
+ele SimpleName MethodInvocation MethodInvocation SimpleName ele
+string SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName list
+ele SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName list
+list SimpleName EnhancedForStatement Block ReturnStatement SimpleName list
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName collection
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName not empty elements
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName list
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName name
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName collection
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+static Modifier MethodDeclaration SimpleName not empty elements
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName list
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName name
+static Modifier MethodDeclaration Block EnhancedForStatement SimpleName list
+static Modifier MethodDeclaration Block ReturnStatement SimpleName list
+collection SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName not empty elements
+string SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName not empty elements
+not empty elements SimpleName MethodDeclaration SingleVariableDeclaration SimpleName list
+not empty elements SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+not empty elements SimpleName MethodDeclaration SingleVariableDeclaration SimpleName name
+not empty elements SimpleName MethodDeclaration Block EnhancedForStatement SimpleName list
+not empty elements SimpleName MethodDeclaration Block ReturnStatement SimpleName list
+list SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleName not empty elements
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName list
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleName not empty elements
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName list
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name

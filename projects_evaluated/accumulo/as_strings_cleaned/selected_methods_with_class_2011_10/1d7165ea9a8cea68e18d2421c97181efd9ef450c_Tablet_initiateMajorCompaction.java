@@ -1,0 +1,47 @@
+major compaction reason SimpleName SimpleType SingleVariableDeclaration SimpleName reason
+needs major compaction SimpleName MethodInvocation SimpleName reason
+closing SimpleName InfixExpression SimpleName closed
+closing SimpleName InfixExpression PrefixExpression MethodInvocation SimpleName needs major compaction
+closing SimpleName InfixExpression PrefixExpression MethodInvocation SimpleName reason
+closing SimpleName InfixExpression SimpleName major compaction in progress
+closing SimpleName InfixExpression SimpleName major compaction queued
+closed SimpleName InfixExpression PrefixExpression MethodInvocation SimpleName needs major compaction
+closed SimpleName InfixExpression PrefixExpression MethodInvocation SimpleName reason
+closed SimpleName InfixExpression SimpleName major compaction in progress
+closed SimpleName InfixExpression SimpleName major compaction queued
+needs major compaction SimpleName MethodInvocation PrefixExpression InfixExpression SimpleName major compaction in progress
+reason SimpleName MethodInvocation PrefixExpression InfixExpression SimpleName major compaction in progress
+needs major compaction SimpleName MethodInvocation PrefixExpression InfixExpression SimpleName major compaction queued
+reason SimpleName MethodInvocation PrefixExpression InfixExpression SimpleName major compaction queued
+major compaction in progress SimpleName InfixExpression SimpleName major compaction queued
+major compaction queued SimpleName Assignment BooleanLiteral true
+compaction runner SimpleName SimpleType ClassInstanceCreation SimpleName reason
+tablet resources SimpleName MethodInvocation SimpleName execute major compaction
+tablet resources SimpleName MethodInvocation MethodInvocation SimpleName get extent
+tablet resources SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName compaction runner
+tablet resources SimpleName MethodInvocation ClassInstanceCreation SimpleName reason
+execute major compaction SimpleName MethodInvocation MethodInvocation SimpleName get extent
+execute major compaction SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName compaction runner
+execute major compaction SimpleName MethodInvocation ClassInstanceCreation SimpleName reason
+get extent SimpleName MethodInvocation MethodInvocation ClassInstanceCreation SimpleName reason
+synchronized Modifier MethodDeclaration PrimitiveType boolean
+synchronized Modifier MethodDeclaration SimpleName initiate major compaction
+synchronized Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName major compaction reason
+synchronized Modifier MethodDeclaration SingleVariableDeclaration SimpleName reason
+synchronized Modifier MethodDeclaration Block ReturnStatement BooleanLiteral false
+boolean PrimitiveType MethodDeclaration SimpleName initiate major compaction
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName major compaction reason
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName reason
+boolean PrimitiveType MethodDeclaration Block ReturnStatement BooleanLiteral false
+initiate major compaction SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName major compaction reason
+initiate major compaction SimpleName MethodDeclaration SingleVariableDeclaration SimpleName reason
+initiate major compaction SimpleName MethodDeclaration Block ReturnStatement BooleanLiteral false
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier synchronized
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName initiate major compaction
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName reason
+test SimpleName TypeDeclaration MethodDeclaration Modifier synchronized
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName initiate major compaction
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName reason

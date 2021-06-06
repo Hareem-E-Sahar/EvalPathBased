@@ -1,0 +1,194 @@
+connector SimpleName SimpleType SingleVariableDeclaration SimpleName conn
+string SimpleName SimpleType SingleVariableDeclaration SimpleName table name
+wal edits SimpleName SimpleType SingleVariableDeclaration SimpleName data
+key SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName log file key
+final Modifier VariableDeclarationStatement SimpleType SimpleName log file key
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName key
+log file key SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName key
+value SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName log file value
+final Modifier VariableDeclarationStatement SimpleType SimpleName log file value
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName value
+log file value SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName value
+batch writer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName bw
+mutations applied SimpleName VariableDeclarationFragment NumberLiteral l
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName mutations applied
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral l
+byte buffer SimpleName SimpleType SingleVariableDeclaration SimpleName edit
+data SimpleName MethodInvocation SimpleName get edits
+edit SimpleName MethodInvocation SimpleName array
+byte array input stream SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName edit
+byte array input stream SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName array
+dis SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName data input stream
+data input stream SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName dis
+key SimpleName MethodInvocation SimpleName read fields
+key SimpleName MethodInvocation SimpleName dis
+read fields SimpleName MethodInvocation SimpleName dis
+value SimpleName MethodInvocation SimpleName read fields
+value SimpleName MethodInvocation SimpleName dis
+read fields SimpleName MethodInvocation SimpleName dis
+io exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation StringLiteral could not deserialize edit from stream
+log SimpleName MethodInvocation SimpleName e
+error SimpleName MethodInvocation StringLiteral could not deserialize edit from stream
+error SimpleName MethodInvocation SimpleName e
+could not deserialize edit from stream StringLiteral MethodInvocation SimpleName e
+remote replication error codecould not deserialize QualifiedName MethodInvocation SimpleName ordinal
+remote replication exception SimpleName SimpleType ClassInstanceCreation MethodInvocation QualifiedName remote replication error codecould not deserialize
+remote replication exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName ordinal
+remote replication exception SimpleName SimpleType ClassInstanceCreation StringLiteral could not deserialize edit from stream
+remote replication error codecould not deserialize QualifiedName MethodInvocation ClassInstanceCreation StringLiteral could not deserialize edit from stream
+ordinal SimpleName MethodInvocation ClassInstanceCreation StringLiteral could not deserialize edit from stream
+conn SimpleName MethodInvocation SimpleName create batch writer
+conn SimpleName MethodInvocation SimpleName table name
+conn SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName batch writer config
+create batch writer SimpleName MethodInvocation SimpleName table name
+create batch writer SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName batch writer config
+table name SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName batch writer config
+bw SimpleName Assignment MethodInvocation SimpleName conn
+bw SimpleName Assignment MethodInvocation SimpleName create batch writer
+bw SimpleName Assignment MethodInvocation SimpleName table name
+table not found exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+remote replication error codetable does not exist QualifiedName MethodInvocation SimpleName ordinal
+table StringLiteral InfixExpression SimpleName table name
+table StringLiteral InfixExpression StringLiteral does not exist
+table name SimpleName InfixExpression StringLiteral does not exist
+remote replication exception SimpleName SimpleType ClassInstanceCreation MethodInvocation QualifiedName remote replication error codetable does not exist
+remote replication exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName ordinal
+remote replication exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral table
+remote replication exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName table name
+remote replication exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral does not exist
+remote replication error codetable does not exist QualifiedName MethodInvocation ClassInstanceCreation InfixExpression StringLiteral table
+remote replication error codetable does not exist QualifiedName MethodInvocation ClassInstanceCreation InfixExpression SimpleName table name
+remote replication error codetable does not exist QualifiedName MethodInvocation ClassInstanceCreation InfixExpression StringLiteral does not exist
+ordinal SimpleName MethodInvocation ClassInstanceCreation InfixExpression StringLiteral table
+ordinal SimpleName MethodInvocation ClassInstanceCreation InfixExpression SimpleName table name
+ordinal SimpleName MethodInvocation ClassInstanceCreation InfixExpression StringLiteral does not exist
+valuemutations QualifiedName MethodInvocation SimpleName size
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation StringLiteral applying {} updates to table {} as part of batch
+log SimpleName MethodInvocation MethodInvocation QualifiedName valuemutations
+log SimpleName MethodInvocation MethodInvocation SimpleName size
+log SimpleName MethodInvocation SimpleName table name
+info SimpleName MethodInvocation StringLiteral applying {} updates to table {} as part of batch
+info SimpleName MethodInvocation MethodInvocation QualifiedName valuemutations
+info SimpleName MethodInvocation MethodInvocation SimpleName size
+info SimpleName MethodInvocation SimpleName table name
+applying {} updates to table {} as part of batch StringLiteral MethodInvocation MethodInvocation QualifiedName valuemutations
+applying {} updates to table {} as part of batch StringLiteral MethodInvocation MethodInvocation SimpleName size
+applying {} updates to table {} as part of batch StringLiteral MethodInvocation SimpleName table name
+valuemutations QualifiedName MethodInvocation MethodInvocation SimpleName table name
+size SimpleName MethodInvocation MethodInvocation SimpleName table name
+bw SimpleName MethodInvocation SimpleName add mutations
+bw SimpleName MethodInvocation QualifiedName valuemutations
+add mutations SimpleName MethodInvocation QualifiedName valuemutations
+mutations rejected exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation StringLiteral could not apply mutations to {}
+log SimpleName MethodInvocation SimpleName table name
+error SimpleName MethodInvocation StringLiteral could not apply mutations to {}
+error SimpleName MethodInvocation SimpleName table name
+could not apply mutations to {} StringLiteral MethodInvocation SimpleName table name
+remote replication error codecould not apply QualifiedName MethodInvocation SimpleName ordinal
+could not apply mutations to StringLiteral InfixExpression SimpleName table name
+remote replication exception SimpleName SimpleType ClassInstanceCreation MethodInvocation QualifiedName remote replication error codecould not apply
+remote replication exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName ordinal
+remote replication exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral could not apply mutations to
+remote replication exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName table name
+remote replication error codecould not apply QualifiedName MethodInvocation ClassInstanceCreation InfixExpression StringLiteral could not apply mutations to
+remote replication error codecould not apply QualifiedName MethodInvocation ClassInstanceCreation InfixExpression SimpleName table name
+ordinal SimpleName MethodInvocation ClassInstanceCreation InfixExpression StringLiteral could not apply mutations to
+ordinal SimpleName MethodInvocation ClassInstanceCreation InfixExpression SimpleName table name
+valuemutations QualifiedName MethodInvocation SimpleName size
+mutations applied SimpleName Assignment MethodInvocation QualifiedName valuemutations
+mutations applied SimpleName Assignment MethodInvocation SimpleName size
+edit SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName data
+edit SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName get edits
+bw SimpleName MethodInvocation SimpleName close
+mutations rejected exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation StringLiteral could not apply mutations to {}
+log SimpleName MethodInvocation SimpleName table name
+error SimpleName MethodInvocation StringLiteral could not apply mutations to {}
+error SimpleName MethodInvocation SimpleName table name
+could not apply mutations to {} StringLiteral MethodInvocation SimpleName table name
+remote replication error codecould not apply QualifiedName MethodInvocation SimpleName ordinal
+could not apply mutations to StringLiteral InfixExpression SimpleName table name
+remote replication exception SimpleName SimpleType ClassInstanceCreation MethodInvocation QualifiedName remote replication error codecould not apply
+remote replication exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName ordinal
+remote replication exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral could not apply mutations to
+remote replication exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName table name
+remote replication error codecould not apply QualifiedName MethodInvocation ClassInstanceCreation InfixExpression StringLiteral could not apply mutations to
+remote replication error codecould not apply QualifiedName MethodInvocation ClassInstanceCreation InfixExpression SimpleName table name
+ordinal SimpleName MethodInvocation ClassInstanceCreation InfixExpression StringLiteral could not apply mutations to
+ordinal SimpleName MethodInvocation ClassInstanceCreation InfixExpression SimpleName table name
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation StringLiteral applied {} mutations in total to {}
+log SimpleName MethodInvocation SimpleName mutations applied
+log SimpleName MethodInvocation SimpleName table name
+info SimpleName MethodInvocation StringLiteral applied {} mutations in total to {}
+info SimpleName MethodInvocation SimpleName mutations applied
+info SimpleName MethodInvocation SimpleName table name
+applied {} mutations in total to {} StringLiteral MethodInvocation SimpleName mutations applied
+applied {} mutations in total to {} StringLiteral MethodInvocation SimpleName table name
+mutations applied SimpleName MethodInvocation SimpleName table name
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType long
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType long
+final Modifier VariableDeclarationStatement Block ReturnStatement SimpleName mutations applied
+long PrimitiveType VariableDeclarationStatement Block ReturnStatement SimpleName mutations applied
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType long
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName replicate log
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName conn
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName table name
+public Modifier MethodDeclaration PrimitiveType long
+public Modifier MethodDeclaration SimpleName replicate log
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName connector
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName conn
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName table name
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName wal edits
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName data
+long PrimitiveType MethodDeclaration SimpleName replicate log
+long PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName connector
+long PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName conn
+long PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+long PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName table name
+long PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName wal edits
+long PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName data
+long PrimitiveType MethodDeclaration SimpleType SimpleName remote replication exception
+replicate log SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName connector
+replicate log SimpleName MethodDeclaration SingleVariableDeclaration SimpleName conn
+replicate log SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+replicate log SimpleName MethodDeclaration SingleVariableDeclaration SimpleName table name
+replicate log SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName wal edits
+replicate log SimpleName MethodDeclaration SingleVariableDeclaration SimpleName data
+replicate log SimpleName MethodDeclaration SimpleType SimpleName remote replication exception
+replicate log SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+replicate log SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+replicate log SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+replicate log SimpleName MethodDeclaration Block ReturnStatement SimpleName mutations applied
+conn SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table name
+conn SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName data
+conn SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName remote replication exception
+table name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName data
+table name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName remote replication exception
+data SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName remote replication exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType long
+public Modifier TypeDeclaration MethodDeclaration SimpleName replicate log
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName conn
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName data
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName remote replication exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType long
+test SimpleName TypeDeclaration MethodDeclaration SimpleName replicate log
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName conn
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName data
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName remote replication exception

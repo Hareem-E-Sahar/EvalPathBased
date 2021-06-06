@@ -1,0 +1,21 @@
+current context SimpleName MethodInvocation SimpleName get
+instance SimpleName VariableDeclarationFragment MethodInvocation SimpleName current context
+instance SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+request context SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName instance
+instanceentity cache QualifiedName MethodInvocation SimpleName clear
+current context SimpleName MethodInvocation SimpleName remove
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName clear
+static Modifier MethodDeclaration PrimitiveType void
+static Modifier MethodDeclaration SimpleName clear
+void PrimitiveType MethodDeclaration SimpleName clear
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName clear
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName clear

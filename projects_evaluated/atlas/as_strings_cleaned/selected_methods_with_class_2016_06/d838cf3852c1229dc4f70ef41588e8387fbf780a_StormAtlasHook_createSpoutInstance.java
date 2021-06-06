@@ -1,0 +1,98 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName spout name
+spout spec SimpleName SimpleType SingleVariableDeclaration SimpleName storm spout
+storm data typesstorm spout QualifiedName MethodInvocation SimpleName get name
+referenceable SimpleName SimpleType ClassInstanceCreation MethodInvocation QualifiedName storm data typesstorm spout
+referenceable SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get name
+spout referenceable SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName referenceable
+spout referenceable SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation QualifiedName storm data typesstorm spout
+spout referenceable SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get name
+referenceable SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName spout referenceable
+spout referenceable SimpleName MethodInvocation SimpleName set
+spout referenceable SimpleName MethodInvocation QualifiedName atlas clientname
+spout referenceable SimpleName MethodInvocation SimpleName spout name
+set SimpleName MethodInvocation QualifiedName atlas clientname
+set SimpleName MethodInvocation SimpleName spout name
+atlas clientname QualifiedName MethodInvocation SimpleName spout name
+storm spout SimpleName MethodInvocation SimpleName get spout object
+storm spout SimpleName MethodInvocation MethodInvocation SimpleName get serialized java
+get spout object SimpleName MethodInvocation MethodInvocation SimpleName get serialized java
+utils SimpleName MethodInvocation SimpleName java deserialize
+utils SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName storm spout
+utils SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get spout object
+utils SimpleName MethodInvocation MethodInvocation SimpleName get serialized java
+utils SimpleName MethodInvocation TypeLiteral SimpleType SimpleName serializable
+java deserialize SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName storm spout
+java deserialize SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get spout object
+java deserialize SimpleName MethodInvocation MethodInvocation SimpleName get serialized java
+java deserialize SimpleName MethodInvocation TypeLiteral SimpleType SimpleName serializable
+instance SimpleName VariableDeclarationFragment MethodInvocation SimpleName utils
+instance SimpleName VariableDeclarationFragment MethodInvocation SimpleName java deserialize
+instance SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get serialized java
+serializable SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName instance
+instance SimpleName MethodInvocation SimpleName get class
+instance SimpleName MethodInvocation MethodInvocation SimpleName get name
+get class SimpleName MethodInvocation MethodInvocation SimpleName get name
+spout referenceable SimpleName MethodInvocation SimpleName set
+spout referenceable SimpleName MethodInvocation StringLiteral driver class
+spout referenceable SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName instance
+spout referenceable SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get class
+spout referenceable SimpleName MethodInvocation MethodInvocation SimpleName get name
+set SimpleName MethodInvocation StringLiteral driver class
+set SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName instance
+set SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get class
+set SimpleName MethodInvocation MethodInvocation SimpleName get name
+driver class StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName instance
+driver class StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName get class
+driver class StringLiteral MethodInvocation MethodInvocation SimpleName get name
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+storm topology util SimpleName MethodInvocation SimpleName get field values
+storm topology util SimpleName MethodInvocation SimpleName instance
+storm topology util SimpleName MethodInvocation BooleanLiteral true
+get field values SimpleName MethodInvocation SimpleName instance
+get field values SimpleName MethodInvocation BooleanLiteral true
+instance SimpleName MethodInvocation BooleanLiteral true
+flat config map SimpleName VariableDeclarationFragment MethodInvocation SimpleName storm topology util
+flat config map SimpleName VariableDeclarationFragment MethodInvocation SimpleName get field values
+flat config map SimpleName VariableDeclarationFragment MethodInvocation SimpleName instance
+flat config map SimpleName VariableDeclarationFragment MethodInvocation BooleanLiteral true
+spout referenceable SimpleName MethodInvocation SimpleName set
+spout referenceable SimpleName MethodInvocation StringLiteral conf
+spout referenceable SimpleName MethodInvocation SimpleName flat config map
+set SimpleName MethodInvocation StringLiteral conf
+set SimpleName MethodInvocation SimpleName flat config map
+conf StringLiteral MethodInvocation SimpleName flat config map
+private Modifier MethodDeclaration SimpleType SimpleName referenceable
+private Modifier MethodDeclaration SimpleName create spout instance
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName spout name
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName spout spec
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName storm spout
+private Modifier MethodDeclaration SimpleType SimpleName illegal access exception
+referenceable SimpleName SimpleType MethodDeclaration SimpleName create spout instance
+referenceable SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName spout name
+referenceable SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName storm spout
+referenceable SimpleName SimpleType MethodDeclaration SimpleType SimpleName illegal access exception
+create spout instance SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+create spout instance SimpleName MethodDeclaration SingleVariableDeclaration SimpleName spout name
+create spout instance SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName spout spec
+create spout instance SimpleName MethodDeclaration SingleVariableDeclaration SimpleName storm spout
+create spout instance SimpleName MethodDeclaration SimpleType SimpleName illegal access exception
+create spout instance SimpleName MethodDeclaration Block ReturnStatement SimpleName spout referenceable
+spout name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName storm spout
+spout name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName illegal access exception
+storm spout SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName illegal access exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName referenceable
+public Modifier TypeDeclaration MethodDeclaration SimpleName create spout instance
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName spout name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName storm spout
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName illegal access exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName referenceable
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create spout instance
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName spout name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName storm spout
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName illegal access exception

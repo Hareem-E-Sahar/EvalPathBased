@@ -1,0 +1,16 @@
+entity SimpleName MethodInvocation SimpleName get type name
+entity SimpleName InfixExpression ConditionalExpression QualifiedName string utilsempty
+entity SimpleName InfixExpression ConditionalExpression MethodInvocation SimpleName entity
+entity SimpleName InfixExpression ConditionalExpression MethodInvocation SimpleName get type name
+string utilsempty QualifiedName ConditionalExpression MethodInvocation SimpleName entity
+string utilsempty QualifiedName ConditionalExpression MethodInvocation SimpleName get type name
+public Modifier MethodDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName get entity type
+string SimpleName SimpleType MethodDeclaration SimpleName get entity type
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName get entity type
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get entity type

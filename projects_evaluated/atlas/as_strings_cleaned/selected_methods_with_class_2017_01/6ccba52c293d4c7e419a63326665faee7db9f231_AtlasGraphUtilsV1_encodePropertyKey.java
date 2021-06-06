@@ -1,0 +1,59 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName key
+ret SimpleName VariableDeclarationFragment SimpleName key
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ret
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName key
+string utils SimpleName MethodInvocation SimpleName is not blank
+string utils SimpleName MethodInvocation SimpleName key
+is not blank SimpleName MethodInvocation SimpleName key
+string SimpleName SimpleType SingleVariableDeclaration SimpleName str
+reserved chars encode map SimpleName MethodInvocation SimpleName key set
+reserved chars encode map SimpleName MethodInvocation SimpleName get
+reserved chars encode map SimpleName MethodInvocation SimpleName str
+get SimpleName MethodInvocation SimpleName str
+ret SimpleName MethodInvocation SimpleName replace
+ret SimpleName MethodInvocation SimpleName str
+ret SimpleName MethodInvocation MethodInvocation SimpleName reserved chars encode map
+ret SimpleName MethodInvocation MethodInvocation SimpleName get
+ret SimpleName MethodInvocation MethodInvocation SimpleName str
+replace SimpleName MethodInvocation SimpleName str
+replace SimpleName MethodInvocation MethodInvocation SimpleName reserved chars encode map
+replace SimpleName MethodInvocation MethodInvocation SimpleName get
+replace SimpleName MethodInvocation MethodInvocation SimpleName str
+str SimpleName MethodInvocation MethodInvocation SimpleName reserved chars encode map
+str SimpleName MethodInvocation MethodInvocation SimpleName get
+str SimpleName MethodInvocation MethodInvocation SimpleName str
+ret SimpleName Assignment MethodInvocation SimpleName ret
+ret SimpleName Assignment MethodInvocation SimpleName replace
+ret SimpleName Assignment MethodInvocation SimpleName str
+ret SimpleName Assignment MethodInvocation MethodInvocation SimpleName reserved chars encode map
+ret SimpleName Assignment MethodInvocation MethodInvocation SimpleName get
+ret SimpleName Assignment MethodInvocation MethodInvocation SimpleName str
+str SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName reserved chars encode map
+str SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName key set
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName encode property key
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName key
+public Modifier MethodDeclaration Block ReturnStatement SimpleName ret
+static Modifier MethodDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SimpleName encode property key
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName key
+static Modifier MethodDeclaration Block ReturnStatement SimpleName ret
+string SimpleName SimpleType MethodDeclaration SimpleName encode property key
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName key
+encode property key SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+encode property key SimpleName MethodDeclaration SingleVariableDeclaration SimpleName key
+encode property key SimpleName MethodDeclaration Block ReturnStatement SimpleName ret
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName encode property key
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName key
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName encode property key
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName key

@@ -1,0 +1,187 @@
+files SimpleName MethodInvocation SimpleName create temp dir
+accumulo dir SimpleName VariableDeclarationFragment MethodInvocation SimpleName files
+accumulo dir SimpleName VariableDeclarationFragment MethodInvocation SimpleName create temp dir
+file SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName accumulo dir
+file SimpleName SimpleType ClassInstanceCreation SimpleName accumulo dir
+file SimpleName SimpleType ClassInstanceCreation StringLiteral v
+accumulo dir SimpleName ClassInstanceCreation StringLiteral v
+v SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName file
+v SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName accumulo dir
+v SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral v
+file SimpleName SimpleType ClassInstanceCreation SimpleName accumulo dir
+file SimpleName SimpleType ClassInstanceCreation StringLiteral v
+accumulo dir SimpleName ClassInstanceCreation StringLiteral v
+v SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName file
+v SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName accumulo dir
+v SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral v
+file SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName v
+file SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName v
+v SimpleName VariableDeclarationFragment VariableDeclarationStatement VariableDeclarationFragment SimpleName v
+v SimpleName MethodInvocation SimpleName mkdirs
+v SimpleName MethodInvocation SimpleName mkdirs
+file SimpleName SimpleType ClassInstanceCreation SimpleName v
+file SimpleName SimpleType ClassInstanceCreation StringLiteral tmp
+v SimpleName ClassInstanceCreation StringLiteral tmp
+tmp SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName file
+tmp SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName v
+tmp SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral tmp
+file SimpleName SimpleType ClassInstanceCreation SimpleName v
+file SimpleName SimpleType ClassInstanceCreation StringLiteral tmp
+v SimpleName ClassInstanceCreation StringLiteral tmp
+tmp SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName file
+tmp SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName v
+tmp SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral tmp
+file SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName tmp
+file SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName tmp
+tmp SimpleName VariableDeclarationFragment VariableDeclarationStatement VariableDeclarationFragment SimpleName tmp
+tmp SimpleName MethodInvocation SimpleName mkdirs
+tmp SimpleName MethodInvocation SimpleName mkdirs
+tmp SimpleName MethodInvocation SimpleName to uri
+path SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName tmp
+path SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName to uri
+tmp path SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName path
+tmp path SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName tmp
+tmp path SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName to uri
+tmp SimpleName MethodInvocation SimpleName to uri
+path SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName tmp
+path SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName to uri
+tmp path SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName path
+tmp path SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName tmp
+tmp path SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName to uri
+path SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName tmp path
+path SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName tmp path
+tmp path SimpleName VariableDeclarationFragment VariableDeclarationStatement VariableDeclarationFragment SimpleName tmp path
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName property
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+property SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName property
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+property SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+v SimpleName MethodInvocation SimpleName to uri
+v SimpleName MethodInvocation MethodInvocation SimpleName to string
+to uri SimpleName MethodInvocation MethodInvocation SimpleName to string
+v SimpleName MethodInvocation SimpleName to uri
+v SimpleName MethodInvocation MethodInvocation SimpleName to string
+to uri SimpleName MethodInvocation MethodInvocation SimpleName to string
+v SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral empty
+to uri SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral empty
+to string SimpleName MethodInvocation InfixExpression StringLiteral empty
+to string SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName to string
+empty StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName v
+empty StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName to uri
+empty StringLiteral InfixExpression MethodInvocation SimpleName to string
+test props SimpleName MethodInvocation SimpleName put
+test props SimpleName MethodInvocation QualifiedName propertyinstance volumes
+test props SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName to string
+test props SimpleName MethodInvocation InfixExpression StringLiteral empty
+test props SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName to string
+put SimpleName MethodInvocation QualifiedName propertyinstance volumes
+put SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName to string
+put SimpleName MethodInvocation InfixExpression StringLiteral empty
+put SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName to string
+propertyinstance volumes QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName to string
+propertyinstance volumes QualifiedName MethodInvocation InfixExpression StringLiteral empty
+propertyinstance volumes QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName to string
+file util test configuration SimpleName SimpleType ClassInstanceCreation SimpleName test props
+test conf SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName file util test configuration
+test conf SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName test props
+accumulo configuration SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName test conf
+accumulo dir SimpleName MethodInvocation SimpleName get absolute path
+volume manager impl SimpleName MethodInvocation SimpleName get local
+volume manager impl SimpleName MethodInvocation MethodInvocation SimpleName accumulo dir
+volume manager impl SimpleName MethodInvocation MethodInvocation SimpleName get absolute path
+get local SimpleName MethodInvocation MethodInvocation SimpleName accumulo dir
+get local SimpleName MethodInvocation MethodInvocation SimpleName get absolute path
+fs SimpleName VariableDeclarationFragment MethodInvocation SimpleName volume manager impl
+fs SimpleName VariableDeclarationFragment MethodInvocation SimpleName get local
+fs SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName accumulo dir
+fs SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get absolute path
+volume manager SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName fs
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName file skv iterator
+file util SimpleName MethodInvocation SimpleName cleanup index op
+file util SimpleName MethodInvocation SimpleName test conf
+file util SimpleName MethodInvocation SimpleName tmp path
+file util SimpleName MethodInvocation SimpleName fs
+cleanup index op SimpleName MethodInvocation SimpleName test conf
+cleanup index op SimpleName MethodInvocation SimpleName tmp path
+cleanup index op SimpleName MethodInvocation SimpleName fs
+test conf SimpleName MethodInvocation SimpleName tmp path
+test conf SimpleName MethodInvocation SimpleName fs
+tmp path SimpleName MethodInvocation SimpleName fs
+expected StringLiteral InfixExpression SimpleName tmp
+expected StringLiteral InfixExpression StringLiteral to be cleaned up but it wasnt
+tmp SimpleName InfixExpression StringLiteral to be cleaned up but it wasnt
+tmp SimpleName MethodInvocation SimpleName exists
+assert SimpleName MethodInvocation SimpleName assert false
+assert SimpleName MethodInvocation InfixExpression StringLiteral expected
+assert SimpleName MethodInvocation InfixExpression SimpleName tmp
+assert SimpleName MethodInvocation InfixExpression StringLiteral to be cleaned up but it wasnt
+assert SimpleName MethodInvocation MethodInvocation SimpleName tmp
+assert SimpleName MethodInvocation MethodInvocation SimpleName exists
+assert false SimpleName MethodInvocation InfixExpression StringLiteral expected
+assert false SimpleName MethodInvocation InfixExpression SimpleName tmp
+assert false SimpleName MethodInvocation InfixExpression StringLiteral to be cleaned up but it wasnt
+assert false SimpleName MethodInvocation MethodInvocation SimpleName tmp
+assert false SimpleName MethodInvocation MethodInvocation SimpleName exists
+expected StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName tmp
+expected StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName exists
+tmp SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName tmp
+tmp SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName exists
+to be cleaned up but it wasnt StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName tmp
+to be cleaned up but it wasnt StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName exists
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName file skv iterator
+file util SimpleName MethodInvocation SimpleName cleanup index op
+file util SimpleName MethodInvocation SimpleName test conf
+file util SimpleName MethodInvocation SimpleName tmp path
+file util SimpleName MethodInvocation SimpleName fs
+cleanup index op SimpleName MethodInvocation SimpleName test conf
+cleanup index op SimpleName MethodInvocation SimpleName tmp path
+cleanup index op SimpleName MethodInvocation SimpleName fs
+test conf SimpleName MethodInvocation SimpleName tmp path
+test conf SimpleName MethodInvocation SimpleName fs
+tmp path SimpleName MethodInvocation SimpleName fs
+expected StringLiteral InfixExpression SimpleName tmp
+expected StringLiteral InfixExpression StringLiteral to be cleaned up but it wasnt
+tmp SimpleName InfixExpression StringLiteral to be cleaned up but it wasnt
+tmp SimpleName MethodInvocation SimpleName exists
+assert SimpleName MethodInvocation SimpleName assert false
+assert SimpleName MethodInvocation InfixExpression StringLiteral expected
+assert SimpleName MethodInvocation InfixExpression SimpleName tmp
+assert SimpleName MethodInvocation InfixExpression StringLiteral to be cleaned up but it wasnt
+assert SimpleName MethodInvocation MethodInvocation SimpleName tmp
+assert SimpleName MethodInvocation MethodInvocation SimpleName exists
+assert false SimpleName MethodInvocation InfixExpression StringLiteral expected
+assert false SimpleName MethodInvocation InfixExpression SimpleName tmp
+assert false SimpleName MethodInvocation InfixExpression StringLiteral to be cleaned up but it wasnt
+assert false SimpleName MethodInvocation MethodInvocation SimpleName tmp
+assert false SimpleName MethodInvocation MethodInvocation SimpleName exists
+expected StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName tmp
+expected StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName exists
+tmp SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName tmp
+tmp SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName exists
+to be cleaned up but it wasnt StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName tmp
+to be cleaned up but it wasnt StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName exists
+file utils SimpleName MethodInvocation SimpleName delete quietly
+file utils SimpleName MethodInvocation SimpleName accumulo dir
+delete quietly SimpleName MethodInvocation SimpleName accumulo dir
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test cleanup index op without common parent volume
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName io exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test cleanup index op without common parent volume
+public Modifier MethodDeclaration SimpleType SimpleName io exception
+void PrimitiveType MethodDeclaration SimpleName test cleanup index op without common parent volume
+void PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+test cleanup index op without common parent volume SimpleName MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test cleanup index op without common parent volume
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test cleanup index op without common parent volume
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

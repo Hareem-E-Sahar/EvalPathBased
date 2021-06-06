@@ -1,0 +1,38 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName property name
+property SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+get wrapped element SimpleName MethodInvocation MethodInvocation SimpleName properties
+get wrapped element SimpleName MethodInvocation MethodInvocation SimpleName property name
+properties SimpleName MethodInvocation SimpleName property name
+it SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get wrapped element
+it SimpleName VariableDeclarationFragment MethodInvocation SimpleName properties
+it SimpleName VariableDeclarationFragment MethodInvocation SimpleName property name
+it SimpleName MethodInvocation SimpleName has next
+property SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+it SimpleName MethodInvocation SimpleName next
+property SimpleName VariableDeclarationFragment MethodInvocation SimpleName it
+property SimpleName VariableDeclarationFragment MethodInvocation SimpleName next
+property SimpleName MethodInvocation SimpleName remove
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName remove property
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName property name
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName remove property
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName property name
+void PrimitiveType MethodDeclaration SimpleName remove property
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName property name
+remove property SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+remove property SimpleName MethodDeclaration SingleVariableDeclaration SimpleName property name
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName remove property
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName property name
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName remove property
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName property name

@@ -1,0 +1,341 @@
+storage descriptor SimpleName SimpleType SingleVariableDeclaration SimpleName storage desc
+hive type systemdefined typeshive storagedesc QualifiedName MethodInvocation SimpleName name
+storage desc name SimpleName VariableDeclarationFragment MethodInvocation QualifiedName hive type systemdefined typeshive storagedesc
+storage desc name SimpleName VariableDeclarationFragment MethodInvocation SimpleName name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName storage desc name
+storage desc SimpleName MethodInvocation SimpleName get serde info
+serde info SimpleName VariableDeclarationFragment MethodInvocation SimpleName storage desc
+serde info SimpleName VariableDeclarationFragment MethodInvocation SimpleName get serde info
+ser de info SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName serde info
+struct SimpleName SimpleType ClassInstanceCreation SimpleName storage desc name
+sd struct SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName struct
+sd struct SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName storage desc name
+struct SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName sd struct
+filling storage descriptor information for StringLiteral InfixExpression SimpleName storage desc
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation InfixExpression StringLiteral filling storage descriptor information for
+log SimpleName MethodInvocation InfixExpression SimpleName storage desc
+debug SimpleName MethodInvocation InfixExpression StringLiteral filling storage descriptor information for
+debug SimpleName MethodInvocation InfixExpression SimpleName storage desc
+hive type systemdefined typeshive serde QualifiedName MethodInvocation SimpleName name
+serde info name SimpleName VariableDeclarationFragment MethodInvocation QualifiedName hive type systemdefined typeshive serde
+serde info name SimpleName VariableDeclarationFragment MethodInvocation SimpleName name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName serde info name
+struct SimpleName SimpleType ClassInstanceCreation SimpleName serde info name
+serde info struct SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName struct
+serde info struct SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName serde info name
+struct SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName serde info struct
+serde info SimpleName MethodInvocation SimpleName get name
+serde info struct SimpleName MethodInvocation SimpleName set
+serde info struct SimpleName MethodInvocation StringLiteral name
+serde info struct SimpleName MethodInvocation MethodInvocation SimpleName serde info
+serde info struct SimpleName MethodInvocation MethodInvocation SimpleName get name
+set SimpleName MethodInvocation StringLiteral name
+set SimpleName MethodInvocation MethodInvocation SimpleName serde info
+set SimpleName MethodInvocation MethodInvocation SimpleName get name
+name StringLiteral MethodInvocation MethodInvocation SimpleName serde info
+name StringLiteral MethodInvocation MethodInvocation SimpleName get name
+serde info SimpleName MethodInvocation SimpleName get serialization lib
+serde info struct SimpleName MethodInvocation SimpleName set
+serde info struct SimpleName MethodInvocation StringLiteral serialization lib
+serde info struct SimpleName MethodInvocation MethodInvocation SimpleName serde info
+serde info struct SimpleName MethodInvocation MethodInvocation SimpleName get serialization lib
+set SimpleName MethodInvocation StringLiteral serialization lib
+set SimpleName MethodInvocation MethodInvocation SimpleName serde info
+set SimpleName MethodInvocation MethodInvocation SimpleName get serialization lib
+serialization lib StringLiteral MethodInvocation MethodInvocation SimpleName serde info
+serialization lib StringLiteral MethodInvocation MethodInvocation SimpleName get serialization lib
+serde info SimpleName MethodInvocation SimpleName get parameters
+serde info struct SimpleName MethodInvocation SimpleName set
+serde info struct SimpleName MethodInvocation StringLiteral parameters
+serde info struct SimpleName MethodInvocation MethodInvocation SimpleName serde info
+serde info struct SimpleName MethodInvocation MethodInvocation SimpleName get parameters
+set SimpleName MethodInvocation StringLiteral parameters
+set SimpleName MethodInvocation MethodInvocation SimpleName serde info
+set SimpleName MethodInvocation MethodInvocation SimpleName get parameters
+parameters StringLiteral MethodInvocation MethodInvocation SimpleName serde info
+parameters StringLiteral MethodInvocation MethodInvocation SimpleName get parameters
+serde info = StringLiteral InfixExpression SimpleName serde info
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation InfixExpression StringLiteral serde info =
+log SimpleName MethodInvocation InfixExpression SimpleName serde info
+debug SimpleName MethodInvocation InfixExpression StringLiteral serde info =
+debug SimpleName MethodInvocation InfixExpression SimpleName serde info
+hive type system SimpleName MethodInvocation SimpleName get data type
+hive type system SimpleName MethodInvocation SimpleName serde info name
+get data type SimpleName MethodInvocation SimpleName serde info name
+struct type SimpleName SimpleType CastExpression MethodInvocation SimpleName hive type system
+struct type SimpleName SimpleType CastExpression MethodInvocation SimpleName get data type
+struct type SimpleName SimpleType CastExpression MethodInvocation SimpleName serde info name
+serde infotype SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName struct type
+serde infotype SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName hive type system
+serde infotype SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get data type
+serde infotype SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName serde info name
+struct type SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName serde infotype
+serde infotype SimpleName MethodInvocation SimpleName convert
+serde infotype SimpleName MethodInvocation SimpleName serde info struct
+serde infotype SimpleName MethodInvocation QualifiedName multiplicityoptional
+convert SimpleName MethodInvocation SimpleName serde info struct
+convert SimpleName MethodInvocation QualifiedName multiplicityoptional
+serde info struct SimpleName MethodInvocation QualifiedName multiplicityoptional
+serde info struct typed SimpleName VariableDeclarationFragment MethodInvocation SimpleName serde infotype
+serde info struct typed SimpleName VariableDeclarationFragment MethodInvocation SimpleName convert
+serde info struct typed SimpleName VariableDeclarationFragment MethodInvocation SimpleName serde info struct
+serde info struct typed SimpleName VariableDeclarationFragment MethodInvocation QualifiedName multiplicityoptional
+i typed struct SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName serde info struct typed
+sd struct SimpleName MethodInvocation SimpleName set
+sd struct SimpleName MethodInvocation StringLiteral serde info
+sd struct SimpleName MethodInvocation SimpleName serde info struct typed
+set SimpleName MethodInvocation StringLiteral serde info
+set SimpleName MethodInvocation SimpleName serde info struct typed
+serde info StringLiteral MethodInvocation SimpleName serde info struct typed
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName referenceable
+referenceable SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName col ref
+field schema SimpleName SimpleType SingleVariableDeclaration SimpleName fs
+storage desc SimpleName MethodInvocation SimpleName get cols
+processing field StringLiteral InfixExpression SimpleName fs
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation InfixExpression StringLiteral processing field
+log SimpleName MethodInvocation InfixExpression SimpleName fs
+debug SimpleName MethodInvocation InfixExpression StringLiteral processing field
+debug SimpleName MethodInvocation InfixExpression SimpleName fs
+hive type systemdefined typeshive column QualifiedName MethodInvocation SimpleName name
+referenceable SimpleName SimpleType ClassInstanceCreation MethodInvocation QualifiedName hive type systemdefined typeshive column
+referenceable SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName name
+col ref SimpleName Assignment ClassInstanceCreation SimpleType SimpleName referenceable
+col ref SimpleName Assignment ClassInstanceCreation MethodInvocation QualifiedName hive type systemdefined typeshive column
+col ref SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName name
+fs SimpleName MethodInvocation SimpleName get name
+col ref SimpleName MethodInvocation SimpleName set
+col ref SimpleName MethodInvocation StringLiteral name
+col ref SimpleName MethodInvocation MethodInvocation SimpleName fs
+col ref SimpleName MethodInvocation MethodInvocation SimpleName get name
+set SimpleName MethodInvocation StringLiteral name
+set SimpleName MethodInvocation MethodInvocation SimpleName fs
+set SimpleName MethodInvocation MethodInvocation SimpleName get name
+name StringLiteral MethodInvocation MethodInvocation SimpleName fs
+name StringLiteral MethodInvocation MethodInvocation SimpleName get name
+fs SimpleName MethodInvocation SimpleName get type
+col ref SimpleName MethodInvocation SimpleName set
+col ref SimpleName MethodInvocation StringLiteral type
+col ref SimpleName MethodInvocation MethodInvocation SimpleName fs
+col ref SimpleName MethodInvocation MethodInvocation SimpleName get type
+set SimpleName MethodInvocation StringLiteral type
+set SimpleName MethodInvocation MethodInvocation SimpleName fs
+set SimpleName MethodInvocation MethodInvocation SimpleName get type
+type StringLiteral MethodInvocation MethodInvocation SimpleName fs
+type StringLiteral MethodInvocation MethodInvocation SimpleName get type
+fs SimpleName MethodInvocation SimpleName get comment
+col ref SimpleName MethodInvocation SimpleName set
+col ref SimpleName MethodInvocation StringLiteral comment
+col ref SimpleName MethodInvocation MethodInvocation SimpleName fs
+col ref SimpleName MethodInvocation MethodInvocation SimpleName get comment
+set SimpleName MethodInvocation StringLiteral comment
+set SimpleName MethodInvocation MethodInvocation SimpleName fs
+set SimpleName MethodInvocation MethodInvocation SimpleName get comment
+comment StringLiteral MethodInvocation MethodInvocation SimpleName fs
+comment StringLiteral MethodInvocation MethodInvocation SimpleName get comment
+create instance SimpleName MethodInvocation SimpleName col ref
+col ref typed SimpleName VariableDeclarationFragment MethodInvocation SimpleName create instance
+col ref typed SimpleName VariableDeclarationFragment MethodInvocation SimpleName col ref
+referenceable SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName col ref typed
+fields list SimpleName MethodInvocation SimpleName add
+fields list SimpleName MethodInvocation SimpleName col ref typed
+add SimpleName MethodInvocation SimpleName col ref typed
+col ref typed SimpleName MethodInvocation SimpleName get id
+column instances SimpleName MethodInvocation SimpleName add
+column instances SimpleName MethodInvocation MethodInvocation SimpleName col ref typed
+column instances SimpleName MethodInvocation MethodInvocation SimpleName get id
+add SimpleName MethodInvocation MethodInvocation SimpleName col ref typed
+add SimpleName MethodInvocation MethodInvocation SimpleName get id
+fs SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName storage desc
+fs SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName get cols
+sd struct SimpleName MethodInvocation SimpleName set
+sd struct SimpleName MethodInvocation StringLiteral cols
+sd struct SimpleName MethodInvocation SimpleName fields list
+set SimpleName MethodInvocation StringLiteral cols
+set SimpleName MethodInvocation SimpleName fields list
+cols StringLiteral MethodInvocation SimpleName fields list
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName i typed struct
+order SimpleName SimpleType SingleVariableDeclaration SimpleName sortcol
+storage desc SimpleName MethodInvocation SimpleName get sort cols
+hive type systemdefined typeshive order QualifiedName MethodInvocation SimpleName name
+hive order name SimpleName VariableDeclarationFragment MethodInvocation QualifiedName hive type systemdefined typeshive order
+hive order name SimpleName VariableDeclarationFragment MethodInvocation SimpleName name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName hive order name
+struct SimpleName SimpleType ClassInstanceCreation SimpleName hive order name
+col struct SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName struct
+col struct SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName hive order name
+struct SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName col struct
+sortcol SimpleName MethodInvocation SimpleName get col
+col struct SimpleName MethodInvocation SimpleName set
+col struct SimpleName MethodInvocation StringLiteral col
+col struct SimpleName MethodInvocation MethodInvocation SimpleName sortcol
+col struct SimpleName MethodInvocation MethodInvocation SimpleName get col
+set SimpleName MethodInvocation StringLiteral col
+set SimpleName MethodInvocation MethodInvocation SimpleName sortcol
+set SimpleName MethodInvocation MethodInvocation SimpleName get col
+col StringLiteral MethodInvocation MethodInvocation SimpleName sortcol
+col StringLiteral MethodInvocation MethodInvocation SimpleName get col
+sortcol SimpleName MethodInvocation SimpleName get order
+col struct SimpleName MethodInvocation SimpleName set
+col struct SimpleName MethodInvocation StringLiteral order
+col struct SimpleName MethodInvocation MethodInvocation SimpleName sortcol
+col struct SimpleName MethodInvocation MethodInvocation SimpleName get order
+set SimpleName MethodInvocation StringLiteral order
+set SimpleName MethodInvocation MethodInvocation SimpleName sortcol
+set SimpleName MethodInvocation MethodInvocation SimpleName get order
+order StringLiteral MethodInvocation MethodInvocation SimpleName sortcol
+order StringLiteral MethodInvocation MethodInvocation SimpleName get order
+hive type system SimpleName MethodInvocation SimpleName get data type
+hive type system SimpleName MethodInvocation SimpleName hive order name
+get data type SimpleName MethodInvocation SimpleName hive order name
+struct type SimpleName SimpleType CastExpression MethodInvocation SimpleName hive type system
+struct type SimpleName SimpleType CastExpression MethodInvocation SimpleName get data type
+struct type SimpleName SimpleType CastExpression MethodInvocation SimpleName hive order name
+sort col type SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName struct type
+sort col type SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName hive type system
+sort col type SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get data type
+sort col type SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName hive order name
+struct type SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName sort col type
+sort col type SimpleName MethodInvocation SimpleName convert
+sort col type SimpleName MethodInvocation SimpleName col struct
+sort col type SimpleName MethodInvocation QualifiedName multiplicityoptional
+convert SimpleName MethodInvocation SimpleName col struct
+convert SimpleName MethodInvocation QualifiedName multiplicityoptional
+col struct SimpleName MethodInvocation QualifiedName multiplicityoptional
+sort col typed SimpleName VariableDeclarationFragment MethodInvocation SimpleName sort col type
+sort col typed SimpleName VariableDeclarationFragment MethodInvocation SimpleName convert
+sort col typed SimpleName VariableDeclarationFragment MethodInvocation SimpleName col struct
+sort col typed SimpleName VariableDeclarationFragment MethodInvocation QualifiedName multiplicityoptional
+i typed struct SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName sort col typed
+sort cols struct SimpleName MethodInvocation SimpleName add
+sort cols struct SimpleName MethodInvocation SimpleName sort col typed
+add SimpleName MethodInvocation SimpleName sort col typed
+sortcol SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName storage desc
+sortcol SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName get sort cols
+storage desc SimpleName MethodInvocation SimpleName get location
+sd struct SimpleName MethodInvocation SimpleName set
+sd struct SimpleName MethodInvocation StringLiteral location
+sd struct SimpleName MethodInvocation MethodInvocation SimpleName storage desc
+sd struct SimpleName MethodInvocation MethodInvocation SimpleName get location
+set SimpleName MethodInvocation StringLiteral location
+set SimpleName MethodInvocation MethodInvocation SimpleName storage desc
+set SimpleName MethodInvocation MethodInvocation SimpleName get location
+location StringLiteral MethodInvocation MethodInvocation SimpleName storage desc
+location StringLiteral MethodInvocation MethodInvocation SimpleName get location
+storage desc SimpleName MethodInvocation SimpleName get input format
+sd struct SimpleName MethodInvocation SimpleName set
+sd struct SimpleName MethodInvocation StringLiteral input format
+sd struct SimpleName MethodInvocation MethodInvocation SimpleName storage desc
+sd struct SimpleName MethodInvocation MethodInvocation SimpleName get input format
+set SimpleName MethodInvocation StringLiteral input format
+set SimpleName MethodInvocation MethodInvocation SimpleName storage desc
+set SimpleName MethodInvocation MethodInvocation SimpleName get input format
+input format StringLiteral MethodInvocation MethodInvocation SimpleName storage desc
+input format StringLiteral MethodInvocation MethodInvocation SimpleName get input format
+storage desc SimpleName MethodInvocation SimpleName get output format
+sd struct SimpleName MethodInvocation SimpleName set
+sd struct SimpleName MethodInvocation StringLiteral output format
+sd struct SimpleName MethodInvocation MethodInvocation SimpleName storage desc
+sd struct SimpleName MethodInvocation MethodInvocation SimpleName get output format
+set SimpleName MethodInvocation StringLiteral output format
+set SimpleName MethodInvocation MethodInvocation SimpleName storage desc
+set SimpleName MethodInvocation MethodInvocation SimpleName get output format
+output format StringLiteral MethodInvocation MethodInvocation SimpleName storage desc
+output format StringLiteral MethodInvocation MethodInvocation SimpleName get output format
+storage desc SimpleName MethodInvocation SimpleName is compressed
+sd struct SimpleName MethodInvocation SimpleName set
+sd struct SimpleName MethodInvocation StringLiteral compressed
+sd struct SimpleName MethodInvocation MethodInvocation SimpleName storage desc
+sd struct SimpleName MethodInvocation MethodInvocation SimpleName is compressed
+set SimpleName MethodInvocation StringLiteral compressed
+set SimpleName MethodInvocation MethodInvocation SimpleName storage desc
+set SimpleName MethodInvocation MethodInvocation SimpleName is compressed
+compressed StringLiteral MethodInvocation MethodInvocation SimpleName storage desc
+compressed StringLiteral MethodInvocation MethodInvocation SimpleName is compressed
+storage desc SimpleName MethodInvocation SimpleName get bucket cols
+storage desc SimpleName MethodInvocation MethodInvocation SimpleName size
+get bucket cols SimpleName MethodInvocation MethodInvocation SimpleName size
+storage desc SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral empty
+get bucket cols SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral empty
+size SimpleName MethodInvocation InfixExpression NumberLiteral empty
+storage desc SimpleName MethodInvocation SimpleName get bucket cols
+sd struct SimpleName MethodInvocation SimpleName set
+sd struct SimpleName MethodInvocation StringLiteral bucket cols
+sd struct SimpleName MethodInvocation MethodInvocation SimpleName storage desc
+sd struct SimpleName MethodInvocation MethodInvocation SimpleName get bucket cols
+set SimpleName MethodInvocation StringLiteral bucket cols
+set SimpleName MethodInvocation MethodInvocation SimpleName storage desc
+set SimpleName MethodInvocation MethodInvocation SimpleName get bucket cols
+bucket cols StringLiteral MethodInvocation MethodInvocation SimpleName storage desc
+bucket cols StringLiteral MethodInvocation MethodInvocation SimpleName get bucket cols
+sort cols struct SimpleName MethodInvocation SimpleName size
+sort cols struct SimpleName MethodInvocation InfixExpression NumberLiteral empty
+size SimpleName MethodInvocation InfixExpression NumberLiteral empty
+sd struct SimpleName MethodInvocation SimpleName set
+sd struct SimpleName MethodInvocation StringLiteral sort cols
+sd struct SimpleName MethodInvocation SimpleName sort cols struct
+set SimpleName MethodInvocation StringLiteral sort cols
+set SimpleName MethodInvocation SimpleName sort cols struct
+sort cols StringLiteral MethodInvocation SimpleName sort cols struct
+storage desc SimpleName MethodInvocation SimpleName get parameters
+sd struct SimpleName MethodInvocation SimpleName set
+sd struct SimpleName MethodInvocation StringLiteral parameters
+sd struct SimpleName MethodInvocation MethodInvocation SimpleName storage desc
+sd struct SimpleName MethodInvocation MethodInvocation SimpleName get parameters
+set SimpleName MethodInvocation StringLiteral parameters
+set SimpleName MethodInvocation MethodInvocation SimpleName storage desc
+set SimpleName MethodInvocation MethodInvocation SimpleName get parameters
+parameters StringLiteral MethodInvocation MethodInvocation SimpleName storage desc
+parameters StringLiteral MethodInvocation MethodInvocation SimpleName get parameters
+storage desc SimpleName MethodInvocation SimpleName is stored as sub directories
+sd struct SimpleName MethodInvocation SimpleName set
+sd struct SimpleName MethodInvocation StringLiteral stored as sub directories
+sd struct SimpleName MethodInvocation MethodInvocation SimpleName storage desc
+sd struct SimpleName MethodInvocation MethodInvocation SimpleName is stored as sub directories
+set SimpleName MethodInvocation StringLiteral stored as sub directories
+set SimpleName MethodInvocation MethodInvocation SimpleName storage desc
+set SimpleName MethodInvocation MethodInvocation SimpleName is stored as sub directories
+stored as sub directories StringLiteral MethodInvocation MethodInvocation SimpleName storage desc
+stored as sub directories StringLiteral MethodInvocation MethodInvocation SimpleName is stored as sub directories
+hive type system SimpleName MethodInvocation SimpleName get data type
+hive type system SimpleName MethodInvocation SimpleName storage desc name
+get data type SimpleName MethodInvocation SimpleName storage desc name
+struct type SimpleName SimpleType CastExpression MethodInvocation SimpleName hive type system
+struct type SimpleName SimpleType CastExpression MethodInvocation SimpleName get data type
+struct type SimpleName SimpleType CastExpression MethodInvocation SimpleName storage desc name
+storage desctype SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName struct type
+storage desctype SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName hive type system
+storage desctype SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get data type
+storage desctype SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName storage desc name
+struct type SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName storage desctype
+storage desctype SimpleName MethodInvocation SimpleName convert
+storage desctype SimpleName MethodInvocation SimpleName sd struct
+storage desctype SimpleName MethodInvocation QualifiedName multiplicityoptional
+convert SimpleName MethodInvocation SimpleName sd struct
+convert SimpleName MethodInvocation QualifiedName multiplicityoptional
+sd struct SimpleName MethodInvocation QualifiedName multiplicityoptional
+private Modifier MethodDeclaration SimpleType SimpleName i typed struct
+private Modifier MethodDeclaration SimpleName fill storage desc struct
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName storage descriptor
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName storage desc
+private Modifier MethodDeclaration SimpleType SimpleName exception
+i typed struct SimpleName SimpleType MethodDeclaration SimpleName fill storage desc struct
+i typed struct SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName storage desc
+i typed struct SimpleName SimpleType MethodDeclaration SimpleType SimpleName exception
+fill storage desc struct SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName storage descriptor
+fill storage desc struct SimpleName MethodDeclaration SingleVariableDeclaration SimpleName storage desc
+fill storage desc struct SimpleName MethodDeclaration SimpleType SimpleName exception
+storage desc SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName i typed struct
+public Modifier TypeDeclaration MethodDeclaration SimpleName fill storage desc struct
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName storage desc
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName i typed struct
+test SimpleName TypeDeclaration MethodDeclaration SimpleName fill storage desc struct
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName storage desc
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

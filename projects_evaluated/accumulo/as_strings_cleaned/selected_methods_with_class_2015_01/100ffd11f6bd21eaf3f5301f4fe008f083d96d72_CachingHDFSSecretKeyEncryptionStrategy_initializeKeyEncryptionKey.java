@@ -1,0 +1,110 @@
+file system SimpleName SimpleType SingleVariableDeclaration SimpleName fs
+path SimpleName SimpleType SingleVariableDeclaration SimpleName path to key
+crypto module parameters SimpleName SimpleType SingleVariableDeclaration SimpleName params
+data output stream SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName out
+fs SimpleName MethodInvocation SimpleName create
+fs SimpleName MethodInvocation SimpleName path to key
+create SimpleName MethodInvocation SimpleName path to key
+out SimpleName Assignment MethodInvocation SimpleName fs
+out SimpleName Assignment MethodInvocation SimpleName create
+out SimpleName Assignment MethodInvocation SimpleName path to key
+short PrimitiveType CastExpression NumberLiteral empty
+fs SimpleName MethodInvocation SimpleName set replication
+fs SimpleName MethodInvocation SimpleName path to key
+fs SimpleName MethodInvocation CastExpression PrimitiveType short
+fs SimpleName MethodInvocation CastExpression NumberLiteral empty
+set replication SimpleName MethodInvocation SimpleName path to key
+set replication SimpleName MethodInvocation CastExpression PrimitiveType short
+set replication SimpleName MethodInvocation CastExpression NumberLiteral empty
+path to key SimpleName MethodInvocation CastExpression PrimitiveType short
+path to key SimpleName MethodInvocation CastExpression NumberLiteral empty
+params SimpleName MethodInvocation SimpleName get random number generator
+params SimpleName MethodInvocation SimpleName get random number generator provider
+default crypto module utils SimpleName MethodInvocation SimpleName get secure random
+default crypto module utils SimpleName MethodInvocation MethodInvocation SimpleName params
+default crypto module utils SimpleName MethodInvocation MethodInvocation SimpleName get random number generator
+default crypto module utils SimpleName MethodInvocation MethodInvocation SimpleName params
+default crypto module utils SimpleName MethodInvocation MethodInvocation SimpleName get random number generator provider
+get secure random SimpleName MethodInvocation MethodInvocation SimpleName params
+get secure random SimpleName MethodInvocation MethodInvocation SimpleName get random number generator
+get secure random SimpleName MethodInvocation MethodInvocation SimpleName params
+get secure random SimpleName MethodInvocation MethodInvocation SimpleName get random number generator provider
+params SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName params
+params SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get random number generator provider
+get random number generator SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName params
+get random number generator SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get random number generator provider
+random SimpleName VariableDeclarationFragment MethodInvocation SimpleName default crypto module utils
+random SimpleName VariableDeclarationFragment MethodInvocation SimpleName get secure random
+random SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName params
+random SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get random number generator
+random SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName params
+random SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get random number generator provider
+secure random SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName random
+params SimpleName MethodInvocation SimpleName get key length
+key length SimpleName VariableDeclarationFragment MethodInvocation SimpleName params
+key length SimpleName VariableDeclarationFragment MethodInvocation SimpleName get key length
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName key length
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName params
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get key length
+key length SimpleName InfixExpression NumberLiteral empty
+byte PrimitiveType ArrayType ArrayCreation InfixExpression SimpleName key length
+byte PrimitiveType ArrayType ArrayCreation InfixExpression NumberLiteral empty
+new random key encryption key SimpleName VariableDeclarationFragment ArrayCreation ArrayType PrimitiveType byte
+new random key encryption key SimpleName VariableDeclarationFragment ArrayCreation InfixExpression SimpleName key length
+new random key encryption key SimpleName VariableDeclarationFragment ArrayCreation InfixExpression NumberLiteral empty
+byte PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName new random key encryption key
+random SimpleName MethodInvocation SimpleName next bytes
+random SimpleName MethodInvocation SimpleName new random key encryption key
+next bytes SimpleName MethodInvocation SimpleName new random key encryption key
+out SimpleName MethodInvocation SimpleName write int
+out SimpleName MethodInvocation QualifiedName new random key encryption keylength
+write int SimpleName MethodInvocation QualifiedName new random key encryption keylength
+out SimpleName MethodInvocation SimpleName write
+out SimpleName MethodInvocation SimpleName new random key encryption key
+write SimpleName MethodInvocation SimpleName new random key encryption key
+out SimpleName MethodInvocation SimpleName flush
+out SimpleName MethodInvocation SimpleName close
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName initialize key encryption key
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName file system
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName fs
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName path to key
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName crypto module parameters
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName params
+void PrimitiveType MethodDeclaration SimpleName initialize key encryption key
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName file system
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName fs
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName path to key
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName crypto module parameters
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName params
+void PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+initialize key encryption key SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName file system
+initialize key encryption key SimpleName MethodDeclaration SingleVariableDeclaration SimpleName fs
+initialize key encryption key SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+initialize key encryption key SimpleName MethodDeclaration SingleVariableDeclaration SimpleName path to key
+initialize key encryption key SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName crypto module parameters
+initialize key encryption key SimpleName MethodDeclaration SingleVariableDeclaration SimpleName params
+initialize key encryption key SimpleName MethodDeclaration SimpleType SimpleName io exception
+fs SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName path to key
+fs SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName params
+fs SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+path to key SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName params
+path to key SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+params SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName initialize key encryption key
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName fs
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName path to key
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName params
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName initialize key encryption key
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName fs
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName path to key
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName params
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

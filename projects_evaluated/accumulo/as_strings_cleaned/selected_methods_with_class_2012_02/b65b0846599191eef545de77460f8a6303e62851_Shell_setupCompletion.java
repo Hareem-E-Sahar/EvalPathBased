@@ -1,0 +1,139 @@
+root token SimpleName Assignment ClassInstanceCreation SimpleType SimpleName token
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+connector SimpleName MethodInvocation SimpleName table operations
+connector SimpleName MethodInvocation MethodInvocation SimpleName list
+table operations SimpleName MethodInvocation MethodInvocation SimpleName list
+table names SimpleName Assignment MethodInvocation MethodInvocation SimpleName connector
+table names SimpleName Assignment MethodInvocation MethodInvocation SimpleName table operations
+table names SimpleName Assignment MethodInvocation SimpleName list
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral unable to obtain list of tables
+log SimpleName MethodInvocation SimpleName e
+debug SimpleName MethodInvocation StringLiteral unable to obtain list of tables
+debug SimpleName MethodInvocation SimpleName e
+unable to obtain list of tables StringLiteral MethodInvocation SimpleName e
+collections SimpleName MethodInvocation SimpleName empty set
+table names SimpleName Assignment MethodInvocation SimpleName collections
+table names SimpleName Assignment MethodInvocation SimpleName empty set
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+connector SimpleName MethodInvocation SimpleName security operations
+connector SimpleName MethodInvocation MethodInvocation SimpleName list users
+security operations SimpleName MethodInvocation MethodInvocation SimpleName list users
+userlist SimpleName Assignment MethodInvocation MethodInvocation SimpleName connector
+userlist SimpleName Assignment MethodInvocation MethodInvocation SimpleName security operations
+userlist SimpleName Assignment MethodInvocation SimpleName list users
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral unable to obtain list of users
+log SimpleName MethodInvocation SimpleName e
+debug SimpleName MethodInvocation StringLiteral unable to obtain list of users
+debug SimpleName MethodInvocation SimpleName e
+unable to obtain list of users StringLiteral MethodInvocation SimpleName e
+collections SimpleName MethodInvocation SimpleName empty set
+userlist SimpleName Assignment MethodInvocation SimpleName collections
+userlist SimpleName Assignment MethodInvocation SimpleName empty set
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType QualifiedName commandcompletion set
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+hash map SimpleName SimpleType ParameterizedType SimpleType QualifiedName commandcompletion set
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+hash set SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType SingleVariableDeclaration SimpleName a
+command factory SimpleName MethodInvocation SimpleName key set
+commands SimpleName MethodInvocation SimpleName add
+commands SimpleName MethodInvocation SimpleName a
+add SimpleName MethodInvocation SimpleName a
+a SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName command factory
+a SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName key set
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+hash set SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+hash set SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType SingleVariableDeclaration SimpleName a
+a SimpleName MethodInvocation SimpleName replace all
+a SimpleName MethodInvocation StringLiteral s
+a SimpleName MethodInvocation StringLiteral \\\\$
+replace all SimpleName MethodInvocation StringLiteral s
+replace all SimpleName MethodInvocation StringLiteral \\\\$
+s StringLiteral MethodInvocation StringLiteral \\\\$
+modified tablenames SimpleName MethodInvocation SimpleName add
+modified tablenames SimpleName MethodInvocation MethodInvocation SimpleName a
+modified tablenames SimpleName MethodInvocation MethodInvocation SimpleName replace all
+modified tablenames SimpleName MethodInvocation MethodInvocation StringLiteral s
+modified tablenames SimpleName MethodInvocation MethodInvocation StringLiteral \\\\$
+add SimpleName MethodInvocation MethodInvocation SimpleName a
+add SimpleName MethodInvocation MethodInvocation SimpleName replace all
+add SimpleName MethodInvocation MethodInvocation StringLiteral s
+add SimpleName MethodInvocation MethodInvocation StringLiteral \\\\$
+string SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName table names
+a SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName table names
+table names SimpleName EnhancedForStatement ExpressionStatement MethodInvocation SimpleName modified tablenames
+table names SimpleName EnhancedForStatement ExpressionStatement MethodInvocation SimpleName add
+string SimpleName SimpleType SingleVariableDeclaration SimpleName a
+a SimpleName MethodInvocation SimpleName replace all
+a SimpleName MethodInvocation StringLiteral s
+a SimpleName MethodInvocation StringLiteral \\\\$
+replace all SimpleName MethodInvocation StringLiteral s
+replace all SimpleName MethodInvocation StringLiteral \\\\$
+s StringLiteral MethodInvocation StringLiteral \\\\$
+modified userlist SimpleName MethodInvocation SimpleName add
+modified userlist SimpleName MethodInvocation MethodInvocation SimpleName a
+modified userlist SimpleName MethodInvocation MethodInvocation SimpleName replace all
+modified userlist SimpleName MethodInvocation MethodInvocation StringLiteral s
+modified userlist SimpleName MethodInvocation MethodInvocation StringLiteral \\\\$
+add SimpleName MethodInvocation MethodInvocation SimpleName a
+add SimpleName MethodInvocation MethodInvocation SimpleName replace all
+add SimpleName MethodInvocation MethodInvocation StringLiteral s
+add SimpleName MethodInvocation MethodInvocation StringLiteral \\\\$
+string SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName userlist
+a SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName userlist
+userlist SimpleName EnhancedForStatement ExpressionStatement MethodInvocation SimpleName modified userlist
+userlist SimpleName EnhancedForStatement ExpressionStatement MethodInvocation SimpleName add
+options SimpleName MethodInvocation SimpleName put
+options SimpleName MethodInvocation QualifiedName commandcompletion setusernames
+options SimpleName MethodInvocation SimpleName modified userlist
+put SimpleName MethodInvocation QualifiedName commandcompletion setusernames
+put SimpleName MethodInvocation SimpleName modified userlist
+commandcompletion setusernames QualifiedName MethodInvocation SimpleName modified userlist
+options SimpleName MethodInvocation SimpleName put
+options SimpleName MethodInvocation QualifiedName commandcompletion settablenames
+options SimpleName MethodInvocation SimpleName modified tablenames
+put SimpleName MethodInvocation QualifiedName commandcompletion settablenames
+put SimpleName MethodInvocation SimpleName modified tablenames
+commandcompletion settablenames QualifiedName MethodInvocation SimpleName modified tablenames
+options SimpleName MethodInvocation SimpleName put
+options SimpleName MethodInvocation QualifiedName commandcompletion setcommands
+options SimpleName MethodInvocation SimpleName commands
+put SimpleName MethodInvocation QualifiedName commandcompletion setcommands
+put SimpleName MethodInvocation SimpleName commands
+commandcompletion setcommands QualifiedName MethodInvocation SimpleName commands
+command SimpleName SimpleType SingleVariableDeclaration SimpleName c
+command factory SimpleName MethodInvocation SimpleName values
+c SimpleName MethodInvocation SimpleName get options with help
+c SimpleName MethodInvocation SimpleName register completion
+c SimpleName MethodInvocation SimpleName root token
+c SimpleName MethodInvocation SimpleName options
+register completion SimpleName MethodInvocation SimpleName root token
+register completion SimpleName MethodInvocation SimpleName options
+root token SimpleName MethodInvocation SimpleName options
+c SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName command factory
+c SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName values
+shell completor SimpleName SimpleType ClassInstanceCreation SimpleName root token
+shell completor SimpleName SimpleType ClassInstanceCreation SimpleName options
+root token SimpleName ClassInstanceCreation SimpleName options
+table names SimpleName EnhancedForStatement Block EnhancedForStatement SimpleName userlist
+private Modifier MethodDeclaration SimpleType SimpleName shell completor
+private Modifier MethodDeclaration SimpleName setup completion
+private Modifier MethodDeclaration Block EnhancedForStatement SimpleName table names
+private Modifier MethodDeclaration Block EnhancedForStatement SimpleName userlist
+shell completor SimpleName SimpleType MethodDeclaration SimpleName setup completion
+setup completion SimpleName MethodDeclaration Block EnhancedForStatement SimpleName table names
+setup completion SimpleName MethodDeclaration Block EnhancedForStatement SimpleName userlist
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName shell completor
+public Modifier TypeDeclaration MethodDeclaration SimpleName setup completion
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName shell completor
+test SimpleName TypeDeclaration MethodDeclaration SimpleName setup completion

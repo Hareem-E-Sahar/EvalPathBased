@@ -1,0 +1,27 @@
+table entity SimpleName MethodInvocation SimpleName get guid
+add property SimpleName MethodInvocation MethodInvocation SimpleName table entity
+add property SimpleName MethodInvocation MethodInvocation SimpleName get guid
+add property SimpleName MethodInvocation StringLiteral description
+table entity SimpleName MethodInvocation MethodInvocation StringLiteral description
+get guid SimpleName MethodInvocation MethodInvocation StringLiteral description
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test add null property value
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test add null property value
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName test add null property value
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+test add null property value SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test add null property value
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test add null property value
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

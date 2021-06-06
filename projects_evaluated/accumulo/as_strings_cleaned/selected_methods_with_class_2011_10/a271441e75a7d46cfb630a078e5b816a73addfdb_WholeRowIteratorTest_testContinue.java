@@ -1,0 +1,344 @@
+sorted map SimpleName SimpleType ParameterizedType SimpleType SimpleName key
+sorted map SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+key SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+tree map SimpleName SimpleType ParameterizedType SimpleType SimpleName key
+tree map SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+key SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+pkv SimpleName MethodInvocation SimpleName map
+pkv SimpleName MethodInvocation StringLiteral row
+pkv SimpleName MethodInvocation StringLiteral cf
+pkv SimpleName MethodInvocation StringLiteral cq
+pkv SimpleName MethodInvocation StringLiteral cv
+map SimpleName MethodInvocation StringLiteral row
+map SimpleName MethodInvocation StringLiteral cf
+map SimpleName MethodInvocation StringLiteral cq
+map SimpleName MethodInvocation StringLiteral cv
+map SimpleName MethodInvocation NumberLiteral empty
+row StringLiteral MethodInvocation StringLiteral cf
+row StringLiteral MethodInvocation StringLiteral cq
+row StringLiteral MethodInvocation StringLiteral cv
+row StringLiteral MethodInvocation NumberLiteral empty
+row StringLiteral MethodInvocation StringLiteral foo
+cf StringLiteral MethodInvocation StringLiteral cq
+cf StringLiteral MethodInvocation StringLiteral cv
+cf StringLiteral MethodInvocation NumberLiteral empty
+cf StringLiteral MethodInvocation StringLiteral foo
+cq StringLiteral MethodInvocation StringLiteral cv
+cq StringLiteral MethodInvocation NumberLiteral empty
+cq StringLiteral MethodInvocation StringLiteral foo
+cv StringLiteral MethodInvocation NumberLiteral empty
+cv StringLiteral MethodInvocation StringLiteral foo
+empty NumberLiteral MethodInvocation StringLiteral foo
+pkv SimpleName MethodInvocation SimpleName map
+pkv SimpleName MethodInvocation StringLiteral row
+pkv SimpleName MethodInvocation StringLiteral cf
+pkv SimpleName MethodInvocation StringLiteral cq
+pkv SimpleName MethodInvocation StringLiteral cv
+map SimpleName MethodInvocation StringLiteral row
+map SimpleName MethodInvocation StringLiteral cf
+map SimpleName MethodInvocation StringLiteral cq
+map SimpleName MethodInvocation StringLiteral cv
+map SimpleName MethodInvocation NumberLiteral empty
+row StringLiteral MethodInvocation StringLiteral cf
+row StringLiteral MethodInvocation StringLiteral cq
+row StringLiteral MethodInvocation StringLiteral cv
+row StringLiteral MethodInvocation NumberLiteral empty
+row StringLiteral MethodInvocation StringLiteral bar
+cf StringLiteral MethodInvocation StringLiteral cq
+cf StringLiteral MethodInvocation StringLiteral cv
+cf StringLiteral MethodInvocation NumberLiteral empty
+cf StringLiteral MethodInvocation StringLiteral bar
+cq StringLiteral MethodInvocation StringLiteral cv
+cq StringLiteral MethodInvocation NumberLiteral empty
+cq StringLiteral MethodInvocation StringLiteral bar
+cv StringLiteral MethodInvocation NumberLiteral empty
+cv StringLiteral MethodInvocation StringLiteral bar
+empty NumberLiteral MethodInvocation StringLiteral bar
+sorted map SimpleName SimpleType ParameterizedType SimpleType SimpleName key
+sorted map SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+key SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+tree map SimpleName SimpleType ParameterizedType SimpleType SimpleName key
+tree map SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+key SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+pkv SimpleName MethodInvocation SimpleName map
+pkv SimpleName MethodInvocation StringLiteral row
+pkv SimpleName MethodInvocation StringLiteral cf
+pkv SimpleName MethodInvocation StringLiteral cq
+pkv SimpleName MethodInvocation StringLiteral cv
+map SimpleName MethodInvocation StringLiteral row
+map SimpleName MethodInvocation StringLiteral cf
+map SimpleName MethodInvocation StringLiteral cq
+map SimpleName MethodInvocation StringLiteral cv
+map SimpleName MethodInvocation NumberLiteral empty
+row StringLiteral MethodInvocation StringLiteral cf
+row StringLiteral MethodInvocation StringLiteral cq
+row StringLiteral MethodInvocation StringLiteral cv
+row StringLiteral MethodInvocation NumberLiteral empty
+row StringLiteral MethodInvocation StringLiteral foo
+cf StringLiteral MethodInvocation StringLiteral cq
+cf StringLiteral MethodInvocation StringLiteral cv
+cf StringLiteral MethodInvocation NumberLiteral empty
+cf StringLiteral MethodInvocation StringLiteral foo
+cq StringLiteral MethodInvocation StringLiteral cv
+cq StringLiteral MethodInvocation NumberLiteral empty
+cq StringLiteral MethodInvocation StringLiteral foo
+cv StringLiteral MethodInvocation NumberLiteral empty
+cv StringLiteral MethodInvocation StringLiteral foo
+empty NumberLiteral MethodInvocation StringLiteral foo
+pkv SimpleName MethodInvocation SimpleName map
+pkv SimpleName MethodInvocation StringLiteral row
+pkv SimpleName MethodInvocation StringLiteral cf
+pkv SimpleName MethodInvocation StringLiteral cq
+pkv SimpleName MethodInvocation StringLiteral cv
+map SimpleName MethodInvocation StringLiteral row
+map SimpleName MethodInvocation StringLiteral cf
+map SimpleName MethodInvocation StringLiteral cq
+map SimpleName MethodInvocation StringLiteral cv
+map SimpleName MethodInvocation NumberLiteral empty
+row StringLiteral MethodInvocation StringLiteral cf
+row StringLiteral MethodInvocation StringLiteral cq
+row StringLiteral MethodInvocation StringLiteral cv
+row StringLiteral MethodInvocation NumberLiteral empty
+row StringLiteral MethodInvocation StringLiteral bar
+cf StringLiteral MethodInvocation StringLiteral cq
+cf StringLiteral MethodInvocation StringLiteral cv
+cf StringLiteral MethodInvocation NumberLiteral empty
+cf StringLiteral MethodInvocation StringLiteral bar
+cq StringLiteral MethodInvocation StringLiteral cv
+cq StringLiteral MethodInvocation NumberLiteral empty
+cq StringLiteral MethodInvocation StringLiteral bar
+cv StringLiteral MethodInvocation NumberLiteral empty
+cv StringLiteral MethodInvocation StringLiteral bar
+empty NumberLiteral MethodInvocation StringLiteral bar
+sorted map SimpleName SimpleType ParameterizedType SimpleType SimpleName key
+sorted map SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+key SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+tree map SimpleName SimpleType ParameterizedType SimpleType SimpleName key
+tree map SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+key SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+pkv SimpleName MethodInvocation SimpleName map
+pkv SimpleName MethodInvocation StringLiteral row
+pkv SimpleName MethodInvocation StringLiteral cf
+pkv SimpleName MethodInvocation StringLiteral cq
+pkv SimpleName MethodInvocation StringLiteral cv
+map SimpleName MethodInvocation StringLiteral row
+map SimpleName MethodInvocation StringLiteral cf
+map SimpleName MethodInvocation StringLiteral cq
+map SimpleName MethodInvocation StringLiteral cv
+map SimpleName MethodInvocation NumberLiteral empty
+row StringLiteral MethodInvocation StringLiteral cf
+row StringLiteral MethodInvocation StringLiteral cq
+row StringLiteral MethodInvocation StringLiteral cv
+row StringLiteral MethodInvocation NumberLiteral empty
+row StringLiteral MethodInvocation StringLiteral foo
+cf StringLiteral MethodInvocation StringLiteral cq
+cf StringLiteral MethodInvocation StringLiteral cv
+cf StringLiteral MethodInvocation NumberLiteral empty
+cf StringLiteral MethodInvocation StringLiteral foo
+cq StringLiteral MethodInvocation StringLiteral cv
+cq StringLiteral MethodInvocation NumberLiteral empty
+cq StringLiteral MethodInvocation StringLiteral foo
+cv StringLiteral MethodInvocation NumberLiteral empty
+cv StringLiteral MethodInvocation StringLiteral foo
+empty NumberLiteral MethodInvocation StringLiteral foo
+pkv SimpleName MethodInvocation SimpleName map
+pkv SimpleName MethodInvocation StringLiteral row
+pkv SimpleName MethodInvocation StringLiteral cf
+pkv SimpleName MethodInvocation StringLiteral cq
+pkv SimpleName MethodInvocation StringLiteral cv
+map SimpleName MethodInvocation StringLiteral row
+map SimpleName MethodInvocation StringLiteral cf
+map SimpleName MethodInvocation StringLiteral cq
+map SimpleName MethodInvocation StringLiteral cv
+map SimpleName MethodInvocation NumberLiteral empty
+row StringLiteral MethodInvocation StringLiteral cf
+row StringLiteral MethodInvocation StringLiteral cq
+row StringLiteral MethodInvocation StringLiteral cv
+row StringLiteral MethodInvocation NumberLiteral empty
+row StringLiteral MethodInvocation StringLiteral bar
+cf StringLiteral MethodInvocation StringLiteral cq
+cf StringLiteral MethodInvocation StringLiteral cv
+cf StringLiteral MethodInvocation NumberLiteral empty
+cf StringLiteral MethodInvocation StringLiteral bar
+cq StringLiteral MethodInvocation StringLiteral cv
+cq StringLiteral MethodInvocation NumberLiteral empty
+cq StringLiteral MethodInvocation StringLiteral bar
+cv StringLiteral MethodInvocation NumberLiteral empty
+cv StringLiteral MethodInvocation StringLiteral bar
+empty NumberLiteral MethodInvocation StringLiteral bar
+sorted map SimpleName SimpleType ParameterizedType SimpleType SimpleName key
+sorted map SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+key SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+tree map SimpleName SimpleType ParameterizedType SimpleType SimpleName key
+tree map SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+key SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+map SimpleName MethodInvocation SimpleName put all
+map SimpleName MethodInvocation SimpleName map
+put all SimpleName MethodInvocation SimpleName map
+map SimpleName MethodInvocation SimpleName put all
+map SimpleName MethodInvocation SimpleName map
+put all SimpleName MethodInvocation SimpleName map
+map SimpleName MethodInvocation SimpleName put all
+map SimpleName MethodInvocation SimpleName map
+put all SimpleName MethodInvocation SimpleName map
+sorted map iterator SimpleName SimpleType ClassInstanceCreation SimpleName map
+source SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName sorted map iterator
+source SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName map
+sorted map iterator SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName source
+whole row iterator SimpleName SimpleType ClassInstanceCreation SimpleName source
+iter SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName whole row iterator
+iter SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName source
+whole row iterator SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName iter
+text SimpleName SimpleType ClassInstanceCreation StringLiteral row
+text SimpleName SimpleType ClassInstanceCreation StringLiteral row
+range SimpleName SimpleType ClassInstanceCreation ClassInstanceCreation StringLiteral row
+range SimpleName SimpleType ClassInstanceCreation BooleanLiteral true
+range SimpleName SimpleType ClassInstanceCreation ClassInstanceCreation StringLiteral row
+range SimpleName SimpleType ClassInstanceCreation BooleanLiteral true
+text SimpleName SimpleType ClassInstanceCreation ClassInstanceCreation BooleanLiteral true
+row StringLiteral ClassInstanceCreation ClassInstanceCreation BooleanLiteral true
+row StringLiteral ClassInstanceCreation ClassInstanceCreation ClassInstanceCreation StringLiteral row
+text SimpleName SimpleType ClassInstanceCreation ClassInstanceCreation BooleanLiteral true
+row StringLiteral ClassInstanceCreation ClassInstanceCreation BooleanLiteral true
+true BooleanLiteral ClassInstanceCreation ClassInstanceCreation SimpleType SimpleName text
+true BooleanLiteral ClassInstanceCreation ClassInstanceCreation StringLiteral row
+true BooleanLiteral ClassInstanceCreation BooleanLiteral true
+text SimpleName SimpleType ClassInstanceCreation ClassInstanceCreation BooleanLiteral true
+row StringLiteral ClassInstanceCreation ClassInstanceCreation BooleanLiteral true
+range SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName range
+range SimpleName VariableDeclarationFragment ClassInstanceCreation ClassInstanceCreation StringLiteral row
+range SimpleName VariableDeclarationFragment ClassInstanceCreation BooleanLiteral true
+range SimpleName VariableDeclarationFragment ClassInstanceCreation ClassInstanceCreation StringLiteral row
+range SimpleName VariableDeclarationFragment ClassInstanceCreation BooleanLiteral true
+range SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName range
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName byte sequence
+iter SimpleName MethodInvocation SimpleName seek
+iter SimpleName MethodInvocation SimpleName range
+iter SimpleName MethodInvocation BooleanLiteral false
+seek SimpleName MethodInvocation SimpleName range
+seek SimpleName MethodInvocation BooleanLiteral false
+range SimpleName MethodInvocation BooleanLiteral false
+iter SimpleName MethodInvocation SimpleName has top
+assert true SimpleName MethodInvocation MethodInvocation SimpleName iter
+assert true SimpleName MethodInvocation MethodInvocation SimpleName has top
+iter SimpleName MethodInvocation SimpleName get top key
+iter SimpleName MethodInvocation SimpleName get top value
+whole row iterator SimpleName MethodInvocation SimpleName decode row
+whole row iterator SimpleName MethodInvocation MethodInvocation SimpleName iter
+whole row iterator SimpleName MethodInvocation MethodInvocation SimpleName get top key
+whole row iterator SimpleName MethodInvocation MethodInvocation SimpleName iter
+whole row iterator SimpleName MethodInvocation MethodInvocation SimpleName get top value
+decode row SimpleName MethodInvocation MethodInvocation SimpleName iter
+decode row SimpleName MethodInvocation MethodInvocation SimpleName get top key
+decode row SimpleName MethodInvocation MethodInvocation SimpleName iter
+decode row SimpleName MethodInvocation MethodInvocation SimpleName get top value
+iter SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName iter
+iter SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get top value
+get top key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName iter
+get top key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get top value
+assert equals SimpleName MethodInvocation SimpleName map
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName whole row iterator
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName decode row
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName iter
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get top key
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName iter
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get top value
+map SimpleName MethodInvocation MethodInvocation SimpleName whole row iterator
+map SimpleName MethodInvocation MethodInvocation SimpleName decode row
+map SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName iter
+map SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get top key
+map SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName iter
+map SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get top value
+iter SimpleName MethodInvocation SimpleName get top key
+range SimpleName MethodInvocation SimpleName get end key
+range SimpleName MethodInvocation SimpleName is end key inclusive
+range SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName iter
+range SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get top key
+range SimpleName SimpleType ClassInstanceCreation BooleanLiteral false
+range SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName range
+range SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get end key
+range SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName range
+range SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName is end key inclusive
+iter SimpleName MethodInvocation ClassInstanceCreation BooleanLiteral false
+get top key SimpleName MethodInvocation ClassInstanceCreation BooleanLiteral false
+iter SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName range
+iter SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get end key
+get top key SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName range
+get top key SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get end key
+iter SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName range
+iter SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName is end key inclusive
+get top key SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName range
+get top key SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName is end key inclusive
+false BooleanLiteral ClassInstanceCreation MethodInvocation SimpleName range
+false BooleanLiteral ClassInstanceCreation MethodInvocation SimpleName get end key
+false BooleanLiteral ClassInstanceCreation MethodInvocation SimpleName range
+false BooleanLiteral ClassInstanceCreation MethodInvocation SimpleName is end key inclusive
+range SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName range
+range SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName is end key inclusive
+get end key SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName range
+get end key SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName is end key inclusive
+range SimpleName Assignment ClassInstanceCreation SimpleType SimpleName range
+range SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName iter
+range SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName get top key
+range SimpleName Assignment ClassInstanceCreation BooleanLiteral false
+range SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName range
+range SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName get end key
+range SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName range
+range SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName is end key inclusive
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName byte sequence
+iter SimpleName MethodInvocation SimpleName seek
+iter SimpleName MethodInvocation SimpleName range
+iter SimpleName MethodInvocation BooleanLiteral false
+seek SimpleName MethodInvocation SimpleName range
+seek SimpleName MethodInvocation BooleanLiteral false
+range SimpleName MethodInvocation BooleanLiteral false
+iter SimpleName MethodInvocation SimpleName has top
+assert true SimpleName MethodInvocation MethodInvocation SimpleName iter
+assert true SimpleName MethodInvocation MethodInvocation SimpleName has top
+iter SimpleName MethodInvocation SimpleName get top key
+iter SimpleName MethodInvocation SimpleName get top value
+whole row iterator SimpleName MethodInvocation SimpleName decode row
+whole row iterator SimpleName MethodInvocation MethodInvocation SimpleName iter
+whole row iterator SimpleName MethodInvocation MethodInvocation SimpleName get top key
+whole row iterator SimpleName MethodInvocation MethodInvocation SimpleName iter
+whole row iterator SimpleName MethodInvocation MethodInvocation SimpleName get top value
+decode row SimpleName MethodInvocation MethodInvocation SimpleName iter
+decode row SimpleName MethodInvocation MethodInvocation SimpleName get top key
+decode row SimpleName MethodInvocation MethodInvocation SimpleName iter
+decode row SimpleName MethodInvocation MethodInvocation SimpleName get top value
+iter SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName iter
+iter SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get top value
+get top key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName iter
+get top key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get top value
+assert equals SimpleName MethodInvocation SimpleName map
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName whole row iterator
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName decode row
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName iter
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get top key
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName iter
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get top value
+map SimpleName MethodInvocation MethodInvocation SimpleName whole row iterator
+map SimpleName MethodInvocation MethodInvocation SimpleName decode row
+map SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName iter
+map SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get top key
+map SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName iter
+map SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get top value
+iter SimpleName MethodInvocation SimpleName next
+iter SimpleName MethodInvocation SimpleName has top
+assert false SimpleName MethodInvocation MethodInvocation SimpleName iter
+assert false SimpleName MethodInvocation MethodInvocation SimpleName has top
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test continue
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName test continue
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+test continue SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test continue
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test continue
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

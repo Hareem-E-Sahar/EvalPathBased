@@ -1,0 +1,59 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName file name
+get file from resources SimpleName MethodInvocation SimpleName file name
+file path SimpleName VariableDeclarationFragment MethodInvocation SimpleName get file from resources
+file path SimpleName VariableDeclarationFragment MethodInvocation SimpleName file name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName file path
+file SimpleName SimpleType ClassInstanceCreation SimpleName file path
+f SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName file
+f SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName file path
+file SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName f
+file utils SimpleName MethodInvocation SimpleName read file to string
+file utils SimpleName MethodInvocation SimpleName f
+read file to string SimpleName MethodInvocation SimpleName f
+s SimpleName VariableDeclarationFragment MethodInvocation SimpleName file utils
+s SimpleName VariableDeclarationFragment MethodInvocation SimpleName read file to string
+s SimpleName VariableDeclarationFragment MethodInvocation SimpleName f
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName s
+string utils SimpleName MethodInvocation SimpleName is empty
+string utils SimpleName MethodInvocation SimpleName s
+is empty SimpleName MethodInvocation SimpleName s
+assert false SimpleName MethodInvocation MethodInvocation SimpleName string utils
+assert false SimpleName MethodInvocation MethodInvocation SimpleName is empty
+assert false SimpleName MethodInvocation MethodInvocation SimpleName s
+assert false SimpleName MethodInvocation StringLiteral model file read correctly from resources
+string utils SimpleName MethodInvocation MethodInvocation StringLiteral model file read correctly from resources
+is empty SimpleName MethodInvocation MethodInvocation StringLiteral model file read correctly from resources
+s SimpleName MethodInvocation MethodInvocation StringLiteral model file read correctly from resources
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName get model json from resources
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName file name
+public Modifier MethodDeclaration SimpleType SimpleName io exception
+static Modifier MethodDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SimpleName get model json from resources
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName file name
+static Modifier MethodDeclaration SimpleType SimpleName io exception
+static Modifier MethodDeclaration Block ReturnStatement SimpleName s
+string SimpleName SimpleType MethodDeclaration SimpleName get model json from resources
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName file name
+string SimpleName SimpleType MethodDeclaration SimpleType SimpleName io exception
+get model json from resources SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get model json from resources SimpleName MethodDeclaration SingleVariableDeclaration SimpleName file name
+get model json from resources SimpleName MethodDeclaration SimpleType SimpleName io exception
+get model json from resources SimpleName MethodDeclaration Block ReturnStatement SimpleName s
+file name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName get model json from resources
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName file name
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get model json from resources
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName file name
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

@@ -1,0 +1,11 @@
+visible for testing SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName entity graph discovery
+visible for testing SimpleName MarkerAnnotation MethodDeclaration SimpleName get graph discoverer
+entity graph discovery SimpleName SimpleType MethodDeclaration SimpleName get graph discoverer
+get graph discoverer SimpleName MethodDeclaration Block ReturnStatement SimpleName graph discoverer
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName visible for testing
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName entity graph discovery
+public Modifier TypeDeclaration MethodDeclaration SimpleName get graph discoverer
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName visible for testing
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName entity graph discovery
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get graph discoverer

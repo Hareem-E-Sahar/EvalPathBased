@@ -1,0 +1,223 @@
+conf SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName configuration copy
+configuration copy SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName conf
+iterator scopeminc QualifiedName MethodInvocation SimpleName name
+propertytable iterator prefix QualifiedName InfixExpression MethodInvocation QualifiedName iterator scopeminc
+propertytable iterator prefix QualifiedName InfixExpression MethodInvocation SimpleName name
+propertytable iterator prefix QualifiedName InfixExpression StringLiteral filter
+iterator scopeminc QualifiedName MethodInvocation InfixExpression StringLiteral filter
+name SimpleName MethodInvocation InfixExpression StringLiteral filter
+age off filter SimpleName SimpleType TypeLiteral MethodInvocation SimpleName get name
+empty StringLiteral InfixExpression MethodInvocation SimpleName get name
+conf SimpleName MethodInvocation SimpleName set
+conf SimpleName MethodInvocation InfixExpression QualifiedName propertytable iterator prefix
+conf SimpleName MethodInvocation InfixExpression MethodInvocation QualifiedName iterator scopeminc
+conf SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName name
+conf SimpleName MethodInvocation InfixExpression StringLiteral filter
+conf SimpleName MethodInvocation InfixExpression StringLiteral empty
+conf SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get name
+set SimpleName MethodInvocation InfixExpression QualifiedName propertytable iterator prefix
+set SimpleName MethodInvocation InfixExpression MethodInvocation QualifiedName iterator scopeminc
+set SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName name
+set SimpleName MethodInvocation InfixExpression StringLiteral filter
+set SimpleName MethodInvocation InfixExpression StringLiteral empty
+set SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get name
+propertytable iterator prefix QualifiedName InfixExpression MethodInvocation InfixExpression StringLiteral empty
+filter StringLiteral InfixExpression MethodInvocation InfixExpression StringLiteral empty
+iterator scopeminc QualifiedName MethodInvocation SimpleName name
+propertytable iterator prefix QualifiedName InfixExpression MethodInvocation QualifiedName iterator scopeminc
+propertytable iterator prefix QualifiedName InfixExpression MethodInvocation SimpleName name
+propertytable iterator prefix QualifiedName InfixExpression StringLiteral filteroptttl
+iterator scopeminc QualifiedName MethodInvocation InfixExpression StringLiteral filteroptttl
+name SimpleName MethodInvocation InfixExpression StringLiteral filteroptttl
+conf SimpleName MethodInvocation SimpleName set
+conf SimpleName MethodInvocation InfixExpression QualifiedName propertytable iterator prefix
+conf SimpleName MethodInvocation InfixExpression MethodInvocation QualifiedName iterator scopeminc
+conf SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName name
+conf SimpleName MethodInvocation InfixExpression StringLiteral filteroptttl
+conf SimpleName MethodInvocation StringLiteral empty
+set SimpleName MethodInvocation InfixExpression QualifiedName propertytable iterator prefix
+set SimpleName MethodInvocation InfixExpression MethodInvocation QualifiedName iterator scopeminc
+set SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName name
+set SimpleName MethodInvocation InfixExpression StringLiteral filteroptttl
+set SimpleName MethodInvocation StringLiteral empty
+propertytable iterator prefix QualifiedName InfixExpression MethodInvocation StringLiteral empty
+iterator scopeminc QualifiedName MethodInvocation InfixExpression MethodInvocation StringLiteral empty
+name SimpleName MethodInvocation InfixExpression MethodInvocation StringLiteral empty
+filteroptttl StringLiteral InfixExpression MethodInvocation StringLiteral empty
+iterator scopeminc QualifiedName MethodInvocation SimpleName name
+propertytable iterator prefix QualifiedName InfixExpression MethodInvocation QualifiedName iterator scopeminc
+propertytable iterator prefix QualifiedName InfixExpression MethodInvocation SimpleName name
+propertytable iterator prefix QualifiedName InfixExpression StringLiteral filteroptcurrent time
+iterator scopeminc QualifiedName MethodInvocation InfixExpression StringLiteral filteroptcurrent time
+name SimpleName MethodInvocation InfixExpression StringLiteral filteroptcurrent time
+conf SimpleName MethodInvocation SimpleName set
+conf SimpleName MethodInvocation InfixExpression QualifiedName propertytable iterator prefix
+conf SimpleName MethodInvocation InfixExpression MethodInvocation QualifiedName iterator scopeminc
+conf SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName name
+conf SimpleName MethodInvocation InfixExpression StringLiteral filteroptcurrent time
+conf SimpleName MethodInvocation StringLiteral empty
+set SimpleName MethodInvocation InfixExpression QualifiedName propertytable iterator prefix
+set SimpleName MethodInvocation InfixExpression MethodInvocation QualifiedName iterator scopeminc
+set SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName name
+set SimpleName MethodInvocation InfixExpression StringLiteral filteroptcurrent time
+set SimpleName MethodInvocation StringLiteral empty
+propertytable iterator prefix QualifiedName InfixExpression MethodInvocation StringLiteral empty
+iterator scopeminc QualifiedName MethodInvocation InfixExpression MethodInvocation StringLiteral empty
+name SimpleName MethodInvocation InfixExpression MethodInvocation StringLiteral empty
+filteroptcurrent time StringLiteral InfixExpression MethodInvocation StringLiteral empty
+tree map SimpleName SimpleType ParameterizedType SimpleType SimpleName key
+tree map SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+key SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+tree map SimpleName SimpleType ParameterizedType SimpleType SimpleName key
+tree map SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+key SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+multi iterator test SimpleName MethodInvocation SimpleName nkv
+multi iterator test SimpleName MethodInvocation SimpleName tm
+multi iterator test SimpleName MethodInvocation NumberLiteral empty
+multi iterator test SimpleName MethodInvocation NumberLiteral empty
+multi iterator test SimpleName MethodInvocation BooleanLiteral false
+nkv SimpleName MethodInvocation SimpleName tm
+nkv SimpleName MethodInvocation NumberLiteral empty
+nkv SimpleName MethodInvocation NumberLiteral empty
+nkv SimpleName MethodInvocation BooleanLiteral false
+nkv SimpleName MethodInvocation StringLiteral empty
+tm SimpleName MethodInvocation NumberLiteral empty
+tm SimpleName MethodInvocation NumberLiteral empty
+tm SimpleName MethodInvocation BooleanLiteral false
+tm SimpleName MethodInvocation StringLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation BooleanLiteral false
+empty NumberLiteral MethodInvocation StringLiteral empty
+empty NumberLiteral MethodInvocation BooleanLiteral false
+empty NumberLiteral MethodInvocation StringLiteral empty
+false BooleanLiteral MethodInvocation StringLiteral empty
+multi iterator test SimpleName MethodInvocation SimpleName nkv
+multi iterator test SimpleName MethodInvocation SimpleName tm
+multi iterator test SimpleName MethodInvocation NumberLiteral empty
+multi iterator test SimpleName MethodInvocation NumberLiteral empty
+multi iterator test SimpleName MethodInvocation BooleanLiteral false
+nkv SimpleName MethodInvocation SimpleName tm
+nkv SimpleName MethodInvocation NumberLiteral empty
+nkv SimpleName MethodInvocation NumberLiteral empty
+nkv SimpleName MethodInvocation BooleanLiteral false
+nkv SimpleName MethodInvocation StringLiteral empty
+tm SimpleName MethodInvocation NumberLiteral empty
+tm SimpleName MethodInvocation NumberLiteral empty
+tm SimpleName MethodInvocation BooleanLiteral false
+tm SimpleName MethodInvocation StringLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation BooleanLiteral false
+empty NumberLiteral MethodInvocation StringLiteral empty
+empty NumberLiteral MethodInvocation BooleanLiteral false
+empty NumberLiteral MethodInvocation StringLiteral empty
+false BooleanLiteral MethodInvocation StringLiteral empty
+sorted map iterator SimpleName SimpleType ClassInstanceCreation SimpleName tm
+source SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName sorted map iterator
+source SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName tm
+sorted map iterator SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName source
+sorted key value iterator SimpleName SimpleType ParameterizedType SimpleType SimpleName key
+sorted key value iterator SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+key SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+text SimpleName SimpleType ClassInstanceCreation StringLiteral tab
+key extent SimpleName SimpleType ClassInstanceCreation ClassInstanceCreation StringLiteral tab
+default iterator environment SimpleName SimpleType ClassInstanceCreation SimpleName conf
+iterator util SimpleName MethodInvocation SimpleName load iterators
+iterator util SimpleName MethodInvocation QualifiedName iterator scopeminc
+iterator util SimpleName MethodInvocation SimpleName source
+iterator util SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName key extent
+iterator util SimpleName MethodInvocation ClassInstanceCreation ClassInstanceCreation StringLiteral tab
+iterator util SimpleName MethodInvocation SimpleName conf
+load iterators SimpleName MethodInvocation QualifiedName iterator scopeminc
+load iterators SimpleName MethodInvocation SimpleName source
+load iterators SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName key extent
+load iterators SimpleName MethodInvocation ClassInstanceCreation ClassInstanceCreation StringLiteral tab
+load iterators SimpleName MethodInvocation SimpleName conf
+load iterators SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName default iterator environment
+load iterators SimpleName MethodInvocation ClassInstanceCreation SimpleName conf
+iterator scopeminc QualifiedName MethodInvocation SimpleName source
+iterator scopeminc QualifiedName MethodInvocation ClassInstanceCreation SimpleType SimpleName key extent
+iterator scopeminc QualifiedName MethodInvocation ClassInstanceCreation ClassInstanceCreation StringLiteral tab
+iterator scopeminc QualifiedName MethodInvocation SimpleName conf
+iterator scopeminc QualifiedName MethodInvocation ClassInstanceCreation SimpleType SimpleName default iterator environment
+iterator scopeminc QualifiedName MethodInvocation ClassInstanceCreation SimpleName conf
+source SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName key extent
+source SimpleName MethodInvocation ClassInstanceCreation ClassInstanceCreation StringLiteral tab
+source SimpleName MethodInvocation SimpleName conf
+source SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName default iterator environment
+source SimpleName MethodInvocation ClassInstanceCreation SimpleName conf
+key extent SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName conf
+tab StringLiteral ClassInstanceCreation ClassInstanceCreation MethodInvocation SimpleName conf
+conf SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName default iterator environment
+conf SimpleName MethodInvocation ClassInstanceCreation SimpleName conf
+iter SimpleName VariableDeclarationFragment MethodInvocation SimpleName iterator util
+iter SimpleName VariableDeclarationFragment MethodInvocation SimpleName load iterators
+iter SimpleName VariableDeclarationFragment MethodInvocation QualifiedName iterator scopeminc
+iter SimpleName VariableDeclarationFragment MethodInvocation SimpleName source
+iter SimpleName VariableDeclarationFragment MethodInvocation SimpleName conf
+iter SimpleName VariableDeclarationFragment MethodInvocation ClassInstanceCreation SimpleName conf
+iter SimpleName MethodInvocation SimpleName seek
+iter SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName range
+iter SimpleName MethodInvocation SimpleName empty col fams
+iter SimpleName MethodInvocation BooleanLiteral false
+seek SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName range
+seek SimpleName MethodInvocation SimpleName empty col fams
+seek SimpleName MethodInvocation BooleanLiteral false
+range SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName empty col fams
+range SimpleName SimpleType ClassInstanceCreation MethodInvocation BooleanLiteral false
+empty col fams SimpleName MethodInvocation BooleanLiteral false
+iter SimpleName MethodInvocation SimpleName has top
+assert true SimpleName MethodInvocation MethodInvocation SimpleName iter
+assert true SimpleName MethodInvocation MethodInvocation SimpleName has top
+iter SimpleName MethodInvocation SimpleName get top key
+multi iterator test SimpleName MethodInvocation SimpleName nk
+multi iterator test SimpleName MethodInvocation NumberLiteral empty
+multi iterator test SimpleName MethodInvocation NumberLiteral empty
+nk SimpleName MethodInvocation NumberLiteral empty
+nk SimpleName MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+iter SimpleName MethodInvocation MethodInvocation SimpleName equals
+get top key SimpleName MethodInvocation MethodInvocation SimpleName equals
+iter SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName multi iterator test
+iter SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName nk
+iter SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+iter SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+get top key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName multi iterator test
+get top key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName nk
+get top key SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+get top key SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+equals SimpleName MethodInvocation MethodInvocation SimpleName multi iterator test
+equals SimpleName MethodInvocation MethodInvocation SimpleName nk
+equals SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+equals SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName iter
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get top key
+assert true SimpleName MethodInvocation MethodInvocation SimpleName equals
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName multi iterator test
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName nk
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+iter SimpleName MethodInvocation SimpleName next
+iter SimpleName MethodInvocation SimpleName has top
+assert false SimpleName MethodInvocation MethodInvocation SimpleName iter
+assert false SimpleName MethodInvocation MethodInvocation SimpleName has top
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName io exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test
+public Modifier MethodDeclaration SimpleType SimpleName io exception
+void PrimitiveType MethodDeclaration SimpleName test
+void PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+test SimpleName MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

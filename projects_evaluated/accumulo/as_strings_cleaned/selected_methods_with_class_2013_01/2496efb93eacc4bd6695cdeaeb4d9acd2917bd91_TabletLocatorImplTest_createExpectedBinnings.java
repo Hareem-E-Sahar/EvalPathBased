@@ -1,0 +1,105 @@
+suppress warnings SimpleName SingleMemberAnnotation StringLiteral unchecked
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName range
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName key extent
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+object SimpleName SimpleType SingleVariableDeclaration SimpleName data
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName range
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName key extent
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName range
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName key extent
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+i SimpleName InfixExpression QualifiedName datalength
+i SimpleName Assignment NumberLiteral empty
+data SimpleName ArrayAccess SimpleName i
+string SimpleName SimpleType CastExpression ArrayAccess SimpleName data
+string SimpleName SimpleType CastExpression ArrayAccess SimpleName i
+loc SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName string
+loc SimpleName VariableDeclarationFragment CastExpression ArrayAccess SimpleName data
+loc SimpleName VariableDeclarationFragment CastExpression ArrayAccess SimpleName i
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName loc
+i SimpleName InfixExpression NumberLiteral empty
+data SimpleName ArrayAccess InfixExpression SimpleName i
+data SimpleName ArrayAccess InfixExpression NumberLiteral empty
+bin data SimpleName VariableDeclarationFragment CastExpression ArrayAccess SimpleName data
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName range
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName key extent
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName range
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName key extent
+exp binned ranges SimpleName MethodInvocation SimpleName put
+exp binned ranges SimpleName MethodInvocation SimpleName loc
+exp binned ranges SimpleName MethodInvocation SimpleName binned ke
+put SimpleName MethodInvocation SimpleName loc
+put SimpleName MethodInvocation SimpleName binned ke
+loc SimpleName MethodInvocation SimpleName binned ke
+j SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName j
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+j SimpleName InfixExpression QualifiedName bin datalength
+j SimpleName Assignment NumberLiteral empty
+bin data SimpleName ArrayAccess SimpleName j
+key extent SimpleName SimpleType CastExpression ArrayAccess SimpleName bin data
+key extent SimpleName SimpleType CastExpression ArrayAccess SimpleName j
+ke SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName key extent
+ke SimpleName VariableDeclarationFragment CastExpression ArrayAccess SimpleName bin data
+ke SimpleName VariableDeclarationFragment CastExpression ArrayAccess SimpleName j
+key extent SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ke
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName range
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName range
+j SimpleName InfixExpression NumberLiteral empty
+bin data SimpleName ArrayAccess InfixExpression SimpleName j
+bin data SimpleName ArrayAccess InfixExpression NumberLiteral empty
+ranges SimpleName VariableDeclarationFragment CastExpression ArrayAccess SimpleName bin data
+binned ke SimpleName MethodInvocation SimpleName put
+binned ke SimpleName MethodInvocation SimpleName ke
+binned ke SimpleName MethodInvocation SimpleName ranges
+put SimpleName MethodInvocation SimpleName ke
+put SimpleName MethodInvocation SimpleName ranges
+ke SimpleName MethodInvocation SimpleName ranges
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName j
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression QualifiedName bin datalength
+int PrimitiveType VariableDeclarationExpression ForStatement Assignment SimpleName j
+int PrimitiveType VariableDeclarationExpression ForStatement Assignment NumberLiteral empty
+j SimpleName InfixExpression ForStatement Assignment SimpleName j
+j SimpleName InfixExpression ForStatement Assignment NumberLiteral empty
+bin datalength QualifiedName InfixExpression ForStatement Assignment SimpleName j
+bin datalength QualifiedName InfixExpression ForStatement Assignment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression QualifiedName datalength
+int PrimitiveType VariableDeclarationExpression ForStatement Assignment SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement Assignment NumberLiteral empty
+i SimpleName InfixExpression ForStatement Assignment SimpleName i
+i SimpleName InfixExpression ForStatement Assignment NumberLiteral empty
+datalength QualifiedName InfixExpression ForStatement Assignment SimpleName i
+datalength QualifiedName InfixExpression ForStatement Assignment NumberLiteral empty
+suppress warnings SimpleName SingleMemberAnnotation MethodDeclaration Modifier static
+unchecked StringLiteral SingleMemberAnnotation MethodDeclaration Modifier static
+suppress warnings SimpleName SingleMemberAnnotation MethodDeclaration SimpleName create expected binnings
+unchecked StringLiteral SingleMemberAnnotation MethodDeclaration SimpleName create expected binnings
+suppress warnings SimpleName SingleMemberAnnotation MethodDeclaration SingleVariableDeclaration SimpleName data
+unchecked StringLiteral SingleMemberAnnotation MethodDeclaration SingleVariableDeclaration SimpleName data
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName map
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+static Modifier MethodDeclaration SimpleName create expected binnings
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName data
+static Modifier MethodDeclaration Block ReturnStatement SimpleName exp binned ranges
+map SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName create expected binnings
+string SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName create expected binnings
+create expected binnings SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+create expected binnings SimpleName MethodDeclaration SingleVariableDeclaration SimpleName data
+create expected binnings SimpleName MethodDeclaration Block ReturnStatement SimpleName exp binned ranges
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration SingleMemberAnnotation SimpleName suppress warnings
+public Modifier TypeDeclaration MethodDeclaration SingleMemberAnnotation StringLiteral unchecked
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleName create expected binnings
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName data
+test SimpleName TypeDeclaration MethodDeclaration SingleMemberAnnotation SimpleName suppress warnings
+test SimpleName TypeDeclaration MethodDeclaration SingleMemberAnnotation StringLiteral unchecked
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create expected binnings
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName data

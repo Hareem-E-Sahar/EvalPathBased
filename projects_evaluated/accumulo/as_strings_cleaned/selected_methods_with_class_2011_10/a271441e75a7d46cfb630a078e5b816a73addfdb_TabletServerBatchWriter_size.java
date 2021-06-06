@@ -1,0 +1,23 @@
+result SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName result
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName mutation
+list SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName per table
+mutation SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName per table
+mutations SimpleName MethodInvocation SimpleName values
+per table SimpleName MethodInvocation SimpleName size
+result SimpleName Assignment MethodInvocation SimpleName per table
+result SimpleName Assignment MethodInvocation SimpleName size
+per table SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName mutations
+per table SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName values
+int PrimitiveType VariableDeclarationStatement Block ReturnStatement SimpleName result
+int PrimitiveType MethodDeclaration SimpleName size
+int PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType MethodDeclaration Block ReturnStatement SimpleName result
+size SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+size SimpleName MethodDeclaration Block ReturnStatement SimpleName result
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SimpleName size
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SimpleName size

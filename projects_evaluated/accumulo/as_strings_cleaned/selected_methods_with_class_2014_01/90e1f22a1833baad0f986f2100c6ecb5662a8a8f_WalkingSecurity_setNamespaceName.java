@@ -1,0 +1,25 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName ns name
+state SimpleName MethodInvocation SimpleName set
+state SimpleName MethodInvocation SimpleName namespace name
+state SimpleName MethodInvocation SimpleName ns name
+set SimpleName MethodInvocation SimpleName namespace name
+set SimpleName MethodInvocation SimpleName ns name
+namespace name SimpleName MethodInvocation SimpleName ns name
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set namespace name
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName ns name
+void PrimitiveType MethodDeclaration SimpleName set namespace name
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName ns name
+set namespace name SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+set namespace name SimpleName MethodDeclaration SingleVariableDeclaration SimpleName ns name
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set namespace name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ns name
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set namespace name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ns name

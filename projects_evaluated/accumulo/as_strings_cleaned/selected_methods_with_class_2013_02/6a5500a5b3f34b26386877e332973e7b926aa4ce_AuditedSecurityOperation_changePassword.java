@@ -1,0 +1,75 @@
+credential SimpleName SimpleType SingleVariableDeclaration SimpleName credentials
+credential SimpleName SimpleType SingleVariableDeclaration SimpleName new info
+change password SimpleName SuperMethodInvocation SimpleName credentials
+change password SimpleName SuperMethodInvocation SimpleName new info
+credentials SimpleName SuperMethodInvocation SimpleName new info
+new info SimpleName MethodInvocation SimpleName get principal
+audit SimpleName MethodInvocation SimpleName credentials
+audit SimpleName MethodInvocation StringLiteral changed password for s
+audit SimpleName MethodInvocation MethodInvocation SimpleName new info
+audit SimpleName MethodInvocation MethodInvocation SimpleName get principal
+credentials SimpleName MethodInvocation StringLiteral changed password for s
+credentials SimpleName MethodInvocation MethodInvocation SimpleName new info
+credentials SimpleName MethodInvocation MethodInvocation SimpleName get principal
+changed password for s StringLiteral MethodInvocation MethodInvocation SimpleName new info
+changed password for s StringLiteral MethodInvocation MethodInvocation SimpleName get principal
+thrift security exception SimpleName SimpleType SingleVariableDeclaration SimpleName ex
+new info SimpleName MethodInvocation SimpleName get principal
+audit SimpleName MethodInvocation SimpleName credentials
+audit SimpleName MethodInvocation SimpleName ex
+audit SimpleName MethodInvocation StringLiteral changing password for s
+audit SimpleName MethodInvocation MethodInvocation SimpleName new info
+audit SimpleName MethodInvocation MethodInvocation SimpleName get principal
+credentials SimpleName MethodInvocation SimpleName ex
+credentials SimpleName MethodInvocation StringLiteral changing password for s
+credentials SimpleName MethodInvocation MethodInvocation SimpleName new info
+credentials SimpleName MethodInvocation MethodInvocation SimpleName get principal
+ex SimpleName MethodInvocation StringLiteral changing password for s
+ex SimpleName MethodInvocation MethodInvocation SimpleName new info
+ex SimpleName MethodInvocation MethodInvocation SimpleName get principal
+changing password for s StringLiteral MethodInvocation MethodInvocation SimpleName new info
+changing password for s StringLiteral MethodInvocation MethodInvocation SimpleName get principal
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation SimpleName ex
+debug SimpleName MethodInvocation SimpleName ex
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName change password
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName credentials
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName new info
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName change password
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName credential
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName credentials
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName credential
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName new info
+public Modifier MethodDeclaration SimpleType SimpleName thrift security exception
+void PrimitiveType MethodDeclaration SimpleName change password
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName credential
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName credentials
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName credential
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName new info
+void PrimitiveType MethodDeclaration SimpleType SimpleName thrift security exception
+change password SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName credential
+change password SimpleName MethodDeclaration SingleVariableDeclaration SimpleName credentials
+change password SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName credential
+change password SimpleName MethodDeclaration SingleVariableDeclaration SimpleName new info
+change password SimpleName MethodDeclaration SimpleType SimpleName thrift security exception
+credentials SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new info
+credentials SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName thrift security exception
+new info SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName thrift security exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName change password
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName credentials
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new info
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName thrift security exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName change password
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName credentials
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new info
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName thrift security exception

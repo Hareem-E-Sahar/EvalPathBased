@@ -1,0 +1,176 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName types dir name
+type system SimpleName SimpleType SingleVariableDeclaration SimpleName type system
+metadata service SimpleName SimpleType SingleVariableDeclaration SimpleName metadata service
+file SimpleName SimpleType ClassInstanceCreation SimpleName types dir name
+types dir SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName file
+types dir SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName types dir name
+file SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName types dir
+types dir SimpleName MethodInvocation SimpleName exists
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation StringLiteral no types directory {} found - not registering any reserved types
+log SimpleName MethodInvocation SimpleName types dir name
+info SimpleName MethodInvocation StringLiteral no types directory {} found - not registering any reserved types
+info SimpleName MethodInvocation SimpleName types dir name
+no types directory {} found - not registering any reserved types StringLiteral MethodInvocation SimpleName types dir name
+types dir SimpleName MethodInvocation SimpleName list files
+type def files SimpleName VariableDeclarationFragment MethodInvocation SimpleName types dir
+type def files SimpleName VariableDeclarationFragment MethodInvocation SimpleName list files
+comparator SimpleName SimpleType ParameterizedType SimpleType SimpleName file
+file SimpleName SimpleType SingleVariableDeclaration SimpleName f
+file SimpleName SimpleType SingleVariableDeclaration SimpleName f
+f SimpleName MethodInvocation SimpleName last modified
+long SimpleName MethodInvocation SimpleName value of
+long SimpleName MethodInvocation MethodInvocation SimpleName f
+long SimpleName MethodInvocation MethodInvocation SimpleName last modified
+value of SimpleName MethodInvocation MethodInvocation SimpleName f
+value of SimpleName MethodInvocation MethodInvocation SimpleName last modified
+f SimpleName MethodInvocation SimpleName last modified
+long SimpleName MethodInvocation MethodInvocation SimpleName compare to
+value of SimpleName MethodInvocation MethodInvocation SimpleName compare to
+f SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName compare to
+last modified SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName compare to
+long SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName f
+long SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName last modified
+value of SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName f
+value of SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName last modified
+compare to SimpleName MethodInvocation MethodInvocation SimpleName f
+compare to SimpleName MethodInvocation MethodInvocation SimpleName last modified
+public Modifier MethodDeclaration PrimitiveType int
+public Modifier MethodDeclaration SimpleName compare
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName file
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName f
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName file
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName f
+int PrimitiveType MethodDeclaration SimpleName compare
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName file
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName f
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName file
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName f
+compare SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName file
+compare SimpleName MethodDeclaration SingleVariableDeclaration SimpleName f
+compare SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName file
+compare SimpleName MethodDeclaration SingleVariableDeclaration SimpleName f
+f SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName f
+arrays SimpleName MethodInvocation SimpleName sort
+arrays SimpleName MethodInvocation SimpleName type def files
+sort SimpleName MethodInvocation SimpleName type def files
+file SimpleName SimpleType SingleVariableDeclaration SimpleName type def file
+type def file SimpleName MethodInvocation SimpleName to path
+files SimpleName MethodInvocation SimpleName read all bytes
+files SimpleName MethodInvocation MethodInvocation SimpleName type def file
+files SimpleName MethodInvocation MethodInvocation SimpleName to path
+read all bytes SimpleName MethodInvocation MethodInvocation SimpleName type def file
+read all bytes SimpleName MethodInvocation MethodInvocation SimpleName to path
+string SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName files
+string SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName read all bytes
+string SimpleName SimpleType ClassInstanceCreation QualifiedName standard charsetsutf
+files SimpleName MethodInvocation ClassInstanceCreation QualifiedName standard charsetsutf
+read all bytes SimpleName MethodInvocation ClassInstanceCreation QualifiedName standard charsetsutf
+type def file SimpleName MethodInvocation MethodInvocation ClassInstanceCreation QualifiedName standard charsetsutf
+to path SimpleName MethodInvocation MethodInvocation ClassInstanceCreation QualifiedName standard charsetsutf
+type def json SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName string
+type def json SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName files
+type def json SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName read all bytes
+type def json SimpleName VariableDeclarationFragment ClassInstanceCreation QualifiedName standard charsetsutf
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName type def json
+type def file SimpleName MethodInvocation SimpleName get absolute path
+register type SimpleName MethodInvocation SimpleName type system
+register type SimpleName MethodInvocation SimpleName metadata service
+register type SimpleName MethodInvocation MethodInvocation SimpleName type def file
+register type SimpleName MethodInvocation MethodInvocation SimpleName get absolute path
+register type SimpleName MethodInvocation SimpleName type def json
+type system SimpleName MethodInvocation SimpleName metadata service
+type system SimpleName MethodInvocation MethodInvocation SimpleName type def file
+type system SimpleName MethodInvocation MethodInvocation SimpleName get absolute path
+type system SimpleName MethodInvocation SimpleName type def json
+metadata service SimpleName MethodInvocation MethodInvocation SimpleName type def file
+metadata service SimpleName MethodInvocation MethodInvocation SimpleName get absolute path
+metadata service SimpleName MethodInvocation SimpleName type def json
+type def file SimpleName MethodInvocation MethodInvocation SimpleName type def json
+get absolute path SimpleName MethodInvocation MethodInvocation SimpleName type def json
+io exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+type def file SimpleName MethodInvocation SimpleName get absolute path
+error while registering types in file StringLiteral InfixExpression MethodInvocation SimpleName type def file
+error while registering types in file StringLiteral InfixExpression MethodInvocation SimpleName get absolute path
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation InfixExpression StringLiteral error while registering types in file
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName type def file
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get absolute path
+log SimpleName MethodInvocation SimpleName e
+error SimpleName MethodInvocation InfixExpression StringLiteral error while registering types in file
+error SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName type def file
+error SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get absolute path
+error SimpleName MethodInvocation SimpleName e
+error while registering types in file StringLiteral InfixExpression MethodInvocation SimpleName e
+type def file SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName e
+get absolute path SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName e
+atlas exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+type def file SimpleName MethodInvocation SimpleName get absolute path
+error while registering types in file StringLiteral InfixExpression MethodInvocation SimpleName type def file
+error while registering types in file StringLiteral InfixExpression MethodInvocation SimpleName get absolute path
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation InfixExpression StringLiteral error while registering types in file
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName type def file
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get absolute path
+log SimpleName MethodInvocation SimpleName e
+error SimpleName MethodInvocation InfixExpression StringLiteral error while registering types in file
+error SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName type def file
+error SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get absolute path
+error SimpleName MethodInvocation SimpleName e
+error while registering types in file StringLiteral InfixExpression MethodInvocation SimpleName e
+type def file SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName e
+get absolute path SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName e
+file SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName type def files
+type def file SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName type def files
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName register types
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName types dir name
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName type system
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName register types
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName types dir name
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName type system
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName type system
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName metadata service
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName metadata service
+void PrimitiveType MethodDeclaration SimpleName register types
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName types dir name
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName type system
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName type system
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName metadata service
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName metadata service
+void PrimitiveType MethodDeclaration SimpleType SimpleName atlas exception
+register types SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+register types SimpleName MethodDeclaration SingleVariableDeclaration SimpleName types dir name
+register types SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName type system
+register types SimpleName MethodDeclaration SingleVariableDeclaration SimpleName type system
+register types SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName metadata service
+register types SimpleName MethodDeclaration SingleVariableDeclaration SimpleName metadata service
+register types SimpleName MethodDeclaration SimpleType SimpleName atlas exception
+register types SimpleName MethodDeclaration Block EnhancedForStatement SimpleName type def files
+types dir name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type system
+types dir name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName metadata service
+types dir name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+type system SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName metadata service
+type system SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+metadata service SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName register types
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName types dir name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type system
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName metadata service
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName register types
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName types dir name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type system
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName metadata service
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception

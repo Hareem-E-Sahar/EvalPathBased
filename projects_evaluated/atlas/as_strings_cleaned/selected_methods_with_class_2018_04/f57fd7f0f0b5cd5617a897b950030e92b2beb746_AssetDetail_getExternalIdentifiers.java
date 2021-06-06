@@ -1,0 +1,12 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName external identifier
+array list SimpleName SimpleType ParameterizedType ClassInstanceCreation SimpleName external identifiers
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName external identifier
+public Modifier MethodDeclaration SimpleName get external identifiers
+list SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get external identifiers
+external identifier SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get external identifiers
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName get external identifiers
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get external identifiers

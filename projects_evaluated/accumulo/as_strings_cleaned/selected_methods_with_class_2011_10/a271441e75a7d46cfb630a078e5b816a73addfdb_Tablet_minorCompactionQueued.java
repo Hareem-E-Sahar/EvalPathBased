@@ -1,0 +1,13 @@
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName minor compaction queued
+public Modifier MethodDeclaration Block ReturnStatement SimpleName minor compaction waiting to start
+boolean PrimitiveType MethodDeclaration SimpleName minor compaction queued
+boolean PrimitiveType MethodDeclaration Block ReturnStatement SimpleName minor compaction waiting to start
+minor compaction queued SimpleName MethodDeclaration Block ReturnStatement SimpleName minor compaction waiting to start
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName minor compaction queued
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName minor compaction queued

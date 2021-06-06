@@ -1,0 +1,131 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas entity
+list SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName inputs
+atlas entity SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName inputs
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas entity
+list SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName outputs
+atlas entity SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName outputs
+context SimpleName MethodInvocation SimpleName get hive operation
+operation SimpleName VariableDeclarationFragment MethodInvocation SimpleName context
+operation SimpleName VariableDeclarationFragment MethodInvocation SimpleName get hive operation
+hive operation SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName operation
+operation SimpleName InfixExpression QualifiedName hive operationcreatetable
+operation SimpleName InfixExpression QualifiedName hive operationcreatetable as select
+operation SimpleName InfixExpression InfixExpression InfixExpression SimpleName operation
+operation SimpleName InfixExpression InfixExpression InfixExpression QualifiedName hive operationcreatetable as select
+hive operationcreatetable QualifiedName InfixExpression InfixExpression InfixExpression SimpleName operation
+hive operationcreatetable QualifiedName InfixExpression InfixExpression InfixExpression QualifiedName hive operationcreatetable as select
+operation SimpleName InfixExpression QualifiedName hive operationcreateview
+operation SimpleName InfixExpression QualifiedName hive operationalterview as
+operation SimpleName InfixExpression QualifiedName hive operationaltertable location
+get hive context SimpleName MethodInvocation MethodInvocation SimpleName get outputs
+sorted entities SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get outputs
+collections SimpleName MethodInvocation SimpleName sort
+collections SimpleName MethodInvocation SimpleName sorted entities
+collections SimpleName MethodInvocation SimpleName entity comparator
+sort SimpleName MethodInvocation SimpleName sorted entities
+sort SimpleName MethodInvocation SimpleName entity comparator
+sorted entities SimpleName MethodInvocation SimpleName entity comparator
+entity SimpleName SimpleType SingleVariableDeclaration SimpleName entity
+entity SimpleName MethodInvocation SimpleName get type
+entity SimpleName MethodInvocation InfixExpression QualifiedName entitytypetable
+get type SimpleName MethodInvocation InfixExpression QualifiedName entitytypetable
+entity SimpleName MethodInvocation SimpleName get table
+table SimpleName VariableDeclarationFragment MethodInvocation SimpleName entity
+table SimpleName VariableDeclarationFragment MethodInvocation SimpleName get table
+table SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName table
+table SimpleName MethodInvocation SimpleName get db name
+table SimpleName MethodInvocation SimpleName get table name
+get hive SimpleName MethodInvocation MethodInvocation SimpleName get table
+get hive SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName table
+get hive SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get db name
+get hive SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName table
+get hive SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get table name
+get table SimpleName MethodInvocation MethodInvocation SimpleName table
+get table SimpleName MethodInvocation MethodInvocation SimpleName get db name
+get table SimpleName MethodInvocation MethodInvocation SimpleName table
+get table SimpleName MethodInvocation MethodInvocation SimpleName get table name
+table SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName table
+table SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get table name
+get db name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName table
+get db name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get table name
+table SimpleName Assignment MethodInvocation MethodInvocation SimpleName get hive
+table SimpleName Assignment MethodInvocation SimpleName get table
+table SimpleName Assignment MethodInvocation MethodInvocation SimpleName table
+table SimpleName Assignment MethodInvocation MethodInvocation SimpleName get db name
+table SimpleName Assignment MethodInvocation MethodInvocation SimpleName table
+table SimpleName Assignment MethodInvocation MethodInvocation SimpleName get table name
+get table create time SimpleName MethodInvocation SimpleName table
+create time SimpleName VariableDeclarationFragment MethodInvocation SimpleName get table create time
+create time SimpleName VariableDeclarationFragment MethodInvocation SimpleName table
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName create time
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get table create time
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName table
+get qualified name SimpleName MethodInvocation SimpleName table
+get qualified name SimpleName MethodInvocation InfixExpression SimpleName qname sep process
+table SimpleName MethodInvocation InfixExpression SimpleName qname sep process
+get qualified name SimpleName MethodInvocation InfixExpression SimpleName create time
+table SimpleName MethodInvocation InfixExpression SimpleName create time
+qname sep process SimpleName InfixExpression SimpleName create time
+entity SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName sorted entities
+entity SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName sorted entities
+get hive context SimpleName MethodInvocation MethodInvocation SimpleName get operation name
+string builder SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get operation name
+sb SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName string builder
+sb SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get operation name
+string builder SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName sb
+ignore hdfs paths SimpleName VariableDeclarationFragment MethodInvocation SimpleName ignore hdfs pathsin process qualified name
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName ignore hdfs paths
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName ignore hdfs pathsin process qualified name
+get hive context SimpleName MethodInvocation MethodInvocation SimpleName get inputs
+add to process qualified name SimpleName MethodInvocation SimpleName sb
+add to process qualified name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get hive context
+add to process qualified name SimpleName MethodInvocation MethodInvocation SimpleName get inputs
+add to process qualified name SimpleName MethodInvocation SimpleName ignore hdfs paths
+sb SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get hive context
+sb SimpleName MethodInvocation MethodInvocation SimpleName get inputs
+sb SimpleName MethodInvocation SimpleName ignore hdfs paths
+get hive context SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName ignore hdfs paths
+get inputs SimpleName MethodInvocation MethodInvocation SimpleName ignore hdfs paths
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation StringLiteral ->
+append SimpleName MethodInvocation StringLiteral ->
+get hive context SimpleName MethodInvocation MethodInvocation SimpleName get outputs
+add to process qualified name SimpleName MethodInvocation SimpleName sb
+add to process qualified name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get hive context
+add to process qualified name SimpleName MethodInvocation MethodInvocation SimpleName get outputs
+add to process qualified name SimpleName MethodInvocation SimpleName ignore hdfs paths
+sb SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get hive context
+sb SimpleName MethodInvocation MethodInvocation SimpleName get outputs
+sb SimpleName MethodInvocation SimpleName ignore hdfs paths
+get hive context SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName ignore hdfs paths
+get outputs SimpleName MethodInvocation MethodInvocation SimpleName ignore hdfs paths
+sb SimpleName MethodInvocation SimpleName to string
+protected Modifier MethodDeclaration SimpleType SimpleName string
+protected Modifier MethodDeclaration SimpleName get qualified name
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName inputs
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName outputs
+protected Modifier MethodDeclaration SimpleType SimpleName exception
+string SimpleName SimpleType MethodDeclaration SimpleName get qualified name
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName inputs
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName outputs
+string SimpleName SimpleType MethodDeclaration SimpleType SimpleName exception
+get qualified name SimpleName MethodDeclaration SingleVariableDeclaration SimpleName inputs
+get qualified name SimpleName MethodDeclaration SingleVariableDeclaration SimpleName outputs
+get qualified name SimpleName MethodDeclaration SimpleType SimpleName exception
+get qualified name SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+inputs SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName outputs
+inputs SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+outputs SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName get qualified name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName inputs
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName outputs
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get qualified name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName inputs
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName outputs
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

@@ -1,0 +1,13 @@
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation StringLiteral importing hive metadata
+info SimpleName MethodInvocation StringLiteral importing hive metadata
+void PrimitiveType MethodDeclaration SimpleName import hive metadata
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+import hive metadata SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName import hive metadata
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName import hive metadata
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

@@ -1,0 +1,88 @@
+atlas entity SimpleName SimpleType SingleVariableDeclaration SimpleName entity
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+list SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName deleted classification names
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName deleted classification names
+entity SimpleName MethodInvocation SimpleName get guid
+do full text mapping SimpleName MethodInvocation MethodInvocation SimpleName entity
+do full text mapping SimpleName MethodInvocation MethodInvocation SimpleName get guid
+entity change listener v SimpleName SimpleType SingleVariableDeclaration SimpleName listener
+listener SimpleName MethodInvocation SimpleName on classifications deleted
+listener SimpleName MethodInvocation SimpleName entity
+listener SimpleName MethodInvocation SimpleName deleted classification names
+on classifications deleted SimpleName MethodInvocation SimpleName entity
+on classifications deleted SimpleName MethodInvocation SimpleName deleted classification names
+entity SimpleName MethodInvocation SimpleName deleted classification names
+entity change listener v SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName entity change listeners v
+listener SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName entity change listeners v
+entity SimpleName MethodInvocation SimpleName get guid
+do full text mapping SimpleName MethodInvocation MethodInvocation SimpleName entity
+do full text mapping SimpleName MethodInvocation MethodInvocation SimpleName get guid
+entity SimpleName MethodInvocation SimpleName get guid
+to referenceable SimpleName MethodInvocation MethodInvocation SimpleName entity
+to referenceable SimpleName MethodInvocation MethodInvocation SimpleName get guid
+entity ref SimpleName VariableDeclarationFragment MethodInvocation SimpleName to referenceable
+entity ref SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName entity
+entity ref SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get guid
+referenceable SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName entity ref
+collection utils SimpleName MethodInvocation SimpleName is empty
+collection utils SimpleName MethodInvocation SimpleName deleted classification names
+is empty SimpleName MethodInvocation SimpleName deleted classification names
+entity ref SimpleName InfixExpression InfixExpression MethodInvocation SimpleName collection utils
+entity ref SimpleName InfixExpression InfixExpression MethodInvocation SimpleName is empty
+entity ref SimpleName InfixExpression InfixExpression MethodInvocation SimpleName deleted classification names
+entity change listener SimpleName SimpleType SingleVariableDeclaration SimpleName listener
+listener SimpleName MethodInvocation SimpleName on traits deleted
+listener SimpleName MethodInvocation SimpleName entity ref
+listener SimpleName MethodInvocation SimpleName deleted classification names
+on traits deleted SimpleName MethodInvocation SimpleName entity ref
+on traits deleted SimpleName MethodInvocation SimpleName deleted classification names
+entity ref SimpleName MethodInvocation SimpleName deleted classification names
+atlas exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+get listener name SimpleName MethodInvocation SimpleName listener
+atlas base exception SimpleName SimpleType ClassInstanceCreation QualifiedName atlas error codenotification failed
+atlas base exception SimpleName SimpleType ClassInstanceCreation SimpleName e
+atlas base exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get listener name
+atlas base exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName listener
+atlas base exception SimpleName SimpleType ClassInstanceCreation StringLiteral trait delete
+atlas error codenotification failed QualifiedName ClassInstanceCreation SimpleName e
+atlas error codenotification failed QualifiedName ClassInstanceCreation MethodInvocation SimpleName get listener name
+atlas error codenotification failed QualifiedName ClassInstanceCreation MethodInvocation SimpleName listener
+atlas error codenotification failed QualifiedName ClassInstanceCreation StringLiteral trait delete
+e SimpleName ClassInstanceCreation MethodInvocation SimpleName get listener name
+e SimpleName ClassInstanceCreation MethodInvocation SimpleName listener
+e SimpleName ClassInstanceCreation StringLiteral trait delete
+get listener name SimpleName MethodInvocation ClassInstanceCreation StringLiteral trait delete
+listener SimpleName MethodInvocation ClassInstanceCreation StringLiteral trait delete
+entity change listener SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName entity change listeners
+listener SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName entity change listeners
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName on classification deleted from entity
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas entity
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName entity
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName deleted classification names
+public Modifier MethodDeclaration SimpleType SimpleName atlas base exception
+void PrimitiveType MethodDeclaration SimpleName on classification deleted from entity
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas entity
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName entity
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName deleted classification names
+void PrimitiveType MethodDeclaration SimpleType SimpleName atlas base exception
+on classification deleted from entity SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas entity
+on classification deleted from entity SimpleName MethodDeclaration SingleVariableDeclaration SimpleName entity
+on classification deleted from entity SimpleName MethodDeclaration SingleVariableDeclaration SimpleName deleted classification names
+on classification deleted from entity SimpleName MethodDeclaration SimpleType SimpleName atlas base exception
+entity SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName deleted classification names
+entity SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+deleted classification names SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName on classification deleted from entity
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName deleted classification names
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName on classification deleted from entity
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName deleted classification names
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception

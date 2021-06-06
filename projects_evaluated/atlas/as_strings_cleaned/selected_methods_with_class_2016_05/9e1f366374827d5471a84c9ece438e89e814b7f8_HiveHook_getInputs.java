@@ -1,0 +1,13 @@
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName read entity
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName set
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName read entity
+public Modifier MethodDeclaration SimpleName get inputs
+public Modifier MethodDeclaration Block ReturnStatement SimpleName inputs
+set SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get inputs
+read entity SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get inputs
+get inputs SimpleName MethodDeclaration Block ReturnStatement SimpleName inputs
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName get inputs
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get inputs

@@ -1,0 +1,23 @@
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+map SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName obj
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName obj
+object SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName obj
+normalize attribute values SimpleName SuperMethodInvocation SimpleName obj
+normalize relationship attribute values SimpleName MethodInvocation SimpleName obj
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName normalize values
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName obj
+void PrimitiveType MethodDeclaration SimpleName normalize values
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName obj
+normalize values SimpleName MethodDeclaration SingleVariableDeclaration SimpleName obj
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName normalize values
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName obj
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName normalize values
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName obj

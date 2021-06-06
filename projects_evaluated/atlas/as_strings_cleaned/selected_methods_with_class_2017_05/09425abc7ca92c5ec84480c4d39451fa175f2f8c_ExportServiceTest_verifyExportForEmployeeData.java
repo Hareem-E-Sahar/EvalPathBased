@@ -1,0 +1,85 @@
+zip source SimpleName SimpleType SingleVariableDeclaration SimpleName zip source
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+manager StringLiteral ArrayInitializer StringLiteral employee
+manager StringLiteral ArrayInitializer StringLiteral department
+employee StringLiteral ArrayInitializer StringLiteral department
+arrays SimpleName MethodInvocation SimpleName as list
+arrays SimpleName MethodInvocation ArrayCreation ArrayInitializer StringLiteral manager
+arrays SimpleName MethodInvocation ArrayCreation ArrayInitializer StringLiteral employee
+arrays SimpleName MethodInvocation ArrayCreation ArrayInitializer StringLiteral department
+as list SimpleName MethodInvocation ArrayCreation ArrayInitializer StringLiteral manager
+as list SimpleName MethodInvocation ArrayCreation ArrayInitializer StringLiteral employee
+as list SimpleName MethodInvocation ArrayCreation ArrayInitializer StringLiteral department
+expected entity types SimpleName VariableDeclarationFragment MethodInvocation SimpleName arrays
+expected entity types SimpleName VariableDeclarationFragment MethodInvocation SimpleName as list
+final Modifier VariableDeclarationStatement ParameterizedType SimpleType SimpleName list
+final Modifier VariableDeclarationStatement ParameterizedType SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName expected entity types
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName arrays
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName as list
+zip source SimpleName MethodInvocation SimpleName get creation order
+assert not null SimpleName MethodInvocation MethodInvocation SimpleName zip source
+assert not null SimpleName MethodInvocation MethodInvocation SimpleName get creation order
+zip source SimpleName MethodInvocation SimpleName get creation order
+zip source SimpleName MethodInvocation MethodInvocation SimpleName size
+get creation order SimpleName MethodInvocation MethodInvocation SimpleName size
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName zip source
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get creation order
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName size
+assert equals SimpleName MethodInvocation NumberLiteral empty
+zip source SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+get creation order SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+size SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+zip source SimpleName MethodInvocation SimpleName has next
+assert true SimpleName MethodInvocation MethodInvocation SimpleName zip source
+assert true SimpleName MethodInvocation MethodInvocation SimpleName has next
+zip source SimpleName MethodInvocation SimpleName has next
+zip source SimpleName MethodInvocation SimpleName next
+entity SimpleName VariableDeclarationFragment MethodInvocation SimpleName zip source
+entity SimpleName VariableDeclarationFragment MethodInvocation SimpleName next
+atlas entity SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName entity
+assert not null SimpleName MethodInvocation SimpleName entity
+entity SimpleName MethodInvocation SimpleName get status
+assert equals SimpleName MethodInvocation QualifiedName atlas entitystatusactive
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName entity
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get status
+atlas entitystatusactive QualifiedName MethodInvocation MethodInvocation SimpleName entity
+atlas entitystatusactive QualifiedName MethodInvocation MethodInvocation SimpleName get status
+entity SimpleName MethodInvocation SimpleName get type name
+expected entity types SimpleName MethodInvocation SimpleName contains
+expected entity types SimpleName MethodInvocation MethodInvocation SimpleName entity
+expected entity types SimpleName MethodInvocation MethodInvocation SimpleName get type name
+contains SimpleName MethodInvocation MethodInvocation SimpleName entity
+contains SimpleName MethodInvocation MethodInvocation SimpleName get type name
+assert true SimpleName MethodInvocation MethodInvocation SimpleName expected entity types
+assert true SimpleName MethodInvocation MethodInvocation SimpleName contains
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName entity
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get type name
+verify type defs SimpleName MethodInvocation SimpleName zip source
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName verify export for employee data
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName zip source
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName zip source
+private Modifier MethodDeclaration SimpleType SimpleName atlas base exception
+private Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+void PrimitiveType MethodDeclaration SimpleName verify export for employee data
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName zip source
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName zip source
+void PrimitiveType MethodDeclaration SimpleType SimpleName atlas base exception
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement Modifier final
+verify export for employee data SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName zip source
+verify export for employee data SimpleName MethodDeclaration SingleVariableDeclaration SimpleName zip source
+verify export for employee data SimpleName MethodDeclaration SimpleType SimpleName atlas base exception
+verify export for employee data SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+zip source SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName verify export for employee data
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName zip source
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName verify export for employee data
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName zip source
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception

@@ -1,0 +1,260 @@
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas resource types
+string SimpleName SimpleType SingleVariableDeclaration SimpleName context path
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas resource types
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral ==> get atlas resource type for {}
+log SimpleName MethodInvocation SimpleName context path
+debug SimpleName MethodInvocation StringLiteral ==> get atlas resource type for {}
+debug SimpleName MethodInvocation SimpleName context path
+==> get atlas resource type for {} StringLiteral MethodInvocation SimpleName context path
+get api SimpleName MethodInvocation SimpleName context path
+api SimpleName VariableDeclarationFragment MethodInvocation SimpleName get api
+api SimpleName VariableDeclarationFragment MethodInvocation SimpleName context path
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName api
+api SimpleName MethodInvocation SimpleName starts with
+api SimpleName MethodInvocation StringLiteral types
+starts with SimpleName MethodInvocation StringLiteral types
+resource types SimpleName MethodInvocation SimpleName add
+resource types SimpleName MethodInvocation QualifiedName atlas resource typestype
+add SimpleName MethodInvocation QualifiedName atlas resource typestype
+api SimpleName MethodInvocation SimpleName starts with
+api SimpleName MethodInvocation StringLiteral admin
+starts with SimpleName MethodInvocation StringLiteral admin
+context path SimpleName MethodInvocation SimpleName contains
+context path SimpleName MethodInvocation StringLiteral session
+contains SimpleName MethodInvocation StringLiteral session
+context path SimpleName MethodInvocation SimpleName contains
+context path SimpleName MethodInvocation StringLiteral version
+contains SimpleName MethodInvocation StringLiteral version
+context path SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName context path
+context path SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName contains
+context path SimpleName MethodInvocation InfixExpression MethodInvocation StringLiteral version
+contains SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName context path
+contains SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName contains
+contains SimpleName MethodInvocation InfixExpression MethodInvocation StringLiteral version
+session StringLiteral MethodInvocation InfixExpression MethodInvocation SimpleName context path
+session StringLiteral MethodInvocation InfixExpression MethodInvocation SimpleName contains
+session StringLiteral MethodInvocation InfixExpression MethodInvocation StringLiteral version
+resource types SimpleName MethodInvocation SimpleName add
+resource types SimpleName MethodInvocation QualifiedName atlas resource typesunknown
+add SimpleName MethodInvocation QualifiedName atlas resource typesunknown
+api SimpleName MethodInvocation SimpleName starts with
+api SimpleName MethodInvocation StringLiteral discovery
+starts with SimpleName MethodInvocation StringLiteral discovery
+context path SimpleName MethodInvocation SimpleName contains
+context path SimpleName MethodInvocation StringLiteral gremlin
+contains SimpleName MethodInvocation StringLiteral gremlin
+api SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName context path
+api SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName contains
+api SimpleName MethodInvocation InfixExpression MethodInvocation StringLiteral gremlin
+starts with SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName context path
+starts with SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName contains
+starts with SimpleName MethodInvocation InfixExpression MethodInvocation StringLiteral gremlin
+discovery StringLiteral MethodInvocation InfixExpression MethodInvocation SimpleName context path
+discovery StringLiteral MethodInvocation InfixExpression MethodInvocation SimpleName contains
+discovery StringLiteral MethodInvocation InfixExpression MethodInvocation StringLiteral gremlin
+api SimpleName MethodInvocation SimpleName starts with
+api SimpleName MethodInvocation StringLiteral admin
+starts with SimpleName MethodInvocation StringLiteral admin
+api SimpleName MethodInvocation SimpleName starts with
+api SimpleName MethodInvocation StringLiteral graph
+starts with SimpleName MethodInvocation StringLiteral graph
+api SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName api
+api SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName starts with
+api SimpleName MethodInvocation InfixExpression MethodInvocation StringLiteral graph
+starts with SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName api
+starts with SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName starts with
+starts with SimpleName MethodInvocation InfixExpression MethodInvocation StringLiteral graph
+admin StringLiteral MethodInvocation InfixExpression MethodInvocation SimpleName api
+admin StringLiteral MethodInvocation InfixExpression MethodInvocation SimpleName starts with
+admin StringLiteral MethodInvocation InfixExpression MethodInvocation StringLiteral graph
+resource types SimpleName MethodInvocation SimpleName add
+resource types SimpleName MethodInvocation QualifiedName atlas resource typesoperation
+add SimpleName MethodInvocation QualifiedName atlas resource typesoperation
+api SimpleName MethodInvocation SimpleName starts with
+api SimpleName MethodInvocation StringLiteral entities
+starts with SimpleName MethodInvocation StringLiteral entities
+api SimpleName MethodInvocation SimpleName starts with
+api SimpleName MethodInvocation StringLiteral lineage
+starts with SimpleName MethodInvocation StringLiteral lineage
+api SimpleName MethodInvocation SimpleName starts with
+api SimpleName MethodInvocation StringLiteral discovery
+starts with SimpleName MethodInvocation StringLiteral discovery
+api SimpleName MethodInvocation SimpleName starts with
+api SimpleName MethodInvocation StringLiteral entity
+starts with SimpleName MethodInvocation StringLiteral entity
+api SimpleName MethodInvocation SimpleName starts with
+api SimpleName MethodInvocation StringLiteral search
+starts with SimpleName MethodInvocation StringLiteral search
+api SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName api
+api SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName starts with
+api SimpleName MethodInvocation InfixExpression MethodInvocation StringLiteral lineage
+starts with SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName api
+starts with SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName starts with
+starts with SimpleName MethodInvocation InfixExpression MethodInvocation StringLiteral lineage
+entities StringLiteral MethodInvocation InfixExpression MethodInvocation SimpleName api
+entities StringLiteral MethodInvocation InfixExpression MethodInvocation SimpleName starts with
+entities StringLiteral MethodInvocation InfixExpression MethodInvocation StringLiteral lineage
+api SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName api
+api SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName starts with
+api SimpleName MethodInvocation InfixExpression MethodInvocation StringLiteral discovery
+starts with SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName api
+starts with SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName starts with
+starts with SimpleName MethodInvocation InfixExpression MethodInvocation StringLiteral discovery
+entities StringLiteral MethodInvocation InfixExpression MethodInvocation SimpleName api
+entities StringLiteral MethodInvocation InfixExpression MethodInvocation SimpleName starts with
+entities StringLiteral MethodInvocation InfixExpression MethodInvocation StringLiteral discovery
+api SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName api
+api SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName starts with
+api SimpleName MethodInvocation InfixExpression MethodInvocation StringLiteral entity
+starts with SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName api
+starts with SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName starts with
+starts with SimpleName MethodInvocation InfixExpression MethodInvocation StringLiteral entity
+entities StringLiteral MethodInvocation InfixExpression MethodInvocation SimpleName api
+entities StringLiteral MethodInvocation InfixExpression MethodInvocation SimpleName starts with
+entities StringLiteral MethodInvocation InfixExpression MethodInvocation StringLiteral entity
+api SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName api
+api SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName starts with
+api SimpleName MethodInvocation InfixExpression MethodInvocation StringLiteral search
+starts with SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName api
+starts with SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName starts with
+starts with SimpleName MethodInvocation InfixExpression MethodInvocation StringLiteral search
+entities StringLiteral MethodInvocation InfixExpression MethodInvocation SimpleName api
+entities StringLiteral MethodInvocation InfixExpression MethodInvocation SimpleName starts with
+entities StringLiteral MethodInvocation InfixExpression MethodInvocation StringLiteral search
+api SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName api
+api SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName starts with
+api SimpleName MethodInvocation InfixExpression MethodInvocation StringLiteral discovery
+starts with SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName api
+starts with SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName starts with
+starts with SimpleName MethodInvocation InfixExpression MethodInvocation StringLiteral discovery
+lineage StringLiteral MethodInvocation InfixExpression MethodInvocation SimpleName api
+lineage StringLiteral MethodInvocation InfixExpression MethodInvocation SimpleName starts with
+lineage StringLiteral MethodInvocation InfixExpression MethodInvocation StringLiteral discovery
+api SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName api
+api SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName starts with
+api SimpleName MethodInvocation InfixExpression MethodInvocation StringLiteral entity
+starts with SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName api
+starts with SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName starts with
+starts with SimpleName MethodInvocation InfixExpression MethodInvocation StringLiteral entity
+lineage StringLiteral MethodInvocation InfixExpression MethodInvocation SimpleName api
+lineage StringLiteral MethodInvocation InfixExpression MethodInvocation SimpleName starts with
+lineage StringLiteral MethodInvocation InfixExpression MethodInvocation StringLiteral entity
+api SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName api
+api SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName starts with
+api SimpleName MethodInvocation InfixExpression MethodInvocation StringLiteral search
+starts with SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName api
+starts with SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName starts with
+starts with SimpleName MethodInvocation InfixExpression MethodInvocation StringLiteral search
+lineage StringLiteral MethodInvocation InfixExpression MethodInvocation SimpleName api
+lineage StringLiteral MethodInvocation InfixExpression MethodInvocation SimpleName starts with
+lineage StringLiteral MethodInvocation InfixExpression MethodInvocation StringLiteral search
+api SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName api
+api SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName starts with
+api SimpleName MethodInvocation InfixExpression MethodInvocation StringLiteral entity
+starts with SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName api
+starts with SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName starts with
+starts with SimpleName MethodInvocation InfixExpression MethodInvocation StringLiteral entity
+discovery StringLiteral MethodInvocation InfixExpression MethodInvocation SimpleName api
+discovery StringLiteral MethodInvocation InfixExpression MethodInvocation SimpleName starts with
+discovery StringLiteral MethodInvocation InfixExpression MethodInvocation StringLiteral entity
+api SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName api
+api SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName starts with
+api SimpleName MethodInvocation InfixExpression MethodInvocation StringLiteral search
+starts with SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName api
+starts with SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName starts with
+starts with SimpleName MethodInvocation InfixExpression MethodInvocation StringLiteral search
+discovery StringLiteral MethodInvocation InfixExpression MethodInvocation SimpleName api
+discovery StringLiteral MethodInvocation InfixExpression MethodInvocation SimpleName starts with
+discovery StringLiteral MethodInvocation InfixExpression MethodInvocation StringLiteral search
+api SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName api
+api SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName starts with
+api SimpleName MethodInvocation InfixExpression MethodInvocation StringLiteral search
+starts with SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName api
+starts with SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName starts with
+starts with SimpleName MethodInvocation InfixExpression MethodInvocation StringLiteral search
+entity StringLiteral MethodInvocation InfixExpression MethodInvocation SimpleName api
+entity StringLiteral MethodInvocation InfixExpression MethodInvocation SimpleName starts with
+entity StringLiteral MethodInvocation InfixExpression MethodInvocation StringLiteral search
+resource types SimpleName MethodInvocation SimpleName add
+resource types SimpleName MethodInvocation QualifiedName atlas resource typesentity
+add SimpleName MethodInvocation QualifiedName atlas resource typesentity
+api SimpleName MethodInvocation SimpleName starts with
+api SimpleName MethodInvocation StringLiteral taxonomies
+starts with SimpleName MethodInvocation StringLiteral taxonomies
+resource types SimpleName MethodInvocation SimpleName add
+resource types SimpleName MethodInvocation QualifiedName atlas resource typestaxonomy
+add SimpleName MethodInvocation QualifiedName atlas resource typestaxonomy
+resource types SimpleName MethodInvocation SimpleName add
+resource types SimpleName MethodInvocation QualifiedName atlas resource typesentity
+add SimpleName MethodInvocation QualifiedName atlas resource typesentity
+context path SimpleName MethodInvocation SimpleName contains
+context path SimpleName MethodInvocation StringLiteral terms
+contains SimpleName MethodInvocation StringLiteral terms
+resource types SimpleName MethodInvocation SimpleName add
+resource types SimpleName MethodInvocation QualifiedName atlas resource typesterm
+add SimpleName MethodInvocation QualifiedName atlas resource typesterm
+atlas resource typesunknown QualifiedName MethodInvocation SimpleName name
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation StringLiteral unable to find atlas resource corresponding to : {} setting {}
+log SimpleName MethodInvocation SimpleName api
+log SimpleName MethodInvocation MethodInvocation QualifiedName atlas resource typesunknown
+log SimpleName MethodInvocation MethodInvocation SimpleName name
+error SimpleName MethodInvocation StringLiteral unable to find atlas resource corresponding to : {} setting {}
+error SimpleName MethodInvocation SimpleName api
+error SimpleName MethodInvocation MethodInvocation QualifiedName atlas resource typesunknown
+error SimpleName MethodInvocation MethodInvocation SimpleName name
+unable to find atlas resource corresponding to : {} setting {} StringLiteral MethodInvocation SimpleName api
+unable to find atlas resource corresponding to : {} setting {} StringLiteral MethodInvocation MethodInvocation QualifiedName atlas resource typesunknown
+unable to find atlas resource corresponding to : {} setting {} StringLiteral MethodInvocation MethodInvocation SimpleName name
+api SimpleName MethodInvocation MethodInvocation QualifiedName atlas resource typesunknown
+api SimpleName MethodInvocation MethodInvocation SimpleName name
+resource types SimpleName MethodInvocation SimpleName add
+resource types SimpleName MethodInvocation QualifiedName atlas resource typesunknown
+add SimpleName MethodInvocation QualifiedName atlas resource typesunknown
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral <== returning atlas resources {} for api {}
+log SimpleName MethodInvocation SimpleName resource types
+log SimpleName MethodInvocation SimpleName api
+debug SimpleName MethodInvocation StringLiteral <== returning atlas resources {} for api {}
+debug SimpleName MethodInvocation SimpleName resource types
+debug SimpleName MethodInvocation SimpleName api
+<== returning atlas resources {} for api {} StringLiteral MethodInvocation SimpleName resource types
+<== returning atlas resources {} for api {} StringLiteral MethodInvocation SimpleName api
+resource types SimpleName MethodInvocation SimpleName api
+is debug enabled SimpleName IfStatement Block IfStatement SimpleName is debug enabled
+is debug enabled SimpleName IfStatement Block ReturnStatement SimpleName resource types
+is debug enabled SimpleName IfStatement Block ReturnStatement SimpleName resource types
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName set
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName atlas resource types
+public Modifier MethodDeclaration SimpleName get atlas resource type
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName context path
+public Modifier MethodDeclaration Block IfStatement SimpleName is debug enabled
+public Modifier MethodDeclaration Block IfStatement SimpleName is debug enabled
+public Modifier MethodDeclaration Block ReturnStatement SimpleName resource types
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName set
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName atlas resource types
+static Modifier MethodDeclaration SimpleName get atlas resource type
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName context path
+static Modifier MethodDeclaration Block IfStatement SimpleName is debug enabled
+static Modifier MethodDeclaration Block IfStatement SimpleName is debug enabled
+static Modifier MethodDeclaration Block ReturnStatement SimpleName resource types
+set SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get atlas resource type
+atlas resource types SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get atlas resource type
+get atlas resource type SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get atlas resource type SimpleName MethodDeclaration SingleVariableDeclaration SimpleName context path
+get atlas resource type SimpleName MethodDeclaration Block IfStatement SimpleName is debug enabled
+get atlas resource type SimpleName MethodDeclaration Block IfStatement SimpleName is debug enabled
+get atlas resource type SimpleName MethodDeclaration Block ReturnStatement SimpleName resource types
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleName get atlas resource type
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName context path
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get atlas resource type
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName context path

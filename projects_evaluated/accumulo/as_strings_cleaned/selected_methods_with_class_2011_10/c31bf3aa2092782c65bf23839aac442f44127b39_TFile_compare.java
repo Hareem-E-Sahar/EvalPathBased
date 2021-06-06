@@ -1,0 +1,97 @@
+scannerentry QualifiedName SimpleType SingleVariableDeclaration SimpleName o
+scannerentry QualifiedName SimpleType SingleVariableDeclaration SimpleName o
+o SimpleName MethodInvocation SimpleName get key buffer
+o SimpleName MethodInvocation SimpleName get key length
+o SimpleName MethodInvocation SimpleName get key buffer
+o SimpleName MethodInvocation SimpleName get key length
+comparator SimpleName MethodInvocation SimpleName compare
+comparator SimpleName MethodInvocation MethodInvocation SimpleName o
+comparator SimpleName MethodInvocation MethodInvocation SimpleName get key buffer
+comparator SimpleName MethodInvocation NumberLiteral empty
+comparator SimpleName MethodInvocation MethodInvocation SimpleName o
+comparator SimpleName MethodInvocation MethodInvocation SimpleName get key length
+comparator SimpleName MethodInvocation MethodInvocation SimpleName o
+comparator SimpleName MethodInvocation MethodInvocation SimpleName get key buffer
+compare SimpleName MethodInvocation MethodInvocation SimpleName o
+compare SimpleName MethodInvocation MethodInvocation SimpleName get key buffer
+compare SimpleName MethodInvocation NumberLiteral empty
+compare SimpleName MethodInvocation MethodInvocation SimpleName o
+compare SimpleName MethodInvocation MethodInvocation SimpleName get key length
+compare SimpleName MethodInvocation MethodInvocation SimpleName o
+compare SimpleName MethodInvocation MethodInvocation SimpleName get key buffer
+compare SimpleName MethodInvocation NumberLiteral empty
+o SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+get key buffer SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+o SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName o
+o SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get key length
+get key buffer SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName o
+get key buffer SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get key length
+o SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName o
+o SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get key buffer
+get key buffer SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName o
+get key buffer SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get key buffer
+o SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+get key buffer SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+o SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName o
+o SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get key length
+get key buffer SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName o
+get key buffer SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get key length
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName o
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName get key length
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName o
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName get key buffer
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName o
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName get key length
+o SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName o
+o SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get key buffer
+get key length SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName o
+get key length SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get key buffer
+o SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+get key length SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+o SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName o
+o SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get key length
+get key length SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName o
+get key length SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get key length
+o SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+get key buffer SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+o SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName o
+o SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get key length
+get key buffer SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName o
+get key buffer SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get key length
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName o
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName get key length
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType int
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName compare
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName o
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName o
+public Modifier MethodDeclaration PrimitiveType int
+public Modifier MethodDeclaration SimpleName compare
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType QualifiedName scannerentry
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName o
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType QualifiedName scannerentry
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName o
+int PrimitiveType MethodDeclaration SimpleName compare
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType QualifiedName scannerentry
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName o
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType QualifiedName scannerentry
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName o
+compare SimpleName MethodDeclaration SingleVariableDeclaration SimpleType QualifiedName scannerentry
+compare SimpleName MethodDeclaration SingleVariableDeclaration SimpleName o
+compare SimpleName MethodDeclaration SingleVariableDeclaration SimpleType QualifiedName scannerentry
+compare SimpleName MethodDeclaration SingleVariableDeclaration SimpleName o
+o SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName o
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SimpleName compare
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName o
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName o
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SimpleName compare
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName o
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName o

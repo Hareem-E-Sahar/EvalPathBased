@@ -1,0 +1,158 @@
+authentication SimpleName SimpleType SingleVariableDeclaration SimpleName authentication
+authentication SimpleName MethodInvocation SimpleName get name
+user name SimpleName VariableDeclarationFragment MethodInvocation SimpleName authentication
+user name SimpleName VariableDeclarationFragment MethodInvocation SimpleName get name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName user name
+user password SimpleName VariableDeclarationFragment StringLiteral empty
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName user password
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral empty
+authentication SimpleName MethodInvocation SimpleName get credentials
+authentication SimpleName MethodInvocation SimpleName get credentials
+authentication SimpleName MethodInvocation MethodInvocation SimpleName to string
+get credentials SimpleName MethodInvocation MethodInvocation SimpleName to string
+user password SimpleName Assignment MethodInvocation MethodInvocation SimpleName authentication
+user password SimpleName Assignment MethodInvocation MethodInvocation SimpleName get credentials
+user password SimpleName Assignment MethodInvocation SimpleName to string
+default spring security context source SimpleName SimpleType ClassInstanceCreation SimpleName ad url
+ldap context source SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName default spring security context source
+ldap context source SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName ad url
+ldap context source SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ldap context source
+ldap context source SimpleName MethodInvocation SimpleName set user dn
+ldap context source SimpleName MethodInvocation SimpleName ad bind dn
+set user dn SimpleName MethodInvocation SimpleName ad bind dn
+ldap context source SimpleName MethodInvocation SimpleName set password
+ldap context source SimpleName MethodInvocation SimpleName ad bind password
+set password SimpleName MethodInvocation SimpleName ad bind password
+ldap context source SimpleName MethodInvocation SimpleName set referral
+ldap context source SimpleName MethodInvocation SimpleName ad referral
+set referral SimpleName MethodInvocation SimpleName ad referral
+ldap context source SimpleName MethodInvocation SimpleName set cache environment properties
+ldap context source SimpleName MethodInvocation BooleanLiteral true
+set cache environment properties SimpleName MethodInvocation BooleanLiteral true
+ldap context source SimpleName MethodInvocation SimpleName set anonymous read only
+ldap context source SimpleName MethodInvocation BooleanLiteral false
+set anonymous read only SimpleName MethodInvocation BooleanLiteral false
+ldap context source SimpleName MethodInvocation SimpleName set pooled
+ldap context source SimpleName MethodInvocation BooleanLiteral true
+set pooled SimpleName MethodInvocation BooleanLiteral true
+ldap context source SimpleName MethodInvocation SimpleName after properties set
+filter based ldap user search SimpleName SimpleType ClassInstanceCreation SimpleName ad base
+filter based ldap user search SimpleName SimpleType ClassInstanceCreation SimpleName ad user search filter
+filter based ldap user search SimpleName SimpleType ClassInstanceCreation SimpleName ldap context source
+ad base SimpleName ClassInstanceCreation SimpleName ad user search filter
+ad base SimpleName ClassInstanceCreation SimpleName ldap context source
+ad user search filter SimpleName ClassInstanceCreation SimpleName ldap context source
+user search SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName filter based ldap user search
+user search SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName ad base
+user search SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName ad user search filter
+user search SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName ldap context source
+filter based ldap user search SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName user search
+user search SimpleName MethodInvocation SimpleName set search subtree
+user search SimpleName MethodInvocation BooleanLiteral true
+set search subtree SimpleName MethodInvocation BooleanLiteral true
+bind authenticator SimpleName SimpleType ClassInstanceCreation SimpleName ldap context source
+bind authenticator SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName bind authenticator
+bind authenticator SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName ldap context source
+bind authenticator SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName bind authenticator
+bind authenticator SimpleName MethodInvocation SimpleName set user search
+bind authenticator SimpleName MethodInvocation SimpleName user search
+set user search SimpleName MethodInvocation SimpleName user search
+bind authenticator SimpleName MethodInvocation SimpleName after properties set
+ldap authentication provider SimpleName SimpleType ClassInstanceCreation SimpleName bind authenticator
+ldap authentication provider SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName ldap authentication provider
+ldap authentication provider SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName bind authenticator
+ldap authentication provider SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ldap authentication provider
+user name SimpleName InfixExpression InfixExpression InfixExpression SimpleName user password
+user name SimpleName MethodInvocation SimpleName trim
+user name SimpleName MethodInvocation MethodInvocation SimpleName is empty
+trim SimpleName MethodInvocation MethodInvocation SimpleName is empty
+user password SimpleName MethodInvocation SimpleName trim
+user password SimpleName MethodInvocation MethodInvocation SimpleName is empty
+trim SimpleName MethodInvocation MethodInvocation SimpleName is empty
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName granted authority
+get authorities SimpleName MethodInvocation SimpleName user name
+granted auths SimpleName VariableDeclarationFragment MethodInvocation SimpleName get authorities
+granted auths SimpleName VariableDeclarationFragment MethodInvocation SimpleName user name
+final Modifier VariableDeclarationStatement ParameterizedType SimpleType SimpleName list
+final Modifier VariableDeclarationStatement ParameterizedType SimpleType SimpleName granted authority
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName granted auths
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get authorities
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName user name
+user SimpleName SimpleType ClassInstanceCreation SimpleName user name
+user SimpleName SimpleType ClassInstanceCreation SimpleName user password
+user SimpleName SimpleType ClassInstanceCreation SimpleName granted auths
+user name SimpleName ClassInstanceCreation SimpleName user password
+user name SimpleName ClassInstanceCreation SimpleName granted auths
+user password SimpleName ClassInstanceCreation SimpleName granted auths
+principal SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName user
+principal SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName user name
+principal SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName user password
+principal SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName granted auths
+final Modifier VariableDeclarationStatement SimpleType SimpleName user details
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName principal
+final Modifier VariableDeclarationStatement VariableDeclarationFragment ClassInstanceCreation SimpleName user name
+final Modifier VariableDeclarationStatement VariableDeclarationFragment ClassInstanceCreation SimpleName user password
+final Modifier VariableDeclarationStatement VariableDeclarationFragment ClassInstanceCreation SimpleName granted auths
+user details SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName principal
+username password authentication token SimpleName SimpleType ClassInstanceCreation SimpleName principal
+username password authentication token SimpleName SimpleType ClassInstanceCreation SimpleName user password
+username password authentication token SimpleName SimpleType ClassInstanceCreation SimpleName granted auths
+principal SimpleName ClassInstanceCreation SimpleName user password
+principal SimpleName ClassInstanceCreation SimpleName granted auths
+user password SimpleName ClassInstanceCreation SimpleName granted auths
+final authentication SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName username password authentication token
+final authentication SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName principal
+final authentication SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName user password
+final authentication SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName granted auths
+final Modifier VariableDeclarationStatement SimpleType SimpleName authentication
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName final authentication
+final Modifier VariableDeclarationStatement VariableDeclarationFragment ClassInstanceCreation SimpleName principal
+final Modifier VariableDeclarationStatement VariableDeclarationFragment ClassInstanceCreation SimpleName user password
+final Modifier VariableDeclarationStatement VariableDeclarationFragment ClassInstanceCreation SimpleName granted auths
+authentication SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName final authentication
+ldap authentication provider SimpleName MethodInvocation SimpleName authenticate
+ldap authentication provider SimpleName MethodInvocation SimpleName final authentication
+authenticate SimpleName MethodInvocation SimpleName final authentication
+authentication SimpleName Assignment MethodInvocation SimpleName ldap authentication provider
+authentication SimpleName Assignment MethodInvocation SimpleName authenticate
+authentication SimpleName Assignment MethodInvocation SimpleName final authentication
+get authentication with granted authority from ugi SimpleName MethodInvocation SimpleName authentication
+authentication SimpleName Assignment MethodInvocation SimpleName get authentication with granted authority from ugi
+authentication SimpleName Assignment MethodInvocation SimpleName authentication
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block IfStatement SimpleName groups from ugi
+final Modifier VariableDeclarationStatement Block ReturnStatement SimpleName authentication
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block IfStatement SimpleName groups from ugi
+final Modifier VariableDeclarationStatement Block ReturnStatement SimpleName authentication
+final Modifier VariableDeclarationStatement Block IfStatement SimpleName groups from ugi
+final Modifier VariableDeclarationStatement Block ReturnStatement SimpleName authentication
+groups from ugi SimpleName IfStatement Block ReturnStatement SimpleName authentication
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation StringLiteral ad authentication failed user name or user password is null or empty
+error SimpleName MethodInvocation StringLiteral ad authentication failed user name or user password is null or empty
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation StringLiteral ad authentication failed
+log SimpleName MethodInvocation SimpleName e
+error SimpleName MethodInvocation StringLiteral ad authentication failed
+error SimpleName MethodInvocation SimpleName e
+ad authentication failed StringLiteral MethodInvocation SimpleName e
+private Modifier MethodDeclaration SimpleType SimpleName authentication
+private Modifier MethodDeclaration SimpleName get ad bind authentication
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName authentication
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName authentication
+authentication SimpleName SimpleType MethodDeclaration SimpleName get ad bind authentication
+authentication SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName authentication
+get ad bind authentication SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName authentication
+get ad bind authentication SimpleName MethodDeclaration SingleVariableDeclaration SimpleName authentication
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName authentication
+public Modifier TypeDeclaration MethodDeclaration SimpleName get ad bind authentication
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName authentication
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName authentication
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get ad bind authentication
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName authentication

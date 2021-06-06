@@ -1,0 +1,23 @@
+monitor SimpleName MethodInvocation SimpleName get context
+monitor SimpleName MethodInvocation MethodInvocation SimpleName get instance
+get context SimpleName MethodInvocation MethodInvocation SimpleName get instance
+monitor SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get instance name
+get context SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get instance name
+get instance SimpleName MethodInvocation MethodInvocation SimpleName get instance name
+cached instance name SimpleName Assignment MethodInvocation MethodInvocation SimpleName get instance
+cached instance name SimpleName Assignment MethodInvocation SimpleName get instance name
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName run
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName run
+void PrimitiveType MethodDeclaration SimpleName run
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName run
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName run

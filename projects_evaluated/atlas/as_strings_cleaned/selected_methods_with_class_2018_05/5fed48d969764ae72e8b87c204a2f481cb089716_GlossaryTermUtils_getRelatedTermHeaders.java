@@ -1,0 +1,89 @@
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas related term header
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas related term header
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas related term header
+map SimpleName SimpleType ParameterizedType SimpleType QualifiedName atlas glossary termrelation
+map SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName related terms
+atlas glossary termrelation QualifiedName SimpleType ParameterizedType SingleVariableDeclaration SimpleName related terms
+atlas glossary termrelation QualifiedName SimpleType SingleVariableDeclaration SimpleName relation
+related terms SimpleName MethodInvocation SimpleName get
+related terms SimpleName MethodInvocation SimpleName relation
+get SimpleName MethodInvocation SimpleName relation
+objects SimpleName MethodInvocation SimpleName non null
+objects SimpleName MethodInvocation MethodInvocation SimpleName related terms
+objects SimpleName MethodInvocation MethodInvocation SimpleName get
+objects SimpleName MethodInvocation MethodInvocation SimpleName relation
+non null SimpleName MethodInvocation MethodInvocation SimpleName related terms
+non null SimpleName MethodInvocation MethodInvocation SimpleName get
+non null SimpleName MethodInvocation MethodInvocation SimpleName relation
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas related term header
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas related term header
+atlas related term header SimpleName SimpleType SingleVariableDeclaration SimpleName t
+related terms SimpleName MethodInvocation SimpleName get
+related terms SimpleName MethodInvocation SimpleName relation
+get SimpleName MethodInvocation SimpleName relation
+t SimpleName MethodInvocation SimpleName get term guid
+map SimpleName MethodInvocation SimpleName get
+map SimpleName MethodInvocation MethodInvocation SimpleName t
+map SimpleName MethodInvocation MethodInvocation SimpleName get term guid
+get SimpleName MethodInvocation MethodInvocation SimpleName t
+get SimpleName MethodInvocation MethodInvocation SimpleName get term guid
+header SimpleName VariableDeclarationFragment MethodInvocation SimpleName map
+header SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+header SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName t
+header SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get term guid
+atlas related term header SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName header
+header SimpleName MethodInvocation SimpleName get relation guid
+string utils SimpleName MethodInvocation SimpleName is empty
+string utils SimpleName MethodInvocation MethodInvocation SimpleName header
+string utils SimpleName MethodInvocation MethodInvocation SimpleName get relation guid
+is empty SimpleName MethodInvocation MethodInvocation SimpleName header
+is empty SimpleName MethodInvocation MethodInvocation SimpleName get relation guid
+t SimpleName MethodInvocation SimpleName get relation guid
+string utils SimpleName MethodInvocation SimpleName is not empty
+string utils SimpleName MethodInvocation MethodInvocation SimpleName t
+string utils SimpleName MethodInvocation MethodInvocation SimpleName get relation guid
+is not empty SimpleName MethodInvocation MethodInvocation SimpleName t
+is not empty SimpleName MethodInvocation MethodInvocation SimpleName get relation guid
+string utils SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName string utils
+string utils SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName is not empty
+is empty SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName string utils
+is empty SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName is not empty
+t SimpleName MethodInvocation SimpleName get term guid
+map SimpleName MethodInvocation SimpleName put
+map SimpleName MethodInvocation MethodInvocation SimpleName t
+map SimpleName MethodInvocation MethodInvocation SimpleName get term guid
+map SimpleName MethodInvocation SimpleName t
+put SimpleName MethodInvocation MethodInvocation SimpleName t
+put SimpleName MethodInvocation MethodInvocation SimpleName get term guid
+put SimpleName MethodInvocation SimpleName t
+t SimpleName MethodInvocation MethodInvocation SimpleName t
+get term guid SimpleName MethodInvocation MethodInvocation SimpleName t
+t SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName related terms
+t SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName get
+t SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName relation
+collections SimpleName MethodInvocation SimpleName empty map
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName map
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName atlas related term header
+private Modifier MethodDeclaration SimpleName get related term headers
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName related terms
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType QualifiedName atlas glossary termrelation
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName relation
+map SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get related term headers
+string SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get related term headers
+atlas related term header SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get related term headers
+get related term headers SimpleName MethodDeclaration SingleVariableDeclaration SimpleName related terms
+get related term headers SimpleName MethodDeclaration SingleVariableDeclaration SimpleType QualifiedName atlas glossary termrelation
+get related term headers SimpleName MethodDeclaration SingleVariableDeclaration SimpleName relation
+related terms SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName relation
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleName get related term headers
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName related terms
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName relation
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get related term headers
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName related terms
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName relation

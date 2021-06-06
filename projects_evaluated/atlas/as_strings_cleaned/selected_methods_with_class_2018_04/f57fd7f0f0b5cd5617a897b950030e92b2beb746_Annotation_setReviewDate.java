@@ -1,0 +1,20 @@
+date SimpleName SimpleType SingleVariableDeclaration SimpleName review date
+review date SimpleName FieldAccess Assignment SimpleName review date
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set review date
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName date
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName review date
+void PrimitiveType MethodDeclaration SimpleName set review date
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName date
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName review date
+set review date SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName date
+set review date SimpleName MethodDeclaration SingleVariableDeclaration SimpleName review date
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set review date
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName review date
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set review date
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName review date

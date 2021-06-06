@@ -1,0 +1,67 @@
+column SimpleName SimpleType ArrayType ArrayCreation NumberLiteral empty
+col SimpleName VariableDeclarationFragment ArrayCreation NumberLiteral empty
+col SimpleName ArrayAccess NumberLiteral empty
+colfam StringLiteral MethodInvocation SimpleName get bytes
+colq StringLiteral MethodInvocation SimpleName get bytes
+colv StringLiteral MethodInvocation SimpleName get bytes
+column SimpleName SimpleType ClassInstanceCreation MethodInvocation StringLiteral colfam
+column SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get bytes
+column SimpleName SimpleType ClassInstanceCreation MethodInvocation StringLiteral colq
+column SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get bytes
+column SimpleName SimpleType ClassInstanceCreation MethodInvocation StringLiteral colv
+column SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get bytes
+colfam StringLiteral MethodInvocation ClassInstanceCreation MethodInvocation StringLiteral colq
+colfam StringLiteral MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get bytes
+get bytes SimpleName MethodInvocation ClassInstanceCreation MethodInvocation StringLiteral colq
+get bytes SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get bytes
+colfam StringLiteral MethodInvocation ClassInstanceCreation MethodInvocation StringLiteral colv
+colfam StringLiteral MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get bytes
+get bytes SimpleName MethodInvocation ClassInstanceCreation MethodInvocation StringLiteral colv
+get bytes SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get bytes
+colq StringLiteral MethodInvocation ClassInstanceCreation MethodInvocation StringLiteral colv
+colq StringLiteral MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get bytes
+get bytes SimpleName MethodInvocation ClassInstanceCreation MethodInvocation StringLiteral colv
+get bytes SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get bytes
+col SimpleName ArrayAccess NumberLiteral empty
+colfam StringLiteral MethodInvocation SimpleName get bytes
+colq StringLiteral MethodInvocation SimpleName get bytes
+colv StringLiteral MethodInvocation SimpleName get bytes
+column SimpleName SimpleType ClassInstanceCreation MethodInvocation StringLiteral colfam
+column SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get bytes
+column SimpleName SimpleType ClassInstanceCreation MethodInvocation StringLiteral colq
+column SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get bytes
+column SimpleName SimpleType ClassInstanceCreation MethodInvocation StringLiteral colv
+column SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get bytes
+colfam StringLiteral MethodInvocation ClassInstanceCreation MethodInvocation StringLiteral colq
+colfam StringLiteral MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get bytes
+get bytes SimpleName MethodInvocation ClassInstanceCreation MethodInvocation StringLiteral colq
+get bytes SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get bytes
+colfam StringLiteral MethodInvocation ClassInstanceCreation MethodInvocation StringLiteral colv
+colfam StringLiteral MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get bytes
+get bytes SimpleName MethodInvocation ClassInstanceCreation MethodInvocation StringLiteral colv
+get bytes SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get bytes
+colq StringLiteral MethodInvocation ClassInstanceCreation MethodInvocation StringLiteral colv
+colq StringLiteral MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get bytes
+get bytes SimpleName MethodInvocation ClassInstanceCreation MethodInvocation StringLiteral colv
+get bytes SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get bytes
+col SimpleName ArrayAccess NumberLiteral empty
+byte PrimitiveType ArrayType ArrayCreation NumberLiteral empty
+byte PrimitiveType ArrayType ArrayCreation NumberLiteral empty
+byte PrimitiveType ArrayType ArrayCreation NumberLiteral empty
+column SimpleName SimpleType ClassInstanceCreation ArrayCreation NumberLiteral empty
+column SimpleName SimpleType ClassInstanceCreation ArrayCreation NumberLiteral empty
+column SimpleName SimpleType ClassInstanceCreation ArrayCreation NumberLiteral empty
+empty NumberLiteral ArrayCreation ClassInstanceCreation ArrayCreation NumberLiteral empty
+empty NumberLiteral ArrayCreation ClassInstanceCreation ArrayCreation NumberLiteral empty
+empty NumberLiteral ArrayCreation ClassInstanceCreation ArrayCreation NumberLiteral empty
+col SimpleName ArrayAccess NumberLiteral empty
+public Modifier MethodDeclaration ArrayType SimpleType SimpleName column
+public Modifier MethodDeclaration SimpleName create columns
+public Modifier MethodDeclaration Block ReturnStatement SimpleName col
+column SimpleName SimpleType ArrayType MethodDeclaration SimpleName create columns
+create columns SimpleName MethodDeclaration Block ReturnStatement SimpleName col
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName create columns
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create columns

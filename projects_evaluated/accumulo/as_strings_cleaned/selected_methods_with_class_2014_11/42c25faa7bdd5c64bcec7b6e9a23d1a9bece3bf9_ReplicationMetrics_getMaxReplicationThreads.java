@@ -1,0 +1,21 @@
+master SimpleName MethodInvocation SimpleName get master monitor info
+replication util SimpleName MethodInvocation SimpleName get max replication threads
+replication util SimpleName MethodInvocation MethodInvocation SimpleName master
+replication util SimpleName MethodInvocation MethodInvocation SimpleName get master monitor info
+get max replication threads SimpleName MethodInvocation MethodInvocation SimpleName master
+get max replication threads SimpleName MethodInvocation MethodInvocation SimpleName get master monitor info
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType int
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName get max replication threads
+public Modifier MethodDeclaration PrimitiveType int
+public Modifier MethodDeclaration SimpleName get max replication threads
+int PrimitiveType MethodDeclaration SimpleName get max replication threads
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SimpleName get max replication threads
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get max replication threads

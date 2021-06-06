@@ -1,0 +1,131 @@
+service client SimpleName MethodInvocation SimpleName call api with body and params
+service client SimpleName MethodInvocation QualifiedName atlas clientapiname lineage outputs graph
+service client SimpleName MethodInvocation SimpleName sales fact table
+service client SimpleName MethodInvocation StringLiteral outputs
+call api with body and params SimpleName MethodInvocation QualifiedName atlas clientapiname lineage outputs graph
+call api with body and params SimpleName MethodInvocation SimpleName sales fact table
+call api with body and params SimpleName MethodInvocation StringLiteral outputs
+call api with body and params SimpleName MethodInvocation StringLiteral graph
+atlas clientapiname lineage outputs graph QualifiedName MethodInvocation SimpleName sales fact table
+atlas clientapiname lineage outputs graph QualifiedName MethodInvocation StringLiteral outputs
+atlas clientapiname lineage outputs graph QualifiedName MethodInvocation StringLiteral graph
+sales fact table SimpleName MethodInvocation StringLiteral outputs
+sales fact table SimpleName MethodInvocation StringLiteral graph
+outputs StringLiteral MethodInvocation StringLiteral graph
+response SimpleName VariableDeclarationFragment MethodInvocation SimpleName service client
+response SimpleName VariableDeclarationFragment MethodInvocation SimpleName call api with body and params
+response SimpleName VariableDeclarationFragment MethodInvocation QualifiedName atlas clientapiname lineage outputs graph
+response SimpleName VariableDeclarationFragment MethodInvocation SimpleName sales fact table
+response SimpleName VariableDeclarationFragment MethodInvocation StringLiteral outputs
+response SimpleName VariableDeclarationFragment MethodInvocation StringLiteral graph
+json object SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName response
+assert SimpleName MethodInvocation SimpleName assert not null
+assert SimpleName MethodInvocation SimpleName response
+assert not null SimpleName MethodInvocation SimpleName response
+outputs graph StringLiteral InfixExpression SimpleName response
+systemout QualifiedName MethodInvocation SimpleName println
+systemout QualifiedName MethodInvocation InfixExpression StringLiteral outputs graph
+systemout QualifiedName MethodInvocation InfixExpression SimpleName response
+println SimpleName MethodInvocation InfixExpression StringLiteral outputs graph
+println SimpleName MethodInvocation InfixExpression SimpleName response
+response SimpleName MethodInvocation SimpleName get
+response SimpleName MethodInvocation QualifiedName atlas clientrequest id
+get SimpleName MethodInvocation QualifiedName atlas clientrequest id
+assert SimpleName MethodInvocation SimpleName assert not null
+assert SimpleName MethodInvocation MethodInvocation SimpleName response
+assert SimpleName MethodInvocation MethodInvocation SimpleName get
+assert SimpleName MethodInvocation MethodInvocation QualifiedName atlas clientrequest id
+assert not null SimpleName MethodInvocation MethodInvocation SimpleName response
+assert not null SimpleName MethodInvocation MethodInvocation SimpleName get
+assert not null SimpleName MethodInvocation MethodInvocation QualifiedName atlas clientrequest id
+response SimpleName MethodInvocation SimpleName get json object
+response SimpleName MethodInvocation QualifiedName atlas clientresults
+get json object SimpleName MethodInvocation QualifiedName atlas clientresults
+results SimpleName VariableDeclarationFragment MethodInvocation SimpleName response
+results SimpleName VariableDeclarationFragment MethodInvocation SimpleName get json object
+results SimpleName VariableDeclarationFragment MethodInvocation QualifiedName atlas clientresults
+json object SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName results
+assert SimpleName MethodInvocation SimpleName assert not null
+assert SimpleName MethodInvocation SimpleName results
+assert not null SimpleName MethodInvocation SimpleName results
+results SimpleName MethodInvocation SimpleName to string
+instance serialization SimpleName MethodInvocation SimpleName from json struct
+instance serialization SimpleName MethodInvocation MethodInvocation SimpleName results
+instance serialization SimpleName MethodInvocation MethodInvocation SimpleName to string
+instance serialization SimpleName MethodInvocation BooleanLiteral true
+from json struct SimpleName MethodInvocation MethodInvocation SimpleName results
+from json struct SimpleName MethodInvocation MethodInvocation SimpleName to string
+from json struct SimpleName MethodInvocation BooleanLiteral true
+results SimpleName MethodInvocation MethodInvocation BooleanLiteral true
+to string SimpleName MethodInvocation MethodInvocation BooleanLiteral true
+results instance SimpleName VariableDeclarationFragment MethodInvocation SimpleName instance serialization
+results instance SimpleName VariableDeclarationFragment MethodInvocation SimpleName from json struct
+results instance SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName results
+results instance SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName to string
+results instance SimpleName VariableDeclarationFragment MethodInvocation BooleanLiteral true
+struct SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName results instance
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName struct
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName struct
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName struct
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName struct
+results instance SimpleName MethodInvocation SimpleName get
+results instance SimpleName MethodInvocation StringLiteral vertices
+get SimpleName MethodInvocation StringLiteral vertices
+vertices SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName results instance
+vertices SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get
+vertices SimpleName VariableDeclarationFragment CastExpression MethodInvocation StringLiteral vertices
+vertices SimpleName MethodInvocation SimpleName size
+assert SimpleName MethodInvocation SimpleName assert equals
+assert SimpleName MethodInvocation MethodInvocation SimpleName vertices
+assert SimpleName MethodInvocation MethodInvocation SimpleName size
+assert SimpleName MethodInvocation NumberLiteral empty
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName vertices
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName size
+assert equals SimpleName MethodInvocation NumberLiteral empty
+vertices SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+size SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName struct
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName struct
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName struct
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName struct
+results instance SimpleName MethodInvocation SimpleName get
+results instance SimpleName MethodInvocation StringLiteral edges
+get SimpleName MethodInvocation StringLiteral edges
+edges SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName results instance
+edges SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get
+edges SimpleName VariableDeclarationFragment CastExpression MethodInvocation StringLiteral edges
+edges SimpleName MethodInvocation SimpleName size
+assert SimpleName MethodInvocation SimpleName assert equals
+assert SimpleName MethodInvocation MethodInvocation SimpleName edges
+assert SimpleName MethodInvocation MethodInvocation SimpleName size
+assert SimpleName MethodInvocation NumberLiteral empty
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName edges
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName size
+assert equals SimpleName MethodInvocation NumberLiteral empty
+edges SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+size SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test outputs graph
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test outputs graph
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName test outputs graph
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+test outputs graph SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test outputs graph
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test outputs graph
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

@@ -1,0 +1,40 @@
+configuration SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName config
+config SimpleName Assignment MethodInvocation SimpleName get configuration
+atlas exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+runtime exception SimpleName SimpleType ClassInstanceCreation SimpleName e
+titan factory SimpleName MethodInvocation SimpleName open
+titan factory SimpleName MethodInvocation SimpleName config
+open SimpleName MethodInvocation SimpleName config
+graph instance SimpleName Assignment MethodInvocation SimpleName titan factory
+graph instance SimpleName Assignment MethodInvocation SimpleName open
+graph instance SimpleName Assignment MethodInvocation SimpleName config
+override SimpleName MarkerAnnotation MethodDeclaration MarkerAnnotation SimpleName singleton
+override SimpleName MarkerAnnotation MethodDeclaration MarkerAnnotation SimpleName provides
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName titan graph
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName get
+singleton SimpleName MarkerAnnotation MethodDeclaration MarkerAnnotation SimpleName provides
+singleton SimpleName MarkerAnnotation MethodDeclaration Modifier public
+singleton SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName titan graph
+singleton SimpleName MarkerAnnotation MethodDeclaration SimpleName get
+provides SimpleName MarkerAnnotation MethodDeclaration Modifier public
+provides SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName titan graph
+provides SimpleName MarkerAnnotation MethodDeclaration SimpleName get
+public Modifier MethodDeclaration SimpleType SimpleName titan graph
+public Modifier MethodDeclaration SimpleName get
+public Modifier MethodDeclaration Block ReturnStatement SimpleName graph instance
+titan graph SimpleName SimpleType MethodDeclaration SimpleName get
+get SimpleName MethodDeclaration Block ReturnStatement SimpleName graph instance
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName singleton
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName provides
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName titan graph
+public Modifier TypeDeclaration MethodDeclaration SimpleName get
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName singleton
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName provides
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName titan graph
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get

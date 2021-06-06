@@ -1,0 +1,20 @@
+cookie SimpleName SimpleType SingleVariableDeclaration SimpleName cookie
+cookie SimpleName FieldAccess Assignment SimpleName cookie
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set cookie
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName cookie
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName cookie
+void PrimitiveType MethodDeclaration SimpleName set cookie
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName cookie
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName cookie
+set cookie SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName cookie
+set cookie SimpleName MethodDeclaration SingleVariableDeclaration SimpleName cookie
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set cookie
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cookie
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set cookie
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cookie

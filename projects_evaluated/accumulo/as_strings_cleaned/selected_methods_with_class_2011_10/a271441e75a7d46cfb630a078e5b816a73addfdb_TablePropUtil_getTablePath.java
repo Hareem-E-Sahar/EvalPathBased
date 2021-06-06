@@ -1,0 +1,53 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName tablename
+hdfs zoo instance SimpleName MethodInvocation SimpleName get instance
+zoo util SimpleName MethodInvocation SimpleName get root
+zoo util SimpleName MethodInvocation MethodInvocation SimpleName hdfs zoo instance
+zoo util SimpleName MethodInvocation MethodInvocation SimpleName get instance
+get root SimpleName MethodInvocation MethodInvocation SimpleName hdfs zoo instance
+get root SimpleName MethodInvocation MethodInvocation SimpleName get instance
+zoo util SimpleName MethodInvocation InfixExpression QualifiedName constantsztables
+get root SimpleName MethodInvocation InfixExpression QualifiedName constantsztables
+hdfs zoo instance SimpleName MethodInvocation MethodInvocation InfixExpression QualifiedName constantsztables
+get instance SimpleName MethodInvocation MethodInvocation InfixExpression QualifiedName constantsztables
+zoo util SimpleName MethodInvocation InfixExpression StringLiteral /
+get root SimpleName MethodInvocation InfixExpression StringLiteral /
+hdfs zoo instance SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral /
+get instance SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral /
+zoo util SimpleName MethodInvocation InfixExpression SimpleName tablename
+get root SimpleName MethodInvocation InfixExpression SimpleName tablename
+hdfs zoo instance SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName tablename
+get instance SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName tablename
+zoo util SimpleName MethodInvocation InfixExpression QualifiedName constantsztable conf
+get root SimpleName MethodInvocation InfixExpression QualifiedName constantsztable conf
+hdfs zoo instance SimpleName MethodInvocation MethodInvocation InfixExpression QualifiedName constantsztable conf
+get instance SimpleName MethodInvocation MethodInvocation InfixExpression QualifiedName constantsztable conf
+constantsztables QualifiedName InfixExpression StringLiteral /
+constantsztables QualifiedName InfixExpression SimpleName tablename
+constantsztables QualifiedName InfixExpression QualifiedName constantsztable conf
+/ StringLiteral InfixExpression SimpleName tablename
+/ StringLiteral InfixExpression QualifiedName constantsztable conf
+tablename SimpleName InfixExpression QualifiedName constantsztable conf
+private Modifier MethodDeclaration Modifier static
+private Modifier MethodDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SimpleName get table path
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName tablename
+static Modifier MethodDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SimpleName get table path
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName tablename
+string SimpleName SimpleType MethodDeclaration SimpleName get table path
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName tablename
+get table path SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get table path SimpleName MethodDeclaration SingleVariableDeclaration SimpleName tablename
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName get table path
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName tablename
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get table path
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName tablename

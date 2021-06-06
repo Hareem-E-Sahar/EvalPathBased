@@ -1,0 +1,51 @@
+colf SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName text
+text SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName colf
+colq SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName text
+text SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName colq
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+i SimpleName InfixExpression NumberLiteral empty
+byte PrimitiveType CastExpression SimpleName i
+colf SimpleName MethodInvocation SimpleName append
+colf SimpleName MethodInvocation ArrayCreation ArrayType PrimitiveType byte
+colf SimpleName MethodInvocation NumberLiteral empty
+colf SimpleName MethodInvocation NumberLiteral empty
+append SimpleName MethodInvocation ArrayCreation ArrayType PrimitiveType byte
+append SimpleName MethodInvocation NumberLiteral empty
+append SimpleName MethodInvocation NumberLiteral empty
+byte PrimitiveType ArrayType ArrayCreation MethodInvocation NumberLiteral empty
+byte PrimitiveType ArrayType ArrayCreation MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral InfixExpression SimpleName i
+byte PrimitiveType CastExpression ParenthesizedExpression InfixExpression NumberLiteral empty
+byte PrimitiveType CastExpression ParenthesizedExpression InfixExpression SimpleName i
+colq SimpleName MethodInvocation SimpleName append
+colq SimpleName MethodInvocation ArrayCreation ArrayType PrimitiveType byte
+colq SimpleName MethodInvocation NumberLiteral empty
+colq SimpleName MethodInvocation NumberLiteral empty
+append SimpleName MethodInvocation ArrayCreation ArrayType PrimitiveType byte
+append SimpleName MethodInvocation NumberLiteral empty
+append SimpleName MethodInvocation NumberLiteral empty
+byte PrimitiveType ArrayType ArrayCreation MethodInvocation NumberLiteral empty
+byte PrimitiveType ArrayType ArrayCreation MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+empty NumberLiteral InfixExpression ForStatement PostfixExpression SimpleName i
+run test SimpleName MethodInvocation SimpleName colf
+run test SimpleName MethodInvocation SimpleName colq
+colf SimpleName MethodInvocation SimpleName colq
+run test SimpleName MethodInvocation SimpleName colf
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test binary
+void PrimitiveType MethodDeclaration SimpleName test binary
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test binary
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test binary

@@ -1,0 +1,500 @@
+configuration SimpleName SimpleType SingleVariableDeclaration SimpleName conf
+file system SimpleName SimpleType SingleVariableDeclaration SimpleName fs
+long PrimitiveType SingleVariableDeclaration SimpleName max time
+sorted map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+sorted map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+sorted map SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName table ids
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName table ids
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName table ids
+tree map SimpleName SimpleType ParameterizedType SimpleType SimpleName key
+tree map SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+key SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+tree map SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName tablet entries
+key SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName tablet entries
+value SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName tablet entries
+file skv writer SimpleName SimpleType SingleVariableDeclaration SimpleName out
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName text
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName column fq
+text SimpleName SimpleType ParameterizedType SimpleType SimpleName column fq
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName text
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName column fq
+text SimpleName SimpleType ParameterizedType SimpleType SimpleName column fq
+text SimpleName SimpleType ClassInstanceCreation StringLiteral pr
+col qual map SimpleName MethodInvocation SimpleName put
+col qual map SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName text
+col qual map SimpleName MethodInvocation ClassInstanceCreation StringLiteral pr
+col qual map SimpleName MethodInvocation QualifiedName constantsmetadata prev row column
+put SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName text
+put SimpleName MethodInvocation ClassInstanceCreation StringLiteral pr
+put SimpleName MethodInvocation QualifiedName constantsmetadata prev row column
+text SimpleName SimpleType ClassInstanceCreation MethodInvocation QualifiedName constantsmetadata prev row column
+pr StringLiteral ClassInstanceCreation MethodInvocation QualifiedName constantsmetadata prev row column
+text SimpleName SimpleType ClassInstanceCreation StringLiteral dir
+col qual map SimpleName MethodInvocation SimpleName put
+col qual map SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName text
+col qual map SimpleName MethodInvocation ClassInstanceCreation StringLiteral dir
+col qual map SimpleName MethodInvocation QualifiedName constantsmetadata directory column
+put SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName text
+put SimpleName MethodInvocation ClassInstanceCreation StringLiteral dir
+put SimpleName MethodInvocation QualifiedName constantsmetadata directory column
+text SimpleName SimpleType ClassInstanceCreation MethodInvocation QualifiedName constantsmetadata directory column
+dir StringLiteral ClassInstanceCreation MethodInvocation QualifiedName constantsmetadata directory column
+text SimpleName SimpleType ClassInstanceCreation StringLiteral oldprevrow
+col qual map SimpleName MethodInvocation SimpleName put
+col qual map SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName text
+col qual map SimpleName MethodInvocation ClassInstanceCreation StringLiteral oldprevrow
+col qual map SimpleName MethodInvocation QualifiedName constantsmetadata old prev row column
+put SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName text
+put SimpleName MethodInvocation ClassInstanceCreation StringLiteral oldprevrow
+put SimpleName MethodInvocation QualifiedName constantsmetadata old prev row column
+text SimpleName SimpleType ClassInstanceCreation MethodInvocation QualifiedName constantsmetadata old prev row column
+oldprevrow StringLiteral ClassInstanceCreation MethodInvocation QualifiedName constantsmetadata old prev row column
+text SimpleName SimpleType ClassInstanceCreation StringLiteral split ratio
+col qual map SimpleName MethodInvocation SimpleName put
+col qual map SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName text
+col qual map SimpleName MethodInvocation ClassInstanceCreation StringLiteral split ratio
+col qual map SimpleName MethodInvocation QualifiedName constantsmetadata split ratio column
+put SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName text
+put SimpleName MethodInvocation ClassInstanceCreation StringLiteral split ratio
+put SimpleName MethodInvocation QualifiedName constantsmetadata split ratio column
+text SimpleName SimpleType ClassInstanceCreation MethodInvocation QualifiedName constantsmetadata split ratio column
+split ratio StringLiteral ClassInstanceCreation MethodInvocation QualifiedName constantsmetadata split ratio column
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+value SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName prev row
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName key
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+key SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+entry SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+key SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+value SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+tablet entries SimpleName MethodInvocation SimpleName entry set
+entry SimpleName MethodInvocation SimpleName get key
+entry SimpleName MethodInvocation MethodInvocation SimpleName get column family
+get key SimpleName MethodInvocation MethodInvocation SimpleName get column family
+entry SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to string
+get key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to string
+get column family SimpleName MethodInvocation MethodInvocation SimpleName to string
+get column family SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName equals
+to string SimpleName MethodInvocation MethodInvocation SimpleName equals
+get column family SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral file
+to string SimpleName MethodInvocation MethodInvocation StringLiteral file
+equals SimpleName MethodInvocation StringLiteral file
+entry SimpleName MethodInvocation SimpleName get key
+entry SimpleName MethodInvocation MethodInvocation SimpleName get column qualifier
+get key SimpleName MethodInvocation MethodInvocation SimpleName get column qualifier
+entry SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to string
+get key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to string
+get column qualifier SimpleName MethodInvocation MethodInvocation SimpleName to string
+files SimpleName MethodInvocation SimpleName add
+files SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get column qualifier
+files SimpleName MethodInvocation MethodInvocation SimpleName to string
+add SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get column qualifier
+add SimpleName MethodInvocation MethodInvocation SimpleName to string
+entry SimpleName MethodInvocation SimpleName get key
+entry SimpleName MethodInvocation MethodInvocation SimpleName get column family
+get key SimpleName MethodInvocation MethodInvocation SimpleName get column family
+entry SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to string
+get key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to string
+get column family SimpleName MethodInvocation MethodInvocation SimpleName to string
+get column family SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName equals
+to string SimpleName MethodInvocation MethodInvocation SimpleName equals
+get column family SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral tab
+to string SimpleName MethodInvocation MethodInvocation StringLiteral tab
+equals SimpleName MethodInvocation StringLiteral tab
+entry SimpleName MethodInvocation SimpleName get key
+entry SimpleName MethodInvocation MethodInvocation SimpleName get column qualifier
+get key SimpleName MethodInvocation MethodInvocation SimpleName get column qualifier
+entry SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to string
+get key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to string
+get column qualifier SimpleName MethodInvocation MethodInvocation SimpleName to string
+get column qualifier SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName equals
+to string SimpleName MethodInvocation MethodInvocation SimpleName equals
+get column qualifier SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral pr
+to string SimpleName MethodInvocation MethodInvocation StringLiteral pr
+equals SimpleName MethodInvocation StringLiteral pr
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+equals SimpleName MethodInvocation InfixExpression MethodInvocation StringLiteral pr
+tab StringLiteral MethodInvocation InfixExpression MethodInvocation SimpleName equals
+tab StringLiteral MethodInvocation InfixExpression MethodInvocation StringLiteral pr
+entry SimpleName MethodInvocation SimpleName get value
+prev row SimpleName Assignment MethodInvocation SimpleName entry
+prev row SimpleName Assignment MethodInvocation SimpleName get value
+entry SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName tablet entries
+entry SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName entry set
+files SimpleName MethodInvocation SimpleName size
+files SimpleName MethodInvocation InfixExpression NumberLiteral empty
+size SimpleName MethodInvocation InfixExpression NumberLiteral empty
+tablet entries SimpleName MethodInvocation SimpleName last key
+tablet entries SimpleName MethodInvocation MethodInvocation SimpleName get row
+last key SimpleName MethodInvocation MethodInvocation SimpleName get row
+tablet StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName tablet entries
+tablet StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName last key
+tablet StringLiteral InfixExpression MethodInvocation SimpleName get row
+tablet StringLiteral InfixExpression StringLiteral has no files
+tablet entries SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral has no files
+last key SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral has no files
+get row SimpleName MethodInvocation InfixExpression StringLiteral has no files
+exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral tablet
+exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral has no files
+tablet entries SimpleName MethodInvocation SimpleName last key
+tablet entries SimpleName MethodInvocation MethodInvocation SimpleName get row
+last key SimpleName MethodInvocation MethodInvocation SimpleName get row
+tablet StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName tablet entries
+tablet StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName last key
+tablet StringLiteral InfixExpression MethodInvocation SimpleName get row
+tablet StringLiteral InfixExpression StringLiteral has no prevrow
+tablet entries SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral has no prevrow
+last key SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral has no prevrow
+get row SimpleName MethodInvocation InfixExpression StringLiteral has no prevrow
+exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral tablet
+exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral has no prevrow
+tablet entries SimpleName MethodInvocation SimpleName last key
+tablet entries SimpleName MethodInvocation MethodInvocation SimpleName get row
+last key SimpleName MethodInvocation MethodInvocation SimpleName get row
+text SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get row
+key extent SimpleName SimpleType ClassInstanceCreation SimpleName prev row
+text SimpleName SimpleType ClassInstanceCreation ClassInstanceCreation SimpleName prev row
+get row SimpleName MethodInvocation ClassInstanceCreation ClassInstanceCreation SimpleName prev row
+ke SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName key extent
+ke SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName prev row
+key extent SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ke
+sorted key value iterator SimpleName SimpleType ParameterizedType SimpleType SimpleName key
+sorted key value iterator SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+key SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+sorted key value iterator SimpleName SimpleType ParameterizedType SimpleType SimpleName key
+sorted key value iterator SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+key SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+string SimpleName SimpleType SingleVariableDeclaration SimpleName file
+server constants SimpleName MethodInvocation SimpleName get metadata table dir
+conver file name SimpleName MethodInvocation SimpleName file
+server constants SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName conver file name
+server constants SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName file
+get metadata table dir SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName conver file name
+get metadata table dir SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName file
+path SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName server constants
+path SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName get metadata table dir
+path SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName conver file name
+path SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName file
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName path
+file operations SimpleName MethodInvocation SimpleName get instance
+accumulo configuration SimpleName MethodInvocation SimpleName get default configuration
+file operations SimpleName MethodInvocation MethodInvocation SimpleName open reader
+get instance SimpleName MethodInvocation MethodInvocation SimpleName open reader
+file operations SimpleName MethodInvocation MethodInvocation SimpleName path
+get instance SimpleName MethodInvocation MethodInvocation SimpleName path
+file operations SimpleName MethodInvocation MethodInvocation BooleanLiteral true
+get instance SimpleName MethodInvocation MethodInvocation BooleanLiteral true
+file operations SimpleName MethodInvocation MethodInvocation SimpleName fs
+get instance SimpleName MethodInvocation MethodInvocation SimpleName fs
+file operations SimpleName MethodInvocation MethodInvocation SimpleName conf
+get instance SimpleName MethodInvocation MethodInvocation SimpleName conf
+open reader SimpleName MethodInvocation SimpleName path
+open reader SimpleName MethodInvocation BooleanLiteral true
+open reader SimpleName MethodInvocation SimpleName fs
+open reader SimpleName MethodInvocation SimpleName conf
+open reader SimpleName MethodInvocation MethodInvocation SimpleName accumulo configuration
+open reader SimpleName MethodInvocation MethodInvocation SimpleName get default configuration
+path SimpleName MethodInvocation BooleanLiteral true
+path SimpleName MethodInvocation SimpleName fs
+path SimpleName MethodInvocation SimpleName conf
+path SimpleName MethodInvocation MethodInvocation SimpleName accumulo configuration
+path SimpleName MethodInvocation MethodInvocation SimpleName get default configuration
+true BooleanLiteral MethodInvocation SimpleName fs
+true BooleanLiteral MethodInvocation SimpleName conf
+true BooleanLiteral MethodInvocation MethodInvocation SimpleName accumulo configuration
+true BooleanLiteral MethodInvocation MethodInvocation SimpleName get default configuration
+fs SimpleName MethodInvocation SimpleName conf
+fs SimpleName MethodInvocation MethodInvocation SimpleName accumulo configuration
+fs SimpleName MethodInvocation MethodInvocation SimpleName get default configuration
+conf SimpleName MethodInvocation MethodInvocation SimpleName accumulo configuration
+conf SimpleName MethodInvocation MethodInvocation SimpleName get default configuration
+in SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName file operations
+in SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get instance
+in SimpleName VariableDeclarationFragment MethodInvocation SimpleName open reader
+in SimpleName VariableDeclarationFragment MethodInvocation SimpleName path
+in SimpleName VariableDeclarationFragment MethodInvocation BooleanLiteral true
+in SimpleName VariableDeclarationFragment MethodInvocation SimpleName fs
+in SimpleName VariableDeclarationFragment MethodInvocation SimpleName conf
+in SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName accumulo configuration
+in SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get default configuration
+file skv iterator SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName in
+tablet iters SimpleName MethodInvocation SimpleName add
+tablet iters SimpleName MethodInvocation SimpleName in
+add SimpleName MethodInvocation SimpleName in
+string SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName files
+file SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName files
+multi iterator SimpleName SimpleType ClassInstanceCreation SimpleName tablet iters
+multi iterator SimpleName SimpleType ClassInstanceCreation SimpleName ke
+tablet iters SimpleName ClassInstanceCreation SimpleName ke
+multi iter SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName multi iterator
+multi iter SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName tablet iters
+multi iter SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName ke
+multi iterator SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName multi iter
+deleting iterator SimpleName SimpleType ClassInstanceCreation SimpleName multi iter
+deleting iterator SimpleName SimpleType ClassInstanceCreation BooleanLiteral false
+multi iter SimpleName ClassInstanceCreation BooleanLiteral false
+del iter SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName deleting iterator
+del iter SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName multi iter
+del iter SimpleName VariableDeclarationFragment ClassInstanceCreation BooleanLiteral false
+deleting iterator SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName del iter
+versioning iterator SimpleName SimpleType ClassInstanceCreation SimpleName del iter
+versioning iterator SimpleName SimpleType ClassInstanceCreation NumberLiteral empty
+del iter SimpleName ClassInstanceCreation NumberLiteral empty
+tablet iter SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName versioning iterator
+tablet iter SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName del iter
+tablet iter SimpleName VariableDeclarationFragment ClassInstanceCreation NumberLiteral empty
+versioning iterator SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName tablet iter
+tablet iter SimpleName MethodInvocation SimpleName seek
+tablet iter SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName range
+tablet iter SimpleName MethodInvocation QualifiedName locality group utilempty cf set
+tablet iter SimpleName MethodInvocation BooleanLiteral false
+seek SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName range
+seek SimpleName MethodInvocation QualifiedName locality group utilempty cf set
+seek SimpleName MethodInvocation BooleanLiteral false
+range SimpleName SimpleType ClassInstanceCreation MethodInvocation QualifiedName locality group utilempty cf set
+range SimpleName SimpleType ClassInstanceCreation MethodInvocation BooleanLiteral false
+locality group utilempty cf set QualifiedName MethodInvocation BooleanLiteral false
+tree map SimpleName SimpleType ParameterizedType SimpleType SimpleName key
+tree map SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+key SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+tree map SimpleName SimpleType ParameterizedType SimpleType SimpleName key
+tree map SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+key SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+tablet iter SimpleName MethodInvocation SimpleName has top
+tablet iter SimpleName MethodInvocation SimpleName get top key
+key SimpleName VariableDeclarationFragment MethodInvocation SimpleName tablet iter
+key SimpleName VariableDeclarationFragment MethodInvocation SimpleName get top key
+key SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName key
+tablet iter SimpleName MethodInvocation SimpleName get top value
+val SimpleName VariableDeclarationFragment MethodInvocation SimpleName tablet iter
+val SimpleName VariableDeclarationFragment MethodInvocation SimpleName get top value
+value SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName val
+key SimpleName MethodInvocation SimpleName get row
+key SimpleName MethodInvocation MethodInvocation SimpleName get length
+get row SimpleName MethodInvocation MethodInvocation SimpleName get length
+key SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral empty
+get row SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral empty
+get length SimpleName MethodInvocation InfixExpression NumberLiteral empty
+key SimpleName MethodInvocation SimpleName get row
+key SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+get row SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+key SimpleName MethodInvocation MethodInvocation ArrayAccess NumberLiteral empty
+get row SimpleName MethodInvocation MethodInvocation ArrayAccess NumberLiteral empty
+get bytes SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+get bytes SimpleName MethodInvocation ArrayAccess InfixExpression CharacterLiteral ~
+empty NumberLiteral ArrayAccess InfixExpression CharacterLiteral ~
+empty NumberLiteral InfixExpression InfixExpression InfixExpression CharacterLiteral ~
+flush row SimpleName MethodInvocation SimpleName out
+flush row SimpleName MethodInvocation SimpleName tm
+flush row SimpleName MethodInvocation SimpleName max time
+out SimpleName MethodInvocation SimpleName tm
+out SimpleName MethodInvocation SimpleName max time
+tm SimpleName MethodInvocation SimpleName max time
+key SimpleName MethodInvocation SimpleName get row
+key SimpleName MethodInvocation MethodInvocation SimpleName to string
+get row SimpleName MethodInvocation MethodInvocation SimpleName to string
+key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName starts with
+get row SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName starts with
+to string SimpleName MethodInvocation MethodInvocation SimpleName starts with
+key SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral del
+get row SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral del
+to string SimpleName MethodInvocation MethodInvocation StringLiteral del
+starts with SimpleName MethodInvocation StringLiteral del
+key SimpleName MethodInvocation SimpleName get row
+key SimpleName MethodInvocation MethodInvocation SimpleName to string
+get row SimpleName MethodInvocation MethodInvocation SimpleName to string
+key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName starts with
+get row SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName starts with
+to string SimpleName MethodInvocation MethodInvocation SimpleName starts with
+key SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral delmetadata
+get row SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral delmetadata
+to string SimpleName MethodInvocation MethodInvocation StringLiteral delmetadata
+starts with SimpleName MethodInvocation StringLiteral delmetadata
+key SimpleName MethodInvocation SimpleName get row
+key SimpleName MethodInvocation MethodInvocation SimpleName to string
+get row SimpleName MethodInvocation MethodInvocation SimpleName to string
+key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName substring
+get row SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName substring
+to string SimpleName MethodInvocation MethodInvocation SimpleName substring
+key SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+get row SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+to string SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+substring SimpleName MethodInvocation NumberLiteral empty
+path SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName to string
+path SimpleName VariableDeclarationFragment MethodInvocation SimpleName substring
+path SimpleName VariableDeclarationFragment MethodInvocation NumberLiteral empty
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName path
+conver file name SimpleName MethodInvocation SimpleName path
+conver file name SimpleName MethodInvocation MethodInvocation SimpleName to string
+path SimpleName MethodInvocation MethodInvocation SimpleName to string
+path SimpleName Assignment MethodInvocation MethodInvocation SimpleName conver file name
+path SimpleName Assignment MethodInvocation MethodInvocation SimpleName path
+path SimpleName Assignment MethodInvocation SimpleName to string
+path SimpleName MethodInvocation SimpleName split
+path SimpleName MethodInvocation StringLiteral /
+split SimpleName MethodInvocation StringLiteral /
+tokens SimpleName VariableDeclarationFragment MethodInvocation SimpleName path
+tokens SimpleName VariableDeclarationFragment MethodInvocation SimpleName split
+tokens SimpleName VariableDeclarationFragment MethodInvocation StringLiteral /
+tokens SimpleName ArrayAccess NumberLiteral empty
+tokens SimpleName ArrayAccess NumberLiteral empty
+table ids SimpleName MethodInvocation SimpleName get
+table ids SimpleName MethodInvocation ArrayAccess SimpleName tokens
+table ids SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+get SimpleName MethodInvocation ArrayAccess SimpleName tokens
+get SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+tokens SimpleName ArrayAccess Assignment MethodInvocation SimpleName table ids
+tokens SimpleName ArrayAccess Assignment MethodInvocation SimpleName get
+empty NumberLiteral ArrayAccess Assignment MethodInvocation SimpleName table ids
+empty NumberLiteral ArrayAccess Assignment MethodInvocation SimpleName get
+arrays SimpleName MethodInvocation SimpleName as list
+arrays SimpleName MethodInvocation SimpleName tokens
+as list SimpleName MethodInvocation SimpleName tokens
+string util SimpleName MethodInvocation SimpleName join
+string util SimpleName MethodInvocation MethodInvocation SimpleName arrays
+string util SimpleName MethodInvocation MethodInvocation SimpleName as list
+string util SimpleName MethodInvocation MethodInvocation SimpleName tokens
+string util SimpleName MethodInvocation StringLiteral /
+join SimpleName MethodInvocation MethodInvocation SimpleName arrays
+join SimpleName MethodInvocation MethodInvocation SimpleName as list
+join SimpleName MethodInvocation MethodInvocation SimpleName tokens
+join SimpleName MethodInvocation StringLiteral /
+arrays SimpleName MethodInvocation MethodInvocation StringLiteral /
+as list SimpleName MethodInvocation MethodInvocation StringLiteral /
+tokens SimpleName MethodInvocation MethodInvocation StringLiteral /
+path SimpleName Assignment MethodInvocation SimpleName string util
+path SimpleName Assignment MethodInvocation SimpleName join
+path SimpleName Assignment MethodInvocation MethodInvocation SimpleName arrays
+path SimpleName Assignment MethodInvocation MethodInvocation SimpleName as list
+path SimpleName Assignment MethodInvocation MethodInvocation SimpleName tokens
+path SimpleName Assignment MethodInvocation StringLiteral /
+del StringLiteral InfixExpression SimpleName path
+text SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral del
+text SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName path
+new key SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName key
+key SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName new key
+key SimpleName MethodInvocation SimpleName get timestamp
+new key SimpleName MethodInvocation SimpleName set timestamp
+new key SimpleName MethodInvocation MethodInvocation SimpleName key
+new key SimpleName MethodInvocation MethodInvocation SimpleName get timestamp
+set timestamp SimpleName MethodInvocation MethodInvocation SimpleName key
+set timestamp SimpleName MethodInvocation MethodInvocation SimpleName get timestamp
+out SimpleName MethodInvocation SimpleName append
+out SimpleName MethodInvocation SimpleName new key
+out SimpleName MethodInvocation SimpleName val
+append SimpleName MethodInvocation SimpleName new key
+append SimpleName MethodInvocation SimpleName val
+new key SimpleName MethodInvocation SimpleName val
+out SimpleName MethodInvocation SimpleName append
+out SimpleName MethodInvocation SimpleName key
+out SimpleName MethodInvocation SimpleName val
+append SimpleName MethodInvocation SimpleName key
+append SimpleName MethodInvocation SimpleName val
+key SimpleName MethodInvocation SimpleName val
+translate key SimpleName MethodInvocation SimpleName key
+translate key SimpleName MethodInvocation SimpleName col qual map
+translate key SimpleName MethodInvocation SimpleName table ids
+key SimpleName MethodInvocation SimpleName col qual map
+key SimpleName MethodInvocation SimpleName table ids
+col qual map SimpleName MethodInvocation SimpleName table ids
+new key SimpleName VariableDeclarationFragment MethodInvocation SimpleName translate key
+new key SimpleName VariableDeclarationFragment MethodInvocation SimpleName key
+new key SimpleName VariableDeclarationFragment MethodInvocation SimpleName col qual map
+new key SimpleName VariableDeclarationFragment MethodInvocation SimpleName table ids
+key SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName new key
+new key SimpleName MethodInvocation SimpleName get column family
+new key SimpleName MethodInvocation MethodInvocation SimpleName equals
+get column family SimpleName MethodInvocation MethodInvocation SimpleName equals
+new key SimpleName MethodInvocation MethodInvocation QualifiedName constantsmetadata datafile column family
+get column family SimpleName MethodInvocation MethodInvocation QualifiedName constantsmetadata datafile column family
+equals SimpleName MethodInvocation QualifiedName constantsmetadata datafile column family
+new key SimpleName MethodInvocation SimpleName is deleted
+rencode datafile value SimpleName MethodInvocation SimpleName val
+val SimpleName Assignment MethodInvocation SimpleName rencode datafile value
+val SimpleName Assignment MethodInvocation SimpleName val
+new key SimpleName MethodInvocation SimpleName get column family
+new key SimpleName MethodInvocation SimpleName get column qualifier
+constantsmetadata prev row column QualifiedName MethodInvocation SimpleName equals
+constantsmetadata prev row column QualifiedName MethodInvocation MethodInvocation SimpleName new key
+constantsmetadata prev row column QualifiedName MethodInvocation MethodInvocation SimpleName get column family
+constantsmetadata prev row column QualifiedName MethodInvocation MethodInvocation SimpleName new key
+constantsmetadata prev row column QualifiedName MethodInvocation MethodInvocation SimpleName get column qualifier
+equals SimpleName MethodInvocation MethodInvocation SimpleName new key
+equals SimpleName MethodInvocation MethodInvocation SimpleName get column family
+equals SimpleName MethodInvocation MethodInvocation SimpleName new key
+equals SimpleName MethodInvocation MethodInvocation SimpleName get column qualifier
+new key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName new key
+new key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get column qualifier
+get column family SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName new key
+get column family SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get column qualifier
+key extent SimpleName MethodInvocation SimpleName decode prev end row
+key extent SimpleName MethodInvocation SimpleName val
+decode prev end row SimpleName MethodInvocation SimpleName val
+per SimpleName VariableDeclarationFragment MethodInvocation SimpleName key extent
+per SimpleName VariableDeclarationFragment MethodInvocation SimpleName decode prev end row
+per SimpleName VariableDeclarationFragment MethodInvocation SimpleName val
+text SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName per
+val SimpleName MethodInvocation SimpleName get
+value SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName val
+value SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get
+value SimpleName SimpleType ClassInstanceCreation BooleanLiteral true
+val SimpleName MethodInvocation ClassInstanceCreation BooleanLiteral true
+get SimpleName MethodInvocation ClassInstanceCreation BooleanLiteral true
+val SimpleName Assignment ClassInstanceCreation SimpleType SimpleName value
+val SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName val
+val SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName get
+val SimpleName Assignment ClassInstanceCreation BooleanLiteral true
+new key SimpleName MethodInvocation SimpleName get row
+key extent SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName new key
+key extent SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get row
+key extent SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get table id
+new key SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get table id
+get row SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get table id
+get table id SimpleName MethodInvocation MethodInvocation SimpleName to string
+get table id SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName equals
+to string SimpleName MethodInvocation MethodInvocation SimpleName equals
+get table id SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName constantsmetadata table id
+to string SimpleName MethodInvocation MethodInvocation QualifiedName constantsmetadata table id
+equals SimpleName MethodInvocation QualifiedName constantsmetadata table id
+per SimpleName MethodInvocation SimpleName get bytes
+per SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+get bytes SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+per SimpleName MethodInvocation ArrayAccess InfixExpression CharacterLiteral ~
+get bytes SimpleName MethodInvocation ArrayAccess InfixExpression CharacterLiteral ~
+empty NumberLiteral ArrayAccess InfixExpression CharacterLiteral ~
+equals SimpleName MethodInvocation InfixExpression InfixExpression CharacterLiteral ~
+constantsmetadata table id QualifiedName MethodInvocation InfixExpression InfixExpression CharacterLiteral ~
+translate row SimpleName MethodInvocation SimpleName per
+translate row SimpleName MethodInvocation SimpleName table ids
+per SimpleName MethodInvocation SimpleName table ids
+key extent SimpleName MethodInvocation SimpleName encode prev end row
+key extent SimpleName MethodInvocation MethodInvocation SimpleName translate row
+key extent SimpleName MethodInvocation MethodInvocation SimpleName per
+key extent SimpleName MethodInvocation MethodInvocation SimpleName table ids
+encode prev end row SimpleName MethodInvocation MethodInvocation SimpleName translate row
+encode prev end row SimpleName MethodInvocation MethodInvocation SimpleName per
+encode prev end row SimpleName MethodInvocation MethodInvocation SimpleName table ids
+val SimpleName Assignment MethodInvocation SimpleName key extent
+val SimpleName Assignment MethodInvocation SimpleName encode prev end row
+val SimpleName Assignment MethodInvocation MethodInvocation SimpleName translate row
+val SimpleName Assignment MethodInvocation MethodInvocation SimpleName per
+val SimpleName Assignment MethodInvocation MethodInvocation SimpleName table ids
+val SimpleName MethodInvocation SimpleName get
+value SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName val
+value SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get
+value SimpleName SimpleType ClassInstanceCreation BooleanLiteral true
+val SimpleName MethodInvocation ClassInstanceCreation BooleanLiteral true
+get SimpleName MethodInvocation ClassInstanceCreation BooleanLiteral true
+val SimpleName Assignment ClassInstanceCreation SimpleType SimpleName value
+val SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName val
+val SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName get
+val SimpleName Assignment ClassInstanceCreation BooleanLiteral true
+val SimpleName MethodInvocation SimpleName get
+value SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName val
+value SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get
+value SimpleName SimpleType ClassInstanceCreation BooleanLiteral true
+val SimpleName MethodInvocation ClassInstanceCreation BooleanLiteral true
+get SimpleName MethodInvocation ClassInstanceCreation BooleanLiteral true
+val SimpleName Assignment ClassInstanceCreation SimpleType SimpleName value

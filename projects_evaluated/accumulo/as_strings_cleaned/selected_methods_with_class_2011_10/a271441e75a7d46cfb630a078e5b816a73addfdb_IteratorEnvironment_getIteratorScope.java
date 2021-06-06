@@ -1,0 +1,6 @@
+iterator scope SimpleName SimpleType MethodDeclaration SimpleName get iterator scope
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName iterator scope
+public Modifier TypeDeclaration MethodDeclaration SimpleName get iterator scope
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName iterator scope
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get iterator scope

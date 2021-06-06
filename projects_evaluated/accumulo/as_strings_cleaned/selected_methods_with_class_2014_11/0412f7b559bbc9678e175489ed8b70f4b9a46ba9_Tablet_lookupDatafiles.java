@@ -1,0 +1,205 @@
+sorted map SimpleName SimpleType ParameterizedType SimpleType SimpleName file ref
+sorted map SimpleName SimpleType ParameterizedType SimpleType SimpleName data file value
+file ref SimpleName SimpleType ParameterizedType SimpleType SimpleName data file value
+accumulo configuration SimpleName SimpleType SingleVariableDeclaration SimpleName conf
+volume manager SimpleName SimpleType SingleVariableDeclaration SimpleName fs
+key extent SimpleName SimpleType SingleVariableDeclaration SimpleName extent
+sorted map SimpleName SimpleType ParameterizedType SimpleType SimpleName key
+sorted map SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+key SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+sorted map SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName tablets key values
+key SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName tablets key values
+value SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName tablets key values
+tree map SimpleName SimpleType ParameterizedType SimpleType SimpleName file ref
+tree map SimpleName SimpleType ParameterizedType SimpleType SimpleName data file value
+file ref SimpleName SimpleType ParameterizedType SimpleType SimpleName data file value
+tree map SimpleName SimpleType ParameterizedType SimpleType SimpleName file ref
+tree map SimpleName SimpleType ParameterizedType SimpleType SimpleName data file value
+file ref SimpleName SimpleType ParameterizedType SimpleType SimpleName data file value
+extent SimpleName MethodInvocation SimpleName is root tablet
+metadata table util SimpleName MethodInvocation SimpleName get root tablet dir
+path SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName metadata table util
+path SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get root tablet dir
+location SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName path
+location SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName metadata table util
+location SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get root tablet dir
+path SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName location
+fs SimpleName MethodInvocation SimpleName list status
+fs SimpleName MethodInvocation SimpleName location
+list status SimpleName MethodInvocation SimpleName location
+files SimpleName VariableDeclarationFragment MethodInvocation SimpleName fs
+files SimpleName VariableDeclarationFragment MethodInvocation SimpleName list status
+files SimpleName VariableDeclarationFragment MethodInvocation SimpleName location
+collection SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+root files SimpleName MethodInvocation SimpleName cleanup replacement
+root files SimpleName MethodInvocation SimpleName fs
+root files SimpleName MethodInvocation SimpleName files
+root files SimpleName MethodInvocation BooleanLiteral true
+cleanup replacement SimpleName MethodInvocation SimpleName fs
+cleanup replacement SimpleName MethodInvocation SimpleName files
+cleanup replacement SimpleName MethodInvocation BooleanLiteral true
+fs SimpleName MethodInvocation SimpleName files
+fs SimpleName MethodInvocation BooleanLiteral true
+files SimpleName MethodInvocation BooleanLiteral true
+good paths SimpleName VariableDeclarationFragment MethodInvocation SimpleName root files
+good paths SimpleName VariableDeclarationFragment MethodInvocation SimpleName cleanup replacement
+good paths SimpleName VariableDeclarationFragment MethodInvocation SimpleName fs
+good paths SimpleName VariableDeclarationFragment MethodInvocation SimpleName files
+good paths SimpleName VariableDeclarationFragment MethodInvocation BooleanLiteral true
+string SimpleName SimpleType SingleVariableDeclaration SimpleName good
+path SimpleName SimpleType ClassInstanceCreation SimpleName good
+path SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName path
+path SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName good
+path SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName path
+path SimpleName MethodInvocation SimpleName get name
+filename SimpleName VariableDeclarationFragment MethodInvocation SimpleName path
+filename SimpleName VariableDeclarationFragment MethodInvocation SimpleName get name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName filename
+location SimpleName MethodInvocation SimpleName to string
+location SimpleName MethodInvocation InfixExpression StringLiteral /
+to string SimpleName MethodInvocation InfixExpression StringLiteral /
+location SimpleName MethodInvocation InfixExpression SimpleName filename
+to string SimpleName MethodInvocation InfixExpression SimpleName filename
+/ StringLiteral InfixExpression SimpleName filename
+file ref SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral /
+file ref SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName filename
+file ref SimpleName SimpleType ClassInstanceCreation SimpleName path
+location SimpleName MethodInvocation InfixExpression ClassInstanceCreation SimpleName path
+to string SimpleName MethodInvocation InfixExpression ClassInstanceCreation SimpleName path
+/ StringLiteral InfixExpression ClassInstanceCreation SimpleName path
+filename SimpleName InfixExpression ClassInstanceCreation SimpleName path
+ref SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName file ref
+ref SimpleName VariableDeclarationFragment ClassInstanceCreation InfixExpression StringLiteral /
+ref SimpleName VariableDeclarationFragment ClassInstanceCreation InfixExpression SimpleName filename
+ref SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName path
+file ref SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ref
+data file value SimpleName SimpleType ClassInstanceCreation NumberLiteral empty
+data file value SimpleName SimpleType ClassInstanceCreation NumberLiteral empty
+empty NumberLiteral ClassInstanceCreation NumberLiteral empty
+dfv SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName data file value
+dfv SimpleName VariableDeclarationFragment ClassInstanceCreation NumberLiteral empty
+dfv SimpleName VariableDeclarationFragment ClassInstanceCreation NumberLiteral empty
+data file value SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName dfv
+datafiles SimpleName MethodInvocation SimpleName put
+datafiles SimpleName MethodInvocation SimpleName ref
+datafiles SimpleName MethodInvocation SimpleName dfv
+put SimpleName MethodInvocation SimpleName ref
+put SimpleName MethodInvocation SimpleName dfv
+ref SimpleName MethodInvocation SimpleName dfv
+string SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName good paths
+good SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName good paths
+buffer SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName text
+final Modifier VariableDeclarationStatement SimpleType SimpleName text
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName buffer
+text SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName buffer
+extent SimpleName MethodInvocation SimpleName get metadata entry
+row SimpleName VariableDeclarationFragment MethodInvocation SimpleName extent
+row SimpleName VariableDeclarationFragment MethodInvocation SimpleName get metadata entry
+final Modifier VariableDeclarationStatement SimpleType SimpleName text
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName row
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName extent
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get metadata entry
+text SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName row
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName key
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+key SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+entry SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+key SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+value SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+tablets key values SimpleName MethodInvocation SimpleName entry set
+entry SimpleName MethodInvocation SimpleName get key
+k SimpleName VariableDeclarationFragment MethodInvocation SimpleName entry
+k SimpleName VariableDeclarationFragment MethodInvocation SimpleName get key
+key SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName k
+k SimpleName MethodInvocation SimpleName get row
+k SimpleName MethodInvocation SimpleName buffer
+get row SimpleName MethodInvocation SimpleName buffer
+row SimpleName MethodInvocation SimpleName equals
+row SimpleName MethodInvocation SimpleName buffer
+equals SimpleName MethodInvocation SimpleName buffer
+k SimpleName MethodInvocation SimpleName get column family
+k SimpleName MethodInvocation SimpleName buffer
+get column family SimpleName MethodInvocation SimpleName buffer
+tablets sectiondata file column familyname QualifiedName MethodInvocation SimpleName equals
+tablets sectiondata file column familyname QualifiedName MethodInvocation SimpleName buffer
+equals SimpleName MethodInvocation SimpleName buffer
+file ref SimpleName SimpleType ClassInstanceCreation SimpleName fs
+file ref SimpleName SimpleType ClassInstanceCreation SimpleName k
+fs SimpleName ClassInstanceCreation SimpleName k
+ref SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName file ref
+ref SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName fs
+ref SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName k
+file ref SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ref
+entry SimpleName MethodInvocation SimpleName get value
+entry SimpleName MethodInvocation MethodInvocation SimpleName get
+get value SimpleName MethodInvocation MethodInvocation SimpleName get
+data file value SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get
+datafiles SimpleName MethodInvocation SimpleName put
+datafiles SimpleName MethodInvocation SimpleName ref
+datafiles SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName data file value
+datafiles SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get
+put SimpleName MethodInvocation SimpleName ref
+put SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName data file value
+put SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get
+ref SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName data file value
+ref SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get
+entry SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName tablets key values
+entry SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName entry set
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+private Modifier MethodDeclaration Modifier static
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName sorted map
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName file ref
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName data file value
+private Modifier MethodDeclaration SimpleName lookup datafiles
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName accumulo configuration
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName conf
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName volume manager
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName fs
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName sorted map
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName file ref
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName data file value
+static Modifier MethodDeclaration SimpleName lookup datafiles
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName accumulo configuration
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName conf
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName volume manager
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName fs
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName key extent
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName extent
+sorted map SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName lookup datafiles
+file ref SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName lookup datafiles
+data file value SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName lookup datafiles
+lookup datafiles SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName accumulo configuration
+lookup datafiles SimpleName MethodDeclaration SingleVariableDeclaration SimpleName conf
+lookup datafiles SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName volume manager
+lookup datafiles SimpleName MethodDeclaration SingleVariableDeclaration SimpleName fs
+lookup datafiles SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName key extent
+lookup datafiles SimpleName MethodDeclaration SingleVariableDeclaration SimpleName extent
+lookup datafiles SimpleName MethodDeclaration SingleVariableDeclaration SimpleName tablets key values
+lookup datafiles SimpleName MethodDeclaration SimpleType SimpleName io exception
+conf SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName fs
+conf SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName extent
+conf SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName tablets key values
+conf SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+fs SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName extent
+fs SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName tablets key values
+fs SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+extent SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName tablets key values
+extent SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+tablets key values SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleName lookup datafiles
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName conf
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName fs
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName extent
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName tablets key values
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleName lookup datafiles
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName conf
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName fs
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName extent
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName tablets key values
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

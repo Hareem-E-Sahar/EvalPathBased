@@ -1,0 +1,42 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName t
+iterable SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName iterable
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName t
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName t
+t SimpleName SimpleType SingleVariableDeclaration SimpleName item
+result SimpleName MethodInvocation SimpleName add
+result SimpleName MethodInvocation SimpleName item
+add SimpleName MethodInvocation SimpleName item
+t SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName iterable
+item SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName iterable
+iterable SimpleName EnhancedForStatement Block ReturnStatement SimpleName result
+private Modifier MethodDeclaration Modifier static
+private Modifier MethodDeclaration TypeParameter SimpleName t
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName t
+private Modifier MethodDeclaration SimpleName to list
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName iterable
+static Modifier MethodDeclaration TypeParameter SimpleName t
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName t
+static Modifier MethodDeclaration SimpleName to list
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName iterable
+static Modifier MethodDeclaration Block EnhancedForStatement SimpleName iterable
+static Modifier MethodDeclaration Block ReturnStatement SimpleName result
+t SimpleName TypeParameter MethodDeclaration SimpleName to list
+t SimpleName TypeParameter MethodDeclaration SingleVariableDeclaration SimpleName iterable
+list SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName to list
+t SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName to list
+to list SimpleName MethodDeclaration SingleVariableDeclaration SimpleName iterable
+to list SimpleName MethodDeclaration Block EnhancedForStatement SimpleName iterable
+to list SimpleName MethodDeclaration Block ReturnStatement SimpleName result
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration TypeParameter SimpleName t
+public Modifier TypeDeclaration MethodDeclaration SimpleName to list
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName iterable
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration TypeParameter SimpleName t
+test SimpleName TypeDeclaration MethodDeclaration SimpleName to list
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName iterable

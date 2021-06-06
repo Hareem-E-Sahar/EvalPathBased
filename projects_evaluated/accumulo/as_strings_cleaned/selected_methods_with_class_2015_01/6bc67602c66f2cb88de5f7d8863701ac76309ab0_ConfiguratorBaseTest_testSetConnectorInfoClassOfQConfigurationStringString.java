@@ -1,0 +1,99 @@
+conf SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName configuration
+configuration SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName conf
+configurator base SimpleName MethodInvocation SimpleName is connector info set
+configurator base SimpleName MethodInvocation MethodInvocation SimpleName get class
+configurator base SimpleName MethodInvocation SimpleName conf
+is connector info set SimpleName MethodInvocation MethodInvocation SimpleName get class
+is connector info set SimpleName MethodInvocation SimpleName conf
+get class SimpleName MethodInvocation MethodInvocation SimpleName conf
+assert false SimpleName MethodInvocation MethodInvocation SimpleName configurator base
+assert false SimpleName MethodInvocation MethodInvocation SimpleName is connector info set
+assert false SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get class
+assert false SimpleName MethodInvocation MethodInvocation SimpleName conf
+configurator base SimpleName MethodInvocation SimpleName set connector info
+configurator base SimpleName MethodInvocation MethodInvocation SimpleName get class
+configurator base SimpleName MethodInvocation SimpleName conf
+configurator base SimpleName MethodInvocation StringLiteral test user
+configurator base SimpleName MethodInvocation StringLiteral test file
+set connector info SimpleName MethodInvocation MethodInvocation SimpleName get class
+set connector info SimpleName MethodInvocation SimpleName conf
+set connector info SimpleName MethodInvocation StringLiteral test user
+set connector info SimpleName MethodInvocation StringLiteral test file
+get class SimpleName MethodInvocation MethodInvocation SimpleName conf
+get class SimpleName MethodInvocation MethodInvocation StringLiteral test user
+get class SimpleName MethodInvocation MethodInvocation StringLiteral test file
+conf SimpleName MethodInvocation StringLiteral test user
+conf SimpleName MethodInvocation StringLiteral test file
+test user StringLiteral MethodInvocation StringLiteral test file
+configurator base SimpleName MethodInvocation SimpleName is connector info set
+configurator base SimpleName MethodInvocation MethodInvocation SimpleName get class
+configurator base SimpleName MethodInvocation SimpleName conf
+is connector info set SimpleName MethodInvocation MethodInvocation SimpleName get class
+is connector info set SimpleName MethodInvocation SimpleName conf
+get class SimpleName MethodInvocation MethodInvocation SimpleName conf
+assert true SimpleName MethodInvocation MethodInvocation SimpleName configurator base
+assert true SimpleName MethodInvocation MethodInvocation SimpleName is connector info set
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get class
+assert true SimpleName MethodInvocation MethodInvocation SimpleName conf
+configurator base SimpleName MethodInvocation SimpleName get principal
+configurator base SimpleName MethodInvocation MethodInvocation SimpleName get class
+configurator base SimpleName MethodInvocation SimpleName conf
+get principal SimpleName MethodInvocation MethodInvocation SimpleName get class
+get principal SimpleName MethodInvocation SimpleName conf
+get class SimpleName MethodInvocation MethodInvocation SimpleName conf
+assert equals SimpleName MethodInvocation StringLiteral test user
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName configurator base
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get principal
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get class
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName conf
+test user StringLiteral MethodInvocation MethodInvocation SimpleName configurator base
+test user StringLiteral MethodInvocation MethodInvocation SimpleName get principal
+test user StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName get class
+test user StringLiteral MethodInvocation MethodInvocation SimpleName conf
+configurator base SimpleName MethodInvocation SimpleName enum to conf key
+configurator base SimpleName MethodInvocation MethodInvocation SimpleName get class
+configurator base SimpleName MethodInvocation QualifiedName configurator baseconnector infotoken
+enum to conf key SimpleName MethodInvocation MethodInvocation SimpleName get class
+enum to conf key SimpleName MethodInvocation QualifiedName configurator baseconnector infotoken
+get class SimpleName MethodInvocation MethodInvocation QualifiedName configurator baseconnector infotoken
+conf SimpleName MethodInvocation SimpleName get
+conf SimpleName MethodInvocation MethodInvocation SimpleName configurator base
+conf SimpleName MethodInvocation MethodInvocation SimpleName enum to conf key
+conf SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get class
+conf SimpleName MethodInvocation MethodInvocation QualifiedName configurator baseconnector infotoken
+get SimpleName MethodInvocation MethodInvocation SimpleName configurator base
+get SimpleName MethodInvocation MethodInvocation SimpleName enum to conf key
+get SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get class
+get SimpleName MethodInvocation MethodInvocation QualifiedName configurator baseconnector infotoken
+assert equals SimpleName MethodInvocation StringLiteral filetest file
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName conf
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName configurator base
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName enum to conf key
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName configurator baseconnector infotoken
+filetest file StringLiteral MethodInvocation MethodInvocation SimpleName conf
+filetest file StringLiteral MethodInvocation MethodInvocation SimpleName get
+filetest file StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName configurator base
+filetest file StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName enum to conf key
+filetest file StringLiteral MethodInvocation MethodInvocation MethodInvocation QualifiedName configurator baseconnector infotoken
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test set connector info class of q configuration string string
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName accumulo security exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test set connector info class of q configuration string string
+public Modifier MethodDeclaration SimpleType SimpleName accumulo security exception
+void PrimitiveType MethodDeclaration SimpleName test set connector info class of q configuration string string
+void PrimitiveType MethodDeclaration SimpleType SimpleName accumulo security exception
+test set connector info class of q configuration string string SimpleName MethodDeclaration SimpleType SimpleName accumulo security exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test set connector info class of q configuration string string
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test set connector info class of q configuration string string
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception

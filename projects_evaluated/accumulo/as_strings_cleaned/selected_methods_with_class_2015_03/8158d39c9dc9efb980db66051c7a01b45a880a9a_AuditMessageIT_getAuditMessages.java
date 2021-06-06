@@ -1,0 +1,173 @@
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType SingleVariableDeclaration SimpleName step name
+thread SimpleName MethodInvocation SimpleName sleep
+thread SimpleName MethodInvocation NumberLiteral empty
+sleep SimpleName MethodInvocation NumberLiteral empty
+interrupted exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+thread SimpleName MethodInvocation SimpleName current thread
+thread SimpleName MethodInvocation MethodInvocation SimpleName interrupt
+current thread SimpleName MethodInvocation MethodInvocation SimpleName interrupt
+io exception SimpleName SimpleType ClassInstanceCreation StringLiteral interrupted waiting for data to be flushed to output streams
+mini accumulo cluster impllog writer QualifiedName SimpleType SingleVariableDeclaration SimpleName lw
+get cluster SimpleName MethodInvocation MethodInvocation SimpleName get log writers
+lw SimpleName MethodInvocation SimpleName flush
+lw SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName get log writers
+start of captured audit messages for step StringLiteral InfixExpression SimpleName step name
+systemout QualifiedName MethodInvocation SimpleName println
+systemout QualifiedName MethodInvocation InfixExpression StringLiteral start of captured audit messages for step
+systemout QualifiedName MethodInvocation InfixExpression SimpleName step name
+println SimpleName MethodInvocation InfixExpression StringLiteral start of captured audit messages for step
+println SimpleName MethodInvocation InfixExpression SimpleName step name
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+file SimpleName SimpleType SingleVariableDeclaration SimpleName file
+get cluster SimpleName MethodInvocation MethodInvocation SimpleName get config
+get cluster SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get log dir
+get config SimpleName MethodInvocation MethodInvocation SimpleName get log dir
+get config SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName list files
+get log dir SimpleName MethodInvocation MethodInvocation SimpleName list files
+file SimpleName MethodInvocation SimpleName get name
+file SimpleName MethodInvocation MethodInvocation SimpleName contains
+get name SimpleName MethodInvocation MethodInvocation SimpleName contains
+file SimpleName MethodInvocation MethodInvocation StringLiteral out
+get name SimpleName MethodInvocation MethodInvocation StringLiteral out
+contains SimpleName MethodInvocation StringLiteral out
+file SimpleName MethodInvocation SimpleName is file
+file SimpleName MethodInvocation SimpleName can read
+contains SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName file
+contains SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName is file
+out StringLiteral MethodInvocation InfixExpression MethodInvocation SimpleName file
+out StringLiteral MethodInvocation InfixExpression MethodInvocation SimpleName is file
+contains SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName file
+contains SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName can read
+out StringLiteral MethodInvocation InfixExpression MethodInvocation SimpleName file
+out StringLiteral MethodInvocation InfixExpression MethodInvocation SimpleName can read
+file SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName file
+file SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName can read
+is file SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName file
+is file SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName can read
+utf SimpleName MethodInvocation SimpleName name
+file utils SimpleName MethodInvocation SimpleName line iterator
+file utils SimpleName MethodInvocation SimpleName file
+file utils SimpleName MethodInvocation MethodInvocation SimpleName utf
+file utils SimpleName MethodInvocation MethodInvocation SimpleName name
+line iterator SimpleName MethodInvocation SimpleName file
+line iterator SimpleName MethodInvocation MethodInvocation SimpleName utf
+line iterator SimpleName MethodInvocation MethodInvocation SimpleName name
+file SimpleName MethodInvocation MethodInvocation SimpleName utf
+file SimpleName MethodInvocation MethodInvocation SimpleName name
+it SimpleName VariableDeclarationFragment MethodInvocation SimpleName file utils
+it SimpleName VariableDeclarationFragment MethodInvocation SimpleName line iterator
+it SimpleName VariableDeclarationFragment MethodInvocation SimpleName file
+it SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName utf
+it SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName name
+line iterator SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName it
+it SimpleName MethodInvocation SimpleName has next
+it SimpleName MethodInvocation SimpleName next line
+line SimpleName VariableDeclarationFragment MethodInvocation SimpleName it
+line SimpleName VariableDeclarationFragment MethodInvocation SimpleName next line
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName line
+.* \\[ StringLiteral InfixExpression QualifiedName audited security operationauditlog
+.* \\[ StringLiteral InfixExpression StringLiteral s
+audited security operationauditlog QualifiedName InfixExpression StringLiteral s
+line SimpleName MethodInvocation SimpleName matches
+line SimpleName MethodInvocation InfixExpression StringLiteral .* \\[
+line SimpleName MethodInvocation InfixExpression QualifiedName audited security operationauditlog
+line SimpleName MethodInvocation InfixExpression StringLiteral s
+matches SimpleName MethodInvocation InfixExpression StringLiteral .* \\[
+matches SimpleName MethodInvocation InfixExpression QualifiedName audited security operationauditlog
+matches SimpleName MethodInvocation InfixExpression StringLiteral s
+line SimpleName MethodInvocation SimpleName substring
+line SimpleName MethodInvocation NumberLiteral empty
+line SimpleName MethodInvocation NumberLiteral empty
+substring SimpleName MethodInvocation NumberLiteral empty
+substring SimpleName MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+line SimpleName MethodInvocation MethodInvocation SimpleName compare to
+substring SimpleName MethodInvocation MethodInvocation SimpleName compare to
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName compare to
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName compare to
+line SimpleName MethodInvocation MethodInvocation SimpleName last audit timestamp
+substring SimpleName MethodInvocation MethodInvocation SimpleName last audit timestamp
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName last audit timestamp
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName last audit timestamp
+compare to SimpleName MethodInvocation SimpleName last audit timestamp
+line SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral empty
+substring SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral empty
+empty NumberLiteral MethodInvocation MethodInvocation InfixExpression NumberLiteral empty
+empty NumberLiteral MethodInvocation MethodInvocation InfixExpression NumberLiteral empty
+compare to SimpleName MethodInvocation InfixExpression NumberLiteral empty
+last audit timestamp SimpleName MethodInvocation InfixExpression NumberLiteral empty
+result SimpleName MethodInvocation SimpleName add
+result SimpleName MethodInvocation SimpleName line
+add SimpleName MethodInvocation SimpleName line
+line iterator SimpleName MethodInvocation SimpleName close quietly
+line iterator SimpleName MethodInvocation SimpleName it
+close quietly SimpleName MethodInvocation SimpleName it
+file SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName list files
+collections SimpleName MethodInvocation SimpleName sort
+collections SimpleName MethodInvocation SimpleName result
+sort SimpleName MethodInvocation SimpleName result
+string SimpleName SimpleType SingleVariableDeclaration SimpleName s
+systemout QualifiedName MethodInvocation SimpleName println
+systemout QualifiedName MethodInvocation SimpleName s
+println SimpleName MethodInvocation SimpleName s
+string SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName result
+s SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName result
+end of captured audit messages for step StringLiteral InfixExpression SimpleName step name
+systemout QualifiedName MethodInvocation SimpleName println
+systemout QualifiedName MethodInvocation InfixExpression StringLiteral end of captured audit messages for step
+systemout QualifiedName MethodInvocation InfixExpression SimpleName step name
+println SimpleName MethodInvocation InfixExpression StringLiteral end of captured audit messages for step
+println SimpleName MethodInvocation InfixExpression SimpleName step name
+result SimpleName MethodInvocation SimpleName size
+result SimpleName MethodInvocation InfixExpression NumberLiteral empty
+size SimpleName MethodInvocation InfixExpression NumberLiteral empty
+result SimpleName MethodInvocation SimpleName size
+result SimpleName MethodInvocation InfixExpression NumberLiteral empty
+size SimpleName MethodInvocation InfixExpression NumberLiteral empty
+result SimpleName MethodInvocation SimpleName get
+result SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName result
+result SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName size
+result SimpleName MethodInvocation InfixExpression NumberLiteral empty
+get SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName result
+get SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName size
+get SimpleName MethodInvocation InfixExpression NumberLiteral empty
+result SimpleName MethodInvocation ParenthesizedExpression MethodInvocation SimpleName substring
+get SimpleName MethodInvocation ParenthesizedExpression MethodInvocation SimpleName substring
+result SimpleName MethodInvocation ParenthesizedExpression MethodInvocation NumberLiteral empty
+get SimpleName MethodInvocation ParenthesizedExpression MethodInvocation NumberLiteral empty
+result SimpleName MethodInvocation ParenthesizedExpression MethodInvocation NumberLiteral empty
+get SimpleName MethodInvocation ParenthesizedExpression MethodInvocation NumberLiteral empty
+substring SimpleName MethodInvocation NumberLiteral empty
+substring SimpleName MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+last audit timestamp SimpleName Assignment MethodInvocation SimpleName substring
+last audit timestamp SimpleName Assignment MethodInvocation NumberLiteral empty
+last audit timestamp SimpleName Assignment MethodInvocation NumberLiteral empty
+result SimpleName EnhancedForStatement Block ReturnStatement SimpleName result
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName array list
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+private Modifier MethodDeclaration SimpleName get audit messages
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName step name
+private Modifier MethodDeclaration SimpleType SimpleName io exception
+private Modifier MethodDeclaration Block EnhancedForStatement SimpleName result
+private Modifier MethodDeclaration Block ReturnStatement SimpleName result
+array list SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get audit messages
+string SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get audit messages
+get audit messages SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get audit messages SimpleName MethodDeclaration SingleVariableDeclaration SimpleName step name
+get audit messages SimpleName MethodDeclaration SimpleType SimpleName io exception
+get audit messages SimpleName MethodDeclaration Block EnhancedForStatement SimpleName result
+get audit messages SimpleName MethodDeclaration Block ReturnStatement SimpleName result
+step name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleName get audit messages
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName step name
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get audit messages
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName step name
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

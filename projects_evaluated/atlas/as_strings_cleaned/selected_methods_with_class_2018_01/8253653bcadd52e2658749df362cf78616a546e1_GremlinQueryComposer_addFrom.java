@@ -1,0 +1,77 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName type name
+log SimpleName MethodInvocation SimpleName is debug enabled
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral add fromtype name
+log SimpleName MethodInvocation SimpleName type name
+debug SimpleName MethodInvocation StringLiteral add fromtype name
+debug SimpleName MethodInvocation SimpleName type name
+add fromtype name StringLiteral MethodInvocation SimpleName type name
+get advice SimpleName MethodInvocation SimpleName type name
+ta SimpleName VariableDeclarationFragment MethodInvocation SimpleName get advice
+ta SimpleName VariableDeclarationFragment MethodInvocation SimpleName type name
+identifier helperadvice QualifiedName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ta
+ta SimpleName MethodInvocation SimpleName get
+context SimpleName MethodInvocation SimpleName should register
+context SimpleName MethodInvocation MethodInvocation SimpleName ta
+context SimpleName MethodInvocation MethodInvocation SimpleName get
+should register SimpleName MethodInvocation MethodInvocation SimpleName ta
+should register SimpleName MethodInvocation MethodInvocation SimpleName get
+ta SimpleName MethodInvocation SimpleName get
+context SimpleName MethodInvocation SimpleName register active
+context SimpleName MethodInvocation MethodInvocation SimpleName ta
+context SimpleName MethodInvocation MethodInvocation SimpleName get
+register active SimpleName MethodInvocation MethodInvocation SimpleName ta
+register active SimpleName MethodInvocation MethodInvocation SimpleName get
+ta SimpleName MethodInvocation SimpleName get
+get advice SimpleName MethodInvocation MethodInvocation SimpleName ta
+get advice SimpleName MethodInvocation MethodInvocation SimpleName get
+ia SimpleName VariableDeclarationFragment MethodInvocation SimpleName get advice
+ia SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName ta
+ia SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get
+identifier helperadvice QualifiedName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ia
+ia SimpleName MethodInvocation SimpleName is trait
+ia SimpleName MethodInvocation SimpleName get
+add SimpleName MethodInvocation QualifiedName gremlin clausetrait
+add SimpleName MethodInvocation MethodInvocation SimpleName ia
+add SimpleName MethodInvocation MethodInvocation SimpleName get
+gremlin clausetrait QualifiedName MethodInvocation MethodInvocation SimpleName ia
+gremlin clausetrait QualifiedName MethodInvocation MethodInvocation SimpleName get
+ia SimpleName MethodInvocation SimpleName has subtypes
+ia SimpleName MethodInvocation SimpleName get sub types
+add SimpleName MethodInvocation QualifiedName gremlin clausehas type within
+add SimpleName MethodInvocation MethodInvocation SimpleName ia
+add SimpleName MethodInvocation MethodInvocation SimpleName get sub types
+gremlin clausehas type within QualifiedName MethodInvocation MethodInvocation SimpleName ia
+gremlin clausehas type within QualifiedName MethodInvocation MethodInvocation SimpleName get sub types
+ia SimpleName MethodInvocation SimpleName get
+add SimpleName MethodInvocation QualifiedName gremlin clausehas type
+add SimpleName MethodInvocation MethodInvocation SimpleName ia
+add SimpleName MethodInvocation MethodInvocation SimpleName get
+gremlin clausehas type QualifiedName MethodInvocation MethodInvocation SimpleName ia
+gremlin clausehas type QualifiedName MethodInvocation MethodInvocation SimpleName get
+ta SimpleName MethodInvocation SimpleName get
+get advice SimpleName MethodInvocation MethodInvocation SimpleName ta
+get advice SimpleName MethodInvocation MethodInvocation SimpleName get
+ia SimpleName VariableDeclarationFragment MethodInvocation SimpleName get advice
+ia SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName ta
+ia SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get
+identifier helperadvice QualifiedName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ia
+introduce type SimpleName MethodInvocation SimpleName ia
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName add from
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName type name
+void PrimitiveType MethodDeclaration SimpleName add from
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName type name
+add from SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+add from SimpleName MethodDeclaration SingleVariableDeclaration SimpleName type name
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName add from
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type name
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName add from
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type name

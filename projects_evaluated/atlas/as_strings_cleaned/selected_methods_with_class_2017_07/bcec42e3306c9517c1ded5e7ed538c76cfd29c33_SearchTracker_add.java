@@ -1,0 +1,33 @@
+search context SimpleName SimpleType SingleVariableDeclaration SimpleName context
+thread SimpleName MethodInvocation SimpleName current thread
+thread SimpleName MethodInvocation MethodInvocation SimpleName get name
+current thread SimpleName MethodInvocation MethodInvocation SimpleName get name
+search id SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName thread
+search id SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName current thread
+search id SimpleName VariableDeclarationFragment MethodInvocation SimpleName get name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName search id
+active searches SimpleName MethodInvocation SimpleName put
+active searches SimpleName MethodInvocation SimpleName search id
+active searches SimpleName MethodInvocation SimpleName context
+put SimpleName MethodInvocation SimpleName search id
+put SimpleName MethodInvocation SimpleName context
+search id SimpleName MethodInvocation SimpleName context
+public Modifier MethodDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName add
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName search context
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName context
+public Modifier MethodDeclaration Block ReturnStatement SimpleName search id
+string SimpleName SimpleType MethodDeclaration SimpleName add
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName context
+add SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName search context
+add SimpleName MethodDeclaration SingleVariableDeclaration SimpleName context
+add SimpleName MethodDeclaration Block ReturnStatement SimpleName search id
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName add
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName context
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName add
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName context

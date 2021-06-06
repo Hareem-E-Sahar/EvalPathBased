@@ -1,0 +1,19 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName tserver
+tserver SimpleName FieldAccess Assignment SimpleName tserver
+public Modifier MethodDeclaration SimpleType SimpleName get active compactions args
+public Modifier MethodDeclaration SimpleName set tserver
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName tserver
+get active compactions args SimpleName SimpleType MethodDeclaration SimpleName set tserver
+get active compactions args SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName tserver
+set tserver SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+set tserver SimpleName MethodDeclaration SingleVariableDeclaration SimpleName tserver
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName get active compactions args
+public Modifier TypeDeclaration MethodDeclaration SimpleName set tserver
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName tserver
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName get active compactions args
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set tserver
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName tserver

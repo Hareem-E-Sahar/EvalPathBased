@@ -1,0 +1,35 @@
+object SimpleName SimpleType SingleVariableDeclaration SimpleName val
+final Modifier VariableDeclarationStatement SimpleType SimpleName atlas relationship
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName ret
+atlas relationship SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ret
+val SimpleName InstanceofExpression SimpleType SimpleName atlas relationship
+atlas relationship SimpleName SimpleType CastExpression SimpleName val
+ret SimpleName Assignment CastExpression SimpleType SimpleName atlas relationship
+ret SimpleName Assignment CastExpression SimpleName val
+val SimpleName InstanceofExpression SimpleType SimpleName map
+map SimpleName SimpleType CastExpression SimpleName val
+atlas relationship SimpleName SimpleType ClassInstanceCreation CastExpression SimpleName val
+ret SimpleName Assignment ClassInstanceCreation SimpleType SimpleName atlas relationship
+ret SimpleName Assignment ClassInstanceCreation CastExpression SimpleName val
+final Modifier VariableDeclarationStatement Block ReturnStatement SimpleName ret
+private Modifier MethodDeclaration SimpleType SimpleName atlas relationship
+private Modifier MethodDeclaration SimpleName get relationship from value
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName val
+private Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+private Modifier MethodDeclaration Block ReturnStatement SimpleName ret
+atlas relationship SimpleName SimpleType MethodDeclaration SimpleName get relationship from value
+atlas relationship SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName val
+get relationship from value SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+get relationship from value SimpleName MethodDeclaration SingleVariableDeclaration SimpleName val
+get relationship from value SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+get relationship from value SimpleName MethodDeclaration Block ReturnStatement SimpleName ret
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas relationship
+public Modifier TypeDeclaration MethodDeclaration SimpleName get relationship from value
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName val
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas relationship
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get relationship from value
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName val

@@ -1,0 +1,315 @@
+tx type SimpleName VariableDeclarationFragment StringLiteral some name
+final Modifier VariableDeclarationStatement SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName tx type
+final Modifier VariableDeclarationStatement VariableDeclarationFragment StringLiteral some name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName tx type
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral some name
+txid SimpleName VariableDeclarationFragment NumberLiteral empty
+final Modifier VariableDeclarationStatement PrimitiveType long
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName txid
+final Modifier VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName txid
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+sa SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName simple arbitrator
+final Modifier VariableDeclarationStatement SimpleType SimpleName simple arbitrator
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName sa
+simple arbitrator SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName sa
+transaction watcher SimpleName SimpleType ClassInstanceCreation SimpleName sa
+txw SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName transaction watcher
+txw SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName sa
+final Modifier VariableDeclarationStatement SimpleType SimpleName transaction watcher
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName txw
+final Modifier VariableDeclarationStatement VariableDeclarationFragment ClassInstanceCreation SimpleName sa
+transaction watcher SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName txw
+sa SimpleName MethodInvocation SimpleName start
+sa SimpleName MethodInvocation SimpleName tx type
+sa SimpleName MethodInvocation SimpleName txid
+start SimpleName MethodInvocation SimpleName tx type
+start SimpleName MethodInvocation SimpleName txid
+tx type SimpleName MethodInvocation SimpleName txid
+sa SimpleName MethodInvocation SimpleName start
+sa SimpleName MethodInvocation SimpleName tx type
+sa SimpleName MethodInvocation SimpleName txid
+start SimpleName MethodInvocation SimpleName tx type
+start SimpleName MethodInvocation SimpleName txid
+tx type SimpleName MethodInvocation SimpleName txid
+assert SimpleName MethodInvocation SimpleName fail
+assert SimpleName MethodInvocation StringLiteral simple arbitrator did not throw an exception
+fail SimpleName MethodInvocation StringLiteral simple arbitrator did not throw an exception
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName ex
+txw SimpleName MethodInvocation SimpleName is active
+txw SimpleName MethodInvocation SimpleName txid
+is active SimpleName MethodInvocation SimpleName txid
+txw SimpleName MethodInvocation SimpleName is active
+txw SimpleName MethodInvocation SimpleName txid
+is active SimpleName MethodInvocation SimpleName txid
+assert SimpleName MethodInvocation SimpleName assert false
+assert SimpleName MethodInvocation MethodInvocation SimpleName txw
+assert SimpleName MethodInvocation MethodInvocation SimpleName is active
+assert SimpleName MethodInvocation MethodInvocation SimpleName txid
+assert false SimpleName MethodInvocation MethodInvocation SimpleName txw
+assert false SimpleName MethodInvocation MethodInvocation SimpleName is active
+assert false SimpleName MethodInvocation MethodInvocation SimpleName txid
+callable SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+txw SimpleName MethodInvocation SimpleName is active
+txw SimpleName MethodInvocation SimpleName txid
+is active SimpleName MethodInvocation SimpleName txid
+assert SimpleName MethodInvocation SimpleName assert true
+assert SimpleName MethodInvocation MethodInvocation SimpleName txw
+assert SimpleName MethodInvocation MethodInvocation SimpleName is active
+assert SimpleName MethodInvocation MethodInvocation SimpleName txid
+assert true SimpleName MethodInvocation MethodInvocation SimpleName txw
+assert true SimpleName MethodInvocation MethodInvocation SimpleName is active
+assert true SimpleName MethodInvocation MethodInvocation SimpleName txid
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName object
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName call
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration SimpleType SimpleName object
+public Modifier MethodDeclaration SimpleName call
+public Modifier MethodDeclaration SimpleType SimpleName exception
+object SimpleName SimpleType MethodDeclaration SimpleName call
+object SimpleName SimpleType MethodDeclaration SimpleType SimpleName exception
+call SimpleName MethodDeclaration SimpleType SimpleName exception
+txw SimpleName MethodInvocation SimpleName run
+txw SimpleName MethodInvocation SimpleName tx type
+txw SimpleName MethodInvocation SimpleName txid
+run SimpleName MethodInvocation SimpleName tx type
+run SimpleName MethodInvocation SimpleName txid
+tx type SimpleName MethodInvocation SimpleName txid
+txw SimpleName MethodInvocation SimpleName is active
+txw SimpleName MethodInvocation SimpleName txid
+is active SimpleName MethodInvocation SimpleName txid
+assert SimpleName MethodInvocation SimpleName assert false
+assert SimpleName MethodInvocation MethodInvocation SimpleName txw
+assert SimpleName MethodInvocation MethodInvocation SimpleName is active
+assert SimpleName MethodInvocation MethodInvocation SimpleName txid
+assert false SimpleName MethodInvocation MethodInvocation SimpleName txw
+assert false SimpleName MethodInvocation MethodInvocation SimpleName is active
+assert false SimpleName MethodInvocation MethodInvocation SimpleName txid
+sa SimpleName MethodInvocation SimpleName transaction complete
+sa SimpleName MethodInvocation SimpleName tx type
+sa SimpleName MethodInvocation SimpleName txid
+transaction complete SimpleName MethodInvocation SimpleName tx type
+transaction complete SimpleName MethodInvocation SimpleName txid
+tx type SimpleName MethodInvocation SimpleName txid
+assert SimpleName MethodInvocation SimpleName assert false
+assert SimpleName MethodInvocation MethodInvocation SimpleName sa
+assert SimpleName MethodInvocation MethodInvocation SimpleName transaction complete
+assert SimpleName MethodInvocation MethodInvocation SimpleName tx type
+assert SimpleName MethodInvocation MethodInvocation SimpleName txid
+assert false SimpleName MethodInvocation MethodInvocation SimpleName sa
+assert false SimpleName MethodInvocation MethodInvocation SimpleName transaction complete
+assert false SimpleName MethodInvocation MethodInvocation SimpleName tx type
+assert false SimpleName MethodInvocation MethodInvocation SimpleName txid
+sa SimpleName MethodInvocation SimpleName stop
+sa SimpleName MethodInvocation SimpleName tx type
+sa SimpleName MethodInvocation SimpleName txid
+stop SimpleName MethodInvocation SimpleName tx type
+stop SimpleName MethodInvocation SimpleName txid
+tx type SimpleName MethodInvocation SimpleName txid
+sa SimpleName MethodInvocation SimpleName transaction alive
+sa SimpleName MethodInvocation SimpleName tx type
+sa SimpleName MethodInvocation SimpleName txid
+transaction alive SimpleName MethodInvocation SimpleName tx type
+transaction alive SimpleName MethodInvocation SimpleName txid
+tx type SimpleName MethodInvocation SimpleName txid
+assert SimpleName MethodInvocation SimpleName assert false
+assert SimpleName MethodInvocation MethodInvocation SimpleName sa
+assert SimpleName MethodInvocation MethodInvocation SimpleName transaction alive
+assert SimpleName MethodInvocation MethodInvocation SimpleName tx type
+assert SimpleName MethodInvocation MethodInvocation SimpleName txid
+assert false SimpleName MethodInvocation MethodInvocation SimpleName sa
+assert false SimpleName MethodInvocation MethodInvocation SimpleName transaction alive
+assert false SimpleName MethodInvocation MethodInvocation SimpleName tx type
+assert false SimpleName MethodInvocation MethodInvocation SimpleName txid
+sa SimpleName MethodInvocation SimpleName transaction complete
+sa SimpleName MethodInvocation SimpleName tx type
+sa SimpleName MethodInvocation SimpleName txid
+transaction complete SimpleName MethodInvocation SimpleName tx type
+transaction complete SimpleName MethodInvocation SimpleName txid
+tx type SimpleName MethodInvocation SimpleName txid
+assert SimpleName MethodInvocation SimpleName assert false
+assert SimpleName MethodInvocation MethodInvocation SimpleName sa
+assert SimpleName MethodInvocation MethodInvocation SimpleName transaction complete
+assert SimpleName MethodInvocation MethodInvocation SimpleName tx type
+assert SimpleName MethodInvocation MethodInvocation SimpleName txid
+assert false SimpleName MethodInvocation MethodInvocation SimpleName sa
+assert false SimpleName MethodInvocation MethodInvocation SimpleName transaction complete
+assert false SimpleName MethodInvocation MethodInvocation SimpleName tx type
+assert false SimpleName MethodInvocation MethodInvocation SimpleName txid
+sa SimpleName MethodInvocation SimpleName cleanup
+sa SimpleName MethodInvocation SimpleName tx type
+sa SimpleName MethodInvocation SimpleName txid
+cleanup SimpleName MethodInvocation SimpleName tx type
+cleanup SimpleName MethodInvocation SimpleName txid
+tx type SimpleName MethodInvocation SimpleName txid
+sa SimpleName MethodInvocation SimpleName transaction complete
+sa SimpleName MethodInvocation SimpleName tx type
+sa SimpleName MethodInvocation SimpleName txid
+transaction complete SimpleName MethodInvocation SimpleName tx type
+transaction complete SimpleName MethodInvocation SimpleName txid
+tx type SimpleName MethodInvocation SimpleName txid
+assert SimpleName MethodInvocation SimpleName assert true
+assert SimpleName MethodInvocation MethodInvocation SimpleName sa
+assert SimpleName MethodInvocation MethodInvocation SimpleName transaction complete
+assert SimpleName MethodInvocation MethodInvocation SimpleName tx type
+assert SimpleName MethodInvocation MethodInvocation SimpleName txid
+assert true SimpleName MethodInvocation MethodInvocation SimpleName sa
+assert true SimpleName MethodInvocation MethodInvocation SimpleName transaction complete
+assert true SimpleName MethodInvocation MethodInvocation SimpleName tx type
+assert true SimpleName MethodInvocation MethodInvocation SimpleName txid
+callable SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+assert SimpleName MethodInvocation SimpleName fail
+assert SimpleName MethodInvocation StringLiteral should not be able to start a new work on a discontinued transaction
+fail SimpleName MethodInvocation StringLiteral should not be able to start a new work on a discontinued transaction
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName object
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName call
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration SimpleType SimpleName object
+public Modifier MethodDeclaration SimpleName call
+public Modifier MethodDeclaration SimpleType SimpleName exception
+object SimpleName SimpleType MethodDeclaration SimpleName call
+object SimpleName SimpleType MethodDeclaration SimpleType SimpleName exception
+call SimpleName MethodDeclaration SimpleType SimpleName exception
+txw SimpleName MethodInvocation SimpleName run
+txw SimpleName MethodInvocation SimpleName tx type
+txw SimpleName MethodInvocation SimpleName txid
+run SimpleName MethodInvocation SimpleName tx type
+run SimpleName MethodInvocation SimpleName txid
+tx type SimpleName MethodInvocation SimpleName txid
+assert SimpleName MethodInvocation SimpleName fail
+assert SimpleName MethodInvocation StringLiteral work against stopped transaction should fail
+fail SimpleName MethodInvocation StringLiteral work against stopped transaction should fail
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName ex
+txid SimpleName VariableDeclarationFragment NumberLiteral empty
+final Modifier VariableDeclarationStatement PrimitiveType long
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName txid
+final Modifier VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName txid
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+sa SimpleName MethodInvocation SimpleName start
+sa SimpleName MethodInvocation SimpleName tx type
+sa SimpleName MethodInvocation SimpleName txid
+start SimpleName MethodInvocation SimpleName tx type
+start SimpleName MethodInvocation SimpleName txid
+tx type SimpleName MethodInvocation SimpleName txid
+callable SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+txw SimpleName MethodInvocation SimpleName is active
+txw SimpleName MethodInvocation SimpleName txid
+is active SimpleName MethodInvocation SimpleName txid
+assert SimpleName MethodInvocation SimpleName assert true
+assert SimpleName MethodInvocation MethodInvocation SimpleName txw
+assert SimpleName MethodInvocation MethodInvocation SimpleName is active
+assert SimpleName MethodInvocation MethodInvocation SimpleName txid
+assert true SimpleName MethodInvocation MethodInvocation SimpleName txw
+assert true SimpleName MethodInvocation MethodInvocation SimpleName is active
+assert true SimpleName MethodInvocation MethodInvocation SimpleName txid
+sa SimpleName MethodInvocation SimpleName stop
+sa SimpleName MethodInvocation SimpleName tx type
+sa SimpleName MethodInvocation SimpleName txid
+stop SimpleName MethodInvocation SimpleName tx type
+stop SimpleName MethodInvocation SimpleName txid
+tx type SimpleName MethodInvocation SimpleName txid
+callable SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+assert SimpleName MethodInvocation SimpleName fail
+assert SimpleName MethodInvocation StringLiteral should not be able to start a new work on a discontinued transaction
+fail SimpleName MethodInvocation StringLiteral should not be able to start a new work on a discontinued transaction
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName object
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName call
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration SimpleType SimpleName object
+public Modifier MethodDeclaration SimpleName call
+public Modifier MethodDeclaration SimpleType SimpleName exception
+object SimpleName SimpleType MethodDeclaration SimpleName call
+object SimpleName SimpleType MethodDeclaration SimpleType SimpleName exception
+call SimpleName MethodDeclaration SimpleType SimpleName exception
+txw SimpleName MethodInvocation SimpleName run
+txw SimpleName MethodInvocation SimpleName tx type
+txw SimpleName MethodInvocation SimpleName txid
+run SimpleName MethodInvocation SimpleName tx type
+run SimpleName MethodInvocation SimpleName txid
+tx type SimpleName MethodInvocation SimpleName txid
+assert SimpleName MethodInvocation SimpleName fail
+assert SimpleName MethodInvocation StringLiteral work against a stopped transaction should fail
+fail SimpleName MethodInvocation StringLiteral work against a stopped transaction should fail
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName ex
+txw SimpleName MethodInvocation SimpleName is active
+txw SimpleName MethodInvocation SimpleName txid
+is active SimpleName MethodInvocation SimpleName txid
+assert SimpleName MethodInvocation SimpleName assert true
+assert SimpleName MethodInvocation MethodInvocation SimpleName txw
+assert SimpleName MethodInvocation MethodInvocation SimpleName is active
+assert SimpleName MethodInvocation MethodInvocation SimpleName txid
+assert true SimpleName MethodInvocation MethodInvocation SimpleName txw
+assert true SimpleName MethodInvocation MethodInvocation SimpleName is active
+assert true SimpleName MethodInvocation MethodInvocation SimpleName txid
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName object
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName call
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration SimpleType SimpleName object
+public Modifier MethodDeclaration SimpleName call
+public Modifier MethodDeclaration SimpleType SimpleName exception
+object SimpleName SimpleType MethodDeclaration SimpleName call
+object SimpleName SimpleType MethodDeclaration SimpleType SimpleName exception
+call SimpleName MethodDeclaration SimpleType SimpleName exception
+txw SimpleName MethodInvocation SimpleName run
+txw SimpleName MethodInvocation SimpleName tx type
+txw SimpleName MethodInvocation SimpleName txid
+run SimpleName MethodInvocation SimpleName tx type
+run SimpleName MethodInvocation SimpleName txid
+tx type SimpleName MethodInvocation SimpleName txid
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType long
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+long PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+long PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test transaction watcher
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test transaction watcher
+public Modifier MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+public Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+public Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+public Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+public Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+void PrimitiveType MethodDeclaration SimpleName test transaction watcher
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement Modifier final
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement Modifier final
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement Modifier final
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement Modifier final
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement Modifier final
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+test transaction watcher SimpleName MethodDeclaration SimpleType SimpleName exception
+test transaction watcher SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+test transaction watcher SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+test transaction watcher SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+test transaction watcher SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+test transaction watcher SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+test transaction watcher SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+test transaction watcher SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test transaction watcher
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test transaction watcher
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

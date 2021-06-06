@@ -1,0 +1,20 @@
+user group information SimpleName SimpleType SingleVariableDeclaration SimpleName ugi
+ugi SimpleName FieldAccess Assignment SimpleName ugi
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set ugi
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName user group information
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName ugi
+void PrimitiveType MethodDeclaration SimpleName set ugi
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName user group information
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName ugi
+set ugi SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName user group information
+set ugi SimpleName MethodDeclaration SingleVariableDeclaration SimpleName ugi
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set ugi
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ugi
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set ugi
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ugi

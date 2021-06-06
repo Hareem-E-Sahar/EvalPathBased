@@ -1,0 +1,116 @@
+class SimpleName SimpleType ParameterizedType WildcardType ?
+class SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName implementing class
+? WildcardType ParameterizedType SingleVariableDeclaration SimpleName implementing class
+configuration SimpleName SimpleType SingleVariableDeclaration SimpleName conf
+accumulo token SimpleName SimpleType ParameterizedType WildcardType ?
+accumulo token SimpleName SimpleType ParameterizedType WildcardType ?
+? WildcardType ParameterizedType WildcardType ?
+accumulo token SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName token
+? WildcardType ParameterizedType SingleVariableDeclaration SimpleName token
+? WildcardType ParameterizedType SingleVariableDeclaration SimpleName token
+is connector info set SimpleName MethodInvocation SimpleName implementing class
+is connector info set SimpleName MethodInvocation SimpleName conf
+implementing class SimpleName MethodInvocation SimpleName conf
+implementing class SimpleName MethodInvocation SimpleName get simple name
+connector info for StringLiteral InfixExpression MethodInvocation SimpleName implementing class
+connector info for StringLiteral InfixExpression MethodInvocation SimpleName get simple name
+connector info for StringLiteral InfixExpression StringLiteral can only be set once per job
+implementing class SimpleName MethodInvocation InfixExpression StringLiteral can only be set once per job
+get simple name SimpleName MethodInvocation InfixExpression StringLiteral can only be set once per job
+illegal state exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral connector info for
+illegal state exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral can only be set once per job
+argument checker SimpleName MethodInvocation SimpleName not null
+argument checker SimpleName MethodInvocation SimpleName token
+not null SimpleName MethodInvocation SimpleName token
+enum to conf key SimpleName MethodInvocation SimpleName implementing class
+enum to conf key SimpleName MethodInvocation QualifiedName connector infois configured
+implementing class SimpleName MethodInvocation QualifiedName connector infois configured
+conf SimpleName MethodInvocation SimpleName set boolean
+conf SimpleName MethodInvocation MethodInvocation SimpleName enum to conf key
+conf SimpleName MethodInvocation MethodInvocation SimpleName implementing class
+conf SimpleName MethodInvocation MethodInvocation QualifiedName connector infois configured
+conf SimpleName MethodInvocation BooleanLiteral true
+set boolean SimpleName MethodInvocation MethodInvocation SimpleName enum to conf key
+set boolean SimpleName MethodInvocation MethodInvocation SimpleName implementing class
+set boolean SimpleName MethodInvocation MethodInvocation QualifiedName connector infois configured
+set boolean SimpleName MethodInvocation BooleanLiteral true
+enum to conf key SimpleName MethodInvocation MethodInvocation BooleanLiteral true
+implementing class SimpleName MethodInvocation MethodInvocation BooleanLiteral true
+connector infois configured QualifiedName MethodInvocation MethodInvocation BooleanLiteral true
+enum to conf key SimpleName MethodInvocation SimpleName implementing class
+enum to conf key SimpleName MethodInvocation QualifiedName connector infotoken
+implementing class SimpleName MethodInvocation QualifiedName connector infotoken
+token helper SimpleName MethodInvocation SimpleName as base string
+token helper SimpleName MethodInvocation SimpleName token
+as base string SimpleName MethodInvocation SimpleName token
+conf SimpleName MethodInvocation SimpleName set
+conf SimpleName MethodInvocation MethodInvocation SimpleName enum to conf key
+conf SimpleName MethodInvocation MethodInvocation SimpleName implementing class
+conf SimpleName MethodInvocation MethodInvocation QualifiedName connector infotoken
+conf SimpleName MethodInvocation MethodInvocation SimpleName token helper
+conf SimpleName MethodInvocation MethodInvocation SimpleName as base string
+conf SimpleName MethodInvocation MethodInvocation SimpleName token
+set SimpleName MethodInvocation MethodInvocation SimpleName enum to conf key
+set SimpleName MethodInvocation MethodInvocation SimpleName implementing class
+set SimpleName MethodInvocation MethodInvocation QualifiedName connector infotoken
+set SimpleName MethodInvocation MethodInvocation SimpleName token helper
+set SimpleName MethodInvocation MethodInvocation SimpleName as base string
+set SimpleName MethodInvocation MethodInvocation SimpleName token
+enum to conf key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName token helper
+enum to conf key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName as base string
+enum to conf key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName token
+implementing class SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName token helper
+implementing class SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName as base string
+implementing class SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName token
+connector infotoken QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName token helper
+connector infotoken QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName as base string
+connector infotoken QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName token
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set connector info
+public Modifier MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName implementing class
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName configuration
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName conf
+static Modifier MethodDeclaration PrimitiveType void
+static Modifier MethodDeclaration SimpleName set connector info
+static Modifier MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName implementing class
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName configuration
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName conf
+static Modifier MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+static Modifier MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName token
+void PrimitiveType MethodDeclaration SimpleName set connector info
+void PrimitiveType MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName implementing class
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName configuration
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName conf
+void PrimitiveType MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+void PrimitiveType MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName token
+set connector info SimpleName MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+set connector info SimpleName MethodDeclaration SingleVariableDeclaration SimpleName implementing class
+set connector info SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName configuration
+set connector info SimpleName MethodDeclaration SingleVariableDeclaration SimpleName conf
+set connector info SimpleName MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+set connector info SimpleName MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+set connector info SimpleName MethodDeclaration SingleVariableDeclaration SimpleName token
+implementing class SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName conf
+implementing class SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName token
+conf SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName token
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set connector info
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName implementing class
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName conf
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName token
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set connector info
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName implementing class
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName conf
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName token

@@ -1,0 +1,224 @@
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName key
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+key SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+iterator SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName iter
+int PrimitiveType SingleVariableDeclaration SimpleName start
+int PrimitiveType SingleVariableDeclaration SimpleName stop
+i SimpleName VariableDeclarationFragment SimpleName start
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName start
+i SimpleName InfixExpression SimpleName stop
+string SimpleName MethodInvocation SimpleName format
+string SimpleName MethodInvocation StringLiteral % d
+string SimpleName MethodInvocation SimpleName i
+format SimpleName MethodInvocation StringLiteral % d
+format SimpleName MethodInvocation SimpleName i
+% d StringLiteral MethodInvocation SimpleName i
+text SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName string
+text SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName format
+text SimpleName SimpleType ClassInstanceCreation MethodInvocation StringLiteral % d
+text SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName i
+er SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName text
+er SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName string
+er SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName format
+er SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation StringLiteral % d
+er SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName i
+text SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName er
+j SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName j
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+j SimpleName InfixExpression NumberLiteral empty
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName key
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+key SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+iter SimpleName MethodInvocation SimpleName next
+entry SimpleName VariableDeclarationFragment MethodInvocation SimpleName iter
+entry SimpleName VariableDeclarationFragment MethodInvocation SimpleName next
+entry SimpleName MethodInvocation SimpleName get key
+entry SimpleName MethodInvocation MethodInvocation SimpleName get row
+get key SimpleName MethodInvocation MethodInvocation SimpleName get row
+entry SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName equals
+get key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName equals
+get row SimpleName MethodInvocation MethodInvocation SimpleName equals
+entry SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName er
+get key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName er
+get row SimpleName MethodInvocation MethodInvocation SimpleName er
+equals SimpleName MethodInvocation SimpleName er
+entry SimpleName MethodInvocation SimpleName get key
+entry SimpleName MethodInvocation MethodInvocation SimpleName get row
+get key SimpleName MethodInvocation MethodInvocation SimpleName get row
+row StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName entry
+row StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName get key
+row StringLiteral InfixExpression MethodInvocation SimpleName get row
+row StringLiteral InfixExpression StringLiteral !=
+row StringLiteral InfixExpression SimpleName er
+entry SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral !=
+get key SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral !=
+get row SimpleName MethodInvocation InfixExpression StringLiteral !=
+entry SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName er
+get key SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName er
+get row SimpleName MethodInvocation InfixExpression SimpleName er
+!= StringLiteral InfixExpression SimpleName er
+exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral row
+exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral !=
+exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName er
+entry SimpleName MethodInvocation SimpleName get key
+entry SimpleName MethodInvocation MethodInvocation SimpleName get column family
+get key SimpleName MethodInvocation MethodInvocation SimpleName get column family
+text SimpleName SimpleType ClassInstanceCreation StringLiteral cf
+entry SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName equals
+get key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName equals
+get column family SimpleName MethodInvocation MethodInvocation SimpleName equals
+get column family SimpleName MethodInvocation MethodInvocation ClassInstanceCreation StringLiteral cf
+equals SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName text
+equals SimpleName MethodInvocation ClassInstanceCreation StringLiteral cf
+entry SimpleName MethodInvocation SimpleName get key
+entry SimpleName MethodInvocation MethodInvocation SimpleName get column family
+get key SimpleName MethodInvocation MethodInvocation SimpleName get column family
+cf StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName entry
+cf StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName get key
+cf StringLiteral InfixExpression MethodInvocation SimpleName get column family
+cf StringLiteral InfixExpression StringLiteral != cf
+entry SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral != cf
+get key SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral != cf
+get column family SimpleName MethodInvocation InfixExpression StringLiteral != cf
+exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral cf
+exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral != cf
+entry SimpleName MethodInvocation SimpleName get key
+entry SimpleName MethodInvocation MethodInvocation SimpleName get column qualifier
+get key SimpleName MethodInvocation MethodInvocation SimpleName get column qualifier
+cq StringLiteral InfixExpression SimpleName j
+text SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral cq
+text SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName j
+entry SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName equals
+get key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName equals
+get column qualifier SimpleName MethodInvocation MethodInvocation SimpleName equals
+equals SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName text
+equals SimpleName MethodInvocation ClassInstanceCreation InfixExpression StringLiteral cq
+equals SimpleName MethodInvocation ClassInstanceCreation InfixExpression SimpleName j
+entry SimpleName MethodInvocation SimpleName get key
+entry SimpleName MethodInvocation MethodInvocation SimpleName get column qualifier
+get key SimpleName MethodInvocation MethodInvocation SimpleName get column qualifier
+cq StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName entry
+cq StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName get key
+cq StringLiteral InfixExpression MethodInvocation SimpleName get column qualifier
+cq StringLiteral InfixExpression StringLiteral != cq
+cq StringLiteral InfixExpression SimpleName j
+entry SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral != cq
+get key SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral != cq
+get column qualifier SimpleName MethodInvocation InfixExpression StringLiteral != cq
+entry SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName j
+get key SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName j
+get column qualifier SimpleName MethodInvocation InfixExpression SimpleName j
+!= cq StringLiteral InfixExpression SimpleName j
+exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral cq
+exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral != cq
+exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName j
+entry SimpleName MethodInvocation SimpleName get value
+entry SimpleName MethodInvocation MethodInvocation SimpleName to string
+get value SimpleName MethodInvocation MethodInvocation SimpleName to string
+empty StringLiteral InfixExpression SimpleName i
+empty StringLiteral InfixExpression StringLiteral empty
+empty StringLiteral InfixExpression SimpleName j
+i SimpleName InfixExpression StringLiteral empty
+i SimpleName InfixExpression SimpleName j
+empty StringLiteral InfixExpression SimpleName j
+entry SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName equals
+get value SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName equals
+to string SimpleName MethodInvocation MethodInvocation SimpleName equals
+to string SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral empty
+to string SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName i
+to string SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral empty
+to string SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName j
+equals SimpleName MethodInvocation InfixExpression StringLiteral empty
+equals SimpleName MethodInvocation InfixExpression SimpleName i
+equals SimpleName MethodInvocation InfixExpression StringLiteral empty
+equals SimpleName MethodInvocation InfixExpression SimpleName j
+entry SimpleName MethodInvocation SimpleName get value
+value StringLiteral InfixExpression MethodInvocation SimpleName entry
+value StringLiteral InfixExpression MethodInvocation SimpleName get value
+value StringLiteral InfixExpression StringLiteral !=
+value StringLiteral InfixExpression SimpleName i
+value StringLiteral InfixExpression StringLiteral empty
+value StringLiteral InfixExpression SimpleName j
+entry SimpleName MethodInvocation InfixExpression StringLiteral !=
+get value SimpleName MethodInvocation InfixExpression StringLiteral !=
+entry SimpleName MethodInvocation InfixExpression SimpleName i
+get value SimpleName MethodInvocation InfixExpression SimpleName i
+entry SimpleName MethodInvocation InfixExpression StringLiteral empty
+get value SimpleName MethodInvocation InfixExpression StringLiteral empty
+entry SimpleName MethodInvocation InfixExpression SimpleName j
+get value SimpleName MethodInvocation InfixExpression SimpleName j
+!= StringLiteral InfixExpression SimpleName i
+!= StringLiteral InfixExpression StringLiteral empty
+!= StringLiteral InfixExpression SimpleName j
+i SimpleName InfixExpression StringLiteral empty
+i SimpleName InfixExpression SimpleName j
+empty StringLiteral InfixExpression SimpleName j
+exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral value
+exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral !=
+exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName i
+exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral empty
+exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName j
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName j
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName j
+j SimpleName InfixExpression ForStatement PostfixExpression SimpleName j
+empty NumberLiteral InfixExpression ForStatement PostfixExpression SimpleName j
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName stop
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+stop SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName verify
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName iter
+private Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName start
+private Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName stop
+void PrimitiveType MethodDeclaration SimpleName verify
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName iter
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName start
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName stop
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+verify SimpleName MethodDeclaration SingleVariableDeclaration SimpleName iter
+verify SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+verify SimpleName MethodDeclaration SingleVariableDeclaration SimpleName start
+verify SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+verify SimpleName MethodDeclaration SingleVariableDeclaration SimpleName stop
+verify SimpleName MethodDeclaration SimpleType SimpleName exception
+iter SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+iter SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName start
+iter SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+iter SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName stop
+iter SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName stop
+start SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+start SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName stop
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+start SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+stop SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName verify
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName iter
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName start
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName stop
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName verify
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName iter
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName start
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName stop
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

@@ -1,0 +1,48 @@
+zip source SimpleName SimpleType SingleVariableDeclaration SimpleName zip source
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+list SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName creation order
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName creation order
+string SimpleName SimpleType SingleVariableDeclaration SimpleName guid
+zip source SimpleName MethodInvocation SimpleName get entity with ext info
+zip source SimpleName MethodInvocation SimpleName guid
+get entity with ext info SimpleName MethodInvocation SimpleName guid
+e SimpleName VariableDeclarationFragment MethodInvocation SimpleName zip source
+e SimpleName VariableDeclarationFragment MethodInvocation SimpleName get entity with ext info
+e SimpleName VariableDeclarationFragment MethodInvocation SimpleName guid
+atlas entityatlas entity ext info QualifiedName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName e
+assert not null SimpleName MethodInvocation SimpleName e
+string SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName creation order
+guid SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName creation order
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName use creation order to fetch entities with ext info
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName zip source
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName zip source
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName creation order
+private Modifier MethodDeclaration SimpleType SimpleName atlas base exception
+void PrimitiveType MethodDeclaration SimpleName use creation order to fetch entities with ext info
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName zip source
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName zip source
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName creation order
+void PrimitiveType MethodDeclaration SimpleType SimpleName atlas base exception
+void PrimitiveType MethodDeclaration Block EnhancedForStatement SimpleName creation order
+use creation order to fetch entities with ext info SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName zip source
+use creation order to fetch entities with ext info SimpleName MethodDeclaration SingleVariableDeclaration SimpleName zip source
+use creation order to fetch entities with ext info SimpleName MethodDeclaration SingleVariableDeclaration SimpleName creation order
+use creation order to fetch entities with ext info SimpleName MethodDeclaration SimpleType SimpleName atlas base exception
+use creation order to fetch entities with ext info SimpleName MethodDeclaration Block EnhancedForStatement SimpleName creation order
+zip source SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName creation order
+zip source SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+creation order SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName use creation order to fetch entities with ext info
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName zip source
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName creation order
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName use creation order to fetch entities with ext info
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName zip source
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName creation order
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception

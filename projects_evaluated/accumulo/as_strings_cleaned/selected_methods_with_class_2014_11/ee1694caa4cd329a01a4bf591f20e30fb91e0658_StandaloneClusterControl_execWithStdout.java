@@ -1,0 +1,124 @@
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName integer
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+integer SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+class SimpleName SimpleType ParameterizedType WildcardType ?
+class SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName clz
+? WildcardType ParameterizedType SingleVariableDeclaration SimpleName clz
+string SimpleName SimpleType ArrayType SingleVariableDeclaration SimpleName args
+conf dir SimpleName VariableDeclarationFragment MethodInvocation SimpleName get conf dir
+file SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName conf dir
+file SimpleName SimpleType ClassInstanceCreation SimpleName conf dir
+file SimpleName SimpleType ClassInstanceCreation StringLiteral masters
+conf dir SimpleName ClassInstanceCreation StringLiteral masters
+get hosts SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName file
+get hosts SimpleName MethodInvocation ClassInstanceCreation SimpleName conf dir
+get hosts SimpleName MethodInvocation ClassInstanceCreation StringLiteral masters
+get hosts SimpleName MethodInvocation MethodInvocation SimpleName get
+conf dir SimpleName ClassInstanceCreation MethodInvocation MethodInvocation SimpleName get
+masters StringLiteral ClassInstanceCreation MethodInvocation MethodInvocation SimpleName get
+get hosts SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+conf dir SimpleName ClassInstanceCreation MethodInvocation MethodInvocation NumberLiteral empty
+masters StringLiteral ClassInstanceCreation MethodInvocation MethodInvocation NumberLiteral empty
+get SimpleName MethodInvocation NumberLiteral empty
+master SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get hosts
+master SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+master SimpleName VariableDeclarationFragment MethodInvocation NumberLiteral empty
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName master
+empty NumberLiteral InfixExpression QualifiedName argslength
+cmd SimpleName VariableDeclarationFragment ArrayCreation InfixExpression NumberLiteral empty
+cmd SimpleName VariableDeclarationFragment ArrayCreation InfixExpression QualifiedName argslength
+cmd SimpleName ArrayAccess NumberLiteral empty
+cmd SimpleName ArrayAccess Assignment SimpleName accumulo path
+empty NumberLiteral ArrayAccess Assignment SimpleName accumulo path
+cmd SimpleName ArrayAccess NumberLiteral empty
+clz SimpleName MethodInvocation SimpleName get name
+cmd SimpleName ArrayAccess Assignment MethodInvocation SimpleName clz
+cmd SimpleName ArrayAccess Assignment MethodInvocation SimpleName get name
+empty NumberLiteral ArrayAccess Assignment MethodInvocation SimpleName clz
+empty NumberLiteral ArrayAccess Assignment MethodInvocation SimpleName get name
+system SimpleName MethodInvocation SimpleName arraycopy
+system SimpleName MethodInvocation SimpleName args
+system SimpleName MethodInvocation NumberLiteral empty
+system SimpleName MethodInvocation SimpleName cmd
+system SimpleName MethodInvocation NumberLiteral empty
+arraycopy SimpleName MethodInvocation SimpleName args
+arraycopy SimpleName MethodInvocation NumberLiteral empty
+arraycopy SimpleName MethodInvocation SimpleName cmd
+arraycopy SimpleName MethodInvocation NumberLiteral empty
+arraycopy SimpleName MethodInvocation QualifiedName argslength
+args SimpleName MethodInvocation NumberLiteral empty
+args SimpleName MethodInvocation SimpleName cmd
+args SimpleName MethodInvocation NumberLiteral empty
+args SimpleName MethodInvocation QualifiedName argslength
+empty NumberLiteral MethodInvocation SimpleName cmd
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation QualifiedName argslength
+cmd SimpleName MethodInvocation NumberLiteral empty
+cmd SimpleName MethodInvocation QualifiedName argslength
+empty NumberLiteral MethodInvocation QualifiedName argslength
+string utils SimpleName MethodInvocation SimpleName join
+string utils SimpleName MethodInvocation SimpleName cmd
+string utils SimpleName MethodInvocation StringLiteral empty
+join SimpleName MethodInvocation SimpleName cmd
+join SimpleName MethodInvocation StringLiteral empty
+cmd SimpleName MethodInvocation StringLiteral empty
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation StringLiteral running {} on {}
+log SimpleName MethodInvocation MethodInvocation SimpleName string utils
+log SimpleName MethodInvocation MethodInvocation SimpleName join
+log SimpleName MethodInvocation MethodInvocation SimpleName cmd
+log SimpleName MethodInvocation MethodInvocation StringLiteral empty
+log SimpleName MethodInvocation SimpleName master
+info SimpleName MethodInvocation StringLiteral running {} on {}
+info SimpleName MethodInvocation MethodInvocation SimpleName string utils
+info SimpleName MethodInvocation MethodInvocation SimpleName join
+info SimpleName MethodInvocation MethodInvocation SimpleName cmd
+info SimpleName MethodInvocation MethodInvocation StringLiteral empty
+info SimpleName MethodInvocation SimpleName master
+running {} on {} StringLiteral MethodInvocation MethodInvocation SimpleName string utils
+running {} on {} StringLiteral MethodInvocation MethodInvocation SimpleName join
+running {} on {} StringLiteral MethodInvocation MethodInvocation SimpleName cmd
+running {} on {} StringLiteral MethodInvocation MethodInvocation StringLiteral empty
+running {} on {} StringLiteral MethodInvocation SimpleName master
+string utils SimpleName MethodInvocation MethodInvocation SimpleName master
+join SimpleName MethodInvocation MethodInvocation SimpleName master
+cmd SimpleName MethodInvocation MethodInvocation SimpleName master
+empty StringLiteral MethodInvocation MethodInvocation SimpleName master
+exec SimpleName MethodInvocation SimpleName master
+exec SimpleName MethodInvocation SimpleName cmd
+master SimpleName MethodInvocation SimpleName cmd
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName exec with stdout
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName clz
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName args
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName entry
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName integer
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName exec with stdout
+public Modifier MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName clz
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName args
+public Modifier MethodDeclaration SimpleType SimpleName io exception
+entry SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName exec with stdout
+integer SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName exec with stdout
+string SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName exec with stdout
+exec with stdout SimpleName MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+exec with stdout SimpleName MethodDeclaration SingleVariableDeclaration SimpleName clz
+exec with stdout SimpleName MethodDeclaration SingleVariableDeclaration SimpleName args
+exec with stdout SimpleName MethodDeclaration SimpleType SimpleName io exception
+clz SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName args
+clz SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+args SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName exec with stdout
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName clz
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName args
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName exec with stdout
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName clz
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName args
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

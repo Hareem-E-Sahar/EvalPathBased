@@ -1,0 +1,91 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName active compaction
+string SimpleName SimpleType SingleVariableDeclaration SimpleName tserver
+client SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName client
+instance SimpleName MethodInvocation SimpleName get configuration
+thrift util SimpleName MethodInvocation SimpleName get t server client
+thrift util SimpleName MethodInvocation SimpleName tserver
+thrift util SimpleName MethodInvocation MethodInvocation SimpleName instance
+thrift util SimpleName MethodInvocation MethodInvocation SimpleName get configuration
+get t server client SimpleName MethodInvocation SimpleName tserver
+get t server client SimpleName MethodInvocation MethodInvocation SimpleName instance
+get t server client SimpleName MethodInvocation MethodInvocation SimpleName get configuration
+tserver SimpleName MethodInvocation MethodInvocation SimpleName instance
+tserver SimpleName MethodInvocation MethodInvocation SimpleName get configuration
+client SimpleName Assignment MethodInvocation SimpleName thrift util
+client SimpleName Assignment MethodInvocation SimpleName get t server client
+client SimpleName Assignment MethodInvocation SimpleName tserver
+client SimpleName Assignment MethodInvocation MethodInvocation SimpleName instance
+client SimpleName Assignment MethodInvocation MethodInvocation SimpleName get configuration
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName active compaction
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName active compaction
+orgapacheaccumulocoretabletserverthriftactive compaction QualifiedName SimpleType SingleVariableDeclaration SimpleName active compaction
+tracer SimpleName MethodInvocation SimpleName trace info
+client SimpleName MethodInvocation SimpleName get active compactions
+client SimpleName MethodInvocation MethodInvocation SimpleName tracer
+client SimpleName MethodInvocation MethodInvocation SimpleName trace info
+client SimpleName MethodInvocation SimpleName credentials
+get active compactions SimpleName MethodInvocation MethodInvocation SimpleName tracer
+get active compactions SimpleName MethodInvocation MethodInvocation SimpleName trace info
+get active compactions SimpleName MethodInvocation SimpleName credentials
+tracer SimpleName MethodInvocation MethodInvocation SimpleName credentials
+trace info SimpleName MethodInvocation MethodInvocation SimpleName credentials
+active compaction SimpleName SimpleType ClassInstanceCreation SimpleName instance
+active compaction SimpleName SimpleType ClassInstanceCreation SimpleName active compaction
+instance SimpleName ClassInstanceCreation SimpleName active compaction
+as SimpleName MethodInvocation SimpleName add
+as SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName active compaction
+as SimpleName MethodInvocation ClassInstanceCreation SimpleName instance
+as SimpleName MethodInvocation ClassInstanceCreation SimpleName active compaction
+add SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName active compaction
+add SimpleName MethodInvocation ClassInstanceCreation SimpleName instance
+add SimpleName MethodInvocation ClassInstanceCreation SimpleName active compaction
+active compaction SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName client
+active compaction SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName get active compactions
+active compaction SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName credentials
+t transport exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+accumulo exception SimpleName SimpleType ClassInstanceCreation SimpleName e
+thrift security exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+accumulo security exception SimpleName SimpleType ClassInstanceCreation QualifiedName euser
+accumulo security exception SimpleName SimpleType ClassInstanceCreation QualifiedName ecode
+accumulo security exception SimpleName SimpleType ClassInstanceCreation SimpleName e
+euser QualifiedName ClassInstanceCreation QualifiedName ecode
+euser QualifiedName ClassInstanceCreation SimpleName e
+ecode QualifiedName ClassInstanceCreation SimpleName e
+t exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+accumulo exception SimpleName SimpleType ClassInstanceCreation SimpleName e
+thrift util SimpleName MethodInvocation SimpleName return client
+thrift util SimpleName MethodInvocation SimpleName client
+return client SimpleName MethodInvocation SimpleName client
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName get active compactions
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName tserver
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName accumulo exception
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName active compaction
+public Modifier MethodDeclaration SimpleName get active compactions
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName tserver
+public Modifier MethodDeclaration SimpleType SimpleName accumulo exception
+public Modifier MethodDeclaration SimpleType SimpleName accumulo security exception
+list SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get active compactions
+active compaction SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get active compactions
+get active compactions SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get active compactions SimpleName MethodDeclaration SingleVariableDeclaration SimpleName tserver
+get active compactions SimpleName MethodDeclaration SimpleType SimpleName accumulo exception
+get active compactions SimpleName MethodDeclaration SimpleType SimpleName accumulo security exception
+tserver SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+tserver SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+accumulo exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName accumulo security exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName get active compactions
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName tserver
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get active compactions
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName tserver
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception

@@ -1,0 +1,17 @@
+atlas relationship SimpleName SimpleType SingleVariableDeclaration SimpleName relationship
+atlas relationship SimpleName SimpleType MethodDeclaration SimpleName update
+atlas relationship SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName relationship
+atlas relationship SimpleName SimpleType MethodDeclaration SimpleType SimpleName atlas base exception
+update SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas relationship
+update SimpleName MethodDeclaration SingleVariableDeclaration SimpleName relationship
+update SimpleName MethodDeclaration SimpleType SimpleName atlas base exception
+relationship SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas relationship
+public Modifier TypeDeclaration MethodDeclaration SimpleName update
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName relationship
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas relationship
+test SimpleName TypeDeclaration MethodDeclaration SimpleName update
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName relationship
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception

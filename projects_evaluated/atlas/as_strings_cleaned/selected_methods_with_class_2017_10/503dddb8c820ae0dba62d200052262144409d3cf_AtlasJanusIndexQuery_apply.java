@@ -1,0 +1,28 @@
+result SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas janus vertex
+result SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas janus edge
+atlas janus vertex SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas janus edge
+janus graph index queryresult QualifiedName SimpleType ParameterizedType SimpleType SimpleName janus graph vertex
+janus graph index queryresult QualifiedName SimpleType ParameterizedType SingleVariableDeclaration SimpleName source
+janus graph vertex SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName source
+result impl SimpleName SimpleType ClassInstanceCreation SimpleName source
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName apply
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName source
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName result
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName atlas janus vertex
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName atlas janus edge
+public Modifier MethodDeclaration SimpleName apply
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName source
+result SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName apply
+atlas janus vertex SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName apply
+atlas janus edge SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName apply
+apply SimpleName MethodDeclaration SingleVariableDeclaration SimpleName source
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName apply
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName source
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName apply
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName source

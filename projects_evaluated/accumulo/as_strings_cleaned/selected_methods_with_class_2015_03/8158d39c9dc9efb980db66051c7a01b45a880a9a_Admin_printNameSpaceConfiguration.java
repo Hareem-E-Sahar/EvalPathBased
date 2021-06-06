@@ -1,0 +1,206 @@
+connector SimpleName SimpleType SingleVariableDeclaration SimpleName connector
+string SimpleName SimpleType SingleVariableDeclaration SimpleName namespace
+file SimpleName SimpleType SingleVariableDeclaration SimpleName output directory
+namespace SimpleName InfixExpression SimpleName ns file suffix
+file SimpleName SimpleType ClassInstanceCreation SimpleName output directory
+file SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName namespace
+file SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName ns file suffix
+output directory SimpleName ClassInstanceCreation InfixExpression SimpleName namespace
+output directory SimpleName ClassInstanceCreation InfixExpression SimpleName ns file suffix
+namespace script SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName file
+namespace script SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName output directory
+namespace script SimpleName VariableDeclarationFragment ClassInstanceCreation InfixExpression SimpleName namespace
+namespace script SimpleName VariableDeclarationFragment ClassInstanceCreation InfixExpression SimpleName ns file suffix
+file SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName namespace script
+file writer SimpleName SimpleType ClassInstanceCreation SimpleName namespace script
+ns writer SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName file writer
+ns writer SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName namespace script
+file writer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ns writer
+create ns format SimpleName MethodInvocation SimpleName format
+create ns format SimpleName MethodInvocation ArrayCreation ArrayInitializer SimpleName namespace
+format SimpleName MethodInvocation ArrayCreation ArrayInitializer SimpleName namespace
+ns writer SimpleName MethodInvocation SimpleName write
+ns writer SimpleName MethodInvocation MethodInvocation SimpleName create ns format
+ns writer SimpleName MethodInvocation MethodInvocation SimpleName format
+write SimpleName MethodInvocation MethodInvocation SimpleName create ns format
+write SimpleName MethodInvocation MethodInvocation SimpleName format
+tree map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+tree map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+tree map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+tree map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+entry SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName p
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName p
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName p
+connector SimpleName MethodInvocation SimpleName namespace operations
+connector SimpleName MethodInvocation MethodInvocation SimpleName get properties
+namespace operations SimpleName MethodInvocation MethodInvocation SimpleName get properties
+connector SimpleName MethodInvocation MethodInvocation SimpleName namespace
+namespace operations SimpleName MethodInvocation MethodInvocation SimpleName namespace
+get properties SimpleName MethodInvocation SimpleName namespace
+p SimpleName MethodInvocation SimpleName get key
+p SimpleName MethodInvocation SimpleName get value
+props SimpleName MethodInvocation SimpleName put
+props SimpleName MethodInvocation MethodInvocation SimpleName p
+props SimpleName MethodInvocation MethodInvocation SimpleName get key
+props SimpleName MethodInvocation MethodInvocation SimpleName p
+props SimpleName MethodInvocation MethodInvocation SimpleName get value
+put SimpleName MethodInvocation MethodInvocation SimpleName p
+put SimpleName MethodInvocation MethodInvocation SimpleName get key
+put SimpleName MethodInvocation MethodInvocation SimpleName p
+put SimpleName MethodInvocation MethodInvocation SimpleName get value
+p SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName p
+p SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get value
+get key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName p
+get key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get value
+p SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName get properties
+p SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName namespace
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+entry SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+props SimpleName MethodInvocation SimpleName entry set
+entry SimpleName MethodInvocation SimpleName get key
+get default config value SimpleName MethodInvocation MethodInvocation SimpleName entry
+get default config value SimpleName MethodInvocation MethodInvocation SimpleName get key
+default value SimpleName VariableDeclarationFragment MethodInvocation SimpleName get default config value
+default value SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName entry
+default value SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get key
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName default value
+entry SimpleName MethodInvocation SimpleName get value
+default value SimpleName MethodInvocation SimpleName equals
+default value SimpleName MethodInvocation MethodInvocation SimpleName entry
+default value SimpleName MethodInvocation MethodInvocation SimpleName get value
+equals SimpleName MethodInvocation MethodInvocation SimpleName entry
+equals SimpleName MethodInvocation MethodInvocation SimpleName get value
+entry SimpleName MethodInvocation SimpleName get value
+entry SimpleName MethodInvocation SimpleName get key
+site config SimpleName MethodInvocation SimpleName get
+site config SimpleName MethodInvocation MethodInvocation SimpleName entry
+site config SimpleName MethodInvocation MethodInvocation SimpleName get key
+get SimpleName MethodInvocation MethodInvocation SimpleName entry
+get SimpleName MethodInvocation MethodInvocation SimpleName get key
+entry SimpleName MethodInvocation MethodInvocation SimpleName equals
+get value SimpleName MethodInvocation MethodInvocation SimpleName equals
+entry SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName site config
+entry SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+get value SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName site config
+get value SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+equals SimpleName MethodInvocation MethodInvocation SimpleName site config
+equals SimpleName MethodInvocation MethodInvocation SimpleName get
+equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName entry
+equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get key
+entry SimpleName MethodInvocation SimpleName get value
+entry SimpleName MethodInvocation SimpleName get key
+system config SimpleName MethodInvocation SimpleName get
+system config SimpleName MethodInvocation MethodInvocation SimpleName entry
+system config SimpleName MethodInvocation MethodInvocation SimpleName get key
+get SimpleName MethodInvocation MethodInvocation SimpleName entry
+get SimpleName MethodInvocation MethodInvocation SimpleName get key
+entry SimpleName MethodInvocation MethodInvocation SimpleName equals
+get value SimpleName MethodInvocation MethodInvocation SimpleName equals
+entry SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName system config
+entry SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+get value SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName system config
+get value SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+equals SimpleName MethodInvocation MethodInvocation SimpleName system config
+equals SimpleName MethodInvocation MethodInvocation SimpleName get
+equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName entry
+equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get key
+entry SimpleName MethodInvocation SimpleName get key
+entry SimpleName MethodInvocation SimpleName get value
+entry SimpleName MethodInvocation InfixExpression StringLiteral =
+get key SimpleName MethodInvocation InfixExpression StringLiteral =
+entry SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName entry
+entry SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get value
+get key SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName entry
+get key SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get value
+= StringLiteral InfixExpression MethodInvocation SimpleName entry
+= StringLiteral InfixExpression MethodInvocation SimpleName get value
+namespace SimpleName ArrayInitializer InfixExpression MethodInvocation SimpleName entry
+namespace SimpleName ArrayInitializer InfixExpression MethodInvocation SimpleName get key
+namespace SimpleName ArrayInitializer InfixExpression StringLiteral =
+namespace SimpleName ArrayInitializer InfixExpression MethodInvocation SimpleName entry
+namespace SimpleName ArrayInitializer InfixExpression MethodInvocation SimpleName get value
+ns config format SimpleName MethodInvocation SimpleName format
+ns config format SimpleName MethodInvocation ArrayCreation ArrayInitializer SimpleName namespace
+format SimpleName MethodInvocation ArrayCreation ArrayInitializer SimpleName namespace
+ns writer SimpleName MethodInvocation SimpleName write
+ns writer SimpleName MethodInvocation MethodInvocation SimpleName ns config format
+ns writer SimpleName MethodInvocation MethodInvocation SimpleName format
+write SimpleName MethodInvocation MethodInvocation SimpleName ns config format
+write SimpleName MethodInvocation MethodInvocation SimpleName format
+entry SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName props
+entry SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName entry set
+ns writer SimpleName MethodInvocation SimpleName close
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName print name space configuration
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName connector
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName connector
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName namespace
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName file
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName output directory
+void PrimitiveType MethodDeclaration SimpleName print name space configuration
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName connector
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName connector
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName namespace
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName file
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName output directory
+void PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+print name space configuration SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName connector
+print name space configuration SimpleName MethodDeclaration SingleVariableDeclaration SimpleName connector
+print name space configuration SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+print name space configuration SimpleName MethodDeclaration SingleVariableDeclaration SimpleName namespace
+print name space configuration SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName file
+print name space configuration SimpleName MethodDeclaration SingleVariableDeclaration SimpleName output directory
+print name space configuration SimpleName MethodDeclaration SimpleType SimpleName io exception
+print name space configuration SimpleName MethodDeclaration SimpleType SimpleName accumulo exception
+connector SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName namespace
+connector SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName output directory
+connector SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+connector SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+connector SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+namespace SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName output directory
+namespace SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+namespace SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+namespace SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+namespace SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName namespace not found exception
+output directory SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+output directory SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+output directory SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+output directory SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName namespace not found exception
+io exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName accumulo exception
+io exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName accumulo security exception
+io exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName namespace not found exception
+accumulo exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName accumulo security exception
+accumulo exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName namespace not found exception
+accumulo security exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName namespace not found exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName print name space configuration
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName connector
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName namespace
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName output directory
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName namespace not found exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName print name space configuration
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName connector
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName namespace
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName output directory
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName namespace not found exception

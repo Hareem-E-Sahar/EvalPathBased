@@ -1,0 +1,160 @@
+http servlet request SimpleName SimpleType SingleVariableDeclaration SimpleName req
+final Modifier SingleVariableDeclaration SimpleType SimpleName http servlet response
+final Modifier SingleVariableDeclaration SimpleName resp
+http servlet response SimpleName SimpleType SingleVariableDeclaration SimpleName resp
+req SimpleName MethodInvocation SimpleName get request uri
+path SimpleName VariableDeclarationFragment MethodInvocation SimpleName req
+path SimpleName VariableDeclarationFragment MethodInvocation SimpleName get request uri
+final Modifier VariableDeclarationStatement SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName path
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName req
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get request uri
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName path
+path SimpleName MethodInvocation SimpleName ends with
+path SimpleName MethodInvocation StringLiteral html
+ends with SimpleName MethodInvocation StringLiteral html
+resp SimpleName MethodInvocation SimpleName set content type
+resp SimpleName MethodInvocation StringLiteral texthtml
+set content type SimpleName MethodInvocation StringLiteral texthtml
+system SimpleName MethodInvocation SimpleName getenv
+system SimpleName MethodInvocation StringLiteral accumulo home
+getenv SimpleName MethodInvocation StringLiteral accumulo home
+a home SimpleName VariableDeclarationFragment MethodInvocation SimpleName system
+a home SimpleName VariableDeclarationFragment MethodInvocation SimpleName getenv
+a home SimpleName VariableDeclarationFragment MethodInvocation StringLiteral accumulo home
+final Modifier VariableDeclarationStatement SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName a home
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName system
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName getenv
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation StringLiteral accumulo home
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName a home
+pc SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName permissions
+permission collection SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName pc
+a home SimpleName InfixExpression StringLiteral docs
+file permission SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName a home
+file permission SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral docs
+file permission SimpleName SimpleType ClassInstanceCreation StringLiteral read
+a home SimpleName InfixExpression ClassInstanceCreation StringLiteral read
+docs StringLiteral InfixExpression ClassInstanceCreation StringLiteral read
+pc SimpleName MethodInvocation SimpleName add
+pc SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName file permission
+pc SimpleName MethodInvocation ClassInstanceCreation InfixExpression SimpleName a home
+pc SimpleName MethodInvocation ClassInstanceCreation InfixExpression StringLiteral docs
+pc SimpleName MethodInvocation ClassInstanceCreation StringLiteral read
+add SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName file permission
+add SimpleName MethodInvocation ClassInstanceCreation InfixExpression SimpleName a home
+add SimpleName MethodInvocation ClassInstanceCreation InfixExpression StringLiteral docs
+add SimpleName MethodInvocation ClassInstanceCreation StringLiteral read
+protection domain SimpleName SimpleType ClassInstanceCreation SimpleName pc
+acc SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName access control context
+access control context SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName acc
+privileged action SimpleName SimpleType ParameterizedType SimpleType SimpleName io exception
+input stream SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName data
+a home SimpleName InfixExpression SimpleName path
+file SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName a home
+file SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName path
+file SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName file
+file SimpleName VariableDeclarationFragment ClassInstanceCreation InfixExpression SimpleName a home
+file SimpleName VariableDeclarationFragment ClassInstanceCreation InfixExpression SimpleName path
+file SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName file
+file SimpleName MethodInvocation SimpleName get absolute path
+file input stream SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName file
+file input stream SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get absolute path
+data SimpleName Assignment ClassInstanceCreation SimpleType SimpleName file input stream
+data SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName file
+data SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName get absolute path
+byte PrimitiveType ArrayType ArrayCreation NumberLiteral empty
+buffer SimpleName VariableDeclarationFragment ArrayCreation ArrayType PrimitiveType byte
+buffer SimpleName VariableDeclarationFragment ArrayCreation NumberLiteral empty
+byte PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName buffer
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName n
+resp SimpleName MethodInvocation SimpleName get output stream
+out SimpleName VariableDeclarationFragment MethodInvocation SimpleName resp
+out SimpleName VariableDeclarationFragment MethodInvocation SimpleName get output stream
+servlet output stream SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName out
+data SimpleName MethodInvocation SimpleName read
+data SimpleName MethodInvocation SimpleName buffer
+read SimpleName MethodInvocation SimpleName buffer
+n SimpleName Assignment MethodInvocation SimpleName data
+n SimpleName Assignment MethodInvocation SimpleName read
+n SimpleName Assignment MethodInvocation SimpleName buffer
+n SimpleName Assignment ParenthesizedExpression InfixExpression NumberLiteral empty
+out SimpleName MethodInvocation SimpleName write
+out SimpleName MethodInvocation SimpleName buffer
+out SimpleName MethodInvocation NumberLiteral empty
+out SimpleName MethodInvocation SimpleName n
+write SimpleName MethodInvocation SimpleName buffer
+write SimpleName MethodInvocation NumberLiteral empty
+write SimpleName MethodInvocation SimpleName n
+buffer SimpleName MethodInvocation NumberLiteral empty
+buffer SimpleName MethodInvocation SimpleName n
+empty NumberLiteral MethodInvocation SimpleName n
+io exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+data SimpleName MethodInvocation SimpleName close
+io exception SimpleName SimpleType SingleVariableDeclaration SimpleName ex
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation SimpleName ex
+log SimpleName MethodInvocation SimpleName ex
+error SimpleName MethodInvocation SimpleName ex
+error SimpleName MethodInvocation SimpleName ex
+ex SimpleName MethodInvocation SimpleName ex
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName io exception
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName run
+public Modifier MethodDeclaration SimpleType SimpleName io exception
+public Modifier MethodDeclaration SimpleName run
+io exception SimpleName SimpleType MethodDeclaration SimpleName run
+access controller SimpleName MethodInvocation SimpleName do privileged
+access controller SimpleName MethodInvocation SimpleName acc
+do privileged SimpleName MethodInvocation SimpleName acc
+e SimpleName VariableDeclarationFragment MethodInvocation SimpleName access controller
+e SimpleName VariableDeclarationFragment MethodInvocation SimpleName do privileged
+e SimpleName VariableDeclarationFragment MethodInvocation SimpleName acc
+io exception SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName e
+e SimpleName InfixExpression IfStatement ThrowStatement SimpleName e
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName get doc resource
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName http servlet request
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName req
+private Modifier MethodDeclaration SingleVariableDeclaration Modifier final
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName http servlet response
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName resp
+private Modifier MethodDeclaration SimpleType SimpleName io exception
+void PrimitiveType MethodDeclaration SimpleName get doc resource
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName http servlet request
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName req
+void PrimitiveType MethodDeclaration SingleVariableDeclaration Modifier final
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName http servlet response
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName resp
+void PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement Modifier final
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement Modifier final
+get doc resource SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName http servlet request
+get doc resource SimpleName MethodDeclaration SingleVariableDeclaration SimpleName req
+get doc resource SimpleName MethodDeclaration SingleVariableDeclaration Modifier final
+get doc resource SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName http servlet response
+get doc resource SimpleName MethodDeclaration SingleVariableDeclaration SimpleName resp
+get doc resource SimpleName MethodDeclaration SimpleType SimpleName io exception
+get doc resource SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+get doc resource SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+req SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+req SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName resp
+req SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+final Modifier SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+resp SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName get doc resource
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName req
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName resp
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get doc resource
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName req
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName resp
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

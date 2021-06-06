@@ -1,0 +1,21 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName id
+repository resolved references SimpleName MethodInvocation SimpleName get
+repository resolved references SimpleName MethodInvocation SimpleName id
+get SimpleName MethodInvocation SimpleName id
+public Modifier MethodDeclaration SimpleType SimpleName atlas vertex
+public Modifier MethodDeclaration SimpleName get resolved reference
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName id
+atlas vertex SimpleName SimpleType MethodDeclaration SimpleName get resolved reference
+atlas vertex SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName id
+get resolved reference SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get resolved reference SimpleName MethodDeclaration SingleVariableDeclaration SimpleName id
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas vertex
+public Modifier TypeDeclaration MethodDeclaration SimpleName get resolved reference
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName id
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas vertex
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get resolved reference
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName id

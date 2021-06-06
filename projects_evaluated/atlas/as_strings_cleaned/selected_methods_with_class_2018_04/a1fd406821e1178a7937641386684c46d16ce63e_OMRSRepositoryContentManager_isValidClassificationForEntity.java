@@ -1,0 +1,79 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName source name
+string SimpleName SimpleType SingleVariableDeclaration SimpleName classification type name
+string SimpleName SimpleType SingleVariableDeclaration SimpleName entity type name
+is valid type category SimpleName MethodInvocation SimpleName source name
+is valid type category SimpleName MethodInvocation QualifiedName type def categoryclassification def
+is valid type category SimpleName MethodInvocation SimpleName classification type name
+source name SimpleName MethodInvocation QualifiedName type def categoryclassification def
+source name SimpleName MethodInvocation SimpleName classification type name
+type def categoryclassification def QualifiedName MethodInvocation SimpleName classification type name
+is valid type category SimpleName MethodInvocation SimpleName source name
+is valid type category SimpleName MethodInvocation QualifiedName type def categoryentity def
+is valid type category SimpleName MethodInvocation SimpleName entity type name
+source name SimpleName MethodInvocation QualifiedName type def categoryentity def
+source name SimpleName MethodInvocation SimpleName entity type name
+type def categoryentity def QualifiedName MethodInvocation SimpleName entity type name
+known types SimpleName MethodInvocation SimpleName get
+known types SimpleName MethodInvocation SimpleName classification type name
+get SimpleName MethodInvocation SimpleName classification type name
+classification def SimpleName SimpleType CastExpression MethodInvocation SimpleName known types
+classification def SimpleName SimpleType CastExpression MethodInvocation SimpleName get
+classification def SimpleName SimpleType CastExpression MethodInvocation SimpleName classification type name
+classification type def SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName classification def
+classification type def SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName known types
+classification type def SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get
+classification type def SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName classification type name
+classification def SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName classification type def
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName type def link
+classification type def SimpleName MethodInvocation SimpleName get valid entity defs
+entity defs SimpleName VariableDeclarationFragment MethodInvocation SimpleName classification type def
+entity defs SimpleName VariableDeclarationFragment MethodInvocation SimpleName get valid entity defs
+type def link SimpleName SimpleType SingleVariableDeclaration SimpleName allowed entity
+allowed entity SimpleName MethodInvocation SimpleName get name
+entity type name SimpleName MethodInvocation SimpleName equals
+entity type name SimpleName MethodInvocation MethodInvocation SimpleName allowed entity
+entity type name SimpleName MethodInvocation MethodInvocation SimpleName get name
+equals SimpleName MethodInvocation MethodInvocation SimpleName allowed entity
+equals SimpleName MethodInvocation MethodInvocation SimpleName get name
+type def link SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName entity defs
+allowed entity SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName entity defs
+entity defs SimpleName EnhancedForStatement Block ReturnStatement BooleanLiteral false
+type error exception SimpleName SimpleType SingleVariableDeclaration SimpleName type error
+class cast exception SimpleName SimpleType SingleVariableDeclaration SimpleName cast error
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName is valid classification for entity
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName source name
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName classification type name
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName entity type name
+boolean PrimitiveType MethodDeclaration SimpleName is valid classification for entity
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName source name
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName classification type name
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName entity type name
+is valid classification for entity SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+is valid classification for entity SimpleName MethodDeclaration SingleVariableDeclaration SimpleName source name
+is valid classification for entity SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+is valid classification for entity SimpleName MethodDeclaration SingleVariableDeclaration SimpleName classification type name
+is valid classification for entity SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+is valid classification for entity SimpleName MethodDeclaration SingleVariableDeclaration SimpleName entity type name
+source name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName classification type name
+source name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity type name
+classification type name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity type name
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName is valid classification for entity
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName source name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName classification type name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity type name
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName is valid classification for entity
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName source name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName classification type name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity type name

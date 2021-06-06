@@ -1,0 +1,127 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName name
+long PrimitiveType SingleVariableDeclaration SimpleName time
+registry SimpleName MethodInvocation SimpleName get
+registry SimpleName MethodInvocation SimpleName name
+get SimpleName MethodInvocation SimpleName name
+registry SimpleName MethodInvocation MethodInvocation SimpleName inc count
+get SimpleName MethodInvocation MethodInvocation SimpleName inc count
+name SimpleName MethodInvocation MethodInvocation SimpleName inc count
+registry SimpleName MethodInvocation SimpleName get
+registry SimpleName MethodInvocation SimpleName name
+get SimpleName MethodInvocation SimpleName name
+registry SimpleName MethodInvocation MethodInvocation SimpleName add avg
+get SimpleName MethodInvocation MethodInvocation SimpleName add avg
+name SimpleName MethodInvocation MethodInvocation SimpleName add avg
+registry SimpleName MethodInvocation MethodInvocation SimpleName time
+get SimpleName MethodInvocation MethodInvocation SimpleName time
+name SimpleName MethodInvocation MethodInvocation SimpleName time
+add avg SimpleName MethodInvocation SimpleName time
+registry SimpleName MethodInvocation SimpleName get
+registry SimpleName MethodInvocation SimpleName name
+get SimpleName MethodInvocation SimpleName name
+registry SimpleName MethodInvocation MethodInvocation SimpleName add min
+get SimpleName MethodInvocation MethodInvocation SimpleName add min
+name SimpleName MethodInvocation MethodInvocation SimpleName add min
+registry SimpleName MethodInvocation MethodInvocation SimpleName time
+get SimpleName MethodInvocation MethodInvocation SimpleName time
+name SimpleName MethodInvocation MethodInvocation SimpleName time
+add min SimpleName MethodInvocation SimpleName time
+registry SimpleName MethodInvocation SimpleName get
+registry SimpleName MethodInvocation SimpleName name
+get SimpleName MethodInvocation SimpleName name
+registry SimpleName MethodInvocation MethodInvocation SimpleName add max
+get SimpleName MethodInvocation MethodInvocation SimpleName add max
+name SimpleName MethodInvocation MethodInvocation SimpleName add max
+registry SimpleName MethodInvocation MethodInvocation SimpleName time
+get SimpleName MethodInvocation MethodInvocation SimpleName time
+name SimpleName MethodInvocation MethodInvocation SimpleName time
+add max SimpleName MethodInvocation SimpleName time
+config SimpleName MethodInvocation SimpleName get metrics configuration
+metrics prefix SimpleName InfixExpression StringLiteral logging
+config SimpleName MethodInvocation MethodInvocation SimpleName get boolean
+get metrics configuration SimpleName MethodInvocation MethodInvocation SimpleName get boolean
+config SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName metrics prefix
+config SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral logging
+get metrics configuration SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName metrics prefix
+get metrics configuration SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral logging
+config SimpleName MethodInvocation MethodInvocation BooleanLiteral false
+get metrics configuration SimpleName MethodInvocation MethodInvocation BooleanLiteral false
+get boolean SimpleName MethodInvocation InfixExpression SimpleName metrics prefix
+get boolean SimpleName MethodInvocation InfixExpression StringLiteral logging
+get boolean SimpleName MethodInvocation BooleanLiteral false
+metrics prefix SimpleName InfixExpression MethodInvocation BooleanLiteral false
+logging StringLiteral InfixExpression MethodInvocation BooleanLiteral false
+currently logging SimpleName PrefixExpression InfixExpression MethodInvocation SimpleName get boolean
+currently logging SimpleName PrefixExpression InfixExpression MethodInvocation BooleanLiteral false
+io exception SimpleName SimpleType SingleVariableDeclaration SimpleName ioe
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation StringLiteral error setting up log
+log SimpleName MethodInvocation SimpleName ioe
+error SimpleName MethodInvocation StringLiteral error setting up log
+error SimpleName MethodInvocation SimpleName ioe
+error setting up log StringLiteral MethodInvocation SimpleName ioe
+config SimpleName MethodInvocation SimpleName get metrics configuration
+metrics prefix SimpleName InfixExpression StringLiteral logging
+config SimpleName MethodInvocation MethodInvocation SimpleName get boolean
+get metrics configuration SimpleName MethodInvocation MethodInvocation SimpleName get boolean
+config SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName metrics prefix
+config SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral logging
+get metrics configuration SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName metrics prefix
+get metrics configuration SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral logging
+config SimpleName MethodInvocation MethodInvocation BooleanLiteral false
+get metrics configuration SimpleName MethodInvocation MethodInvocation BooleanLiteral false
+get boolean SimpleName MethodInvocation InfixExpression SimpleName metrics prefix
+get boolean SimpleName MethodInvocation InfixExpression StringLiteral logging
+get boolean SimpleName MethodInvocation BooleanLiteral false
+metrics prefix SimpleName InfixExpression MethodInvocation BooleanLiteral false
+logging StringLiteral InfixExpression MethodInvocation BooleanLiteral false
+currently logging SimpleName InfixExpression PrefixExpression MethodInvocation SimpleName get boolean
+currently logging SimpleName InfixExpression PrefixExpression MethodInvocation BooleanLiteral false
+log writer SimpleName MethodInvocation SimpleName flush
+log writer SimpleName MethodInvocation SimpleName close
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation StringLiteral error stopping metrics logging
+log SimpleName MethodInvocation SimpleName e
+error SimpleName MethodInvocation StringLiteral error stopping metrics logging
+error SimpleName MethodInvocation SimpleName e
+error stopping metrics logging StringLiteral MethodInvocation SimpleName e
+currently logging SimpleName Assignment BooleanLiteral false
+write to log SimpleName MethodInvocation SimpleName name
+io exception SimpleName SimpleType SingleVariableDeclaration SimpleName ioe
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation StringLiteral error writing to metrics log
+log SimpleName MethodInvocation SimpleName ioe
+error SimpleName MethodInvocation StringLiteral error writing to metrics log
+error SimpleName MethodInvocation SimpleName ioe
+error writing to metrics log StringLiteral MethodInvocation SimpleName ioe
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName add
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName name
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType long
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName time
+void PrimitiveType MethodDeclaration SimpleName add
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName name
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType long
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName time
+add SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+add SimpleName MethodDeclaration SingleVariableDeclaration SimpleName name
+add SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType long
+add SimpleName MethodDeclaration SingleVariableDeclaration SimpleName time
+name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName time
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName add
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName time
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName add
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName time

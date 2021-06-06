@@ -1,0 +1,33 @@
+ha configuration SimpleName MethodInvocation SimpleName get zookeeper properties
+ha configuration SimpleName MethodInvocation SimpleName configuration
+get zookeeper properties SimpleName MethodInvocation SimpleName configuration
+zookeeper properties SimpleName VariableDeclarationFragment MethodInvocation SimpleName ha configuration
+zookeeper properties SimpleName VariableDeclarationFragment MethodInvocation SimpleName get zookeeper properties
+zookeeper properties SimpleName VariableDeclarationFragment MethodInvocation SimpleName configuration
+ha configurationzookeeper properties QualifiedName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName zookeeper properties
+get builder SimpleName MethodInvocation SimpleName zookeeper properties
+builder SimpleName VariableDeclarationFragment MethodInvocation SimpleName get builder
+builder SimpleName VariableDeclarationFragment MethodInvocation SimpleName zookeeper properties
+curator framework factorybuilder QualifiedName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName builder
+enhance builder with security parameters SimpleName MethodInvocation SimpleName zookeeper properties
+enhance builder with security parameters SimpleName MethodInvocation SimpleName builder
+zookeeper properties SimpleName MethodInvocation SimpleName builder
+builder SimpleName MethodInvocation SimpleName build
+curator framework SimpleName Assignment MethodInvocation SimpleName builder
+curator framework SimpleName Assignment MethodInvocation SimpleName build
+curator framework SimpleName MethodInvocation SimpleName start
+visible for testing SimpleName MarkerAnnotation MethodDeclaration Modifier protected
+visible for testing SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+visible for testing SimpleName MarkerAnnotation MethodDeclaration SimpleName initialize curator framework
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName initialize curator framework
+void PrimitiveType MethodDeclaration SimpleName initialize curator framework
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName visible for testing
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName initialize curator framework
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName visible for testing
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName initialize curator framework

@@ -1,0 +1,6 @@
+field mapping SimpleName SimpleType MethodDeclaration SimpleName field mapping
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName field mapping
+public Modifier TypeDeclaration MethodDeclaration SimpleName field mapping
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName field mapping
+test SimpleName TypeDeclaration MethodDeclaration SimpleName field mapping

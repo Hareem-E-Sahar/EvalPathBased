@@ -1,0 +1,136 @@
+t credentials SimpleName SimpleType SingleVariableDeclaration SimpleName credentials
+string SimpleName SimpleType SingleVariableDeclaration SimpleName table id
+fate operation SimpleName SimpleType SingleVariableDeclaration SimpleName op
+string SimpleName SimpleType SingleVariableDeclaration SimpleName namespace id
+get table name SimpleName MethodInvocation SimpleName table id
+table name SimpleName VariableDeclarationFragment MethodInvocation SimpleName get table name
+table name SimpleName VariableDeclarationFragment MethodInvocation SimpleName table id
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName table name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName operation
+op SimpleName InfixExpression QualifiedName fate operationtable online
+operation SimpleName Assignment StringLiteral online table
+op SimpleName InfixExpression QualifiedName fate operationtable offline
+operation SimpleName Assignment StringLiteral offline table
+can online offline table SimpleName SuperMethodInvocation SimpleName credentials
+can online offline table SimpleName SuperMethodInvocation SimpleName table id
+can online offline table SimpleName SuperMethodInvocation SimpleName op
+can online offline table SimpleName SuperMethodInvocation SimpleName namespace id
+credentials SimpleName SuperMethodInvocation SimpleName table id
+credentials SimpleName SuperMethodInvocation SimpleName op
+credentials SimpleName SuperMethodInvocation SimpleName namespace id
+table id SimpleName SuperMethodInvocation SimpleName op
+table id SimpleName SuperMethodInvocation SimpleName namespace id
+op SimpleName SuperMethodInvocation SimpleName namespace id
+result SimpleName VariableDeclarationFragment SuperMethodInvocation SimpleName can online offline table
+result SimpleName VariableDeclarationFragment SuperMethodInvocation SimpleName credentials
+result SimpleName VariableDeclarationFragment SuperMethodInvocation SimpleName table id
+result SimpleName VariableDeclarationFragment SuperMethodInvocation SimpleName op
+result SimpleName VariableDeclarationFragment SuperMethodInvocation SimpleName namespace id
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName result
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SuperMethodInvocation SimpleName can online offline table
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SuperMethodInvocation SimpleName credentials
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SuperMethodInvocation SimpleName table id
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SuperMethodInvocation SimpleName op
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SuperMethodInvocation SimpleName namespace id
+audit SimpleName MethodInvocation SimpleName credentials
+audit SimpleName MethodInvocation SimpleName result
+audit SimpleName MethodInvocation SimpleName can online offline table audit template
+audit SimpleName MethodInvocation SimpleName operation
+audit SimpleName MethodInvocation SimpleName table name
+credentials SimpleName MethodInvocation SimpleName result
+credentials SimpleName MethodInvocation SimpleName can online offline table audit template
+credentials SimpleName MethodInvocation SimpleName operation
+credentials SimpleName MethodInvocation SimpleName table name
+credentials SimpleName MethodInvocation SimpleName table id
+result SimpleName MethodInvocation SimpleName can online offline table audit template
+result SimpleName MethodInvocation SimpleName operation
+result SimpleName MethodInvocation SimpleName table name
+result SimpleName MethodInvocation SimpleName table id
+can online offline table audit template SimpleName MethodInvocation SimpleName operation
+can online offline table audit template SimpleName MethodInvocation SimpleName table name
+can online offline table audit template SimpleName MethodInvocation SimpleName table id
+operation SimpleName MethodInvocation SimpleName table name
+operation SimpleName MethodInvocation SimpleName table id
+table name SimpleName MethodInvocation SimpleName table id
+boolean PrimitiveType VariableDeclarationStatement Block ReturnStatement SimpleName result
+thrift security exception SimpleName SimpleType SingleVariableDeclaration SimpleName ex
+audit SimpleName MethodInvocation SimpleName credentials
+audit SimpleName MethodInvocation SimpleName ex
+audit SimpleName MethodInvocation SimpleName can online offline table audit template
+audit SimpleName MethodInvocation SimpleName operation
+audit SimpleName MethodInvocation SimpleName table name
+credentials SimpleName MethodInvocation SimpleName ex
+credentials SimpleName MethodInvocation SimpleName can online offline table audit template
+credentials SimpleName MethodInvocation SimpleName operation
+credentials SimpleName MethodInvocation SimpleName table name
+credentials SimpleName MethodInvocation SimpleName table id
+ex SimpleName MethodInvocation SimpleName can online offline table audit template
+ex SimpleName MethodInvocation SimpleName operation
+ex SimpleName MethodInvocation SimpleName table name
+ex SimpleName MethodInvocation SimpleName table id
+can online offline table audit template SimpleName MethodInvocation SimpleName operation
+can online offline table audit template SimpleName MethodInvocation SimpleName table name
+can online offline table audit template SimpleName MethodInvocation SimpleName table id
+operation SimpleName MethodInvocation SimpleName table name
+operation SimpleName MethodInvocation SimpleName table id
+table name SimpleName MethodInvocation SimpleName table id
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType boolean
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName can online offline table
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName credentials
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName table id
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName can online offline table
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName t credentials
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName credentials
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName table id
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName fate operation
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName op
+boolean PrimitiveType MethodDeclaration SimpleName can online offline table
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName t credentials
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName credentials
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName table id
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName fate operation
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName op
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName namespace id
+can online offline table SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName t credentials
+can online offline table SimpleName MethodDeclaration SingleVariableDeclaration SimpleName credentials
+can online offline table SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+can online offline table SimpleName MethodDeclaration SingleVariableDeclaration SimpleName table id
+can online offline table SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName fate operation
+can online offline table SimpleName MethodDeclaration SingleVariableDeclaration SimpleName op
+can online offline table SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+can online offline table SimpleName MethodDeclaration SingleVariableDeclaration SimpleName namespace id
+can online offline table SimpleName MethodDeclaration SimpleType SimpleName thrift security exception
+credentials SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table id
+credentials SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName op
+credentials SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName namespace id
+credentials SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName thrift security exception
+table id SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName op
+table id SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName namespace id
+table id SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName thrift security exception
+op SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName namespace id
+op SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName thrift security exception
+namespace id SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName thrift security exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName can online offline table
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName credentials
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table id
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName op
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName namespace id
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName thrift security exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName can online offline table
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName credentials
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table id
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName op
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName namespace id
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName thrift security exception

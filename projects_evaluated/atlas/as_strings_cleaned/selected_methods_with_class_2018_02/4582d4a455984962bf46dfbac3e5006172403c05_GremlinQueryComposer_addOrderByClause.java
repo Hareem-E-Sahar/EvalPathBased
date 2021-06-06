@@ -1,0 +1,55 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName name
+boolean PrimitiveType SingleVariableDeclaration SimpleName descr
+log SimpleName MethodInvocation SimpleName is debug enabled
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral add order by clausename
+log SimpleName MethodInvocation SimpleName name
+log SimpleName MethodInvocation SimpleName descr
+debug SimpleName MethodInvocation StringLiteral add order by clausename
+debug SimpleName MethodInvocation SimpleName name
+debug SimpleName MethodInvocation SimpleName descr
+add order by clausename StringLiteral MethodInvocation SimpleName name
+add order by clausename StringLiteral MethodInvocation SimpleName descr
+name SimpleName MethodInvocation SimpleName descr
+create info SimpleName MethodInvocation SimpleName name
+ia SimpleName VariableDeclarationFragment MethodInvocation SimpleName create info
+ia SimpleName VariableDeclarationFragment MethodInvocation SimpleName name
+identifier helperinfo QualifiedName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ia
+descr SimpleName PrefixExpression ParenthesizedExpression ConditionalExpression QualifiedName gremlin clauseorder by
+descr SimpleName PrefixExpression ParenthesizedExpression ConditionalExpression QualifiedName gremlin clauseorder by desc
+gremlin clauseorder by QualifiedName ConditionalExpression QualifiedName gremlin clauseorder by desc
+add SimpleName MethodInvocation ConditionalExpression QualifiedName gremlin clauseorder by
+add SimpleName MethodInvocation ConditionalExpression QualifiedName gremlin clauseorder by desc
+add SimpleName MethodInvocation SimpleName ia
+gremlin clauseorder by QualifiedName ConditionalExpression MethodInvocation SimpleName ia
+gremlin clauseorder by desc QualifiedName ConditionalExpression MethodInvocation SimpleName ia
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName add order by clause
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName name
+private Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName descr
+void PrimitiveType MethodDeclaration SimpleName add order by clause
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName name
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName descr
+add order by clause SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+add order by clause SimpleName MethodDeclaration SingleVariableDeclaration SimpleName name
+add order by clause SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+add order by clause SimpleName MethodDeclaration SingleVariableDeclaration SimpleName descr
+name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName descr
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName add order by clause
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName descr
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName add order by clause
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName descr

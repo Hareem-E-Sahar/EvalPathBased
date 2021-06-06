@@ -1,0 +1,125 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName table id
+table state cache SimpleName MethodInvocation SimpleName remove
+table state cache SimpleName MethodInvocation SimpleName table id
+remove SimpleName MethodInvocation SimpleName table id
+zoo reader writer SimpleName MethodInvocation SimpleName get retrying instance
+zoo util SimpleName MethodInvocation SimpleName get root
+zoo util SimpleName MethodInvocation SimpleName instance
+get root SimpleName MethodInvocation SimpleName instance
+zoo util SimpleName MethodInvocation InfixExpression QualifiedName constantsztables
+get root SimpleName MethodInvocation InfixExpression QualifiedName constantsztables
+instance SimpleName MethodInvocation InfixExpression QualifiedName constantsztables
+zoo util SimpleName MethodInvocation InfixExpression StringLiteral /
+get root SimpleName MethodInvocation InfixExpression StringLiteral /
+instance SimpleName MethodInvocation InfixExpression StringLiteral /
+zoo util SimpleName MethodInvocation InfixExpression SimpleName table id
+get root SimpleName MethodInvocation InfixExpression SimpleName table id
+instance SimpleName MethodInvocation InfixExpression SimpleName table id
+zoo util SimpleName MethodInvocation InfixExpression QualifiedName constantsztable state
+get root SimpleName MethodInvocation InfixExpression QualifiedName constantsztable state
+instance SimpleName MethodInvocation InfixExpression QualifiedName constantsztable state
+constantsztables QualifiedName InfixExpression StringLiteral /
+constantsztables QualifiedName InfixExpression SimpleName table id
+constantsztables QualifiedName InfixExpression QualifiedName constantsztable state
+/ StringLiteral InfixExpression SimpleName table id
+/ StringLiteral InfixExpression QualifiedName constantsztable state
+table id SimpleName InfixExpression QualifiedName constantsztable state
+zoo reader writer SimpleName MethodInvocation MethodInvocation SimpleName recursive delete
+get retrying instance SimpleName MethodInvocation MethodInvocation SimpleName recursive delete
+zoo reader writer SimpleName MethodInvocation MethodInvocation InfixExpression QualifiedName constantsztables
+zoo reader writer SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral /
+zoo reader writer SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName table id
+zoo reader writer SimpleName MethodInvocation MethodInvocation InfixExpression QualifiedName constantsztable state
+get retrying instance SimpleName MethodInvocation MethodInvocation InfixExpression QualifiedName constantsztables
+get retrying instance SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral /
+get retrying instance SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName table id
+get retrying instance SimpleName MethodInvocation MethodInvocation InfixExpression QualifiedName constantsztable state
+zoo reader writer SimpleName MethodInvocation MethodInvocation QualifiedName node missing policyskip
+get retrying instance SimpleName MethodInvocation MethodInvocation QualifiedName node missing policyskip
+recursive delete SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName zoo util
+recursive delete SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get root
+recursive delete SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName instance
+recursive delete SimpleName MethodInvocation InfixExpression QualifiedName constantsztables
+recursive delete SimpleName MethodInvocation InfixExpression StringLiteral /
+recursive delete SimpleName MethodInvocation InfixExpression SimpleName table id
+recursive delete SimpleName MethodInvocation InfixExpression QualifiedName constantsztable state
+recursive delete SimpleName MethodInvocation QualifiedName node missing policyskip
+zoo util SimpleName MethodInvocation InfixExpression MethodInvocation QualifiedName node missing policyskip
+get root SimpleName MethodInvocation InfixExpression MethodInvocation QualifiedName node missing policyskip
+instance SimpleName MethodInvocation InfixExpression MethodInvocation QualifiedName node missing policyskip
+constantsztables QualifiedName InfixExpression MethodInvocation QualifiedName node missing policyskip
+/ StringLiteral InfixExpression MethodInvocation QualifiedName node missing policyskip
+table id SimpleName InfixExpression MethodInvocation QualifiedName node missing policyskip
+constantsztable state QualifiedName InfixExpression MethodInvocation QualifiedName node missing policyskip
+zoo reader writer SimpleName MethodInvocation SimpleName get retrying instance
+zoo util SimpleName MethodInvocation SimpleName get root
+zoo util SimpleName MethodInvocation SimpleName instance
+get root SimpleName MethodInvocation SimpleName instance
+zoo util SimpleName MethodInvocation InfixExpression QualifiedName constantsztables
+get root SimpleName MethodInvocation InfixExpression QualifiedName constantsztables
+instance SimpleName MethodInvocation InfixExpression QualifiedName constantsztables
+zoo util SimpleName MethodInvocation InfixExpression StringLiteral /
+get root SimpleName MethodInvocation InfixExpression StringLiteral /
+instance SimpleName MethodInvocation InfixExpression StringLiteral /
+zoo util SimpleName MethodInvocation InfixExpression SimpleName table id
+get root SimpleName MethodInvocation InfixExpression SimpleName table id
+instance SimpleName MethodInvocation InfixExpression SimpleName table id
+constantsztables QualifiedName InfixExpression StringLiteral /
+constantsztables QualifiedName InfixExpression SimpleName table id
+/ StringLiteral InfixExpression SimpleName table id
+zoo reader writer SimpleName MethodInvocation MethodInvocation SimpleName recursive delete
+get retrying instance SimpleName MethodInvocation MethodInvocation SimpleName recursive delete
+zoo reader writer SimpleName MethodInvocation MethodInvocation InfixExpression QualifiedName constantsztables
+zoo reader writer SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral /
+zoo reader writer SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName table id
+get retrying instance SimpleName MethodInvocation MethodInvocation InfixExpression QualifiedName constantsztables
+get retrying instance SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral /
+get retrying instance SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName table id
+zoo reader writer SimpleName MethodInvocation MethodInvocation QualifiedName node missing policyskip
+get retrying instance SimpleName MethodInvocation MethodInvocation QualifiedName node missing policyskip
+recursive delete SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName zoo util
+recursive delete SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get root
+recursive delete SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName instance
+recursive delete SimpleName MethodInvocation InfixExpression QualifiedName constantsztables
+recursive delete SimpleName MethodInvocation InfixExpression StringLiteral /
+recursive delete SimpleName MethodInvocation InfixExpression SimpleName table id
+recursive delete SimpleName MethodInvocation QualifiedName node missing policyskip
+zoo util SimpleName MethodInvocation InfixExpression MethodInvocation QualifiedName node missing policyskip
+get root SimpleName MethodInvocation InfixExpression MethodInvocation QualifiedName node missing policyskip
+instance SimpleName MethodInvocation InfixExpression MethodInvocation QualifiedName node missing policyskip
+constantsztables QualifiedName InfixExpression MethodInvocation QualifiedName node missing policyskip
+/ StringLiteral InfixExpression MethodInvocation QualifiedName node missing policyskip
+table id SimpleName InfixExpression MethodInvocation QualifiedName node missing policyskip
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName remove table
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName table id
+public Modifier MethodDeclaration SimpleType SimpleName keeper exception
+public Modifier MethodDeclaration SimpleType SimpleName interrupted exception
+void PrimitiveType MethodDeclaration SimpleName remove table
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName table id
+void PrimitiveType MethodDeclaration SimpleType SimpleName keeper exception
+void PrimitiveType MethodDeclaration SimpleType SimpleName interrupted exception
+void PrimitiveType MethodDeclaration Block SynchronizedStatement SimpleName table state cache
+remove table SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+remove table SimpleName MethodDeclaration SingleVariableDeclaration SimpleName table id
+remove table SimpleName MethodDeclaration SimpleType SimpleName keeper exception
+remove table SimpleName MethodDeclaration SimpleType SimpleName interrupted exception
+remove table SimpleName MethodDeclaration Block SynchronizedStatement SimpleName table state cache
+table id SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName keeper exception
+table id SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName interrupted exception
+keeper exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName interrupted exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName remove table
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table id
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName keeper exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName interrupted exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName remove table
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table id
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName keeper exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName interrupted exception

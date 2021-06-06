@@ -1,0 +1,41 @@
+final Modifier SingleVariableDeclaration SimpleType SimpleName file object
+final Modifier SingleVariableDeclaration SimpleName dest file
+file object SimpleName SimpleType SingleVariableDeclaration SimpleName dest file
+override SimpleName MarkerAnnotation MethodDeclaration Modifier protected
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType boolean
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName do is same file
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration Modifier final
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName dest file
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName file system exception
+protected Modifier MethodDeclaration PrimitiveType boolean
+protected Modifier MethodDeclaration SimpleName do is same file
+protected Modifier MethodDeclaration SingleVariableDeclaration Modifier final
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName file object
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName dest file
+protected Modifier MethodDeclaration SimpleType SimpleName file system exception
+boolean PrimitiveType MethodDeclaration SimpleName do is same file
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration Modifier final
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName file object
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName dest file
+boolean PrimitiveType MethodDeclaration SimpleType SimpleName file system exception
+do is same file SimpleName MethodDeclaration SingleVariableDeclaration Modifier final
+do is same file SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName file object
+do is same file SimpleName MethodDeclaration SingleVariableDeclaration SimpleName dest file
+do is same file SimpleName MethodDeclaration SimpleType SimpleName file system exception
+final Modifier SingleVariableDeclaration MethodDeclaration SimpleType SimpleName file system exception
+dest file SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName file system exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName do is same file
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName dest file
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName file system exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName do is same file
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName dest file
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName file system exception

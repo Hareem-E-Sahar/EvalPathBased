@@ -1,0 +1,67 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName edge id
+attribute info SimpleName SimpleType SingleVariableDeclaration SimpleName attribute info
+i data type SimpleName SimpleType ParameterizedType WildcardType ?
+i data type SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName element type
+? WildcardType ParameterizedType SingleVariableDeclaration SimpleName element type
+edge SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName removed relation
+element type SimpleName MethodInvocation SimpleName get type category
+graph helper SimpleName MethodInvocation SimpleName remove relation
+graph helper SimpleName MethodInvocation SimpleName edge id
+graph helper SimpleName MethodInvocation BooleanLiteral true
+remove relation SimpleName MethodInvocation SimpleName edge id
+remove relation SimpleName MethodInvocation BooleanLiteral true
+edge id SimpleName MethodInvocation BooleanLiteral true
+removed relation SimpleName Assignment MethodInvocation SimpleName graph helper
+removed relation SimpleName Assignment MethodInvocation SimpleName remove relation
+removed relation SimpleName Assignment MethodInvocation SimpleName edge id
+removed relation SimpleName Assignment MethodInvocation BooleanLiteral true
+graph helper SimpleName MethodInvocation SimpleName remove relation
+graph helper SimpleName MethodInvocation SimpleName edge id
+graph helper SimpleName MethodInvocation QualifiedName attribute infois composite
+remove relation SimpleName MethodInvocation SimpleName edge id
+remove relation SimpleName MethodInvocation QualifiedName attribute infois composite
+edge id SimpleName MethodInvocation QualifiedName attribute infois composite
+removed relation SimpleName Assignment MethodInvocation SimpleName graph helper
+removed relation SimpleName Assignment MethodInvocation SimpleName remove relation
+removed relation SimpleName Assignment MethodInvocation SimpleName edge id
+removed relation SimpleName Assignment MethodInvocation QualifiedName attribute infois composite
+element type SimpleName MethodInvocation SwitchStatement SwitchCase SimpleName struct
+get type category SimpleName MethodInvocation SwitchStatement SwitchCase SimpleName struct
+element type SimpleName MethodInvocation SwitchStatement SwitchCase SimpleName class
+get type category SimpleName MethodInvocation SwitchStatement SwitchCase SimpleName class
+struct SimpleName SwitchCase SwitchStatement SwitchCase SimpleName class
+private Modifier MethodDeclaration SimpleType SimpleName edge
+private Modifier MethodDeclaration SimpleName remove unused reference
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName edge id
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName attribute info
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName attribute info
+private Modifier MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName element type
+edge SimpleName SimpleType MethodDeclaration SimpleName remove unused reference
+edge SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName edge id
+edge SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName attribute info
+edge SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName element type
+remove unused reference SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+remove unused reference SimpleName MethodDeclaration SingleVariableDeclaration SimpleName edge id
+remove unused reference SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName attribute info
+remove unused reference SimpleName MethodDeclaration SingleVariableDeclaration SimpleName attribute info
+remove unused reference SimpleName MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+remove unused reference SimpleName MethodDeclaration SingleVariableDeclaration SimpleName element type
+remove unused reference SimpleName MethodDeclaration Block ReturnStatement SimpleName removed relation
+edge id SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attribute info
+edge id SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName element type
+attribute info SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName element type
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName edge
+public Modifier TypeDeclaration MethodDeclaration SimpleName remove unused reference
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName edge id
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attribute info
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName element type
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName edge
+test SimpleName TypeDeclaration MethodDeclaration SimpleName remove unused reference
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName edge id
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attribute info
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName element type

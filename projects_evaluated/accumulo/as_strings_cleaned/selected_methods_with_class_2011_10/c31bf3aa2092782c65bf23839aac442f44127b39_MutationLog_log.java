@@ -1,0 +1,32 @@
+mutation SimpleName SimpleType SingleVariableDeclaration SimpleName m
+logout SimpleName MethodInvocation SimpleName write byte
+logout SimpleName MethodInvocation SimpleName mutation event
+write byte SimpleName MethodInvocation SimpleName mutation event
+m SimpleName MethodInvocation SimpleName write
+m SimpleName MethodInvocation SimpleName logout
+write SimpleName MethodInvocation SimpleName logout
+logout SimpleName MethodInvocation SimpleName flush
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName log
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName mutation
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName m
+public Modifier MethodDeclaration SimpleType SimpleName io exception
+void PrimitiveType MethodDeclaration SimpleName log
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName mutation
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName m
+void PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+log SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName mutation
+log SimpleName MethodDeclaration SingleVariableDeclaration SimpleName m
+log SimpleName MethodDeclaration SimpleType SimpleName io exception
+m SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName log
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName m
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName log
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName m
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

@@ -1,0 +1,40 @@
+o SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName options
+options SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName o
+option SimpleName SimpleType ClassInstanceCreation StringLiteral s
+option SimpleName SimpleType ClassInstanceCreation StringLiteral scanauthorizations
+option SimpleName SimpleType ClassInstanceCreation BooleanLiteral true
+option SimpleName SimpleType ClassInstanceCreation StringLiteral scan authorizations
+s StringLiteral ClassInstanceCreation StringLiteral scanauthorizations
+s StringLiteral ClassInstanceCreation BooleanLiteral true
+s StringLiteral ClassInstanceCreation StringLiteral scan authorizations
+scanauthorizations StringLiteral ClassInstanceCreation BooleanLiteral true
+scanauthorizations StringLiteral ClassInstanceCreation StringLiteral scan authorizations
+true BooleanLiteral ClassInstanceCreation StringLiteral scan authorizations
+scan opt auths SimpleName Assignment ClassInstanceCreation SimpleType SimpleName option
+scan opt auths SimpleName Assignment ClassInstanceCreation StringLiteral s
+scan opt auths SimpleName Assignment ClassInstanceCreation StringLiteral scanauthorizations
+scan opt auths SimpleName Assignment ClassInstanceCreation BooleanLiteral true
+scan opt auths SimpleName Assignment ClassInstanceCreation StringLiteral scan authorizations
+scan opt auths SimpleName MethodInvocation SimpleName set arg name
+scan opt auths SimpleName MethodInvocation StringLiteral commaseparatedauthorizations
+set arg name SimpleName MethodInvocation StringLiteral commaseparatedauthorizations
+o SimpleName MethodInvocation SimpleName add option
+o SimpleName MethodInvocation SimpleName scan opt auths
+add option SimpleName MethodInvocation SimpleName scan opt auths
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName options
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName get options
+public Modifier MethodDeclaration SimpleType SimpleName options
+public Modifier MethodDeclaration SimpleName get options
+public Modifier MethodDeclaration Block ReturnStatement SimpleName o
+options SimpleName SimpleType MethodDeclaration SimpleName get options
+get options SimpleName MethodDeclaration Block ReturnStatement SimpleName o
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName options
+public Modifier TypeDeclaration MethodDeclaration SimpleName get options
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName options
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get options

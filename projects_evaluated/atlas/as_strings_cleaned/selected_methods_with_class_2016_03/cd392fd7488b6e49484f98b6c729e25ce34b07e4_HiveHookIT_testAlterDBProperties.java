@@ -1,0 +1,38 @@
+db name SimpleName VariableDeclarationFragment MethodInvocation SimpleName create database
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName db name
+fmt query SimpleName VariableDeclarationFragment StringLiteral alter database s s dbproperties s
+final Modifier VariableDeclarationStatement SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName fmt query
+final Modifier VariableDeclarationStatement VariableDeclarationFragment StringLiteral alter database s s dbproperties s
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName fmt query
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral alter database s s dbproperties s
+test alter properties SimpleName MethodInvocation QualifiedName entitytypedatabase
+test alter properties SimpleName MethodInvocation SimpleName db name
+test alter properties SimpleName MethodInvocation SimpleName fmt query
+entitytypedatabase QualifiedName MethodInvocation SimpleName db name
+entitytypedatabase QualifiedName MethodInvocation SimpleName fmt query
+db name SimpleName MethodInvocation SimpleName fmt query
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test alter db properties
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test alter db properties
+public Modifier MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+void PrimitiveType MethodDeclaration SimpleName test alter db properties
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement Modifier final
+test alter db properties SimpleName MethodDeclaration SimpleType SimpleName exception
+test alter db properties SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test alter db properties
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test alter db properties
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

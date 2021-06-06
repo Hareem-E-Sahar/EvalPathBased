@@ -1,0 +1,133 @@
+atlas type registry SimpleName SimpleType SingleVariableDeclaration SimpleName type registry
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas type
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas type
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas type
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas type
+atlas attribute def SimpleName SimpleType SingleVariableDeclaration SimpleName attribute def
+struct def SimpleName MethodInvocation SimpleName get attribute defs
+attribute def SimpleName MethodInvocation SimpleName get type name
+type registry SimpleName MethodInvocation SimpleName get type
+type registry SimpleName MethodInvocation MethodInvocation SimpleName attribute def
+type registry SimpleName MethodInvocation MethodInvocation SimpleName get type name
+get type SimpleName MethodInvocation MethodInvocation SimpleName attribute def
+get type SimpleName MethodInvocation MethodInvocation SimpleName get type name
+attr type SimpleName VariableDeclarationFragment MethodInvocation SimpleName type registry
+attr type SimpleName VariableDeclarationFragment MethodInvocation SimpleName get type
+attr type SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName attribute def
+attr type SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get type name
+atlas type SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName attr type
+attribute def SimpleName MethodInvocation SimpleName get type name
+struct def SimpleName MethodInvocation SimpleName get name
+attribute def SimpleName MethodInvocation SimpleName get name
+attribute def SimpleName MethodInvocation InfixExpression StringLiteral : unknown type for attribute
+get type name SimpleName MethodInvocation InfixExpression StringLiteral : unknown type for attribute
+attribute def SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName struct def
+attribute def SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get name
+get type name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName struct def
+get type name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get name
+attribute def SimpleName MethodInvocation InfixExpression StringLiteral .
+get type name SimpleName MethodInvocation InfixExpression StringLiteral .
+attribute def SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName attribute def
+attribute def SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get name
+get type name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName attribute def
+get type name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get name
+: unknown type for attribute StringLiteral InfixExpression MethodInvocation SimpleName struct def
+: unknown type for attribute StringLiteral InfixExpression MethodInvocation SimpleName get name
+: unknown type for attribute StringLiteral InfixExpression StringLiteral .
+: unknown type for attribute StringLiteral InfixExpression MethodInvocation SimpleName attribute def
+: unknown type for attribute StringLiteral InfixExpression MethodInvocation SimpleName get name
+struct def SimpleName MethodInvocation InfixExpression StringLiteral .
+get name SimpleName MethodInvocation InfixExpression StringLiteral .
+struct def SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName attribute def
+struct def SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get name
+get name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName attribute def
+get name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get name
+. StringLiteral InfixExpression MethodInvocation SimpleName attribute def
+. StringLiteral InfixExpression MethodInvocation SimpleName get name
+atlas base exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral : unknown type for attribute
+atlas base exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral .
+resolve constraints SimpleName MethodInvocation SimpleName attribute def
+resolve constraints SimpleName MethodInvocation SimpleName attr type
+attribute def SimpleName MethodInvocation SimpleName attr type
+attribute def SimpleName MethodInvocation SimpleName get cardinality
+cardinality SimpleName VariableDeclarationFragment MethodInvocation SimpleName attribute def
+cardinality SimpleName VariableDeclarationFragment MethodInvocation SimpleName get cardinality
+cardinality SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName cardinality
+cardinality SimpleName InfixExpression QualifiedName cardinalitylist
+cardinality SimpleName InfixExpression QualifiedName cardinalityset
+cardinality SimpleName InfixExpression InfixExpression InfixExpression SimpleName cardinality
+cardinality SimpleName InfixExpression InfixExpression InfixExpression QualifiedName cardinalityset
+cardinalitylist QualifiedName InfixExpression InfixExpression InfixExpression SimpleName cardinality
+cardinalitylist QualifiedName InfixExpression InfixExpression InfixExpression QualifiedName cardinalityset
+attribute def SimpleName MethodInvocation SimpleName get values min count
+attribute def SimpleName MethodInvocation SimpleName get values max count
+atlas array type SimpleName SimpleType ClassInstanceCreation SimpleName attr type
+atlas array type SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName attribute def
+atlas array type SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get values min count
+atlas array type SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName attribute def
+atlas array type SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get values max count
+attr type SimpleName ClassInstanceCreation MethodInvocation SimpleName attribute def
+attr type SimpleName ClassInstanceCreation MethodInvocation SimpleName get values min count
+attr type SimpleName ClassInstanceCreation MethodInvocation SimpleName attribute def
+attr type SimpleName ClassInstanceCreation MethodInvocation SimpleName get values max count
+attribute def SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName attribute def
+attribute def SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get values max count
+get values min count SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName attribute def
+get values min count SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get values max count
+attr type SimpleName Assignment ClassInstanceCreation SimpleType SimpleName atlas array type
+attr type SimpleName Assignment ClassInstanceCreation SimpleName attr type
+attr type SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName attribute def
+attr type SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName get values min count
+attr type SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName attribute def
+attr type SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName get values max count
+attribute def SimpleName MethodInvocation SimpleName get name
+a SimpleName MethodInvocation SimpleName put
+a SimpleName MethodInvocation MethodInvocation SimpleName attribute def
+a SimpleName MethodInvocation MethodInvocation SimpleName get name
+a SimpleName MethodInvocation SimpleName attr type
+put SimpleName MethodInvocation MethodInvocation SimpleName attribute def
+put SimpleName MethodInvocation MethodInvocation SimpleName get name
+put SimpleName MethodInvocation SimpleName attr type
+attribute def SimpleName MethodInvocation MethodInvocation SimpleName attr type
+get name SimpleName MethodInvocation MethodInvocation SimpleName attr type
+attribute def SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName struct def
+attribute def SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName get attribute defs
+collections SimpleName MethodInvocation SimpleName unmodifiable map
+collections SimpleName MethodInvocation SimpleName a
+unmodifiable map SimpleName MethodInvocation SimpleName a
+attr types SimpleName FieldAccess Assignment MethodInvocation SimpleName collections
+attr types SimpleName FieldAccess Assignment MethodInvocation SimpleName unmodifiable map
+attr types SimpleName FieldAccess Assignment MethodInvocation SimpleName a
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName resolve references
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName type registry
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName resolve references
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas type registry
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName type registry
+public Modifier MethodDeclaration SimpleType SimpleName atlas base exception
+void PrimitiveType MethodDeclaration SimpleName resolve references
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas type registry
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName type registry
+void PrimitiveType MethodDeclaration SimpleType SimpleName atlas base exception
+resolve references SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas type registry
+resolve references SimpleName MethodDeclaration SingleVariableDeclaration SimpleName type registry
+resolve references SimpleName MethodDeclaration SimpleType SimpleName atlas base exception
+type registry SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName resolve references
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type registry
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName resolve references
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type registry
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception

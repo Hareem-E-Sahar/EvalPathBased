@@ -1,0 +1,62 @@
+vertex SimpleName SimpleType SingleVariableDeclaration SimpleName vertex
+vertex SimpleName MethodInvocation SimpleName get id
+vertex SimpleName MethodInvocation MethodInvocation SimpleName to string
+get id SimpleName MethodInvocation MethodInvocation SimpleName to string
+get type name SimpleName MethodInvocation SimpleName vertex
+get id from vertex SimpleName MethodInvocation SimpleName vertex
+string SimpleName MethodInvocation SimpleName format
+string SimpleName MethodInvocation StringLiteral vertexids types guids
+string SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName vertex
+string SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get id
+string SimpleName MethodInvocation MethodInvocation SimpleName to string
+string SimpleName MethodInvocation MethodInvocation SimpleName get type name
+string SimpleName MethodInvocation MethodInvocation SimpleName vertex
+string SimpleName MethodInvocation MethodInvocation SimpleName get id from vertex
+string SimpleName MethodInvocation MethodInvocation SimpleName vertex
+format SimpleName MethodInvocation StringLiteral vertexids types guids
+format SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName vertex
+format SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get id
+format SimpleName MethodInvocation MethodInvocation SimpleName to string
+format SimpleName MethodInvocation MethodInvocation SimpleName get type name
+format SimpleName MethodInvocation MethodInvocation SimpleName vertex
+format SimpleName MethodInvocation MethodInvocation SimpleName get id from vertex
+format SimpleName MethodInvocation MethodInvocation SimpleName vertex
+vertexids types guids StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName vertex
+vertexids types guids StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName get id
+vertexids types guids StringLiteral MethodInvocation MethodInvocation SimpleName to string
+vertexids types guids StringLiteral MethodInvocation MethodInvocation SimpleName get type name
+vertexids types guids StringLiteral MethodInvocation MethodInvocation SimpleName vertex
+vertexids types guids StringLiteral MethodInvocation MethodInvocation SimpleName get id from vertex
+vertexids types guids StringLiteral MethodInvocation MethodInvocation SimpleName vertex
+to string SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get type name
+to string SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName vertex
+to string SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get id from vertex
+to string SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName vertex
+get type name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get id from vertex
+get type name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName vertex
+vertex SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get id from vertex
+vertex SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName vertex
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName get vertex details
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName vertex
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName vertex
+static Modifier MethodDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SimpleName get vertex details
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName vertex
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName vertex
+string SimpleName SimpleType MethodDeclaration SimpleName get vertex details
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName vertex
+get vertex details SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName vertex
+get vertex details SimpleName MethodDeclaration SingleVariableDeclaration SimpleName vertex
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName get vertex details
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName vertex
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get vertex details
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName vertex

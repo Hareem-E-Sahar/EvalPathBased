@@ -1,0 +1,84 @@
+final Modifier SingleVariableDeclaration SimpleType SimpleName string
+final Modifier SingleVariableDeclaration SimpleName query
+string SimpleName SimpleType SingleVariableDeclaration SimpleName query
+atlas client SimpleName MethodInvocation SimpleName search
+atlas client SimpleName MethodInvocation SimpleName query
+search SimpleName MethodInvocation SimpleName query
+results SimpleName VariableDeclarationFragment MethodInvocation SimpleName atlas client
+results SimpleName VariableDeclarationFragment MethodInvocation SimpleName search
+results SimpleName VariableDeclarationFragment MethodInvocation SimpleName query
+json array SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName results
+systemout QualifiedName MethodInvocation SimpleName println
+systemout QualifiedName MethodInvocation SimpleName results
+println SimpleName MethodInvocation SimpleName results
+results SimpleName MethodInvocation SimpleName length
+results SimpleName MethodInvocation InfixExpression NumberLiteral empty
+length SimpleName MethodInvocation InfixExpression NumberLiteral empty
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType boolean
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName evaluate
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName evaluate
+public Modifier MethodDeclaration SimpleType SimpleName exception
+boolean PrimitiveType MethodDeclaration SimpleName evaluate
+boolean PrimitiveType MethodDeclaration SimpleType SimpleName exception
+evaluate SimpleName MethodDeclaration SimpleType SimpleName exception
+wait for SimpleName MethodInvocation NumberLiteral empty
+wait for SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName predicate
+empty NumberLiteral MethodInvocation ClassInstanceCreation SimpleType SimpleName predicate
+atlas client SimpleName MethodInvocation SimpleName search
+atlas client SimpleName MethodInvocation SimpleName query
+search SimpleName MethodInvocation SimpleName query
+results SimpleName VariableDeclarationFragment MethodInvocation SimpleName atlas client
+results SimpleName VariableDeclarationFragment MethodInvocation SimpleName search
+results SimpleName VariableDeclarationFragment MethodInvocation SimpleName query
+json array SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName results
+results SimpleName MethodInvocation SimpleName get json object
+results SimpleName MethodInvocation NumberLiteral empty
+get json object SimpleName MethodInvocation NumberLiteral empty
+results SimpleName MethodInvocation MethodInvocation SimpleName get json object
+get json object SimpleName MethodInvocation MethodInvocation SimpleName get json object
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName get json object
+results SimpleName MethodInvocation MethodInvocation StringLiteral t
+get json object SimpleName MethodInvocation MethodInvocation StringLiteral t
+empty NumberLiteral MethodInvocation MethodInvocation StringLiteral t
+get json object SimpleName MethodInvocation StringLiteral t
+row SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName results
+row SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get json object
+row SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation NumberLiteral empty
+row SimpleName VariableDeclarationFragment MethodInvocation SimpleName get json object
+row SimpleName VariableDeclarationFragment MethodInvocation StringLiteral t
+json object SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName row
+row SimpleName MethodInvocation SimpleName get string
+row SimpleName MethodInvocation StringLiteral id
+get string SimpleName MethodInvocation StringLiteral id
+private Modifier MethodDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SimpleName assert entity is registered
+private Modifier MethodDeclaration SingleVariableDeclaration Modifier final
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName query
+private Modifier MethodDeclaration SimpleType SimpleName exception
+string SimpleName SimpleType MethodDeclaration SimpleName assert entity is registered
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration Modifier final
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName query
+string SimpleName SimpleType MethodDeclaration SimpleType SimpleName exception
+assert entity is registered SimpleName MethodDeclaration SingleVariableDeclaration Modifier final
+assert entity is registered SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+assert entity is registered SimpleName MethodDeclaration SingleVariableDeclaration SimpleName query
+assert entity is registered SimpleName MethodDeclaration SimpleType SimpleName exception
+final Modifier SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+query SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName assert entity is registered
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName query
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName assert entity is registered
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName query
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

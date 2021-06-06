@@ -1,0 +1,50 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName name
+type registry SimpleName MethodInvocation SimpleName get enum def by name
+type registry SimpleName MethodInvocation SimpleName name
+get enum def by name SimpleName MethodInvocation SimpleName name
+ret SimpleName VariableDeclarationFragment MethodInvocation SimpleName type registry
+ret SimpleName VariableDeclarationFragment MethodInvocation SimpleName get enum def by name
+ret SimpleName VariableDeclarationFragment MethodInvocation SimpleName name
+atlas enum def SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ret
+atlas base exception SimpleName SimpleType ClassInstanceCreation QualifiedName atlas error codetype name not found
+atlas base exception SimpleName SimpleType ClassInstanceCreation SimpleName name
+atlas error codetype name not found QualifiedName ClassInstanceCreation SimpleName name
+override SimpleName MarkerAnnotation MethodDeclaration MarkerAnnotation SimpleName graph transaction
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName atlas enum def
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName get enum def by name
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName name
+graph transaction SimpleName MarkerAnnotation MethodDeclaration Modifier public
+graph transaction SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName atlas enum def
+graph transaction SimpleName MarkerAnnotation MethodDeclaration SimpleName get enum def by name
+graph transaction SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName name
+graph transaction SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier MethodDeclaration SimpleType SimpleName atlas enum def
+public Modifier MethodDeclaration SimpleName get enum def by name
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName name
+public Modifier MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier MethodDeclaration Block ReturnStatement SimpleName ret
+atlas enum def SimpleName SimpleType MethodDeclaration SimpleName get enum def by name
+atlas enum def SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName name
+atlas enum def SimpleName SimpleType MethodDeclaration SimpleType SimpleName atlas base exception
+get enum def by name SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get enum def by name SimpleName MethodDeclaration SingleVariableDeclaration SimpleName name
+get enum def by name SimpleName MethodDeclaration SimpleType SimpleName atlas base exception
+get enum def by name SimpleName MethodDeclaration Block ReturnStatement SimpleName ret
+name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName graph transaction
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas enum def
+public Modifier TypeDeclaration MethodDeclaration SimpleName get enum def by name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName graph transaction
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas enum def
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get enum def by name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception

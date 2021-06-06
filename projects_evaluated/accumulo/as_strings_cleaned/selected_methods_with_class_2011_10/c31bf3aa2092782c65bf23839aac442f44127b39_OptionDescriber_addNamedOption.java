@@ -1,0 +1,38 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName name
+string SimpleName SimpleType SingleVariableDeclaration SimpleName description
+linked hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+linked hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+named options SimpleName MethodInvocation SimpleName put
+named options SimpleName MethodInvocation SimpleName name
+named options SimpleName MethodInvocation SimpleName description
+put SimpleName MethodInvocation SimpleName name
+put SimpleName MethodInvocation SimpleName description
+name SimpleName MethodInvocation SimpleName description
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName add named option
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName name
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName description
+void PrimitiveType MethodDeclaration SimpleName add named option
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName name
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName description
+add named option SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+add named option SimpleName MethodDeclaration SingleVariableDeclaration SimpleName name
+add named option SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+add named option SimpleName MethodDeclaration SingleVariableDeclaration SimpleName description
+name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName description
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName add named option
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName description
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName add named option
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName description

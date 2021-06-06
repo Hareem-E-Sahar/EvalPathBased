@@ -1,0 +1,62 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName old type name
+string SimpleName SimpleType SingleVariableDeclaration SimpleName new type name
+atlas attribute def SimpleName SimpleType SingleVariableDeclaration SimpleName ad
+string utils SimpleName MethodInvocation SimpleName is empty
+string utils SimpleName MethodInvocation SimpleName new type name
+is empty SimpleName MethodInvocation SimpleName new type name
+ad SimpleName MethodInvocation SimpleName get type name
+ad SimpleName MethodInvocation MethodInvocation SimpleName replace
+get type name SimpleName MethodInvocation MethodInvocation SimpleName replace
+ad SimpleName MethodInvocation MethodInvocation SimpleName old type name
+get type name SimpleName MethodInvocation MethodInvocation SimpleName old type name
+ad SimpleName MethodInvocation MethodInvocation SimpleName new type name
+get type name SimpleName MethodInvocation MethodInvocation SimpleName new type name
+replace SimpleName MethodInvocation SimpleName old type name
+replace SimpleName MethodInvocation SimpleName new type name
+old type name SimpleName MethodInvocation SimpleName new type name
+str SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName ad
+str SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get type name
+str SimpleName VariableDeclarationFragment MethodInvocation SimpleName replace
+str SimpleName VariableDeclarationFragment MethodInvocation SimpleName old type name
+str SimpleName VariableDeclarationFragment MethodInvocation SimpleName new type name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName str
+ad SimpleName MethodInvocation SimpleName set type name
+ad SimpleName MethodInvocation SimpleName str
+set type name SimpleName MethodInvocation SimpleName str
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName update attribute with new type
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName old type name
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName new type name
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas attribute def
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName ad
+void PrimitiveType MethodDeclaration SimpleName update attribute with new type
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName old type name
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName new type name
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas attribute def
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName ad
+update attribute with new type SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+update attribute with new type SimpleName MethodDeclaration SingleVariableDeclaration SimpleName old type name
+update attribute with new type SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+update attribute with new type SimpleName MethodDeclaration SingleVariableDeclaration SimpleName new type name
+update attribute with new type SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas attribute def
+update attribute with new type SimpleName MethodDeclaration SingleVariableDeclaration SimpleName ad
+old type name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new type name
+old type name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ad
+new type name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ad
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName update attribute with new type
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName old type name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new type name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ad
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName update attribute with new type
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName old type name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new type name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ad

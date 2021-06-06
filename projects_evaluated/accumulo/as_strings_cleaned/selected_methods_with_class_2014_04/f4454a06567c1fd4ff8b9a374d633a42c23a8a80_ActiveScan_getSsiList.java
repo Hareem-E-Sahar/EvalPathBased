@@ -1,0 +1,17 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+public Modifier MethodDeclaration Modifier abstract
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName get ssi list
+abstract Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+abstract Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+abstract Modifier MethodDeclaration SimpleName get ssi list
+list SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get ssi list
+string SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get ssi list
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier abstract
+public Modifier TypeDeclaration MethodDeclaration SimpleName get ssi list
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier abstract
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get ssi list

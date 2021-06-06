@@ -1,0 +1,148 @@
+method invocation SimpleName SimpleType SingleVariableDeclaration SimpleName invocation
+invocation SimpleName MethodInvocation SimpleName get method
+method SimpleName VariableDeclarationFragment MethodInvocation SimpleName invocation
+method SimpleName VariableDeclarationFragment MethodInvocation SimpleName get method
+method SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName method
+method SimpleName MethodInvocation SimpleName get declaring class
+method SimpleName MethodInvocation MethodInvocation SimpleName get simple name
+get declaring class SimpleName MethodInvocation MethodInvocation SimpleName get simple name
+invoking class SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName method
+invoking class SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get declaring class
+invoking class SimpleName VariableDeclarationFragment MethodInvocation SimpleName get simple name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName invoking class
+method SimpleName MethodInvocation SimpleName get name
+invoked method name SimpleName VariableDeclarationFragment MethodInvocation SimpleName method
+invoked method name SimpleName VariableDeclarationFragment MethodInvocation SimpleName get name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName invoked method name
+is txn open SimpleName MethodInvocation SimpleName get
+is inner txn SimpleName VariableDeclarationFragment MethodInvocation SimpleName is txn open
+is inner txn SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName is inner txn
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName is txn open
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get
+is txn open SimpleName MethodInvocation SimpleName set
+is txn open SimpleName MethodInvocation QualifiedName booleantrue
+set SimpleName MethodInvocation QualifiedName booleantrue
+log SimpleName MethodInvocation SimpleName is debug enabled
+log SimpleName MethodInvocation InfixExpression SimpleName is inner txn
+is debug enabled SimpleName MethodInvocation InfixExpression SimpleName is inner txn
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral txn entrypoint {}.{} is inner txn commitrollback will be ignored
+log SimpleName MethodInvocation SimpleName invoking class
+log SimpleName MethodInvocation SimpleName invoked method name
+debug SimpleName MethodInvocation StringLiteral txn entrypoint {}.{} is inner txn commitrollback will be ignored
+debug SimpleName MethodInvocation SimpleName invoking class
+debug SimpleName MethodInvocation SimpleName invoked method name
+txn entrypoint {}.{} is inner txn commitrollback will be ignored StringLiteral MethodInvocation SimpleName invoking class
+txn entrypoint {}.{} is inner txn commitrollback will be ignored StringLiteral MethodInvocation SimpleName invoked method name
+invoking class SimpleName MethodInvocation SimpleName invoked method name
+is success SimpleName VariableDeclarationFragment BooleanLiteral false
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName is success
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment BooleanLiteral false
+invocation SimpleName MethodInvocation SimpleName proceed
+response SimpleName VariableDeclarationFragment MethodInvocation SimpleName invocation
+response SimpleName VariableDeclarationFragment MethodInvocation SimpleName proceed
+object SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName response
+log SimpleName MethodInvocation SimpleName is debug enabled
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral ignoring commit for nestedinner transaction {}.{}
+log SimpleName MethodInvocation SimpleName invoking class
+log SimpleName MethodInvocation SimpleName invoked method name
+debug SimpleName MethodInvocation StringLiteral ignoring commit for nestedinner transaction {}.{}
+debug SimpleName MethodInvocation SimpleName invoking class
+debug SimpleName MethodInvocation SimpleName invoked method name
+ignoring commit for nestedinner transaction {}.{} StringLiteral MethodInvocation SimpleName invoking class
+ignoring commit for nestedinner transaction {}.{} StringLiteral MethodInvocation SimpleName invoked method name
+invoking class SimpleName MethodInvocation SimpleName invoked method name
+do commit or rollback SimpleName MethodInvocation SimpleName invoking class
+do commit or rollback SimpleName MethodInvocation SimpleName invoked method name
+invoking class SimpleName MethodInvocation SimpleName invoked method name
+inner failure SimpleName MethodInvocation SimpleName get
+is success SimpleName Assignment PrefixExpression MethodInvocation SimpleName inner failure
+is success SimpleName Assignment PrefixExpression MethodInvocation SimpleName get
+is inner txn SimpleName IfStatement Block ReturnStatement SimpleName response
+throwable SimpleName SimpleType SingleVariableDeclaration SimpleName t
+log SimpleName MethodInvocation SimpleName is debug enabled
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral ignoring rollback for nestedinner transaction {}.{}
+log SimpleName MethodInvocation SimpleName invoking class
+log SimpleName MethodInvocation SimpleName invoked method name
+debug SimpleName MethodInvocation StringLiteral ignoring rollback for nestedinner transaction {}.{}
+debug SimpleName MethodInvocation SimpleName invoking class
+debug SimpleName MethodInvocation SimpleName invoked method name
+ignoring rollback for nestedinner transaction {}.{} StringLiteral MethodInvocation SimpleName invoking class
+ignoring rollback for nestedinner transaction {}.{} StringLiteral MethodInvocation SimpleName invoked method name
+invoking class SimpleName MethodInvocation SimpleName invoked method name
+inner failure SimpleName MethodInvocation SimpleName set
+inner failure SimpleName MethodInvocation BooleanLiteral true
+set SimpleName MethodInvocation BooleanLiteral true
+do rollback SimpleName MethodInvocation SimpleName t
+is inner txn SimpleName IfStatement Block ThrowStatement SimpleName t
+log SimpleName MethodInvocation SimpleName is debug enabled
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral closing outer txn
+debug SimpleName MethodInvocation StringLiteral closing outer txn
+is txn open SimpleName MethodInvocation SimpleName set
+is txn open SimpleName MethodInvocation QualifiedName booleanfalse
+set SimpleName MethodInvocation QualifiedName booleanfalse
+inner failure SimpleName MethodInvocation SimpleName set
+inner failure SimpleName MethodInvocation QualifiedName booleanfalse
+set SimpleName MethodInvocation QualifiedName booleanfalse
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName post transaction hook
+post transaction hooks SimpleName MethodInvocation SimpleName get
+trx hooks SimpleName VariableDeclarationFragment MethodInvocation SimpleName post transaction hooks
+trx hooks SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+log SimpleName MethodInvocation SimpleName is debug enabled
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral processing posttxn hooks
+debug SimpleName MethodInvocation StringLiteral processing posttxn hooks
+post transaction hooks SimpleName MethodInvocation SimpleName remove
+post transaction hook SimpleName SimpleType SingleVariableDeclaration SimpleName trx hook
+trx hook SimpleName MethodInvocation SimpleName on complete
+trx hook SimpleName MethodInvocation SimpleName is success
+on complete SimpleName MethodInvocation SimpleName is success
+throwable SimpleName SimpleType SingleVariableDeclaration SimpleName t
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation StringLiteral post transaction hook failed
+log SimpleName MethodInvocation SimpleName t
+error SimpleName MethodInvocation StringLiteral post transaction hook failed
+error SimpleName MethodInvocation SimpleName t
+post transaction hook failed StringLiteral MethodInvocation SimpleName t
+post transaction hook SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName trx hooks
+trx hook SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName trx hooks
+object update synchronizer SimpleName MethodInvocation SimpleName release locked objects
+boolean PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType boolean
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName object
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName invoke
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName invocation
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName throwable
+public Modifier MethodDeclaration SimpleType SimpleName object
+public Modifier MethodDeclaration SimpleName invoke
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName method invocation
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName invocation
+public Modifier MethodDeclaration SimpleType SimpleName throwable
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+object SimpleName SimpleType MethodDeclaration SimpleName invoke
+object SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName invocation
+object SimpleName SimpleType MethodDeclaration SimpleType SimpleName throwable
+invoke SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName method invocation
+invoke SimpleName MethodDeclaration SingleVariableDeclaration SimpleName invocation
+invoke SimpleName MethodDeclaration SimpleType SimpleName throwable
+invoke SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+invoke SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+invocation SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName throwable
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName object
+public Modifier TypeDeclaration MethodDeclaration SimpleName invoke
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName invocation
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName throwable
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName object
+test SimpleName TypeDeclaration MethodDeclaration SimpleName invoke
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName invocation
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName throwable

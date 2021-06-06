@@ -1,0 +1,32 @@
+val SimpleName VariableDeclarationFragment SuperMethodInvocation SimpleName get top value
+value SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName val
+val SimpleName MethodInvocation SimpleName to string
+integer SimpleName MethodInvocation SimpleName parse int
+integer SimpleName MethodInvocation MethodInvocation SimpleName val
+integer SimpleName MethodInvocation MethodInvocation SimpleName to string
+parse int SimpleName MethodInvocation MethodInvocation SimpleName val
+parse int SimpleName MethodInvocation MethodInvocation SimpleName to string
+orig SimpleName VariableDeclarationFragment MethodInvocation SimpleName integer
+orig SimpleName VariableDeclarationFragment MethodInvocation SimpleName parse int
+orig SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName val
+orig SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName to string
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName orig
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName integer
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName parse int
+orig SimpleName InfixExpression SimpleName orig
+orig SimpleName InfixExpression ParenthesizedExpression InfixExpression StringLiteral empty
+orig SimpleName InfixExpression ParenthesizedExpression InfixExpression StringLiteral empty
+empty StringLiteral InfixExpression ParenthesizedExpression MethodInvocation SimpleName get bytes
+value SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get bytes
+public Modifier MethodDeclaration SimpleType SimpleName value
+public Modifier MethodDeclaration SimpleName get top value
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+value SimpleName SimpleType MethodDeclaration SimpleName get top value
+get top value SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName value
+public Modifier TypeDeclaration MethodDeclaration SimpleName get top value
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName value
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get top value

@@ -1,0 +1,36 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName name
+classification index map SimpleName MethodInvocation SimpleName contains key
+classification index map SimpleName MethodInvocation SimpleName name
+contains key SimpleName MethodInvocation SimpleName name
+types def SimpleName MethodInvocation SimpleName get classification defs
+classification index map SimpleName MethodInvocation SimpleName get
+classification index map SimpleName MethodInvocation SimpleName name
+get SimpleName MethodInvocation SimpleName name
+types def SimpleName MethodInvocation MethodInvocation SimpleName get
+get classification defs SimpleName MethodInvocation MethodInvocation SimpleName get
+types def SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName classification index map
+types def SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+types def SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName name
+get classification defs SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName classification index map
+get classification defs SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+get classification defs SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName name
+get SimpleName MethodInvocation MethodInvocation SimpleName classification index map
+get SimpleName MethodInvocation MethodInvocation SimpleName get
+get SimpleName MethodInvocation MethodInvocation SimpleName name
+private Modifier MethodDeclaration SimpleType SimpleName atlas classification def
+private Modifier MethodDeclaration SimpleName get classification def by name
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName name
+atlas classification def SimpleName SimpleType MethodDeclaration SimpleName get classification def by name
+atlas classification def SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName name
+get classification def by name SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get classification def by name SimpleName MethodDeclaration SingleVariableDeclaration SimpleName name
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas classification def
+public Modifier TypeDeclaration MethodDeclaration SimpleName get classification def by name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas classification def
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get classification def by name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name

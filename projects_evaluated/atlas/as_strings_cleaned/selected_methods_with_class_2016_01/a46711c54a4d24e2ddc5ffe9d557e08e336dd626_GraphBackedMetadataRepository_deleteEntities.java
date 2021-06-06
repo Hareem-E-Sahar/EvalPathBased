@@ -1,0 +1,81 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType SingleVariableDeclaration SimpleName guids
+guidslength QualifiedName InfixExpression NumberLiteral empty
+guids SimpleName InfixExpression InfixExpression InfixExpression QualifiedName guidslength
+guids SimpleName InfixExpression InfixExpression InfixExpression NumberLiteral empty
+illegal argument exception SimpleName SimpleType ClassInstanceCreation StringLiteral guids must be nonnull and nonempty
+typed instance to graph mapper SimpleName SimpleType ClassInstanceCreation SimpleName graph to instance mapper
+instance to graph mapper SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName typed instance to graph mapper
+instance to graph mapper SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName graph to instance mapper
+typed instance to graph mapper SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName instance to graph mapper
+string SimpleName SimpleType SingleVariableDeclaration SimpleName guid
+log SimpleName MethodInvocation SimpleName warn
+log SimpleName MethodInvocation StringLiteral delete entities ignoring null guid
+warn SimpleName MethodInvocation StringLiteral delete entities ignoring null guid
+graph helper SimpleName MethodInvocation SimpleName get vertex for guid
+graph helper SimpleName MethodInvocation SimpleName guid
+get vertex for guid SimpleName MethodInvocation SimpleName guid
+instance vertex SimpleName VariableDeclarationFragment MethodInvocation SimpleName graph helper
+instance vertex SimpleName VariableDeclarationFragment MethodInvocation SimpleName get vertex for guid
+instance vertex SimpleName VariableDeclarationFragment MethodInvocation SimpleName guid
+vertex SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName instance vertex
+graph helper SimpleName MethodInvocation SimpleName get type name
+graph helper SimpleName MethodInvocation SimpleName instance vertex
+get type name SimpleName MethodInvocation SimpleName instance vertex
+type name SimpleName VariableDeclarationFragment MethodInvocation SimpleName graph helper
+type name SimpleName VariableDeclarationFragment MethodInvocation SimpleName get type name
+type name SimpleName VariableDeclarationFragment MethodInvocation SimpleName instance vertex
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName type name
+instance to graph mapper SimpleName MethodInvocation SimpleName delete entity
+instance to graph mapper SimpleName MethodInvocation SimpleName type name
+instance to graph mapper SimpleName MethodInvocation SimpleName instance vertex
+delete entity SimpleName MethodInvocation SimpleName type name
+delete entity SimpleName MethodInvocation SimpleName instance vertex
+type name SimpleName MethodInvocation SimpleName instance vertex
+entity not found exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+deletion request ignored for nonexistent entity with guid StringLiteral InfixExpression SimpleName guid
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation InfixExpression StringLiteral deletion request ignored for nonexistent entity with guid
+log SimpleName MethodInvocation InfixExpression SimpleName guid
+info SimpleName MethodInvocation InfixExpression StringLiteral deletion request ignored for nonexistent entity with guid
+info SimpleName MethodInvocation InfixExpression SimpleName guid
+atlas exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+repository exception SimpleName SimpleType ClassInstanceCreation SimpleName e
+string SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName guids
+guid SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName guids
+instance to graph mapper SimpleName MethodInvocation SimpleName get deleted entities
+override SimpleName MarkerAnnotation MethodDeclaration MarkerAnnotation SimpleName graph transaction
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName delete entities
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName guids
+graph transaction SimpleName MarkerAnnotation MethodDeclaration Modifier public
+graph transaction SimpleName MarkerAnnotation MethodDeclaration SimpleName delete entities
+graph transaction SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName guids
+graph transaction SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName repository exception
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName delete entities
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName guids
+public Modifier MethodDeclaration SimpleType SimpleName repository exception
+public Modifier MethodDeclaration Block EnhancedForStatement SimpleName guids
+list SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName delete entities
+string SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName delete entities
+delete entities SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+delete entities SimpleName MethodDeclaration SingleVariableDeclaration SimpleName guids
+delete entities SimpleName MethodDeclaration SimpleType SimpleName repository exception
+delete entities SimpleName MethodDeclaration Block EnhancedForStatement SimpleName guids
+guids SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName repository exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName graph transaction
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName delete entities
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName guids
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName repository exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName graph transaction
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName delete entities
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName guids
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName repository exception

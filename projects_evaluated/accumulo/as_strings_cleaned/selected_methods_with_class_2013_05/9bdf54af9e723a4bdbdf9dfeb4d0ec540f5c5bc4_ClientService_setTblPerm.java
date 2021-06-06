@@ -1,0 +1,23 @@
+byte PrimitiveType SingleVariableDeclaration SimpleName tbl perm
+tbl perm SimpleName FieldAccess Assignment SimpleName tbl perm
+set tbl perm is set SimpleName MethodInvocation BooleanLiteral true
+public Modifier MethodDeclaration SimpleType SimpleName has table permission args
+public Modifier MethodDeclaration SimpleName set tbl perm
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType byte
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName tbl perm
+has table permission args SimpleName SimpleType MethodDeclaration SimpleName set tbl perm
+has table permission args SimpleName SimpleType MethodDeclaration SingleVariableDeclaration PrimitiveType byte
+has table permission args SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName tbl perm
+set tbl perm SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType byte
+set tbl perm SimpleName MethodDeclaration SingleVariableDeclaration SimpleName tbl perm
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName has table permission args
+public Modifier TypeDeclaration MethodDeclaration SimpleName set tbl perm
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType byte
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName tbl perm
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName has table permission args
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set tbl perm
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType byte
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName tbl perm

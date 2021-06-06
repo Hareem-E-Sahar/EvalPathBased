@@ -1,0 +1,66 @@
+atlas struct def SimpleName SimpleType SingleVariableDeclaration SimpleName struct def
+atlas vertex SimpleName SimpleType SingleVariableDeclaration SimpleName vertex
+atlas type def graph store v SimpleName SimpleType SingleVariableDeclaration SimpleName type def store
+atlas attribute def SimpleName SimpleType SingleVariableDeclaration SimpleName attribute def
+struct def SimpleName MethodInvocation SimpleName get attribute defs
+add references for attribute SimpleName MethodInvocation SimpleName vertex
+add references for attribute SimpleName MethodInvocation SimpleName attribute def
+add references for attribute SimpleName MethodInvocation SimpleName type def store
+vertex SimpleName MethodInvocation SimpleName attribute def
+vertex SimpleName MethodInvocation SimpleName type def store
+attribute def SimpleName MethodInvocation SimpleName type def store
+attribute def SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName struct def
+attribute def SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName get attribute defs
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName update vertex add references
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas struct def
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName struct def
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas vertex
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName vertex
+static Modifier MethodDeclaration PrimitiveType void
+static Modifier MethodDeclaration SimpleName update vertex add references
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas struct def
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName struct def
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas vertex
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName vertex
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas type def graph store v
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName type def store
+void PrimitiveType MethodDeclaration SimpleName update vertex add references
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas struct def
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName struct def
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas vertex
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName vertex
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas type def graph store v
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName type def store
+void PrimitiveType MethodDeclaration SimpleType SimpleName atlas base exception
+update vertex add references SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas struct def
+update vertex add references SimpleName MethodDeclaration SingleVariableDeclaration SimpleName struct def
+update vertex add references SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas vertex
+update vertex add references SimpleName MethodDeclaration SingleVariableDeclaration SimpleName vertex
+update vertex add references SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas type def graph store v
+update vertex add references SimpleName MethodDeclaration SingleVariableDeclaration SimpleName type def store
+update vertex add references SimpleName MethodDeclaration SimpleType SimpleName atlas base exception
+struct def SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName vertex
+struct def SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type def store
+struct def SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+vertex SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type def store
+vertex SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+type def store SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName update vertex add references
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName struct def
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName vertex
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type def store
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName update vertex add references
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName struct def
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName vertex
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type def store
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception

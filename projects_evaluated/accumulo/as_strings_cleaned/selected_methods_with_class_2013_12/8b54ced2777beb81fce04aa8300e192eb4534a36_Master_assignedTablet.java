@@ -1,0 +1,29 @@
+key extent SimpleName SimpleType SingleVariableDeclaration SimpleName extent
+extent SimpleName MethodInvocation SimpleName is meta
+get master state SimpleName MethodInvocation MethodInvocation SimpleName equals
+get master state SimpleName MethodInvocation MethodInvocation QualifiedName master stateunload root tablet
+equals SimpleName MethodInvocation QualifiedName master stateunload root tablet
+set master state SimpleName MethodInvocation QualifiedName master stateunload metadata tablets
+extent SimpleName MethodInvocation SimpleName is root tablet
+get master state SimpleName MethodInvocation MethodInvocation SimpleName equals
+get master state SimpleName MethodInvocation MethodInvocation QualifiedName master statestop
+equals SimpleName MethodInvocation QualifiedName master statestop
+set master state SimpleName MethodInvocation QualifiedName master stateunload root tablet
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName assigned tablet
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName key extent
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName extent
+void PrimitiveType MethodDeclaration SimpleName assigned tablet
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName key extent
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName extent
+assigned tablet SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName key extent
+assigned tablet SimpleName MethodDeclaration SingleVariableDeclaration SimpleName extent
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName assigned tablet
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName extent
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName assigned tablet
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName extent

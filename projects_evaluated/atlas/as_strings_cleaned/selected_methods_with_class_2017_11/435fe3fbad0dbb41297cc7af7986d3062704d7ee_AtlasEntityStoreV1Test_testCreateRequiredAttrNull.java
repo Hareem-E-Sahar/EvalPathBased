@@ -1,0 +1,71 @@
+expected exceptions SimpleName MemberValuePair TypeLiteral SimpleType SimpleName atlas base exception
+test SimpleName NormalAnnotation MemberValuePair SimpleName expected exceptions
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas entity
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas entity
+atlas entity SimpleName SimpleType ClassInstanceCreation SimpleName table type
+table entity SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName atlas entity
+table entity SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName table type
+atlas entity SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName table entity
+test utils v SimpleName MethodInvocation SimpleName random string
+table StringLiteral InfixExpression MethodInvocation SimpleName test utils v
+table StringLiteral InfixExpression MethodInvocation SimpleName random string
+table entity SimpleName MethodInvocation SimpleName set attribute
+table entity SimpleName MethodInvocation QualifiedName test utils v name
+table entity SimpleName MethodInvocation InfixExpression StringLiteral table
+table entity SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName test utils v
+table entity SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName random string
+set attribute SimpleName MethodInvocation QualifiedName test utils v name
+set attribute SimpleName MethodInvocation InfixExpression StringLiteral table
+set attribute SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName test utils v
+set attribute SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName random string
+test utils v name QualifiedName MethodInvocation InfixExpression StringLiteral table
+test utils v name QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName test utils v
+test utils v name QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName random string
+table entity SimpleName MethodInvocation SimpleName get guid
+table clone map SimpleName MethodInvocation SimpleName put
+table clone map SimpleName MethodInvocation MethodInvocation SimpleName table entity
+table clone map SimpleName MethodInvocation MethodInvocation SimpleName get guid
+table clone map SimpleName MethodInvocation SimpleName table entity
+put SimpleName MethodInvocation MethodInvocation SimpleName table entity
+put SimpleName MethodInvocation MethodInvocation SimpleName get guid
+put SimpleName MethodInvocation SimpleName table entity
+table entity SimpleName MethodInvocation MethodInvocation SimpleName table entity
+get guid SimpleName MethodInvocation MethodInvocation SimpleName table entity
+in memory map entity stream SimpleName SimpleType ClassInstanceCreation SimpleName table clone map
+entity store SimpleName MethodInvocation SimpleName create or update
+entity store SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName in memory map entity stream
+entity store SimpleName MethodInvocation ClassInstanceCreation SimpleName table clone map
+entity store SimpleName MethodInvocation BooleanLiteral false
+create or update SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName in memory map entity stream
+create or update SimpleName MethodInvocation ClassInstanceCreation SimpleName table clone map
+create or update SimpleName MethodInvocation BooleanLiteral false
+in memory map entity stream SimpleName SimpleType ClassInstanceCreation MethodInvocation BooleanLiteral false
+table clone map SimpleName ClassInstanceCreation MethodInvocation BooleanLiteral false
+assert SimpleName MethodInvocation SimpleName fail
+assert SimpleName MethodInvocation StringLiteral expected exception while creating with required attribute null
+fail SimpleName MethodInvocation StringLiteral expected exception while creating with required attribute null
+test SimpleName NormalAnnotation MethodDeclaration Modifier public
+expected exceptions SimpleName MemberValuePair NormalAnnotation MethodDeclaration Modifier public
+test SimpleName NormalAnnotation MethodDeclaration PrimitiveType void
+expected exceptions SimpleName MemberValuePair NormalAnnotation MethodDeclaration PrimitiveType void
+test SimpleName NormalAnnotation MethodDeclaration SimpleName test create required attr null
+expected exceptions SimpleName MemberValuePair NormalAnnotation MethodDeclaration SimpleName test create required attr null
+test SimpleName NormalAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test create required attr null
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName test create required attr null
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+test create required attr null SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration NormalAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test create required attr null
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration NormalAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test create required attr null
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

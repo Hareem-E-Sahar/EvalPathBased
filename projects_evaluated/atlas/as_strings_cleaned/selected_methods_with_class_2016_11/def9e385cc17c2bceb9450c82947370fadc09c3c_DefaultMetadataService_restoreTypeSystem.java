@@ -1,0 +1,26 @@
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation StringLiteral restoring type system from the store
+info SimpleName MethodInvocation StringLiteral restoring type system from the store
+type store SimpleName MethodInvocation SimpleName restore
+types def SimpleName VariableDeclarationFragment MethodInvocation SimpleName type store
+types def SimpleName VariableDeclarationFragment MethodInvocation SimpleName restore
+types def SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName types def
+refresh cache SimpleName MethodInvocation SimpleName types def
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation StringLiteral restored type system from the store
+info SimpleName MethodInvocation StringLiteral restored type system from the store
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName restore type system
+private Modifier MethodDeclaration SimpleType SimpleName atlas exception
+void PrimitiveType MethodDeclaration SimpleName restore type system
+void PrimitiveType MethodDeclaration SimpleType SimpleName atlas exception
+restore type system SimpleName MethodDeclaration SimpleType SimpleName atlas exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName restore type system
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName restore type system
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception

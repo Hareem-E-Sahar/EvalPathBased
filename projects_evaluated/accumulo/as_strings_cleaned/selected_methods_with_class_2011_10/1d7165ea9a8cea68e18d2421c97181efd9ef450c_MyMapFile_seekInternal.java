@@ -1,0 +1,403 @@
+writable comparable SimpleName SimpleType SingleVariableDeclaration SimpleName key
+final Modifier SingleVariableDeclaration PrimitiveType boolean
+final Modifier SingleVariableDeclaration SimpleName before
+boolean PrimitiveType SingleVariableDeclaration SimpleName before
+writable comparable SimpleName SimpleType SingleVariableDeclaration SimpleName last key
+illegal argument exception SimpleName SimpleType ClassInstanceCreation StringLiteral seeking before not supported
+seek location SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName seek location
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+seek index SimpleName InfixExpression PrefixExpression NumberLiteral empty
+seek index SimpleName InfixExpression NumberLiteral empty
+seek index SimpleName InfixExpression InfixExpression QualifiedName index infocount
+empty NumberLiteral InfixExpression InfixExpression QualifiedName index infocount
+seek index SimpleName InfixExpression NumberLiteral empty
+index infokeys QualifiedName ArrayAccess InfixExpression SimpleName seek index
+index infokeys QualifiedName ArrayAccess InfixExpression NumberLiteral empty
+comparator SimpleName MethodInvocation SimpleName compare
+comparator SimpleName MethodInvocation SimpleName key
+comparator SimpleName MethodInvocation ArrayAccess QualifiedName index infokeys
+comparator SimpleName MethodInvocation ArrayAccess InfixExpression SimpleName seek index
+comparator SimpleName MethodInvocation ArrayAccess InfixExpression NumberLiteral empty
+compare SimpleName MethodInvocation SimpleName key
+compare SimpleName MethodInvocation ArrayAccess QualifiedName index infokeys
+compare SimpleName MethodInvocation ArrayAccess InfixExpression SimpleName seek index
+compare SimpleName MethodInvocation ArrayAccess InfixExpression NumberLiteral empty
+key SimpleName MethodInvocation ArrayAccess QualifiedName index infokeys
+key SimpleName MethodInvocation ArrayAccess InfixExpression SimpleName seek index
+key SimpleName MethodInvocation ArrayAccess InfixExpression NumberLiteral empty
+comparator SimpleName MethodInvocation InfixExpression NumberLiteral empty
+compare SimpleName MethodInvocation InfixExpression NumberLiteral empty
+key SimpleName MethodInvocation InfixExpression NumberLiteral empty
+index infokeys QualifiedName ArrayAccess MethodInvocation InfixExpression NumberLiteral empty
+index infocount QualifiedName InfixExpression InfixExpression InfixExpression NumberLiteral empty
+seek index SimpleName InfixExpression NumberLiteral empty
+seek index SimpleName InfixExpression InfixExpression QualifiedName index infocount
+empty NumberLiteral InfixExpression InfixExpression QualifiedName index infocount
+comparator SimpleName MethodInvocation SimpleName compare
+comparator SimpleName MethodInvocation SimpleName key
+comparator SimpleName MethodInvocation SimpleName next key
+compare SimpleName MethodInvocation SimpleName key
+compare SimpleName MethodInvocation SimpleName next key
+key SimpleName MethodInvocation SimpleName next key
+comparator SimpleName MethodInvocation InfixExpression NumberLiteral empty
+compare SimpleName MethodInvocation InfixExpression NumberLiteral empty
+key SimpleName MethodInvocation InfixExpression NumberLiteral empty
+next key SimpleName MethodInvocation InfixExpression NumberLiteral empty
+comparator SimpleName MethodInvocation SimpleName compare
+comparator SimpleName MethodInvocation SimpleName last key
+comparator SimpleName MethodInvocation SimpleName key
+compare SimpleName MethodInvocation SimpleName last key
+compare SimpleName MethodInvocation SimpleName key
+last key SimpleName MethodInvocation SimpleName key
+comp SimpleName VariableDeclarationFragment MethodInvocation SimpleName comparator
+comp SimpleName VariableDeclarationFragment MethodInvocation SimpleName compare
+comp SimpleName VariableDeclarationFragment MethodInvocation SimpleName last key
+comp SimpleName VariableDeclarationFragment MethodInvocation SimpleName key
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName comp
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName comparator
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName compare
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName last key
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName key
+comp SimpleName InfixExpression NumberLiteral empty
+seek location SimpleName Assignment NumberLiteral empty
+data SimpleName MethodInvocation SimpleName seek
+data SimpleName MethodInvocation SimpleName seek position
+seek SimpleName MethodInvocation SimpleName seek position
+seek location SimpleName Assignment NumberLiteral empty
+data SimpleName MethodInvocation SimpleName seek
+data SimpleName MethodInvocation SimpleName seek position
+seek SimpleName MethodInvocation SimpleName seek position
+binary search SimpleName MethodInvocation SimpleName key
+seek index SimpleName Assignment MethodInvocation SimpleName binary search
+seek index SimpleName Assignment MethodInvocation SimpleName key
+seek index SimpleName InfixExpression NumberLiteral empty
+seek index SimpleName PrefixExpression InfixExpression NumberLiteral empty
+seek index SimpleName Assignment InfixExpression PrefixExpression SimpleName seek index
+seek index SimpleName Assignment InfixExpression NumberLiteral empty
+seek index SimpleName InfixExpression PrefixExpression NumberLiteral empty
+seek position SimpleName Assignment SimpleName first position
+index infopositions QualifiedName ArrayAccess SimpleName seek index
+seek position SimpleName Assignment ArrayAccess QualifiedName index infopositions
+seek position SimpleName Assignment ArrayAccess SimpleName seek index
+seek location SimpleName Assignment NumberLiteral empty
+data SimpleName MethodInvocation SimpleName seek
+data SimpleName MethodInvocation SimpleName seek position
+seek SimpleName MethodInvocation SimpleName seek position
+comparator SimpleName MethodInvocation SimpleName new key
+next key SimpleName Assignment MethodInvocation SimpleName comparator
+next key SimpleName Assignment MethodInvocation SimpleName new key
+system SimpleName MethodInvocation SimpleName current time millis
+start time SimpleName VariableDeclarationFragment MethodInvocation SimpleName system
+start time SimpleName VariableDeclarationFragment MethodInvocation SimpleName current time millis
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName start time
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName system
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName current time millis
+scans SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName scans
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+mark SimpleName VariableDeclarationFragment SimpleName start time
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName mark
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName start time
+data SimpleName MethodInvocation SimpleName next
+data SimpleName MethodInvocation SimpleName next key
+next SimpleName MethodInvocation SimpleName next key
+system SimpleName MethodInvocation SimpleName current time millis
+temp SimpleName VariableDeclarationFragment MethodInvocation SimpleName system
+temp SimpleName VariableDeclarationFragment MethodInvocation SimpleName current time millis
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName temp
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName system
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName current time millis
+temp SimpleName InfixExpression SimpleName mark
+my map filemap file seek scan time QualifiedName MethodInvocation SimpleName add stat
+my map filemap file seek scan time QualifiedName MethodInvocation InfixExpression SimpleName temp
+my map filemap file seek scan time QualifiedName MethodInvocation InfixExpression SimpleName mark
+add stat SimpleName MethodInvocation InfixExpression SimpleName temp
+add stat SimpleName MethodInvocation InfixExpression SimpleName mark
+mark SimpleName Assignment SimpleName temp
+comparator SimpleName MethodInvocation SimpleName compare
+comparator SimpleName MethodInvocation SimpleName key
+comparator SimpleName MethodInvocation SimpleName next key
+compare SimpleName MethodInvocation SimpleName key
+compare SimpleName MethodInvocation SimpleName next key
+key SimpleName MethodInvocation SimpleName next key
+c SimpleName VariableDeclarationFragment MethodInvocation SimpleName comparator
+c SimpleName VariableDeclarationFragment MethodInvocation SimpleName compare
+c SimpleName VariableDeclarationFragment MethodInvocation SimpleName key
+c SimpleName VariableDeclarationFragment MethodInvocation SimpleName next key
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName c
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName comparator
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName compare
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName key
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName next key
+system SimpleName MethodInvocation SimpleName current time millis
+temp SimpleName VariableDeclarationFragment MethodInvocation SimpleName system
+temp SimpleName VariableDeclarationFragment MethodInvocation SimpleName current time millis
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName temp
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName system
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName current time millis
+temp SimpleName InfixExpression SimpleName mark
+my map filemap file seek scan compare time QualifiedName MethodInvocation SimpleName add stat
+my map filemap file seek scan compare time QualifiedName MethodInvocation InfixExpression SimpleName temp
+my map filemap file seek scan compare time QualifiedName MethodInvocation InfixExpression SimpleName mark
+add stat SimpleName MethodInvocation InfixExpression SimpleName temp
+add stat SimpleName MethodInvocation InfixExpression SimpleName mark
+mark SimpleName Assignment SimpleName temp
+c SimpleName InfixExpression NumberLiteral empty
+my map filemap file seek scans QualifiedName MethodInvocation SimpleName add stat
+my map filemap file seek scans QualifiedName MethodInvocation SimpleName scans
+add stat SimpleName MethodInvocation SimpleName scans
+system SimpleName MethodInvocation SimpleName current time millis
+system SimpleName MethodInvocation InfixExpression SimpleName start time
+current time millis SimpleName MethodInvocation InfixExpression SimpleName start time
+time spent SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName system
+time spent SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName current time millis
+time spent SimpleName VariableDeclarationFragment InfixExpression SimpleName start time
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName time spent
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment InfixExpression SimpleName start time
+time spent SimpleName InfixExpression NumberLiteral empty
+long seek time StringLiteral InfixExpression SimpleName time spent
+long seek time StringLiteral InfixExpression StringLiteral seek location
+long seek time StringLiteral InfixExpression SimpleName seek location
+long seek time StringLiteral InfixExpression StringLiteral seek scans
+long seek time StringLiteral InfixExpression SimpleName scans
+time spent SimpleName InfixExpression StringLiteral seek location
+time spent SimpleName InfixExpression SimpleName seek location
+time spent SimpleName InfixExpression StringLiteral seek scans
+time spent SimpleName InfixExpression SimpleName scans
+time spent SimpleName InfixExpression StringLiteral seeking key
+seek location StringLiteral InfixExpression SimpleName seek location
+seek location StringLiteral InfixExpression StringLiteral seek scans
+seek location StringLiteral InfixExpression SimpleName scans
+seek location StringLiteral InfixExpression StringLiteral seeking key
+seek location StringLiteral InfixExpression SimpleName key
+seek location SimpleName InfixExpression StringLiteral seek scans
+seek location SimpleName InfixExpression SimpleName scans
+seek location SimpleName InfixExpression StringLiteral seeking key
+seek location SimpleName InfixExpression SimpleName key
+seek location SimpleName InfixExpression StringLiteral from
+seek scans StringLiteral InfixExpression SimpleName scans
+seek scans StringLiteral InfixExpression StringLiteral seeking key
+seek scans StringLiteral InfixExpression SimpleName key
+seek scans StringLiteral InfixExpression StringLiteral from
+seek scans StringLiteral InfixExpression SimpleName last key
+scans SimpleName InfixExpression StringLiteral seeking key
+scans SimpleName InfixExpression SimpleName key
+scans SimpleName InfixExpression StringLiteral from
+scans SimpleName InfixExpression SimpleName last key
+scans SimpleName InfixExpression StringLiteral previous
+seeking key StringLiteral InfixExpression SimpleName key
+seeking key StringLiteral InfixExpression StringLiteral from
+seeking key StringLiteral InfixExpression SimpleName last key
+seeking key StringLiteral InfixExpression StringLiteral previous
+seeking key StringLiteral InfixExpression SimpleName previous key
+key SimpleName InfixExpression StringLiteral from
+key SimpleName InfixExpression SimpleName last key
+key SimpleName InfixExpression StringLiteral previous
+key SimpleName InfixExpression SimpleName previous key
+from StringLiteral InfixExpression SimpleName last key
+from StringLiteral InfixExpression StringLiteral previous
+from StringLiteral InfixExpression SimpleName previous key
+last key SimpleName InfixExpression StringLiteral previous
+last key SimpleName InfixExpression SimpleName previous key
+previous StringLiteral InfixExpression SimpleName previous key
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation InfixExpression StringLiteral long seek time
+log SimpleName MethodInvocation InfixExpression SimpleName time spent
+log SimpleName MethodInvocation InfixExpression StringLiteral seek location
+log SimpleName MethodInvocation InfixExpression SimpleName seek location
+log SimpleName MethodInvocation InfixExpression StringLiteral seek scans
+log SimpleName MethodInvocation InfixExpression SimpleName scans
+log SimpleName MethodInvocation InfixExpression StringLiteral seeking key
+log SimpleName MethodInvocation InfixExpression SimpleName key
+log SimpleName MethodInvocation InfixExpression StringLiteral from
+log SimpleName MethodInvocation InfixExpression SimpleName last key
+log SimpleName MethodInvocation InfixExpression StringLiteral previous
+log SimpleName MethodInvocation InfixExpression SimpleName previous key
+debug SimpleName MethodInvocation InfixExpression StringLiteral long seek time
+debug SimpleName MethodInvocation InfixExpression SimpleName time spent
+debug SimpleName MethodInvocation InfixExpression StringLiteral seek location
+debug SimpleName MethodInvocation InfixExpression SimpleName seek location
+debug SimpleName MethodInvocation InfixExpression StringLiteral seek scans
+debug SimpleName MethodInvocation InfixExpression SimpleName scans
+debug SimpleName MethodInvocation InfixExpression StringLiteral seeking key
+debug SimpleName MethodInvocation InfixExpression SimpleName key
+debug SimpleName MethodInvocation InfixExpression StringLiteral from
+debug SimpleName MethodInvocation InfixExpression SimpleName last key
+debug SimpleName MethodInvocation InfixExpression StringLiteral previous
+debug SimpleName MethodInvocation InfixExpression SimpleName previous key
+my map filemap file seek time stat QualifiedName MethodInvocation SimpleName add stat
+my map filemap file seek time stat QualifiedName MethodInvocation SimpleName time spent
+add stat SimpleName MethodInvocation SimpleName time spent
+long PrimitiveType VariableDeclarationStatement Block ReturnStatement SimpleName c
+system SimpleName MethodInvocation SimpleName current time millis
+system SimpleName MethodInvocation InfixExpression SimpleName start time
+current time millis SimpleName MethodInvocation InfixExpression SimpleName start time
+time spent SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName system
+time spent SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName current time millis
+time spent SimpleName VariableDeclarationFragment InfixExpression SimpleName start time
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName time spent
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment InfixExpression SimpleName start time
+time spent SimpleName InfixExpression NumberLiteral empty
+long seek time ( ): StringLiteral InfixExpression SimpleName time spent
+long seek time ( ): StringLiteral InfixExpression StringLiteral seek location
+long seek time ( ): StringLiteral InfixExpression SimpleName seek location
+long seek time ( ): StringLiteral InfixExpression StringLiteral seek scans
+long seek time ( ): StringLiteral InfixExpression SimpleName scans
+time spent SimpleName InfixExpression StringLiteral seek location
+time spent SimpleName InfixExpression SimpleName seek location
+time spent SimpleName InfixExpression StringLiteral seek scans
+time spent SimpleName InfixExpression SimpleName scans
+time spent SimpleName InfixExpression StringLiteral seeking key
+seek location StringLiteral InfixExpression SimpleName seek location
+seek location StringLiteral InfixExpression StringLiteral seek scans
+seek location StringLiteral InfixExpression SimpleName scans
+seek location StringLiteral InfixExpression StringLiteral seeking key
+seek location StringLiteral InfixExpression SimpleName key
+seek location SimpleName InfixExpression StringLiteral seek scans
+seek location SimpleName InfixExpression SimpleName scans
+seek location SimpleName InfixExpression StringLiteral seeking key
+seek location SimpleName InfixExpression SimpleName key
+seek location SimpleName InfixExpression StringLiteral from
+seek scans StringLiteral InfixExpression SimpleName scans
+seek scans StringLiteral InfixExpression StringLiteral seeking key
+seek scans StringLiteral InfixExpression SimpleName key
+seek scans StringLiteral InfixExpression StringLiteral from
+seek scans StringLiteral InfixExpression SimpleName last key
+scans SimpleName InfixExpression StringLiteral seeking key
+scans SimpleName InfixExpression SimpleName key
+scans SimpleName InfixExpression StringLiteral from
+scans SimpleName InfixExpression SimpleName last key
+scans SimpleName InfixExpression StringLiteral previous
+seeking key StringLiteral InfixExpression SimpleName key
+seeking key StringLiteral InfixExpression StringLiteral from
+seeking key StringLiteral InfixExpression SimpleName last key
+seeking key StringLiteral InfixExpression StringLiteral previous
+seeking key StringLiteral InfixExpression SimpleName previous key
+key SimpleName InfixExpression StringLiteral from
+key SimpleName InfixExpression SimpleName last key
+key SimpleName InfixExpression StringLiteral previous
+key SimpleName InfixExpression SimpleName previous key
+from StringLiteral InfixExpression SimpleName last key
+from StringLiteral InfixExpression StringLiteral previous
+from StringLiteral InfixExpression SimpleName previous key
+last key SimpleName InfixExpression StringLiteral previous
+last key SimpleName InfixExpression SimpleName previous key
+previous StringLiteral InfixExpression SimpleName previous key
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation InfixExpression StringLiteral long seek time ( ):
+log SimpleName MethodInvocation InfixExpression SimpleName time spent
+log SimpleName MethodInvocation InfixExpression StringLiteral seek location
+log SimpleName MethodInvocation InfixExpression SimpleName seek location
+log SimpleName MethodInvocation InfixExpression StringLiteral seek scans
+log SimpleName MethodInvocation InfixExpression SimpleName scans
+log SimpleName MethodInvocation InfixExpression StringLiteral seeking key
+log SimpleName MethodInvocation InfixExpression SimpleName key
+log SimpleName MethodInvocation InfixExpression StringLiteral from
+log SimpleName MethodInvocation InfixExpression SimpleName last key
+log SimpleName MethodInvocation InfixExpression StringLiteral previous
+log SimpleName MethodInvocation InfixExpression SimpleName previous key
+debug SimpleName MethodInvocation InfixExpression StringLiteral long seek time ( ):
+debug SimpleName MethodInvocation InfixExpression SimpleName time spent
+debug SimpleName MethodInvocation InfixExpression StringLiteral seek location
+debug SimpleName MethodInvocation InfixExpression SimpleName seek location
+debug SimpleName MethodInvocation InfixExpression StringLiteral seek scans
+debug SimpleName MethodInvocation InfixExpression SimpleName scans
+debug SimpleName MethodInvocation InfixExpression StringLiteral seeking key
+debug SimpleName MethodInvocation InfixExpression SimpleName key
+debug SimpleName MethodInvocation InfixExpression StringLiteral from
+debug SimpleName MethodInvocation InfixExpression SimpleName last key
+debug SimpleName MethodInvocation InfixExpression StringLiteral previous
+debug SimpleName MethodInvocation InfixExpression SimpleName previous key
+my map filemap file seek time stat QualifiedName MethodInvocation SimpleName add stat
+my map filemap file seek time stat QualifiedName MethodInvocation SimpleName time spent
+add stat SimpleName MethodInvocation SimpleName time spent
+my map filemap file seek scans QualifiedName MethodInvocation SimpleName add stat
+my map filemap file seek scans QualifiedName MethodInvocation SimpleName scans
+add stat SimpleName MethodInvocation SimpleName scans
+before SimpleName IfStatement Block VariableDeclarationStatement PrimitiveType int
+before SimpleName IfStatement Block VariableDeclarationStatement PrimitiveType long
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType long
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType long
+long PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+long PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType long
+long PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType long
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType long
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType long
+long PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType long
+long PrimitiveType VariableDeclarationStatement Block ReturnStatement NumberLiteral empty
+private Modifier MethodDeclaration Modifier synchronized
+private Modifier MethodDeclaration PrimitiveType int
+private Modifier MethodDeclaration SimpleName seek internal
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName writable comparable
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName key
+private Modifier MethodDeclaration SingleVariableDeclaration Modifier final
+private Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName before
+synchronized Modifier MethodDeclaration PrimitiveType int
+synchronized Modifier MethodDeclaration SimpleName seek internal
+synchronized Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName writable comparable
+synchronized Modifier MethodDeclaration SingleVariableDeclaration SimpleName key
+synchronized Modifier MethodDeclaration SingleVariableDeclaration Modifier final
+synchronized Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+synchronized Modifier MethodDeclaration SingleVariableDeclaration SimpleName before
+synchronized Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName writable comparable
+synchronized Modifier MethodDeclaration SingleVariableDeclaration SimpleName last key
+int PrimitiveType MethodDeclaration SimpleName seek internal
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName writable comparable
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName key
+int PrimitiveType MethodDeclaration SingleVariableDeclaration Modifier final
+int PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName before
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName writable comparable
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName last key
+int PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+seek internal SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName writable comparable
+seek internal SimpleName MethodDeclaration SingleVariableDeclaration SimpleName key
+seek internal SimpleName MethodDeclaration SingleVariableDeclaration Modifier final
+seek internal SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+seek internal SimpleName MethodDeclaration SingleVariableDeclaration SimpleName before
+seek internal SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName writable comparable
+seek internal SimpleName MethodDeclaration SingleVariableDeclaration SimpleName last key
+seek internal SimpleName MethodDeclaration SimpleType SimpleName io exception
+seek internal SimpleName MethodDeclaration Block IfStatement SimpleName before
+seek internal SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+seek internal SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+seek internal SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+seek internal SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+seek internal SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+seek internal SimpleName MethodDeclaration Block ReturnStatement NumberLiteral empty
+key SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+key SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+key SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName before
+key SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName last key
+key SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+final Modifier SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName last key
+boolean PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName last key
+before SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName last key
+final Modifier SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+boolean PrimitiveType SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+before SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+last key SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration Modifier synchronized
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SimpleName seek internal
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName key
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName before
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName last key
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration Modifier synchronized
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SimpleName seek internal
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName key
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName before
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName last key
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

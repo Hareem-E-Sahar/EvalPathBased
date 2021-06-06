@@ -1,0 +1,76 @@
+atlas classification SimpleName SimpleType SingleVariableDeclaration SimpleName classification
+log SimpleName MethodInvocation SimpleName is debug enabled
+classification SimpleName MethodInvocation SimpleName get type name
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral ==> create vertex
+log SimpleName MethodInvocation MethodInvocation SimpleName classification
+log SimpleName MethodInvocation MethodInvocation SimpleName get type name
+debug SimpleName MethodInvocation StringLiteral ==> create vertex
+debug SimpleName MethodInvocation MethodInvocation SimpleName classification
+debug SimpleName MethodInvocation MethodInvocation SimpleName get type name
+==> create vertex StringLiteral MethodInvocation MethodInvocation SimpleName classification
+==> create vertex StringLiteral MethodInvocation MethodInvocation SimpleName get type name
+classification SimpleName MethodInvocation SimpleName get type name
+type registry SimpleName MethodInvocation SimpleName get classification type by name
+type registry SimpleName MethodInvocation MethodInvocation SimpleName classification
+type registry SimpleName MethodInvocation MethodInvocation SimpleName get type name
+get classification type by name SimpleName MethodInvocation MethodInvocation SimpleName classification
+get classification type by name SimpleName MethodInvocation MethodInvocation SimpleName get type name
+classification type SimpleName VariableDeclarationFragment MethodInvocation SimpleName type registry
+classification type SimpleName VariableDeclarationFragment MethodInvocation SimpleName get classification type by name
+classification type SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName classification
+classification type SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get type name
+atlas classification type SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName classification type
+create struct vertex SimpleName MethodInvocation SimpleName classification
+ret SimpleName VariableDeclarationFragment MethodInvocation SimpleName create struct vertex
+ret SimpleName VariableDeclarationFragment MethodInvocation SimpleName classification
+atlas vertex SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ret
+classification type SimpleName MethodInvocation SimpleName get all super types
+atlas graph utils v SimpleName MethodInvocation SimpleName add property
+atlas graph utils v SimpleName MethodInvocation SimpleName ret
+atlas graph utils v SimpleName MethodInvocation QualifiedName constantssuper types property key
+atlas graph utils v SimpleName MethodInvocation MethodInvocation SimpleName classification type
+atlas graph utils v SimpleName MethodInvocation MethodInvocation SimpleName get all super types
+add property SimpleName MethodInvocation SimpleName ret
+add property SimpleName MethodInvocation QualifiedName constantssuper types property key
+add property SimpleName MethodInvocation MethodInvocation SimpleName classification type
+add property SimpleName MethodInvocation MethodInvocation SimpleName get all super types
+ret SimpleName MethodInvocation QualifiedName constantssuper types property key
+ret SimpleName MethodInvocation MethodInvocation SimpleName classification type
+ret SimpleName MethodInvocation MethodInvocation SimpleName get all super types
+constantssuper types property key QualifiedName MethodInvocation MethodInvocation SimpleName classification type
+constantssuper types property key QualifiedName MethodInvocation MethodInvocation SimpleName get all super types
+classification SimpleName MethodInvocation SimpleName get entity guid
+atlas graph utils v SimpleName MethodInvocation SimpleName set property
+atlas graph utils v SimpleName MethodInvocation SimpleName ret
+atlas graph utils v SimpleName MethodInvocation QualifiedName constantsclassification entity guid
+atlas graph utils v SimpleName MethodInvocation MethodInvocation SimpleName classification
+atlas graph utils v SimpleName MethodInvocation MethodInvocation SimpleName get entity guid
+set property SimpleName MethodInvocation SimpleName ret
+set property SimpleName MethodInvocation QualifiedName constantsclassification entity guid
+set property SimpleName MethodInvocation MethodInvocation SimpleName classification
+set property SimpleName MethodInvocation MethodInvocation SimpleName get entity guid
+ret SimpleName MethodInvocation QualifiedName constantsclassification entity guid
+ret SimpleName MethodInvocation MethodInvocation SimpleName classification
+ret SimpleName MethodInvocation MethodInvocation SimpleName get entity guid
+constantsclassification entity guid QualifiedName MethodInvocation MethodInvocation SimpleName classification
+constantsclassification entity guid QualifiedName MethodInvocation MethodInvocation SimpleName get entity guid
+private Modifier MethodDeclaration SimpleType SimpleName atlas vertex
+private Modifier MethodDeclaration SimpleName create classification vertex
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas classification
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName classification
+private Modifier MethodDeclaration Block ReturnStatement SimpleName ret
+atlas vertex SimpleName SimpleType MethodDeclaration SimpleName create classification vertex
+atlas vertex SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName classification
+create classification vertex SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas classification
+create classification vertex SimpleName MethodDeclaration SingleVariableDeclaration SimpleName classification
+create classification vertex SimpleName MethodDeclaration Block ReturnStatement SimpleName ret
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas vertex
+public Modifier TypeDeclaration MethodDeclaration SimpleName create classification vertex
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName classification
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas vertex
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create classification vertex
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName classification

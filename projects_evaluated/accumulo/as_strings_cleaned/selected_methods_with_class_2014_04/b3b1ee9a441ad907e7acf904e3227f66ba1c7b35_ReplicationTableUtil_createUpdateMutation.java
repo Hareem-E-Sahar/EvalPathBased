@@ -1,0 +1,65 @@
+text SimpleName SimpleType SingleVariableDeclaration SimpleName file
+value SimpleName SimpleType SingleVariableDeclaration SimpleName v
+key extent SimpleName SimpleType SingleVariableDeclaration SimpleName extent
+mutation SimpleName SimpleType ClassInstanceCreation SimpleName file
+m SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName mutation
+m SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName file
+mutation SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName m
+extent SimpleName MethodInvocation SimpleName get table id
+status section SimpleName MethodInvocation SimpleName add
+status section SimpleName MethodInvocation SimpleName m
+status section SimpleName MethodInvocation MethodInvocation SimpleName extent
+status section SimpleName MethodInvocation MethodInvocation SimpleName get table id
+status section SimpleName MethodInvocation SimpleName v
+add SimpleName MethodInvocation SimpleName m
+add SimpleName MethodInvocation MethodInvocation SimpleName extent
+add SimpleName MethodInvocation MethodInvocation SimpleName get table id
+add SimpleName MethodInvocation SimpleName v
+m SimpleName MethodInvocation MethodInvocation SimpleName extent
+m SimpleName MethodInvocation MethodInvocation SimpleName get table id
+m SimpleName MethodInvocation SimpleName v
+extent SimpleName MethodInvocation MethodInvocation SimpleName v
+get table id SimpleName MethodInvocation MethodInvocation SimpleName v
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName mutation
+public Modifier MethodDeclaration SimpleName create update mutation
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName text
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName file
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName value
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName v
+static Modifier MethodDeclaration SimpleType SimpleName mutation
+static Modifier MethodDeclaration SimpleName create update mutation
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName text
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName file
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName value
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName v
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName key extent
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName extent
+mutation SimpleName SimpleType MethodDeclaration SimpleName create update mutation
+mutation SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName file
+mutation SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName v
+mutation SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName extent
+create update mutation SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName text
+create update mutation SimpleName MethodDeclaration SingleVariableDeclaration SimpleName file
+create update mutation SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName value
+create update mutation SimpleName MethodDeclaration SingleVariableDeclaration SimpleName v
+create update mutation SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName key extent
+create update mutation SimpleName MethodDeclaration SingleVariableDeclaration SimpleName extent
+file SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName v
+file SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName extent
+v SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName extent
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName mutation
+public Modifier TypeDeclaration MethodDeclaration SimpleName create update mutation
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName file
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName v
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName extent
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName mutation
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create update mutation
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName file
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName v
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName extent

@@ -1,0 +1,59 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas vertex
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas vertex
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas vertex
+list SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName classification vertices
+atlas vertex SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName classification vertices
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas vertex
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas vertex
+collection utils SimpleName MethodInvocation SimpleName is not empty
+collection utils SimpleName MethodInvocation SimpleName classification vertices
+is not empty SimpleName MethodInvocation SimpleName classification vertices
+atlas vertex SimpleName SimpleType SingleVariableDeclaration SimpleName classification vertex
+classification vertex SimpleName MethodInvocation SimpleName get id for display
+classification id SimpleName VariableDeclarationFragment MethodInvocation SimpleName classification vertex
+classification id SimpleName VariableDeclarationFragment MethodInvocation SimpleName get id for display
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName classification id
+get classification entity guid SimpleName MethodInvocation SimpleName classification vertex
+source entity id SimpleName VariableDeclarationFragment MethodInvocation SimpleName get classification entity guid
+source entity id SimpleName VariableDeclarationFragment MethodInvocation SimpleName classification vertex
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName source entity id
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas vertex
+graph helper SimpleName MethodInvocation SimpleName get impacted vertices with restrictions
+graph helper SimpleName MethodInvocation SimpleName source entity id
+graph helper SimpleName MethodInvocation SimpleName classification id
+get impacted vertices with restrictions SimpleName MethodInvocation SimpleName source entity id
+get impacted vertices with restrictions SimpleName MethodInvocation SimpleName classification id
+source entity id SimpleName MethodInvocation SimpleName classification id
+entities propagating to SimpleName VariableDeclarationFragment MethodInvocation SimpleName graph helper
+entities propagating to SimpleName VariableDeclarationFragment MethodInvocation SimpleName get impacted vertices with restrictions
+entities propagating to SimpleName VariableDeclarationFragment MethodInvocation SimpleName source entity id
+entities propagating to SimpleName VariableDeclarationFragment MethodInvocation SimpleName classification id
+ret SimpleName MethodInvocation SimpleName put
+ret SimpleName MethodInvocation SimpleName classification vertex
+ret SimpleName MethodInvocation SimpleName entities propagating to
+put SimpleName MethodInvocation SimpleName classification vertex
+put SimpleName MethodInvocation SimpleName entities propagating to
+classification vertex SimpleName MethodInvocation SimpleName entities propagating to
+atlas vertex SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName classification vertices
+classification vertex SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName classification vertices
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName map
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName atlas vertex
+private Modifier MethodDeclaration SimpleName get classification propagated entities mapping
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName classification vertices
+private Modifier MethodDeclaration SimpleType SimpleName atlas base exception
+private Modifier MethodDeclaration Block ReturnStatement SimpleName ret
+map SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get classification propagated entities mapping
+atlas vertex SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get classification propagated entities mapping
+get classification propagated entities mapping SimpleName MethodDeclaration SingleVariableDeclaration SimpleName classification vertices
+get classification propagated entities mapping SimpleName MethodDeclaration SimpleType SimpleName atlas base exception
+get classification propagated entities mapping SimpleName MethodDeclaration Block ReturnStatement SimpleName ret
+classification vertices SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleName get classification propagated entities mapping
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName classification vertices
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get classification propagated entities mapping
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName classification vertices
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception

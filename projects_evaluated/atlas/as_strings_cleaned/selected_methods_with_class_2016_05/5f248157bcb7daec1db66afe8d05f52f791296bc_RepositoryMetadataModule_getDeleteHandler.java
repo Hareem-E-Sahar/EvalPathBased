@@ -1,0 +1,20 @@
+soft delete handler SimpleName SimpleType TypeLiteral MethodInvocation SimpleName get name
+application properties SimpleName MethodInvocation SimpleName get class
+application properties SimpleName MethodInvocation SimpleName delete handler implementation property
+application properties SimpleName MethodInvocation MethodInvocation SimpleName get name
+application properties SimpleName MethodInvocation TypeLiteral SimpleType SimpleName delete handler
+get class SimpleName MethodInvocation SimpleName delete handler implementation property
+get class SimpleName MethodInvocation MethodInvocation SimpleName get name
+get class SimpleName MethodInvocation TypeLiteral SimpleType SimpleName delete handler
+delete handler implementation property SimpleName MethodInvocation MethodInvocation SimpleName get name
+delete handler implementation property SimpleName MethodInvocation TypeLiteral SimpleType SimpleName delete handler
+atlas exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+runtime exception SimpleName SimpleType ClassInstanceCreation SimpleName e
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName class
+private Modifier MethodDeclaration SimpleName get delete handler
+class SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get delete handler
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleName get delete handler
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get delete handler

@@ -1,0 +1,54 @@
+escape tokenizer SimpleName SimpleType ClassInstanceCreation StringLiteral \\
+escape tokenizer SimpleName SimpleType ClassInstanceCreation StringLiteral empty
+\\ StringLiteral ClassInstanceCreation StringLiteral empty
+et SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName escape tokenizer
+et SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral \\
+et SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral empty
+escape tokenizer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName et
+iterator SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+et SimpleName MethodInvocation SimpleName iterator
+iter SimpleName VariableDeclarationFragment MethodInvocation SimpleName et
+iter SimpleName VariableDeclarationFragment MethodInvocation SimpleName iterator
+iter SimpleName MethodInvocation SimpleName next
+iter SimpleName MethodInvocation MethodInvocation SimpleName equals
+next SimpleName MethodInvocation MethodInvocation SimpleName equals
+iter SimpleName MethodInvocation MethodInvocation StringLiteral empty
+next SimpleName MethodInvocation MethodInvocation StringLiteral empty
+equals SimpleName MethodInvocation StringLiteral empty
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName iter
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName next
+assert true SimpleName MethodInvocation MethodInvocation SimpleName equals
+assert true SimpleName MethodInvocation MethodInvocation StringLiteral empty
+iter SimpleName MethodInvocation SimpleName next
+iter SimpleName MethodInvocation MethodInvocation SimpleName equals
+next SimpleName MethodInvocation MethodInvocation SimpleName equals
+iter SimpleName MethodInvocation MethodInvocation StringLiteral empty
+next SimpleName MethodInvocation MethodInvocation StringLiteral empty
+equals SimpleName MethodInvocation StringLiteral empty
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName iter
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName next
+assert true SimpleName MethodInvocation MethodInvocation SimpleName equals
+assert true SimpleName MethodInvocation MethodInvocation StringLiteral empty
+iter SimpleName MethodInvocation SimpleName next
+iter SimpleName MethodInvocation MethodInvocation SimpleName equals
+next SimpleName MethodInvocation MethodInvocation SimpleName equals
+iter SimpleName MethodInvocation MethodInvocation StringLiteral empty
+next SimpleName MethodInvocation MethodInvocation StringLiteral empty
+equals SimpleName MethodInvocation StringLiteral empty
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName iter
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName next
+assert true SimpleName MethodInvocation MethodInvocation SimpleName equals
+assert true SimpleName MethodInvocation MethodInvocation StringLiteral empty
+iter SimpleName MethodInvocation SimpleName has next
+assert true SimpleName MethodInvocation PrefixExpression MethodInvocation SimpleName iter
+assert true SimpleName MethodInvocation PrefixExpression MethodInvocation SimpleName has next
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test
+void PrimitiveType MethodDeclaration SimpleName test
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test

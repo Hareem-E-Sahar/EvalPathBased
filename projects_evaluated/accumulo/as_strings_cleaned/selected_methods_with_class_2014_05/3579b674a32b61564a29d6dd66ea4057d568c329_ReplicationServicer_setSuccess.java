@@ -1,0 +1,23 @@
+long PrimitiveType SingleVariableDeclaration SimpleName success
+success SimpleName FieldAccess Assignment SimpleName success
+set success is set SimpleName MethodInvocation BooleanLiteral true
+public Modifier MethodDeclaration SimpleType SimpleName replicate key values result
+public Modifier MethodDeclaration SimpleName set success
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType long
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName success
+replicate key values result SimpleName SimpleType MethodDeclaration SimpleName set success
+replicate key values result SimpleName SimpleType MethodDeclaration SingleVariableDeclaration PrimitiveType long
+replicate key values result SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName success
+set success SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType long
+set success SimpleName MethodDeclaration SingleVariableDeclaration SimpleName success
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName replicate key values result
+public Modifier TypeDeclaration MethodDeclaration SimpleName set success
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName success
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName replicate key values result
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set success
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName success

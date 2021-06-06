@@ -1,0 +1,49 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName type name
+context SimpleName SimpleType SingleVariableDeclaration SimpleName context
+type store SimpleName MethodInvocation SimpleName restore type
+type store SimpleName MethodInvocation SimpleName type name
+restore type SimpleName MethodInvocation SimpleName type name
+types def SimpleName VariableDeclarationFragment MethodInvocation SimpleName type store
+types def SimpleName VariableDeclarationFragment MethodInvocation SimpleName restore type
+types def SimpleName VariableDeclarationFragment MethodInvocation SimpleName type name
+types def SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName types def
+types def SimpleName MethodInvocation SimpleName is empty
+context SimpleName MethodInvocation SimpleName add types def to lists
+context SimpleName MethodInvocation SimpleName types def
+add types def to lists SimpleName MethodInvocation SimpleName types def
+check attribute and super types SimpleName MethodInvocation SimpleName types def
+check attribute and super types SimpleName MethodInvocation SimpleName context
+types def SimpleName MethodInvocation SimpleName context
+private Modifier MethodDeclaration SimpleType SimpleName types def
+private Modifier MethodDeclaration SimpleName get type from store
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName type name
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName context
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName context
+private Modifier MethodDeclaration SimpleType SimpleName atlas exception
+types def SimpleName SimpleType MethodDeclaration SimpleName get type from store
+types def SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName type name
+types def SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName context
+types def SimpleName SimpleType MethodDeclaration SimpleType SimpleName atlas exception
+get type from store SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get type from store SimpleName MethodDeclaration SingleVariableDeclaration SimpleName type name
+get type from store SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName context
+get type from store SimpleName MethodDeclaration SingleVariableDeclaration SimpleName context
+get type from store SimpleName MethodDeclaration SimpleType SimpleName atlas exception
+get type from store SimpleName MethodDeclaration Block ReturnStatement SimpleName types def
+type name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName context
+type name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+context SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName types def
+public Modifier TypeDeclaration MethodDeclaration SimpleName get type from store
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName context
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName types def
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get type from store
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName context
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception

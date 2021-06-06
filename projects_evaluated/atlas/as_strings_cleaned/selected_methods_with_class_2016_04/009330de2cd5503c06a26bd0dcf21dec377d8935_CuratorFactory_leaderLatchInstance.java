@@ -1,0 +1,37 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName server id
+string SimpleName SimpleType SingleVariableDeclaration SimpleName zk root
+zk root SimpleName InfixExpression SimpleName apache atlas leader elector path
+leader latch SimpleName SimpleType ClassInstanceCreation SimpleName curator framework
+leader latch SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName zk root
+leader latch SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName apache atlas leader elector path
+leader latch SimpleName SimpleType ClassInstanceCreation SimpleName server id
+curator framework SimpleName ClassInstanceCreation InfixExpression SimpleName zk root
+curator framework SimpleName ClassInstanceCreation InfixExpression SimpleName apache atlas leader elector path
+curator framework SimpleName ClassInstanceCreation SimpleName server id
+zk root SimpleName InfixExpression ClassInstanceCreation SimpleName server id
+apache atlas leader elector path SimpleName InfixExpression ClassInstanceCreation SimpleName server id
+public Modifier MethodDeclaration SimpleType SimpleName leader latch
+public Modifier MethodDeclaration SimpleName leader latch instance
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName server id
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName zk root
+leader latch SimpleName SimpleType MethodDeclaration SimpleName leader latch instance
+leader latch SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName server id
+leader latch SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName zk root
+leader latch instance SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+leader latch instance SimpleName MethodDeclaration SingleVariableDeclaration SimpleName server id
+leader latch instance SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+leader latch instance SimpleName MethodDeclaration SingleVariableDeclaration SimpleName zk root
+server id SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName zk root
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName leader latch
+public Modifier TypeDeclaration MethodDeclaration SimpleName leader latch instance
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName server id
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName zk root
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName leader latch
+test SimpleName TypeDeclaration MethodDeclaration SimpleName leader latch instance
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName server id
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName zk root

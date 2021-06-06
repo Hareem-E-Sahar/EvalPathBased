@@ -1,0 +1,83 @@
+watched event SimpleName SimpleType SingleVariableDeclaration SimpleName event
+log SimpleName MethodInvocation SimpleName is trace enabled
+log SimpleName MethodInvocation SimpleName trace
+log SimpleName MethodInvocation StringLiteral {}
+log SimpleName MethodInvocation SimpleName event
+trace SimpleName MethodInvocation StringLiteral {}
+trace SimpleName MethodInvocation SimpleName event
+{} StringLiteral MethodInvocation SimpleName event
+event SimpleName MethodInvocation SimpleName get type
+event SimpleName MethodInvocation SimpleName get path
+remove SimpleName MethodInvocation MethodInvocation SimpleName event
+remove SimpleName MethodInvocation MethodInvocation SimpleName get path
+event SimpleName MethodInvocation SimpleName get state
+log SimpleName MethodInvocation SimpleName is trace enabled
+log SimpleName MethodInvocation SimpleName trace
+log SimpleName MethodInvocation StringLiteral zoo keeper connection disconnected clearing cache
+trace SimpleName MethodInvocation StringLiteral zoo keeper connection disconnected clearing cache
+log SimpleName MethodInvocation SimpleName is trace enabled
+log SimpleName MethodInvocation SimpleName trace
+log SimpleName MethodInvocation StringLiteral zoo keeper connection expired clearing cache
+trace SimpleName MethodInvocation StringLiteral zoo keeper connection expired clearing cache
+unhandled StringLiteral InfixExpression SimpleName event
+log SimpleName MethodInvocation SimpleName warn
+log SimpleName MethodInvocation InfixExpression StringLiteral unhandled
+log SimpleName MethodInvocation InfixExpression SimpleName event
+warn SimpleName MethodInvocation InfixExpression StringLiteral unhandled
+warn SimpleName MethodInvocation InfixExpression SimpleName event
+event SimpleName MethodInvocation SwitchStatement SwitchCase SimpleName disconnected
+get state SimpleName MethodInvocation SwitchStatement SwitchCase SimpleName disconnected
+event SimpleName MethodInvocation SwitchStatement SwitchCase SimpleName sync connected
+get state SimpleName MethodInvocation SwitchStatement SwitchCase SimpleName sync connected
+disconnected SimpleName SwitchCase SwitchStatement SwitchCase SimpleName sync connected
+sync connected SimpleName SwitchCase SwitchStatement SwitchCase SimpleName expired
+unhandled StringLiteral InfixExpression SimpleName event
+log SimpleName MethodInvocation SimpleName warn
+log SimpleName MethodInvocation InfixExpression StringLiteral unhandled
+log SimpleName MethodInvocation InfixExpression SimpleName event
+warn SimpleName MethodInvocation InfixExpression StringLiteral unhandled
+warn SimpleName MethodInvocation InfixExpression SimpleName event
+event SimpleName MethodInvocation SwitchStatement SwitchCase SimpleName node data changed
+get type SimpleName MethodInvocation SwitchStatement SwitchCase SimpleName node data changed
+event SimpleName MethodInvocation SwitchStatement SwitchCase SimpleName node children changed
+get type SimpleName MethodInvocation SwitchStatement SwitchCase SimpleName node children changed
+event SimpleName MethodInvocation SwitchStatement SwitchCase SimpleName node created
+get type SimpleName MethodInvocation SwitchStatement SwitchCase SimpleName node created
+event SimpleName MethodInvocation SwitchStatement SwitchCase SimpleName node deleted
+get type SimpleName MethodInvocation SwitchStatement SwitchCase SimpleName node deleted
+node data changed SimpleName SwitchCase SwitchStatement SwitchCase SimpleName node children changed
+node data changed SimpleName SwitchCase SwitchStatement SwitchCase SimpleName node created
+node data changed SimpleName SwitchCase SwitchStatement SwitchCase SimpleName node deleted
+node children changed SimpleName SwitchCase SwitchStatement SwitchCase SimpleName node created
+node children changed SimpleName SwitchCase SwitchStatement SwitchCase SimpleName node deleted
+node children changed SimpleName SwitchCase SwitchStatement SwitchCase SimpleName none
+node created SimpleName SwitchCase SwitchStatement SwitchCase SimpleName node deleted
+node created SimpleName SwitchCase SwitchStatement SwitchCase SimpleName none
+node deleted SimpleName SwitchCase SwitchStatement SwitchCase SimpleName none
+external watcher SimpleName MethodInvocation SimpleName process
+external watcher SimpleName MethodInvocation SimpleName event
+process SimpleName MethodInvocation SimpleName event
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName process
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName event
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName process
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName watched event
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName event
+void PrimitiveType MethodDeclaration SimpleName process
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName watched event
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName event
+process SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName watched event
+process SimpleName MethodDeclaration SingleVariableDeclaration SimpleName event
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName process
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName event
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName process
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName event

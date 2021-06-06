@@ -1,0 +1,46 @@
+watched event SimpleName SimpleType SingleVariableDeclaration SimpleName event
+collection SimpleName SimpleType ParameterizedType SimpleType SimpleName watcher
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName watcher
+array list SimpleName SimpleType ParameterizedType ClassInstanceCreation SimpleName watchers
+watcher SimpleName SimpleType ParameterizedType ClassInstanceCreation SimpleName watchers
+watcher copy SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName watchers
+watcher SimpleName SimpleType SingleVariableDeclaration SimpleName watcher
+watcher SimpleName MethodInvocation SimpleName process
+watcher SimpleName MethodInvocation SimpleName event
+process SimpleName MethodInvocation SimpleName event
+watcher SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName watcher copy
+watcher SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName watcher copy
+event SimpleName MethodInvocation SimpleName get state
+event SimpleName MethodInvocation InfixExpression QualifiedName keeper stateexpired
+get state SimpleName MethodInvocation InfixExpression QualifiedName keeper stateexpired
+event SimpleName MethodInvocation SimpleName get state
+session expired state of current session : StringLiteral InfixExpression MethodInvocation SimpleName event
+session expired state of current session : StringLiteral InfixExpression MethodInvocation SimpleName get state
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation InfixExpression StringLiteral session expired state of current session :
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName event
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get state
+debug SimpleName MethodInvocation InfixExpression StringLiteral session expired state of current session :
+debug SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName event
+debug SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get state
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName process
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName watched event
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName event
+public Modifier MethodDeclaration Block EnhancedForStatement SimpleName watcher copy
+void PrimitiveType MethodDeclaration SimpleName process
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName watched event
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName event
+void PrimitiveType MethodDeclaration Block EnhancedForStatement SimpleName watcher copy
+process SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName watched event
+process SimpleName MethodDeclaration SingleVariableDeclaration SimpleName event
+process SimpleName MethodDeclaration Block EnhancedForStatement SimpleName watcher copy
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName process
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName event
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName process
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName event

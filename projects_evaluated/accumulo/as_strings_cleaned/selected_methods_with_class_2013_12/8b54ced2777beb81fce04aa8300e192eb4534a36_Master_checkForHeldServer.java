@@ -1,0 +1,121 @@
+sorted map SimpleName SimpleType ParameterizedType SimpleType SimpleName t server instance
+sorted map SimpleName SimpleType ParameterizedType SimpleType SimpleName tablet server status
+t server instance SimpleName SimpleType ParameterizedType SimpleType SimpleName tablet server status
+sorted map SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName tserver status
+t server instance SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName tserver status
+tablet server status SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName tserver status
+t server instance SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName instance
+crazy hold time SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName crazy hold time
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+some hold time SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName some hold time
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+get system configuration SimpleName MethodInvocation MethodInvocation SimpleName get time in millis
+get system configuration SimpleName MethodInvocation MethodInvocation QualifiedName propertytserv hold time suicide
+get time in millis SimpleName MethodInvocation QualifiedName propertytserv hold time suicide
+max wait SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get system configuration
+max wait SimpleName VariableDeclarationFragment MethodInvocation SimpleName get time in millis
+max wait SimpleName VariableDeclarationFragment MethodInvocation QualifiedName propertytserv hold time suicide
+final Modifier VariableDeclarationStatement PrimitiveType long
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName max wait
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get time in millis
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation QualifiedName propertytserv hold time suicide
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName max wait
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get time in millis
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation QualifiedName propertytserv hold time suicide
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName t server instance
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName tablet server status
+t server instance SimpleName SimpleType ParameterizedType SimpleType SimpleName tablet server status
+entry SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+t server instance SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+tablet server status SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+tserver status SimpleName MethodInvocation SimpleName entry set
+entry SimpleName MethodInvocation SimpleName get value
+entry SimpleName MethodInvocation MethodInvocation SimpleName get hold time
+get value SimpleName MethodInvocation MethodInvocation SimpleName get hold time
+entry SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral empty
+get value SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral empty
+get hold time SimpleName MethodInvocation InfixExpression NumberLiteral empty
+entry SimpleName MethodInvocation SimpleName get value
+entry SimpleName MethodInvocation MethodInvocation SimpleName get hold time
+get value SimpleName MethodInvocation MethodInvocation SimpleName get hold time
+entry SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName max wait
+get value SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName max wait
+get hold time SimpleName MethodInvocation InfixExpression SimpleName max wait
+entry SimpleName MethodInvocation SimpleName get key
+instance SimpleName Assignment MethodInvocation SimpleName entry
+instance SimpleName Assignment MethodInvocation SimpleName get key
+entry SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName tserver status
+entry SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName entry set
+crazy hold time SimpleName InfixExpression NumberLiteral empty
+some hold time SimpleName InfixExpression NumberLiteral empty
+crazy hold time SimpleName InfixExpression InfixExpression InfixExpression SimpleName some hold time
+crazy hold time SimpleName InfixExpression InfixExpression InfixExpression NumberLiteral empty
+empty NumberLiteral InfixExpression InfixExpression InfixExpression SimpleName some hold time
+empty NumberLiteral InfixExpression InfixExpression InfixExpression NumberLiteral empty
+tserver status SimpleName MethodInvocation SimpleName size
+tserver status SimpleName MethodInvocation InfixExpression NumberLiteral empty
+size SimpleName MethodInvocation InfixExpression NumberLiteral empty
+tablet server StringLiteral InfixExpression SimpleName instance
+tablet server StringLiteral InfixExpression StringLiteral exceeded maximum hold time attempting to kill it
+instance SimpleName InfixExpression StringLiteral exceeded maximum hold time attempting to kill it
+log SimpleName MethodInvocation SimpleName warn
+log SimpleName MethodInvocation InfixExpression StringLiteral tablet server
+log SimpleName MethodInvocation InfixExpression SimpleName instance
+log SimpleName MethodInvocation InfixExpression StringLiteral exceeded maximum hold time attempting to kill it
+warn SimpleName MethodInvocation InfixExpression StringLiteral tablet server
+warn SimpleName MethodInvocation InfixExpression SimpleName instance
+warn SimpleName MethodInvocation InfixExpression StringLiteral exceeded maximum hold time attempting to kill it
+tserver set SimpleName MethodInvocation SimpleName get connection
+tserver set SimpleName MethodInvocation SimpleName instance
+get connection SimpleName MethodInvocation SimpleName instance
+connection SimpleName VariableDeclarationFragment MethodInvocation SimpleName tserver set
+connection SimpleName VariableDeclarationFragment MethodInvocation SimpleName get connection
+connection SimpleName VariableDeclarationFragment MethodInvocation SimpleName instance
+t server connection SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName connection
+connection SimpleName MethodInvocation SimpleName fast halt
+connection SimpleName MethodInvocation SimpleName master lock
+fast halt SimpleName MethodInvocation SimpleName master lock
+t exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation SimpleName e
+log SimpleName MethodInvocation SimpleName e
+error SimpleName MethodInvocation SimpleName e
+error SimpleName MethodInvocation SimpleName e
+e SimpleName MethodInvocation SimpleName e
+tserver set SimpleName MethodInvocation SimpleName remove
+tserver set SimpleName MethodInvocation SimpleName instance
+remove SimpleName MethodInvocation SimpleName instance
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType long
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType long
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName check for held server
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName tserver status
+private Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+private Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+private Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+private Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+void PrimitiveType MethodDeclaration SimpleName check for held server
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName tserver status
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement Modifier final
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+check for held server SimpleName MethodDeclaration SingleVariableDeclaration SimpleName tserver status
+check for held server SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+check for held server SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+check for held server SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+check for held server SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName check for held server
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName tserver status
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName check for held server
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName tserver status

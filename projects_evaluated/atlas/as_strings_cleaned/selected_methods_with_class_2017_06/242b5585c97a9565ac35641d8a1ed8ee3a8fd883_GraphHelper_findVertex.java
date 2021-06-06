@@ -1,0 +1,30 @@
+object SimpleName SimpleType SingleVariableDeclaration SimpleName args
+find element SimpleName MethodInvocation BooleanLiteral true
+find element SimpleName MethodInvocation SimpleName args
+true BooleanLiteral MethodInvocation SimpleName args
+atlas vertex SimpleName SimpleType CastExpression MethodInvocation SimpleName find element
+atlas vertex SimpleName SimpleType CastExpression MethodInvocation BooleanLiteral true
+atlas vertex SimpleName SimpleType CastExpression MethodInvocation SimpleName args
+public Modifier MethodDeclaration SimpleType SimpleName atlas vertex
+public Modifier MethodDeclaration SimpleName find vertex
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName args
+public Modifier MethodDeclaration SimpleType SimpleName entity not found exception
+atlas vertex SimpleName SimpleType MethodDeclaration SimpleName find vertex
+atlas vertex SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName args
+atlas vertex SimpleName SimpleType MethodDeclaration SimpleType SimpleName entity not found exception
+find vertex SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+find vertex SimpleName MethodDeclaration SingleVariableDeclaration SimpleName args
+find vertex SimpleName MethodDeclaration SimpleType SimpleName entity not found exception
+args SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName entity not found exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas vertex
+public Modifier TypeDeclaration MethodDeclaration SimpleName find vertex
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName args
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName entity not found exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas vertex
+test SimpleName TypeDeclaration MethodDeclaration SimpleName find vertex
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName args
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName entity not found exception

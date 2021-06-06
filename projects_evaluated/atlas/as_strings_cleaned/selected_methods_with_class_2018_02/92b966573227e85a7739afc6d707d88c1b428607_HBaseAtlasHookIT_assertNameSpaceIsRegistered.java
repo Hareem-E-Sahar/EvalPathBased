@@ -1,0 +1,67 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName name space
+h base atlas hook itassert predicate QualifiedName SimpleType SingleVariableDeclaration SimpleName assert predicate
+log SimpleName MethodInvocation SimpleName is debug enabled
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral searching for name space {}
+log SimpleName MethodInvocation SimpleName name space
+debug SimpleName MethodInvocation StringLiteral searching for name space {}
+debug SimpleName MethodInvocation SimpleName name space
+searching for name space {} StringLiteral MethodInvocation SimpleName name space
+h base atlas hook SimpleName MethodInvocation SimpleName get name space qualified name
+h base atlas hook SimpleName MethodInvocation SimpleName cluster name
+h base atlas hook SimpleName MethodInvocation SimpleName name space
+get name space qualified name SimpleName MethodInvocation SimpleName cluster name
+get name space qualified name SimpleName MethodInvocation SimpleName name space
+cluster name SimpleName MethodInvocation SimpleName name space
+name space qualified name SimpleName VariableDeclarationFragment MethodInvocation SimpleName h base atlas hook
+name space qualified name SimpleName VariableDeclarationFragment MethodInvocation SimpleName get name space qualified name
+name space qualified name SimpleName VariableDeclarationFragment MethodInvocation SimpleName cluster name
+name space qualified name SimpleName VariableDeclarationFragment MethodInvocation SimpleName name space
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName name space qualified name
+h base data typeshbase namespace QualifiedName MethodInvocation SimpleName get name
+assert entity is registered SimpleName MethodInvocation MethodInvocation QualifiedName h base data typeshbase namespace
+assert entity is registered SimpleName MethodInvocation MethodInvocation SimpleName get name
+assert entity is registered SimpleName MethodInvocation QualifiedName atlas clientreferenceable attribute name
+assert entity is registered SimpleName MethodInvocation SimpleName name space qualified name
+assert entity is registered SimpleName MethodInvocation SimpleName assert predicate
+h base data typeshbase namespace QualifiedName MethodInvocation MethodInvocation QualifiedName atlas clientreferenceable attribute name
+get name SimpleName MethodInvocation MethodInvocation QualifiedName atlas clientreferenceable attribute name
+h base data typeshbase namespace QualifiedName MethodInvocation MethodInvocation SimpleName name space qualified name
+get name SimpleName MethodInvocation MethodInvocation SimpleName name space qualified name
+h base data typeshbase namespace QualifiedName MethodInvocation MethodInvocation SimpleName assert predicate
+get name SimpleName MethodInvocation MethodInvocation SimpleName assert predicate
+atlas clientreferenceable attribute name QualifiedName MethodInvocation SimpleName name space qualified name
+atlas clientreferenceable attribute name QualifiedName MethodInvocation SimpleName assert predicate
+name space qualified name SimpleName MethodInvocation SimpleName assert predicate
+protected Modifier MethodDeclaration SimpleType SimpleName string
+protected Modifier MethodDeclaration SimpleName assert name space is registered
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName name space
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType QualifiedName h base atlas hook itassert predicate
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName assert predicate
+protected Modifier MethodDeclaration SimpleType SimpleName exception
+string SimpleName SimpleType MethodDeclaration SimpleName assert name space is registered
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName name space
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName assert predicate
+string SimpleName SimpleType MethodDeclaration SimpleType SimpleName exception
+assert name space is registered SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+assert name space is registered SimpleName MethodDeclaration SingleVariableDeclaration SimpleName name space
+assert name space is registered SimpleName MethodDeclaration SingleVariableDeclaration SimpleType QualifiedName h base atlas hook itassert predicate
+assert name space is registered SimpleName MethodDeclaration SingleVariableDeclaration SimpleName assert predicate
+assert name space is registered SimpleName MethodDeclaration SimpleType SimpleName exception
+name space SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName assert predicate
+name space SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+assert predicate SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName assert name space is registered
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name space
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName assert predicate
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName assert name space is registered
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name space
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName assert predicate
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

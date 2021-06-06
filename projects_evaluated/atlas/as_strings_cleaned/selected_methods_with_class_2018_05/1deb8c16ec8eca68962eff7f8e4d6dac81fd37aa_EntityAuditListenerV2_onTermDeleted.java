@@ -1,0 +1,94 @@
+atlas glossary term SimpleName SimpleType SingleVariableDeclaration SimpleName term
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas related object id
+list SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entities
+atlas related object id SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entities
+collection utils SimpleName MethodInvocation SimpleName is not empty
+collection utils SimpleName MethodInvocation SimpleName entities
+is not empty SimpleName MethodInvocation SimpleName entities
+term SimpleName InfixExpression InfixExpression MethodInvocation SimpleName collection utils
+term SimpleName InfixExpression InfixExpression MethodInvocation SimpleName is not empty
+term SimpleName InfixExpression InfixExpression MethodInvocation SimpleName entities
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName entity audit event v
+atlas related object id SimpleName SimpleType SingleVariableDeclaration SimpleName related object id
+related object id SimpleName MethodInvocation SimpleName get guid
+instance converter SimpleName MethodInvocation SimpleName get and cache entity
+instance converter SimpleName MethodInvocation MethodInvocation SimpleName related object id
+instance converter SimpleName MethodInvocation MethodInvocation SimpleName get guid
+get and cache entity SimpleName MethodInvocation MethodInvocation SimpleName related object id
+get and cache entity SimpleName MethodInvocation MethodInvocation SimpleName get guid
+entity with ext info SimpleName VariableDeclarationFragment MethodInvocation SimpleName instance converter
+entity with ext info SimpleName VariableDeclarationFragment MethodInvocation SimpleName get and cache entity
+entity with ext info SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName related object id
+entity with ext info SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get guid
+atlas entity with ext info SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName entity with ext info
+entity with ext info SimpleName MethodInvocation SimpleName get entity
+entity SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation SimpleName entity with ext info
+entity SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation SimpleName get entity
+atlas entity SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName entity
+term SimpleName MethodInvocation SimpleName to audit string
+deleted term StringLiteral InfixExpression MethodInvocation SimpleName term
+deleted term StringLiteral InfixExpression MethodInvocation SimpleName to audit string
+create event SimpleName MethodInvocation SimpleName entity
+create event SimpleName MethodInvocation SimpleName term delete
+create event SimpleName MethodInvocation InfixExpression StringLiteral deleted term
+create event SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName term
+create event SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName to audit string
+entity SimpleName MethodInvocation SimpleName term delete
+entity SimpleName MethodInvocation InfixExpression StringLiteral deleted term
+entity SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName term
+entity SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName to audit string
+term delete SimpleName MethodInvocation InfixExpression StringLiteral deleted term
+term delete SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName term
+term delete SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName to audit string
+events SimpleName MethodInvocation SimpleName add
+events SimpleName MethodInvocation MethodInvocation SimpleName create event
+events SimpleName MethodInvocation MethodInvocation SimpleName entity
+events SimpleName MethodInvocation MethodInvocation SimpleName term delete
+events SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral deleted term
+add SimpleName MethodInvocation MethodInvocation SimpleName create event
+add SimpleName MethodInvocation MethodInvocation SimpleName entity
+add SimpleName MethodInvocation MethodInvocation SimpleName term delete
+add SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral deleted term
+atlas related object id SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName entities
+related object id SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName entities
+audit repository SimpleName MethodInvocation SimpleName put events v
+audit repository SimpleName MethodInvocation SimpleName events
+put events v SimpleName MethodInvocation SimpleName events
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName on term deleted
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName term
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName entities
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName on term deleted
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas glossary term
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName term
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName entities
+public Modifier MethodDeclaration SimpleType SimpleName atlas base exception
+void PrimitiveType MethodDeclaration SimpleName on term deleted
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas glossary term
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName term
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName entities
+void PrimitiveType MethodDeclaration SimpleType SimpleName atlas base exception
+on term deleted SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas glossary term
+on term deleted SimpleName MethodDeclaration SingleVariableDeclaration SimpleName term
+on term deleted SimpleName MethodDeclaration SingleVariableDeclaration SimpleName entities
+on term deleted SimpleName MethodDeclaration SimpleType SimpleName atlas base exception
+term SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entities
+term SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+entities SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName on term deleted
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName term
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entities
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName on term deleted
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName term
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entities
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception

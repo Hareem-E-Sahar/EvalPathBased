@@ -1,0 +1,73 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName attr name
+string SimpleName SimpleType SingleVariableDeclaration SimpleName attr val
+objects SimpleName MethodInvocation SimpleName require non null
+objects SimpleName MethodInvocation SimpleName attr name
+objects SimpleName MethodInvocation StringLiteral atlas glossary term attribute name
+require non null SimpleName MethodInvocation SimpleName attr name
+require non null SimpleName MethodInvocation StringLiteral atlas glossary term attribute name
+attr name SimpleName MethodInvocation StringLiteral atlas glossary term attribute name
+set display name SimpleName MethodInvocation SimpleName attr val
+set short description SimpleName MethodInvocation SimpleName attr val
+set long description SimpleName MethodInvocation SimpleName attr val
+set abbreviation SimpleName MethodInvocation SimpleName attr val
+set usage SimpleName MethodInvocation SimpleName attr val
+invalid attribute StringLiteral InfixExpression SimpleName attr name
+invalid attribute StringLiteral InfixExpression StringLiteral for object atlas glossary term
+attr name SimpleName InfixExpression StringLiteral for object atlas glossary term
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral invalid attribute
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName attr name
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral for object atlas glossary term
+attr name SimpleName SwitchStatement SwitchCase StringLiteral display name
+attr name SimpleName SwitchStatement ExpressionStatement MethodInvocation SimpleName set display name
+attr name SimpleName SwitchStatement ExpressionStatement MethodInvocation SimpleName attr val
+attr name SimpleName SwitchStatement SwitchCase StringLiteral short description
+attr name SimpleName SwitchStatement ExpressionStatement MethodInvocation SimpleName set short description
+attr name SimpleName SwitchStatement ExpressionStatement MethodInvocation SimpleName attr val
+display name StringLiteral SwitchCase SwitchStatement SwitchCase StringLiteral short description
+short description StringLiteral SwitchCase SwitchStatement SwitchCase StringLiteral long description
+long description StringLiteral SwitchCase SwitchStatement SwitchCase StringLiteral abbreviation
+abbreviation StringLiteral SwitchCase SwitchStatement SwitchCase StringLiteral usage
+json ignore SimpleName MarkerAnnotation MethodDeclaration MarkerAnnotation SimpleName override
+json ignore SimpleName MarkerAnnotation MethodDeclaration Modifier public
+json ignore SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+json ignore SimpleName MarkerAnnotation MethodDeclaration SimpleName set attribute
+json ignore SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName attr name
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName set attribute
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName attr name
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName attr val
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set attribute
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName attr name
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName attr val
+public Modifier MethodDeclaration Block SwitchStatement SimpleName attr name
+void PrimitiveType MethodDeclaration SimpleName set attribute
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName attr name
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName attr val
+void PrimitiveType MethodDeclaration Block SwitchStatement SimpleName attr name
+set attribute SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+set attribute SimpleName MethodDeclaration SingleVariableDeclaration SimpleName attr name
+set attribute SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+set attribute SimpleName MethodDeclaration SingleVariableDeclaration SimpleName attr val
+set attribute SimpleName MethodDeclaration Block SwitchStatement SimpleName attr name
+attr name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attr val
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName json ignore
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set attribute
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attr name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attr val
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName json ignore
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set attribute
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attr name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attr val

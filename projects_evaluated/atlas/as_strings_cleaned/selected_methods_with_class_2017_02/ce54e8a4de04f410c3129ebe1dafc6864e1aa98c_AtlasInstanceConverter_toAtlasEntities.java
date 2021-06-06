@@ -1,0 +1,50 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName referenceable
+list SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName referenceables
+referenceable SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName referenceables
+log SimpleName MethodInvocation SimpleName is debug enabled
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral ==> to atlas entities
+debug SimpleName MethodInvocation StringLiteral ==> to atlas entities
+context SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType QualifiedName atlas format converterconverter context
+atlas format converterconverter context QualifiedName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName context
+referenceable SimpleName SimpleType SingleVariableDeclaration SimpleName referenceable
+from v to v entity SimpleName MethodInvocation SimpleName referenceable
+from v to v entity SimpleName MethodInvocation SimpleName context
+referenceable SimpleName MethodInvocation SimpleName context
+entity SimpleName VariableDeclarationFragment MethodInvocation SimpleName from v to v entity
+entity SimpleName VariableDeclarationFragment MethodInvocation SimpleName referenceable
+entity SimpleName VariableDeclarationFragment MethodInvocation SimpleName context
+atlas entity SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName entity
+context SimpleName MethodInvocation SimpleName add entity
+context SimpleName MethodInvocation SimpleName entity
+add entity SimpleName MethodInvocation SimpleName entity
+referenceable SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName referenceables
+referenceable SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName referenceables
+log SimpleName MethodInvocation SimpleName is debug enabled
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral <== to atlas entities
+debug SimpleName MethodInvocation StringLiteral <== to atlas entities
+context SimpleName MethodInvocation SimpleName get entities
+public Modifier MethodDeclaration SimpleType QualifiedName atlas entityatlas entities with ext info
+public Modifier MethodDeclaration SimpleName to atlas entities
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName referenceables
+public Modifier MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier MethodDeclaration Block EnhancedForStatement SimpleName referenceables
+atlas entityatlas entities with ext info QualifiedName SimpleType MethodDeclaration SimpleName to atlas entities
+atlas entityatlas entities with ext info QualifiedName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName referenceables
+atlas entityatlas entities with ext info QualifiedName SimpleType MethodDeclaration SimpleType SimpleName atlas base exception
+to atlas entities SimpleName MethodDeclaration SingleVariableDeclaration SimpleName referenceables
+to atlas entities SimpleName MethodDeclaration SimpleType SimpleName atlas base exception
+to atlas entities SimpleName MethodDeclaration Block EnhancedForStatement SimpleName referenceables
+referenceables SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType QualifiedName atlas entityatlas entities with ext info
+public Modifier TypeDeclaration MethodDeclaration SimpleName to atlas entities
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName referenceables
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType QualifiedName atlas entityatlas entities with ext info
+test SimpleName TypeDeclaration MethodDeclaration SimpleName to atlas entities
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName referenceables
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception

@@ -1,0 +1,81 @@
+mock SimpleName MethodInvocation TypeLiteral SimpleType SimpleName i bootstrap types registrar
+types registrar SimpleName VariableDeclarationFragment MethodInvocation SimpleName mock
+i bootstrap types registrar SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName types registrar
+mock SimpleName MethodInvocation TypeLiteral SimpleType SimpleName type system
+type system SimpleName VariableDeclarationFragment MethodInvocation SimpleName mock
+type system SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName type system
+any SimpleName MethodInvocation TypeLiteral SimpleType SimpleName string
+type system SimpleName MethodInvocation SimpleName is registered
+type system SimpleName MethodInvocation MethodInvocation SimpleName any
+is registered SimpleName MethodInvocation MethodInvocation SimpleName any
+when SimpleName MethodInvocation MethodInvocation SimpleName type system
+when SimpleName MethodInvocation MethodInvocation SimpleName is registered
+when SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName any
+when SimpleName MethodInvocation MethodInvocation SimpleName then return
+type system SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+is registered SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+when SimpleName MethodInvocation MethodInvocation BooleanLiteral true
+type system SimpleName MethodInvocation MethodInvocation MethodInvocation BooleanLiteral true
+is registered SimpleName MethodInvocation MethodInvocation MethodInvocation BooleanLiteral true
+then return SimpleName MethodInvocation BooleanLiteral true
+mock SimpleName MethodInvocation TypeLiteral SimpleType SimpleName metadata repository
+mock SimpleName MethodInvocation TypeLiteral SimpleType SimpleName i type store
+provider SimpleName SimpleType ParameterizedType SimpleType SimpleName types change listener
+default metadata service SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName mock
+default metadata service SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName mock
+default metadata service SimpleName SimpleType ClassInstanceCreation SimpleName types registrar
+default metadata service SimpleName SimpleType ClassInstanceCreation SimpleName type system
+mock SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName mock
+mock SimpleName MethodInvocation ClassInstanceCreation SimpleName types registrar
+mock SimpleName MethodInvocation ClassInstanceCreation SimpleName type system
+mock SimpleName MethodInvocation ClassInstanceCreation SimpleName types registrar
+mock SimpleName MethodInvocation ClassInstanceCreation SimpleName type system
+types registrar SimpleName ClassInstanceCreation SimpleName type system
+default metadata service SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName default metadata service
+default metadata service SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName mock
+default metadata service SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName mock
+default metadata service SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName types registrar
+default metadata service SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName type system
+default metadata service SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName default metadata service
+verify SimpleName MethodInvocation SimpleName types registrar
+reserved types registrar SimpleName MethodInvocation SimpleName get types dir
+verify SimpleName MethodInvocation MethodInvocation SimpleName register types
+types registrar SimpleName MethodInvocation MethodInvocation SimpleName register types
+verify SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName reserved types registrar
+verify SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get types dir
+types registrar SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName reserved types registrar
+types registrar SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get types dir
+verify SimpleName MethodInvocation MethodInvocation SimpleName type system
+types registrar SimpleName MethodInvocation MethodInvocation SimpleName type system
+verify SimpleName MethodInvocation MethodInvocation SimpleName default metadata service
+types registrar SimpleName MethodInvocation MethodInvocation SimpleName default metadata service
+register types SimpleName MethodInvocation MethodInvocation SimpleName reserved types registrar
+register types SimpleName MethodInvocation MethodInvocation SimpleName get types dir
+register types SimpleName MethodInvocation SimpleName type system
+register types SimpleName MethodInvocation SimpleName default metadata service
+reserved types registrar SimpleName MethodInvocation MethodInvocation SimpleName type system
+get types dir SimpleName MethodInvocation MethodInvocation SimpleName type system
+reserved types registrar SimpleName MethodInvocation MethodInvocation SimpleName default metadata service
+get types dir SimpleName MethodInvocation MethodInvocation SimpleName default metadata service
+type system SimpleName MethodInvocation SimpleName default metadata service
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test should invoke types registrar on creation
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName atlas exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test should invoke types registrar on creation
+public Modifier MethodDeclaration SimpleType SimpleName atlas exception
+void PrimitiveType MethodDeclaration SimpleName test should invoke types registrar on creation
+void PrimitiveType MethodDeclaration SimpleType SimpleName atlas exception
+test should invoke types registrar on creation SimpleName MethodDeclaration SimpleType SimpleName atlas exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test should invoke types registrar on creation
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test should invoke types registrar on creation
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception

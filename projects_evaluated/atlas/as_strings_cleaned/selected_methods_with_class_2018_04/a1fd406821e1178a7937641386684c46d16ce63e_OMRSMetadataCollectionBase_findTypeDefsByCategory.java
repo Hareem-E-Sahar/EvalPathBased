@@ -1,0 +1,45 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName type def
+string SimpleName SimpleType SingleVariableDeclaration SimpleName user id
+type def category SimpleName SimpleType SingleVariableDeclaration SimpleName category
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName type def
+public Modifier MethodDeclaration SimpleName find type defs by category
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName user id
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName type def category
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName category
+public Modifier MethodDeclaration SimpleType SimpleName invalid parameter exception
+list SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName find type defs by category
+type def SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName find type defs by category
+find type defs by category SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+find type defs by category SimpleName MethodDeclaration SingleVariableDeclaration SimpleName user id
+find type defs by category SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName type def category
+find type defs by category SimpleName MethodDeclaration SingleVariableDeclaration SimpleName category
+find type defs by category SimpleName MethodDeclaration SimpleType SimpleName invalid parameter exception
+find type defs by category SimpleName MethodDeclaration SimpleType SimpleName repository error exception
+find type defs by category SimpleName MethodDeclaration SimpleType SimpleName user not authorized exception
+user id SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName category
+user id SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName invalid parameter exception
+user id SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName repository error exception
+user id SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName user not authorized exception
+category SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName invalid parameter exception
+category SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName repository error exception
+category SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName user not authorized exception
+invalid parameter exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName repository error exception
+invalid parameter exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName user not authorized exception
+repository error exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName user not authorized exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName find type defs by category
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName user id
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName category
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName invalid parameter exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName repository error exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName user not authorized exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName find type defs by category
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName user id
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName category
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName invalid parameter exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName repository error exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName user not authorized exception

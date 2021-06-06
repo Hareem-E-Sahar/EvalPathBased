@@ -1,0 +1,41 @@
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+atlas entity header SimpleName SimpleType SingleVariableDeclaration SimpleName entity
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+final Modifier VariableDeclarationStatement ParameterizedType SimpleType SimpleName set
+final Modifier VariableDeclarationStatement ParameterizedType SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName ret
+entity SimpleName MethodInvocation SimpleName get classifications
+collections SimpleName MethodInvocation SimpleName empty set
+ret SimpleName Assignment MethodInvocation SimpleName collections
+ret SimpleName Assignment MethodInvocation SimpleName empty set
+atlas classification SimpleName SimpleType SingleVariableDeclaration SimpleName classify
+entity SimpleName MethodInvocation SimpleName get classifications
+classify SimpleName MethodInvocation SimpleName get type name
+ret SimpleName MethodInvocation SimpleName add
+ret SimpleName MethodInvocation MethodInvocation SimpleName classify
+ret SimpleName MethodInvocation MethodInvocation SimpleName get type name
+add SimpleName MethodInvocation MethodInvocation SimpleName classify
+add SimpleName MethodInvocation MethodInvocation SimpleName get type name
+classify SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName entity
+classify SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName get classifications
+final Modifier VariableDeclarationStatement Block ReturnStatement SimpleName ret
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName set
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName get classification names
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas entity header
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName entity
+public Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+public Modifier MethodDeclaration Block ReturnStatement SimpleName ret
+set SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get classification names
+string SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get classification names
+get classification names SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas entity header
+get classification names SimpleName MethodDeclaration SingleVariableDeclaration SimpleName entity
+get classification names SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+get classification names SimpleName MethodDeclaration Block ReturnStatement SimpleName ret
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName get classification names
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get classification names
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity

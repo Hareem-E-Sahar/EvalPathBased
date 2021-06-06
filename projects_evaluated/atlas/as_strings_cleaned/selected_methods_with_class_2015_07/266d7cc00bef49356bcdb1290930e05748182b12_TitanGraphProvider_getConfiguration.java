@@ -1,0 +1,101 @@
+properties util SimpleName MethodInvocation SimpleName get application properties
+config properties SimpleName VariableDeclarationFragment MethodInvocation SimpleName properties util
+config properties SimpleName VariableDeclarationFragment MethodInvocation SimpleName get application properties
+properties configuration SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName config properties
+graph config SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName properties configuration
+configuration SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName graph config
+system SimpleName MethodInvocation SimpleName get properties
+sys properties SimpleName VariableDeclarationFragment MethodInvocation SimpleName system
+sys properties SimpleName VariableDeclarationFragment MethodInvocation SimpleName get properties
+properties SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName sys properties
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation StringLiteral system properties
+info SimpleName MethodInvocation StringLiteral system properties
+sys properties SimpleName MethodInvocation SimpleName to string
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation MethodInvocation SimpleName sys properties
+log SimpleName MethodInvocation MethodInvocation SimpleName to string
+info SimpleName MethodInvocation MethodInvocation SimpleName sys properties
+info SimpleName MethodInvocation MethodInvocation SimpleName to string
+iterator SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+config properties SimpleName MethodInvocation SimpleName get keys
+iterator SimpleName VariableDeclarationFragment MethodInvocation SimpleName config properties
+iterator SimpleName VariableDeclarationFragment MethodInvocation SimpleName get keys
+final Modifier VariableDeclarationStatement ParameterizedType SimpleType SimpleName iterator
+final Modifier VariableDeclarationStatement ParameterizedType SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName iterator
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName config properties
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get keys
+iterator SimpleName MethodInvocation SimpleName has next
+iterator SimpleName MethodInvocation SimpleName next
+key SimpleName VariableDeclarationFragment MethodInvocation SimpleName iterator
+key SimpleName VariableDeclarationFragment MethodInvocation SimpleName next
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName key
+key SimpleName MethodInvocation SimpleName starts with
+key SimpleName MethodInvocation SimpleName atlas prefix
+starts with SimpleName MethodInvocation SimpleName atlas prefix
+config properties SimpleName MethodInvocation SimpleName get property
+config properties SimpleName MethodInvocation SimpleName key
+get property SimpleName MethodInvocation SimpleName key
+string SimpleName SimpleType CastExpression MethodInvocation SimpleName config properties
+string SimpleName SimpleType CastExpression MethodInvocation SimpleName get property
+string SimpleName SimpleType CastExpression MethodInvocation SimpleName key
+value SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName string
+value SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName config properties
+value SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get property
+value SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName key
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName value
+atlas prefix SimpleName MethodInvocation SimpleName length
+key SimpleName MethodInvocation SimpleName substring
+key SimpleName MethodInvocation MethodInvocation SimpleName atlas prefix
+key SimpleName MethodInvocation MethodInvocation SimpleName length
+substring SimpleName MethodInvocation MethodInvocation SimpleName atlas prefix
+substring SimpleName MethodInvocation MethodInvocation SimpleName length
+key SimpleName Assignment MethodInvocation SimpleName key
+key SimpleName Assignment MethodInvocation SimpleName substring
+key SimpleName Assignment MethodInvocation MethodInvocation SimpleName atlas prefix
+key SimpleName Assignment MethodInvocation MethodInvocation SimpleName length
+graph config SimpleName MethodInvocation SimpleName set property
+graph config SimpleName MethodInvocation SimpleName key
+graph config SimpleName MethodInvocation SimpleName value
+set property SimpleName MethodInvocation SimpleName key
+set property SimpleName MethodInvocation SimpleName value
+key SimpleName MethodInvocation SimpleName value
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation StringLiteral using graph property {}={}
+log SimpleName MethodInvocation SimpleName key
+log SimpleName MethodInvocation SimpleName value
+info SimpleName MethodInvocation StringLiteral using graph property {}={}
+info SimpleName MethodInvocation SimpleName key
+info SimpleName MethodInvocation SimpleName value
+using graph property {}={} StringLiteral MethodInvocation SimpleName key
+using graph property {}={} StringLiteral MethodInvocation SimpleName value
+key SimpleName MethodInvocation SimpleName value
+final Modifier VariableDeclarationStatement Block ReturnStatement SimpleName graph config
+private Modifier MethodDeclaration Modifier static
+private Modifier MethodDeclaration SimpleType SimpleName configuration
+private Modifier MethodDeclaration SimpleName get configuration
+private Modifier MethodDeclaration SimpleType SimpleName atlas exception
+private Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+private Modifier MethodDeclaration Block ReturnStatement SimpleName graph config
+static Modifier MethodDeclaration SimpleType SimpleName configuration
+static Modifier MethodDeclaration SimpleName get configuration
+static Modifier MethodDeclaration SimpleType SimpleName atlas exception
+static Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+static Modifier MethodDeclaration Block ReturnStatement SimpleName graph config
+configuration SimpleName SimpleType MethodDeclaration SimpleName get configuration
+configuration SimpleName SimpleType MethodDeclaration SimpleType SimpleName atlas exception
+get configuration SimpleName MethodDeclaration SimpleType SimpleName atlas exception
+get configuration SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+get configuration SimpleName MethodDeclaration Block ReturnStatement SimpleName graph config
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName configuration
+public Modifier TypeDeclaration MethodDeclaration SimpleName get configuration
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName configuration
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get configuration
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception

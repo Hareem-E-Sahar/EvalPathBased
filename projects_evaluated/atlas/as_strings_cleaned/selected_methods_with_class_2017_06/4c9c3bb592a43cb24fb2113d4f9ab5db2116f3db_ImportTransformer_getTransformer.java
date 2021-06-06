@@ -1,0 +1,112 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName transformer spec
+string utils SimpleName MethodInvocation SimpleName split
+string utils SimpleName MethodInvocation SimpleName transformer spec
+string utils SimpleName MethodInvocation SimpleName transformer parameter separator
+split SimpleName MethodInvocation SimpleName transformer spec
+split SimpleName MethodInvocation SimpleName transformer parameter separator
+transformer spec SimpleName MethodInvocation SimpleName transformer parameter separator
+params SimpleName VariableDeclarationFragment MethodInvocation SimpleName string utils
+params SimpleName VariableDeclarationFragment MethodInvocation SimpleName split
+params SimpleName VariableDeclarationFragment MethodInvocation SimpleName transformer spec
+params SimpleName VariableDeclarationFragment MethodInvocation SimpleName transformer parameter separator
+paramslength QualifiedName InfixExpression NumberLiteral empty
+params SimpleName InfixExpression InfixExpression InfixExpression QualifiedName paramslength
+params SimpleName InfixExpression InfixExpression InfixExpression NumberLiteral empty
+params SimpleName ArrayAccess NumberLiteral empty
+transformer spec SimpleName ConditionalExpression ArrayAccess SimpleName params
+transformer spec SimpleName ConditionalExpression ArrayAccess NumberLiteral empty
+key SimpleName VariableDeclarationFragment ConditionalExpression SimpleName transformer spec
+key SimpleName VariableDeclarationFragment ConditionalExpression ArrayAccess SimpleName params
+key SimpleName VariableDeclarationFragment ConditionalExpression ArrayAccess NumberLiteral empty
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName key
+final Modifier VariableDeclarationStatement SimpleType SimpleName import transformer
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName ret
+import transformer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ret
+string utils SimpleName MethodInvocation SimpleName is empty
+string utils SimpleName MethodInvocation SimpleName key
+is empty SimpleName MethodInvocation SimpleName key
+atlas base exception SimpleName SimpleType ClassInstanceCreation QualifiedName atlas error codeinvalid value
+atlas base exception SimpleName SimpleType ClassInstanceCreation StringLiteral error creating import transformer invalid transformerspecification {}.
+atlas base exception SimpleName SimpleType ClassInstanceCreation SimpleName transformer spec
+atlas error codeinvalid value QualifiedName ClassInstanceCreation StringLiteral error creating import transformer invalid transformerspecification {}.
+atlas error codeinvalid value QualifiedName ClassInstanceCreation SimpleName transformer spec
+error creating import transformer invalid transformerspecification {}. StringLiteral ClassInstanceCreation SimpleName transformer spec
+key SimpleName MethodInvocation SimpleName equals
+key SimpleName MethodInvocation StringLiteral replace
+equals SimpleName MethodInvocation StringLiteral replace
+paramslength QualifiedName InfixExpression NumberLiteral empty
+params SimpleName InfixExpression InfixExpression InfixExpression QualifiedName paramslength
+params SimpleName InfixExpression InfixExpression InfixExpression NumberLiteral empty
+params SimpleName ArrayAccess NumberLiteral empty
+empty StringLiteral ConditionalExpression ArrayAccess SimpleName params
+empty StringLiteral ConditionalExpression ArrayAccess NumberLiteral empty
+to find str SimpleName VariableDeclarationFragment ConditionalExpression StringLiteral empty
+to find str SimpleName VariableDeclarationFragment ConditionalExpression ArrayAccess SimpleName params
+to find str SimpleName VariableDeclarationFragment ConditionalExpression ArrayAccess NumberLiteral empty
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName to find str
+paramslength QualifiedName InfixExpression NumberLiteral empty
+params SimpleName InfixExpression InfixExpression InfixExpression QualifiedName paramslength
+params SimpleName InfixExpression InfixExpression InfixExpression NumberLiteral empty
+params SimpleName ArrayAccess NumberLiteral empty
+empty StringLiteral ConditionalExpression ArrayAccess SimpleName params
+empty StringLiteral ConditionalExpression ArrayAccess NumberLiteral empty
+replace str SimpleName VariableDeclarationFragment ConditionalExpression StringLiteral empty
+replace str SimpleName VariableDeclarationFragment ConditionalExpression ArrayAccess SimpleName params
+replace str SimpleName VariableDeclarationFragment ConditionalExpression ArrayAccess NumberLiteral empty
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName replace str
+replace SimpleName SimpleType ClassInstanceCreation SimpleName to find str
+replace SimpleName SimpleType ClassInstanceCreation SimpleName replace str
+to find str SimpleName ClassInstanceCreation SimpleName replace str
+ret SimpleName Assignment ClassInstanceCreation SimpleType SimpleName replace
+ret SimpleName Assignment ClassInstanceCreation SimpleName to find str
+ret SimpleName Assignment ClassInstanceCreation SimpleName replace str
+key SimpleName MethodInvocation SimpleName equals
+key SimpleName MethodInvocation StringLiteral lowercase
+equals SimpleName MethodInvocation StringLiteral lowercase
+ret SimpleName Assignment ClassInstanceCreation SimpleType SimpleName lowercase
+key SimpleName MethodInvocation SimpleName equals
+key SimpleName MethodInvocation StringLiteral uppercase
+equals SimpleName MethodInvocation StringLiteral uppercase
+ret SimpleName Assignment ClassInstanceCreation SimpleType SimpleName uppercase
+atlas base exception SimpleName SimpleType ClassInstanceCreation QualifiedName atlas error codeinvalid value
+atlas base exception SimpleName SimpleType ClassInstanceCreation StringLiteral error creating import transformer unknown transformer {}.
+atlas base exception SimpleName SimpleType ClassInstanceCreation SimpleName transformer spec
+atlas error codeinvalid value QualifiedName ClassInstanceCreation StringLiteral error creating import transformer unknown transformer {}.
+atlas error codeinvalid value QualifiedName ClassInstanceCreation SimpleName transformer spec
+error creating import transformer unknown transformer {}. StringLiteral ClassInstanceCreation SimpleName transformer spec
+final Modifier VariableDeclarationStatement Block ReturnStatement SimpleName ret
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName import transformer
+public Modifier MethodDeclaration SimpleName get transformer
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName transformer spec
+public Modifier MethodDeclaration SimpleType SimpleName atlas base exception
+static Modifier MethodDeclaration SimpleType SimpleName import transformer
+static Modifier MethodDeclaration SimpleName get transformer
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName transformer spec
+static Modifier MethodDeclaration SimpleType SimpleName atlas base exception
+static Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+static Modifier MethodDeclaration Block ReturnStatement SimpleName ret
+import transformer SimpleName SimpleType MethodDeclaration SimpleName get transformer
+import transformer SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName transformer spec
+import transformer SimpleName SimpleType MethodDeclaration SimpleType SimpleName atlas base exception
+get transformer SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get transformer SimpleName MethodDeclaration SingleVariableDeclaration SimpleName transformer spec
+get transformer SimpleName MethodDeclaration SimpleType SimpleName atlas base exception
+get transformer SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+get transformer SimpleName MethodDeclaration Block ReturnStatement SimpleName ret
+transformer spec SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName import transformer
+public Modifier TypeDeclaration MethodDeclaration SimpleName get transformer
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName transformer spec
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName import transformer
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get transformer
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName transformer spec
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception

@@ -1,0 +1,34 @@
+atlas entity SimpleName SimpleType SingleVariableDeclaration SimpleName entity
+entity SimpleName MethodInvocation SimpleName get status
+entity SimpleName MethodInvocation InfixExpression SimpleName active
+get status SimpleName MethodInvocation InfixExpression SimpleName active
+entity SimpleName InfixExpression ConditionalExpression InfixExpression SimpleName active
+entity SimpleName InfixExpression ConditionalExpression BooleanLiteral false
+entity SimpleName MethodInvocation InfixExpression ConditionalExpression BooleanLiteral false
+get status SimpleName MethodInvocation InfixExpression ConditionalExpression BooleanLiteral false
+active SimpleName InfixExpression ConditionalExpression BooleanLiteral false
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName is active
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas entity
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName entity
+static Modifier MethodDeclaration PrimitiveType boolean
+static Modifier MethodDeclaration SimpleName is active
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas entity
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName entity
+boolean PrimitiveType MethodDeclaration SimpleName is active
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas entity
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName entity
+is active SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas entity
+is active SimpleName MethodDeclaration SingleVariableDeclaration SimpleName entity
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName is active
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName is active
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity

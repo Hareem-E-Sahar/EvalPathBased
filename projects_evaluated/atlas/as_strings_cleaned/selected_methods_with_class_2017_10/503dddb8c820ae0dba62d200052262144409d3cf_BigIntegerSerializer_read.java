@@ -1,0 +1,32 @@
+scan buffer SimpleName SimpleType SingleVariableDeclaration SimpleName buffer
+delegate SimpleName MethodInvocation SimpleName read
+delegate SimpleName MethodInvocation SimpleName buffer
+read SimpleName MethodInvocation SimpleName buffer
+value SimpleName VariableDeclarationFragment MethodInvocation SimpleName delegate
+value SimpleName VariableDeclarationFragment MethodInvocation SimpleName read
+value SimpleName VariableDeclarationFragment MethodInvocation SimpleName buffer
+byte PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName value
+big integer SimpleName SimpleType ClassInstanceCreation SimpleName value
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName big integer
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName read
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName buffer
+public Modifier MethodDeclaration SimpleType SimpleName big integer
+public Modifier MethodDeclaration SimpleName read
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName scan buffer
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName buffer
+big integer SimpleName SimpleType MethodDeclaration SimpleName read
+big integer SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName buffer
+read SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName scan buffer
+read SimpleName MethodDeclaration SingleVariableDeclaration SimpleName buffer
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName big integer
+public Modifier TypeDeclaration MethodDeclaration SimpleName read
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName buffer
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName big integer
+test SimpleName TypeDeclaration MethodDeclaration SimpleName read
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName buffer

@@ -1,0 +1,37 @@
+range SimpleName SimpleType SingleVariableDeclaration SimpleName range
+check argument SimpleName MethodInvocation InfixExpression SimpleName range
+check argument SimpleName MethodInvocation StringLiteral range is null
+range SimpleName InfixExpression MethodInvocation StringLiteral range is null
+range SimpleName FieldAccess Assignment SimpleName range
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration Modifier synchronized
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName set range
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName range
+public Modifier MethodDeclaration Modifier synchronized
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set range
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName range
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName range
+synchronized Modifier MethodDeclaration PrimitiveType void
+synchronized Modifier MethodDeclaration SimpleName set range
+synchronized Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName range
+synchronized Modifier MethodDeclaration SingleVariableDeclaration SimpleName range
+void PrimitiveType MethodDeclaration SimpleName set range
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName range
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName range
+set range SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName range
+set range SimpleName MethodDeclaration SingleVariableDeclaration SimpleName range
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier synchronized
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set range
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName range
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier synchronized
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set range
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName range

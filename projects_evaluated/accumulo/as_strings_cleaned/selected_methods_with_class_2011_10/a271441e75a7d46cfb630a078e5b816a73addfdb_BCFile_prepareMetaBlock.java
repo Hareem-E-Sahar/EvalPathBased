@@ -1,0 +1,34 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName name
+prepare meta block SimpleName MethodInvocation SimpleName name
+prepare meta block SimpleName MethodInvocation MethodInvocation SimpleName get default compression algorithm
+name SimpleName MethodInvocation MethodInvocation SimpleName get default compression algorithm
+public Modifier MethodDeclaration SimpleType SimpleName block appender
+public Modifier MethodDeclaration SimpleName prepare meta block
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName name
+public Modifier MethodDeclaration SimpleType SimpleName io exception
+public Modifier MethodDeclaration SimpleType SimpleName meta block already exists
+block appender SimpleName SimpleType MethodDeclaration SimpleName prepare meta block
+block appender SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName name
+block appender SimpleName SimpleType MethodDeclaration SimpleType SimpleName io exception
+block appender SimpleName SimpleType MethodDeclaration SimpleType SimpleName meta block already exists
+prepare meta block SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+prepare meta block SimpleName MethodDeclaration SingleVariableDeclaration SimpleName name
+prepare meta block SimpleName MethodDeclaration SimpleType SimpleName io exception
+prepare meta block SimpleName MethodDeclaration SimpleType SimpleName meta block already exists
+name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName meta block already exists
+io exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName meta block already exists
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName block appender
+public Modifier TypeDeclaration MethodDeclaration SimpleName prepare meta block
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName meta block already exists
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName block appender
+test SimpleName TypeDeclaration MethodDeclaration SimpleName prepare meta block
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName meta block already exists

@@ -1,0 +1,480 @@
+string SimpleName SimpleType ArrayType SingleVariableDeclaration SimpleName args
+master client serviceiface QualifiedName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName client
+master monitor info SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName stats
+hdfs zoo instance SimpleName MethodInvocation SimpleName get instance
+master client SimpleName MethodInvocation SimpleName get connection
+master client SimpleName MethodInvocation MethodInvocation SimpleName hdfs zoo instance
+master client SimpleName MethodInvocation MethodInvocation SimpleName get instance
+get connection SimpleName MethodInvocation MethodInvocation SimpleName hdfs zoo instance
+get connection SimpleName MethodInvocation MethodInvocation SimpleName get instance
+client SimpleName Assignment MethodInvocation SimpleName master client
+client SimpleName Assignment MethodInvocation SimpleName get connection
+client SimpleName Assignment MethodInvocation MethodInvocation SimpleName hdfs zoo instance
+client SimpleName Assignment MethodInvocation MethodInvocation SimpleName get instance
+security constants SimpleName MethodInvocation SimpleName get system credentials
+client SimpleName MethodInvocation SimpleName get master stats
+client SimpleName MethodInvocation MethodInvocation SimpleName security constants
+client SimpleName MethodInvocation MethodInvocation SimpleName get system credentials
+get master stats SimpleName MethodInvocation MethodInvocation SimpleName security constants
+get master stats SimpleName MethodInvocation MethodInvocation SimpleName get system credentials
+stats SimpleName Assignment MethodInvocation SimpleName client
+stats SimpleName Assignment MethodInvocation SimpleName get master stats
+stats SimpleName Assignment MethodInvocation MethodInvocation SimpleName security constants
+stats SimpleName Assignment MethodInvocation MethodInvocation SimpleName get system credentials
+master client SimpleName MethodInvocation SimpleName close
+master client SimpleName MethodInvocation SimpleName client
+close SimpleName MethodInvocation SimpleName client
+statsstate QualifiedName MethodInvocation SimpleName name
+state StringLiteral InfixExpression MethodInvocation QualifiedName statsstate
+state StringLiteral InfixExpression MethodInvocation SimpleName name
+out SimpleName MethodInvocation NumberLiteral empty
+out SimpleName MethodInvocation InfixExpression StringLiteral state
+out SimpleName MethodInvocation InfixExpression MethodInvocation QualifiedName statsstate
+out SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName name
+empty NumberLiteral MethodInvocation InfixExpression StringLiteral state
+empty NumberLiteral MethodInvocation InfixExpression MethodInvocation QualifiedName statsstate
+empty NumberLiteral MethodInvocation InfixExpression MethodInvocation SimpleName name
+statsgoal state QualifiedName MethodInvocation SimpleName name
+goal state StringLiteral InfixExpression MethodInvocation QualifiedName statsgoal state
+goal state StringLiteral InfixExpression MethodInvocation SimpleName name
+out SimpleName MethodInvocation NumberLiteral empty
+out SimpleName MethodInvocation InfixExpression StringLiteral goal state
+out SimpleName MethodInvocation InfixExpression MethodInvocation QualifiedName statsgoal state
+out SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName name
+empty NumberLiteral MethodInvocation InfixExpression StringLiteral goal state
+empty NumberLiteral MethodInvocation InfixExpression MethodInvocation QualifiedName statsgoal state
+empty NumberLiteral MethodInvocation InfixExpression MethodInvocation SimpleName name
+statsservers shutting down QualifiedName MethodInvocation SimpleName size
+statsservers shutting down QualifiedName MethodInvocation InfixExpression NumberLiteral empty
+size SimpleName MethodInvocation InfixExpression NumberLiteral empty
+statsservers shutting down QualifiedName InfixExpression InfixExpression InfixExpression NumberLiteral empty
+out SimpleName MethodInvocation NumberLiteral empty
+out SimpleName MethodInvocation StringLiteral servers to shutdown
+empty NumberLiteral MethodInvocation StringLiteral servers to shutdown
+string SimpleName SimpleType SingleVariableDeclaration SimpleName server
+out SimpleName MethodInvocation NumberLiteral empty
+out SimpleName MethodInvocation StringLiteral s
+out SimpleName MethodInvocation SimpleName server
+empty NumberLiteral MethodInvocation StringLiteral s
+empty NumberLiteral MethodInvocation SimpleName server
+s StringLiteral MethodInvocation SimpleName server
+string SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement QualifiedName statsservers shutting down
+server SimpleName SingleVariableDeclaration EnhancedForStatement QualifiedName statsservers shutting down
+out SimpleName MethodInvocation NumberLiteral empty
+out SimpleName MethodInvocation StringLiteral unassigned tablets d
+out SimpleName MethodInvocation QualifiedName statsunassigned tablets
+empty NumberLiteral MethodInvocation StringLiteral unassigned tablets d
+empty NumberLiteral MethodInvocation QualifiedName statsunassigned tablets
+unassigned tablets d StringLiteral MethodInvocation QualifiedName statsunassigned tablets
+statsbad t servers QualifiedName MethodInvocation SimpleName size
+statsbad t servers QualifiedName MethodInvocation InfixExpression NumberLiteral empty
+size SimpleName MethodInvocation InfixExpression NumberLiteral empty
+statsbad t servers QualifiedName InfixExpression InfixExpression InfixExpression NumberLiteral empty
+out SimpleName MethodInvocation NumberLiteral empty
+out SimpleName MethodInvocation StringLiteral bad servers
+empty NumberLiteral MethodInvocation StringLiteral bad servers
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName byte
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName byte
+entry SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+byte SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+statsbad t servers QualifiedName MethodInvocation SimpleName entry set
+entry SimpleName MethodInvocation SimpleName get key
+entry SimpleName MethodInvocation SimpleName get value
+int PrimitiveType CastExpression MethodInvocation SimpleName entry
+int PrimitiveType CastExpression MethodInvocation SimpleName get value
+out SimpleName MethodInvocation NumberLiteral empty
+out SimpleName MethodInvocation StringLiteral s d
+out SimpleName MethodInvocation MethodInvocation SimpleName entry
+out SimpleName MethodInvocation MethodInvocation SimpleName get key
+out SimpleName MethodInvocation CastExpression PrimitiveType int
+out SimpleName MethodInvocation CastExpression MethodInvocation SimpleName entry
+out SimpleName MethodInvocation CastExpression MethodInvocation SimpleName get value
+empty NumberLiteral MethodInvocation StringLiteral s d
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName entry
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName get key
+empty NumberLiteral MethodInvocation CastExpression PrimitiveType int
+empty NumberLiteral MethodInvocation CastExpression MethodInvocation SimpleName entry
+empty NumberLiteral MethodInvocation CastExpression MethodInvocation SimpleName get value
+s d StringLiteral MethodInvocation MethodInvocation SimpleName entry
+s d StringLiteral MethodInvocation MethodInvocation SimpleName get key
+s d StringLiteral MethodInvocation CastExpression PrimitiveType int
+s d StringLiteral MethodInvocation CastExpression MethodInvocation SimpleName entry
+s d StringLiteral MethodInvocation CastExpression MethodInvocation SimpleName get value
+entry SimpleName MethodInvocation MethodInvocation CastExpression PrimitiveType int
+get key SimpleName MethodInvocation MethodInvocation CastExpression PrimitiveType int
+entry SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation QualifiedName statsbad t servers
+entry SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName entry set
+statstable map QualifiedName MethodInvocation SimpleName size
+statstable map QualifiedName MethodInvocation InfixExpression NumberLiteral empty
+size SimpleName MethodInvocation InfixExpression NumberLiteral empty
+statstable map QualifiedName InfixExpression InfixExpression InfixExpression NumberLiteral empty
+out SimpleName MethodInvocation NumberLiteral empty
+out SimpleName MethodInvocation StringLiteral tables
+empty NumberLiteral MethodInvocation StringLiteral tables
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName table info
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName table info
+entry SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+table info SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+statstable map QualifiedName MethodInvocation SimpleName entry set
+entry SimpleName MethodInvocation SimpleName get value
+v SimpleName VariableDeclarationFragment MethodInvocation SimpleName entry
+v SimpleName VariableDeclarationFragment MethodInvocation SimpleName get value
+table info SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName v
+entry SimpleName MethodInvocation SimpleName get key
+out SimpleName MethodInvocation NumberLiteral empty
+out SimpleName MethodInvocation StringLiteral s
+out SimpleName MethodInvocation MethodInvocation SimpleName entry
+out SimpleName MethodInvocation MethodInvocation SimpleName get key
+empty NumberLiteral MethodInvocation StringLiteral s
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName entry
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName get key
+s StringLiteral MethodInvocation MethodInvocation SimpleName entry
+s StringLiteral MethodInvocation MethodInvocation SimpleName get key
+out SimpleName MethodInvocation NumberLiteral empty
+out SimpleName MethodInvocation StringLiteral records d
+out SimpleName MethodInvocation QualifiedName vrecs
+empty NumberLiteral MethodInvocation StringLiteral records d
+empty NumberLiteral MethodInvocation QualifiedName vrecs
+records d StringLiteral MethodInvocation QualifiedName vrecs
+out SimpleName MethodInvocation NumberLiteral empty
+out SimpleName MethodInvocation StringLiteral records in memory d
+out SimpleName MethodInvocation QualifiedName vrecs in memory
+empty NumberLiteral MethodInvocation StringLiteral records in memory d
+empty NumberLiteral MethodInvocation QualifiedName vrecs in memory
+records in memory d StringLiteral MethodInvocation QualifiedName vrecs in memory
+out SimpleName MethodInvocation NumberLiteral empty
+out SimpleName MethodInvocation StringLiteral tablets d
+out SimpleName MethodInvocation QualifiedName vtablets
+empty NumberLiteral MethodInvocation StringLiteral tablets d
+empty NumberLiteral MethodInvocation QualifiedName vtablets
+tablets d StringLiteral MethodInvocation QualifiedName vtablets
+out SimpleName MethodInvocation NumberLiteral empty
+out SimpleName MethodInvocation StringLiteral online tablets d
+out SimpleName MethodInvocation QualifiedName vonline tablets
+empty NumberLiteral MethodInvocation StringLiteral online tablets d
+empty NumberLiteral MethodInvocation QualifiedName vonline tablets
+online tablets d StringLiteral MethodInvocation QualifiedName vonline tablets
+out SimpleName MethodInvocation NumberLiteral empty
+out SimpleName MethodInvocation StringLiteral ingest rate %. f
+out SimpleName MethodInvocation QualifiedName vingest rate
+empty NumberLiteral MethodInvocation StringLiteral ingest rate %. f
+empty NumberLiteral MethodInvocation QualifiedName vingest rate
+ingest rate %. f StringLiteral MethodInvocation QualifiedName vingest rate
+out SimpleName MethodInvocation NumberLiteral empty
+out SimpleName MethodInvocation StringLiteral query rate %. f
+out SimpleName MethodInvocation QualifiedName vquery rate
+empty NumberLiteral MethodInvocation StringLiteral query rate %. f
+empty NumberLiteral MethodInvocation QualifiedName vquery rate
+query rate %. f StringLiteral MethodInvocation QualifiedName vquery rate
+entry SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation QualifiedName statstable map
+entry SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName entry set
+statst server info QualifiedName MethodInvocation SimpleName size
+statst server info QualifiedName MethodInvocation InfixExpression NumberLiteral empty
+size SimpleName MethodInvocation InfixExpression NumberLiteral empty
+statst server info QualifiedName InfixExpression InfixExpression InfixExpression NumberLiteral empty
+out SimpleName MethodInvocation NumberLiteral empty
+out SimpleName MethodInvocation StringLiteral tablet servers
+empty NumberLiteral MethodInvocation StringLiteral tablet servers
+system SimpleName MethodInvocation SimpleName current time millis
+now SimpleName VariableDeclarationFragment MethodInvocation SimpleName system
+now SimpleName VariableDeclarationFragment MethodInvocation SimpleName current time millis
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName now
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName system
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName current time millis
+tablet server status SimpleName SimpleType SingleVariableDeclaration SimpleName server
+monitor SimpleName MethodInvocation SimpleName summarize table stats
+monitor SimpleName MethodInvocation SimpleName server
+summarize table stats SimpleName MethodInvocation SimpleName server
+summary SimpleName VariableDeclarationFragment MethodInvocation SimpleName monitor
+summary SimpleName VariableDeclarationFragment MethodInvocation SimpleName summarize table stats
+summary SimpleName VariableDeclarationFragment MethodInvocation SimpleName server
+table info SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName summary
+out SimpleName MethodInvocation NumberLiteral empty
+out SimpleName MethodInvocation StringLiteral name s
+out SimpleName MethodInvocation QualifiedName servername
+empty NumberLiteral MethodInvocation StringLiteral name s
+empty NumberLiteral MethodInvocation QualifiedName servername
+name s StringLiteral MethodInvocation QualifiedName servername
+out SimpleName MethodInvocation NumberLiteral empty
+out SimpleName MethodInvocation StringLiteral ingest %. f
+out SimpleName MethodInvocation QualifiedName summaryingest rate
+empty NumberLiteral MethodInvocation StringLiteral ingest %. f
+empty NumberLiteral MethodInvocation QualifiedName summaryingest rate
+ingest %. f StringLiteral MethodInvocation QualifiedName summaryingest rate
+out SimpleName MethodInvocation NumberLiteral empty
+out SimpleName MethodInvocation StringLiteral last contact s
+out SimpleName MethodInvocation QualifiedName serverlast contact
+empty NumberLiteral MethodInvocation StringLiteral last contact s
+empty NumberLiteral MethodInvocation QualifiedName serverlast contact
+last contact s StringLiteral MethodInvocation QualifiedName serverlast contact
+out SimpleName MethodInvocation NumberLiteral empty
+out SimpleName MethodInvocation StringLiteral os load average %. f
+out SimpleName MethodInvocation QualifiedName serveros load
+empty NumberLiteral MethodInvocation StringLiteral os load average %. f
+empty NumberLiteral MethodInvocation QualifiedName serveros load
+os load average %. f StringLiteral MethodInvocation QualifiedName serveros load
+out SimpleName MethodInvocation NumberLiteral empty
+out SimpleName MethodInvocation StringLiteral queries %. f
+out SimpleName MethodInvocation QualifiedName summaryquery rate
+empty NumberLiteral MethodInvocation StringLiteral queries %. f
+empty NumberLiteral MethodInvocation QualifiedName summaryquery rate
+queries %. f StringLiteral MethodInvocation QualifiedName summaryquery rate
+now SimpleName InfixExpression QualifiedName serverlast contact
+now SimpleName InfixExpression ParenthesizedExpression InfixExpression NumberLiteral .
+serverlast contact QualifiedName InfixExpression ParenthesizedExpression InfixExpression NumberLiteral .
+out SimpleName MethodInvocation NumberLiteral empty
+out SimpleName MethodInvocation StringLiteral time difference %. f
+out SimpleName MethodInvocation ParenthesizedExpression InfixExpression NumberLiteral .
+empty NumberLiteral MethodInvocation StringLiteral time difference %. f
+empty NumberLiteral MethodInvocation ParenthesizedExpression InfixExpression NumberLiteral .
+time difference %. f StringLiteral MethodInvocation ParenthesizedExpression InfixExpression NumberLiteral .
+out SimpleName MethodInvocation NumberLiteral empty
+out SimpleName MethodInvocation StringLiteral total records d
+out SimpleName MethodInvocation QualifiedName summaryrecs
+empty NumberLiteral MethodInvocation StringLiteral total records d
+empty NumberLiteral MethodInvocation QualifiedName summaryrecs
+total records d StringLiteral MethodInvocation QualifiedName summaryrecs
+out SimpleName MethodInvocation NumberLiteral empty
+out SimpleName MethodInvocation StringLiteral lookups d
+out SimpleName MethodInvocation QualifiedName serverlookups
+empty NumberLiteral MethodInvocation StringLiteral lookups d
+empty NumberLiteral MethodInvocation QualifiedName serverlookups
+lookups d StringLiteral MethodInvocation QualifiedName serverlookups
+serverloggers QualifiedName MethodInvocation SimpleName size
+out SimpleName MethodInvocation NumberLiteral empty
+out SimpleName MethodInvocation StringLiteral loggers d
+out SimpleName MethodInvocation MethodInvocation QualifiedName serverloggers
+out SimpleName MethodInvocation MethodInvocation SimpleName size
+empty NumberLiteral MethodInvocation StringLiteral loggers d
+empty NumberLiteral MethodInvocation MethodInvocation QualifiedName serverloggers
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName size
+loggers d StringLiteral MethodInvocation MethodInvocation QualifiedName serverloggers
+loggers d StringLiteral MethodInvocation MethodInvocation SimpleName size
+string SimpleName SimpleType SingleVariableDeclaration SimpleName logger
+out SimpleName MethodInvocation NumberLiteral empty
+out SimpleName MethodInvocation StringLiteral logger s
+out SimpleName MethodInvocation SimpleName logger
+empty NumberLiteral MethodInvocation StringLiteral logger s
+empty NumberLiteral MethodInvocation SimpleName logger
+logger s StringLiteral MethodInvocation SimpleName logger
+string SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement QualifiedName serverloggers
+logger SimpleName SingleVariableDeclaration EnhancedForStatement QualifiedName serverloggers
+serverloggers QualifiedName EnhancedForStatement ExpressionStatement MethodInvocation SimpleName out
+serverloggers QualifiedName EnhancedForStatement ExpressionStatement MethodInvocation NumberLiteral empty
+serverloggers QualifiedName EnhancedForStatement ExpressionStatement MethodInvocation StringLiteral logger s
+serverloggers QualifiedName EnhancedForStatement ExpressionStatement MethodInvocation SimpleName logger
+serverhold time QualifiedName InfixExpression NumberLiteral empty
+out SimpleName MethodInvocation NumberLiteral empty
+out SimpleName MethodInvocation StringLiteral hold time d
+out SimpleName MethodInvocation QualifiedName serverhold time
+empty NumberLiteral MethodInvocation StringLiteral hold time d
+empty NumberLiteral MethodInvocation QualifiedName serverhold time
+hold time d StringLiteral MethodInvocation QualifiedName serverhold time
+servertable map QualifiedName MethodInvocation SimpleName size
+servertable map QualifiedName MethodInvocation InfixExpression NumberLiteral empty
+size SimpleName MethodInvocation InfixExpression NumberLiteral empty
+servertable map QualifiedName InfixExpression InfixExpression InfixExpression NumberLiteral empty
+out SimpleName MethodInvocation NumberLiteral empty
+out SimpleName MethodInvocation StringLiteral tables
+empty NumberLiteral MethodInvocation StringLiteral tables
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName table info
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName table info
+entry SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName status
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName status
+table info SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName status
+servertable map QualifiedName MethodInvocation SimpleName entry set
+status SimpleName MethodInvocation SimpleName get value
+info SimpleName VariableDeclarationFragment MethodInvocation SimpleName status
+info SimpleName VariableDeclarationFragment MethodInvocation SimpleName get value
+table info SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName info
+status SimpleName MethodInvocation SimpleName get key
+out SimpleName MethodInvocation NumberLiteral empty
+out SimpleName MethodInvocation StringLiteral table s
+out SimpleName MethodInvocation MethodInvocation SimpleName status
+out SimpleName MethodInvocation MethodInvocation SimpleName get key
+empty NumberLiteral MethodInvocation StringLiteral table s
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName status
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName get key
+table s StringLiteral MethodInvocation MethodInvocation SimpleName status
+table s StringLiteral MethodInvocation MethodInvocation SimpleName get key
+out SimpleName MethodInvocation NumberLiteral empty
+out SimpleName MethodInvocation StringLiteral tablets d
+out SimpleName MethodInvocation QualifiedName infoonline tablets
+empty NumberLiteral MethodInvocation StringLiteral tablets d
+empty NumberLiteral MethodInvocation QualifiedName infoonline tablets
+tablets d StringLiteral MethodInvocation QualifiedName infoonline tablets
+out SimpleName MethodInvocation NumberLiteral empty
+out SimpleName MethodInvocation StringLiteral records d
+out SimpleName MethodInvocation QualifiedName inforecs
+empty NumberLiteral MethodInvocation StringLiteral records d
+empty NumberLiteral MethodInvocation QualifiedName inforecs
+records d StringLiteral MethodInvocation QualifiedName inforecs
+out SimpleName MethodInvocation NumberLiteral empty
+out SimpleName MethodInvocation StringLiteral records in memory d
+out SimpleName MethodInvocation QualifiedName inforecs in memory
+empty NumberLiteral MethodInvocation StringLiteral records in memory d
+empty NumberLiteral MethodInvocation QualifiedName inforecs in memory
+records in memory d StringLiteral MethodInvocation QualifiedName inforecs in memory
+out SimpleName MethodInvocation NumberLiteral empty
+out SimpleName MethodInvocation StringLiteral ingest %. f
+out SimpleName MethodInvocation QualifiedName infoingest rate
+empty NumberLiteral MethodInvocation StringLiteral ingest %. f
+empty NumberLiteral MethodInvocation QualifiedName infoingest rate
+ingest %. f StringLiteral MethodInvocation QualifiedName infoingest rate
+out SimpleName MethodInvocation NumberLiteral empty
+out SimpleName MethodInvocation StringLiteral queries %. f
+out SimpleName MethodInvocation QualifiedName infoquery rate
+empty NumberLiteral MethodInvocation StringLiteral queries %. f
+empty NumberLiteral MethodInvocation QualifiedName infoquery rate
+queries %. f StringLiteral MethodInvocation QualifiedName infoquery rate
+infomajor QualifiedName InfixExpression ConditionalExpression NumberLiteral empty
+infomajor QualifiedName InfixExpression ConditionalExpression QualifiedName infomajorrunning
+empty NumberLiteral ConditionalExpression QualifiedName infomajorrunning
+out SimpleName MethodInvocation NumberLiteral empty
+out SimpleName MethodInvocation StringLiteral major compacting d
+out SimpleName MethodInvocation ConditionalExpression InfixExpression QualifiedName infomajor
+out SimpleName MethodInvocation ConditionalExpression NumberLiteral empty
+out SimpleName MethodInvocation ConditionalExpression QualifiedName infomajorrunning
+empty NumberLiteral MethodInvocation StringLiteral major compacting d
+empty NumberLiteral MethodInvocation ConditionalExpression InfixExpression QualifiedName infomajor
+empty NumberLiteral MethodInvocation ConditionalExpression NumberLiteral empty
+empty NumberLiteral MethodInvocation ConditionalExpression QualifiedName infomajorrunning
+major compacting d StringLiteral MethodInvocation ConditionalExpression InfixExpression QualifiedName infomajor
+major compacting d StringLiteral MethodInvocation ConditionalExpression NumberLiteral empty
+major compacting d StringLiteral MethodInvocation ConditionalExpression QualifiedName infomajorrunning
+infomajor QualifiedName InfixExpression ConditionalExpression NumberLiteral empty
+infomajor QualifiedName InfixExpression ConditionalExpression QualifiedName infomajorqueued
+empty NumberLiteral ConditionalExpression QualifiedName infomajorqueued
+out SimpleName MethodInvocation NumberLiteral empty
+out SimpleName MethodInvocation StringLiteral queued for major compaction d
+out SimpleName MethodInvocation ConditionalExpression InfixExpression QualifiedName infomajor
+out SimpleName MethodInvocation ConditionalExpression NumberLiteral empty
+out SimpleName MethodInvocation ConditionalExpression QualifiedName infomajorqueued
+empty NumberLiteral MethodInvocation StringLiteral queued for major compaction d
+empty NumberLiteral MethodInvocation ConditionalExpression InfixExpression QualifiedName infomajor
+empty NumberLiteral MethodInvocation ConditionalExpression NumberLiteral empty
+empty NumberLiteral MethodInvocation ConditionalExpression QualifiedName infomajorqueued
+queued for major compaction d StringLiteral MethodInvocation ConditionalExpression InfixExpression QualifiedName infomajor
+queued for major compaction d StringLiteral MethodInvocation ConditionalExpression NumberLiteral empty
+queued for major compaction d StringLiteral MethodInvocation ConditionalExpression QualifiedName infomajorqueued
+infominor QualifiedName InfixExpression ConditionalExpression NumberLiteral empty
+infominor QualifiedName InfixExpression ConditionalExpression QualifiedName infominorrunning
+empty NumberLiteral ConditionalExpression QualifiedName infominorrunning
+out SimpleName MethodInvocation NumberLiteral empty
+out SimpleName MethodInvocation StringLiteral minor compacting d
+out SimpleName MethodInvocation ConditionalExpression InfixExpression QualifiedName infominor
+out SimpleName MethodInvocation ConditionalExpression NumberLiteral empty
+out SimpleName MethodInvocation ConditionalExpression QualifiedName infominorrunning
+empty NumberLiteral MethodInvocation StringLiteral minor compacting d
+empty NumberLiteral MethodInvocation ConditionalExpression InfixExpression QualifiedName infominor
+empty NumberLiteral MethodInvocation ConditionalExpression NumberLiteral empty
+empty NumberLiteral MethodInvocation ConditionalExpression QualifiedName infominorrunning
+minor compacting d StringLiteral MethodInvocation ConditionalExpression InfixExpression QualifiedName infominor
+minor compacting d StringLiteral MethodInvocation ConditionalExpression NumberLiteral empty
+minor compacting d StringLiteral MethodInvocation ConditionalExpression QualifiedName infominorrunning
+infominor QualifiedName InfixExpression ConditionalExpression NumberLiteral empty
+infominor QualifiedName InfixExpression ConditionalExpression QualifiedName infominorqueued
+empty NumberLiteral ConditionalExpression QualifiedName infominorqueued
+out SimpleName MethodInvocation NumberLiteral empty
+out SimpleName MethodInvocation StringLiteral queued for minor compaction d
+out SimpleName MethodInvocation ConditionalExpression InfixExpression QualifiedName infominor
+out SimpleName MethodInvocation ConditionalExpression NumberLiteral empty
+out SimpleName MethodInvocation ConditionalExpression QualifiedName infominorqueued
+empty NumberLiteral MethodInvocation StringLiteral queued for minor compaction d
+empty NumberLiteral MethodInvocation ConditionalExpression InfixExpression QualifiedName infominor
+empty NumberLiteral MethodInvocation ConditionalExpression NumberLiteral empty
+empty NumberLiteral MethodInvocation ConditionalExpression QualifiedName infominorqueued
+queued for minor compaction d StringLiteral MethodInvocation ConditionalExpression InfixExpression QualifiedName infominor
+queued for minor compaction d StringLiteral MethodInvocation ConditionalExpression NumberLiteral empty
+queued for minor compaction d StringLiteral MethodInvocation ConditionalExpression QualifiedName infominorqueued
+status SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation QualifiedName servertable map
+status SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName entry set
+tablet server status SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement QualifiedName statst server info
+server SimpleName SingleVariableDeclaration EnhancedForStatement QualifiedName statst server info
+statst server info QualifiedName EnhancedForStatement Block EnhancedForStatement QualifiedName serverloggers
+long PrimitiveType VariableDeclarationStatement Block EnhancedForStatement QualifiedName statst server info
+statsrecovery QualifiedName MethodInvocation SimpleName size
+statsrecovery QualifiedName MethodInvocation InfixExpression NumberLiteral empty
+size SimpleName MethodInvocation InfixExpression NumberLiteral empty
+statsrecovery QualifiedName InfixExpression InfixExpression InfixExpression NumberLiteral empty
+out SimpleName MethodInvocation NumberLiteral empty
+out SimpleName MethodInvocation StringLiteral recovery
+empty NumberLiteral MethodInvocation StringLiteral recovery
+recovery status SimpleName SimpleType SingleVariableDeclaration SimpleName r
+out SimpleName MethodInvocation NumberLiteral empty
+out SimpleName MethodInvocation StringLiteral log server s
+out SimpleName MethodInvocation QualifiedName rhost
+empty NumberLiteral MethodInvocation StringLiteral log server s
+empty NumberLiteral MethodInvocation QualifiedName rhost
+log server s StringLiteral MethodInvocation QualifiedName rhost
+out SimpleName MethodInvocation NumberLiteral empty
+out SimpleName MethodInvocation StringLiteral log name s
+out SimpleName MethodInvocation QualifiedName rname
+empty NumberLiteral MethodInvocation StringLiteral log name s
+empty NumberLiteral MethodInvocation QualifiedName rname
+log name s StringLiteral MethodInvocation QualifiedName rname
+rmap progress QualifiedName InfixExpression NumberLiteral empty
+out SimpleName MethodInvocation NumberLiteral empty
+out SimpleName MethodInvocation StringLiteral map progress %. f
+out SimpleName MethodInvocation InfixExpression QualifiedName rmap progress
+out SimpleName MethodInvocation InfixExpression NumberLiteral empty
+empty NumberLiteral MethodInvocation StringLiteral map progress %. f
+empty NumberLiteral MethodInvocation InfixExpression QualifiedName rmap progress
+empty NumberLiteral MethodInvocation InfixExpression NumberLiteral empty
+map progress %. f StringLiteral MethodInvocation InfixExpression QualifiedName rmap progress
+map progress %. f StringLiteral MethodInvocation InfixExpression NumberLiteral empty
+rreduce progress QualifiedName InfixExpression NumberLiteral empty
+out SimpleName MethodInvocation NumberLiteral empty
+out SimpleName MethodInvocation StringLiteral reduce progress %. f
+out SimpleName MethodInvocation InfixExpression QualifiedName rreduce progress
+out SimpleName MethodInvocation InfixExpression NumberLiteral empty
+empty NumberLiteral MethodInvocation StringLiteral reduce progress %. f
+empty NumberLiteral MethodInvocation InfixExpression QualifiedName rreduce progress
+empty NumberLiteral MethodInvocation InfixExpression NumberLiteral empty
+reduce progress %. f StringLiteral MethodInvocation InfixExpression QualifiedName rreduce progress
+reduce progress %. f StringLiteral MethodInvocation InfixExpression NumberLiteral empty
+rruntime QualifiedName InfixExpression NumberLiteral .
+out SimpleName MethodInvocation NumberLiteral empty
+out SimpleName MethodInvocation StringLiteral time running s
+out SimpleName MethodInvocation InfixExpression QualifiedName rruntime
+out SimpleName MethodInvocation InfixExpression NumberLiteral .
+empty NumberLiteral MethodInvocation StringLiteral time running s
+empty NumberLiteral MethodInvocation InfixExpression QualifiedName rruntime
+empty NumberLiteral MethodInvocation InfixExpression NumberLiteral .
+time running s StringLiteral MethodInvocation InfixExpression QualifiedName rruntime
+time running s StringLiteral MethodInvocation InfixExpression NumberLiteral .
+recovery status SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement QualifiedName statsrecovery
+r SimpleName SingleVariableDeclaration EnhancedForStatement QualifiedName statsrecovery
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName main
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName args
+public Modifier MethodDeclaration SimpleType SimpleName exception
+static Modifier MethodDeclaration PrimitiveType void
+static Modifier MethodDeclaration SimpleName main
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName args
+static Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName main
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName args
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+main SimpleName MethodDeclaration SingleVariableDeclaration SimpleName args
+main SimpleName MethodDeclaration SimpleType SimpleName exception
+args SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName main
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName args
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName main
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName args
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

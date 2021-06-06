@@ -1,0 +1,106 @@
+create table SimpleName MethodInvocation BooleanLiteral true
+create table SimpleName MethodInvocation BooleanLiteral true
+create table SimpleName MethodInvocation BooleanLiteral false
+true BooleanLiteral MethodInvocation BooleanLiteral true
+true BooleanLiteral MethodInvocation BooleanLiteral false
+true BooleanLiteral MethodInvocation BooleanLiteral false
+table name SimpleName VariableDeclarationFragment MethodInvocation SimpleName create table
+table name SimpleName VariableDeclarationFragment MethodInvocation BooleanLiteral true
+table name SimpleName VariableDeclarationFragment MethodInvocation BooleanLiteral true
+table name SimpleName VariableDeclarationFragment MethodInvocation BooleanLiteral false
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName table name
+assert table is registered SimpleName MethodInvocation SimpleName default db
+assert table is registered SimpleName MethodInvocation SimpleName table name
+default db SimpleName MethodInvocation SimpleName table name
+table id SimpleName VariableDeclarationFragment MethodInvocation SimpleName assert table is registered
+table id SimpleName VariableDeclarationFragment MethodInvocation SimpleName default db
+table id SimpleName VariableDeclarationFragment MethodInvocation SimpleName table name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName table id
+create test dfs file SimpleName MethodInvocation StringLiteral load dfs file
+load file SimpleName VariableDeclarationFragment MethodInvocation SimpleName create test dfs file
+load file SimpleName VariableDeclarationFragment MethodInvocation StringLiteral load dfs file
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName load file
+path SimpleName SimpleType ClassInstanceCreation SimpleName load file
+path SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName to string
+load file SimpleName ClassInstanceCreation MethodInvocation SimpleName to string
+lower SimpleName MethodInvocation MethodInvocation ClassInstanceCreation SimpleName load file
+lower SimpleName MethodInvocation MethodInvocation SimpleName to string
+test path normed SimpleName VariableDeclarationFragment MethodInvocation SimpleName lower
+test path normed SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName to string
+final Modifier VariableDeclarationStatement SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName test path normed
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName lower
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName test path normed
+load data inpath StringLiteral InfixExpression SimpleName load file
+load data inpath StringLiteral InfixExpression StringLiteral into table
+load data inpath StringLiteral InfixExpression SimpleName table name
+load data inpath StringLiteral InfixExpression StringLiteral partitiondt = - - )
+load file SimpleName InfixExpression StringLiteral into table
+load file SimpleName InfixExpression SimpleName table name
+load file SimpleName InfixExpression StringLiteral partitiondt = - - )
+into table StringLiteral InfixExpression SimpleName table name
+into table StringLiteral InfixExpression StringLiteral partitiondt = - - )
+table name SimpleName InfixExpression StringLiteral partitiondt = - - )
+query SimpleName VariableDeclarationFragment InfixExpression StringLiteral load data inpath
+query SimpleName VariableDeclarationFragment InfixExpression SimpleName load file
+query SimpleName VariableDeclarationFragment InfixExpression StringLiteral into table
+query SimpleName VariableDeclarationFragment InfixExpression SimpleName table name
+query SimpleName VariableDeclarationFragment InfixExpression StringLiteral partitiondt = - - )
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName query
+run command SimpleName MethodInvocation SimpleName query
+get qualified tbl name SimpleName MethodInvocation SimpleName table name
+tbl qlfd name SimpleName VariableDeclarationFragment MethodInvocation SimpleName get qualified tbl name
+tbl qlfd name SimpleName VariableDeclarationFragment MethodInvocation SimpleName table name
+final Modifier VariableDeclarationStatement SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName tbl qlfd name
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get qualified tbl name
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName table name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName tbl qlfd name
+validate process SimpleName MethodInvocation SimpleName query
+validate process SimpleName MethodInvocation SimpleName test path normed
+validate process SimpleName MethodInvocation SimpleName tbl qlfd name
+query SimpleName MethodInvocation SimpleName test path normed
+query SimpleName MethodInvocation SimpleName tbl qlfd name
+test path normed SimpleName MethodInvocation SimpleName tbl qlfd name
+process reference SimpleName VariableDeclarationFragment MethodInvocation SimpleName validate process
+process reference SimpleName VariableDeclarationFragment MethodInvocation SimpleName query
+process reference SimpleName VariableDeclarationFragment MethodInvocation SimpleName test path normed
+process reference SimpleName VariableDeclarationFragment MethodInvocation SimpleName tbl qlfd name
+referenceable SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName process reference
+validate hdfs paths SimpleName MethodInvocation SimpleName process reference
+validate hdfs paths SimpleName MethodInvocation SimpleName inputs
+validate hdfs paths SimpleName MethodInvocation SimpleName load file
+process reference SimpleName MethodInvocation SimpleName inputs
+process reference SimpleName MethodInvocation SimpleName load file
+inputs SimpleName MethodInvocation SimpleName load file
+validate output tables SimpleName MethodInvocation SimpleName process reference
+validate output tables SimpleName MethodInvocation SimpleName tbl qlfd name
+process reference SimpleName MethodInvocation SimpleName tbl qlfd name
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test load dfs path
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test load dfs path
+public Modifier MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+public Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+void PrimitiveType MethodDeclaration SimpleName test load dfs path
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement Modifier final
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement Modifier final
+test load dfs path SimpleName MethodDeclaration SimpleType SimpleName exception
+test load dfs path SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+test load dfs path SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test load dfs path
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test load dfs path
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

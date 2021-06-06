@@ -1,0 +1,30 @@
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName i data type
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName i data type
+map SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName types added
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName types added
+i data type SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName types added
+type system SimpleName ThisExpression MethodInvocation SimpleName commit types
+type system SimpleName ThisExpression MethodInvocation SimpleName types added
+commit types SimpleName MethodInvocation SimpleName types added
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName commit types
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName types added
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName commit types
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName types added
+void PrimitiveType MethodDeclaration SimpleName commit types
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName types added
+commit types SimpleName MethodDeclaration SingleVariableDeclaration SimpleName types added
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName commit types
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName types added
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName commit types
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName types added

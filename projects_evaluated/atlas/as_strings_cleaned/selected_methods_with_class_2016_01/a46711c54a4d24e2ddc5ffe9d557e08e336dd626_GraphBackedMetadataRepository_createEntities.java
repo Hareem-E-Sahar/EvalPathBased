@@ -1,0 +1,66 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+i typed referenceable instance SimpleName SimpleType SingleVariableDeclaration SimpleName entities
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation StringLiteral adding entities
+log SimpleName MethodInvocation SimpleName entities
+info SimpleName MethodInvocation StringLiteral adding entities
+info SimpleName MethodInvocation SimpleName entities
+adding entities StringLiteral MethodInvocation SimpleName entities
+typed instance to graph mapper SimpleName SimpleType ClassInstanceCreation SimpleName graph to instance mapper
+instance to graph mapper SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName typed instance to graph mapper
+instance to graph mapper SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName graph to instance mapper
+typed instance to graph mapper SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName instance to graph mapper
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+instance to graph mapper SimpleName MethodInvocation SimpleName map typed instance to graph
+instance to graph mapper SimpleName MethodInvocation QualifiedName typed instance to graph mapperoperationcreate
+instance to graph mapper SimpleName MethodInvocation SimpleName entities
+map typed instance to graph SimpleName MethodInvocation QualifiedName typed instance to graph mapperoperationcreate
+map typed instance to graph SimpleName MethodInvocation SimpleName entities
+typed instance to graph mapperoperationcreate QualifiedName MethodInvocation SimpleName entities
+id pair SimpleName VariableDeclarationFragment MethodInvocation SimpleName instance to graph mapper
+id pair SimpleName VariableDeclarationFragment MethodInvocation SimpleName map typed instance to graph
+id pair SimpleName VariableDeclarationFragment MethodInvocation QualifiedName typed instance to graph mapperoperationcreate
+id pair SimpleName VariableDeclarationFragment MethodInvocation SimpleName entities
+entity exists exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+atlas exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+repository exception SimpleName SimpleType ClassInstanceCreation SimpleName e
+override SimpleName MarkerAnnotation MethodDeclaration MarkerAnnotation SimpleName graph transaction
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName create entities
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName entities
+graph transaction SimpleName MarkerAnnotation MethodDeclaration Modifier public
+graph transaction SimpleName MarkerAnnotation MethodDeclaration SimpleName create entities
+graph transaction SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName entities
+graph transaction SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName repository exception
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName create entities
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName i typed referenceable instance
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName entities
+public Modifier MethodDeclaration SimpleType SimpleName repository exception
+public Modifier MethodDeclaration SimpleType SimpleName entity exists exception
+list SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName create entities
+string SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName create entities
+create entities SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName i typed referenceable instance
+create entities SimpleName MethodDeclaration SingleVariableDeclaration SimpleName entities
+create entities SimpleName MethodDeclaration SimpleType SimpleName repository exception
+create entities SimpleName MethodDeclaration SimpleType SimpleName entity exists exception
+entities SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName repository exception
+entities SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName entity exists exception
+repository exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName entity exists exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName graph transaction
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName create entities
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entities
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName repository exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName entity exists exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName graph transaction
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create entities
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entities
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName repository exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName entity exists exception

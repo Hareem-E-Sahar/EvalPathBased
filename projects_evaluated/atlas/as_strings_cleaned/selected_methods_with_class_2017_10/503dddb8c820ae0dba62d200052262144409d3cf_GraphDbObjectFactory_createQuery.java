@@ -1,0 +1,43 @@
+atlas janus graph SimpleName SimpleType SingleVariableDeclaration SimpleName graph
+boolean PrimitiveType SingleVariableDeclaration SimpleName is child query
+atlas janus graph query SimpleName SimpleType ClassInstanceCreation SimpleName graph
+atlas janus graph query SimpleName SimpleType ClassInstanceCreation SimpleName is child query
+graph SimpleName ClassInstanceCreation SimpleName is child query
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName atlas janus graph query
+public Modifier MethodDeclaration SimpleName create query
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas janus graph
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName graph
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName is child query
+static Modifier MethodDeclaration SimpleType SimpleName atlas janus graph query
+static Modifier MethodDeclaration SimpleName create query
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas janus graph
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName graph
+static Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName is child query
+atlas janus graph query SimpleName SimpleType MethodDeclaration SimpleName create query
+atlas janus graph query SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName graph
+atlas janus graph query SimpleName SimpleType MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+atlas janus graph query SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName is child query
+create query SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas janus graph
+create query SimpleName MethodDeclaration SingleVariableDeclaration SimpleName graph
+create query SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+create query SimpleName MethodDeclaration SingleVariableDeclaration SimpleName is child query
+graph SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+graph SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName is child query
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas janus graph query
+public Modifier TypeDeclaration MethodDeclaration SimpleName create query
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName graph
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName is child query
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas janus graph query
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create query
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName graph
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName is child query

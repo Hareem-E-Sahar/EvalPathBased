@@ -1,0 +1,53 @@
+hive event context SimpleName SimpleType SingleVariableDeclaration SimpleName event
+event SimpleName MethodInvocation SimpleName get operation
+event SimpleName MethodInvocation InfixExpression QualifiedName hive operationquery
+get operation SimpleName MethodInvocation InfixExpression QualifiedName hive operationquery
+event SimpleName MethodInvocation SimpleName get outputs
+event SimpleName MethodInvocation MethodInvocation SimpleName size
+get outputs SimpleName MethodInvocation MethodInvocation SimpleName size
+event SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral empty
+get outputs SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral empty
+size SimpleName MethodInvocation InfixExpression NumberLiteral empty
+event SimpleName MethodInvocation SimpleName get outputs
+event SimpleName MethodInvocation MethodInvocation SimpleName iterator
+get outputs SimpleName MethodInvocation MethodInvocation SimpleName iterator
+event SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName next
+get outputs SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName next
+iterator SimpleName MethodInvocation MethodInvocation SimpleName next
+output SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName iterator
+output SimpleName VariableDeclarationFragment MethodInvocation SimpleName next
+write entity SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName output
+output SimpleName MethodInvocation SimpleName get type
+output SimpleName MethodInvocation InfixExpression QualifiedName typedfs dir
+get type SimpleName MethodInvocation InfixExpression QualifiedName typedfs dir
+output SimpleName MethodInvocation SimpleName get type
+output SimpleName MethodInvocation InfixExpression QualifiedName typelocal dir
+get type SimpleName MethodInvocation InfixExpression QualifiedName typelocal dir
+typedfs dir QualifiedName InfixExpression InfixExpression InfixExpression QualifiedName typelocal dir
+output SimpleName MethodInvocation SimpleName get write type
+output SimpleName MethodInvocation InfixExpression QualifiedName write entitywrite typepath write
+get write type SimpleName MethodInvocation InfixExpression QualifiedName write entitywrite typepath write
+output SimpleName MethodInvocation SimpleName is temp uri
+write entitywrite typepath write QualifiedName InfixExpression InfixExpression MethodInvocation SimpleName output
+write entitywrite typepath write QualifiedName InfixExpression InfixExpression MethodInvocation SimpleName is temp uri
+private Modifier MethodDeclaration PrimitiveType boolean
+private Modifier MethodDeclaration SimpleName is select query
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName hive event context
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName event
+private Modifier MethodDeclaration Block ReturnStatement BooleanLiteral false
+boolean PrimitiveType MethodDeclaration SimpleName is select query
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName hive event context
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName event
+boolean PrimitiveType MethodDeclaration Block ReturnStatement BooleanLiteral false
+is select query SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName hive event context
+is select query SimpleName MethodDeclaration SingleVariableDeclaration SimpleName event
+is select query SimpleName MethodDeclaration Block ReturnStatement BooleanLiteral false
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName is select query
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName event
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName is select query
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName event

@@ -1,0 +1,45 @@
+configuration SimpleName SimpleType SingleVariableDeclaration SimpleName conf
+input configurator SimpleName MethodInvocation SimpleName get tablet locator
+input configurator SimpleName MethodInvocation SimpleName class
+input configurator SimpleName MethodInvocation SimpleName conf
+get tablet locator SimpleName MethodInvocation SimpleName class
+get tablet locator SimpleName MethodInvocation SimpleName conf
+class SimpleName MethodInvocation SimpleName conf
+deprecated SimpleName MarkerAnnotation MethodDeclaration Modifier protected
+deprecated SimpleName MarkerAnnotation MethodDeclaration Modifier static
+deprecated SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName tablet locator
+deprecated SimpleName MarkerAnnotation MethodDeclaration SimpleName get tablet locator
+deprecated SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName conf
+protected Modifier MethodDeclaration Modifier static
+protected Modifier MethodDeclaration SimpleType SimpleName tablet locator
+protected Modifier MethodDeclaration SimpleName get tablet locator
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName configuration
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName conf
+protected Modifier MethodDeclaration SimpleType SimpleName table not found exception
+static Modifier MethodDeclaration SimpleType SimpleName tablet locator
+static Modifier MethodDeclaration SimpleName get tablet locator
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName configuration
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName conf
+static Modifier MethodDeclaration SimpleType SimpleName table not found exception
+tablet locator SimpleName SimpleType MethodDeclaration SimpleName get tablet locator
+tablet locator SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName conf
+tablet locator SimpleName SimpleType MethodDeclaration SimpleType SimpleName table not found exception
+get tablet locator SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName configuration
+get tablet locator SimpleName MethodDeclaration SingleVariableDeclaration SimpleName conf
+get tablet locator SimpleName MethodDeclaration SimpleType SimpleName table not found exception
+conf SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName table not found exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName deprecated
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName tablet locator
+public Modifier TypeDeclaration MethodDeclaration SimpleName get tablet locator
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName conf
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName table not found exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName deprecated
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName tablet locator
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get tablet locator
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName conf
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName table not found exception

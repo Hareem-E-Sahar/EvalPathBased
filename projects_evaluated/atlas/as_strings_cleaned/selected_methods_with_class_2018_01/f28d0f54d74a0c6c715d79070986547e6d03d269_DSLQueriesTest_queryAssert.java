@@ -1,0 +1,55 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName query
+field value validator SimpleName SimpleType SingleVariableDeclaration SimpleName fv
+discovery service SimpleName MethodInvocation SimpleName search using dsl query
+discovery service SimpleName MethodInvocation SimpleName query
+discovery service SimpleName MethodInvocation NumberLiteral empty
+discovery service SimpleName MethodInvocation NumberLiteral empty
+search using dsl query SimpleName MethodInvocation SimpleName query
+search using dsl query SimpleName MethodInvocation NumberLiteral empty
+search using dsl query SimpleName MethodInvocation NumberLiteral empty
+query SimpleName MethodInvocation NumberLiteral empty
+query SimpleName MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+search result SimpleName VariableDeclarationFragment MethodInvocation SimpleName discovery service
+search result SimpleName VariableDeclarationFragment MethodInvocation SimpleName search using dsl query
+search result SimpleName VariableDeclarationFragment MethodInvocation SimpleName query
+search result SimpleName VariableDeclarationFragment MethodInvocation NumberLiteral empty
+search result SimpleName VariableDeclarationFragment MethodInvocation NumberLiteral empty
+atlas search result SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName search result
+assert search result SimpleName MethodInvocation SimpleName search result
+assert search result SimpleName MethodInvocation SimpleName fv
+search result SimpleName MethodInvocation SimpleName fv
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName query assert
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName query
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName field value validator
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName fv
+private Modifier MethodDeclaration SimpleType SimpleName atlas base exception
+void PrimitiveType MethodDeclaration SimpleName query assert
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName query
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName field value validator
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName fv
+void PrimitiveType MethodDeclaration SimpleType SimpleName atlas base exception
+query assert SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+query assert SimpleName MethodDeclaration SingleVariableDeclaration SimpleName query
+query assert SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName field value validator
+query assert SimpleName MethodDeclaration SingleVariableDeclaration SimpleName fv
+query assert SimpleName MethodDeclaration SimpleType SimpleName atlas base exception
+query SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName fv
+query SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+fv SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName query assert
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName query
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName fv
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName query assert
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName query
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName fv
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception

@@ -1,0 +1,56 @@
+request context SimpleName SimpleType SingleVariableDeclaration SimpleName context
+i typed referenceable instance SimpleName SimpleType SingleVariableDeclaration SimpleName instance
+instance SimpleName MethodInvocation SimpleName get id
+instance id SimpleName VariableDeclarationFragment MethodInvocation SimpleName instance
+instance id SimpleName VariableDeclarationFragment MethodInvocation SimpleName get id
+id SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName instance id
+instance id SimpleName MethodInvocation SimpleName is unassigned
+instance SimpleName InstanceofExpression SimpleType SimpleName referenceable instance
+get id SimpleName MethodInvocation SimpleName instance
+id SimpleName VariableDeclarationFragment MethodInvocation SimpleName get id
+id SimpleName VariableDeclarationFragment MethodInvocation SimpleName instance
+id SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName id
+referenceable instance SimpleName SimpleType CastExpression SimpleName instance
+instance SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName replace with new id
+instance SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName id
+replace with new id SimpleName MethodInvocation SimpleName id
+context SimpleName MethodInvocation SimpleName cache
+context SimpleName MethodInvocation SimpleName instance
+cache SimpleName MethodInvocation SimpleName instance
+context SimpleName MethodInvocation SimpleName cache
+context SimpleName MethodInvocation SimpleName instance
+cache SimpleName MethodInvocation SimpleName instance
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName add to entity cache
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName request context
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName context
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName i typed referenceable instance
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName instance
+private Modifier MethodDeclaration SimpleType SimpleName entity not found exception
+void PrimitiveType MethodDeclaration SimpleName add to entity cache
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName request context
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName context
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName i typed referenceable instance
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName instance
+void PrimitiveType MethodDeclaration SimpleType SimpleName entity not found exception
+add to entity cache SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName request context
+add to entity cache SimpleName MethodDeclaration SingleVariableDeclaration SimpleName context
+add to entity cache SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName i typed referenceable instance
+add to entity cache SimpleName MethodDeclaration SingleVariableDeclaration SimpleName instance
+add to entity cache SimpleName MethodDeclaration SimpleType SimpleName entity not found exception
+context SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName instance
+context SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName entity not found exception
+instance SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName entity not found exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName add to entity cache
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName context
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName instance
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName entity not found exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName add to entity cache
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName context
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName instance
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName entity not found exception

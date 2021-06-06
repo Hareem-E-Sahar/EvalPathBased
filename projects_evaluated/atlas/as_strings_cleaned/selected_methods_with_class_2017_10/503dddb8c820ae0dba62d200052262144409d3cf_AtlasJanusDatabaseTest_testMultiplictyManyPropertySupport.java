@@ -1,0 +1,104 @@
+atlas graph SimpleName SimpleType ParameterizedType SimpleType SimpleName v
+atlas graph SimpleName SimpleType ParameterizedType SimpleType SimpleName e
+v SimpleName SimpleType ParameterizedType SimpleType SimpleName e
+graph SimpleName VariableDeclarationFragment MethodInvocation SimpleName get graph
+atlas vertex SimpleName SimpleType ParameterizedType SimpleType SimpleName v
+atlas vertex SimpleName SimpleType ParameterizedType SimpleType SimpleName e
+v SimpleName SimpleType ParameterizedType SimpleType SimpleName e
+graph SimpleName MethodInvocation SimpleName add vertex
+vertex SimpleName VariableDeclarationFragment MethodInvocation SimpleName graph
+vertex SimpleName VariableDeclarationFragment MethodInvocation SimpleName add vertex
+vertex SimpleName MethodInvocation SimpleName get id
+vertex SimpleName MethodInvocation MethodInvocation SimpleName to string
+get id SimpleName MethodInvocation MethodInvocation SimpleName to string
+vertex id SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName vertex
+vertex id SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get id
+vertex id SimpleName VariableDeclarationFragment MethodInvocation SimpleName to string
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName vertex id
+vertex SimpleName MethodInvocation SimpleName set property
+vertex SimpleName MethodInvocation QualifiedName constantstrait names property key
+vertex SimpleName MethodInvocation StringLiteral trait
+set property SimpleName MethodInvocation QualifiedName constantstrait names property key
+set property SimpleName MethodInvocation StringLiteral trait
+constantstrait names property key QualifiedName MethodInvocation StringLiteral trait
+vertex SimpleName MethodInvocation SimpleName set property
+vertex SimpleName MethodInvocation QualifiedName constantstrait names property key
+vertex SimpleName MethodInvocation StringLiteral trait
+set property SimpleName MethodInvocation QualifiedName constantstrait names property key
+set property SimpleName MethodInvocation StringLiteral trait
+constantstrait names property key QualifiedName MethodInvocation StringLiteral trait
+vertex SimpleName MethodInvocation SimpleName get property values
+vertex SimpleName MethodInvocation QualifiedName constantstrait names property key
+vertex SimpleName MethodInvocation TypeLiteral SimpleType SimpleName string
+get property values SimpleName MethodInvocation QualifiedName constantstrait names property key
+get property values SimpleName MethodInvocation TypeLiteral SimpleType SimpleName string
+constantstrait names property key QualifiedName MethodInvocation TypeLiteral SimpleType SimpleName string
+vertex SimpleName MethodInvocation MethodInvocation SimpleName size
+get property values SimpleName MethodInvocation MethodInvocation SimpleName size
+constantstrait names property key QualifiedName MethodInvocation MethodInvocation SimpleName size
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName vertex
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get property values
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName constantstrait names property key
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName size
+assert equals SimpleName MethodInvocation NumberLiteral empty
+vertex SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+get property values SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+constantstrait names property key QualifiedName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+size SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+vertex SimpleName MethodInvocation SimpleName add property
+vertex SimpleName MethodInvocation QualifiedName constantstrait names property key
+vertex SimpleName MethodInvocation StringLiteral trait
+add property SimpleName MethodInvocation QualifiedName constantstrait names property key
+add property SimpleName MethodInvocation StringLiteral trait
+constantstrait names property key QualifiedName MethodInvocation StringLiteral trait
+vertex SimpleName MethodInvocation SimpleName add property
+vertex SimpleName MethodInvocation QualifiedName constantstrait names property key
+vertex SimpleName MethodInvocation StringLiteral trait
+add property SimpleName MethodInvocation QualifiedName constantstrait names property key
+add property SimpleName MethodInvocation StringLiteral trait
+constantstrait names property key QualifiedName MethodInvocation StringLiteral trait
+vertex SimpleName MethodInvocation SimpleName get property keys
+vertex SimpleName MethodInvocation MethodInvocation SimpleName contains
+get property keys SimpleName MethodInvocation MethodInvocation SimpleName contains
+vertex SimpleName MethodInvocation MethodInvocation QualifiedName constantstrait names property key
+get property keys SimpleName MethodInvocation MethodInvocation QualifiedName constantstrait names property key
+contains SimpleName MethodInvocation QualifiedName constantstrait names property key
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName vertex
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get property keys
+assert true SimpleName MethodInvocation MethodInvocation SimpleName contains
+assert true SimpleName MethodInvocation MethodInvocation QualifiedName constantstrait names property key
+validate mult many properties in vertex SimpleName MethodInvocation SimpleName vertex
+graph SimpleName MethodInvocation SimpleName get vertex
+graph SimpleName MethodInvocation SimpleName vertex id
+get vertex SimpleName MethodInvocation SimpleName vertex id
+validate mult many properties in vertex SimpleName MethodInvocation MethodInvocation SimpleName graph
+validate mult many properties in vertex SimpleName MethodInvocation MethodInvocation SimpleName get vertex
+validate mult many properties in vertex SimpleName MethodInvocation MethodInvocation SimpleName vertex id
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration TypeParameter SimpleName v
+test SimpleName MarkerAnnotation MethodDeclaration TypeParameter SimpleName e
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test multiplicty many property support
+public Modifier MethodDeclaration TypeParameter SimpleName v
+public Modifier MethodDeclaration TypeParameter SimpleName e
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test multiplicty many property support
+v SimpleName TypeParameter MethodDeclaration TypeParameter SimpleName e
+v SimpleName TypeParameter MethodDeclaration PrimitiveType void
+v SimpleName TypeParameter MethodDeclaration SimpleName test multiplicty many property support
+e SimpleName TypeParameter MethodDeclaration PrimitiveType void
+e SimpleName TypeParameter MethodDeclaration SimpleName test multiplicty many property support
+void PrimitiveType MethodDeclaration SimpleName test multiplicty many property support
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration TypeParameter SimpleName v
+public Modifier TypeDeclaration MethodDeclaration TypeParameter SimpleName e
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test multiplicty many property support
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration TypeParameter SimpleName v
+test SimpleName TypeDeclaration MethodDeclaration TypeParameter SimpleName e
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test multiplicty many property support

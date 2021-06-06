@@ -1,0 +1,152 @@
+path SimpleName SingleMemberAnnotation StringLiteral stack
+produces SimpleName SingleMemberAnnotation QualifiedName media typetext plain
+log SimpleName MethodInvocation SimpleName is debug enabled
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral ==> admin resourceget thread dump
+debug SimpleName MethodInvocation StringLiteral ==> admin resourceget thread dump
+thread SimpleName MethodInvocation SimpleName current thread
+thread SimpleName MethodInvocation MethodInvocation SimpleName get thread group
+current thread SimpleName MethodInvocation MethodInvocation SimpleName get thread group
+top thread group SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName thread
+top thread group SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName current thread
+top thread group SimpleName VariableDeclarationFragment MethodInvocation SimpleName get thread group
+thread group SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName top thread group
+top thread group SimpleName MethodInvocation SimpleName get parent
+top thread group SimpleName MethodInvocation SimpleName get parent
+top thread group SimpleName Assignment MethodInvocation SimpleName top thread group
+top thread group SimpleName Assignment MethodInvocation SimpleName get parent
+top thread group SimpleName MethodInvocation SimpleName active count
+threads SimpleName VariableDeclarationFragment ArrayCreation MethodInvocation SimpleName top thread group
+threads SimpleName VariableDeclarationFragment ArrayCreation MethodInvocation SimpleName active count
+top thread group SimpleName MethodInvocation SimpleName enumerate
+top thread group SimpleName MethodInvocation SimpleName threads
+enumerate SimpleName MethodInvocation SimpleName threads
+nr SimpleName VariableDeclarationFragment MethodInvocation SimpleName top thread group
+nr SimpleName VariableDeclarationFragment MethodInvocation SimpleName enumerate
+nr SimpleName VariableDeclarationFragment MethodInvocation SimpleName threads
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName nr
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName top thread group
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName enumerate
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName threads
+builder SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName string builder
+string builder SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName builder
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+i SimpleName InfixExpression SimpleName nr
+threads SimpleName ArrayAccess SimpleName i
+threads SimpleName ArrayAccess MethodInvocation SimpleName get name
+i SimpleName ArrayAccess MethodInvocation SimpleName get name
+builder SimpleName MethodInvocation SimpleName append
+builder SimpleName MethodInvocation MethodInvocation ArrayAccess SimpleName threads
+builder SimpleName MethodInvocation MethodInvocation ArrayAccess SimpleName i
+builder SimpleName MethodInvocation MethodInvocation SimpleName get name
+append SimpleName MethodInvocation MethodInvocation ArrayAccess SimpleName threads
+append SimpleName MethodInvocation MethodInvocation ArrayAccess SimpleName i
+append SimpleName MethodInvocation MethodInvocation SimpleName get name
+builder SimpleName MethodInvocation MethodInvocation SimpleName append
+append SimpleName MethodInvocation MethodInvocation SimpleName append
+get name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName append
+builder SimpleName MethodInvocation MethodInvocation StringLiteral state
+append SimpleName MethodInvocation MethodInvocation StringLiteral state
+get name SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral state
+append SimpleName MethodInvocation StringLiteral state
+threads SimpleName ArrayAccess SimpleName i
+threads SimpleName ArrayAccess MethodInvocation SimpleName get state
+i SimpleName ArrayAccess MethodInvocation SimpleName get state
+builder SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName append
+append SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName append
+append SimpleName MethodInvocation MethodInvocation SimpleName append
+state StringLiteral MethodInvocation MethodInvocation SimpleName append
+append SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get state
+state StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName get state
+append SimpleName MethodInvocation MethodInvocation ArrayAccess SimpleName threads
+append SimpleName MethodInvocation MethodInvocation ArrayAccess SimpleName i
+append SimpleName MethodInvocation MethodInvocation SimpleName get state
+append SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName append
+state StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName append
+append SimpleName MethodInvocation MethodInvocation SimpleName append
+get state SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName append
+append SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral empty
+state StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral empty
+append SimpleName MethodInvocation MethodInvocation StringLiteral empty
+get state SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral empty
+append SimpleName MethodInvocation StringLiteral empty
+threads SimpleName ArrayAccess SimpleName i
+threads SimpleName ArrayAccess MethodInvocation SimpleName get stack trace
+i SimpleName ArrayAccess MethodInvocation SimpleName get stack trace
+string utils SimpleName MethodInvocation SimpleName join
+string utils SimpleName MethodInvocation MethodInvocation ArrayAccess SimpleName threads
+string utils SimpleName MethodInvocation MethodInvocation ArrayAccess SimpleName i
+string utils SimpleName MethodInvocation MethodInvocation SimpleName get stack trace
+string utils SimpleName MethodInvocation StringLiteral empty
+join SimpleName MethodInvocation MethodInvocation ArrayAccess SimpleName threads
+join SimpleName MethodInvocation MethodInvocation ArrayAccess SimpleName i
+join SimpleName MethodInvocation MethodInvocation SimpleName get stack trace
+join SimpleName MethodInvocation StringLiteral empty
+threads SimpleName ArrayAccess MethodInvocation MethodInvocation StringLiteral empty
+i SimpleName ArrayAccess MethodInvocation MethodInvocation StringLiteral empty
+get stack trace SimpleName MethodInvocation MethodInvocation StringLiteral empty
+stack trace SimpleName VariableDeclarationFragment MethodInvocation SimpleName string utils
+stack trace SimpleName VariableDeclarationFragment MethodInvocation SimpleName join
+stack trace SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get stack trace
+stack trace SimpleName VariableDeclarationFragment MethodInvocation StringLiteral empty
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName stack trace
+builder SimpleName MethodInvocation SimpleName append
+builder SimpleName MethodInvocation SimpleName stack trace
+append SimpleName MethodInvocation SimpleName stack trace
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName nr
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+nr SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+log SimpleName MethodInvocation SimpleName is debug enabled
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral <== admin resourceget thread dump
+debug SimpleName MethodInvocation StringLiteral <== admin resourceget thread dump
+builder SimpleName MethodInvocation SimpleName to string
+get SimpleName MarkerAnnotation MethodDeclaration SingleMemberAnnotation SimpleName path
+get SimpleName MarkerAnnotation MethodDeclaration SingleMemberAnnotation StringLiteral stack
+get SimpleName MarkerAnnotation MethodDeclaration SingleMemberAnnotation SimpleName produces
+get SimpleName MarkerAnnotation MethodDeclaration SingleMemberAnnotation QualifiedName media typetext plain
+get SimpleName MarkerAnnotation MethodDeclaration Modifier public
+get SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName string
+get SimpleName MarkerAnnotation MethodDeclaration SimpleName get thread dump
+path SimpleName SingleMemberAnnotation MethodDeclaration SingleMemberAnnotation SimpleName produces
+path SimpleName SingleMemberAnnotation MethodDeclaration SingleMemberAnnotation QualifiedName media typetext plain
+stack StringLiteral SingleMemberAnnotation MethodDeclaration SingleMemberAnnotation SimpleName produces
+stack StringLiteral SingleMemberAnnotation MethodDeclaration SingleMemberAnnotation QualifiedName media typetext plain
+path SimpleName SingleMemberAnnotation MethodDeclaration Modifier public
+stack StringLiteral SingleMemberAnnotation MethodDeclaration Modifier public
+path SimpleName SingleMemberAnnotation MethodDeclaration SimpleType SimpleName string
+stack StringLiteral SingleMemberAnnotation MethodDeclaration SimpleType SimpleName string
+path SimpleName SingleMemberAnnotation MethodDeclaration SimpleName get thread dump
+stack StringLiteral SingleMemberAnnotation MethodDeclaration SimpleName get thread dump
+produces SimpleName SingleMemberAnnotation MethodDeclaration Modifier public
+media typetext plain QualifiedName SingleMemberAnnotation MethodDeclaration Modifier public
+produces SimpleName SingleMemberAnnotation MethodDeclaration SimpleType SimpleName string
+media typetext plain QualifiedName SingleMemberAnnotation MethodDeclaration SimpleType SimpleName string
+produces SimpleName SingleMemberAnnotation MethodDeclaration SimpleName get thread dump
+media typetext plain QualifiedName SingleMemberAnnotation MethodDeclaration SimpleName get thread dump
+public Modifier MethodDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName get thread dump
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+string SimpleName SimpleType MethodDeclaration SimpleName get thread dump
+get thread dump SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName get
+public Modifier TypeDeclaration MethodDeclaration SingleMemberAnnotation SimpleName path
+public Modifier TypeDeclaration MethodDeclaration SingleMemberAnnotation StringLiteral stack
+public Modifier TypeDeclaration MethodDeclaration SingleMemberAnnotation SimpleName produces
+public Modifier TypeDeclaration MethodDeclaration SingleMemberAnnotation QualifiedName media typetext plain
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName get thread dump
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName get
+test SimpleName TypeDeclaration MethodDeclaration SingleMemberAnnotation SimpleName path
+test SimpleName TypeDeclaration MethodDeclaration SingleMemberAnnotation StringLiteral stack
+test SimpleName TypeDeclaration MethodDeclaration SingleMemberAnnotation SimpleName produces
+test SimpleName TypeDeclaration MethodDeclaration SingleMemberAnnotation QualifiedName media typetext plain
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get thread dump

@@ -1,0 +1,95 @@
+path SimpleName SimpleType SingleVariableDeclaration SimpleName p
+string SimpleName SimpleType SingleVariableDeclaration SimpleName username
+string SimpleName SimpleType SingleVariableDeclaration SimpleName groupname
+trace SimpleName MethodInvocation SimpleName start
+trace SimpleName MethodInvocation StringLiteral set owner
+start SimpleName MethodInvocation StringLiteral set owner
+span SimpleName VariableDeclarationFragment MethodInvocation SimpleName trace
+span SimpleName VariableDeclarationFragment MethodInvocation SimpleName start
+span SimpleName VariableDeclarationFragment MethodInvocation StringLiteral set owner
+span SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName span
+trace SimpleName MethodInvocation SimpleName is tracing
+p SimpleName MethodInvocation SimpleName to string
+span SimpleName MethodInvocation SimpleName data
+span SimpleName MethodInvocation StringLiteral path
+span SimpleName MethodInvocation MethodInvocation SimpleName p
+span SimpleName MethodInvocation MethodInvocation SimpleName to string
+data SimpleName MethodInvocation StringLiteral path
+data SimpleName MethodInvocation MethodInvocation SimpleName p
+data SimpleName MethodInvocation MethodInvocation SimpleName to string
+path StringLiteral MethodInvocation MethodInvocation SimpleName p
+path StringLiteral MethodInvocation MethodInvocation SimpleName to string
+span SimpleName MethodInvocation SimpleName data
+span SimpleName MethodInvocation StringLiteral user
+span SimpleName MethodInvocation SimpleName username
+data SimpleName MethodInvocation StringLiteral user
+data SimpleName MethodInvocation SimpleName username
+user StringLiteral MethodInvocation SimpleName username
+span SimpleName MethodInvocation SimpleName data
+span SimpleName MethodInvocation StringLiteral group
+span SimpleName MethodInvocation SimpleName groupname
+data SimpleName MethodInvocation StringLiteral group
+data SimpleName MethodInvocation SimpleName groupname
+group StringLiteral MethodInvocation SimpleName groupname
+impl SimpleName MethodInvocation SimpleName set owner
+impl SimpleName MethodInvocation SimpleName p
+impl SimpleName MethodInvocation SimpleName username
+impl SimpleName MethodInvocation SimpleName groupname
+set owner SimpleName MethodInvocation SimpleName p
+set owner SimpleName MethodInvocation SimpleName username
+set owner SimpleName MethodInvocation SimpleName groupname
+p SimpleName MethodInvocation SimpleName username
+p SimpleName MethodInvocation SimpleName groupname
+username SimpleName MethodInvocation SimpleName groupname
+span SimpleName MethodInvocation SimpleName stop
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName set owner
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName p
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName username
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set owner
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName p
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName username
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName groupname
+void PrimitiveType MethodDeclaration SimpleName set owner
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName p
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName username
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName groupname
+void PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+set owner SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+set owner SimpleName MethodDeclaration SingleVariableDeclaration SimpleName p
+set owner SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+set owner SimpleName MethodDeclaration SingleVariableDeclaration SimpleName username
+set owner SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+set owner SimpleName MethodDeclaration SingleVariableDeclaration SimpleName groupname
+set owner SimpleName MethodDeclaration SimpleType SimpleName io exception
+p SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName username
+p SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName groupname
+p SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+username SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName groupname
+username SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+groupname SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set owner
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName p
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName username
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName groupname
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set owner
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName p
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName username
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName groupname
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

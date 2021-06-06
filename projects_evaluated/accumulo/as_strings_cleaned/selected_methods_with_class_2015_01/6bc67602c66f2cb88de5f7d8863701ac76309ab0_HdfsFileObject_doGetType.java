@@ -1,0 +1,40 @@
+suppress warnings SimpleName SingleMemberAnnotation StringLiteral deprecation
+stat SimpleName MethodInvocation SimpleName is dir
+final Modifier SingleVariableDeclaration SimpleType SimpleName file not found exception
+final Modifier SingleVariableDeclaration SimpleName fnfe
+file not found exception SimpleName SimpleType SingleVariableDeclaration SimpleName fnfe
+override SimpleName MarkerAnnotation MethodDeclaration SingleMemberAnnotation SimpleName suppress warnings
+override SimpleName MarkerAnnotation MethodDeclaration SingleMemberAnnotation StringLiteral deprecation
+override SimpleName MarkerAnnotation MethodDeclaration Modifier protected
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName file type
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName do get type
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+suppress warnings SimpleName SingleMemberAnnotation MethodDeclaration Modifier protected
+deprecation StringLiteral SingleMemberAnnotation MethodDeclaration Modifier protected
+suppress warnings SimpleName SingleMemberAnnotation MethodDeclaration SimpleType SimpleName file type
+deprecation StringLiteral SingleMemberAnnotation MethodDeclaration SimpleType SimpleName file type
+suppress warnings SimpleName SingleMemberAnnotation MethodDeclaration SimpleName do get type
+deprecation StringLiteral SingleMemberAnnotation MethodDeclaration SimpleName do get type
+suppress warnings SimpleName SingleMemberAnnotation MethodDeclaration SimpleType SimpleName exception
+deprecation StringLiteral SingleMemberAnnotation MethodDeclaration SimpleType SimpleName exception
+protected Modifier MethodDeclaration SimpleType SimpleName file type
+protected Modifier MethodDeclaration SimpleName do get type
+protected Modifier MethodDeclaration SimpleType SimpleName exception
+file type SimpleName SimpleType MethodDeclaration SimpleName do get type
+file type SimpleName SimpleType MethodDeclaration SimpleType SimpleName exception
+do get type SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration SingleMemberAnnotation SimpleName suppress warnings
+public Modifier TypeDeclaration MethodDeclaration SingleMemberAnnotation StringLiteral deprecation
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName file type
+public Modifier TypeDeclaration MethodDeclaration SimpleName do get type
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration SingleMemberAnnotation SimpleName suppress warnings
+test SimpleName TypeDeclaration MethodDeclaration SingleMemberAnnotation StringLiteral deprecation
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName file type
+test SimpleName TypeDeclaration MethodDeclaration SimpleName do get type
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

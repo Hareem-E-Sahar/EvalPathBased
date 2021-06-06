@@ -1,0 +1,20 @@
+authorizations SimpleName SimpleType SingleVariableDeclaration SimpleName auths
+auths SimpleName FieldAccess Assignment SimpleName auths
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set auths
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName authorizations
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName auths
+void PrimitiveType MethodDeclaration SimpleName set auths
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName authorizations
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName auths
+set auths SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName authorizations
+set auths SimpleName MethodDeclaration SingleVariableDeclaration SimpleName auths
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set auths
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName auths
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set auths
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName auths

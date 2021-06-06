@@ -1,0 +1,42 @@
+group by expression context SimpleName SimpleType SingleVariableDeclaration SimpleName ctx
+log SimpleName MethodInvocation SimpleName is debug enabled
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral => dsl visitorvisit group by expression
+log SimpleName MethodInvocation SimpleName ctx
+debug SimpleName MethodInvocation StringLiteral => dsl visitorvisit group by expression
+debug SimpleName MethodInvocation SimpleName ctx
+=> dsl visitorvisit group by expression StringLiteral MethodInvocation SimpleName ctx
+ctx SimpleName MethodInvocation SimpleName select expr
+ctx SimpleName MethodInvocation MethodInvocation SimpleName get text
+select expr SimpleName MethodInvocation MethodInvocation SimpleName get text
+s SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName ctx
+s SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName select expr
+s SimpleName VariableDeclarationFragment MethodInvocation SimpleName get text
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName s
+gremlin query composer SimpleName MethodInvocation SimpleName add group by
+gremlin query composer SimpleName MethodInvocation SimpleName s
+add group by SimpleName MethodInvocation SimpleName s
+visit group by expression SimpleName SuperMethodInvocation SimpleName ctx
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName visit group by expression
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName ctx
+public Modifier MethodDeclaration SimpleType SimpleName void
+public Modifier MethodDeclaration SimpleName visit group by expression
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName group by expression context
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName ctx
+void SimpleName SimpleType MethodDeclaration SimpleName visit group by expression
+void SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName ctx
+visit group by expression SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName group by expression context
+visit group by expression SimpleName MethodDeclaration SingleVariableDeclaration SimpleName ctx
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName void
+public Modifier TypeDeclaration MethodDeclaration SimpleName visit group by expression
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ctx
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName visit group by expression
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ctx

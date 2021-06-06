@@ -1,0 +1,46 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+atlas vertex SimpleName SimpleType SingleVariableDeclaration SimpleName classification vertex
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas vertex
+get propagated entity vertices SimpleName MethodInvocation SimpleName classification vertex
+entity vertices SimpleName VariableDeclarationFragment MethodInvocation SimpleName get propagated entity vertices
+entity vertices SimpleName VariableDeclarationFragment MethodInvocation SimpleName classification vertex
+collection utils SimpleName MethodInvocation SimpleName is not empty
+collection utils SimpleName MethodInvocation SimpleName entity vertices
+is not empty SimpleName MethodInvocation SimpleName entity vertices
+atlas vertex SimpleName SimpleType SingleVariableDeclaration SimpleName entity vertex
+get guid SimpleName MethodInvocation SimpleName entity vertex
+ret SimpleName MethodInvocation SimpleName add
+ret SimpleName MethodInvocation MethodInvocation SimpleName get guid
+ret SimpleName MethodInvocation MethodInvocation SimpleName entity vertex
+add SimpleName MethodInvocation MethodInvocation SimpleName get guid
+add SimpleName MethodInvocation MethodInvocation SimpleName entity vertex
+atlas vertex SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName entity vertices
+entity vertex SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName entity vertices
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName get propagated entities
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas vertex
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName classification vertex
+public Modifier MethodDeclaration Block ReturnStatement SimpleName ret
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+static Modifier MethodDeclaration SimpleName get propagated entities
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas vertex
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName classification vertex
+static Modifier MethodDeclaration Block ReturnStatement SimpleName ret
+list SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get propagated entities
+string SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get propagated entities
+get propagated entities SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas vertex
+get propagated entities SimpleName MethodDeclaration SingleVariableDeclaration SimpleName classification vertex
+get propagated entities SimpleName MethodDeclaration Block ReturnStatement SimpleName ret
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleName get propagated entities
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName classification vertex
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get propagated entities
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName classification vertex

@@ -1,0 +1,500 @@
+tree map SimpleName SimpleType ParameterizedType SimpleType SimpleName key
+tree map SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+key SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+tree map SimpleName SimpleType ParameterizedType SimpleType SimpleName key
+tree map SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+key SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+nkv SimpleName MethodInvocation SimpleName tm
+nkv SimpleName MethodInvocation StringLiteral boo
+nkv SimpleName MethodInvocation StringLiteral yup
+nkv SimpleName MethodInvocation StringLiteral empty
+nkv SimpleName MethodInvocation StringLiteral dog
+tm SimpleName MethodInvocation StringLiteral boo
+tm SimpleName MethodInvocation StringLiteral yup
+tm SimpleName MethodInvocation StringLiteral empty
+tm SimpleName MethodInvocation StringLiteral dog
+boo StringLiteral MethodInvocation StringLiteral yup
+boo StringLiteral MethodInvocation StringLiteral empty
+boo StringLiteral MethodInvocation StringLiteral dog
+yup StringLiteral MethodInvocation StringLiteral empty
+yup StringLiteral MethodInvocation StringLiteral dog
+empty StringLiteral MethodInvocation StringLiteral dog
+k SimpleName VariableDeclarationFragment MethodInvocation SimpleName nkv
+k SimpleName VariableDeclarationFragment MethodInvocation SimpleName tm
+k SimpleName VariableDeclarationFragment MethodInvocation StringLiteral boo
+k SimpleName VariableDeclarationFragment MethodInvocation StringLiteral yup
+k SimpleName VariableDeclarationFragment MethodInvocation StringLiteral empty
+k SimpleName VariableDeclarationFragment MethodInvocation StringLiteral dog
+key SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName k
+nkv SimpleName MethodInvocation SimpleName tm
+nkv SimpleName MethodInvocation StringLiteral boo
+nkv SimpleName MethodInvocation StringLiteral yap
+nkv SimpleName MethodInvocation StringLiteral empty
+nkv SimpleName MethodInvocation StringLiteral cat
+tm SimpleName MethodInvocation StringLiteral boo
+tm SimpleName MethodInvocation StringLiteral yap
+tm SimpleName MethodInvocation StringLiteral empty
+tm SimpleName MethodInvocation StringLiteral cat
+boo StringLiteral MethodInvocation StringLiteral yap
+boo StringLiteral MethodInvocation StringLiteral empty
+boo StringLiteral MethodInvocation StringLiteral cat
+yap StringLiteral MethodInvocation StringLiteral empty
+yap StringLiteral MethodInvocation StringLiteral cat
+empty StringLiteral MethodInvocation StringLiteral cat
+k SimpleName VariableDeclarationFragment MethodInvocation SimpleName nkv
+k SimpleName VariableDeclarationFragment MethodInvocation SimpleName tm
+k SimpleName VariableDeclarationFragment MethodInvocation StringLiteral boo
+k SimpleName VariableDeclarationFragment MethodInvocation StringLiteral yap
+k SimpleName VariableDeclarationFragment MethodInvocation StringLiteral empty
+k SimpleName VariableDeclarationFragment MethodInvocation StringLiteral cat
+key SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName k
+nkv SimpleName MethodInvocation SimpleName tm
+nkv SimpleName MethodInvocation StringLiteral boo
+nkv SimpleName MethodInvocation StringLiteral yip
+nkv SimpleName MethodInvocation StringLiteral empty
+nkv SimpleName MethodInvocation StringLiteral hamster
+tm SimpleName MethodInvocation StringLiteral boo
+tm SimpleName MethodInvocation StringLiteral yip
+tm SimpleName MethodInvocation StringLiteral empty
+tm SimpleName MethodInvocation StringLiteral hamster
+boo StringLiteral MethodInvocation StringLiteral yip
+boo StringLiteral MethodInvocation StringLiteral empty
+boo StringLiteral MethodInvocation StringLiteral hamster
+yip StringLiteral MethodInvocation StringLiteral empty
+yip StringLiteral MethodInvocation StringLiteral hamster
+empty StringLiteral MethodInvocation StringLiteral hamster
+k SimpleName VariableDeclarationFragment MethodInvocation SimpleName nkv
+k SimpleName VariableDeclarationFragment MethodInvocation SimpleName tm
+k SimpleName VariableDeclarationFragment MethodInvocation StringLiteral boo
+k SimpleName VariableDeclarationFragment MethodInvocation StringLiteral yip
+k SimpleName VariableDeclarationFragment MethodInvocation StringLiteral empty
+k SimpleName VariableDeclarationFragment MethodInvocation StringLiteral hamster
+key SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName k
+sorted map iterator SimpleName SimpleType ClassInstanceCreation SimpleName tm
+reg ex filter SimpleName SimpleType ClassInstanceCreation ClassInstanceCreation SimpleName tm
+rei SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName reg ex filter
+rei SimpleName VariableDeclarationFragment ClassInstanceCreation ClassInstanceCreation SimpleName tm
+reg ex filter SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName rei
+rei SimpleName MethodInvocation SimpleName describe options
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+options SimpleName MethodInvocation SimpleName put
+options SimpleName MethodInvocation QualifiedName reg ex filterrow regex
+options SimpleName MethodInvocation StringLiteral .*
+put SimpleName MethodInvocation QualifiedName reg ex filterrow regex
+put SimpleName MethodInvocation StringLiteral .*
+reg ex filterrow regex QualifiedName MethodInvocation StringLiteral .*
+rei SimpleName MethodInvocation SimpleName validate options
+rei SimpleName MethodInvocation SimpleName options
+validate options SimpleName MethodInvocation SimpleName options
+sorted map iterator SimpleName SimpleType ClassInstanceCreation SimpleName tm
+rei SimpleName MethodInvocation SimpleName init
+rei SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName sorted map iterator
+rei SimpleName MethodInvocation ClassInstanceCreation SimpleName tm
+rei SimpleName MethodInvocation SimpleName options
+rei SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName default iterator environment
+init SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName sorted map iterator
+init SimpleName MethodInvocation ClassInstanceCreation SimpleName tm
+init SimpleName MethodInvocation SimpleName options
+init SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName default iterator environment
+sorted map iterator SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName options
+tm SimpleName ClassInstanceCreation MethodInvocation SimpleName options
+options SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName default iterator environment
+rei SimpleName MethodInvocation SimpleName seek
+rei SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName range
+rei SimpleName MethodInvocation SimpleName empty col fams
+rei SimpleName MethodInvocation BooleanLiteral false
+seek SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName range
+seek SimpleName MethodInvocation SimpleName empty col fams
+seek SimpleName MethodInvocation BooleanLiteral false
+range SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName empty col fams
+range SimpleName SimpleType ClassInstanceCreation MethodInvocation BooleanLiteral false
+empty col fams SimpleName MethodInvocation BooleanLiteral false
+rei SimpleName MethodInvocation SimpleName has top
+assert true SimpleName MethodInvocation MethodInvocation SimpleName rei
+assert true SimpleName MethodInvocation MethodInvocation SimpleName has top
+rei SimpleName MethodInvocation SimpleName get top key
+rei SimpleName MethodInvocation MethodInvocation SimpleName equals
+get top key SimpleName MethodInvocation MethodInvocation SimpleName equals
+rei SimpleName MethodInvocation MethodInvocation SimpleName k
+get top key SimpleName MethodInvocation MethodInvocation SimpleName k
+equals SimpleName MethodInvocation SimpleName k
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName rei
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get top key
+assert true SimpleName MethodInvocation MethodInvocation SimpleName equals
+assert true SimpleName MethodInvocation MethodInvocation SimpleName k
+rei SimpleName MethodInvocation SimpleName next
+rei SimpleName MethodInvocation SimpleName has top
+assert false SimpleName MethodInvocation MethodInvocation SimpleName rei
+assert false SimpleName MethodInvocation MethodInvocation SimpleName has top
+options SimpleName MethodInvocation SimpleName clear
+options SimpleName MethodInvocation SimpleName put
+options SimpleName MethodInvocation QualifiedName reg ex filtercolf regex
+options SimpleName MethodInvocation StringLiteral ya
+put SimpleName MethodInvocation QualifiedName reg ex filtercolf regex
+put SimpleName MethodInvocation StringLiteral ya
+reg ex filtercolf regex QualifiedName MethodInvocation StringLiteral ya
+rei SimpleName MethodInvocation SimpleName validate options
+rei SimpleName MethodInvocation SimpleName options
+validate options SimpleName MethodInvocation SimpleName options
+sorted map iterator SimpleName SimpleType ClassInstanceCreation SimpleName tm
+rei SimpleName MethodInvocation SimpleName init
+rei SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName sorted map iterator
+rei SimpleName MethodInvocation ClassInstanceCreation SimpleName tm
+rei SimpleName MethodInvocation SimpleName options
+rei SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName default iterator environment
+init SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName sorted map iterator
+init SimpleName MethodInvocation ClassInstanceCreation SimpleName tm
+init SimpleName MethodInvocation SimpleName options
+init SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName default iterator environment
+sorted map iterator SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName options
+tm SimpleName ClassInstanceCreation MethodInvocation SimpleName options
+options SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName default iterator environment
+rei SimpleName MethodInvocation SimpleName seek
+rei SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName range
+rei SimpleName MethodInvocation SimpleName empty col fams
+rei SimpleName MethodInvocation BooleanLiteral false
+seek SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName range
+seek SimpleName MethodInvocation SimpleName empty col fams
+seek SimpleName MethodInvocation BooleanLiteral false
+range SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName empty col fams
+range SimpleName SimpleType ClassInstanceCreation MethodInvocation BooleanLiteral false
+empty col fams SimpleName MethodInvocation BooleanLiteral false
+rei SimpleName MethodInvocation SimpleName has top
+assert true SimpleName MethodInvocation MethodInvocation SimpleName rei
+assert true SimpleName MethodInvocation MethodInvocation SimpleName has top
+rei SimpleName MethodInvocation SimpleName get top key
+rei SimpleName MethodInvocation MethodInvocation SimpleName equals
+get top key SimpleName MethodInvocation MethodInvocation SimpleName equals
+rei SimpleName MethodInvocation MethodInvocation SimpleName k
+get top key SimpleName MethodInvocation MethodInvocation SimpleName k
+equals SimpleName MethodInvocation SimpleName k
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName rei
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get top key
+assert true SimpleName MethodInvocation MethodInvocation SimpleName equals
+assert true SimpleName MethodInvocation MethodInvocation SimpleName k
+rei SimpleName MethodInvocation SimpleName next
+rei SimpleName MethodInvocation SimpleName has top
+assert false SimpleName MethodInvocation MethodInvocation SimpleName rei
+assert false SimpleName MethodInvocation MethodInvocation SimpleName has top
+options SimpleName MethodInvocation SimpleName clear
+options SimpleName MethodInvocation SimpleName put
+options SimpleName MethodInvocation QualifiedName reg ex filtercolq regex
+options SimpleName MethodInvocation StringLiteral .*
+put SimpleName MethodInvocation QualifiedName reg ex filtercolq regex
+put SimpleName MethodInvocation StringLiteral .*
+reg ex filtercolq regex QualifiedName MethodInvocation StringLiteral .*
+rei SimpleName MethodInvocation SimpleName validate options
+rei SimpleName MethodInvocation SimpleName options
+validate options SimpleName MethodInvocation SimpleName options
+sorted map iterator SimpleName SimpleType ClassInstanceCreation SimpleName tm
+rei SimpleName MethodInvocation SimpleName init
+rei SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName sorted map iterator
+rei SimpleName MethodInvocation ClassInstanceCreation SimpleName tm
+rei SimpleName MethodInvocation SimpleName options
+rei SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName default iterator environment
+init SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName sorted map iterator
+init SimpleName MethodInvocation ClassInstanceCreation SimpleName tm
+init SimpleName MethodInvocation SimpleName options
+init SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName default iterator environment
+sorted map iterator SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName options
+tm SimpleName ClassInstanceCreation MethodInvocation SimpleName options
+options SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName default iterator environment
+rei SimpleName MethodInvocation SimpleName seek
+rei SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName range
+rei SimpleName MethodInvocation SimpleName empty col fams
+rei SimpleName MethodInvocation BooleanLiteral false
+seek SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName range
+seek SimpleName MethodInvocation SimpleName empty col fams
+seek SimpleName MethodInvocation BooleanLiteral false
+range SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName empty col fams
+range SimpleName SimpleType ClassInstanceCreation MethodInvocation BooleanLiteral false
+empty col fams SimpleName MethodInvocation BooleanLiteral false
+rei SimpleName MethodInvocation SimpleName has top
+assert true SimpleName MethodInvocation MethodInvocation SimpleName rei
+assert true SimpleName MethodInvocation MethodInvocation SimpleName has top
+rei SimpleName MethodInvocation SimpleName get top key
+rei SimpleName MethodInvocation MethodInvocation SimpleName equals
+get top key SimpleName MethodInvocation MethodInvocation SimpleName equals
+rei SimpleName MethodInvocation MethodInvocation SimpleName k
+get top key SimpleName MethodInvocation MethodInvocation SimpleName k
+equals SimpleName MethodInvocation SimpleName k
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName rei
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get top key
+assert true SimpleName MethodInvocation MethodInvocation SimpleName equals
+assert true SimpleName MethodInvocation MethodInvocation SimpleName k
+rei SimpleName MethodInvocation SimpleName next
+rei SimpleName MethodInvocation SimpleName has top
+assert false SimpleName MethodInvocation MethodInvocation SimpleName rei
+assert false SimpleName MethodInvocation MethodInvocation SimpleName has top
+options SimpleName MethodInvocation SimpleName clear
+options SimpleName MethodInvocation SimpleName put
+options SimpleName MethodInvocation QualifiedName reg ex filtervalue regex
+options SimpleName MethodInvocation StringLiteral at
+put SimpleName MethodInvocation QualifiedName reg ex filtervalue regex
+put SimpleName MethodInvocation StringLiteral at
+reg ex filtervalue regex QualifiedName MethodInvocation StringLiteral at
+rei SimpleName MethodInvocation SimpleName validate options
+rei SimpleName MethodInvocation SimpleName options
+validate options SimpleName MethodInvocation SimpleName options
+sorted map iterator SimpleName SimpleType ClassInstanceCreation SimpleName tm
+rei SimpleName MethodInvocation SimpleName init
+rei SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName sorted map iterator
+rei SimpleName MethodInvocation ClassInstanceCreation SimpleName tm
+rei SimpleName MethodInvocation SimpleName options
+rei SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName default iterator environment
+init SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName sorted map iterator
+init SimpleName MethodInvocation ClassInstanceCreation SimpleName tm
+init SimpleName MethodInvocation SimpleName options
+init SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName default iterator environment
+sorted map iterator SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName options
+tm SimpleName ClassInstanceCreation MethodInvocation SimpleName options
+options SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName default iterator environment
+rei SimpleName MethodInvocation SimpleName seek
+rei SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName range
+rei SimpleName MethodInvocation SimpleName empty col fams
+rei SimpleName MethodInvocation BooleanLiteral false
+seek SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName range
+seek SimpleName MethodInvocation SimpleName empty col fams
+seek SimpleName MethodInvocation BooleanLiteral false
+range SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName empty col fams
+range SimpleName SimpleType ClassInstanceCreation MethodInvocation BooleanLiteral false
+empty col fams SimpleName MethodInvocation BooleanLiteral false
+rei SimpleName MethodInvocation SimpleName has top
+assert true SimpleName MethodInvocation MethodInvocation SimpleName rei
+assert true SimpleName MethodInvocation MethodInvocation SimpleName has top
+rei SimpleName MethodInvocation SimpleName get top key
+rei SimpleName MethodInvocation MethodInvocation SimpleName equals
+get top key SimpleName MethodInvocation MethodInvocation SimpleName equals
+rei SimpleName MethodInvocation MethodInvocation SimpleName k
+get top key SimpleName MethodInvocation MethodInvocation SimpleName k
+equals SimpleName MethodInvocation SimpleName k
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName rei
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get top key
+assert true SimpleName MethodInvocation MethodInvocation SimpleName equals
+assert true SimpleName MethodInvocation MethodInvocation SimpleName k
+rei SimpleName MethodInvocation SimpleName next
+rei SimpleName MethodInvocation SimpleName has top
+assert false SimpleName MethodInvocation MethodInvocation SimpleName rei
+assert false SimpleName MethodInvocation MethodInvocation SimpleName has top
+options SimpleName MethodInvocation SimpleName clear
+options SimpleName MethodInvocation SimpleName put
+options SimpleName MethodInvocation QualifiedName reg ex filtervalue regex
+options SimpleName MethodInvocation StringLiteral ap
+put SimpleName MethodInvocation QualifiedName reg ex filtervalue regex
+put SimpleName MethodInvocation StringLiteral ap
+reg ex filtervalue regex QualifiedName MethodInvocation StringLiteral ap
+sorted map iterator SimpleName SimpleType ClassInstanceCreation SimpleName tm
+rei SimpleName MethodInvocation SimpleName init
+rei SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName sorted map iterator
+rei SimpleName MethodInvocation ClassInstanceCreation SimpleName tm
+rei SimpleName MethodInvocation SimpleName options
+rei SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName default iterator environment
+init SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName sorted map iterator
+init SimpleName MethodInvocation ClassInstanceCreation SimpleName tm
+init SimpleName MethodInvocation SimpleName options
+init SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName default iterator environment
+sorted map iterator SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName options
+tm SimpleName ClassInstanceCreation MethodInvocation SimpleName options
+options SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName default iterator environment
+rei SimpleName MethodInvocation SimpleName seek
+rei SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName range
+rei SimpleName MethodInvocation SimpleName empty col fams
+rei SimpleName MethodInvocation BooleanLiteral false
+seek SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName range
+seek SimpleName MethodInvocation SimpleName empty col fams
+seek SimpleName MethodInvocation BooleanLiteral false
+range SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName empty col fams
+range SimpleName SimpleType ClassInstanceCreation MethodInvocation BooleanLiteral false
+empty col fams SimpleName MethodInvocation BooleanLiteral false
+rei SimpleName MethodInvocation SimpleName has top
+assert false SimpleName MethodInvocation MethodInvocation SimpleName rei
+assert false SimpleName MethodInvocation MethodInvocation SimpleName has top
+options SimpleName MethodInvocation SimpleName clear
+options SimpleName MethodInvocation SimpleName put
+options SimpleName MethodInvocation QualifiedName reg ex filtercolf regex
+options SimpleName MethodInvocation StringLiteral ya
+put SimpleName MethodInvocation QualifiedName reg ex filtercolf regex
+put SimpleName MethodInvocation StringLiteral ya
+reg ex filtercolf regex QualifiedName MethodInvocation StringLiteral ya
+options SimpleName MethodInvocation SimpleName put
+options SimpleName MethodInvocation QualifiedName reg ex filtervalue regex
+options SimpleName MethodInvocation StringLiteral at
+put SimpleName MethodInvocation QualifiedName reg ex filtervalue regex
+put SimpleName MethodInvocation StringLiteral at
+reg ex filtervalue regex QualifiedName MethodInvocation StringLiteral at
+sorted map iterator SimpleName SimpleType ClassInstanceCreation SimpleName tm
+rei SimpleName MethodInvocation SimpleName init
+rei SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName sorted map iterator
+rei SimpleName MethodInvocation ClassInstanceCreation SimpleName tm
+rei SimpleName MethodInvocation SimpleName options
+rei SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName default iterator environment
+init SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName sorted map iterator
+init SimpleName MethodInvocation ClassInstanceCreation SimpleName tm
+init SimpleName MethodInvocation SimpleName options
+init SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName default iterator environment
+sorted map iterator SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName options
+tm SimpleName ClassInstanceCreation MethodInvocation SimpleName options
+options SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName default iterator environment
+rei SimpleName MethodInvocation SimpleName seek
+rei SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName range
+rei SimpleName MethodInvocation SimpleName empty col fams
+rei SimpleName MethodInvocation BooleanLiteral false
+seek SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName range
+seek SimpleName MethodInvocation SimpleName empty col fams
+seek SimpleName MethodInvocation BooleanLiteral false
+range SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName empty col fams
+range SimpleName SimpleType ClassInstanceCreation MethodInvocation BooleanLiteral false
+empty col fams SimpleName MethodInvocation BooleanLiteral false
+rei SimpleName MethodInvocation SimpleName has top
+assert true SimpleName MethodInvocation MethodInvocation SimpleName rei
+assert true SimpleName MethodInvocation MethodInvocation SimpleName has top
+rei SimpleName MethodInvocation SimpleName get top key
+rei SimpleName MethodInvocation MethodInvocation SimpleName equals
+get top key SimpleName MethodInvocation MethodInvocation SimpleName equals
+rei SimpleName MethodInvocation MethodInvocation SimpleName k
+get top key SimpleName MethodInvocation MethodInvocation SimpleName k
+equals SimpleName MethodInvocation SimpleName k
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName rei
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get top key
+assert true SimpleName MethodInvocation MethodInvocation SimpleName equals
+assert true SimpleName MethodInvocation MethodInvocation SimpleName k
+rei SimpleName MethodInvocation SimpleName next
+rei SimpleName MethodInvocation SimpleName has top
+assert false SimpleName MethodInvocation MethodInvocation SimpleName rei
+assert false SimpleName MethodInvocation MethodInvocation SimpleName has top
+options SimpleName MethodInvocation SimpleName clear
+options SimpleName MethodInvocation SimpleName put
+options SimpleName MethodInvocation QualifiedName reg ex filtercolf regex
+options SimpleName MethodInvocation StringLiteral ya
+put SimpleName MethodInvocation QualifiedName reg ex filtercolf regex
+put SimpleName MethodInvocation StringLiteral ya
+reg ex filtercolf regex QualifiedName MethodInvocation StringLiteral ya
+options SimpleName MethodInvocation SimpleName put
+options SimpleName MethodInvocation QualifiedName reg ex filtervalue regex
+options SimpleName MethodInvocation StringLiteral ap
+put SimpleName MethodInvocation QualifiedName reg ex filtervalue regex
+put SimpleName MethodInvocation StringLiteral ap
+reg ex filtervalue regex QualifiedName MethodInvocation StringLiteral ap
+sorted map iterator SimpleName SimpleType ClassInstanceCreation SimpleName tm
+rei SimpleName MethodInvocation SimpleName init
+rei SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName sorted map iterator
+rei SimpleName MethodInvocation ClassInstanceCreation SimpleName tm
+rei SimpleName MethodInvocation SimpleName options
+rei SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName default iterator environment
+init SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName sorted map iterator
+init SimpleName MethodInvocation ClassInstanceCreation SimpleName tm
+init SimpleName MethodInvocation SimpleName options
+init SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName default iterator environment
+sorted map iterator SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName options
+tm SimpleName ClassInstanceCreation MethodInvocation SimpleName options
+options SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName default iterator environment
+rei SimpleName MethodInvocation SimpleName seek
+rei SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName range
+rei SimpleName MethodInvocation SimpleName empty col fams
+rei SimpleName MethodInvocation BooleanLiteral false
+seek SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName range
+seek SimpleName MethodInvocation SimpleName empty col fams
+seek SimpleName MethodInvocation BooleanLiteral false
+range SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName empty col fams
+range SimpleName SimpleType ClassInstanceCreation MethodInvocation BooleanLiteral false
+empty col fams SimpleName MethodInvocation BooleanLiteral false
+rei SimpleName MethodInvocation SimpleName has top
+assert false SimpleName MethodInvocation MethodInvocation SimpleName rei
+assert false SimpleName MethodInvocation MethodInvocation SimpleName has top
+options SimpleName MethodInvocation SimpleName clear
+options SimpleName MethodInvocation SimpleName put
+options SimpleName MethodInvocation QualifiedName reg ex filterrow regex
+options SimpleName MethodInvocation StringLiteral boo
+put SimpleName MethodInvocation QualifiedName reg ex filterrow regex
+put SimpleName MethodInvocation StringLiteral boo
+reg ex filterrow regex QualifiedName MethodInvocation StringLiteral boo
+sorted map iterator SimpleName SimpleType ClassInstanceCreation SimpleName tm
+rei SimpleName MethodInvocation SimpleName init
+rei SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName sorted map iterator
+rei SimpleName MethodInvocation ClassInstanceCreation SimpleName tm
+rei SimpleName MethodInvocation SimpleName options
+rei SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName default iterator environment
+init SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName sorted map iterator
+init SimpleName MethodInvocation ClassInstanceCreation SimpleName tm
+init SimpleName MethodInvocation SimpleName options
+init SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName default iterator environment
+sorted map iterator SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName options
+tm SimpleName ClassInstanceCreation MethodInvocation SimpleName options
+options SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName default iterator environment
+rei SimpleName MethodInvocation SimpleName seek
+rei SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName range
+rei SimpleName MethodInvocation SimpleName empty col fams
+rei SimpleName MethodInvocation BooleanLiteral false
+seek SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName range
+seek SimpleName MethodInvocation SimpleName empty col fams
+seek SimpleName MethodInvocation BooleanLiteral false
+range SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName empty col fams
+range SimpleName SimpleType ClassInstanceCreation MethodInvocation BooleanLiteral false
+empty col fams SimpleName MethodInvocation BooleanLiteral false
+rei SimpleName MethodInvocation SimpleName has top
+assert true SimpleName MethodInvocation MethodInvocation SimpleName rei
+assert true SimpleName MethodInvocation MethodInvocation SimpleName has top
+rei SimpleName MethodInvocation SimpleName get top key
+rei SimpleName MethodInvocation MethodInvocation SimpleName equals
+get top key SimpleName MethodInvocation MethodInvocation SimpleName equals
+rei SimpleName MethodInvocation MethodInvocation SimpleName k
+get top key SimpleName MethodInvocation MethodInvocation SimpleName k
+equals SimpleName MethodInvocation SimpleName k
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName rei
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get top key
+assert true SimpleName MethodInvocation MethodInvocation SimpleName equals
+assert true SimpleName MethodInvocation MethodInvocation SimpleName k
+rei SimpleName MethodInvocation SimpleName next
+rei SimpleName MethodInvocation SimpleName has top
+assert true SimpleName MethodInvocation MethodInvocation SimpleName rei
+assert true SimpleName MethodInvocation MethodInvocation SimpleName has top
+rei SimpleName MethodInvocation SimpleName get top key
+rei SimpleName MethodInvocation MethodInvocation SimpleName equals
+get top key SimpleName MethodInvocation MethodInvocation SimpleName equals
+rei SimpleName MethodInvocation MethodInvocation SimpleName k
+get top key SimpleName MethodInvocation MethodInvocation SimpleName k
+equals SimpleName MethodInvocation SimpleName k
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName rei
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get top key
+assert true SimpleName MethodInvocation MethodInvocation SimpleName equals
+assert true SimpleName MethodInvocation MethodInvocation SimpleName k
+rei SimpleName MethodInvocation SimpleName next
+rei SimpleName MethodInvocation SimpleName has top
+assert false SimpleName MethodInvocation MethodInvocation SimpleName rei
+assert false SimpleName MethodInvocation MethodInvocation SimpleName has top
+options SimpleName MethodInvocation SimpleName clear
+sorted map iterator SimpleName SimpleType ClassInstanceCreation SimpleName tm
+rei SimpleName MethodInvocation SimpleName init
+rei SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName sorted map iterator
+rei SimpleName MethodInvocation ClassInstanceCreation SimpleName tm
+rei SimpleName MethodInvocation SimpleName options
+rei SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName default iterator environment
+init SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName sorted map iterator
+init SimpleName MethodInvocation ClassInstanceCreation SimpleName tm
+init SimpleName MethodInvocation SimpleName options
+init SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName default iterator environment
+sorted map iterator SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName options
+tm SimpleName ClassInstanceCreation MethodInvocation SimpleName options
+options SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName default iterator environment
+rei SimpleName MethodInvocation SimpleName seek
+rei SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName range
+rei SimpleName MethodInvocation SimpleName empty col fams
+rei SimpleName MethodInvocation BooleanLiteral false
+seek SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName range
+seek SimpleName MethodInvocation SimpleName empty col fams
+seek SimpleName MethodInvocation BooleanLiteral false
+range SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName empty col fams
+range SimpleName SimpleType ClassInstanceCreation MethodInvocation BooleanLiteral false
+empty col fams SimpleName MethodInvocation BooleanLiteral false
+rei SimpleName MethodInvocation SimpleName has top
+assert true SimpleName MethodInvocation MethodInvocation SimpleName rei
+assert true SimpleName MethodInvocation MethodInvocation SimpleName has top
+rei SimpleName MethodInvocation SimpleName get top key
+rei SimpleName MethodInvocation MethodInvocation SimpleName equals
+get top key SimpleName MethodInvocation MethodInvocation SimpleName equals
+rei SimpleName MethodInvocation MethodInvocation SimpleName k

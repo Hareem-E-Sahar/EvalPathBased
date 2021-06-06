@@ -1,0 +1,500 @@
+get connector SimpleName MethodInvocation MethodInvocation SimpleName create batch writer
+get connector SimpleName MethodInvocation MethodInvocation StringLiteral ct
+create batch writer SimpleName MethodInvocation StringLiteral ct
+create batch writer SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName batch writer config
+ct StringLiteral MethodInvocation ClassInstanceCreation SimpleType SimpleName batch writer config
+bw SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get connector
+bw SimpleName VariableDeclarationFragment MethodInvocation SimpleName create batch writer
+bw SimpleName VariableDeclarationFragment MethodInvocation StringLiteral ct
+batch writer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName bw
+text SimpleName SimpleType ClassInstanceCreation StringLiteral r
+mutation SimpleName SimpleType ClassInstanceCreation ClassInstanceCreation StringLiteral r
+mut SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName mutation
+mut SimpleName VariableDeclarationFragment ClassInstanceCreation ClassInstanceCreation StringLiteral r
+mutation SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName mut
+text SimpleName SimpleType ClassInstanceCreation StringLiteral cf
+text SimpleName SimpleType ClassInstanceCreation StringLiteral cq
+empty StringLiteral MethodInvocation SimpleName get bytes
+value SimpleName SimpleType ClassInstanceCreation MethodInvocation StringLiteral empty
+value SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get bytes
+mut SimpleName MethodInvocation SimpleName put
+mut SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName text
+mut SimpleName MethodInvocation ClassInstanceCreation StringLiteral cf
+mut SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName text
+mut SimpleName MethodInvocation ClassInstanceCreation StringLiteral cq
+mut SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName value
+mut SimpleName MethodInvocation ClassInstanceCreation MethodInvocation StringLiteral empty
+mut SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get bytes
+put SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName text
+put SimpleName MethodInvocation ClassInstanceCreation StringLiteral cf
+put SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName text
+put SimpleName MethodInvocation ClassInstanceCreation StringLiteral cq
+put SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName value
+put SimpleName MethodInvocation ClassInstanceCreation MethodInvocation StringLiteral empty
+put SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get bytes
+cf StringLiteral ClassInstanceCreation MethodInvocation ClassInstanceCreation StringLiteral cq
+bw SimpleName MethodInvocation SimpleName add mutation
+bw SimpleName MethodInvocation SimpleName mut
+add mutation SimpleName MethodInvocation SimpleName mut
+bw SimpleName MethodInvocation SimpleName close
+get connector SimpleName MethodInvocation MethodInvocation SimpleName create batch writer
+get connector SimpleName MethodInvocation MethodInvocation StringLiteral ct
+create batch writer SimpleName MethodInvocation StringLiteral ct
+create batch writer SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName batch writer config
+ct StringLiteral MethodInvocation ClassInstanceCreation SimpleType SimpleName batch writer config
+bw SimpleName Assignment MethodInvocation MethodInvocation SimpleName get connector
+bw SimpleName Assignment MethodInvocation SimpleName create batch writer
+bw SimpleName Assignment MethodInvocation StringLiteral ct
+text SimpleName SimpleType ClassInstanceCreation StringLiteral r
+mutation SimpleName SimpleType ClassInstanceCreation ClassInstanceCreation StringLiteral r
+mut SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName mutation
+mut SimpleName VariableDeclarationFragment ClassInstanceCreation ClassInstanceCreation StringLiteral r
+mutation SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName mut
+text SimpleName SimpleType ClassInstanceCreation StringLiteral cf
+text SimpleName SimpleType ClassInstanceCreation StringLiteral cq
+a StringLiteral MethodInvocation SimpleName get bytes
+value SimpleName SimpleType ClassInstanceCreation MethodInvocation StringLiteral a
+value SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get bytes
+mut SimpleName MethodInvocation SimpleName put
+mut SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName text
+mut SimpleName MethodInvocation ClassInstanceCreation StringLiteral cf
+mut SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName text
+mut SimpleName MethodInvocation ClassInstanceCreation StringLiteral cq
+mut SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName value
+mut SimpleName MethodInvocation ClassInstanceCreation MethodInvocation StringLiteral a
+mut SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get bytes
+put SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName text
+put SimpleName MethodInvocation ClassInstanceCreation StringLiteral cf
+put SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName text
+put SimpleName MethodInvocation ClassInstanceCreation StringLiteral cq
+put SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName value
+put SimpleName MethodInvocation ClassInstanceCreation MethodInvocation StringLiteral a
+put SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get bytes
+cf StringLiteral ClassInstanceCreation MethodInvocation ClassInstanceCreation StringLiteral cq
+bw SimpleName MethodInvocation SimpleName add mutation
+bw SimpleName MethodInvocation SimpleName mut
+add mutation SimpleName MethodInvocation SimpleName mut
+saw mre SimpleName VariableDeclarationFragment BooleanLiteral false
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName saw mre
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment BooleanLiteral false
+bw SimpleName MethodInvocation SimpleName close
+exception SimpleName SimpleType ClassInstanceCreation StringLiteral test failed constraint did not catch bad mutation
+mutations rejected exception SimpleName SimpleType SingleVariableDeclaration SimpleName mre
+saw mre SimpleName Assignment BooleanLiteral true
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName constraint violation summary
+mre SimpleName MethodInvocation SimpleName get constraint violation summaries
+cvsl SimpleName VariableDeclarationFragment MethodInvocation SimpleName mre
+cvsl SimpleName VariableDeclarationFragment MethodInvocation SimpleName get constraint violation summaries
+cvsl SimpleName MethodInvocation SimpleName size
+cvsl SimpleName MethodInvocation InfixExpression NumberLiteral empty
+size SimpleName MethodInvocation InfixExpression NumberLiteral empty
+exception SimpleName SimpleType ClassInstanceCreation StringLiteral unexpected constraints
+constraint violation summary SimpleName SimpleType SingleVariableDeclaration SimpleName cvs
+cvsconstrain class QualifiedName MethodInvocation SimpleName equals
+cvsconstrain class QualifiedName MethodInvocation StringLiteral orgapacheaccumuloexamplessimpleconstraintsnumeric value constraint
+equals SimpleName MethodInvocation StringLiteral orgapacheaccumuloexamplessimpleconstraintsnumeric value constraint
+unexpected constraint class StringLiteral InfixExpression QualifiedName cvsconstrain class
+exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral unexpected constraint class
+exception SimpleName SimpleType ClassInstanceCreation InfixExpression QualifiedName cvsconstrain class
+cvsnumber of violating mutations QualifiedName InfixExpression NumberLiteral empty
+unexpected # violating mutations StringLiteral InfixExpression QualifiedName cvsnumber of violating mutations
+exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral unexpected # violating mutations
+exception SimpleName SimpleType ClassInstanceCreation InfixExpression QualifiedName cvsnumber of violating mutations
+constraint violation summary SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName cvsl
+cvs SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName cvsl
+exception SimpleName SimpleType ClassInstanceCreation StringLiteral did not see mutations rejected exception
+get connector SimpleName MethodInvocation MethodInvocation SimpleName create scanner
+get connector SimpleName MethodInvocation MethodInvocation StringLiteral ct
+get connector SimpleName MethodInvocation MethodInvocation QualifiedName authorizationsempty
+create scanner SimpleName MethodInvocation StringLiteral ct
+create scanner SimpleName MethodInvocation QualifiedName authorizationsempty
+ct StringLiteral MethodInvocation QualifiedName authorizationsempty
+scanner SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get connector
+scanner SimpleName VariableDeclarationFragment MethodInvocation SimpleName create scanner
+scanner SimpleName VariableDeclarationFragment MethodInvocation StringLiteral ct
+scanner SimpleName VariableDeclarationFragment MethodInvocation QualifiedName authorizationsempty
+scanner SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName scanner
+text SimpleName SimpleType ClassInstanceCreation StringLiteral r
+range SimpleName SimpleType ClassInstanceCreation ClassInstanceCreation StringLiteral r
+scanner SimpleName MethodInvocation SimpleName set range
+scanner SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName range
+scanner SimpleName MethodInvocation ClassInstanceCreation ClassInstanceCreation StringLiteral r
+set range SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName range
+set range SimpleName MethodInvocation ClassInstanceCreation ClassInstanceCreation StringLiteral r
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName key
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+key SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+scanner SimpleName MethodInvocation SimpleName iterator
+iter SimpleName VariableDeclarationFragment MethodInvocation SimpleName scanner
+iter SimpleName VariableDeclarationFragment MethodInvocation SimpleName iterator
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName key
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+key SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+iter SimpleName MethodInvocation SimpleName next
+entry SimpleName VariableDeclarationFragment MethodInvocation SimpleName iter
+entry SimpleName VariableDeclarationFragment MethodInvocation SimpleName next
+entry SimpleName MethodInvocation SimpleName get key
+entry SimpleName MethodInvocation MethodInvocation SimpleName get row
+get key SimpleName MethodInvocation MethodInvocation SimpleName get row
+text SimpleName SimpleType ClassInstanceCreation StringLiteral r
+entry SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName equals
+get key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName equals
+get row SimpleName MethodInvocation MethodInvocation SimpleName equals
+get row SimpleName MethodInvocation MethodInvocation ClassInstanceCreation StringLiteral r
+equals SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName text
+equals SimpleName MethodInvocation ClassInstanceCreation StringLiteral r
+entry SimpleName MethodInvocation SimpleName get key
+entry SimpleName MethodInvocation MethodInvocation SimpleName get column family
+get key SimpleName MethodInvocation MethodInvocation SimpleName get column family
+text SimpleName SimpleType ClassInstanceCreation StringLiteral cf
+entry SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName equals
+get key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName equals
+get column family SimpleName MethodInvocation MethodInvocation SimpleName equals
+get column family SimpleName MethodInvocation MethodInvocation ClassInstanceCreation StringLiteral cf
+equals SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName text
+equals SimpleName MethodInvocation ClassInstanceCreation StringLiteral cf
+entry SimpleName MethodInvocation SimpleName get key
+entry SimpleName MethodInvocation MethodInvocation SimpleName get column qualifier
+get key SimpleName MethodInvocation MethodInvocation SimpleName get column qualifier
+text SimpleName SimpleType ClassInstanceCreation StringLiteral cq
+entry SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName equals
+get key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName equals
+get column qualifier SimpleName MethodInvocation MethodInvocation SimpleName equals
+get column qualifier SimpleName MethodInvocation MethodInvocation ClassInstanceCreation StringLiteral cq
+equals SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName text
+equals SimpleName MethodInvocation ClassInstanceCreation StringLiteral cq
+entry SimpleName MethodInvocation SimpleName get value
+empty StringLiteral MethodInvocation SimpleName get bytes
+value SimpleName SimpleType ClassInstanceCreation MethodInvocation StringLiteral empty
+value SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get bytes
+entry SimpleName MethodInvocation MethodInvocation SimpleName equals
+get value SimpleName MethodInvocation MethodInvocation SimpleName equals
+equals SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName value
+equals SimpleName MethodInvocation ClassInstanceCreation MethodInvocation StringLiteral empty
+equals SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get bytes
+entry SimpleName MethodInvocation SimpleName get key
+entry SimpleName MethodInvocation SimpleName get value
+unexpected key or value StringLiteral InfixExpression MethodInvocation SimpleName entry
+unexpected key or value StringLiteral InfixExpression MethodInvocation SimpleName get key
+unexpected key or value StringLiteral InfixExpression StringLiteral empty
+unexpected key or value StringLiteral InfixExpression MethodInvocation SimpleName entry
+unexpected key or value StringLiteral InfixExpression MethodInvocation SimpleName get value
+entry SimpleName MethodInvocation InfixExpression StringLiteral empty
+get key SimpleName MethodInvocation InfixExpression StringLiteral empty
+entry SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName entry
+entry SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get value
+get key SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName entry
+get key SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get value
+empty StringLiteral InfixExpression MethodInvocation SimpleName entry
+empty StringLiteral InfixExpression MethodInvocation SimpleName get value
+exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral unexpected key or value
+exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral empty
+iter SimpleName MethodInvocation SimpleName has next
+iter SimpleName MethodInvocation SimpleName next
+entry SimpleName Assignment MethodInvocation SimpleName iter
+entry SimpleName Assignment MethodInvocation SimpleName next
+entry SimpleName MethodInvocation SimpleName get key
+entry SimpleName MethodInvocation SimpleName get value
+unexpected extra key or value StringLiteral InfixExpression MethodInvocation SimpleName entry
+unexpected extra key or value StringLiteral InfixExpression MethodInvocation SimpleName get key
+unexpected extra key or value StringLiteral InfixExpression StringLiteral empty
+unexpected extra key or value StringLiteral InfixExpression MethodInvocation SimpleName entry
+unexpected extra key or value StringLiteral InfixExpression MethodInvocation SimpleName get value
+entry SimpleName MethodInvocation InfixExpression StringLiteral empty
+get key SimpleName MethodInvocation InfixExpression StringLiteral empty
+entry SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName entry
+entry SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get value
+get key SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName entry
+get key SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get value
+empty StringLiteral InfixExpression MethodInvocation SimpleName entry
+empty StringLiteral InfixExpression MethodInvocation SimpleName get value
+exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral unexpected extra key or value
+exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral empty
+get connector SimpleName MethodInvocation MethodInvocation SimpleName table operations
+get connector SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName remove constraint
+table operations SimpleName MethodInvocation MethodInvocation SimpleName remove constraint
+get connector SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral ct
+table operations SimpleName MethodInvocation MethodInvocation StringLiteral ct
+get connector SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+table operations SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+remove constraint SimpleName MethodInvocation StringLiteral ct
+remove constraint SimpleName MethodInvocation NumberLiteral empty
+ct StringLiteral MethodInvocation NumberLiteral empty
+util wait thread SimpleName MethodInvocation SimpleName sleep
+util wait thread SimpleName MethodInvocation NumberLiteral empty
+sleep SimpleName MethodInvocation NumberLiteral empty
+get connector SimpleName MethodInvocation MethodInvocation SimpleName create batch writer
+get connector SimpleName MethodInvocation MethodInvocation StringLiteral ct
+create batch writer SimpleName MethodInvocation StringLiteral ct
+create batch writer SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName batch writer config
+ct StringLiteral MethodInvocation ClassInstanceCreation SimpleType SimpleName batch writer config
+bw SimpleName Assignment MethodInvocation MethodInvocation SimpleName get connector
+bw SimpleName Assignment MethodInvocation SimpleName create batch writer
+bw SimpleName Assignment MethodInvocation StringLiteral ct
+bw SimpleName MethodInvocation SimpleName add mutation
+bw SimpleName MethodInvocation SimpleName mut
+add mutation SimpleName MethodInvocation SimpleName mut
+bw SimpleName MethodInvocation SimpleName close
+scanner SimpleName MethodInvocation SimpleName iterator
+iter SimpleName Assignment MethodInvocation SimpleName scanner
+iter SimpleName Assignment MethodInvocation SimpleName iterator
+iter SimpleName MethodInvocation SimpleName next
+entry SimpleName Assignment MethodInvocation SimpleName iter
+entry SimpleName Assignment MethodInvocation SimpleName next
+entry SimpleName MethodInvocation SimpleName get key
+entry SimpleName MethodInvocation MethodInvocation SimpleName get row
+get key SimpleName MethodInvocation MethodInvocation SimpleName get row
+text SimpleName SimpleType ClassInstanceCreation StringLiteral r
+entry SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName equals
+get key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName equals
+get row SimpleName MethodInvocation MethodInvocation SimpleName equals
+get row SimpleName MethodInvocation MethodInvocation ClassInstanceCreation StringLiteral r
+equals SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName text
+equals SimpleName MethodInvocation ClassInstanceCreation StringLiteral r
+entry SimpleName MethodInvocation SimpleName get key
+entry SimpleName MethodInvocation MethodInvocation SimpleName get column family
+get key SimpleName MethodInvocation MethodInvocation SimpleName get column family
+text SimpleName SimpleType ClassInstanceCreation StringLiteral cf
+entry SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName equals
+get key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName equals
+get column family SimpleName MethodInvocation MethodInvocation SimpleName equals
+get column family SimpleName MethodInvocation MethodInvocation ClassInstanceCreation StringLiteral cf
+equals SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName text
+equals SimpleName MethodInvocation ClassInstanceCreation StringLiteral cf
+entry SimpleName MethodInvocation SimpleName get key
+entry SimpleName MethodInvocation MethodInvocation SimpleName get column qualifier
+get key SimpleName MethodInvocation MethodInvocation SimpleName get column qualifier
+text SimpleName SimpleType ClassInstanceCreation StringLiteral cq
+entry SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName equals
+get key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName equals
+get column qualifier SimpleName MethodInvocation MethodInvocation SimpleName equals
+get column qualifier SimpleName MethodInvocation MethodInvocation ClassInstanceCreation StringLiteral cq
+equals SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName text
+equals SimpleName MethodInvocation ClassInstanceCreation StringLiteral cq
+entry SimpleName MethodInvocation SimpleName get value
+a StringLiteral MethodInvocation SimpleName get bytes
+value SimpleName SimpleType ClassInstanceCreation MethodInvocation StringLiteral a
+value SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get bytes
+entry SimpleName MethodInvocation MethodInvocation SimpleName equals
+get value SimpleName MethodInvocation MethodInvocation SimpleName equals
+equals SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName value
+equals SimpleName MethodInvocation ClassInstanceCreation MethodInvocation StringLiteral a
+equals SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get bytes
+entry SimpleName MethodInvocation SimpleName get key
+entry SimpleName MethodInvocation SimpleName get value
+unexpected key or value StringLiteral InfixExpression MethodInvocation SimpleName entry
+unexpected key or value StringLiteral InfixExpression MethodInvocation SimpleName get key
+unexpected key or value StringLiteral InfixExpression StringLiteral empty
+unexpected key or value StringLiteral InfixExpression MethodInvocation SimpleName entry
+unexpected key or value StringLiteral InfixExpression MethodInvocation SimpleName get value
+entry SimpleName MethodInvocation InfixExpression StringLiteral empty
+get key SimpleName MethodInvocation InfixExpression StringLiteral empty
+entry SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName entry
+entry SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get value
+get key SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName entry
+get key SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get value
+empty StringLiteral InfixExpression MethodInvocation SimpleName entry
+empty StringLiteral InfixExpression MethodInvocation SimpleName get value
+exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral unexpected key or value
+exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral empty
+iter SimpleName MethodInvocation SimpleName has next
+iter SimpleName MethodInvocation SimpleName next
+entry SimpleName Assignment MethodInvocation SimpleName iter
+entry SimpleName Assignment MethodInvocation SimpleName next
+entry SimpleName MethodInvocation SimpleName get key
+entry SimpleName MethodInvocation SimpleName get value
+unexpected extra key or value StringLiteral InfixExpression MethodInvocation SimpleName entry
+unexpected extra key or value StringLiteral InfixExpression MethodInvocation SimpleName get key
+unexpected extra key or value StringLiteral InfixExpression StringLiteral empty
+unexpected extra key or value StringLiteral InfixExpression MethodInvocation SimpleName entry
+unexpected extra key or value StringLiteral InfixExpression MethodInvocation SimpleName get value
+entry SimpleName MethodInvocation InfixExpression StringLiteral empty
+get key SimpleName MethodInvocation InfixExpression StringLiteral empty
+entry SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName entry
+entry SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get value
+get key SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName entry
+get key SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get value
+empty StringLiteral InfixExpression MethodInvocation SimpleName entry
+empty StringLiteral InfixExpression MethodInvocation SimpleName get value
+exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral unexpected extra key or value
+exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral empty
+get connector SimpleName MethodInvocation MethodInvocation SimpleName table operations
+propertytable constraint prefix QualifiedName InfixExpression StringLiteral empty
+get connector SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName set property
+table operations SimpleName MethodInvocation MethodInvocation SimpleName set property
+get connector SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral ct
+table operations SimpleName MethodInvocation MethodInvocation StringLiteral ct
+table operations SimpleName MethodInvocation MethodInvocation InfixExpression QualifiedName propertytable constraint prefix
+table operations SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral empty
+get connector SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral comfoobarnon existant class
+table operations SimpleName MethodInvocation MethodInvocation StringLiteral comfoobarnon existant class
+set property SimpleName MethodInvocation StringLiteral ct
+set property SimpleName MethodInvocation InfixExpression QualifiedName propertytable constraint prefix
+set property SimpleName MethodInvocation InfixExpression StringLiteral empty
+set property SimpleName MethodInvocation StringLiteral comfoobarnon existant class
+ct StringLiteral MethodInvocation InfixExpression QualifiedName propertytable constraint prefix
+ct StringLiteral MethodInvocation InfixExpression StringLiteral empty
+ct StringLiteral MethodInvocation StringLiteral comfoobarnon existant class
+propertytable constraint prefix QualifiedName InfixExpression MethodInvocation StringLiteral comfoobarnon existant class
+empty StringLiteral InfixExpression MethodInvocation StringLiteral comfoobarnon existant class
+util wait thread SimpleName MethodInvocation SimpleName sleep
+util wait thread SimpleName MethodInvocation NumberLiteral empty
+sleep SimpleName MethodInvocation NumberLiteral empty
+get connector SimpleName MethodInvocation MethodInvocation SimpleName create batch writer
+get connector SimpleName MethodInvocation MethodInvocation StringLiteral ct
+create batch writer SimpleName MethodInvocation StringLiteral ct
+create batch writer SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName batch writer config
+ct StringLiteral MethodInvocation ClassInstanceCreation SimpleType SimpleName batch writer config
+bw SimpleName Assignment MethodInvocation MethodInvocation SimpleName get connector
+bw SimpleName Assignment MethodInvocation SimpleName create batch writer
+bw SimpleName Assignment MethodInvocation StringLiteral ct
+text SimpleName SimpleType ClassInstanceCreation StringLiteral r
+mutation SimpleName SimpleType ClassInstanceCreation ClassInstanceCreation StringLiteral r
+mut SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName mutation
+mut SimpleName VariableDeclarationFragment ClassInstanceCreation ClassInstanceCreation StringLiteral r
+mutation SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName mut
+text SimpleName SimpleType ClassInstanceCreation StringLiteral cf
+text SimpleName SimpleType ClassInstanceCreation StringLiteral cq
+foo StringLiteral MethodInvocation SimpleName get bytes
+value SimpleName SimpleType ClassInstanceCreation MethodInvocation StringLiteral foo
+value SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get bytes
+mut SimpleName MethodInvocation SimpleName put
+mut SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName text
+mut SimpleName MethodInvocation ClassInstanceCreation StringLiteral cf
+mut SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName text
+mut SimpleName MethodInvocation ClassInstanceCreation StringLiteral cq
+mut SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName value
+mut SimpleName MethodInvocation ClassInstanceCreation MethodInvocation StringLiteral foo
+mut SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get bytes
+put SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName text
+put SimpleName MethodInvocation ClassInstanceCreation StringLiteral cf
+put SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName text
+put SimpleName MethodInvocation ClassInstanceCreation StringLiteral cq
+put SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName value
+put SimpleName MethodInvocation ClassInstanceCreation MethodInvocation StringLiteral foo
+put SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get bytes
+cf StringLiteral ClassInstanceCreation MethodInvocation ClassInstanceCreation StringLiteral cq
+bw SimpleName MethodInvocation SimpleName add mutation
+bw SimpleName MethodInvocation SimpleName mut
+add mutation SimpleName MethodInvocation SimpleName mut
+saw mre SimpleName Assignment BooleanLiteral false
+bw SimpleName MethodInvocation SimpleName close
+exception SimpleName SimpleType ClassInstanceCreation StringLiteral test failed mutation went through when table had bad constraints
+mutations rejected exception SimpleName SimpleType SingleVariableDeclaration SimpleName mre
+saw mre SimpleName Assignment BooleanLiteral true
+exception SimpleName SimpleType ClassInstanceCreation StringLiteral did not see mutations rejected exception
+scanner SimpleName MethodInvocation SimpleName iterator
+iter SimpleName Assignment MethodInvocation SimpleName scanner
+iter SimpleName Assignment MethodInvocation SimpleName iterator
+iter SimpleName MethodInvocation SimpleName next
+entry SimpleName Assignment MethodInvocation SimpleName iter
+entry SimpleName Assignment MethodInvocation SimpleName next
+entry SimpleName MethodInvocation SimpleName get key
+entry SimpleName MethodInvocation MethodInvocation SimpleName get row
+get key SimpleName MethodInvocation MethodInvocation SimpleName get row
+text SimpleName SimpleType ClassInstanceCreation StringLiteral r
+entry SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName equals
+get key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName equals
+get row SimpleName MethodInvocation MethodInvocation SimpleName equals
+get row SimpleName MethodInvocation MethodInvocation ClassInstanceCreation StringLiteral r
+equals SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName text
+equals SimpleName MethodInvocation ClassInstanceCreation StringLiteral r
+entry SimpleName MethodInvocation SimpleName get key
+entry SimpleName MethodInvocation MethodInvocation SimpleName get column family
+get key SimpleName MethodInvocation MethodInvocation SimpleName get column family
+text SimpleName SimpleType ClassInstanceCreation StringLiteral cf
+entry SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName equals
+get key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName equals
+get column family SimpleName MethodInvocation MethodInvocation SimpleName equals
+get column family SimpleName MethodInvocation MethodInvocation ClassInstanceCreation StringLiteral cf
+equals SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName text
+equals SimpleName MethodInvocation ClassInstanceCreation StringLiteral cf
+entry SimpleName MethodInvocation SimpleName get key
+entry SimpleName MethodInvocation MethodInvocation SimpleName get column qualifier
+get key SimpleName MethodInvocation MethodInvocation SimpleName get column qualifier
+text SimpleName SimpleType ClassInstanceCreation StringLiteral cq
+entry SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName equals
+get key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName equals
+get column qualifier SimpleName MethodInvocation MethodInvocation SimpleName equals
+get column qualifier SimpleName MethodInvocation MethodInvocation ClassInstanceCreation StringLiteral cq
+equals SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName text
+equals SimpleName MethodInvocation ClassInstanceCreation StringLiteral cq
+entry SimpleName MethodInvocation SimpleName get value
+a StringLiteral MethodInvocation SimpleName get bytes
+value SimpleName SimpleType ClassInstanceCreation MethodInvocation StringLiteral a
+value SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get bytes
+entry SimpleName MethodInvocation MethodInvocation SimpleName equals
+get value SimpleName MethodInvocation MethodInvocation SimpleName equals
+equals SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName value
+equals SimpleName MethodInvocation ClassInstanceCreation MethodInvocation StringLiteral a
+equals SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get bytes
+entry SimpleName MethodInvocation SimpleName get key
+entry SimpleName MethodInvocation SimpleName get value
+unexpected key or value StringLiteral InfixExpression MethodInvocation SimpleName entry
+unexpected key or value StringLiteral InfixExpression MethodInvocation SimpleName get key
+unexpected key or value StringLiteral InfixExpression StringLiteral empty
+unexpected key or value StringLiteral InfixExpression MethodInvocation SimpleName entry
+unexpected key or value StringLiteral InfixExpression MethodInvocation SimpleName get value
+entry SimpleName MethodInvocation InfixExpression StringLiteral empty
+get key SimpleName MethodInvocation InfixExpression StringLiteral empty
+entry SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName entry
+entry SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get value
+get key SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName entry
+get key SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get value
+empty StringLiteral InfixExpression MethodInvocation SimpleName entry
+empty StringLiteral InfixExpression MethodInvocation SimpleName get value
+exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral unexpected key or value
+exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral empty
+iter SimpleName MethodInvocation SimpleName has next
+iter SimpleName MethodInvocation SimpleName next
+entry SimpleName Assignment MethodInvocation SimpleName iter
+entry SimpleName Assignment MethodInvocation SimpleName next
+entry SimpleName MethodInvocation SimpleName get key
+entry SimpleName MethodInvocation SimpleName get value
+unexpected extra key or value StringLiteral InfixExpression MethodInvocation SimpleName entry
+unexpected extra key or value StringLiteral InfixExpression MethodInvocation SimpleName get key
+unexpected extra key or value StringLiteral InfixExpression StringLiteral empty
+unexpected extra key or value StringLiteral InfixExpression MethodInvocation SimpleName entry
+unexpected extra key or value StringLiteral InfixExpression MethodInvocation SimpleName get value
+entry SimpleName MethodInvocation InfixExpression StringLiteral empty
+get key SimpleName MethodInvocation InfixExpression StringLiteral empty
+entry SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName entry
+entry SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get value
+get key SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName entry
+get key SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get value
+empty StringLiteral InfixExpression MethodInvocation SimpleName entry
+empty StringLiteral InfixExpression MethodInvocation SimpleName get value
+exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral unexpected extra key or value
+exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral empty
+get connector SimpleName MethodInvocation MethodInvocation SimpleName table operations
+propertytable constraint prefix QualifiedName InfixExpression StringLiteral empty
+get connector SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName remove property
+table operations SimpleName MethodInvocation MethodInvocation SimpleName remove property
+get connector SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral ct
+table operations SimpleName MethodInvocation MethodInvocation StringLiteral ct
+table operations SimpleName MethodInvocation MethodInvocation InfixExpression QualifiedName propertytable constraint prefix
+table operations SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral empty
+remove property SimpleName MethodInvocation StringLiteral ct
+remove property SimpleName MethodInvocation InfixExpression QualifiedName propertytable constraint prefix
+remove property SimpleName MethodInvocation InfixExpression StringLiteral empty
+ct StringLiteral MethodInvocation InfixExpression QualifiedName propertytable constraint prefix
+ct StringLiteral MethodInvocation InfixExpression StringLiteral empty
+util wait thread SimpleName MethodInvocation SimpleName sleep
+util wait thread SimpleName MethodInvocation NumberLiteral empty
+sleep SimpleName MethodInvocation NumberLiteral empty
+get connector SimpleName MethodInvocation MethodInvocation SimpleName create batch writer
+get connector SimpleName MethodInvocation MethodInvocation StringLiteral ct
+create batch writer SimpleName MethodInvocation StringLiteral ct
+create batch writer SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName batch writer config
+ct StringLiteral MethodInvocation ClassInstanceCreation SimpleType SimpleName batch writer config
+bw SimpleName Assignment MethodInvocation MethodInvocation SimpleName get connector
+bw SimpleName Assignment MethodInvocation SimpleName create batch writer
+bw SimpleName Assignment MethodInvocation StringLiteral ct
+bw SimpleName MethodInvocation SimpleName add mutation
+bw SimpleName MethodInvocation SimpleName mut
+add mutation SimpleName MethodInvocation SimpleName mut
+bw SimpleName MethodInvocation SimpleName close
+scanner SimpleName MethodInvocation SimpleName iterator
+iter SimpleName Assignment MethodInvocation SimpleName scanner
+iter SimpleName Assignment MethodInvocation SimpleName iterator
+iter SimpleName MethodInvocation SimpleName next

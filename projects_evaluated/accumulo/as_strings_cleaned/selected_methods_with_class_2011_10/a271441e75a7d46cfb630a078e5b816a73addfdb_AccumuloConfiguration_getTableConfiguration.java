@@ -1,0 +1,74 @@
+connector SimpleName SimpleType SingleVariableDeclaration SimpleName conn
+string SimpleName SimpleType SingleVariableDeclaration SimpleName table id
+conn SimpleName MethodInvocation SimpleName get instance
+tables SimpleName MethodInvocation SimpleName get table name
+tables SimpleName MethodInvocation MethodInvocation SimpleName conn
+tables SimpleName MethodInvocation MethodInvocation SimpleName get instance
+tables SimpleName MethodInvocation SimpleName table id
+get table name SimpleName MethodInvocation MethodInvocation SimpleName conn
+get table name SimpleName MethodInvocation MethodInvocation SimpleName get instance
+get table name SimpleName MethodInvocation SimpleName table id
+conn SimpleName MethodInvocation MethodInvocation SimpleName table id
+get instance SimpleName MethodInvocation MethodInvocation SimpleName table id
+table name SimpleName VariableDeclarationFragment MethodInvocation SimpleName tables
+table name SimpleName VariableDeclarationFragment MethodInvocation SimpleName get table name
+table name SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName conn
+table name SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get instance
+table name SimpleName VariableDeclarationFragment MethodInvocation SimpleName table id
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName table name
+conn SimpleName MethodInvocation SimpleName table operations
+conn SimpleName MethodInvocation MethodInvocation SimpleName get properties
+table operations SimpleName MethodInvocation MethodInvocation SimpleName get properties
+conn SimpleName MethodInvocation MethodInvocation SimpleName table name
+table operations SimpleName MethodInvocation MethodInvocation SimpleName table name
+get properties SimpleName MethodInvocation SimpleName table name
+configuration copy SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get properties
+configuration copy SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName table name
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName accumulo configuration
+public Modifier MethodDeclaration SimpleName get table configuration
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName connector
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName conn
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName table id
+static Modifier MethodDeclaration SimpleType SimpleName accumulo configuration
+static Modifier MethodDeclaration SimpleName get table configuration
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName connector
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName conn
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName table id
+static Modifier MethodDeclaration SimpleType SimpleName table not found exception
+accumulo configuration SimpleName SimpleType MethodDeclaration SimpleName get table configuration
+accumulo configuration SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName conn
+accumulo configuration SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName table id
+accumulo configuration SimpleName SimpleType MethodDeclaration SimpleType SimpleName table not found exception
+accumulo configuration SimpleName SimpleType MethodDeclaration SimpleType SimpleName accumulo exception
+get table configuration SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName connector
+get table configuration SimpleName MethodDeclaration SingleVariableDeclaration SimpleName conn
+get table configuration SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get table configuration SimpleName MethodDeclaration SingleVariableDeclaration SimpleName table id
+get table configuration SimpleName MethodDeclaration SimpleType SimpleName table not found exception
+get table configuration SimpleName MethodDeclaration SimpleType SimpleName accumulo exception
+conn SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table id
+conn SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName table not found exception
+conn SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+table id SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName table not found exception
+table id SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+table not found exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName accumulo exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo configuration
+public Modifier TypeDeclaration MethodDeclaration SimpleName get table configuration
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName conn
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table id
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName table not found exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo configuration
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get table configuration
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName conn
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table id
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName table not found exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo exception

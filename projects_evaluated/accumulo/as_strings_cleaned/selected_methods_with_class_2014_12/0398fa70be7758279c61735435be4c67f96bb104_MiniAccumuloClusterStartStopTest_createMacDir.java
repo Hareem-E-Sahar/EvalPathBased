@@ -1,0 +1,36 @@
+base dir SimpleName MethodInvocation SimpleName mkdirs
+test name SimpleName MethodInvocation SimpleName get method name
+file SimpleName SimpleType ClassInstanceCreation SimpleName base dir
+file SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName test name
+file SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get method name
+base dir SimpleName ClassInstanceCreation MethodInvocation SimpleName test name
+base dir SimpleName ClassInstanceCreation MethodInvocation SimpleName get method name
+test dir SimpleName Assignment ClassInstanceCreation SimpleType SimpleName file
+test dir SimpleName Assignment ClassInstanceCreation SimpleName base dir
+test dir SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName test name
+test dir SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName get method name
+file utils SimpleName MethodInvocation SimpleName delete quietly
+file utils SimpleName MethodInvocation SimpleName test dir
+delete quietly SimpleName MethodInvocation SimpleName test dir
+test dir SimpleName MethodInvocation SimpleName mkdir
+before SimpleName MarkerAnnotation MethodDeclaration Modifier public
+before SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+before SimpleName MarkerAnnotation MethodDeclaration SimpleName create mac dir
+before SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName io exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName create mac dir
+public Modifier MethodDeclaration SimpleType SimpleName io exception
+void PrimitiveType MethodDeclaration SimpleName create mac dir
+void PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+create mac dir SimpleName MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName before
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName create mac dir
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName before
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create mac dir
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

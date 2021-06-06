@@ -1,0 +1,58 @@
+sorted map SimpleName SimpleType ParameterizedType SimpleType SimpleName key extent
+sorted map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+key extent SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+sorted map SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName tablets
+key extent SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName tablets
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName tablets
+instance SimpleName MethodInvocation SimpleName get root tablet location
+tablets SimpleName MethodInvocation SimpleName put
+tablets SimpleName MethodInvocation QualifiedName root tableextent
+tablets SimpleName MethodInvocation MethodInvocation SimpleName instance
+tablets SimpleName MethodInvocation MethodInvocation SimpleName get root tablet location
+put SimpleName MethodInvocation QualifiedName root tableextent
+put SimpleName MethodInvocation MethodInvocation SimpleName instance
+put SimpleName MethodInvocation MethodInvocation SimpleName get root tablet location
+root tableextent QualifiedName MethodInvocation MethodInvocation SimpleName instance
+root tableextent QualifiedName MethodInvocation MethodInvocation SimpleName get root tablet location
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName get tablet locations
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName tablets
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName accumulo exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName get tablet locations
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName tablets
+public Modifier MethodDeclaration SimpleType SimpleName accumulo exception
+public Modifier MethodDeclaration SimpleType SimpleName accumulo security exception
+void PrimitiveType MethodDeclaration SimpleName get tablet locations
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName tablets
+void PrimitiveType MethodDeclaration SimpleType SimpleName accumulo exception
+void PrimitiveType MethodDeclaration SimpleType SimpleName accumulo security exception
+void PrimitiveType MethodDeclaration SimpleType SimpleName table not found exception
+get tablet locations SimpleName MethodDeclaration SingleVariableDeclaration SimpleName tablets
+get tablet locations SimpleName MethodDeclaration SimpleType SimpleName accumulo exception
+get tablet locations SimpleName MethodDeclaration SimpleType SimpleName accumulo security exception
+get tablet locations SimpleName MethodDeclaration SimpleType SimpleName table not found exception
+tablets SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+tablets SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+tablets SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName table not found exception
+accumulo exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName accumulo security exception
+accumulo exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName table not found exception
+accumulo security exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName table not found exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName get tablet locations
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName tablets
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName table not found exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get tablet locations
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName tablets
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName table not found exception

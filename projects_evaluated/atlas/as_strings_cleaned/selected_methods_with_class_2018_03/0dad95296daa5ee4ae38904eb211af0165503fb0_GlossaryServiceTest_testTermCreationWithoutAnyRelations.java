@@ -1,0 +1,51 @@
+groups SimpleName MemberValuePair StringLiteral glossarycreate
+depends on methods SimpleName MemberValuePair StringLiteral test create glossary
+test SimpleName NormalAnnotation MemberValuePair SimpleName groups
+test SimpleName NormalAnnotation MemberValuePair StringLiteral glossarycreate
+test SimpleName NormalAnnotation MemberValuePair SimpleName depends on methods
+test SimpleName NormalAnnotation MemberValuePair StringLiteral test create glossary
+groups SimpleName MemberValuePair NormalAnnotation MemberValuePair SimpleName depends on methods
+groups SimpleName MemberValuePair NormalAnnotation MemberValuePair StringLiteral test create glossary
+glossarycreate StringLiteral MemberValuePair NormalAnnotation MemberValuePair SimpleName depends on methods
+glossarycreate StringLiteral MemberValuePair NormalAnnotation MemberValuePair StringLiteral test create glossary
+glossary service SimpleName MethodInvocation SimpleName create term
+glossary service SimpleName MethodInvocation SimpleName checking account
+create term SimpleName MethodInvocation SimpleName checking account
+checking account SimpleName Assignment MethodInvocation SimpleName glossary service
+checking account SimpleName Assignment MethodInvocation SimpleName create term
+checking account SimpleName Assignment MethodInvocation SimpleName checking account
+assert not null SimpleName MethodInvocation SimpleName checking account
+checking account SimpleName MethodInvocation SimpleName get guid
+assert not null SimpleName MethodInvocation MethodInvocation SimpleName checking account
+assert not null SimpleName MethodInvocation MethodInvocation SimpleName get guid
+atlas base exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+fail SimpleName MethodInvocation StringLiteral term creation shouldve succeeded
+fail SimpleName MethodInvocation SimpleName e
+term creation shouldve succeeded StringLiteral MethodInvocation SimpleName e
+test SimpleName NormalAnnotation MethodDeclaration Modifier public
+groups SimpleName MemberValuePair NormalAnnotation MethodDeclaration Modifier public
+glossarycreate StringLiteral MemberValuePair NormalAnnotation MethodDeclaration Modifier public
+depends on methods SimpleName MemberValuePair NormalAnnotation MethodDeclaration Modifier public
+test create glossary StringLiteral MemberValuePair NormalAnnotation MethodDeclaration Modifier public
+test SimpleName NormalAnnotation MethodDeclaration PrimitiveType void
+groups SimpleName MemberValuePair NormalAnnotation MethodDeclaration PrimitiveType void
+glossarycreate StringLiteral MemberValuePair NormalAnnotation MethodDeclaration PrimitiveType void
+depends on methods SimpleName MemberValuePair NormalAnnotation MethodDeclaration PrimitiveType void
+test create glossary StringLiteral MemberValuePair NormalAnnotation MethodDeclaration PrimitiveType void
+test SimpleName NormalAnnotation MethodDeclaration SimpleName test term creation without any relations
+groups SimpleName MemberValuePair NormalAnnotation MethodDeclaration SimpleName test term creation without any relations
+glossarycreate StringLiteral MemberValuePair NormalAnnotation MethodDeclaration SimpleName test term creation without any relations
+depends on methods SimpleName MemberValuePair NormalAnnotation MethodDeclaration SimpleName test term creation without any relations
+test create glossary StringLiteral MemberValuePair NormalAnnotation MethodDeclaration SimpleName test term creation without any relations
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test term creation without any relations
+void PrimitiveType MethodDeclaration SimpleName test term creation without any relations
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration NormalAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test term creation without any relations
+test SimpleName TypeDeclaration MethodDeclaration NormalAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test term creation without any relations

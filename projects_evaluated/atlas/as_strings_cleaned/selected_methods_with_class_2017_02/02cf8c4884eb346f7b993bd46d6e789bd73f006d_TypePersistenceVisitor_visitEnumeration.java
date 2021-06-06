@@ -1,0 +1,98 @@
+enum type SimpleName SimpleType SingleVariableDeclaration SimpleName data type
+data type SimpleName MethodInvocation SimpleName get name
+type vertices SimpleName MethodInvocation SimpleName get
+type vertices SimpleName MethodInvocation MethodInvocation SimpleName data type
+type vertices SimpleName MethodInvocation MethodInvocation SimpleName get name
+get SimpleName MethodInvocation MethodInvocation SimpleName data type
+get SimpleName MethodInvocation MethodInvocation SimpleName get name
+vertex SimpleName VariableDeclarationFragment MethodInvocation SimpleName type vertices
+vertex SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+vertex SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName data type
+vertex SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get name
+atlas vertex SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName vertex
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+data type SimpleName MethodInvocation SimpleName values
+data type SimpleName MethodInvocation MethodInvocation SimpleName size
+values SimpleName MethodInvocation MethodInvocation SimpleName size
+values SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName size
+enum value SimpleName SimpleType SingleVariableDeclaration SimpleName enum value
+data type SimpleName MethodInvocation SimpleName values
+data type SimpleName MethodInvocation SimpleName get name
+graph backed type store SimpleName MethodInvocation SimpleName get property key
+graph backed type store SimpleName MethodInvocation MethodInvocation SimpleName data type
+graph backed type store SimpleName MethodInvocation MethodInvocation SimpleName get name
+graph backed type store SimpleName MethodInvocation QualifiedName enum valuevalue
+get property key SimpleName MethodInvocation MethodInvocation SimpleName data type
+get property key SimpleName MethodInvocation MethodInvocation SimpleName get name
+get property key SimpleName MethodInvocation QualifiedName enum valuevalue
+data type SimpleName MethodInvocation MethodInvocation QualifiedName enum valuevalue
+get name SimpleName MethodInvocation MethodInvocation QualifiedName enum valuevalue
+key SimpleName VariableDeclarationFragment MethodInvocation SimpleName graph backed type store
+key SimpleName VariableDeclarationFragment MethodInvocation SimpleName get property key
+key SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName data type
+key SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get name
+key SimpleName VariableDeclarationFragment MethodInvocation QualifiedName enum valuevalue
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName key
+set property SimpleName MethodInvocation SimpleName vertex
+set property SimpleName MethodInvocation SimpleName key
+set property SimpleName MethodInvocation QualifiedName enum valueordinal
+vertex SimpleName MethodInvocation SimpleName key
+vertex SimpleName MethodInvocation QualifiedName enum valueordinal
+key SimpleName MethodInvocation QualifiedName enum valueordinal
+values SimpleName MethodInvocation SimpleName add
+values SimpleName MethodInvocation QualifiedName enum valuevalue
+add SimpleName MethodInvocation QualifiedName enum valuevalue
+enum value SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName data type
+enum value SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName values
+data type SimpleName MethodInvocation SimpleName get name
+graph backed type store SimpleName MethodInvocation SimpleName get property key
+graph backed type store SimpleName MethodInvocation MethodInvocation SimpleName data type
+graph backed type store SimpleName MethodInvocation MethodInvocation SimpleName get name
+get property key SimpleName MethodInvocation MethodInvocation SimpleName data type
+get property key SimpleName MethodInvocation MethodInvocation SimpleName get name
+set property SimpleName MethodInvocation SimpleName vertex
+set property SimpleName MethodInvocation MethodInvocation SimpleName graph backed type store
+set property SimpleName MethodInvocation MethodInvocation SimpleName get property key
+set property SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName data type
+set property SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get name
+set property SimpleName MethodInvocation SimpleName values
+vertex SimpleName MethodInvocation MethodInvocation SimpleName graph backed type store
+vertex SimpleName MethodInvocation MethodInvocation SimpleName get property key
+vertex SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName data type
+vertex SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get name
+vertex SimpleName MethodInvocation SimpleName values
+graph backed type store SimpleName MethodInvocation MethodInvocation SimpleName values
+get property key SimpleName MethodInvocation MethodInvocation SimpleName values
+data type SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName values
+get name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName values
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName visit enumeration
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName data type
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName atlas exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName visit enumeration
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName enum type
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName data type
+public Modifier MethodDeclaration SimpleType SimpleName atlas exception
+void PrimitiveType MethodDeclaration SimpleName visit enumeration
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName enum type
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName data type
+void PrimitiveType MethodDeclaration SimpleType SimpleName atlas exception
+visit enumeration SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName enum type
+visit enumeration SimpleName MethodDeclaration SingleVariableDeclaration SimpleName data type
+visit enumeration SimpleName MethodDeclaration SimpleType SimpleName atlas exception
+data type SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName visit enumeration
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName data type
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName visit enumeration
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName data type
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception

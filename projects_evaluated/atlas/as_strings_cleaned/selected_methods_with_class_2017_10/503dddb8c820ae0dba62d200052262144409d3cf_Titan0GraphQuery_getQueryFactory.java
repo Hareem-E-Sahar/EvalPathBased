@@ -1,0 +1,19 @@
+native tinkerpop query factory SimpleName SimpleType ParameterizedType SimpleType SimpleName titan vertex
+native tinkerpop query factory SimpleName SimpleType ParameterizedType SimpleType SimpleName titan edge
+titan vertex SimpleName SimpleType ParameterizedType SimpleType SimpleName titan edge
+override SimpleName MarkerAnnotation MethodDeclaration Modifier protected
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName get query factory
+protected Modifier MethodDeclaration ParameterizedType SimpleType SimpleName native tinkerpop query factory
+protected Modifier MethodDeclaration ParameterizedType SimpleType SimpleName titan vertex
+protected Modifier MethodDeclaration ParameterizedType SimpleType SimpleName titan edge
+protected Modifier MethodDeclaration SimpleName get query factory
+native tinkerpop query factory SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get query factory
+titan vertex SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get query factory
+titan edge SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get query factory
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleName get query factory
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get query factory

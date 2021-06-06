@@ -1,0 +1,35 @@
+atlas object id SimpleName SimpleType SingleVariableDeclaration SimpleName obj id
+atlas vertex SimpleName SimpleType SingleVariableDeclaration SimpleName vertex
+resolved ids by uniq attribs SimpleName MethodInvocation SimpleName put
+resolved ids by uniq attribs SimpleName MethodInvocation SimpleName obj id
+resolved ids by uniq attribs SimpleName MethodInvocation SimpleName vertex
+put SimpleName MethodInvocation SimpleName obj id
+put SimpleName MethodInvocation SimpleName vertex
+obj id SimpleName MethodInvocation SimpleName vertex
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName add resolved id by uniq attribs
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas object id
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName obj id
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas vertex
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName vertex
+void PrimitiveType MethodDeclaration SimpleName add resolved id by uniq attribs
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas object id
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName obj id
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas vertex
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName vertex
+add resolved id by uniq attribs SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas object id
+add resolved id by uniq attribs SimpleName MethodDeclaration SingleVariableDeclaration SimpleName obj id
+add resolved id by uniq attribs SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas vertex
+add resolved id by uniq attribs SimpleName MethodDeclaration SingleVariableDeclaration SimpleName vertex
+obj id SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName vertex
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName add resolved id by uniq attribs
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName obj id
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName vertex
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName add resolved id by uniq attribs
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName obj id
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName vertex

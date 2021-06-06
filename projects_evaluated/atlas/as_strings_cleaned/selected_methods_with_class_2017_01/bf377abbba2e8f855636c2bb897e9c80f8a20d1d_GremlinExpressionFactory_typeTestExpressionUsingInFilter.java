@@ -1,0 +1,124 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName groovy expression
+graph persistence strategies SimpleName SimpleType SingleVariableDeclaration SimpleName s
+groovy expression SimpleName SimpleType SingleVariableDeclaration SimpleName parent
+final Modifier SingleVariableDeclaration SimpleType SimpleName string
+final Modifier SingleVariableDeclaration SimpleName type name
+string SimpleName SimpleType SingleVariableDeclaration SimpleName type name
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName groovy expression
+literal expression SimpleName SimpleType ClassInstanceCreation SimpleName type name
+type names SimpleName MethodInvocation SimpleName add
+type names SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName literal expression
+type names SimpleName MethodInvocation ClassInstanceCreation SimpleName type name
+add SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName literal expression
+add SimpleName MethodInvocation ClassInstanceCreation SimpleName type name
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName type filter
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+type filter SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName type filter
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+type filter SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+put SimpleName MethodInvocation QualifiedName type filtersupertype
+put SimpleName MethodInvocation SimpleName type name
+type filtersupertype QualifiedName MethodInvocation SimpleName type name
+immutable list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+type system SimpleName MethodInvocation SimpleName get instance
+type system SimpleName MethodInvocation MethodInvocation SimpleName get type names
+get instance SimpleName MethodInvocation MethodInvocation SimpleName get type names
+type system SimpleName MethodInvocation MethodInvocation SimpleName filters
+get instance SimpleName MethodInvocation MethodInvocation SimpleName filters
+get type names SimpleName MethodInvocation SimpleName filters
+sub types SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName type system
+sub types SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get instance
+sub types SimpleName VariableDeclarationFragment MethodInvocation SimpleName get type names
+sub types SimpleName VariableDeclarationFragment MethodInvocation SimpleName filters
+sub types SimpleName MethodInvocation SimpleName is empty
+string SimpleName SimpleType SingleVariableDeclaration SimpleName sub type
+literal expression SimpleName SimpleType ClassInstanceCreation SimpleName sub type
+type names SimpleName MethodInvocation SimpleName add
+type names SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName literal expression
+type names SimpleName MethodInvocation ClassInstanceCreation SimpleName sub type
+add SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName literal expression
+add SimpleName MethodInvocation ClassInstanceCreation SimpleName sub type
+string SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName sub types
+sub type SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName sub types
+s SimpleName MethodInvocation SimpleName type attribute name
+list expression SimpleName SimpleType ClassInstanceCreation SimpleName type names
+generate has expression SimpleName MethodInvocation SimpleName s
+generate has expression SimpleName MethodInvocation SimpleName parent
+generate has expression SimpleName MethodInvocation MethodInvocation SimpleName s
+generate has expression SimpleName MethodInvocation MethodInvocation SimpleName type attribute name
+generate has expression SimpleName MethodInvocation SimpleName in operator
+generate has expression SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName list expression
+generate has expression SimpleName MethodInvocation ClassInstanceCreation SimpleName type names
+s SimpleName MethodInvocation SimpleName parent
+s SimpleName MethodInvocation MethodInvocation SimpleName s
+s SimpleName MethodInvocation MethodInvocation SimpleName type attribute name
+s SimpleName MethodInvocation SimpleName in operator
+s SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName list expression
+s SimpleName MethodInvocation ClassInstanceCreation SimpleName type names
+parent SimpleName MethodInvocation MethodInvocation SimpleName s
+parent SimpleName MethodInvocation MethodInvocation SimpleName type attribute name
+parent SimpleName MethodInvocation SimpleName in operator
+parent SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName list expression
+parent SimpleName MethodInvocation ClassInstanceCreation SimpleName type names
+s SimpleName MethodInvocation MethodInvocation SimpleName in operator
+type attribute name SimpleName MethodInvocation MethodInvocation SimpleName in operator
+s SimpleName MethodInvocation MethodInvocation ClassInstanceCreation SimpleName type names
+type attribute name SimpleName MethodInvocation MethodInvocation ClassInstanceCreation SimpleName type names
+in operator SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName list expression
+in operator SimpleName MethodInvocation ClassInstanceCreation SimpleName type names
+in filter expr SimpleName VariableDeclarationFragment MethodInvocation SimpleName generate has expression
+in filter expr SimpleName VariableDeclarationFragment MethodInvocation SimpleName s
+in filter expr SimpleName VariableDeclarationFragment MethodInvocation SimpleName parent
+in filter expr SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName s
+in filter expr SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName type attribute name
+in filter expr SimpleName VariableDeclarationFragment MethodInvocation SimpleName in operator
+in filter expr SimpleName VariableDeclarationFragment MethodInvocation ClassInstanceCreation SimpleName type names
+groovy expression SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName in filter expr
+collections SimpleName MethodInvocation SimpleName singleton list
+collections SimpleName MethodInvocation SimpleName in filter expr
+singleton list SimpleName MethodInvocation SimpleName in filter expr
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName groovy expression
+private Modifier MethodDeclaration SimpleName type test expression using in filter
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName graph persistence strategies
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName s
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName groovy expression
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName parent
+private Modifier MethodDeclaration SingleVariableDeclaration Modifier final
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName type name
+list SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName type test expression using in filter
+groovy expression SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName type test expression using in filter
+type test expression using in filter SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName graph persistence strategies
+type test expression using in filter SimpleName MethodDeclaration SingleVariableDeclaration SimpleName s
+type test expression using in filter SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName groovy expression
+type test expression using in filter SimpleName MethodDeclaration SingleVariableDeclaration SimpleName parent
+type test expression using in filter SimpleName MethodDeclaration SingleVariableDeclaration Modifier final
+type test expression using in filter SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+type test expression using in filter SimpleName MethodDeclaration SingleVariableDeclaration SimpleName type name
+type test expression using in filter SimpleName MethodDeclaration SimpleType SimpleName atlas exception
+s SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName parent
+s SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+s SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type name
+s SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+parent SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+parent SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type name
+parent SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+final Modifier SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+type name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleName type test expression using in filter
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName s
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName parent
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type name
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleName type test expression using in filter
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName s
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName parent
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type name
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception

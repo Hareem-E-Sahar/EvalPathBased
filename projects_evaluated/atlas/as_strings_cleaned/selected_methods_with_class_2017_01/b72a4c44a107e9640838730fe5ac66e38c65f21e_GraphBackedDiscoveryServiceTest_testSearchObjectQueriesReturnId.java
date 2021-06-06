@@ -1,0 +1,55 @@
+data provider SimpleName MemberValuePair StringLiteral dsl object queries return id provider
+test SimpleName NormalAnnotation MemberValuePair SimpleName data provider
+test SimpleName NormalAnnotation MemberValuePair StringLiteral dsl object queries return id provider
+string SimpleName SimpleType SingleVariableDeclaration SimpleName dsl query
+result checker SimpleName SimpleType SingleVariableDeclaration SimpleName checker
+run and validate query SimpleName MethodInvocation SimpleName dsl query
+run and validate query SimpleName MethodInvocation SimpleName checker
+dsl query SimpleName MethodInvocation SimpleName checker
+test SimpleName NormalAnnotation MethodDeclaration Modifier public
+data provider SimpleName MemberValuePair NormalAnnotation MethodDeclaration Modifier public
+dsl object queries return id provider StringLiteral MemberValuePair NormalAnnotation MethodDeclaration Modifier public
+test SimpleName NormalAnnotation MethodDeclaration PrimitiveType void
+data provider SimpleName MemberValuePair NormalAnnotation MethodDeclaration PrimitiveType void
+dsl object queries return id provider StringLiteral MemberValuePair NormalAnnotation MethodDeclaration PrimitiveType void
+test SimpleName NormalAnnotation MethodDeclaration SimpleName test search object queries return id
+data provider SimpleName MemberValuePair NormalAnnotation MethodDeclaration SimpleName test search object queries return id
+dsl object queries return id provider StringLiteral MemberValuePair NormalAnnotation MethodDeclaration SimpleName test search object queries return id
+test SimpleName NormalAnnotation MethodDeclaration SingleVariableDeclaration SimpleName dsl query
+test SimpleName NormalAnnotation MethodDeclaration SingleVariableDeclaration SimpleName checker
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test search object queries return id
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName dsl query
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName result checker
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName checker
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName test search object queries return id
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName dsl query
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName result checker
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName checker
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+test search object queries return id SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+test search object queries return id SimpleName MethodDeclaration SingleVariableDeclaration SimpleName dsl query
+test search object queries return id SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName result checker
+test search object queries return id SimpleName MethodDeclaration SingleVariableDeclaration SimpleName checker
+test search object queries return id SimpleName MethodDeclaration SimpleType SimpleName exception
+dsl query SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName checker
+dsl query SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+checker SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration NormalAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test search object queries return id
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName dsl query
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName checker
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration NormalAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test search object queries return id
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName dsl query
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName checker
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

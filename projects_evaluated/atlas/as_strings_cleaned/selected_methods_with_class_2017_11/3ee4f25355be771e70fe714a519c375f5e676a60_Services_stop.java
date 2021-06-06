@@ -1,0 +1,80 @@
+configuration SimpleName MethodInvocation SimpleName get boolean
+configuration SimpleName MethodInvocation StringLiteral atlasservicesenabled
+configuration SimpleName MethodInvocation BooleanLiteral true
+get boolean SimpleName MethodInvocation StringLiteral atlasservicesenabled
+get boolean SimpleName MethodInvocation BooleanLiteral true
+atlasservicesenabled StringLiteral MethodInvocation BooleanLiteral true
+services SimpleName MethodInvocation SimpleName size
+services SimpleName MethodInvocation InfixExpression NumberLiteral empty
+size SimpleName MethodInvocation InfixExpression NumberLiteral empty
+idx SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName services
+idx SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName size
+idx SimpleName VariableDeclarationFragment InfixExpression NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName idx
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment InfixExpression NumberLiteral empty
+idx SimpleName InfixExpression NumberLiteral empty
+services SimpleName MethodInvocation SimpleName get
+services SimpleName MethodInvocation SimpleName idx
+get SimpleName MethodInvocation SimpleName idx
+service SimpleName VariableDeclarationFragment MethodInvocation SimpleName services
+service SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+service SimpleName VariableDeclarationFragment MethodInvocation SimpleName idx
+service SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName service
+service SimpleName MethodInvocation SimpleName get class
+service SimpleName MethodInvocation MethodInvocation SimpleName get name
+get class SimpleName MethodInvocation MethodInvocation SimpleName get name
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation StringLiteral stopping service {}
+log SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName service
+log SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get class
+log SimpleName MethodInvocation MethodInvocation SimpleName get name
+info SimpleName MethodInvocation StringLiteral stopping service {}
+info SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName service
+info SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get class
+info SimpleName MethodInvocation MethodInvocation SimpleName get name
+stopping service {} StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName service
+stopping service {} StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName get class
+stopping service {} StringLiteral MethodInvocation MethodInvocation SimpleName get name
+service SimpleName MethodInvocation SimpleName stop
+throwable SimpleName SimpleType SingleVariableDeclaration SimpleName e
+service SimpleName MethodInvocation SimpleName get class
+service SimpleName MethodInvocation MethodInvocation SimpleName get name
+get class SimpleName MethodInvocation MethodInvocation SimpleName get name
+log SimpleName MethodInvocation SimpleName warn
+log SimpleName MethodInvocation StringLiteral error stopping service {}
+log SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName service
+log SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get class
+log SimpleName MethodInvocation MethodInvocation SimpleName get name
+log SimpleName MethodInvocation SimpleName e
+warn SimpleName MethodInvocation StringLiteral error stopping service {}
+warn SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName service
+warn SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get class
+warn SimpleName MethodInvocation MethodInvocation SimpleName get name
+warn SimpleName MethodInvocation SimpleName e
+error stopping service {} StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName service
+error stopping service {} StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName get class
+error stopping service {} StringLiteral MethodInvocation MethodInvocation SimpleName get name
+error stopping service {} StringLiteral MethodInvocation SimpleName e
+service SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName e
+get class SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName e
+get name SimpleName MethodInvocation MethodInvocation SimpleName e
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName idx
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName idx
+idx SimpleName InfixExpression ForStatement PostfixExpression SimpleName idx
+empty NumberLiteral InfixExpression ForStatement PostfixExpression SimpleName idx
+pre destroy SimpleName MarkerAnnotation MethodDeclaration Modifier public
+pre destroy SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+pre destroy SimpleName MarkerAnnotation MethodDeclaration SimpleName stop
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName stop
+void PrimitiveType MethodDeclaration SimpleName stop
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName pre destroy
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName stop
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName pre destroy
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName stop

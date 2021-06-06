@@ -1,0 +1,53 @@
+ret SimpleName VariableDeclarationFragment BooleanLiteral false
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName ret
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment BooleanLiteral false
+application properties SimpleName MethodInvocation SimpleName get
+conf SimpleName VariableDeclarationFragment MethodInvocation SimpleName application properties
+conf SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+configuration SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName conf
+conf SimpleName MethodInvocation SimpleName get property
+conf SimpleName MethodInvocation StringLiteral atlasgraphindexsearchsolrembedded
+get property SimpleName MethodInvocation StringLiteral atlasgraphindexsearchsolrembedded
+property SimpleName VariableDeclarationFragment MethodInvocation SimpleName conf
+property SimpleName VariableDeclarationFragment MethodInvocation SimpleName get property
+property SimpleName VariableDeclarationFragment MethodInvocation StringLiteral atlasgraphindexsearchsolrembedded
+object SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName property
+property SimpleName InstanceofExpression SimpleType SimpleName string
+property SimpleName InfixExpression InfixExpression InstanceofExpression SimpleName property
+string SimpleName SimpleType CastExpression SimpleName property
+boolean SimpleName MethodInvocation SimpleName value of
+boolean SimpleName MethodInvocation CastExpression SimpleType SimpleName string
+boolean SimpleName MethodInvocation CastExpression SimpleName property
+value of SimpleName MethodInvocation CastExpression SimpleType SimpleName string
+value of SimpleName MethodInvocation CastExpression SimpleName property
+ret SimpleName Assignment MethodInvocation SimpleName boolean
+ret SimpleName Assignment MethodInvocation SimpleName value of
+ret SimpleName Assignment MethodInvocation CastExpression SimpleName property
+atlas exception SimpleName SimpleType SingleVariableDeclaration SimpleName ignored
+skip exception SimpleName SimpleType ClassInstanceCreation StringLiteral use local solr failed
+skip exception SimpleName SimpleType ClassInstanceCreation SimpleName ignored
+use local solr failed StringLiteral ClassInstanceCreation SimpleName ignored
+boolean PrimitiveType VariableDeclarationStatement Block ReturnStatement SimpleName ret
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName use local solr
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+public Modifier MethodDeclaration Block ReturnStatement SimpleName ret
+static Modifier MethodDeclaration PrimitiveType boolean
+static Modifier MethodDeclaration SimpleName use local solr
+static Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+static Modifier MethodDeclaration Block ReturnStatement SimpleName ret
+boolean PrimitiveType MethodDeclaration SimpleName use local solr
+boolean PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+boolean PrimitiveType MethodDeclaration Block ReturnStatement SimpleName ret
+use local solr SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+use local solr SimpleName MethodDeclaration Block ReturnStatement SimpleName ret
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName use local solr
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName use local solr

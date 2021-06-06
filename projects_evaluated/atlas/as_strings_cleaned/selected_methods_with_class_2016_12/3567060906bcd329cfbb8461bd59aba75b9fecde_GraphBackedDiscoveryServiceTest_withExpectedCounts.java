@@ -1,0 +1,28 @@
+integer SimpleName SimpleType SingleVariableDeclaration SimpleName counts
+arrays SimpleName MethodInvocation SimpleName as list
+arrays SimpleName MethodInvocation SimpleName counts
+as list SimpleName MethodInvocation SimpleName counts
+expected counts SimpleName MethodInvocation SimpleName add all
+expected counts SimpleName MethodInvocation MethodInvocation SimpleName arrays
+expected counts SimpleName MethodInvocation MethodInvocation SimpleName as list
+expected counts SimpleName MethodInvocation MethodInvocation SimpleName counts
+add all SimpleName MethodInvocation MethodInvocation SimpleName arrays
+add all SimpleName MethodInvocation MethodInvocation SimpleName as list
+add all SimpleName MethodInvocation MethodInvocation SimpleName counts
+public Modifier MethodDeclaration SimpleType SimpleName count only validator
+public Modifier MethodDeclaration SimpleName with expected counts
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName integer
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName counts
+count only validator SimpleName SimpleType MethodDeclaration SimpleName with expected counts
+count only validator SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName counts
+with expected counts SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName integer
+with expected counts SimpleName MethodDeclaration SingleVariableDeclaration SimpleName counts
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName count only validator
+public Modifier TypeDeclaration MethodDeclaration SimpleName with expected counts
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName counts
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName count only validator
+test SimpleName TypeDeclaration MethodDeclaration SimpleName with expected counts
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName counts

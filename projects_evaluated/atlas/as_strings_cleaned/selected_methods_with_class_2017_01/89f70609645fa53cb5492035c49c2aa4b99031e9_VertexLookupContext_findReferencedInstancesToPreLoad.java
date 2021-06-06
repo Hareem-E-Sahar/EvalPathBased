@@ -1,0 +1,106 @@
+i typed referenceable instance SimpleName SimpleType SingleVariableDeclaration SimpleName new instance
+attribute info SimpleName SimpleType SingleVariableDeclaration SimpleName info
+new instance SimpleName MethodInvocation SimpleName field mapping
+new instance SimpleName MethodInvocation FieldAccess SimpleName fields
+field mapping SimpleName MethodInvocation FieldAccess SimpleName fields
+new instance SimpleName MethodInvocation FieldAccess MethodInvocation SimpleName values
+field mapping SimpleName MethodInvocation FieldAccess MethodInvocation SimpleName values
+fields SimpleName FieldAccess MethodInvocation SimpleName values
+info SimpleName MethodInvocation SimpleName data type
+info SimpleName MethodInvocation MethodInvocation SimpleName get type category
+data type SimpleName MethodInvocation MethodInvocation SimpleName get type category
+info SimpleName MethodInvocation MethodInvocation InfixExpression QualifiedName type categoryclass
+data type SimpleName MethodInvocation MethodInvocation InfixExpression QualifiedName type categoryclass
+get type category SimpleName MethodInvocation InfixExpression QualifiedName type categoryclass
+new instance SimpleName MethodInvocation SimpleName get
+new instance SimpleName MethodInvocation QualifiedName infoname
+get SimpleName MethodInvocation QualifiedName infoname
+i typed referenceable instance SimpleName SimpleType CastExpression MethodInvocation SimpleName new instance
+i typed referenceable instance SimpleName SimpleType CastExpression MethodInvocation SimpleName get
+i typed referenceable instance SimpleName SimpleType CastExpression MethodInvocation QualifiedName infoname
+new attribute value SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName i typed referenceable instance
+new attribute value SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName new instance
+new attribute value SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get
+new attribute value SimpleName VariableDeclarationFragment CastExpression MethodInvocation QualifiedName infoname
+i typed referenceable instance SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName new attribute value
+add additional instance SimpleName MethodInvocation SimpleName new attribute value
+info SimpleName MethodInvocation SimpleName data type
+info SimpleName MethodInvocation MethodInvocation SimpleName get type category
+data type SimpleName MethodInvocation MethodInvocation SimpleName get type category
+info SimpleName MethodInvocation MethodInvocation InfixExpression QualifiedName type categoryarray
+data type SimpleName MethodInvocation MethodInvocation InfixExpression QualifiedName type categoryarray
+get type category SimpleName MethodInvocation InfixExpression QualifiedName type categoryarray
+info SimpleName MethodInvocation SimpleName data type
+data typesarray type QualifiedName SimpleType CastExpression MethodInvocation SimpleName info
+data typesarray type QualifiedName SimpleType CastExpression MethodInvocation SimpleName data type
+element type SimpleName VariableDeclarationFragment MethodInvocation SimpleName get elem type
+i data type SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName element type
+element type SimpleName MethodInvocation SimpleName get type category
+element type SimpleName MethodInvocation InfixExpression QualifiedName type categoryclass
+get type category SimpleName MethodInvocation InfixExpression QualifiedName type categoryclass
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName i typed referenceable instance
+new instance SimpleName MethodInvocation SimpleName get
+new instance SimpleName MethodInvocation QualifiedName infoname
+get SimpleName MethodInvocation QualifiedName infoname
+list SimpleName SimpleType CastExpression MethodInvocation SimpleName new instance
+list SimpleName SimpleType CastExpression MethodInvocation SimpleName get
+list SimpleName SimpleType CastExpression MethodInvocation QualifiedName infoname
+new elements SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName list
+new elements SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName new instance
+new elements SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get
+new elements SimpleName VariableDeclarationFragment CastExpression MethodInvocation QualifiedName infoname
+add additional instances SimpleName MethodInvocation SimpleName new elements
+info SimpleName MethodInvocation SimpleName data type
+info SimpleName MethodInvocation MethodInvocation SimpleName get type category
+data type SimpleName MethodInvocation MethodInvocation SimpleName get type category
+info SimpleName MethodInvocation MethodInvocation InfixExpression QualifiedName type categorymap
+data type SimpleName MethodInvocation MethodInvocation InfixExpression QualifiedName type categorymap
+get type category SimpleName MethodInvocation InfixExpression QualifiedName type categorymap
+info SimpleName MethodInvocation SimpleName data type
+data typesmap type QualifiedName SimpleType CastExpression MethodInvocation SimpleName info
+data typesmap type QualifiedName SimpleType CastExpression MethodInvocation SimpleName data type
+element type SimpleName VariableDeclarationFragment MethodInvocation SimpleName get value type
+i data type SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName element type
+element type SimpleName MethodInvocation SimpleName get type category
+element type SimpleName MethodInvocation InfixExpression QualifiedName type categoryclass
+get type category SimpleName MethodInvocation InfixExpression QualifiedName type categoryclass
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName i typed referenceable instance
+object SimpleName SimpleType ParameterizedType SimpleType SimpleName i typed referenceable instance
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName i typed referenceable instance
+object SimpleName SimpleType ParameterizedType SimpleType SimpleName i typed referenceable instance
+new instance SimpleName MethodInvocation SimpleName get
+new instance SimpleName MethodInvocation QualifiedName infoname
+get SimpleName MethodInvocation QualifiedName infoname
+new attribute SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName new instance
+new attribute SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get
+new attribute SimpleName VariableDeclarationFragment CastExpression MethodInvocation QualifiedName infoname
+new attribute SimpleName MethodInvocation SimpleName values
+add additional instances SimpleName MethodInvocation MethodInvocation SimpleName new attribute
+add additional instances SimpleName MethodInvocation MethodInvocation SimpleName values
+info SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName values
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName find referenced instances to pre load
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName i typed referenceable instance
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName new instance
+private Modifier MethodDeclaration SimpleType SimpleName atlas exception
+void PrimitiveType MethodDeclaration SimpleName find referenced instances to pre load
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName i typed referenceable instance
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName new instance
+void PrimitiveType MethodDeclaration SimpleType SimpleName atlas exception
+find referenced instances to pre load SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName i typed referenceable instance
+find referenced instances to pre load SimpleName MethodDeclaration SingleVariableDeclaration SimpleName new instance
+find referenced instances to pre load SimpleName MethodDeclaration SimpleType SimpleName atlas exception
+new instance SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName find referenced instances to pre load
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new instance
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName find referenced instances to pre load
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new instance
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception

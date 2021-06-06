@@ -1,0 +1,39 @@
+atlas export request SimpleName SimpleType SingleVariableDeclaration SimpleName request
+request SimpleName MethodInvocation SimpleName get options
+request SimpleName MethodInvocation SimpleName get options
+request SimpleName MethodInvocation MethodInvocation SimpleName get
+get options SimpleName MethodInvocation MethodInvocation SimpleName get
+request SimpleName MethodInvocation MethodInvocation SimpleName option fetch type
+get options SimpleName MethodInvocation MethodInvocation SimpleName option fetch type
+get SimpleName MethodInvocation SimpleName option fetch type
+fetch option SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation SimpleName get
+fetch option SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation SimpleName option fetch type
+object SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName fetch option
+fetch option SimpleName InstanceofExpression SimpleType SimpleName string
+string SimpleName SimpleType CastExpression SimpleName fetch option
+export fetch type SimpleName MethodInvocation SimpleName from
+export fetch type SimpleName MethodInvocation CastExpression SimpleType SimpleName string
+export fetch type SimpleName MethodInvocation CastExpression SimpleName fetch option
+from SimpleName MethodInvocation CastExpression SimpleType SimpleName string
+from SimpleName MethodInvocation CastExpression SimpleName fetch option
+fetch option SimpleName InstanceofExpression SimpleType SimpleName export fetch type
+export fetch type SimpleName SimpleType CastExpression SimpleName fetch option
+private Modifier MethodDeclaration SimpleType SimpleName export fetch type
+private Modifier MethodDeclaration SimpleName get fetch type
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas export request
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName request
+private Modifier MethodDeclaration Block ReturnStatement QualifiedName export fetch typefull
+export fetch type SimpleName SimpleType MethodDeclaration SimpleName get fetch type
+export fetch type SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName request
+get fetch type SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas export request
+get fetch type SimpleName MethodDeclaration SingleVariableDeclaration SimpleName request
+get fetch type SimpleName MethodDeclaration Block ReturnStatement QualifiedName export fetch typefull
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName export fetch type
+public Modifier TypeDeclaration MethodDeclaration SimpleName get fetch type
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName request
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName export fetch type
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get fetch type
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName request

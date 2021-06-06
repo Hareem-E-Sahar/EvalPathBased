@@ -1,0 +1,51 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName column update
+simple reader SimpleName SimpleType ClassInstanceCreation SimpleName data
+in SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName simple reader
+in SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName data
+simple reader SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName in
+entries SimpleName InfixExpression NumberLiteral empty
+deserialize column update SimpleName MethodInvocation SimpleName in
+collections SimpleName MethodInvocation SimpleName singleton list
+collections SimpleName MethodInvocation MethodInvocation SimpleName deserialize column update
+collections SimpleName MethodInvocation MethodInvocation SimpleName in
+singleton list SimpleName MethodInvocation MethodInvocation SimpleName deserialize column update
+singleton list SimpleName MethodInvocation MethodInvocation SimpleName in
+updates SimpleName Assignment MethodInvocation SimpleName collections
+updates SimpleName Assignment MethodInvocation SimpleName singleton list
+updates SimpleName Assignment MethodInvocation MethodInvocation SimpleName deserialize column update
+updates SimpleName Assignment MethodInvocation MethodInvocation SimpleName in
+column update SimpleName SimpleType ArrayType ArrayCreation SimpleName entries
+tmp updates SimpleName VariableDeclarationFragment ArrayCreation SimpleName entries
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+i SimpleName InfixExpression SimpleName entries
+tmp updates SimpleName ArrayAccess SimpleName i
+deserialize column update SimpleName MethodInvocation SimpleName in
+tmp updates SimpleName ArrayAccess Assignment MethodInvocation SimpleName deserialize column update
+tmp updates SimpleName ArrayAccess Assignment MethodInvocation SimpleName in
+i SimpleName ArrayAccess Assignment MethodInvocation SimpleName deserialize column update
+i SimpleName ArrayAccess Assignment MethodInvocation SimpleName in
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName entries
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+entries SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+arrays SimpleName MethodInvocation SimpleName as list
+arrays SimpleName MethodInvocation SimpleName tmp updates
+as list SimpleName MethodInvocation SimpleName tmp updates
+updates SimpleName Assignment MethodInvocation SimpleName arrays
+updates SimpleName Assignment MethodInvocation SimpleName as list
+updates SimpleName Assignment MethodInvocation SimpleName tmp updates
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName column update
+public Modifier MethodDeclaration SimpleName get updates
+public Modifier MethodDeclaration Block ReturnStatement SimpleName updates
+list SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get updates
+column update SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get updates
+get updates SimpleName MethodDeclaration Block ReturnStatement SimpleName updates
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName get updates
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get updates

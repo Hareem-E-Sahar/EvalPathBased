@@ -1,0 +1,77 @@
+mutation info SimpleName SimpleType SingleVariableDeclaration SimpleName key
+value SimpleName SimpleType SingleVariableDeclaration SimpleName value
+mutation SimpleName SimpleType ClassInstanceCreation QualifiedName keyrow
+m SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName mutation
+m SimpleName VariableDeclarationFragment ClassInstanceCreation QualifiedName keyrow
+mutation SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName m
+m SimpleName MethodInvocation SimpleName put
+m SimpleName MethodInvocation QualifiedName keycolfam
+m SimpleName MethodInvocation QualifiedName keycolqual
+m SimpleName MethodInvocation QualifiedName keycv
+m SimpleName MethodInvocation QualifiedName keytimestamp
+put SimpleName MethodInvocation QualifiedName keycolfam
+put SimpleName MethodInvocation QualifiedName keycolqual
+put SimpleName MethodInvocation QualifiedName keycv
+put SimpleName MethodInvocation QualifiedName keytimestamp
+put SimpleName MethodInvocation SimpleName value
+keycolfam QualifiedName MethodInvocation QualifiedName keycolqual
+keycolfam QualifiedName MethodInvocation QualifiedName keycv
+keycolfam QualifiedName MethodInvocation QualifiedName keytimestamp
+keycolfam QualifiedName MethodInvocation SimpleName value
+keycolqual QualifiedName MethodInvocation QualifiedName keycv
+keycolqual QualifiedName MethodInvocation QualifiedName keytimestamp
+keycolqual QualifiedName MethodInvocation SimpleName value
+keycv QualifiedName MethodInvocation QualifiedName keytimestamp
+keycv QualifiedName MethodInvocation SimpleName value
+keytimestamp QualifiedName MethodInvocation SimpleName value
+metadata table name final SimpleName MethodInvocation SimpleName to string
+mtbw SimpleName MethodInvocation SimpleName get batch writer
+mtbw SimpleName MethodInvocation MethodInvocation SimpleName metadata table name final
+mtbw SimpleName MethodInvocation MethodInvocation SimpleName to string
+get batch writer SimpleName MethodInvocation MethodInvocation SimpleName metadata table name final
+get batch writer SimpleName MethodInvocation MethodInvocation SimpleName to string
+mtbw SimpleName MethodInvocation MethodInvocation SimpleName add mutation
+get batch writer SimpleName MethodInvocation MethodInvocation SimpleName add mutation
+metadata table name final SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName add mutation
+to string SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName add mutation
+mtbw SimpleName MethodInvocation MethodInvocation SimpleName m
+get batch writer SimpleName MethodInvocation MethodInvocation SimpleName m
+metadata table name final SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName m
+to string SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName m
+add mutation SimpleName MethodInvocation SimpleName m
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+runtime exception SimpleName SimpleType ClassInstanceCreation SimpleName e
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName output
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName key
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName value
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName output
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName mutation info
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName key
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName value
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName value
+void PrimitiveType MethodDeclaration SimpleName output
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName mutation info
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName key
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName value
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName value
+output SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName mutation info
+output SimpleName MethodDeclaration SingleVariableDeclaration SimpleName key
+output SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName value
+output SimpleName MethodDeclaration SingleVariableDeclaration SimpleName value
+key SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName output
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName key
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName output
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName key
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value

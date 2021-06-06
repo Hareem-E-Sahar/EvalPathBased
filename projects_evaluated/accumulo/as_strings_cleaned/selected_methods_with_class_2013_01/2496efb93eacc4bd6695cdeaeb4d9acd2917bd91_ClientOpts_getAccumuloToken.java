@@ -1,0 +1,36 @@
+accumulo token SimpleName SimpleType ParameterizedType WildcardType ?
+accumulo token SimpleName SimpleType ParameterizedType WildcardType ?
+? WildcardType ParameterizedType WildcardType ?
+get instance SimpleName MethodInvocation MethodInvocation SimpleName get security token class
+token class SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get instance
+token class SimpleName VariableDeclarationFragment MethodInvocation SimpleName get security token class
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName token class
+user pass token SimpleName SimpleType TypeLiteral MethodInvocation SimpleName get canonical name
+token class SimpleName MethodInvocation SimpleName equals
+token class SimpleName MethodInvocation MethodInvocation SimpleName get canonical name
+equals SimpleName MethodInvocation MethodInvocation SimpleName get canonical name
+user pass token SimpleName SimpleType ClassInstanceCreation SimpleName user
+user pass token SimpleName SimpleType ClassInstanceCreation QualifiedName passwordvalue
+user SimpleName ClassInstanceCreation QualifiedName passwordvalue
+user pass token SimpleName SimpleType ClassInstanceCreation SimpleName user
+user pass token SimpleName SimpleType ClassInstanceCreation QualifiedName secure passwordvalue
+user SimpleName ClassInstanceCreation QualifiedName secure passwordvalue
+runtime exception SimpleName SimpleType ClassInstanceCreation StringLiteral cli cant handle alternative tokens yet
+accumulo exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+runtime exception SimpleName SimpleType ClassInstanceCreation SimpleName e
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName accumulo token
+public Modifier MethodDeclaration ParameterizedType WildcardType ?
+public Modifier MethodDeclaration ParameterizedType WildcardType ?
+public Modifier MethodDeclaration SimpleName get accumulo token
+accumulo token SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get accumulo token
+? WildcardType ParameterizedType MethodDeclaration SimpleName get accumulo token
+? WildcardType ParameterizedType MethodDeclaration SimpleName get accumulo token
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration ParameterizedType WildcardType ?
+public Modifier TypeDeclaration MethodDeclaration ParameterizedType WildcardType ?
+public Modifier TypeDeclaration MethodDeclaration SimpleName get accumulo token
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration ParameterizedType WildcardType ?
+test SimpleName TypeDeclaration MethodDeclaration ParameterizedType WildcardType ?
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get accumulo token

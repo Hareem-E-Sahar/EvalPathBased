@@ -1,0 +1,24 @@
+atlas graph query SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas janus vertex
+atlas graph query SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas janus edge
+atlas janus vertex SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas janus edge
+atlas janus graph SimpleName SimpleType CastExpression SimpleName graph
+atlas janus graph query SimpleName SimpleType ClassInstanceCreation CastExpression SimpleName graph
+atlas janus graph query SimpleName SimpleType ClassInstanceCreation BooleanLiteral true
+atlas janus graph SimpleName SimpleType CastExpression ClassInstanceCreation BooleanLiteral true
+graph SimpleName CastExpression ClassInstanceCreation BooleanLiteral true
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName create child query
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName atlas graph query
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName atlas janus vertex
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName atlas janus edge
+public Modifier MethodDeclaration SimpleName create child query
+atlas graph query SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName create child query
+atlas janus vertex SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName create child query
+atlas janus edge SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName create child query
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName create child query
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create child query

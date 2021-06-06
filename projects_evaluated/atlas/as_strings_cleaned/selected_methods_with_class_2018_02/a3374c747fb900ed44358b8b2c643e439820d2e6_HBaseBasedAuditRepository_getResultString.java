@@ -1,0 +1,41 @@
+result SimpleName SimpleType SingleVariableDeclaration SimpleName result
+byte PrimitiveType ArrayType SingleVariableDeclaration SimpleName column name
+result SimpleName MethodInvocation SimpleName get value
+result SimpleName MethodInvocation SimpleName column family
+result SimpleName MethodInvocation SimpleName column name
+get value SimpleName MethodInvocation SimpleName column family
+get value SimpleName MethodInvocation SimpleName column name
+column family SimpleName MethodInvocation SimpleName column name
+raw value SimpleName VariableDeclarationFragment MethodInvocation SimpleName result
+raw value SimpleName VariableDeclarationFragment MethodInvocation SimpleName get value
+raw value SimpleName VariableDeclarationFragment MethodInvocation SimpleName column family
+raw value SimpleName VariableDeclarationFragment MethodInvocation SimpleName column name
+byte PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName raw value
+bytes SimpleName MethodInvocation SimpleName to string
+bytes SimpleName MethodInvocation SimpleName raw value
+to string SimpleName MethodInvocation SimpleName raw value
+private Modifier MethodDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SimpleName get result string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName result
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName result
+private Modifier MethodDeclaration SingleVariableDeclaration ArrayType PrimitiveType byte
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName column name
+string SimpleName SimpleType MethodDeclaration SimpleName get result string
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName result
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName column name
+get result string SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName result
+get result string SimpleName MethodDeclaration SingleVariableDeclaration SimpleName result
+get result string SimpleName MethodDeclaration SingleVariableDeclaration ArrayType PrimitiveType byte
+get result string SimpleName MethodDeclaration SingleVariableDeclaration SimpleName column name
+result SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName column name
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName get result string
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName result
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName column name
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get result string
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName result
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName column name

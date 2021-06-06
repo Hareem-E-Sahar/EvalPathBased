@@ -1,0 +1,44 @@
+atlas entity SimpleName SimpleType ClassInstanceCreation StringLiteral hive table
+entity SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName atlas entity
+entity SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral hive table
+atlas entity SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName entity
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+table default StringLiteral InfixExpression SimpleName lower case cl
+attributes SimpleName MethodInvocation SimpleName put
+attributes SimpleName MethodInvocation SimpleName qualified name
+attributes SimpleName MethodInvocation InfixExpression StringLiteral table default
+attributes SimpleName MethodInvocation InfixExpression SimpleName lower case cl
+put SimpleName MethodInvocation SimpleName qualified name
+put SimpleName MethodInvocation InfixExpression StringLiteral table default
+put SimpleName MethodInvocation InfixExpression SimpleName lower case cl
+qualified name SimpleName MethodInvocation InfixExpression StringLiteral table default
+qualified name SimpleName MethodInvocation InfixExpression SimpleName lower case cl
+attributes SimpleName MethodInvocation SimpleName put
+attributes SimpleName MethodInvocation StringLiteral dbname
+attributes SimpleName MethodInvocation StringLiteral some db
+put SimpleName MethodInvocation StringLiteral dbname
+put SimpleName MethodInvocation StringLiteral some db
+dbname StringLiteral MethodInvocation StringLiteral some db
+attributes SimpleName MethodInvocation SimpleName put
+attributes SimpleName MethodInvocation StringLiteral name
+attributes SimpleName MethodInvocation StringLiteral somename
+put SimpleName MethodInvocation StringLiteral name
+put SimpleName MethodInvocation StringLiteral somename
+name StringLiteral MethodInvocation StringLiteral somename
+entity SimpleName MethodInvocation SimpleName set attributes
+entity SimpleName MethodInvocation SimpleName attributes
+set attributes SimpleName MethodInvocation SimpleName attributes
+private Modifier MethodDeclaration SimpleType SimpleName atlas entity
+private Modifier MethodDeclaration SimpleName get hive table atlas entity
+private Modifier MethodDeclaration Block ReturnStatement SimpleName entity
+atlas entity SimpleName SimpleType MethodDeclaration SimpleName get hive table atlas entity
+get hive table atlas entity SimpleName MethodDeclaration Block ReturnStatement SimpleName entity
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas entity
+public Modifier TypeDeclaration MethodDeclaration SimpleName get hive table atlas entity
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas entity
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get hive table atlas entity

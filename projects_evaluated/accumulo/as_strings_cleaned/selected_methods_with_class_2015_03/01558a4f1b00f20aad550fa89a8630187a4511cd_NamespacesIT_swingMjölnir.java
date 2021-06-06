@@ -1,0 +1,111 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName t
+c SimpleName MethodInvocation SimpleName table operations
+c SimpleName MethodInvocation MethodInvocation SimpleName list
+table operations SimpleName MethodInvocation MethodInvocation SimpleName list
+tables SimpleName MethodInvocation SimpleName qualify
+tables SimpleName MethodInvocation SimpleName t
+qualify SimpleName MethodInvocation SimpleName t
+tables SimpleName MethodInvocation MethodInvocation SimpleName get first
+qualify SimpleName MethodInvocation MethodInvocation SimpleName get first
+t SimpleName MethodInvocation MethodInvocation SimpleName get first
+tables SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName equals
+qualify SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName equals
+t SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName equals
+get first SimpleName MethodInvocation MethodInvocation SimpleName equals
+tables SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName namespacesaccumulo namespace
+qualify SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName namespacesaccumulo namespace
+t SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName namespacesaccumulo namespace
+get first SimpleName MethodInvocation MethodInvocation QualifiedName namespacesaccumulo namespace
+equals SimpleName MethodInvocation QualifiedName namespacesaccumulo namespace
+c SimpleName MethodInvocation SimpleName table operations
+c SimpleName MethodInvocation MethodInvocation SimpleName delete
+table operations SimpleName MethodInvocation MethodInvocation SimpleName delete
+c SimpleName MethodInvocation MethodInvocation SimpleName t
+table operations SimpleName MethodInvocation MethodInvocation SimpleName t
+delete SimpleName MethodInvocation SimpleName t
+t SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName list
+c SimpleName MethodInvocation SimpleName table operations
+c SimpleName MethodInvocation MethodInvocation SimpleName list
+table operations SimpleName MethodInvocation MethodInvocation SimpleName list
+c SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName size
+table operations SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName size
+list SimpleName MethodInvocation MethodInvocation SimpleName size
+assert equals SimpleName MethodInvocation NumberLiteral empty
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName list
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName size
+empty NumberLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName list
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName size
+string SimpleName SimpleType SingleVariableDeclaration SimpleName n
+c SimpleName MethodInvocation SimpleName namespace operations
+c SimpleName MethodInvocation MethodInvocation SimpleName list
+namespace operations SimpleName MethodInvocation MethodInvocation SimpleName list
+n SimpleName MethodInvocation SimpleName equals
+n SimpleName MethodInvocation QualifiedName namespacesaccumulo namespace
+equals SimpleName MethodInvocation QualifiedName namespacesaccumulo namespace
+n SimpleName MethodInvocation SimpleName equals
+n SimpleName MethodInvocation QualifiedName namespacesdefault namespace
+equals SimpleName MethodInvocation QualifiedName namespacesdefault namespace
+c SimpleName MethodInvocation SimpleName namespace operations
+c SimpleName MethodInvocation MethodInvocation SimpleName delete
+namespace operations SimpleName MethodInvocation MethodInvocation SimpleName delete
+c SimpleName MethodInvocation MethodInvocation SimpleName n
+namespace operations SimpleName MethodInvocation MethodInvocation SimpleName n
+delete SimpleName MethodInvocation SimpleName n
+n SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName list
+c SimpleName MethodInvocation SimpleName namespace operations
+c SimpleName MethodInvocation MethodInvocation SimpleName list
+namespace operations SimpleName MethodInvocation MethodInvocation SimpleName list
+c SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName size
+namespace operations SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName size
+list SimpleName MethodInvocation MethodInvocation SimpleName size
+assert equals SimpleName MethodInvocation NumberLiteral empty
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName list
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName size
+empty NumberLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName list
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName size
+string SimpleName SimpleType SingleVariableDeclaration SimpleName u
+c SimpleName MethodInvocation SimpleName security operations
+c SimpleName MethodInvocation MethodInvocation SimpleName list local users
+security operations SimpleName MethodInvocation MethodInvocation SimpleName list local users
+get admin principal SimpleName MethodInvocation MethodInvocation SimpleName equals
+get admin principal SimpleName MethodInvocation MethodInvocation SimpleName u
+equals SimpleName MethodInvocation SimpleName u
+c SimpleName MethodInvocation SimpleName security operations
+c SimpleName MethodInvocation MethodInvocation SimpleName drop local user
+security operations SimpleName MethodInvocation MethodInvocation SimpleName drop local user
+c SimpleName MethodInvocation MethodInvocation SimpleName u
+security operations SimpleName MethodInvocation MethodInvocation SimpleName u
+drop local user SimpleName MethodInvocation SimpleName u
+u SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName list local users
+c SimpleName MethodInvocation SimpleName security operations
+c SimpleName MethodInvocation MethodInvocation SimpleName list local users
+security operations SimpleName MethodInvocation MethodInvocation SimpleName list local users
+c SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName size
+security operations SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName size
+list local users SimpleName MethodInvocation MethodInvocation SimpleName size
+assert equals SimpleName MethodInvocation NumberLiteral empty
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName list local users
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName size
+empty NumberLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName list local users
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName size
+after SimpleName MarkerAnnotation MethodDeclaration Modifier public
+after SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+after SimpleName MarkerAnnotation MethodDeclaration SimpleName swing mjlnir
+after SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName swing mjlnir
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName swing mjlnir
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+swing mjlnir SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName after
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName swing mjlnir
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName after
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName swing mjlnir
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

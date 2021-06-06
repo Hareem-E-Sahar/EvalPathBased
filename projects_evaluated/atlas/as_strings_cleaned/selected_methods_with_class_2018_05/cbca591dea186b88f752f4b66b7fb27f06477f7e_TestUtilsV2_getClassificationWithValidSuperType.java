@@ -1,0 +1,140 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas classification def
+collections SimpleName MethodInvocation SimpleType SimpleName string
+collections SimpleName MethodInvocation SimpleName empty set
+string SimpleName SimpleType MethodInvocation SimpleName empty set
+create required attr def SimpleName MethodInvocation StringLiteral level
+create required attr def SimpleName MethodInvocation StringLiteral int
+level StringLiteral MethodInvocation StringLiteral int
+atlas type util SimpleName MethodInvocation SimpleName create trait type def
+atlas type util SimpleName MethodInvocation StringLiteral security clearance
+atlas type util SimpleName MethodInvocation StringLiteral security clearance description
+atlas type util SimpleName MethodInvocation MethodInvocation SimpleName collections
+atlas type util SimpleName MethodInvocation MethodInvocation SimpleType SimpleName string
+atlas type util SimpleName MethodInvocation MethodInvocation SimpleName empty set
+atlas type util SimpleName MethodInvocation MethodInvocation SimpleName create required attr def
+atlas type util SimpleName MethodInvocation MethodInvocation StringLiteral level
+atlas type util SimpleName MethodInvocation MethodInvocation StringLiteral int
+create trait type def SimpleName MethodInvocation StringLiteral security clearance
+create trait type def SimpleName MethodInvocation StringLiteral security clearance description
+create trait type def SimpleName MethodInvocation MethodInvocation SimpleName collections
+create trait type def SimpleName MethodInvocation MethodInvocation SimpleType SimpleName string
+create trait type def SimpleName MethodInvocation MethodInvocation SimpleName empty set
+create trait type def SimpleName MethodInvocation MethodInvocation SimpleName create required attr def
+create trait type def SimpleName MethodInvocation MethodInvocation StringLiteral level
+create trait type def SimpleName MethodInvocation MethodInvocation StringLiteral int
+security clearance StringLiteral MethodInvocation StringLiteral security clearance description
+security clearance StringLiteral MethodInvocation MethodInvocation SimpleName collections
+security clearance StringLiteral MethodInvocation MethodInvocation SimpleType SimpleName string
+security clearance StringLiteral MethodInvocation MethodInvocation SimpleName empty set
+security clearance StringLiteral MethodInvocation MethodInvocation SimpleName create required attr def
+security clearance StringLiteral MethodInvocation MethodInvocation StringLiteral level
+security clearance StringLiteral MethodInvocation MethodInvocation StringLiteral int
+security clearance description StringLiteral MethodInvocation MethodInvocation SimpleName collections
+security clearance description StringLiteral MethodInvocation MethodInvocation SimpleType SimpleName string
+security clearance description StringLiteral MethodInvocation MethodInvocation SimpleName empty set
+security clearance description StringLiteral MethodInvocation MethodInvocation SimpleName create required attr def
+security clearance description StringLiteral MethodInvocation MethodInvocation StringLiteral level
+security clearance description StringLiteral MethodInvocation MethodInvocation StringLiteral int
+collections SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName create required attr def
+collections SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral level
+collections SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral int
+empty set SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName create required attr def
+empty set SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral level
+empty set SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral int
+security clearance type def SimpleName VariableDeclarationFragment MethodInvocation SimpleName atlas type util
+security clearance type def SimpleName VariableDeclarationFragment MethodInvocation SimpleName create trait type def
+security clearance type def SimpleName VariableDeclarationFragment MethodInvocation StringLiteral security clearance
+security clearance type def SimpleName VariableDeclarationFragment MethodInvocation StringLiteral security clearance description
+security clearance type def SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName collections
+security clearance type def SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName empty set
+security clearance type def SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName create required attr def
+security clearance type def SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation StringLiteral level
+security clearance type def SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation StringLiteral int
+atlas classification def SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName security clearance type def
+collections SimpleName MethodInvocation SimpleName singleton
+collections SimpleName MethodInvocation StringLiteral security clearance
+singleton SimpleName MethodInvocation StringLiteral security clearance
+create required attr def SimpleName MethodInvocation StringLiteral level
+create required attr def SimpleName MethodInvocation StringLiteral int
+level StringLiteral MethodInvocation StringLiteral int
+atlas type util SimpleName MethodInvocation SimpleName create trait type def
+atlas type util SimpleName MethodInvocation StringLiteral janitor clearance
+atlas type util SimpleName MethodInvocation StringLiteral janitor clearance description
+atlas type util SimpleName MethodInvocation MethodInvocation SimpleName collections
+atlas type util SimpleName MethodInvocation MethodInvocation SimpleName singleton
+atlas type util SimpleName MethodInvocation MethodInvocation StringLiteral security clearance
+atlas type util SimpleName MethodInvocation MethodInvocation SimpleName create required attr def
+atlas type util SimpleName MethodInvocation MethodInvocation StringLiteral level
+atlas type util SimpleName MethodInvocation MethodInvocation StringLiteral int
+create trait type def SimpleName MethodInvocation StringLiteral janitor clearance
+create trait type def SimpleName MethodInvocation StringLiteral janitor clearance description
+create trait type def SimpleName MethodInvocation MethodInvocation SimpleName collections
+create trait type def SimpleName MethodInvocation MethodInvocation SimpleName singleton
+create trait type def SimpleName MethodInvocation MethodInvocation StringLiteral security clearance
+create trait type def SimpleName MethodInvocation MethodInvocation SimpleName create required attr def
+create trait type def SimpleName MethodInvocation MethodInvocation StringLiteral level
+create trait type def SimpleName MethodInvocation MethodInvocation StringLiteral int
+janitor clearance StringLiteral MethodInvocation StringLiteral janitor clearance description
+janitor clearance StringLiteral MethodInvocation MethodInvocation SimpleName collections
+janitor clearance StringLiteral MethodInvocation MethodInvocation SimpleName singleton
+janitor clearance StringLiteral MethodInvocation MethodInvocation StringLiteral security clearance
+janitor clearance StringLiteral MethodInvocation MethodInvocation SimpleName create required attr def
+janitor clearance StringLiteral MethodInvocation MethodInvocation StringLiteral level
+janitor clearance StringLiteral MethodInvocation MethodInvocation StringLiteral int
+janitor clearance description StringLiteral MethodInvocation MethodInvocation SimpleName collections
+janitor clearance description StringLiteral MethodInvocation MethodInvocation SimpleName singleton
+janitor clearance description StringLiteral MethodInvocation MethodInvocation StringLiteral security clearance
+janitor clearance description StringLiteral MethodInvocation MethodInvocation SimpleName create required attr def
+janitor clearance description StringLiteral MethodInvocation MethodInvocation StringLiteral level
+janitor clearance description StringLiteral MethodInvocation MethodInvocation StringLiteral int
+collections SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName create required attr def
+collections SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral level
+collections SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral int
+singleton SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName create required attr def
+singleton SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral level
+singleton SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral int
+security clearance StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName create required attr def
+security clearance StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral level
+security clearance StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral int
+janitor security clearance type def SimpleName VariableDeclarationFragment MethodInvocation SimpleName atlas type util
+janitor security clearance type def SimpleName VariableDeclarationFragment MethodInvocation SimpleName create trait type def
+janitor security clearance type def SimpleName VariableDeclarationFragment MethodInvocation StringLiteral janitor clearance
+janitor security clearance type def SimpleName VariableDeclarationFragment MethodInvocation StringLiteral janitor clearance description
+janitor security clearance type def SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName collections
+janitor security clearance type def SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName singleton
+janitor security clearance type def SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation StringLiteral security clearance
+janitor security clearance type def SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName create required attr def
+janitor security clearance type def SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation StringLiteral level
+janitor security clearance type def SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation StringLiteral int
+atlas classification def SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName janitor security clearance type def
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas classification def
+arrays SimpleName MethodInvocation SimpleName as list
+arrays SimpleName MethodInvocation SimpleName security clearance type def
+arrays SimpleName MethodInvocation SimpleName janitor security clearance type def
+as list SimpleName MethodInvocation SimpleName security clearance type def
+as list SimpleName MethodInvocation SimpleName janitor security clearance type def
+security clearance type def SimpleName MethodInvocation SimpleName janitor security clearance type def
+ret SimpleName VariableDeclarationFragment MethodInvocation SimpleName arrays
+ret SimpleName VariableDeclarationFragment MethodInvocation SimpleName as list
+ret SimpleName VariableDeclarationFragment MethodInvocation SimpleName security clearance type def
+ret SimpleName VariableDeclarationFragment MethodInvocation SimpleName janitor security clearance type def
+populate system attributes SimpleName MethodInvocation SimpleName ret
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName atlas classification def
+public Modifier MethodDeclaration SimpleName get classification with valid super type
+public Modifier MethodDeclaration Block ReturnStatement SimpleName ret
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName atlas classification def
+static Modifier MethodDeclaration SimpleName get classification with valid super type
+static Modifier MethodDeclaration Block ReturnStatement SimpleName ret
+list SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get classification with valid super type
+atlas classification def SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get classification with valid super type
+get classification with valid super type SimpleName MethodDeclaration Block ReturnStatement SimpleName ret
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleName get classification with valid super type
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get classification with valid super type

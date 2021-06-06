@@ -1,0 +1,43 @@
+key SimpleName SimpleType SingleVariableDeclaration SimpleName key
+objects col SimpleName MethodInvocation SimpleName size
+objects col SimpleName MethodInvocation InfixExpression NumberLiteral empty
+size SimpleName MethodInvocation InfixExpression NumberLiteral empty
+lookup col SimpleName MethodInvocation SimpleName set
+lookup col SimpleName MethodInvocation SimpleName key
+set SimpleName MethodInvocation SimpleName key
+objects col SimpleName MethodInvocation SimpleName contains
+objects col SimpleName MethodInvocation SimpleName lookup col
+contains SimpleName MethodInvocation SimpleName lookup col
+objects col SimpleName MethodInvocation IfStatement ReturnStatement BooleanLiteral true
+contains SimpleName MethodInvocation IfStatement ReturnStatement BooleanLiteral true
+lookup col SimpleName MethodInvocation IfStatement ReturnStatement BooleanLiteral true
+objects cf SimpleName MethodInvocation SimpleName size
+objects cf SimpleName MethodInvocation InfixExpression NumberLiteral empty
+size SimpleName MethodInvocation InfixExpression NumberLiteral empty
+lookup cf SimpleName MethodInvocation SimpleName set
+lookup cf SimpleName MethodInvocation SimpleName key
+set SimpleName MethodInvocation SimpleName key
+objects cf SimpleName MethodInvocation SimpleName contains
+objects cf SimpleName MethodInvocation SimpleName lookup cf
+contains SimpleName MethodInvocation SimpleName lookup cf
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName contains
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName key
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName key
+public Modifier MethodDeclaration Block ReturnStatement BooleanLiteral false
+boolean PrimitiveType MethodDeclaration SimpleName contains
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName key
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName key
+boolean PrimitiveType MethodDeclaration Block ReturnStatement BooleanLiteral false
+contains SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName key
+contains SimpleName MethodDeclaration SingleVariableDeclaration SimpleName key
+contains SimpleName MethodDeclaration Block ReturnStatement BooleanLiteral false
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName contains
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName key
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName contains
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName key

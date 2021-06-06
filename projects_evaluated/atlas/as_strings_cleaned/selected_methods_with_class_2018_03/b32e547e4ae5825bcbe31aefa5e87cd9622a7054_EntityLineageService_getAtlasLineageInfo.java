@@ -1,0 +1,169 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName guid
+lineage direction SimpleName SimpleType SingleVariableDeclaration SimpleName direction
+int PrimitiveType SingleVariableDeclaration SimpleName depth
+atlas lineage info SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName lineage info
+entity retriever SimpleName MethodInvocation SimpleName to atlas entity header with classifications
+entity retriever SimpleName MethodInvocation SimpleName guid
+to atlas entity header with classifications SimpleName MethodInvocation SimpleName guid
+entity SimpleName VariableDeclarationFragment MethodInvocation SimpleName entity retriever
+entity SimpleName VariableDeclarationFragment MethodInvocation SimpleName to atlas entity header with classifications
+entity SimpleName VariableDeclarationFragment MethodInvocation SimpleName guid
+atlas entity header SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName entity
+atlas entity access request SimpleName SimpleType ClassInstanceCreation SimpleName atlas type registry
+atlas entity access request SimpleName SimpleType ClassInstanceCreation QualifiedName atlas privilegeentity read
+atlas entity access request SimpleName SimpleType ClassInstanceCreation SimpleName entity
+atlas type registry SimpleName ClassInstanceCreation QualifiedName atlas privilegeentity read
+atlas type registry SimpleName ClassInstanceCreation SimpleName entity
+atlas privilegeentity read QualifiedName ClassInstanceCreation SimpleName entity
+atlas authorization utils SimpleName MethodInvocation SimpleName verify access
+atlas authorization utils SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName atlas entity access request
+atlas authorization utils SimpleName MethodInvocation ClassInstanceCreation SimpleName atlas type registry
+atlas authorization utils SimpleName MethodInvocation ClassInstanceCreation QualifiedName atlas privilegeentity read
+atlas authorization utils SimpleName MethodInvocation ClassInstanceCreation SimpleName entity
+atlas authorization utils SimpleName MethodInvocation StringLiteral read entity lineage guid
+atlas authorization utils SimpleName MethodInvocation SimpleName guid
+verify access SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName atlas entity access request
+verify access SimpleName MethodInvocation ClassInstanceCreation SimpleName atlas type registry
+verify access SimpleName MethodInvocation ClassInstanceCreation QualifiedName atlas privilegeentity read
+verify access SimpleName MethodInvocation ClassInstanceCreation SimpleName entity
+verify access SimpleName MethodInvocation StringLiteral read entity lineage guid
+verify access SimpleName MethodInvocation SimpleName guid
+atlas entity access request SimpleName SimpleType ClassInstanceCreation MethodInvocation StringLiteral read entity lineage guid
+atlas type registry SimpleName ClassInstanceCreation MethodInvocation StringLiteral read entity lineage guid
+atlas privilegeentity read QualifiedName ClassInstanceCreation MethodInvocation StringLiteral read entity lineage guid
+entity SimpleName ClassInstanceCreation MethodInvocation StringLiteral read entity lineage guid
+atlas entity access request SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName guid
+atlas type registry SimpleName ClassInstanceCreation MethodInvocation SimpleName guid
+atlas privilegeentity read QualifiedName ClassInstanceCreation MethodInvocation SimpleName guid
+entity SimpleName ClassInstanceCreation MethodInvocation SimpleName guid
+read entity lineage guid StringLiteral MethodInvocation SimpleName guid
+entity SimpleName MethodInvocation SimpleName get type name
+atlas type registry SimpleName MethodInvocation SimpleName get entity type by name
+atlas type registry SimpleName MethodInvocation MethodInvocation SimpleName entity
+atlas type registry SimpleName MethodInvocation MethodInvocation SimpleName get type name
+get entity type by name SimpleName MethodInvocation MethodInvocation SimpleName entity
+get entity type by name SimpleName MethodInvocation MethodInvocation SimpleName get type name
+entity type SimpleName VariableDeclarationFragment MethodInvocation SimpleName atlas type registry
+entity type SimpleName VariableDeclarationFragment MethodInvocation SimpleName get entity type by name
+entity type SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName entity
+entity type SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get type name
+atlas entity type SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName entity type
+entity type SimpleName MethodInvocation SimpleName get type and all super types
+entity type SimpleName MethodInvocation MethodInvocation SimpleName contains
+get type and all super types SimpleName MethodInvocation MethodInvocation SimpleName contains
+entity type SimpleName MethodInvocation MethodInvocation QualifiedName atlas clientdata set super type
+get type and all super types SimpleName MethodInvocation MethodInvocation QualifiedName atlas clientdata set super type
+contains SimpleName MethodInvocation QualifiedName atlas clientdata set super type
+atlas base exception SimpleName SimpleType ClassInstanceCreation QualifiedName atlas error codeinstance guid not dataset
+atlas base exception SimpleName SimpleType ClassInstanceCreation SimpleName guid
+atlas error codeinstance guid not dataset QualifiedName ClassInstanceCreation SimpleName guid
+direction SimpleName MethodInvocation SimpleName equals
+direction SimpleName MethodInvocation QualifiedName lineage directioninput
+equals SimpleName MethodInvocation QualifiedName lineage directioninput
+get lineage info SimpleName MethodInvocation SimpleName guid
+get lineage info SimpleName MethodInvocation QualifiedName lineage directioninput
+get lineage info SimpleName MethodInvocation SimpleName depth
+guid SimpleName MethodInvocation QualifiedName lineage directioninput
+guid SimpleName MethodInvocation SimpleName depth
+lineage directioninput QualifiedName MethodInvocation SimpleName depth
+lineage info SimpleName Assignment MethodInvocation SimpleName get lineage info
+lineage info SimpleName Assignment MethodInvocation SimpleName guid
+lineage info SimpleName Assignment MethodInvocation QualifiedName lineage directioninput
+lineage info SimpleName Assignment MethodInvocation SimpleName depth
+direction SimpleName MethodInvocation SimpleName equals
+direction SimpleName MethodInvocation QualifiedName lineage directionoutput
+equals SimpleName MethodInvocation QualifiedName lineage directionoutput
+get lineage info SimpleName MethodInvocation SimpleName guid
+get lineage info SimpleName MethodInvocation QualifiedName lineage directionoutput
+get lineage info SimpleName MethodInvocation SimpleName depth
+guid SimpleName MethodInvocation QualifiedName lineage directionoutput
+guid SimpleName MethodInvocation SimpleName depth
+lineage directionoutput QualifiedName MethodInvocation SimpleName depth
+lineage info SimpleName Assignment MethodInvocation SimpleName get lineage info
+lineage info SimpleName Assignment MethodInvocation SimpleName guid
+lineage info SimpleName Assignment MethodInvocation QualifiedName lineage directionoutput
+lineage info SimpleName Assignment MethodInvocation SimpleName depth
+direction SimpleName MethodInvocation SimpleName equals
+direction SimpleName MethodInvocation QualifiedName lineage directionboth
+equals SimpleName MethodInvocation QualifiedName lineage directionboth
+get both lineage info SimpleName MethodInvocation SimpleName guid
+get both lineage info SimpleName MethodInvocation SimpleName depth
+guid SimpleName MethodInvocation SimpleName depth
+lineage info SimpleName Assignment MethodInvocation SimpleName get both lineage info
+lineage info SimpleName Assignment MethodInvocation SimpleName guid
+lineage info SimpleName Assignment MethodInvocation SimpleName depth
+direction SimpleName MethodInvocation SimpleName to string
+atlas base exception SimpleName SimpleType ClassInstanceCreation QualifiedName atlas error codeinstance lineage invalid params
+atlas base exception SimpleName SimpleType ClassInstanceCreation StringLiteral direction
+atlas base exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName direction
+atlas base exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName to string
+atlas error codeinstance lineage invalid params QualifiedName ClassInstanceCreation StringLiteral direction
+atlas error codeinstance lineage invalid params QualifiedName ClassInstanceCreation MethodInvocation SimpleName direction
+atlas error codeinstance lineage invalid params QualifiedName ClassInstanceCreation MethodInvocation SimpleName to string
+direction StringLiteral ClassInstanceCreation MethodInvocation SimpleName direction
+direction StringLiteral ClassInstanceCreation MethodInvocation SimpleName to string
+atlas base exception SimpleName SimpleType ClassInstanceCreation QualifiedName atlas error codeinstance lineage invalid params
+atlas base exception SimpleName SimpleType ClassInstanceCreation StringLiteral direction
+atlas error codeinstance lineage invalid params QualifiedName ClassInstanceCreation StringLiteral direction
+override SimpleName MarkerAnnotation MethodDeclaration MarkerAnnotation SimpleName graph transaction
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName atlas lineage info
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName get atlas lineage info
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName guid
+graph transaction SimpleName MarkerAnnotation MethodDeclaration Modifier public
+graph transaction SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName atlas lineage info
+graph transaction SimpleName MarkerAnnotation MethodDeclaration SimpleName get atlas lineage info
+graph transaction SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName guid
+graph transaction SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName direction
+public Modifier MethodDeclaration SimpleType SimpleName atlas lineage info
+public Modifier MethodDeclaration SimpleName get atlas lineage info
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName guid
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName lineage direction
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName direction
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName depth
+atlas lineage info SimpleName SimpleType MethodDeclaration SimpleName get atlas lineage info
+atlas lineage info SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName guid
+atlas lineage info SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName direction
+atlas lineage info SimpleName SimpleType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+atlas lineage info SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName depth
+atlas lineage info SimpleName SimpleType MethodDeclaration SimpleType SimpleName atlas base exception
+get atlas lineage info SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get atlas lineage info SimpleName MethodDeclaration SingleVariableDeclaration SimpleName guid
+get atlas lineage info SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName lineage direction
+get atlas lineage info SimpleName MethodDeclaration SingleVariableDeclaration SimpleName direction
+get atlas lineage info SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+get atlas lineage info SimpleName MethodDeclaration SingleVariableDeclaration SimpleName depth
+get atlas lineage info SimpleName MethodDeclaration SimpleType SimpleName atlas base exception
+get atlas lineage info SimpleName MethodDeclaration Block ReturnStatement SimpleName lineage info
+guid SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName direction
+guid SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+guid SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName depth
+guid SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+direction SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+direction SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName depth
+direction SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+depth SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName graph transaction
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas lineage info
+public Modifier TypeDeclaration MethodDeclaration SimpleName get atlas lineage info
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName guid
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName direction
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName depth
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName graph transaction
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas lineage info
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get atlas lineage info
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName guid
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName direction
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName depth
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception

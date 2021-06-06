@@ -1,0 +1,25 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+list SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName list
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName list
+list SimpleName MethodInvocation SimpleName size
+list SimpleName MethodInvocation InfixExpression NumberLiteral empty
+size SimpleName MethodInvocation InfixExpression NumberLiteral empty
+list SimpleName InfixExpression InfixExpression InfixExpression NumberLiteral empty
+list SimpleName MethodInvocation SimpleName get
+list SimpleName MethodInvocation NumberLiteral empty
+get SimpleName MethodInvocation NumberLiteral empty
+private Modifier MethodDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SimpleName get sample
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName list
+string SimpleName SimpleType MethodDeclaration SimpleName get sample
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName list
+get sample SimpleName MethodDeclaration SingleVariableDeclaration SimpleName list
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName get sample
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName list
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get sample
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName list

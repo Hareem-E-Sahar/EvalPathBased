@@ -1,0 +1,59 @@
+guid SimpleName VariableDeclarationFragment StringLiteral deaa ca - a - db d c e
+final Modifier VariableDeclarationStatement SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName guid
+final Modifier VariableDeclarationStatement VariableDeclarationFragment StringLiteral deaa ca - a - db d c e
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName guid
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral deaa ca - a - db d c e
+name SimpleName VariableDeclarationFragment StringLiteral like
+final Modifier VariableDeclarationStatement SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName name
+final Modifier VariableDeclarationStatement VariableDeclarationFragment StringLiteral like
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral like
+description SimpleName VariableDeclarationFragment StringLiteral boolean type of rating expressing a favorable impression
+final Modifier VariableDeclarationStatement SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName description
+final Modifier VariableDeclarationStatement VariableDeclarationFragment StringLiteral boolean type of rating expressing a favorable impression
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName description
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral boolean type of rating expressing a favorable impression
+final Modifier VariableDeclarationStatement SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName description guid
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName description guid
+archive helper SimpleName MethodInvocation SimpleName get default entity def
+archive helper SimpleName MethodInvocation SimpleName guid
+archive helper SimpleName MethodInvocation SimpleName name
+archive helper SimpleName MethodInvocation SimpleName description
+get default entity def SimpleName MethodInvocation SimpleName guid
+get default entity def SimpleName MethodInvocation SimpleName name
+get default entity def SimpleName MethodInvocation SimpleName description
+get default entity def SimpleName MethodInvocation SimpleName description guid
+guid SimpleName MethodInvocation SimpleName name
+guid SimpleName MethodInvocation SimpleName description
+guid SimpleName MethodInvocation SimpleName description guid
+name SimpleName MethodInvocation SimpleName description
+name SimpleName MethodInvocation SimpleName description guid
+description SimpleName MethodInvocation SimpleName description guid
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+private Modifier MethodDeclaration SimpleType SimpleName entity def
+private Modifier MethodDeclaration SimpleName get like entity
+private Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+private Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+private Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+private Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+entity def SimpleName SimpleType MethodDeclaration SimpleName get like entity
+get like entity SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+get like entity SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+get like entity SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+get like entity SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName entity def
+public Modifier TypeDeclaration MethodDeclaration SimpleName get like entity
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName entity def
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get like entity

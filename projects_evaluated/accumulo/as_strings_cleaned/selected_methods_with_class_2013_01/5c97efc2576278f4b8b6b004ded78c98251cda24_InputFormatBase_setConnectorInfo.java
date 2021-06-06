@@ -1,0 +1,62 @@
+job SimpleName SimpleType SingleVariableDeclaration SimpleName job
+accumulo token SimpleName SimpleType ParameterizedType WildcardType ?
+accumulo token SimpleName SimpleType ParameterizedType WildcardType ?
+? WildcardType ParameterizedType WildcardType ?
+accumulo token SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName token
+? WildcardType ParameterizedType SingleVariableDeclaration SimpleName token
+? WildcardType ParameterizedType SingleVariableDeclaration SimpleName token
+job SimpleName MethodInvocation SimpleName get configuration
+input configurator SimpleName MethodInvocation SimpleName set connector info
+input configurator SimpleName MethodInvocation SimpleName class
+input configurator SimpleName MethodInvocation MethodInvocation SimpleName job
+input configurator SimpleName MethodInvocation MethodInvocation SimpleName get configuration
+input configurator SimpleName MethodInvocation SimpleName token
+set connector info SimpleName MethodInvocation SimpleName class
+set connector info SimpleName MethodInvocation MethodInvocation SimpleName job
+set connector info SimpleName MethodInvocation MethodInvocation SimpleName get configuration
+set connector info SimpleName MethodInvocation SimpleName token
+class SimpleName MethodInvocation MethodInvocation SimpleName job
+class SimpleName MethodInvocation MethodInvocation SimpleName get configuration
+class SimpleName MethodInvocation SimpleName token
+job SimpleName MethodInvocation MethodInvocation SimpleName token
+get configuration SimpleName MethodInvocation MethodInvocation SimpleName token
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set connector info
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName job
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName job
+public Modifier MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+public Modifier MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName token
+static Modifier MethodDeclaration PrimitiveType void
+static Modifier MethodDeclaration SimpleName set connector info
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName job
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName job
+static Modifier MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+static Modifier MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName token
+void PrimitiveType MethodDeclaration SimpleName set connector info
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName job
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName job
+void PrimitiveType MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+void PrimitiveType MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName token
+set connector info SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName job
+set connector info SimpleName MethodDeclaration SingleVariableDeclaration SimpleName job
+set connector info SimpleName MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+set connector info SimpleName MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+set connector info SimpleName MethodDeclaration SingleVariableDeclaration SimpleName token
+job SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName token
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set connector info
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName job
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName token
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set connector info
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName job
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName token

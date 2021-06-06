@@ -1,0 +1,70 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType SingleVariableDeclaration SimpleName typename
+atlas graph provider SimpleName MethodInvocation SimpleName get graph instance
+atlas graph provider SimpleName MethodInvocation MethodInvocation SimpleName query
+get graph instance SimpleName MethodInvocation MethodInvocation SimpleName query
+atlas graph provider SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName has
+get graph instance SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName has
+query SimpleName MethodInvocation MethodInvocation SimpleName has
+atlas graph provider SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName constantsentity type property key
+get graph instance SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName constantsentity type property key
+query SimpleName MethodInvocation MethodInvocation QualifiedName constantsentity type property key
+atlas graph provider SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName typename
+get graph instance SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName typename
+query SimpleName MethodInvocation MethodInvocation SimpleName typename
+has SimpleName MethodInvocation QualifiedName constantsentity type property key
+has SimpleName MethodInvocation SimpleName typename
+constantsentity type property key QualifiedName MethodInvocation SimpleName typename
+query SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName query
+query SimpleName VariableDeclarationFragment MethodInvocation SimpleName has
+query SimpleName VariableDeclarationFragment MethodInvocation QualifiedName constantsentity type property key
+query SimpleName VariableDeclarationFragment MethodInvocation SimpleName typename
+atlas graph query SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName query
+iterator SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas vertex
+query SimpleName MethodInvocation SimpleName vertices
+query SimpleName MethodInvocation MethodInvocation SimpleName iterator
+vertices SimpleName MethodInvocation MethodInvocation SimpleName iterator
+results SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName query
+results SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName vertices
+results SimpleName VariableDeclarationFragment MethodInvocation SimpleName iterator
+results SimpleName MethodInvocation SimpleName has next
+collections SimpleName MethodInvocation SimpleName empty list
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+results SimpleName MethodInvocation SimpleName has next
+results SimpleName MethodInvocation SimpleName next
+get id from vertex SimpleName MethodInvocation MethodInvocation SimpleName results
+get id from vertex SimpleName MethodInvocation MethodInvocation SimpleName next
+entity list SimpleName MethodInvocation SimpleName add
+entity list SimpleName MethodInvocation MethodInvocation SimpleName get id from vertex
+entity list SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName results
+entity list SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName next
+add SimpleName MethodInvocation MethodInvocation SimpleName get id from vertex
+add SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName results
+add SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName next
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName find entity gui ds by type
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName typename
+public Modifier MethodDeclaration Block ReturnStatement SimpleName entity list
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+static Modifier MethodDeclaration SimpleName find entity gui ds by type
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName typename
+static Modifier MethodDeclaration Block ReturnStatement SimpleName entity list
+list SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName find entity gui ds by type
+string SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName find entity gui ds by type
+find entity gui ds by type SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+find entity gui ds by type SimpleName MethodDeclaration SingleVariableDeclaration SimpleName typename
+find entity gui ds by type SimpleName MethodDeclaration Block ReturnStatement SimpleName entity list
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleName find entity gui ds by type
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName typename
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleName find entity gui ds by type
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName typename

@@ -1,0 +1,17 @@
+entity stream SimpleName SimpleType SingleVariableDeclaration SimpleName entity stream
+entity mutation response SimpleName SimpleType MethodDeclaration SimpleName create or update for import
+entity mutation response SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName entity stream
+entity mutation response SimpleName SimpleType MethodDeclaration SimpleType SimpleName atlas base exception
+create or update for import SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName entity stream
+create or update for import SimpleName MethodDeclaration SingleVariableDeclaration SimpleName entity stream
+create or update for import SimpleName MethodDeclaration SimpleType SimpleName atlas base exception
+entity stream SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName entity mutation response
+public Modifier TypeDeclaration MethodDeclaration SimpleName create or update for import
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity stream
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName entity mutation response
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create or update for import
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity stream
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception

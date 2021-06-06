@@ -1,0 +1,12 @@
+public Modifier MethodDeclaration SimpleType SimpleName block region
+public Modifier MethodDeclaration SimpleName get region
+public Modifier MethodDeclaration Block ReturnStatement SimpleName region
+block region SimpleName SimpleType MethodDeclaration SimpleName get region
+get region SimpleName MethodDeclaration Block ReturnStatement SimpleName region
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName block region
+public Modifier TypeDeclaration MethodDeclaration SimpleName get region
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName block region
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get region

@@ -1,0 +1,70 @@
+create table SimpleName MethodInvocation BooleanLiteral false
+table name SimpleName VariableDeclarationFragment MethodInvocation SimpleName create table
+table name SimpleName VariableDeclarationFragment MethodInvocation BooleanLiteral false
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName table name
+mkdir SimpleName MethodInvocation StringLiteral export
+pfile StringLiteral InfixExpression MethodInvocation SimpleName mkdir
+pfile StringLiteral InfixExpression MethodInvocation StringLiteral export
+filename SimpleName VariableDeclarationFragment InfixExpression StringLiteral pfile
+filename SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName mkdir
+filename SimpleName VariableDeclarationFragment InfixExpression MethodInvocation StringLiteral export
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName filename
+export table StringLiteral InfixExpression SimpleName table name
+export table StringLiteral InfixExpression StringLiteral to \
+export table StringLiteral InfixExpression SimpleName filename
+export table StringLiteral InfixExpression StringLiteral \
+table name SimpleName InfixExpression StringLiteral to \
+table name SimpleName InfixExpression SimpleName filename
+table name SimpleName InfixExpression StringLiteral \
+to \ StringLiteral InfixExpression SimpleName filename
+to \ StringLiteral InfixExpression StringLiteral \
+filename SimpleName InfixExpression StringLiteral \
+query SimpleName VariableDeclarationFragment InfixExpression StringLiteral export table
+query SimpleName VariableDeclarationFragment InfixExpression SimpleName table name
+query SimpleName VariableDeclarationFragment InfixExpression StringLiteral to \
+query SimpleName VariableDeclarationFragment InfixExpression SimpleName filename
+query SimpleName VariableDeclarationFragment InfixExpression StringLiteral \
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName query
+run command SimpleName MethodInvocation SimpleName query
+assert process is registered SimpleName MethodInvocation SimpleName query
+create table SimpleName MethodInvocation BooleanLiteral false
+table name SimpleName Assignment MethodInvocation SimpleName create table
+table name SimpleName Assignment MethodInvocation BooleanLiteral false
+import table StringLiteral InfixExpression SimpleName table name
+import table StringLiteral InfixExpression StringLiteral from
+import table StringLiteral InfixExpression SimpleName filename
+import table StringLiteral InfixExpression StringLiteral empty
+table name SimpleName InfixExpression StringLiteral from
+table name SimpleName InfixExpression SimpleName filename
+table name SimpleName InfixExpression StringLiteral empty
+from StringLiteral InfixExpression SimpleName filename
+from StringLiteral InfixExpression StringLiteral empty
+filename SimpleName InfixExpression StringLiteral empty
+query SimpleName Assignment InfixExpression StringLiteral import table
+query SimpleName Assignment InfixExpression SimpleName table name
+query SimpleName Assignment InfixExpression StringLiteral from
+query SimpleName Assignment InfixExpression SimpleName filename
+query SimpleName Assignment InfixExpression StringLiteral empty
+run command SimpleName MethodInvocation SimpleName query
+assert process is registered SimpleName MethodInvocation SimpleName query
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test export import
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test export import
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName test export import
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+test export import SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test export import
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test export import
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

@@ -1,0 +1,29 @@
+column SimpleName SimpleType SingleVariableDeclaration SimpleName columns
+hash set SimpleName SimpleType ParameterizedType SimpleType SimpleName column
+hash set SimpleName SimpleType ParameterizedType SimpleType SimpleName column
+column SimpleName SimpleType SingleVariableDeclaration SimpleName column
+hsc SimpleName MethodInvocation SimpleName add
+hsc SimpleName MethodInvocation SimpleName column
+add SimpleName MethodInvocation SimpleName column
+column SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName columns
+column SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName columns
+column qualifier filter SimpleName SimpleType ClassInstanceCreation SimpleName hsc
+private Modifier MethodDeclaration SimpleType SimpleName column qualifier filter
+private Modifier MethodDeclaration SimpleName ncqf
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName column
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName columns
+private Modifier MethodDeclaration Block EnhancedForStatement SimpleName columns
+column qualifier filter SimpleName SimpleType MethodDeclaration SimpleName ncqf
+column qualifier filter SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName columns
+ncqf SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName column
+ncqf SimpleName MethodDeclaration SingleVariableDeclaration SimpleName columns
+ncqf SimpleName MethodDeclaration Block EnhancedForStatement SimpleName columns
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName column qualifier filter
+public Modifier TypeDeclaration MethodDeclaration SimpleName ncqf
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName columns
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName column qualifier filter
+test SimpleName TypeDeclaration MethodDeclaration SimpleName ncqf
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName columns

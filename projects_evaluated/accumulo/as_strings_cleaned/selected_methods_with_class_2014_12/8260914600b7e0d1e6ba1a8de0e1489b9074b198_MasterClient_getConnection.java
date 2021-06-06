@@ -1,0 +1,99 @@
+client context SimpleName SimpleType SingleVariableDeclaration SimpleName context
+check argument SimpleName MethodInvocation InfixExpression SimpleName context
+check argument SimpleName MethodInvocation StringLiteral context is null
+context SimpleName InfixExpression MethodInvocation StringLiteral context is null
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+context SimpleName MethodInvocation SimpleName get instance
+context SimpleName MethodInvocation MethodInvocation SimpleName get master locations
+get instance SimpleName MethodInvocation MethodInvocation SimpleName get master locations
+locations SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName context
+locations SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get instance
+locations SimpleName VariableDeclarationFragment MethodInvocation SimpleName get master locations
+locations SimpleName MethodInvocation SimpleName size
+locations SimpleName MethodInvocation InfixExpression NumberLiteral empty
+size SimpleName MethodInvocation InfixExpression NumberLiteral empty
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral no masters
+debug SimpleName MethodInvocation StringLiteral no masters
+locations SimpleName MethodInvocation SimpleName get
+locations SimpleName MethodInvocation NumberLiteral empty
+get SimpleName MethodInvocation NumberLiteral empty
+host and port SimpleName MethodInvocation SimpleName from string
+host and port SimpleName MethodInvocation MethodInvocation SimpleName locations
+host and port SimpleName MethodInvocation MethodInvocation SimpleName get
+host and port SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+from string SimpleName MethodInvocation MethodInvocation SimpleName locations
+from string SimpleName MethodInvocation MethodInvocation SimpleName get
+from string SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+master SimpleName VariableDeclarationFragment MethodInvocation SimpleName host and port
+master SimpleName VariableDeclarationFragment MethodInvocation SimpleName from string
+master SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName locations
+master SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get
+master SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation NumberLiteral empty
+host and port SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName master
+master SimpleName MethodInvocation SimpleName get port
+empty NumberLiteral InfixExpression MethodInvocation SimpleName master
+empty NumberLiteral InfixExpression MethodInvocation SimpleName get port
+thrift util SimpleName MethodInvocation SimpleName get client no timeout
+thrift util SimpleName MethodInvocation ClassInstanceCreation SimpleType QualifiedName master client serviceclientfactory
+thrift util SimpleName MethodInvocation SimpleName master
+thrift util SimpleName MethodInvocation SimpleName context
+get client no timeout SimpleName MethodInvocation ClassInstanceCreation SimpleType QualifiedName master client serviceclientfactory
+get client no timeout SimpleName MethodInvocation SimpleName master
+get client no timeout SimpleName MethodInvocation SimpleName context
+master client serviceclientfactory QualifiedName SimpleType ClassInstanceCreation MethodInvocation SimpleName master
+master client serviceclientfactory QualifiedName SimpleType ClassInstanceCreation MethodInvocation SimpleName context
+master SimpleName MethodInvocation SimpleName context
+client SimpleName VariableDeclarationFragment MethodInvocation SimpleName thrift util
+client SimpleName VariableDeclarationFragment MethodInvocation SimpleName get client no timeout
+client SimpleName VariableDeclarationFragment MethodInvocation SimpleName master
+client SimpleName VariableDeclarationFragment MethodInvocation SimpleName context
+master client serviceclient QualifiedName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName client
+t transport exception SimpleName SimpleType SingleVariableDeclaration SimpleName tte
+tte SimpleName MethodInvocation SimpleName get cause
+tte SimpleName MethodInvocation MethodInvocation SimpleName get class
+get cause SimpleName MethodInvocation MethodInvocation SimpleName get class
+tte SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName equals
+get cause SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName equals
+get class SimpleName MethodInvocation MethodInvocation SimpleName equals
+equals SimpleName MethodInvocation TypeLiteral SimpleType SimpleName unknown host exception
+runtime exception SimpleName SimpleType ClassInstanceCreation SimpleName tte
+failed to connect to master StringLiteral InfixExpression SimpleName master
+failed to connect to master StringLiteral InfixExpression StringLiteral will retry
+master SimpleName InfixExpression StringLiteral will retry
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation InfixExpression StringLiteral failed to connect to master
+log SimpleName MethodInvocation InfixExpression SimpleName master
+log SimpleName MethodInvocation InfixExpression StringLiteral will retry
+log SimpleName MethodInvocation SimpleName tte
+debug SimpleName MethodInvocation InfixExpression StringLiteral failed to connect to master
+debug SimpleName MethodInvocation InfixExpression SimpleName master
+debug SimpleName MethodInvocation InfixExpression StringLiteral will retry
+debug SimpleName MethodInvocation SimpleName tte
+failed to connect to master StringLiteral InfixExpression MethodInvocation SimpleName tte
+master SimpleName InfixExpression MethodInvocation SimpleName tte
+will retry StringLiteral InfixExpression MethodInvocation SimpleName tte
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType QualifiedName master client serviceclient
+public Modifier MethodDeclaration SimpleName get connection
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName client context
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName context
+static Modifier MethodDeclaration SimpleType QualifiedName master client serviceclient
+static Modifier MethodDeclaration SimpleName get connection
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName client context
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName context
+master client serviceclient QualifiedName SimpleType MethodDeclaration SimpleName get connection
+master client serviceclient QualifiedName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName context
+get connection SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName client context
+get connection SimpleName MethodDeclaration SingleVariableDeclaration SimpleName context
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType QualifiedName master client serviceclient
+public Modifier TypeDeclaration MethodDeclaration SimpleName get connection
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName context
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType QualifiedName master client serviceclient
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get connection
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName context

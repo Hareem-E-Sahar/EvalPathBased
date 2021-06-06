@@ -1,0 +1,64 @@
+batch writer SimpleName SimpleType SingleVariableDeclaration SimpleName bw
+string SimpleName SimpleType SingleVariableDeclaration SimpleName doc id
+string SimpleName SimpleType SingleVariableDeclaration SimpleName doc
+mutation SimpleName SimpleType ClassInstanceCreation SimpleName doc id
+m SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName mutation
+m SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName doc id
+mutation SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName m
+m SimpleName MethodInvocation SimpleName put
+m SimpleName MethodInvocation StringLiteral doc
+m SimpleName MethodInvocation StringLiteral empty
+m SimpleName MethodInvocation SimpleName doc
+put SimpleName MethodInvocation StringLiteral doc
+put SimpleName MethodInvocation StringLiteral empty
+put SimpleName MethodInvocation SimpleName doc
+doc StringLiteral MethodInvocation StringLiteral empty
+doc StringLiteral MethodInvocation SimpleName doc
+empty StringLiteral MethodInvocation SimpleName doc
+bw SimpleName MethodInvocation SimpleName add mutation
+bw SimpleName MethodInvocation SimpleName m
+add mutation SimpleName MethodInvocation SimpleName m
+static Modifier MethodDeclaration PrimitiveType void
+static Modifier MethodDeclaration SimpleName save document
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName batch writer
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName bw
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName doc id
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName doc
+void PrimitiveType MethodDeclaration SimpleName save document
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName batch writer
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName bw
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName doc id
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName doc
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+save document SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName batch writer
+save document SimpleName MethodDeclaration SingleVariableDeclaration SimpleName bw
+save document SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+save document SimpleName MethodDeclaration SingleVariableDeclaration SimpleName doc id
+save document SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+save document SimpleName MethodDeclaration SingleVariableDeclaration SimpleName doc
+save document SimpleName MethodDeclaration SimpleType SimpleName exception
+bw SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName doc id
+bw SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName doc
+bw SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+doc id SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName doc
+doc id SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+doc SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName save document
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName bw
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName doc id
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName doc
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName save document
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName bw
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName doc id
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName doc
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

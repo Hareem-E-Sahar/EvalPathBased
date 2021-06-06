@@ -1,0 +1,12 @@
+public Modifier MethodDeclaration SimpleType SimpleName mapped element cache
+public Modifier MethodDeclaration SimpleName get cache
+public Modifier MethodDeclaration Block ReturnStatement SimpleName cache
+mapped element cache SimpleName SimpleType MethodDeclaration SimpleName get cache
+get cache SimpleName MethodDeclaration Block ReturnStatement SimpleName cache
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName mapped element cache
+public Modifier TypeDeclaration MethodDeclaration SimpleName get cache
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName mapped element cache
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get cache

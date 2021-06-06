@@ -1,0 +1,152 @@
+connector SimpleName SimpleType SingleVariableDeclaration SimpleName conn
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+set SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName referenced wals
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName referenced wals
+batch scanner SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName bs
+batch writer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName bw
+replication table SimpleName MethodInvocation SimpleName get batch writer
+replication table SimpleName MethodInvocation SimpleName conn
+get batch writer SimpleName MethodInvocation SimpleName conn
+bw SimpleName Assignment MethodInvocation SimpleName replication table
+bw SimpleName Assignment MethodInvocation SimpleName get batch writer
+bw SimpleName Assignment MethodInvocation SimpleName conn
+conn SimpleName MethodInvocation SimpleName create batch scanner
+conn SimpleName MethodInvocation QualifiedName replication tablename
+conn SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName authorizations
+conn SimpleName MethodInvocation NumberLiteral empty
+create batch scanner SimpleName MethodInvocation QualifiedName replication tablename
+create batch scanner SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName authorizations
+create batch scanner SimpleName MethodInvocation NumberLiteral empty
+replication tablename QualifiedName MethodInvocation ClassInstanceCreation SimpleType SimpleName authorizations
+replication tablename QualifiedName MethodInvocation NumberLiteral empty
+authorizations SimpleName SimpleType ClassInstanceCreation MethodInvocation NumberLiteral empty
+bs SimpleName Assignment MethodInvocation SimpleName conn
+bs SimpleName Assignment MethodInvocation SimpleName create batch scanner
+bs SimpleName Assignment MethodInvocation QualifiedName replication tablename
+bs SimpleName Assignment MethodInvocation NumberLiteral empty
+collections SimpleName MethodInvocation SimpleName singleton
+collections SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName range
+singleton SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName range
+bs SimpleName MethodInvocation SimpleName set ranges
+bs SimpleName MethodInvocation MethodInvocation SimpleName collections
+bs SimpleName MethodInvocation MethodInvocation SimpleName singleton
+set ranges SimpleName MethodInvocation MethodInvocation SimpleName collections
+set ranges SimpleName MethodInvocation MethodInvocation SimpleName singleton
+status section SimpleName MethodInvocation SimpleName limit
+status section SimpleName MethodInvocation SimpleName bs
+limit SimpleName MethodInvocation SimpleName bs
+repl file text SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName text
+text SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName repl file text
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName key
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+key SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+entry SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+key SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+value SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+status SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName status
+entry SimpleName MethodInvocation SimpleName get value
+entry SimpleName MethodInvocation MethodInvocation SimpleName get
+get value SimpleName MethodInvocation MethodInvocation SimpleName get
+status SimpleName MethodInvocation SimpleName parse from
+status SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName entry
+status SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get value
+status SimpleName MethodInvocation MethodInvocation SimpleName get
+parse from SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName entry
+parse from SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get value
+parse from SimpleName MethodInvocation MethodInvocation SimpleName get
+status SimpleName Assignment MethodInvocation SimpleName status
+status SimpleName Assignment MethodInvocation SimpleName parse from
+status SimpleName Assignment MethodInvocation MethodInvocation SimpleName get
+invalid protocol buffer exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+entry SimpleName MethodInvocation SimpleName get key
+could not parse status protobuf for StringLiteral InfixExpression MethodInvocation SimpleName entry
+could not parse status protobuf for StringLiteral InfixExpression MethodInvocation SimpleName get key
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation InfixExpression StringLiteral could not parse status protobuf for
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName entry
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get key
+log SimpleName MethodInvocation SimpleName e
+error SimpleName MethodInvocation InfixExpression StringLiteral could not parse status protobuf for
+error SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName entry
+error SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get key
+error SimpleName MethodInvocation SimpleName e
+could not parse status protobuf for StringLiteral InfixExpression MethodInvocation SimpleName e
+entry SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName e
+get key SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName e
+status util SimpleName MethodInvocation SimpleName is fully replicated
+status util SimpleName MethodInvocation SimpleName status
+is fully replicated SimpleName MethodInvocation SimpleName status
+entry SimpleName MethodInvocation SimpleName get key
+entry SimpleName MethodInvocation MethodInvocation SimpleName get row
+get key SimpleName MethodInvocation MethodInvocation SimpleName get row
+entry SimpleName MethodInvocation MethodInvocation SimpleName repl file text
+get key SimpleName MethodInvocation MethodInvocation SimpleName repl file text
+get row SimpleName MethodInvocation SimpleName repl file text
+repl file text SimpleName MethodInvocation SimpleName to string
+repl file SimpleName VariableDeclarationFragment MethodInvocation SimpleName repl file text
+repl file SimpleName VariableDeclarationFragment MethodInvocation SimpleName to string
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName repl file
+repl file SimpleName MethodInvocation SimpleName ends with
+repl file SimpleName MethodInvocation SimpleName rfile suffix
+ends with SimpleName MethodInvocation SimpleName rfile suffix
+referenced wals SimpleName MethodInvocation SimpleName contains
+referenced wals SimpleName MethodInvocation SimpleName repl file
+contains SimpleName MethodInvocation SimpleName repl file
+entry SimpleName MethodInvocation SimpleName get key
+close wal SimpleName MethodInvocation SimpleName bw
+close wal SimpleName MethodInvocation MethodInvocation SimpleName entry
+close wal SimpleName MethodInvocation MethodInvocation SimpleName get key
+bw SimpleName MethodInvocation MethodInvocation SimpleName entry
+bw SimpleName MethodInvocation MethodInvocation SimpleName get key
+mutations rejected exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+entry SimpleName MethodInvocation SimpleName get key
+failed to submit delete mutation for StringLiteral InfixExpression MethodInvocation SimpleName entry
+failed to submit delete mutation for StringLiteral InfixExpression MethodInvocation SimpleName get key
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation InfixExpression StringLiteral failed to submit delete mutation for
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName entry
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get key
+error SimpleName MethodInvocation InfixExpression StringLiteral failed to submit delete mutation for
+error SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName entry
+error SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get key
+entry SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName bs
+table not found exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation StringLiteral replication table was deleted
+log SimpleName MethodInvocation SimpleName e
+error SimpleName MethodInvocation StringLiteral replication table was deleted
+error SimpleName MethodInvocation SimpleName e
+replication table was deleted StringLiteral MethodInvocation SimpleName e
+bs SimpleName MethodInvocation SimpleName close
+bw SimpleName MethodInvocation SimpleName close
+mutations rejected exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation StringLiteral failed to write delete mutations for replication table
+log SimpleName MethodInvocation SimpleName e
+error SimpleName MethodInvocation StringLiteral failed to write delete mutations for replication table
+error SimpleName MethodInvocation SimpleName e
+failed to write delete mutations for replication table StringLiteral MethodInvocation SimpleName e
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName update replication table
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName connector
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName conn
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName referenced wals
+void PrimitiveType MethodDeclaration SimpleName update replication table
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName connector
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName conn
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName referenced wals
+update replication table SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName connector
+update replication table SimpleName MethodDeclaration SingleVariableDeclaration SimpleName conn
+update replication table SimpleName MethodDeclaration SingleVariableDeclaration SimpleName referenced wals
+conn SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName referenced wals
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName update replication table
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName conn
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName referenced wals
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName update replication table
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName conn
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName referenced wals

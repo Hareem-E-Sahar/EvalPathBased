@@ -1,0 +1,70 @@
+option SimpleName SimpleType ClassInstanceCreation StringLiteral username
+option SimpleName SimpleType ClassInstanceCreation StringLiteral username
+option SimpleName SimpleType ClassInstanceCreation BooleanLiteral true
+option SimpleName SimpleType ClassInstanceCreation StringLiteral username
+username StringLiteral ClassInstanceCreation StringLiteral username
+username StringLiteral ClassInstanceCreation BooleanLiteral true
+username StringLiteral ClassInstanceCreation StringLiteral username
+username StringLiteral ClassInstanceCreation BooleanLiteral true
+username StringLiteral ClassInstanceCreation StringLiteral username
+true BooleanLiteral ClassInstanceCreation StringLiteral username
+username opt SimpleName Assignment ClassInstanceCreation SimpleType SimpleName option
+username opt SimpleName Assignment ClassInstanceCreation StringLiteral username
+username opt SimpleName Assignment ClassInstanceCreation StringLiteral username
+username opt SimpleName Assignment ClassInstanceCreation BooleanLiteral true
+username opt SimpleName Assignment ClassInstanceCreation StringLiteral username
+option SimpleName SimpleType ClassInstanceCreation StringLiteral password
+option SimpleName SimpleType ClassInstanceCreation StringLiteral password
+option SimpleName SimpleType ClassInstanceCreation BooleanLiteral true
+option SimpleName SimpleType ClassInstanceCreation StringLiteral password
+password StringLiteral ClassInstanceCreation StringLiteral password
+password StringLiteral ClassInstanceCreation BooleanLiteral true
+password StringLiteral ClassInstanceCreation StringLiteral password
+password StringLiteral ClassInstanceCreation BooleanLiteral true
+password StringLiteral ClassInstanceCreation StringLiteral password
+true BooleanLiteral ClassInstanceCreation StringLiteral password
+password opt SimpleName Assignment ClassInstanceCreation SimpleType SimpleName option
+password opt SimpleName Assignment ClassInstanceCreation StringLiteral password
+password opt SimpleName Assignment ClassInstanceCreation StringLiteral password
+password opt SimpleName Assignment ClassInstanceCreation BooleanLiteral true
+password opt SimpleName Assignment ClassInstanceCreation StringLiteral password
+option SimpleName SimpleType ClassInstanceCreation StringLiteral readonly
+option SimpleName SimpleType ClassInstanceCreation StringLiteral readonly
+option SimpleName SimpleType ClassInstanceCreation BooleanLiteral false
+option SimpleName SimpleType ClassInstanceCreation StringLiteral read only
+readonly StringLiteral ClassInstanceCreation StringLiteral readonly
+readonly StringLiteral ClassInstanceCreation BooleanLiteral false
+readonly StringLiteral ClassInstanceCreation StringLiteral read only
+readonly StringLiteral ClassInstanceCreation BooleanLiteral false
+readonly StringLiteral ClassInstanceCreation StringLiteral read only
+false BooleanLiteral ClassInstanceCreation StringLiteral read only
+readonly opt SimpleName Assignment ClassInstanceCreation SimpleType SimpleName option
+readonly opt SimpleName Assignment ClassInstanceCreation StringLiteral readonly
+readonly opt SimpleName Assignment ClassInstanceCreation StringLiteral readonly
+readonly opt SimpleName Assignment ClassInstanceCreation BooleanLiteral false
+readonly opt SimpleName Assignment ClassInstanceCreation StringLiteral read only
+opts SimpleName Assignment ClassInstanceCreation SimpleType SimpleName options
+opts SimpleName MethodInvocation SimpleName add option
+opts SimpleName MethodInvocation SimpleName username opt
+add option SimpleName MethodInvocation SimpleName username opt
+opts SimpleName MethodInvocation SimpleName add option
+opts SimpleName MethodInvocation SimpleName password opt
+add option SimpleName MethodInvocation SimpleName password opt
+opts SimpleName MethodInvocation SimpleName add option
+opts SimpleName MethodInvocation SimpleName readonly opt
+add option SimpleName MethodInvocation SimpleName readonly opt
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName setup options
+static Modifier MethodDeclaration PrimitiveType void
+static Modifier MethodDeclaration SimpleName setup options
+void PrimitiveType MethodDeclaration SimpleName setup options
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName setup options
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName setup options

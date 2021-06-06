@@ -1,0 +1,36 @@
+long PrimitiveType SingleVariableDeclaration SimpleName nm pointer
+private Modifier MethodDeclaration Modifier static
+private Modifier MethodDeclaration Modifier native
+private Modifier MethodDeclaration PrimitiveType long
+private Modifier MethodDeclaration SimpleName delete nm
+private Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType long
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName nm pointer
+static Modifier MethodDeclaration Modifier native
+static Modifier MethodDeclaration PrimitiveType long
+static Modifier MethodDeclaration SimpleName delete nm
+static Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType long
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName nm pointer
+native Modifier MethodDeclaration PrimitiveType long
+native Modifier MethodDeclaration SimpleName delete nm
+native Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType long
+native Modifier MethodDeclaration SingleVariableDeclaration SimpleName nm pointer
+long PrimitiveType MethodDeclaration SimpleName delete nm
+long PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType long
+long PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName nm pointer
+delete nm SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType long
+delete nm SimpleName MethodDeclaration SingleVariableDeclaration SimpleName nm pointer
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration Modifier native
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType long
+public Modifier TypeDeclaration MethodDeclaration SimpleName delete nm
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName nm pointer
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration Modifier native
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType long
+test SimpleName TypeDeclaration MethodDeclaration SimpleName delete nm
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName nm pointer

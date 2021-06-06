@@ -1,0 +1,13 @@
+additional properties SimpleName SimpleType ClassInstanceCreation SuperMethodInvocation SimpleName get parent asset
+additional properties SimpleName SimpleType ClassInstanceCreation SimpleName secured properties
+get parent asset SimpleName SuperMethodInvocation ClassInstanceCreation SimpleName secured properties
+protected Modifier MethodDeclaration SimpleType SimpleName additional properties
+protected Modifier MethodDeclaration SimpleName get secured properties
+additional properties SimpleName SimpleType MethodDeclaration SimpleName get secured properties
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName additional properties
+public Modifier TypeDeclaration MethodDeclaration SimpleName get secured properties
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName additional properties
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get secured properties

@@ -1,0 +1,73 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName range
+nr SimpleName MethodInvocation StringLiteral b
+nr SimpleName MethodInvocation StringLiteral d
+b StringLiteral MethodInvocation StringLiteral d
+nr SimpleName MethodInvocation StringLiteral e
+nr SimpleName MethodInvocation StringLiteral c
+nr SimpleName MethodInvocation StringLiteral f
+c StringLiteral MethodInvocation StringLiteral f
+nrl SimpleName MethodInvocation MethodInvocation SimpleName nr
+nrl SimpleName MethodInvocation MethodInvocation StringLiteral b
+nrl SimpleName MethodInvocation MethodInvocation StringLiteral d
+nrl SimpleName MethodInvocation MethodInvocation SimpleName nr
+nrl SimpleName MethodInvocation MethodInvocation StringLiteral e
+nrl SimpleName MethodInvocation MethodInvocation SimpleName nr
+nrl SimpleName MethodInvocation MethodInvocation StringLiteral c
+nrl SimpleName MethodInvocation MethodInvocation StringLiteral f
+nr SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName nr
+nr SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral e
+b StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName nr
+b StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral e
+d StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName nr
+d StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral e
+nr SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName nr
+nr SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral c
+nr SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral f
+b StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName nr
+b StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral c
+b StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral f
+d StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName nr
+d StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral c
+d StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral f
+nr SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName nr
+nr SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral c
+nr SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral f
+e StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName nr
+e StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral c
+e StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral f
+rl SimpleName VariableDeclarationFragment MethodInvocation SimpleName nrl
+rl SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName nr
+rl SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation StringLiteral b
+rl SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation StringLiteral d
+rl SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName nr
+rl SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation StringLiteral e
+rl SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName nr
+rl SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation StringLiteral c
+rl SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation StringLiteral f
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName range
+nr SimpleName MethodInvocation StringLiteral b
+nrl SimpleName MethodInvocation MethodInvocation SimpleName nr
+nrl SimpleName MethodInvocation MethodInvocation StringLiteral b
+expected SimpleName VariableDeclarationFragment MethodInvocation SimpleName nrl
+expected SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName nr
+expected SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation StringLiteral b
+range SimpleName MethodInvocation SimpleName merge overlapping
+range SimpleName MethodInvocation SimpleName rl
+merge overlapping SimpleName MethodInvocation SimpleName rl
+check SimpleName MethodInvocation MethodInvocation SimpleName range
+check SimpleName MethodInvocation MethodInvocation SimpleName merge overlapping
+check SimpleName MethodInvocation MethodInvocation SimpleName rl
+check SimpleName MethodInvocation SimpleName expected
+range SimpleName MethodInvocation MethodInvocation SimpleName expected
+merge overlapping SimpleName MethodInvocation MethodInvocation SimpleName expected
+rl SimpleName MethodInvocation MethodInvocation SimpleName expected
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test merge overlapping
+void PrimitiveType MethodDeclaration SimpleName test merge overlapping
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test merge overlapping
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test merge overlapping

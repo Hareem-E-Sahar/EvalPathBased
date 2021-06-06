@@ -1,0 +1,123 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName type def
+string SimpleName SimpleType SingleVariableDeclaration SimpleName user id
+string SimpleName SimpleType SingleVariableDeclaration SimpleName standard
+string SimpleName SimpleType SingleVariableDeclaration SimpleName organization
+string SimpleName SimpleType SingleVariableDeclaration SimpleName identifier
+method name SimpleName VariableDeclarationFragment StringLiteral find types by external id
+final Modifier VariableDeclarationStatement SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName method name
+final Modifier VariableDeclarationStatement VariableDeclarationFragment StringLiteral find types by external id
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName method name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral find types by external id
+url template SimpleName VariableDeclarationFragment StringLiteral { typestypedefsbyexternalidstandard organization identifier }
+final Modifier VariableDeclarationStatement SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName url template
+final Modifier VariableDeclarationStatement VariableDeclarationFragment StringLiteral { typestypedefsbyexternalidstandard organization identifier }
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName url template
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral { typestypedefsbyexternalidstandard organization identifier }
+rest url root SimpleName InfixExpression SimpleName url template
+call type def list get rest call SimpleName MethodInvocation SimpleName method name
+call type def list get rest call SimpleName MethodInvocation InfixExpression SimpleName rest url root
+call type def list get rest call SimpleName MethodInvocation InfixExpression SimpleName url template
+call type def list get rest call SimpleName MethodInvocation SimpleName user id
+call type def list get rest call SimpleName MethodInvocation SimpleName standard
+call type def list get rest call SimpleName MethodInvocation SimpleName organization
+method name SimpleName MethodInvocation InfixExpression SimpleName rest url root
+method name SimpleName MethodInvocation InfixExpression SimpleName url template
+method name SimpleName MethodInvocation SimpleName user id
+method name SimpleName MethodInvocation SimpleName standard
+method name SimpleName MethodInvocation SimpleName organization
+method name SimpleName MethodInvocation SimpleName identifier
+rest url root SimpleName InfixExpression MethodInvocation SimpleName user id
+url template SimpleName InfixExpression MethodInvocation SimpleName user id
+rest url root SimpleName InfixExpression MethodInvocation SimpleName standard
+url template SimpleName InfixExpression MethodInvocation SimpleName standard
+rest url root SimpleName InfixExpression MethodInvocation SimpleName organization
+url template SimpleName InfixExpression MethodInvocation SimpleName organization
+rest url root SimpleName InfixExpression MethodInvocation SimpleName identifier
+url template SimpleName InfixExpression MethodInvocation SimpleName identifier
+user id SimpleName MethodInvocation SimpleName standard
+user id SimpleName MethodInvocation SimpleName organization
+user id SimpleName MethodInvocation SimpleName identifier
+standard SimpleName MethodInvocation SimpleName organization
+standard SimpleName MethodInvocation SimpleName identifier
+organization SimpleName MethodInvocation SimpleName identifier
+rest result SimpleName VariableDeclarationFragment MethodInvocation SimpleName call type def list get rest call
+rest result SimpleName VariableDeclarationFragment MethodInvocation SimpleName method name
+rest result SimpleName VariableDeclarationFragment MethodInvocation InfixExpression SimpleName rest url root
+rest result SimpleName VariableDeclarationFragment MethodInvocation InfixExpression SimpleName url template
+rest result SimpleName VariableDeclarationFragment MethodInvocation SimpleName user id
+rest result SimpleName VariableDeclarationFragment MethodInvocation SimpleName standard
+rest result SimpleName VariableDeclarationFragment MethodInvocation SimpleName organization
+rest result SimpleName VariableDeclarationFragment MethodInvocation SimpleName identifier
+type def list response SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName rest result
+detect and throw invalid parameter exception SimpleName MethodInvocation SimpleName method name
+detect and throw invalid parameter exception SimpleName MethodInvocation SimpleName rest result
+method name SimpleName MethodInvocation SimpleName rest result
+detect and throw user not authorized exception SimpleName MethodInvocation SimpleName method name
+detect and throw user not authorized exception SimpleName MethodInvocation SimpleName rest result
+method name SimpleName MethodInvocation SimpleName rest result
+detect and throw repository error exception SimpleName MethodInvocation SimpleName method name
+detect and throw repository error exception SimpleName MethodInvocation SimpleName rest result
+method name SimpleName MethodInvocation SimpleName rest result
+rest result SimpleName MethodInvocation SimpleName get type defs
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName type def
+public Modifier MethodDeclaration SimpleName find types by external id
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName user id
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName standard
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName organization
+list SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName find types by external id
+type def SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName find types by external id
+find types by external id SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+find types by external id SimpleName MethodDeclaration SingleVariableDeclaration SimpleName user id
+find types by external id SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+find types by external id SimpleName MethodDeclaration SingleVariableDeclaration SimpleName standard
+find types by external id SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+find types by external id SimpleName MethodDeclaration SingleVariableDeclaration SimpleName organization
+find types by external id SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+find types by external id SimpleName MethodDeclaration SingleVariableDeclaration SimpleName identifier
+find types by external id SimpleName MethodDeclaration SimpleType SimpleName invalid parameter exception
+user id SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName standard
+user id SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName organization
+user id SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName identifier
+user id SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName invalid parameter exception
+user id SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName repository error exception
+standard SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName organization
+standard SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName identifier
+standard SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName invalid parameter exception
+standard SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName repository error exception
+standard SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName user not authorized exception
+organization SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName identifier
+organization SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName invalid parameter exception
+organization SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName repository error exception
+organization SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName user not authorized exception
+identifier SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName invalid parameter exception
+identifier SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName repository error exception
+identifier SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName user not authorized exception
+invalid parameter exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName repository error exception
+invalid parameter exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName user not authorized exception
+repository error exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName user not authorized exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName find types by external id
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName user id
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName standard
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName organization
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName identifier
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName invalid parameter exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName repository error exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName user not authorized exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName find types by external id
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName user id
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName standard
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName organization
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName identifier
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName invalid parameter exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName repository error exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName user not authorized exception

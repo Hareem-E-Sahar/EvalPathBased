@@ -1,0 +1,36 @@
+interrupt check count SimpleName PostfixExpression InfixExpression NumberLiteral empty
+interrupt check count SimpleName PostfixExpression InfixExpression InfixExpression NumberLiteral empty
+empty NumberLiteral InfixExpression InfixExpression NumberLiteral empty
+interrupt flag SimpleName InfixExpression InfixExpression InfixExpression NumberLiteral empty
+interrupt flag SimpleName MethodInvocation SimpleName get
+iter SimpleName MethodInvocation SimpleName has next
+iter SimpleName MethodInvocation SimpleName next
+entry SimpleName Assignment MethodInvocation SimpleName iter
+entry SimpleName Assignment MethodInvocation SimpleName next
+entry SimpleName MethodInvocation SimpleName get key
+range SimpleName MethodInvocation SimpleName after end key
+range SimpleName MethodInvocation MethodInvocation SimpleName entry
+range SimpleName MethodInvocation MethodInvocation SimpleName get key
+after end key SimpleName MethodInvocation MethodInvocation SimpleName entry
+after end key SimpleName MethodInvocation MethodInvocation SimpleName get key
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName next
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName io exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName next
+public Modifier MethodDeclaration SimpleType SimpleName io exception
+void PrimitiveType MethodDeclaration SimpleName next
+void PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+next SimpleName MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName next
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName next
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

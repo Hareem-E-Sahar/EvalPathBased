@@ -1,0 +1,79 @@
+zoo reader SimpleName SimpleType SingleVariableDeclaration SimpleName zoo
+string SimpleName SimpleType SingleVariableDeclaration SimpleName root
+visitor SimpleName SimpleType SingleVariableDeclaration SimpleName v
+v SimpleName MethodInvocation SimpleName visit
+v SimpleName MethodInvocation SimpleName zoo
+v SimpleName MethodInvocation SimpleName root
+visit SimpleName MethodInvocation SimpleName zoo
+visit SimpleName MethodInvocation SimpleName root
+zoo SimpleName MethodInvocation SimpleName root
+string SimpleName SimpleType SingleVariableDeclaration SimpleName child
+zoo SimpleName MethodInvocation SimpleName get children
+zoo SimpleName MethodInvocation SimpleName root
+get children SimpleName MethodInvocation SimpleName root
+root SimpleName InfixExpression StringLiteral /
+root SimpleName InfixExpression SimpleName child
+/ StringLiteral InfixExpression SimpleName child
+recurse SimpleName MethodInvocation SimpleName zoo
+recurse SimpleName MethodInvocation InfixExpression SimpleName root
+recurse SimpleName MethodInvocation InfixExpression StringLiteral /
+recurse SimpleName MethodInvocation InfixExpression SimpleName child
+recurse SimpleName MethodInvocation SimpleName v
+zoo SimpleName MethodInvocation InfixExpression SimpleName root
+zoo SimpleName MethodInvocation InfixExpression StringLiteral /
+zoo SimpleName MethodInvocation InfixExpression SimpleName child
+zoo SimpleName MethodInvocation SimpleName v
+root SimpleName InfixExpression MethodInvocation SimpleName v
+/ StringLiteral InfixExpression MethodInvocation SimpleName v
+child SimpleName InfixExpression MethodInvocation SimpleName v
+child SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName zoo
+child SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName get children
+child SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName root
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName ex
+runtime exception SimpleName SimpleType ClassInstanceCreation SimpleName ex
+private Modifier MethodDeclaration Modifier static
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName recurse
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName zoo reader
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName zoo
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName root
+static Modifier MethodDeclaration PrimitiveType void
+static Modifier MethodDeclaration SimpleName recurse
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName zoo reader
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName zoo
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName root
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName visitor
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName v
+void PrimitiveType MethodDeclaration SimpleName recurse
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName zoo reader
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName zoo
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName root
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName visitor
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName v
+recurse SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName zoo reader
+recurse SimpleName MethodDeclaration SingleVariableDeclaration SimpleName zoo
+recurse SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+recurse SimpleName MethodDeclaration SingleVariableDeclaration SimpleName root
+recurse SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName visitor
+recurse SimpleName MethodDeclaration SingleVariableDeclaration SimpleName v
+zoo SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName root
+zoo SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName v
+root SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName v
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName recurse
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName zoo
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName root
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName v
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName recurse
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName zoo
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName root
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName v

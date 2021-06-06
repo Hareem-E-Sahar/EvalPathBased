@@ -1,0 +1,53 @@
+class SimpleName SimpleType ParameterizedType WildcardType ?
+class SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName implementing class
+? WildcardType ParameterizedType SingleVariableDeclaration SimpleName implementing class
+configuration SimpleName SimpleType SingleVariableDeclaration SimpleName conf
+enum to conf key SimpleName MethodInvocation SimpleName implementing class
+enum to conf key SimpleName MethodInvocation QualifiedName featurescan create tables
+implementing class SimpleName MethodInvocation QualifiedName featurescan create tables
+conf SimpleName MethodInvocation SimpleName get boolean
+conf SimpleName MethodInvocation MethodInvocation SimpleName enum to conf key
+conf SimpleName MethodInvocation MethodInvocation SimpleName implementing class
+conf SimpleName MethodInvocation MethodInvocation QualifiedName featurescan create tables
+conf SimpleName MethodInvocation BooleanLiteral false
+get boolean SimpleName MethodInvocation MethodInvocation SimpleName enum to conf key
+get boolean SimpleName MethodInvocation MethodInvocation SimpleName implementing class
+get boolean SimpleName MethodInvocation MethodInvocation QualifiedName featurescan create tables
+get boolean SimpleName MethodInvocation BooleanLiteral false
+enum to conf key SimpleName MethodInvocation MethodInvocation BooleanLiteral false
+implementing class SimpleName MethodInvocation MethodInvocation BooleanLiteral false
+featurescan create tables QualifiedName MethodInvocation MethodInvocation BooleanLiteral false
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName boolean
+public Modifier MethodDeclaration SimpleName can create tables
+public Modifier MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName implementing class
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName configuration
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName conf
+static Modifier MethodDeclaration SimpleType SimpleName boolean
+static Modifier MethodDeclaration SimpleName can create tables
+static Modifier MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName implementing class
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName configuration
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName conf
+boolean SimpleName SimpleType MethodDeclaration SimpleName can create tables
+boolean SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName implementing class
+boolean SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName conf
+can create tables SimpleName MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+can create tables SimpleName MethodDeclaration SingleVariableDeclaration SimpleName implementing class
+can create tables SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName configuration
+can create tables SimpleName MethodDeclaration SingleVariableDeclaration SimpleName conf
+implementing class SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName conf
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName can create tables
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName implementing class
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName conf
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName can create tables
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName implementing class
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName conf

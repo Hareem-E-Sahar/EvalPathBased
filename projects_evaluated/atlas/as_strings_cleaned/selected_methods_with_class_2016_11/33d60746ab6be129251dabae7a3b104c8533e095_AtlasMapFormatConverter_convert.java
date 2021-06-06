@@ -1,0 +1,218 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName source version
+string SimpleName SimpleType SingleVariableDeclaration SimpleName target version
+final Modifier SingleVariableDeclaration SimpleType SimpleName atlas type
+final Modifier SingleVariableDeclaration SimpleName type
+atlas type SimpleName SimpleType SingleVariableDeclaration SimpleName type
+final Modifier SingleVariableDeclaration SimpleType SimpleName object
+final Modifier SingleVariableDeclaration SimpleName source
+object SimpleName SimpleType SingleVariableDeclaration SimpleName source
+map SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName new map
+map SimpleName SimpleType CastExpression SimpleName source
+orig map SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName map
+orig map SimpleName VariableDeclarationFragment CastExpression SimpleName source
+map SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName orig map
+object SimpleName SimpleType SingleVariableDeclaration SimpleName key
+orig map SimpleName MethodInvocation SimpleName key set
+atlas map type SimpleName SimpleType CastExpression SimpleName type
+map type SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName atlas map type
+map type SimpleName VariableDeclarationFragment CastExpression SimpleName type
+atlas map type SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName map type
+map type SimpleName MethodInvocation SimpleName get key type
+key type SimpleName VariableDeclarationFragment MethodInvocation SimpleName map type
+key type SimpleName VariableDeclarationFragment MethodInvocation SimpleName get key type
+atlas type SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName key type
+map type SimpleName MethodInvocation SimpleName get value type
+value type SimpleName VariableDeclarationFragment MethodInvocation SimpleName map type
+value type SimpleName VariableDeclarationFragment MethodInvocation SimpleName get value type
+atlas type SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName value type
+key type SimpleName MethodInvocation SimpleName get type category
+registry SimpleName MethodInvocation SimpleName get converter
+registry SimpleName MethodInvocation SimpleName source version
+registry SimpleName MethodInvocation SimpleName target version
+registry SimpleName MethodInvocation MethodInvocation SimpleName key type
+registry SimpleName MethodInvocation MethodInvocation SimpleName get type category
+get converter SimpleName MethodInvocation SimpleName source version
+get converter SimpleName MethodInvocation SimpleName target version
+get converter SimpleName MethodInvocation MethodInvocation SimpleName key type
+get converter SimpleName MethodInvocation MethodInvocation SimpleName get type category
+source version SimpleName MethodInvocation SimpleName target version
+source version SimpleName MethodInvocation MethodInvocation SimpleName key type
+source version SimpleName MethodInvocation MethodInvocation SimpleName get type category
+target version SimpleName MethodInvocation MethodInvocation SimpleName key type
+target version SimpleName MethodInvocation MethodInvocation SimpleName get type category
+key converter SimpleName VariableDeclarationFragment MethodInvocation SimpleName registry
+key converter SimpleName VariableDeclarationFragment MethodInvocation SimpleName get converter
+key converter SimpleName VariableDeclarationFragment MethodInvocation SimpleName source version
+key converter SimpleName VariableDeclarationFragment MethodInvocation SimpleName target version
+key converter SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName key type
+key converter SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get type category
+atlas format adapter SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName key converter
+key converter SimpleName MethodInvocation SimpleName convert
+key converter SimpleName MethodInvocation SimpleName source version
+key converter SimpleName MethodInvocation SimpleName target version
+key converter SimpleName MethodInvocation SimpleName key type
+key converter SimpleName MethodInvocation SimpleName key
+convert SimpleName MethodInvocation SimpleName source version
+convert SimpleName MethodInvocation SimpleName target version
+convert SimpleName MethodInvocation SimpleName key type
+convert SimpleName MethodInvocation SimpleName key
+source version SimpleName MethodInvocation SimpleName target version
+source version SimpleName MethodInvocation SimpleName key type
+source version SimpleName MethodInvocation SimpleName key
+target version SimpleName MethodInvocation SimpleName key type
+target version SimpleName MethodInvocation SimpleName key
+key type SimpleName MethodInvocation SimpleName key
+converted key SimpleName VariableDeclarationFragment MethodInvocation SimpleName key converter
+converted key SimpleName VariableDeclarationFragment MethodInvocation SimpleName convert
+converted key SimpleName VariableDeclarationFragment MethodInvocation SimpleName source version
+converted key SimpleName VariableDeclarationFragment MethodInvocation SimpleName target version
+converted key SimpleName VariableDeclarationFragment MethodInvocation SimpleName key type
+converted key SimpleName VariableDeclarationFragment MethodInvocation SimpleName key
+object SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName converted key
+orig map SimpleName MethodInvocation SimpleName get
+orig map SimpleName MethodInvocation SimpleName key
+get SimpleName MethodInvocation SimpleName key
+val SimpleName VariableDeclarationFragment MethodInvocation SimpleName orig map
+val SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+val SimpleName VariableDeclarationFragment MethodInvocation SimpleName key
+object SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName val
+value type SimpleName MethodInvocation SimpleName get type category
+registry SimpleName MethodInvocation SimpleName get converter
+registry SimpleName MethodInvocation SimpleName source version
+registry SimpleName MethodInvocation SimpleName target version
+registry SimpleName MethodInvocation MethodInvocation SimpleName value type
+registry SimpleName MethodInvocation MethodInvocation SimpleName get type category
+get converter SimpleName MethodInvocation SimpleName source version
+get converter SimpleName MethodInvocation SimpleName target version
+get converter SimpleName MethodInvocation MethodInvocation SimpleName value type
+get converter SimpleName MethodInvocation MethodInvocation SimpleName get type category
+source version SimpleName MethodInvocation SimpleName target version
+source version SimpleName MethodInvocation MethodInvocation SimpleName value type
+source version SimpleName MethodInvocation MethodInvocation SimpleName get type category
+target version SimpleName MethodInvocation MethodInvocation SimpleName value type
+target version SimpleName MethodInvocation MethodInvocation SimpleName get type category
+value converter SimpleName VariableDeclarationFragment MethodInvocation SimpleName registry
+value converter SimpleName VariableDeclarationFragment MethodInvocation SimpleName get converter
+value converter SimpleName VariableDeclarationFragment MethodInvocation SimpleName source version
+value converter SimpleName VariableDeclarationFragment MethodInvocation SimpleName target version
+value converter SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName value type
+value converter SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get type category
+atlas format adapter SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName value converter
+value converter SimpleName MethodInvocation SimpleName convert
+value converter SimpleName MethodInvocation SimpleName source version
+value converter SimpleName MethodInvocation SimpleName target version
+value converter SimpleName MethodInvocation SimpleName value type
+value converter SimpleName MethodInvocation SimpleName val
+convert SimpleName MethodInvocation SimpleName source version
+convert SimpleName MethodInvocation SimpleName target version
+convert SimpleName MethodInvocation SimpleName value type
+convert SimpleName MethodInvocation SimpleName val
+source version SimpleName MethodInvocation SimpleName target version
+source version SimpleName MethodInvocation SimpleName value type
+source version SimpleName MethodInvocation SimpleName val
+target version SimpleName MethodInvocation SimpleName value type
+target version SimpleName MethodInvocation SimpleName val
+value type SimpleName MethodInvocation SimpleName val
+new map SimpleName MethodInvocation SimpleName put
+new map SimpleName MethodInvocation SimpleName converted key
+new map SimpleName MethodInvocation MethodInvocation SimpleName value converter
+new map SimpleName MethodInvocation MethodInvocation SimpleName convert
+new map SimpleName MethodInvocation MethodInvocation SimpleName source version
+new map SimpleName MethodInvocation MethodInvocation SimpleName target version
+new map SimpleName MethodInvocation MethodInvocation SimpleName value type
+new map SimpleName MethodInvocation MethodInvocation SimpleName val
+put SimpleName MethodInvocation SimpleName converted key
+put SimpleName MethodInvocation MethodInvocation SimpleName value converter
+put SimpleName MethodInvocation MethodInvocation SimpleName convert
+put SimpleName MethodInvocation MethodInvocation SimpleName source version
+put SimpleName MethodInvocation MethodInvocation SimpleName target version
+put SimpleName MethodInvocation MethodInvocation SimpleName value type
+put SimpleName MethodInvocation MethodInvocation SimpleName val
+converted key SimpleName MethodInvocation MethodInvocation SimpleName value converter
+converted key SimpleName MethodInvocation MethodInvocation SimpleName convert
+converted key SimpleName MethodInvocation MethodInvocation SimpleName source version
+converted key SimpleName MethodInvocation MethodInvocation SimpleName target version
+converted key SimpleName MethodInvocation MethodInvocation SimpleName value type
+converted key SimpleName MethodInvocation MethodInvocation SimpleName val
+new map SimpleName MethodInvocation SimpleName put
+new map SimpleName MethodInvocation SimpleName converted key
+new map SimpleName MethodInvocation SimpleName val
+put SimpleName MethodInvocation SimpleName converted key
+put SimpleName MethodInvocation SimpleName val
+converted key SimpleName MethodInvocation SimpleName val
+key SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName orig map
+key SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName key set
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName map
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName convert
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName source version
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName target version
+public Modifier MethodDeclaration SimpleType SimpleName map
+public Modifier MethodDeclaration SimpleName convert
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName source version
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName target version
+public Modifier MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas type
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName type
+map SimpleName SimpleType MethodDeclaration SimpleName convert
+map SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName source version
+map SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName target version
+map SimpleName SimpleType MethodDeclaration SingleVariableDeclaration Modifier final
+map SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName type
+map SimpleName SimpleType MethodDeclaration SingleVariableDeclaration Modifier final
+map SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName source
+convert SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+convert SimpleName MethodDeclaration SingleVariableDeclaration SimpleName source version
+convert SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+convert SimpleName MethodDeclaration SingleVariableDeclaration SimpleName target version
+convert SimpleName MethodDeclaration SingleVariableDeclaration Modifier final
+convert SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas type
+convert SimpleName MethodDeclaration SingleVariableDeclaration SimpleName type
+convert SimpleName MethodDeclaration SingleVariableDeclaration Modifier final
+convert SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+convert SimpleName MethodDeclaration SingleVariableDeclaration SimpleName source
+convert SimpleName MethodDeclaration SimpleType SimpleName atlas base exception
+source version SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName target version
+source version SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+source version SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type
+source version SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+source version SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName source
+source version SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+target version SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+target version SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type
+target version SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+target version SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName source
+target version SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+final Modifier SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+final Modifier SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName source
+type SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+type SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName source
+final Modifier SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+type SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+final Modifier SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+source SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName map
+public Modifier TypeDeclaration MethodDeclaration SimpleName convert
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName source version
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName target version
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName source
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName map
+test SimpleName TypeDeclaration MethodDeclaration SimpleName convert
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName source version
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName target version
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName source
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception

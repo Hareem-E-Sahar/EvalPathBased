@@ -1,0 +1,20 @@
+i referenceable instance SimpleName SimpleType SingleVariableDeclaration SimpleName instance
+instance SimpleName InstanceofExpression SimpleType SimpleName id
+id SimpleName SimpleType CastExpression SimpleName instance
+instance SimpleName MethodInvocation SimpleName get id
+instance SimpleName InstanceofExpression ConditionalExpression CastExpression SimpleName instance
+instance SimpleName InstanceofExpression ConditionalExpression MethodInvocation SimpleName instance
+instance SimpleName InstanceofExpression ConditionalExpression MethodInvocation SimpleName get id
+instance SimpleName CastExpression ConditionalExpression MethodInvocation SimpleName instance
+instance SimpleName CastExpression ConditionalExpression MethodInvocation SimpleName get id
+id SimpleName SimpleType MethodDeclaration SimpleName get existing id
+id SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName instance
+get existing id SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName i referenceable instance
+get existing id SimpleName MethodDeclaration SingleVariableDeclaration SimpleName instance
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName id
+public Modifier TypeDeclaration MethodDeclaration SimpleName get existing id
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName instance
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName id
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get existing id
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName instance

@@ -1,0 +1,11 @@
+analysis SimpleName SimpleType ClassInstanceCreation SimpleName analysis
+public Modifier MethodDeclaration SimpleType SimpleName analysis
+public Modifier MethodDeclaration SimpleName get analysis
+analysis SimpleName SimpleType MethodDeclaration SimpleName get analysis
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName analysis
+public Modifier TypeDeclaration MethodDeclaration SimpleName get analysis
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName analysis
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get analysis

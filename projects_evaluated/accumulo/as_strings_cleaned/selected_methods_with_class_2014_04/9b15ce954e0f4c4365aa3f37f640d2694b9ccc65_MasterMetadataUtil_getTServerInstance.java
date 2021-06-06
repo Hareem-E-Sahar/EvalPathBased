@@ -1,0 +1,61 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName address
+zoo lock SimpleName SimpleType SingleVariableDeclaration SimpleName zoo lock
+zoo lock SimpleName MethodInvocation SimpleName get session id
+t server instance SimpleName SimpleType ClassInstanceCreation SimpleName address
+t server instance SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName zoo lock
+t server instance SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get session id
+address SimpleName ClassInstanceCreation MethodInvocation SimpleName zoo lock
+address SimpleName ClassInstanceCreation MethodInvocation SimpleName get session id
+keeper exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation SimpleName e
+log SimpleName MethodInvocation SimpleName e
+error SimpleName MethodInvocation SimpleName e
+error SimpleName MethodInvocation SimpleName e
+e SimpleName MethodInvocation SimpleName e
+interrupted exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation SimpleName e
+log SimpleName MethodInvocation SimpleName e
+error SimpleName MethodInvocation SimpleName e
+error SimpleName MethodInvocation SimpleName e
+e SimpleName MethodInvocation SimpleName e
+util wait thread SimpleName MethodInvocation SimpleName sleep
+util wait thread SimpleName MethodInvocation NumberLiteral empty
+sleep SimpleName MethodInvocation NumberLiteral empty
+private Modifier MethodDeclaration Modifier static
+private Modifier MethodDeclaration SimpleType SimpleName t server instance
+private Modifier MethodDeclaration SimpleName get t server instance
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName address
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName zoo lock
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName zoo lock
+static Modifier MethodDeclaration SimpleType SimpleName t server instance
+static Modifier MethodDeclaration SimpleName get t server instance
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName address
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName zoo lock
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName zoo lock
+static Modifier MethodDeclaration Block WhileStatement BooleanLiteral true
+t server instance SimpleName SimpleType MethodDeclaration SimpleName get t server instance
+t server instance SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName address
+t server instance SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName zoo lock
+get t server instance SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get t server instance SimpleName MethodDeclaration SingleVariableDeclaration SimpleName address
+get t server instance SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName zoo lock
+get t server instance SimpleName MethodDeclaration SingleVariableDeclaration SimpleName zoo lock
+get t server instance SimpleName MethodDeclaration Block WhileStatement BooleanLiteral true
+address SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName zoo lock
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName t server instance
+public Modifier TypeDeclaration MethodDeclaration SimpleName get t server instance
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName address
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName zoo lock
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName t server instance
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get t server instance
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName address
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName zoo lock

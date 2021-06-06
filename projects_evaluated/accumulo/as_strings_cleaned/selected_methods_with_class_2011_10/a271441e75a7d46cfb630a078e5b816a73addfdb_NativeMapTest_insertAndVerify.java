@@ -1,0 +1,309 @@
+native map SimpleName SimpleType SingleVariableDeclaration SimpleName nm
+int PrimitiveType SingleVariableDeclaration SimpleName start
+int PrimitiveType SingleVariableDeclaration SimpleName end
+int PrimitiveType SingleVariableDeclaration SimpleName value offset
+i SimpleName VariableDeclarationFragment SimpleName start
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName start
+i SimpleName InfixExpression SimpleName end
+nk SimpleName MethodInvocation SimpleName i
+i SimpleName InfixExpression SimpleName value offset
+nv SimpleName MethodInvocation InfixExpression SimpleName i
+nv SimpleName MethodInvocation InfixExpression SimpleName value offset
+nm SimpleName MethodInvocation SimpleName put
+nm SimpleName MethodInvocation MethodInvocation SimpleName nk
+nm SimpleName MethodInvocation MethodInvocation SimpleName i
+nm SimpleName MethodInvocation MethodInvocation SimpleName nv
+nm SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName i
+nm SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName value offset
+put SimpleName MethodInvocation MethodInvocation SimpleName nk
+put SimpleName MethodInvocation MethodInvocation SimpleName i
+put SimpleName MethodInvocation MethodInvocation SimpleName nv
+put SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName i
+put SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName value offset
+nk SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName nv
+i SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName nv
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName end
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+end SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+i SimpleName VariableDeclarationFragment SimpleName start
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName start
+i SimpleName InfixExpression SimpleName end
+nk SimpleName MethodInvocation SimpleName i
+nm SimpleName MethodInvocation SimpleName get
+nm SimpleName MethodInvocation MethodInvocation SimpleName nk
+nm SimpleName MethodInvocation MethodInvocation SimpleName i
+get SimpleName MethodInvocation MethodInvocation SimpleName nk
+get SimpleName MethodInvocation MethodInvocation SimpleName i
+v SimpleName VariableDeclarationFragment MethodInvocation SimpleName nm
+v SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+v SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName nk
+v SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName i
+value SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName v
+assert not null SimpleName MethodInvocation SimpleName v
+i SimpleName InfixExpression SimpleName value offset
+nv SimpleName MethodInvocation InfixExpression SimpleName i
+nv SimpleName MethodInvocation InfixExpression SimpleName value offset
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName nv
+assert equals SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName i
+assert equals SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName value offset
+assert equals SimpleName MethodInvocation SimpleName v
+nv SimpleName MethodInvocation MethodInvocation SimpleName v
+i SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName v
+value offset SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName v
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName key
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+key SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+nk SimpleName MethodInvocation SimpleName i
+nm SimpleName MethodInvocation SimpleName iterator
+nm SimpleName MethodInvocation MethodInvocation SimpleName nk
+nm SimpleName MethodInvocation MethodInvocation SimpleName i
+iterator SimpleName MethodInvocation MethodInvocation SimpleName nk
+iterator SimpleName MethodInvocation MethodInvocation SimpleName i
+iter SimpleName VariableDeclarationFragment MethodInvocation SimpleName nm
+iter SimpleName VariableDeclarationFragment MethodInvocation SimpleName iterator
+iter SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName nk
+iter SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName i
+iter SimpleName MethodInvocation SimpleName has next
+assert true SimpleName MethodInvocation MethodInvocation SimpleName iter
+assert true SimpleName MethodInvocation MethodInvocation SimpleName has next
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName key
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+key SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+iter SimpleName MethodInvocation SimpleName next
+entry SimpleName VariableDeclarationFragment MethodInvocation SimpleName iter
+entry SimpleName VariableDeclarationFragment MethodInvocation SimpleName next
+nk SimpleName MethodInvocation SimpleName i
+entry SimpleName MethodInvocation SimpleName get key
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName nk
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName i
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName entry
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get key
+nk SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName entry
+nk SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get key
+i SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName entry
+i SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get key
+i SimpleName InfixExpression SimpleName value offset
+nv SimpleName MethodInvocation InfixExpression SimpleName i
+nv SimpleName MethodInvocation InfixExpression SimpleName value offset
+entry SimpleName MethodInvocation SimpleName get value
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName nv
+assert equals SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName i
+assert equals SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName value offset
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName entry
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get value
+nv SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName entry
+nv SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get value
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName end
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+end SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+start SimpleName InfixExpression NumberLiteral empty
+nk SimpleName MethodInvocation InfixExpression SimpleName start
+nk SimpleName MethodInvocation InfixExpression NumberLiteral empty
+nm SimpleName MethodInvocation SimpleName get
+nm SimpleName MethodInvocation MethodInvocation SimpleName nk
+nm SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName start
+nm SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral empty
+get SimpleName MethodInvocation MethodInvocation SimpleName nk
+get SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName start
+get SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral empty
+assert null SimpleName MethodInvocation MethodInvocation SimpleName nm
+assert null SimpleName MethodInvocation MethodInvocation SimpleName get
+assert null SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName nk
+end SimpleName InfixExpression NumberLiteral empty
+nk SimpleName MethodInvocation InfixExpression SimpleName end
+nk SimpleName MethodInvocation InfixExpression NumberLiteral empty
+nm SimpleName MethodInvocation SimpleName get
+nm SimpleName MethodInvocation MethodInvocation SimpleName nk
+nm SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName end
+nm SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral empty
+get SimpleName MethodInvocation MethodInvocation SimpleName nk
+get SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName end
+get SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral empty
+assert null SimpleName MethodInvocation MethodInvocation SimpleName nm
+assert null SimpleName MethodInvocation MethodInvocation SimpleName get
+assert null SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName nk
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName key
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+key SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+nm SimpleName MethodInvocation SimpleName iterator
+iter SimpleName VariableDeclarationFragment MethodInvocation SimpleName nm
+iter SimpleName VariableDeclarationFragment MethodInvocation SimpleName iterator
+verify iterator SimpleName MethodInvocation SimpleName start
+verify iterator SimpleName MethodInvocation SimpleName end
+verify iterator SimpleName MethodInvocation SimpleName value offset
+verify iterator SimpleName MethodInvocation SimpleName iter
+start SimpleName MethodInvocation SimpleName end
+start SimpleName MethodInvocation SimpleName value offset
+start SimpleName MethodInvocation SimpleName iter
+end SimpleName MethodInvocation SimpleName value offset
+end SimpleName MethodInvocation SimpleName iter
+value offset SimpleName MethodInvocation SimpleName iter
+i SimpleName VariableDeclarationFragment SimpleName start
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName start
+i SimpleName InfixExpression SimpleName end
+nk SimpleName MethodInvocation SimpleName i
+nm SimpleName MethodInvocation SimpleName iterator
+nm SimpleName MethodInvocation MethodInvocation SimpleName nk
+nm SimpleName MethodInvocation MethodInvocation SimpleName i
+iterator SimpleName MethodInvocation MethodInvocation SimpleName nk
+iterator SimpleName MethodInvocation MethodInvocation SimpleName i
+iter SimpleName Assignment MethodInvocation SimpleName nm
+iter SimpleName Assignment MethodInvocation SimpleName iterator
+iter SimpleName Assignment MethodInvocation MethodInvocation SimpleName nk
+iter SimpleName Assignment MethodInvocation MethodInvocation SimpleName i
+verify iterator SimpleName MethodInvocation SimpleName i
+verify iterator SimpleName MethodInvocation SimpleName end
+verify iterator SimpleName MethodInvocation SimpleName value offset
+verify iterator SimpleName MethodInvocation SimpleName iter
+i SimpleName MethodInvocation SimpleName end
+i SimpleName MethodInvocation SimpleName value offset
+i SimpleName MethodInvocation SimpleName iter
+end SimpleName MethodInvocation SimpleName value offset
+end SimpleName MethodInvocation SimpleName iter
+value offset SimpleName MethodInvocation SimpleName iter
+nk SimpleName MethodInvocation SimpleName i
+nk SimpleName MethodInvocation NumberLiteral empty
+nk SimpleName MethodInvocation NumberLiteral empty
+nk SimpleName MethodInvocation NumberLiteral empty
+nk SimpleName MethodInvocation NumberLiteral empty
+i SimpleName MethodInvocation NumberLiteral empty
+i SimpleName MethodInvocation NumberLiteral empty
+i SimpleName MethodInvocation NumberLiteral empty
+i SimpleName MethodInvocation NumberLiteral empty
+i SimpleName MethodInvocation BooleanLiteral false
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation BooleanLiteral false
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation BooleanLiteral false
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation BooleanLiteral false
+empty NumberLiteral MethodInvocation BooleanLiteral false
+nm SimpleName MethodInvocation SimpleName iterator
+nm SimpleName MethodInvocation MethodInvocation SimpleName nk
+nm SimpleName MethodInvocation MethodInvocation SimpleName i
+nm SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+nm SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+nm SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+nm SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+nm SimpleName MethodInvocation MethodInvocation BooleanLiteral false
+iterator SimpleName MethodInvocation MethodInvocation SimpleName nk
+iterator SimpleName MethodInvocation MethodInvocation SimpleName i
+iterator SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+iterator SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+iterator SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+iterator SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+iterator SimpleName MethodInvocation MethodInvocation BooleanLiteral false
+iter SimpleName Assignment MethodInvocation SimpleName nm
+iter SimpleName Assignment MethodInvocation SimpleName iterator
+iter SimpleName Assignment MethodInvocation MethodInvocation SimpleName nk
+iter SimpleName Assignment MethodInvocation MethodInvocation SimpleName i
+iter SimpleName Assignment MethodInvocation MethodInvocation NumberLiteral empty
+iter SimpleName Assignment MethodInvocation MethodInvocation NumberLiteral empty
+iter SimpleName Assignment MethodInvocation MethodInvocation NumberLiteral empty
+iter SimpleName Assignment MethodInvocation MethodInvocation NumberLiteral empty
+iter SimpleName Assignment MethodInvocation MethodInvocation BooleanLiteral false
+i SimpleName InfixExpression NumberLiteral empty
+verify iterator SimpleName MethodInvocation InfixExpression SimpleName i
+verify iterator SimpleName MethodInvocation InfixExpression NumberLiteral empty
+verify iterator SimpleName MethodInvocation SimpleName end
+verify iterator SimpleName MethodInvocation SimpleName value offset
+verify iterator SimpleName MethodInvocation SimpleName iter
+i SimpleName InfixExpression MethodInvocation SimpleName end
+empty NumberLiteral InfixExpression MethodInvocation SimpleName end
+i SimpleName InfixExpression MethodInvocation SimpleName value offset
+empty NumberLiteral InfixExpression MethodInvocation SimpleName value offset
+i SimpleName InfixExpression MethodInvocation SimpleName iter
+empty NumberLiteral InfixExpression MethodInvocation SimpleName iter
+end SimpleName MethodInvocation SimpleName value offset
+end SimpleName MethodInvocation SimpleName iter
+value offset SimpleName MethodInvocation SimpleName iter
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName end
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+end SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+end SimpleName InfixExpression SimpleName start
+end SimpleName InfixExpression InfixExpression NumberLiteral empty
+start SimpleName InfixExpression InfixExpression NumberLiteral empty
+nm SimpleName MethodInvocation SimpleName size
+assert equals SimpleName MethodInvocation InfixExpression InfixExpression SimpleName end
+assert equals SimpleName MethodInvocation InfixExpression InfixExpression SimpleName start
+assert equals SimpleName MethodInvocation InfixExpression NumberLiteral empty
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName nm
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName size
+empty NumberLiteral InfixExpression MethodInvocation MethodInvocation SimpleName nm
+empty NumberLiteral InfixExpression MethodInvocation MethodInvocation SimpleName size
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName insert and verify
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName native map
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName nm
+private Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName start
+private Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName end
+void PrimitiveType MethodDeclaration SimpleName insert and verify
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName native map
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName nm
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName start
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName end
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName value offset
+insert and verify SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName native map
+insert and verify SimpleName MethodDeclaration SingleVariableDeclaration SimpleName nm
+insert and verify SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+insert and verify SimpleName MethodDeclaration SingleVariableDeclaration SimpleName start
+insert and verify SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+insert and verify SimpleName MethodDeclaration SingleVariableDeclaration SimpleName end
+insert and verify SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+insert and verify SimpleName MethodDeclaration SingleVariableDeclaration SimpleName value offset
+nm SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+nm SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName start
+nm SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+nm SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName end
+nm SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+nm SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value offset
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName end
+start SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+start SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName end
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value offset
+start SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+start SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value offset
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value offset
+end SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+end SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value offset
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName insert and verify
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName nm
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName start
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName end
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value offset
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName insert and verify
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName nm
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName start
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName end
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value offset

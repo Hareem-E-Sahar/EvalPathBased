@@ -1,0 +1,99 @@
+object SimpleName SimpleType SingleVariableDeclaration SimpleName obj
+string SimpleName SimpleType SingleVariableDeclaration SimpleName obj name
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+list SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName messages
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName messages
+ret SimpleName VariableDeclarationFragment BooleanLiteral true
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName ret
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment BooleanLiteral true
+obj SimpleName InstanceofExpression SimpleType SimpleName atlas object id
+atlas object id SimpleName SimpleType CastExpression SimpleName obj
+obj id SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName atlas object id
+obj id SimpleName VariableDeclarationFragment CastExpression SimpleName obj
+atlas object id SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName obj id
+is assignable from SimpleName MethodInvocation SimpleName obj id
+atlas entity type SimpleName SimpleType SingleVariableDeclaration SimpleName super type
+super type SimpleName MethodInvocation SimpleName validate value
+super type SimpleName MethodInvocation SimpleName obj
+super type SimpleName MethodInvocation SimpleName obj name
+super type SimpleName MethodInvocation SimpleName messages
+validate value SimpleName MethodInvocation SimpleName obj
+validate value SimpleName MethodInvocation SimpleName obj name
+validate value SimpleName MethodInvocation SimpleName messages
+obj SimpleName MethodInvocation SimpleName obj name
+obj SimpleName MethodInvocation SimpleName messages
+obj name SimpleName MethodInvocation SimpleName messages
+super type SimpleName MethodInvocation InfixExpression SimpleName ret
+validate value SimpleName MethodInvocation InfixExpression SimpleName ret
+obj SimpleName MethodInvocation InfixExpression SimpleName ret
+obj name SimpleName MethodInvocation InfixExpression SimpleName ret
+messages SimpleName MethodInvocation InfixExpression SimpleName ret
+ret SimpleName Assignment InfixExpression MethodInvocation SimpleName super type
+ret SimpleName Assignment InfixExpression MethodInvocation SimpleName validate value
+ret SimpleName Assignment InfixExpression MethodInvocation SimpleName obj
+ret SimpleName Assignment InfixExpression MethodInvocation SimpleName obj name
+ret SimpleName Assignment InfixExpression MethodInvocation SimpleName messages
+ret SimpleName Assignment InfixExpression SimpleName ret
+atlas entity type SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName super types
+super type SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName super types
+validate value SimpleName SuperMethodInvocation SimpleName obj
+validate value SimpleName SuperMethodInvocation SimpleName obj name
+validate value SimpleName SuperMethodInvocation SimpleName messages
+obj SimpleName SuperMethodInvocation SimpleName obj name
+obj SimpleName SuperMethodInvocation SimpleName messages
+obj name SimpleName SuperMethodInvocation SimpleName messages
+validate value SimpleName SuperMethodInvocation InfixExpression SimpleName ret
+obj SimpleName SuperMethodInvocation InfixExpression SimpleName ret
+obj name SimpleName SuperMethodInvocation InfixExpression SimpleName ret
+messages SimpleName SuperMethodInvocation InfixExpression SimpleName ret
+ret SimpleName Assignment InfixExpression SuperMethodInvocation SimpleName validate value
+ret SimpleName Assignment InfixExpression SuperMethodInvocation SimpleName obj
+ret SimpleName Assignment InfixExpression SuperMethodInvocation SimpleName obj name
+ret SimpleName Assignment InfixExpression SuperMethodInvocation SimpleName messages
+ret SimpleName Assignment InfixExpression SimpleName ret
+boolean PrimitiveType VariableDeclarationStatement Block ReturnStatement SimpleName ret
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType boolean
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName validate value
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName obj
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName obj name
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName validate value
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName obj
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName obj name
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName messages
+boolean PrimitiveType MethodDeclaration SimpleName validate value
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName obj
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName obj name
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName messages
+boolean PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+boolean PrimitiveType MethodDeclaration Block ReturnStatement SimpleName ret
+validate value SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+validate value SimpleName MethodDeclaration SingleVariableDeclaration SimpleName obj
+validate value SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+validate value SimpleName MethodDeclaration SingleVariableDeclaration SimpleName obj name
+validate value SimpleName MethodDeclaration SingleVariableDeclaration SimpleName messages
+validate value SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+validate value SimpleName MethodDeclaration Block ReturnStatement SimpleName ret
+obj SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName obj name
+obj SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName messages
+obj name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName messages
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName validate value
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName obj
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName obj name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName messages
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName validate value
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName obj
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName obj name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName messages

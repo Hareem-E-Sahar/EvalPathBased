@@ -1,0 +1,67 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName table id
+namespace configuration SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName conf
+table parent configs SimpleName MethodInvocation SimpleName get
+table parent configs SimpleName MethodInvocation SimpleName instance id
+get SimpleName MethodInvocation SimpleName instance id
+table parent configs SimpleName MethodInvocation MethodInvocation SimpleName get
+get SimpleName MethodInvocation MethodInvocation SimpleName get
+instance id SimpleName MethodInvocation MethodInvocation SimpleName get
+table parent configs SimpleName MethodInvocation MethodInvocation SimpleName table id
+get SimpleName MethodInvocation MethodInvocation SimpleName table id
+instance id SimpleName MethodInvocation MethodInvocation SimpleName table id
+get SimpleName MethodInvocation SimpleName table id
+conf SimpleName Assignment MethodInvocation MethodInvocation SimpleName table parent configs
+conf SimpleName Assignment MethodInvocation MethodInvocation SimpleName get
+conf SimpleName Assignment MethodInvocation MethodInvocation SimpleName instance id
+conf SimpleName Assignment MethodInvocation SimpleName get
+conf SimpleName Assignment MethodInvocation SimpleName table id
+table parent configuration SimpleName SimpleType ClassInstanceCreation SimpleName table id
+table parent configuration SimpleName SimpleType ClassInstanceCreation SimpleName instance
+table parent configuration SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get configuration
+table id SimpleName ClassInstanceCreation SimpleName instance
+table id SimpleName ClassInstanceCreation MethodInvocation SimpleName get configuration
+instance SimpleName ClassInstanceCreation MethodInvocation SimpleName get configuration
+conf SimpleName Assignment ClassInstanceCreation SimpleType SimpleName table parent configuration
+conf SimpleName Assignment ClassInstanceCreation SimpleName table id
+conf SimpleName Assignment ClassInstanceCreation SimpleName instance
+conf SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName get configuration
+config sanity check SimpleName MethodInvocation SimpleName validate
+config sanity check SimpleName MethodInvocation SimpleName conf
+validate SimpleName MethodInvocation SimpleName conf
+table parent configs SimpleName MethodInvocation SimpleName get
+table parent configs SimpleName MethodInvocation SimpleName instance id
+get SimpleName MethodInvocation SimpleName instance id
+table parent configs SimpleName MethodInvocation MethodInvocation SimpleName put
+get SimpleName MethodInvocation MethodInvocation SimpleName put
+instance id SimpleName MethodInvocation MethodInvocation SimpleName put
+table parent configs SimpleName MethodInvocation MethodInvocation SimpleName table id
+get SimpleName MethodInvocation MethodInvocation SimpleName table id
+instance id SimpleName MethodInvocation MethodInvocation SimpleName table id
+table parent configs SimpleName MethodInvocation MethodInvocation SimpleName conf
+get SimpleName MethodInvocation MethodInvocation SimpleName conf
+instance id SimpleName MethodInvocation MethodInvocation SimpleName conf
+put SimpleName MethodInvocation SimpleName table id
+put SimpleName MethodInvocation SimpleName conf
+table id SimpleName MethodInvocation SimpleName conf
+table parent configs SimpleName SynchronizedStatement Block ReturnStatement SimpleName conf
+public Modifier MethodDeclaration SimpleType SimpleName namespace configuration
+public Modifier MethodDeclaration SimpleName get namespace configuration for table
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName table id
+public Modifier MethodDeclaration Block SynchronizedStatement SimpleName table parent configs
+public Modifier MethodDeclaration Block ReturnStatement SimpleName conf
+namespace configuration SimpleName SimpleType MethodDeclaration SimpleName get namespace configuration for table
+namespace configuration SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName table id
+get namespace configuration for table SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get namespace configuration for table SimpleName MethodDeclaration SingleVariableDeclaration SimpleName table id
+get namespace configuration for table SimpleName MethodDeclaration Block SynchronizedStatement SimpleName table parent configs
+get namespace configuration for table SimpleName MethodDeclaration Block ReturnStatement SimpleName conf
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName namespace configuration
+public Modifier TypeDeclaration MethodDeclaration SimpleName get namespace configuration for table
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table id
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName namespace configuration
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get namespace configuration for table
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table id

@@ -1,0 +1,54 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+list SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName edge ids
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName edge ids
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName edge
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName edge
+map SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName edge map
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName edge map
+edge SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName edge map
+string SimpleName SimpleType SingleVariableDeclaration SimpleName edge id
+edge map SimpleName MethodInvocation SimpleName contains key
+edge map SimpleName MethodInvocation SimpleName edge id
+contains key SimpleName MethodInvocation SimpleName edge id
+graph helper SimpleName MethodInvocation SimpleName get edge by id
+graph helper SimpleName MethodInvocation SimpleName edge id
+get edge by id SimpleName MethodInvocation SimpleName edge id
+edge map SimpleName MethodInvocation SimpleName put
+edge map SimpleName MethodInvocation SimpleName edge id
+edge map SimpleName MethodInvocation MethodInvocation SimpleName graph helper
+edge map SimpleName MethodInvocation MethodInvocation SimpleName get edge by id
+edge map SimpleName MethodInvocation MethodInvocation SimpleName edge id
+put SimpleName MethodInvocation SimpleName edge id
+put SimpleName MethodInvocation MethodInvocation SimpleName graph helper
+put SimpleName MethodInvocation MethodInvocation SimpleName get edge by id
+put SimpleName MethodInvocation MethodInvocation SimpleName edge id
+edge id SimpleName MethodInvocation MethodInvocation SimpleName graph helper
+edge id SimpleName MethodInvocation MethodInvocation SimpleName get edge by id
+edge id SimpleName MethodInvocation MethodInvocation SimpleName edge id
+string SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName edge ids
+edge id SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName edge ids
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName get edges
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName edge ids
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName edge map
+private Modifier MethodDeclaration Block EnhancedForStatement SimpleName edge ids
+void PrimitiveType MethodDeclaration SimpleName get edges
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName edge ids
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName edge map
+void PrimitiveType MethodDeclaration Block EnhancedForStatement SimpleName edge ids
+get edges SimpleName MethodDeclaration SingleVariableDeclaration SimpleName edge ids
+get edges SimpleName MethodDeclaration SingleVariableDeclaration SimpleName edge map
+get edges SimpleName MethodDeclaration Block EnhancedForStatement SimpleName edge ids
+edge ids SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName edge map
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName get edges
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName edge ids
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName edge map
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get edges
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName edge ids
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName edge map

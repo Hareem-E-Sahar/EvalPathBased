@@ -1,0 +1,31 @@
+atlas base type def SimpleName SimpleType SingleVariableDeclaration SimpleName type def
+arrays SimpleName MethodInvocation SimpleName as list
+arrays SimpleName MethodInvocation SimpleName type def
+as list SimpleName MethodInvocation SimpleName type def
+create types SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName arrays
+create types SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName as list
+create types SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName type def
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName create type
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas base type def
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName type def
+private Modifier MethodDeclaration SimpleType SimpleName atlas base exception
+void PrimitiveType MethodDeclaration SimpleName create type
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas base type def
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName type def
+void PrimitiveType MethodDeclaration SimpleType SimpleName atlas base exception
+create type SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas base type def
+create type SimpleName MethodDeclaration SingleVariableDeclaration SimpleName type def
+create type SimpleName MethodDeclaration SimpleType SimpleName atlas base exception
+type def SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName create type
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type def
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create type
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type def
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception

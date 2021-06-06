@@ -1,0 +1,219 @@
+state SimpleName SimpleType SingleVariableDeclaration SimpleName state
+string SimpleName SimpleType SingleVariableDeclaration SimpleName user name
+table permission SimpleName SimpleType SingleVariableDeclaration SimpleName tp
+string SimpleName SimpleType SingleVariableDeclaration SimpleName table
+boolean PrimitiveType SingleVariableDeclaration SimpleName value
+table SimpleName MethodInvocation SimpleName equals
+table SimpleName MethodInvocation SimpleName user name
+equals SimpleName MethodInvocation SimpleName user name
+runtime exception SimpleName SimpleType ClassInstanceCreation StringLiteral this is also fucked up
+value SimpleName ConditionalExpression StringLiteral gave
+value SimpleName ConditionalExpression StringLiteral took
+gave StringLiteral ConditionalExpression StringLiteral took
+tp SimpleName MethodInvocation SimpleName name
+value SimpleName ConditionalExpression StringLiteral to
+value SimpleName ConditionalExpression StringLiteral from
+to StringLiteral ConditionalExpression StringLiteral from
+value SimpleName ConditionalExpression ParenthesizedExpression InfixExpression StringLiteral the table permission
+gave StringLiteral ConditionalExpression ParenthesizedExpression InfixExpression StringLiteral the table permission
+took StringLiteral ConditionalExpression ParenthesizedExpression InfixExpression StringLiteral the table permission
+value SimpleName ConditionalExpression ParenthesizedExpression InfixExpression StringLiteral user
+gave StringLiteral ConditionalExpression ParenthesizedExpression InfixExpression StringLiteral user
+took StringLiteral ConditionalExpression ParenthesizedExpression InfixExpression StringLiteral user
+value SimpleName ConditionalExpression ParenthesizedExpression InfixExpression SimpleName user name
+gave StringLiteral ConditionalExpression ParenthesizedExpression InfixExpression SimpleName user name
+took StringLiteral ConditionalExpression ParenthesizedExpression InfixExpression SimpleName user name
+the table permission StringLiteral InfixExpression MethodInvocation SimpleName tp
+the table permission StringLiteral InfixExpression MethodInvocation SimpleName name
+the table permission StringLiteral InfixExpression ParenthesizedExpression ConditionalExpression SimpleName value
+the table permission StringLiteral InfixExpression ParenthesizedExpression ConditionalExpression StringLiteral to
+the table permission StringLiteral InfixExpression ParenthesizedExpression ConditionalExpression StringLiteral from
+the table permission StringLiteral InfixExpression StringLiteral user
+the table permission StringLiteral InfixExpression SimpleName user name
+tp SimpleName MethodInvocation InfixExpression StringLiteral user
+name SimpleName MethodInvocation InfixExpression StringLiteral user
+tp SimpleName MethodInvocation InfixExpression SimpleName user name
+name SimpleName MethodInvocation InfixExpression SimpleName user name
+value SimpleName ConditionalExpression ParenthesizedExpression InfixExpression StringLiteral user
+to StringLiteral ConditionalExpression ParenthesizedExpression InfixExpression StringLiteral user
+from StringLiteral ConditionalExpression ParenthesizedExpression InfixExpression StringLiteral user
+value SimpleName ConditionalExpression ParenthesizedExpression InfixExpression SimpleName user name
+to StringLiteral ConditionalExpression ParenthesizedExpression InfixExpression SimpleName user name
+from StringLiteral ConditionalExpression ParenthesizedExpression InfixExpression SimpleName user name
+user StringLiteral InfixExpression SimpleName user name
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation InfixExpression StringLiteral the table permission
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName tp
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName name
+log SimpleName MethodInvocation InfixExpression StringLiteral user
+log SimpleName MethodInvocation InfixExpression SimpleName user name
+debug SimpleName MethodInvocation InfixExpression StringLiteral the table permission
+debug SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName tp
+debug SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName name
+debug SimpleName MethodInvocation InfixExpression StringLiteral user
+debug SimpleName MethodInvocation InfixExpression SimpleName user name
+tp SimpleName MethodInvocation SimpleName name
+tab StringLiteral InfixExpression SimpleName user name
+tab StringLiteral InfixExpression CharacterLiteral -
+tab StringLiteral InfixExpression MethodInvocation SimpleName tp
+tab StringLiteral InfixExpression MethodInvocation SimpleName name
+user name SimpleName InfixExpression CharacterLiteral -
+user name SimpleName InfixExpression MethodInvocation SimpleName tp
+user name SimpleName InfixExpression MethodInvocation SimpleName name
+- CharacterLiteral InfixExpression MethodInvocation SimpleName tp
+- CharacterLiteral InfixExpression MethodInvocation SimpleName name
+boolean SimpleName MethodInvocation SimpleName to string
+boolean SimpleName MethodInvocation SimpleName value
+to string SimpleName MethodInvocation SimpleName value
+state SimpleName MethodInvocation SimpleName set
+state SimpleName MethodInvocation InfixExpression StringLiteral tab
+state SimpleName MethodInvocation InfixExpression SimpleName user name
+state SimpleName MethodInvocation InfixExpression CharacterLiteral -
+state SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName tp
+state SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName name
+state SimpleName MethodInvocation MethodInvocation SimpleName boolean
+state SimpleName MethodInvocation MethodInvocation SimpleName to string
+state SimpleName MethodInvocation MethodInvocation SimpleName value
+set SimpleName MethodInvocation InfixExpression StringLiteral tab
+set SimpleName MethodInvocation InfixExpression SimpleName user name
+set SimpleName MethodInvocation InfixExpression CharacterLiteral -
+set SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName tp
+set SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName name
+set SimpleName MethodInvocation MethodInvocation SimpleName boolean
+set SimpleName MethodInvocation MethodInvocation SimpleName to string
+set SimpleName MethodInvocation MethodInvocation SimpleName value
+tab StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName boolean
+tab StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName to string
+tab StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName value
+user name SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName boolean
+user name SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName to string
+user name SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName value
+- CharacterLiteral InfixExpression MethodInvocation MethodInvocation SimpleName boolean
+- CharacterLiteral InfixExpression MethodInvocation MethodInvocation SimpleName to string
+- CharacterLiteral InfixExpression MethodInvocation MethodInvocation SimpleName value
+tp SimpleName MethodInvocation SimpleName equals
+tp SimpleName MethodInvocation QualifiedName table permissionread
+equals SimpleName MethodInvocation QualifiedName table permissionread
+tp SimpleName MethodInvocation SimpleName equals
+tp SimpleName MethodInvocation QualifiedName table permissionwrite
+equals SimpleName MethodInvocation QualifiedName table permissionwrite
+tp SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName tp
+tp SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+tp SimpleName MethodInvocation InfixExpression MethodInvocation QualifiedName table permissionwrite
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName tp
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+equals SimpleName MethodInvocation InfixExpression MethodInvocation QualifiedName table permissionwrite
+table permissionread QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName tp
+table permissionread QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+table permissionread QualifiedName MethodInvocation InfixExpression MethodInvocation QualifiedName table permissionwrite
+tp SimpleName MethodInvocation SimpleName name
+tab StringLiteral InfixExpression SimpleName user name
+tab StringLiteral InfixExpression CharacterLiteral -
+tab StringLiteral InfixExpression MethodInvocation SimpleName tp
+tab StringLiteral InfixExpression MethodInvocation SimpleName name
+tab StringLiteral InfixExpression CharacterLiteral -
+tab StringLiteral InfixExpression StringLiteral time
+user name SimpleName InfixExpression CharacterLiteral -
+user name SimpleName InfixExpression MethodInvocation SimpleName tp
+user name SimpleName InfixExpression MethodInvocation SimpleName name
+user name SimpleName InfixExpression CharacterLiteral -
+user name SimpleName InfixExpression StringLiteral time
+- CharacterLiteral InfixExpression MethodInvocation SimpleName tp
+- CharacterLiteral InfixExpression MethodInvocation SimpleName name
+- CharacterLiteral InfixExpression CharacterLiteral -
+- CharacterLiteral InfixExpression StringLiteral time
+tp SimpleName MethodInvocation InfixExpression CharacterLiteral -
+name SimpleName MethodInvocation InfixExpression CharacterLiteral -
+tp SimpleName MethodInvocation InfixExpression StringLiteral time
+name SimpleName MethodInvocation InfixExpression StringLiteral time
+- CharacterLiteral InfixExpression StringLiteral time
+system SimpleName MethodInvocation SimpleName current time millis
+state SimpleName MethodInvocation SimpleName set
+state SimpleName MethodInvocation InfixExpression StringLiteral tab
+state SimpleName MethodInvocation InfixExpression SimpleName user name
+state SimpleName MethodInvocation InfixExpression CharacterLiteral -
+state SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName tp
+state SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName name
+state SimpleName MethodInvocation InfixExpression CharacterLiteral -
+state SimpleName MethodInvocation InfixExpression StringLiteral time
+state SimpleName MethodInvocation MethodInvocation SimpleName system
+state SimpleName MethodInvocation MethodInvocation SimpleName current time millis
+set SimpleName MethodInvocation InfixExpression StringLiteral tab
+set SimpleName MethodInvocation InfixExpression SimpleName user name
+set SimpleName MethodInvocation InfixExpression CharacterLiteral -
+set SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName tp
+set SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName name
+set SimpleName MethodInvocation InfixExpression CharacterLiteral -
+set SimpleName MethodInvocation InfixExpression StringLiteral time
+set SimpleName MethodInvocation MethodInvocation SimpleName system
+set SimpleName MethodInvocation MethodInvocation SimpleName current time millis
+tab StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName system
+tab StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName current time millis
+user name SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName system
+user name SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName current time millis
+- CharacterLiteral InfixExpression MethodInvocation MethodInvocation SimpleName system
+- CharacterLiteral InfixExpression MethodInvocation MethodInvocation SimpleName current time millis
+- CharacterLiteral InfixExpression MethodInvocation MethodInvocation SimpleName system
+- CharacterLiteral InfixExpression MethodInvocation MethodInvocation SimpleName current time millis
+time StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName system
+time StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName current time millis
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName set tab perm
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName state
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName state
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName user name
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName table permission
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName tp
+void PrimitiveType MethodDeclaration SimpleName set tab perm
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName state
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName state
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName user name
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName table permission
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName tp
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName table
+set tab perm SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName state
+set tab perm SimpleName MethodDeclaration SingleVariableDeclaration SimpleName state
+set tab perm SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+set tab perm SimpleName MethodDeclaration SingleVariableDeclaration SimpleName user name
+set tab perm SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName table permission
+set tab perm SimpleName MethodDeclaration SingleVariableDeclaration SimpleName tp
+set tab perm SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+set tab perm SimpleName MethodDeclaration SingleVariableDeclaration SimpleName table
+set tab perm SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+set tab perm SimpleName MethodDeclaration SingleVariableDeclaration SimpleName value
+state SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName user name
+state SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName tp
+state SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table
+state SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+state SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value
+user name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName tp
+user name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table
+user name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+user name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value
+tp SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table
+tp SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+tp SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value
+table SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+table SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set tab perm
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName state
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName user name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName tp
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set tab perm
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName state
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName user name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName tp
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value

@@ -1,0 +1,95 @@
+final Modifier SingleVariableDeclaration SimpleType SimpleName string
+final Modifier SingleVariableDeclaration SimpleName guid
+string SimpleName SimpleType SingleVariableDeclaration SimpleName guid
+class SimpleName SimpleType ParameterizedType SimpleType SimpleName t
+class SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName type def class
+t SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName type def class
+get atlas path SimpleName MethodInvocation SimpleName type def class
+atlas path SimpleName VariableDeclarationFragment MethodInvocation SimpleName get atlas path
+atlas path SimpleName VariableDeclarationFragment MethodInvocation SimpleName type def class
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName atlas path
+string SimpleName MethodInvocation SimpleName format
+string SimpleName MethodInvocation SimpleName get by guid template
+string SimpleName MethodInvocation SimpleName atlas path
+string SimpleName MethodInvocation SimpleName guid
+format SimpleName MethodInvocation SimpleName get by guid template
+format SimpleName MethodInvocation SimpleName atlas path
+format SimpleName MethodInvocation SimpleName guid
+get by guid template SimpleName MethodInvocation SimpleName atlas path
+get by guid template SimpleName MethodInvocation SimpleName guid
+atlas path SimpleName MethodInvocation SimpleName guid
+api info SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName string
+api info SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName format
+api info SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get by guid template
+api info SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName atlas path
+api info SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName guid
+api info SimpleName SimpleType ClassInstanceCreation QualifiedName http methodget
+api info SimpleName SimpleType ClassInstanceCreation QualifiedName responsestatusok
+string SimpleName MethodInvocation ClassInstanceCreation QualifiedName http methodget
+format SimpleName MethodInvocation ClassInstanceCreation QualifiedName http methodget
+get by guid template SimpleName MethodInvocation ClassInstanceCreation QualifiedName http methodget
+atlas path SimpleName MethodInvocation ClassInstanceCreation QualifiedName http methodget
+guid SimpleName MethodInvocation ClassInstanceCreation QualifiedName http methodget
+string SimpleName MethodInvocation ClassInstanceCreation QualifiedName responsestatusok
+format SimpleName MethodInvocation ClassInstanceCreation QualifiedName responsestatusok
+get by guid template SimpleName MethodInvocation ClassInstanceCreation QualifiedName responsestatusok
+atlas path SimpleName MethodInvocation ClassInstanceCreation QualifiedName responsestatusok
+guid SimpleName MethodInvocation ClassInstanceCreation QualifiedName responsestatusok
+http methodget QualifiedName ClassInstanceCreation QualifiedName responsestatusok
+api info SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName api info
+api info SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName string
+api info SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName format
+api info SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get by guid template
+api info SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName atlas path
+api info SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName guid
+api info SimpleName VariableDeclarationFragment ClassInstanceCreation QualifiedName http methodget
+api info SimpleName VariableDeclarationFragment ClassInstanceCreation QualifiedName responsestatusok
+api info SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName api info
+call api SimpleName MethodInvocation SimpleName api info
+call api SimpleName MethodInvocation SimpleName type def class
+api info SimpleName MethodInvocation SimpleName type def class
+private Modifier MethodDeclaration TypeParameter SimpleName t
+private Modifier MethodDeclaration SimpleType SimpleName t
+private Modifier MethodDeclaration SimpleName get type def by guid
+private Modifier MethodDeclaration SingleVariableDeclaration Modifier final
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName guid
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName type def class
+t SimpleName TypeParameter MethodDeclaration SimpleType SimpleName t
+t SimpleName TypeParameter MethodDeclaration SimpleName get type def by guid
+t SimpleName TypeParameter MethodDeclaration SingleVariableDeclaration Modifier final
+t SimpleName TypeParameter MethodDeclaration SingleVariableDeclaration SimpleName guid
+t SimpleName TypeParameter MethodDeclaration SingleVariableDeclaration SimpleName type def class
+t SimpleName TypeParameter MethodDeclaration SimpleType SimpleName atlas service exception
+t SimpleName SimpleType MethodDeclaration SimpleName get type def by guid
+t SimpleName SimpleType MethodDeclaration SingleVariableDeclaration Modifier final
+t SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName guid
+t SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName type def class
+t SimpleName SimpleType MethodDeclaration SimpleType SimpleName atlas service exception
+get type def by guid SimpleName MethodDeclaration SingleVariableDeclaration Modifier final
+get type def by guid SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get type def by guid SimpleName MethodDeclaration SingleVariableDeclaration SimpleName guid
+get type def by guid SimpleName MethodDeclaration SingleVariableDeclaration SimpleName type def class
+get type def by guid SimpleName MethodDeclaration SimpleType SimpleName atlas service exception
+final Modifier SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type def class
+guid SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type def class
+final Modifier SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas service exception
+guid SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas service exception
+type def class SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas service exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration TypeParameter SimpleName t
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName t
+public Modifier TypeDeclaration MethodDeclaration SimpleName get type def by guid
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName guid
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type def class
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas service exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration TypeParameter SimpleName t
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName t
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get type def by guid
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName guid
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type def class
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas service exception

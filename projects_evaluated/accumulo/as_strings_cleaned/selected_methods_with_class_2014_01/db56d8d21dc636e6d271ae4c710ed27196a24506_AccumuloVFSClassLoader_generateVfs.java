@@ -1,0 +1,303 @@
+vfs SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName final close default file system manager
+default file system manager SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName vfs
+vfs SimpleName MethodInvocation SimpleName add provider
+vfs SimpleName MethodInvocation StringLiteral res
+vfs SimpleName MethodInvocation ClassInstanceCreation SimpleType QualifiedName orgapachecommonsvfs providerresresource file provider
+add provider SimpleName MethodInvocation StringLiteral res
+add provider SimpleName MethodInvocation ClassInstanceCreation SimpleType QualifiedName orgapachecommonsvfs providerresresource file provider
+res StringLiteral MethodInvocation ClassInstanceCreation SimpleType QualifiedName orgapachecommonsvfs providerresresource file provider
+vfs SimpleName MethodInvocation SimpleName add provider
+vfs SimpleName MethodInvocation StringLiteral zip
+vfs SimpleName MethodInvocation ClassInstanceCreation SimpleType QualifiedName orgapachecommonsvfs providerzipzip file provider
+add provider SimpleName MethodInvocation StringLiteral zip
+add provider SimpleName MethodInvocation ClassInstanceCreation SimpleType QualifiedName orgapachecommonsvfs providerzipzip file provider
+zip StringLiteral MethodInvocation ClassInstanceCreation SimpleType QualifiedName orgapachecommonsvfs providerzipzip file provider
+vfs SimpleName MethodInvocation SimpleName add provider
+vfs SimpleName MethodInvocation StringLiteral gz
+vfs SimpleName MethodInvocation ClassInstanceCreation SimpleType QualifiedName orgapachecommonsvfs providergzipgzip file provider
+add provider SimpleName MethodInvocation StringLiteral gz
+add provider SimpleName MethodInvocation ClassInstanceCreation SimpleType QualifiedName orgapachecommonsvfs providergzipgzip file provider
+gz StringLiteral MethodInvocation ClassInstanceCreation SimpleType QualifiedName orgapachecommonsvfs providergzipgzip file provider
+vfs SimpleName MethodInvocation SimpleName add provider
+vfs SimpleName MethodInvocation StringLiteral ram
+vfs SimpleName MethodInvocation ClassInstanceCreation SimpleType QualifiedName orgapachecommonsvfs providerramram file provider
+add provider SimpleName MethodInvocation StringLiteral ram
+add provider SimpleName MethodInvocation ClassInstanceCreation SimpleType QualifiedName orgapachecommonsvfs providerramram file provider
+ram StringLiteral MethodInvocation ClassInstanceCreation SimpleType QualifiedName orgapachecommonsvfs providerramram file provider
+vfs SimpleName MethodInvocation SimpleName add provider
+vfs SimpleName MethodInvocation StringLiteral file
+vfs SimpleName MethodInvocation ClassInstanceCreation SimpleType QualifiedName orgapachecommonsvfs providerlocaldefault local file provider
+add provider SimpleName MethodInvocation StringLiteral file
+add provider SimpleName MethodInvocation ClassInstanceCreation SimpleType QualifiedName orgapachecommonsvfs providerlocaldefault local file provider
+file StringLiteral MethodInvocation ClassInstanceCreation SimpleType QualifiedName orgapachecommonsvfs providerlocaldefault local file provider
+vfs SimpleName MethodInvocation SimpleName add provider
+vfs SimpleName MethodInvocation StringLiteral jar
+vfs SimpleName MethodInvocation ClassInstanceCreation SimpleType QualifiedName orgapachecommonsvfs providerjarjar file provider
+add provider SimpleName MethodInvocation StringLiteral jar
+add provider SimpleName MethodInvocation ClassInstanceCreation SimpleType QualifiedName orgapachecommonsvfs providerjarjar file provider
+jar StringLiteral MethodInvocation ClassInstanceCreation SimpleType QualifiedName orgapachecommonsvfs providerjarjar file provider
+vfs SimpleName MethodInvocation SimpleName add provider
+vfs SimpleName MethodInvocation StringLiteral http
+vfs SimpleName MethodInvocation ClassInstanceCreation SimpleType QualifiedName orgapachecommonsvfs providerhttphttp file provider
+add provider SimpleName MethodInvocation StringLiteral http
+add provider SimpleName MethodInvocation ClassInstanceCreation SimpleType QualifiedName orgapachecommonsvfs providerhttphttp file provider
+http StringLiteral MethodInvocation ClassInstanceCreation SimpleType QualifiedName orgapachecommonsvfs providerhttphttp file provider
+vfs SimpleName MethodInvocation SimpleName add provider
+vfs SimpleName MethodInvocation StringLiteral https
+vfs SimpleName MethodInvocation ClassInstanceCreation SimpleType QualifiedName orgapachecommonsvfs providerhttpshttps file provider
+add provider SimpleName MethodInvocation StringLiteral https
+add provider SimpleName MethodInvocation ClassInstanceCreation SimpleType QualifiedName orgapachecommonsvfs providerhttpshttps file provider
+https StringLiteral MethodInvocation ClassInstanceCreation SimpleType QualifiedName orgapachecommonsvfs providerhttpshttps file provider
+vfs SimpleName MethodInvocation SimpleName add provider
+vfs SimpleName MethodInvocation StringLiteral ftp
+vfs SimpleName MethodInvocation ClassInstanceCreation SimpleType QualifiedName orgapachecommonsvfs providerftpftp file provider
+add provider SimpleName MethodInvocation StringLiteral ftp
+add provider SimpleName MethodInvocation ClassInstanceCreation SimpleType QualifiedName orgapachecommonsvfs providerftpftp file provider
+ftp StringLiteral MethodInvocation ClassInstanceCreation SimpleType QualifiedName orgapachecommonsvfs providerftpftp file provider
+vfs SimpleName MethodInvocation SimpleName add provider
+vfs SimpleName MethodInvocation StringLiteral ftps
+vfs SimpleName MethodInvocation ClassInstanceCreation SimpleType QualifiedName orgapachecommonsvfs providerftpsftps file provider
+add provider SimpleName MethodInvocation StringLiteral ftps
+add provider SimpleName MethodInvocation ClassInstanceCreation SimpleType QualifiedName orgapachecommonsvfs providerftpsftps file provider
+ftps StringLiteral MethodInvocation ClassInstanceCreation SimpleType QualifiedName orgapachecommonsvfs providerftpsftps file provider
+vfs SimpleName MethodInvocation SimpleName add provider
+vfs SimpleName MethodInvocation StringLiteral war
+vfs SimpleName MethodInvocation ClassInstanceCreation SimpleType QualifiedName orgapachecommonsvfs providerjarjar file provider
+add provider SimpleName MethodInvocation StringLiteral war
+add provider SimpleName MethodInvocation ClassInstanceCreation SimpleType QualifiedName orgapachecommonsvfs providerjarjar file provider
+war StringLiteral MethodInvocation ClassInstanceCreation SimpleType QualifiedName orgapachecommonsvfs providerjarjar file provider
+vfs SimpleName MethodInvocation SimpleName add provider
+vfs SimpleName MethodInvocation StringLiteral par
+vfs SimpleName MethodInvocation ClassInstanceCreation SimpleType QualifiedName orgapachecommonsvfs providerjarjar file provider
+add provider SimpleName MethodInvocation StringLiteral par
+add provider SimpleName MethodInvocation ClassInstanceCreation SimpleType QualifiedName orgapachecommonsvfs providerjarjar file provider
+par StringLiteral MethodInvocation ClassInstanceCreation SimpleType QualifiedName orgapachecommonsvfs providerjarjar file provider
+vfs SimpleName MethodInvocation SimpleName add provider
+vfs SimpleName MethodInvocation StringLiteral ear
+vfs SimpleName MethodInvocation ClassInstanceCreation SimpleType QualifiedName orgapachecommonsvfs providerjarjar file provider
+add provider SimpleName MethodInvocation StringLiteral ear
+add provider SimpleName MethodInvocation ClassInstanceCreation SimpleType QualifiedName orgapachecommonsvfs providerjarjar file provider
+ear StringLiteral MethodInvocation ClassInstanceCreation SimpleType QualifiedName orgapachecommonsvfs providerjarjar file provider
+vfs SimpleName MethodInvocation SimpleName add provider
+vfs SimpleName MethodInvocation StringLiteral sar
+vfs SimpleName MethodInvocation ClassInstanceCreation SimpleType QualifiedName orgapachecommonsvfs providerjarjar file provider
+add provider SimpleName MethodInvocation StringLiteral sar
+add provider SimpleName MethodInvocation ClassInstanceCreation SimpleType QualifiedName orgapachecommonsvfs providerjarjar file provider
+sar StringLiteral MethodInvocation ClassInstanceCreation SimpleType QualifiedName orgapachecommonsvfs providerjarjar file provider
+vfs SimpleName MethodInvocation SimpleName add provider
+vfs SimpleName MethodInvocation StringLiteral ejb
+vfs SimpleName MethodInvocation ClassInstanceCreation SimpleType QualifiedName orgapachecommonsvfs providerjarjar file provider
+add provider SimpleName MethodInvocation StringLiteral ejb
+add provider SimpleName MethodInvocation ClassInstanceCreation SimpleType QualifiedName orgapachecommonsvfs providerjarjar file provider
+ejb StringLiteral MethodInvocation ClassInstanceCreation SimpleType QualifiedName orgapachecommonsvfs providerjarjar file provider
+vfs SimpleName MethodInvocation SimpleName add provider
+vfs SimpleName MethodInvocation StringLiteral tmp
+vfs SimpleName MethodInvocation ClassInstanceCreation SimpleType QualifiedName orgapachecommonsvfs providertemptemporary file provider
+add provider SimpleName MethodInvocation StringLiteral tmp
+add provider SimpleName MethodInvocation ClassInstanceCreation SimpleType QualifiedName orgapachecommonsvfs providertemptemporary file provider
+tmp StringLiteral MethodInvocation ClassInstanceCreation SimpleType QualifiedName orgapachecommonsvfs providertemptemporary file provider
+vfs SimpleName MethodInvocation SimpleName add provider
+vfs SimpleName MethodInvocation StringLiteral tar
+vfs SimpleName MethodInvocation ClassInstanceCreation SimpleType QualifiedName orgapachecommonsvfs providertartar file provider
+add provider SimpleName MethodInvocation StringLiteral tar
+add provider SimpleName MethodInvocation ClassInstanceCreation SimpleType QualifiedName orgapachecommonsvfs providertartar file provider
+tar StringLiteral MethodInvocation ClassInstanceCreation SimpleType QualifiedName orgapachecommonsvfs providertartar file provider
+vfs SimpleName MethodInvocation SimpleName add provider
+vfs SimpleName MethodInvocation StringLiteral tbz
+vfs SimpleName MethodInvocation ClassInstanceCreation SimpleType QualifiedName orgapachecommonsvfs providertartar file provider
+add provider SimpleName MethodInvocation StringLiteral tbz
+add provider SimpleName MethodInvocation ClassInstanceCreation SimpleType QualifiedName orgapachecommonsvfs providertartar file provider
+tbz StringLiteral MethodInvocation ClassInstanceCreation SimpleType QualifiedName orgapachecommonsvfs providertartar file provider
+vfs SimpleName MethodInvocation SimpleName add provider
+vfs SimpleName MethodInvocation StringLiteral tgz
+vfs SimpleName MethodInvocation ClassInstanceCreation SimpleType QualifiedName orgapachecommonsvfs providertartar file provider
+add provider SimpleName MethodInvocation StringLiteral tgz
+add provider SimpleName MethodInvocation ClassInstanceCreation SimpleType QualifiedName orgapachecommonsvfs providertartar file provider
+tgz StringLiteral MethodInvocation ClassInstanceCreation SimpleType QualifiedName orgapachecommonsvfs providertartar file provider
+vfs SimpleName MethodInvocation SimpleName add provider
+vfs SimpleName MethodInvocation StringLiteral bz
+vfs SimpleName MethodInvocation ClassInstanceCreation SimpleType QualifiedName orgapachecommonsvfs providerbzip bzip file provider
+add provider SimpleName MethodInvocation StringLiteral bz
+add provider SimpleName MethodInvocation ClassInstanceCreation SimpleType QualifiedName orgapachecommonsvfs providerbzip bzip file provider
+bz StringLiteral MethodInvocation ClassInstanceCreation SimpleType QualifiedName orgapachecommonsvfs providerbzip bzip file provider
+vfs SimpleName MethodInvocation SimpleName add provider
+vfs SimpleName MethodInvocation StringLiteral hdfs
+vfs SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName hdfs file provider
+add provider SimpleName MethodInvocation StringLiteral hdfs
+add provider SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName hdfs file provider
+hdfs StringLiteral MethodInvocation ClassInstanceCreation SimpleType SimpleName hdfs file provider
+vfs SimpleName MethodInvocation SimpleName add extension map
+vfs SimpleName MethodInvocation StringLiteral jar
+vfs SimpleName MethodInvocation StringLiteral jar
+add extension map SimpleName MethodInvocation StringLiteral jar
+add extension map SimpleName MethodInvocation StringLiteral jar
+jar StringLiteral MethodInvocation StringLiteral jar
+vfs SimpleName MethodInvocation SimpleName add extension map
+vfs SimpleName MethodInvocation StringLiteral zip
+vfs SimpleName MethodInvocation StringLiteral zip
+add extension map SimpleName MethodInvocation StringLiteral zip
+add extension map SimpleName MethodInvocation StringLiteral zip
+zip StringLiteral MethodInvocation StringLiteral zip
+vfs SimpleName MethodInvocation SimpleName add extension map
+vfs SimpleName MethodInvocation StringLiteral gz
+vfs SimpleName MethodInvocation StringLiteral gz
+add extension map SimpleName MethodInvocation StringLiteral gz
+add extension map SimpleName MethodInvocation StringLiteral gz
+gz StringLiteral MethodInvocation StringLiteral gz
+vfs SimpleName MethodInvocation SimpleName add extension map
+vfs SimpleName MethodInvocation StringLiteral tar
+vfs SimpleName MethodInvocation StringLiteral tar
+add extension map SimpleName MethodInvocation StringLiteral tar
+add extension map SimpleName MethodInvocation StringLiteral tar
+tar StringLiteral MethodInvocation StringLiteral tar
+vfs SimpleName MethodInvocation SimpleName add extension map
+vfs SimpleName MethodInvocation StringLiteral tbz
+vfs SimpleName MethodInvocation StringLiteral tar
+add extension map SimpleName MethodInvocation StringLiteral tbz
+add extension map SimpleName MethodInvocation StringLiteral tar
+tbz StringLiteral MethodInvocation StringLiteral tar
+vfs SimpleName MethodInvocation SimpleName add extension map
+vfs SimpleName MethodInvocation StringLiteral tgz
+vfs SimpleName MethodInvocation StringLiteral tar
+add extension map SimpleName MethodInvocation StringLiteral tgz
+add extension map SimpleName MethodInvocation StringLiteral tar
+tgz StringLiteral MethodInvocation StringLiteral tar
+vfs SimpleName MethodInvocation SimpleName add extension map
+vfs SimpleName MethodInvocation StringLiteral bz
+vfs SimpleName MethodInvocation StringLiteral bz
+add extension map SimpleName MethodInvocation StringLiteral bz
+add extension map SimpleName MethodInvocation StringLiteral bz
+bz StringLiteral MethodInvocation StringLiteral bz
+vfs SimpleName MethodInvocation SimpleName add mime type map
+vfs SimpleName MethodInvocation StringLiteral applicationxtar
+vfs SimpleName MethodInvocation StringLiteral tar
+add mime type map SimpleName MethodInvocation StringLiteral applicationxtar
+add mime type map SimpleName MethodInvocation StringLiteral tar
+applicationxtar StringLiteral MethodInvocation StringLiteral tar
+vfs SimpleName MethodInvocation SimpleName add mime type map
+vfs SimpleName MethodInvocation StringLiteral applicationxgzip
+vfs SimpleName MethodInvocation StringLiteral gz
+add mime type map SimpleName MethodInvocation StringLiteral applicationxgzip
+add mime type map SimpleName MethodInvocation StringLiteral gz
+applicationxgzip StringLiteral MethodInvocation StringLiteral gz
+vfs SimpleName MethodInvocation SimpleName add mime type map
+vfs SimpleName MethodInvocation StringLiteral applicationzip
+vfs SimpleName MethodInvocation StringLiteral zip
+add mime type map SimpleName MethodInvocation StringLiteral applicationzip
+add mime type map SimpleName MethodInvocation StringLiteral zip
+applicationzip StringLiteral MethodInvocation StringLiteral zip
+vfs SimpleName MethodInvocation SimpleName set file content info factory
+vfs SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName file content info filename factory
+set file content info factory SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName file content info filename factory
+vfs SimpleName MethodInvocation SimpleName set files cache
+vfs SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName soft ref files cache
+set files cache SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName soft ref files cache
+accumulo class loader SimpleName MethodInvocation SimpleName get accumulo string
+accumulo class loader SimpleName MethodInvocation SimpleName vfs cache dir
+accumulo class loader SimpleName MethodInvocation StringLiteral empty
+get accumulo string SimpleName MethodInvocation SimpleName vfs cache dir
+get accumulo string SimpleName MethodInvocation StringLiteral empty
+vfs cache dir SimpleName MethodInvocation StringLiteral empty
+cache dir path SimpleName VariableDeclarationFragment MethodInvocation SimpleName accumulo class loader
+cache dir path SimpleName VariableDeclarationFragment MethodInvocation SimpleName get accumulo string
+cache dir path SimpleName VariableDeclarationFragment MethodInvocation SimpleName vfs cache dir
+cache dir path SimpleName VariableDeclarationFragment MethodInvocation StringLiteral empty
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName cache dir path
+management factory SimpleName MethodInvocation SimpleName get runtime mx bean
+management factory SimpleName MethodInvocation MethodInvocation SimpleName get name
+get runtime mx bean SimpleName MethodInvocation MethodInvocation SimpleName get name
+proc name SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName management factory
+proc name SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get runtime mx bean
+proc name SimpleName VariableDeclarationFragment MethodInvocation SimpleName get name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName proc name
+system SimpleName MethodInvocation SimpleName get property
+system SimpleName MethodInvocation StringLiteral javaiotmpdir
+get property SimpleName MethodInvocation StringLiteral javaiotmpdir
+system SimpleName MethodInvocation SimpleName get property
+system SimpleName MethodInvocation StringLiteral username
+system SimpleName MethodInvocation StringLiteral nouser
+get property SimpleName MethodInvocation StringLiteral username
+get property SimpleName MethodInvocation StringLiteral nouser
+username StringLiteral MethodInvocation StringLiteral nouser
+accumulovfscache StringLiteral InfixExpression SimpleName proc name
+accumulovfscache StringLiteral InfixExpression StringLiteral -
+accumulovfscache StringLiteral InfixExpression MethodInvocation SimpleName system
+accumulovfscache StringLiteral InfixExpression MethodInvocation SimpleName get property
+accumulovfscache StringLiteral InfixExpression MethodInvocation StringLiteral username
+accumulovfscache StringLiteral InfixExpression MethodInvocation StringLiteral nouser
+proc name SimpleName InfixExpression StringLiteral -
+proc name SimpleName InfixExpression MethodInvocation SimpleName system
+proc name SimpleName InfixExpression MethodInvocation SimpleName get property
+proc name SimpleName InfixExpression MethodInvocation StringLiteral username
+proc name SimpleName InfixExpression MethodInvocation StringLiteral nouser
+- StringLiteral InfixExpression MethodInvocation SimpleName system
+- StringLiteral InfixExpression MethodInvocation SimpleName get property
+- StringLiteral InfixExpression MethodInvocation StringLiteral username
+- StringLiteral InfixExpression MethodInvocation StringLiteral nouser
+file SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName system
+file SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get property
+file SimpleName SimpleType ClassInstanceCreation MethodInvocation StringLiteral javaiotmpdir
+file SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral accumulovfscache
+file SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName proc name
+file SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral -
+system SimpleName MethodInvocation ClassInstanceCreation InfixExpression StringLiteral accumulovfscache
+system SimpleName MethodInvocation ClassInstanceCreation InfixExpression SimpleName proc name
+system SimpleName MethodInvocation ClassInstanceCreation InfixExpression StringLiteral -
+get property SimpleName MethodInvocation ClassInstanceCreation InfixExpression StringLiteral accumulovfscache
+get property SimpleName MethodInvocation ClassInstanceCreation InfixExpression SimpleName proc name
+get property SimpleName MethodInvocation ClassInstanceCreation InfixExpression StringLiteral -
+javaiotmpdir StringLiteral MethodInvocation ClassInstanceCreation InfixExpression StringLiteral accumulovfscache
+javaiotmpdir StringLiteral MethodInvocation ClassInstanceCreation InfixExpression SimpleName proc name
+javaiotmpdir StringLiteral MethodInvocation ClassInstanceCreation InfixExpression StringLiteral -
+cache dir SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName file
+cache dir SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName system
+cache dir SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get property
+cache dir SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation StringLiteral javaiotmpdir
+cache dir SimpleName VariableDeclarationFragment ClassInstanceCreation InfixExpression StringLiteral accumulovfscache
+cache dir SimpleName VariableDeclarationFragment ClassInstanceCreation InfixExpression SimpleName proc name
+cache dir SimpleName VariableDeclarationFragment ClassInstanceCreation InfixExpression StringLiteral -
+file SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName cache dir
+cache dir path SimpleName MethodInvocation SimpleName is empty
+file SimpleName SimpleType ClassInstanceCreation SimpleName cache dir path
+cache dir SimpleName Assignment ClassInstanceCreation SimpleType SimpleName file
+cache dir SimpleName Assignment ClassInstanceCreation SimpleName cache dir path
+unique file replicator SimpleName SimpleType ClassInstanceCreation SimpleName cache dir
+vfs SimpleName MethodInvocation SimpleName set replicator
+vfs SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName unique file replicator
+vfs SimpleName MethodInvocation ClassInstanceCreation SimpleName cache dir
+set replicator SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName unique file replicator
+set replicator SimpleName MethodInvocation ClassInstanceCreation SimpleName cache dir
+vfs SimpleName MethodInvocation SimpleName set cache strategy
+vfs SimpleName MethodInvocation QualifiedName cache strategyon resolve
+set cache strategy SimpleName MethodInvocation QualifiedName cache strategyon resolve
+vfs SimpleName MethodInvocation SimpleName init
+weak reference SimpleName SimpleType ParameterizedType SimpleType SimpleName default file system manager
+weak reference SimpleName SimpleType ParameterizedType ClassInstanceCreation SimpleName vfs
+default file system manager SimpleName SimpleType ParameterizedType ClassInstanceCreation SimpleName vfs
+vfs instances SimpleName MethodInvocation SimpleName add
+vfs instances SimpleName MethodInvocation ClassInstanceCreation SimpleName vfs
+add SimpleName MethodInvocation ClassInstanceCreation SimpleName vfs
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName file system manager
+public Modifier MethodDeclaration SimpleName generate vfs
+public Modifier MethodDeclaration SimpleType SimpleName file system exception
+public Modifier MethodDeclaration Block ReturnStatement SimpleName vfs
+static Modifier MethodDeclaration SimpleType SimpleName file system manager
+static Modifier MethodDeclaration SimpleName generate vfs
+static Modifier MethodDeclaration SimpleType SimpleName file system exception
+static Modifier MethodDeclaration Block ReturnStatement SimpleName vfs
+file system manager SimpleName SimpleType MethodDeclaration SimpleName generate vfs
+file system manager SimpleName SimpleType MethodDeclaration SimpleType SimpleName file system exception
+generate vfs SimpleName MethodDeclaration SimpleType SimpleName file system exception
+generate vfs SimpleName MethodDeclaration Block ReturnStatement SimpleName vfs
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName file system manager
+public Modifier TypeDeclaration MethodDeclaration SimpleName generate vfs
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName file system exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName file system manager
+test SimpleName TypeDeclaration MethodDeclaration SimpleName generate vfs
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName file system exception

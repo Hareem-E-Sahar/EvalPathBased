@@ -1,0 +1,40 @@
+key extent SimpleName SimpleType SingleVariableDeclaration SimpleName tablet
+runnable SimpleName SimpleType SingleVariableDeclaration SimpleName compaction task
+tablet SimpleName MethodInvocation SimpleName is root tablet
+root major compaction thread pool SimpleName MethodInvocation SimpleName execute
+root major compaction thread pool SimpleName MethodInvocation SimpleName compaction task
+execute SimpleName MethodInvocation SimpleName compaction task
+tablet SimpleName MethodInvocation SimpleName is meta
+default major compaction thread pool SimpleName MethodInvocation SimpleName execute
+default major compaction thread pool SimpleName MethodInvocation SimpleName compaction task
+execute SimpleName MethodInvocation SimpleName compaction task
+major compaction thread pool SimpleName MethodInvocation SimpleName execute
+major compaction thread pool SimpleName MethodInvocation SimpleName compaction task
+execute SimpleName MethodInvocation SimpleName compaction task
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName execute major compaction
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName key extent
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName tablet
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName runnable
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName compaction task
+void PrimitiveType MethodDeclaration SimpleName execute major compaction
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName key extent
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName tablet
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName runnable
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName compaction task
+execute major compaction SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName key extent
+execute major compaction SimpleName MethodDeclaration SingleVariableDeclaration SimpleName tablet
+execute major compaction SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName runnable
+execute major compaction SimpleName MethodDeclaration SingleVariableDeclaration SimpleName compaction task
+tablet SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName compaction task
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName execute major compaction
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName tablet
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName compaction task
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName execute major compaction
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName tablet
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName compaction task

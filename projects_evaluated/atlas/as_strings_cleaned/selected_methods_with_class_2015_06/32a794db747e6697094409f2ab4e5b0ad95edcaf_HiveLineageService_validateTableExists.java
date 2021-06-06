@@ -1,0 +1,72 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName table name
+string SimpleName MethodInvocation SimpleName format
+string SimpleName MethodInvocation SimpleName hive table exists query
+string SimpleName MethodInvocation SimpleName table name
+format SimpleName MethodInvocation SimpleName hive table exists query
+format SimpleName MethodInvocation SimpleName table name
+hive table exists query SimpleName MethodInvocation SimpleName table name
+table exists query SimpleName VariableDeclarationFragment MethodInvocation SimpleName string
+table exists query SimpleName VariableDeclarationFragment MethodInvocation SimpleName format
+table exists query SimpleName VariableDeclarationFragment MethodInvocation SimpleName hive table exists query
+table exists query SimpleName VariableDeclarationFragment MethodInvocation SimpleName table name
+final Modifier VariableDeclarationStatement SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName table exists query
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName format
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName hive table exists query
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName table name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName table exists query
+discovery service SimpleName MethodInvocation SimpleName evaluate
+discovery service SimpleName MethodInvocation SimpleName table exists query
+evaluate SimpleName MethodInvocation SimpleName table exists query
+query result SimpleName VariableDeclarationFragment MethodInvocation SimpleName discovery service
+query result SimpleName VariableDeclarationFragment MethodInvocation SimpleName evaluate
+query result SimpleName VariableDeclarationFragment MethodInvocation SimpleName table exists query
+gremlin query result SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName query result
+query result SimpleName MethodInvocation SimpleName rows
+query result SimpleName MethodInvocation MethodInvocation SimpleName length
+rows SimpleName MethodInvocation MethodInvocation SimpleName length
+query result SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral empty
+rows SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral empty
+length SimpleName MethodInvocation InfixExpression NumberLiteral empty
+table name SimpleName InfixExpression StringLiteral does not exist
+entity not found exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName table name
+entity not found exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral does not exist
+query result SimpleName MethodInvocation SimpleName rows
+query result SimpleName MethodInvocation MethodInvocation SimpleName apply
+rows SimpleName MethodInvocation MethodInvocation SimpleName apply
+query result SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+rows SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+apply SimpleName MethodInvocation NumberLiteral empty
+referenceable instance SimpleName SimpleType CastExpression MethodInvocation SimpleName apply
+referenceable instance SimpleName SimpleType CastExpression MethodInvocation NumberLiteral empty
+referenceable SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName referenceable instance
+referenceable SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName apply
+referenceable SimpleName VariableDeclarationFragment CastExpression MethodInvocation NumberLiteral empty
+referenceable instance SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName referenceable
+referenceable SimpleName MethodInvocation SimpleName get type name
+private Modifier MethodDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SimpleName validate table exists
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName table name
+private Modifier MethodDeclaration SimpleType SimpleName atlas exception
+private Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+string SimpleName SimpleType MethodDeclaration SimpleName validate table exists
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName table name
+string SimpleName SimpleType MethodDeclaration SimpleType SimpleName atlas exception
+validate table exists SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+validate table exists SimpleName MethodDeclaration SingleVariableDeclaration SimpleName table name
+validate table exists SimpleName MethodDeclaration SimpleType SimpleName atlas exception
+validate table exists SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+table name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName validate table exists
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table name
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName validate table exists
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table name
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception

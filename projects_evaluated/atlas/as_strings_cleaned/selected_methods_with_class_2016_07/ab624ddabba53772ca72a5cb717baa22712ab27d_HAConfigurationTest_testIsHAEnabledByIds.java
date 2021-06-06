@@ -1,0 +1,77 @@
+configuration SimpleName MethodInvocation SimpleName contains key
+configuration SimpleName MethodInvocation QualifiedName ha configurationatlas server ha enabled key
+contains key SimpleName MethodInvocation QualifiedName ha configurationatlas server ha enabled key
+when SimpleName MethodInvocation MethodInvocation SimpleName configuration
+when SimpleName MethodInvocation MethodInvocation SimpleName contains key
+when SimpleName MethodInvocation MethodInvocation QualifiedName ha configurationatlas server ha enabled key
+when SimpleName MethodInvocation MethodInvocation SimpleName then return
+configuration SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+contains key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+ha configurationatlas server ha enabled key QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+when SimpleName MethodInvocation MethodInvocation BooleanLiteral false
+configuration SimpleName MethodInvocation MethodInvocation MethodInvocation BooleanLiteral false
+contains key SimpleName MethodInvocation MethodInvocation MethodInvocation BooleanLiteral false
+ha configurationatlas server ha enabled key QualifiedName MethodInvocation MethodInvocation MethodInvocation BooleanLiteral false
+then return SimpleName MethodInvocation BooleanLiteral false
+configuration SimpleName MethodInvocation SimpleName get string array
+configuration SimpleName MethodInvocation QualifiedName ha configurationatlas server ids
+get string array SimpleName MethodInvocation QualifiedName ha configurationatlas server ids
+when SimpleName MethodInvocation MethodInvocation SimpleName configuration
+when SimpleName MethodInvocation MethodInvocation SimpleName get string array
+when SimpleName MethodInvocation MethodInvocation QualifiedName ha configurationatlas server ids
+when SimpleName MethodInvocation MethodInvocation SimpleName then return
+configuration SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+get string array SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+ha configurationatlas server ids QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+when SimpleName MethodInvocation MethodInvocation SimpleName test atlas server ids ha
+configuration SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName test atlas server ids ha
+get string array SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName test atlas server ids ha
+ha configurationatlas server ids QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName test atlas server ids ha
+then return SimpleName MethodInvocation SimpleName test atlas server ids ha
+ha configuration SimpleName MethodInvocation SimpleName is ha enabled
+ha configuration SimpleName MethodInvocation SimpleName configuration
+is ha enabled SimpleName MethodInvocation SimpleName configuration
+is ha enabled SimpleName VariableDeclarationFragment MethodInvocation SimpleName ha configuration
+is ha enabled SimpleName VariableDeclarationFragment MethodInvocation SimpleName is ha enabled
+is ha enabled SimpleName VariableDeclarationFragment MethodInvocation SimpleName configuration
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName is ha enabled
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName ha configuration
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName is ha enabled
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName configuration
+assert true SimpleName MethodInvocation SimpleName is ha enabled
+configuration SimpleName MethodInvocation SimpleName get string array
+configuration SimpleName MethodInvocation QualifiedName ha configurationatlas server ids
+get string array SimpleName MethodInvocation QualifiedName ha configurationatlas server ids
+when SimpleName MethodInvocation MethodInvocation SimpleName configuration
+when SimpleName MethodInvocation MethodInvocation SimpleName get string array
+when SimpleName MethodInvocation MethodInvocation QualifiedName ha configurationatlas server ids
+when SimpleName MethodInvocation MethodInvocation SimpleName then return
+configuration SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+get string array SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+ha configurationatlas server ids QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+then return SimpleName MethodInvocation ArrayCreation ArrayInitializer StringLiteral id
+ha configuration SimpleName MethodInvocation SimpleName is ha enabled
+ha configuration SimpleName MethodInvocation SimpleName configuration
+is ha enabled SimpleName MethodInvocation SimpleName configuration
+is ha enabled SimpleName Assignment MethodInvocation SimpleName ha configuration
+is ha enabled SimpleName Assignment MethodInvocation SimpleName is ha enabled
+is ha enabled SimpleName Assignment MethodInvocation SimpleName configuration
+assert false SimpleName MethodInvocation SimpleName is ha enabled
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test is ha enabled by ids
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test is ha enabled by ids
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+void PrimitiveType MethodDeclaration SimpleName test is ha enabled by ids
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+test is ha enabled by ids SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test is ha enabled by ids
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test is ha enabled by ids

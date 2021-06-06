@@ -1,0 +1,11 @@
+describe SimpleName MethodInvocation QualifiedName element categoryproperty
+public Modifier MethodDeclaration SimpleType SimpleName query description
+public Modifier MethodDeclaration SimpleName describe for properties
+query description SimpleName SimpleType MethodDeclaration SimpleName describe for properties
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName query description
+public Modifier TypeDeclaration MethodDeclaration SimpleName describe for properties
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName query description
+test SimpleName TypeDeclaration MethodDeclaration SimpleName describe for properties

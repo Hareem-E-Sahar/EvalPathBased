@@ -1,0 +1,69 @@
+merge info SimpleName SimpleType SingleVariableDeclaration SimpleName info
+buffer SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName data output buffer
+data output buffer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName buffer
+info SimpleName MethodInvocation SimpleName write
+info SimpleName MethodInvocation SimpleName buffer
+write SimpleName MethodInvocation SimpleName buffer
+in SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName data input buffer
+data input buffer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName in
+buffer SimpleName MethodInvocation SimpleName get data
+buffer SimpleName MethodInvocation SimpleName get length
+in SimpleName MethodInvocation SimpleName reset
+in SimpleName MethodInvocation MethodInvocation SimpleName buffer
+in SimpleName MethodInvocation MethodInvocation SimpleName get data
+in SimpleName MethodInvocation NumberLiteral empty
+in SimpleName MethodInvocation MethodInvocation SimpleName buffer
+in SimpleName MethodInvocation MethodInvocation SimpleName get length
+reset SimpleName MethodInvocation MethodInvocation SimpleName buffer
+reset SimpleName MethodInvocation MethodInvocation SimpleName get data
+reset SimpleName MethodInvocation NumberLiteral empty
+reset SimpleName MethodInvocation MethodInvocation SimpleName buffer
+reset SimpleName MethodInvocation MethodInvocation SimpleName get length
+buffer SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+get data SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+buffer SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName buffer
+buffer SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get length
+get data SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName buffer
+get data SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get length
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName buffer
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName get length
+info SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName merge info
+merge info SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName info
+info SimpleName MethodInvocation SimpleName read fields
+info SimpleName MethodInvocation SimpleName in
+read fields SimpleName MethodInvocation SimpleName in
+assert SimpleName MethodInvocation SimpleName assert equals
+assert SimpleName MethodInvocation QualifiedName inforange
+assert SimpleName MethodInvocation QualifiedName info range
+assert equals SimpleName MethodInvocation QualifiedName inforange
+assert equals SimpleName MethodInvocation QualifiedName info range
+inforange QualifiedName MethodInvocation QualifiedName info range
+assert SimpleName MethodInvocation SimpleName assert equals
+assert SimpleName MethodInvocation QualifiedName infostate
+assert SimpleName MethodInvocation QualifiedName info state
+assert equals SimpleName MethodInvocation QualifiedName infostate
+assert equals SimpleName MethodInvocation QualifiedName info state
+infostate QualifiedName MethodInvocation QualifiedName info state
+assert SimpleName MethodInvocation SimpleName assert equals
+assert SimpleName MethodInvocation QualifiedName infooperation
+assert SimpleName MethodInvocation QualifiedName info operation
+assert equals SimpleName MethodInvocation QualifiedName infooperation
+assert equals SimpleName MethodInvocation QualifiedName info operation
+infooperation QualifiedName MethodInvocation QualifiedName info operation
+merge info SimpleName SimpleType MethodDeclaration SimpleName read write
+merge info SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName info
+merge info SimpleName SimpleType MethodDeclaration SimpleType SimpleName exception
+read write SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName merge info
+read write SimpleName MethodDeclaration SingleVariableDeclaration SimpleName info
+read write SimpleName MethodDeclaration SimpleType SimpleName exception
+read write SimpleName MethodDeclaration Block ReturnStatement SimpleName info
+info SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName merge info
+public Modifier TypeDeclaration MethodDeclaration SimpleName read write
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName info
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName merge info
+test SimpleName TypeDeclaration MethodDeclaration SimpleName read write
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName info
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

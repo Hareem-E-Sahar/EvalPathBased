@@ -1,0 +1,155 @@
+vertex SimpleName SimpleType SingleVariableDeclaration SimpleName instance vertex
+attribute info SimpleName SimpleType SingleVariableDeclaration SimpleName attribute info
+i data type SimpleName SimpleType SingleVariableDeclaration SimpleName element type
+object SimpleName SimpleType SingleVariableDeclaration SimpleName new attribute value
+string SimpleName SimpleType SingleVariableDeclaration SimpleName current value
+string SimpleName SimpleType SingleVariableDeclaration SimpleName property name
+operation SimpleName SimpleType SingleVariableDeclaration SimpleName operation
+element type SimpleName MethodInvocation SimpleName get type category
+new attribute value SimpleName MethodInvocation SimpleName to string
+new attribute value SimpleName InfixExpression ConditionalExpression MethodInvocation SimpleName new attribute value
+new attribute value SimpleName InfixExpression ConditionalExpression MethodInvocation SimpleName to string
+graph helperedge label prefix QualifiedName InfixExpression SimpleName property name
+edge label SimpleName VariableDeclarationFragment InfixExpression QualifiedName graph helperedge label prefix
+edge label SimpleName VariableDeclarationFragment InfixExpression SimpleName property name
+final Modifier VariableDeclarationStatement SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName edge label
+final Modifier VariableDeclarationStatement VariableDeclarationFragment InfixExpression QualifiedName graph helperedge label prefix
+final Modifier VariableDeclarationStatement VariableDeclarationFragment InfixExpression SimpleName property name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName edge label
+graph helper SimpleName MethodInvocation SimpleName get edge by id
+graph helper SimpleName MethodInvocation SimpleName current value
+get edge by id SimpleName MethodInvocation SimpleName current value
+current edge SimpleName VariableDeclarationFragment MethodInvocation SimpleName graph helper
+current edge SimpleName VariableDeclarationFragment MethodInvocation SimpleName get edge by id
+current edge SimpleName VariableDeclarationFragment MethodInvocation SimpleName current value
+edge SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName current edge
+add or update reference SimpleName MethodInvocation SimpleName instance vertex
+add or update reference SimpleName MethodInvocation SimpleName attribute info
+add or update reference SimpleName MethodInvocation SimpleName element type
+add or update reference SimpleName MethodInvocation SimpleName new attribute value
+add or update reference SimpleName MethodInvocation SimpleName current edge
+instance vertex SimpleName MethodInvocation SimpleName attribute info
+instance vertex SimpleName MethodInvocation SimpleName element type
+instance vertex SimpleName MethodInvocation SimpleName new attribute value
+instance vertex SimpleName MethodInvocation SimpleName current edge
+instance vertex SimpleName MethodInvocation SimpleName edge label
+attribute info SimpleName MethodInvocation SimpleName element type
+attribute info SimpleName MethodInvocation SimpleName new attribute value
+attribute info SimpleName MethodInvocation SimpleName current edge
+attribute info SimpleName MethodInvocation SimpleName edge label
+attribute info SimpleName MethodInvocation SimpleName operation
+element type SimpleName MethodInvocation SimpleName new attribute value
+element type SimpleName MethodInvocation SimpleName current edge
+element type SimpleName MethodInvocation SimpleName edge label
+element type SimpleName MethodInvocation SimpleName operation
+new attribute value SimpleName MethodInvocation SimpleName current edge
+new attribute value SimpleName MethodInvocation SimpleName edge label
+new attribute value SimpleName MethodInvocation SimpleName operation
+current edge SimpleName MethodInvocation SimpleName edge label
+current edge SimpleName MethodInvocation SimpleName operation
+edge label SimpleName MethodInvocation SimpleName operation
+element type SimpleName MethodInvocation SimpleName get type category
+unknown type category StringLiteral InfixExpression MethodInvocation SimpleName element type
+unknown type category StringLiteral InfixExpression MethodInvocation SimpleName get type category
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral unknown type category
+element type SimpleName MethodInvocation SwitchStatement SwitchCase SimpleName primitive
+get type category SimpleName MethodInvocation SwitchStatement SwitchCase SimpleName primitive
+element type SimpleName MethodInvocation SwitchStatement SwitchCase SimpleName enum
+get type category SimpleName MethodInvocation SwitchStatement SwitchCase SimpleName enum
+element type SimpleName MethodInvocation SwitchStatement SwitchCase SimpleName array
+get type category SimpleName MethodInvocation SwitchStatement SwitchCase SimpleName array
+element type SimpleName MethodInvocation SwitchStatement SwitchCase SimpleName map
+get type category SimpleName MethodInvocation SwitchStatement SwitchCase SimpleName map
+primitive SimpleName SwitchCase SwitchStatement SwitchCase SimpleName enum
+primitive SimpleName SwitchCase SwitchStatement SwitchCase SimpleName array
+primitive SimpleName SwitchCase SwitchStatement SwitchCase SimpleName map
+primitive SimpleName SwitchCase SwitchStatement SwitchCase SimpleName trait
+enum SimpleName SwitchCase SwitchStatement SwitchCase SimpleName array
+enum SimpleName SwitchCase SwitchStatement SwitchCase SimpleName map
+enum SimpleName SwitchCase SwitchStatement SwitchCase SimpleName trait
+array SimpleName SwitchCase SwitchStatement SwitchCase SimpleName map
+array SimpleName SwitchCase SwitchStatement SwitchCase SimpleName trait
+array SimpleName SwitchCase SwitchStatement SwitchCase SimpleName struct
+array SimpleName SwitchCase SwitchStatement SwitchCase SimpleName class
+map SimpleName SwitchCase SwitchStatement SwitchCase SimpleName trait
+map SimpleName SwitchCase SwitchStatement SwitchCase SimpleName struct
+map SimpleName SwitchCase SwitchStatement SwitchCase SimpleName class
+map SimpleName SwitchCase SwitchStatement VariableDeclarationStatement Modifier final
+trait SimpleName SwitchCase SwitchStatement SwitchCase SimpleName struct
+trait SimpleName SwitchCase SwitchStatement SwitchCase SimpleName class
+trait SimpleName SwitchCase SwitchStatement VariableDeclarationStatement Modifier final
+struct SimpleName SwitchCase SwitchStatement SwitchCase SimpleName class
+struct SimpleName SwitchCase SwitchStatement VariableDeclarationStatement Modifier final
+class SimpleName SwitchCase SwitchStatement VariableDeclarationStatement Modifier final
+private Modifier MethodDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SimpleName add or update collection entry
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName vertex
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName instance vertex
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName attribute info
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName attribute info
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName i data type
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName element type
+string SimpleName SimpleType MethodDeclaration SimpleName add or update collection entry
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName instance vertex
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName attribute info
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName element type
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName new attribute value
+add or update collection entry SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName vertex
+add or update collection entry SimpleName MethodDeclaration SingleVariableDeclaration SimpleName instance vertex
+add or update collection entry SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName attribute info
+add or update collection entry SimpleName MethodDeclaration SingleVariableDeclaration SimpleName attribute info
+add or update collection entry SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName i data type
+add or update collection entry SimpleName MethodDeclaration SingleVariableDeclaration SimpleName element type
+add or update collection entry SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+add or update collection entry SimpleName MethodDeclaration SingleVariableDeclaration SimpleName new attribute value
+add or update collection entry SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+add or update collection entry SimpleName MethodDeclaration SingleVariableDeclaration SimpleName current value
+instance vertex SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attribute info
+instance vertex SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName element type
+instance vertex SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new attribute value
+instance vertex SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName current value
+instance vertex SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName property name
+attribute info SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName element type
+attribute info SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new attribute value
+attribute info SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName current value
+attribute info SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName property name
+attribute info SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName operation
+element type SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new attribute value
+element type SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName current value
+element type SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName property name
+element type SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName operation
+element type SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+new attribute value SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName current value
+new attribute value SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName property name
+new attribute value SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName operation
+new attribute value SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+current value SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName property name
+current value SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName operation
+current value SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+property name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName operation
+property name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+operation SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName add or update collection entry
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName instance vertex
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attribute info
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName element type
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new attribute value
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName current value
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName property name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName operation
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName add or update collection entry
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName instance vertex
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attribute info
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName element type
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new attribute value
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName current value
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName property name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName operation
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception

@@ -1,0 +1,129 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName tablet migration
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName tablet migration
+collections SimpleName MethodInvocation SimpleName unmodifiable sorted map
+collections SimpleName MethodInvocation SimpleName tserver status
+unmodifiable sorted map SimpleName MethodInvocation SimpleName tserver status
+migrations SimpleName MethodInvocation SimpleName key set
+collections SimpleName MethodInvocation SimpleName unmodifiable set
+collections SimpleName MethodInvocation MethodInvocation SimpleName migrations
+collections SimpleName MethodInvocation MethodInvocation SimpleName key set
+unmodifiable set SimpleName MethodInvocation MethodInvocation SimpleName migrations
+unmodifiable set SimpleName MethodInvocation MethodInvocation SimpleName key set
+tablet balancer SimpleName MethodInvocation SimpleName balance
+tablet balancer SimpleName MethodInvocation MethodInvocation SimpleName collections
+tablet balancer SimpleName MethodInvocation MethodInvocation SimpleName unmodifiable sorted map
+tablet balancer SimpleName MethodInvocation MethodInvocation SimpleName tserver status
+tablet balancer SimpleName MethodInvocation MethodInvocation SimpleName collections
+tablet balancer SimpleName MethodInvocation MethodInvocation SimpleName unmodifiable set
+tablet balancer SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName migrations
+tablet balancer SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName key set
+tablet balancer SimpleName MethodInvocation SimpleName migrations out
+balance SimpleName MethodInvocation MethodInvocation SimpleName collections
+balance SimpleName MethodInvocation MethodInvocation SimpleName unmodifiable sorted map
+balance SimpleName MethodInvocation MethodInvocation SimpleName tserver status
+balance SimpleName MethodInvocation MethodInvocation SimpleName collections
+balance SimpleName MethodInvocation MethodInvocation SimpleName unmodifiable set
+balance SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName migrations
+balance SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName key set
+balance SimpleName MethodInvocation SimpleName migrations out
+collections SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName collections
+collections SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName unmodifiable set
+unmodifiable sorted map SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName collections
+unmodifiable sorted map SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName unmodifiable set
+tserver status SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName collections
+tserver status SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName unmodifiable set
+collections SimpleName MethodInvocation MethodInvocation SimpleName migrations out
+unmodifiable sorted map SimpleName MethodInvocation MethodInvocation SimpleName migrations out
+tserver status SimpleName MethodInvocation MethodInvocation SimpleName migrations out
+collections SimpleName MethodInvocation MethodInvocation SimpleName migrations out
+unmodifiable set SimpleName MethodInvocation MethodInvocation SimpleName migrations out
+migrations SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName migrations out
+key set SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName migrations out
+wait SimpleName VariableDeclarationFragment MethodInvocation SimpleName tablet balancer
+wait SimpleName VariableDeclarationFragment MethodInvocation SimpleName balance
+wait SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName collections
+wait SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName unmodifiable sorted map
+wait SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName tserver status
+wait SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName collections
+wait SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName unmodifiable set
+wait SimpleName VariableDeclarationFragment MethodInvocation SimpleName migrations out
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName wait
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName tablet balancer
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName balance
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName migrations out
+tablet migration SimpleName SimpleType SingleVariableDeclaration SimpleName m
+tserver status SimpleName MethodInvocation SimpleName key set
+tablet balancer SimpleName MethodInvocation SimpleName check migration sanity
+tablet balancer SimpleName MethodInvocation MethodInvocation SimpleName tserver status
+tablet balancer SimpleName MethodInvocation MethodInvocation SimpleName key set
+tablet balancer SimpleName MethodInvocation SimpleName migrations out
+check migration sanity SimpleName MethodInvocation MethodInvocation SimpleName tserver status
+check migration sanity SimpleName MethodInvocation MethodInvocation SimpleName key set
+check migration sanity SimpleName MethodInvocation SimpleName migrations out
+tserver status SimpleName MethodInvocation MethodInvocation SimpleName migrations out
+key set SimpleName MethodInvocation MethodInvocation SimpleName migrations out
+migrations SimpleName MethodInvocation SimpleName contains key
+migrations SimpleName MethodInvocation QualifiedName mtablet
+contains key SimpleName MethodInvocation QualifiedName mtablet
+balancer requested migration more than once skipping StringLiteral InfixExpression SimpleName m
+log SimpleName MethodInvocation SimpleName warn
+log SimpleName MethodInvocation InfixExpression StringLiteral balancer requested migration more than once skipping
+log SimpleName MethodInvocation InfixExpression SimpleName m
+warn SimpleName MethodInvocation InfixExpression StringLiteral balancer requested migration more than once skipping
+warn SimpleName MethodInvocation InfixExpression SimpleName m
+migrations SimpleName MethodInvocation SimpleName put
+migrations SimpleName MethodInvocation QualifiedName mtablet
+migrations SimpleName MethodInvocation QualifiedName mnew server
+put SimpleName MethodInvocation QualifiedName mtablet
+put SimpleName MethodInvocation QualifiedName mnew server
+mtablet QualifiedName MethodInvocation QualifiedName mnew server
+migration StringLiteral InfixExpression SimpleName m
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation InfixExpression StringLiteral migration
+log SimpleName MethodInvocation InfixExpression SimpleName m
+debug SimpleName MethodInvocation InfixExpression StringLiteral migration
+debug SimpleName MethodInvocation InfixExpression SimpleName m
+m SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName tablet balancer
+m SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName check migration sanity
+m SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName migrations out
+migrations out SimpleName MethodInvocation SimpleName size
+migrations out SimpleName MethodInvocation InfixExpression NumberLiteral empty
+size SimpleName MethodInvocation InfixExpression NumberLiteral empty
+migrations out SimpleName MethodInvocation SimpleName size
+migrations SimpleName MethodInvocation SimpleName size
+next event SimpleName MethodInvocation SimpleName event
+next event SimpleName MethodInvocation StringLiteral migrating d more tablets d total
+next event SimpleName MethodInvocation MethodInvocation SimpleName migrations out
+next event SimpleName MethodInvocation MethodInvocation SimpleName size
+next event SimpleName MethodInvocation MethodInvocation SimpleName migrations
+next event SimpleName MethodInvocation MethodInvocation SimpleName size
+event SimpleName MethodInvocation StringLiteral migrating d more tablets d total
+event SimpleName MethodInvocation MethodInvocation SimpleName migrations out
+event SimpleName MethodInvocation MethodInvocation SimpleName size
+event SimpleName MethodInvocation MethodInvocation SimpleName migrations
+event SimpleName MethodInvocation MethodInvocation SimpleName size
+migrating d more tablets d total StringLiteral MethodInvocation MethodInvocation SimpleName migrations out
+migrating d more tablets d total StringLiteral MethodInvocation MethodInvocation SimpleName size
+migrating d more tablets d total StringLiteral MethodInvocation MethodInvocation SimpleName migrations
+migrating d more tablets d total StringLiteral MethodInvocation MethodInvocation SimpleName size
+migrations out SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName migrations
+migrations out SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName size
+size SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName migrations
+size SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName size
+long PrimitiveType VariableDeclarationStatement Block ReturnStatement SimpleName wait
+private Modifier MethodDeclaration PrimitiveType long
+private Modifier MethodDeclaration SimpleName balance tablets
+private Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+private Modifier MethodDeclaration Block ReturnStatement SimpleName wait
+long PrimitiveType MethodDeclaration SimpleName balance tablets
+long PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+long PrimitiveType MethodDeclaration Block ReturnStatement SimpleName wait
+balance tablets SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+balance tablets SimpleName MethodDeclaration Block ReturnStatement SimpleName wait
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType long
+public Modifier TypeDeclaration MethodDeclaration SimpleName balance tablets
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType long
+test SimpleName TypeDeclaration MethodDeclaration SimpleName balance tablets

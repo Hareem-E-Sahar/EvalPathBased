@@ -1,0 +1,44 @@
+request SimpleName SimpleType SingleVariableDeclaration SimpleName request
+resource definition SimpleName MethodInvocation SimpleName validate create payload
+resource definition SimpleName MethodInvocation SimpleName request
+validate create payload SimpleName MethodInvocation SimpleName request
+ensure taxonomy doesnt exist SimpleName MethodInvocation SimpleName request
+do create resource SimpleName MethodInvocation SimpleName request
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName create resource
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName request
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName invalid payload exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName create resource
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName request
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName request
+public Modifier MethodDeclaration SimpleType SimpleName invalid payload exception
+public Modifier MethodDeclaration SimpleType SimpleName resource already exists exception
+void PrimitiveType MethodDeclaration SimpleName create resource
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName request
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName request
+void PrimitiveType MethodDeclaration SimpleType SimpleName invalid payload exception
+void PrimitiveType MethodDeclaration SimpleType SimpleName resource already exists exception
+create resource SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName request
+create resource SimpleName MethodDeclaration SingleVariableDeclaration SimpleName request
+create resource SimpleName MethodDeclaration SimpleType SimpleName invalid payload exception
+create resource SimpleName MethodDeclaration SimpleType SimpleName resource already exists exception
+request SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName invalid payload exception
+request SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName resource already exists exception
+invalid payload exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName resource already exists exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName create resource
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName request
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName invalid payload exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName resource already exists exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create resource
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName request
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName invalid payload exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName resource already exists exception

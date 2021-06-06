@@ -1,0 +1,272 @@
+default client config SimpleName SimpleType SingleVariableDeclaration SimpleName config
+orgapachecommonsconfigurationconfiguration QualifiedName SimpleType SingleVariableDeclaration SimpleName client config
+string SimpleName SimpleType SingleVariableDeclaration SimpleName do as user
+final Modifier SingleVariableDeclaration SimpleType SimpleName user group information
+final Modifier SingleVariableDeclaration SimpleName ugi
+user group information SimpleName SimpleType SingleVariableDeclaration SimpleName ugi
+config SimpleName MethodInvocation SimpleName get properties
+config SimpleName MethodInvocation MethodInvocation SimpleName put
+get properties SimpleName MethodInvocation MethodInvocation SimpleName put
+config SimpleName MethodInvocation MethodInvocation QualifiedName url connection client handlerproperty http url connection set method workaround
+get properties SimpleName MethodInvocation MethodInvocation QualifiedName url connection client handlerproperty http url connection set method workaround
+config SimpleName MethodInvocation MethodInvocation BooleanLiteral true
+get properties SimpleName MethodInvocation MethodInvocation BooleanLiteral true
+put SimpleName MethodInvocation QualifiedName url connection client handlerproperty http url connection set method workaround
+put SimpleName MethodInvocation BooleanLiteral true
+url connection client handlerproperty http url connection set method workaround QualifiedName MethodInvocation BooleanLiteral true
+conf SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName configuration
+configuration SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName conf
+conf SimpleName MethodInvocation SimpleName get
+conf SimpleName MethodInvocation QualifiedName ssl factoryssl client conf key
+conf SimpleName MethodInvocation QualifiedName security propertiesssl client properties
+get SimpleName MethodInvocation QualifiedName ssl factoryssl client conf key
+get SimpleName MethodInvocation QualifiedName security propertiesssl client properties
+ssl factoryssl client conf key QualifiedName MethodInvocation QualifiedName security propertiesssl client properties
+conf SimpleName MethodInvocation SimpleName add resource
+conf SimpleName MethodInvocation MethodInvocation SimpleName conf
+conf SimpleName MethodInvocation MethodInvocation SimpleName get
+conf SimpleName MethodInvocation MethodInvocation QualifiedName ssl factoryssl client conf key
+conf SimpleName MethodInvocation MethodInvocation QualifiedName security propertiesssl client properties
+add resource SimpleName MethodInvocation MethodInvocation SimpleName conf
+add resource SimpleName MethodInvocation MethodInvocation SimpleName get
+add resource SimpleName MethodInvocation MethodInvocation QualifiedName ssl factoryssl client conf key
+add resource SimpleName MethodInvocation MethodInvocation QualifiedName security propertiesssl client properties
+user group information SimpleName MethodInvocation SimpleName set configuration
+user group information SimpleName MethodInvocation SimpleName conf
+set configuration SimpleName MethodInvocation SimpleName conf
+new conn configurator SimpleName MethodInvocation SimpleName conf
+conn configurator SimpleName VariableDeclarationFragment MethodInvocation SimpleName new conn configurator
+conn configurator SimpleName VariableDeclarationFragment MethodInvocation SimpleName conf
+final Modifier VariableDeclarationStatement SimpleType SimpleName connection configurator
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName conn configurator
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName new conn configurator
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName conf
+connection configurator SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName conn configurator
+auth type SimpleName VariableDeclarationFragment StringLiteral simple
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName auth type
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral simple
+client config SimpleName MethodInvocation SimpleName get string
+client config SimpleName MethodInvocation StringLiteral atlashttpauthenticationtype
+client config SimpleName MethodInvocation StringLiteral simple
+get string SimpleName MethodInvocation StringLiteral atlashttpauthenticationtype
+get string SimpleName MethodInvocation StringLiteral simple
+atlashttpauthenticationtype StringLiteral MethodInvocation StringLiteral simple
+auth type SimpleName Assignment MethodInvocation SimpleName client config
+auth type SimpleName Assignment MethodInvocation SimpleName get string
+auth type SimpleName Assignment MethodInvocation StringLiteral atlashttpauthenticationtype
+auth type SimpleName Assignment MethodInvocation StringLiteral simple
+authenticator SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName pseudo delegation token authenticator
+authenticator SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName authenticator
+auth type SimpleName MethodInvocation SimpleName equals
+auth type SimpleName MethodInvocation StringLiteral simple
+equals SimpleName MethodInvocation StringLiteral simple
+authenticator SimpleName Assignment ClassInstanceCreation SimpleType SimpleName kerberos delegation token authenticator
+authenticator SimpleName MethodInvocation SimpleName set connection configurator
+authenticator SimpleName MethodInvocation SimpleName conn configurator
+set connection configurator SimpleName MethodInvocation SimpleName conn configurator
+delegation token authenticator SimpleName SimpleType CastExpression SimpleName authenticator
+final authenticator SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName delegation token authenticator
+final authenticator SimpleName VariableDeclarationFragment CastExpression SimpleName authenticator
+final Modifier VariableDeclarationStatement SimpleType SimpleName delegation token authenticator
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName final authenticator
+final Modifier VariableDeclarationStatement VariableDeclarationFragment CastExpression SimpleName authenticator
+delegation token authenticator SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName final authenticator
+token SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType QualifiedName delegation token authenticated urltoken
+final Modifier VariableDeclarationStatement SimpleType QualifiedName delegation token authenticated urltoken
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName token
+delegation token authenticated urltoken QualifiedName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName token
+http url connection factory SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName http url connection factory
+user group information SimpleName MethodInvocation SimpleName get current user
+ugi SimpleName InfixExpression ConditionalExpression SimpleName ugi
+ugi SimpleName InfixExpression ConditionalExpression MethodInvocation SimpleName user group information
+ugi SimpleName InfixExpression ConditionalExpression MethodInvocation SimpleName get current user
+ugi SimpleName ConditionalExpression MethodInvocation SimpleName user group information
+ugi SimpleName ConditionalExpression MethodInvocation SimpleName get current user
+ugi to use SimpleName VariableDeclarationFragment ConditionalExpression InfixExpression SimpleName ugi
+ugi to use SimpleName VariableDeclarationFragment ConditionalExpression SimpleName ugi
+ugi to use SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation SimpleName user group information
+ugi to use SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation SimpleName get current user
+user group information SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ugi to use
+ugi to use SimpleName MethodInvocation SimpleName get authentication method
+ugi to use SimpleName MethodInvocation InfixExpression QualifiedName user group informationauthentication methodproxy
+get authentication method SimpleName MethodInvocation InfixExpression QualifiedName user group informationauthentication methodproxy
+ugi to use SimpleName MethodInvocation SimpleName get real user
+user group informationauthentication methodproxy QualifiedName InfixExpression ParenthesizedExpression ConditionalExpression SimpleName ugi to use
+ugi to use SimpleName MethodInvocation ConditionalExpression SimpleName ugi to use
+get real user SimpleName MethodInvocation ConditionalExpression SimpleName ugi to use
+actual ugi SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation SimpleName ugi to use
+actual ugi SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation SimpleName get real user
+actual ugi SimpleName VariableDeclarationFragment ConditionalExpression SimpleName ugi to use
+final Modifier VariableDeclarationStatement SimpleType SimpleName user group information
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName actual ugi
+final Modifier VariableDeclarationStatement VariableDeclarationFragment ConditionalExpression SimpleName ugi to use
+user group information SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName actual ugi
+actual ugi SimpleName MethodInvocation SimpleName is login ticket based
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation StringLiteral real user {} is from ticket cache {}
+log SimpleName MethodInvocation SimpleName actual ugi
+log SimpleName MethodInvocation MethodInvocation SimpleName actual ugi
+log SimpleName MethodInvocation MethodInvocation SimpleName is login ticket based
+info SimpleName MethodInvocation StringLiteral real user {} is from ticket cache {}
+info SimpleName MethodInvocation SimpleName actual ugi
+info SimpleName MethodInvocation MethodInvocation SimpleName actual ugi
+info SimpleName MethodInvocation MethodInvocation SimpleName is login ticket based
+real user {} is from ticket cache {} StringLiteral MethodInvocation SimpleName actual ugi
+real user {} is from ticket cache {} StringLiteral MethodInvocation MethodInvocation SimpleName actual ugi
+real user {} is from ticket cache {} StringLiteral MethodInvocation MethodInvocation SimpleName is login ticket based
+actual ugi SimpleName MethodInvocation MethodInvocation SimpleName actual ugi
+actual ugi SimpleName MethodInvocation MethodInvocation SimpleName is login ticket based
+string utils SimpleName MethodInvocation SimpleName is empty
+string utils SimpleName MethodInvocation SimpleName do as user
+is empty SimpleName MethodInvocation SimpleName do as user
+actual ugi SimpleName MethodInvocation SimpleName get short user name
+do as user SimpleName Assignment MethodInvocation SimpleName actual ugi
+do as user SimpleName Assignment MethodInvocation SimpleName get short user name
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation StringLiteral do as user {}
+log SimpleName MethodInvocation SimpleName do as user
+info SimpleName MethodInvocation StringLiteral do as user {}
+info SimpleName MethodInvocation SimpleName do as user
+do as user {} StringLiteral MethodInvocation SimpleName do as user
+final do as user SimpleName VariableDeclarationFragment SimpleName do as user
+final Modifier VariableDeclarationStatement SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName final do as user
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName do as user
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName final do as user
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName do as user
+final Modifier SingleVariableDeclaration SimpleType SimpleName url
+final Modifier SingleVariableDeclaration SimpleName url
+url SimpleName SimpleType SingleVariableDeclaration SimpleName url
+privileged exception action SimpleName SimpleType ParameterizedType SimpleType SimpleName http url connection
+delegation token authenticated url SimpleName SimpleType ClassInstanceCreation SimpleName final authenticator
+delegation token authenticated url SimpleName SimpleType ClassInstanceCreation SimpleName conn configurator
+final authenticator SimpleName ClassInstanceCreation SimpleName conn configurator
+delegation token authenticated url SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName open connection
+final authenticator SimpleName ClassInstanceCreation MethodInvocation SimpleName open connection
+conn configurator SimpleName ClassInstanceCreation MethodInvocation SimpleName open connection
+delegation token authenticated url SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName url
+final authenticator SimpleName ClassInstanceCreation MethodInvocation SimpleName url
+conn configurator SimpleName ClassInstanceCreation MethodInvocation SimpleName url
+delegation token authenticated url SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName token
+final authenticator SimpleName ClassInstanceCreation MethodInvocation SimpleName token
+conn configurator SimpleName ClassInstanceCreation MethodInvocation SimpleName token
+delegation token authenticated url SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName final do as user
+final authenticator SimpleName ClassInstanceCreation MethodInvocation SimpleName final do as user
+conn configurator SimpleName ClassInstanceCreation MethodInvocation SimpleName final do as user
+open connection SimpleName MethodInvocation SimpleName url
+open connection SimpleName MethodInvocation SimpleName token
+open connection SimpleName MethodInvocation SimpleName final do as user
+url SimpleName MethodInvocation SimpleName token
+url SimpleName MethodInvocation SimpleName final do as user
+token SimpleName MethodInvocation SimpleName final do as user
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+io exception SimpleName SimpleType ClassInstanceCreation SimpleName e
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName http url connection
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName run
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration SimpleType SimpleName http url connection
+public Modifier MethodDeclaration SimpleName run
+public Modifier MethodDeclaration SimpleType SimpleName exception
+http url connection SimpleName SimpleType MethodDeclaration SimpleName run
+http url connection SimpleName SimpleType MethodDeclaration SimpleType SimpleName exception
+run SimpleName MethodDeclaration SimpleType SimpleName exception
+actual ugi SimpleName MethodInvocation SimpleName do as
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+e SimpleName InstanceofExpression SimpleType SimpleName io exception
+io exception SimpleName SimpleType CastExpression SimpleName e
+io exception SimpleName SimpleType ClassInstanceCreation SimpleName e
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName http url connection
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName get http url connection
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration Modifier final
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName url
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName io exception
+public Modifier MethodDeclaration SimpleType SimpleName http url connection
+public Modifier MethodDeclaration SimpleName get http url connection
+public Modifier MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName url
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName url
+public Modifier MethodDeclaration SimpleType SimpleName io exception
+http url connection SimpleName SimpleType MethodDeclaration SimpleName get http url connection
+http url connection SimpleName SimpleType MethodDeclaration SingleVariableDeclaration Modifier final
+http url connection SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName url
+http url connection SimpleName SimpleType MethodDeclaration SimpleType SimpleName io exception
+get http url connection SimpleName MethodDeclaration SingleVariableDeclaration Modifier final
+get http url connection SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName url
+get http url connection SimpleName MethodDeclaration SingleVariableDeclaration SimpleName url
+get http url connection SimpleName MethodDeclaration SimpleType SimpleName io exception
+final Modifier SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+url SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+http url connection factory SimpleName Assignment ClassInstanceCreation SimpleType SimpleName http url connection factory
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+io exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+log SimpleName MethodInvocation SimpleName warn
+log SimpleName MethodInvocation StringLiteral error obtaining user
+log SimpleName MethodInvocation SimpleName e
+warn SimpleName MethodInvocation StringLiteral error obtaining user
+warn SimpleName MethodInvocation SimpleName e
+error obtaining user StringLiteral MethodInvocation SimpleName e
+url connection client handler SimpleName SimpleType ClassInstanceCreation SimpleName http url connection factory
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName url connection client handler
+public Modifier MethodDeclaration SimpleName get client connection handler
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName default client config
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName config
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType QualifiedName orgapachecommonsconfigurationconfiguration
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName client config
+static Modifier MethodDeclaration SimpleType SimpleName url connection client handler
+static Modifier MethodDeclaration SimpleName get client connection handler
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName default client config
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName config
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType QualifiedName orgapachecommonsconfigurationconfiguration
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName client config
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName do as user
+url connection client handler SimpleName SimpleType MethodDeclaration SimpleName get client connection handler
+url connection client handler SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName config
+url connection client handler SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName client config
+url connection client handler SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName do as user
+url connection client handler SimpleName SimpleType MethodDeclaration SingleVariableDeclaration Modifier final
+url connection client handler SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName ugi
+get client connection handler SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName default client config
+get client connection handler SimpleName MethodDeclaration SingleVariableDeclaration SimpleName config
+get client connection handler SimpleName MethodDeclaration SingleVariableDeclaration SimpleType QualifiedName orgapachecommonsconfigurationconfiguration
+get client connection handler SimpleName MethodDeclaration SingleVariableDeclaration SimpleName client config
+get client connection handler SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get client connection handler SimpleName MethodDeclaration SingleVariableDeclaration SimpleName do as user
+get client connection handler SimpleName MethodDeclaration SingleVariableDeclaration Modifier final
+get client connection handler SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName user group information
+get client connection handler SimpleName MethodDeclaration SingleVariableDeclaration SimpleName ugi
+get client connection handler SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+get client connection handler SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+get client connection handler SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+config SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName client config
+config SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName do as user
+config SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+config SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ugi
+client config SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName do as user
+client config SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+client config SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ugi
+do as user SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+do as user SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ugi
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName url connection client handler
+public Modifier TypeDeclaration MethodDeclaration SimpleName get client connection handler
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName config
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName client config
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName do as user
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ugi
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName url connection client handler
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get client connection handler
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName config
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName client config
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName do as user
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ugi

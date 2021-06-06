@@ -1,0 +1,78 @@
+size SimpleName VariableDeclarationFragment SimpleName memoized serialized size
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName size
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName memoized serialized size
+size SimpleName InfixExpression PrefixExpression NumberLiteral empty
+size SimpleName InfixExpression IfStatement ReturnStatement SimpleName size
+size SimpleName Assignment NumberLiteral empty
+bit field SimpleName InfixExpression NumberLiteral x
+bit field SimpleName InfixExpression ParenthesizedExpression InfixExpression NumberLiteral x
+x NumberLiteral InfixExpression ParenthesizedExpression InfixExpression NumberLiteral x
+comgoogleprotobufcoded output stream QualifiedName MethodInvocation SimpleName compute int size
+comgoogleprotobufcoded output stream QualifiedName MethodInvocation NumberLiteral empty
+comgoogleprotobufcoded output stream QualifiedName MethodInvocation SimpleName begin
+compute int size SimpleName MethodInvocation NumberLiteral empty
+compute int size SimpleName MethodInvocation SimpleName begin
+empty NumberLiteral MethodInvocation SimpleName begin
+size SimpleName Assignment MethodInvocation QualifiedName comgoogleprotobufcoded output stream
+size SimpleName Assignment MethodInvocation SimpleName compute int size
+size SimpleName Assignment MethodInvocation NumberLiteral empty
+size SimpleName Assignment MethodInvocation SimpleName begin
+bit field SimpleName InfixExpression NumberLiteral x
+bit field SimpleName InfixExpression ParenthesizedExpression InfixExpression NumberLiteral x
+x NumberLiteral InfixExpression ParenthesizedExpression InfixExpression NumberLiteral x
+comgoogleprotobufcoded output stream QualifiedName MethodInvocation SimpleName compute int size
+comgoogleprotobufcoded output stream QualifiedName MethodInvocation NumberLiteral empty
+comgoogleprotobufcoded output stream QualifiedName MethodInvocation SimpleName end
+compute int size SimpleName MethodInvocation NumberLiteral empty
+compute int size SimpleName MethodInvocation SimpleName end
+empty NumberLiteral MethodInvocation SimpleName end
+size SimpleName Assignment MethodInvocation QualifiedName comgoogleprotobufcoded output stream
+size SimpleName Assignment MethodInvocation SimpleName compute int size
+size SimpleName Assignment MethodInvocation NumberLiteral empty
+size SimpleName Assignment MethodInvocation SimpleName end
+bit field SimpleName InfixExpression NumberLiteral x
+bit field SimpleName InfixExpression ParenthesizedExpression InfixExpression NumberLiteral x
+x NumberLiteral InfixExpression ParenthesizedExpression InfixExpression NumberLiteral x
+comgoogleprotobufcoded output stream QualifiedName MethodInvocation SimpleName compute bool size
+comgoogleprotobufcoded output stream QualifiedName MethodInvocation NumberLiteral empty
+comgoogleprotobufcoded output stream QualifiedName MethodInvocation SimpleName infinite end
+compute bool size SimpleName MethodInvocation NumberLiteral empty
+compute bool size SimpleName MethodInvocation SimpleName infinite end
+empty NumberLiteral MethodInvocation SimpleName infinite end
+size SimpleName Assignment MethodInvocation QualifiedName comgoogleprotobufcoded output stream
+size SimpleName Assignment MethodInvocation SimpleName compute bool size
+size SimpleName Assignment MethodInvocation NumberLiteral empty
+size SimpleName Assignment MethodInvocation SimpleName infinite end
+bit field SimpleName InfixExpression NumberLiteral x
+bit field SimpleName InfixExpression ParenthesizedExpression InfixExpression NumberLiteral x
+x NumberLiteral InfixExpression ParenthesizedExpression InfixExpression NumberLiteral x
+comgoogleprotobufcoded output stream QualifiedName MethodInvocation SimpleName compute bool size
+comgoogleprotobufcoded output stream QualifiedName MethodInvocation NumberLiteral empty
+comgoogleprotobufcoded output stream QualifiedName MethodInvocation SimpleName closed
+compute bool size SimpleName MethodInvocation NumberLiteral empty
+compute bool size SimpleName MethodInvocation SimpleName closed
+empty NumberLiteral MethodInvocation SimpleName closed
+size SimpleName Assignment MethodInvocation QualifiedName comgoogleprotobufcoded output stream
+size SimpleName Assignment MethodInvocation SimpleName compute bool size
+size SimpleName Assignment MethodInvocation NumberLiteral empty
+size SimpleName Assignment MethodInvocation SimpleName closed
+get unknown fields SimpleName MethodInvocation MethodInvocation SimpleName get serialized size
+size SimpleName Assignment MethodInvocation MethodInvocation SimpleName get unknown fields
+size SimpleName Assignment MethodInvocation SimpleName get serialized size
+memoized serialized size SimpleName Assignment SimpleName size
+public Modifier MethodDeclaration PrimitiveType int
+public Modifier MethodDeclaration SimpleName get serialized size
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+public Modifier MethodDeclaration Block ReturnStatement SimpleName size
+int PrimitiveType MethodDeclaration SimpleName get serialized size
+int PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType MethodDeclaration Block ReturnStatement SimpleName size
+get serialized size SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+get serialized size SimpleName MethodDeclaration Block ReturnStatement SimpleName size
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SimpleName get serialized size
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get serialized size

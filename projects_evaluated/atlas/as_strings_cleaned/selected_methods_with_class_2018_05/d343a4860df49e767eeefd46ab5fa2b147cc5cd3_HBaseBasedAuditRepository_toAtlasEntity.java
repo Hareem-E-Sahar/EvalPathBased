@@ -1,0 +1,52 @@
+referenceable SimpleName SimpleType SingleVariableDeclaration SimpleName referenceable
+atlas entity SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ret
+instance converter SimpleName MethodInvocation SimpleName to atlas entity
+instance converter SimpleName MethodInvocation SimpleName referenceable
+to atlas entity SimpleName MethodInvocation SimpleName referenceable
+entities with ext info SimpleName VariableDeclarationFragment MethodInvocation SimpleName instance converter
+entities with ext info SimpleName VariableDeclarationFragment MethodInvocation SimpleName to atlas entity
+entities with ext info SimpleName VariableDeclarationFragment MethodInvocation SimpleName referenceable
+atlas entities with ext info SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName entities with ext info
+entities with ext info SimpleName MethodInvocation SimpleName get entities
+collection utils SimpleName MethodInvocation SimpleName is not empty
+collection utils SimpleName MethodInvocation MethodInvocation SimpleName entities with ext info
+collection utils SimpleName MethodInvocation MethodInvocation SimpleName get entities
+is not empty SimpleName MethodInvocation MethodInvocation SimpleName entities with ext info
+is not empty SimpleName MethodInvocation MethodInvocation SimpleName get entities
+entities with ext info SimpleName InfixExpression InfixExpression MethodInvocation SimpleName collection utils
+entities with ext info SimpleName InfixExpression InfixExpression MethodInvocation SimpleName is not empty
+entities with ext info SimpleName MethodInvocation SimpleName get entities
+entities with ext info SimpleName MethodInvocation MethodInvocation SimpleName get
+get entities SimpleName MethodInvocation MethodInvocation SimpleName get
+entities with ext info SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+get entities SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+get SimpleName MethodInvocation NumberLiteral empty
+ret SimpleName Assignment MethodInvocation MethodInvocation SimpleName entities with ext info
+ret SimpleName Assignment MethodInvocation MethodInvocation SimpleName get entities
+ret SimpleName Assignment MethodInvocation SimpleName get
+ret SimpleName Assignment MethodInvocation NumberLiteral empty
+private Modifier MethodDeclaration SimpleType SimpleName atlas entity
+private Modifier MethodDeclaration SimpleName to atlas entity
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName referenceable
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName referenceable
+private Modifier MethodDeclaration SimpleType SimpleName atlas base exception
+private Modifier MethodDeclaration Block ReturnStatement SimpleName ret
+atlas entity SimpleName SimpleType MethodDeclaration SimpleName to atlas entity
+atlas entity SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName referenceable
+atlas entity SimpleName SimpleType MethodDeclaration SimpleType SimpleName atlas base exception
+to atlas entity SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName referenceable
+to atlas entity SimpleName MethodDeclaration SingleVariableDeclaration SimpleName referenceable
+to atlas entity SimpleName MethodDeclaration SimpleType SimpleName atlas base exception
+to atlas entity SimpleName MethodDeclaration Block ReturnStatement SimpleName ret
+referenceable SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas entity
+public Modifier TypeDeclaration MethodDeclaration SimpleName to atlas entity
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName referenceable
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas entity
+test SimpleName TypeDeclaration MethodDeclaration SimpleName to atlas entity
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName referenceable
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception

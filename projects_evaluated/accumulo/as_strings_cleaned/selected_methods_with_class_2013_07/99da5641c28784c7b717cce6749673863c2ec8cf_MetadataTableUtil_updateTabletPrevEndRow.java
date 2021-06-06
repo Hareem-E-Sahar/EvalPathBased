@@ -1,0 +1,48 @@
+key extent SimpleName SimpleType SingleVariableDeclaration SimpleName extent
+credentials SimpleName SimpleType SingleVariableDeclaration SimpleName credentials
+extent SimpleName MethodInvocation SimpleName get prev row update mutation
+m SimpleName VariableDeclarationFragment MethodInvocation SimpleName extent
+m SimpleName VariableDeclarationFragment MethodInvocation SimpleName get prev row update mutation
+mutation SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName m
+update SimpleName MethodInvocation SimpleName credentials
+update SimpleName MethodInvocation SimpleName m
+update SimpleName MethodInvocation SimpleName extent
+credentials SimpleName MethodInvocation SimpleName m
+credentials SimpleName MethodInvocation SimpleName extent
+m SimpleName MethodInvocation SimpleName extent
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName update tablet prev end row
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName key extent
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName extent
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName credentials
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName credentials
+static Modifier MethodDeclaration PrimitiveType void
+static Modifier MethodDeclaration SimpleName update tablet prev end row
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName key extent
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName extent
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName credentials
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName credentials
+void PrimitiveType MethodDeclaration SimpleName update tablet prev end row
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName key extent
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName extent
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName credentials
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName credentials
+update tablet prev end row SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName key extent
+update tablet prev end row SimpleName MethodDeclaration SingleVariableDeclaration SimpleName extent
+update tablet prev end row SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName credentials
+update tablet prev end row SimpleName MethodDeclaration SingleVariableDeclaration SimpleName credentials
+extent SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName credentials
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName update tablet prev end row
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName extent
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName credentials
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName update tablet prev end row
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName extent
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName credentials

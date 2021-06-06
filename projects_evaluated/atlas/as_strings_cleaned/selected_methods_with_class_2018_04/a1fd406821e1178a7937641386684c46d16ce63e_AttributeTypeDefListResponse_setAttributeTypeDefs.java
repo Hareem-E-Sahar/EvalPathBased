@@ -1,0 +1,20 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName attribute type def
+list SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName attribute type defs
+attribute type def SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName attribute type defs
+array list SimpleName SimpleType ParameterizedType ClassInstanceCreation SimpleName attribute type defs
+attribute type defs SimpleName FieldAccess Assignment ClassInstanceCreation SimpleName attribute type defs
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set attribute type defs
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName attribute type defs
+void PrimitiveType MethodDeclaration SimpleName set attribute type defs
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName attribute type defs
+set attribute type defs SimpleName MethodDeclaration SingleVariableDeclaration SimpleName attribute type defs
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set attribute type defs
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attribute type defs
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set attribute type defs
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attribute type defs

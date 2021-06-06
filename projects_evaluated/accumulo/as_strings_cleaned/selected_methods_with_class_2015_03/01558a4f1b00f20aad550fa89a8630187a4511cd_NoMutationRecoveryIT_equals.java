@@ -1,0 +1,83 @@
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName key
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+key SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+entry SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName a
+key SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName a
+value SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName a
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName key
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+key SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+entry SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName b
+key SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName b
+value SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName b
+a SimpleName MethodInvocation SimpleName get key
+akey SimpleName VariableDeclarationFragment MethodInvocation SimpleName a
+akey SimpleName VariableDeclarationFragment MethodInvocation SimpleName get key
+key SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName akey
+b SimpleName MethodInvocation SimpleName get key
+bkey SimpleName VariableDeclarationFragment MethodInvocation SimpleName b
+bkey SimpleName VariableDeclarationFragment MethodInvocation SimpleName get key
+key SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName bkey
+akey SimpleName MethodInvocation SimpleName to string no truncate
+bkey SimpleName MethodInvocation SimpleName to string no truncate
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation StringLiteral comparing {} to {}
+log SimpleName MethodInvocation MethodInvocation SimpleName akey
+log SimpleName MethodInvocation MethodInvocation SimpleName to string no truncate
+log SimpleName MethodInvocation MethodInvocation SimpleName bkey
+log SimpleName MethodInvocation MethodInvocation SimpleName to string no truncate
+info SimpleName MethodInvocation StringLiteral comparing {} to {}
+info SimpleName MethodInvocation MethodInvocation SimpleName akey
+info SimpleName MethodInvocation MethodInvocation SimpleName to string no truncate
+info SimpleName MethodInvocation MethodInvocation SimpleName bkey
+info SimpleName MethodInvocation MethodInvocation SimpleName to string no truncate
+comparing {} to {} StringLiteral MethodInvocation MethodInvocation SimpleName akey
+comparing {} to {} StringLiteral MethodInvocation MethodInvocation SimpleName to string no truncate
+comparing {} to {} StringLiteral MethodInvocation MethodInvocation SimpleName bkey
+comparing {} to {} StringLiteral MethodInvocation MethodInvocation SimpleName to string no truncate
+akey SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName bkey
+akey SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to string no truncate
+to string no truncate SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName bkey
+to string no truncate SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to string no truncate
+akey SimpleName MethodInvocation SimpleName compare to
+akey SimpleName MethodInvocation SimpleName bkey
+akey SimpleName MethodInvocation QualifiedName partial keyrow colfam colqual colvis
+compare to SimpleName MethodInvocation SimpleName bkey
+compare to SimpleName MethodInvocation QualifiedName partial keyrow colfam colqual colvis
+bkey SimpleName MethodInvocation QualifiedName partial keyrow colfam colqual colvis
+akey SimpleName MethodInvocation InfixExpression NumberLiteral empty
+compare to SimpleName MethodInvocation InfixExpression NumberLiteral empty
+bkey SimpleName MethodInvocation InfixExpression NumberLiteral empty
+partial keyrow colfam colqual colvis QualifiedName MethodInvocation InfixExpression NumberLiteral empty
+a SimpleName MethodInvocation SimpleName get value
+b SimpleName MethodInvocation SimpleName get value
+a SimpleName MethodInvocation MethodInvocation SimpleName equals
+get value SimpleName MethodInvocation MethodInvocation SimpleName equals
+a SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName b
+a SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get value
+get value SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName b
+get value SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get value
+equals SimpleName MethodInvocation MethodInvocation SimpleName b
+equals SimpleName MethodInvocation MethodInvocation SimpleName get value
+empty NumberLiteral InfixExpression InfixExpression MethodInvocation SimpleName equals
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName equals
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName a
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName b
+boolean PrimitiveType MethodDeclaration SimpleName equals
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName a
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName b
+equals SimpleName MethodDeclaration SingleVariableDeclaration SimpleName a
+equals SimpleName MethodDeclaration SingleVariableDeclaration SimpleName b
+a SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName b
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName equals
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName a
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName b
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName equals
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName a
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName b

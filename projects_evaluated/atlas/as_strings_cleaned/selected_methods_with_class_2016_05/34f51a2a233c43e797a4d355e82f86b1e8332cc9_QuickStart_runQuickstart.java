@@ -1,0 +1,55 @@
+string SimpleName SimpleType ArrayType SingleVariableDeclaration SimpleName args
+string SimpleName SimpleType ArrayType SingleVariableDeclaration SimpleName basic auth username password
+get server url SimpleName MethodInvocation SimpleName args
+base url SimpleName VariableDeclarationFragment MethodInvocation SimpleName get server url
+base url SimpleName VariableDeclarationFragment MethodInvocation SimpleName args
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName base url
+quick start SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName quick start
+authentication util SimpleName MethodInvocation SimpleName is kerberos authication enabled
+quick start SimpleName SimpleType ClassInstanceCreation SimpleName base url
+quick start SimpleName SimpleType ClassInstanceCreation SimpleName basic auth username password
+base url SimpleName ClassInstanceCreation SimpleName basic auth username password
+quick start SimpleName Assignment ClassInstanceCreation SimpleType SimpleName quick start
+quick start SimpleName Assignment ClassInstanceCreation SimpleName base url
+quick start SimpleName Assignment ClassInstanceCreation SimpleName basic auth username password
+quick start SimpleName SimpleType ClassInstanceCreation SimpleName base url
+quick start SimpleName Assignment ClassInstanceCreation SimpleType SimpleName quick start
+quick start SimpleName Assignment ClassInstanceCreation SimpleName base url
+quick start SimpleName MethodInvocation SimpleName create types
+quick start SimpleName MethodInvocation SimpleName create entities
+quick start SimpleName MethodInvocation SimpleName search
+visible for testing SimpleName MarkerAnnotation MethodDeclaration Modifier static
+visible for testing SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+visible for testing SimpleName MarkerAnnotation MethodDeclaration SimpleName run quickstart
+visible for testing SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName args
+visible for testing SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName basic auth username password
+static Modifier MethodDeclaration PrimitiveType void
+static Modifier MethodDeclaration SimpleName run quickstart
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName args
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName basic auth username password
+static Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName run quickstart
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName args
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName basic auth username password
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+run quickstart SimpleName MethodDeclaration SingleVariableDeclaration SimpleName args
+run quickstart SimpleName MethodDeclaration SingleVariableDeclaration SimpleName basic auth username password
+run quickstart SimpleName MethodDeclaration SimpleType SimpleName exception
+args SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName basic auth username password
+args SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+basic auth username password SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName visible for testing
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName run quickstart
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName args
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName basic auth username password
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName visible for testing
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName run quickstart
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName args
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName basic auth username password
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

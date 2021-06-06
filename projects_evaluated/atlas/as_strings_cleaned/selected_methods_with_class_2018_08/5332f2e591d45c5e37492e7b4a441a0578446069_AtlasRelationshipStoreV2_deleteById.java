@@ -1,0 +1,168 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName guid
+boolean PrimitiveType SingleVariableDeclaration SimpleName force delete
+log SimpleName MethodInvocation SimpleName is debug enabled
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral ==> delete by id {})
+log SimpleName MethodInvocation SimpleName guid
+log SimpleName MethodInvocation SimpleName force delete
+debug SimpleName MethodInvocation StringLiteral ==> delete by id {})
+debug SimpleName MethodInvocation SimpleName guid
+debug SimpleName MethodInvocation SimpleName force delete
+==> delete by id {}) StringLiteral MethodInvocation SimpleName guid
+==> delete by id {}) StringLiteral MethodInvocation SimpleName force delete
+guid SimpleName MethodInvocation SimpleName force delete
+string utils SimpleName MethodInvocation SimpleName is empty
+string utils SimpleName MethodInvocation SimpleName guid
+is empty SimpleName MethodInvocation SimpleName guid
+atlas base exception SimpleName SimpleType ClassInstanceCreation QualifiedName atlas error coderelationship crud invalid params
+atlas base exception SimpleName SimpleType ClassInstanceCreation StringLiteral emptynull guid
+atlas error coderelationship crud invalid params QualifiedName ClassInstanceCreation StringLiteral emptynull guid
+graph helper SimpleName MethodInvocation SimpleName get edge for guid
+graph helper SimpleName MethodInvocation SimpleName guid
+get edge for guid SimpleName MethodInvocation SimpleName guid
+edge SimpleName VariableDeclarationFragment MethodInvocation SimpleName graph helper
+edge SimpleName VariableDeclarationFragment MethodInvocation SimpleName get edge for guid
+edge SimpleName VariableDeclarationFragment MethodInvocation SimpleName guid
+atlas edge SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName edge
+atlas base exception SimpleName SimpleType ClassInstanceCreation QualifiedName atlas error coderelationship guid not found
+atlas base exception SimpleName SimpleType ClassInstanceCreation SimpleName guid
+atlas error coderelationship guid not found QualifiedName ClassInstanceCreation SimpleName guid
+get state SimpleName MethodInvocation SimpleName edge
+get state SimpleName MethodInvocation InfixExpression SimpleName deleted
+edge SimpleName MethodInvocation InfixExpression SimpleName deleted
+atlas base exception SimpleName SimpleType ClassInstanceCreation QualifiedName atlas error coderelationship already deleted
+atlas base exception SimpleName SimpleType ClassInstanceCreation SimpleName guid
+atlas error coderelationship already deleted QualifiedName ClassInstanceCreation SimpleName guid
+graph helper SimpleName MethodInvocation SimpleName get type name
+graph helper SimpleName MethodInvocation SimpleName edge
+get type name SimpleName MethodInvocation SimpleName edge
+relation ship type SimpleName VariableDeclarationFragment MethodInvocation SimpleName graph helper
+relation ship type SimpleName VariableDeclarationFragment MethodInvocation SimpleName get type name
+relation ship type SimpleName VariableDeclarationFragment MethodInvocation SimpleName edge
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName relation ship type
+edge SimpleName MethodInvocation SimpleName get out vertex
+entity retriever SimpleName MethodInvocation SimpleName to atlas entity header with classifications
+entity retriever SimpleName MethodInvocation MethodInvocation SimpleName edge
+entity retriever SimpleName MethodInvocation MethodInvocation SimpleName get out vertex
+to atlas entity header with classifications SimpleName MethodInvocation MethodInvocation SimpleName edge
+to atlas entity header with classifications SimpleName MethodInvocation MethodInvocation SimpleName get out vertex
+end entity SimpleName VariableDeclarationFragment MethodInvocation SimpleName entity retriever
+end entity SimpleName VariableDeclarationFragment MethodInvocation SimpleName to atlas entity header with classifications
+end entity SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName edge
+end entity SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get out vertex
+atlas entity header SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName end entity
+edge SimpleName MethodInvocation SimpleName get in vertex
+entity retriever SimpleName MethodInvocation SimpleName to atlas entity header with classifications
+entity retriever SimpleName MethodInvocation MethodInvocation SimpleName edge
+entity retriever SimpleName MethodInvocation MethodInvocation SimpleName get in vertex
+to atlas entity header with classifications SimpleName MethodInvocation MethodInvocation SimpleName edge
+to atlas entity header with classifications SimpleName MethodInvocation MethodInvocation SimpleName get in vertex
+end entity SimpleName VariableDeclarationFragment MethodInvocation SimpleName entity retriever
+end entity SimpleName VariableDeclarationFragment MethodInvocation SimpleName to atlas entity header with classifications
+end entity SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName edge
+end entity SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get in vertex
+atlas entity header SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName end entity
+atlas relationship access request SimpleName SimpleType ClassInstanceCreation SimpleName type registry
+atlas relationship access request SimpleName SimpleType ClassInstanceCreation QualifiedName atlas privilegerelationship remove
+atlas relationship access request SimpleName SimpleType ClassInstanceCreation SimpleName relation ship type
+atlas relationship access request SimpleName SimpleType ClassInstanceCreation SimpleName end entity
+atlas relationship access request SimpleName SimpleType ClassInstanceCreation SimpleName end entity
+type registry SimpleName ClassInstanceCreation QualifiedName atlas privilegerelationship remove
+type registry SimpleName ClassInstanceCreation SimpleName relation ship type
+type registry SimpleName ClassInstanceCreation SimpleName end entity
+type registry SimpleName ClassInstanceCreation SimpleName end entity
+atlas privilegerelationship remove QualifiedName ClassInstanceCreation SimpleName relation ship type
+atlas privilegerelationship remove QualifiedName ClassInstanceCreation SimpleName end entity
+atlas privilegerelationship remove QualifiedName ClassInstanceCreation SimpleName end entity
+relation ship type SimpleName ClassInstanceCreation SimpleName end entity
+relation ship type SimpleName ClassInstanceCreation SimpleName end entity
+end entity SimpleName ClassInstanceCreation SimpleName end entity
+atlas authorization utils SimpleName MethodInvocation SimpleName verify access
+atlas authorization utils SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName atlas relationship access request
+atlas authorization utils SimpleName MethodInvocation ClassInstanceCreation SimpleName type registry
+atlas authorization utils SimpleName MethodInvocation ClassInstanceCreation QualifiedName atlas privilegerelationship remove
+atlas authorization utils SimpleName MethodInvocation ClassInstanceCreation SimpleName relation ship type
+atlas authorization utils SimpleName MethodInvocation ClassInstanceCreation SimpleName end entity
+atlas authorization utils SimpleName MethodInvocation ClassInstanceCreation SimpleName end entity
+verify access SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName atlas relationship access request
+verify access SimpleName MethodInvocation ClassInstanceCreation SimpleName type registry
+verify access SimpleName MethodInvocation ClassInstanceCreation QualifiedName atlas privilegerelationship remove
+verify access SimpleName MethodInvocation ClassInstanceCreation SimpleName relation ship type
+verify access SimpleName MethodInvocation ClassInstanceCreation SimpleName end entity
+verify access SimpleName MethodInvocation ClassInstanceCreation SimpleName end entity
+collections SimpleName MethodInvocation SimpleName singleton
+collections SimpleName MethodInvocation SimpleName edge
+singleton SimpleName MethodInvocation SimpleName edge
+delete handler SimpleName MethodInvocation SimpleName delete relationships
+delete handler SimpleName MethodInvocation MethodInvocation SimpleName collections
+delete handler SimpleName MethodInvocation MethodInvocation SimpleName singleton
+delete handler SimpleName MethodInvocation MethodInvocation SimpleName edge
+delete handler SimpleName MethodInvocation SimpleName force delete
+delete relationships SimpleName MethodInvocation MethodInvocation SimpleName collections
+delete relationships SimpleName MethodInvocation MethodInvocation SimpleName singleton
+delete relationships SimpleName MethodInvocation MethodInvocation SimpleName edge
+delete relationships SimpleName MethodInvocation SimpleName force delete
+collections SimpleName MethodInvocation MethodInvocation SimpleName force delete
+singleton SimpleName MethodInvocation MethodInvocation SimpleName force delete
+edge SimpleName MethodInvocation MethodInvocation SimpleName force delete
+entity change notifier SimpleName MethodInvocation SimpleName notify propagated entities
+log SimpleName MethodInvocation SimpleName is debug enabled
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral <== delete by id {}
+log SimpleName MethodInvocation SimpleName guid
+debug SimpleName MethodInvocation StringLiteral <== delete by id {}
+debug SimpleName MethodInvocation SimpleName guid
+<== delete by id {} StringLiteral MethodInvocation SimpleName guid
+override SimpleName MarkerAnnotation MethodDeclaration MarkerAnnotation SimpleName graph transaction
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName delete by id
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName guid
+graph transaction SimpleName MarkerAnnotation MethodDeclaration Modifier public
+graph transaction SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+graph transaction SimpleName MarkerAnnotation MethodDeclaration SimpleName delete by id
+graph transaction SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName guid
+graph transaction SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+graph transaction SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName force delete
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName delete by id
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName guid
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName force delete
+public Modifier MethodDeclaration SimpleType SimpleName atlas base exception
+void PrimitiveType MethodDeclaration SimpleName delete by id
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName guid
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName force delete
+void PrimitiveType MethodDeclaration SimpleType SimpleName atlas base exception
+delete by id SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+delete by id SimpleName MethodDeclaration SingleVariableDeclaration SimpleName guid
+delete by id SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+delete by id SimpleName MethodDeclaration SingleVariableDeclaration SimpleName force delete
+delete by id SimpleName MethodDeclaration SimpleType SimpleName atlas base exception
+guid SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+guid SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName force delete
+guid SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+boolean PrimitiveType SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+force delete SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName graph transaction
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName delete by id
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName guid
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName force delete
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName graph transaction
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName delete by id
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName guid
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName force delete
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception

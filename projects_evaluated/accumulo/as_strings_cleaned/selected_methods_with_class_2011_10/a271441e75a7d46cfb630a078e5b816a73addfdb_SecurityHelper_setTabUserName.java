@@ -1,0 +1,44 @@
+state SimpleName SimpleType SingleVariableDeclaration SimpleName state
+string SimpleName SimpleType SingleVariableDeclaration SimpleName tab user name
+state SimpleName MethodInvocation SimpleName set
+state SimpleName MethodInvocation SimpleName t user name
+state SimpleName MethodInvocation SimpleName tab user name
+set SimpleName MethodInvocation SimpleName t user name
+set SimpleName MethodInvocation SimpleName tab user name
+t user name SimpleName MethodInvocation SimpleName tab user name
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set tab user name
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName state
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName state
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName tab user name
+static Modifier MethodDeclaration PrimitiveType void
+static Modifier MethodDeclaration SimpleName set tab user name
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName state
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName state
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName tab user name
+void PrimitiveType MethodDeclaration SimpleName set tab user name
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName state
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName state
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName tab user name
+set tab user name SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName state
+set tab user name SimpleName MethodDeclaration SingleVariableDeclaration SimpleName state
+set tab user name SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+set tab user name SimpleName MethodDeclaration SingleVariableDeclaration SimpleName tab user name
+state SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName tab user name
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set tab user name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName state
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName tab user name
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set tab user name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName state
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName tab user name

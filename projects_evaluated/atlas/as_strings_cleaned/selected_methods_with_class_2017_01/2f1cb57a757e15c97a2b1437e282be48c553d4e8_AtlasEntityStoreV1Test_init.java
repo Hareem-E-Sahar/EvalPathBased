@@ -1,0 +1,90 @@
+atlas repository configuration SimpleName MethodInvocation SimpleName get delete handler v impl
+delete handler impl SimpleName VariableDeclarationFragment MethodInvocation SimpleName atlas repository configuration
+delete handler impl SimpleName VariableDeclarationFragment MethodInvocation SimpleName get delete handler v impl
+final Modifier VariableDeclarationStatement ParameterizedType SimpleType SimpleName class
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName delete handler impl
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName atlas repository configuration
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get delete handler v impl
+delete handler impl SimpleName MethodInvocation SimpleName get constructor
+delete handler impl SimpleName MethodInvocation TypeLiteral SimpleType SimpleName atlas type registry
+get constructor SimpleName MethodInvocation TypeLiteral SimpleType SimpleName atlas type registry
+delete handler impl constructor SimpleName VariableDeclarationFragment MethodInvocation SimpleName delete handler impl
+delete handler impl constructor SimpleName VariableDeclarationFragment MethodInvocation SimpleName get constructor
+final Modifier VariableDeclarationStatement ParameterizedType SimpleType SimpleName constructor
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName delete handler impl constructor
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName delete handler impl
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get constructor
+delete handler impl constructor SimpleName MethodInvocation SimpleName new instance
+delete handler impl constructor SimpleName MethodInvocation SimpleName type registry
+new instance SimpleName MethodInvocation SimpleName type registry
+delete handler SimpleName VariableDeclarationFragment MethodInvocation SimpleName delete handler impl constructor
+delete handler SimpleName VariableDeclarationFragment MethodInvocation SimpleName new instance
+delete handler SimpleName VariableDeclarationFragment MethodInvocation SimpleName type registry
+delete handler v SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName delete handler
+array vertex mapper SimpleName SimpleType ClassInstanceCreation SimpleName delete handler
+arr vertex mapper SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName array vertex mapper
+arr vertex mapper SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName delete handler
+array vertex mapper SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName arr vertex mapper
+map vertex mapper SimpleName SimpleType ClassInstanceCreation SimpleName delete handler
+map vertex mapper SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName map vertex mapper
+map vertex mapper SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName delete handler
+map vertex mapper SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName map vertex mapper
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName entity resolver
+entity resolvers SimpleName MethodInvocation SimpleName add
+entity resolvers SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName id based entity resolver
+add SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName id based entity resolver
+uniq attr based entity resolver SimpleName SimpleType ClassInstanceCreation SimpleName type registry
+entity resolvers SimpleName MethodInvocation SimpleName add
+entity resolvers SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName uniq attr based entity resolver
+entity resolvers SimpleName MethodInvocation ClassInstanceCreation SimpleName type registry
+add SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName uniq attr based entity resolver
+add SimpleName MethodInvocation ClassInstanceCreation SimpleName type registry
+atlas entity graph discovery v SimpleName SimpleType ClassInstanceCreation SimpleName type registry
+atlas entity graph discovery v SimpleName SimpleType ClassInstanceCreation SimpleName entity resolvers
+type registry SimpleName ClassInstanceCreation SimpleName entity resolvers
+graph discovery SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName atlas entity graph discovery v
+graph discovery SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName type registry
+graph discovery SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName entity resolvers
+entity graph discovery SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName graph discovery
+entity graph mapper SimpleName SimpleType ClassInstanceCreation SimpleName arr vertex mapper
+entity graph mapper SimpleName SimpleType ClassInstanceCreation SimpleName map vertex mapper
+arr vertex mapper SimpleName ClassInstanceCreation SimpleName map vertex mapper
+atlas entity store v SimpleName SimpleType ClassInstanceCreation ClassInstanceCreation SimpleName arr vertex mapper
+atlas entity store v SimpleName SimpleType ClassInstanceCreation ClassInstanceCreation SimpleName map vertex mapper
+entity store SimpleName Assignment ClassInstanceCreation SimpleType SimpleName atlas entity store v
+entity store SimpleName Assignment ClassInstanceCreation ClassInstanceCreation SimpleName arr vertex mapper
+entity store SimpleName Assignment ClassInstanceCreation ClassInstanceCreation SimpleName map vertex mapper
+entity store SimpleName MethodInvocation SimpleName init
+entity store SimpleName MethodInvocation SimpleName type registry
+entity store SimpleName MethodInvocation SimpleName graph discovery
+init SimpleName MethodInvocation SimpleName type registry
+init SimpleName MethodInvocation SimpleName graph discovery
+type registry SimpleName MethodInvocation SimpleName graph discovery
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+before test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+before test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+before test SimpleName MarkerAnnotation MethodDeclaration SimpleName init
+before test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName init
+public Modifier MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+public Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+void PrimitiveType MethodDeclaration SimpleName init
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement Modifier final
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement Modifier final
+init SimpleName MethodDeclaration SimpleType SimpleName exception
+init SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+init SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName before test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName init
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName before test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName init
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

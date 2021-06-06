@@ -1,0 +1,226 @@
+path SimpleName SingleMemberAnnotation StringLiteral export
+consumes SimpleName SingleMemberAnnotation QualifiedName servletsjson media type
+atlas export request SimpleName SimpleType SingleVariableDeclaration SimpleName request
+log SimpleName MethodInvocation SimpleName is debug enabled
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral ==> admin resourceexport
+debug SimpleName MethodInvocation StringLiteral ==> admin resourceexport
+atlas admin access request SimpleName SimpleType ClassInstanceCreation QualifiedName atlas privilegeadmin export
+atlas authorization utils SimpleName MethodInvocation SimpleName verify access
+atlas authorization utils SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName atlas admin access request
+atlas authorization utils SimpleName MethodInvocation ClassInstanceCreation QualifiedName atlas privilegeadmin export
+atlas authorization utils SimpleName MethodInvocation StringLiteral export
+verify access SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName atlas admin access request
+verify access SimpleName MethodInvocation ClassInstanceCreation QualifiedName atlas privilegeadmin export
+verify access SimpleName MethodInvocation StringLiteral export
+atlas admin access request SimpleName SimpleType ClassInstanceCreation MethodInvocation StringLiteral export
+atlas privilegeadmin export QualifiedName ClassInstanceCreation MethodInvocation StringLiteral export
+acquire export import lock SimpleName MethodInvocation StringLiteral export
+zip sink SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName export sink
+http servlet response SimpleName MethodInvocation SimpleName get output stream
+zip sink SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName http servlet response
+zip sink SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get output stream
+export sink SimpleName Assignment ClassInstanceCreation SimpleType SimpleName zip sink
+export sink SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName http servlet response
+export sink SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName get output stream
+servlets SimpleName MethodInvocation SimpleName get user name
+servlets SimpleName MethodInvocation SimpleName http servlet request
+get user name SimpleName MethodInvocation SimpleName http servlet request
+servlets SimpleName MethodInvocation SimpleName get host name
+servlets SimpleName MethodInvocation SimpleName http servlet request
+get host name SimpleName MethodInvocation SimpleName http servlet request
+atlas authorization utils SimpleName MethodInvocation SimpleName get request ip address
+atlas authorization utils SimpleName MethodInvocation SimpleName http servlet request
+get request ip address SimpleName MethodInvocation SimpleName http servlet request
+export service SimpleName MethodInvocation SimpleName run
+export service SimpleName MethodInvocation SimpleName export sink
+export service SimpleName MethodInvocation SimpleName request
+export service SimpleName MethodInvocation MethodInvocation SimpleName servlets
+export service SimpleName MethodInvocation MethodInvocation SimpleName get user name
+export service SimpleName MethodInvocation MethodInvocation SimpleName http servlet request
+export service SimpleName MethodInvocation MethodInvocation SimpleName servlets
+export service SimpleName MethodInvocation MethodInvocation SimpleName get host name
+export service SimpleName MethodInvocation MethodInvocation SimpleName http servlet request
+run SimpleName MethodInvocation SimpleName export sink
+run SimpleName MethodInvocation SimpleName request
+run SimpleName MethodInvocation MethodInvocation SimpleName servlets
+run SimpleName MethodInvocation MethodInvocation SimpleName get user name
+run SimpleName MethodInvocation MethodInvocation SimpleName http servlet request
+run SimpleName MethodInvocation MethodInvocation SimpleName servlets
+run SimpleName MethodInvocation MethodInvocation SimpleName get host name
+run SimpleName MethodInvocation MethodInvocation SimpleName http servlet request
+run SimpleName MethodInvocation MethodInvocation SimpleName atlas authorization utils
+run SimpleName MethodInvocation MethodInvocation SimpleName get request ip address
+run SimpleName MethodInvocation MethodInvocation SimpleName http servlet request
+export sink SimpleName MethodInvocation SimpleName request
+export sink SimpleName MethodInvocation MethodInvocation SimpleName servlets
+export sink SimpleName MethodInvocation MethodInvocation SimpleName get user name
+export sink SimpleName MethodInvocation MethodInvocation SimpleName http servlet request
+export sink SimpleName MethodInvocation MethodInvocation SimpleName servlets
+export sink SimpleName MethodInvocation MethodInvocation SimpleName get host name
+export sink SimpleName MethodInvocation MethodInvocation SimpleName http servlet request
+export sink SimpleName MethodInvocation MethodInvocation SimpleName atlas authorization utils
+export sink SimpleName MethodInvocation MethodInvocation SimpleName get request ip address
+export sink SimpleName MethodInvocation MethodInvocation SimpleName http servlet request
+request SimpleName MethodInvocation MethodInvocation SimpleName servlets
+request SimpleName MethodInvocation MethodInvocation SimpleName get user name
+request SimpleName MethodInvocation MethodInvocation SimpleName http servlet request
+request SimpleName MethodInvocation MethodInvocation SimpleName servlets
+request SimpleName MethodInvocation MethodInvocation SimpleName get host name
+request SimpleName MethodInvocation MethodInvocation SimpleName http servlet request
+request SimpleName MethodInvocation MethodInvocation SimpleName atlas authorization utils
+request SimpleName MethodInvocation MethodInvocation SimpleName get request ip address
+request SimpleName MethodInvocation MethodInvocation SimpleName http servlet request
+servlets SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName servlets
+servlets SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get host name
+servlets SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName http servlet request
+get user name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName servlets
+get user name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get host name
+get user name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName http servlet request
+http servlet request SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName servlets
+http servlet request SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get host name
+http servlet request SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName http servlet request
+servlets SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName atlas authorization utils
+servlets SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get request ip address
+servlets SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName http servlet request
+get user name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName atlas authorization utils
+get user name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get request ip address
+get user name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName http servlet request
+http servlet request SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName atlas authorization utils
+http servlet request SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get request ip address
+http servlet request SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName http servlet request
+servlets SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName atlas authorization utils
+servlets SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get request ip address
+servlets SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName http servlet request
+get host name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName atlas authorization utils
+get host name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get request ip address
+get host name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName http servlet request
+http servlet request SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName atlas authorization utils
+http servlet request SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get request ip address
+http servlet request SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName http servlet request
+result SimpleName VariableDeclarationFragment MethodInvocation SimpleName export service
+result SimpleName VariableDeclarationFragment MethodInvocation SimpleName run
+result SimpleName VariableDeclarationFragment MethodInvocation SimpleName export sink
+result SimpleName VariableDeclarationFragment MethodInvocation SimpleName request
+result SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName servlets
+result SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get user name
+result SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName http servlet request
+result SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName servlets
+result SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get host name
+result SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName http servlet request
+result SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName atlas authorization utils
+result SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get request ip address
+result SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName http servlet request
+atlas export result SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName result
+export sink SimpleName MethodInvocation SimpleName close
+http servlet response SimpleName MethodInvocation SimpleName add header
+http servlet response SimpleName MethodInvocation StringLiteral contentencoding
+http servlet response SimpleName MethodInvocation StringLiteral gzip
+add header SimpleName MethodInvocation StringLiteral contentencoding
+add header SimpleName MethodInvocation StringLiteral gzip
+contentencoding StringLiteral MethodInvocation StringLiteral gzip
+http servlet response SimpleName MethodInvocation SimpleName set content type
+http servlet response SimpleName MethodInvocation StringLiteral applicationzip
+set content type SimpleName MethodInvocation StringLiteral applicationzip
+result SimpleName MethodInvocation SimpleName get class
+result SimpleName MethodInvocation MethodInvocation SimpleName get simple name
+get class SimpleName MethodInvocation MethodInvocation SimpleName get simple name
+attachment filename StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName result
+attachment filename StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName get class
+attachment filename StringLiteral InfixExpression MethodInvocation SimpleName get simple name
+http servlet response SimpleName MethodInvocation SimpleName set header
+http servlet response SimpleName MethodInvocation StringLiteral contentdisposition
+http servlet response SimpleName MethodInvocation InfixExpression StringLiteral attachment filename
+http servlet response SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get simple name
+set header SimpleName MethodInvocation StringLiteral contentdisposition
+set header SimpleName MethodInvocation InfixExpression StringLiteral attachment filename
+set header SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get simple name
+contentdisposition StringLiteral MethodInvocation InfixExpression StringLiteral attachment filename
+contentdisposition StringLiteral MethodInvocation InfixExpression MethodInvocation SimpleName get simple name
+http servlet response SimpleName MethodInvocation SimpleName set header
+http servlet response SimpleName MethodInvocation StringLiteral transferencoding
+http servlet response SimpleName MethodInvocation StringLiteral chunked
+set header SimpleName MethodInvocation StringLiteral transferencoding
+set header SimpleName MethodInvocation StringLiteral chunked
+transferencoding StringLiteral MethodInvocation StringLiteral chunked
+http servlet response SimpleName MethodInvocation SimpleName get output stream
+http servlet response SimpleName MethodInvocation MethodInvocation SimpleName flush
+get output stream SimpleName MethodInvocation MethodInvocation SimpleName flush
+response SimpleName MethodInvocation SimpleName ok
+response SimpleName MethodInvocation MethodInvocation SimpleName build
+ok SimpleName MethodInvocation MethodInvocation SimpleName build
+io exception SimpleName SimpleType SingleVariableDeclaration SimpleName excp
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation StringLiteral export failed
+log SimpleName MethodInvocation SimpleName excp
+error SimpleName MethodInvocation StringLiteral export failed
+error SimpleName MethodInvocation SimpleName excp
+export failed StringLiteral MethodInvocation SimpleName excp
+atlas base exception SimpleName SimpleType ClassInstanceCreation SimpleName excp
+export sink SimpleName MethodInvocation SimpleName close
+log SimpleName MethodInvocation SimpleName is debug enabled
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral <== admin resourceexport
+debug SimpleName MethodInvocation StringLiteral <== admin resourceexport
+post SimpleName MarkerAnnotation MethodDeclaration SingleMemberAnnotation SimpleName path
+post SimpleName MarkerAnnotation MethodDeclaration SingleMemberAnnotation StringLiteral export
+post SimpleName MarkerAnnotation MethodDeclaration SingleMemberAnnotation SimpleName consumes
+post SimpleName MarkerAnnotation MethodDeclaration SingleMemberAnnotation QualifiedName servletsjson media type
+post SimpleName MarkerAnnotation MethodDeclaration Modifier public
+post SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName response
+post SimpleName MarkerAnnotation MethodDeclaration SimpleName export
+path SimpleName SingleMemberAnnotation MethodDeclaration SingleMemberAnnotation SimpleName consumes
+path SimpleName SingleMemberAnnotation MethodDeclaration SingleMemberAnnotation QualifiedName servletsjson media type
+export StringLiteral SingleMemberAnnotation MethodDeclaration SingleMemberAnnotation SimpleName consumes
+export StringLiteral SingleMemberAnnotation MethodDeclaration SingleMemberAnnotation QualifiedName servletsjson media type
+path SimpleName SingleMemberAnnotation MethodDeclaration Modifier public
+export StringLiteral SingleMemberAnnotation MethodDeclaration Modifier public
+path SimpleName SingleMemberAnnotation MethodDeclaration SimpleType SimpleName response
+export StringLiteral SingleMemberAnnotation MethodDeclaration SimpleType SimpleName response
+path SimpleName SingleMemberAnnotation MethodDeclaration SimpleName export
+export StringLiteral SingleMemberAnnotation MethodDeclaration SimpleName export
+path SimpleName SingleMemberAnnotation MethodDeclaration SingleVariableDeclaration SimpleName request
+export StringLiteral SingleMemberAnnotation MethodDeclaration SingleVariableDeclaration SimpleName request
+consumes SimpleName SingleMemberAnnotation MethodDeclaration Modifier public
+servletsjson media type QualifiedName SingleMemberAnnotation MethodDeclaration Modifier public
+consumes SimpleName SingleMemberAnnotation MethodDeclaration SimpleType SimpleName response
+servletsjson media type QualifiedName SingleMemberAnnotation MethodDeclaration SimpleType SimpleName response
+consumes SimpleName SingleMemberAnnotation MethodDeclaration SimpleName export
+servletsjson media type QualifiedName SingleMemberAnnotation MethodDeclaration SimpleName export
+consumes SimpleName SingleMemberAnnotation MethodDeclaration SingleVariableDeclaration SimpleName request
+servletsjson media type QualifiedName SingleMemberAnnotation MethodDeclaration SingleVariableDeclaration SimpleName request
+consumes SimpleName SingleMemberAnnotation MethodDeclaration SimpleType SimpleName atlas base exception
+servletsjson media type QualifiedName SingleMemberAnnotation MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier MethodDeclaration SimpleType SimpleName response
+public Modifier MethodDeclaration SimpleName export
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas export request
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName request
+public Modifier MethodDeclaration SimpleType SimpleName atlas base exception
+response SimpleName SimpleType MethodDeclaration SimpleName export
+response SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName request
+response SimpleName SimpleType MethodDeclaration SimpleType SimpleName atlas base exception
+export SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas export request
+export SimpleName MethodDeclaration SingleVariableDeclaration SimpleName request
+export SimpleName MethodDeclaration SimpleType SimpleName atlas base exception
+request SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName post
+public Modifier TypeDeclaration MethodDeclaration SingleMemberAnnotation SimpleName path
+public Modifier TypeDeclaration MethodDeclaration SingleMemberAnnotation StringLiteral export
+public Modifier TypeDeclaration MethodDeclaration SingleMemberAnnotation SimpleName consumes
+public Modifier TypeDeclaration MethodDeclaration SingleMemberAnnotation QualifiedName servletsjson media type
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName response
+public Modifier TypeDeclaration MethodDeclaration SimpleName export
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName request
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName post
+test SimpleName TypeDeclaration MethodDeclaration SingleMemberAnnotation SimpleName path
+test SimpleName TypeDeclaration MethodDeclaration SingleMemberAnnotation StringLiteral export
+test SimpleName TypeDeclaration MethodDeclaration SingleMemberAnnotation SimpleName consumes
+test SimpleName TypeDeclaration MethodDeclaration SingleMemberAnnotation QualifiedName servletsjson media type
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName response
+test SimpleName TypeDeclaration MethodDeclaration SimpleName export
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName request
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception

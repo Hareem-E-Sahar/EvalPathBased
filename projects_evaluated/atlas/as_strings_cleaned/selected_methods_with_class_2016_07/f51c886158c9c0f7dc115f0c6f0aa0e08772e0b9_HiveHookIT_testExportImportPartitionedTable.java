@@ -1,0 +1,500 @@
+is partitioned table SimpleName VariableDeclarationFragment BooleanLiteral true
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName is partitioned table
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment BooleanLiteral true
+create table SimpleName MethodInvocation SimpleName is partitioned table
+table name SimpleName VariableDeclarationFragment MethodInvocation SimpleName create table
+table name SimpleName VariableDeclarationFragment MethodInvocation SimpleName is partitioned table
+final Modifier VariableDeclarationStatement SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName table name
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName create table
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName is partitioned table
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName table name
+assert table is registered SimpleName MethodInvocation SimpleName default db
+assert table is registered SimpleName MethodInvocation SimpleName table name
+default db SimpleName MethodInvocation SimpleName table name
+mkdir SimpleName MethodInvocation StringLiteral partition
+pfile StringLiteral InfixExpression MethodInvocation SimpleName mkdir
+pfile StringLiteral InfixExpression MethodInvocation StringLiteral partition
+part file SimpleName VariableDeclarationFragment InfixExpression StringLiteral pfile
+part file SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName mkdir
+part file SimpleName VariableDeclarationFragment InfixExpression MethodInvocation StringLiteral partition
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName part file
+alter table StringLiteral InfixExpression SimpleName table name
+alter table StringLiteral InfixExpression StringLiteral add partition dt
+alter table StringLiteral InfixExpression SimpleName part file
+alter table StringLiteral InfixExpression StringLiteral ) location
+alter table StringLiteral InfixExpression SimpleName part file
+table name SimpleName InfixExpression StringLiteral add partition dt
+table name SimpleName InfixExpression SimpleName part file
+table name SimpleName InfixExpression StringLiteral ) location
+table name SimpleName InfixExpression SimpleName part file
+table name SimpleName InfixExpression StringLiteral empty
+add partition dt StringLiteral InfixExpression SimpleName part file
+add partition dt StringLiteral InfixExpression StringLiteral ) location
+add partition dt StringLiteral InfixExpression SimpleName part file
+add partition dt StringLiteral InfixExpression StringLiteral empty
+part file SimpleName InfixExpression StringLiteral ) location
+part file SimpleName InfixExpression SimpleName part file
+part file SimpleName InfixExpression StringLiteral empty
+) location StringLiteral InfixExpression SimpleName part file
+) location StringLiteral InfixExpression StringLiteral empty
+part file SimpleName InfixExpression StringLiteral empty
+query SimpleName VariableDeclarationFragment InfixExpression StringLiteral alter table
+query SimpleName VariableDeclarationFragment InfixExpression SimpleName table name
+query SimpleName VariableDeclarationFragment InfixExpression StringLiteral add partition dt
+query SimpleName VariableDeclarationFragment InfixExpression SimpleName part file
+query SimpleName VariableDeclarationFragment InfixExpression StringLiteral ) location
+query SimpleName VariableDeclarationFragment InfixExpression SimpleName part file
+query SimpleName VariableDeclarationFragment InfixExpression StringLiteral empty
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName query
+run command SimpleName MethodInvocation SimpleName query
+mkdir SimpleName MethodInvocation StringLiteral export
+pfile StringLiteral InfixExpression MethodInvocation SimpleName mkdir
+pfile StringLiteral InfixExpression MethodInvocation StringLiteral export
+filename SimpleName VariableDeclarationFragment InfixExpression StringLiteral pfile
+filename SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName mkdir
+filename SimpleName VariableDeclarationFragment InfixExpression MethodInvocation StringLiteral export
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName filename
+export table StringLiteral InfixExpression SimpleName table name
+export table StringLiteral InfixExpression StringLiteral to \
+export table StringLiteral InfixExpression SimpleName filename
+export table StringLiteral InfixExpression StringLiteral \
+table name SimpleName InfixExpression StringLiteral to \
+table name SimpleName InfixExpression SimpleName filename
+table name SimpleName InfixExpression StringLiteral \
+to \ StringLiteral InfixExpression SimpleName filename
+to \ StringLiteral InfixExpression StringLiteral \
+filename SimpleName InfixExpression StringLiteral \
+query SimpleName Assignment InfixExpression StringLiteral export table
+query SimpleName Assignment InfixExpression SimpleName table name
+query SimpleName Assignment InfixExpression StringLiteral to \
+query SimpleName Assignment InfixExpression SimpleName filename
+query SimpleName Assignment InfixExpression StringLiteral \
+run command SimpleName MethodInvocation SimpleName query
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName read entity
+get inputs SimpleName MethodInvocation SimpleName table name
+get inputs SimpleName MethodInvocation QualifiedName entitytypetable
+table name SimpleName MethodInvocation QualifiedName entitytypetable
+expected export inputs SimpleName VariableDeclarationFragment MethodInvocation SimpleName get inputs
+expected export inputs SimpleName VariableDeclarationFragment MethodInvocation SimpleName table name
+expected export inputs SimpleName VariableDeclarationFragment MethodInvocation QualifiedName entitytypetable
+final Modifier VariableDeclarationStatement ParameterizedType SimpleType SimpleName set
+final Modifier VariableDeclarationStatement ParameterizedType SimpleType SimpleName read entity
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName expected export inputs
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get inputs
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName table name
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation QualifiedName entitytypetable
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName write entity
+get outputs SimpleName MethodInvocation SimpleName filename
+get outputs SimpleName MethodInvocation QualifiedName entitytypedfs dir
+filename SimpleName MethodInvocation QualifiedName entitytypedfs dir
+outputs SimpleName VariableDeclarationFragment MethodInvocation SimpleName get outputs
+outputs SimpleName VariableDeclarationFragment MethodInvocation SimpleName filename
+outputs SimpleName VariableDeclarationFragment MethodInvocation QualifiedName entitytypedfs dir
+final Modifier VariableDeclarationStatement ParameterizedType SimpleType SimpleName set
+final Modifier VariableDeclarationStatement ParameterizedType SimpleType SimpleName write entity
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName outputs
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get outputs
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName filename
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation QualifiedName entitytypedfs dir
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName read entity
+default db SimpleName InfixExpression StringLiteral @
+default db SimpleName InfixExpression SimpleName table name
+default db SimpleName InfixExpression StringLiteral dt
+default db SimpleName InfixExpression SimpleName part file
+@ StringLiteral InfixExpression SimpleName table name
+@ StringLiteral InfixExpression StringLiteral dt
+@ StringLiteral InfixExpression SimpleName part file
+table name SimpleName InfixExpression StringLiteral dt
+table name SimpleName InfixExpression SimpleName part file
+dt StringLiteral InfixExpression SimpleName part file
+get inputs SimpleName MethodInvocation InfixExpression SimpleName default db
+get inputs SimpleName MethodInvocation InfixExpression StringLiteral @
+get inputs SimpleName MethodInvocation InfixExpression SimpleName table name
+get inputs SimpleName MethodInvocation InfixExpression StringLiteral dt
+get inputs SimpleName MethodInvocation InfixExpression SimpleName part file
+get inputs SimpleName MethodInvocation QualifiedName entitytypepartition
+default db SimpleName InfixExpression MethodInvocation QualifiedName entitytypepartition
+@ StringLiteral InfixExpression MethodInvocation QualifiedName entitytypepartition
+table name SimpleName InfixExpression MethodInvocation QualifiedName entitytypepartition
+dt StringLiteral InfixExpression MethodInvocation QualifiedName entitytypepartition
+part file SimpleName InfixExpression MethodInvocation QualifiedName entitytypepartition
+partition ips SimpleName VariableDeclarationFragment MethodInvocation SimpleName get inputs
+partition ips SimpleName VariableDeclarationFragment MethodInvocation InfixExpression SimpleName default db
+partition ips SimpleName VariableDeclarationFragment MethodInvocation InfixExpression StringLiteral @
+partition ips SimpleName VariableDeclarationFragment MethodInvocation InfixExpression SimpleName table name
+partition ips SimpleName VariableDeclarationFragment MethodInvocation InfixExpression StringLiteral dt
+partition ips SimpleName VariableDeclarationFragment MethodInvocation InfixExpression SimpleName part file
+partition ips SimpleName VariableDeclarationFragment MethodInvocation QualifiedName entitytypepartition
+final Modifier VariableDeclarationStatement ParameterizedType SimpleType SimpleName set
+final Modifier VariableDeclarationStatement ParameterizedType SimpleType SimpleName read entity
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName partition ips
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get inputs
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation QualifiedName entitytypepartition
+partition ips SimpleName MethodInvocation SimpleName add all
+partition ips SimpleName MethodInvocation SimpleName expected export inputs
+add all SimpleName MethodInvocation SimpleName expected export inputs
+construct event SimpleName MethodInvocation SimpleName query
+construct event SimpleName MethodInvocation QualifiedName hive operationexport
+construct event SimpleName MethodInvocation SimpleName partition ips
+construct event SimpleName MethodInvocation SimpleName outputs
+query SimpleName MethodInvocation QualifiedName hive operationexport
+query SimpleName MethodInvocation SimpleName partition ips
+query SimpleName MethodInvocation SimpleName outputs
+hive operationexport QualifiedName MethodInvocation SimpleName partition ips
+hive operationexport QualifiedName MethodInvocation SimpleName outputs
+partition ips SimpleName MethodInvocation SimpleName outputs
+validate process SimpleName MethodInvocation MethodInvocation SimpleName construct event
+validate process SimpleName MethodInvocation MethodInvocation SimpleName query
+validate process SimpleName MethodInvocation MethodInvocation QualifiedName hive operationexport
+validate process SimpleName MethodInvocation MethodInvocation SimpleName partition ips
+validate process SimpleName MethodInvocation MethodInvocation SimpleName outputs
+validate process SimpleName MethodInvocation SimpleName expected export inputs
+validate process SimpleName MethodInvocation SimpleName outputs
+construct event SimpleName MethodInvocation MethodInvocation SimpleName expected export inputs
+query SimpleName MethodInvocation MethodInvocation SimpleName expected export inputs
+hive operationexport QualifiedName MethodInvocation MethodInvocation SimpleName expected export inputs
+partition ips SimpleName MethodInvocation MethodInvocation SimpleName expected export inputs
+outputs SimpleName MethodInvocation MethodInvocation SimpleName expected export inputs
+construct event SimpleName MethodInvocation MethodInvocation SimpleName outputs
+query SimpleName MethodInvocation MethodInvocation SimpleName outputs
+hive operationexport QualifiedName MethodInvocation MethodInvocation SimpleName outputs
+partition ips SimpleName MethodInvocation MethodInvocation SimpleName outputs
+outputs SimpleName MethodInvocation MethodInvocation SimpleName outputs
+expected export inputs SimpleName MethodInvocation SimpleName outputs
+process reference SimpleName VariableDeclarationFragment MethodInvocation SimpleName validate process
+process reference SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName construct event
+process reference SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName query
+process reference SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation QualifiedName hive operationexport
+process reference SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName partition ips
+process reference SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName outputs
+process reference SimpleName VariableDeclarationFragment MethodInvocation SimpleName expected export inputs
+process reference SimpleName VariableDeclarationFragment MethodInvocation SimpleName outputs
+referenceable SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName process reference
+validate hdfs paths SimpleName MethodInvocation SimpleName process reference
+validate hdfs paths SimpleName MethodInvocation SimpleName outputs
+validate hdfs paths SimpleName MethodInvocation SimpleName filename
+process reference SimpleName MethodInvocation SimpleName outputs
+process reference SimpleName MethodInvocation SimpleName filename
+outputs SimpleName MethodInvocation SimpleName filename
+create table SimpleName MethodInvocation BooleanLiteral true
+import table name SimpleName VariableDeclarationFragment MethodInvocation SimpleName create table
+import table name SimpleName VariableDeclarationFragment MethodInvocation BooleanLiteral true
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName import table name
+assert table is registered SimpleName MethodInvocation SimpleName default db
+assert table is registered SimpleName MethodInvocation SimpleName table name
+default db SimpleName MethodInvocation SimpleName table name
+import table StringLiteral InfixExpression SimpleName import table name
+import table StringLiteral InfixExpression StringLiteral from
+import table StringLiteral InfixExpression SimpleName filename
+import table StringLiteral InfixExpression StringLiteral empty
+import table name SimpleName InfixExpression StringLiteral from
+import table name SimpleName InfixExpression SimpleName filename
+import table name SimpleName InfixExpression StringLiteral empty
+from StringLiteral InfixExpression SimpleName filename
+from StringLiteral InfixExpression StringLiteral empty
+filename SimpleName InfixExpression StringLiteral empty
+query SimpleName Assignment InfixExpression StringLiteral import table
+query SimpleName Assignment InfixExpression SimpleName import table name
+query SimpleName Assignment InfixExpression StringLiteral from
+query SimpleName Assignment InfixExpression SimpleName filename
+query SimpleName Assignment InfixExpression StringLiteral empty
+run command SimpleName MethodInvocation SimpleName query
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName read entity
+get inputs SimpleName MethodInvocation SimpleName filename
+get inputs SimpleName MethodInvocation QualifiedName entitytypedfs dir
+filename SimpleName MethodInvocation QualifiedName entitytypedfs dir
+expected import inputs SimpleName VariableDeclarationFragment MethodInvocation SimpleName get inputs
+expected import inputs SimpleName VariableDeclarationFragment MethodInvocation SimpleName filename
+expected import inputs SimpleName VariableDeclarationFragment MethodInvocation QualifiedName entitytypedfs dir
+final Modifier VariableDeclarationStatement ParameterizedType SimpleType SimpleName set
+final Modifier VariableDeclarationStatement ParameterizedType SimpleType SimpleName read entity
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName expected import inputs
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get inputs
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName filename
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation QualifiedName entitytypedfs dir
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName write entity
+get outputs SimpleName MethodInvocation SimpleName import table name
+get outputs SimpleName MethodInvocation QualifiedName entitytypetable
+import table name SimpleName MethodInvocation QualifiedName entitytypetable
+import outputs SimpleName VariableDeclarationFragment MethodInvocation SimpleName get outputs
+import outputs SimpleName VariableDeclarationFragment MethodInvocation SimpleName import table name
+import outputs SimpleName VariableDeclarationFragment MethodInvocation QualifiedName entitytypetable
+final Modifier VariableDeclarationStatement ParameterizedType SimpleType SimpleName set
+final Modifier VariableDeclarationStatement ParameterizedType SimpleType SimpleName write entity
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName import outputs
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get outputs
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName import table name
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation QualifiedName entitytypetable
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName write entity
+default db SimpleName InfixExpression StringLiteral @
+default db SimpleName InfixExpression SimpleName import table name
+default db SimpleName InfixExpression StringLiteral dt
+default db SimpleName InfixExpression SimpleName part file
+@ StringLiteral InfixExpression SimpleName import table name
+@ StringLiteral InfixExpression StringLiteral dt
+@ StringLiteral InfixExpression SimpleName part file
+import table name SimpleName InfixExpression StringLiteral dt
+import table name SimpleName InfixExpression SimpleName part file
+dt StringLiteral InfixExpression SimpleName part file
+get outputs SimpleName MethodInvocation InfixExpression SimpleName default db
+get outputs SimpleName MethodInvocation InfixExpression StringLiteral @
+get outputs SimpleName MethodInvocation InfixExpression SimpleName import table name
+get outputs SimpleName MethodInvocation InfixExpression StringLiteral dt
+get outputs SimpleName MethodInvocation InfixExpression SimpleName part file
+get outputs SimpleName MethodInvocation QualifiedName entitytypepartition
+default db SimpleName InfixExpression MethodInvocation QualifiedName entitytypepartition
+@ StringLiteral InfixExpression MethodInvocation QualifiedName entitytypepartition
+import table name SimpleName InfixExpression MethodInvocation QualifiedName entitytypepartition
+dt StringLiteral InfixExpression MethodInvocation QualifiedName entitytypepartition
+part file SimpleName InfixExpression MethodInvocation QualifiedName entitytypepartition
+partition ops SimpleName VariableDeclarationFragment MethodInvocation SimpleName get outputs
+partition ops SimpleName VariableDeclarationFragment MethodInvocation InfixExpression SimpleName default db
+partition ops SimpleName VariableDeclarationFragment MethodInvocation InfixExpression StringLiteral @
+partition ops SimpleName VariableDeclarationFragment MethodInvocation InfixExpression SimpleName import table name
+partition ops SimpleName VariableDeclarationFragment MethodInvocation InfixExpression StringLiteral dt
+partition ops SimpleName VariableDeclarationFragment MethodInvocation InfixExpression SimpleName part file
+partition ops SimpleName VariableDeclarationFragment MethodInvocation QualifiedName entitytypepartition
+final Modifier VariableDeclarationStatement ParameterizedType SimpleType SimpleName set
+final Modifier VariableDeclarationStatement ParameterizedType SimpleType SimpleName write entity
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName partition ops
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get outputs
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation QualifiedName entitytypepartition
+partition ops SimpleName MethodInvocation SimpleName add all
+partition ops SimpleName MethodInvocation SimpleName import outputs
+add all SimpleName MethodInvocation SimpleName import outputs
+construct event SimpleName MethodInvocation SimpleName query
+construct event SimpleName MethodInvocation QualifiedName hive operationimport
+construct event SimpleName MethodInvocation SimpleName expected import inputs
+construct event SimpleName MethodInvocation SimpleName partition ops
+query SimpleName MethodInvocation QualifiedName hive operationimport
+query SimpleName MethodInvocation SimpleName expected import inputs
+query SimpleName MethodInvocation SimpleName partition ops
+hive operationimport QualifiedName MethodInvocation SimpleName expected import inputs
+hive operationimport QualifiedName MethodInvocation SimpleName partition ops
+expected import inputs SimpleName MethodInvocation SimpleName partition ops
+validate process SimpleName MethodInvocation MethodInvocation SimpleName construct event
+validate process SimpleName MethodInvocation MethodInvocation SimpleName query
+validate process SimpleName MethodInvocation MethodInvocation QualifiedName hive operationimport
+validate process SimpleName MethodInvocation MethodInvocation SimpleName expected import inputs
+validate process SimpleName MethodInvocation MethodInvocation SimpleName partition ops
+validate process SimpleName MethodInvocation SimpleName expected import inputs
+validate process SimpleName MethodInvocation SimpleName import outputs
+construct event SimpleName MethodInvocation MethodInvocation SimpleName expected import inputs
+query SimpleName MethodInvocation MethodInvocation SimpleName expected import inputs
+hive operationimport QualifiedName MethodInvocation MethodInvocation SimpleName expected import inputs
+expected import inputs SimpleName MethodInvocation MethodInvocation SimpleName expected import inputs
+partition ops SimpleName MethodInvocation MethodInvocation SimpleName expected import inputs
+construct event SimpleName MethodInvocation MethodInvocation SimpleName import outputs
+query SimpleName MethodInvocation MethodInvocation SimpleName import outputs
+hive operationimport QualifiedName MethodInvocation MethodInvocation SimpleName import outputs
+expected import inputs SimpleName MethodInvocation MethodInvocation SimpleName import outputs
+partition ops SimpleName MethodInvocation MethodInvocation SimpleName import outputs
+expected import inputs SimpleName MethodInvocation SimpleName import outputs
+mkdir SimpleName MethodInvocation StringLiteral export
+pfile StringLiteral InfixExpression MethodInvocation SimpleName mkdir
+pfile StringLiteral InfixExpression MethodInvocation StringLiteral export
+filename SimpleName Assignment InfixExpression StringLiteral pfile
+filename SimpleName Assignment InfixExpression MethodInvocation SimpleName mkdir
+filename SimpleName Assignment InfixExpression MethodInvocation StringLiteral export
+export table StringLiteral InfixExpression SimpleName table name
+export table StringLiteral InfixExpression StringLiteral to \
+export table StringLiteral InfixExpression SimpleName filename
+export table StringLiteral InfixExpression StringLiteral \
+table name SimpleName InfixExpression StringLiteral to \
+table name SimpleName InfixExpression SimpleName filename
+table name SimpleName InfixExpression StringLiteral \
+to \ StringLiteral InfixExpression SimpleName filename
+to \ StringLiteral InfixExpression StringLiteral \
+filename SimpleName InfixExpression StringLiteral \
+query SimpleName Assignment InfixExpression StringLiteral export table
+query SimpleName Assignment InfixExpression SimpleName table name
+query SimpleName Assignment InfixExpression StringLiteral to \
+query SimpleName Assignment InfixExpression SimpleName filename
+query SimpleName Assignment InfixExpression StringLiteral \
+run command SimpleName MethodInvocation SimpleName query
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName write entity
+get outputs SimpleName MethodInvocation SimpleName filename
+get outputs SimpleName MethodInvocation QualifiedName entitytypedfs dir
+filename SimpleName MethodInvocation QualifiedName entitytypedfs dir
+outputs SimpleName VariableDeclarationFragment MethodInvocation SimpleName get outputs
+outputs SimpleName VariableDeclarationFragment MethodInvocation SimpleName filename
+outputs SimpleName VariableDeclarationFragment MethodInvocation QualifiedName entitytypedfs dir
+final Modifier VariableDeclarationStatement ParameterizedType SimpleType SimpleName set
+final Modifier VariableDeclarationStatement ParameterizedType SimpleType SimpleName write entity
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName outputs
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get outputs
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName filename
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation QualifiedName entitytypedfs dir
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName write entity
+linked hash set SimpleName SimpleType ParameterizedType SimpleType SimpleName write entity
+add all SimpleName MethodInvocation SimpleName outputs
+add all SimpleName MethodInvocation SimpleName outputs
+construct event SimpleName MethodInvocation SimpleName query
+construct event SimpleName MethodInvocation QualifiedName hive operationexport
+construct event SimpleName MethodInvocation SimpleName partition ips
+construct event SimpleName MethodInvocation SimpleName outputs
+query SimpleName MethodInvocation QualifiedName hive operationexport
+query SimpleName MethodInvocation SimpleName partition ips
+query SimpleName MethodInvocation SimpleName outputs
+hive operationexport QualifiedName MethodInvocation SimpleName partition ips
+hive operationexport QualifiedName MethodInvocation SimpleName outputs
+partition ips SimpleName MethodInvocation SimpleName outputs
+validate process SimpleName MethodInvocation MethodInvocation SimpleName construct event
+validate process SimpleName MethodInvocation MethodInvocation SimpleName query
+validate process SimpleName MethodInvocation MethodInvocation QualifiedName hive operationexport
+validate process SimpleName MethodInvocation MethodInvocation SimpleName partition ips
+validate process SimpleName MethodInvocation MethodInvocation SimpleName outputs
+validate process SimpleName MethodInvocation SimpleName expected export inputs
+validate process SimpleName MethodInvocation SimpleName p outputs
+construct event SimpleName MethodInvocation MethodInvocation SimpleName expected export inputs
+query SimpleName MethodInvocation MethodInvocation SimpleName expected export inputs
+hive operationexport QualifiedName MethodInvocation MethodInvocation SimpleName expected export inputs
+partition ips SimpleName MethodInvocation MethodInvocation SimpleName expected export inputs
+outputs SimpleName MethodInvocation MethodInvocation SimpleName expected export inputs
+construct event SimpleName MethodInvocation MethodInvocation SimpleName p outputs
+query SimpleName MethodInvocation MethodInvocation SimpleName p outputs
+hive operationexport QualifiedName MethodInvocation MethodInvocation SimpleName p outputs
+partition ips SimpleName MethodInvocation MethodInvocation SimpleName p outputs
+outputs SimpleName MethodInvocation MethodInvocation SimpleName p outputs
+expected export inputs SimpleName MethodInvocation SimpleName p outputs
+alter table StringLiteral InfixExpression SimpleName import table name
+alter table StringLiteral InfixExpression StringLiteral drop partition dt
+alter table StringLiteral InfixExpression SimpleName part file
+alter table StringLiteral InfixExpression StringLiteral )
+import table name SimpleName InfixExpression StringLiteral drop partition dt
+import table name SimpleName InfixExpression SimpleName part file
+import table name SimpleName InfixExpression StringLiteral )
+drop partition dt StringLiteral InfixExpression SimpleName part file
+drop partition dt StringLiteral InfixExpression StringLiteral )
+part file SimpleName InfixExpression StringLiteral )
+query SimpleName Assignment InfixExpression StringLiteral alter table
+query SimpleName Assignment InfixExpression SimpleName import table name
+query SimpleName Assignment InfixExpression StringLiteral drop partition dt
+query SimpleName Assignment InfixExpression SimpleName part file
+query SimpleName Assignment InfixExpression StringLiteral )
+run command SimpleName MethodInvocation SimpleName query
+import table StringLiteral InfixExpression SimpleName import table name
+import table StringLiteral InfixExpression StringLiteral from
+import table StringLiteral InfixExpression SimpleName filename
+import table StringLiteral InfixExpression StringLiteral empty
+import table name SimpleName InfixExpression StringLiteral from
+import table name SimpleName InfixExpression SimpleName filename
+import table name SimpleName InfixExpression StringLiteral empty
+from StringLiteral InfixExpression SimpleName filename
+from StringLiteral InfixExpression StringLiteral empty
+filename SimpleName InfixExpression StringLiteral empty
+query SimpleName Assignment InfixExpression StringLiteral import table
+query SimpleName Assignment InfixExpression SimpleName import table name
+query SimpleName Assignment InfixExpression StringLiteral from
+query SimpleName Assignment InfixExpression SimpleName filename
+query SimpleName Assignment InfixExpression StringLiteral empty
+run command with delay SimpleName MethodInvocation SimpleName query
+run command with delay SimpleName MethodInvocation NumberLiteral empty
+query SimpleName MethodInvocation NumberLiteral empty
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName read entity
+get inputs SimpleName MethodInvocation SimpleName filename
+get inputs SimpleName MethodInvocation QualifiedName entitytypedfs dir
+filename SimpleName MethodInvocation QualifiedName entitytypedfs dir
+import inputs SimpleName VariableDeclarationFragment MethodInvocation SimpleName get inputs
+import inputs SimpleName VariableDeclarationFragment MethodInvocation SimpleName filename
+import inputs SimpleName VariableDeclarationFragment MethodInvocation QualifiedName entitytypedfs dir
+final Modifier VariableDeclarationStatement ParameterizedType SimpleType SimpleName set
+final Modifier VariableDeclarationStatement ParameterizedType SimpleType SimpleName read entity
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName import inputs
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get inputs
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName filename
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation QualifiedName entitytypedfs dir
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName read entity
+linked hash set SimpleName SimpleType ParameterizedType SimpleType SimpleName read entity
+add all SimpleName MethodInvocation SimpleName import inputs
+add all SimpleName MethodInvocation SimpleName expected import inputs
+final Modifier VariableDeclarationStatement ParameterizedType SimpleType SimpleName set
+final Modifier VariableDeclarationStatement ParameterizedType SimpleType SimpleName read entity
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName expected import inputs
+construct event SimpleName MethodInvocation SimpleName query
+construct event SimpleName MethodInvocation QualifiedName hive operationimport
+construct event SimpleName MethodInvocation SimpleName import inputs
+construct event SimpleName MethodInvocation SimpleName partition ops
+query SimpleName MethodInvocation QualifiedName hive operationimport
+query SimpleName MethodInvocation SimpleName import inputs
+query SimpleName MethodInvocation SimpleName partition ops
+hive operationimport QualifiedName MethodInvocation SimpleName import inputs
+hive operationimport QualifiedName MethodInvocation SimpleName partition ops
+import inputs SimpleName MethodInvocation SimpleName partition ops
+validate process SimpleName MethodInvocation MethodInvocation SimpleName construct event
+validate process SimpleName MethodInvocation MethodInvocation SimpleName query
+validate process SimpleName MethodInvocation MethodInvocation QualifiedName hive operationimport
+validate process SimpleName MethodInvocation MethodInvocation SimpleName import inputs
+validate process SimpleName MethodInvocation MethodInvocation SimpleName partition ops
+validate process SimpleName MethodInvocation SimpleName expected import inputs
+validate process SimpleName MethodInvocation SimpleName import outputs
+construct event SimpleName MethodInvocation MethodInvocation SimpleName expected import inputs
+query SimpleName MethodInvocation MethodInvocation SimpleName expected import inputs
+hive operationimport QualifiedName MethodInvocation MethodInvocation SimpleName expected import inputs
+import inputs SimpleName MethodInvocation MethodInvocation SimpleName expected import inputs
+partition ops SimpleName MethodInvocation MethodInvocation SimpleName expected import inputs
+construct event SimpleName MethodInvocation MethodInvocation SimpleName import outputs
+query SimpleName MethodInvocation MethodInvocation SimpleName import outputs
+hive operationimport QualifiedName MethodInvocation MethodInvocation SimpleName import outputs
+import inputs SimpleName MethodInvocation MethodInvocation SimpleName import outputs
+partition ops SimpleName MethodInvocation MethodInvocation SimpleName import outputs
+expected import inputs SimpleName MethodInvocation SimpleName import outputs
+boolean PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test export import partitioned table
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test export import partitioned table
+public Modifier MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+public Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+public Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+public Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+public Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+public Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+public Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+public Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+public Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+public Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+public Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+void PrimitiveType MethodDeclaration SimpleName test export import partitioned table
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement Modifier final
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement Modifier final
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement Modifier final
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement Modifier final
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement Modifier final
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement Modifier final
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement Modifier final
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement Modifier final
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement Modifier final
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement Modifier final
+test export import partitioned table SimpleName MethodDeclaration SimpleType SimpleName exception
+test export import partitioned table SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+test export import partitioned table SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+test export import partitioned table SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+test export import partitioned table SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+test export import partitioned table SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+test export import partitioned table SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+test export import partitioned table SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+test export import partitioned table SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+test export import partitioned table SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+test export import partitioned table SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+test export import partitioned table SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test export import partitioned table
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test

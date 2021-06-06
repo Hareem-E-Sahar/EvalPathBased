@@ -1,0 +1,110 @@
+input stream SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName walog stream
+output stream SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName walog in hdf stream
+get class SimpleName MethodInvocation MethodInvocation SimpleName get resource as stream
+get class SimpleName MethodInvocation MethodInvocation SimpleName walog from
+get resource as stream SimpleName MethodInvocation SimpleName walog from
+walog stream SimpleName Assignment MethodInvocation MethodInvocation SimpleName get class
+walog stream SimpleName Assignment MethodInvocation SimpleName get resource as stream
+walog stream SimpleName Assignment MethodInvocation SimpleName walog from
+root SimpleName MethodInvocation SimpleName get root
+root SimpleName MethodInvocation MethodInvocation SimpleName get absolute path
+get root SimpleName MethodInvocation MethodInvocation SimpleName get absolute path
+root SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName walog from
+get root SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName walog from
+get absolute path SimpleName MethodInvocation InfixExpression SimpleName walog from
+file SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName walog from
+walog in hdf stream SimpleName Assignment ClassInstanceCreation SimpleType SimpleName file output stream
+io utils SimpleName MethodInvocation SimpleName copy large
+io utils SimpleName MethodInvocation SimpleName walog stream
+io utils SimpleName MethodInvocation SimpleName walog in hdf stream
+copy large SimpleName MethodInvocation SimpleName walog stream
+copy large SimpleName MethodInvocation SimpleName walog in hdf stream
+walog stream SimpleName MethodInvocation SimpleName walog in hdf stream
+walog in hdf stream SimpleName MethodInvocation SimpleName flush
+walog in hdf stream SimpleName MethodInvocation SimpleName close
+suppress warnings SimpleName SingleMemberAnnotation StringLiteral deprecation
+default configuration SimpleName MethodInvocation SimpleName get site configuration
+log sorter SimpleName SimpleType ClassInstanceCreation SimpleName fs
+log sorter SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName default configuration
+log sorter SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get site configuration
+fs SimpleName ClassInstanceCreation MethodInvocation SimpleName default configuration
+fs SimpleName ClassInstanceCreation MethodInvocation SimpleName get site configuration
+log sorter SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName log sorter
+log sorter SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName fs
+log sorter SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName default configuration
+log sorter SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get site configuration
+suppress warnings SimpleName SingleMemberAnnotation VariableDeclarationStatement SimpleType SimpleName log sorter
+deprecation StringLiteral SingleMemberAnnotation VariableDeclarationStatement SimpleType SimpleName log sorter
+suppress warnings SimpleName SingleMemberAnnotation VariableDeclarationStatement VariableDeclarationFragment SimpleName log sorter
+deprecation StringLiteral SingleMemberAnnotation VariableDeclarationStatement VariableDeclarationFragment SimpleName log sorter
+log sorter SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName log sorter
+log sorter SimpleName ClassInstanceCreation SimpleType SimpleName log processor
+log processor SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName log sorter
+log processor SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName log processor
+log sorterlog processor QualifiedName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName log processor
+root SimpleName MethodInvocation SimpleName get root
+root SimpleName MethodInvocation MethodInvocation SimpleName get absolute path
+get root SimpleName MethodInvocation MethodInvocation SimpleName get absolute path
+file StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName root
+file StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName get root
+file StringLiteral InfixExpression MethodInvocation SimpleName get absolute path
+file StringLiteral InfixExpression SimpleName walog from
+root SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName walog from
+get root SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName walog from
+get absolute path SimpleName MethodInvocation InfixExpression SimpleName walog from
+path SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral file
+path SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName walog from
+root SimpleName MethodInvocation SimpleName get root
+root SimpleName MethodInvocation MethodInvocation SimpleName get absolute path
+get root SimpleName MethodInvocation MethodInvocation SimpleName get absolute path
+file StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName root
+file StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName get root
+file StringLiteral InfixExpression MethodInvocation SimpleName get absolute path
+file StringLiteral InfixExpression StringLiteral many maps
+root SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral many maps
+get root SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral many maps
+get absolute path SimpleName MethodInvocation InfixExpression StringLiteral many maps
+log processor SimpleName MethodInvocation SimpleName sort
+log processor SimpleName MethodInvocation SimpleName walog from
+log processor SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName path
+log processor SimpleName MethodInvocation ClassInstanceCreation InfixExpression StringLiteral file
+log processor SimpleName MethodInvocation ClassInstanceCreation InfixExpression SimpleName walog from
+log processor SimpleName MethodInvocation InfixExpression StringLiteral file
+log processor SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get absolute path
+log processor SimpleName MethodInvocation InfixExpression StringLiteral many maps
+sort SimpleName MethodInvocation SimpleName walog from
+sort SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName path
+sort SimpleName MethodInvocation ClassInstanceCreation InfixExpression StringLiteral file
+sort SimpleName MethodInvocation ClassInstanceCreation InfixExpression SimpleName walog from
+sort SimpleName MethodInvocation InfixExpression StringLiteral file
+sort SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get absolute path
+sort SimpleName MethodInvocation InfixExpression StringLiteral many maps
+walog from SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName path
+walog from SimpleName MethodInvocation ClassInstanceCreation InfixExpression StringLiteral file
+walog from SimpleName MethodInvocation ClassInstanceCreation InfixExpression SimpleName walog from
+walog from SimpleName MethodInvocation InfixExpression StringLiteral file
+walog from SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get absolute path
+walog from SimpleName MethodInvocation InfixExpression StringLiteral many maps
+walog stream SimpleName MethodInvocation SimpleName close
+walog in hdf stream SimpleName MethodInvocation SimpleName close
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test upgrade of wa log
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName io exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test upgrade of wa log
+public Modifier MethodDeclaration SimpleType SimpleName io exception
+void PrimitiveType MethodDeclaration SimpleName test upgrade of wa log
+void PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+test upgrade of wa log SimpleName MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test upgrade of wa log
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test upgrade of wa log
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

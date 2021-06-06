@@ -1,0 +1,46 @@
+object input stream SimpleName SimpleType SingleVariableDeclaration SimpleName in
+in SimpleName MethodInvocation SimpleName default read object
+in SimpleName MethodInvocation SimpleName read object
+in SimpleName MethodInvocation MethodInvocation SimpleName to string
+read object SimpleName MethodInvocation MethodInvocation SimpleName to string
+host and port SimpleName MethodInvocation SimpleName from string
+host and port SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName in
+host and port SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName read object
+host and port SimpleName MethodInvocation MethodInvocation SimpleName to string
+from string SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName in
+from string SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName read object
+from string SimpleName MethodInvocation MethodInvocation SimpleName to string
+location SimpleName Assignment MethodInvocation SimpleName host and port
+location SimpleName Assignment MethodInvocation SimpleName from string
+location SimpleName Assignment MethodInvocation MethodInvocation SimpleName to string
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName read object
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object input stream
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName in
+private Modifier MethodDeclaration SimpleType SimpleName io exception
+private Modifier MethodDeclaration SimpleType SimpleName class not found exception
+void PrimitiveType MethodDeclaration SimpleName read object
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object input stream
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName in
+void PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+void PrimitiveType MethodDeclaration SimpleType SimpleName class not found exception
+read object SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object input stream
+read object SimpleName MethodDeclaration SingleVariableDeclaration SimpleName in
+read object SimpleName MethodDeclaration SimpleType SimpleName io exception
+read object SimpleName MethodDeclaration SimpleType SimpleName class not found exception
+in SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+in SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName class not found exception
+io exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName class not found exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName read object
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName in
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName class not found exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName read object
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName in
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName class not found exception

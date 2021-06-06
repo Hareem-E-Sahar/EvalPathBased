@@ -1,0 +1,174 @@
+object SimpleName SimpleType SingleVariableDeclaration SimpleName value
+final Modifier SingleVariableDeclaration PrimitiveType boolean
+final Modifier SingleVariableDeclaration SimpleName include type
+boolean PrimitiveType SingleVariableDeclaration SimpleName include type
+return value SimpleName VariableDeclarationFragment SimpleName value
+object SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName return value
+object SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName value
+determine type SimpleName MethodInvocation SimpleName value
+type SimpleName VariableDeclarationFragment MethodInvocation SimpleName determine type
+type SimpleName VariableDeclarationFragment MethodInvocation SimpleName value
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName type
+json node factory SimpleName MethodInvocation SimpleName object node
+value and type SimpleName VariableDeclarationFragment MethodInvocation SimpleName json node factory
+value and type SimpleName VariableDeclarationFragment MethodInvocation SimpleName object node
+object node SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName value and type
+value and type SimpleName MethodInvocation SimpleName put
+value and type SimpleName MethodInvocation QualifiedName atlas graph son tokenstype
+value and type SimpleName MethodInvocation SimpleName type
+put SimpleName MethodInvocation QualifiedName atlas graph son tokenstype
+put SimpleName MethodInvocation SimpleName type
+atlas graph son tokenstype QualifiedName MethodInvocation SimpleName type
+type SimpleName MethodInvocation SimpleName equals
+type SimpleName MethodInvocation QualifiedName atlas graph son tokenstype list
+equals SimpleName MethodInvocation QualifiedName atlas graph son tokenstype list
+array node SimpleName SimpleType CastExpression SimpleName value
+list SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName array node
+list SimpleName VariableDeclarationFragment CastExpression SimpleName value
+array node SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName list
+value and type SimpleName MethodInvocation SimpleName put array
+value and type SimpleName MethodInvocation QualifiedName atlas graph son tokensvalue
+put array SimpleName MethodInvocation QualifiedName atlas graph son tokensvalue
+value array SimpleName VariableDeclarationFragment MethodInvocation SimpleName value and type
+value array SimpleName VariableDeclarationFragment MethodInvocation SimpleName put array
+value array SimpleName VariableDeclarationFragment MethodInvocation QualifiedName atlas graph son tokensvalue
+array node SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName value array
+ix SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName ix
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+list SimpleName MethodInvocation SimpleName size
+ix SimpleName InfixExpression MethodInvocation SimpleName list
+ix SimpleName InfixExpression MethodInvocation SimpleName size
+list SimpleName MethodInvocation SimpleName get
+list SimpleName MethodInvocation SimpleName ix
+get SimpleName MethodInvocation SimpleName ix
+get typed value from json node SimpleName MethodInvocation MethodInvocation SimpleName list
+get typed value from json node SimpleName MethodInvocation MethodInvocation SimpleName get
+get typed value from json node SimpleName MethodInvocation MethodInvocation SimpleName ix
+get value SimpleName MethodInvocation MethodInvocation SimpleName get typed value from json node
+get value SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName list
+get value SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+get value SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName ix
+get value SimpleName MethodInvocation SimpleName include type
+get typed value from json node SimpleName MethodInvocation MethodInvocation SimpleName include type
+list SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName include type
+get SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName include type
+ix SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName include type
+add object SimpleName MethodInvocation SimpleName value array
+add object SimpleName MethodInvocation MethodInvocation SimpleName get value
+add object SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get typed value from json node
+add object SimpleName MethodInvocation MethodInvocation SimpleName include type
+value array SimpleName MethodInvocation MethodInvocation SimpleName get value
+value array SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get typed value from json node
+value array SimpleName MethodInvocation MethodInvocation SimpleName include type
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName ix
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName ix
+ix SimpleName InfixExpression ForStatement PostfixExpression SimpleName ix
+type SimpleName MethodInvocation SimpleName equals
+type SimpleName MethodInvocation QualifiedName atlas graph son tokenstype map
+equals SimpleName MethodInvocation QualifiedName atlas graph son tokenstype map
+json node factory SimpleName MethodInvocation SimpleName object node
+converted map SimpleName VariableDeclarationFragment MethodInvocation SimpleName json node factory
+converted map SimpleName VariableDeclarationFragment MethodInvocation SimpleName object node
+object node SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName converted map
+object node SimpleName SimpleType CastExpression SimpleName value
+json object SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName object node
+json object SimpleName VariableDeclarationFragment CastExpression SimpleName value
+object node SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName json object
+iterator SimpleName SimpleType ParameterizedType WildcardType ?
+json object SimpleName MethodInvocation SimpleName field names
+key iterator SimpleName VariableDeclarationFragment MethodInvocation SimpleName json object
+key iterator SimpleName VariableDeclarationFragment MethodInvocation SimpleName field names
+? WildcardType ParameterizedType VariableDeclarationStatement VariableDeclarationFragment SimpleName key iterator
+key iterator SimpleName MethodInvocation SimpleName has next
+key iterator SimpleName MethodInvocation SimpleName next
+key SimpleName VariableDeclarationFragment MethodInvocation SimpleName key iterator
+key SimpleName VariableDeclarationFragment MethodInvocation SimpleName next
+object SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName key
+key SimpleName MethodInvocation SimpleName to string
+key SimpleName MethodInvocation SimpleName to string
+json object SimpleName MethodInvocation SimpleName get
+json object SimpleName MethodInvocation MethodInvocation SimpleName key
+json object SimpleName MethodInvocation MethodInvocation SimpleName to string
+get SimpleName MethodInvocation MethodInvocation SimpleName key
+get SimpleName MethodInvocation MethodInvocation SimpleName to string
+converted map SimpleName MethodInvocation SimpleName put
+converted map SimpleName MethodInvocation MethodInvocation SimpleName key
+converted map SimpleName MethodInvocation MethodInvocation SimpleName to string
+converted map SimpleName MethodInvocation MethodInvocation SimpleName json object
+converted map SimpleName MethodInvocation MethodInvocation SimpleName get
+converted map SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName key
+converted map SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to string
+put SimpleName MethodInvocation MethodInvocation SimpleName key
+put SimpleName MethodInvocation MethodInvocation SimpleName to string
+put SimpleName MethodInvocation MethodInvocation SimpleName json object
+put SimpleName MethodInvocation MethodInvocation SimpleName get
+put SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName key
+put SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to string
+key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName json object
+key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+to string SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName json object
+to string SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+value and type SimpleName MethodInvocation SimpleName put
+value and type SimpleName MethodInvocation QualifiedName atlas graph son tokensvalue
+value and type SimpleName MethodInvocation SimpleName converted map
+put SimpleName MethodInvocation QualifiedName atlas graph son tokensvalue
+put SimpleName MethodInvocation SimpleName converted map
+atlas graph son tokensvalue QualifiedName MethodInvocation SimpleName converted map
+put object SimpleName MethodInvocation SimpleName value and type
+put object SimpleName MethodInvocation QualifiedName atlas graph son tokensvalue
+put object SimpleName MethodInvocation SimpleName value
+value and type SimpleName MethodInvocation QualifiedName atlas graph son tokensvalue
+value and type SimpleName MethodInvocation SimpleName value
+atlas graph son tokensvalue QualifiedName MethodInvocation SimpleName value
+return value SimpleName Assignment SimpleName value and type
+include type SimpleName IfStatement Block ReturnStatement SimpleName return value
+private Modifier MethodDeclaration Modifier static
+private Modifier MethodDeclaration SimpleType SimpleName object
+private Modifier MethodDeclaration SimpleName get value
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName value
+private Modifier MethodDeclaration SingleVariableDeclaration Modifier final
+private Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName include type
+static Modifier MethodDeclaration SimpleType SimpleName object
+static Modifier MethodDeclaration SimpleName get value
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName value
+static Modifier MethodDeclaration SingleVariableDeclaration Modifier final
+static Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName include type
+static Modifier MethodDeclaration Block IfStatement SimpleName include type
+static Modifier MethodDeclaration Block ReturnStatement SimpleName return value
+object SimpleName SimpleType MethodDeclaration SimpleName get value
+object SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName value
+object SimpleName SimpleType MethodDeclaration SingleVariableDeclaration Modifier final
+object SimpleName SimpleType MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+object SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName include type
+get value SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+get value SimpleName MethodDeclaration SingleVariableDeclaration SimpleName value
+get value SimpleName MethodDeclaration SingleVariableDeclaration Modifier final
+get value SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+get value SimpleName MethodDeclaration SingleVariableDeclaration SimpleName include type
+get value SimpleName MethodDeclaration Block IfStatement SimpleName include type
+get value SimpleName MethodDeclaration Block ReturnStatement SimpleName return value
+value SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+value SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+value SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName include type
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName object
+public Modifier TypeDeclaration MethodDeclaration SimpleName get value
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName include type
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName object
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get value
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName include type

@@ -1,0 +1,332 @@
+referenceable SimpleName SimpleType SingleVariableDeclaration SimpleName database instance
+int PrimitiveType SingleVariableDeclaration SimpleName uber index
+referenceable SimpleName SimpleType ClassInstanceCreation QualifiedName test utilstable type
+table instance SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName referenceable
+table instance SimpleName VariableDeclarationFragment ClassInstanceCreation QualifiedName test utilstable type
+referenceable SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName table instance
+table name SimpleName InfixExpression StringLiteral -
+table name SimpleName InfixExpression SimpleName uber index
+- StringLiteral InfixExpression SimpleName uber index
+table instance SimpleName MethodInvocation SimpleName set
+table instance SimpleName MethodInvocation StringLiteral name
+table instance SimpleName MethodInvocation InfixExpression SimpleName table name
+table instance SimpleName MethodInvocation InfixExpression StringLiteral -
+table instance SimpleName MethodInvocation InfixExpression SimpleName uber index
+set SimpleName MethodInvocation StringLiteral name
+set SimpleName MethodInvocation InfixExpression SimpleName table name
+set SimpleName MethodInvocation InfixExpression StringLiteral -
+set SimpleName MethodInvocation InfixExpression SimpleName uber index
+name StringLiteral MethodInvocation InfixExpression SimpleName table name
+name StringLiteral MethodInvocation InfixExpression StringLiteral -
+name StringLiteral MethodInvocation InfixExpression SimpleName uber index
+bar table StringLiteral InfixExpression StringLiteral -
+bar table StringLiteral InfixExpression SimpleName uber index
+- StringLiteral InfixExpression SimpleName uber index
+table instance SimpleName MethodInvocation SimpleName set
+table instance SimpleName MethodInvocation StringLiteral description
+table instance SimpleName MethodInvocation InfixExpression StringLiteral bar table
+table instance SimpleName MethodInvocation InfixExpression StringLiteral -
+table instance SimpleName MethodInvocation InfixExpression SimpleName uber index
+set SimpleName MethodInvocation StringLiteral description
+set SimpleName MethodInvocation InfixExpression StringLiteral bar table
+set SimpleName MethodInvocation InfixExpression StringLiteral -
+set SimpleName MethodInvocation InfixExpression SimpleName uber index
+description StringLiteral MethodInvocation InfixExpression StringLiteral bar table
+description StringLiteral MethodInvocation InfixExpression StringLiteral -
+description StringLiteral MethodInvocation InfixExpression SimpleName uber index
+table instance SimpleName MethodInvocation SimpleName set
+table instance SimpleName MethodInvocation StringLiteral type
+table instance SimpleName MethodInvocation StringLiteral managed
+set SimpleName MethodInvocation StringLiteral type
+set SimpleName MethodInvocation StringLiteral managed
+type StringLiteral MethodInvocation StringLiteral managed
+date SimpleName SimpleType ClassInstanceCreation QualifiedName test utilstest date in long
+table instance SimpleName MethodInvocation SimpleName set
+table instance SimpleName MethodInvocation StringLiteral created
+table instance SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName date
+table instance SimpleName MethodInvocation ClassInstanceCreation QualifiedName test utilstest date in long
+set SimpleName MethodInvocation StringLiteral created
+set SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName date
+set SimpleName MethodInvocation ClassInstanceCreation QualifiedName test utilstest date in long
+created StringLiteral MethodInvocation ClassInstanceCreation SimpleType SimpleName date
+created StringLiteral MethodInvocation ClassInstanceCreation QualifiedName test utilstest date in long
+table instance SimpleName MethodInvocation SimpleName set
+table instance SimpleName MethodInvocation StringLiteral table type
+table instance SimpleName MethodInvocation NumberLiteral empty
+set SimpleName MethodInvocation StringLiteral table type
+set SimpleName MethodInvocation NumberLiteral empty
+table type StringLiteral MethodInvocation NumberLiteral empty
+table instance SimpleName MethodInvocation SimpleName set
+table instance SimpleName MethodInvocation StringLiteral database
+table instance SimpleName MethodInvocation SimpleName database instance
+set SimpleName MethodInvocation StringLiteral database
+set SimpleName MethodInvocation SimpleName database instance
+database StringLiteral MethodInvocation SimpleName database instance
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+first name StringLiteral InfixExpression StringLiteral -
+first name StringLiteral InfixExpression SimpleName uber index
+- StringLiteral InfixExpression SimpleName uber index
+column names SimpleName MethodInvocation SimpleName add
+column names SimpleName MethodInvocation InfixExpression StringLiteral first name
+column names SimpleName MethodInvocation InfixExpression StringLiteral -
+column names SimpleName MethodInvocation InfixExpression SimpleName uber index
+add SimpleName MethodInvocation InfixExpression StringLiteral first name
+add SimpleName MethodInvocation InfixExpression StringLiteral -
+add SimpleName MethodInvocation InfixExpression SimpleName uber index
+last name StringLiteral InfixExpression StringLiteral -
+last name StringLiteral InfixExpression SimpleName uber index
+- StringLiteral InfixExpression SimpleName uber index
+column names SimpleName MethodInvocation SimpleName add
+column names SimpleName MethodInvocation InfixExpression StringLiteral last name
+column names SimpleName MethodInvocation InfixExpression StringLiteral -
+column names SimpleName MethodInvocation InfixExpression SimpleName uber index
+add SimpleName MethodInvocation InfixExpression StringLiteral last name
+add SimpleName MethodInvocation InfixExpression StringLiteral -
+add SimpleName MethodInvocation InfixExpression SimpleName uber index
+table instance SimpleName MethodInvocation SimpleName set
+table instance SimpleName MethodInvocation StringLiteral column names
+table instance SimpleName MethodInvocation SimpleName column names
+set SimpleName MethodInvocation StringLiteral column names
+set SimpleName MethodInvocation SimpleName column names
+column names StringLiteral MethodInvocation SimpleName column names
+struct SimpleName SimpleType ClassInstanceCreation StringLiteral serde type
+serde instance SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName struct
+serde instance SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral serde type
+struct SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName serde instance
+serde StringLiteral InfixExpression StringLiteral -
+serde StringLiteral InfixExpression SimpleName uber index
+- StringLiteral InfixExpression SimpleName uber index
+serde instance SimpleName MethodInvocation SimpleName set
+serde instance SimpleName MethodInvocation StringLiteral name
+serde instance SimpleName MethodInvocation InfixExpression StringLiteral serde
+serde instance SimpleName MethodInvocation InfixExpression StringLiteral -
+serde instance SimpleName MethodInvocation InfixExpression SimpleName uber index
+set SimpleName MethodInvocation StringLiteral name
+set SimpleName MethodInvocation InfixExpression StringLiteral serde
+set SimpleName MethodInvocation InfixExpression StringLiteral -
+set SimpleName MethodInvocation InfixExpression SimpleName uber index
+name StringLiteral MethodInvocation InfixExpression StringLiteral serde
+name StringLiteral MethodInvocation InfixExpression StringLiteral -
+name StringLiteral MethodInvocation InfixExpression SimpleName uber index
+serde StringLiteral InfixExpression StringLiteral -
+serde StringLiteral InfixExpression SimpleName uber index
+- StringLiteral InfixExpression SimpleName uber index
+serde instance SimpleName MethodInvocation SimpleName set
+serde instance SimpleName MethodInvocation StringLiteral serde
+serde instance SimpleName MethodInvocation InfixExpression StringLiteral serde
+serde instance SimpleName MethodInvocation InfixExpression StringLiteral -
+serde instance SimpleName MethodInvocation InfixExpression SimpleName uber index
+set SimpleName MethodInvocation StringLiteral serde
+set SimpleName MethodInvocation InfixExpression StringLiteral serde
+set SimpleName MethodInvocation InfixExpression StringLiteral -
+set SimpleName MethodInvocation InfixExpression SimpleName uber index
+serde StringLiteral MethodInvocation InfixExpression StringLiteral serde
+serde StringLiteral MethodInvocation InfixExpression StringLiteral -
+serde StringLiteral MethodInvocation InfixExpression SimpleName uber index
+table instance SimpleName MethodInvocation SimpleName set
+table instance SimpleName MethodInvocation StringLiteral serde
+table instance SimpleName MethodInvocation SimpleName serde instance
+set SimpleName MethodInvocation StringLiteral serde
+set SimpleName MethodInvocation SimpleName serde instance
+serde StringLiteral MethodInvocation SimpleName serde instance
+struct SimpleName SimpleType ClassInstanceCreation StringLiteral serde type
+serde instance SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName struct
+serde instance SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral serde type
+struct SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName serde instance
+serde StringLiteral InfixExpression StringLiteral -
+serde StringLiteral InfixExpression SimpleName uber index
+- StringLiteral InfixExpression SimpleName uber index
+serde instance SimpleName MethodInvocation SimpleName set
+serde instance SimpleName MethodInvocation StringLiteral name
+serde instance SimpleName MethodInvocation InfixExpression StringLiteral serde
+serde instance SimpleName MethodInvocation InfixExpression StringLiteral -
+serde instance SimpleName MethodInvocation InfixExpression SimpleName uber index
+set SimpleName MethodInvocation StringLiteral name
+set SimpleName MethodInvocation InfixExpression StringLiteral serde
+set SimpleName MethodInvocation InfixExpression StringLiteral -
+set SimpleName MethodInvocation InfixExpression SimpleName uber index
+name StringLiteral MethodInvocation InfixExpression StringLiteral serde
+name StringLiteral MethodInvocation InfixExpression StringLiteral -
+name StringLiteral MethodInvocation InfixExpression SimpleName uber index
+serde StringLiteral InfixExpression StringLiteral -
+serde StringLiteral InfixExpression SimpleName uber index
+- StringLiteral InfixExpression SimpleName uber index
+serde instance SimpleName MethodInvocation SimpleName set
+serde instance SimpleName MethodInvocation StringLiteral serde
+serde instance SimpleName MethodInvocation InfixExpression StringLiteral serde
+serde instance SimpleName MethodInvocation InfixExpression StringLiteral -
+serde instance SimpleName MethodInvocation InfixExpression SimpleName uber index
+set SimpleName MethodInvocation StringLiteral serde
+set SimpleName MethodInvocation InfixExpression StringLiteral serde
+set SimpleName MethodInvocation InfixExpression StringLiteral -
+set SimpleName MethodInvocation InfixExpression SimpleName uber index
+serde StringLiteral MethodInvocation InfixExpression StringLiteral serde
+serde StringLiteral MethodInvocation InfixExpression StringLiteral -
+serde StringLiteral MethodInvocation InfixExpression SimpleName uber index
+table instance SimpleName MethodInvocation SimpleName set
+table instance SimpleName MethodInvocation StringLiteral serde
+table instance SimpleName MethodInvocation SimpleName serde instance
+set SimpleName MethodInvocation StringLiteral serde
+set SimpleName MethodInvocation SimpleName serde instance
+serde StringLiteral MethodInvocation SimpleName serde instance
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName referenceable
+index SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName index
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+index SimpleName InfixExpression NumberLiteral empty
+referenceable SimpleName SimpleType ClassInstanceCreation StringLiteral column type
+column instance SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName referenceable
+column instance SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral column type
+referenceable SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName column instance
+column StringLiteral InfixExpression StringLiteral -
+column StringLiteral InfixExpression InfixExpression SimpleName uber index
+- StringLiteral InfixExpression InfixExpression SimpleName uber index
+column StringLiteral InfixExpression InfixExpression StringLiteral -
+- StringLiteral InfixExpression InfixExpression StringLiteral -
+column StringLiteral InfixExpression InfixExpression SimpleName index
+- StringLiteral InfixExpression InfixExpression SimpleName index
+uber index SimpleName InfixExpression StringLiteral -
+uber index SimpleName InfixExpression SimpleName index
+- StringLiteral InfixExpression SimpleName index
+column instance SimpleName MethodInvocation SimpleName set
+column instance SimpleName MethodInvocation StringLiteral name
+column instance SimpleName MethodInvocation InfixExpression InfixExpression StringLiteral column
+column instance SimpleName MethodInvocation InfixExpression InfixExpression StringLiteral -
+column instance SimpleName MethodInvocation InfixExpression SimpleName uber index
+column instance SimpleName MethodInvocation InfixExpression StringLiteral -
+column instance SimpleName MethodInvocation InfixExpression SimpleName index
+set SimpleName MethodInvocation StringLiteral name
+set SimpleName MethodInvocation InfixExpression InfixExpression StringLiteral column
+set SimpleName MethodInvocation InfixExpression InfixExpression StringLiteral -
+set SimpleName MethodInvocation InfixExpression SimpleName uber index
+set SimpleName MethodInvocation InfixExpression StringLiteral -
+set SimpleName MethodInvocation InfixExpression SimpleName index
+name StringLiteral MethodInvocation InfixExpression InfixExpression StringLiteral column
+name StringLiteral MethodInvocation InfixExpression InfixExpression StringLiteral -
+name StringLiteral MethodInvocation InfixExpression SimpleName uber index
+name StringLiteral MethodInvocation InfixExpression StringLiteral -
+name StringLiteral MethodInvocation InfixExpression SimpleName index
+column instance SimpleName MethodInvocation SimpleName set
+column instance SimpleName MethodInvocation StringLiteral type
+column instance SimpleName MethodInvocation StringLiteral string
+set SimpleName MethodInvocation StringLiteral type
+set SimpleName MethodInvocation StringLiteral string
+type StringLiteral MethodInvocation StringLiteral string
+columns SimpleName MethodInvocation SimpleName add
+columns SimpleName MethodInvocation SimpleName column instance
+add SimpleName MethodInvocation SimpleName column instance
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName index
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName index
+index SimpleName InfixExpression ForStatement PostfixExpression SimpleName index
+empty NumberLiteral InfixExpression ForStatement PostfixExpression SimpleName index
+table instance SimpleName MethodInvocation SimpleName set
+table instance SimpleName MethodInvocation StringLiteral columns
+table instance SimpleName MethodInvocation SimpleName columns
+set SimpleName MethodInvocation StringLiteral columns
+set SimpleName MethodInvocation SimpleName columns
+columns StringLiteral MethodInvocation SimpleName columns
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName struct
+index SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName index
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+index SimpleName InfixExpression NumberLiteral empty
+struct SimpleName SimpleType ClassInstanceCreation StringLiteral partition type
+partition instance SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName struct
+partition instance SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral partition type
+struct SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName partition instance
+partition StringLiteral InfixExpression StringLiteral -
+partition StringLiteral InfixExpression InfixExpression SimpleName uber index
+- StringLiteral InfixExpression InfixExpression SimpleName uber index
+partition StringLiteral InfixExpression InfixExpression StringLiteral -
+- StringLiteral InfixExpression InfixExpression StringLiteral -
+partition StringLiteral InfixExpression InfixExpression SimpleName index
+- StringLiteral InfixExpression InfixExpression SimpleName index
+uber index SimpleName InfixExpression StringLiteral -
+uber index SimpleName InfixExpression SimpleName index
+- StringLiteral InfixExpression SimpleName index
+partition instance SimpleName MethodInvocation SimpleName set
+partition instance SimpleName MethodInvocation StringLiteral name
+partition instance SimpleName MethodInvocation InfixExpression InfixExpression StringLiteral partition
+partition instance SimpleName MethodInvocation InfixExpression InfixExpression StringLiteral -
+partition instance SimpleName MethodInvocation InfixExpression SimpleName uber index
+partition instance SimpleName MethodInvocation InfixExpression StringLiteral -
+partition instance SimpleName MethodInvocation InfixExpression SimpleName index
+set SimpleName MethodInvocation StringLiteral name
+set SimpleName MethodInvocation InfixExpression InfixExpression StringLiteral partition
+set SimpleName MethodInvocation InfixExpression InfixExpression StringLiteral -
+set SimpleName MethodInvocation InfixExpression SimpleName uber index
+set SimpleName MethodInvocation InfixExpression StringLiteral -
+set SimpleName MethodInvocation InfixExpression SimpleName index
+name StringLiteral MethodInvocation InfixExpression InfixExpression StringLiteral partition
+name StringLiteral MethodInvocation InfixExpression InfixExpression StringLiteral -
+name StringLiteral MethodInvocation InfixExpression SimpleName uber index
+name StringLiteral MethodInvocation InfixExpression StringLiteral -
+name StringLiteral MethodInvocation InfixExpression SimpleName index
+partitions SimpleName MethodInvocation SimpleName add
+partitions SimpleName MethodInvocation SimpleName partition instance
+add SimpleName MethodInvocation SimpleName partition instance
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName index
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName index
+index SimpleName InfixExpression ForStatement PostfixExpression SimpleName index
+empty NumberLiteral InfixExpression ForStatement PostfixExpression SimpleName index
+table instance SimpleName MethodInvocation SimpleName set
+table instance SimpleName MethodInvocation StringLiteral partitions
+table instance SimpleName MethodInvocation SimpleName partitions
+set SimpleName MethodInvocation StringLiteral partitions
+set SimpleName MethodInvocation SimpleName partitions
+partitions StringLiteral MethodInvocation SimpleName partitions
+type system SimpleName MethodInvocation SimpleName get data type
+type system SimpleName MethodInvocation TypeLiteral SimpleType SimpleName class type
+type system SimpleName MethodInvocation QualifiedName test utilstable type
+get data type SimpleName MethodInvocation TypeLiteral SimpleType SimpleName class type
+get data type SimpleName MethodInvocation QualifiedName test utilstable type
+class type SimpleName SimpleType TypeLiteral MethodInvocation QualifiedName test utilstable type
+table type SimpleName VariableDeclarationFragment MethodInvocation SimpleName type system
+table type SimpleName VariableDeclarationFragment MethodInvocation SimpleName get data type
+table type SimpleName VariableDeclarationFragment MethodInvocation QualifiedName test utilstable type
+class type SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName table type
+table type SimpleName MethodInvocation SimpleName convert
+table type SimpleName MethodInvocation SimpleName table instance
+table type SimpleName MethodInvocation QualifiedName multiplicityrequired
+convert SimpleName MethodInvocation SimpleName table instance
+convert SimpleName MethodInvocation QualifiedName multiplicityrequired
+table instance SimpleName MethodInvocation QualifiedName multiplicityrequired
+private Modifier MethodDeclaration SimpleType SimpleName i typed referenceable instance
+private Modifier MethodDeclaration SimpleName create hive table instance
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName referenceable
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName database instance
+private Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName uber index
+private Modifier MethodDeclaration SimpleType SimpleName exception
+i typed referenceable instance SimpleName SimpleType MethodDeclaration SimpleName create hive table instance
+i typed referenceable instance SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName database instance
+i typed referenceable instance SimpleName SimpleType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+i typed referenceable instance SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName uber index
+i typed referenceable instance SimpleName SimpleType MethodDeclaration SimpleType SimpleName exception
+create hive table instance SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName referenceable
+create hive table instance SimpleName MethodDeclaration SingleVariableDeclaration SimpleName database instance
+create hive table instance SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+create hive table instance SimpleName MethodDeclaration SingleVariableDeclaration SimpleName uber index
+create hive table instance SimpleName MethodDeclaration SimpleType SimpleName exception
+database instance SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+database instance SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName uber index
+database instance SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+uber index SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName i typed referenceable instance
+public Modifier TypeDeclaration MethodDeclaration SimpleName create hive table instance
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName database instance
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName uber index
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName i typed referenceable instance
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create hive table instance
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName database instance
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName uber index
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

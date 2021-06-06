@@ -1,0 +1,30 @@
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas vertex
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas vertex
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+list SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName guids
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName guids
+get vertices for property values SimpleName MethodInvocation QualifiedName constantsguid property key
+get vertices for property values SimpleName MethodInvocation SimpleName guids
+constantsguid property key QualifiedName MethodInvocation SimpleName guids
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName map
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName atlas vertex
+public Modifier MethodDeclaration SimpleName get vertices for gui ds
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName guids
+public Modifier MethodDeclaration SimpleType SimpleName repository exception
+map SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get vertices for gui ds
+string SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get vertices for gui ds
+atlas vertex SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get vertices for gui ds
+get vertices for gui ds SimpleName MethodDeclaration SingleVariableDeclaration SimpleName guids
+get vertices for gui ds SimpleName MethodDeclaration SimpleType SimpleName repository exception
+guids SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName repository exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName get vertices for gui ds
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName guids
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName repository exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get vertices for gui ds
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName guids
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName repository exception

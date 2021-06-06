@@ -1,0 +1,31 @@
+referenceable SimpleName SimpleType SingleVariableDeclaration SimpleName table
+table SimpleName MethodInvocation SimpleName get trait
+table SimpleName MethodInvocation QualifiedName quick startfact trait
+get trait SimpleName MethodInvocation QualifiedName quick startfact trait
+assert not null SimpleName MethodInvocation MethodInvocation SimpleName table
+assert not null SimpleName MethodInvocation MethodInvocation SimpleName get trait
+assert not null SimpleName MethodInvocation MethodInvocation QualifiedName quick startfact trait
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName verify trait
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName referenceable
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName table
+private Modifier MethodDeclaration SimpleType SimpleName json exception
+void PrimitiveType MethodDeclaration SimpleName verify trait
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName referenceable
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName table
+void PrimitiveType MethodDeclaration SimpleType SimpleName json exception
+verify trait SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName referenceable
+verify trait SimpleName MethodDeclaration SingleVariableDeclaration SimpleName table
+verify trait SimpleName MethodDeclaration SimpleType SimpleName json exception
+table SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName json exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName verify trait
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName json exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName verify trait
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName json exception

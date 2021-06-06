@@ -1,0 +1,12 @@
+public Modifier MethodDeclaration SimpleType SimpleName atlas attribute
+public Modifier MethodDeclaration SimpleName get attribute
+public Modifier MethodDeclaration Block ReturnStatement SimpleName attribute
+atlas attribute SimpleName SimpleType MethodDeclaration SimpleName get attribute
+get attribute SimpleName MethodDeclaration Block ReturnStatement SimpleName attribute
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas attribute
+public Modifier TypeDeclaration MethodDeclaration SimpleName get attribute
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas attribute
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get attribute

@@ -1,0 +1,200 @@
+referenceable SimpleName SimpleType ClassInstanceCreation SimpleName database type
+database instance SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName referenceable
+database instance SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName database type
+referenceable SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName database instance
+db StringLiteral InfixExpression MethodInvocation SimpleName random string
+database instance SimpleName MethodInvocation SimpleName set
+database instance SimpleName MethodInvocation StringLiteral name
+database instance SimpleName MethodInvocation InfixExpression StringLiteral db
+database instance SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName random string
+set SimpleName MethodInvocation StringLiteral name
+set SimpleName MethodInvocation InfixExpression StringLiteral db
+set SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName random string
+name StringLiteral MethodInvocation InfixExpression StringLiteral db
+name StringLiteral MethodInvocation InfixExpression MethodInvocation SimpleName random string
+database instance SimpleName MethodInvocation SimpleName set
+database instance SimpleName MethodInvocation StringLiteral description
+database instance SimpleName MethodInvocation StringLiteral foo database
+set SimpleName MethodInvocation StringLiteral description
+set SimpleName MethodInvocation StringLiteral foo database
+description StringLiteral MethodInvocation StringLiteral foo database
+n tables SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName n tables
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+cols per table SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName cols per table
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName referenceable
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName referenceable
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+i SimpleName InfixExpression SimpleName n tables
+db table StringLiteral InfixExpression SimpleName i
+db table StringLiteral InfixExpression MethodInvocation SimpleName random string
+i SimpleName InfixExpression MethodInvocation SimpleName random string
+table name SimpleName VariableDeclarationFragment InfixExpression StringLiteral db table
+table name SimpleName VariableDeclarationFragment InfixExpression SimpleName i
+table name SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName random string
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName table name
+referenceable SimpleName SimpleType ClassInstanceCreation SimpleName hive table type
+table instance SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName referenceable
+table instance SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName hive table type
+referenceable SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName table instance
+table instance SimpleName MethodInvocation SimpleName set
+table instance SimpleName MethodInvocation StringLiteral name
+table instance SimpleName MethodInvocation SimpleName table name
+set SimpleName MethodInvocation StringLiteral name
+set SimpleName MethodInvocation SimpleName table name
+name StringLiteral MethodInvocation SimpleName table name
+table instance SimpleName MethodInvocation SimpleName set
+table instance SimpleName MethodInvocation QualifiedName atlas clientreferenceable attribute name
+table instance SimpleName MethodInvocation SimpleName table name
+set SimpleName MethodInvocation QualifiedName atlas clientreferenceable attribute name
+set SimpleName MethodInvocation SimpleName table name
+atlas clientreferenceable attribute name QualifiedName MethodInvocation SimpleName table name
+table instance SimpleName MethodInvocation SimpleName set
+table instance SimpleName MethodInvocation StringLiteral db
+table instance SimpleName MethodInvocation SimpleName database instance
+set SimpleName MethodInvocation StringLiteral db
+set SimpleName MethodInvocation SimpleName database instance
+db StringLiteral MethodInvocation SimpleName database instance
+table name SimpleName InfixExpression StringLiteral table
+table instance SimpleName MethodInvocation SimpleName set
+table instance SimpleName MethodInvocation StringLiteral description
+table instance SimpleName MethodInvocation InfixExpression SimpleName table name
+table instance SimpleName MethodInvocation InfixExpression StringLiteral table
+set SimpleName MethodInvocation StringLiteral description
+set SimpleName MethodInvocation InfixExpression SimpleName table name
+set SimpleName MethodInvocation InfixExpression StringLiteral table
+description StringLiteral MethodInvocation InfixExpression SimpleName table name
+description StringLiteral MethodInvocation InfixExpression StringLiteral table
+tables SimpleName MethodInvocation SimpleName add
+tables SimpleName MethodInvocation SimpleName table instance
+add SimpleName MethodInvocation SimpleName table instance
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName referenceable
+j SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName j
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+j SimpleName InfixExpression SimpleName cols per table
+referenceable SimpleName SimpleType ClassInstanceCreation SimpleName column type
+column instance SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName referenceable
+column instance SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName column type
+referenceable SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName column instance
+table name SimpleName InfixExpression StringLiteral col
+table name SimpleName InfixExpression SimpleName j
+table name SimpleName InfixExpression MethodInvocation SimpleName random string
+col StringLiteral InfixExpression SimpleName j
+col StringLiteral InfixExpression MethodInvocation SimpleName random string
+j SimpleName InfixExpression MethodInvocation SimpleName random string
+column instance SimpleName MethodInvocation SimpleName set
+column instance SimpleName MethodInvocation StringLiteral name
+column instance SimpleName MethodInvocation InfixExpression SimpleName table name
+column instance SimpleName MethodInvocation InfixExpression StringLiteral col
+column instance SimpleName MethodInvocation InfixExpression SimpleName j
+column instance SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName random string
+set SimpleName MethodInvocation StringLiteral name
+set SimpleName MethodInvocation InfixExpression SimpleName table name
+set SimpleName MethodInvocation InfixExpression StringLiteral col
+set SimpleName MethodInvocation InfixExpression SimpleName j
+set SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName random string
+name StringLiteral MethodInvocation InfixExpression SimpleName table name
+name StringLiteral MethodInvocation InfixExpression StringLiteral col
+name StringLiteral MethodInvocation InfixExpression SimpleName j
+name StringLiteral MethodInvocation InfixExpression MethodInvocation SimpleName random string
+column instance SimpleName MethodInvocation SimpleName set
+column instance SimpleName MethodInvocation StringLiteral data type
+column instance SimpleName MethodInvocation StringLiteral string
+set SimpleName MethodInvocation StringLiteral data type
+set SimpleName MethodInvocation StringLiteral string
+data type StringLiteral MethodInvocation StringLiteral string
+column StringLiteral InfixExpression SimpleName j
+column StringLiteral InfixExpression StringLiteral for table
+column StringLiteral InfixExpression SimpleName i
+j SimpleName InfixExpression StringLiteral for table
+j SimpleName InfixExpression SimpleName i
+for table StringLiteral InfixExpression SimpleName i
+column instance SimpleName MethodInvocation SimpleName set
+column instance SimpleName MethodInvocation StringLiteral comment
+column instance SimpleName MethodInvocation InfixExpression StringLiteral column
+column instance SimpleName MethodInvocation InfixExpression SimpleName j
+column instance SimpleName MethodInvocation InfixExpression StringLiteral for table
+column instance SimpleName MethodInvocation InfixExpression SimpleName i
+set SimpleName MethodInvocation StringLiteral comment
+set SimpleName MethodInvocation InfixExpression StringLiteral column
+set SimpleName MethodInvocation InfixExpression SimpleName j
+set SimpleName MethodInvocation InfixExpression StringLiteral for table
+set SimpleName MethodInvocation InfixExpression SimpleName i
+comment StringLiteral MethodInvocation InfixExpression StringLiteral column
+comment StringLiteral MethodInvocation InfixExpression SimpleName j
+comment StringLiteral MethodInvocation InfixExpression StringLiteral for table
+comment StringLiteral MethodInvocation InfixExpression SimpleName i
+all columns SimpleName MethodInvocation SimpleName add
+all columns SimpleName MethodInvocation SimpleName column instance
+add SimpleName MethodInvocation SimpleName column instance
+columns SimpleName MethodInvocation SimpleName add
+columns SimpleName MethodInvocation SimpleName column instance
+add SimpleName MethodInvocation SimpleName column instance
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName j
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName cols per table
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName j
+j SimpleName InfixExpression ForStatement PostfixExpression SimpleName j
+cols per table SimpleName InfixExpression ForStatement PostfixExpression SimpleName j
+table instance SimpleName MethodInvocation SimpleName set
+table instance SimpleName MethodInvocation StringLiteral columns
+table instance SimpleName MethodInvocation SimpleName columns
+set SimpleName MethodInvocation StringLiteral columns
+set SimpleName MethodInvocation SimpleName columns
+columns StringLiteral MethodInvocation SimpleName columns
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName n tables
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+n tables SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+atlas client v SimpleName MethodInvocation SimpleName create entity
+atlas client v SimpleName MethodInvocation SimpleName tables
+create entity SimpleName MethodInvocation SimpleName tables
+entity gui ds SimpleName VariableDeclarationFragment MethodInvocation SimpleName atlas client v
+entity gui ds SimpleName VariableDeclarationFragment MethodInvocation SimpleName create entity
+entity gui ds SimpleName VariableDeclarationFragment MethodInvocation SimpleName tables
+assert not null SimpleName MethodInvocation SimpleName entity gui ds
+entity gui ds SimpleName MethodInvocation SimpleName size
+cols per table SimpleName InfixExpression NumberLiteral empty
+n tables SimpleName InfixExpression ParenthesizedExpression InfixExpression SimpleName cols per table
+n tables SimpleName InfixExpression ParenthesizedExpression InfixExpression NumberLiteral empty
+n tables SimpleName InfixExpression InfixExpression NumberLiteral empty
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName entity gui ds
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName size
+assert equals SimpleName MethodInvocation InfixExpression InfixExpression SimpleName n tables
+assert equals SimpleName MethodInvocation InfixExpression NumberLiteral empty
+entity gui ds SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral empty
+size SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test create nested entities
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test create nested entities
+public Modifier MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+void PrimitiveType MethodDeclaration SimpleName test create nested entities
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+test create nested entities SimpleName MethodDeclaration SimpleType SimpleName exception
+test create nested entities SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+test create nested entities SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test create nested entities
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test create nested entities
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

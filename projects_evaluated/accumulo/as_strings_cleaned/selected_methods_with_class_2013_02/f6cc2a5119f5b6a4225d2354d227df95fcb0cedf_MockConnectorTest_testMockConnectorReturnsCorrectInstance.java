@@ -1,0 +1,76 @@
+name SimpleName VariableDeclarationFragment StringLiteral aninterestinginstancename
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral aninterestinginstancename
+mock instance SimpleName SimpleType ClassInstanceCreation SimpleName name
+mock instance SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName mock instance
+mock instance SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName name
+instance SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName mock instance
+mock instance SimpleName MethodInvocation SimpleName get connector
+mock instance SimpleName MethodInvocation StringLiteral foo
+mock instance SimpleName MethodInvocation StringLiteral bar
+get connector SimpleName MethodInvocation StringLiteral foo
+get connector SimpleName MethodInvocation StringLiteral bar
+foo StringLiteral MethodInvocation StringLiteral bar
+mock instance SimpleName MethodInvocation MethodInvocation SimpleName get instance
+get connector SimpleName MethodInvocation MethodInvocation SimpleName get instance
+foo StringLiteral MethodInvocation MethodInvocation SimpleName get instance
+bar StringLiteral MethodInvocation MethodInvocation SimpleName get instance
+assert equals SimpleName MethodInvocation SimpleName mock instance
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName mock instance
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get connector
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral foo
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral bar
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get instance
+mock instance SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName mock instance
+mock instance SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get connector
+mock instance SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral foo
+mock instance SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral bar
+mock instance SimpleName MethodInvocation MethodInvocation SimpleName get instance
+mock instance SimpleName MethodInvocation SimpleName get connector
+mock instance SimpleName MethodInvocation StringLiteral foo
+mock instance SimpleName MethodInvocation StringLiteral bar
+get connector SimpleName MethodInvocation StringLiteral foo
+get connector SimpleName MethodInvocation StringLiteral bar
+foo StringLiteral MethodInvocation StringLiteral bar
+mock instance SimpleName MethodInvocation MethodInvocation SimpleName get instance
+get connector SimpleName MethodInvocation MethodInvocation SimpleName get instance
+foo StringLiteral MethodInvocation MethodInvocation SimpleName get instance
+bar StringLiteral MethodInvocation MethodInvocation SimpleName get instance
+mock instance SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get instance name
+get connector SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get instance name
+foo StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName get instance name
+bar StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName get instance name
+get instance SimpleName MethodInvocation MethodInvocation SimpleName get instance name
+assert equals SimpleName MethodInvocation SimpleName name
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get instance
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get instance name
+name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get instance
+name SimpleName MethodInvocation MethodInvocation SimpleName get instance name
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test mock connector returns correct instance
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName accumulo exception
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName accumulo security exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test mock connector returns correct instance
+public Modifier MethodDeclaration SimpleType SimpleName accumulo exception
+public Modifier MethodDeclaration SimpleType SimpleName accumulo security exception
+void PrimitiveType MethodDeclaration SimpleName test mock connector returns correct instance
+void PrimitiveType MethodDeclaration SimpleType SimpleName accumulo exception
+void PrimitiveType MethodDeclaration SimpleType SimpleName accumulo security exception
+test mock connector returns correct instance SimpleName MethodDeclaration SimpleType SimpleName accumulo exception
+test mock connector returns correct instance SimpleName MethodDeclaration SimpleType SimpleName accumulo security exception
+accumulo exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName accumulo security exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test mock connector returns correct instance
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test mock connector returns correct instance
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception

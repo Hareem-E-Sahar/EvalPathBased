@@ -1,0 +1,96 @@
+referenceable SimpleName SimpleType SingleVariableDeclaration SimpleName ref
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName id
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName referenceable
+id SimpleName SimpleType ParameterizedType SimpleType SimpleName referenceable
+map SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName seen
+id SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName seen
+referenceable SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName seen
+ref SimpleName MethodInvocation SimpleName get id
+guid SimpleName VariableDeclarationFragment MethodInvocation SimpleName ref
+guid SimpleName VariableDeclarationFragment MethodInvocation SimpleName get id
+id SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName guid
+seen SimpleName MethodInvocation SimpleName contains key
+seen SimpleName MethodInvocation SimpleName guid
+contains key SimpleName MethodInvocation SimpleName guid
+seen SimpleName MethodInvocation SimpleName put
+seen SimpleName MethodInvocation SimpleName guid
+seen SimpleName MethodInvocation SimpleName ref
+put SimpleName MethodInvocation SimpleName guid
+put SimpleName MethodInvocation SimpleName ref
+guid SimpleName MethodInvocation SimpleName ref
+mapentry QualifiedName SimpleType ParameterizedType SimpleType SimpleName string
+mapentry QualifiedName SimpleType ParameterizedType SimpleType SimpleName object
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+mapentry QualifiedName SimpleType ParameterizedType SingleVariableDeclaration SimpleName attr
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName attr
+object SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName attr
+ref SimpleName MethodInvocation SimpleName get values map
+ref SimpleName MethodInvocation MethodInvocation SimpleName entry set
+get values map SimpleName MethodInvocation MethodInvocation SimpleName entry set
+attr SimpleName MethodInvocation SimpleName get value
+value SimpleName VariableDeclarationFragment MethodInvocation SimpleName attr
+value SimpleName VariableDeclarationFragment MethodInvocation SimpleName get value
+object SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName value
+value SimpleName InstanceofExpression SimpleType SimpleName referenceable
+referenceable SimpleName SimpleType CastExpression SimpleName value
+find referenced objects SimpleName MethodInvocation CastExpression SimpleType SimpleName referenceable
+find referenced objects SimpleName MethodInvocation CastExpression SimpleName value
+find referenced objects SimpleName MethodInvocation SimpleName seen
+referenceable SimpleName SimpleType CastExpression MethodInvocation SimpleName seen
+value SimpleName CastExpression MethodInvocation SimpleName seen
+value SimpleName InstanceofExpression SimpleType SimpleName list
+object SimpleName SimpleType SingleVariableDeclaration SimpleName o
+list SimpleName SimpleType CastExpression SimpleName value
+o SimpleName InstanceofExpression SimpleType SimpleName referenceable
+referenceable SimpleName SimpleType CastExpression SimpleName o
+find referenced objects SimpleName MethodInvocation CastExpression SimpleType SimpleName referenceable
+find referenced objects SimpleName MethodInvocation CastExpression SimpleName o
+find referenced objects SimpleName MethodInvocation SimpleName seen
+referenceable SimpleName SimpleType CastExpression MethodInvocation SimpleName seen
+o SimpleName CastExpression MethodInvocation SimpleName seen
+o SimpleName SingleVariableDeclaration EnhancedForStatement CastExpression SimpleName value
+value SimpleName InstanceofExpression SimpleType SimpleName map
+object SimpleName SimpleType SingleVariableDeclaration SimpleName o
+map SimpleName SimpleType CastExpression SimpleName value
+value SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName values
+o SimpleName InstanceofExpression SimpleType SimpleName referenceable
+referenceable SimpleName SimpleType CastExpression SimpleName o
+find referenced objects SimpleName MethodInvocation CastExpression SimpleType SimpleName referenceable
+find referenced objects SimpleName MethodInvocation CastExpression SimpleName o
+find referenced objects SimpleName MethodInvocation SimpleName seen
+referenceable SimpleName SimpleType CastExpression MethodInvocation SimpleName seen
+o SimpleName CastExpression MethodInvocation SimpleName seen
+o SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName values
+attr SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName entry set
+private Modifier MethodDeclaration Modifier static
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName find referenced objects
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName referenceable
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName ref
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName seen
+static Modifier MethodDeclaration PrimitiveType void
+static Modifier MethodDeclaration SimpleName find referenced objects
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName referenceable
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName ref
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName seen
+void PrimitiveType MethodDeclaration SimpleName find referenced objects
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName referenceable
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName ref
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName seen
+find referenced objects SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName referenceable
+find referenced objects SimpleName MethodDeclaration SingleVariableDeclaration SimpleName ref
+find referenced objects SimpleName MethodDeclaration SingleVariableDeclaration SimpleName seen
+ref SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName seen
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName find referenced objects
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ref
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName seen
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName find referenced objects
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ref
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName seen

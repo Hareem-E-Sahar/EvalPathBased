@@ -1,0 +1,155 @@
+static buffer SimpleName SimpleType SingleVariableDeclaration SimpleName key
+static buffer SimpleName SimpleType SingleVariableDeclaration SimpleName column
+static buffer SimpleName SimpleType SingleVariableDeclaration SimpleName expected value
+store transaction SimpleName SimpleType SingleVariableDeclaration SimpleName txh
+key column SimpleName SimpleType ClassInstanceCreation SimpleName key
+key column SimpleName SimpleType ClassInstanceCreation SimpleName column
+key SimpleName ClassInstanceCreation SimpleName column
+lock id SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName key column
+lock id SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName key
+lock id SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName column
+key column SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName lock id
+logger SimpleName MethodInvocation SimpleName debug
+logger SimpleName MethodInvocation StringLiteral attempting to acquire lock on {}
+logger SimpleName MethodInvocation SimpleName lock id
+debug SimpleName MethodInvocation StringLiteral attempting to acquire lock on {}
+debug SimpleName MethodInvocation SimpleName lock id
+attempting to acquire lock on {} StringLiteral MethodInvocation SimpleName lock id
+trial count SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName trial count
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName locked
+trial count SimpleName InfixExpression SimpleName lock max retries
+system SimpleName MethodInvocation SimpleName current time millis
+timestampsmilli QualifiedName MethodInvocation SimpleName get time
+timestampsmilli QualifiedName MethodInvocation MethodInvocation SimpleName system
+timestampsmilli QualifiedName MethodInvocation MethodInvocation SimpleName current time millis
+timestampsmilli QualifiedName MethodInvocation QualifiedName time unitmilliseconds
+get time SimpleName MethodInvocation MethodInvocation SimpleName system
+get time SimpleName MethodInvocation MethodInvocation SimpleName current time millis
+get time SimpleName MethodInvocation QualifiedName time unitmilliseconds
+system SimpleName MethodInvocation MethodInvocation QualifiedName time unitmilliseconds
+current time millis SimpleName MethodInvocation MethodInvocation QualifiedName time unitmilliseconds
+lock start time SimpleName VariableDeclarationFragment MethodInvocation QualifiedName timestampsmilli
+lock start time SimpleName VariableDeclarationFragment MethodInvocation SimpleName get time
+lock start time SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName system
+lock start time SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName current time millis
+lock start time SimpleName VariableDeclarationFragment MethodInvocation QualifiedName time unitmilliseconds
+final Modifier VariableDeclarationStatement SimpleType SimpleName timepoint
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName lock start time
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation QualifiedName timestampsmilli
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get time
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation QualifiedName time unitmilliseconds
+timepoint SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName lock start time
+lock start time SimpleName MethodInvocation SimpleName add
+lock start time SimpleName MethodInvocation SimpleName lock expiry time ms
+add SimpleName MethodInvocation SimpleName lock expiry time ms
+local lock mediator SimpleName MethodInvocation SimpleName lock
+local lock mediator SimpleName MethodInvocation SimpleName lock id
+local lock mediator SimpleName MethodInvocation SimpleName txh
+local lock mediator SimpleName MethodInvocation MethodInvocation SimpleName lock start time
+local lock mediator SimpleName MethodInvocation MethodInvocation SimpleName add
+local lock mediator SimpleName MethodInvocation MethodInvocation SimpleName lock expiry time ms
+lock SimpleName MethodInvocation SimpleName lock id
+lock SimpleName MethodInvocation SimpleName txh
+lock SimpleName MethodInvocation MethodInvocation SimpleName lock start time
+lock SimpleName MethodInvocation MethodInvocation SimpleName add
+lock SimpleName MethodInvocation MethodInvocation SimpleName lock expiry time ms
+lock id SimpleName MethodInvocation SimpleName txh
+lock id SimpleName MethodInvocation MethodInvocation SimpleName lock start time
+lock id SimpleName MethodInvocation MethodInvocation SimpleName add
+lock id SimpleName MethodInvocation MethodInvocation SimpleName lock expiry time ms
+txh SimpleName MethodInvocation MethodInvocation SimpleName lock start time
+txh SimpleName MethodInvocation MethodInvocation SimpleName add
+txh SimpleName MethodInvocation MethodInvocation SimpleName lock expiry time ms
+locked SimpleName Assignment MethodInvocation SimpleName local lock mediator
+locked SimpleName Assignment MethodInvocation SimpleName lock
+locked SimpleName Assignment MethodInvocation SimpleName lock id
+locked SimpleName Assignment MethodInvocation SimpleName txh
+locked SimpleName Assignment MethodInvocation MethodInvocation SimpleName lock start time
+locked SimpleName Assignment MethodInvocation MethodInvocation SimpleName add
+locked SimpleName Assignment MethodInvocation MethodInvocation SimpleName lock expiry time ms
+handle lock failure SimpleName MethodInvocation SimpleName txh
+handle lock failure SimpleName MethodInvocation SimpleName lock id
+handle lock failure SimpleName MethodInvocation SimpleName trial count
+txh SimpleName MethodInvocation SimpleName lock id
+txh SimpleName MethodInvocation SimpleName trial count
+lock id SimpleName MethodInvocation SimpleName trial count
+logger SimpleName MethodInvocation SimpleName debug
+logger SimpleName MethodInvocation StringLiteral acquired lock on {} {}
+logger SimpleName MethodInvocation SimpleName lock id
+logger SimpleName MethodInvocation SimpleName txh
+debug SimpleName MethodInvocation StringLiteral acquired lock on {} {}
+debug SimpleName MethodInvocation SimpleName lock id
+debug SimpleName MethodInvocation SimpleName txh
+acquired lock on {} {} StringLiteral MethodInvocation SimpleName lock id
+acquired lock on {} {} StringLiteral MethodInvocation SimpleName txh
+lock id SimpleName MethodInvocation SimpleName txh
+h base transaction SimpleName SimpleType CastExpression SimpleName txh
+txh SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName update locks
+txh SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName lock id
+txh SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName expected value
+update locks SimpleName MethodInvocation SimpleName lock id
+update locks SimpleName MethodInvocation SimpleName expected value
+lock id SimpleName MethodInvocation SimpleName expected value
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType boolean
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName acquire lock
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName key
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName column
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName acquire lock
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName static buffer
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName key
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName static buffer
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName column
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName static buffer
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName expected value
+void PrimitiveType MethodDeclaration SimpleName acquire lock
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName static buffer
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName key
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName static buffer
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName column
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName static buffer
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName expected value
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName store transaction
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName txh
+acquire lock SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName static buffer
+acquire lock SimpleName MethodDeclaration SingleVariableDeclaration SimpleName key
+acquire lock SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName static buffer
+acquire lock SimpleName MethodDeclaration SingleVariableDeclaration SimpleName column
+acquire lock SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName static buffer
+acquire lock SimpleName MethodDeclaration SingleVariableDeclaration SimpleName expected value
+acquire lock SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName store transaction
+acquire lock SimpleName MethodDeclaration SingleVariableDeclaration SimpleName txh
+acquire lock SimpleName MethodDeclaration SimpleType SimpleName backend exception
+key SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName column
+key SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName expected value
+key SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName txh
+key SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName backend exception
+column SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName expected value
+column SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName txh
+column SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName backend exception
+expected value SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName txh
+expected value SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName backend exception
+txh SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName backend exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName acquire lock
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName key
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName column
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName expected value
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName txh
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName backend exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName acquire lock
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName key
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName column
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName expected value
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName txh
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName backend exception

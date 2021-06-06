@@ -1,0 +1,112 @@
+management SimpleName MethodInvocation SimpleName contains property key
+management SimpleName MethodInvocation QualifiedName constantsvertex type property key
+contains property key SimpleName MethodInvocation QualifiedName constantsvertex type property key
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation StringLiteral global indexes already exist for graph
+info SimpleName MethodInvocation StringLiteral global indexes already exist for graph
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation StringLiteral indexes do not exist creating indexes for titan graph
+info SimpleName MethodInvocation StringLiteral indexes do not exist creating indexes for titan graph
+management SimpleName MethodInvocation SimpleName build index
+management SimpleName MethodInvocation QualifiedName constantsvertex index
+management SimpleName MethodInvocation TypeLiteral SimpleType SimpleName vertex
+build index SimpleName MethodInvocation QualifiedName constantsvertex index
+build index SimpleName MethodInvocation TypeLiteral SimpleType SimpleName vertex
+constantsvertex index QualifiedName MethodInvocation TypeLiteral SimpleType SimpleName vertex
+management SimpleName MethodInvocation MethodInvocation SimpleName build mixed index
+build index SimpleName MethodInvocation MethodInvocation SimpleName build mixed index
+constantsvertex index QualifiedName MethodInvocation MethodInvocation SimpleName build mixed index
+management SimpleName MethodInvocation MethodInvocation QualifiedName constantsbacking index
+build index SimpleName MethodInvocation MethodInvocation QualifiedName constantsbacking index
+constantsvertex index QualifiedName MethodInvocation MethodInvocation QualifiedName constantsbacking index
+build mixed index SimpleName MethodInvocation QualifiedName constantsbacking index
+management SimpleName MethodInvocation SimpleName build index
+management SimpleName MethodInvocation QualifiedName constantsedge index
+management SimpleName MethodInvocation TypeLiteral SimpleType SimpleName edge
+build index SimpleName MethodInvocation QualifiedName constantsedge index
+build index SimpleName MethodInvocation TypeLiteral SimpleType SimpleName edge
+constantsedge index QualifiedName MethodInvocation TypeLiteral SimpleType SimpleName edge
+management SimpleName MethodInvocation MethodInvocation SimpleName build mixed index
+build index SimpleName MethodInvocation MethodInvocation SimpleName build mixed index
+constantsedge index QualifiedName MethodInvocation MethodInvocation SimpleName build mixed index
+management SimpleName MethodInvocation MethodInvocation QualifiedName constantsbacking index
+build index SimpleName MethodInvocation MethodInvocation QualifiedName constantsbacking index
+constantsedge index QualifiedName MethodInvocation MethodInvocation QualifiedName constantsbacking index
+build mixed index SimpleName MethodInvocation QualifiedName constantsbacking index
+create composite and mixed index SimpleName MethodInvocation QualifiedName constantsguid property key
+create composite and mixed index SimpleName MethodInvocation TypeLiteral SimpleType SimpleName string
+create composite and mixed index SimpleName MethodInvocation BooleanLiteral true
+create composite and mixed index SimpleName MethodInvocation QualifiedName cardinalitysingle
+create composite and mixed index SimpleName MethodInvocation BooleanLiteral true
+constantsguid property key QualifiedName MethodInvocation TypeLiteral SimpleType SimpleName string
+constantsguid property key QualifiedName MethodInvocation BooleanLiteral true
+constantsguid property key QualifiedName MethodInvocation QualifiedName cardinalitysingle
+constantsguid property key QualifiedName MethodInvocation BooleanLiteral true
+string SimpleName SimpleType TypeLiteral MethodInvocation BooleanLiteral true
+string SimpleName SimpleType TypeLiteral MethodInvocation QualifiedName cardinalitysingle
+string SimpleName SimpleType TypeLiteral MethodInvocation BooleanLiteral true
+true BooleanLiteral MethodInvocation QualifiedName cardinalitysingle
+true BooleanLiteral MethodInvocation BooleanLiteral true
+cardinalitysingle QualifiedName MethodInvocation BooleanLiteral true
+create composite and mixed index SimpleName MethodInvocation QualifiedName constantsentity type property key
+create composite and mixed index SimpleName MethodInvocation TypeLiteral SimpleType SimpleName string
+create composite and mixed index SimpleName MethodInvocation BooleanLiteral false
+create composite and mixed index SimpleName MethodInvocation QualifiedName cardinalitysingle
+create composite and mixed index SimpleName MethodInvocation BooleanLiteral true
+constantsentity type property key QualifiedName MethodInvocation TypeLiteral SimpleType SimpleName string
+constantsentity type property key QualifiedName MethodInvocation BooleanLiteral false
+constantsentity type property key QualifiedName MethodInvocation QualifiedName cardinalitysingle
+constantsentity type property key QualifiedName MethodInvocation BooleanLiteral true
+string SimpleName SimpleType TypeLiteral MethodInvocation BooleanLiteral false
+string SimpleName SimpleType TypeLiteral MethodInvocation QualifiedName cardinalitysingle
+string SimpleName SimpleType TypeLiteral MethodInvocation BooleanLiteral true
+false BooleanLiteral MethodInvocation QualifiedName cardinalitysingle
+false BooleanLiteral MethodInvocation BooleanLiteral true
+cardinalitysingle QualifiedName MethodInvocation BooleanLiteral true
+create composite and mixed index SimpleName MethodInvocation QualifiedName constantssuper types property key
+create composite and mixed index SimpleName MethodInvocation TypeLiteral SimpleType SimpleName string
+create composite and mixed index SimpleName MethodInvocation BooleanLiteral false
+create composite and mixed index SimpleName MethodInvocation QualifiedName cardinalityset
+create composite and mixed index SimpleName MethodInvocation BooleanLiteral true
+constantssuper types property key QualifiedName MethodInvocation TypeLiteral SimpleType SimpleName string
+constantssuper types property key QualifiedName MethodInvocation BooleanLiteral false
+constantssuper types property key QualifiedName MethodInvocation QualifiedName cardinalityset
+constantssuper types property key QualifiedName MethodInvocation BooleanLiteral true
+string SimpleName SimpleType TypeLiteral MethodInvocation BooleanLiteral false
+string SimpleName SimpleType TypeLiteral MethodInvocation QualifiedName cardinalityset
+string SimpleName SimpleType TypeLiteral MethodInvocation BooleanLiteral true
+false BooleanLiteral MethodInvocation QualifiedName cardinalityset
+false BooleanLiteral MethodInvocation BooleanLiteral true
+cardinalityset QualifiedName MethodInvocation BooleanLiteral true
+create composite and mixed index SimpleName MethodInvocation QualifiedName constantstrait names property key
+create composite and mixed index SimpleName MethodInvocation TypeLiteral SimpleType SimpleName string
+create composite and mixed index SimpleName MethodInvocation BooleanLiteral false
+create composite and mixed index SimpleName MethodInvocation QualifiedName cardinalityset
+create composite and mixed index SimpleName MethodInvocation BooleanLiteral true
+constantstrait names property key QualifiedName MethodInvocation TypeLiteral SimpleType SimpleName string
+constantstrait names property key QualifiedName MethodInvocation BooleanLiteral false
+constantstrait names property key QualifiedName MethodInvocation QualifiedName cardinalityset
+constantstrait names property key QualifiedName MethodInvocation BooleanLiteral true
+string SimpleName SimpleType TypeLiteral MethodInvocation BooleanLiteral false
+string SimpleName SimpleType TypeLiteral MethodInvocation QualifiedName cardinalityset
+string SimpleName SimpleType TypeLiteral MethodInvocation BooleanLiteral true
+false BooleanLiteral MethodInvocation QualifiedName cardinalityset
+false BooleanLiteral MethodInvocation BooleanLiteral true
+cardinalityset QualifiedName MethodInvocation BooleanLiteral true
+management SimpleName MethodInvocation SimpleName commit
+titan graph SimpleName MethodInvocation SimpleName get management system
+management SimpleName Assignment MethodInvocation SimpleName titan graph
+management SimpleName Assignment MethodInvocation SimpleName get management system
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation StringLiteral index creation for global keys complete
+info SimpleName MethodInvocation StringLiteral index creation for global keys complete
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName initialize
+void PrimitiveType MethodDeclaration SimpleName initialize
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName initialize
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName initialize

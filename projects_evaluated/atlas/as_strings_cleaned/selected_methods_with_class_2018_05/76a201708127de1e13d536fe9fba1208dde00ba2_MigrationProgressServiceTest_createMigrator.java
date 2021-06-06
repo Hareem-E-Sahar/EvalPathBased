@@ -1,0 +1,39 @@
+tinker graph SimpleName SimpleType SingleVariableDeclaration SimpleName tg
+mock SimpleName MethodInvocation TypeLiteral SimpleType SimpleName graph db migrator
+gdm SimpleName VariableDeclarationFragment MethodInvocation SimpleName mock
+graph db migrator SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName gdm
+gdm SimpleName MethodInvocation SimpleName get migration status
+when SimpleName MethodInvocation MethodInvocation SimpleName gdm
+when SimpleName MethodInvocation MethodInvocation SimpleName get migration status
+reader status manager SimpleName MethodInvocation SimpleName get
+reader status manager SimpleName MethodInvocation SimpleName tg
+get SimpleName MethodInvocation SimpleName tg
+invocation SimpleName VariableDeclarationFragment LambdaExpression MethodInvocation SimpleName reader status manager
+invocation SimpleName VariableDeclarationFragment LambdaExpression MethodInvocation SimpleName get
+invocation SimpleName VariableDeclarationFragment LambdaExpression MethodInvocation SimpleName tg
+when SimpleName MethodInvocation MethodInvocation SimpleName then answer
+gdm SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then answer
+get migration status SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then answer
+then answer SimpleName MethodInvocation LambdaExpression VariableDeclarationFragment SimpleName invocation
+then answer SimpleName MethodInvocation LambdaExpression MethodInvocation SimpleName reader status manager
+then answer SimpleName MethodInvocation LambdaExpression MethodInvocation SimpleName get
+then answer SimpleName MethodInvocation LambdaExpression MethodInvocation SimpleName tg
+private Modifier MethodDeclaration SimpleType SimpleName graph db migrator
+private Modifier MethodDeclaration SimpleName create migrator
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName tinker graph
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName tg
+private Modifier MethodDeclaration Block ReturnStatement SimpleName gdm
+graph db migrator SimpleName SimpleType MethodDeclaration SimpleName create migrator
+graph db migrator SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName tg
+create migrator SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName tinker graph
+create migrator SimpleName MethodDeclaration SingleVariableDeclaration SimpleName tg
+create migrator SimpleName MethodDeclaration Block ReturnStatement SimpleName gdm
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName graph db migrator
+public Modifier TypeDeclaration MethodDeclaration SimpleName create migrator
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName tg
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName graph db migrator
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create migrator
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName tg

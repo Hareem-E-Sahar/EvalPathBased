@@ -1,0 +1,35 @@
+edge SimpleName SimpleType SingleVariableDeclaration SimpleName edge
+graph helper SimpleName MethodInvocation SimpleName remove edge
+graph helper SimpleName MethodInvocation SimpleName edge
+remove edge SimpleName MethodInvocation SimpleName edge
+override SimpleName MarkerAnnotation MethodDeclaration Modifier protected
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName delete edge
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName edge
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName atlas exception
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName delete edge
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName edge
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName edge
+protected Modifier MethodDeclaration SimpleType SimpleName atlas exception
+void PrimitiveType MethodDeclaration SimpleName delete edge
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName edge
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName edge
+void PrimitiveType MethodDeclaration SimpleType SimpleName atlas exception
+delete edge SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName edge
+delete edge SimpleName MethodDeclaration SingleVariableDeclaration SimpleName edge
+delete edge SimpleName MethodDeclaration SimpleType SimpleName atlas exception
+edge SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName delete edge
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName edge
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName delete edge
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName edge
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception

@@ -1,0 +1,59 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName entity
+string SimpleName SimpleType SingleVariableDeclaration SimpleName input name
+entitytype QualifiedName SimpleType SingleVariableDeclaration SimpleName entity type
+entity SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName read entity
+final Modifier VariableDeclarationStatement SimpleType SimpleName read entity
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName entity
+read entity SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName entity
+entitytypedfs dir QualifiedName MethodInvocation SimpleName equals
+entitytypedfs dir QualifiedName MethodInvocation SimpleName entity type
+equals SimpleName MethodInvocation SimpleName entity type
+path SimpleName SimpleType ClassInstanceCreation SimpleName input name
+path SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName to string
+input name SimpleName ClassInstanceCreation MethodInvocation SimpleName to string
+lower SimpleName MethodInvocation MethodInvocation ClassInstanceCreation SimpleName input name
+lower SimpleName MethodInvocation MethodInvocation SimpleName to string
+entity SimpleName MethodInvocation SimpleName set name
+entity SimpleName MethodInvocation MethodInvocation SimpleName lower
+entity SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to string
+set name SimpleName MethodInvocation MethodInvocation SimpleName lower
+set name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to string
+entity SimpleName MethodInvocation SimpleName set typ
+entity SimpleName MethodInvocation QualifiedName entitytypedfs dir
+set typ SimpleName MethodInvocation QualifiedName entitytypedfs dir
+get qualified tbl name SimpleName MethodInvocation SimpleName input name
+entity SimpleName MethodInvocation SimpleName set name
+entity SimpleName MethodInvocation MethodInvocation SimpleName get qualified tbl name
+entity SimpleName MethodInvocation MethodInvocation SimpleName input name
+set name SimpleName MethodInvocation MethodInvocation SimpleName get qualified tbl name
+set name SimpleName MethodInvocation MethodInvocation SimpleName input name
+entity SimpleName MethodInvocation SimpleName set typ
+entity SimpleName MethodInvocation QualifiedName entitytypetable
+set typ SimpleName MethodInvocation QualifiedName entitytypetable
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName entity
+add SimpleName MethodInvocation SimpleName entity
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName entity
+private Modifier MethodDeclaration SimpleName get inputs
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName input name
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType QualifiedName entitytype
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName entity type
+private Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+list SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get inputs
+entity SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get inputs
+get inputs SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get inputs SimpleName MethodDeclaration SingleVariableDeclaration SimpleName input name
+get inputs SimpleName MethodDeclaration SingleVariableDeclaration SimpleType QualifiedName entitytype
+get inputs SimpleName MethodDeclaration SingleVariableDeclaration SimpleName entity type
+get inputs SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+input name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity type
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleName get inputs
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName input name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity type
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get inputs
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName input name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity type

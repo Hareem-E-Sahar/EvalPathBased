@@ -1,0 +1,179 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName user id
+string SimpleName SimpleType SingleVariableDeclaration SimpleName entity guid
+type def summary SimpleName SimpleType SingleVariableDeclaration SimpleName current type def summary
+type def summary SimpleName SimpleType SingleVariableDeclaration SimpleName new type def summary
+method name SimpleName VariableDeclarationFragment StringLiteral re type entity
+final Modifier VariableDeclarationStatement SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName method name
+final Modifier VariableDeclarationStatement VariableDeclarationFragment StringLiteral re type entity
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName method name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral re type entity
+validate repository SimpleName MethodInvocation SimpleName method name
+repository validator SimpleName MethodInvocation SimpleName validate user id
+repository validator SimpleName MethodInvocation SimpleName repository name
+repository validator SimpleName MethodInvocation SimpleName user id
+repository validator SimpleName MethodInvocation SimpleName method name
+validate user id SimpleName MethodInvocation SimpleName repository name
+validate user id SimpleName MethodInvocation SimpleName user id
+validate user id SimpleName MethodInvocation SimpleName method name
+repository name SimpleName MethodInvocation SimpleName user id
+repository name SimpleName MethodInvocation SimpleName method name
+user id SimpleName MethodInvocation SimpleName method name
+real metadata collection SimpleName MethodInvocation SimpleName re type entity
+real metadata collection SimpleName MethodInvocation SimpleName user id
+real metadata collection SimpleName MethodInvocation SimpleName entity guid
+real metadata collection SimpleName MethodInvocation SimpleName current type def summary
+real metadata collection SimpleName MethodInvocation SimpleName new type def summary
+re type entity SimpleName MethodInvocation SimpleName user id
+re type entity SimpleName MethodInvocation SimpleName entity guid
+re type entity SimpleName MethodInvocation SimpleName current type def summary
+re type entity SimpleName MethodInvocation SimpleName new type def summary
+user id SimpleName MethodInvocation SimpleName entity guid
+user id SimpleName MethodInvocation SimpleName current type def summary
+user id SimpleName MethodInvocation SimpleName new type def summary
+entity guid SimpleName MethodInvocation SimpleName current type def summary
+entity guid SimpleName MethodInvocation SimpleName new type def summary
+current type def summary SimpleName MethodInvocation SimpleName new type def summary
+entity SimpleName VariableDeclarationFragment MethodInvocation SimpleName real metadata collection
+entity SimpleName VariableDeclarationFragment MethodInvocation SimpleName re type entity
+entity SimpleName VariableDeclarationFragment MethodInvocation SimpleName user id
+entity SimpleName VariableDeclarationFragment MethodInvocation SimpleName entity guid
+entity SimpleName VariableDeclarationFragment MethodInvocation SimpleName current type def summary
+entity SimpleName VariableDeclarationFragment MethodInvocation SimpleName new type def summary
+entity detail SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName entity
+entity SimpleName MethodInvocation SimpleName get metadata collection id
+entity SimpleName MethodInvocation SimpleName set metadata collection id
+entity SimpleName MethodInvocation SimpleName metadata collection id
+set metadata collection id SimpleName MethodInvocation SimpleName metadata collection id
+entity SimpleName MethodInvocation SimpleName set instance provenance type
+entity SimpleName MethodInvocation QualifiedName instance provenance typelocal cohort
+set instance provenance type SimpleName MethodInvocation QualifiedName instance provenance typelocal cohort
+outbound repository event processor SimpleName MethodInvocation SimpleName process re typed entity event
+outbound repository event processor SimpleName MethodInvocation SimpleName repository name
+outbound repository event processor SimpleName MethodInvocation SimpleName metadata collection id
+outbound repository event processor SimpleName MethodInvocation SimpleName local server name
+outbound repository event processor SimpleName MethodInvocation SimpleName local server type
+process re typed entity event SimpleName MethodInvocation SimpleName repository name
+process re typed entity event SimpleName MethodInvocation SimpleName metadata collection id
+process re typed entity event SimpleName MethodInvocation SimpleName local server name
+process re typed entity event SimpleName MethodInvocation SimpleName local server type
+process re typed entity event SimpleName MethodInvocation SimpleName local organization name
+repository name SimpleName MethodInvocation SimpleName metadata collection id
+repository name SimpleName MethodInvocation SimpleName local server name
+repository name SimpleName MethodInvocation SimpleName local server type
+repository name SimpleName MethodInvocation SimpleName local organization name
+repository name SimpleName MethodInvocation SimpleName current type def summary
+metadata collection id SimpleName MethodInvocation SimpleName local server name
+metadata collection id SimpleName MethodInvocation SimpleName local server type
+metadata collection id SimpleName MethodInvocation SimpleName local organization name
+metadata collection id SimpleName MethodInvocation SimpleName current type def summary
+metadata collection id SimpleName MethodInvocation SimpleName entity
+local server name SimpleName MethodInvocation SimpleName local server type
+local server name SimpleName MethodInvocation SimpleName local organization name
+local server name SimpleName MethodInvocation SimpleName current type def summary
+local server name SimpleName MethodInvocation SimpleName entity
+local server type SimpleName MethodInvocation SimpleName local organization name
+local server type SimpleName MethodInvocation SimpleName current type def summary
+local server type SimpleName MethodInvocation SimpleName entity
+local organization name SimpleName MethodInvocation SimpleName current type def summary
+local organization name SimpleName MethodInvocation SimpleName entity
+current type def summary SimpleName MethodInvocation SimpleName entity
+final Modifier VariableDeclarationStatement Block ReturnStatement SimpleName entity
+public Modifier MethodDeclaration SimpleType SimpleName entity detail
+public Modifier MethodDeclaration SimpleName re type entity
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName user id
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName entity guid
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName type def summary
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName current type def summary
+entity detail SimpleName SimpleType MethodDeclaration SimpleName re type entity
+entity detail SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName user id
+entity detail SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName entity guid
+entity detail SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName current type def summary
+entity detail SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName new type def summary
+re type entity SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+re type entity SimpleName MethodDeclaration SingleVariableDeclaration SimpleName user id
+re type entity SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+re type entity SimpleName MethodDeclaration SingleVariableDeclaration SimpleName entity guid
+re type entity SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName type def summary
+re type entity SimpleName MethodDeclaration SingleVariableDeclaration SimpleName current type def summary
+re type entity SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName type def summary
+re type entity SimpleName MethodDeclaration SingleVariableDeclaration SimpleName new type def summary
+re type entity SimpleName MethodDeclaration SimpleType SimpleName invalid parameter exception
+user id SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity guid
+user id SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName current type def summary
+user id SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new type def summary
+user id SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName invalid parameter exception
+user id SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName repository error exception
+entity guid SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName current type def summary
+entity guid SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new type def summary
+entity guid SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName invalid parameter exception
+entity guid SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName repository error exception
+entity guid SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName type error exception
+current type def summary SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new type def summary
+current type def summary SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName invalid parameter exception
+current type def summary SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName repository error exception
+current type def summary SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName type error exception
+current type def summary SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName property error exception
+new type def summary SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName invalid parameter exception
+new type def summary SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName repository error exception
+new type def summary SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName type error exception
+new type def summary SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName property error exception
+new type def summary SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName classification error exception
+invalid parameter exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName repository error exception
+invalid parameter exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName type error exception
+invalid parameter exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName property error exception
+invalid parameter exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName classification error exception
+invalid parameter exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName entity not known exception
+repository error exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName type error exception
+repository error exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName property error exception
+repository error exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName classification error exception
+repository error exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName entity not known exception
+repository error exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName function not supported exception
+type error exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName property error exception
+type error exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName classification error exception
+type error exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName entity not known exception
+type error exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName function not supported exception
+type error exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName user not authorized exception
+property error exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName classification error exception
+property error exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName entity not known exception
+property error exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName function not supported exception
+property error exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName user not authorized exception
+classification error exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName entity not known exception
+classification error exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName function not supported exception
+classification error exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName user not authorized exception
+entity not known exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName function not supported exception
+entity not known exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName user not authorized exception
+function not supported exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName user not authorized exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName entity detail
+public Modifier TypeDeclaration MethodDeclaration SimpleName re type entity
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName user id
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity guid
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName current type def summary
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new type def summary
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName invalid parameter exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName repository error exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName type error exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName property error exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName classification error exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName entity not known exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName function not supported exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName user not authorized exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName entity detail
+test SimpleName TypeDeclaration MethodDeclaration SimpleName re type entity
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName user id
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity guid
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName current type def summary
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new type def summary
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName invalid parameter exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName repository error exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName type error exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName property error exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName classification error exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName entity not known exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName function not supported exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName user not authorized exception

@@ -1,0 +1,89 @@
+context SimpleName MethodInvocation SimpleName get hive operation
+context SimpleName MethodInvocation SwitchStatement SwitchCase SimpleName altertable fileformat
+get hive operation SimpleName MethodInvocation SwitchStatement SwitchCase SimpleName altertable fileformat
+context SimpleName MethodInvocation SwitchStatement SwitchCase SimpleName altertable cluster sort
+get hive operation SimpleName MethodInvocation SwitchStatement SwitchCase SimpleName altertable cluster sort
+context SimpleName MethodInvocation SwitchStatement SwitchCase SimpleName altertable bucketnum
+get hive operation SimpleName MethodInvocation SwitchStatement SwitchCase SimpleName altertable bucketnum
+context SimpleName MethodInvocation SwitchStatement SwitchCase SimpleName altertable properties
+get hive operation SimpleName MethodInvocation SwitchStatement SwitchCase SimpleName altertable properties
+context SimpleName MethodInvocation SwitchStatement SwitchCase SimpleName altertable serdeproperties
+get hive operation SimpleName MethodInvocation SwitchStatement SwitchCase SimpleName altertable serdeproperties
+altertable fileformat SimpleName SwitchCase SwitchStatement SwitchCase SimpleName altertable cluster sort
+altertable fileformat SimpleName SwitchCase SwitchStatement SwitchCase SimpleName altertable bucketnum
+altertable fileformat SimpleName SwitchCase SwitchStatement SwitchCase SimpleName altertable properties
+altertable fileformat SimpleName SwitchCase SwitchStatement SwitchCase SimpleName altertable serdeproperties
+altertable fileformat SimpleName SwitchCase SwitchStatement SwitchCase SimpleName altertable serializer
+altertable cluster sort SimpleName SwitchCase SwitchStatement SwitchCase SimpleName altertable bucketnum
+altertable cluster sort SimpleName SwitchCase SwitchStatement SwitchCase SimpleName altertable properties
+altertable cluster sort SimpleName SwitchCase SwitchStatement SwitchCase SimpleName altertable serdeproperties
+altertable cluster sort SimpleName SwitchCase SwitchStatement SwitchCase SimpleName altertable serializer
+altertable cluster sort SimpleName SwitchCase SwitchStatement SwitchCase SimpleName altertable addcols
+altertable bucketnum SimpleName SwitchCase SwitchStatement SwitchCase SimpleName altertable properties
+altertable bucketnum SimpleName SwitchCase SwitchStatement SwitchCase SimpleName altertable serdeproperties
+altertable bucketnum SimpleName SwitchCase SwitchStatement SwitchCase SimpleName altertable serializer
+altertable bucketnum SimpleName SwitchCase SwitchStatement SwitchCase SimpleName altertable addcols
+altertable bucketnum SimpleName SwitchCase SwitchStatement SwitchCase SimpleName altertable replacecols
+altertable properties SimpleName SwitchCase SwitchStatement SwitchCase SimpleName altertable serdeproperties
+altertable properties SimpleName SwitchCase SwitchStatement SwitchCase SimpleName altertable serializer
+altertable properties SimpleName SwitchCase SwitchStatement SwitchCase SimpleName altertable addcols
+altertable properties SimpleName SwitchCase SwitchStatement SwitchCase SimpleName altertable replacecols
+altertable properties SimpleName SwitchCase SwitchStatement SwitchCase SimpleName altertable partcoltype
+altertable serdeproperties SimpleName SwitchCase SwitchStatement SwitchCase SimpleName altertable serializer
+altertable serdeproperties SimpleName SwitchCase SwitchStatement SwitchCase SimpleName altertable addcols
+altertable serdeproperties SimpleName SwitchCase SwitchStatement SwitchCase SimpleName altertable replacecols
+altertable serdeproperties SimpleName SwitchCase SwitchStatement SwitchCase SimpleName altertable partcoltype
+altertable serdeproperties SimpleName SwitchCase SwitchStatement SwitchCase SimpleName altertable location
+altertable serializer SimpleName SwitchCase SwitchStatement SwitchCase SimpleName altertable addcols
+altertable serializer SimpleName SwitchCase SwitchStatement SwitchCase SimpleName altertable replacecols
+altertable serializer SimpleName SwitchCase SwitchStatement SwitchCase SimpleName altertable partcoltype
+altertable serializer SimpleName SwitchCase SwitchStatement SwitchCase SimpleName altertable location
+altertable serializer SimpleName SwitchCase SwitchStatement SwitchCase SimpleName altertable rename
+altertable addcols SimpleName SwitchCase SwitchStatement SwitchCase SimpleName altertable replacecols
+altertable addcols SimpleName SwitchCase SwitchStatement SwitchCase SimpleName altertable partcoltype
+altertable addcols SimpleName SwitchCase SwitchStatement SwitchCase SimpleName altertable location
+altertable addcols SimpleName SwitchCase SwitchStatement SwitchCase SimpleName altertable rename
+altertable addcols SimpleName SwitchCase SwitchStatement SwitchCase SimpleName altertable renamecol
+altertable replacecols SimpleName SwitchCase SwitchStatement SwitchCase SimpleName altertable partcoltype
+altertable replacecols SimpleName SwitchCase SwitchStatement SwitchCase SimpleName altertable location
+altertable replacecols SimpleName SwitchCase SwitchStatement SwitchCase SimpleName altertable rename
+altertable replacecols SimpleName SwitchCase SwitchStatement SwitchCase SimpleName altertable renamecol
+altertable replacecols SimpleName SwitchCase SwitchStatement SwitchCase SimpleName alterview properties
+altertable partcoltype SimpleName SwitchCase SwitchStatement SwitchCase SimpleName altertable location
+altertable partcoltype SimpleName SwitchCase SwitchStatement SwitchCase SimpleName altertable rename
+altertable partcoltype SimpleName SwitchCase SwitchStatement SwitchCase SimpleName altertable renamecol
+altertable partcoltype SimpleName SwitchCase SwitchStatement SwitchCase SimpleName alterview properties
+altertable partcoltype SimpleName SwitchCase SwitchStatement SwitchCase SimpleName alterview rename
+altertable location SimpleName SwitchCase SwitchStatement SwitchCase SimpleName altertable rename
+altertable location SimpleName SwitchCase SwitchStatement SwitchCase SimpleName altertable renamecol
+altertable location SimpleName SwitchCase SwitchStatement SwitchCase SimpleName alterview properties
+altertable location SimpleName SwitchCase SwitchStatement SwitchCase SimpleName alterview rename
+altertable location SimpleName SwitchCase SwitchStatement SwitchCase SimpleName alterview as
+altertable rename SimpleName SwitchCase SwitchStatement SwitchCase SimpleName altertable renamecol
+altertable rename SimpleName SwitchCase SwitchStatement SwitchCase SimpleName alterview properties
+altertable rename SimpleName SwitchCase SwitchStatement SwitchCase SimpleName alterview rename
+altertable rename SimpleName SwitchCase SwitchStatement SwitchCase SimpleName alterview as
+altertable rename SimpleName SwitchCase SwitchStatement ReturnStatement BooleanLiteral true
+altertable renamecol SimpleName SwitchCase SwitchStatement SwitchCase SimpleName alterview properties
+altertable renamecol SimpleName SwitchCase SwitchStatement SwitchCase SimpleName alterview rename
+altertable renamecol SimpleName SwitchCase SwitchStatement SwitchCase SimpleName alterview as
+altertable renamecol SimpleName SwitchCase SwitchStatement ReturnStatement BooleanLiteral true
+alterview properties SimpleName SwitchCase SwitchStatement SwitchCase SimpleName alterview rename
+alterview properties SimpleName SwitchCase SwitchStatement SwitchCase SimpleName alterview as
+alterview properties SimpleName SwitchCase SwitchStatement ReturnStatement BooleanLiteral true
+alterview rename SimpleName SwitchCase SwitchStatement SwitchCase SimpleName alterview as
+alterview rename SimpleName SwitchCase SwitchStatement ReturnStatement BooleanLiteral true
+alterview as SimpleName SwitchCase SwitchStatement ReturnStatement BooleanLiteral true
+private Modifier MethodDeclaration PrimitiveType boolean
+private Modifier MethodDeclaration SimpleName is alter table operation
+private Modifier MethodDeclaration Block ReturnStatement BooleanLiteral false
+boolean PrimitiveType MethodDeclaration SimpleName is alter table operation
+boolean PrimitiveType MethodDeclaration Block ReturnStatement BooleanLiteral false
+is alter table operation SimpleName MethodDeclaration Block ReturnStatement BooleanLiteral false
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName is alter table operation
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName is alter table operation

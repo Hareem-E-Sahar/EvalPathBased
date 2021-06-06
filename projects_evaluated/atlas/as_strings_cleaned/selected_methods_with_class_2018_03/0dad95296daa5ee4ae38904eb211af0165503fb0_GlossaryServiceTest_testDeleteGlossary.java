@@ -1,0 +1,44 @@
+depends on groups SimpleName MemberValuePair ArrayInitializer StringLiteral glossarymigrate
+test SimpleName NormalAnnotation MemberValuePair SimpleName depends on groups
+test SimpleName NormalAnnotation MemberValuePair ArrayInitializer StringLiteral glossarymigrate
+bank glossary SimpleName MethodInvocation SimpleName get guid
+glossary service SimpleName MethodInvocation SimpleName delete glossary
+glossary service SimpleName MethodInvocation MethodInvocation SimpleName bank glossary
+glossary service SimpleName MethodInvocation MethodInvocation SimpleName get guid
+delete glossary SimpleName MethodInvocation MethodInvocation SimpleName bank glossary
+delete glossary SimpleName MethodInvocation MethodInvocation SimpleName get guid
+bank glossary SimpleName MethodInvocation SimpleName get guid
+glossary service SimpleName MethodInvocation SimpleName get glossary
+glossary service SimpleName MethodInvocation MethodInvocation SimpleName bank glossary
+glossary service SimpleName MethodInvocation MethodInvocation SimpleName get guid
+get glossary SimpleName MethodInvocation MethodInvocation SimpleName bank glossary
+get glossary SimpleName MethodInvocation MethodInvocation SimpleName get guid
+atlas base exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+e SimpleName MethodInvocation SimpleName get atlas error code
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName e
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get atlas error code
+assert equals SimpleName MethodInvocation QualifiedName atlas error codeinstance guid deleted
+e SimpleName MethodInvocation MethodInvocation QualifiedName atlas error codeinstance guid deleted
+get atlas error code SimpleName MethodInvocation MethodInvocation QualifiedName atlas error codeinstance guid deleted
+atlas base exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+fail SimpleName MethodInvocation StringLiteral glossary delete shouldve succeeded
+fail SimpleName MethodInvocation SimpleName e
+glossary delete shouldve succeeded StringLiteral MethodInvocation SimpleName e
+test SimpleName NormalAnnotation MethodDeclaration Modifier public
+depends on groups SimpleName MemberValuePair NormalAnnotation MethodDeclaration Modifier public
+test SimpleName NormalAnnotation MethodDeclaration PrimitiveType void
+depends on groups SimpleName MemberValuePair NormalAnnotation MethodDeclaration PrimitiveType void
+test SimpleName NormalAnnotation MethodDeclaration SimpleName test delete glossary
+depends on groups SimpleName MemberValuePair NormalAnnotation MethodDeclaration SimpleName test delete glossary
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test delete glossary
+void PrimitiveType MethodDeclaration SimpleName test delete glossary
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration NormalAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test delete glossary
+test SimpleName TypeDeclaration MethodDeclaration NormalAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test delete glossary

@@ -1,0 +1,178 @@
+graph mutation context SimpleName SimpleType SingleVariableDeclaration SimpleName ctx
+ctx SimpleName MethodInvocation SimpleName get op
+ctx SimpleName MethodInvocation InfixExpression QualifiedName entity mutationsentity operationcreate
+get op SimpleName MethodInvocation InfixExpression QualifiedName entity mutationsentity operationcreate
+ctx SimpleName MethodInvocation SimpleName get value
+ctx SimpleName MethodInvocation SimpleName get attr type
+ctx SimpleName MethodInvocation MethodInvocation SimpleName get type category
+get attr type SimpleName MethodInvocation MethodInvocation SimpleName get type category
+primitives to vertex SimpleName MethodInvocation SimpleName ctx
+ctx SimpleName MethodInvocation SimpleName get vertex property key
+atlas graph utils v SimpleName MethodInvocation SimpleName get edge label
+atlas graph utils v SimpleName MethodInvocation MethodInvocation SimpleName ctx
+atlas graph utils v SimpleName MethodInvocation MethodInvocation SimpleName get vertex property key
+get edge label SimpleName MethodInvocation MethodInvocation SimpleName ctx
+get edge label SimpleName MethodInvocation MethodInvocation SimpleName get vertex property key
+edge label SimpleName VariableDeclarationFragment MethodInvocation SimpleName atlas graph utils v
+edge label SimpleName VariableDeclarationFragment MethodInvocation SimpleName get edge label
+edge label SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName ctx
+edge label SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get vertex property key
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName edge label
+ctx SimpleName MethodInvocation SimpleName get referring vertex
+graph helper SimpleName MethodInvocation SimpleName get edge for label
+graph helper SimpleName MethodInvocation MethodInvocation SimpleName ctx
+graph helper SimpleName MethodInvocation MethodInvocation SimpleName get referring vertex
+graph helper SimpleName MethodInvocation SimpleName edge label
+get edge for label SimpleName MethodInvocation MethodInvocation SimpleName ctx
+get edge for label SimpleName MethodInvocation MethodInvocation SimpleName get referring vertex
+get edge for label SimpleName MethodInvocation SimpleName edge label
+ctx SimpleName MethodInvocation MethodInvocation SimpleName edge label
+get referring vertex SimpleName MethodInvocation MethodInvocation SimpleName edge label
+current edge SimpleName VariableDeclarationFragment MethodInvocation SimpleName graph helper
+current edge SimpleName VariableDeclarationFragment MethodInvocation SimpleName get edge for label
+current edge SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName ctx
+current edge SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get referring vertex
+current edge SimpleName VariableDeclarationFragment MethodInvocation SimpleName edge label
+atlas edge SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName current edge
+optional SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas edge
+optional SimpleName MethodInvocation SimpleName of
+optional SimpleName MethodInvocation SimpleName current edge
+of SimpleName MethodInvocation SimpleName current edge
+optional SimpleName MethodInvocation SimpleType SimpleName atlas edge
+optional SimpleName MethodInvocation SimpleName absent
+atlas edge SimpleName SimpleType MethodInvocation SimpleName absent
+current edge SimpleName InfixExpression ConditionalExpression MethodInvocation SimpleName optional
+current edge SimpleName InfixExpression ConditionalExpression MethodInvocation SimpleName of
+current edge SimpleName InfixExpression ConditionalExpression MethodInvocation SimpleName current edge
+current edge SimpleName InfixExpression ConditionalExpression MethodInvocation SimpleName optional
+current edge SimpleName InfixExpression ConditionalExpression MethodInvocation SimpleName absent
+optional SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName optional
+optional SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName absent
+of SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName optional
+of SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName absent
+current edge SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName optional
+current edge SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName absent
+edge SimpleName VariableDeclarationFragment ConditionalExpression InfixExpression SimpleName current edge
+edge SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation SimpleName optional
+edge SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation SimpleName of
+edge SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation SimpleName current edge
+edge SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation SimpleName optional
+edge SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation SimpleName absent
+ctx SimpleName MethodInvocation SimpleName set existing edge
+ctx SimpleName MethodInvocation SimpleName edge
+set existing edge SimpleName MethodInvocation SimpleName edge
+to graph SimpleName MethodInvocation SimpleName ctx
+ctx SimpleName MethodInvocation SimpleName get vertex property key
+atlas graph utils v SimpleName MethodInvocation SimpleName get edge label
+atlas graph utils v SimpleName MethodInvocation MethodInvocation SimpleName ctx
+atlas graph utils v SimpleName MethodInvocation MethodInvocation SimpleName get vertex property key
+get edge label SimpleName MethodInvocation MethodInvocation SimpleName ctx
+get edge label SimpleName MethodInvocation MethodInvocation SimpleName get vertex property key
+edge label SimpleName Assignment MethodInvocation SimpleName atlas graph utils v
+edge label SimpleName Assignment MethodInvocation SimpleName get edge label
+edge label SimpleName Assignment MethodInvocation MethodInvocation SimpleName ctx
+edge label SimpleName Assignment MethodInvocation MethodInvocation SimpleName get vertex property key
+ctx SimpleName MethodInvocation SimpleName get referring vertex
+graph helper SimpleName MethodInvocation SimpleName get edge for label
+graph helper SimpleName MethodInvocation MethodInvocation SimpleName ctx
+graph helper SimpleName MethodInvocation MethodInvocation SimpleName get referring vertex
+graph helper SimpleName MethodInvocation SimpleName edge label
+get edge for label SimpleName MethodInvocation MethodInvocation SimpleName ctx
+get edge for label SimpleName MethodInvocation MethodInvocation SimpleName get referring vertex
+get edge for label SimpleName MethodInvocation SimpleName edge label
+ctx SimpleName MethodInvocation MethodInvocation SimpleName edge label
+get referring vertex SimpleName MethodInvocation MethodInvocation SimpleName edge label
+current edge SimpleName Assignment MethodInvocation SimpleName graph helper
+current edge SimpleName Assignment MethodInvocation SimpleName get edge for label
+current edge SimpleName Assignment MethodInvocation MethodInvocation SimpleName ctx
+current edge SimpleName Assignment MethodInvocation MethodInvocation SimpleName get referring vertex
+current edge SimpleName Assignment MethodInvocation SimpleName edge label
+ctx SimpleName MethodInvocation SimpleName get value
+entity vertex mapper SimpleName MethodInvocation SimpleName get instance type
+entity vertex mapper SimpleName MethodInvocation MethodInvocation SimpleName ctx
+entity vertex mapper SimpleName MethodInvocation MethodInvocation SimpleName get value
+get instance type SimpleName MethodInvocation MethodInvocation SimpleName ctx
+get instance type SimpleName MethodInvocation MethodInvocation SimpleName get value
+instance type SimpleName VariableDeclarationFragment MethodInvocation SimpleName entity vertex mapper
+instance type SimpleName VariableDeclarationFragment MethodInvocation SimpleName get instance type
+instance type SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName ctx
+instance type SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get value
+atlas entity type SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName instance type
+optional SimpleName MethodInvocation SimpleName of
+optional SimpleName MethodInvocation SimpleName current edge
+of SimpleName MethodInvocation SimpleName current edge
+optional SimpleName MethodInvocation SimpleType SimpleName atlas edge
+optional SimpleName MethodInvocation SimpleName absent
+atlas edge SimpleName SimpleType MethodInvocation SimpleName absent
+current edge SimpleName InfixExpression ConditionalExpression MethodInvocation SimpleName optional
+current edge SimpleName InfixExpression ConditionalExpression MethodInvocation SimpleName of
+current edge SimpleName InfixExpression ConditionalExpression MethodInvocation SimpleName current edge
+current edge SimpleName InfixExpression ConditionalExpression MethodInvocation SimpleName optional
+current edge SimpleName InfixExpression ConditionalExpression MethodInvocation SimpleName absent
+optional SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName optional
+optional SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName absent
+of SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName optional
+of SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName absent
+current edge SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName optional
+current edge SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName absent
+edge SimpleName Assignment ConditionalExpression InfixExpression SimpleName current edge
+edge SimpleName Assignment ConditionalExpression MethodInvocation SimpleName optional
+edge SimpleName Assignment ConditionalExpression MethodInvocation SimpleName of
+edge SimpleName Assignment ConditionalExpression MethodInvocation SimpleName current edge
+edge SimpleName Assignment ConditionalExpression MethodInvocation SimpleName optional
+edge SimpleName Assignment ConditionalExpression MethodInvocation SimpleName absent
+ctx SimpleName MethodInvocation SimpleName set element type
+ctx SimpleName MethodInvocation SimpleName instance type
+set element type SimpleName MethodInvocation SimpleName instance type
+ctx SimpleName MethodInvocation SimpleName set existing edge
+ctx SimpleName MethodInvocation SimpleName edge
+set existing edge SimpleName MethodInvocation SimpleName edge
+entity vertex mapper SimpleName MethodInvocation SimpleName to graph
+entity vertex mapper SimpleName MethodInvocation SimpleName ctx
+to graph SimpleName MethodInvocation SimpleName ctx
+map vertex mapper SimpleName MethodInvocation SimpleName to graph
+map vertex mapper SimpleName MethodInvocation SimpleName ctx
+to graph SimpleName MethodInvocation SimpleName ctx
+arr vertex mapper SimpleName MethodInvocation SimpleName to graph
+arr vertex mapper SimpleName MethodInvocation SimpleName ctx
+to graph SimpleName MethodInvocation SimpleName ctx
+ctx SimpleName MethodInvocation SimpleName get attr type
+ctx SimpleName MethodInvocation MethodInvocation SimpleName get type category
+get attr type SimpleName MethodInvocation MethodInvocation SimpleName get type category
+ctx SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName name
+get attr type SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName name
+get type category SimpleName MethodInvocation MethodInvocation SimpleName name
+atlas base exception SimpleName SimpleType ClassInstanceCreation QualifiedName atlas error codetype category invalid
+atlas base exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName name
+atlas error codetype category invalid QualifiedName ClassInstanceCreation MethodInvocation MethodInvocation SimpleName get type category
+atlas error codetype category invalid QualifiedName ClassInstanceCreation MethodInvocation SimpleName name
+get type category SimpleName MethodInvocation SwitchStatement SwitchCase SimpleName primitive
+get type category SimpleName MethodInvocation SwitchStatement SwitchCase SimpleName enum
+get type category SimpleName MethodInvocation SwitchStatement SwitchCase SimpleName struct
+primitive SimpleName SwitchCase SwitchStatement SwitchCase SimpleName enum
+primitive SimpleName SwitchCase SwitchStatement SwitchCase SimpleName struct
+enum SimpleName SwitchCase SwitchStatement SwitchCase SimpleName struct
+map SimpleName SwitchCase SwitchStatement SwitchCase SimpleName array
+protected Modifier MethodDeclaration SimpleType SimpleName object
+protected Modifier MethodDeclaration SimpleName map to vertex by type category
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName graph mutation context
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName ctx
+protected Modifier MethodDeclaration SimpleType SimpleName atlas base exception
+object SimpleName SimpleType MethodDeclaration SimpleName map to vertex by type category
+object SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName ctx
+object SimpleName SimpleType MethodDeclaration SimpleType SimpleName atlas base exception
+map to vertex by type category SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName graph mutation context
+map to vertex by type category SimpleName MethodDeclaration SingleVariableDeclaration SimpleName ctx
+map to vertex by type category SimpleName MethodDeclaration SimpleType SimpleName atlas base exception
+ctx SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName object
+public Modifier TypeDeclaration MethodDeclaration SimpleName map to vertex by type category
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ctx
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName object
+test SimpleName TypeDeclaration MethodDeclaration SimpleName map to vertex by type category
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ctx
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception

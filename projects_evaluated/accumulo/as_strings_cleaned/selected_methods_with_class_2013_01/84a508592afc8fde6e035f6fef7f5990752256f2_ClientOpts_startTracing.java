@@ -1,0 +1,25 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName application name
+trace SimpleName MethodInvocation SimpleName on
+trace SimpleName MethodInvocation SimpleName application name
+on SimpleName MethodInvocation SimpleName application name
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName start tracing
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName application name
+public Modifier MethodDeclaration Block IfStatement SimpleName trace
+void PrimitiveType MethodDeclaration SimpleName start tracing
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName application name
+void PrimitiveType MethodDeclaration Block IfStatement SimpleName trace
+start tracing SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+start tracing SimpleName MethodDeclaration SingleVariableDeclaration SimpleName application name
+start tracing SimpleName MethodDeclaration Block IfStatement SimpleName trace
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName start tracing
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName application name
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName start tracing
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName application name

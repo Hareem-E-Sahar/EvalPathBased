@@ -1,0 +1,190 @@
+depends on methods SimpleName MemberValuePair ArrayInitializer StringLiteral add blocked propagated classifications
+test SimpleName NormalAnnotation MemberValuePair SimpleName depends on methods
+test SimpleName NormalAnnotation MemberValuePair ArrayInitializer StringLiteral add blocked propagated classifications
+get entity SimpleName MethodInvocation SimpleName hdfs path employees
+hdfs path SimpleName VariableDeclarationFragment MethodInvocation SimpleName get entity
+hdfs path SimpleName VariableDeclarationFragment MethodInvocation SimpleName hdfs path employees
+atlas entity SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName hdfs path
+get entity SimpleName MethodInvocation SimpleName employees table
+employees SimpleName VariableDeclarationFragment MethodInvocation SimpleName get entity
+employees SimpleName VariableDeclarationFragment MethodInvocation SimpleName employees table
+atlas entity SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName employees
+get entity SimpleName MethodInvocation SimpleName employees table
+employees SimpleName VariableDeclarationFragment MethodInvocation SimpleName get entity
+employees SimpleName VariableDeclarationFragment MethodInvocation SimpleName employees table
+atlas entity SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName employees
+atlas classification SimpleName SimpleType ClassInstanceCreation StringLiteral pii
+pii tag SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName atlas classification
+pii tag SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral pii
+atlas classification SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName pii tag
+pii tag SimpleName MethodInvocation SimpleName set propagate
+pii tag SimpleName MethodInvocation BooleanLiteral true
+set propagate SimpleName MethodInvocation BooleanLiteral true
+hdfs path SimpleName MethodInvocation SimpleName get guid
+pii tag SimpleName MethodInvocation SimpleName set entity guid
+pii tag SimpleName MethodInvocation MethodInvocation SimpleName hdfs path
+pii tag SimpleName MethodInvocation MethodInvocation SimpleName get guid
+set entity guid SimpleName MethodInvocation MethodInvocation SimpleName hdfs path
+set entity guid SimpleName MethodInvocation MethodInvocation SimpleName get guid
+pii tag SimpleName MethodInvocation SimpleName set attribute
+pii tag SimpleName MethodInvocation StringLiteral type
+pii tag SimpleName MethodInvocation StringLiteral from hdfs path entity
+set attribute SimpleName MethodInvocation StringLiteral type
+set attribute SimpleName MethodInvocation StringLiteral from hdfs path entity
+type StringLiteral MethodInvocation StringLiteral from hdfs path entity
+pii tag SimpleName MethodInvocation SimpleName set attribute
+pii tag SimpleName MethodInvocation StringLiteral valid
+pii tag SimpleName MethodInvocation BooleanLiteral true
+set attribute SimpleName MethodInvocation StringLiteral valid
+set attribute SimpleName MethodInvocation BooleanLiteral true
+valid StringLiteral MethodInvocation BooleanLiteral true
+atlas classification SimpleName SimpleType ClassInstanceCreation StringLiteral pii
+pii tag SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName atlas classification
+pii tag SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral pii
+atlas classification SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName pii tag
+pii tag SimpleName MethodInvocation SimpleName set propagate
+pii tag SimpleName MethodInvocation BooleanLiteral true
+set propagate SimpleName MethodInvocation BooleanLiteral true
+employees SimpleName MethodInvocation SimpleName get guid
+pii tag SimpleName MethodInvocation SimpleName set entity guid
+pii tag SimpleName MethodInvocation MethodInvocation SimpleName employees
+pii tag SimpleName MethodInvocation MethodInvocation SimpleName get guid
+set entity guid SimpleName MethodInvocation MethodInvocation SimpleName employees
+set entity guid SimpleName MethodInvocation MethodInvocation SimpleName get guid
+pii tag SimpleName MethodInvocation SimpleName set attribute
+pii tag SimpleName MethodInvocation StringLiteral type
+pii tag SimpleName MethodInvocation StringLiteral from employees entity
+set attribute SimpleName MethodInvocation StringLiteral type
+set attribute SimpleName MethodInvocation StringLiteral from employees entity
+type StringLiteral MethodInvocation StringLiteral from employees entity
+pii tag SimpleName MethodInvocation SimpleName set attribute
+pii tag SimpleName MethodInvocation StringLiteral valid
+pii tag SimpleName MethodInvocation BooleanLiteral true
+set attribute SimpleName MethodInvocation StringLiteral valid
+set attribute SimpleName MethodInvocation BooleanLiteral true
+valid StringLiteral MethodInvocation BooleanLiteral true
+atlas classification SimpleName SimpleType ClassInstanceCreation StringLiteral pii
+pii tag SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName atlas classification
+pii tag SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral pii
+atlas classification SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName pii tag
+pii tag SimpleName MethodInvocation SimpleName set propagate
+pii tag SimpleName MethodInvocation BooleanLiteral true
+set propagate SimpleName MethodInvocation BooleanLiteral true
+employees SimpleName MethodInvocation SimpleName get guid
+pii tag SimpleName MethodInvocation SimpleName set entity guid
+pii tag SimpleName MethodInvocation MethodInvocation SimpleName employees
+pii tag SimpleName MethodInvocation MethodInvocation SimpleName get guid
+set entity guid SimpleName MethodInvocation MethodInvocation SimpleName employees
+set entity guid SimpleName MethodInvocation MethodInvocation SimpleName get guid
+pii tag SimpleName MethodInvocation SimpleName set attribute
+pii tag SimpleName MethodInvocation StringLiteral type
+pii tag SimpleName MethodInvocation StringLiteral from employees entity
+set attribute SimpleName MethodInvocation StringLiteral type
+set attribute SimpleName MethodInvocation StringLiteral from employees entity
+type StringLiteral MethodInvocation StringLiteral from employees entity
+pii tag SimpleName MethodInvocation SimpleName set attribute
+pii tag SimpleName MethodInvocation StringLiteral valid
+pii tag SimpleName MethodInvocation BooleanLiteral true
+set attribute SimpleName MethodInvocation StringLiteral valid
+set attribute SimpleName MethodInvocation BooleanLiteral true
+valid StringLiteral MethodInvocation BooleanLiteral true
+get relationship SimpleName MethodInvocation SimpleName employees union process
+get relationship SimpleName MethodInvocation SimpleName employees union table
+employees union process SimpleName MethodInvocation SimpleName employees union table
+process employee union relationship SimpleName VariableDeclarationFragment MethodInvocation SimpleName get relationship
+process employee union relationship SimpleName VariableDeclarationFragment MethodInvocation SimpleName employees union process
+process employee union relationship SimpleName VariableDeclarationFragment MethodInvocation SimpleName employees union table
+atlas relationship SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName process employee union relationship
+arrays SimpleName MethodInvocation SimpleName as list
+arrays SimpleName MethodInvocation SimpleName pii tag
+as list SimpleName MethodInvocation SimpleName pii tag
+process employee union relationship SimpleName MethodInvocation SimpleName set blocked propagated classifications
+process employee union relationship SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName arrays
+process employee union relationship SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName as list
+process employee union relationship SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName pii tag
+set blocked propagated classifications SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName arrays
+set blocked propagated classifications SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName as list
+set blocked propagated classifications SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName pii tag
+relationship store SimpleName MethodInvocation SimpleName update
+relationship store SimpleName MethodInvocation SimpleName process employee union relationship
+update SimpleName MethodInvocation SimpleName process employee union relationship
+get relationship SimpleName MethodInvocation SimpleName employees union process
+get relationship SimpleName MethodInvocation SimpleName employees union table
+employees union process SimpleName MethodInvocation SimpleName employees union table
+process employee union relationship SimpleName Assignment MethodInvocation SimpleName get relationship
+process employee union relationship SimpleName Assignment MethodInvocation SimpleName employees union process
+process employee union relationship SimpleName Assignment MethodInvocation SimpleName employees union table
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas classification
+process employee union relationship SimpleName MethodInvocation SimpleName get propagated classifications
+propagated classifications SimpleName VariableDeclarationFragment MethodInvocation SimpleName process employee union relationship
+propagated classifications SimpleName VariableDeclarationFragment MethodInvocation SimpleName get propagated classifications
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas classification
+process employee union relationship SimpleName MethodInvocation SimpleName get blocked propagated classifications
+blocked classifications SimpleName VariableDeclarationFragment MethodInvocation SimpleName process employee union relationship
+blocked classifications SimpleName VariableDeclarationFragment MethodInvocation SimpleName get blocked propagated classifications
+assert classification exist in list SimpleName MethodInvocation SimpleName propagated classifications
+assert classification exist in list SimpleName MethodInvocation SimpleName pii tag
+propagated classifications SimpleName MethodInvocation SimpleName pii tag
+assert classification exist in list SimpleName MethodInvocation SimpleName propagated classifications
+assert classification exist in list SimpleName MethodInvocation SimpleName pii tag
+propagated classifications SimpleName MethodInvocation SimpleName pii tag
+assert classification exist in list SimpleName MethodInvocation SimpleName blocked classifications
+assert classification exist in list SimpleName MethodInvocation SimpleName pii tag
+blocked classifications SimpleName MethodInvocation SimpleName pii tag
+collections SimpleName MethodInvocation SimpleName empty set
+process employee union relationship SimpleName MethodInvocation SimpleName set blocked propagated classifications
+process employee union relationship SimpleName MethodInvocation MethodInvocation SimpleName collections
+process employee union relationship SimpleName MethodInvocation MethodInvocation SimpleName empty set
+set blocked propagated classifications SimpleName MethodInvocation MethodInvocation SimpleName collections
+set blocked propagated classifications SimpleName MethodInvocation MethodInvocation SimpleName empty set
+relationship store SimpleName MethodInvocation SimpleName update
+relationship store SimpleName MethodInvocation SimpleName process employee union relationship
+update SimpleName MethodInvocation SimpleName process employee union relationship
+get relationship SimpleName MethodInvocation SimpleName employees union process
+get relationship SimpleName MethodInvocation SimpleName employees union table
+employees union process SimpleName MethodInvocation SimpleName employees union table
+process employee union relationship SimpleName Assignment MethodInvocation SimpleName get relationship
+process employee union relationship SimpleName Assignment MethodInvocation SimpleName employees union process
+process employee union relationship SimpleName Assignment MethodInvocation SimpleName employees union table
+process employee union relationship SimpleName MethodInvocation SimpleName get propagated classifications
+propagated classifications SimpleName Assignment MethodInvocation SimpleName process employee union relationship
+propagated classifications SimpleName Assignment MethodInvocation SimpleName get propagated classifications
+process employee union relationship SimpleName MethodInvocation SimpleName get blocked propagated classifications
+blocked classifications SimpleName Assignment MethodInvocation SimpleName process employee union relationship
+blocked classifications SimpleName Assignment MethodInvocation SimpleName get blocked propagated classifications
+assert classification exist in list SimpleName MethodInvocation SimpleName propagated classifications
+assert classification exist in list SimpleName MethodInvocation SimpleName pii tag
+propagated classifications SimpleName MethodInvocation SimpleName pii tag
+assert classification exist in list SimpleName MethodInvocation SimpleName propagated classifications
+assert classification exist in list SimpleName MethodInvocation SimpleName pii tag
+propagated classifications SimpleName MethodInvocation SimpleName pii tag
+assert classification exist in list SimpleName MethodInvocation SimpleName propagated classifications
+assert classification exist in list SimpleName MethodInvocation SimpleName pii tag
+propagated classifications SimpleName MethodInvocation SimpleName pii tag
+blocked classifications SimpleName MethodInvocation SimpleName is empty
+assert true SimpleName MethodInvocation MethodInvocation SimpleName blocked classifications
+assert true SimpleName MethodInvocation MethodInvocation SimpleName is empty
+test SimpleName NormalAnnotation MethodDeclaration Modifier public
+depends on methods SimpleName MemberValuePair NormalAnnotation MethodDeclaration Modifier public
+test SimpleName NormalAnnotation MethodDeclaration PrimitiveType void
+depends on methods SimpleName MemberValuePair NormalAnnotation MethodDeclaration PrimitiveType void
+test SimpleName NormalAnnotation MethodDeclaration SimpleName remove blocked propagated classifications
+depends on methods SimpleName MemberValuePair NormalAnnotation MethodDeclaration SimpleName remove blocked propagated classifications
+test SimpleName NormalAnnotation MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName remove blocked propagated classifications
+public Modifier MethodDeclaration SimpleType SimpleName atlas base exception
+void PrimitiveType MethodDeclaration SimpleName remove blocked propagated classifications
+void PrimitiveType MethodDeclaration SimpleType SimpleName atlas base exception
+remove blocked propagated classifications SimpleName MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration NormalAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName remove blocked propagated classifications
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+test SimpleName TypeDeclaration MethodDeclaration NormalAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName remove blocked propagated classifications
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception

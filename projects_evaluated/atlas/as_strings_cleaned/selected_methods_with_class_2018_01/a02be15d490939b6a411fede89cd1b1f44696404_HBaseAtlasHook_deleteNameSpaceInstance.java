@@ -1,0 +1,80 @@
+h base operation context SimpleName SimpleType SingleVariableDeclaration SimpleName hbase operation context
+hbase operation context SimpleName MethodInvocation SimpleName get name space
+get name space qualified name SimpleName MethodInvocation SimpleName cluster name
+get name space qualified name SimpleName MethodInvocation MethodInvocation SimpleName hbase operation context
+get name space qualified name SimpleName MethodInvocation MethodInvocation SimpleName get name space
+cluster name SimpleName MethodInvocation MethodInvocation SimpleName hbase operation context
+cluster name SimpleName MethodInvocation MethodInvocation SimpleName get name space
+name space q name SimpleName VariableDeclarationFragment MethodInvocation SimpleName get name space qualified name
+name space q name SimpleName VariableDeclarationFragment MethodInvocation SimpleName cluster name
+name space q name SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName hbase operation context
+name space q name SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get name space
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName name space q name
+h base data typeshbase namespace QualifiedName MethodInvocation SimpleName get name
+atlas object id SimpleName SimpleType ClassInstanceCreation MethodInvocation QualifiedName h base data typeshbase namespace
+atlas object id SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get name
+atlas object id SimpleName SimpleType ClassInstanceCreation SimpleName referenceable attribute name
+atlas object id SimpleName SimpleType ClassInstanceCreation SimpleName name space q name
+h base data typeshbase namespace QualifiedName MethodInvocation ClassInstanceCreation SimpleName referenceable attribute name
+get name SimpleName MethodInvocation ClassInstanceCreation SimpleName referenceable attribute name
+h base data typeshbase namespace QualifiedName MethodInvocation ClassInstanceCreation SimpleName name space q name
+get name SimpleName MethodInvocation ClassInstanceCreation SimpleName name space q name
+referenceable attribute name SimpleName ClassInstanceCreation SimpleName name space q name
+name space id SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName atlas object id
+name space id SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation QualifiedName h base data typeshbase namespace
+name space id SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get name
+name space id SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName referenceable attribute name
+name space id SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName name space q name
+atlas object id SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName name space id
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation StringLiteral delete name space {}
+log SimpleName MethodInvocation SimpleName name space q name
+info SimpleName MethodInvocation StringLiteral delete name space {}
+info SimpleName MethodInvocation SimpleName name space q name
+delete name space {} StringLiteral MethodInvocation SimpleName name space q name
+hbase operation context SimpleName MethodInvocation SimpleName get user
+collections SimpleName MethodInvocation SimpleName singleton list
+collections SimpleName MethodInvocation SimpleName name space id
+singleton list SimpleName MethodInvocation SimpleName name space id
+entity delete request v SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName hbase operation context
+entity delete request v SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get user
+entity delete request v SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName collections
+entity delete request v SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName singleton list
+entity delete request v SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName name space id
+hbase operation context SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName collections
+hbase operation context SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName singleton list
+hbase operation context SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName name space id
+get user SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName collections
+get user SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName singleton list
+get user SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName name space id
+hbase operation context SimpleName MethodInvocation SimpleName add message
+hbase operation context SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName entity delete request v
+hbase operation context SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName hbase operation context
+hbase operation context SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get user
+hbase operation context SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName collections
+hbase operation context SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName singleton list
+hbase operation context SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName name space id
+add message SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName entity delete request v
+add message SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName hbase operation context
+add message SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get user
+add message SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName collections
+add message SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName singleton list
+add message SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName name space id
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName delete name space instance
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName h base operation context
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName hbase operation context
+void PrimitiveType MethodDeclaration SimpleName delete name space instance
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName h base operation context
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName hbase operation context
+delete name space instance SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName h base operation context
+delete name space instance SimpleName MethodDeclaration SingleVariableDeclaration SimpleName hbase operation context
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName delete name space instance
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName hbase operation context
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName delete name space instance
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName hbase operation context

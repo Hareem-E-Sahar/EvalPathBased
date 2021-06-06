@@ -1,0 +1,78 @@
+groups SimpleName MemberValuePair StringLiteral glossaryupdate
+depends on groups SimpleName MemberValuePair StringLiteral glossarycreate
+test SimpleName NormalAnnotation MemberValuePair SimpleName groups
+test SimpleName NormalAnnotation MemberValuePair StringLiteral glossaryupdate
+test SimpleName NormalAnnotation MemberValuePair SimpleName depends on groups
+test SimpleName NormalAnnotation MemberValuePair StringLiteral glossarycreate
+groups SimpleName MemberValuePair NormalAnnotation MemberValuePair SimpleName depends on groups
+groups SimpleName MemberValuePair NormalAnnotation MemberValuePair StringLiteral glossarycreate
+glossaryupdate StringLiteral MemberValuePair NormalAnnotation MemberValuePair SimpleName depends on groups
+glossaryupdate StringLiteral MemberValuePair NormalAnnotation MemberValuePair StringLiteral glossarycreate
+bank glossary SimpleName MethodInvocation SimpleName get guid
+glossary service SimpleName MethodInvocation SimpleName get glossary
+glossary service SimpleName MethodInvocation MethodInvocation SimpleName bank glossary
+glossary service SimpleName MethodInvocation MethodInvocation SimpleName get guid
+get glossary SimpleName MethodInvocation MethodInvocation SimpleName bank glossary
+get glossary SimpleName MethodInvocation MethodInvocation SimpleName get guid
+bank glossary SimpleName Assignment MethodInvocation SimpleName glossary service
+bank glossary SimpleName Assignment MethodInvocation SimpleName get glossary
+bank glossary SimpleName Assignment MethodInvocation MethodInvocation SimpleName bank glossary
+bank glossary SimpleName Assignment MethodInvocation MethodInvocation SimpleName get guid
+bank glossary SimpleName MethodInvocation SimpleName set short description
+bank glossary SimpleName MethodInvocation StringLiteral updated short description
+set short description SimpleName MethodInvocation StringLiteral updated short description
+bank glossary SimpleName MethodInvocation SimpleName set long description
+bank glossary SimpleName MethodInvocation StringLiteral updated long description
+set long description SimpleName MethodInvocation StringLiteral updated long description
+glossary service SimpleName MethodInvocation SimpleName update glossary
+glossary service SimpleName MethodInvocation SimpleName bank glossary
+update glossary SimpleName MethodInvocation SimpleName bank glossary
+updated glossary SimpleName VariableDeclarationFragment MethodInvocation SimpleName glossary service
+updated glossary SimpleName VariableDeclarationFragment MethodInvocation SimpleName update glossary
+updated glossary SimpleName VariableDeclarationFragment MethodInvocation SimpleName bank glossary
+atlas glossary SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName updated glossary
+assert not null SimpleName MethodInvocation SimpleName updated glossary
+updated glossary SimpleName MethodInvocation SimpleName get guid
+bank glossary SimpleName MethodInvocation SimpleName get guid
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName updated glossary
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get guid
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName bank glossary
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get guid
+updated glossary SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName bank glossary
+updated glossary SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get guid
+get guid SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName bank glossary
+get guid SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get guid
+assert equals SimpleName MethodInvocation SimpleName updated glossary
+assert equals SimpleName MethodInvocation SimpleName bank glossary
+updated glossary SimpleName MethodInvocation SimpleName bank glossary
+atlas base exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+fail SimpleName MethodInvocation StringLiteral glossary fetchupdate shouldve succeeded
+fail SimpleName MethodInvocation SimpleName e
+glossary fetchupdate shouldve succeeded StringLiteral MethodInvocation SimpleName e
+test SimpleName NormalAnnotation MethodDeclaration Modifier public
+groups SimpleName MemberValuePair NormalAnnotation MethodDeclaration Modifier public
+glossaryupdate StringLiteral MemberValuePair NormalAnnotation MethodDeclaration Modifier public
+depends on groups SimpleName MemberValuePair NormalAnnotation MethodDeclaration Modifier public
+glossarycreate StringLiteral MemberValuePair NormalAnnotation MethodDeclaration Modifier public
+test SimpleName NormalAnnotation MethodDeclaration PrimitiveType void
+groups SimpleName MemberValuePair NormalAnnotation MethodDeclaration PrimitiveType void
+glossaryupdate StringLiteral MemberValuePair NormalAnnotation MethodDeclaration PrimitiveType void
+depends on groups SimpleName MemberValuePair NormalAnnotation MethodDeclaration PrimitiveType void
+glossarycreate StringLiteral MemberValuePair NormalAnnotation MethodDeclaration PrimitiveType void
+test SimpleName NormalAnnotation MethodDeclaration SimpleName test update glossary
+groups SimpleName MemberValuePair NormalAnnotation MethodDeclaration SimpleName test update glossary
+glossaryupdate StringLiteral MemberValuePair NormalAnnotation MethodDeclaration SimpleName test update glossary
+depends on groups SimpleName MemberValuePair NormalAnnotation MethodDeclaration SimpleName test update glossary
+glossarycreate StringLiteral MemberValuePair NormalAnnotation MethodDeclaration SimpleName test update glossary
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test update glossary
+void PrimitiveType MethodDeclaration SimpleName test update glossary
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration NormalAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test update glossary
+test SimpleName TypeDeclaration MethodDeclaration NormalAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test update glossary

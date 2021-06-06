@@ -1,0 +1,74 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName guid
+string SimpleName SimpleType SingleVariableDeclaration SimpleName property
+string SimpleName SimpleType SingleVariableDeclaration SimpleName value
+get entity by guid SimpleName MethodInvocation SimpleName guid
+entity by guid SimpleName VariableDeclarationFragment MethodInvocation SimpleName get entity by guid
+entity by guid SimpleName VariableDeclarationFragment MethodInvocation SimpleName guid
+atlas entity SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName entity by guid
+entity by guid SimpleName MethodInvocation SimpleName set attribute
+entity by guid SimpleName MethodInvocation SimpleName property
+entity by guid SimpleName MethodInvocation SimpleName value
+set attribute SimpleName MethodInvocation SimpleName property
+set attribute SimpleName MethodInvocation SimpleName value
+property SimpleName MethodInvocation SimpleName value
+atlas entity with ext info SimpleName SimpleType ClassInstanceCreation SimpleName entity by guid
+entities client v SimpleName MethodInvocation SimpleName update entity
+entities client v SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName atlas entity with ext info
+entities client v SimpleName MethodInvocation ClassInstanceCreation SimpleName entity by guid
+update entity SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName atlas entity with ext info
+update entity SimpleName MethodInvocation ClassInstanceCreation SimpleName entity by guid
+response SimpleName VariableDeclarationFragment MethodInvocation SimpleName entities client v
+response SimpleName VariableDeclarationFragment MethodInvocation SimpleName update entity
+response SimpleName VariableDeclarationFragment MethodInvocation ClassInstanceCreation SimpleName entity by guid
+entity mutation response SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName response
+assert not null SimpleName MethodInvocation SimpleName response
+response SimpleName MethodInvocation SimpleName get entities by operation
+response SimpleName MethodInvocation QualifiedName entity mutationsentity operationupdate
+get entities by operation SimpleName MethodInvocation QualifiedName entity mutationsentity operationupdate
+assert not null SimpleName MethodInvocation MethodInvocation SimpleName response
+assert not null SimpleName MethodInvocation MethodInvocation SimpleName get entities by operation
+assert not null SimpleName MethodInvocation MethodInvocation QualifiedName entity mutationsentity operationupdate
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName add property
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName guid
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName property
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName value
+void PrimitiveType MethodDeclaration SimpleName add property
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName guid
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName property
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName value
+void PrimitiveType MethodDeclaration SimpleType SimpleName atlas service exception
+add property SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+add property SimpleName MethodDeclaration SingleVariableDeclaration SimpleName guid
+add property SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+add property SimpleName MethodDeclaration SingleVariableDeclaration SimpleName property
+add property SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+add property SimpleName MethodDeclaration SingleVariableDeclaration SimpleName value
+add property SimpleName MethodDeclaration SimpleType SimpleName atlas service exception
+guid SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName property
+guid SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value
+guid SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas service exception
+property SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value
+property SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas service exception
+value SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas service exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName add property
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName guid
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName property
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas service exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName add property
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName guid
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName property
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas service exception

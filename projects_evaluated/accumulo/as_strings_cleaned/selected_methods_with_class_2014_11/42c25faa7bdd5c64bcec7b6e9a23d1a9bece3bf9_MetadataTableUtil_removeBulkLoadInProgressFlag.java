@@ -1,0 +1,62 @@
+accumulo server context SimpleName SimpleType SingleVariableDeclaration SimpleName context
+string SimpleName SimpleType SingleVariableDeclaration SimpleName path
+metadata schemablip section QualifiedName MethodInvocation SimpleName get row prefix
+metadata schemablip section QualifiedName MethodInvocation InfixExpression SimpleName path
+get row prefix SimpleName MethodInvocation InfixExpression SimpleName path
+mutation SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName path
+m SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName mutation
+m SimpleName VariableDeclarationFragment ClassInstanceCreation InfixExpression SimpleName path
+mutation SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName m
+m SimpleName MethodInvocation SimpleName put delete
+m SimpleName MethodInvocation SimpleName empty text
+m SimpleName MethodInvocation SimpleName empty text
+put delete SimpleName MethodInvocation SimpleName empty text
+put delete SimpleName MethodInvocation SimpleName empty text
+empty text SimpleName MethodInvocation SimpleName empty text
+text SimpleName SimpleType ClassInstanceCreation StringLiteral anything not metadata
+key extent SimpleName SimpleType ClassInstanceCreation ClassInstanceCreation StringLiteral anything not metadata
+update SimpleName MethodInvocation SimpleName context
+update SimpleName MethodInvocation SimpleName m
+update SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName key extent
+update SimpleName MethodInvocation ClassInstanceCreation ClassInstanceCreation StringLiteral anything not metadata
+context SimpleName MethodInvocation SimpleName m
+context SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName key extent
+context SimpleName MethodInvocation ClassInstanceCreation ClassInstanceCreation StringLiteral anything not metadata
+m SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName key extent
+m SimpleName MethodInvocation ClassInstanceCreation ClassInstanceCreation StringLiteral anything not metadata
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName remove bulk load in progress flag
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName accumulo server context
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName context
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName path
+static Modifier MethodDeclaration PrimitiveType void
+static Modifier MethodDeclaration SimpleName remove bulk load in progress flag
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName accumulo server context
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName context
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName path
+void PrimitiveType MethodDeclaration SimpleName remove bulk load in progress flag
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName accumulo server context
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName context
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName path
+remove bulk load in progress flag SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName accumulo server context
+remove bulk load in progress flag SimpleName MethodDeclaration SingleVariableDeclaration SimpleName context
+remove bulk load in progress flag SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+remove bulk load in progress flag SimpleName MethodDeclaration SingleVariableDeclaration SimpleName path
+context SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName path
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName remove bulk load in progress flag
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName context
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName path
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName remove bulk load in progress flag
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName context
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName path

@@ -1,0 +1,222 @@
+string SimpleName SimpleType ArrayType SingleVariableDeclaration SimpleName args
+get class SimpleName MethodInvocation MethodInvocation SimpleName get simple name
+job SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get conf
+job SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get simple name
+get conf SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get simple name
+job SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName job
+job SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get conf
+job SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get simple name
+job SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName job
+job SimpleName MethodInvocation SimpleName set jar by class
+job SimpleName MethodInvocation MethodInvocation SimpleName get class
+set jar by class SimpleName MethodInvocation MethodInvocation SimpleName get class
+job SimpleName MethodInvocation SimpleName get jar
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation StringLiteral mr requires a jar file run mvn package
+error SimpleName MethodInvocation StringLiteral mr requires a jar file run mvn package
+job SimpleName MethodInvocation SimpleName set input format class
+job SimpleName MethodInvocation TypeLiteral SimpleType SimpleName accumulo input format
+set input format class SimpleName MethodInvocation TypeLiteral SimpleType SimpleName accumulo input format
+args SimpleName ArrayAccess NumberLiteral empty
+args SimpleName ArrayAccess NumberLiteral empty
+charset SimpleName MethodInvocation SimpleName for name
+charset SimpleName MethodInvocation StringLiteral utf
+for name SimpleName MethodInvocation StringLiteral utf
+args SimpleName ArrayAccess MethodInvocation SimpleName get bytes
+empty NumberLiteral ArrayAccess MethodInvocation SimpleName get bytes
+args SimpleName ArrayAccess MethodInvocation MethodInvocation SimpleName charset
+args SimpleName ArrayAccess MethodInvocation MethodInvocation SimpleName for name
+args SimpleName ArrayAccess MethodInvocation MethodInvocation StringLiteral utf
+empty NumberLiteral ArrayAccess MethodInvocation MethodInvocation SimpleName charset
+empty NumberLiteral ArrayAccess MethodInvocation MethodInvocation SimpleName for name
+empty NumberLiteral ArrayAccess MethodInvocation MethodInvocation StringLiteral utf
+get bytes SimpleName MethodInvocation MethodInvocation SimpleName charset
+get bytes SimpleName MethodInvocation MethodInvocation SimpleName for name
+get bytes SimpleName MethodInvocation MethodInvocation StringLiteral utf
+password token SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName set password
+set password SimpleName MethodInvocation MethodInvocation ArrayAccess SimpleName args
+set password SimpleName MethodInvocation MethodInvocation ArrayAccess NumberLiteral empty
+set password SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+set password SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName charset
+set password SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName for name
+set password SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral utf
+accumulo input format SimpleName MethodInvocation SimpleName set connector info
+accumulo input format SimpleName MethodInvocation SimpleName job
+accumulo input format SimpleName MethodInvocation ArrayAccess SimpleName args
+accumulo input format SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+accumulo input format SimpleName MethodInvocation MethodInvocation SimpleName set password
+accumulo input format SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get bytes
+set connector info SimpleName MethodInvocation SimpleName job
+set connector info SimpleName MethodInvocation ArrayAccess SimpleName args
+set connector info SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+set connector info SimpleName MethodInvocation MethodInvocation SimpleName set password
+set connector info SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get bytes
+job SimpleName MethodInvocation ArrayAccess SimpleName args
+job SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+job SimpleName MethodInvocation MethodInvocation SimpleName set password
+job SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get bytes
+args SimpleName ArrayAccess MethodInvocation MethodInvocation SimpleName set password
+empty NumberLiteral ArrayAccess MethodInvocation MethodInvocation SimpleName set password
+args SimpleName ArrayAccess NumberLiteral empty
+accumulo input format SimpleName MethodInvocation SimpleName set input table name
+accumulo input format SimpleName MethodInvocation SimpleName job
+accumulo input format SimpleName MethodInvocation ArrayAccess SimpleName args
+accumulo input format SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+set input table name SimpleName MethodInvocation SimpleName job
+set input table name SimpleName MethodInvocation ArrayAccess SimpleName args
+set input table name SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+job SimpleName MethodInvocation ArrayAccess SimpleName args
+job SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+args SimpleName ArrayAccess NumberLiteral empty
+args SimpleName ArrayAccess NumberLiteral empty
+accumulo input format SimpleName MethodInvocation SimpleName set zoo keeper instance
+accumulo input format SimpleName MethodInvocation SimpleName job
+accumulo input format SimpleName MethodInvocation ArrayAccess SimpleName args
+accumulo input format SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+accumulo input format SimpleName MethodInvocation ArrayAccess SimpleName args
+accumulo input format SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+set zoo keeper instance SimpleName MethodInvocation SimpleName job
+set zoo keeper instance SimpleName MethodInvocation ArrayAccess SimpleName args
+set zoo keeper instance SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+set zoo keeper instance SimpleName MethodInvocation ArrayAccess SimpleName args
+set zoo keeper instance SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+job SimpleName MethodInvocation ArrayAccess SimpleName args
+job SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+job SimpleName MethodInvocation ArrayAccess SimpleName args
+job SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+args SimpleName ArrayAccess MethodInvocation ArrayAccess SimpleName args
+args SimpleName ArrayAccess MethodInvocation ArrayAccess NumberLiteral empty
+empty NumberLiteral ArrayAccess MethodInvocation ArrayAccess SimpleName args
+empty NumberLiteral ArrayAccess MethodInvocation ArrayAccess NumberLiteral empty
+job SimpleName MethodInvocation SimpleName set mapper class
+job SimpleName MethodInvocation TypeLiteral SimpleType SimpleName seq map class
+set mapper class SimpleName MethodInvocation TypeLiteral SimpleType SimpleName seq map class
+job SimpleName MethodInvocation SimpleName set map output key class
+job SimpleName MethodInvocation TypeLiteral SimpleType SimpleName null writable
+set map output key class SimpleName MethodInvocation TypeLiteral SimpleType SimpleName null writable
+job SimpleName MethodInvocation SimpleName set map output value class
+job SimpleName MethodInvocation TypeLiteral SimpleType SimpleName int writable
+set map output value class SimpleName MethodInvocation TypeLiteral SimpleType SimpleName int writable
+job SimpleName MethodInvocation SimpleName set reducer class
+job SimpleName MethodInvocation TypeLiteral SimpleType SimpleName seq reduce class
+set reducer class SimpleName MethodInvocation TypeLiteral SimpleType SimpleName seq reduce class
+job SimpleName MethodInvocation SimpleName set num reduce tasks
+job SimpleName MethodInvocation NumberLiteral empty
+set num reduce tasks SimpleName MethodInvocation NumberLiteral empty
+job SimpleName MethodInvocation SimpleName set output format class
+job SimpleName MethodInvocation TypeLiteral SimpleType SimpleName accumulo output format
+set output format class SimpleName MethodInvocation TypeLiteral SimpleType SimpleName accumulo output format
+args SimpleName ArrayAccess NumberLiteral empty
+args SimpleName ArrayAccess NumberLiteral empty
+charset SimpleName MethodInvocation SimpleName for name
+charset SimpleName MethodInvocation StringLiteral utf
+for name SimpleName MethodInvocation StringLiteral utf
+args SimpleName ArrayAccess MethodInvocation SimpleName get bytes
+empty NumberLiteral ArrayAccess MethodInvocation SimpleName get bytes
+args SimpleName ArrayAccess MethodInvocation MethodInvocation SimpleName charset
+args SimpleName ArrayAccess MethodInvocation MethodInvocation SimpleName for name
+args SimpleName ArrayAccess MethodInvocation MethodInvocation StringLiteral utf
+empty NumberLiteral ArrayAccess MethodInvocation MethodInvocation SimpleName charset
+empty NumberLiteral ArrayAccess MethodInvocation MethodInvocation SimpleName for name
+empty NumberLiteral ArrayAccess MethodInvocation MethodInvocation StringLiteral utf
+get bytes SimpleName MethodInvocation MethodInvocation SimpleName charset
+get bytes SimpleName MethodInvocation MethodInvocation SimpleName for name
+get bytes SimpleName MethodInvocation MethodInvocation StringLiteral utf
+password token SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName set password
+set password SimpleName MethodInvocation MethodInvocation ArrayAccess SimpleName args
+set password SimpleName MethodInvocation MethodInvocation ArrayAccess NumberLiteral empty
+set password SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+set password SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName charset
+set password SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName for name
+set password SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral utf
+accumulo output format SimpleName MethodInvocation SimpleName set connector info
+accumulo output format SimpleName MethodInvocation SimpleName job
+accumulo output format SimpleName MethodInvocation ArrayAccess SimpleName args
+accumulo output format SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+accumulo output format SimpleName MethodInvocation MethodInvocation SimpleName set password
+accumulo output format SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get bytes
+set connector info SimpleName MethodInvocation SimpleName job
+set connector info SimpleName MethodInvocation ArrayAccess SimpleName args
+set connector info SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+set connector info SimpleName MethodInvocation MethodInvocation SimpleName set password
+set connector info SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get bytes
+job SimpleName MethodInvocation ArrayAccess SimpleName args
+job SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+job SimpleName MethodInvocation MethodInvocation SimpleName set password
+job SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get bytes
+args SimpleName ArrayAccess MethodInvocation MethodInvocation SimpleName set password
+empty NumberLiteral ArrayAccess MethodInvocation MethodInvocation SimpleName set password
+accumulo output format SimpleName MethodInvocation SimpleName set create tables
+accumulo output format SimpleName MethodInvocation SimpleName job
+accumulo output format SimpleName MethodInvocation BooleanLiteral true
+set create tables SimpleName MethodInvocation SimpleName job
+set create tables SimpleName MethodInvocation BooleanLiteral true
+job SimpleName MethodInvocation BooleanLiteral true
+args SimpleName ArrayAccess NumberLiteral empty
+accumulo output format SimpleName MethodInvocation SimpleName set default table name
+accumulo output format SimpleName MethodInvocation SimpleName job
+accumulo output format SimpleName MethodInvocation ArrayAccess SimpleName args
+accumulo output format SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+set default table name SimpleName MethodInvocation SimpleName job
+set default table name SimpleName MethodInvocation ArrayAccess SimpleName args
+set default table name SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+job SimpleName MethodInvocation ArrayAccess SimpleName args
+job SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+args SimpleName ArrayAccess NumberLiteral empty
+args SimpleName ArrayAccess NumberLiteral empty
+accumulo output format SimpleName MethodInvocation SimpleName set zoo keeper instance
+accumulo output format SimpleName MethodInvocation SimpleName job
+accumulo output format SimpleName MethodInvocation ArrayAccess SimpleName args
+accumulo output format SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+accumulo output format SimpleName MethodInvocation ArrayAccess SimpleName args
+accumulo output format SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+set zoo keeper instance SimpleName MethodInvocation SimpleName job
+set zoo keeper instance SimpleName MethodInvocation ArrayAccess SimpleName args
+set zoo keeper instance SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+set zoo keeper instance SimpleName MethodInvocation ArrayAccess SimpleName args
+set zoo keeper instance SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+job SimpleName MethodInvocation ArrayAccess SimpleName args
+job SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+job SimpleName MethodInvocation ArrayAccess SimpleName args
+job SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+args SimpleName ArrayAccess MethodInvocation ArrayAccess SimpleName args
+args SimpleName ArrayAccess MethodInvocation ArrayAccess NumberLiteral empty
+empty NumberLiteral ArrayAccess MethodInvocation ArrayAccess SimpleName args
+empty NumberLiteral ArrayAccess MethodInvocation ArrayAccess NumberLiteral empty
+job SimpleName MethodInvocation SimpleName wait for completion
+job SimpleName MethodInvocation BooleanLiteral true
+wait for completion SimpleName MethodInvocation BooleanLiteral true
+job SimpleName MethodInvocation SimpleName is successful
+job SimpleName MethodInvocation ConditionalExpression NumberLiteral empty
+is successful SimpleName MethodInvocation ConditionalExpression NumberLiteral empty
+job SimpleName MethodInvocation ConditionalExpression NumberLiteral empty
+is successful SimpleName MethodInvocation ConditionalExpression NumberLiteral empty
+empty NumberLiteral ConditionalExpression NumberLiteral empty
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType int
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName run
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName args
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType int
+public Modifier MethodDeclaration SimpleName run
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName args
+public Modifier MethodDeclaration SimpleType SimpleName exception
+int PrimitiveType MethodDeclaration SimpleName run
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName args
+int PrimitiveType MethodDeclaration SimpleType SimpleName exception
+run SimpleName MethodDeclaration SingleVariableDeclaration SimpleName args
+run SimpleName MethodDeclaration SimpleType SimpleName exception
+args SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SimpleName run
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName args
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SimpleName run
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName args
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

@@ -1,0 +1,64 @@
+mini accumulo config impl SimpleName SimpleType SingleVariableDeclaration SimpleName cfg
+v SimpleName MethodInvocation SimpleName to string
+cfg SimpleName MethodInvocation SimpleName set property
+cfg SimpleName MethodInvocation QualifiedName propertyinstance dfs uri
+cfg SimpleName MethodInvocation MethodInvocation SimpleName v
+cfg SimpleName MethodInvocation MethodInvocation SimpleName to string
+set property SimpleName MethodInvocation QualifiedName propertyinstance dfs uri
+set property SimpleName MethodInvocation MethodInvocation SimpleName v
+set property SimpleName MethodInvocation MethodInvocation SimpleName to string
+propertyinstance dfs uri QualifiedName MethodInvocation MethodInvocation SimpleName v
+propertyinstance dfs uri QualifiedName MethodInvocation MethodInvocation SimpleName to string
+v SimpleName MethodInvocation SimpleName to string
+v SimpleName MethodInvocation SimpleName to string
+v SimpleName MethodInvocation InfixExpression StringLiteral empty
+to string SimpleName MethodInvocation InfixExpression StringLiteral empty
+v SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName v
+v SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName to string
+to string SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName v
+to string SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName to string
+empty StringLiteral InfixExpression MethodInvocation SimpleName v
+empty StringLiteral InfixExpression MethodInvocation SimpleName to string
+cfg SimpleName MethodInvocation SimpleName set property
+cfg SimpleName MethodInvocation QualifiedName propertyinstance volumes
+cfg SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName v
+cfg SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName to string
+cfg SimpleName MethodInvocation InfixExpression StringLiteral empty
+cfg SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName v
+cfg SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName to string
+set property SimpleName MethodInvocation QualifiedName propertyinstance volumes
+set property SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName v
+set property SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName to string
+set property SimpleName MethodInvocation InfixExpression StringLiteral empty
+set property SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName v
+set property SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName to string
+propertyinstance volumes QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName v
+propertyinstance volumes QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName to string
+propertyinstance volumes QualifiedName MethodInvocation InfixExpression StringLiteral empty
+propertyinstance volumes QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName v
+propertyinstance volumes QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName to string
+configure SimpleName SuperMethodInvocation SimpleName cfg
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName configure
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName cfg
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName configure
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName mini accumulo config impl
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName cfg
+void PrimitiveType MethodDeclaration SimpleName configure
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName mini accumulo config impl
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName cfg
+configure SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName mini accumulo config impl
+configure SimpleName MethodDeclaration SingleVariableDeclaration SimpleName cfg
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName configure
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cfg
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName configure
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cfg

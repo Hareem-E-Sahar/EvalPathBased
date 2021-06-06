@@ -1,0 +1,60 @@
+job context SimpleName SimpleType SingleVariableDeclaration SimpleName job
+string SimpleName SimpleType SingleVariableDeclaration SimpleName instance name
+job SimpleName MethodInvocation SimpleName get configuration
+conf SimpleName VariableDeclarationFragment MethodInvocation SimpleName job
+conf SimpleName VariableDeclarationFragment MethodInvocation SimpleName get configuration
+configuration SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName conf
+conf SimpleName MethodInvocation SimpleName set boolean
+conf SimpleName MethodInvocation SimpleName instance has been set
+conf SimpleName MethodInvocation BooleanLiteral true
+set boolean SimpleName MethodInvocation SimpleName instance has been set
+set boolean SimpleName MethodInvocation BooleanLiteral true
+instance has been set SimpleName MethodInvocation BooleanLiteral true
+conf SimpleName MethodInvocation SimpleName set boolean
+conf SimpleName MethodInvocation SimpleName mock
+conf SimpleName MethodInvocation BooleanLiteral true
+set boolean SimpleName MethodInvocation SimpleName mock
+set boolean SimpleName MethodInvocation BooleanLiteral true
+mock SimpleName MethodInvocation BooleanLiteral true
+conf SimpleName MethodInvocation SimpleName set
+conf SimpleName MethodInvocation SimpleName instance name
+conf SimpleName MethodInvocation SimpleName instance name
+set SimpleName MethodInvocation SimpleName instance name
+set SimpleName MethodInvocation SimpleName instance name
+instance name SimpleName MethodInvocation SimpleName instance name
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set mock instance
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName job context
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName job
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName instance name
+static Modifier MethodDeclaration PrimitiveType void
+static Modifier MethodDeclaration SimpleName set mock instance
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName job context
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName job
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName instance name
+void PrimitiveType MethodDeclaration SimpleName set mock instance
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName job context
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName job
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName instance name
+set mock instance SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName job context
+set mock instance SimpleName MethodDeclaration SingleVariableDeclaration SimpleName job
+set mock instance SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+set mock instance SimpleName MethodDeclaration SingleVariableDeclaration SimpleName instance name
+job SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName instance name
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set mock instance
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName job
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName instance name
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set mock instance
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName job
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName instance name

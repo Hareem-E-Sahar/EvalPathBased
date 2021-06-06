@@ -1,0 +1,234 @@
+cached configuration SimpleName MethodInvocation SimpleName get instance
+conf SimpleName VariableDeclarationFragment MethodInvocation SimpleName cached configuration
+conf SimpleName VariableDeclarationFragment MethodInvocation SimpleName get instance
+configuration SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName conf
+file system SimpleName MethodInvocation SimpleName get
+file system SimpleName MethodInvocation SimpleName conf
+get SimpleName MethodInvocation SimpleName conf
+fs SimpleName VariableDeclarationFragment MethodInvocation SimpleName file system
+fs SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+fs SimpleName VariableDeclarationFragment MethodInvocation SimpleName conf
+file system SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName fs
+conf SimpleName MethodInvocation SimpleName set int
+conf SimpleName MethodInvocation StringLiteral ioseqfilecompressblocksize
+conf SimpleName MethodInvocation NumberLiteral empty
+set int SimpleName MethodInvocation StringLiteral ioseqfilecompressblocksize
+set int SimpleName MethodInvocation NumberLiteral empty
+ioseqfilecompressblocksize StringLiteral MethodInvocation NumberLiteral empty
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName key
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+key SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName key
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+key SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+my map filewriter QualifiedName SimpleType ClassInstanceCreation SimpleName conf
+my map filewriter QualifiedName SimpleType ClassInstanceCreation SimpleName fs
+my map filewriter QualifiedName SimpleType ClassInstanceCreation StringLiteral tmptest map file indexing map
+conf SimpleName ClassInstanceCreation SimpleName fs
+conf SimpleName ClassInstanceCreation StringLiteral tmptest map file indexing map
+conf SimpleName ClassInstanceCreation TypeLiteral SimpleType SimpleName key
+conf SimpleName ClassInstanceCreation TypeLiteral SimpleType SimpleName value
+conf SimpleName ClassInstanceCreation QualifiedName compression typeblock
+fs SimpleName ClassInstanceCreation StringLiteral tmptest map file indexing map
+fs SimpleName ClassInstanceCreation TypeLiteral SimpleType SimpleName key
+fs SimpleName ClassInstanceCreation TypeLiteral SimpleType SimpleName value
+fs SimpleName ClassInstanceCreation QualifiedName compression typeblock
+tmptest map file indexing map StringLiteral ClassInstanceCreation TypeLiteral SimpleType SimpleName key
+tmptest map file indexing map StringLiteral ClassInstanceCreation TypeLiteral SimpleType SimpleName value
+tmptest map file indexing map StringLiteral ClassInstanceCreation QualifiedName compression typeblock
+key SimpleName SimpleType TypeLiteral ClassInstanceCreation QualifiedName compression typeblock
+value SimpleName SimpleType TypeLiteral ClassInstanceCreation QualifiedName compression typeblock
+mfw SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType QualifiedName my map filewriter
+mfw SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName conf
+mfw SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName fs
+mfw SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral tmptest map file indexing map
+mfw SimpleName VariableDeclarationFragment ClassInstanceCreation QualifiedName compression typeblock
+my map filewriter QualifiedName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName mfw
+byte PrimitiveType ArrayType ArrayCreation NumberLiteral empty
+value SimpleName SimpleType ClassInstanceCreation ArrayCreation NumberLiteral empty
+value SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName value
+value SimpleName VariableDeclarationFragment ClassInstanceCreation ArrayCreation NumberLiteral empty
+value SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName value
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+i SimpleName InfixExpression NumberLiteral empty
+string SimpleName MethodInvocation SimpleName format
+string SimpleName MethodInvocation StringLiteral % d
+string SimpleName MethodInvocation SimpleName i
+format SimpleName MethodInvocation StringLiteral % d
+format SimpleName MethodInvocation SimpleName i
+% d StringLiteral MethodInvocation SimpleName i
+text SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName string
+text SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName format
+text SimpleName SimpleType ClassInstanceCreation MethodInvocation StringLiteral % d
+text SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName i
+row SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName text
+row SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName string
+row SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName format
+row SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation StringLiteral % d
+row SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName i
+text SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName row
+j SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName j
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+j SimpleName InfixExpression NumberLiteral empty
+string SimpleName MethodInvocation SimpleName format
+string SimpleName MethodInvocation StringLiteral % d
+string SimpleName MethodInvocation SimpleName j
+format SimpleName MethodInvocation StringLiteral % d
+format SimpleName MethodInvocation SimpleName j
+% d StringLiteral MethodInvocation SimpleName j
+text SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName string
+text SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName format
+text SimpleName SimpleType ClassInstanceCreation MethodInvocation StringLiteral % d
+text SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName j
+cf SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName text
+cf SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName string
+cf SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName format
+cf SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation StringLiteral % d
+cf SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName j
+text SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName cf
+k SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName k
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+k SimpleName InfixExpression NumberLiteral empty
+string SimpleName MethodInvocation SimpleName format
+string SimpleName MethodInvocation StringLiteral % d
+string SimpleName MethodInvocation SimpleName k
+format SimpleName MethodInvocation StringLiteral % d
+format SimpleName MethodInvocation SimpleName k
+% d StringLiteral MethodInvocation SimpleName k
+text SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName string
+text SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName format
+text SimpleName SimpleType ClassInstanceCreation MethodInvocation StringLiteral % d
+text SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName k
+cq SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName text
+cq SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName string
+cq SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName format
+cq SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation StringLiteral % d
+cq SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName k
+text SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName cq
+key SimpleName SimpleType ClassInstanceCreation SimpleName row
+key SimpleName SimpleType ClassInstanceCreation SimpleName cf
+key SimpleName SimpleType ClassInstanceCreation SimpleName cq
+row SimpleName ClassInstanceCreation SimpleName cf
+row SimpleName ClassInstanceCreation SimpleName cq
+cf SimpleName ClassInstanceCreation SimpleName cq
+key SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName key
+key SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName row
+key SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName cf
+key SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName cq
+key SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName key
+mfw SimpleName MethodInvocation SimpleName append
+mfw SimpleName MethodInvocation SimpleName key
+mfw SimpleName MethodInvocation SimpleName value
+append SimpleName MethodInvocation SimpleName key
+append SimpleName MethodInvocation SimpleName value
+key SimpleName MethodInvocation SimpleName value
+kv map SimpleName MethodInvocation SimpleName put
+kv map SimpleName MethodInvocation SimpleName key
+kv map SimpleName MethodInvocation SimpleName value
+put SimpleName MethodInvocation SimpleName key
+put SimpleName MethodInvocation SimpleName value
+key SimpleName MethodInvocation SimpleName value
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName k
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName k
+k SimpleName InfixExpression ForStatement PostfixExpression SimpleName k
+empty NumberLiteral InfixExpression ForStatement PostfixExpression SimpleName k
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName j
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName j
+j SimpleName InfixExpression ForStatement PostfixExpression SimpleName j
+empty NumberLiteral InfixExpression ForStatement PostfixExpression SimpleName j
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+empty NumberLiteral InfixExpression ForStatement PostfixExpression SimpleName i
+mfw SimpleName MethodInvocation SimpleName close
+my map filereader QualifiedName SimpleType ClassInstanceCreation SimpleName fs
+my map filereader QualifiedName SimpleType ClassInstanceCreation StringLiteral tmptest map file indexing map
+my map filereader QualifiedName SimpleType ClassInstanceCreation SimpleName conf
+fs SimpleName ClassInstanceCreation StringLiteral tmptest map file indexing map
+fs SimpleName ClassInstanceCreation SimpleName conf
+tmptest map file indexing map StringLiteral ClassInstanceCreation SimpleName conf
+mfr SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType QualifiedName my map filereader
+mfr SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName fs
+mfr SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral tmptest map file indexing map
+mfr SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName conf
+my map filereader QualifiedName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName mfr
+value SimpleName Assignment ClassInstanceCreation SimpleType SimpleName value
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName key
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+key SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+entry SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName e
+key SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName e
+value SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName e
+kv map SimpleName MethodInvocation SimpleName entry set
+e SimpleName MethodInvocation SimpleName get key
+range SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName e
+range SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get key
+range SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName range
+range SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName e
+range SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get key
+range SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName range
+mfr SimpleName MethodInvocation SimpleName seek
+mfr SimpleName MethodInvocation SimpleName range
+mfr SimpleName MethodInvocation QualifiedName locality group utilempty cf set
+mfr SimpleName MethodInvocation BooleanLiteral false
+seek SimpleName MethodInvocation SimpleName range
+seek SimpleName MethodInvocation QualifiedName locality group utilempty cf set
+seek SimpleName MethodInvocation BooleanLiteral false
+range SimpleName MethodInvocation QualifiedName locality group utilempty cf set
+range SimpleName MethodInvocation BooleanLiteral false
+locality group utilempty cf set QualifiedName MethodInvocation BooleanLiteral false
+mfr SimpleName MethodInvocation SimpleName has top
+assert true SimpleName MethodInvocation MethodInvocation SimpleName mfr
+assert true SimpleName MethodInvocation MethodInvocation SimpleName has top
+mfr SimpleName MethodInvocation SimpleName get top key
+k SimpleName VariableDeclarationFragment MethodInvocation SimpleName mfr
+k SimpleName VariableDeclarationFragment MethodInvocation SimpleName get top key
+key SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName k
+e SimpleName MethodInvocation SimpleName get key
+k SimpleName MethodInvocation SimpleName equals
+k SimpleName MethodInvocation MethodInvocation SimpleName e
+k SimpleName MethodInvocation MethodInvocation SimpleName get key
+equals SimpleName MethodInvocation MethodInvocation SimpleName e
+equals SimpleName MethodInvocation MethodInvocation SimpleName get key
+assert true SimpleName MethodInvocation MethodInvocation SimpleName k
+assert true SimpleName MethodInvocation MethodInvocation SimpleName equals
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName e
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get key
+e SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName kv map
+e SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName entry set
+mfr SimpleName MethodInvocation SimpleName close
+path SimpleName SimpleType ClassInstanceCreation StringLiteral tmptest map file indexing map
+fs SimpleName MethodInvocation SimpleName delete
+fs SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName path
+fs SimpleName MethodInvocation ClassInstanceCreation StringLiteral tmptest map file indexing map
+fs SimpleName MethodInvocation BooleanLiteral true
+delete SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName path
+delete SimpleName MethodInvocation ClassInstanceCreation StringLiteral tmptest map file indexing map
+delete SimpleName MethodInvocation BooleanLiteral true
+path SimpleName SimpleType ClassInstanceCreation MethodInvocation BooleanLiteral true
+tmptest map file indexing map StringLiteral ClassInstanceCreation MethodInvocation BooleanLiteral true
+io exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation SimpleName e
+log SimpleName MethodInvocation SimpleName e
+error SimpleName MethodInvocation SimpleName e
+error SimpleName MethodInvocation SimpleName e
+e SimpleName MethodInvocation SimpleName e
+assert true SimpleName MethodInvocation BooleanLiteral false
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test map file seek
+void PrimitiveType MethodDeclaration SimpleName test map file seek
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test map file seek
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test map file seek

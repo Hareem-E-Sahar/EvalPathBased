@@ -1,0 +1,13 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName property key
+vertex property key SimpleName FieldAccess Assignment SimpleName property key
+builder SimpleName SimpleType MethodDeclaration SimpleName vertex property
+builder SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName property key
+vertex property SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+vertex property SimpleName MethodDeclaration SingleVariableDeclaration SimpleName property key
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName builder
+public Modifier TypeDeclaration MethodDeclaration SimpleName vertex property
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName property key
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName builder
+test SimpleName TypeDeclaration MethodDeclaration SimpleName vertex property
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName property key

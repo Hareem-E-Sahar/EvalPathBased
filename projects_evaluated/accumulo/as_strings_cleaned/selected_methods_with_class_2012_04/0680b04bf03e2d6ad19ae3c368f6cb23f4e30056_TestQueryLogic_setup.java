@@ -1,0 +1,319 @@
+logger SimpleName MethodInvocation SimpleName get logger
+logger SimpleName MethodInvocation TypeLiteral SimpleType SimpleName abstract query logic
+get logger SimpleName MethodInvocation TypeLiteral SimpleType SimpleName abstract query logic
+logger SimpleName MethodInvocation MethodInvocation SimpleName set level
+get logger SimpleName MethodInvocation MethodInvocation SimpleName set level
+logger SimpleName MethodInvocation MethodInvocation QualifiedName leveldebug
+get logger SimpleName MethodInvocation MethodInvocation QualifiedName leveldebug
+set level SimpleName MethodInvocation QualifiedName leveldebug
+logger SimpleName MethodInvocation SimpleName get logger
+logger SimpleName MethodInvocation TypeLiteral SimpleType SimpleName query logic
+get logger SimpleName MethodInvocation TypeLiteral SimpleType SimpleName query logic
+logger SimpleName MethodInvocation MethodInvocation SimpleName set level
+get logger SimpleName MethodInvocation MethodInvocation SimpleName set level
+logger SimpleName MethodInvocation MethodInvocation QualifiedName leveldebug
+get logger SimpleName MethodInvocation MethodInvocation QualifiedName leveldebug
+set level SimpleName MethodInvocation QualifiedName leveldebug
+logger SimpleName MethodInvocation SimpleName get logger
+logger SimpleName MethodInvocation TypeLiteral SimpleType SimpleName range calculator
+get logger SimpleName MethodInvocation TypeLiteral SimpleType SimpleName range calculator
+logger SimpleName MethodInvocation MethodInvocation SimpleName set level
+get logger SimpleName MethodInvocation MethodInvocation SimpleName set level
+logger SimpleName MethodInvocation MethodInvocation QualifiedName leveldebug
+get logger SimpleName MethodInvocation MethodInvocation QualifiedName leveldebug
+set level SimpleName MethodInvocation QualifiedName leveldebug
+conf SimpleName MethodInvocation SimpleName set
+conf SimpleName MethodInvocation QualifiedName aggregating record readerstart token
+conf SimpleName MethodInvocation StringLiteral page
+set SimpleName MethodInvocation QualifiedName aggregating record readerstart token
+set SimpleName MethodInvocation StringLiteral page
+aggregating record readerstart token QualifiedName MethodInvocation StringLiteral page
+conf SimpleName MethodInvocation SimpleName set
+conf SimpleName MethodInvocation QualifiedName aggregating record readerend token
+conf SimpleName MethodInvocation StringLiteral page
+set SimpleName MethodInvocation QualifiedName aggregating record readerend token
+set SimpleName MethodInvocation StringLiteral page
+aggregating record readerend token QualifiedName MethodInvocation StringLiteral page
+conf SimpleName MethodInvocation SimpleName set
+conf SimpleName MethodInvocation QualifiedName wikipedia configurationtable name
+conf SimpleName MethodInvocation SimpleName table name
+set SimpleName MethodInvocation QualifiedName wikipedia configurationtable name
+set SimpleName MethodInvocation SimpleName table name
+wikipedia configurationtable name QualifiedName MethodInvocation SimpleName table name
+conf SimpleName MethodInvocation SimpleName set
+conf SimpleName MethodInvocation QualifiedName wikipedia configurationnum partitions
+conf SimpleName MethodInvocation StringLiteral empty
+set SimpleName MethodInvocation QualifiedName wikipedia configurationnum partitions
+set SimpleName MethodInvocation StringLiteral empty
+wikipedia configurationnum partitions QualifiedName MethodInvocation StringLiteral empty
+conf SimpleName MethodInvocation SimpleName set
+conf SimpleName MethodInvocation QualifiedName wikipedia configurationnum groups
+conf SimpleName MethodInvocation StringLiteral empty
+set SimpleName MethodInvocation QualifiedName wikipedia configurationnum groups
+set SimpleName MethodInvocation StringLiteral empty
+wikipedia configurationnum groups QualifiedName MethodInvocation StringLiteral empty
+i SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName mock instance
+mock instance SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName i
+i SimpleName MethodInvocation SimpleName get connector
+i SimpleName MethodInvocation StringLiteral root
+i SimpleName MethodInvocation StringLiteral pass
+get connector SimpleName MethodInvocation StringLiteral root
+get connector SimpleName MethodInvocation StringLiteral pass
+root StringLiteral MethodInvocation StringLiteral pass
+c SimpleName Assignment MethodInvocation SimpleName i
+c SimpleName Assignment MethodInvocation SimpleName get connector
+c SimpleName Assignment MethodInvocation StringLiteral root
+c SimpleName Assignment MethodInvocation StringLiteral pass
+string SimpleName SimpleType SingleVariableDeclaration SimpleName table
+c SimpleName MethodInvocation SimpleName table operations
+c SimpleName MethodInvocation MethodInvocation SimpleName delete
+table operations SimpleName MethodInvocation MethodInvocation SimpleName delete
+c SimpleName MethodInvocation MethodInvocation SimpleName table
+table operations SimpleName MethodInvocation MethodInvocation SimpleName table
+delete SimpleName MethodInvocation SimpleName table
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName ex
+c SimpleName MethodInvocation SimpleName table operations
+c SimpleName MethodInvocation MethodInvocation SimpleName create
+table operations SimpleName MethodInvocation MethodInvocation SimpleName create
+c SimpleName MethodInvocation MethodInvocation SimpleName table
+table operations SimpleName MethodInvocation MethodInvocation SimpleName table
+create SimpleName MethodInvocation SimpleName table
+text SimpleName SimpleType ClassInstanceCreation SimpleName table
+c SimpleName MethodInvocation SimpleName create batch writer
+c SimpleName MethodInvocation SimpleName table
+c SimpleName MethodInvocation NumberLiteral l
+c SimpleName MethodInvocation NumberLiteral l
+c SimpleName MethodInvocation NumberLiteral empty
+create batch writer SimpleName MethodInvocation SimpleName table
+create batch writer SimpleName MethodInvocation NumberLiteral l
+create batch writer SimpleName MethodInvocation NumberLiteral l
+create batch writer SimpleName MethodInvocation NumberLiteral empty
+table SimpleName MethodInvocation NumberLiteral l
+table SimpleName MethodInvocation NumberLiteral l
+table SimpleName MethodInvocation NumberLiteral empty
+l NumberLiteral MethodInvocation NumberLiteral l
+l NumberLiteral MethodInvocation NumberLiteral empty
+l NumberLiteral MethodInvocation NumberLiteral empty
+writer map SimpleName MethodInvocation SimpleName put
+writer map SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName text
+writer map SimpleName MethodInvocation ClassInstanceCreation SimpleName table
+writer map SimpleName MethodInvocation MethodInvocation SimpleName c
+writer map SimpleName MethodInvocation MethodInvocation SimpleName create batch writer
+writer map SimpleName MethodInvocation MethodInvocation SimpleName table
+writer map SimpleName MethodInvocation MethodInvocation NumberLiteral l
+writer map SimpleName MethodInvocation MethodInvocation NumberLiteral l
+writer map SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+put SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName text
+put SimpleName MethodInvocation ClassInstanceCreation SimpleName table
+put SimpleName MethodInvocation MethodInvocation SimpleName c
+put SimpleName MethodInvocation MethodInvocation SimpleName create batch writer
+put SimpleName MethodInvocation MethodInvocation SimpleName table
+put SimpleName MethodInvocation MethodInvocation NumberLiteral l
+put SimpleName MethodInvocation MethodInvocation NumberLiteral l
+put SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+table SimpleName ClassInstanceCreation MethodInvocation MethodInvocation SimpleName c
+table SimpleName ClassInstanceCreation MethodInvocation MethodInvocation SimpleName create batch writer
+table SimpleName ClassInstanceCreation MethodInvocation MethodInvocation SimpleName table
+table SimpleName ClassInstanceCreation MethodInvocation MethodInvocation NumberLiteral l
+table SimpleName ClassInstanceCreation MethodInvocation MethodInvocation NumberLiteral l
+table SimpleName ClassInstanceCreation MethodInvocation MethodInvocation NumberLiteral empty
+string SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName table names
+table SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName table names
+context factory SimpleName MethodInvocation SimpleName create task attempt context
+context factory SimpleName MethodInvocation SimpleName conf
+create task attempt context SimpleName MethodInvocation SimpleName conf
+context SimpleName VariableDeclarationFragment MethodInvocation SimpleName context factory
+context SimpleName VariableDeclarationFragment MethodInvocation SimpleName create task attempt context
+context SimpleName VariableDeclarationFragment MethodInvocation SimpleName conf
+task attempt context SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName context
+fs SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName raw local file system
+raw local file system SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName fs
+fs SimpleName MethodInvocation SimpleName set conf
+fs SimpleName MethodInvocation SimpleName conf
+set conf SimpleName MethodInvocation SimpleName conf
+class loader SimpleName MethodInvocation SimpleName get system resource
+class loader SimpleName MethodInvocation StringLiteral enwiki - xml
+get system resource SimpleName MethodInvocation StringLiteral enwiki - xml
+url SimpleName VariableDeclarationFragment MethodInvocation SimpleName class loader
+url SimpleName VariableDeclarationFragment MethodInvocation SimpleName get system resource
+url SimpleName VariableDeclarationFragment MethodInvocation StringLiteral enwiki - xml
+url SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName url
+assert SimpleName MethodInvocation SimpleName assert not null
+assert SimpleName MethodInvocation SimpleName url
+assert not null SimpleName MethodInvocation SimpleName url
+url SimpleName MethodInvocation SimpleName to uri
+file SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName url
+file SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName to uri
+data SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName file
+data SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName url
+data SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName to uri
+file SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName data
+data SimpleName MethodInvocation SimpleName get absolute path
+path SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName data
+path SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get absolute path
+tmp file SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName path
+tmp file SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName data
+tmp file SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get absolute path
+path SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName tmp file
+fs SimpleName MethodInvocation SimpleName path to file
+fs SimpleName MethodInvocation SimpleName tmp file
+path to file SimpleName MethodInvocation SimpleName tmp file
+fs SimpleName MethodInvocation MethodInvocation SimpleName length
+path to file SimpleName MethodInvocation MethodInvocation SimpleName length
+tmp file SimpleName MethodInvocation MethodInvocation SimpleName length
+file split SimpleName SimpleType ClassInstanceCreation SimpleName tmp file
+file split SimpleName SimpleType ClassInstanceCreation NumberLiteral empty
+file split SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName length
+tmp file SimpleName ClassInstanceCreation NumberLiteral empty
+tmp file SimpleName ClassInstanceCreation MethodInvocation MethodInvocation SimpleName fs
+tmp file SimpleName ClassInstanceCreation MethodInvocation MethodInvocation SimpleName path to file
+tmp file SimpleName ClassInstanceCreation MethodInvocation MethodInvocation SimpleName tmp file
+tmp file SimpleName ClassInstanceCreation MethodInvocation SimpleName length
+empty NumberLiteral ClassInstanceCreation MethodInvocation MethodInvocation SimpleName fs
+empty NumberLiteral ClassInstanceCreation MethodInvocation MethodInvocation SimpleName path to file
+empty NumberLiteral ClassInstanceCreation MethodInvocation MethodInvocation SimpleName tmp file
+empty NumberLiteral ClassInstanceCreation MethodInvocation SimpleName length
+wikipedia input split SimpleName SimpleType ClassInstanceCreation ClassInstanceCreation SimpleName tmp file
+wikipedia input split SimpleName SimpleType ClassInstanceCreation ClassInstanceCreation NumberLiteral empty
+wikipedia input split SimpleName SimpleType ClassInstanceCreation NumberLiteral empty
+file split SimpleName SimpleType ClassInstanceCreation ClassInstanceCreation NumberLiteral empty
+tmp file SimpleName ClassInstanceCreation ClassInstanceCreation NumberLiteral empty
+empty NumberLiteral ClassInstanceCreation ClassInstanceCreation NumberLiteral empty
+length SimpleName MethodInvocation ClassInstanceCreation ClassInstanceCreation NumberLiteral empty
+split SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName wikipedia input split
+split SimpleName VariableDeclarationFragment ClassInstanceCreation ClassInstanceCreation SimpleName tmp file
+split SimpleName VariableDeclarationFragment ClassInstanceCreation ClassInstanceCreation NumberLiteral empty
+split SimpleName VariableDeclarationFragment ClassInstanceCreation NumberLiteral empty
+wikipedia input split SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName split
+rr SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName aggregating record reader
+aggregating record reader SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName rr
+path SimpleName SimpleType ClassInstanceCreation SimpleName tmp file
+path SimpleName SimpleType ClassInstanceCreation StringLiteral oc
+tmp file SimpleName ClassInstanceCreation StringLiteral oc
+oc path SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName path
+oc path SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName tmp file
+oc path SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral oc
+path SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName oc path
+file output committer SimpleName SimpleType ClassInstanceCreation SimpleName oc path
+file output committer SimpleName SimpleType ClassInstanceCreation SimpleName context
+oc path SimpleName ClassInstanceCreation SimpleName context
+oc SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName file output committer
+oc SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName oc path
+oc SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName context
+output committer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName oc
+fs SimpleName MethodInvocation SimpleName delete on exit
+fs SimpleName MethodInvocation SimpleName oc path
+delete on exit SimpleName MethodInvocation SimpleName oc path
+sr SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName standalone status reporter
+standalone status reporter SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName sr
+rr SimpleName MethodInvocation SimpleName initialize
+rr SimpleName MethodInvocation SimpleName split
+rr SimpleName MethodInvocation SimpleName context
+initialize SimpleName MethodInvocation SimpleName split
+initialize SimpleName MethodInvocation SimpleName context
+split SimpleName MethodInvocation SimpleName context
+rw SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName mock accumulo record writer
+mock accumulo record writer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName rw
+mapper SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName wikipedia mapper
+wikipedia mapper SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName mapper
+mapper SimpleName SimpleType ParameterizedType SimpleType SimpleName long writable
+mapper SimpleName SimpleType ParameterizedType SimpleType SimpleName text
+mapper SimpleName SimpleType ParameterizedType SimpleType SimpleName text
+mapper SimpleName SimpleType ParameterizedType SimpleType SimpleName mutation
+long writable SimpleName SimpleType ParameterizedType SimpleType SimpleName text
+long writable SimpleName SimpleType ParameterizedType SimpleType SimpleName text
+long writable SimpleName SimpleType ParameterizedType SimpleType SimpleName mutation
+text SimpleName SimpleType ParameterizedType SimpleType SimpleName text
+text SimpleName SimpleType ParameterizedType SimpleType SimpleName mutation
+text SimpleName SimpleType ParameterizedType SimpleType SimpleName mutation
+mapper SimpleName SimpleType ParameterizedType QualifiedType SimpleName context
+long writable SimpleName SimpleType ParameterizedType QualifiedType SimpleName context
+text SimpleName SimpleType ParameterizedType QualifiedType SimpleName context
+text SimpleName SimpleType ParameterizedType QualifiedType SimpleName context
+mutation SimpleName SimpleType ParameterizedType QualifiedType SimpleName context
+context factory SimpleName MethodInvocation SimpleName create map context
+context factory SimpleName MethodInvocation SimpleName mapper
+context factory SimpleName MethodInvocation SimpleName context
+context factory SimpleName MethodInvocation SimpleName rr
+context factory SimpleName MethodInvocation SimpleName rw
+create map context SimpleName MethodInvocation SimpleName mapper
+create map context SimpleName MethodInvocation SimpleName context
+create map context SimpleName MethodInvocation SimpleName rr
+create map context SimpleName MethodInvocation SimpleName rw
+create map context SimpleName MethodInvocation SimpleName oc
+mapper SimpleName MethodInvocation SimpleName context
+mapper SimpleName MethodInvocation SimpleName rr
+mapper SimpleName MethodInvocation SimpleName rw
+mapper SimpleName MethodInvocation SimpleName oc
+mapper SimpleName MethodInvocation SimpleName sr
+context SimpleName MethodInvocation SimpleName rr
+context SimpleName MethodInvocation SimpleName rw
+context SimpleName MethodInvocation SimpleName oc
+context SimpleName MethodInvocation SimpleName sr
+context SimpleName MethodInvocation SimpleName split
+rr SimpleName MethodInvocation SimpleName rw
+rr SimpleName MethodInvocation SimpleName oc
+rr SimpleName MethodInvocation SimpleName sr
+rr SimpleName MethodInvocation SimpleName split
+rw SimpleName MethodInvocation SimpleName oc
+rw SimpleName MethodInvocation SimpleName sr
+rw SimpleName MethodInvocation SimpleName split
+oc SimpleName MethodInvocation SimpleName sr
+oc SimpleName MethodInvocation SimpleName split
+sr SimpleName MethodInvocation SimpleName split
+con SimpleName VariableDeclarationFragment MethodInvocation SimpleName context factory
+con SimpleName VariableDeclarationFragment MethodInvocation SimpleName create map context
+con SimpleName VariableDeclarationFragment MethodInvocation SimpleName mapper
+con SimpleName VariableDeclarationFragment MethodInvocation SimpleName context
+con SimpleName VariableDeclarationFragment MethodInvocation SimpleName rr
+con SimpleName VariableDeclarationFragment MethodInvocation SimpleName rw
+con SimpleName VariableDeclarationFragment MethodInvocation SimpleName oc
+con SimpleName VariableDeclarationFragment MethodInvocation SimpleName sr
+con SimpleName VariableDeclarationFragment MethodInvocation SimpleName split
+context SimpleName QualifiedType VariableDeclarationStatement VariableDeclarationFragment SimpleName con
+mapper SimpleName MethodInvocation SimpleName run
+mapper SimpleName MethodInvocation SimpleName con
+run SimpleName MethodInvocation SimpleName con
+rw SimpleName MethodInvocation SimpleName close
+rw SimpleName MethodInvocation SimpleName context
+close SimpleName MethodInvocation SimpleName context
+table SimpleName Assignment ClassInstanceCreation SimpleType SimpleName query logic
+table SimpleName MethodInvocation SimpleName set metadata table name
+table SimpleName MethodInvocation SimpleName metadata table name
+set metadata table name SimpleName MethodInvocation SimpleName metadata table name
+table SimpleName MethodInvocation SimpleName set table name
+table SimpleName MethodInvocation SimpleName table name
+set table name SimpleName MethodInvocation SimpleName table name
+table SimpleName MethodInvocation SimpleName set index table name
+table SimpleName MethodInvocation SimpleName index table name
+set index table name SimpleName MethodInvocation SimpleName index table name
+table SimpleName MethodInvocation SimpleName set reverse index table name
+table SimpleName MethodInvocation SimpleName rindex table name
+set reverse index table name SimpleName MethodInvocation SimpleName rindex table name
+table SimpleName MethodInvocation SimpleName set use read ahead iterator
+table SimpleName MethodInvocation BooleanLiteral false
+set use read ahead iterator SimpleName MethodInvocation BooleanLiteral false
+before SimpleName MarkerAnnotation MethodDeclaration Modifier public
+before SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+before SimpleName MarkerAnnotation MethodDeclaration SimpleName setup
+before SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName setup
+public Modifier MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration Block EnhancedForStatement SimpleName table names
+void PrimitiveType MethodDeclaration SimpleName setup
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration Block EnhancedForStatement SimpleName table names
+setup SimpleName MethodDeclaration SimpleType SimpleName exception
+setup SimpleName MethodDeclaration Block EnhancedForStatement SimpleName table names
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName before
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName setup
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName before
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName setup
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

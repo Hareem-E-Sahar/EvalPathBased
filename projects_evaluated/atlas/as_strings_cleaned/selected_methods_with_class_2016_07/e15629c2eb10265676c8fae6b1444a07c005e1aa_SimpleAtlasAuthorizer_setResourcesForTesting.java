@@ -1,0 +1,70 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas resource types
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName user map
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName user map
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas resource types
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName group map
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName group map
+atlas action types SimpleName SimpleType SingleVariableDeclaration SimpleName action types
+user read map SimpleName FieldAccess Assignment SimpleName user map
+group read map SimpleName FieldAccess Assignment SimpleName group map
+user write map SimpleName FieldAccess Assignment SimpleName user map
+group write map SimpleName FieldAccess Assignment SimpleName group map
+user update map SimpleName FieldAccess Assignment SimpleName user map
+group update map SimpleName FieldAccess Assignment SimpleName group map
+user delete map SimpleName FieldAccess Assignment SimpleName user map
+group delete map SimpleName FieldAccess Assignment SimpleName group map
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral no such action available
+debug SimpleName MethodInvocation StringLiteral no such action available
+action types SimpleName SwitchStatement SwitchCase SimpleName read
+action types SimpleName SwitchStatement ExpressionStatement Assignment SimpleName user map
+action types SimpleName SwitchStatement ExpressionStatement Assignment SimpleName group map
+action types SimpleName SwitchStatement SwitchCase SimpleName create
+read SimpleName SwitchCase SwitchStatement SwitchCase SimpleName create
+create SimpleName SwitchCase SwitchStatement SwitchCase SimpleName update
+update SimpleName SwitchCase SwitchStatement SwitchCase SimpleName delete
+delete SimpleName SwitchCase SwitchStatement IfStatement SimpleName is debug enabled
+visible for testing SimpleName MarkerAnnotation MethodDeclaration Modifier public
+visible for testing SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+visible for testing SimpleName MarkerAnnotation MethodDeclaration SimpleName set resources for testing
+visible for testing SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName user map
+visible for testing SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName group map
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set resources for testing
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName user map
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName group map
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas action types
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName action types
+void PrimitiveType MethodDeclaration SimpleName set resources for testing
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName user map
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName group map
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas action types
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName action types
+void PrimitiveType MethodDeclaration Block SwitchStatement SimpleName action types
+set resources for testing SimpleName MethodDeclaration SingleVariableDeclaration SimpleName user map
+set resources for testing SimpleName MethodDeclaration SingleVariableDeclaration SimpleName group map
+set resources for testing SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas action types
+set resources for testing SimpleName MethodDeclaration SingleVariableDeclaration SimpleName action types
+set resources for testing SimpleName MethodDeclaration Block SwitchStatement SimpleName action types
+user map SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName group map
+user map SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName action types
+group map SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName action types
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName visible for testing
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set resources for testing
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName user map
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName group map
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName action types
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName visible for testing
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set resources for testing
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName user map
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName group map
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName action types

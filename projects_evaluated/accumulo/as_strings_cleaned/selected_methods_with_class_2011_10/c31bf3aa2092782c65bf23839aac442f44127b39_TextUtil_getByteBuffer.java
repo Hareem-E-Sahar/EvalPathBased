@@ -1,0 +1,44 @@
+text SimpleName SimpleType SingleVariableDeclaration SimpleName text
+text SimpleName MethodInvocation SimpleName get bytes
+bytes SimpleName VariableDeclarationFragment MethodInvocation SimpleName text
+bytes SimpleName VariableDeclarationFragment MethodInvocation SimpleName get bytes
+byte PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName bytes
+text SimpleName MethodInvocation SimpleName get length
+byte buffer SimpleName MethodInvocation SimpleName wrap
+byte buffer SimpleName MethodInvocation SimpleName bytes
+byte buffer SimpleName MethodInvocation NumberLiteral empty
+byte buffer SimpleName MethodInvocation MethodInvocation SimpleName text
+byte buffer SimpleName MethodInvocation MethodInvocation SimpleName get length
+wrap SimpleName MethodInvocation SimpleName bytes
+wrap SimpleName MethodInvocation NumberLiteral empty
+wrap SimpleName MethodInvocation MethodInvocation SimpleName text
+wrap SimpleName MethodInvocation MethodInvocation SimpleName get length
+bytes SimpleName MethodInvocation NumberLiteral empty
+bytes SimpleName MethodInvocation MethodInvocation SimpleName text
+bytes SimpleName MethodInvocation MethodInvocation SimpleName get length
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName text
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName get length
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName byte buffer
+public Modifier MethodDeclaration SimpleName get byte buffer
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName text
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName text
+static Modifier MethodDeclaration SimpleType SimpleName byte buffer
+static Modifier MethodDeclaration SimpleName get byte buffer
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName text
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName text
+byte buffer SimpleName SimpleType MethodDeclaration SimpleName get byte buffer
+byte buffer SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName text
+get byte buffer SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName text
+get byte buffer SimpleName MethodDeclaration SingleVariableDeclaration SimpleName text
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName byte buffer
+public Modifier TypeDeclaration MethodDeclaration SimpleName get byte buffer
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName text
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName byte buffer
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get byte buffer
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName text

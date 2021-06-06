@@ -1,0 +1,80 @@
+garbage collection environment SimpleName SimpleType SingleVariableDeclaration SimpleName gce
+sorted map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+sorted map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+sorted map SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName candidate map
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName candidate map
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName candidate map
+hash set SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+hash set SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType SingleVariableDeclaration SimpleName delete
+candidate map SimpleName MethodInvocation SimpleName key set
+delete SimpleName MethodInvocation SimpleName split
+delete SimpleName MethodInvocation StringLiteral /
+split SimpleName MethodInvocation StringLiteral /
+tokens SimpleName VariableDeclarationFragment MethodInvocation SimpleName delete
+tokens SimpleName VariableDeclarationFragment MethodInvocation SimpleName split
+tokens SimpleName VariableDeclarationFragment MethodInvocation StringLiteral /
+tokenslength QualifiedName InfixExpression NumberLiteral empty
+delete SimpleName MethodInvocation SimpleName split
+delete SimpleName MethodInvocation StringLiteral /
+split SimpleName MethodInvocation StringLiteral /
+delete SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+split SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+/ StringLiteral MethodInvocation ArrayAccess NumberLiteral empty
+table id SimpleName VariableDeclarationFragment ArrayAccess MethodInvocation SimpleName delete
+table id SimpleName VariableDeclarationFragment ArrayAccess MethodInvocation SimpleName split
+table id SimpleName VariableDeclarationFragment ArrayAccess MethodInvocation StringLiteral /
+table id SimpleName VariableDeclarationFragment ArrayAccess NumberLiteral empty
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName table id
+table ids with deletes SimpleName MethodInvocation SimpleName add
+table ids with deletes SimpleName MethodInvocation SimpleName table id
+add SimpleName MethodInvocation SimpleName table id
+delete SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName candidate map
+delete SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName key set
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+gce SimpleName MethodInvocation SimpleName get table i ds
+table ids in zookeeper SimpleName VariableDeclarationFragment MethodInvocation SimpleName gce
+table ids in zookeeper SimpleName VariableDeclarationFragment MethodInvocation SimpleName get table i ds
+table ids with deletes SimpleName MethodInvocation SimpleName remove all
+table ids with deletes SimpleName MethodInvocation SimpleName table ids in zookeeper
+remove all SimpleName MethodInvocation SimpleName table ids in zookeeper
+string SimpleName SimpleType SingleVariableDeclaration SimpleName del table id
+gce SimpleName MethodInvocation SimpleName delete table dir if empty
+gce SimpleName MethodInvocation SimpleName del table id
+delete table dir if empty SimpleName MethodInvocation SimpleName del table id
+string SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName table ids with deletes
+del table id SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName table ids with deletes
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName clean up deleted table dirs
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName garbage collection environment
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName gce
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName candidate map
+private Modifier MethodDeclaration SimpleType SimpleName io exception
+void PrimitiveType MethodDeclaration SimpleName clean up deleted table dirs
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName garbage collection environment
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName gce
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName candidate map
+void PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+void PrimitiveType MethodDeclaration Block EnhancedForStatement SimpleName table ids with deletes
+clean up deleted table dirs SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName garbage collection environment
+clean up deleted table dirs SimpleName MethodDeclaration SingleVariableDeclaration SimpleName gce
+clean up deleted table dirs SimpleName MethodDeclaration SingleVariableDeclaration SimpleName candidate map
+clean up deleted table dirs SimpleName MethodDeclaration SimpleType SimpleName io exception
+clean up deleted table dirs SimpleName MethodDeclaration Block EnhancedForStatement SimpleName table ids with deletes
+gce SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName candidate map
+gce SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+candidate map SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName clean up deleted table dirs
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName gce
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName candidate map
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName clean up deleted table dirs
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName gce
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName candidate map
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

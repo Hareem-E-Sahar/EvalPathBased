@@ -1,0 +1,243 @@
+text SimpleName SimpleType SingleVariableDeclaration SimpleName row
+boolean PrimitiveType SingleVariableDeclaration SimpleName skip row
+boolean PrimitiveType SingleVariableDeclaration SimpleName retry
+op timer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName op timer
+log SimpleName MethodInvocation SimpleName is trace enabled
+op timer SimpleName SimpleType ClassInstanceCreation SimpleName log
+op timer SimpleName SimpleType ClassInstanceCreation QualifiedName leveltrace
+log SimpleName ClassInstanceCreation QualifiedName leveltrace
+text util SimpleName MethodInvocation SimpleName truncate
+text util SimpleName MethodInvocation SimpleName row
+truncate SimpleName MethodInvocation SimpleName row
+locating tablet table StringLiteral InfixExpression SimpleName table id
+locating tablet table StringLiteral InfixExpression StringLiteral row
+locating tablet table StringLiteral InfixExpression MethodInvocation SimpleName text util
+locating tablet table StringLiteral InfixExpression MethodInvocation SimpleName truncate
+locating tablet table StringLiteral InfixExpression MethodInvocation SimpleName row
+locating tablet table StringLiteral InfixExpression StringLiteral skip row
+locating tablet table StringLiteral InfixExpression SimpleName skip row
+table id SimpleName InfixExpression StringLiteral row
+table id SimpleName InfixExpression MethodInvocation SimpleName text util
+table id SimpleName InfixExpression MethodInvocation SimpleName truncate
+table id SimpleName InfixExpression MethodInvocation SimpleName row
+table id SimpleName InfixExpression StringLiteral skip row
+table id SimpleName InfixExpression SimpleName skip row
+table id SimpleName InfixExpression StringLiteral retry
+row StringLiteral InfixExpression MethodInvocation SimpleName text util
+row StringLiteral InfixExpression MethodInvocation SimpleName truncate
+row StringLiteral InfixExpression MethodInvocation SimpleName row
+row StringLiteral InfixExpression StringLiteral skip row
+row StringLiteral InfixExpression SimpleName skip row
+row StringLiteral InfixExpression StringLiteral retry
+row StringLiteral InfixExpression SimpleName retry
+text util SimpleName MethodInvocation InfixExpression StringLiteral skip row
+truncate SimpleName MethodInvocation InfixExpression StringLiteral skip row
+row SimpleName MethodInvocation InfixExpression StringLiteral skip row
+text util SimpleName MethodInvocation InfixExpression SimpleName skip row
+truncate SimpleName MethodInvocation InfixExpression SimpleName skip row
+row SimpleName MethodInvocation InfixExpression SimpleName skip row
+text util SimpleName MethodInvocation InfixExpression StringLiteral retry
+truncate SimpleName MethodInvocation InfixExpression StringLiteral retry
+row SimpleName MethodInvocation InfixExpression StringLiteral retry
+text util SimpleName MethodInvocation InfixExpression SimpleName retry
+truncate SimpleName MethodInvocation InfixExpression SimpleName retry
+row SimpleName MethodInvocation InfixExpression SimpleName retry
+skip row StringLiteral InfixExpression SimpleName skip row
+skip row StringLiteral InfixExpression StringLiteral retry
+skip row StringLiteral InfixExpression SimpleName retry
+skip row SimpleName InfixExpression StringLiteral retry
+skip row SimpleName InfixExpression SimpleName retry
+retry StringLiteral InfixExpression SimpleName retry
+op timer SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName start
+log SimpleName ClassInstanceCreation MethodInvocation SimpleName start
+leveltrace QualifiedName ClassInstanceCreation MethodInvocation SimpleName start
+log SimpleName ClassInstanceCreation MethodInvocation InfixExpression StringLiteral locating tablet table
+log SimpleName ClassInstanceCreation MethodInvocation InfixExpression SimpleName table id
+log SimpleName ClassInstanceCreation MethodInvocation InfixExpression StringLiteral row
+log SimpleName ClassInstanceCreation MethodInvocation InfixExpression StringLiteral skip row
+log SimpleName ClassInstanceCreation MethodInvocation InfixExpression SimpleName skip row
+log SimpleName ClassInstanceCreation MethodInvocation InfixExpression StringLiteral retry
+log SimpleName ClassInstanceCreation MethodInvocation InfixExpression SimpleName retry
+leveltrace QualifiedName ClassInstanceCreation MethodInvocation InfixExpression StringLiteral locating tablet table
+leveltrace QualifiedName ClassInstanceCreation MethodInvocation InfixExpression SimpleName table id
+leveltrace QualifiedName ClassInstanceCreation MethodInvocation InfixExpression StringLiteral row
+leveltrace QualifiedName ClassInstanceCreation MethodInvocation InfixExpression StringLiteral skip row
+leveltrace QualifiedName ClassInstanceCreation MethodInvocation InfixExpression SimpleName skip row
+leveltrace QualifiedName ClassInstanceCreation MethodInvocation InfixExpression StringLiteral retry
+leveltrace QualifiedName ClassInstanceCreation MethodInvocation InfixExpression SimpleName retry
+start SimpleName MethodInvocation InfixExpression StringLiteral locating tablet table
+start SimpleName MethodInvocation InfixExpression SimpleName table id
+start SimpleName MethodInvocation InfixExpression StringLiteral row
+start SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName text util
+start SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName truncate
+start SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName row
+start SimpleName MethodInvocation InfixExpression StringLiteral skip row
+start SimpleName MethodInvocation InfixExpression SimpleName skip row
+start SimpleName MethodInvocation InfixExpression StringLiteral retry
+start SimpleName MethodInvocation InfixExpression SimpleName retry
+op timer SimpleName Assignment MethodInvocation ClassInstanceCreation SimpleName log
+op timer SimpleName Assignment MethodInvocation ClassInstanceCreation QualifiedName leveltrace
+op timer SimpleName Assignment MethodInvocation SimpleName start
+op timer SimpleName Assignment MethodInvocation InfixExpression StringLiteral locating tablet table
+op timer SimpleName Assignment MethodInvocation InfixExpression SimpleName table id
+op timer SimpleName Assignment MethodInvocation InfixExpression StringLiteral row
+op timer SimpleName Assignment MethodInvocation InfixExpression StringLiteral skip row
+op timer SimpleName Assignment MethodInvocation InfixExpression SimpleName skip row
+op timer SimpleName Assignment MethodInvocation InfixExpression StringLiteral retry
+op timer SimpleName Assignment MethodInvocation InfixExpression SimpleName retry
+tablet location SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName tl
+locate tablet SimpleName MethodInvocation SimpleName row
+locate tablet SimpleName MethodInvocation SimpleName skip row
+locate tablet SimpleName MethodInvocation SimpleName retry
+locate tablet SimpleName MethodInvocation BooleanLiteral true
+row SimpleName MethodInvocation SimpleName skip row
+row SimpleName MethodInvocation SimpleName retry
+row SimpleName MethodInvocation BooleanLiteral true
+skip row SimpleName MethodInvocation SimpleName retry
+skip row SimpleName MethodInvocation BooleanLiteral true
+retry SimpleName MethodInvocation BooleanLiteral true
+tl SimpleName Assignment MethodInvocation SimpleName locate tablet
+tl SimpleName Assignment MethodInvocation SimpleName row
+tl SimpleName Assignment MethodInvocation SimpleName skip row
+tl SimpleName Assignment MethodInvocation SimpleName retry
+tl SimpleName Assignment MethodInvocation BooleanLiteral true
+retry SimpleName InfixExpression InfixExpression SimpleName tl
+util wait thread SimpleName MethodInvocation SimpleName sleep
+util wait thread SimpleName MethodInvocation NumberLiteral empty
+sleep SimpleName MethodInvocation NumberLiteral empty
+log SimpleName MethodInvocation SimpleName is trace enabled
+text util SimpleName MethodInvocation SimpleName truncate
+text util SimpleName MethodInvocation SimpleName row
+truncate SimpleName MethodInvocation SimpleName row
+failed to locate tablet containing row StringLiteral InfixExpression MethodInvocation SimpleName text util
+failed to locate tablet containing row StringLiteral InfixExpression MethodInvocation SimpleName truncate
+failed to locate tablet containing row StringLiteral InfixExpression MethodInvocation SimpleName row
+failed to locate tablet containing row StringLiteral InfixExpression StringLiteral in table
+failed to locate tablet containing row StringLiteral InfixExpression SimpleName table id
+failed to locate tablet containing row StringLiteral InfixExpression StringLiteral will retry
+text util SimpleName MethodInvocation InfixExpression StringLiteral in table
+truncate SimpleName MethodInvocation InfixExpression StringLiteral in table
+row SimpleName MethodInvocation InfixExpression StringLiteral in table
+text util SimpleName MethodInvocation InfixExpression SimpleName table id
+truncate SimpleName MethodInvocation InfixExpression SimpleName table id
+row SimpleName MethodInvocation InfixExpression SimpleName table id
+text util SimpleName MethodInvocation InfixExpression StringLiteral will retry
+truncate SimpleName MethodInvocation InfixExpression StringLiteral will retry
+row SimpleName MethodInvocation InfixExpression StringLiteral will retry
+in table StringLiteral InfixExpression SimpleName table id
+in table StringLiteral InfixExpression StringLiteral will retry
+table id SimpleName InfixExpression StringLiteral will retry
+log SimpleName MethodInvocation SimpleName trace
+log SimpleName MethodInvocation InfixExpression StringLiteral failed to locate tablet containing row
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName text util
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName truncate
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName row
+log SimpleName MethodInvocation InfixExpression StringLiteral in table
+log SimpleName MethodInvocation InfixExpression SimpleName table id
+log SimpleName MethodInvocation InfixExpression StringLiteral will retry
+trace SimpleName MethodInvocation InfixExpression StringLiteral failed to locate tablet containing row
+trace SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName text util
+trace SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName truncate
+trace SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName row
+trace SimpleName MethodInvocation InfixExpression StringLiteral in table
+trace SimpleName MethodInvocation InfixExpression SimpleName table id
+trace SimpleName MethodInvocation InfixExpression StringLiteral will retry
+tl SimpleName InfixExpression ConditionalExpression QualifiedName tltablet extent
+tl SimpleName InfixExpression ConditionalExpression QualifiedName tltablet location
+located tablet StringLiteral InfixExpression ParenthesizedExpression ConditionalExpression QualifiedName tltablet extent
+located tablet StringLiteral InfixExpression StringLiteral at
+located tablet StringLiteral InfixExpression ParenthesizedExpression ConditionalExpression QualifiedName tltablet location
+located tablet StringLiteral InfixExpression StringLiteral in duration
+tltablet extent QualifiedName ConditionalExpression ParenthesizedExpression InfixExpression StringLiteral at
+tltablet extent QualifiedName ConditionalExpression ParenthesizedExpression InfixExpression StringLiteral in duration
+at StringLiteral InfixExpression ParenthesizedExpression ConditionalExpression QualifiedName tltablet location
+at StringLiteral InfixExpression StringLiteral in duration
+tltablet location QualifiedName ConditionalExpression ParenthesizedExpression InfixExpression StringLiteral in duration
+op timer SimpleName MethodInvocation SimpleName stop
+op timer SimpleName MethodInvocation InfixExpression StringLiteral located tablet
+op timer SimpleName MethodInvocation InfixExpression StringLiteral at
+op timer SimpleName MethodInvocation InfixExpression StringLiteral in duration
+stop SimpleName MethodInvocation InfixExpression StringLiteral located tablet
+stop SimpleName MethodInvocation InfixExpression StringLiteral at
+stop SimpleName MethodInvocation InfixExpression StringLiteral in duration
+true BooleanLiteral WhileStatement Block ReturnStatement SimpleName tl
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName tablet location
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName locate tablet
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName row
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName skip row
+public Modifier MethodDeclaration SimpleType SimpleName tablet location
+public Modifier MethodDeclaration SimpleName locate tablet
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName text
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName row
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName skip row
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName retry
+tablet location SimpleName SimpleType MethodDeclaration SimpleName locate tablet
+tablet location SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName row
+tablet location SimpleName SimpleType MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+tablet location SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName skip row
+tablet location SimpleName SimpleType MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+tablet location SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName retry
+tablet location SimpleName SimpleType MethodDeclaration SimpleType SimpleName accumulo exception
+locate tablet SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName text
+locate tablet SimpleName MethodDeclaration SingleVariableDeclaration SimpleName row
+locate tablet SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+locate tablet SimpleName MethodDeclaration SingleVariableDeclaration SimpleName skip row
+locate tablet SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+locate tablet SimpleName MethodDeclaration SingleVariableDeclaration SimpleName retry
+locate tablet SimpleName MethodDeclaration SimpleType SimpleName accumulo exception
+locate tablet SimpleName MethodDeclaration SimpleType SimpleName accumulo security exception
+row SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+row SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName skip row
+row SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+row SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName retry
+row SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+row SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+row SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName table not found exception
+boolean PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+boolean PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName retry
+skip row SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+skip row SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName retry
+boolean PrimitiveType SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+skip row SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+boolean PrimitiveType SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+skip row SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+boolean PrimitiveType SingleVariableDeclaration MethodDeclaration SimpleType SimpleName table not found exception
+skip row SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName table not found exception
+boolean PrimitiveType SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+retry SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+boolean PrimitiveType SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+retry SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+boolean PrimitiveType SingleVariableDeclaration MethodDeclaration SimpleType SimpleName table not found exception
+retry SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName table not found exception
+accumulo exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName accumulo security exception
+accumulo exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName table not found exception
+accumulo security exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName table not found exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName tablet location
+public Modifier TypeDeclaration MethodDeclaration SimpleName locate tablet
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName row
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName skip row
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName retry
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName table not found exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName tablet location
+test SimpleName TypeDeclaration MethodDeclaration SimpleName locate tablet
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName row
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName skip row
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName retry
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName table not found exception

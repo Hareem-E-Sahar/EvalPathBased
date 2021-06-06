@@ -1,0 +1,54 @@
+folder SimpleName MethodInvocation SimpleName new file
+folder SimpleName MethodInvocation StringLiteral write bad visibility
+new file SimpleName MethodInvocation StringLiteral write bad visibility
+f SimpleName VariableDeclarationFragment MethodInvocation SimpleName folder
+f SimpleName VariableDeclarationFragment MethodInvocation SimpleName new file
+f SimpleName VariableDeclarationFragment MethodInvocation StringLiteral write bad visibility
+file SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName f
+f SimpleName MethodInvocation SimpleName delete
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral deleted {}
+log SimpleName MethodInvocation SimpleName f
+debug SimpleName MethodInvocation StringLiteral deleted {}
+debug SimpleName MethodInvocation SimpleName f
+deleted {} StringLiteral MethodInvocation SimpleName f
+f SimpleName MethodInvocation SimpleName get absolute path
+root StringLiteral ArrayInitializer StringLiteral empty
+root StringLiteral ArrayInitializer SimpleName bad table
+root StringLiteral ArrayInitializer MethodInvocation SimpleName f
+root StringLiteral ArrayInitializer MethodInvocation SimpleName get absolute path
+empty StringLiteral ArrayInitializer SimpleName bad table
+empty StringLiteral ArrayInitializer MethodInvocation SimpleName f
+empty StringLiteral ArrayInitializer MethodInvocation SimpleName get absolute path
+bad table SimpleName ArrayInitializer MethodInvocation SimpleName f
+bad table SimpleName ArrayInitializer MethodInvocation SimpleName get absolute path
+mr tester SimpleName MethodInvocation SimpleName main
+mr tester SimpleName MethodInvocation ArrayCreation ArrayInitializer StringLiteral root
+mr tester SimpleName MethodInvocation ArrayCreation ArrayInitializer StringLiteral empty
+mr tester SimpleName MethodInvocation ArrayCreation ArrayInitializer SimpleName bad table
+main SimpleName MethodInvocation ArrayCreation ArrayInitializer StringLiteral root
+main SimpleName MethodInvocation ArrayCreation ArrayInitializer StringLiteral empty
+main SimpleName MethodInvocation ArrayCreation ArrayInitializer SimpleName bad table
+assert null SimpleName MethodInvocation SimpleName e
+assert null SimpleName MethodInvocation SimpleName e
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName write bad visibility
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName write bad visibility
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName write bad visibility
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+write bad visibility SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName write bad visibility
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName write bad visibility
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

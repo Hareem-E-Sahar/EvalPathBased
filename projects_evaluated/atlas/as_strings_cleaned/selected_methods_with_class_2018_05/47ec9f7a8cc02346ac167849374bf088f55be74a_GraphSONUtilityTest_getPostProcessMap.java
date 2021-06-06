@@ -1,0 +1,83 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName MethodInvocation SimpleName put
+map SimpleName MethodInvocation SimpleName hive table type
+put SimpleName MethodInvocation SimpleName hive table type
+map SimpleName MethodInvocation SimpleName get
+map SimpleName MethodInvocation SimpleName hive table type
+get SimpleName MethodInvocation SimpleName hive table type
+map SimpleName MethodInvocation MethodInvocation SimpleName put
+get SimpleName MethodInvocation MethodInvocation SimpleName put
+hive table type SimpleName MethodInvocation MethodInvocation SimpleName put
+map SimpleName MethodInvocation MethodInvocation StringLiteral array
+get SimpleName MethodInvocation MethodInvocation StringLiteral array
+hive table type SimpleName MethodInvocation MethodInvocation StringLiteral array
+put SimpleName MethodInvocation StringLiteral array
+map SimpleName MethodInvocation SimpleName get
+map SimpleName MethodInvocation SimpleName hive table type
+get SimpleName MethodInvocation SimpleName hive table type
+map SimpleName MethodInvocation MethodInvocation SimpleName put
+get SimpleName MethodInvocation MethodInvocation SimpleName put
+hive table type SimpleName MethodInvocation MethodInvocation SimpleName put
+map SimpleName MethodInvocation MethodInvocation StringLiteral map
+get SimpleName MethodInvocation MethodInvocation StringLiteral map
+hive table type SimpleName MethodInvocation MethodInvocation StringLiteral map
+put SimpleName MethodInvocation StringLiteral map
+map SimpleName MethodInvocation SimpleName get
+map SimpleName MethodInvocation SimpleName hive table type
+get SimpleName MethodInvocation SimpleName hive table type
+map SimpleName MethodInvocation MethodInvocation SimpleName get
+get SimpleName MethodInvocation MethodInvocation SimpleName get
+hive table type SimpleName MethodInvocation MethodInvocation SimpleName get
+map SimpleName MethodInvocation MethodInvocation StringLiteral array
+get SimpleName MethodInvocation MethodInvocation StringLiteral array
+hive table type SimpleName MethodInvocation MethodInvocation StringLiteral array
+get SimpleName MethodInvocation StringLiteral array
+map SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName add
+get SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName add
+hive table type SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName add
+get SimpleName MethodInvocation MethodInvocation SimpleName add
+array StringLiteral MethodInvocation MethodInvocation SimpleName add
+map SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName hive table columns relationship
+get SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName hive table columns relationship
+hive table type SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName hive table columns relationship
+get SimpleName MethodInvocation MethodInvocation SimpleName hive table columns relationship
+array StringLiteral MethodInvocation MethodInvocation SimpleName hive table columns relationship
+add SimpleName MethodInvocation SimpleName hive table columns relationship
+map SimpleName MethodInvocation SimpleName get
+map SimpleName MethodInvocation SimpleName hive table type
+get SimpleName MethodInvocation SimpleName hive table type
+map SimpleName MethodInvocation MethodInvocation SimpleName get
+get SimpleName MethodInvocation MethodInvocation SimpleName get
+hive table type SimpleName MethodInvocation MethodInvocation SimpleName get
+map SimpleName MethodInvocation MethodInvocation StringLiteral map
+get SimpleName MethodInvocation MethodInvocation StringLiteral map
+hive table type SimpleName MethodInvocation MethodInvocation StringLiteral map
+get SimpleName MethodInvocation StringLiteral map
+map SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName add
+get SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName add
+hive table type SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName add
+get SimpleName MethodInvocation MethodInvocation SimpleName add
+map StringLiteral MethodInvocation MethodInvocation SimpleName add
+map SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName hive table columns map relationship
+get SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName hive table columns map relationship
+hive table type SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName hive table columns map relationship
+get SimpleName MethodInvocation MethodInvocation SimpleName hive table columns map relationship
+map StringLiteral MethodInvocation MethodInvocation SimpleName hive table columns map relationship
+add SimpleName MethodInvocation SimpleName hive table columns map relationship
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName map
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+private Modifier MethodDeclaration SimpleName get post process map
+private Modifier MethodDeclaration Block ReturnStatement SimpleName map
+map SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get post process map
+string SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get post process map
+get post process map SimpleName MethodDeclaration Block ReturnStatement SimpleName map
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleName get post process map
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get post process map

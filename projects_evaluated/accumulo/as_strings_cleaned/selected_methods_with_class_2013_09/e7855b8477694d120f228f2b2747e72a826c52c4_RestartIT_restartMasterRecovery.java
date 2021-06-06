@@ -1,0 +1,106 @@
+empty NumberLiteral InfixExpression NumberLiteral empty
+empty NumberLiteral InfixExpression NumberLiteral empty
+empty NumberLiteral InfixExpression NumberLiteral empty
+timeout SimpleName MemberValuePair InfixExpression NumberLiteral empty
+timeout SimpleName MemberValuePair InfixExpression NumberLiteral empty
+timeout SimpleName MemberValuePair InfixExpression NumberLiteral empty
+test SimpleName NormalAnnotation MemberValuePair SimpleName timeout
+test SimpleName NormalAnnotation MemberValuePair InfixExpression NumberLiteral empty
+test SimpleName NormalAnnotation MemberValuePair InfixExpression NumberLiteral empty
+test SimpleName NormalAnnotation MemberValuePair InfixExpression NumberLiteral empty
+c SimpleName VariableDeclarationFragment MethodInvocation SimpleName get connector
+connector SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName c
+c SimpleName MethodInvocation SimpleName table operations
+c SimpleName MethodInvocation MethodInvocation SimpleName create
+table operations SimpleName MethodInvocation MethodInvocation SimpleName create
+c SimpleName MethodInvocation MethodInvocation StringLiteral test ingest
+table operations SimpleName MethodInvocation MethodInvocation StringLiteral test ingest
+create SimpleName MethodInvocation StringLiteral test ingest
+opts SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType QualifiedName test ingestopts
+test ingestopts QualifiedName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName opts
+test ingest SimpleName MethodInvocation SimpleName ingest
+test ingest SimpleName MethodInvocation SimpleName c
+test ingest SimpleName MethodInvocation SimpleName opts
+test ingest SimpleName MethodInvocation SimpleName bwopts
+ingest SimpleName MethodInvocation SimpleName c
+ingest SimpleName MethodInvocation SimpleName opts
+ingest SimpleName MethodInvocation SimpleName bwopts
+c SimpleName MethodInvocation SimpleName opts
+c SimpleName MethodInvocation SimpleName bwopts
+opts SimpleName MethodInvocation SimpleName bwopts
+collection SimpleName SimpleType ParameterizedType SimpleType SimpleName process reference
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName server type
+entry SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+server type SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+cluster SimpleName MethodInvocation SimpleName get processes
+cluster SimpleName MethodInvocation MethodInvocation SimpleName entry set
+get processes SimpleName MethodInvocation MethodInvocation SimpleName entry set
+process reference SimpleName SimpleType SingleVariableDeclaration SimpleName proc
+entry SimpleName MethodInvocation SimpleName get value
+entry SimpleName MethodInvocation SimpleName get key
+cluster SimpleName MethodInvocation SimpleName kill process
+cluster SimpleName MethodInvocation MethodInvocation SimpleName entry
+cluster SimpleName MethodInvocation MethodInvocation SimpleName get key
+cluster SimpleName MethodInvocation SimpleName proc
+kill process SimpleName MethodInvocation MethodInvocation SimpleName entry
+kill process SimpleName MethodInvocation MethodInvocation SimpleName get key
+kill process SimpleName MethodInvocation SimpleName proc
+entry SimpleName MethodInvocation MethodInvocation SimpleName proc
+get key SimpleName MethodInvocation MethodInvocation SimpleName proc
+proc SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName entry
+proc SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName get value
+entry SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName entry set
+cluster SimpleName MethodInvocation SimpleName start
+util wait thread SimpleName MethodInvocation SimpleName sleep
+util wait thread SimpleName MethodInvocation NumberLiteral empty
+sleep SimpleName MethodInvocation NumberLiteral empty
+process reference SimpleName SimpleType SingleVariableDeclaration SimpleName master
+cluster SimpleName MethodInvocation SimpleName get processes
+cluster SimpleName MethodInvocation MethodInvocation SimpleName get
+get processes SimpleName MethodInvocation MethodInvocation SimpleName get
+cluster SimpleName MethodInvocation MethodInvocation QualifiedName server typemaster
+get processes SimpleName MethodInvocation MethodInvocation QualifiedName server typemaster
+get SimpleName MethodInvocation QualifiedName server typemaster
+cluster SimpleName MethodInvocation SimpleName kill process
+cluster SimpleName MethodInvocation QualifiedName server typemaster
+cluster SimpleName MethodInvocation SimpleName master
+kill process SimpleName MethodInvocation QualifiedName server typemaster
+kill process SimpleName MethodInvocation SimpleName master
+server typemaster QualifiedName MethodInvocation SimpleName master
+master SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName get
+master SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation QualifiedName server typemaster
+cluster SimpleName MethodInvocation SimpleName start
+verify ingest SimpleName MethodInvocation SimpleName verify ingest
+verify ingest SimpleName MethodInvocation SimpleName c
+verify ingest SimpleName MethodInvocation SimpleName vopts
+verify ingest SimpleName MethodInvocation SimpleName sopts
+verify ingest SimpleName MethodInvocation SimpleName c
+verify ingest SimpleName MethodInvocation SimpleName vopts
+verify ingest SimpleName MethodInvocation SimpleName sopts
+c SimpleName MethodInvocation SimpleName vopts
+c SimpleName MethodInvocation SimpleName sopts
+vopts SimpleName MethodInvocation SimpleName sopts
+test SimpleName NormalAnnotation MethodDeclaration Modifier public
+timeout SimpleName MemberValuePair NormalAnnotation MethodDeclaration Modifier public
+test SimpleName NormalAnnotation MethodDeclaration PrimitiveType void
+timeout SimpleName MemberValuePair NormalAnnotation MethodDeclaration PrimitiveType void
+test SimpleName NormalAnnotation MethodDeclaration SimpleName restart master recovery
+timeout SimpleName MemberValuePair NormalAnnotation MethodDeclaration SimpleName restart master recovery
+test SimpleName NormalAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName restart master recovery
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName restart master recovery
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+restart master recovery SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration NormalAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName restart master recovery
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration NormalAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName restart master recovery
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

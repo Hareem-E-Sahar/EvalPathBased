@@ -1,0 +1,40 @@
+iterable SimpleName SimpleType SingleVariableDeclaration SimpleName it
+ret SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName ret
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+log SimpleName MethodInvocation SimpleName is debug enabled
+it SimpleName MethodInvocation SimpleName iterator
+iter SimpleName VariableDeclarationFragment MethodInvocation SimpleName it
+iter SimpleName VariableDeclarationFragment MethodInvocation SimpleName iterator
+iterator SimpleName SimpleType VariableDeclarationExpression VariableDeclarationFragment SimpleName iter
+iter SimpleName MethodInvocation SimpleName has next
+iter SimpleName MethodInvocation SimpleName next
+iter SimpleName MethodInvocation ForStatement MethodInvocation SimpleName iter
+iter SimpleName MethodInvocation ForStatement MethodInvocation SimpleName next
+has next SimpleName MethodInvocation ForStatement MethodInvocation SimpleName iter
+has next SimpleName MethodInvocation ForStatement MethodInvocation SimpleName next
+int PrimitiveType VariableDeclarationStatement Block ReturnStatement SimpleName ret
+private Modifier MethodDeclaration PrimitiveType int
+private Modifier MethodDeclaration SimpleName get count for debug log
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName iterable
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName it
+private Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+private Modifier MethodDeclaration Block ReturnStatement SimpleName ret
+int PrimitiveType MethodDeclaration SimpleName get count for debug log
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName iterable
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName it
+int PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType MethodDeclaration Block ReturnStatement SimpleName ret
+get count for debug log SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName iterable
+get count for debug log SimpleName MethodDeclaration SingleVariableDeclaration SimpleName it
+get count for debug log SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+get count for debug log SimpleName MethodDeclaration Block ReturnStatement SimpleName ret
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SimpleName get count for debug log
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName it
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get count for debug log
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName it

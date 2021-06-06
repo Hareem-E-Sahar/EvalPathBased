@@ -1,0 +1,59 @@
+interrupt check count SimpleName PostfixExpression InfixExpression NumberLiteral empty
+interrupt check count SimpleName PostfixExpression InfixExpression InfixExpression NumberLiteral empty
+empty NumberLiteral InfixExpression InfixExpression NumberLiteral empty
+interrupt flag SimpleName InfixExpression InfixExpression InfixExpression NumberLiteral empty
+interrupt flag SimpleName MethodInvocation SimpleName get
+temp SimpleName VariableDeclarationFragment SimpleName previous key
+key SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName temp
+key SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName previous key
+previous key SimpleName Assignment SimpleName top key
+top key SimpleName Assignment SimpleName temp
+comparator SimpleName MethodInvocation SimpleName new key
+key SimpleName SimpleType CastExpression MethodInvocation SimpleName comparator
+key SimpleName SimpleType CastExpression MethodInvocation SimpleName new key
+top key SimpleName Assignment CastExpression SimpleType SimpleName key
+top key SimpleName Assignment CastExpression MethodInvocation SimpleName comparator
+top key SimpleName Assignment CastExpression MethodInvocation SimpleName new key
+top value SimpleName Assignment ClassInstanceCreation SimpleType SimpleName value
+next SimpleName MethodInvocation SimpleName top key
+next SimpleName MethodInvocation SimpleName top value
+top key SimpleName MethodInvocation SimpleName top value
+previous key SimpleName InfixExpression InfixExpression InfixExpression SimpleName last key
+key SimpleName SimpleType ClassInstanceCreation SimpleName previous key
+last key SimpleName Assignment ClassInstanceCreation SimpleType SimpleName key
+last key SimpleName Assignment ClassInstanceCreation SimpleName previous key
+previous key SimpleName InfixExpression InfixExpression InfixExpression SimpleName last key
+comparator SimpleName MethodInvocation SimpleName compare
+comparator SimpleName MethodInvocation SimpleName previous key
+comparator SimpleName MethodInvocation SimpleName last key
+compare SimpleName MethodInvocation SimpleName previous key
+compare SimpleName MethodInvocation SimpleName last key
+previous key SimpleName MethodInvocation SimpleName last key
+comparator SimpleName MethodInvocation InfixExpression NumberLiteral empty
+compare SimpleName MethodInvocation InfixExpression NumberLiteral empty
+previous key SimpleName MethodInvocation InfixExpression NumberLiteral empty
+last key SimpleName MethodInvocation InfixExpression NumberLiteral empty
+key SimpleName SimpleType ClassInstanceCreation SimpleName previous key
+last key SimpleName Assignment ClassInstanceCreation SimpleType SimpleName key
+last key SimpleName Assignment ClassInstanceCreation SimpleName previous key
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName next
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName io exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName next
+public Modifier MethodDeclaration SimpleType SimpleName io exception
+void PrimitiveType MethodDeclaration SimpleName next
+void PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+next SimpleName MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName next
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName next
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

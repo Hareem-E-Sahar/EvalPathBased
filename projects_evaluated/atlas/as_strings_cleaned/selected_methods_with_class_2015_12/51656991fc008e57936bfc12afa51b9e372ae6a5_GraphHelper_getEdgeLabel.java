@@ -1,0 +1,49 @@
+i data type SimpleName SimpleType SingleVariableDeclaration SimpleName data type
+attribute info SimpleName SimpleType SingleVariableDeclaration SimpleName a info
+get qualified field name SimpleName MethodInvocation SimpleName data type
+get qualified field name SimpleName MethodInvocation QualifiedName a infoname
+data type SimpleName MethodInvocation QualifiedName a infoname
+graph helperedge label prefix QualifiedName InfixExpression MethodInvocation SimpleName get qualified field name
+graph helperedge label prefix QualifiedName InfixExpression MethodInvocation SimpleName data type
+graph helperedge label prefix QualifiedName InfixExpression MethodInvocation QualifiedName a infoname
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName get edge label
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName i data type
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName data type
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName attribute info
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName a info
+static Modifier MethodDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SimpleName get edge label
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName i data type
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName data type
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName attribute info
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName a info
+static Modifier MethodDeclaration SimpleType SimpleName atlas exception
+string SimpleName SimpleType MethodDeclaration SimpleName get edge label
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName data type
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName a info
+string SimpleName SimpleType MethodDeclaration SimpleType SimpleName atlas exception
+get edge label SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName i data type
+get edge label SimpleName MethodDeclaration SingleVariableDeclaration SimpleName data type
+get edge label SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName attribute info
+get edge label SimpleName MethodDeclaration SingleVariableDeclaration SimpleName a info
+get edge label SimpleName MethodDeclaration SimpleType SimpleName atlas exception
+data type SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName a info
+data type SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+a info SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName get edge label
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName data type
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName a info
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get edge label
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName data type
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName a info
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception

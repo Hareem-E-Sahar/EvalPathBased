@@ -1,0 +1,165 @@
+configuration SimpleName SimpleType SingleVariableDeclaration SimpleName conf
+conf SimpleName MethodInvocation SimpleName get boolean
+conf SimpleName MethodInvocation SimpleName input info has been set
+conf SimpleName MethodInvocation BooleanLiteral false
+get boolean SimpleName MethodInvocation SimpleName input info has been set
+get boolean SimpleName MethodInvocation BooleanLiteral false
+input info has been set SimpleName MethodInvocation BooleanLiteral false
+io exception SimpleName SimpleType ClassInstanceCreation StringLiteral input info has not been set
+conf SimpleName MethodInvocation SimpleName get boolean
+conf SimpleName MethodInvocation SimpleName instance has been set
+conf SimpleName MethodInvocation BooleanLiteral false
+get boolean SimpleName MethodInvocation SimpleName instance has been set
+get boolean SimpleName MethodInvocation BooleanLiteral false
+instance has been set SimpleName MethodInvocation BooleanLiteral false
+io exception SimpleName SimpleType ClassInstanceCreation StringLiteral instance info has not been set
+get instance SimpleName MethodInvocation SimpleName conf
+get username SimpleName MethodInvocation SimpleName conf
+get password SimpleName MethodInvocation SimpleName conf
+get instance SimpleName MethodInvocation MethodInvocation SimpleName get connector
+conf SimpleName MethodInvocation MethodInvocation SimpleName get connector
+get instance SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get username
+get instance SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName conf
+conf SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get username
+conf SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName conf
+get instance SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get password
+get instance SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName conf
+conf SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get password
+conf SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName conf
+get connector SimpleName MethodInvocation MethodInvocation SimpleName get username
+get connector SimpleName MethodInvocation MethodInvocation SimpleName conf
+get connector SimpleName MethodInvocation MethodInvocation SimpleName get password
+get connector SimpleName MethodInvocation MethodInvocation SimpleName conf
+get username SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get password
+get username SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName conf
+conf SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get password
+conf SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName conf
+c SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get instance
+c SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName conf
+c SimpleName VariableDeclarationFragment MethodInvocation SimpleName get connector
+c SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get username
+c SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName conf
+c SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get password
+c SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName conf
+connector SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName c
+c SimpleName MethodInvocation SimpleName security operations
+get username SimpleName MethodInvocation SimpleName conf
+get password SimpleName MethodInvocation SimpleName conf
+c SimpleName MethodInvocation MethodInvocation SimpleName authenticate user
+security operations SimpleName MethodInvocation MethodInvocation SimpleName authenticate user
+c SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get username
+c SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName conf
+security operations SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get username
+security operations SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName conf
+c SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get password
+c SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName conf
+security operations SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get password
+security operations SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName conf
+authenticate user SimpleName MethodInvocation MethodInvocation SimpleName get username
+authenticate user SimpleName MethodInvocation MethodInvocation SimpleName conf
+authenticate user SimpleName MethodInvocation MethodInvocation SimpleName get password
+authenticate user SimpleName MethodInvocation MethodInvocation SimpleName conf
+get username SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get password
+get username SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName conf
+conf SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get password
+conf SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName conf
+io exception SimpleName SimpleType ClassInstanceCreation StringLiteral unable to authenticate user
+c SimpleName MethodInvocation SimpleName security operations
+get username SimpleName MethodInvocation SimpleName conf
+get tablename SimpleName MethodInvocation SimpleName conf
+c SimpleName MethodInvocation MethodInvocation SimpleName has table permission
+security operations SimpleName MethodInvocation MethodInvocation SimpleName has table permission
+c SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get username
+c SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName conf
+security operations SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get username
+security operations SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName conf
+c SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get tablename
+c SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName conf
+security operations SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get tablename
+security operations SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName conf
+c SimpleName MethodInvocation MethodInvocation QualifiedName table permissionread
+security operations SimpleName MethodInvocation MethodInvocation QualifiedName table permissionread
+has table permission SimpleName MethodInvocation MethodInvocation SimpleName get username
+has table permission SimpleName MethodInvocation MethodInvocation SimpleName conf
+has table permission SimpleName MethodInvocation MethodInvocation SimpleName get tablename
+has table permission SimpleName MethodInvocation MethodInvocation SimpleName conf
+has table permission SimpleName MethodInvocation QualifiedName table permissionread
+get username SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get tablename
+get username SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName conf
+conf SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get tablename
+conf SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName conf
+get username SimpleName MethodInvocation MethodInvocation QualifiedName table permissionread
+conf SimpleName MethodInvocation MethodInvocation QualifiedName table permissionread
+get tablename SimpleName MethodInvocation MethodInvocation QualifiedName table permissionread
+conf SimpleName MethodInvocation MethodInvocation QualifiedName table permissionread
+io exception SimpleName SimpleType ClassInstanceCreation StringLiteral unable to access table
+uses local iterators SimpleName MethodInvocation SimpleName conf
+accumulo iterator SimpleName SimpleType SingleVariableDeclaration SimpleName iter
+get iterators SimpleName MethodInvocation SimpleName conf
+c SimpleName MethodInvocation SimpleName instance operations
+iter SimpleName MethodInvocation SimpleName get iterator class
+sorted key value iterator SimpleName SimpleType TypeLiteral MethodInvocation SimpleName get name
+c SimpleName MethodInvocation MethodInvocation SimpleName test class load
+instance operations SimpleName MethodInvocation MethodInvocation SimpleName test class load
+c SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName iter
+c SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get iterator class
+instance operations SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName iter
+instance operations SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get iterator class
+c SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get name
+instance operations SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get name
+test class load SimpleName MethodInvocation MethodInvocation SimpleName iter
+test class load SimpleName MethodInvocation MethodInvocation SimpleName get iterator class
+test class load SimpleName MethodInvocation MethodInvocation SimpleName get name
+iter SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get name
+get iterator class SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get name
+iter SimpleName MethodInvocation SimpleName get iterator class
+sorted key value iterator SimpleName SimpleType TypeLiteral MethodInvocation SimpleName get name
+servers are unable to load StringLiteral InfixExpression MethodInvocation SimpleName iter
+servers are unable to load StringLiteral InfixExpression MethodInvocation SimpleName get iterator class
+servers are unable to load StringLiteral InfixExpression StringLiteral as a
+servers are unable to load StringLiteral InfixExpression MethodInvocation SimpleName get name
+iter SimpleName MethodInvocation InfixExpression StringLiteral as a
+get iterator class SimpleName MethodInvocation InfixExpression StringLiteral as a
+iter SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get name
+get iterator class SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get name
+as a StringLiteral InfixExpression MethodInvocation SimpleName get name
+accumulo exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral servers are unable to load
+accumulo exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral as a
+iter SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName get iterators
+iter SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName conf
+accumulo exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+io exception SimpleName SimpleType ClassInstanceCreation SimpleName e
+accumulo security exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+io exception SimpleName SimpleType ClassInstanceCreation SimpleName e
+protected Modifier MethodDeclaration Modifier static
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName validate options
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName configuration
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName conf
+protected Modifier MethodDeclaration SimpleType SimpleName io exception
+static Modifier MethodDeclaration PrimitiveType void
+static Modifier MethodDeclaration SimpleName validate options
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName configuration
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName conf
+static Modifier MethodDeclaration SimpleType SimpleName io exception
+void PrimitiveType MethodDeclaration SimpleName validate options
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName configuration
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName conf
+void PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+validate options SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName configuration
+validate options SimpleName MethodDeclaration SingleVariableDeclaration SimpleName conf
+validate options SimpleName MethodDeclaration SimpleType SimpleName io exception
+conf SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName validate options
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName conf
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName validate options
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName conf
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

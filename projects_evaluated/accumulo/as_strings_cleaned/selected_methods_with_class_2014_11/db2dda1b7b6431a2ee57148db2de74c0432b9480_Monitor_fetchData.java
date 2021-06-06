@@ -1,0 +1,500 @@
+total ingest rate SimpleName VariableDeclarationFragment NumberLiteral .
+double PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName total ingest rate
+double PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral .
+total ingest byte rate SimpleName VariableDeclarationFragment NumberLiteral .
+double PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName total ingest byte rate
+double PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral .
+total query rate SimpleName VariableDeclarationFragment NumberLiteral .
+double PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName total query rate
+double PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral .
+total query byte rate SimpleName VariableDeclarationFragment NumberLiteral .
+double PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName total query byte rate
+double PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral .
+total scan rate SimpleName VariableDeclarationFragment NumberLiteral .
+double PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName total scan rate
+double PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral .
+total entries SimpleName VariableDeclarationFragment NumberLiteral empty
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName total entries
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+total tablet count SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName total tablet count
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+online tablet count SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName online tablet count
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+total hold time SimpleName VariableDeclarationFragment NumberLiteral empty
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName total hold time
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+total lookups SimpleName VariableDeclarationFragment NumberLiteral empty
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName total lookups
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+retry SimpleName VariableDeclarationFragment BooleanLiteral true
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName retry
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment BooleanLiteral true
+system SimpleName MethodInvocation SimpleName current time millis
+current time SimpleName VariableDeclarationFragment MethodInvocation SimpleName system
+current time SimpleName VariableDeclarationFragment MethodInvocation SimpleName current time millis
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName current time
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName system
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName current time millis
+current time SimpleName InfixExpression SimpleName last recalc
+refresh time SimpleName InfixExpression NumberLiteral empty
+current time SimpleName InfixExpression InfixExpression InfixExpression SimpleName refresh time
+current time SimpleName InfixExpression InfixExpression InfixExpression NumberLiteral empty
+last recalc SimpleName InfixExpression InfixExpression InfixExpression SimpleName refresh time
+last recalc SimpleName InfixExpression InfixExpression InfixExpression NumberLiteral empty
+fetching SimpleName Assignment BooleanLiteral true
+master client serviceiface QualifiedName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName client
+hdfs zoo instance SimpleName MethodInvocation SimpleName get instance
+master client SimpleName MethodInvocation SimpleName get connection
+master client SimpleName MethodInvocation MethodInvocation SimpleName hdfs zoo instance
+master client SimpleName MethodInvocation MethodInvocation SimpleName get instance
+get connection SimpleName MethodInvocation MethodInvocation SimpleName hdfs zoo instance
+get connection SimpleName MethodInvocation MethodInvocation SimpleName get instance
+client SimpleName Assignment MethodInvocation SimpleName master client
+client SimpleName Assignment MethodInvocation SimpleName get connection
+client SimpleName Assignment MethodInvocation MethodInvocation SimpleName hdfs zoo instance
+client SimpleName Assignment MethodInvocation MethodInvocation SimpleName get instance
+tracer SimpleName MethodInvocation SimpleName trace info
+system credentials SimpleName MethodInvocation SimpleName get
+hdfs zoo instance SimpleName MethodInvocation SimpleName get instance
+system credentials SimpleName MethodInvocation MethodInvocation SimpleName to thrift
+get SimpleName MethodInvocation MethodInvocation SimpleName to thrift
+system credentials SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName hdfs zoo instance
+system credentials SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get instance
+get SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName hdfs zoo instance
+get SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get instance
+to thrift SimpleName MethodInvocation MethodInvocation SimpleName hdfs zoo instance
+to thrift SimpleName MethodInvocation MethodInvocation SimpleName get instance
+client SimpleName MethodInvocation SimpleName get master stats
+client SimpleName MethodInvocation MethodInvocation SimpleName tracer
+client SimpleName MethodInvocation MethodInvocation SimpleName trace info
+client SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName system credentials
+client SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+client SimpleName MethodInvocation MethodInvocation SimpleName to thrift
+client SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName hdfs zoo instance
+client SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get instance
+get master stats SimpleName MethodInvocation MethodInvocation SimpleName tracer
+get master stats SimpleName MethodInvocation MethodInvocation SimpleName trace info
+get master stats SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName system credentials
+get master stats SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+get master stats SimpleName MethodInvocation MethodInvocation SimpleName to thrift
+get master stats SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName hdfs zoo instance
+get master stats SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get instance
+tracer SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to thrift
+trace info SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to thrift
+mmi SimpleName Assignment MethodInvocation SimpleName client
+mmi SimpleName Assignment MethodInvocation SimpleName get master stats
+mmi SimpleName Assignment MethodInvocation MethodInvocation SimpleName tracer
+mmi SimpleName Assignment MethodInvocation MethodInvocation SimpleName trace info
+mmi SimpleName Assignment MethodInvocation MethodInvocation SimpleName to thrift
+retry SimpleName Assignment BooleanLiteral false
+monitorgc status QualifiedName Assignment MethodInvocation SimpleName fetch gc status
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+error fetching stats StringLiteral InfixExpression SimpleName e
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation InfixExpression StringLiteral error fetching stats
+log SimpleName MethodInvocation InfixExpression SimpleName e
+info SimpleName MethodInvocation InfixExpression StringLiteral error fetching stats
+info SimpleName MethodInvocation InfixExpression SimpleName e
+master client SimpleName MethodInvocation SimpleName close
+master client SimpleName MethodInvocation SimpleName client
+close SimpleName MethodInvocation SimpleName client
+util wait thread SimpleName MethodInvocation SimpleName sleep
+util wait thread SimpleName MethodInvocation NumberLiteral empty
+sleep SimpleName MethodInvocation NumberLiteral empty
+major compactions SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName major compactions
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+minor compactions SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName minor compactions
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+lookup rate tracker SimpleName MethodInvocation SimpleName starting updates
+index cache hit tracker SimpleName MethodInvocation SimpleName starting updates
+index cache request tracker SimpleName MethodInvocation SimpleName starting updates
+data cache hit tracker SimpleName MethodInvocation SimpleName starting updates
+data cache request tracker SimpleName MethodInvocation SimpleName starting updates
+tablet server status SimpleName SimpleType SingleVariableDeclaration SimpleName server
+table info util SimpleName MethodInvocation SimpleName summarize table stats
+table info util SimpleName MethodInvocation SimpleName server
+summarize table stats SimpleName MethodInvocation SimpleName server
+summary SimpleName VariableDeclarationFragment MethodInvocation SimpleName table info util
+summary SimpleName VariableDeclarationFragment MethodInvocation SimpleName summarize table stats
+summary SimpleName VariableDeclarationFragment MethodInvocation SimpleName server
+table info SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName summary
+total ingest rate SimpleName Assignment QualifiedName summaryingest rate
+total ingest byte rate SimpleName Assignment QualifiedName summaryingest byte rate
+total query rate SimpleName Assignment QualifiedName summaryquery rate
+total scan rate SimpleName Assignment QualifiedName summaryscan rate
+total query byte rate SimpleName Assignment QualifiedName summaryquery byte rate
+total entries SimpleName Assignment QualifiedName summaryrecs
+total hold time SimpleName Assignment QualifiedName serverhold time
+total lookups SimpleName Assignment QualifiedName serverlookups
+major compactions SimpleName Assignment QualifiedName summarymajorsrunning
+minor compactions SimpleName Assignment QualifiedName summaryminorsrunning
+lookup rate tracker SimpleName MethodInvocation SimpleName update tablet server
+lookup rate tracker SimpleName MethodInvocation QualifiedName servername
+lookup rate tracker SimpleName MethodInvocation QualifiedName serverlast contact
+lookup rate tracker SimpleName MethodInvocation QualifiedName serverlookups
+update tablet server SimpleName MethodInvocation QualifiedName servername
+update tablet server SimpleName MethodInvocation QualifiedName serverlast contact
+update tablet server SimpleName MethodInvocation QualifiedName serverlookups
+servername QualifiedName MethodInvocation QualifiedName serverlast contact
+servername QualifiedName MethodInvocation QualifiedName serverlookups
+serverlast contact QualifiedName MethodInvocation QualifiedName serverlookups
+index cache hit tracker SimpleName MethodInvocation SimpleName update tablet server
+index cache hit tracker SimpleName MethodInvocation QualifiedName servername
+index cache hit tracker SimpleName MethodInvocation QualifiedName serverlast contact
+index cache hit tracker SimpleName MethodInvocation QualifiedName serverindex cache hits
+update tablet server SimpleName MethodInvocation QualifiedName servername
+update tablet server SimpleName MethodInvocation QualifiedName serverlast contact
+update tablet server SimpleName MethodInvocation QualifiedName serverindex cache hits
+servername QualifiedName MethodInvocation QualifiedName serverlast contact
+servername QualifiedName MethodInvocation QualifiedName serverindex cache hits
+serverlast contact QualifiedName MethodInvocation QualifiedName serverindex cache hits
+index cache request tracker SimpleName MethodInvocation SimpleName update tablet server
+index cache request tracker SimpleName MethodInvocation QualifiedName servername
+index cache request tracker SimpleName MethodInvocation QualifiedName serverlast contact
+index cache request tracker SimpleName MethodInvocation QualifiedName serverindex cache request
+update tablet server SimpleName MethodInvocation QualifiedName servername
+update tablet server SimpleName MethodInvocation QualifiedName serverlast contact
+update tablet server SimpleName MethodInvocation QualifiedName serverindex cache request
+servername QualifiedName MethodInvocation QualifiedName serverlast contact
+servername QualifiedName MethodInvocation QualifiedName serverindex cache request
+serverlast contact QualifiedName MethodInvocation QualifiedName serverindex cache request
+data cache hit tracker SimpleName MethodInvocation SimpleName update tablet server
+data cache hit tracker SimpleName MethodInvocation QualifiedName servername
+data cache hit tracker SimpleName MethodInvocation QualifiedName serverlast contact
+data cache hit tracker SimpleName MethodInvocation QualifiedName serverdata cache hits
+update tablet server SimpleName MethodInvocation QualifiedName servername
+update tablet server SimpleName MethodInvocation QualifiedName serverlast contact
+update tablet server SimpleName MethodInvocation QualifiedName serverdata cache hits
+servername QualifiedName MethodInvocation QualifiedName serverlast contact
+servername QualifiedName MethodInvocation QualifiedName serverdata cache hits
+serverlast contact QualifiedName MethodInvocation QualifiedName serverdata cache hits
+data cache request tracker SimpleName MethodInvocation SimpleName update tablet server
+data cache request tracker SimpleName MethodInvocation QualifiedName servername
+data cache request tracker SimpleName MethodInvocation QualifiedName serverlast contact
+data cache request tracker SimpleName MethodInvocation QualifiedName serverdata cache request
+update tablet server SimpleName MethodInvocation QualifiedName servername
+update tablet server SimpleName MethodInvocation QualifiedName serverlast contact
+update tablet server SimpleName MethodInvocation QualifiedName serverdata cache request
+servername QualifiedName MethodInvocation QualifiedName serverlast contact
+servername QualifiedName MethodInvocation QualifiedName serverdata cache request
+serverlast contact QualifiedName MethodInvocation QualifiedName serverdata cache request
+tablet server status SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement QualifiedName mmit server info
+server SimpleName SingleVariableDeclaration EnhancedForStatement QualifiedName mmit server info
+lookup rate tracker SimpleName MethodInvocation SimpleName finished updating
+index cache hit tracker SimpleName MethodInvocation SimpleName finished updating
+index cache request tracker SimpleName MethodInvocation SimpleName finished updating
+data cache hit tracker SimpleName MethodInvocation SimpleName finished updating
+data cache request tracker SimpleName MethodInvocation SimpleName finished updating
+total tables SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName total tables
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+table info SimpleName SimpleType SingleVariableDeclaration SimpleName t info
+mmitable map QualifiedName MethodInvocation SimpleName values
+total tablet count SimpleName Assignment QualifiedName t infotablets
+online tablet count SimpleName Assignment QualifiedName t infoonline tablets
+t info SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation QualifiedName mmitable map
+t info SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName values
+monitortotal ingest rate QualifiedName Assignment SimpleName total ingest rate
+monitortotal tables QualifiedName Assignment SimpleName total tables
+total ingest byte rate SimpleName InfixExpression NumberLiteral .
+total ingest byte rate SimpleName Assignment InfixExpression SimpleName total ingest byte rate
+total ingest byte rate SimpleName Assignment InfixExpression NumberLiteral .
+monitortotal ingest byte rate QualifiedName Assignment SimpleName total ingest byte rate
+monitortotal query rate QualifiedName Assignment SimpleName total query rate
+monitortotal scan rate QualifiedName Assignment SimpleName total scan rate
+total query byte rate SimpleName InfixExpression NumberLiteral .
+total query byte rate SimpleName Assignment InfixExpression SimpleName total query byte rate
+total query byte rate SimpleName Assignment InfixExpression NumberLiteral .
+monitortotal query byte rate QualifiedName Assignment SimpleName total query byte rate
+monitortotal entries QualifiedName Assignment SimpleName total entries
+monitortotal tablet count QualifiedName Assignment SimpleName total tablet count
+monitoronline tablet count QualifiedName Assignment SimpleName online tablet count
+monitortotal hold time QualifiedName Assignment SimpleName total hold time
+monitortotal lookups QualifiedName Assignment SimpleName total lookups
+pair SimpleName SimpleType ParameterizedType SimpleType SimpleName long
+pair SimpleName SimpleType ParameterizedType SimpleType SimpleName double
+long SimpleName SimpleType ParameterizedType SimpleType SimpleName double
+pair SimpleName SimpleType ParameterizedType ClassInstanceCreation SimpleName current time
+long SimpleName SimpleType ParameterizedType ClassInstanceCreation SimpleName current time
+double SimpleName SimpleType ParameterizedType ClassInstanceCreation SimpleName current time
+pair SimpleName SimpleType ParameterizedType ClassInstanceCreation SimpleName total ingest rate
+long SimpleName SimpleType ParameterizedType ClassInstanceCreation SimpleName total ingest rate
+double SimpleName SimpleType ParameterizedType ClassInstanceCreation SimpleName total ingest rate
+current time SimpleName ClassInstanceCreation SimpleName total ingest rate
+ingest rate over time SimpleName MethodInvocation SimpleName add
+ingest rate over time SimpleName MethodInvocation ClassInstanceCreation SimpleName current time
+ingest rate over time SimpleName MethodInvocation ClassInstanceCreation SimpleName total ingest rate
+add SimpleName MethodInvocation ClassInstanceCreation SimpleName current time
+add SimpleName MethodInvocation ClassInstanceCreation SimpleName total ingest rate
+pair SimpleName SimpleType ParameterizedType SimpleType SimpleName long
+pair SimpleName SimpleType ParameterizedType SimpleType SimpleName double
+long SimpleName SimpleType ParameterizedType SimpleType SimpleName double
+pair SimpleName SimpleType ParameterizedType ClassInstanceCreation SimpleName current time
+long SimpleName SimpleType ParameterizedType ClassInstanceCreation SimpleName current time
+double SimpleName SimpleType ParameterizedType ClassInstanceCreation SimpleName current time
+pair SimpleName SimpleType ParameterizedType ClassInstanceCreation SimpleName total ingest byte rate
+long SimpleName SimpleType ParameterizedType ClassInstanceCreation SimpleName total ingest byte rate
+double SimpleName SimpleType ParameterizedType ClassInstanceCreation SimpleName total ingest byte rate
+current time SimpleName ClassInstanceCreation SimpleName total ingest byte rate
+ingest byte rate over time SimpleName MethodInvocation SimpleName add
+ingest byte rate over time SimpleName MethodInvocation ClassInstanceCreation SimpleName current time
+ingest byte rate over time SimpleName MethodInvocation ClassInstanceCreation SimpleName total ingest byte rate
+add SimpleName MethodInvocation ClassInstanceCreation SimpleName current time
+add SimpleName MethodInvocation ClassInstanceCreation SimpleName total ingest byte rate
+total load SimpleName VariableDeclarationFragment NumberLiteral .
+double PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName total load
+double PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral .
+tablet server status SimpleName SimpleType SingleVariableDeclaration SimpleName status
+total load SimpleName Assignment QualifiedName statusos load
+tablet server status SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement QualifiedName mmit server info
+status SimpleName SingleVariableDeclaration EnhancedForStatement QualifiedName mmit server info
+pair SimpleName SimpleType ParameterizedType SimpleType SimpleName long
+pair SimpleName SimpleType ParameterizedType SimpleType SimpleName double
+long SimpleName SimpleType ParameterizedType SimpleType SimpleName double
+pair SimpleName SimpleType ParameterizedType ClassInstanceCreation SimpleName current time
+long SimpleName SimpleType ParameterizedType ClassInstanceCreation SimpleName current time
+double SimpleName SimpleType ParameterizedType ClassInstanceCreation SimpleName current time
+pair SimpleName SimpleType ParameterizedType ClassInstanceCreation SimpleName total load
+long SimpleName SimpleType ParameterizedType ClassInstanceCreation SimpleName total load
+double SimpleName SimpleType ParameterizedType ClassInstanceCreation SimpleName total load
+current time SimpleName ClassInstanceCreation SimpleName total load
+load over time SimpleName MethodInvocation SimpleName add
+load over time SimpleName MethodInvocation ClassInstanceCreation SimpleName current time
+load over time SimpleName MethodInvocation ClassInstanceCreation SimpleName total load
+add SimpleName MethodInvocation ClassInstanceCreation SimpleName current time
+add SimpleName MethodInvocation ClassInstanceCreation SimpleName total load
+pair SimpleName SimpleType ParameterizedType SimpleType SimpleName long
+pair SimpleName SimpleType ParameterizedType SimpleType SimpleName integer
+long SimpleName SimpleType ParameterizedType SimpleType SimpleName integer
+pair SimpleName SimpleType ParameterizedType ClassInstanceCreation SimpleName current time
+long SimpleName SimpleType ParameterizedType ClassInstanceCreation SimpleName current time
+integer SimpleName SimpleType ParameterizedType ClassInstanceCreation SimpleName current time
+pair SimpleName SimpleType ParameterizedType ClassInstanceCreation SimpleName minor compactions
+long SimpleName SimpleType ParameterizedType ClassInstanceCreation SimpleName minor compactions
+integer SimpleName SimpleType ParameterizedType ClassInstanceCreation SimpleName minor compactions
+current time SimpleName ClassInstanceCreation SimpleName minor compactions
+minor compactions over time SimpleName MethodInvocation SimpleName add
+minor compactions over time SimpleName MethodInvocation ClassInstanceCreation SimpleName current time
+minor compactions over time SimpleName MethodInvocation ClassInstanceCreation SimpleName minor compactions
+add SimpleName MethodInvocation ClassInstanceCreation SimpleName current time
+add SimpleName MethodInvocation ClassInstanceCreation SimpleName minor compactions
+pair SimpleName SimpleType ParameterizedType SimpleType SimpleName long
+pair SimpleName SimpleType ParameterizedType SimpleType SimpleName integer
+long SimpleName SimpleType ParameterizedType SimpleType SimpleName integer
+pair SimpleName SimpleType ParameterizedType ClassInstanceCreation SimpleName current time
+long SimpleName SimpleType ParameterizedType ClassInstanceCreation SimpleName current time
+integer SimpleName SimpleType ParameterizedType ClassInstanceCreation SimpleName current time
+pair SimpleName SimpleType ParameterizedType ClassInstanceCreation SimpleName major compactions
+long SimpleName SimpleType ParameterizedType ClassInstanceCreation SimpleName major compactions
+integer SimpleName SimpleType ParameterizedType ClassInstanceCreation SimpleName major compactions
+current time SimpleName ClassInstanceCreation SimpleName major compactions
+major compactions over time SimpleName MethodInvocation SimpleName add
+major compactions over time SimpleName MethodInvocation ClassInstanceCreation SimpleName current time
+major compactions over time SimpleName MethodInvocation ClassInstanceCreation SimpleName major compactions
+add SimpleName MethodInvocation ClassInstanceCreation SimpleName current time
+add SimpleName MethodInvocation ClassInstanceCreation SimpleName major compactions
+pair SimpleName SimpleType ParameterizedType SimpleType SimpleName long
+pair SimpleName SimpleType ParameterizedType SimpleType SimpleName double
+long SimpleName SimpleType ParameterizedType SimpleType SimpleName double
+lookup rate tracker SimpleName MethodInvocation SimpleName calculate rate
+pair SimpleName SimpleType ParameterizedType ClassInstanceCreation SimpleName current time
+long SimpleName SimpleType ParameterizedType ClassInstanceCreation SimpleName current time
+double SimpleName SimpleType ParameterizedType ClassInstanceCreation SimpleName current time
+current time SimpleName ClassInstanceCreation MethodInvocation SimpleName lookup rate tracker
+current time SimpleName ClassInstanceCreation MethodInvocation SimpleName calculate rate
+lookups over time SimpleName MethodInvocation SimpleName add
+lookups over time SimpleName MethodInvocation ClassInstanceCreation SimpleName current time
+lookups over time SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName lookup rate tracker
+lookups over time SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName calculate rate
+add SimpleName MethodInvocation ClassInstanceCreation SimpleName current time
+add SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName lookup rate tracker
+add SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName calculate rate
+pair SimpleName SimpleType ParameterizedType SimpleType SimpleName long
+pair SimpleName SimpleType ParameterizedType SimpleType SimpleName integer
+long SimpleName SimpleType ParameterizedType SimpleType SimpleName integer
+int PrimitiveType CastExpression SimpleName total query rate
+pair SimpleName SimpleType ParameterizedType ClassInstanceCreation SimpleName current time
+long SimpleName SimpleType ParameterizedType ClassInstanceCreation SimpleName current time
+integer SimpleName SimpleType ParameterizedType ClassInstanceCreation SimpleName current time
+current time SimpleName ClassInstanceCreation CastExpression PrimitiveType int
+current time SimpleName ClassInstanceCreation CastExpression SimpleName total query rate
+query rate over time SimpleName MethodInvocation SimpleName add
+query rate over time SimpleName MethodInvocation ClassInstanceCreation SimpleName current time
+query rate over time SimpleName MethodInvocation ClassInstanceCreation CastExpression PrimitiveType int
+query rate over time SimpleName MethodInvocation ClassInstanceCreation CastExpression SimpleName total query rate
+add SimpleName MethodInvocation ClassInstanceCreation SimpleName current time
+add SimpleName MethodInvocation ClassInstanceCreation CastExpression PrimitiveType int
+add SimpleName MethodInvocation ClassInstanceCreation CastExpression SimpleName total query rate
+pair SimpleName SimpleType ParameterizedType SimpleType SimpleName long
+pair SimpleName SimpleType ParameterizedType SimpleType SimpleName double
+long SimpleName SimpleType ParameterizedType SimpleType SimpleName double
+pair SimpleName SimpleType ParameterizedType ClassInstanceCreation SimpleName current time
+long SimpleName SimpleType ParameterizedType ClassInstanceCreation SimpleName current time
+double SimpleName SimpleType ParameterizedType ClassInstanceCreation SimpleName current time
+pair SimpleName SimpleType ParameterizedType ClassInstanceCreation SimpleName total query byte rate
+long SimpleName SimpleType ParameterizedType ClassInstanceCreation SimpleName total query byte rate
+double SimpleName SimpleType ParameterizedType ClassInstanceCreation SimpleName total query byte rate
+current time SimpleName ClassInstanceCreation SimpleName total query byte rate
+query byte rate over time SimpleName MethodInvocation SimpleName add
+query byte rate over time SimpleName MethodInvocation ClassInstanceCreation SimpleName current time
+query byte rate over time SimpleName MethodInvocation ClassInstanceCreation SimpleName total query byte rate
+add SimpleName MethodInvocation ClassInstanceCreation SimpleName current time
+add SimpleName MethodInvocation ClassInstanceCreation SimpleName total query byte rate
+pair SimpleName SimpleType ParameterizedType SimpleType SimpleName long
+pair SimpleName SimpleType ParameterizedType SimpleType SimpleName integer
+long SimpleName SimpleType ParameterizedType SimpleType SimpleName integer
+int PrimitiveType CastExpression SimpleName total scan rate
+pair SimpleName SimpleType ParameterizedType ClassInstanceCreation SimpleName current time
+long SimpleName SimpleType ParameterizedType ClassInstanceCreation SimpleName current time
+integer SimpleName SimpleType ParameterizedType ClassInstanceCreation SimpleName current time
+current time SimpleName ClassInstanceCreation CastExpression PrimitiveType int
+current time SimpleName ClassInstanceCreation CastExpression SimpleName total scan rate
+scan rate over time SimpleName MethodInvocation SimpleName add
+scan rate over time SimpleName MethodInvocation ClassInstanceCreation SimpleName current time
+scan rate over time SimpleName MethodInvocation ClassInstanceCreation CastExpression PrimitiveType int
+scan rate over time SimpleName MethodInvocation ClassInstanceCreation CastExpression SimpleName total scan rate
+add SimpleName MethodInvocation ClassInstanceCreation SimpleName current time
+add SimpleName MethodInvocation ClassInstanceCreation CastExpression PrimitiveType int
+add SimpleName MethodInvocation ClassInstanceCreation CastExpression SimpleName total scan rate
+calc cache hit rate SimpleName MethodInvocation SimpleName index cache hit rate over time
+calc cache hit rate SimpleName MethodInvocation SimpleName current time
+calc cache hit rate SimpleName MethodInvocation SimpleName index cache hit tracker
+calc cache hit rate SimpleName MethodInvocation SimpleName index cache request tracker
+index cache hit rate over time SimpleName MethodInvocation SimpleName current time
+index cache hit rate over time SimpleName MethodInvocation SimpleName index cache hit tracker
+index cache hit rate over time SimpleName MethodInvocation SimpleName index cache request tracker
+current time SimpleName MethodInvocation SimpleName index cache hit tracker
+current time SimpleName MethodInvocation SimpleName index cache request tracker
+index cache hit tracker SimpleName MethodInvocation SimpleName index cache request tracker
+calc cache hit rate SimpleName MethodInvocation SimpleName data cache hit rate over time
+calc cache hit rate SimpleName MethodInvocation SimpleName current time
+calc cache hit rate SimpleName MethodInvocation SimpleName data cache hit tracker
+calc cache hit rate SimpleName MethodInvocation SimpleName data cache request tracker
+data cache hit rate over time SimpleName MethodInvocation SimpleName current time
+data cache hit rate over time SimpleName MethodInvocation SimpleName data cache hit tracker
+data cache hit rate over time SimpleName MethodInvocation SimpleName data cache request tracker
+current time SimpleName MethodInvocation SimpleName data cache hit tracker
+current time SimpleName MethodInvocation SimpleName data cache request tracker
+data cache hit tracker SimpleName MethodInvocation SimpleName data cache request tracker
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+double PrimitiveType VariableDeclarationStatement Block EnhancedForStatement QualifiedName mmit server info
+problem reports SimpleName MethodInvocation SimpleName get instance
+problem reports SimpleName MethodInvocation MethodInvocation SimpleName summarize
+get instance SimpleName MethodInvocation MethodInvocation SimpleName summarize
+monitorproblem summary QualifiedName Assignment MethodInvocation MethodInvocation SimpleName problem reports
+monitorproblem summary QualifiedName Assignment MethodInvocation MethodInvocation SimpleName get instance
+monitorproblem summary QualifiedName Assignment MethodInvocation SimpleName summarize
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation StringLiteral failed to obtain problem reports
+log SimpleName MethodInvocation SimpleName e
+info SimpleName MethodInvocation StringLiteral failed to obtain problem reports
+info SimpleName MethodInvocation SimpleName e
+failed to obtain problem reports StringLiteral MethodInvocation SimpleName e
+collections SimpleName MethodInvocation SimpleName empty map
+monitorproblem summary QualifiedName Assignment MethodInvocation SimpleName collections
+monitorproblem summary QualifiedName Assignment MethodInvocation SimpleName empty map
+monitorproblem exception QualifiedName Assignment SimpleName e
+fetching SimpleName Assignment BooleanLiteral false
+last recalc SimpleName Assignment SimpleName current time
+double PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType double
+double PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType double
+double PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType double
+double PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType double
+double PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType long
+double PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType double
+double PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType double
+double PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType double
+double PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType long
+double PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+double PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType double
+double PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType double
+double PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType long
+double PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+double PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+double PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType double
+double PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType long
+double PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+double PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+double PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType long
+double PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType long
+double PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+double PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+double PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType long
+double PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType long
+long PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+long PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+long PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType long
+long PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType long
+long PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType boolean
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType long
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType long
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType boolean
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType long
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType long
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType long
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType boolean
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType long
+long PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType long
+long PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType boolean
+long PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType long
+long PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType boolean
+long PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType long
+boolean PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType long
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName fetch data
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType double
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType double
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType double
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType double
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType double
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+static Modifier MethodDeclaration PrimitiveType void
+static Modifier MethodDeclaration SimpleName fetch data
+static Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType double
+static Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType double
+static Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType double
+static Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType double
+static Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType double
+static Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+static Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+static Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+static Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+static Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+static Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+static Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+void PrimitiveType MethodDeclaration SimpleName fetch data
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType double
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType double
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType double
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType double
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType double
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+fetch data SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType double
+fetch data SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType double
+fetch data SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType double
+fetch data SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType double
+fetch data SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType double
+fetch data SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+fetch data SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+fetch data SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+fetch data SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+fetch data SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType long

@@ -1,0 +1,97 @@
+atlas entity with ext info SimpleName SimpleType SingleVariableDeclaration SimpleName old entity ext info
+atlas entity with ext info SimpleName SimpleType SingleVariableDeclaration SimpleName new entity ext info
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName hook notification
+list SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName notifications
+hook notification SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName notifications
+get storage desc entity SimpleName MethodInvocation SimpleName old entity ext info
+old sd SimpleName VariableDeclarationFragment MethodInvocation SimpleName get storage desc entity
+old sd SimpleName VariableDeclarationFragment MethodInvocation SimpleName old entity ext info
+atlas entity SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName old sd
+get storage desc entity SimpleName MethodInvocation SimpleName new entity ext info
+new sd SimpleName VariableDeclarationFragment MethodInvocation SimpleName get storage desc entity
+new sd SimpleName VariableDeclarationFragment MethodInvocation SimpleName new entity ext info
+atlas entity SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName new sd
+old sd SimpleName InfixExpression InfixExpression InfixExpression SimpleName new sd
+old sd SimpleName MethodInvocation SimpleName get type name
+old sd SimpleName MethodInvocation SimpleName get attribute
+old sd SimpleName MethodInvocation SimpleName attribute qualified name
+get attribute SimpleName MethodInvocation SimpleName attribute qualified name
+atlas object id SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName old sd
+atlas object id SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get type name
+atlas object id SimpleName SimpleType ClassInstanceCreation SimpleName attribute qualified name
+atlas object id SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName old sd
+atlas object id SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get attribute
+atlas object id SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName attribute qualified name
+old sd SimpleName MethodInvocation ClassInstanceCreation SimpleName attribute qualified name
+get type name SimpleName MethodInvocation ClassInstanceCreation SimpleName attribute qualified name
+old sd SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName old sd
+old sd SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get attribute
+old sd SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName attribute qualified name
+get type name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName old sd
+get type name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get attribute
+get type name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName attribute qualified name
+attribute qualified name SimpleName ClassInstanceCreation MethodInvocation SimpleName old sd
+attribute qualified name SimpleName ClassInstanceCreation MethodInvocation SimpleName get attribute
+attribute qualified name SimpleName ClassInstanceCreation MethodInvocation SimpleName attribute qualified name
+old sd id SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName atlas object id
+old sd id SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName old sd
+old sd id SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get type name
+old sd id SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName attribute qualified name
+old sd id SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName old sd
+old sd id SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get attribute
+old sd id SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName attribute qualified name
+atlas object id SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName old sd id
+new sd SimpleName MethodInvocation SimpleName remove attribute
+new sd SimpleName MethodInvocation SimpleName attribute table
+remove attribute SimpleName MethodInvocation SimpleName attribute table
+atlas entity with ext info SimpleName SimpleType ClassInstanceCreation SimpleName new sd
+entity partial update request v SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get user name
+entity partial update request v SimpleName SimpleType ClassInstanceCreation SimpleName old sd id
+entity partial update request v SimpleName SimpleType ClassInstanceCreation ClassInstanceCreation SimpleName new sd
+get user name SimpleName MethodInvocation ClassInstanceCreation SimpleName old sd id
+get user name SimpleName MethodInvocation ClassInstanceCreation ClassInstanceCreation SimpleName new sd
+old sd id SimpleName ClassInstanceCreation ClassInstanceCreation SimpleType SimpleName atlas entity with ext info
+old sd id SimpleName ClassInstanceCreation ClassInstanceCreation SimpleName new sd
+notifications SimpleName MethodInvocation SimpleName add
+notifications SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName entity partial update request v
+notifications SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get user name
+notifications SimpleName MethodInvocation ClassInstanceCreation SimpleName old sd id
+notifications SimpleName MethodInvocation ClassInstanceCreation ClassInstanceCreation SimpleName new sd
+add SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName entity partial update request v
+add SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get user name
+add SimpleName MethodInvocation ClassInstanceCreation SimpleName old sd id
+add SimpleName MethodInvocation ClassInstanceCreation ClassInstanceCreation SimpleName new sd
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName rename storage desc
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas entity with ext info
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName old entity ext info
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas entity with ext info
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName new entity ext info
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName notifications
+void PrimitiveType MethodDeclaration SimpleName rename storage desc
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas entity with ext info
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName old entity ext info
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas entity with ext info
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName new entity ext info
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName notifications
+rename storage desc SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas entity with ext info
+rename storage desc SimpleName MethodDeclaration SingleVariableDeclaration SimpleName old entity ext info
+rename storage desc SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas entity with ext info
+rename storage desc SimpleName MethodDeclaration SingleVariableDeclaration SimpleName new entity ext info
+rename storage desc SimpleName MethodDeclaration SingleVariableDeclaration SimpleName notifications
+old entity ext info SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new entity ext info
+old entity ext info SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName notifications
+new entity ext info SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName notifications
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName rename storage desc
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName old entity ext info
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new entity ext info
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName notifications
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName rename storage desc
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName old entity ext info
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new entity ext info
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName notifications

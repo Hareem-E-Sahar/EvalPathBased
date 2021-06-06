@@ -1,0 +1,36 @@
+job context SimpleName SimpleType SingleVariableDeclaration SimpleName job
+job SimpleName MethodInvocation SimpleName get configuration
+job SimpleName MethodInvocation MethodInvocation SimpleName set boolean
+get configuration SimpleName MethodInvocation MethodInvocation SimpleName set boolean
+job SimpleName MethodInvocation MethodInvocation SimpleName auto adjust ranges
+get configuration SimpleName MethodInvocation MethodInvocation SimpleName auto adjust ranges
+job SimpleName MethodInvocation MethodInvocation BooleanLiteral false
+get configuration SimpleName MethodInvocation MethodInvocation BooleanLiteral false
+set boolean SimpleName MethodInvocation SimpleName auto adjust ranges
+set boolean SimpleName MethodInvocation BooleanLiteral false
+auto adjust ranges SimpleName MethodInvocation BooleanLiteral false
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName disable auto adjust ranges
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName job context
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName job
+static Modifier MethodDeclaration PrimitiveType void
+static Modifier MethodDeclaration SimpleName disable auto adjust ranges
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName job context
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName job
+void PrimitiveType MethodDeclaration SimpleName disable auto adjust ranges
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName job context
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName job
+disable auto adjust ranges SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName job context
+disable auto adjust ranges SimpleName MethodDeclaration SingleVariableDeclaration SimpleName job
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName disable auto adjust ranges
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName job
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName disable auto adjust ranges
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName job

@@ -1,0 +1,157 @@
+inst SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName mock instance
+mock instance SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName inst
+user pass token SimpleName SimpleType ClassInstanceCreation StringLiteral root
+user pass token SimpleName SimpleType ClassInstanceCreation StringLiteral empty
+root StringLiteral ClassInstanceCreation StringLiteral empty
+inst SimpleName MethodInvocation SimpleName get connector
+inst SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName user pass token
+inst SimpleName MethodInvocation ClassInstanceCreation StringLiteral root
+inst SimpleName MethodInvocation ClassInstanceCreation StringLiteral empty
+get connector SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName user pass token
+get connector SimpleName MethodInvocation ClassInstanceCreation StringLiteral root
+get connector SimpleName MethodInvocation ClassInstanceCreation StringLiteral empty
+conn SimpleName VariableDeclarationFragment MethodInvocation SimpleName inst
+conn SimpleName VariableDeclarationFragment MethodInvocation SimpleName get connector
+conn SimpleName VariableDeclarationFragment MethodInvocation ClassInstanceCreation StringLiteral root
+conn SimpleName VariableDeclarationFragment MethodInvocation ClassInstanceCreation StringLiteral empty
+connector SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName conn
+conn SimpleName MethodInvocation SimpleName table operations
+conn SimpleName MethodInvocation MethodInvocation SimpleName create
+table operations SimpleName MethodInvocation MethodInvocation SimpleName create
+conn SimpleName MethodInvocation MethodInvocation StringLiteral test
+table operations SimpleName MethodInvocation MethodInvocation StringLiteral test
+create SimpleName MethodInvocation StringLiteral test
+conn SimpleName MethodInvocation SimpleName create batch writer
+conn SimpleName MethodInvocation StringLiteral test
+conn SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName batch writer config
+create batch writer SimpleName MethodInvocation StringLiteral test
+create batch writer SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName batch writer config
+test StringLiteral MethodInvocation ClassInstanceCreation SimpleType SimpleName batch writer config
+bw SimpleName VariableDeclarationFragment MethodInvocation SimpleName conn
+bw SimpleName VariableDeclarationFragment MethodInvocation SimpleName create batch writer
+bw SimpleName VariableDeclarationFragment MethodInvocation StringLiteral test
+batch writer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName bw
+string SimpleName SimpleType SingleVariableDeclaration SimpleName row
+abcd StringLiteral MethodInvocation SimpleName split
+abcd StringLiteral MethodInvocation StringLiteral empty
+split SimpleName MethodInvocation StringLiteral empty
+mutation SimpleName SimpleType ClassInstanceCreation SimpleName row
+m SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName mutation
+m SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName row
+mutation SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName m
+m SimpleName MethodInvocation SimpleName put
+m SimpleName MethodInvocation StringLiteral cf
+m SimpleName MethodInvocation StringLiteral cq
+m SimpleName MethodInvocation StringLiteral empty
+put SimpleName MethodInvocation StringLiteral cf
+put SimpleName MethodInvocation StringLiteral cq
+put SimpleName MethodInvocation StringLiteral empty
+cf StringLiteral MethodInvocation StringLiteral cq
+cf StringLiteral MethodInvocation StringLiteral empty
+cq StringLiteral MethodInvocation StringLiteral empty
+bw SimpleName MethodInvocation SimpleName add mutation
+bw SimpleName MethodInvocation SimpleName m
+add mutation SimpleName MethodInvocation SimpleName m
+row SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation StringLiteral abcd
+row SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName split
+row SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation StringLiteral empty
+bw SimpleName MethodInvocation SimpleName flush
+conn SimpleName MethodInvocation SimpleName create batch scanner
+conn SimpleName MethodInvocation StringLiteral test
+conn SimpleName MethodInvocation QualifiedName constantsno auths
+conn SimpleName MethodInvocation NumberLiteral empty
+create batch scanner SimpleName MethodInvocation StringLiteral test
+create batch scanner SimpleName MethodInvocation QualifiedName constantsno auths
+create batch scanner SimpleName MethodInvocation NumberLiteral empty
+test StringLiteral MethodInvocation QualifiedName constantsno auths
+test StringLiteral MethodInvocation NumberLiteral empty
+constantsno auths QualifiedName MethodInvocation NumberLiteral empty
+bs SimpleName VariableDeclarationFragment MethodInvocation SimpleName conn
+bs SimpleName VariableDeclarationFragment MethodInvocation SimpleName create batch scanner
+bs SimpleName VariableDeclarationFragment MethodInvocation StringLiteral test
+bs SimpleName VariableDeclarationFragment MethodInvocation QualifiedName constantsno auths
+bs SimpleName VariableDeclarationFragment MethodInvocation NumberLiteral empty
+batch scanner SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName bs
+iterator setting SimpleName SimpleType ClassInstanceCreation NumberLiteral empty
+empty NumberLiteral ClassInstanceCreation TypeLiteral SimpleType SimpleName transform iterator
+cfg SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName iterator setting
+cfg SimpleName VariableDeclarationFragment ClassInstanceCreation NumberLiteral empty
+iterator setting SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName cfg
+bs SimpleName MethodInvocation SimpleName add scan iterator
+bs SimpleName MethodInvocation SimpleName cfg
+add scan iterator SimpleName MethodInvocation SimpleName cfg
+range SimpleName SimpleType ClassInstanceCreation StringLiteral a
+range SimpleName SimpleType ClassInstanceCreation StringLiteral z
+a StringLiteral ClassInstanceCreation StringLiteral z
+collections SimpleName MethodInvocation SimpleName singleton list
+collections SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName range
+collections SimpleName MethodInvocation ClassInstanceCreation StringLiteral a
+collections SimpleName MethodInvocation ClassInstanceCreation StringLiteral z
+singleton list SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName range
+singleton list SimpleName MethodInvocation ClassInstanceCreation StringLiteral a
+singleton list SimpleName MethodInvocation ClassInstanceCreation StringLiteral z
+bs SimpleName MethodInvocation SimpleName set ranges
+bs SimpleName MethodInvocation MethodInvocation SimpleName collections
+bs SimpleName MethodInvocation MethodInvocation SimpleName singleton list
+bs SimpleName MethodInvocation MethodInvocation ClassInstanceCreation StringLiteral a
+bs SimpleName MethodInvocation MethodInvocation ClassInstanceCreation StringLiteral z
+set ranges SimpleName MethodInvocation MethodInvocation SimpleName collections
+set ranges SimpleName MethodInvocation MethodInvocation SimpleName singleton list
+set ranges SimpleName MethodInvocation MethodInvocation ClassInstanceCreation StringLiteral a
+set ranges SimpleName MethodInvocation MethodInvocation ClassInstanceCreation StringLiteral z
+sb SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName string builder
+string builder SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName sb
+comma SimpleName VariableDeclarationFragment StringLiteral empty
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName comma
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral empty
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName key
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+key SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+entry SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+key SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+value SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation SimpleName comma
+append SimpleName MethodInvocation SimpleName comma
+entry SimpleName MethodInvocation SimpleName get key
+entry SimpleName MethodInvocation MethodInvocation SimpleName get row
+get key SimpleName MethodInvocation MethodInvocation SimpleName get row
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName entry
+sb SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get key
+sb SimpleName MethodInvocation MethodInvocation SimpleName get row
+append SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName entry
+append SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get key
+append SimpleName MethodInvocation MethodInvocation SimpleName get row
+comma SimpleName Assignment StringLiteral empty
+entry SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName bs
+sb SimpleName MethodInvocation SimpleName to string
+assert equals SimpleName MethodInvocation StringLiteral abcd
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName sb
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName to string
+abcd StringLiteral MethodInvocation MethodInvocation SimpleName sb
+abcd StringLiteral MethodInvocation MethodInvocation SimpleName to string
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test
+public Modifier MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration Block EnhancedForStatement SimpleName bs
+void PrimitiveType MethodDeclaration SimpleName test
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration Block EnhancedForStatement SimpleName bs
+test SimpleName MethodDeclaration SimpleType SimpleName exception
+test SimpleName MethodDeclaration Block EnhancedForStatement SimpleName bs
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

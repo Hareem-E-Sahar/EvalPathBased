@@ -1,0 +1,59 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName source name
+string SimpleName SimpleType SingleVariableDeclaration SimpleName original type def guid
+string SimpleName SimpleType SingleVariableDeclaration SimpleName original type def name
+type def SimpleName SimpleType SingleVariableDeclaration SimpleName new type def
+delete type def SimpleName MethodInvocation SimpleName source name
+delete type def SimpleName MethodInvocation SimpleName original type def guid
+delete type def SimpleName MethodInvocation SimpleName original type def name
+source name SimpleName MethodInvocation SimpleName original type def guid
+source name SimpleName MethodInvocation SimpleName original type def name
+original type def guid SimpleName MethodInvocation SimpleName original type def name
+add type def SimpleName MethodInvocation SimpleName source name
+add type def SimpleName MethodInvocation SimpleName new type def
+source name SimpleName MethodInvocation SimpleName new type def
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName re identify type def
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName source name
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName original type def guid
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName original type def name
+void PrimitiveType MethodDeclaration SimpleName re identify type def
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName source name
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName original type def guid
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName original type def name
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName type def
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName new type def
+re identify type def SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+re identify type def SimpleName MethodDeclaration SingleVariableDeclaration SimpleName source name
+re identify type def SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+re identify type def SimpleName MethodDeclaration SingleVariableDeclaration SimpleName original type def guid
+re identify type def SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+re identify type def SimpleName MethodDeclaration SingleVariableDeclaration SimpleName original type def name
+re identify type def SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName type def
+re identify type def SimpleName MethodDeclaration SingleVariableDeclaration SimpleName new type def
+source name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName original type def guid
+source name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName original type def name
+source name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new type def
+original type def guid SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName original type def name
+original type def guid SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new type def
+original type def name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new type def
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName re identify type def
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName source name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName original type def guid
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName original type def name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new type def
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName re identify type def
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName source name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName original type def guid
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName original type def name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new type def

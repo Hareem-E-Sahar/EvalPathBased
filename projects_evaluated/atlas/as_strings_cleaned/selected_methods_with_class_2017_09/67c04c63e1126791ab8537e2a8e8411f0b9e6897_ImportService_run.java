@@ -1,0 +1,245 @@
+atlas import request SimpleName SimpleType SingleVariableDeclaration SimpleName request
+string SimpleName SimpleType SingleVariableDeclaration SimpleName user name
+string SimpleName SimpleType SingleVariableDeclaration SimpleName host name
+string SimpleName SimpleType SingleVariableDeclaration SimpleName requesting ip
+request SimpleName MethodInvocation SimpleName get file name
+file name SimpleName VariableDeclarationFragment MethodInvocation SimpleName request
+file name SimpleName VariableDeclarationFragment MethodInvocation SimpleName get file name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName file name
+string utils SimpleName MethodInvocation SimpleName is blank
+string utils SimpleName MethodInvocation SimpleName file name
+is blank SimpleName MethodInvocation SimpleName file name
+atlas base exception SimpleName SimpleType ClassInstanceCreation QualifiedName atlas error codeinvalid parameters
+atlas base exception SimpleName SimpleType ClassInstanceCreation StringLiteral filename parameter not found
+atlas error codeinvalid parameters QualifiedName ClassInstanceCreation StringLiteral filename parameter not found
+atlas import result SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName result
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation StringLiteral ==> importuser from file name
+log SimpleName MethodInvocation SimpleName user name
+log SimpleName MethodInvocation SimpleName requesting ip
+log SimpleName MethodInvocation SimpleName file name
+info SimpleName MethodInvocation StringLiteral ==> importuser from file name
+info SimpleName MethodInvocation SimpleName user name
+info SimpleName MethodInvocation SimpleName requesting ip
+info SimpleName MethodInvocation SimpleName file name
+==> importuser from file name StringLiteral MethodInvocation SimpleName user name
+==> importuser from file name StringLiteral MethodInvocation SimpleName requesting ip
+==> importuser from file name StringLiteral MethodInvocation SimpleName file name
+user name SimpleName MethodInvocation SimpleName requesting ip
+user name SimpleName MethodInvocation SimpleName file name
+requesting ip SimpleName MethodInvocation SimpleName file name
+request SimpleName MethodInvocation SimpleName get options
+map utils SimpleName MethodInvocation SimpleName is not empty
+map utils SimpleName MethodInvocation MethodInvocation SimpleName request
+map utils SimpleName MethodInvocation MethodInvocation SimpleName get options
+is not empty SimpleName MethodInvocation MethodInvocation SimpleName request
+is not empty SimpleName MethodInvocation MethodInvocation SimpleName get options
+request SimpleName MethodInvocation SimpleName get options
+request SimpleName MethodInvocation MethodInvocation SimpleName get
+get options SimpleName MethodInvocation MethodInvocation SimpleName get
+request SimpleName MethodInvocation MethodInvocation QualifiedName atlas import requesttransforms key
+get options SimpleName MethodInvocation MethodInvocation QualifiedName atlas import requesttransforms key
+get SimpleName MethodInvocation QualifiedName atlas import requesttransforms key
+map utils SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName get
+map utils SimpleName MethodInvocation ConditionalExpression MethodInvocation QualifiedName atlas import requesttransforms key
+is not empty SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName get
+is not empty SimpleName MethodInvocation ConditionalExpression MethodInvocation QualifiedName atlas import requesttransforms key
+transforms SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation SimpleName map utils
+transforms SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation SimpleName is not empty
+transforms SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation SimpleName get
+transforms SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation QualifiedName atlas import requesttransforms key
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName transforms
+file SimpleName SimpleType ClassInstanceCreation SimpleName file name
+file SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName file
+file SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName file name
+file SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName file
+file utils SimpleName MethodInvocation SimpleName read file to byte array
+file utils SimpleName MethodInvocation SimpleName file
+read file to byte array SimpleName MethodInvocation SimpleName file
+byte array input stream SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName file utils
+byte array input stream SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName read file to byte array
+byte array input stream SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName file
+import transforms SimpleName MethodInvocation SimpleName from json
+import transforms SimpleName MethodInvocation SimpleName transforms
+from json SimpleName MethodInvocation SimpleName transforms
+zip source SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName import transforms
+zip source SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName from json
+zip source SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName transforms
+source SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName zip source
+source SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName import transforms
+source SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName from json
+source SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName transforms
+zip source SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName source
+run SimpleName MethodInvocation SimpleName source
+run SimpleName MethodInvocation SimpleName request
+run SimpleName MethodInvocation SimpleName user name
+run SimpleName MethodInvocation SimpleName host name
+run SimpleName MethodInvocation SimpleName requesting ip
+source SimpleName MethodInvocation SimpleName request
+source SimpleName MethodInvocation SimpleName user name
+source SimpleName MethodInvocation SimpleName host name
+source SimpleName MethodInvocation SimpleName requesting ip
+request SimpleName MethodInvocation SimpleName user name
+request SimpleName MethodInvocation SimpleName host name
+request SimpleName MethodInvocation SimpleName requesting ip
+user name SimpleName MethodInvocation SimpleName host name
+user name SimpleName MethodInvocation SimpleName requesting ip
+host name SimpleName MethodInvocation SimpleName requesting ip
+result SimpleName Assignment MethodInvocation SimpleName run
+result SimpleName Assignment MethodInvocation SimpleName source
+result SimpleName Assignment MethodInvocation SimpleName request
+result SimpleName Assignment MethodInvocation SimpleName user name
+result SimpleName Assignment MethodInvocation SimpleName host name
+result SimpleName Assignment MethodInvocation SimpleName requesting ip
+atlas base exception SimpleName SimpleType SingleVariableDeclaration SimpleName excp
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation StringLiteral importuser from file name failed
+log SimpleName MethodInvocation SimpleName user name
+log SimpleName MethodInvocation SimpleName requesting ip
+log SimpleName MethodInvocation SimpleName excp
+error SimpleName MethodInvocation StringLiteral importuser from file name failed
+error SimpleName MethodInvocation SimpleName user name
+error SimpleName MethodInvocation SimpleName requesting ip
+error SimpleName MethodInvocation SimpleName excp
+importuser from file name failed StringLiteral MethodInvocation SimpleName user name
+importuser from file name failed StringLiteral MethodInvocation SimpleName requesting ip
+importuser from file name failed StringLiteral MethodInvocation SimpleName excp
+user name SimpleName MethodInvocation SimpleName requesting ip
+user name SimpleName MethodInvocation SimpleName excp
+requesting ip SimpleName MethodInvocation SimpleName excp
+file not found exception SimpleName SimpleType SingleVariableDeclaration SimpleName excp
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation StringLiteral importuser from file name file not found
+log SimpleName MethodInvocation SimpleName user name
+log SimpleName MethodInvocation SimpleName requesting ip
+log SimpleName MethodInvocation SimpleName excp
+error SimpleName MethodInvocation StringLiteral importuser from file name file not found
+error SimpleName MethodInvocation SimpleName user name
+error SimpleName MethodInvocation SimpleName requesting ip
+error SimpleName MethodInvocation SimpleName excp
+importuser from file name file not found StringLiteral MethodInvocation SimpleName user name
+importuser from file name file not found StringLiteral MethodInvocation SimpleName requesting ip
+importuser from file name file not found StringLiteral MethodInvocation SimpleName excp
+user name SimpleName MethodInvocation SimpleName requesting ip
+user name SimpleName MethodInvocation SimpleName excp
+requesting ip SimpleName MethodInvocation SimpleName excp
+file name SimpleName InfixExpression StringLiteral : file not found
+atlas base exception SimpleName SimpleType ClassInstanceCreation QualifiedName atlas error codeinvalid parameters
+atlas base exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName file name
+atlas base exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral : file not found
+atlas error codeinvalid parameters QualifiedName ClassInstanceCreation InfixExpression SimpleName file name
+atlas error codeinvalid parameters QualifiedName ClassInstanceCreation InfixExpression StringLiteral : file not found
+io exception SimpleName SimpleType SingleVariableDeclaration SimpleName excp
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation StringLiteral importuser from file name cannot read file
+log SimpleName MethodInvocation SimpleName user name
+log SimpleName MethodInvocation SimpleName requesting ip
+log SimpleName MethodInvocation SimpleName excp
+error SimpleName MethodInvocation StringLiteral importuser from file name cannot read file
+error SimpleName MethodInvocation SimpleName user name
+error SimpleName MethodInvocation SimpleName requesting ip
+error SimpleName MethodInvocation SimpleName excp
+importuser from file name cannot read file StringLiteral MethodInvocation SimpleName user name
+importuser from file name cannot read file StringLiteral MethodInvocation SimpleName requesting ip
+importuser from file name cannot read file StringLiteral MethodInvocation SimpleName excp
+user name SimpleName MethodInvocation SimpleName requesting ip
+user name SimpleName MethodInvocation SimpleName excp
+requesting ip SimpleName MethodInvocation SimpleName excp
+file name SimpleName InfixExpression StringLiteral : cannot read file
+atlas base exception SimpleName SimpleType ClassInstanceCreation QualifiedName atlas error codeinvalid parameters
+atlas base exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName file name
+atlas base exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral : cannot read file
+atlas error codeinvalid parameters QualifiedName ClassInstanceCreation InfixExpression SimpleName file name
+atlas error codeinvalid parameters QualifiedName ClassInstanceCreation InfixExpression StringLiteral : cannot read file
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName excp
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation StringLiteral importuser from file name failed
+log SimpleName MethodInvocation SimpleName user name
+log SimpleName MethodInvocation SimpleName requesting ip
+log SimpleName MethodInvocation SimpleName excp
+error SimpleName MethodInvocation StringLiteral importuser from file name failed
+error SimpleName MethodInvocation SimpleName user name
+error SimpleName MethodInvocation SimpleName requesting ip
+error SimpleName MethodInvocation SimpleName excp
+importuser from file name failed StringLiteral MethodInvocation SimpleName user name
+importuser from file name failed StringLiteral MethodInvocation SimpleName requesting ip
+importuser from file name failed StringLiteral MethodInvocation SimpleName excp
+user name SimpleName MethodInvocation SimpleName requesting ip
+user name SimpleName MethodInvocation SimpleName excp
+requesting ip SimpleName MethodInvocation SimpleName excp
+atlas base exception SimpleName SimpleType ClassInstanceCreation SimpleName excp
+result SimpleName MethodInvocation SimpleName get operation status
+result SimpleName InfixExpression ConditionalExpression QualifiedName atlas import resultoperation statusfail
+result SimpleName InfixExpression ConditionalExpression MethodInvocation SimpleName result
+result SimpleName InfixExpression ConditionalExpression MethodInvocation SimpleName get operation status
+atlas import resultoperation statusfail QualifiedName ConditionalExpression MethodInvocation SimpleName result
+atlas import resultoperation statusfail QualifiedName ConditionalExpression MethodInvocation SimpleName get operation status
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation StringLiteral <== importuser from file name status
+log SimpleName MethodInvocation SimpleName user name
+log SimpleName MethodInvocation SimpleName requesting ip
+log SimpleName MethodInvocation SimpleName file name
+info SimpleName MethodInvocation StringLiteral <== importuser from file name status
+info SimpleName MethodInvocation SimpleName user name
+info SimpleName MethodInvocation SimpleName requesting ip
+info SimpleName MethodInvocation SimpleName file name
+info SimpleName MethodInvocation ParenthesizedExpression ConditionalExpression QualifiedName atlas import resultoperation statusfail
+<== importuser from file name status StringLiteral MethodInvocation SimpleName user name
+<== importuser from file name status StringLiteral MethodInvocation SimpleName requesting ip
+<== importuser from file name status StringLiteral MethodInvocation SimpleName file name
+<== importuser from file name status StringLiteral MethodInvocation ParenthesizedExpression ConditionalExpression QualifiedName atlas import resultoperation statusfail
+user name SimpleName MethodInvocation SimpleName requesting ip
+user name SimpleName MethodInvocation SimpleName file name
+user name SimpleName MethodInvocation ParenthesizedExpression ConditionalExpression QualifiedName atlas import resultoperation statusfail
+requesting ip SimpleName MethodInvocation SimpleName file name
+requesting ip SimpleName MethodInvocation ParenthesizedExpression ConditionalExpression QualifiedName atlas import resultoperation statusfail
+file name SimpleName MethodInvocation ParenthesizedExpression ConditionalExpression QualifiedName atlas import resultoperation statusfail
+public Modifier MethodDeclaration SimpleType SimpleName atlas import result
+public Modifier MethodDeclaration SimpleName run
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas import request
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName request
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName user name
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName host name
+atlas import result SimpleName SimpleType MethodDeclaration SimpleName run
+atlas import result SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName request
+atlas import result SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName user name
+atlas import result SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName host name
+atlas import result SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName requesting ip
+run SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas import request
+run SimpleName MethodDeclaration SingleVariableDeclaration SimpleName request
+run SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+run SimpleName MethodDeclaration SingleVariableDeclaration SimpleName user name
+run SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+run SimpleName MethodDeclaration SingleVariableDeclaration SimpleName host name
+run SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+run SimpleName MethodDeclaration SingleVariableDeclaration SimpleName requesting ip
+run SimpleName MethodDeclaration SimpleType SimpleName atlas base exception
+request SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName user name
+request SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName host name
+request SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName requesting ip
+request SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+user name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName host name
+user name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName requesting ip
+user name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+host name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName requesting ip
+host name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+requesting ip SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas import result
+public Modifier TypeDeclaration MethodDeclaration SimpleName run
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName request
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName user name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName host name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName requesting ip
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas import result
+test SimpleName TypeDeclaration MethodDeclaration SimpleName run
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName request
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName user name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName host name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName requesting ip
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception

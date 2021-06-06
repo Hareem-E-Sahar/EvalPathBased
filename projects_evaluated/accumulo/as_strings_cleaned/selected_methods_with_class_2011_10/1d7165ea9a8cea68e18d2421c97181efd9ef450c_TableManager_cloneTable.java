@@ -1,0 +1,309 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName src table
+string SimpleName SimpleType SingleVariableDeclaration SimpleName table id
+string SimpleName SimpleType SingleVariableDeclaration SimpleName table name
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName properties to set
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName properties to set
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName properties to set
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+set SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName properties to exclude
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName properties to exclude
+node exists policy SimpleName SimpleType SingleVariableDeclaration SimpleName exists policy
+instance SimpleName MethodInvocation SimpleName get instance id
+prepare new table state SimpleName MethodInvocation MethodInvocation SimpleName instance
+prepare new table state SimpleName MethodInvocation MethodInvocation SimpleName get instance id
+prepare new table state SimpleName MethodInvocation SimpleName table id
+prepare new table state SimpleName MethodInvocation SimpleName table name
+prepare new table state SimpleName MethodInvocation QualifiedName table statenew
+prepare new table state SimpleName MethodInvocation SimpleName exists policy
+instance SimpleName MethodInvocation MethodInvocation SimpleName table id
+get instance id SimpleName MethodInvocation MethodInvocation SimpleName table id
+instance SimpleName MethodInvocation MethodInvocation SimpleName table name
+get instance id SimpleName MethodInvocation MethodInvocation SimpleName table name
+instance SimpleName MethodInvocation MethodInvocation QualifiedName table statenew
+get instance id SimpleName MethodInvocation MethodInvocation QualifiedName table statenew
+instance SimpleName MethodInvocation MethodInvocation SimpleName exists policy
+get instance id SimpleName MethodInvocation MethodInvocation SimpleName exists policy
+table id SimpleName MethodInvocation SimpleName table name
+table id SimpleName MethodInvocation QualifiedName table statenew
+table id SimpleName MethodInvocation SimpleName exists policy
+table name SimpleName MethodInvocation QualifiedName table statenew
+table name SimpleName MethodInvocation SimpleName exists policy
+table statenew QualifiedName MethodInvocation SimpleName exists policy
+instance SimpleName MethodInvocation SimpleName get instance id
+constantszroot QualifiedName InfixExpression StringLiteral /
+constantszroot QualifiedName InfixExpression MethodInvocation SimpleName instance
+constantszroot QualifiedName InfixExpression MethodInvocation SimpleName get instance id
+constantszroot QualifiedName InfixExpression QualifiedName constantsztables
+constantszroot QualifiedName InfixExpression StringLiteral /
+constantszroot QualifiedName InfixExpression SimpleName src table
+/ StringLiteral InfixExpression MethodInvocation SimpleName instance
+/ StringLiteral InfixExpression MethodInvocation SimpleName get instance id
+/ StringLiteral InfixExpression QualifiedName constantsztables
+/ StringLiteral InfixExpression StringLiteral /
+/ StringLiteral InfixExpression SimpleName src table
+/ StringLiteral InfixExpression QualifiedName constantsztable conf
+instance SimpleName MethodInvocation InfixExpression QualifiedName constantsztables
+get instance id SimpleName MethodInvocation InfixExpression QualifiedName constantsztables
+instance SimpleName MethodInvocation InfixExpression StringLiteral /
+get instance id SimpleName MethodInvocation InfixExpression StringLiteral /
+instance SimpleName MethodInvocation InfixExpression SimpleName src table
+get instance id SimpleName MethodInvocation InfixExpression SimpleName src table
+instance SimpleName MethodInvocation InfixExpression QualifiedName constantsztable conf
+get instance id SimpleName MethodInvocation InfixExpression QualifiedName constantsztable conf
+constantsztables QualifiedName InfixExpression StringLiteral /
+constantsztables QualifiedName InfixExpression SimpleName src table
+constantsztables QualifiedName InfixExpression QualifiedName constantsztable conf
+/ StringLiteral InfixExpression SimpleName src table
+/ StringLiteral InfixExpression QualifiedName constantsztable conf
+src table SimpleName InfixExpression QualifiedName constantsztable conf
+src table path SimpleName VariableDeclarationFragment InfixExpression QualifiedName constantszroot
+src table path SimpleName VariableDeclarationFragment InfixExpression StringLiteral /
+src table path SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName instance
+src table path SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName get instance id
+src table path SimpleName VariableDeclarationFragment InfixExpression QualifiedName constantsztables
+src table path SimpleName VariableDeclarationFragment InfixExpression StringLiteral /
+src table path SimpleName VariableDeclarationFragment InfixExpression SimpleName src table
+src table path SimpleName VariableDeclarationFragment InfixExpression QualifiedName constantsztable conf
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName src table path
+instance SimpleName MethodInvocation SimpleName get instance id
+constantszroot QualifiedName InfixExpression StringLiteral /
+constantszroot QualifiedName InfixExpression MethodInvocation SimpleName instance
+constantszroot QualifiedName InfixExpression MethodInvocation SimpleName get instance id
+constantszroot QualifiedName InfixExpression QualifiedName constantsztables
+constantszroot QualifiedName InfixExpression StringLiteral /
+constantszroot QualifiedName InfixExpression SimpleName table id
+/ StringLiteral InfixExpression MethodInvocation SimpleName instance
+/ StringLiteral InfixExpression MethodInvocation SimpleName get instance id
+/ StringLiteral InfixExpression QualifiedName constantsztables
+/ StringLiteral InfixExpression StringLiteral /
+/ StringLiteral InfixExpression SimpleName table id
+/ StringLiteral InfixExpression QualifiedName constantsztable conf
+instance SimpleName MethodInvocation InfixExpression QualifiedName constantsztables
+get instance id SimpleName MethodInvocation InfixExpression QualifiedName constantsztables
+instance SimpleName MethodInvocation InfixExpression StringLiteral /
+get instance id SimpleName MethodInvocation InfixExpression StringLiteral /
+instance SimpleName MethodInvocation InfixExpression SimpleName table id
+get instance id SimpleName MethodInvocation InfixExpression SimpleName table id
+instance SimpleName MethodInvocation InfixExpression QualifiedName constantsztable conf
+get instance id SimpleName MethodInvocation InfixExpression QualifiedName constantsztable conf
+constantsztables QualifiedName InfixExpression StringLiteral /
+constantsztables QualifiedName InfixExpression SimpleName table id
+constantsztables QualifiedName InfixExpression QualifiedName constantsztable conf
+/ StringLiteral InfixExpression SimpleName table id
+/ StringLiteral InfixExpression QualifiedName constantsztable conf
+table id SimpleName InfixExpression QualifiedName constantsztable conf
+new table path SimpleName VariableDeclarationFragment InfixExpression QualifiedName constantszroot
+new table path SimpleName VariableDeclarationFragment InfixExpression StringLiteral /
+new table path SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName instance
+new table path SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName get instance id
+new table path SimpleName VariableDeclarationFragment InfixExpression QualifiedName constantsztables
+new table path SimpleName VariableDeclarationFragment InfixExpression StringLiteral /
+new table path SimpleName VariableDeclarationFragment InfixExpression SimpleName table id
+new table path SimpleName VariableDeclarationFragment InfixExpression QualifiedName constantsztable conf
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName new table path
+zoo reader writer SimpleName MethodInvocation SimpleName get retrying instance
+zoo reader writer SimpleName MethodInvocation MethodInvocation SimpleName recursive copy persistent
+get retrying instance SimpleName MethodInvocation MethodInvocation SimpleName recursive copy persistent
+zoo reader writer SimpleName MethodInvocation MethodInvocation SimpleName src table path
+get retrying instance SimpleName MethodInvocation MethodInvocation SimpleName src table path
+zoo reader writer SimpleName MethodInvocation MethodInvocation SimpleName new table path
+get retrying instance SimpleName MethodInvocation MethodInvocation SimpleName new table path
+zoo reader writer SimpleName MethodInvocation MethodInvocation QualifiedName node exists policyoverwrite
+get retrying instance SimpleName MethodInvocation MethodInvocation QualifiedName node exists policyoverwrite
+recursive copy persistent SimpleName MethodInvocation SimpleName src table path
+recursive copy persistent SimpleName MethodInvocation SimpleName new table path
+recursive copy persistent SimpleName MethodInvocation QualifiedName node exists policyoverwrite
+src table path SimpleName MethodInvocation SimpleName new table path
+src table path SimpleName MethodInvocation QualifiedName node exists policyoverwrite
+new table path SimpleName MethodInvocation QualifiedName node exists policyoverwrite
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+entry SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+properties to set SimpleName MethodInvocation SimpleName entry set
+entry SimpleName MethodInvocation SimpleName get key
+entry SimpleName MethodInvocation SimpleName get value
+table prop util SimpleName MethodInvocation SimpleName set table property
+table prop util SimpleName MethodInvocation SimpleName table id
+table prop util SimpleName MethodInvocation MethodInvocation SimpleName entry
+table prop util SimpleName MethodInvocation MethodInvocation SimpleName get key
+table prop util SimpleName MethodInvocation MethodInvocation SimpleName entry
+table prop util SimpleName MethodInvocation MethodInvocation SimpleName get value
+set table property SimpleName MethodInvocation SimpleName table id
+set table property SimpleName MethodInvocation MethodInvocation SimpleName entry
+set table property SimpleName MethodInvocation MethodInvocation SimpleName get key
+set table property SimpleName MethodInvocation MethodInvocation SimpleName entry
+set table property SimpleName MethodInvocation MethodInvocation SimpleName get value
+table id SimpleName MethodInvocation MethodInvocation SimpleName entry
+table id SimpleName MethodInvocation MethodInvocation SimpleName get key
+table id SimpleName MethodInvocation MethodInvocation SimpleName entry
+table id SimpleName MethodInvocation MethodInvocation SimpleName get value
+entry SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName entry
+entry SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get value
+get key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName entry
+get key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get value
+entry SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName properties to set
+entry SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName entry set
+string SimpleName SimpleType SingleVariableDeclaration SimpleName prop
+zoo reader writer SimpleName MethodInvocation SimpleName get retrying instance
+instance SimpleName MethodInvocation SimpleName get instance id
+constantszroot QualifiedName InfixExpression StringLiteral /
+constantszroot QualifiedName InfixExpression MethodInvocation SimpleName instance
+constantszroot QualifiedName InfixExpression MethodInvocation SimpleName get instance id
+constantszroot QualifiedName InfixExpression QualifiedName constantsztables
+constantszroot QualifiedName InfixExpression StringLiteral /
+constantszroot QualifiedName InfixExpression SimpleName table id
+/ StringLiteral InfixExpression MethodInvocation SimpleName instance
+/ StringLiteral InfixExpression MethodInvocation SimpleName get instance id
+/ StringLiteral InfixExpression QualifiedName constantsztables
+/ StringLiteral InfixExpression StringLiteral /
+/ StringLiteral InfixExpression SimpleName table id
+/ StringLiteral InfixExpression QualifiedName constantsztable conf
+instance SimpleName MethodInvocation InfixExpression QualifiedName constantsztables
+get instance id SimpleName MethodInvocation InfixExpression QualifiedName constantsztables
+instance SimpleName MethodInvocation InfixExpression StringLiteral /
+get instance id SimpleName MethodInvocation InfixExpression StringLiteral /
+instance SimpleName MethodInvocation InfixExpression SimpleName table id
+get instance id SimpleName MethodInvocation InfixExpression SimpleName table id
+instance SimpleName MethodInvocation InfixExpression QualifiedName constantsztable conf
+get instance id SimpleName MethodInvocation InfixExpression QualifiedName constantsztable conf
+instance SimpleName MethodInvocation InfixExpression StringLiteral /
+get instance id SimpleName MethodInvocation InfixExpression StringLiteral /
+constantsztables QualifiedName InfixExpression StringLiteral /
+constantsztables QualifiedName InfixExpression SimpleName table id
+constantsztables QualifiedName InfixExpression QualifiedName constantsztable conf
+constantsztables QualifiedName InfixExpression StringLiteral /
+constantsztables QualifiedName InfixExpression SimpleName prop
+/ StringLiteral InfixExpression SimpleName table id
+/ StringLiteral InfixExpression QualifiedName constantsztable conf
+/ StringLiteral InfixExpression StringLiteral /
+/ StringLiteral InfixExpression SimpleName prop
+table id SimpleName InfixExpression QualifiedName constantsztable conf
+table id SimpleName InfixExpression StringLiteral /
+table id SimpleName InfixExpression SimpleName prop
+constantsztable conf QualifiedName InfixExpression StringLiteral /
+constantsztable conf QualifiedName InfixExpression SimpleName prop
+/ StringLiteral InfixExpression SimpleName prop
+zoo reader writer SimpleName MethodInvocation MethodInvocation SimpleName recursive delete
+get retrying instance SimpleName MethodInvocation MethodInvocation SimpleName recursive delete
+zoo reader writer SimpleName MethodInvocation MethodInvocation InfixExpression QualifiedName constantszroot
+zoo reader writer SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral /
+zoo reader writer SimpleName MethodInvocation MethodInvocation InfixExpression QualifiedName constantsztables
+zoo reader writer SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral /
+zoo reader writer SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName table id
+zoo reader writer SimpleName MethodInvocation MethodInvocation InfixExpression QualifiedName constantsztable conf
+zoo reader writer SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral /
+zoo reader writer SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName prop
+get retrying instance SimpleName MethodInvocation MethodInvocation InfixExpression QualifiedName constantszroot
+get retrying instance SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral /
+get retrying instance SimpleName MethodInvocation MethodInvocation InfixExpression QualifiedName constantsztables
+get retrying instance SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral /
+get retrying instance SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName table id
+get retrying instance SimpleName MethodInvocation MethodInvocation InfixExpression QualifiedName constantsztable conf
+get retrying instance SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral /
+get retrying instance SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName prop
+zoo reader writer SimpleName MethodInvocation MethodInvocation QualifiedName node missing policyskip
+get retrying instance SimpleName MethodInvocation MethodInvocation QualifiedName node missing policyskip
+recursive delete SimpleName MethodInvocation InfixExpression QualifiedName constantszroot
+recursive delete SimpleName MethodInvocation InfixExpression StringLiteral /
+recursive delete SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName instance
+recursive delete SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get instance id
+recursive delete SimpleName MethodInvocation InfixExpression QualifiedName constantsztables
+recursive delete SimpleName MethodInvocation InfixExpression StringLiteral /
+recursive delete SimpleName MethodInvocation InfixExpression SimpleName table id
+recursive delete SimpleName MethodInvocation InfixExpression QualifiedName constantsztable conf
+recursive delete SimpleName MethodInvocation InfixExpression StringLiteral /
+recursive delete SimpleName MethodInvocation InfixExpression SimpleName prop
+recursive delete SimpleName MethodInvocation QualifiedName node missing policyskip
+constantszroot QualifiedName InfixExpression MethodInvocation QualifiedName node missing policyskip
+/ StringLiteral InfixExpression MethodInvocation QualifiedName node missing policyskip
+instance SimpleName MethodInvocation InfixExpression MethodInvocation QualifiedName node missing policyskip
+get instance id SimpleName MethodInvocation InfixExpression MethodInvocation QualifiedName node missing policyskip
+constantsztables QualifiedName InfixExpression MethodInvocation QualifiedName node missing policyskip
+/ StringLiteral InfixExpression MethodInvocation QualifiedName node missing policyskip
+table id SimpleName InfixExpression MethodInvocation QualifiedName node missing policyskip
+constantsztable conf QualifiedName InfixExpression MethodInvocation QualifiedName node missing policyskip
+/ StringLiteral InfixExpression MethodInvocation QualifiedName node missing policyskip
+prop SimpleName InfixExpression MethodInvocation QualifiedName node missing policyskip
+string SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName properties to exclude
+prop SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName properties to exclude
+properties to exclude SimpleName EnhancedForStatement ExpressionStatement MethodInvocation SimpleName recursive delete
+properties to exclude SimpleName EnhancedForStatement ExpressionStatement MethodInvocation QualifiedName node missing policyskip
+update table state cache SimpleName MethodInvocation SimpleName table id
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName clone table
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName src table
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName table id
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName table name
+void PrimitiveType MethodDeclaration SimpleName clone table
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName src table
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName table id
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName table name
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName properties to set
+clone table SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+clone table SimpleName MethodDeclaration SingleVariableDeclaration SimpleName src table
+clone table SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+clone table SimpleName MethodDeclaration SingleVariableDeclaration SimpleName table id
+clone table SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+clone table SimpleName MethodDeclaration SingleVariableDeclaration SimpleName table name
+clone table SimpleName MethodDeclaration SingleVariableDeclaration SimpleName properties to set
+clone table SimpleName MethodDeclaration SingleVariableDeclaration SimpleName properties to exclude
+src table SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table id
+src table SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table name
+src table SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName properties to set
+src table SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName properties to exclude
+src table SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName exists policy
+table id SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table name
+table id SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName properties to set
+table id SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName properties to exclude
+table id SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName exists policy
+table id SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName keeper exception
+table name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName properties to set
+table name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName properties to exclude
+table name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName exists policy
+table name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName keeper exception
+table name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName interrupted exception
+properties to set SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName properties to exclude
+properties to set SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName exists policy
+properties to set SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName keeper exception
+properties to set SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName interrupted exception
+properties to exclude SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName exists policy
+properties to exclude SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName keeper exception
+properties to exclude SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName interrupted exception
+exists policy SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName keeper exception
+exists policy SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName interrupted exception
+keeper exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName interrupted exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName clone table
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName src table
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table id
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName properties to set
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName properties to exclude
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName exists policy
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName keeper exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName interrupted exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName clone table
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName src table
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table id
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName properties to set
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName properties to exclude
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName exists policy
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName keeper exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName interrupted exception

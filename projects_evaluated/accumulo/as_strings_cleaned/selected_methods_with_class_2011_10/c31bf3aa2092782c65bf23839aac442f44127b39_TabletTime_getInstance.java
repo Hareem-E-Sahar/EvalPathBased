@@ -1,0 +1,57 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName metadata value
+metadata value SimpleName MethodInvocation SimpleName char at
+metadata value SimpleName MethodInvocation NumberLiteral empty
+char at SimpleName MethodInvocation NumberLiteral empty
+metadata value SimpleName MethodInvocation InfixExpression SimpleName logical time id
+char at SimpleName MethodInvocation InfixExpression SimpleName logical time id
+empty NumberLiteral MethodInvocation InfixExpression SimpleName logical time id
+metadata value SimpleName MethodInvocation SimpleName substring
+metadata value SimpleName MethodInvocation NumberLiteral empty
+substring SimpleName MethodInvocation NumberLiteral empty
+long SimpleName MethodInvocation SimpleName parse long
+long SimpleName MethodInvocation MethodInvocation SimpleName metadata value
+long SimpleName MethodInvocation MethodInvocation SimpleName substring
+long SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+parse long SimpleName MethodInvocation MethodInvocation SimpleName metadata value
+parse long SimpleName MethodInvocation MethodInvocation SimpleName substring
+parse long SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+logical time SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName long
+logical time SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName parse long
+metadata value SimpleName MethodInvocation SimpleName char at
+metadata value SimpleName MethodInvocation NumberLiteral empty
+char at SimpleName MethodInvocation NumberLiteral empty
+metadata value SimpleName MethodInvocation InfixExpression SimpleName millis time id
+char at SimpleName MethodInvocation InfixExpression SimpleName millis time id
+empty NumberLiteral MethodInvocation InfixExpression SimpleName millis time id
+metadata value SimpleName MethodInvocation SimpleName substring
+metadata value SimpleName MethodInvocation NumberLiteral empty
+substring SimpleName MethodInvocation NumberLiteral empty
+long SimpleName MethodInvocation SimpleName parse long
+long SimpleName MethodInvocation MethodInvocation SimpleName metadata value
+long SimpleName MethodInvocation MethodInvocation SimpleName substring
+long SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+parse long SimpleName MethodInvocation MethodInvocation SimpleName metadata value
+parse long SimpleName MethodInvocation MethodInvocation SimpleName substring
+parse long SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+millis time SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName long
+millis time SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName parse long
+time type unknown : StringLiteral InfixExpression SimpleName metadata value
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral time type unknown :
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName metadata value
+static Modifier MethodDeclaration SimpleType SimpleName tablet time
+static Modifier MethodDeclaration SimpleName get instance
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName metadata value
+tablet time SimpleName SimpleType MethodDeclaration SimpleName get instance
+tablet time SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName metadata value
+get instance SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get instance SimpleName MethodDeclaration SingleVariableDeclaration SimpleName metadata value
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName tablet time
+public Modifier TypeDeclaration MethodDeclaration SimpleName get instance
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName metadata value
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName tablet time
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get instance
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName metadata value

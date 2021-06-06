@@ -1,0 +1,79 @@
+string builder SimpleName SimpleType SingleVariableDeclaration SimpleName sb
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation StringLiteral table
+append SimpleName MethodInvocation StringLiteral table
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation StringLiteral trth colspan zookeeperthtr
+append SimpleName MethodInvocation StringLiteral trth colspan zookeeperthtr
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation StringLiteral trthserverththmodeththclientsthtr
+append SimpleName MethodInvocation StringLiteral trthserverththmodeththclientsthtr
+highlight SimpleName VariableDeclarationFragment BooleanLiteral false
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName highlight
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment BooleanLiteral false
+zoo keeper state SimpleName SimpleType SingleVariableDeclaration SimpleName k
+zoo keeper status SimpleName MethodInvocation SimpleName get zoo keeper status
+kclients QualifiedName InfixExpression NumberLiteral empty
+highlight SimpleName Assignment PrefixExpression SimpleName highlight
+table row SimpleName MethodInvocation SimpleName sb
+table row SimpleName MethodInvocation ParenthesizedExpression Assignment SimpleName highlight
+table row SimpleName MethodInvocation QualifiedName kkeeper
+table row SimpleName MethodInvocation QualifiedName kmode
+table row SimpleName MethodInvocation QualifiedName kclients
+sb SimpleName MethodInvocation ParenthesizedExpression Assignment SimpleName highlight
+sb SimpleName MethodInvocation QualifiedName kkeeper
+sb SimpleName MethodInvocation QualifiedName kmode
+sb SimpleName MethodInvocation QualifiedName kclients
+highlight SimpleName Assignment ParenthesizedExpression MethodInvocation QualifiedName kkeeper
+highlight SimpleName Assignment ParenthesizedExpression MethodInvocation QualifiedName kmode
+highlight SimpleName Assignment ParenthesizedExpression MethodInvocation QualifiedName kclients
+kkeeper QualifiedName MethodInvocation QualifiedName kmode
+kkeeper QualifiedName MethodInvocation QualifiedName kclients
+kmode QualifiedName MethodInvocation QualifiedName kclients
+table row SimpleName MethodInvocation SimpleName sb
+table row SimpleName MethodInvocation BooleanLiteral false
+table row SimpleName MethodInvocation QualifiedName kkeeper
+table row SimpleName MethodInvocation StringLiteral span classerrordownspan
+table row SimpleName MethodInvocation StringLiteral empty
+sb SimpleName MethodInvocation BooleanLiteral false
+sb SimpleName MethodInvocation QualifiedName kkeeper
+sb SimpleName MethodInvocation StringLiteral span classerrordownspan
+sb SimpleName MethodInvocation StringLiteral empty
+false BooleanLiteral MethodInvocation QualifiedName kkeeper
+false BooleanLiteral MethodInvocation StringLiteral span classerrordownspan
+false BooleanLiteral MethodInvocation StringLiteral empty
+kkeeper QualifiedName MethodInvocation StringLiteral span classerrordownspan
+kkeeper QualifiedName MethodInvocation StringLiteral empty
+span classerrordownspan StringLiteral MethodInvocation StringLiteral empty
+k SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName zoo keeper status
+k SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName get zoo keeper status
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation StringLiteral table
+append SimpleName MethodInvocation StringLiteral table
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName do zoo keeper table
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string builder
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName sb
+private Modifier MethodDeclaration SimpleType SimpleName io exception
+private Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+void PrimitiveType MethodDeclaration SimpleName do zoo keeper table
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string builder
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName sb
+void PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+do zoo keeper table SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string builder
+do zoo keeper table SimpleName MethodDeclaration SingleVariableDeclaration SimpleName sb
+do zoo keeper table SimpleName MethodDeclaration SimpleType SimpleName io exception
+do zoo keeper table SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+sb SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName do zoo keeper table
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName sb
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName do zoo keeper table
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName sb
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

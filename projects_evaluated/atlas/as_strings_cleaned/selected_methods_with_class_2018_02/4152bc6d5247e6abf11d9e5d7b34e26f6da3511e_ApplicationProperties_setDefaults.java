@@ -1,0 +1,10 @@
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName set defaults
+void PrimitiveType MethodDeclaration SimpleName set defaults
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set defaults
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set defaults

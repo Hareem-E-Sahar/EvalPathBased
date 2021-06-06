@@ -1,0 +1,12 @@
+public Modifier MethodDeclaration SimpleType SimpleName tinker graph
+public Modifier MethodDeclaration SimpleName get graph
+public Modifier MethodDeclaration Block ReturnStatement SimpleName tg
+tinker graph SimpleName SimpleType MethodDeclaration SimpleName get graph
+get graph SimpleName MethodDeclaration Block ReturnStatement SimpleName tg
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName tinker graph
+public Modifier TypeDeclaration MethodDeclaration SimpleName get graph
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName tinker graph
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get graph

@@ -1,0 +1,75 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName type name
+attribute info SimpleName SimpleType SingleVariableDeclaration SimpleName attribute
+type vertices SimpleName MethodInvocation SimpleName get
+type vertices SimpleName MethodInvocation SimpleName type name
+get SimpleName MethodInvocation SimpleName type name
+vertex SimpleName VariableDeclarationFragment MethodInvocation SimpleName type vertices
+vertex SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+vertex SimpleName VariableDeclarationFragment MethodInvocation SimpleName type name
+atlas vertex SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName vertex
+graph backed type store SimpleName MethodInvocation SimpleName get property key
+graph backed type store SimpleName MethodInvocation SimpleName type name
+graph backed type store SimpleName MethodInvocation QualifiedName attributename
+get property key SimpleName MethodInvocation SimpleName type name
+get property key SimpleName MethodInvocation QualifiedName attributename
+type name SimpleName MethodInvocation QualifiedName attributename
+property key SimpleName VariableDeclarationFragment MethodInvocation SimpleName graph backed type store
+property key SimpleName VariableDeclarationFragment MethodInvocation SimpleName get property key
+property key SimpleName VariableDeclarationFragment MethodInvocation SimpleName type name
+property key SimpleName VariableDeclarationFragment MethodInvocation QualifiedName attributename
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName property key
+attribute SimpleName MethodInvocation SimpleName to json
+set property SimpleName MethodInvocation SimpleName vertex
+set property SimpleName MethodInvocation SimpleName property key
+set property SimpleName MethodInvocation MethodInvocation SimpleName attribute
+set property SimpleName MethodInvocation MethodInvocation SimpleName to json
+vertex SimpleName MethodInvocation SimpleName property key
+vertex SimpleName MethodInvocation MethodInvocation SimpleName attribute
+vertex SimpleName MethodInvocation MethodInvocation SimpleName to json
+property key SimpleName MethodInvocation MethodInvocation SimpleName attribute
+property key SimpleName MethodInvocation MethodInvocation SimpleName to json
+json exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+storage exception SimpleName SimpleType ClassInstanceCreation SimpleName type name
+storage exception SimpleName SimpleType ClassInstanceCreation SimpleName e
+type name SimpleName ClassInstanceCreation SimpleName e
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName visit attribute
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName type name
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName attribute
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName visit attribute
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName type name
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName attribute info
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName attribute
+public Modifier MethodDeclaration SimpleType SimpleName atlas exception
+void PrimitiveType MethodDeclaration SimpleName visit attribute
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName type name
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName attribute info
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName attribute
+void PrimitiveType MethodDeclaration SimpleType SimpleName atlas exception
+visit attribute SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+visit attribute SimpleName MethodDeclaration SingleVariableDeclaration SimpleName type name
+visit attribute SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName attribute info
+visit attribute SimpleName MethodDeclaration SingleVariableDeclaration SimpleName attribute
+visit attribute SimpleName MethodDeclaration SimpleType SimpleName atlas exception
+type name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attribute
+type name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+attribute SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName visit attribute
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attribute
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName visit attribute
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attribute
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception

@@ -1,0 +1,47 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName address
+address SimpleName InfixExpression IfStatement ReturnStatement StringLiteral unknown
+address util SimpleName MethodInvocation SimpleName parse address
+address util SimpleName MethodInvocation SimpleName address
+address util SimpleName MethodInvocation NumberLiteral empty
+parse address SimpleName MethodInvocation SimpleName address
+parse address SimpleName MethodInvocation NumberLiteral empty
+address SimpleName MethodInvocation NumberLiteral empty
+inet address SimpleName VariableDeclarationFragment MethodInvocation SimpleName address util
+inet address SimpleName VariableDeclarationFragment MethodInvocation SimpleName parse address
+inet address SimpleName VariableDeclarationFragment MethodInvocation SimpleName address
+inet address SimpleName VariableDeclarationFragment MethodInvocation NumberLiteral empty
+inet socket address SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName inet address
+inet address SimpleName MethodInvocation SimpleName get host name
+inet address SimpleName MethodInvocation SimpleName get port
+inet address SimpleName MethodInvocation InfixExpression StringLiteral :
+get host name SimpleName MethodInvocation InfixExpression StringLiteral :
+inet address SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName inet address
+inet address SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get port
+get host name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName inet address
+get host name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get port
+: StringLiteral InfixExpression MethodInvocation SimpleName inet address
+: StringLiteral InfixExpression MethodInvocation SimpleName get port
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName display name
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName address
+static Modifier MethodDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SimpleName display name
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName address
+string SimpleName SimpleType MethodDeclaration SimpleName display name
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName address
+display name SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+display name SimpleName MethodDeclaration SingleVariableDeclaration SimpleName address
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName display name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName address
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName display name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName address

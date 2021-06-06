@@ -1,0 +1,148 @@
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName name guid map
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName name guid map
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName name guid map
+name guid map SimpleName MethodInvocation SimpleName get
+name guid map SimpleName MethodInvocation StringLiteral hr
+get SimpleName MethodInvocation StringLiteral hr
+repository service SimpleName MethodInvocation SimpleName get entity definition
+repository service SimpleName MethodInvocation MethodInvocation SimpleName name guid map
+repository service SimpleName MethodInvocation MethodInvocation SimpleName get
+repository service SimpleName MethodInvocation MethodInvocation StringLiteral hr
+get entity definition SimpleName MethodInvocation MethodInvocation SimpleName name guid map
+get entity definition SimpleName MethodInvocation MethodInvocation SimpleName get
+get entity definition SimpleName MethodInvocation MethodInvocation StringLiteral hr
+hr dept SimpleName VariableDeclarationFragment MethodInvocation SimpleName repository service
+hr dept SimpleName VariableDeclarationFragment MethodInvocation SimpleName get entity definition
+hr dept SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName name guid map
+hr dept SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get
+hr dept SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation StringLiteral hr
+i typed referenceable instance SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName hr dept
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName i typed referenceable instance
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName i typed referenceable instance
+hr dept SimpleName MethodInvocation SimpleName get
+hr dept SimpleName MethodInvocation StringLiteral employees
+get SimpleName MethodInvocation StringLiteral employees
+employees SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName hr dept
+employees SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get
+employees SimpleName VariableDeclarationFragment CastExpression MethodInvocation StringLiteral employees
+employees SimpleName MethodInvocation SimpleName size
+assert SimpleName MethodInvocation SimpleName assert equals
+assert SimpleName MethodInvocation MethodInvocation SimpleName employees
+assert SimpleName MethodInvocation MethodInvocation SimpleName size
+assert SimpleName MethodInvocation NumberLiteral empty
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName employees
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName size
+assert equals SimpleName MethodInvocation NumberLiteral empty
+employees SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+size SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+name guid map SimpleName MethodInvocation SimpleName get
+name guid map SimpleName MethodInvocation StringLiteral max
+get SimpleName MethodInvocation StringLiteral max
+max guid SimpleName VariableDeclarationFragment MethodInvocation SimpleName name guid map
+max guid SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+max guid SimpleName VariableDeclarationFragment MethodInvocation StringLiteral max
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName max guid
+i typed referenceable instance SimpleName SimpleType SingleVariableDeclaration SimpleName employee
+employee SimpleName MethodInvocation SimpleName get id
+employee SimpleName MethodInvocation MethodInvocation SimpleName get id
+get id SimpleName MethodInvocation MethodInvocation SimpleName get id
+assert SimpleName MethodInvocation SimpleName assert not equals
+assert SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName employee
+assert SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get id
+assert SimpleName MethodInvocation MethodInvocation SimpleName get id
+assert SimpleName MethodInvocation SimpleName max guid
+assert not equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName employee
+assert not equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get id
+assert not equals SimpleName MethodInvocation MethodInvocation SimpleName get id
+assert not equals SimpleName MethodInvocation SimpleName max guid
+employee SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName max guid
+get id SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName max guid
+get id SimpleName MethodInvocation MethodInvocation SimpleName max guid
+i typed referenceable instance SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName employees
+employee SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName employees
+name guid map SimpleName MethodInvocation SimpleName get
+name guid map SimpleName MethodInvocation StringLiteral jane
+get SimpleName MethodInvocation StringLiteral jane
+repository service SimpleName MethodInvocation SimpleName get entity definition
+repository service SimpleName MethodInvocation MethodInvocation SimpleName name guid map
+repository service SimpleName MethodInvocation MethodInvocation SimpleName get
+repository service SimpleName MethodInvocation MethodInvocation StringLiteral jane
+get entity definition SimpleName MethodInvocation MethodInvocation SimpleName name guid map
+get entity definition SimpleName MethodInvocation MethodInvocation SimpleName get
+get entity definition SimpleName MethodInvocation MethodInvocation StringLiteral jane
+jane SimpleName VariableDeclarationFragment MethodInvocation SimpleName repository service
+jane SimpleName VariableDeclarationFragment MethodInvocation SimpleName get entity definition
+jane SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName name guid map
+jane SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get
+jane SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation StringLiteral jane
+i typed referenceable instance SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName jane
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName i typed referenceable instance
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName i typed referenceable instance
+jane SimpleName MethodInvocation SimpleName get
+jane SimpleName MethodInvocation StringLiteral subordinates
+get SimpleName MethodInvocation StringLiteral subordinates
+subordinates SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName jane
+subordinates SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get
+subordinates SimpleName VariableDeclarationFragment CastExpression MethodInvocation StringLiteral subordinates
+subordinates SimpleName MethodInvocation SimpleName size
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName subordinates
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName size
+assert equals SimpleName MethodInvocation NumberLiteral empty
+subordinates SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+size SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+name guid map SimpleName MethodInvocation SimpleName get
+name guid map SimpleName MethodInvocation StringLiteral john
+get SimpleName MethodInvocation StringLiteral john
+repository service SimpleName MethodInvocation SimpleName get entity definition
+repository service SimpleName MethodInvocation MethodInvocation SimpleName name guid map
+repository service SimpleName MethodInvocation MethodInvocation SimpleName get
+repository service SimpleName MethodInvocation MethodInvocation StringLiteral john
+get entity definition SimpleName MethodInvocation MethodInvocation SimpleName name guid map
+get entity definition SimpleName MethodInvocation MethodInvocation SimpleName get
+get entity definition SimpleName MethodInvocation MethodInvocation StringLiteral john
+john SimpleName VariableDeclarationFragment MethodInvocation SimpleName repository service
+john SimpleName VariableDeclarationFragment MethodInvocation SimpleName get entity definition
+john SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName name guid map
+john SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get
+john SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation StringLiteral john
+i typed referenceable instance SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName john
+john SimpleName MethodInvocation SimpleName get
+john SimpleName MethodInvocation StringLiteral mentor
+get SimpleName MethodInvocation StringLiteral mentor
+assert null SimpleName MethodInvocation MethodInvocation SimpleName john
+assert null SimpleName MethodInvocation MethodInvocation SimpleName get
+assert null SimpleName MethodInvocation MethodInvocation StringLiteral mentor
+override SimpleName MarkerAnnotation MethodDeclaration Modifier protected
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName assert max for test disconnect bidirectional references
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName name guid map
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName assert max for test disconnect bidirectional references
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName name guid map
+protected Modifier MethodDeclaration SimpleType SimpleName exception
+protected Modifier MethodDeclaration Block EnhancedForStatement SimpleName employees
+void PrimitiveType MethodDeclaration SimpleName assert max for test disconnect bidirectional references
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName name guid map
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration Block EnhancedForStatement SimpleName employees
+assert max for test disconnect bidirectional references SimpleName MethodDeclaration SingleVariableDeclaration SimpleName name guid map
+assert max for test disconnect bidirectional references SimpleName MethodDeclaration SimpleType SimpleName exception
+assert max for test disconnect bidirectional references SimpleName MethodDeclaration Block EnhancedForStatement SimpleName employees
+name guid map SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName assert max for test disconnect bidirectional references
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name guid map
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName assert max for test disconnect bidirectional references
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name guid map
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

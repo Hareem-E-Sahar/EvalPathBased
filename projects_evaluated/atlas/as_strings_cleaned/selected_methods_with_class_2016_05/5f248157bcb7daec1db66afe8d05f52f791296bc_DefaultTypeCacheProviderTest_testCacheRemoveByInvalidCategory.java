@@ -1,0 +1,37 @@
+expected exceptions SimpleName MemberValuePair TypeLiteral SimpleType SimpleName atlas exception
+test SimpleName NormalAnnotation MemberValuePair SimpleName expected exceptions
+data typesboolean type QualifiedName MethodInvocation SimpleName get name
+cache provider SimpleName MethodInvocation SimpleName remove
+cache provider SimpleName MethodInvocation QualifiedName type categoryprimitive
+cache provider SimpleName MethodInvocation MethodInvocation QualifiedName data typesboolean type
+cache provider SimpleName MethodInvocation MethodInvocation SimpleName get name
+remove SimpleName MethodInvocation QualifiedName type categoryprimitive
+remove SimpleName MethodInvocation MethodInvocation QualifiedName data typesboolean type
+remove SimpleName MethodInvocation MethodInvocation SimpleName get name
+type categoryprimitive QualifiedName MethodInvocation MethodInvocation QualifiedName data typesboolean type
+type categoryprimitive QualifiedName MethodInvocation MethodInvocation SimpleName get name
+fail SimpleName MethodInvocation StringLiteral type category should only be one of type categoryclass enum struct trait in remove
+test SimpleName NormalAnnotation MethodDeclaration Modifier public
+expected exceptions SimpleName MemberValuePair NormalAnnotation MethodDeclaration Modifier public
+test SimpleName NormalAnnotation MethodDeclaration PrimitiveType void
+expected exceptions SimpleName MemberValuePair NormalAnnotation MethodDeclaration PrimitiveType void
+test SimpleName NormalAnnotation MethodDeclaration SimpleName test cache remove by invalid category
+expected exceptions SimpleName MemberValuePair NormalAnnotation MethodDeclaration SimpleName test cache remove by invalid category
+test SimpleName NormalAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test cache remove by invalid category
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName test cache remove by invalid category
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+test cache remove by invalid category SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration NormalAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test cache remove by invalid category
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration NormalAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test cache remove by invalid category
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

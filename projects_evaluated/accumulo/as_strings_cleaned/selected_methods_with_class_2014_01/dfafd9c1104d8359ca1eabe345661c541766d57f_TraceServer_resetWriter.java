@@ -1,0 +1,89 @@
+batch writer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName writer
+l NumberLiteral InfixExpression NumberLiteral empty
+l NumberLiteral InfixExpression NumberLiteral empty
+empty NumberLiteral InfixExpression NumberLiteral empty
+empty NumberLiteral InfixExpression NumberLiteral l
+connector SimpleName MethodInvocation SimpleName create batch writer
+connector SimpleName MethodInvocation SimpleName table
+connector SimpleName MethodInvocation InfixExpression NumberLiteral l
+connector SimpleName MethodInvocation InfixExpression NumberLiteral empty
+connector SimpleName MethodInvocation InfixExpression NumberLiteral empty
+connector SimpleName MethodInvocation InfixExpression NumberLiteral empty
+connector SimpleName MethodInvocation InfixExpression NumberLiteral l
+connector SimpleName MethodInvocation NumberLiteral empty
+create batch writer SimpleName MethodInvocation SimpleName table
+create batch writer SimpleName MethodInvocation InfixExpression NumberLiteral l
+create batch writer SimpleName MethodInvocation InfixExpression NumberLiteral empty
+create batch writer SimpleName MethodInvocation InfixExpression NumberLiteral empty
+create batch writer SimpleName MethodInvocation InfixExpression NumberLiteral empty
+create batch writer SimpleName MethodInvocation InfixExpression NumberLiteral l
+create batch writer SimpleName MethodInvocation NumberLiteral empty
+table SimpleName MethodInvocation InfixExpression NumberLiteral l
+table SimpleName MethodInvocation InfixExpression NumberLiteral empty
+table SimpleName MethodInvocation InfixExpression NumberLiteral empty
+table SimpleName MethodInvocation InfixExpression NumberLiteral empty
+table SimpleName MethodInvocation InfixExpression NumberLiteral l
+table SimpleName MethodInvocation NumberLiteral empty
+l NumberLiteral InfixExpression MethodInvocation InfixExpression NumberLiteral empty
+l NumberLiteral InfixExpression MethodInvocation InfixExpression NumberLiteral l
+empty NumberLiteral InfixExpression MethodInvocation InfixExpression NumberLiteral empty
+empty NumberLiteral InfixExpression MethodInvocation InfixExpression NumberLiteral l
+empty NumberLiteral InfixExpression MethodInvocation InfixExpression NumberLiteral empty
+empty NumberLiteral InfixExpression MethodInvocation InfixExpression NumberLiteral l
+l NumberLiteral InfixExpression MethodInvocation NumberLiteral empty
+empty NumberLiteral InfixExpression MethodInvocation NumberLiteral empty
+empty NumberLiteral InfixExpression MethodInvocation NumberLiteral empty
+empty NumberLiteral InfixExpression MethodInvocation NumberLiteral empty
+l NumberLiteral InfixExpression MethodInvocation NumberLiteral empty
+writer SimpleName Assignment MethodInvocation SimpleName connector
+writer SimpleName Assignment MethodInvocation SimpleName create batch writer
+writer SimpleName Assignment MethodInvocation SimpleName table
+writer SimpleName Assignment MethodInvocation InfixExpression NumberLiteral l
+writer SimpleName Assignment MethodInvocation InfixExpression NumberLiteral empty
+writer SimpleName Assignment MethodInvocation InfixExpression NumberLiteral empty
+writer SimpleName Assignment MethodInvocation InfixExpression NumberLiteral empty
+writer SimpleName Assignment MethodInvocation InfixExpression NumberLiteral l
+writer SimpleName Assignment MethodInvocation NumberLiteral empty
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName ex
+unable to create a batch writer will retry set log level to debug to see stacktrace cause StringLiteral InfixExpression SimpleName ex
+log SimpleName MethodInvocation SimpleName warn
+log SimpleName MethodInvocation InfixExpression StringLiteral unable to create a batch writer will retry set log level to debug to see stacktrace cause
+log SimpleName MethodInvocation InfixExpression SimpleName ex
+warn SimpleName MethodInvocation InfixExpression StringLiteral unable to create a batch writer will retry set log level to debug to see stacktrace cause
+warn SimpleName MethodInvocation InfixExpression SimpleName ex
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral batch writer creation failed with exception
+log SimpleName MethodInvocation SimpleName ex
+debug SimpleName MethodInvocation StringLiteral batch writer creation failed with exception
+debug SimpleName MethodInvocation SimpleName ex
+batch writer creation failed with exception StringLiteral MethodInvocation SimpleName ex
+writer SimpleName FieldAccess MethodInvocation SimpleName get and set
+writer SimpleName FieldAccess MethodInvocation SimpleName writer
+get and set SimpleName MethodInvocation SimpleName writer
+writer SimpleName Assignment MethodInvocation FieldAccess SimpleName writer
+writer SimpleName Assignment MethodInvocation SimpleName get and set
+writer SimpleName Assignment MethodInvocation SimpleName writer
+writer SimpleName MethodInvocation SimpleName close
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName ex
+problem closing batch writer set log level to debug to see stacktrace cause StringLiteral InfixExpression SimpleName ex
+log SimpleName MethodInvocation SimpleName warn
+log SimpleName MethodInvocation InfixExpression StringLiteral problem closing batch writer set log level to debug to see stacktrace cause
+log SimpleName MethodInvocation InfixExpression SimpleName ex
+warn SimpleName MethodInvocation InfixExpression StringLiteral problem closing batch writer set log level to debug to see stacktrace cause
+warn SimpleName MethodInvocation InfixExpression SimpleName ex
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral batch writer close failed with exception
+log SimpleName MethodInvocation SimpleName ex
+debug SimpleName MethodInvocation StringLiteral batch writer close failed with exception
+debug SimpleName MethodInvocation SimpleName ex
+batch writer close failed with exception StringLiteral MethodInvocation SimpleName ex
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName reset writer
+void PrimitiveType MethodDeclaration SimpleName reset writer
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName reset writer
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName reset writer

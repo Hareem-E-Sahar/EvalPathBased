@@ -1,0 +1,31 @@
+state SimpleName SimpleType SingleVariableDeclaration SimpleName state
+state SimpleName MethodInvocation SimpleName get
+state SimpleName MethodInvocation SimpleName t user pass
+get SimpleName MethodInvocation SimpleName t user pass
+byte PrimitiveType ArrayType CastExpression MethodInvocation SimpleName state
+byte PrimitiveType ArrayType CastExpression MethodInvocation SimpleName get
+byte PrimitiveType ArrayType CastExpression MethodInvocation SimpleName t user pass
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration ArrayType PrimitiveType byte
+public Modifier MethodDeclaration SimpleName get tab user pass
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName state
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName state
+static Modifier MethodDeclaration ArrayType PrimitiveType byte
+static Modifier MethodDeclaration SimpleName get tab user pass
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName state
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName state
+byte PrimitiveType ArrayType MethodDeclaration SimpleName get tab user pass
+byte PrimitiveType ArrayType MethodDeclaration SingleVariableDeclaration SimpleName state
+get tab user pass SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName state
+get tab user pass SimpleName MethodDeclaration SingleVariableDeclaration SimpleName state
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration ArrayType PrimitiveType byte
+public Modifier TypeDeclaration MethodDeclaration SimpleName get tab user pass
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName state
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration ArrayType PrimitiveType byte
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get tab user pass
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName state

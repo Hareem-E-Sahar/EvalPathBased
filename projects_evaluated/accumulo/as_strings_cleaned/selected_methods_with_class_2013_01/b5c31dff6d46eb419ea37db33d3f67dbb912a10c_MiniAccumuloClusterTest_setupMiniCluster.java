@@ -1,0 +1,60 @@
+folder SimpleName MethodInvocation SimpleName create
+logger SimpleName MethodInvocation SimpleName get logger
+logger SimpleName MethodInvocation StringLiteral orgapachezookeeper
+get logger SimpleName MethodInvocation StringLiteral orgapachezookeeper
+logger SimpleName MethodInvocation MethodInvocation SimpleName set level
+get logger SimpleName MethodInvocation MethodInvocation SimpleName set level
+orgapachezookeeper StringLiteral MethodInvocation MethodInvocation SimpleName set level
+logger SimpleName MethodInvocation MethodInvocation QualifiedName levelwarn
+get logger SimpleName MethodInvocation MethodInvocation QualifiedName levelwarn
+orgapachezookeeper StringLiteral MethodInvocation MethodInvocation QualifiedName levelwarn
+set level SimpleName MethodInvocation QualifiedName levelwarn
+folder SimpleName MethodInvocation SimpleName get root
+mac config SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName folder
+mac config SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get root
+mac config SimpleName SimpleType ClassInstanceCreation StringLiteral super secret
+folder SimpleName MethodInvocation ClassInstanceCreation StringLiteral super secret
+get root SimpleName MethodInvocation ClassInstanceCreation StringLiteral super secret
+mac config SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName set num tservers
+folder SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName set num tservers
+get root SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName set num tservers
+super secret StringLiteral ClassInstanceCreation MethodInvocation SimpleName set num tservers
+mac config SimpleName SimpleType ClassInstanceCreation MethodInvocation NumberLiteral empty
+folder SimpleName MethodInvocation ClassInstanceCreation MethodInvocation NumberLiteral empty
+get root SimpleName MethodInvocation ClassInstanceCreation MethodInvocation NumberLiteral empty
+super secret StringLiteral ClassInstanceCreation MethodInvocation NumberLiteral empty
+set num tservers SimpleName MethodInvocation NumberLiteral empty
+mini accumulo cluster SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName set num tservers
+mini accumulo cluster SimpleName SimpleType ClassInstanceCreation MethodInvocation NumberLiteral empty
+accumulo SimpleName Assignment ClassInstanceCreation SimpleType SimpleName mini accumulo cluster
+accumulo SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName set num tservers
+accumulo SimpleName Assignment ClassInstanceCreation MethodInvocation NumberLiteral empty
+accumulo SimpleName MethodInvocation SimpleName start
+before class SimpleName MarkerAnnotation MethodDeclaration Modifier public
+before class SimpleName MarkerAnnotation MethodDeclaration Modifier static
+before class SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+before class SimpleName MarkerAnnotation MethodDeclaration SimpleName setup mini cluster
+before class SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName setup mini cluster
+public Modifier MethodDeclaration SimpleType SimpleName exception
+static Modifier MethodDeclaration PrimitiveType void
+static Modifier MethodDeclaration SimpleName setup mini cluster
+static Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName setup mini cluster
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+setup mini cluster SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName before class
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName setup mini cluster
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName before class
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName setup mini cluster
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

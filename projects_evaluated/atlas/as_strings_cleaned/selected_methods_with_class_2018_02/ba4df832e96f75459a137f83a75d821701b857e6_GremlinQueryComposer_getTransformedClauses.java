@@ -1,0 +1,131 @@
+string SimpleName SimpleType ArrayType SingleVariableDeclaration SimpleName items
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ret
+stream SimpleName MethodInvocation SimpleName of
+stream SimpleName MethodInvocation SimpleName items
+of SimpleName MethodInvocation SimpleName items
+objects SimpleName ExpressionMethodReference SimpleName non null
+stream SimpleName MethodInvocation MethodInvocation SimpleName filter
+of SimpleName MethodInvocation MethodInvocation SimpleName filter
+items SimpleName MethodInvocation MethodInvocation SimpleName filter
+stream SimpleName MethodInvocation MethodInvocation ExpressionMethodReference SimpleName objects
+stream SimpleName MethodInvocation MethodInvocation ExpressionMethodReference SimpleName non null
+of SimpleName MethodInvocation MethodInvocation ExpressionMethodReference SimpleName objects
+of SimpleName MethodInvocation MethodInvocation ExpressionMethodReference SimpleName non null
+items SimpleName MethodInvocation MethodInvocation ExpressionMethodReference SimpleName objects
+items SimpleName MethodInvocation MethodInvocation ExpressionMethodReference SimpleName non null
+filter SimpleName MethodInvocation ExpressionMethodReference SimpleName objects
+filter SimpleName MethodInvocation ExpressionMethodReference SimpleName non null
+collectors SimpleName MethodInvocation SimpleName to list
+stream SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName collect
+of SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName collect
+items SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName collect
+filter SimpleName MethodInvocation MethodInvocation SimpleName collect
+objects SimpleName ExpressionMethodReference MethodInvocation MethodInvocation SimpleName collect
+non null SimpleName ExpressionMethodReference MethodInvocation MethodInvocation SimpleName collect
+filter SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName collectors
+filter SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to list
+collect SimpleName MethodInvocation MethodInvocation SimpleName collectors
+collect SimpleName MethodInvocation MethodInvocation SimpleName to list
+string SimpleName MethodInvocation SimpleName join
+string SimpleName MethodInvocation StringLiteral .
+string SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName filter
+string SimpleName MethodInvocation MethodInvocation SimpleName collect
+string SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName collectors
+string SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to list
+join SimpleName MethodInvocation StringLiteral .
+join SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName filter
+join SimpleName MethodInvocation MethodInvocation SimpleName collect
+join SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName collectors
+join SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to list
+. StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName filter
+. StringLiteral MethodInvocation MethodInvocation SimpleName collect
+. StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName collectors
+. StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName to list
+body SimpleName VariableDeclarationFragment MethodInvocation SimpleName string
+body SimpleName VariableDeclarationFragment MethodInvocation SimpleName join
+body SimpleName VariableDeclarationFragment MethodInvocation StringLiteral .
+body SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName collect
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName body
+query clauses SimpleName MethodInvocation SimpleName size
+query clauses SimpleName MethodInvocation InfixExpression NumberLiteral empty
+size SimpleName MethodInvocation InfixExpression NumberLiteral empty
+query clauses SimpleName MethodInvocation SimpleName get value
+query clauses SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName query clauses
+query clauses SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName size
+query clauses SimpleName MethodInvocation InfixExpression NumberLiteral empty
+get value SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName query clauses
+get value SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName size
+get value SimpleName MethodInvocation InfixExpression NumberLiteral empty
+inline fn SimpleName VariableDeclarationFragment MethodInvocation SimpleName query clauses
+inline fn SimpleName VariableDeclarationFragment MethodInvocation SimpleName get value
+inline fn SimpleName VariableDeclarationFragment MethodInvocation InfixExpression NumberLiteral empty
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName inline fn
+string SimpleName MethodInvocation SimpleName format
+string SimpleName MethodInvocation SimpleName inline fn
+string SimpleName MethodInvocation SimpleName body
+format SimpleName MethodInvocation SimpleName inline fn
+format SimpleName MethodInvocation SimpleName body
+inline fn SimpleName MethodInvocation SimpleName body
+fun call SimpleName VariableDeclarationFragment MethodInvocation SimpleName string
+fun call SimpleName VariableDeclarationFragment MethodInvocation SimpleName format
+fun call SimpleName VariableDeclarationFragment MethodInvocation SimpleName inline fn
+fun call SimpleName VariableDeclarationFragment MethodInvocation SimpleName body
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName fun call
+query clauses SimpleName MethodInvocation SimpleName get value
+query clauses SimpleName MethodInvocation NumberLiteral empty
+get value SimpleName MethodInvocation NumberLiteral empty
+string SimpleName MethodInvocation SimpleName join
+string SimpleName MethodInvocation StringLiteral .
+string SimpleName MethodInvocation MethodInvocation SimpleName query clauses
+string SimpleName MethodInvocation MethodInvocation SimpleName get value
+string SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+string SimpleName MethodInvocation SimpleName fun call
+join SimpleName MethodInvocation StringLiteral .
+join SimpleName MethodInvocation MethodInvocation SimpleName query clauses
+join SimpleName MethodInvocation MethodInvocation SimpleName get value
+join SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+join SimpleName MethodInvocation SimpleName fun call
+. StringLiteral MethodInvocation MethodInvocation SimpleName query clauses
+. StringLiteral MethodInvocation MethodInvocation SimpleName get value
+. StringLiteral MethodInvocation MethodInvocation NumberLiteral empty
+. StringLiteral MethodInvocation SimpleName fun call
+query clauses SimpleName MethodInvocation MethodInvocation SimpleName fun call
+get value SimpleName MethodInvocation MethodInvocation SimpleName fun call
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName fun call
+ret SimpleName Assignment MethodInvocation SimpleName string
+ret SimpleName Assignment MethodInvocation SimpleName join
+ret SimpleName Assignment MethodInvocation StringLiteral .
+ret SimpleName Assignment MethodInvocation MethodInvocation SimpleName query clauses
+ret SimpleName Assignment MethodInvocation MethodInvocation SimpleName get value
+ret SimpleName Assignment MethodInvocation MethodInvocation NumberLiteral empty
+ret SimpleName Assignment MethodInvocation SimpleName fun call
+query clauses SimpleName MethodInvocation SimpleName get value
+query clauses SimpleName MethodInvocation NumberLiteral empty
+get value SimpleName MethodInvocation NumberLiteral empty
+query clauses SimpleName MethodInvocation InfixExpression SimpleName fun call
+get value SimpleName MethodInvocation InfixExpression SimpleName fun call
+empty NumberLiteral MethodInvocation InfixExpression SimpleName fun call
+ret SimpleName Assignment InfixExpression MethodInvocation SimpleName query clauses
+ret SimpleName Assignment InfixExpression MethodInvocation SimpleName get value
+ret SimpleName Assignment InfixExpression MethodInvocation NumberLiteral empty
+ret SimpleName Assignment InfixExpression SimpleName fun call
+is nested query SimpleName IfStatement Block ReturnStatement SimpleName ret
+private Modifier MethodDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SimpleName get transformed clauses
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName items
+private Modifier MethodDeclaration Block IfStatement SimpleName is nested query
+private Modifier MethodDeclaration Block ReturnStatement SimpleName ret
+string SimpleName SimpleType MethodDeclaration SimpleName get transformed clauses
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName items
+get transformed clauses SimpleName MethodDeclaration SingleVariableDeclaration SimpleName items
+get transformed clauses SimpleName MethodDeclaration Block IfStatement SimpleName is nested query
+get transformed clauses SimpleName MethodDeclaration Block ReturnStatement SimpleName ret
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName get transformed clauses
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName items
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get transformed clauses
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName items

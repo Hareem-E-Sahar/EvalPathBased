@@ -1,0 +1,50 @@
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName property file path
+input stream SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName in str
+application properties SimpleName MethodInvocation SimpleName get
+configuration SimpleName VariableDeclarationFragment MethodInvocation SimpleName application properties
+configuration SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+configuration SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName configuration
+configuration SimpleName MethodInvocation SimpleName get string
+configuration SimpleName MethodInvocation StringLiteral atlasauthenticationmethodfilefilename
+get string SimpleName MethodInvocation StringLiteral atlasauthenticationmethodfilefilename
+property file path SimpleName Assignment MethodInvocation SimpleName configuration
+property file path SimpleName Assignment MethodInvocation SimpleName get string
+property file path SimpleName Assignment MethodInvocation StringLiteral atlasauthenticationmethodfilefilename
+empty StringLiteral MethodInvocation SimpleName equals
+empty StringLiteral MethodInvocation SimpleName property file path
+equals SimpleName MethodInvocation SimpleName property file path
+user logins SimpleName Assignment ClassInstanceCreation SimpleType SimpleName properties
+file input stream SimpleName SimpleType ClassInstanceCreation SimpleName property file path
+in str SimpleName Assignment ClassInstanceCreation SimpleType SimpleName file input stream
+in str SimpleName Assignment ClassInstanceCreation SimpleName property file path
+user logins SimpleName MethodInvocation SimpleName load
+user logins SimpleName MethodInvocation SimpleName in str
+load SimpleName MethodInvocation SimpleName in str
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation StringLiteral error while reading userproperties file filepath
+log SimpleName MethodInvocation SimpleName property file path
+error SimpleName MethodInvocation StringLiteral error while reading userproperties file filepath
+error SimpleName MethodInvocation SimpleName property file path
+error while reading userproperties file filepath StringLiteral MethodInvocation SimpleName property file path
+io exception SimpleName SimpleType UnionType SimpleType SimpleName atlas exception
+io exception SimpleName SimpleType UnionType SingleVariableDeclaration SimpleName e
+atlas exception SimpleName SimpleType UnionType SingleVariableDeclaration SimpleName e
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation StringLiteral error while reading userproperties file filepath
+log SimpleName MethodInvocation SimpleName property file path
+log SimpleName MethodInvocation SimpleName e
+error SimpleName MethodInvocation StringLiteral error while reading userproperties file filepath
+error SimpleName MethodInvocation SimpleName property file path
+error SimpleName MethodInvocation SimpleName e
+error while reading userproperties file filepath StringLiteral MethodInvocation SimpleName property file path
+error while reading userproperties file filepath StringLiteral MethodInvocation SimpleName e
+property file path SimpleName MethodInvocation SimpleName e
+runtime exception SimpleName SimpleType ClassInstanceCreation SimpleName e
+in str SimpleName MethodInvocation SimpleName close
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName excp
+void PrimitiveType MethodDeclaration SimpleName load file logins details
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName load file logins details
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName load file logins details

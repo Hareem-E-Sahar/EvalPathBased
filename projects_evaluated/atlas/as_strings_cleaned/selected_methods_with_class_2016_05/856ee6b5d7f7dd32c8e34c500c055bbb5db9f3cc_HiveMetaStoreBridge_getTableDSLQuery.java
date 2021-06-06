@@ -1,0 +1,87 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName cluster name
+string SimpleName SimpleType SingleVariableDeclaration SimpleName db name
+string SimpleName SimpleType SingleVariableDeclaration SimpleName table name
+string SimpleName SimpleType SingleVariableDeclaration SimpleName type name
+boolean PrimitiveType SingleVariableDeclaration SimpleName is temporary
+get table qualified name SimpleName MethodInvocation SimpleName cluster name
+get table qualified name SimpleName MethodInvocation SimpleName db name
+get table qualified name SimpleName MethodInvocation SimpleName table name
+get table qualified name SimpleName MethodInvocation SimpleName is temporary
+cluster name SimpleName MethodInvocation SimpleName db name
+cluster name SimpleName MethodInvocation SimpleName table name
+cluster name SimpleName MethodInvocation SimpleName is temporary
+db name SimpleName MethodInvocation SimpleName table name
+db name SimpleName MethodInvocation SimpleName is temporary
+table name SimpleName MethodInvocation SimpleName is temporary
+entity name SimpleName VariableDeclarationFragment MethodInvocation SimpleName get table qualified name
+entity name SimpleName VariableDeclarationFragment MethodInvocation SimpleName cluster name
+entity name SimpleName VariableDeclarationFragment MethodInvocation SimpleName db name
+entity name SimpleName VariableDeclarationFragment MethodInvocation SimpleName table name
+entity name SimpleName VariableDeclarationFragment MethodInvocation SimpleName is temporary
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName entity name
+string SimpleName MethodInvocation SimpleName format
+string SimpleName MethodInvocation StringLiteral s as t where name = s
+string SimpleName MethodInvocation SimpleName type name
+string SimpleName MethodInvocation SimpleName entity name
+format SimpleName MethodInvocation StringLiteral s as t where name = s
+format SimpleName MethodInvocation SimpleName type name
+format SimpleName MethodInvocation SimpleName entity name
+s as t where name = s StringLiteral MethodInvocation SimpleName type name
+s as t where name = s StringLiteral MethodInvocation SimpleName entity name
+type name SimpleName MethodInvocation SimpleName entity name
+static Modifier MethodDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SimpleName get table dsl query
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName cluster name
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName db name
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName table name
+string SimpleName SimpleType MethodDeclaration SimpleName get table dsl query
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName cluster name
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName db name
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName table name
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName type name
+get table dsl query SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get table dsl query SimpleName MethodDeclaration SingleVariableDeclaration SimpleName cluster name
+get table dsl query SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get table dsl query SimpleName MethodDeclaration SingleVariableDeclaration SimpleName db name
+get table dsl query SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get table dsl query SimpleName MethodDeclaration SingleVariableDeclaration SimpleName table name
+get table dsl query SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get table dsl query SimpleName MethodDeclaration SingleVariableDeclaration SimpleName type name
+get table dsl query SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+get table dsl query SimpleName MethodDeclaration SingleVariableDeclaration SimpleName is temporary
+cluster name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName db name
+cluster name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table name
+cluster name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type name
+cluster name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+cluster name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName is temporary
+db name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table name
+db name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type name
+db name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+db name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName is temporary
+table name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type name
+table name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+table name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName is temporary
+type name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+type name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName is temporary
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName get table dsl query
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cluster name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName db name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName is temporary
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get table dsl query
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cluster name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName db name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName is temporary

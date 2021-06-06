@@ -1,0 +1,64 @@
+atlas entity SimpleName SimpleType SingleVariableDeclaration SimpleName entity
+entity SimpleName MethodInvocation SimpleName get attribute
+entity SimpleName MethodInvocation StringLiteral attr str
+get attribute SimpleName MethodInvocation StringLiteral attr str
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName entity
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get attribute
+assert equals SimpleName MethodInvocation MethodInvocation StringLiteral attr str
+assert equals SimpleName MethodInvocation SimpleName attr value string
+entity SimpleName MethodInvocation MethodInvocation SimpleName attr value string
+get attribute SimpleName MethodInvocation MethodInvocation SimpleName attr value string
+attr str StringLiteral MethodInvocation MethodInvocation SimpleName attr value string
+entity SimpleName MethodInvocation SimpleName get attribute
+entity SimpleName MethodInvocation StringLiteral attr int
+get attribute SimpleName MethodInvocation StringLiteral attr int
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName entity
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get attribute
+assert equals SimpleName MethodInvocation MethodInvocation StringLiteral attr int
+assert equals SimpleName MethodInvocation SimpleName attr value integer
+entity SimpleName MethodInvocation MethodInvocation SimpleName attr value integer
+get attribute SimpleName MethodInvocation MethodInvocation SimpleName attr value integer
+attr int StringLiteral MethodInvocation MethodInvocation SimpleName attr value integer
+entity SimpleName MethodInvocation SimpleName get attribute
+entity SimpleName MethodInvocation StringLiteral attr bool
+get attribute SimpleName MethodInvocation StringLiteral attr bool
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName entity
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get attribute
+assert equals SimpleName MethodInvocation MethodInvocation StringLiteral attr bool
+assert equals SimpleName MethodInvocation SimpleName attr value boolean
+entity SimpleName MethodInvocation MethodInvocation SimpleName attr value boolean
+get attribute SimpleName MethodInvocation MethodInvocation SimpleName attr value boolean
+attr bool StringLiteral MethodInvocation MethodInvocation SimpleName attr value boolean
+entity SimpleName MethodInvocation SimpleName get attribute
+entity SimpleName MethodInvocation StringLiteral attr date
+get attribute SimpleName MethodInvocation StringLiteral attr date
+attr value date SimpleName MethodInvocation SimpleName get time
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName entity
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get attribute
+assert equals SimpleName MethodInvocation MethodInvocation StringLiteral attr date
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName attr value date
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get time
+entity SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName attr value date
+entity SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get time
+get attribute SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName attr value date
+get attribute SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get time
+attr date StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName attr value date
+attr date StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName get time
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName assert attributes
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas entity
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName entity
+void PrimitiveType MethodDeclaration SimpleName assert attributes
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas entity
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName entity
+assert attributes SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas entity
+assert attributes SimpleName MethodDeclaration SingleVariableDeclaration SimpleName entity
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName assert attributes
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName assert attributes
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity

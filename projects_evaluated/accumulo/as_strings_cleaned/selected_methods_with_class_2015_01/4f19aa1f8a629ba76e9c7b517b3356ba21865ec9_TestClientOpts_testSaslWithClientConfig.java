@@ -1,0 +1,79 @@
+args SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName client opts
+client opts SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName args
+tmp dir SimpleName MethodInvocation SimpleName new file
+client conf file SimpleName VariableDeclarationFragment MethodInvocation SimpleName tmp dir
+client conf file SimpleName VariableDeclarationFragment MethodInvocation SimpleName new file
+file SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName client conf file
+file writer SimpleName SimpleType ClassInstanceCreation SimpleName client conf file
+writer SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName file writer
+writer SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName client conf file
+file writer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName writer
+client propertyinstance rpc sasl enabled QualifiedName MethodInvocation SimpleName get key
+string SimpleName MethodInvocation SimpleName format
+string SimpleName MethodInvocation StringLiteral ss
+string SimpleName MethodInvocation MethodInvocation QualifiedName client propertyinstance rpc sasl enabled
+string SimpleName MethodInvocation MethodInvocation SimpleName get key
+string SimpleName MethodInvocation StringLiteral true
+format SimpleName MethodInvocation StringLiteral ss
+format SimpleName MethodInvocation MethodInvocation QualifiedName client propertyinstance rpc sasl enabled
+format SimpleName MethodInvocation MethodInvocation SimpleName get key
+format SimpleName MethodInvocation StringLiteral true
+ss StringLiteral MethodInvocation MethodInvocation QualifiedName client propertyinstance rpc sasl enabled
+ss StringLiteral MethodInvocation MethodInvocation SimpleName get key
+ss StringLiteral MethodInvocation StringLiteral true
+client propertyinstance rpc sasl enabled QualifiedName MethodInvocation MethodInvocation StringLiteral true
+get key SimpleName MethodInvocation MethodInvocation StringLiteral true
+writer SimpleName MethodInvocation SimpleName write
+writer SimpleName MethodInvocation MethodInvocation SimpleName string
+writer SimpleName MethodInvocation MethodInvocation SimpleName format
+writer SimpleName MethodInvocation MethodInvocation StringLiteral ss
+writer SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName client propertyinstance rpc sasl enabled
+writer SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get key
+writer SimpleName MethodInvocation MethodInvocation StringLiteral true
+write SimpleName MethodInvocation MethodInvocation SimpleName string
+write SimpleName MethodInvocation MethodInvocation SimpleName format
+write SimpleName MethodInvocation MethodInvocation StringLiteral ss
+write SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName client propertyinstance rpc sasl enabled
+write SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get key
+write SimpleName MethodInvocation MethodInvocation StringLiteral true
+writer SimpleName MethodInvocation SimpleName close
+jc SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName j commander
+j commander SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName jc
+jc SimpleName MethodInvocation SimpleName add object
+jc SimpleName MethodInvocation SimpleName args
+add object SimpleName MethodInvocation SimpleName args
+client conf file SimpleName MethodInvocation SimpleName get canonical path
+jc SimpleName MethodInvocation SimpleName parse
+jc SimpleName MethodInvocation StringLiteral configfile
+jc SimpleName MethodInvocation MethodInvocation SimpleName client conf file
+jc SimpleName MethodInvocation MethodInvocation SimpleName get canonical path
+parse SimpleName MethodInvocation StringLiteral configfile
+parse SimpleName MethodInvocation MethodInvocation SimpleName client conf file
+parse SimpleName MethodInvocation MethodInvocation SimpleName get canonical path
+configfile StringLiteral MethodInvocation MethodInvocation SimpleName client conf file
+configfile StringLiteral MethodInvocation MethodInvocation SimpleName get canonical path
+args SimpleName MethodInvocation SimpleName update kerberos credentials
+assert equals SimpleName MethodInvocation QualifiedName kerberos tokenclass name
+assert equals SimpleName MethodInvocation QualifiedName argstoken class name
+kerberos tokenclass name QualifiedName MethodInvocation QualifiedName argstoken class name
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test sasl with client config
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName io exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test sasl with client config
+public Modifier MethodDeclaration SimpleType SimpleName io exception
+void PrimitiveType MethodDeclaration SimpleName test sasl with client config
+void PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+test sasl with client config SimpleName MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test sasl with client config
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test sasl with client config
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

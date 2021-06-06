@@ -1,0 +1,125 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas vertex
+log SimpleName MethodInvocation SimpleName is debug enabled
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral ==> term search processorexecute
+log SimpleName MethodInvocation SimpleName context
+debug SimpleName MethodInvocation StringLiteral ==> term search processorexecute
+debug SimpleName MethodInvocation SimpleName context
+==> term search processorexecute StringLiteral MethodInvocation SimpleName context
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas vertex
+atlas perf tracer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName perf
+atlas perf tracer SimpleName MethodInvocation SimpleName is perf trace enabled
+atlas perf tracer SimpleName MethodInvocation SimpleName perf log
+is perf trace enabled SimpleName MethodInvocation SimpleName perf log
+term search processorexecute StringLiteral InfixExpression SimpleName context
+term search processorexecute StringLiteral InfixExpression StringLiteral )
+context SimpleName InfixExpression StringLiteral )
+atlas perf tracer SimpleName MethodInvocation SimpleName get perf tracer
+atlas perf tracer SimpleName MethodInvocation SimpleName perf log
+atlas perf tracer SimpleName MethodInvocation InfixExpression StringLiteral term search processorexecute
+atlas perf tracer SimpleName MethodInvocation InfixExpression SimpleName context
+atlas perf tracer SimpleName MethodInvocation InfixExpression StringLiteral )
+get perf tracer SimpleName MethodInvocation SimpleName perf log
+get perf tracer SimpleName MethodInvocation InfixExpression StringLiteral term search processorexecute
+get perf tracer SimpleName MethodInvocation InfixExpression SimpleName context
+get perf tracer SimpleName MethodInvocation InfixExpression StringLiteral )
+perf log SimpleName MethodInvocation InfixExpression StringLiteral term search processorexecute
+perf log SimpleName MethodInvocation InfixExpression SimpleName context
+perf log SimpleName MethodInvocation InfixExpression StringLiteral )
+perf SimpleName Assignment MethodInvocation SimpleName atlas perf tracer
+perf SimpleName Assignment MethodInvocation SimpleName get perf tracer
+perf SimpleName Assignment MethodInvocation SimpleName perf log
+perf SimpleName Assignment MethodInvocation InfixExpression StringLiteral term search processorexecute
+perf SimpleName Assignment MethodInvocation InfixExpression SimpleName context
+perf SimpleName Assignment MethodInvocation InfixExpression StringLiteral )
+collection utils SimpleName MethodInvocation SimpleName is not empty
+collection utils SimpleName MethodInvocation SimpleName assigned entities
+is not empty SimpleName MethodInvocation SimpleName assigned entities
+context SimpleName MethodInvocation SimpleName get search parameters
+context SimpleName MethodInvocation MethodInvocation SimpleName get offset
+get search parameters SimpleName MethodInvocation MethodInvocation SimpleName get offset
+start idx SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName context
+start idx SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get search parameters
+start idx SimpleName VariableDeclarationFragment MethodInvocation SimpleName get offset
+final Modifier VariableDeclarationStatement PrimitiveType int
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName start idx
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get offset
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName start idx
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get offset
+context SimpleName MethodInvocation SimpleName get search parameters
+context SimpleName MethodInvocation MethodInvocation SimpleName get limit
+get search parameters SimpleName MethodInvocation MethodInvocation SimpleName get limit
+limit SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName context
+limit SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get search parameters
+limit SimpleName VariableDeclarationFragment MethodInvocation SimpleName get limit
+final Modifier VariableDeclarationStatement PrimitiveType int
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName limit
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get limit
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName limit
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get limit
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas vertex
+array list SimpleName SimpleType ParameterizedType ClassInstanceCreation SimpleName assigned entities
+tmp list SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName assigned entities
+final Modifier VariableDeclarationStatement ParameterizedType SimpleType SimpleName list
+final Modifier VariableDeclarationStatement ParameterizedType SimpleType SimpleName atlas vertex
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName tmp list
+final Modifier VariableDeclarationStatement VariableDeclarationFragment ClassInstanceCreation SimpleName assigned entities
+filter SimpleName SuperMethodInvocation SimpleName tmp list
+collect result vertices SimpleName MethodInvocation SimpleName ret
+collect result vertices SimpleName MethodInvocation SimpleName start idx
+collect result vertices SimpleName MethodInvocation SimpleName limit
+collect result vertices SimpleName MethodInvocation NumberLiteral empty
+collect result vertices SimpleName MethodInvocation SimpleName tmp list
+ret SimpleName MethodInvocation SimpleName start idx
+ret SimpleName MethodInvocation SimpleName limit
+ret SimpleName MethodInvocation NumberLiteral empty
+ret SimpleName MethodInvocation SimpleName tmp list
+start idx SimpleName MethodInvocation SimpleName limit
+start idx SimpleName MethodInvocation NumberLiteral empty
+start idx SimpleName MethodInvocation SimpleName tmp list
+limit SimpleName MethodInvocation NumberLiteral empty
+limit SimpleName MethodInvocation SimpleName tmp list
+empty NumberLiteral MethodInvocation SimpleName tmp list
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+atlas perf tracer SimpleName MethodInvocation SimpleName log
+atlas perf tracer SimpleName MethodInvocation SimpleName perf
+log SimpleName MethodInvocation SimpleName perf
+log SimpleName MethodInvocation SimpleName is debug enabled
+ret SimpleName MethodInvocation SimpleName size
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral <== term search processorexecute retsize
+log SimpleName MethodInvocation SimpleName context
+log SimpleName MethodInvocation MethodInvocation SimpleName ret
+log SimpleName MethodInvocation MethodInvocation SimpleName size
+debug SimpleName MethodInvocation StringLiteral <== term search processorexecute retsize
+debug SimpleName MethodInvocation SimpleName context
+debug SimpleName MethodInvocation MethodInvocation SimpleName ret
+debug SimpleName MethodInvocation MethodInvocation SimpleName size
+<== term search processorexecute retsize StringLiteral MethodInvocation SimpleName context
+<== term search processorexecute retsize StringLiteral MethodInvocation MethodInvocation SimpleName ret
+<== term search processorexecute retsize StringLiteral MethodInvocation MethodInvocation SimpleName size
+context SimpleName MethodInvocation MethodInvocation SimpleName ret
+context SimpleName MethodInvocation MethodInvocation SimpleName size
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName execute
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName atlas vertex
+public Modifier MethodDeclaration SimpleName execute
+public Modifier MethodDeclaration Block ReturnStatement SimpleName ret
+list SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName execute
+atlas vertex SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName execute
+execute SimpleName MethodDeclaration Block ReturnStatement SimpleName ret
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName execute
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName execute

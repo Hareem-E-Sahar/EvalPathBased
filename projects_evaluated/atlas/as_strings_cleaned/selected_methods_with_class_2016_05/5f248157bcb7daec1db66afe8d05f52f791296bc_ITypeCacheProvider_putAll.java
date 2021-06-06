@@ -1,0 +1,18 @@
+collection SimpleName SimpleType ParameterizedType SimpleType SimpleName i data type
+collection SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName types
+i data type SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName types
+void PrimitiveType MethodDeclaration SimpleName put all
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName types
+void PrimitiveType MethodDeclaration SimpleType SimpleName atlas exception
+put all SimpleName MethodDeclaration SingleVariableDeclaration SimpleName types
+put all SimpleName MethodDeclaration SimpleType SimpleName atlas exception
+types SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName put all
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName types
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName put all
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName types
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception

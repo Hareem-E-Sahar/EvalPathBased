@@ -1,0 +1,96 @@
+path SimpleName SingleMemberAnnotation StringLiteral status
+produces SimpleName SingleMemberAnnotation QualifiedName servletsjson media type
+log SimpleName MethodInvocation SimpleName is debug enabled
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral ==> admin resourceget status
+debug SimpleName MethodInvocation StringLiteral ==> admin resourceget status
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+service state SimpleName MethodInvocation SimpleName get state
+service state SimpleName MethodInvocation MethodInvocation SimpleName to string
+get state SimpleName MethodInvocation MethodInvocation SimpleName to string
+collections SimpleName MethodInvocation SimpleName singleton map
+collections SimpleName MethodInvocation QualifiedName atlas clientstatus
+collections SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName service state
+collections SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get state
+collections SimpleName MethodInvocation MethodInvocation SimpleName to string
+singleton map SimpleName MethodInvocation QualifiedName atlas clientstatus
+singleton map SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName service state
+singleton map SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get state
+singleton map SimpleName MethodInvocation MethodInvocation SimpleName to string
+atlas clientstatus QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName service state
+atlas clientstatus QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName get state
+atlas clientstatus QualifiedName MethodInvocation MethodInvocation SimpleName to string
+response data SimpleName VariableDeclarationFragment MethodInvocation SimpleName collections
+response data SimpleName VariableDeclarationFragment MethodInvocation SimpleName singleton map
+response data SimpleName VariableDeclarationFragment MethodInvocation QualifiedName atlas clientstatus
+response data SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName to string
+atlas json SimpleName MethodInvocation SimpleName to v json
+atlas json SimpleName MethodInvocation SimpleName response data
+to v json SimpleName MethodInvocation SimpleName response data
+response SimpleName MethodInvocation SimpleName ok
+response SimpleName MethodInvocation MethodInvocation SimpleName atlas json
+response SimpleName MethodInvocation MethodInvocation SimpleName to v json
+response SimpleName MethodInvocation MethodInvocation SimpleName response data
+ok SimpleName MethodInvocation MethodInvocation SimpleName atlas json
+ok SimpleName MethodInvocation MethodInvocation SimpleName to v json
+ok SimpleName MethodInvocation MethodInvocation SimpleName response data
+response SimpleName MethodInvocation MethodInvocation SimpleName build
+ok SimpleName MethodInvocation MethodInvocation SimpleName build
+atlas json SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName build
+to v json SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName build
+response data SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName build
+response SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName response
+response SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName ok
+response SimpleName VariableDeclarationFragment MethodInvocation SimpleName build
+response SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName response
+log SimpleName MethodInvocation SimpleName is debug enabled
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral <== admin resourceget status
+debug SimpleName MethodInvocation StringLiteral <== admin resourceget status
+get SimpleName MarkerAnnotation MethodDeclaration SingleMemberAnnotation SimpleName path
+get SimpleName MarkerAnnotation MethodDeclaration SingleMemberAnnotation StringLiteral status
+get SimpleName MarkerAnnotation MethodDeclaration SingleMemberAnnotation SimpleName produces
+get SimpleName MarkerAnnotation MethodDeclaration SingleMemberAnnotation QualifiedName servletsjson media type
+get SimpleName MarkerAnnotation MethodDeclaration Modifier public
+get SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName response
+get SimpleName MarkerAnnotation MethodDeclaration SimpleName get status
+path SimpleName SingleMemberAnnotation MethodDeclaration SingleMemberAnnotation SimpleName produces
+path SimpleName SingleMemberAnnotation MethodDeclaration SingleMemberAnnotation QualifiedName servletsjson media type
+status StringLiteral SingleMemberAnnotation MethodDeclaration SingleMemberAnnotation SimpleName produces
+status StringLiteral SingleMemberAnnotation MethodDeclaration SingleMemberAnnotation QualifiedName servletsjson media type
+path SimpleName SingleMemberAnnotation MethodDeclaration Modifier public
+status StringLiteral SingleMemberAnnotation MethodDeclaration Modifier public
+path SimpleName SingleMemberAnnotation MethodDeclaration SimpleType SimpleName response
+status StringLiteral SingleMemberAnnotation MethodDeclaration SimpleType SimpleName response
+path SimpleName SingleMemberAnnotation MethodDeclaration SimpleName get status
+status StringLiteral SingleMemberAnnotation MethodDeclaration SimpleName get status
+produces SimpleName SingleMemberAnnotation MethodDeclaration Modifier public
+servletsjson media type QualifiedName SingleMemberAnnotation MethodDeclaration Modifier public
+produces SimpleName SingleMemberAnnotation MethodDeclaration SimpleType SimpleName response
+servletsjson media type QualifiedName SingleMemberAnnotation MethodDeclaration SimpleType SimpleName response
+produces SimpleName SingleMemberAnnotation MethodDeclaration SimpleName get status
+servletsjson media type QualifiedName SingleMemberAnnotation MethodDeclaration SimpleName get status
+public Modifier MethodDeclaration SimpleType SimpleName response
+public Modifier MethodDeclaration SimpleName get status
+public Modifier MethodDeclaration Block ReturnStatement SimpleName response
+response SimpleName SimpleType MethodDeclaration SimpleName get status
+get status SimpleName MethodDeclaration Block ReturnStatement SimpleName response
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName get
+public Modifier TypeDeclaration MethodDeclaration SingleMemberAnnotation SimpleName path
+public Modifier TypeDeclaration MethodDeclaration SingleMemberAnnotation StringLiteral status
+public Modifier TypeDeclaration MethodDeclaration SingleMemberAnnotation SimpleName produces
+public Modifier TypeDeclaration MethodDeclaration SingleMemberAnnotation QualifiedName servletsjson media type
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName response
+public Modifier TypeDeclaration MethodDeclaration SimpleName get status
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName get
+test SimpleName TypeDeclaration MethodDeclaration SingleMemberAnnotation SimpleName path
+test SimpleName TypeDeclaration MethodDeclaration SingleMemberAnnotation StringLiteral status
+test SimpleName TypeDeclaration MethodDeclaration SingleMemberAnnotation SimpleName produces
+test SimpleName TypeDeclaration MethodDeclaration SingleMemberAnnotation QualifiedName servletsjson media type
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName response
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get status

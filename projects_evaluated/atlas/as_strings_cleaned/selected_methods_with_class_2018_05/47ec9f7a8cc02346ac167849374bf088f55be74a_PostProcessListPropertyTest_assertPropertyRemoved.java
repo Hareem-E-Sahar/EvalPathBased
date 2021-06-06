@@ -1,0 +1,39 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName property
+vertex SimpleName SimpleType SingleVariableDeclaration SimpleName table v
+table v SimpleName MethodInvocation SimpleName property
+table v SimpleName MethodInvocation SimpleName property
+property SimpleName MethodInvocation SimpleName property
+table v SimpleName MethodInvocation MethodInvocation SimpleName is present
+property SimpleName MethodInvocation MethodInvocation SimpleName is present
+property SimpleName MethodInvocation MethodInvocation SimpleName is present
+assert false SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName table v
+assert false SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName property
+assert false SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName property
+assert false SimpleName MethodInvocation MethodInvocation SimpleName is present
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName assert property removed
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName property
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName vertex
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName table v
+void PrimitiveType MethodDeclaration SimpleName assert property removed
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName property
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName vertex
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName table v
+assert property removed SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+assert property removed SimpleName MethodDeclaration SingleVariableDeclaration SimpleName property
+assert property removed SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName vertex
+assert property removed SimpleName MethodDeclaration SingleVariableDeclaration SimpleName table v
+property SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table v
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName assert property removed
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName property
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table v
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName assert property removed
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName property
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table v

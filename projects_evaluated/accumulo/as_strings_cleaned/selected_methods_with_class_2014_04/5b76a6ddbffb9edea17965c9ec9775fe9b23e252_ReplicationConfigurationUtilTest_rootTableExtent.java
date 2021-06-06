@@ -1,0 +1,41 @@
+text SimpleName SimpleType ClassInstanceCreation QualifiedName root tableid
+key extent SimpleName SimpleType ClassInstanceCreation ClassInstanceCreation QualifiedName root tableid
+extent SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName key extent
+extent SimpleName VariableDeclarationFragment ClassInstanceCreation ClassInstanceCreation QualifiedName root tableid
+key extent SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName extent
+replication configuration util SimpleName MethodInvocation SimpleName is enabled
+replication configuration util SimpleName MethodInvocation SimpleName extent
+replication configuration util SimpleName MethodInvocation SimpleName conf
+is enabled SimpleName MethodInvocation SimpleName extent
+is enabled SimpleName MethodInvocation SimpleName conf
+extent SimpleName MethodInvocation SimpleName conf
+assert SimpleName MethodInvocation SimpleName assert false
+assert SimpleName MethodInvocation StringLiteral the root table should never be replicated
+assert SimpleName MethodInvocation MethodInvocation SimpleName replication configuration util
+assert SimpleName MethodInvocation MethodInvocation SimpleName is enabled
+assert SimpleName MethodInvocation MethodInvocation SimpleName extent
+assert SimpleName MethodInvocation MethodInvocation SimpleName conf
+assert false SimpleName MethodInvocation StringLiteral the root table should never be replicated
+assert false SimpleName MethodInvocation MethodInvocation SimpleName replication configuration util
+assert false SimpleName MethodInvocation MethodInvocation SimpleName is enabled
+assert false SimpleName MethodInvocation MethodInvocation SimpleName extent
+assert false SimpleName MethodInvocation MethodInvocation SimpleName conf
+the root table should never be replicated StringLiteral MethodInvocation MethodInvocation SimpleName replication configuration util
+the root table should never be replicated StringLiteral MethodInvocation MethodInvocation SimpleName is enabled
+the root table should never be replicated StringLiteral MethodInvocation MethodInvocation SimpleName extent
+the root table should never be replicated StringLiteral MethodInvocation MethodInvocation SimpleName conf
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName root table extent
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName root table extent
+void PrimitiveType MethodDeclaration SimpleName root table extent
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName root table extent
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName root table extent

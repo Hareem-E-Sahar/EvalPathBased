@@ -1,0 +1,45 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName user agent
+is web SimpleName VariableDeclarationFragment BooleanLiteral false
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName is web
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment BooleanLiteral false
+jwt properties SimpleName MethodInvocation SimpleName get user agent list
+user agent list SimpleName VariableDeclarationFragment MethodInvocation SimpleName jwt properties
+user agent list SimpleName VariableDeclarationFragment MethodInvocation SimpleName get user agent list
+user agent listlength QualifiedName InfixExpression NumberLiteral empty
+user agent list SimpleName InfixExpression InfixExpression InfixExpression QualifiedName user agent listlength
+user agent list SimpleName InfixExpression InfixExpression InfixExpression NumberLiteral empty
+string SimpleName SimpleType SingleVariableDeclaration SimpleName ua
+string utils SimpleName MethodInvocation SimpleName starts with ignore case
+string utils SimpleName MethodInvocation SimpleName user agent
+string utils SimpleName MethodInvocation SimpleName ua
+starts with ignore case SimpleName MethodInvocation SimpleName user agent
+starts with ignore case SimpleName MethodInvocation SimpleName ua
+user agent SimpleName MethodInvocation SimpleName ua
+is web SimpleName Assignment BooleanLiteral true
+string SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName user agent list
+ua SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName user agent list
+boolean PrimitiveType VariableDeclarationStatement Block ReturnStatement SimpleName is web
+private Modifier MethodDeclaration PrimitiveType boolean
+private Modifier MethodDeclaration SimpleName is web user agent
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName user agent
+private Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+private Modifier MethodDeclaration Block ReturnStatement SimpleName is web
+boolean PrimitiveType MethodDeclaration SimpleName is web user agent
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName user agent
+boolean PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+boolean PrimitiveType MethodDeclaration Block ReturnStatement SimpleName is web
+is web user agent SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+is web user agent SimpleName MethodDeclaration SingleVariableDeclaration SimpleName user agent
+is web user agent SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+is web user agent SimpleName MethodDeclaration Block ReturnStatement SimpleName is web
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName is web user agent
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName user agent
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName is web user agent
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName user agent

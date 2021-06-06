@@ -1,0 +1,70 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName xml
+xml SimpleName MethodInvocation SimpleName replace all
+xml SimpleName MethodInvocation StringLiteral &
+xml SimpleName MethodInvocation StringLiteral amp
+replace all SimpleName MethodInvocation StringLiteral &
+replace all SimpleName MethodInvocation StringLiteral amp
+& StringLiteral MethodInvocation StringLiteral amp
+xml SimpleName MethodInvocation MethodInvocation SimpleName replace all
+replace all SimpleName MethodInvocation MethodInvocation SimpleName replace all
+& StringLiteral MethodInvocation MethodInvocation SimpleName replace all
+amp StringLiteral MethodInvocation MethodInvocation SimpleName replace all
+xml SimpleName MethodInvocation MethodInvocation StringLiteral <
+replace all SimpleName MethodInvocation MethodInvocation StringLiteral <
+& StringLiteral MethodInvocation MethodInvocation StringLiteral <
+amp StringLiteral MethodInvocation MethodInvocation StringLiteral <
+xml SimpleName MethodInvocation MethodInvocation StringLiteral lt
+replace all SimpleName MethodInvocation MethodInvocation StringLiteral lt
+& StringLiteral MethodInvocation MethodInvocation StringLiteral lt
+amp StringLiteral MethodInvocation MethodInvocation StringLiteral lt
+replace all SimpleName MethodInvocation StringLiteral <
+replace all SimpleName MethodInvocation StringLiteral lt
+< StringLiteral MethodInvocation StringLiteral lt
+xml SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName replace all
+replace all SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName replace all
+& StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName replace all
+amp StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName replace all
+replace all SimpleName MethodInvocation MethodInvocation SimpleName replace all
+< StringLiteral MethodInvocation MethodInvocation SimpleName replace all
+lt StringLiteral MethodInvocation MethodInvocation SimpleName replace all
+xml SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral >
+replace all SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral >
+& StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral >
+amp StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral >
+replace all SimpleName MethodInvocation MethodInvocation StringLiteral >
+< StringLiteral MethodInvocation MethodInvocation StringLiteral >
+lt StringLiteral MethodInvocation MethodInvocation StringLiteral >
+xml SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral gt
+replace all SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral gt
+& StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral gt
+amp StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral gt
+replace all SimpleName MethodInvocation MethodInvocation StringLiteral gt
+< StringLiteral MethodInvocation MethodInvocation StringLiteral gt
+lt StringLiteral MethodInvocation MethodInvocation StringLiteral gt
+replace all SimpleName MethodInvocation StringLiteral >
+replace all SimpleName MethodInvocation StringLiteral gt
+> StringLiteral MethodInvocation StringLiteral gt
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName sanitize
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName xml
+static Modifier MethodDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SimpleName sanitize
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName xml
+string SimpleName SimpleType MethodDeclaration SimpleName sanitize
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName xml
+sanitize SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+sanitize SimpleName MethodDeclaration SingleVariableDeclaration SimpleName xml
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName sanitize
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName xml
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName sanitize
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName xml

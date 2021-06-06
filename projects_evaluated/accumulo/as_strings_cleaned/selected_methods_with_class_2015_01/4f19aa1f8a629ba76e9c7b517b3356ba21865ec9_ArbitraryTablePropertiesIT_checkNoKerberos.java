@@ -1,0 +1,21 @@
+get token SimpleName MethodInvocation InstanceofExpression SimpleType SimpleName kerberos token
+assume SimpleName MethodInvocation SimpleName assume false
+assume SimpleName MethodInvocation InstanceofExpression MethodInvocation SimpleName get token
+assume SimpleName MethodInvocation InstanceofExpression SimpleType SimpleName kerberos token
+assume false SimpleName MethodInvocation InstanceofExpression MethodInvocation SimpleName get token
+assume false SimpleName MethodInvocation InstanceofExpression SimpleType SimpleName kerberos token
+before SimpleName MarkerAnnotation MethodDeclaration Modifier public
+before SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+before SimpleName MarkerAnnotation MethodDeclaration SimpleName check no kerberos
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName check no kerberos
+void PrimitiveType MethodDeclaration SimpleName check no kerberos
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName before
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName check no kerberos
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName before
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName check no kerberos

@@ -1,0 +1,41 @@
+atlas vertex SimpleName SimpleType SingleVariableDeclaration SimpleName vertex
+iterable SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas edge
+vertex SimpleName MethodInvocation SimpleName get edges
+vertex SimpleName MethodInvocation QualifiedName atlas edge directionout
+get edges SimpleName MethodInvocation QualifiedName atlas edge directionout
+edges SimpleName VariableDeclarationFragment MethodInvocation SimpleName vertex
+edges SimpleName VariableDeclarationFragment MethodInvocation SimpleName get edges
+edges SimpleName VariableDeclarationFragment MethodInvocation QualifiedName atlas edge directionout
+atlas edge SimpleName SimpleType SingleVariableDeclaration SimpleName edge
+atlas graph SimpleName MethodInvocation SimpleName remove edge
+atlas graph SimpleName MethodInvocation SimpleName edge
+remove edge SimpleName MethodInvocation SimpleName edge
+atlas edge SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName edges
+edge SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName edges
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName delete type vertex out edges
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas vertex
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName vertex
+public Modifier MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier MethodDeclaration Block EnhancedForStatement SimpleName edges
+void PrimitiveType MethodDeclaration SimpleName delete type vertex out edges
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas vertex
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName vertex
+void PrimitiveType MethodDeclaration SimpleType SimpleName atlas base exception
+void PrimitiveType MethodDeclaration Block EnhancedForStatement SimpleName edges
+delete type vertex out edges SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas vertex
+delete type vertex out edges SimpleName MethodDeclaration SingleVariableDeclaration SimpleName vertex
+delete type vertex out edges SimpleName MethodDeclaration SimpleType SimpleName atlas base exception
+delete type vertex out edges SimpleName MethodDeclaration Block EnhancedForStatement SimpleName edges
+vertex SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName delete type vertex out edges
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName vertex
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName delete type vertex out edges
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName vertex
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception

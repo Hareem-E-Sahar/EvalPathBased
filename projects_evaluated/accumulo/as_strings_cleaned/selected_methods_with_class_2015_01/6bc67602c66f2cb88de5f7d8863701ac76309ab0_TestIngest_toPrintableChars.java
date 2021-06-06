@@ -1,0 +1,44 @@
+byte PrimitiveType ArrayType SingleVariableDeclaration SimpleName dest
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+i SimpleName InfixExpression QualifiedName destlength
+dest SimpleName ArrayAccess SimpleName i
+dest SimpleName ArrayAccess SimpleName i
+xff NumberLiteral InfixExpression ArrayAccess SimpleName dest
+xff NumberLiteral InfixExpression ArrayAccess SimpleName i
+xff NumberLiteral InfixExpression ParenthesizedExpression InfixExpression NumberLiteral empty
+empty NumberLiteral InfixExpression ParenthesizedExpression InfixExpression CharacterLiteral empty
+byte PrimitiveType CastExpression ParenthesizedExpression InfixExpression CharacterLiteral empty
+dest SimpleName ArrayAccess Assignment CastExpression PrimitiveType byte
+i SimpleName ArrayAccess Assignment CastExpression PrimitiveType byte
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression QualifiedName destlength
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+destlength QualifiedName InfixExpression ForStatement PostfixExpression SimpleName i
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName to printable chars
+public Modifier MethodDeclaration SingleVariableDeclaration ArrayType PrimitiveType byte
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName dest
+static Modifier MethodDeclaration PrimitiveType void
+static Modifier MethodDeclaration SimpleName to printable chars
+static Modifier MethodDeclaration SingleVariableDeclaration ArrayType PrimitiveType byte
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName dest
+void PrimitiveType MethodDeclaration SimpleName to printable chars
+void PrimitiveType MethodDeclaration SingleVariableDeclaration ArrayType PrimitiveType byte
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName dest
+to printable chars SimpleName MethodDeclaration SingleVariableDeclaration ArrayType PrimitiveType byte
+to printable chars SimpleName MethodDeclaration SingleVariableDeclaration SimpleName dest
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName to printable chars
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName dest
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName to printable chars
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName dest

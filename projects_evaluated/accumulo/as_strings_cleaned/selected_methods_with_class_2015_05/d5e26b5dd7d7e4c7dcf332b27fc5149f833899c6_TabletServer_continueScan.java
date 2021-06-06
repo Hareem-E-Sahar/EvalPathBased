@@ -1,0 +1,195 @@
+t info SimpleName SimpleType SingleVariableDeclaration SimpleName tinfo
+long PrimitiveType SingleVariableDeclaration SimpleName scan id
+scan session SimpleName SimpleType SingleVariableDeclaration SimpleName scan session
+next batch task SimpleName SimpleType ClassInstanceCreation SimpleName scan id
+next batch task SimpleName SimpleType ClassInstanceCreation QualifiedName scan sessioninterrupt flag
+scan id SimpleName ClassInstanceCreation QualifiedName scan sessioninterrupt flag
+scan sessionnext batch task QualifiedName Assignment ClassInstanceCreation SimpleType SimpleName next batch task
+scan sessionnext batch task QualifiedName Assignment ClassInstanceCreation SimpleName scan id
+scan sessionnext batch task QualifiedName Assignment ClassInstanceCreation QualifiedName scan sessioninterrupt flag
+resource manager SimpleName MethodInvocation SimpleName execute read ahead
+resource manager SimpleName MethodInvocation QualifiedName scan sessionextent
+resource manager SimpleName MethodInvocation QualifiedName scan sessionnext batch task
+execute read ahead SimpleName MethodInvocation QualifiedName scan sessionextent
+execute read ahead SimpleName MethodInvocation QualifiedName scan sessionnext batch task
+scan sessionextent QualifiedName MethodInvocation QualifiedName scan sessionnext batch task
+scan batch SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName bresult
+scan sessionnext batch task QualifiedName MethodInvocation SimpleName get
+scan sessionnext batch task QualifiedName MethodInvocation SimpleName max time to wait for scan result millis
+scan sessionnext batch task QualifiedName MethodInvocation QualifiedName time unitmilliseconds
+get SimpleName MethodInvocation SimpleName max time to wait for scan result millis
+get SimpleName MethodInvocation QualifiedName time unitmilliseconds
+max time to wait for scan result millis SimpleName MethodInvocation QualifiedName time unitmilliseconds
+bresult SimpleName Assignment MethodInvocation QualifiedName scan sessionnext batch task
+bresult SimpleName Assignment MethodInvocation SimpleName get
+bresult SimpleName Assignment MethodInvocation SimpleName max time to wait for scan result millis
+bresult SimpleName Assignment MethodInvocation QualifiedName time unitmilliseconds
+execution exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+session manager SimpleName MethodInvocation SimpleName remove session
+session manager SimpleName MethodInvocation SimpleName scan id
+remove session SimpleName MethodInvocation SimpleName scan id
+e SimpleName MethodInvocation SimpleName get cause
+e SimpleName MethodInvocation InstanceofExpression SimpleType SimpleName not serving tablet exception
+get cause SimpleName MethodInvocation InstanceofExpression SimpleType SimpleName not serving tablet exception
+e SimpleName MethodInvocation SimpleName get cause
+not serving tablet exception SimpleName SimpleType CastExpression MethodInvocation SimpleName e
+not serving tablet exception SimpleName SimpleType CastExpression MethodInvocation SimpleName get cause
+e SimpleName MethodInvocation SimpleName get cause
+e SimpleName MethodInvocation InstanceofExpression SimpleType SimpleName too many files exception
+get cause SimpleName MethodInvocation InstanceofExpression SimpleType SimpleName too many files exception
+scan sessionextent QualifiedName MethodInvocation SimpleName to thrift
+orgapacheaccumulocoretabletserverthrifttoo many files exception QualifiedName SimpleType ClassInstanceCreation MethodInvocation QualifiedName scan sessionextent
+orgapacheaccumulocoretabletserverthrifttoo many files exception QualifiedName SimpleType ClassInstanceCreation MethodInvocation SimpleName to thrift
+runtime exception SimpleName SimpleType ClassInstanceCreation SimpleName e
+cancellation exception SimpleName SimpleType SingleVariableDeclaration SimpleName ce
+session manager SimpleName MethodInvocation SimpleName remove session
+session manager SimpleName MethodInvocation SimpleName scan id
+remove session SimpleName MethodInvocation SimpleName scan id
+online tablets SimpleName MethodInvocation SimpleName get
+online tablets SimpleName MethodInvocation QualifiedName scan sessionextent
+get SimpleName MethodInvocation QualifiedName scan sessionextent
+tablet SimpleName VariableDeclarationFragment MethodInvocation SimpleName online tablets
+tablet SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+tablet SimpleName VariableDeclarationFragment MethodInvocation QualifiedName scan sessionextent
+tablet SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName tablet
+tablet SimpleName MethodInvocation SimpleName is closed
+tablet SimpleName InfixExpression InfixExpression MethodInvocation SimpleName tablet
+tablet SimpleName InfixExpression InfixExpression MethodInvocation SimpleName is closed
+scan sessionextent QualifiedName MethodInvocation SimpleName to thrift
+not serving tablet exception SimpleName SimpleType ClassInstanceCreation MethodInvocation QualifiedName scan sessionextent
+not serving tablet exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName to thrift
+timeout exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName t key value
+collections SimpleName MethodInvocation SimpleName empty list
+param SimpleName VariableDeclarationFragment MethodInvocation SimpleName collections
+param SimpleName VariableDeclarationFragment MethodInvocation SimpleName empty list
+acu conf SimpleName MethodInvocation SimpleName get time in millis
+acu conf SimpleName MethodInvocation QualifiedName propertytserv client timeout
+get time in millis SimpleName MethodInvocation QualifiedName propertytserv client timeout
+timeout SimpleName VariableDeclarationFragment MethodInvocation SimpleName acu conf
+timeout SimpleName VariableDeclarationFragment MethodInvocation SimpleName get time in millis
+timeout SimpleName VariableDeclarationFragment MethodInvocation QualifiedName propertytserv client timeout
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName timeout
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName acu conf
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get time in millis
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation QualifiedName propertytserv client timeout
+session manager SimpleName MethodInvocation SimpleName remove if not accessed
+session manager SimpleName MethodInvocation SimpleName scan id
+session manager SimpleName MethodInvocation SimpleName timeout
+remove if not accessed SimpleName MethodInvocation SimpleName scan id
+remove if not accessed SimpleName MethodInvocation SimpleName timeout
+scan id SimpleName MethodInvocation SimpleName timeout
+scan result SimpleName SimpleType ClassInstanceCreation SimpleName param
+scan result SimpleName SimpleType ClassInstanceCreation BooleanLiteral true
+param SimpleName ClassInstanceCreation BooleanLiteral true
+throwable SimpleName SimpleType SingleVariableDeclaration SimpleName t
+session manager SimpleName MethodInvocation SimpleName remove session
+session manager SimpleName MethodInvocation SimpleName scan id
+remove session SimpleName MethodInvocation SimpleName scan id
+log SimpleName MethodInvocation SimpleName warn
+log SimpleName MethodInvocation StringLiteral failed to get next batch
+log SimpleName MethodInvocation SimpleName t
+warn SimpleName MethodInvocation StringLiteral failed to get next batch
+warn SimpleName MethodInvocation SimpleName t
+failed to get next batch StringLiteral MethodInvocation SimpleName t
+runtime exception SimpleName SimpleType ClassInstanceCreation SimpleName t
+key SimpleName MethodInvocation SimpleName compress
+key SimpleName MethodInvocation QualifiedName bresultresults
+compress SimpleName MethodInvocation QualifiedName bresultresults
+scan result SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName key
+scan result SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName compress
+scan result SimpleName SimpleType ClassInstanceCreation MethodInvocation QualifiedName bresultresults
+scan result SimpleName SimpleType ClassInstanceCreation QualifiedName bresultmore
+key SimpleName MethodInvocation ClassInstanceCreation QualifiedName bresultmore
+compress SimpleName MethodInvocation ClassInstanceCreation QualifiedName bresultmore
+bresultresults QualifiedName MethodInvocation ClassInstanceCreation QualifiedName bresultmore
+scan result SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName scan result
+scan result SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName key
+scan result SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName compress
+scan result SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation QualifiedName bresultresults
+scan result SimpleName VariableDeclarationFragment ClassInstanceCreation QualifiedName bresultmore
+scan result SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName scan result
+scan resultresults QualifiedName MethodInvocation SimpleName size
+scan sessionentries returned QualifiedName Assignment MethodInvocation QualifiedName scan resultresults
+scan sessionentries returned QualifiedName Assignment MethodInvocation SimpleName size
+scan sessionbatch count QualifiedName InfixExpression QualifiedName scan sessionreadahead threshold
+scan resultmore QualifiedName InfixExpression InfixExpression QualifiedName scan sessionbatch count
+scan resultmore QualifiedName InfixExpression InfixExpression QualifiedName scan sessionreadahead threshold
+next batch task SimpleName SimpleType ClassInstanceCreation SimpleName scan id
+next batch task SimpleName SimpleType ClassInstanceCreation QualifiedName scan sessioninterrupt flag
+scan id SimpleName ClassInstanceCreation QualifiedName scan sessioninterrupt flag
+scan sessionnext batch task QualifiedName Assignment ClassInstanceCreation SimpleType SimpleName next batch task
+scan sessionnext batch task QualifiedName Assignment ClassInstanceCreation SimpleName scan id
+scan sessionnext batch task QualifiedName Assignment ClassInstanceCreation QualifiedName scan sessioninterrupt flag
+resource manager SimpleName MethodInvocation SimpleName execute read ahead
+resource manager SimpleName MethodInvocation QualifiedName scan sessionextent
+resource manager SimpleName MethodInvocation QualifiedName scan sessionnext batch task
+execute read ahead SimpleName MethodInvocation QualifiedName scan sessionextent
+execute read ahead SimpleName MethodInvocation QualifiedName scan sessionnext batch task
+scan sessionextent QualifiedName MethodInvocation QualifiedName scan sessionnext batch task
+close scan SimpleName MethodInvocation SimpleName tinfo
+close scan SimpleName MethodInvocation SimpleName scan id
+tinfo SimpleName MethodInvocation SimpleName scan id
+private Modifier MethodDeclaration SimpleType SimpleName scan result
+private Modifier MethodDeclaration SimpleName continue scan
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName t info
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName tinfo
+private Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType long
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName scan id
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName scan session
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName scan session
+scan result SimpleName SimpleType MethodDeclaration SimpleName continue scan
+scan result SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName tinfo
+scan result SimpleName SimpleType MethodDeclaration SingleVariableDeclaration PrimitiveType long
+scan result SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName scan id
+scan result SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName scan session
+scan result SimpleName SimpleType MethodDeclaration SimpleType SimpleName no such scan id exception
+continue scan SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName t info
+continue scan SimpleName MethodDeclaration SingleVariableDeclaration SimpleName tinfo
+continue scan SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType long
+continue scan SimpleName MethodDeclaration SingleVariableDeclaration SimpleName scan id
+continue scan SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName scan session
+continue scan SimpleName MethodDeclaration SingleVariableDeclaration SimpleName scan session
+continue scan SimpleName MethodDeclaration SimpleType SimpleName no such scan id exception
+continue scan SimpleName MethodDeclaration SimpleType SimpleName not serving tablet exception
+tinfo SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+tinfo SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName scan id
+tinfo SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName scan session
+tinfo SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName no such scan id exception
+tinfo SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName not serving tablet exception
+tinfo SimpleName SingleVariableDeclaration MethodDeclaration SimpleType QualifiedName orgapacheaccumulocoretabletserverthrifttoo many files exception
+long PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName scan session
+scan id SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName scan session
+long PrimitiveType SingleVariableDeclaration MethodDeclaration SimpleType SimpleName no such scan id exception
+scan id SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName no such scan id exception
+long PrimitiveType SingleVariableDeclaration MethodDeclaration SimpleType SimpleName not serving tablet exception
+scan id SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName not serving tablet exception
+long PrimitiveType SingleVariableDeclaration MethodDeclaration SimpleType QualifiedName orgapacheaccumulocoretabletserverthrifttoo many files exception
+scan id SimpleName SingleVariableDeclaration MethodDeclaration SimpleType QualifiedName orgapacheaccumulocoretabletserverthrifttoo many files exception
+scan session SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName no such scan id exception
+scan session SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName not serving tablet exception
+scan session SimpleName SingleVariableDeclaration MethodDeclaration SimpleType QualifiedName orgapacheaccumulocoretabletserverthrifttoo many files exception
+no such scan id exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName not serving tablet exception
+no such scan id exception SimpleName SimpleType MethodDeclaration SimpleType QualifiedName orgapacheaccumulocoretabletserverthrifttoo many files exception
+not serving tablet exception SimpleName SimpleType MethodDeclaration SimpleType QualifiedName orgapacheaccumulocoretabletserverthrifttoo many files exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName scan result
+public Modifier TypeDeclaration MethodDeclaration SimpleName continue scan
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName tinfo
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName scan id
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName scan session
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName no such scan id exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName not serving tablet exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType QualifiedName orgapacheaccumulocoretabletserverthrifttoo many files exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName scan result
+test SimpleName TypeDeclaration MethodDeclaration SimpleName continue scan
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName tinfo
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName scan id
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName scan session
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName no such scan id exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName not serving tablet exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType QualifiedName orgapacheaccumulocoretabletserverthrifttoo many files exception

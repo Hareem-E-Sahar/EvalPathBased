@@ -1,0 +1,147 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName user id
+string SimpleName SimpleType SingleVariableDeclaration SimpleName asset guid
+method name SimpleName VariableDeclarationFragment StringLiteral get asset properties
+final Modifier VariableDeclarationStatement SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName method name
+final Modifier VariableDeclarationStatement VariableDeclarationFragment StringLiteral get asset properties
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName method name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral get asset properties
+guid parameter SimpleName VariableDeclarationFragment StringLiteral asset guid
+final Modifier VariableDeclarationStatement SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName guid parameter
+final Modifier VariableDeclarationStatement VariableDeclarationFragment StringLiteral asset guid
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName guid parameter
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral asset guid
+validate omas server url SimpleName MethodInvocation SimpleName method name
+validate user id SimpleName MethodInvocation SimpleName user id
+validate user id SimpleName MethodInvocation SimpleName method name
+user id SimpleName MethodInvocation SimpleName method name
+validate guid SimpleName MethodInvocation SimpleName asset guid
+validate guid SimpleName MethodInvocation SimpleName guid parameter
+validate guid SimpleName MethodInvocation SimpleName method name
+asset guid SimpleName MethodInvocation SimpleName guid parameter
+asset guid SimpleName MethodInvocation SimpleName method name
+guid parameter SimpleName MethodInvocation SimpleName method name
+connected asset SimpleName SimpleType ClassInstanceCreation SimpleName omas server url
+connected asset client SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName connected asset
+connected asset client SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName omas server url
+connected asset SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName connected asset client
+connected asset client SimpleName MethodInvocation SimpleName get asset properties
+connected asset client SimpleName MethodInvocation SimpleName user id
+connected asset client SimpleName MethodInvocation SimpleName asset guid
+get asset properties SimpleName MethodInvocation SimpleName user id
+get asset properties SimpleName MethodInvocation SimpleName asset guid
+user id SimpleName MethodInvocation SimpleName asset guid
+throwable SimpleName SimpleType SingleVariableDeclaration SimpleName error
+error code SimpleName VariableDeclarationFragment QualifiedName asset consumer error codeno connected asset
+asset consumer error code SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName error code
+asset consumer error code SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment QualifiedName asset consumer error codeno connected asset
+error code SimpleName MethodInvocation SimpleName get error message id
+error code SimpleName MethodInvocation SimpleName get formatted error message
+error code SimpleName MethodInvocation SimpleName method name
+get formatted error message SimpleName MethodInvocation SimpleName method name
+error code SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName error code
+error code SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get formatted error message
+error code SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName method name
+get error message id SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName error code
+get error message id SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get formatted error message
+get error message id SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName method name
+error message SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName error code
+error message SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName get error message id
+error message SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName error code
+error message SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName get formatted error message
+error message SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName method name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName error message
+error code SimpleName MethodInvocation SimpleName get http error code
+get class SimpleName MethodInvocation MethodInvocation SimpleName get name
+error code SimpleName MethodInvocation SimpleName get system action
+error code SimpleName MethodInvocation SimpleName get user action
+property server exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName error code
+property server exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get http error code
+property server exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get name
+property server exception SimpleName SimpleType ClassInstanceCreation SimpleName method name
+property server exception SimpleName SimpleType ClassInstanceCreation SimpleName error message
+property server exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName error code
+property server exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get system action
+error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get name
+get http error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get name
+error code SimpleName MethodInvocation ClassInstanceCreation SimpleName method name
+get http error code SimpleName MethodInvocation ClassInstanceCreation SimpleName method name
+error code SimpleName MethodInvocation ClassInstanceCreation SimpleName error message
+get http error code SimpleName MethodInvocation ClassInstanceCreation SimpleName error message
+error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName error code
+error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get system action
+get http error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName error code
+get http error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get system action
+error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName error code
+error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get user action
+get http error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName error code
+get http error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get user action
+get class SimpleName MethodInvocation MethodInvocation ClassInstanceCreation SimpleName method name
+get name SimpleName MethodInvocation ClassInstanceCreation SimpleName method name
+get class SimpleName MethodInvocation MethodInvocation ClassInstanceCreation SimpleName error message
+get name SimpleName MethodInvocation ClassInstanceCreation SimpleName error message
+get name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName error code
+get name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get system action
+get name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName error code
+get name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get user action
+method name SimpleName ClassInstanceCreation SimpleName error message
+method name SimpleName ClassInstanceCreation MethodInvocation SimpleName error code
+method name SimpleName ClassInstanceCreation MethodInvocation SimpleName get system action
+method name SimpleName ClassInstanceCreation MethodInvocation SimpleName error code
+method name SimpleName ClassInstanceCreation MethodInvocation SimpleName get user action
+error message SimpleName ClassInstanceCreation MethodInvocation SimpleName error code
+error message SimpleName ClassInstanceCreation MethodInvocation SimpleName get system action
+error message SimpleName ClassInstanceCreation MethodInvocation SimpleName error code
+error message SimpleName ClassInstanceCreation MethodInvocation SimpleName get user action
+error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName error code
+error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get user action
+get system action SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName error code
+get system action SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get user action
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+public Modifier MethodDeclaration SimpleType SimpleName asset universe
+public Modifier MethodDeclaration SimpleName get asset properties
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName user id
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName asset guid
+public Modifier MethodDeclaration SimpleType SimpleName invalid parameter exception
+asset universe SimpleName SimpleType MethodDeclaration SimpleName get asset properties
+asset universe SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName user id
+asset universe SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName asset guid
+asset universe SimpleName SimpleType MethodDeclaration SimpleType SimpleName invalid parameter exception
+asset universe SimpleName SimpleType MethodDeclaration SimpleType SimpleName property server exception
+get asset properties SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get asset properties SimpleName MethodDeclaration SingleVariableDeclaration SimpleName user id
+get asset properties SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get asset properties SimpleName MethodDeclaration SingleVariableDeclaration SimpleName asset guid
+get asset properties SimpleName MethodDeclaration SimpleType SimpleName invalid parameter exception
+get asset properties SimpleName MethodDeclaration SimpleType SimpleName property server exception
+get asset properties SimpleName MethodDeclaration SimpleType SimpleName user not authorized exception
+user id SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName asset guid
+user id SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName invalid parameter exception
+user id SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName property server exception
+user id SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName user not authorized exception
+asset guid SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName invalid parameter exception
+asset guid SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName property server exception
+asset guid SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName user not authorized exception
+invalid parameter exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName property server exception
+invalid parameter exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName user not authorized exception
+property server exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName user not authorized exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName asset universe
+public Modifier TypeDeclaration MethodDeclaration SimpleName get asset properties
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName user id
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName asset guid
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName invalid parameter exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName property server exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName user not authorized exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName asset universe
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get asset properties
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName user id
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName asset guid
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName invalid parameter exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName property server exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName user not authorized exception

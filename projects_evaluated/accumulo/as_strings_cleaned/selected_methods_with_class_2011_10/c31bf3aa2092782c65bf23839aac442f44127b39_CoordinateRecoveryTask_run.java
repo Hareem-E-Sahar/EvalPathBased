@@ -1,0 +1,104 @@
+count SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName count
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName recovery job
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName recovery job
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName recovery job
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName recovery job
+processing SimpleName MethodInvocation SimpleName entry set
+entries SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName processing
+entries SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName entry set
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName recovery job
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName recovery job
+entry SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName job
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName job
+recovery job SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName job
+job SimpleName MethodInvocation SimpleName get value
+job SimpleName MethodInvocation MethodInvocation SimpleName is complete
+get value SimpleName MethodInvocation MethodInvocation SimpleName is complete
+job SimpleName MethodInvocation SimpleName get key
+processing SimpleName MethodInvocation SimpleName remove
+processing SimpleName MethodInvocation MethodInvocation SimpleName job
+processing SimpleName MethodInvocation MethodInvocation SimpleName get key
+remove SimpleName MethodInvocation MethodInvocation SimpleName job
+remove SimpleName MethodInvocation MethodInvocation SimpleName get key
+processing SimpleName MethodInvocation SimpleName notify all
+job SimpleName MethodInvocation SimpleName get value
+job SimpleName MethodInvocation FieldAccess SimpleName notify
+get value SimpleName MethodInvocation FieldAccess SimpleName notify
+job SimpleName MethodInvocation SimpleName get value
+job SimpleName MethodInvocation FieldAccess SimpleName log file
+get value SimpleName MethodInvocation FieldAccess SimpleName log file
+job SimpleName MethodInvocation FieldAccess MethodInvocation SimpleName finished
+get value SimpleName MethodInvocation FieldAccess MethodInvocation SimpleName finished
+notify SimpleName FieldAccess MethodInvocation SimpleName finished
+notify SimpleName FieldAccess MethodInvocation FieldAccess SimpleName log file
+finished SimpleName MethodInvocation FieldAccess MethodInvocation SimpleName job
+finished SimpleName MethodInvocation FieldAccess MethodInvocation SimpleName get value
+finished SimpleName MethodInvocation FieldAccess SimpleName log file
+throwable SimpleName SimpleType SingleVariableDeclaration SimpleName t
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation StringLiteral error checking on job
+log SimpleName MethodInvocation SimpleName t
+error SimpleName MethodInvocation StringLiteral error checking on job
+error SimpleName MethodInvocation SimpleName t
+error checking on job StringLiteral MethodInvocation SimpleName t
+job SimpleName MethodInvocation SimpleName get key
+processing SimpleName MethodInvocation SimpleName remove
+processing SimpleName MethodInvocation MethodInvocation SimpleName job
+processing SimpleName MethodInvocation MethodInvocation SimpleName get key
+remove SimpleName MethodInvocation MethodInvocation SimpleName job
+remove SimpleName MethodInvocation MethodInvocation SimpleName get key
+job SimpleName MethodInvocation SimpleName get value
+job SimpleName MethodInvocation MethodInvocation SimpleName fail
+get value SimpleName MethodInvocation MethodInvocation SimpleName fail
+processing SimpleName MethodInvocation SimpleName notify all
+job SimpleName MethodInvocation SimpleName get value
+job SimpleName MethodInvocation FieldAccess SimpleName notify
+get value SimpleName MethodInvocation FieldAccess SimpleName notify
+job SimpleName MethodInvocation SimpleName get value
+job SimpleName MethodInvocation FieldAccess SimpleName log file
+get value SimpleName MethodInvocation FieldAccess SimpleName log file
+job SimpleName MethodInvocation FieldAccess MethodInvocation SimpleName finished
+get value SimpleName MethodInvocation FieldAccess MethodInvocation SimpleName finished
+notify SimpleName FieldAccess MethodInvocation SimpleName finished
+notify SimpleName FieldAccess MethodInvocation FieldAccess SimpleName log file
+finished SimpleName MethodInvocation FieldAccess MethodInvocation SimpleName job
+finished SimpleName MethodInvocation FieldAccess MethodInvocation SimpleName get value
+finished SimpleName MethodInvocation FieldAccess SimpleName log file
+job SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName entries
+processing SimpleName SynchronizedStatement Block EnhancedForStatement SimpleName entries
+count SimpleName PostfixExpression InfixExpression NumberLiteral empty
+count SimpleName PostfixExpression InfixExpression InfixExpression NumberLiteral empty
+empty NumberLiteral InfixExpression InfixExpression NumberLiteral empty
+util wait thread SimpleName MethodInvocation SimpleName sleep
+util wait thread SimpleName MethodInvocation NumberLiteral empty
+sleep SimpleName MethodInvocation NumberLiteral empty
+throwable SimpleName SimpleType SingleVariableDeclaration SimpleName t
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation StringLiteral unexpected exception caught
+log SimpleName MethodInvocation SimpleName t
+error SimpleName MethodInvocation StringLiteral unexpected exception caught
+error SimpleName MethodInvocation SimpleName t
+unexpected exception caught StringLiteral MethodInvocation SimpleName t
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName run
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName run
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+void PrimitiveType MethodDeclaration SimpleName run
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+run SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName run
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName run

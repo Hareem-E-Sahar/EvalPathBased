@@ -1,0 +1,63 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName table id
+string SimpleName SimpleType SingleVariableDeclaration SimpleName file
+internal ids SimpleName MethodInvocation SimpleName get
+internal ids SimpleName MethodInvocation SimpleName table id
+get SimpleName MethodInvocation SimpleName table id
+internal id SimpleName VariableDeclarationFragment MethodInvocation SimpleName internal ids
+internal id SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+internal id SimpleName VariableDeclarationFragment MethodInvocation SimpleName table id
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName internal id
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName internal ids
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName table id
+table files SimpleName MethodInvocation SimpleName get
+table files SimpleName MethodInvocation SimpleName file
+get SimpleName MethodInvocation SimpleName file
+tables SimpleName VariableDeclarationFragment MethodInvocation SimpleName table files
+tables SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+tables SimpleName VariableDeclarationFragment MethodInvocation SimpleName file
+internal ids SimpleName MethodInvocation SimpleName size
+tables SimpleName Assignment ArrayCreation MethodInvocation SimpleName internal ids
+tables SimpleName Assignment ArrayCreation MethodInvocation SimpleName size
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+i SimpleName InfixExpression QualifiedName tableslength
+tables SimpleName ArrayAccess SimpleName i
+tables SimpleName ArrayAccess Assignment NumberLiteral empty
+i SimpleName ArrayAccess Assignment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression QualifiedName tableslength
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+tableslength QualifiedName InfixExpression ForStatement PostfixExpression SimpleName i
+table files SimpleName MethodInvocation SimpleName put
+table files SimpleName MethodInvocation SimpleName file
+table files SimpleName MethodInvocation SimpleName tables
+put SimpleName MethodInvocation SimpleName file
+put SimpleName MethodInvocation SimpleName tables
+file SimpleName MethodInvocation SimpleName tables
+tables SimpleName ArrayAccess SimpleName internal id
+tables SimpleName ArrayAccess Assignment NumberLiteral empty
+internal id SimpleName ArrayAccess Assignment NumberLiteral empty
+void PrimitiveType MethodDeclaration SimpleName link file and table
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName table id
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName file
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+link file and table SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+link file and table SimpleName MethodDeclaration SingleVariableDeclaration SimpleName table id
+link file and table SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+link file and table SimpleName MethodDeclaration SingleVariableDeclaration SimpleName file
+link file and table SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+table id SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName file
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName link file and table
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table id
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName file
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName link file and table
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table id
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName file

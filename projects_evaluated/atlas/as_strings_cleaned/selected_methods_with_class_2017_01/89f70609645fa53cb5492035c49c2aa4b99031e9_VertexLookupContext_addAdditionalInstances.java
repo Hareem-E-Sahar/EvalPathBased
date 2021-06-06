@@ -1,0 +1,22 @@
+collection SimpleName SimpleType ParameterizedType SimpleType SimpleName i typed referenceable instance
+collection SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName new elements
+i typed referenceable instance SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName new elements
+i typed referenceable instance SimpleName SimpleType SingleVariableDeclaration SimpleName instance
+add additional instance SimpleName MethodInvocation SimpleName instance
+i typed referenceable instance SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName new elements
+instance SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName new elements
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName add additional instances
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName new elements
+void PrimitiveType MethodDeclaration SimpleName add additional instances
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName new elements
+add additional instances SimpleName MethodDeclaration SingleVariableDeclaration SimpleName new elements
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName add additional instances
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new elements
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName add additional instances
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new elements

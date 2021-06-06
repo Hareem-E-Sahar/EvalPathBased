@@ -1,0 +1,19 @@
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName connection
+array list SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName connections
+connection SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName connections
+connections SimpleName FieldAccess Assignment SimpleName connections
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set connections
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName connections
+void PrimitiveType MethodDeclaration SimpleName set connections
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName connections
+set connections SimpleName MethodDeclaration SingleVariableDeclaration SimpleName connections
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set connections
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName connections
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set connections
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName connections

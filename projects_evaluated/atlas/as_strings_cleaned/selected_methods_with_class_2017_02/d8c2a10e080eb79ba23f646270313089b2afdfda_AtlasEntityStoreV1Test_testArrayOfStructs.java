@@ -1,0 +1,252 @@
+depends on methods SimpleName MemberValuePair StringLiteral test create
+test SimpleName NormalAnnotation MemberValuePair SimpleName depends on methods
+test SimpleName NormalAnnotation MemberValuePair StringLiteral test create
+atlas struct SimpleName SimpleType ClassInstanceCreation QualifiedName test utils v partition struct type
+partition SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName atlas struct
+partition SimpleName VariableDeclarationFragment ClassInstanceCreation QualifiedName test utils v partition struct type
+final Modifier VariableDeclarationStatement SimpleType SimpleName atlas struct
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName partition
+final Modifier VariableDeclarationStatement VariableDeclarationFragment ClassInstanceCreation QualifiedName test utils v partition struct type
+atlas struct SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName partition
+partition SimpleName MethodInvocation SimpleName set attribute
+partition SimpleName MethodInvocation QualifiedName test utils v name
+partition SimpleName MethodInvocation StringLiteral part
+set attribute SimpleName MethodInvocation QualifiedName test utils v name
+set attribute SimpleName MethodInvocation StringLiteral part
+test utils v name QualifiedName MethodInvocation StringLiteral part
+atlas struct SimpleName SimpleType ClassInstanceCreation QualifiedName test utils v partition struct type
+partition SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName atlas struct
+partition SimpleName VariableDeclarationFragment ClassInstanceCreation QualifiedName test utils v partition struct type
+final Modifier VariableDeclarationStatement SimpleType SimpleName atlas struct
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName partition
+final Modifier VariableDeclarationStatement VariableDeclarationFragment ClassInstanceCreation QualifiedName test utils v partition struct type
+atlas struct SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName partition
+partition SimpleName MethodInvocation SimpleName set attribute
+partition SimpleName MethodInvocation QualifiedName test utils v name
+partition SimpleName MethodInvocation StringLiteral part
+set attribute SimpleName MethodInvocation QualifiedName test utils v name
+set attribute SimpleName MethodInvocation StringLiteral part
+test utils v name QualifiedName MethodInvocation StringLiteral part
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas struct
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas struct
+add SimpleName MethodInvocation SimpleName partition
+add SimpleName MethodInvocation SimpleName partition
+table entity SimpleName MethodInvocation SimpleName set attribute
+table entity SimpleName MethodInvocation StringLiteral partitions
+table entity SimpleName MethodInvocation SimpleName partitions
+set attribute SimpleName MethodInvocation StringLiteral partitions
+set attribute SimpleName MethodInvocation SimpleName partitions
+partitions StringLiteral MethodInvocation SimpleName partitions
+entity store SimpleName MethodInvocation SimpleName create or update
+entity store SimpleName MethodInvocation SimpleName table entity map
+create or update SimpleName MethodInvocation SimpleName table entity map
+response SimpleName VariableDeclarationFragment MethodInvocation SimpleName entity store
+response SimpleName VariableDeclarationFragment MethodInvocation SimpleName create or update
+response SimpleName VariableDeclarationFragment MethodInvocation SimpleName table entity map
+entity mutation response SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName response
+response SimpleName MethodInvocation SimpleName get first updated entity by type name
+response SimpleName MethodInvocation QualifiedName test utils v table type
+get first updated entity by type name SimpleName MethodInvocation QualifiedName test utils v table type
+table definition SimpleName VariableDeclarationFragment MethodInvocation SimpleName response
+table definition SimpleName VariableDeclarationFragment MethodInvocation SimpleName get first updated entity by type name
+table definition SimpleName VariableDeclarationFragment MethodInvocation QualifiedName test utils v table type
+atlas entity header SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName table definition
+validate attributes SimpleName MethodInvocation SimpleName table entity map
+validate attributes SimpleName MethodInvocation SimpleName table definition
+table entity map SimpleName MethodInvocation SimpleName table definition
+atlas struct SimpleName SimpleType ClassInstanceCreation QualifiedName test utilspartition struct type
+partition SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName atlas struct
+partition SimpleName VariableDeclarationFragment ClassInstanceCreation QualifiedName test utilspartition struct type
+final Modifier VariableDeclarationStatement SimpleType SimpleName atlas struct
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName partition
+final Modifier VariableDeclarationStatement VariableDeclarationFragment ClassInstanceCreation QualifiedName test utilspartition struct type
+atlas struct SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName partition
+partition SimpleName MethodInvocation SimpleName set attribute
+partition SimpleName MethodInvocation QualifiedName test utils v name
+partition SimpleName MethodInvocation StringLiteral part
+set attribute SimpleName MethodInvocation QualifiedName test utils v name
+set attribute SimpleName MethodInvocation StringLiteral part
+test utils v name QualifiedName MethodInvocation StringLiteral part
+partitions SimpleName MethodInvocation SimpleName add
+partitions SimpleName MethodInvocation SimpleName partition
+add SimpleName MethodInvocation SimpleName partition
+table entity SimpleName MethodInvocation SimpleName set attribute
+table entity SimpleName MethodInvocation StringLiteral partitions
+table entity SimpleName MethodInvocation SimpleName partitions
+set attribute SimpleName MethodInvocation StringLiteral partitions
+set attribute SimpleName MethodInvocation SimpleName partitions
+partitions StringLiteral MethodInvocation SimpleName partitions
+entity store SimpleName MethodInvocation SimpleName create or update
+entity store SimpleName MethodInvocation SimpleName table entity map
+create or update SimpleName MethodInvocation SimpleName table entity map
+response SimpleName Assignment MethodInvocation SimpleName entity store
+response SimpleName Assignment MethodInvocation SimpleName create or update
+response SimpleName Assignment MethodInvocation SimpleName table entity map
+response SimpleName MethodInvocation SimpleName get first updated entity by type name
+response SimpleName MethodInvocation QualifiedName test utils v table type
+get first updated entity by type name SimpleName MethodInvocation QualifiedName test utils v table type
+table definition SimpleName Assignment MethodInvocation SimpleName response
+table definition SimpleName Assignment MethodInvocation SimpleName get first updated entity by type name
+table definition SimpleName Assignment MethodInvocation QualifiedName test utils v table type
+validate attributes SimpleName MethodInvocation SimpleName table entity map
+validate attributes SimpleName MethodInvocation SimpleName table definition
+table entity map SimpleName MethodInvocation SimpleName table definition
+partitions SimpleName MethodInvocation SimpleName remove
+partitions SimpleName MethodInvocation NumberLiteral empty
+remove SimpleName MethodInvocation NumberLiteral empty
+table entity SimpleName MethodInvocation SimpleName set attribute
+table entity SimpleName MethodInvocation StringLiteral partitions
+table entity SimpleName MethodInvocation SimpleName partitions
+set attribute SimpleName MethodInvocation StringLiteral partitions
+set attribute SimpleName MethodInvocation SimpleName partitions
+partitions StringLiteral MethodInvocation SimpleName partitions
+entity store SimpleName MethodInvocation SimpleName create or update
+entity store SimpleName MethodInvocation SimpleName table entity map
+create or update SimpleName MethodInvocation SimpleName table entity map
+response SimpleName Assignment MethodInvocation SimpleName entity store
+response SimpleName Assignment MethodInvocation SimpleName create or update
+response SimpleName Assignment MethodInvocation SimpleName table entity map
+response SimpleName MethodInvocation SimpleName get first updated entity by type name
+response SimpleName MethodInvocation QualifiedName test utils v table type
+get first updated entity by type name SimpleName MethodInvocation QualifiedName test utils v table type
+table definition SimpleName Assignment MethodInvocation SimpleName response
+table definition SimpleName Assignment MethodInvocation SimpleName get first updated entity by type name
+table definition SimpleName Assignment MethodInvocation QualifiedName test utils v table type
+validate attributes SimpleName MethodInvocation SimpleName table entity map
+validate attributes SimpleName MethodInvocation SimpleName table definition
+table entity map SimpleName MethodInvocation SimpleName table definition
+partitions SimpleName MethodInvocation SimpleName get
+partitions SimpleName MethodInvocation NumberLiteral empty
+get SimpleName MethodInvocation NumberLiteral empty
+partitions SimpleName MethodInvocation MethodInvocation SimpleName set attribute
+get SimpleName MethodInvocation MethodInvocation SimpleName set attribute
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName set attribute
+partitions SimpleName MethodInvocation MethodInvocation QualifiedName test utils v name
+get SimpleName MethodInvocation MethodInvocation QualifiedName test utils v name
+empty NumberLiteral MethodInvocation MethodInvocation QualifiedName test utils v name
+partitions SimpleName MethodInvocation MethodInvocation StringLiteral part
+get SimpleName MethodInvocation MethodInvocation StringLiteral part
+empty NumberLiteral MethodInvocation MethodInvocation StringLiteral part
+set attribute SimpleName MethodInvocation QualifiedName test utils v name
+set attribute SimpleName MethodInvocation StringLiteral part
+test utils v name QualifiedName MethodInvocation StringLiteral part
+table entity SimpleName MethodInvocation SimpleName set attribute
+table entity SimpleName MethodInvocation StringLiteral partitions
+table entity SimpleName MethodInvocation SimpleName partitions
+set attribute SimpleName MethodInvocation StringLiteral partitions
+set attribute SimpleName MethodInvocation SimpleName partitions
+partitions StringLiteral MethodInvocation SimpleName partitions
+entity store SimpleName MethodInvocation SimpleName create or update
+entity store SimpleName MethodInvocation SimpleName table entity map
+create or update SimpleName MethodInvocation SimpleName table entity map
+response SimpleName Assignment MethodInvocation SimpleName entity store
+response SimpleName Assignment MethodInvocation SimpleName create or update
+response SimpleName Assignment MethodInvocation SimpleName table entity map
+response SimpleName MethodInvocation SimpleName get first updated entity by type name
+response SimpleName MethodInvocation QualifiedName test utils v table type
+get first updated entity by type name SimpleName MethodInvocation QualifiedName test utils v table type
+table definition SimpleName Assignment MethodInvocation SimpleName response
+table definition SimpleName Assignment MethodInvocation SimpleName get first updated entity by type name
+table definition SimpleName Assignment MethodInvocation QualifiedName test utils v table type
+validate attributes SimpleName MethodInvocation SimpleName table entity map
+validate attributes SimpleName MethodInvocation SimpleName table definition
+table entity map SimpleName MethodInvocation SimpleName table definition
+atlas struct SimpleName SimpleType ClassInstanceCreation QualifiedName test utilspartition struct type
+partition SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName atlas struct
+partition SimpleName VariableDeclarationFragment ClassInstanceCreation QualifiedName test utilspartition struct type
+final Modifier VariableDeclarationStatement SimpleType SimpleName atlas struct
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName partition
+final Modifier VariableDeclarationStatement VariableDeclarationFragment ClassInstanceCreation QualifiedName test utilspartition struct type
+atlas struct SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName partition
+partition SimpleName MethodInvocation SimpleName set attribute
+partition SimpleName MethodInvocation QualifiedName test utils v name
+partition SimpleName MethodInvocation StringLiteral part
+set attribute SimpleName MethodInvocation QualifiedName test utils v name
+set attribute SimpleName MethodInvocation StringLiteral part
+test utils v name QualifiedName MethodInvocation StringLiteral part
+partitions SimpleName MethodInvocation SimpleName add
+partitions SimpleName MethodInvocation SimpleName partition
+add SimpleName MethodInvocation SimpleName partition
+table entity SimpleName MethodInvocation SimpleName set attribute
+table entity SimpleName MethodInvocation StringLiteral partitions
+table entity SimpleName MethodInvocation SimpleName partitions
+set attribute SimpleName MethodInvocation StringLiteral partitions
+set attribute SimpleName MethodInvocation SimpleName partitions
+partitions StringLiteral MethodInvocation SimpleName partitions
+entity store SimpleName MethodInvocation SimpleName create or update
+entity store SimpleName MethodInvocation SimpleName table entity map
+create or update SimpleName MethodInvocation SimpleName table entity map
+response SimpleName Assignment MethodInvocation SimpleName entity store
+response SimpleName Assignment MethodInvocation SimpleName create or update
+response SimpleName Assignment MethodInvocation SimpleName table entity map
+response SimpleName MethodInvocation SimpleName get first updated entity by type name
+response SimpleName MethodInvocation QualifiedName test utils v table type
+get first updated entity by type name SimpleName MethodInvocation QualifiedName test utils v table type
+table definition SimpleName Assignment MethodInvocation SimpleName response
+table definition SimpleName Assignment MethodInvocation SimpleName get first updated entity by type name
+table definition SimpleName Assignment MethodInvocation QualifiedName test utils v table type
+validate attributes SimpleName MethodInvocation SimpleName table entity map
+validate attributes SimpleName MethodInvocation SimpleName table definition
+table entity map SimpleName MethodInvocation SimpleName table definition
+partitions SimpleName MethodInvocation SimpleName clear
+table entity SimpleName MethodInvocation SimpleName set attribute
+table entity SimpleName MethodInvocation StringLiteral partitions
+table entity SimpleName MethodInvocation SimpleName partitions
+set attribute SimpleName MethodInvocation StringLiteral partitions
+set attribute SimpleName MethodInvocation SimpleName partitions
+partitions StringLiteral MethodInvocation SimpleName partitions
+entity store SimpleName MethodInvocation SimpleName create or update
+entity store SimpleName MethodInvocation SimpleName table entity map
+create or update SimpleName MethodInvocation SimpleName table entity map
+response SimpleName Assignment MethodInvocation SimpleName entity store
+response SimpleName Assignment MethodInvocation SimpleName create or update
+response SimpleName Assignment MethodInvocation SimpleName table entity map
+response SimpleName MethodInvocation SimpleName get first updated entity by type name
+response SimpleName MethodInvocation QualifiedName test utils v table type
+get first updated entity by type name SimpleName MethodInvocation QualifiedName test utils v table type
+table definition SimpleName Assignment MethodInvocation SimpleName response
+table definition SimpleName Assignment MethodInvocation SimpleName get first updated entity by type name
+table definition SimpleName Assignment MethodInvocation QualifiedName test utils v table type
+validate attributes SimpleName MethodInvocation SimpleName table entity map
+validate attributes SimpleName MethodInvocation SimpleName table definition
+table entity map SimpleName MethodInvocation SimpleName table definition
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+test SimpleName NormalAnnotation MethodDeclaration Modifier public
+depends on methods SimpleName MemberValuePair NormalAnnotation MethodDeclaration Modifier public
+test create StringLiteral MemberValuePair NormalAnnotation MethodDeclaration Modifier public
+test SimpleName NormalAnnotation MethodDeclaration PrimitiveType void
+depends on methods SimpleName MemberValuePair NormalAnnotation MethodDeclaration PrimitiveType void
+test create StringLiteral MemberValuePair NormalAnnotation MethodDeclaration PrimitiveType void
+test SimpleName NormalAnnotation MethodDeclaration SimpleName test array of structs
+depends on methods SimpleName MemberValuePair NormalAnnotation MethodDeclaration SimpleName test array of structs
+test create StringLiteral MemberValuePair NormalAnnotation MethodDeclaration SimpleName test array of structs
+test SimpleName NormalAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test array of structs
+public Modifier MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+public Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+public Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+public Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+void PrimitiveType MethodDeclaration SimpleName test array of structs
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement Modifier final
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement Modifier final
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement Modifier final
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement Modifier final
+test array of structs SimpleName MethodDeclaration SimpleType SimpleName exception
+test array of structs SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+test array of structs SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+test array of structs SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+test array of structs SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration NormalAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test array of structs
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration NormalAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test array of structs
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

@@ -1,0 +1,58 @@
+object SimpleName SimpleType SingleVariableDeclaration SimpleName obj
+stats SimpleName SimpleType CastExpression SimpleName obj
+stat SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName stats
+stat SimpleName VariableDeclarationFragment CastExpression SimpleName obj
+stats SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName stat
+sb SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName string builder
+string builder SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName sb
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation StringLiteral table
+append SimpleName MethodInvocation StringLiteral table
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation StringLiteral tr
+append SimpleName MethodInvocation StringLiteral tr
+long PrimitiveType SingleVariableDeclaration SimpleName count
+count SimpleName InfixExpression NumberLiteral empty
+string SimpleName MethodInvocation SimpleName format
+string SimpleName MethodInvocation StringLiteral td stylewidth emdtd
+string SimpleName MethodInvocation SimpleName count
+format SimpleName MethodInvocation StringLiteral td stylewidth emdtd
+format SimpleName MethodInvocation SimpleName count
+td stylewidth emdtd StringLiteral MethodInvocation SimpleName count
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation MethodInvocation SimpleName string
+sb SimpleName MethodInvocation MethodInvocation SimpleName format
+sb SimpleName MethodInvocation MethodInvocation StringLiteral td stylewidth emdtd
+sb SimpleName MethodInvocation MethodInvocation SimpleName count
+append SimpleName MethodInvocation MethodInvocation SimpleName string
+append SimpleName MethodInvocation MethodInvocation SimpleName format
+append SimpleName MethodInvocation MethodInvocation StringLiteral td stylewidth emdtd
+append SimpleName MethodInvocation MethodInvocation SimpleName count
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation StringLiteral td stylewidth emtd
+append SimpleName MethodInvocation StringLiteral td stylewidth emtd
+long PrimitiveType SingleVariableDeclaration EnhancedForStatement QualifiedName stathistogram
+count SimpleName SingleVariableDeclaration EnhancedForStatement QualifiedName stathistogram
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation StringLiteral trtable
+append SimpleName MethodInvocation StringLiteral trtable
+sb SimpleName MethodInvocation SimpleName to string
+public Modifier MethodDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName format
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName obj
+public Modifier MethodDeclaration Block EnhancedForStatement QualifiedName stathistogram
+string SimpleName SimpleType MethodDeclaration SimpleName format
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName obj
+format SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+format SimpleName MethodDeclaration SingleVariableDeclaration SimpleName obj
+format SimpleName MethodDeclaration Block EnhancedForStatement QualifiedName stathistogram
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName format
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName obj
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName format
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName obj

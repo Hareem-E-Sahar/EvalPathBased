@@ -1,0 +1,500 @@
+namespace SimpleName InfixExpression StringLiteral modify
+table name SimpleName VariableDeclarationFragment InfixExpression SimpleName namespace
+table name SimpleName VariableDeclarationFragment InfixExpression StringLiteral modify
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName table name
+c SimpleName MethodInvocation SimpleName namespace operations
+c SimpleName MethodInvocation MethodInvocation SimpleName create
+namespace operations SimpleName MethodInvocation MethodInvocation SimpleName create
+c SimpleName MethodInvocation MethodInvocation SimpleName namespace
+namespace operations SimpleName MethodInvocation MethodInvocation SimpleName namespace
+create SimpleName MethodInvocation SimpleName namespace
+c SimpleName MethodInvocation SimpleName table operations
+c SimpleName MethodInvocation MethodInvocation SimpleName create
+table operations SimpleName MethodInvocation MethodInvocation SimpleName create
+c SimpleName MethodInvocation MethodInvocation SimpleName table name
+table operations SimpleName MethodInvocation MethodInvocation SimpleName table name
+create SimpleName MethodInvocation SimpleName table name
+c SimpleName MethodInvocation SimpleName security operations
+c SimpleName MethodInvocation SimpleName whoami
+c SimpleName MethodInvocation MethodInvocation SimpleName has table permission
+security operations SimpleName MethodInvocation MethodInvocation SimpleName has table permission
+c SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName c
+c SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName whoami
+security operations SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName c
+security operations SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName whoami
+c SimpleName MethodInvocation MethodInvocation SimpleName table name
+security operations SimpleName MethodInvocation MethodInvocation SimpleName table name
+c SimpleName MethodInvocation MethodInvocation QualifiedName table permissionread
+security operations SimpleName MethodInvocation MethodInvocation QualifiedName table permissionread
+has table permission SimpleName MethodInvocation MethodInvocation SimpleName c
+has table permission SimpleName MethodInvocation MethodInvocation SimpleName whoami
+has table permission SimpleName MethodInvocation SimpleName table name
+has table permission SimpleName MethodInvocation QualifiedName table permissionread
+c SimpleName MethodInvocation MethodInvocation SimpleName table name
+whoami SimpleName MethodInvocation MethodInvocation SimpleName table name
+c SimpleName MethodInvocation MethodInvocation QualifiedName table permissionread
+whoami SimpleName MethodInvocation MethodInvocation QualifiedName table permissionread
+table name SimpleName MethodInvocation QualifiedName table permissionread
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName c
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName security operations
+assert true SimpleName MethodInvocation MethodInvocation SimpleName has table permission
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName c
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName whoami
+assert true SimpleName MethodInvocation MethodInvocation SimpleName table name
+assert true SimpleName MethodInvocation MethodInvocation QualifiedName table permissionread
+c SimpleName MethodInvocation SimpleName security operations
+c SimpleName MethodInvocation SimpleName whoami
+c SimpleName MethodInvocation MethodInvocation SimpleName revoke table permission
+security operations SimpleName MethodInvocation MethodInvocation SimpleName revoke table permission
+c SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName c
+c SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName whoami
+security operations SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName c
+security operations SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName whoami
+c SimpleName MethodInvocation MethodInvocation SimpleName table name
+security operations SimpleName MethodInvocation MethodInvocation SimpleName table name
+c SimpleName MethodInvocation MethodInvocation QualifiedName table permissionread
+security operations SimpleName MethodInvocation MethodInvocation QualifiedName table permissionread
+revoke table permission SimpleName MethodInvocation MethodInvocation SimpleName c
+revoke table permission SimpleName MethodInvocation MethodInvocation SimpleName whoami
+revoke table permission SimpleName MethodInvocation SimpleName table name
+revoke table permission SimpleName MethodInvocation QualifiedName table permissionread
+c SimpleName MethodInvocation MethodInvocation SimpleName table name
+whoami SimpleName MethodInvocation MethodInvocation SimpleName table name
+c SimpleName MethodInvocation MethodInvocation QualifiedName table permissionread
+whoami SimpleName MethodInvocation MethodInvocation QualifiedName table permissionread
+table name SimpleName MethodInvocation QualifiedName table permissionread
+c SimpleName MethodInvocation SimpleName security operations
+c SimpleName MethodInvocation SimpleName whoami
+c SimpleName MethodInvocation MethodInvocation SimpleName has table permission
+security operations SimpleName MethodInvocation MethodInvocation SimpleName has table permission
+c SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName c
+c SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName whoami
+security operations SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName c
+security operations SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName whoami
+c SimpleName MethodInvocation MethodInvocation SimpleName table name
+security operations SimpleName MethodInvocation MethodInvocation SimpleName table name
+c SimpleName MethodInvocation MethodInvocation QualifiedName table permissionread
+security operations SimpleName MethodInvocation MethodInvocation QualifiedName table permissionread
+has table permission SimpleName MethodInvocation MethodInvocation SimpleName c
+has table permission SimpleName MethodInvocation MethodInvocation SimpleName whoami
+has table permission SimpleName MethodInvocation SimpleName table name
+has table permission SimpleName MethodInvocation QualifiedName table permissionread
+c SimpleName MethodInvocation MethodInvocation SimpleName table name
+whoami SimpleName MethodInvocation MethodInvocation SimpleName table name
+c SimpleName MethodInvocation MethodInvocation QualifiedName table permissionread
+whoami SimpleName MethodInvocation MethodInvocation QualifiedName table permissionread
+table name SimpleName MethodInvocation QualifiedName table permissionread
+assert false SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName c
+assert false SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName security operations
+assert false SimpleName MethodInvocation MethodInvocation SimpleName has table permission
+assert false SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName c
+assert false SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName whoami
+assert false SimpleName MethodInvocation MethodInvocation SimpleName table name
+assert false SimpleName MethodInvocation MethodInvocation QualifiedName table permissionread
+c SimpleName MethodInvocation SimpleName security operations
+c SimpleName MethodInvocation SimpleName whoami
+c SimpleName MethodInvocation MethodInvocation SimpleName grant table permission
+security operations SimpleName MethodInvocation MethodInvocation SimpleName grant table permission
+c SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName c
+c SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName whoami
+security operations SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName c
+security operations SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName whoami
+c SimpleName MethodInvocation MethodInvocation SimpleName table name
+security operations SimpleName MethodInvocation MethodInvocation SimpleName table name
+c SimpleName MethodInvocation MethodInvocation QualifiedName table permissionread
+security operations SimpleName MethodInvocation MethodInvocation QualifiedName table permissionread
+grant table permission SimpleName MethodInvocation MethodInvocation SimpleName c
+grant table permission SimpleName MethodInvocation MethodInvocation SimpleName whoami
+grant table permission SimpleName MethodInvocation SimpleName table name
+grant table permission SimpleName MethodInvocation QualifiedName table permissionread
+c SimpleName MethodInvocation MethodInvocation SimpleName table name
+whoami SimpleName MethodInvocation MethodInvocation SimpleName table name
+c SimpleName MethodInvocation MethodInvocation QualifiedName table permissionread
+whoami SimpleName MethodInvocation MethodInvocation QualifiedName table permissionread
+table name SimpleName MethodInvocation QualifiedName table permissionread
+c SimpleName MethodInvocation SimpleName security operations
+c SimpleName MethodInvocation SimpleName whoami
+c SimpleName MethodInvocation MethodInvocation SimpleName has table permission
+security operations SimpleName MethodInvocation MethodInvocation SimpleName has table permission
+c SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName c
+c SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName whoami
+security operations SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName c
+security operations SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName whoami
+c SimpleName MethodInvocation MethodInvocation SimpleName table name
+security operations SimpleName MethodInvocation MethodInvocation SimpleName table name
+c SimpleName MethodInvocation MethodInvocation QualifiedName table permissionread
+security operations SimpleName MethodInvocation MethodInvocation QualifiedName table permissionread
+has table permission SimpleName MethodInvocation MethodInvocation SimpleName c
+has table permission SimpleName MethodInvocation MethodInvocation SimpleName whoami
+has table permission SimpleName MethodInvocation SimpleName table name
+has table permission SimpleName MethodInvocation QualifiedName table permissionread
+c SimpleName MethodInvocation MethodInvocation SimpleName table name
+whoami SimpleName MethodInvocation MethodInvocation SimpleName table name
+c SimpleName MethodInvocation MethodInvocation QualifiedName table permissionread
+whoami SimpleName MethodInvocation MethodInvocation QualifiedName table permissionread
+table name SimpleName MethodInvocation QualifiedName table permissionread
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName c
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName security operations
+assert true SimpleName MethodInvocation MethodInvocation SimpleName has table permission
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName c
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName whoami
+assert true SimpleName MethodInvocation MethodInvocation SimpleName table name
+assert true SimpleName MethodInvocation MethodInvocation QualifiedName table permissionread
+c SimpleName MethodInvocation SimpleName table operations
+c SimpleName MethodInvocation MethodInvocation SimpleName delete
+table operations SimpleName MethodInvocation MethodInvocation SimpleName delete
+c SimpleName MethodInvocation MethodInvocation SimpleName table name
+table operations SimpleName MethodInvocation MethodInvocation SimpleName table name
+delete SimpleName MethodInvocation SimpleName table name
+c SimpleName MethodInvocation SimpleName security operations
+c SimpleName MethodInvocation SimpleName whoami
+c SimpleName MethodInvocation MethodInvocation SimpleName has table permission
+security operations SimpleName MethodInvocation MethodInvocation SimpleName has table permission
+c SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName c
+c SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName whoami
+security operations SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName c
+security operations SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName whoami
+c SimpleName MethodInvocation MethodInvocation SimpleName table name
+security operations SimpleName MethodInvocation MethodInvocation SimpleName table name
+c SimpleName MethodInvocation MethodInvocation QualifiedName table permissionread
+security operations SimpleName MethodInvocation MethodInvocation QualifiedName table permissionread
+has table permission SimpleName MethodInvocation MethodInvocation SimpleName c
+has table permission SimpleName MethodInvocation MethodInvocation SimpleName whoami
+has table permission SimpleName MethodInvocation SimpleName table name
+has table permission SimpleName MethodInvocation QualifiedName table permissionread
+c SimpleName MethodInvocation MethodInvocation SimpleName table name
+whoami SimpleName MethodInvocation MethodInvocation SimpleName table name
+c SimpleName MethodInvocation MethodInvocation QualifiedName table permissionread
+whoami SimpleName MethodInvocation MethodInvocation QualifiedName table permissionread
+table name SimpleName MethodInvocation QualifiedName table permissionread
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+e SimpleName InstanceofExpression SimpleType SimpleName accumulo security exception
+accumulo security exception SimpleName SimpleType CastExpression SimpleName e
+e SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName get security error code
+get security error code SimpleName MethodInvocation MethodInvocation SimpleName equals
+get security error code SimpleName MethodInvocation MethodInvocation QualifiedName security error codetable doesnt exist
+equals SimpleName MethodInvocation QualifiedName security error codetable doesnt exist
+e SimpleName MethodInvocation SimpleName get class
+e SimpleName MethodInvocation MethodInvocation SimpleName get name
+get class SimpleName MethodInvocation MethodInvocation SimpleName get name
+has permission resulted in StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName e
+has permission resulted in StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName get class
+has permission resulted in StringLiteral InfixExpression MethodInvocation SimpleName get name
+exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral has permission resulted in
+exception SimpleName SimpleType ClassInstanceCreation SimpleName e
+has permission resulted in StringLiteral InfixExpression ClassInstanceCreation SimpleName e
+get name SimpleName MethodInvocation InfixExpression ClassInstanceCreation SimpleName e
+c SimpleName MethodInvocation SimpleName security operations
+c SimpleName MethodInvocation SimpleName whoami
+c SimpleName MethodInvocation MethodInvocation SimpleName grant table permission
+security operations SimpleName MethodInvocation MethodInvocation SimpleName grant table permission
+c SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName c
+c SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName whoami
+security operations SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName c
+security operations SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName whoami
+c SimpleName MethodInvocation MethodInvocation SimpleName table name
+security operations SimpleName MethodInvocation MethodInvocation SimpleName table name
+c SimpleName MethodInvocation MethodInvocation QualifiedName table permissionread
+security operations SimpleName MethodInvocation MethodInvocation QualifiedName table permissionread
+grant table permission SimpleName MethodInvocation MethodInvocation SimpleName c
+grant table permission SimpleName MethodInvocation MethodInvocation SimpleName whoami
+grant table permission SimpleName MethodInvocation SimpleName table name
+grant table permission SimpleName MethodInvocation QualifiedName table permissionread
+c SimpleName MethodInvocation MethodInvocation SimpleName table name
+whoami SimpleName MethodInvocation MethodInvocation SimpleName table name
+c SimpleName MethodInvocation MethodInvocation QualifiedName table permissionread
+whoami SimpleName MethodInvocation MethodInvocation QualifiedName table permissionread
+table name SimpleName MethodInvocation QualifiedName table permissionread
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+e SimpleName InstanceofExpression SimpleType SimpleName accumulo security exception
+accumulo security exception SimpleName SimpleType CastExpression SimpleName e
+e SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName get security error code
+get security error code SimpleName MethodInvocation MethodInvocation SimpleName equals
+get security error code SimpleName MethodInvocation MethodInvocation QualifiedName security error codetable doesnt exist
+equals SimpleName MethodInvocation QualifiedName security error codetable doesnt exist
+e SimpleName MethodInvocation SimpleName get class
+e SimpleName MethodInvocation MethodInvocation SimpleName get name
+get class SimpleName MethodInvocation MethodInvocation SimpleName get name
+has permission resulted in StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName e
+has permission resulted in StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName get class
+has permission resulted in StringLiteral InfixExpression MethodInvocation SimpleName get name
+exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral has permission resulted in
+exception SimpleName SimpleType ClassInstanceCreation SimpleName e
+has permission resulted in StringLiteral InfixExpression ClassInstanceCreation SimpleName e
+get name SimpleName MethodInvocation InfixExpression ClassInstanceCreation SimpleName e
+c SimpleName MethodInvocation SimpleName security operations
+c SimpleName MethodInvocation SimpleName whoami
+c SimpleName MethodInvocation MethodInvocation SimpleName revoke table permission
+security operations SimpleName MethodInvocation MethodInvocation SimpleName revoke table permission
+c SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName c
+c SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName whoami
+security operations SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName c
+security operations SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName whoami
+c SimpleName MethodInvocation MethodInvocation SimpleName table name
+security operations SimpleName MethodInvocation MethodInvocation SimpleName table name
+c SimpleName MethodInvocation MethodInvocation QualifiedName table permissionread
+security operations SimpleName MethodInvocation MethodInvocation QualifiedName table permissionread
+revoke table permission SimpleName MethodInvocation MethodInvocation SimpleName c
+revoke table permission SimpleName MethodInvocation MethodInvocation SimpleName whoami
+revoke table permission SimpleName MethodInvocation SimpleName table name
+revoke table permission SimpleName MethodInvocation QualifiedName table permissionread
+c SimpleName MethodInvocation MethodInvocation SimpleName table name
+whoami SimpleName MethodInvocation MethodInvocation SimpleName table name
+c SimpleName MethodInvocation MethodInvocation QualifiedName table permissionread
+whoami SimpleName MethodInvocation MethodInvocation QualifiedName table permissionread
+table name SimpleName MethodInvocation QualifiedName table permissionread
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+e SimpleName InstanceofExpression SimpleType SimpleName accumulo security exception
+accumulo security exception SimpleName SimpleType CastExpression SimpleName e
+e SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName get security error code
+get security error code SimpleName MethodInvocation MethodInvocation SimpleName equals
+get security error code SimpleName MethodInvocation MethodInvocation QualifiedName security error codetable doesnt exist
+equals SimpleName MethodInvocation QualifiedName security error codetable doesnt exist
+e SimpleName MethodInvocation SimpleName get class
+e SimpleName MethodInvocation MethodInvocation SimpleName get name
+get class SimpleName MethodInvocation MethodInvocation SimpleName get name
+has permission resulted in StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName e
+has permission resulted in StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName get class
+has permission resulted in StringLiteral InfixExpression MethodInvocation SimpleName get name
+exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral has permission resulted in
+exception SimpleName SimpleType ClassInstanceCreation SimpleName e
+has permission resulted in StringLiteral InfixExpression ClassInstanceCreation SimpleName e
+get name SimpleName MethodInvocation InfixExpression ClassInstanceCreation SimpleName e
+c SimpleName MethodInvocation SimpleName security operations
+c SimpleName MethodInvocation SimpleName whoami
+c SimpleName MethodInvocation MethodInvocation SimpleName has namespace permission
+security operations SimpleName MethodInvocation MethodInvocation SimpleName has namespace permission
+c SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName c
+c SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName whoami
+security operations SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName c
+security operations SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName whoami
+c SimpleName MethodInvocation MethodInvocation SimpleName namespace
+security operations SimpleName MethodInvocation MethodInvocation SimpleName namespace
+c SimpleName MethodInvocation MethodInvocation QualifiedName namespace permissionread
+security operations SimpleName MethodInvocation MethodInvocation QualifiedName namespace permissionread
+has namespace permission SimpleName MethodInvocation MethodInvocation SimpleName c
+has namespace permission SimpleName MethodInvocation MethodInvocation SimpleName whoami
+has namespace permission SimpleName MethodInvocation SimpleName namespace
+has namespace permission SimpleName MethodInvocation QualifiedName namespace permissionread
+c SimpleName MethodInvocation MethodInvocation SimpleName namespace
+whoami SimpleName MethodInvocation MethodInvocation SimpleName namespace
+c SimpleName MethodInvocation MethodInvocation QualifiedName namespace permissionread
+whoami SimpleName MethodInvocation MethodInvocation QualifiedName namespace permissionread
+namespace SimpleName MethodInvocation QualifiedName namespace permissionread
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName c
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName security operations
+assert true SimpleName MethodInvocation MethodInvocation SimpleName has namespace permission
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName c
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName whoami
+assert true SimpleName MethodInvocation MethodInvocation SimpleName namespace
+assert true SimpleName MethodInvocation MethodInvocation QualifiedName namespace permissionread
+c SimpleName MethodInvocation SimpleName security operations
+c SimpleName MethodInvocation SimpleName whoami
+c SimpleName MethodInvocation MethodInvocation SimpleName revoke namespace permission
+security operations SimpleName MethodInvocation MethodInvocation SimpleName revoke namespace permission
+c SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName c
+c SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName whoami
+security operations SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName c
+security operations SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName whoami
+c SimpleName MethodInvocation MethodInvocation SimpleName namespace
+security operations SimpleName MethodInvocation MethodInvocation SimpleName namespace
+c SimpleName MethodInvocation MethodInvocation QualifiedName namespace permissionread
+security operations SimpleName MethodInvocation MethodInvocation QualifiedName namespace permissionread
+revoke namespace permission SimpleName MethodInvocation MethodInvocation SimpleName c
+revoke namespace permission SimpleName MethodInvocation MethodInvocation SimpleName whoami
+revoke namespace permission SimpleName MethodInvocation SimpleName namespace
+revoke namespace permission SimpleName MethodInvocation QualifiedName namespace permissionread
+c SimpleName MethodInvocation MethodInvocation SimpleName namespace
+whoami SimpleName MethodInvocation MethodInvocation SimpleName namespace
+c SimpleName MethodInvocation MethodInvocation QualifiedName namespace permissionread
+whoami SimpleName MethodInvocation MethodInvocation QualifiedName namespace permissionread
+namespace SimpleName MethodInvocation QualifiedName namespace permissionread
+c SimpleName MethodInvocation SimpleName security operations
+c SimpleName MethodInvocation SimpleName whoami
+c SimpleName MethodInvocation MethodInvocation SimpleName has namespace permission
+security operations SimpleName MethodInvocation MethodInvocation SimpleName has namespace permission
+c SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName c
+c SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName whoami
+security operations SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName c
+security operations SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName whoami
+c SimpleName MethodInvocation MethodInvocation SimpleName namespace
+security operations SimpleName MethodInvocation MethodInvocation SimpleName namespace
+c SimpleName MethodInvocation MethodInvocation QualifiedName namespace permissionread
+security operations SimpleName MethodInvocation MethodInvocation QualifiedName namespace permissionread
+has namespace permission SimpleName MethodInvocation MethodInvocation SimpleName c
+has namespace permission SimpleName MethodInvocation MethodInvocation SimpleName whoami
+has namespace permission SimpleName MethodInvocation SimpleName namespace
+has namespace permission SimpleName MethodInvocation QualifiedName namespace permissionread
+c SimpleName MethodInvocation MethodInvocation SimpleName namespace
+whoami SimpleName MethodInvocation MethodInvocation SimpleName namespace
+c SimpleName MethodInvocation MethodInvocation QualifiedName namespace permissionread
+whoami SimpleName MethodInvocation MethodInvocation QualifiedName namespace permissionread
+namespace SimpleName MethodInvocation QualifiedName namespace permissionread
+assert false SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName c
+assert false SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName security operations
+assert false SimpleName MethodInvocation MethodInvocation SimpleName has namespace permission
+assert false SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName c
+assert false SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName whoami
+assert false SimpleName MethodInvocation MethodInvocation SimpleName namespace
+assert false SimpleName MethodInvocation MethodInvocation QualifiedName namespace permissionread
+c SimpleName MethodInvocation SimpleName security operations
+c SimpleName MethodInvocation SimpleName whoami
+c SimpleName MethodInvocation MethodInvocation SimpleName grant namespace permission
+security operations SimpleName MethodInvocation MethodInvocation SimpleName grant namespace permission
+c SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName c
+c SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName whoami
+security operations SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName c
+security operations SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName whoami
+c SimpleName MethodInvocation MethodInvocation SimpleName namespace
+security operations SimpleName MethodInvocation MethodInvocation SimpleName namespace
+c SimpleName MethodInvocation MethodInvocation QualifiedName namespace permissionread
+security operations SimpleName MethodInvocation MethodInvocation QualifiedName namespace permissionread
+grant namespace permission SimpleName MethodInvocation MethodInvocation SimpleName c
+grant namespace permission SimpleName MethodInvocation MethodInvocation SimpleName whoami
+grant namespace permission SimpleName MethodInvocation SimpleName namespace
+grant namespace permission SimpleName MethodInvocation QualifiedName namespace permissionread
+c SimpleName MethodInvocation MethodInvocation SimpleName namespace
+whoami SimpleName MethodInvocation MethodInvocation SimpleName namespace
+c SimpleName MethodInvocation MethodInvocation QualifiedName namespace permissionread
+whoami SimpleName MethodInvocation MethodInvocation QualifiedName namespace permissionread
+namespace SimpleName MethodInvocation QualifiedName namespace permissionread
+c SimpleName MethodInvocation SimpleName security operations
+c SimpleName MethodInvocation SimpleName whoami
+c SimpleName MethodInvocation MethodInvocation SimpleName has namespace permission
+security operations SimpleName MethodInvocation MethodInvocation SimpleName has namespace permission
+c SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName c
+c SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName whoami
+security operations SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName c
+security operations SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName whoami
+c SimpleName MethodInvocation MethodInvocation SimpleName namespace
+security operations SimpleName MethodInvocation MethodInvocation SimpleName namespace
+c SimpleName MethodInvocation MethodInvocation QualifiedName namespace permissionread
+security operations SimpleName MethodInvocation MethodInvocation QualifiedName namespace permissionread
+has namespace permission SimpleName MethodInvocation MethodInvocation SimpleName c
+has namespace permission SimpleName MethodInvocation MethodInvocation SimpleName whoami
+has namespace permission SimpleName MethodInvocation SimpleName namespace
+has namespace permission SimpleName MethodInvocation QualifiedName namespace permissionread
+c SimpleName MethodInvocation MethodInvocation SimpleName namespace
+whoami SimpleName MethodInvocation MethodInvocation SimpleName namespace
+c SimpleName MethodInvocation MethodInvocation QualifiedName namespace permissionread
+whoami SimpleName MethodInvocation MethodInvocation QualifiedName namespace permissionread
+namespace SimpleName MethodInvocation QualifiedName namespace permissionread
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName c
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName security operations
+assert true SimpleName MethodInvocation MethodInvocation SimpleName has namespace permission
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName c
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName whoami
+assert true SimpleName MethodInvocation MethodInvocation SimpleName namespace
+assert true SimpleName MethodInvocation MethodInvocation QualifiedName namespace permissionread
+c SimpleName MethodInvocation SimpleName namespace operations
+c SimpleName MethodInvocation MethodInvocation SimpleName delete
+namespace operations SimpleName MethodInvocation MethodInvocation SimpleName delete
+c SimpleName MethodInvocation MethodInvocation SimpleName namespace
+namespace operations SimpleName MethodInvocation MethodInvocation SimpleName namespace
+delete SimpleName MethodInvocation SimpleName namespace
+c SimpleName MethodInvocation SimpleName security operations
+c SimpleName MethodInvocation SimpleName whoami
+c SimpleName MethodInvocation MethodInvocation SimpleName has table permission
+security operations SimpleName MethodInvocation MethodInvocation SimpleName has table permission
+c SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName c
+c SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName whoami
+security operations SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName c
+security operations SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName whoami
+c SimpleName MethodInvocation MethodInvocation SimpleName table name
+security operations SimpleName MethodInvocation MethodInvocation SimpleName table name
+c SimpleName MethodInvocation MethodInvocation QualifiedName table permissionread
+security operations SimpleName MethodInvocation MethodInvocation QualifiedName table permissionread
+has table permission SimpleName MethodInvocation MethodInvocation SimpleName c
+has table permission SimpleName MethodInvocation MethodInvocation SimpleName whoami
+has table permission SimpleName MethodInvocation SimpleName table name
+has table permission SimpleName MethodInvocation QualifiedName table permissionread
+c SimpleName MethodInvocation MethodInvocation SimpleName table name
+whoami SimpleName MethodInvocation MethodInvocation SimpleName table name
+c SimpleName MethodInvocation MethodInvocation QualifiedName table permissionread
+whoami SimpleName MethodInvocation MethodInvocation QualifiedName table permissionread
+table name SimpleName MethodInvocation QualifiedName table permissionread
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+e SimpleName InstanceofExpression SimpleType SimpleName accumulo security exception
+accumulo security exception SimpleName SimpleType CastExpression SimpleName e
+e SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName get security error code
+get security error code SimpleName MethodInvocation MethodInvocation SimpleName equals
+get security error code SimpleName MethodInvocation MethodInvocation QualifiedName security error codetable doesnt exist
+equals SimpleName MethodInvocation QualifiedName security error codetable doesnt exist
+e SimpleName MethodInvocation SimpleName get class
+e SimpleName MethodInvocation MethodInvocation SimpleName get name
+get class SimpleName MethodInvocation MethodInvocation SimpleName get name
+has permission resulted in StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName e
+has permission resulted in StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName get class
+has permission resulted in StringLiteral InfixExpression MethodInvocation SimpleName get name
+exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral has permission resulted in
+exception SimpleName SimpleType ClassInstanceCreation SimpleName e
+has permission resulted in StringLiteral InfixExpression ClassInstanceCreation SimpleName e
+get name SimpleName MethodInvocation InfixExpression ClassInstanceCreation SimpleName e
+c SimpleName MethodInvocation SimpleName security operations
+c SimpleName MethodInvocation SimpleName whoami
+c SimpleName MethodInvocation MethodInvocation SimpleName grant table permission
+security operations SimpleName MethodInvocation MethodInvocation SimpleName grant table permission
+c SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName c
+c SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName whoami
+security operations SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName c
+security operations SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName whoami
+c SimpleName MethodInvocation MethodInvocation SimpleName table name
+security operations SimpleName MethodInvocation MethodInvocation SimpleName table name
+c SimpleName MethodInvocation MethodInvocation QualifiedName table permissionread
+security operations SimpleName MethodInvocation MethodInvocation QualifiedName table permissionread
+grant table permission SimpleName MethodInvocation MethodInvocation SimpleName c
+grant table permission SimpleName MethodInvocation MethodInvocation SimpleName whoami
+grant table permission SimpleName MethodInvocation SimpleName table name
+grant table permission SimpleName MethodInvocation QualifiedName table permissionread
+c SimpleName MethodInvocation MethodInvocation SimpleName table name
+whoami SimpleName MethodInvocation MethodInvocation SimpleName table name
+c SimpleName MethodInvocation MethodInvocation QualifiedName table permissionread
+whoami SimpleName MethodInvocation MethodInvocation QualifiedName table permissionread
+table name SimpleName MethodInvocation QualifiedName table permissionread
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+e SimpleName InstanceofExpression SimpleType SimpleName accumulo security exception
+accumulo security exception SimpleName SimpleType CastExpression SimpleName e
+e SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName get security error code
+get security error code SimpleName MethodInvocation MethodInvocation SimpleName equals
+get security error code SimpleName MethodInvocation MethodInvocation QualifiedName security error codetable doesnt exist
+equals SimpleName MethodInvocation QualifiedName security error codetable doesnt exist
+e SimpleName MethodInvocation SimpleName get class
+e SimpleName MethodInvocation MethodInvocation SimpleName get name
+get class SimpleName MethodInvocation MethodInvocation SimpleName get name
+has permission resulted in StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName e
+has permission resulted in StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName get class
+has permission resulted in StringLiteral InfixExpression MethodInvocation SimpleName get name
+exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral has permission resulted in
+exception SimpleName SimpleType ClassInstanceCreation SimpleName e
+has permission resulted in StringLiteral InfixExpression ClassInstanceCreation SimpleName e
+get name SimpleName MethodInvocation InfixExpression ClassInstanceCreation SimpleName e
+c SimpleName MethodInvocation SimpleName security operations
+c SimpleName MethodInvocation SimpleName whoami
+c SimpleName MethodInvocation MethodInvocation SimpleName revoke table permission
+security operations SimpleName MethodInvocation MethodInvocation SimpleName revoke table permission
+c SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName c
+c SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName whoami
+security operations SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName c
+security operations SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName whoami
+c SimpleName MethodInvocation MethodInvocation SimpleName table name
+security operations SimpleName MethodInvocation MethodInvocation SimpleName table name
+c SimpleName MethodInvocation MethodInvocation QualifiedName table permissionread
+security operations SimpleName MethodInvocation MethodInvocation QualifiedName table permissionread
+revoke table permission SimpleName MethodInvocation MethodInvocation SimpleName c
+revoke table permission SimpleName MethodInvocation MethodInvocation SimpleName whoami
+revoke table permission SimpleName MethodInvocation SimpleName table name
+revoke table permission SimpleName MethodInvocation QualifiedName table permissionread
+c SimpleName MethodInvocation MethodInvocation SimpleName table name
+whoami SimpleName MethodInvocation MethodInvocation SimpleName table name
+c SimpleName MethodInvocation MethodInvocation QualifiedName table permissionread
+whoami SimpleName MethodInvocation MethodInvocation QualifiedName table permissionread
+table name SimpleName MethodInvocation QualifiedName table permissionread
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+e SimpleName InstanceofExpression SimpleType SimpleName accumulo security exception
+accumulo security exception SimpleName SimpleType CastExpression SimpleName e
+e SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName get security error code
+get security error code SimpleName MethodInvocation MethodInvocation SimpleName equals
+get security error code SimpleName MethodInvocation MethodInvocation QualifiedName security error codetable doesnt exist
+equals SimpleName MethodInvocation QualifiedName security error codetable doesnt exist
+e SimpleName MethodInvocation SimpleName get class
+e SimpleName MethodInvocation MethodInvocation SimpleName get name

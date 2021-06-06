@@ -1,0 +1,179 @@
+feed SimpleName SimpleType SingleVariableDeclaration SimpleName feed
+referenceable SimpleName SimpleType SingleVariableDeclaration SimpleName cluster referenceable
+feed SimpleName MethodInvocation SimpleName get name
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation StringLiteral creating feed dataset {}
+log SimpleName MethodInvocation MethodInvocation SimpleName feed
+log SimpleName MethodInvocation MethodInvocation SimpleName get name
+info SimpleName MethodInvocation StringLiteral creating feed dataset {}
+info SimpleName MethodInvocation MethodInvocation SimpleName feed
+info SimpleName MethodInvocation MethodInvocation SimpleName get name
+creating feed dataset {} StringLiteral MethodInvocation MethodInvocation SimpleName feed
+creating feed dataset {} StringLiteral MethodInvocation MethodInvocation SimpleName get name
+falcon data typesfalcon feed QualifiedName MethodInvocation SimpleName get name
+referenceable SimpleName SimpleType ClassInstanceCreation MethodInvocation QualifiedName falcon data typesfalcon feed
+referenceable SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get name
+feed entity SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName referenceable
+feed entity SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation QualifiedName falcon data typesfalcon feed
+feed entity SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get name
+referenceable SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName feed entity
+feed SimpleName MethodInvocation SimpleName get name
+feed entity SimpleName MethodInvocation SimpleName set
+feed entity SimpleName MethodInvocation QualifiedName atlas clientname
+feed entity SimpleName MethodInvocation MethodInvocation SimpleName feed
+feed entity SimpleName MethodInvocation MethodInvocation SimpleName get name
+set SimpleName MethodInvocation QualifiedName atlas clientname
+set SimpleName MethodInvocation MethodInvocation SimpleName feed
+set SimpleName MethodInvocation MethodInvocation SimpleName get name
+atlas clientname QualifiedName MethodInvocation MethodInvocation SimpleName feed
+atlas clientname QualifiedName MethodInvocation MethodInvocation SimpleName get name
+feed SimpleName MethodInvocation SimpleName get description
+feed entity SimpleName MethodInvocation SimpleName set
+feed entity SimpleName MethodInvocation QualifiedName atlas clientdescription
+feed entity SimpleName MethodInvocation MethodInvocation SimpleName feed
+feed entity SimpleName MethodInvocation MethodInvocation SimpleName get description
+set SimpleName MethodInvocation QualifiedName atlas clientdescription
+set SimpleName MethodInvocation MethodInvocation SimpleName feed
+set SimpleName MethodInvocation MethodInvocation SimpleName get description
+atlas clientdescription QualifiedName MethodInvocation MethodInvocation SimpleName feed
+atlas clientdescription QualifiedName MethodInvocation MethodInvocation SimpleName get description
+feed SimpleName MethodInvocation SimpleName get name
+cluster referenceable SimpleName MethodInvocation SimpleName get
+cluster referenceable SimpleName MethodInvocation QualifiedName atlas clientname
+get SimpleName MethodInvocation QualifiedName atlas clientname
+string SimpleName SimpleType CastExpression MethodInvocation SimpleName cluster referenceable
+string SimpleName SimpleType CastExpression MethodInvocation SimpleName get
+string SimpleName SimpleType CastExpression MethodInvocation QualifiedName atlas clientname
+get feed qualified name SimpleName MethodInvocation MethodInvocation SimpleName feed
+get feed qualified name SimpleName MethodInvocation MethodInvocation SimpleName get name
+get feed qualified name SimpleName MethodInvocation CastExpression SimpleType SimpleName string
+get feed qualified name SimpleName MethodInvocation CastExpression MethodInvocation SimpleName cluster referenceable
+get feed qualified name SimpleName MethodInvocation CastExpression MethodInvocation SimpleName get
+get feed qualified name SimpleName MethodInvocation CastExpression MethodInvocation QualifiedName atlas clientname
+feed qualified name SimpleName VariableDeclarationFragment MethodInvocation SimpleName get feed qualified name
+feed qualified name SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName feed
+feed qualified name SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName feed qualified name
+feed entity SimpleName MethodInvocation SimpleName set
+feed entity SimpleName MethodInvocation QualifiedName atlas clientreferenceable attribute name
+feed entity SimpleName MethodInvocation SimpleName feed qualified name
+set SimpleName MethodInvocation QualifiedName atlas clientreferenceable attribute name
+set SimpleName MethodInvocation SimpleName feed qualified name
+atlas clientreferenceable attribute name QualifiedName MethodInvocation SimpleName feed qualified name
+feed SimpleName MethodInvocation SimpleName get frequency
+feed SimpleName MethodInvocation MethodInvocation SimpleName to string
+get frequency SimpleName MethodInvocation MethodInvocation SimpleName to string
+feed entity SimpleName MethodInvocation SimpleName set
+feed entity SimpleName MethodInvocation QualifiedName falcon bridgefrequency
+feed entity SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName feed
+feed entity SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get frequency
+feed entity SimpleName MethodInvocation MethodInvocation SimpleName to string
+set SimpleName MethodInvocation QualifiedName falcon bridgefrequency
+set SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName feed
+set SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get frequency
+set SimpleName MethodInvocation MethodInvocation SimpleName to string
+falcon bridgefrequency QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName feed
+falcon bridgefrequency QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName get frequency
+falcon bridgefrequency QualifiedName MethodInvocation MethodInvocation SimpleName to string
+feed entity SimpleName MethodInvocation SimpleName set
+feed entity SimpleName MethodInvocation QualifiedName falcon bridgestoredin
+feed entity SimpleName MethodInvocation SimpleName cluster referenceable
+set SimpleName MethodInvocation QualifiedName falcon bridgestoredin
+set SimpleName MethodInvocation SimpleName cluster referenceable
+falcon bridgestoredin QualifiedName MethodInvocation SimpleName cluster referenceable
+feed SimpleName MethodInvocation SimpleName get acl
+feed SimpleName MethodInvocation SimpleName get acl
+feed SimpleName MethodInvocation MethodInvocation SimpleName get owner
+get acl SimpleName MethodInvocation MethodInvocation SimpleName get owner
+feed entity SimpleName MethodInvocation SimpleName set
+feed entity SimpleName MethodInvocation QualifiedName atlas clientowner
+feed entity SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName feed
+feed entity SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get acl
+feed entity SimpleName MethodInvocation MethodInvocation SimpleName get owner
+set SimpleName MethodInvocation QualifiedName atlas clientowner
+set SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName feed
+set SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get acl
+set SimpleName MethodInvocation MethodInvocation SimpleName get owner
+atlas clientowner QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName feed
+atlas clientowner QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName get acl
+atlas clientowner QualifiedName MethodInvocation MethodInvocation SimpleName get owner
+feed SimpleName MethodInvocation SimpleName get tags
+string utils SimpleName MethodInvocation SimpleName is not empty
+string utils SimpleName MethodInvocation MethodInvocation SimpleName feed
+string utils SimpleName MethodInvocation MethodInvocation SimpleName get tags
+is not empty SimpleName MethodInvocation MethodInvocation SimpleName feed
+is not empty SimpleName MethodInvocation MethodInvocation SimpleName get tags
+feed SimpleName MethodInvocation SimpleName get tags
+event util SimpleName MethodInvocation SimpleName convert key value string to map
+event util SimpleName MethodInvocation MethodInvocation SimpleName feed
+event util SimpleName MethodInvocation MethodInvocation SimpleName get tags
+convert key value string to map SimpleName MethodInvocation MethodInvocation SimpleName feed
+convert key value string to map SimpleName MethodInvocation MethodInvocation SimpleName get tags
+feed entity SimpleName MethodInvocation SimpleName set
+feed entity SimpleName MethodInvocation QualifiedName falcon bridgetags
+feed entity SimpleName MethodInvocation MethodInvocation SimpleName event util
+feed entity SimpleName MethodInvocation MethodInvocation SimpleName convert key value string to map
+feed entity SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName feed
+feed entity SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get tags
+set SimpleName MethodInvocation QualifiedName falcon bridgetags
+set SimpleName MethodInvocation MethodInvocation SimpleName event util
+set SimpleName MethodInvocation MethodInvocation SimpleName convert key value string to map
+set SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName feed
+set SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get tags
+falcon bridgetags QualifiedName MethodInvocation MethodInvocation SimpleName event util
+falcon bridgetags QualifiedName MethodInvocation MethodInvocation SimpleName convert key value string to map
+falcon bridgetags QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName feed
+falcon bridgetags QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName get tags
+feed SimpleName MethodInvocation SimpleName get groups
+feed SimpleName MethodInvocation SimpleName get groups
+feed entity SimpleName MethodInvocation SimpleName set
+feed entity SimpleName MethodInvocation QualifiedName falcon bridgegroups
+feed entity SimpleName MethodInvocation MethodInvocation SimpleName feed
+feed entity SimpleName MethodInvocation MethodInvocation SimpleName get groups
+set SimpleName MethodInvocation QualifiedName falcon bridgegroups
+set SimpleName MethodInvocation MethodInvocation SimpleName feed
+set SimpleName MethodInvocation MethodInvocation SimpleName get groups
+falcon bridgegroups QualifiedName MethodInvocation MethodInvocation SimpleName feed
+falcon bridgegroups QualifiedName MethodInvocation MethodInvocation SimpleName get groups
+private Modifier MethodDeclaration Modifier static
+private Modifier MethodDeclaration SimpleType SimpleName referenceable
+private Modifier MethodDeclaration SimpleName create feed entity
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName feed
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName feed
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName referenceable
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName cluster referenceable
+static Modifier MethodDeclaration SimpleType SimpleName referenceable
+static Modifier MethodDeclaration SimpleName create feed entity
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName feed
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName feed
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName referenceable
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName cluster referenceable
+static Modifier MethodDeclaration SimpleType SimpleName exception
+referenceable SimpleName SimpleType MethodDeclaration SimpleName create feed entity
+referenceable SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName feed
+referenceable SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName cluster referenceable
+referenceable SimpleName SimpleType MethodDeclaration SimpleType SimpleName exception
+create feed entity SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName feed
+create feed entity SimpleName MethodDeclaration SingleVariableDeclaration SimpleName feed
+create feed entity SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName referenceable
+create feed entity SimpleName MethodDeclaration SingleVariableDeclaration SimpleName cluster referenceable
+create feed entity SimpleName MethodDeclaration SimpleType SimpleName exception
+create feed entity SimpleName MethodDeclaration Block ReturnStatement SimpleName feed entity
+feed SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cluster referenceable
+feed SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+cluster referenceable SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName referenceable
+public Modifier TypeDeclaration MethodDeclaration SimpleName create feed entity
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName feed
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cluster referenceable
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName referenceable
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create feed entity
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName feed
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cluster referenceable
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

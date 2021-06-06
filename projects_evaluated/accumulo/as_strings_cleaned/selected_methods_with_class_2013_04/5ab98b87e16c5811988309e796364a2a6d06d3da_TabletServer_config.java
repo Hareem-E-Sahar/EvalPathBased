@@ -1,0 +1,369 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName hostname
+tablet server starting on StringLiteral InfixExpression SimpleName hostname
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation InfixExpression StringLiteral tablet server starting on
+log SimpleName MethodInvocation InfixExpression SimpleName hostname
+info SimpleName MethodInvocation InfixExpression StringLiteral tablet server starting on
+info SimpleName MethodInvocation InfixExpression SimpleName hostname
+audited security operation SimpleName MethodInvocation SimpleName get instance
+security SimpleName Assignment MethodInvocation SimpleName audited security operation
+security SimpleName Assignment MethodInvocation SimpleName get instance
+inet socket address SimpleName SimpleType ClassInstanceCreation SimpleName hostname
+inet socket address SimpleName SimpleType ClassInstanceCreation NumberLiteral empty
+hostname SimpleName ClassInstanceCreation NumberLiteral empty
+client address SimpleName Assignment ClassInstanceCreation SimpleType SimpleName inet socket address
+client address SimpleName Assignment ClassInstanceCreation SimpleName hostname
+client address SimpleName Assignment ClassInstanceCreation NumberLiteral empty
+get system configuration SimpleName MethodInvocation MethodInvocation SimpleName get memory in bytes
+get system configuration SimpleName MethodInvocation MethodInvocation QualifiedName propertytserv walog max size
+get memory in bytes SimpleName MethodInvocation QualifiedName propertytserv walog max size
+tablet server logger SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get memory in bytes
+tablet server logger SimpleName SimpleType ClassInstanceCreation MethodInvocation QualifiedName propertytserv walog max size
+logger SimpleName Assignment ClassInstanceCreation SimpleType SimpleName tablet server logger
+logger SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName get memory in bytes
+logger SimpleName Assignment ClassInstanceCreation MethodInvocation QualifiedName propertytserv walog max size
+get system configuration SimpleName MethodInvocation MethodInvocation SimpleName get boolean
+get system configuration SimpleName MethodInvocation MethodInvocation QualifiedName propertytserv lock memory
+get boolean SimpleName MethodInvocation QualifiedName propertytserv lock memory
+platform SimpleName MethodInvocation SimpleName get platform
+m lock StringLiteral InfixExpression MethodInvocation SimpleName platform
+m lock StringLiteral InfixExpression MethodInvocation SimpleName get platform
+system SimpleName MethodInvocation SimpleName map library name
+system SimpleName MethodInvocation InfixExpression StringLiteral m lock
+system SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName platform
+system SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get platform
+map library name SimpleName MethodInvocation InfixExpression StringLiteral m lock
+map library name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName platform
+map library name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get platform
+libnativemlock StringLiteral InfixExpression MethodInvocation SimpleName system
+libnativemlock StringLiteral InfixExpression MethodInvocation SimpleName map library name
+libnativemlock StringLiteral InfixExpression MethodInvocation InfixExpression StringLiteral m lock
+path SimpleName VariableDeclarationFragment InfixExpression StringLiteral libnativemlock
+path SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName system
+path SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName map library name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName path
+file SimpleName SimpleType ClassInstanceCreation SimpleName path
+file SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get absolute path
+path SimpleName ClassInstanceCreation MethodInvocation SimpleName get absolute path
+path SimpleName Assignment MethodInvocation ClassInstanceCreation SimpleName path
+path SimpleName Assignment MethodInvocation SimpleName get absolute path
+system SimpleName MethodInvocation SimpleName load
+system SimpleName MethodInvocation SimpleName path
+load SimpleName MethodInvocation SimpleName path
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation StringLiteral trying to lock memory pages to ram
+info SimpleName MethodInvocation StringLiteral trying to lock memory pages to ram
+m lock SimpleName MethodInvocation SimpleName lock memory pages
+m lock SimpleName MethodInvocation InfixExpression NumberLiteral empty
+lock memory pages SimpleName MethodInvocation InfixExpression NumberLiteral empty
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation StringLiteral failed to lock memory pages to ram
+error SimpleName MethodInvocation StringLiteral failed to lock memory pages to ram
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation StringLiteral memory pages are now locked into ram
+info SimpleName MethodInvocation StringLiteral memory pages are now locked into ram
+throwable SimpleName SimpleType SingleVariableDeclaration SimpleName t
+failed to load native library for locking pages to ram StringLiteral InfixExpression SimpleName path
+failed to load native library for locking pages to ram StringLiteral InfixExpression StringLiteral (
+failed to load native library for locking pages to ram StringLiteral InfixExpression SimpleName t
+failed to load native library for locking pages to ram StringLiteral InfixExpression StringLiteral )
+path SimpleName InfixExpression StringLiteral (
+path SimpleName InfixExpression SimpleName t
+path SimpleName InfixExpression StringLiteral )
+( StringLiteral InfixExpression SimpleName t
+( StringLiteral InfixExpression StringLiteral )
+t SimpleName InfixExpression StringLiteral )
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation InfixExpression StringLiteral failed to load native library for locking pages to ram
+log SimpleName MethodInvocation InfixExpression SimpleName path
+log SimpleName MethodInvocation InfixExpression StringLiteral (
+log SimpleName MethodInvocation InfixExpression SimpleName t
+log SimpleName MethodInvocation InfixExpression StringLiteral )
+log SimpleName MethodInvocation SimpleName t
+error SimpleName MethodInvocation InfixExpression StringLiteral failed to load native library for locking pages to ram
+error SimpleName MethodInvocation InfixExpression SimpleName path
+error SimpleName MethodInvocation InfixExpression StringLiteral (
+error SimpleName MethodInvocation InfixExpression SimpleName t
+error SimpleName MethodInvocation InfixExpression StringLiteral )
+error SimpleName MethodInvocation SimpleName t
+failed to load native library for locking pages to ram StringLiteral InfixExpression MethodInvocation SimpleName t
+path SimpleName InfixExpression MethodInvocation SimpleName t
+( StringLiteral InfixExpression MethodInvocation SimpleName t
+t SimpleName InfixExpression MethodInvocation SimpleName t
+) StringLiteral InfixExpression MethodInvocation SimpleName t
+accumulo vfs class loader SimpleName MethodInvocation SimpleName get context manager
+string SimpleName SimpleType SingleVariableDeclaration SimpleName context
+propertyvfs context classpath property QualifiedName MethodInvocation SimpleName get key
+propertyvfs context classpath property QualifiedName MethodInvocation InfixExpression SimpleName context
+get key SimpleName MethodInvocation InfixExpression SimpleName context
+key SimpleName VariableDeclarationFragment InfixExpression MethodInvocation QualifiedName propertyvfs context classpath property
+key SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName get key
+key SimpleName VariableDeclarationFragment InfixExpression SimpleName context
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName key
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName uris
+pre delegate SimpleName VariableDeclarationFragment BooleanLiteral true
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName pre delegate
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment BooleanLiteral true
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+get system configuration SimpleName MethodInvocation MethodInvocation SimpleName iterator
+iter SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get system configuration
+iter SimpleName VariableDeclarationFragment MethodInvocation SimpleName iterator
+iter SimpleName MethodInvocation SimpleName has next
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+iter SimpleName MethodInvocation SimpleName next
+entry SimpleName VariableDeclarationFragment MethodInvocation SimpleName iter
+entry SimpleName VariableDeclarationFragment MethodInvocation SimpleName next
+entry SimpleName MethodInvocation SimpleName get key
+entry SimpleName MethodInvocation MethodInvocation SimpleName equals
+get key SimpleName MethodInvocation MethodInvocation SimpleName equals
+entry SimpleName MethodInvocation MethodInvocation SimpleName key
+get key SimpleName MethodInvocation MethodInvocation SimpleName key
+equals SimpleName MethodInvocation SimpleName key
+entry SimpleName MethodInvocation SimpleName get value
+uris SimpleName Assignment MethodInvocation SimpleName entry
+uris SimpleName Assignment MethodInvocation SimpleName get value
+entry SimpleName MethodInvocation SimpleName get key
+key SimpleName InfixExpression StringLiteral delegation
+entry SimpleName MethodInvocation MethodInvocation SimpleName equals
+get key SimpleName MethodInvocation MethodInvocation SimpleName equals
+entry SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName key
+entry SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral delegation
+get key SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName key
+get key SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral delegation
+equals SimpleName MethodInvocation InfixExpression SimpleName key
+equals SimpleName MethodInvocation InfixExpression StringLiteral delegation
+entry SimpleName MethodInvocation SimpleName get value
+entry SimpleName MethodInvocation MethodInvocation SimpleName trim
+get value SimpleName MethodInvocation MethodInvocation SimpleName trim
+entry SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName equals ignore case
+get value SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName equals ignore case
+trim SimpleName MethodInvocation MethodInvocation SimpleName equals ignore case
+entry SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral post
+get value SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral post
+trim SimpleName MethodInvocation MethodInvocation StringLiteral post
+equals ignore case SimpleName MethodInvocation StringLiteral post
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals ignore case
+equals SimpleName MethodInvocation InfixExpression MethodInvocation StringLiteral post
+pre delegate SimpleName Assignment BooleanLiteral false
+context config SimpleName SimpleType ClassInstanceCreation SimpleName uris
+context config SimpleName SimpleType ClassInstanceCreation SimpleName pre delegate
+uris SimpleName ClassInstanceCreation SimpleName pre delegate
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName context config
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName get context config
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName context
+public Modifier MethodDeclaration SimpleType SimpleName context config
+public Modifier MethodDeclaration SimpleName get context config
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName context
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+context config SimpleName SimpleType MethodDeclaration SimpleName get context config
+context config SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName context
+get context config SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get context config SimpleName MethodDeclaration SingleVariableDeclaration SimpleName context
+get context config SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+accumulo vfs class loader SimpleName MethodInvocation MethodInvocation SimpleName set context config
+get context manager SimpleName MethodInvocation MethodInvocation SimpleName set context config
+set context config SimpleName MethodInvocation ClassInstanceCreation SimpleType QualifiedName context managercontexts config
+io exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+runtime exception SimpleName SimpleType ClassInstanceCreation SimpleName e
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName key extent
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName key extent
+online tablets SimpleName MethodInvocation SimpleName key set
+extents SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName online tablets
+extents SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName key set
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName text
+hash set SimpleName SimpleType ParameterizedType SimpleType SimpleName text
+key extent SimpleName SimpleType SingleVariableDeclaration SimpleName key extent
+key extent SimpleName MethodInvocation SimpleName get table id
+tables SimpleName MethodInvocation SimpleName add
+tables SimpleName MethodInvocation MethodInvocation SimpleName key extent
+tables SimpleName MethodInvocation MethodInvocation SimpleName get table id
+add SimpleName MethodInvocation MethodInvocation SimpleName key extent
+add SimpleName MethodInvocation MethodInvocation SimpleName get table id
+key extent SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName extents
+key extent SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName extents
+hash set SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+hash set SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+text SimpleName SimpleType SingleVariableDeclaration SimpleName tableid
+key extent SimpleName SimpleType ClassInstanceCreation SimpleName tableid
+get table configuration SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName key extent
+get table configuration SimpleName MethodInvocation ClassInstanceCreation SimpleName tableid
+get table configuration SimpleName MethodInvocation MethodInvocation SimpleName get
+tableid SimpleName ClassInstanceCreation MethodInvocation MethodInvocation SimpleName get
+get table configuration SimpleName MethodInvocation MethodInvocation QualifiedName propertytable classpath
+tableid SimpleName ClassInstanceCreation MethodInvocation MethodInvocation QualifiedName propertytable classpath
+get SimpleName MethodInvocation QualifiedName propertytable classpath
+context SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get table configuration
+context SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+context SimpleName VariableDeclarationFragment MethodInvocation QualifiedName propertytable classpath
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName context
+context SimpleName MethodInvocation SimpleName equals
+context SimpleName MethodInvocation StringLiteral empty
+equals SimpleName MethodInvocation StringLiteral empty
+contexts SimpleName MethodInvocation SimpleName add
+contexts SimpleName MethodInvocation SimpleName context
+add SimpleName MethodInvocation SimpleName context
+text SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName tables
+tableid SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName tables
+accumulo vfs class loader SimpleName MethodInvocation SimpleName get context manager
+accumulo vfs class loader SimpleName MethodInvocation MethodInvocation SimpleName remove unused contexts
+get context manager SimpleName MethodInvocation MethodInvocation SimpleName remove unused contexts
+accumulo vfs class loader SimpleName MethodInvocation MethodInvocation SimpleName contexts
+get context manager SimpleName MethodInvocation MethodInvocation SimpleName contexts
+remove unused contexts SimpleName MethodInvocation SimpleName contexts
+io exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+e SimpleName MethodInvocation SimpleName get message
+log SimpleName MethodInvocation SimpleName warn
+log SimpleName MethodInvocation MethodInvocation SimpleName e
+log SimpleName MethodInvocation MethodInvocation SimpleName get message
+log SimpleName MethodInvocation SimpleName e
+warn SimpleName MethodInvocation MethodInvocation SimpleName e
+warn SimpleName MethodInvocation MethodInvocation SimpleName get message
+warn SimpleName MethodInvocation SimpleName e
+e SimpleName MethodInvocation MethodInvocation SimpleName e
+get message SimpleName MethodInvocation MethodInvocation SimpleName e
+online tablets SimpleName SynchronizedStatement Block EnhancedForStatement SimpleName extents
+online tablets SimpleName SynchronizedStatement Block EnhancedForStatement SimpleName tables
+extents SimpleName EnhancedForStatement Block EnhancedForStatement SimpleName tables
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName run
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName run
+public Modifier MethodDeclaration Block SynchronizedStatement SimpleName online tablets
+public Modifier MethodDeclaration Block EnhancedForStatement SimpleName extents
+public Modifier MethodDeclaration Block EnhancedForStatement SimpleName tables
+void PrimitiveType MethodDeclaration SimpleName run
+void PrimitiveType MethodDeclaration Block SynchronizedStatement SimpleName online tablets
+void PrimitiveType MethodDeclaration Block EnhancedForStatement SimpleName extents
+void PrimitiveType MethodDeclaration Block EnhancedForStatement SimpleName tables
+run SimpleName MethodDeclaration Block SynchronizedStatement SimpleName online tablets
+run SimpleName MethodDeclaration Block EnhancedForStatement SimpleName extents
+run SimpleName MethodDeclaration Block EnhancedForStatement SimpleName tables
+context cleaner SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName runnable
+runnable SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName context cleaner
+simple timer SimpleName MethodInvocation SimpleName get instance
+simple timer SimpleName MethodInvocation MethodInvocation SimpleName schedule
+get instance SimpleName MethodInvocation MethodInvocation SimpleName schedule
+simple timer SimpleName MethodInvocation MethodInvocation SimpleName context cleaner
+get instance SimpleName MethodInvocation MethodInvocation SimpleName context cleaner
+simple timer SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+get instance SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+simple timer SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+get instance SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+schedule SimpleName MethodInvocation SimpleName context cleaner
+schedule SimpleName MethodInvocation NumberLiteral empty
+schedule SimpleName MethodInvocation NumberLiteral empty
+context cleaner SimpleName MethodInvocation NumberLiteral empty
+context cleaner SimpleName MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+file system monitor SimpleName MethodInvocation SimpleName start
+file system monitor SimpleName MethodInvocation MethodInvocation SimpleName get system configuration
+file system monitor SimpleName MethodInvocation QualifiedName propertytserv monitor fs
+start SimpleName MethodInvocation MethodInvocation SimpleName get system configuration
+start SimpleName MethodInvocation QualifiedName propertytserv monitor fs
+get system configuration SimpleName MethodInvocation MethodInvocation QualifiedName propertytserv monitor fs
+log gc info SimpleName MethodInvocation MethodInvocation SimpleName get system configuration
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName run
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName run
+void PrimitiveType MethodDeclaration SimpleName run
+gc debug task SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName runnable
+runnable SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName gc debug task
+simple timer SimpleName MethodInvocation SimpleName get instance
+simple timer SimpleName MethodInvocation MethodInvocation SimpleName schedule
+get instance SimpleName MethodInvocation MethodInvocation SimpleName schedule
+simple timer SimpleName MethodInvocation MethodInvocation SimpleName gc debug task
+get instance SimpleName MethodInvocation MethodInvocation SimpleName gc debug task
+simple timer SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+get instance SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+simple timer SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+get instance SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+schedule SimpleName MethodInvocation SimpleName gc debug task
+schedule SimpleName MethodInvocation NumberLiteral empty
+schedule SimpleName MethodInvocation NumberLiteral empty
+gc debug task SimpleName MethodInvocation NumberLiteral empty
+gc debug task SimpleName MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName tablet
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName tablet
+online tablets SimpleName MethodInvocation SimpleName values
+tablets SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName online tablets
+tablets SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName values
+tablet SimpleName SimpleType SingleVariableDeclaration SimpleName tablet
+tablet SimpleName MethodInvocation SimpleName check constraints
+tablet SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName tablets
+tablet SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName tablets
+online tablets SimpleName SynchronizedStatement Block EnhancedForStatement SimpleName tablets
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName run
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName run
+public Modifier MethodDeclaration Block SynchronizedStatement SimpleName online tablets
+public Modifier MethodDeclaration Block EnhancedForStatement SimpleName tablets
+void PrimitiveType MethodDeclaration SimpleName run
+void PrimitiveType MethodDeclaration Block SynchronizedStatement SimpleName online tablets
+void PrimitiveType MethodDeclaration Block EnhancedForStatement SimpleName tablets
+run SimpleName MethodDeclaration Block SynchronizedStatement SimpleName online tablets
+run SimpleName MethodDeclaration Block EnhancedForStatement SimpleName tablets
+constraint task SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName runnable
+runnable SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName constraint task
+simple timer SimpleName MethodInvocation SimpleName get instance
+simple timer SimpleName MethodInvocation MethodInvocation SimpleName schedule
+get instance SimpleName MethodInvocation MethodInvocation SimpleName schedule
+simple timer SimpleName MethodInvocation MethodInvocation SimpleName constraint task
+get instance SimpleName MethodInvocation MethodInvocation SimpleName constraint task
+simple timer SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+get instance SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+simple timer SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+get instance SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+schedule SimpleName MethodInvocation SimpleName constraint task
+schedule SimpleName MethodInvocation NumberLiteral empty
+schedule SimpleName MethodInvocation NumberLiteral empty
+constraint task SimpleName MethodInvocation NumberLiteral empty
+constraint task SimpleName MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+tablet server resource manager SimpleName SimpleType ClassInstanceCreation SimpleName instance
+tablet server resource manager SimpleName SimpleType ClassInstanceCreation SimpleName fs
+instance SimpleName ClassInstanceCreation SimpleName fs
+resource manager SimpleName FieldAccess Assignment ClassInstanceCreation SimpleName instance
+resource manager SimpleName FieldAccess Assignment ClassInstanceCreation SimpleName fs
+system SimpleName MethodInvocation SimpleName current time millis
+last ping time SimpleName Assignment MethodInvocation SimpleName system
+last ping time SimpleName Assignment MethodInvocation SimpleName current time millis
+stats keeper SimpleName Assignment ClassInstanceCreation SimpleType SimpleName tablet stats keeper
+logging runnable SimpleName SimpleType ClassInstanceCreation SimpleName log
+log SimpleName ClassInstanceCreation ClassInstanceCreation SimpleType SimpleName major compactor
+daemon SimpleName SimpleType ClassInstanceCreation ClassInstanceCreation SimpleName log
+major compactor thread SimpleName Assignment ClassInstanceCreation SimpleType SimpleName daemon
+major compactor thread SimpleName Assignment ClassInstanceCreation ClassInstanceCreation SimpleName log
+major compactor thread SimpleName MethodInvocation SimpleName set name
+major compactor thread SimpleName MethodInvocation StringLiteral splitmaj c initiator
+set name SimpleName MethodInvocation StringLiteral splitmaj c initiator
+major compactor thread SimpleName MethodInvocation SimpleName start
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName config
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName hostname
+void PrimitiveType MethodDeclaration SimpleName config
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName hostname
+config SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+config SimpleName MethodDeclaration SingleVariableDeclaration SimpleName hostname
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName config
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName hostname
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName config
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName hostname

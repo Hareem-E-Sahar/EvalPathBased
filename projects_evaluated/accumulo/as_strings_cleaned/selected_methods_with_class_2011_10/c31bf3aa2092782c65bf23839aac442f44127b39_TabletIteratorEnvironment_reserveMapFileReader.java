@@ -1,0 +1,82 @@
+sorted key value iterator SimpleName SimpleType ParameterizedType SimpleType SimpleName key
+sorted key value iterator SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+key SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+string SimpleName SimpleType SingleVariableDeclaration SimpleName map file name
+files SimpleName MethodInvocation SimpleName get
+files SimpleName MethodInvocation SimpleName map file name
+get SimpleName MethodInvocation SimpleName map file name
+collections SimpleName MethodInvocation SimpleName singleton map
+collections SimpleName MethodInvocation SimpleName map file name
+collections SimpleName MethodInvocation MethodInvocation SimpleName files
+collections SimpleName MethodInvocation MethodInvocation SimpleName get
+collections SimpleName MethodInvocation MethodInvocation SimpleName map file name
+singleton map SimpleName MethodInvocation SimpleName map file name
+singleton map SimpleName MethodInvocation MethodInvocation SimpleName files
+singleton map SimpleName MethodInvocation MethodInvocation SimpleName get
+singleton map SimpleName MethodInvocation MethodInvocation SimpleName map file name
+map file name SimpleName MethodInvocation MethodInvocation SimpleName files
+map file name SimpleName MethodInvocation MethodInvocation SimpleName get
+map file name SimpleName MethodInvocation MethodInvocation SimpleName map file name
+trm SimpleName MethodInvocation SimpleName open files
+trm SimpleName MethodInvocation MethodInvocation SimpleName collections
+trm SimpleName MethodInvocation MethodInvocation SimpleName singleton map
+trm SimpleName MethodInvocation MethodInvocation SimpleName map file name
+trm SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName files
+trm SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+trm SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName map file name
+trm SimpleName MethodInvocation BooleanLiteral false
+open files SimpleName MethodInvocation MethodInvocation SimpleName collections
+open files SimpleName MethodInvocation MethodInvocation SimpleName singleton map
+open files SimpleName MethodInvocation MethodInvocation SimpleName map file name
+open files SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName files
+open files SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+open files SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName map file name
+open files SimpleName MethodInvocation BooleanLiteral false
+collections SimpleName MethodInvocation MethodInvocation BooleanLiteral false
+singleton map SimpleName MethodInvocation MethodInvocation BooleanLiteral false
+map file name SimpleName MethodInvocation MethodInvocation BooleanLiteral false
+files SimpleName MethodInvocation MethodInvocation MethodInvocation BooleanLiteral false
+get SimpleName MethodInvocation MethodInvocation MethodInvocation BooleanLiteral false
+map file name SimpleName MethodInvocation MethodInvocation MethodInvocation BooleanLiteral false
+trm SimpleName MethodInvocation MethodInvocation SimpleName get
+open files SimpleName MethodInvocation MethodInvocation SimpleName get
+collections SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+singleton map SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+map file name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+false BooleanLiteral MethodInvocation MethodInvocation SimpleName get
+trm SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+open files SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+collections SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+singleton map SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+map file name SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+false BooleanLiteral MethodInvocation MethodInvocation NumberLiteral empty
+get SimpleName MethodInvocation NumberLiteral empty
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName reserve map file reader
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName map file name
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName io exception
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName sorted key value iterator
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName key
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName value
+public Modifier MethodDeclaration SimpleName reserve map file reader
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName map file name
+public Modifier MethodDeclaration SimpleType SimpleName io exception
+sorted key value iterator SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName reserve map file reader
+key SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName reserve map file reader
+value SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName reserve map file reader
+reserve map file reader SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+reserve map file reader SimpleName MethodDeclaration SingleVariableDeclaration SimpleName map file name
+reserve map file reader SimpleName MethodDeclaration SimpleType SimpleName io exception
+map file name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName reserve map file reader
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName map file name
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName reserve map file reader
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName map file name
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

@@ -1,0 +1,17 @@
+graph mutation context SimpleName SimpleType SingleVariableDeclaration SimpleName ctx
+t SimpleName SimpleType MethodDeclaration SimpleName to graph
+t SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName ctx
+t SimpleName SimpleType MethodDeclaration SimpleType SimpleName atlas base exception
+to graph SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName graph mutation context
+to graph SimpleName MethodDeclaration SingleVariableDeclaration SimpleName ctx
+to graph SimpleName MethodDeclaration SimpleType SimpleName atlas base exception
+ctx SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName t
+public Modifier TypeDeclaration MethodDeclaration SimpleName to graph
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ctx
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName t
+test SimpleName TypeDeclaration MethodDeclaration SimpleName to graph
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ctx
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception

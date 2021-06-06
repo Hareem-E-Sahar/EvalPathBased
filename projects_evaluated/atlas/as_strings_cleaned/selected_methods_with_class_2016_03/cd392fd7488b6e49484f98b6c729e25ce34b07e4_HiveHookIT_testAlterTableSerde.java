@@ -1,0 +1,44 @@
+table name SimpleName VariableDeclarationFragment MethodInvocation SimpleName create table
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName table name
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+put SimpleName MethodInvocation StringLiteral key
+put SimpleName MethodInvocation StringLiteral value
+key StringLiteral MethodInvocation StringLiteral value
+run serde props query SimpleName MethodInvocation SimpleName table name
+run serde props query SimpleName MethodInvocation SimpleName expected props
+table name SimpleName MethodInvocation SimpleName expected props
+expected props SimpleName MethodInvocation SimpleName put
+expected props SimpleName MethodInvocation StringLiteral key
+expected props SimpleName MethodInvocation StringLiteral value
+put SimpleName MethodInvocation StringLiteral key
+put SimpleName MethodInvocation StringLiteral value
+key StringLiteral MethodInvocation StringLiteral value
+run serde props query SimpleName MethodInvocation SimpleName table name
+run serde props query SimpleName MethodInvocation SimpleName expected props
+table name SimpleName MethodInvocation SimpleName expected props
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test alter table serde
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test alter table serde
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName test alter table serde
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+test alter table serde SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test alter table serde
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test alter table serde
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

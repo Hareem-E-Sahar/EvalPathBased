@@ -1,0 +1,55 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+configuration SimpleName SimpleType SingleVariableDeclaration SimpleName configuration
+configuration SimpleName MethodInvocation SimpleName get string array
+configuration SimpleName MethodInvocation SimpleName atlas server ids
+get string array SimpleName MethodInvocation SimpleName atlas server ids
+server ids SimpleName VariableDeclarationFragment MethodInvocation SimpleName configuration
+server ids SimpleName VariableDeclarationFragment MethodInvocation SimpleName get string array
+server ids SimpleName VariableDeclarationFragment MethodInvocation SimpleName atlas server ids
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+array list SimpleName SimpleType ParameterizedType ClassInstanceCreation QualifiedName server idslength
+server instances SimpleName VariableDeclarationFragment ClassInstanceCreation QualifiedName server idslength
+string SimpleName SimpleType SingleVariableDeclaration SimpleName server id
+get bound address for id SimpleName MethodInvocation SimpleName configuration
+get bound address for id SimpleName MethodInvocation SimpleName server id
+configuration SimpleName MethodInvocation SimpleName server id
+server instances SimpleName MethodInvocation SimpleName add
+server instances SimpleName MethodInvocation MethodInvocation SimpleName get bound address for id
+server instances SimpleName MethodInvocation MethodInvocation SimpleName configuration
+server instances SimpleName MethodInvocation MethodInvocation SimpleName server id
+add SimpleName MethodInvocation MethodInvocation SimpleName get bound address for id
+add SimpleName MethodInvocation MethodInvocation SimpleName configuration
+add SimpleName MethodInvocation MethodInvocation SimpleName server id
+string SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName server ids
+server id SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName server ids
+server ids SimpleName EnhancedForStatement Block ReturnStatement SimpleName server instances
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName get server instances
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName configuration
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName configuration
+public Modifier MethodDeclaration Block EnhancedForStatement SimpleName server ids
+public Modifier MethodDeclaration Block ReturnStatement SimpleName server instances
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+static Modifier MethodDeclaration SimpleName get server instances
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName configuration
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName configuration
+static Modifier MethodDeclaration Block EnhancedForStatement SimpleName server ids
+static Modifier MethodDeclaration Block ReturnStatement SimpleName server instances
+list SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get server instances
+string SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get server instances
+get server instances SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName configuration
+get server instances SimpleName MethodDeclaration SingleVariableDeclaration SimpleName configuration
+get server instances SimpleName MethodDeclaration Block EnhancedForStatement SimpleName server ids
+get server instances SimpleName MethodDeclaration Block ReturnStatement SimpleName server instances
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleName get server instances
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName configuration
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get server instances
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName configuration

@@ -1,0 +1,162 @@
+atlas struct type SimpleName SimpleType SingleVariableDeclaration SimpleName struct type
+atlas struct SimpleName SimpleType SingleVariableDeclaration SimpleName struct
+atlas vertex SimpleName SimpleType SingleVariableDeclaration SimpleName vertex
+struct SimpleName MethodInvocation SimpleName get attributes
+string SimpleName SimpleType SingleVariableDeclaration SimpleName attr name
+struct SimpleName MethodInvocation SimpleName get attributes
+struct SimpleName MethodInvocation MethodInvocation SimpleName key set
+get attributes SimpleName MethodInvocation MethodInvocation SimpleName key set
+struct SimpleName MethodInvocation SimpleName get attribute
+struct SimpleName MethodInvocation SimpleName attr name
+get attribute SimpleName MethodInvocation SimpleName attr name
+value SimpleName VariableDeclarationFragment MethodInvocation SimpleName struct
+value SimpleName VariableDeclarationFragment MethodInvocation SimpleName get attribute
+value SimpleName VariableDeclarationFragment MethodInvocation SimpleName attr name
+object SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName value
+struct type SimpleName MethodInvocation SimpleName get attribute type
+struct type SimpleName MethodInvocation SimpleName attr name
+get attribute type SimpleName MethodInvocation SimpleName attr name
+attribute type SimpleName VariableDeclarationFragment MethodInvocation SimpleName struct type
+attribute type SimpleName VariableDeclarationFragment MethodInvocation SimpleName get attribute type
+attribute type SimpleName VariableDeclarationFragment MethodInvocation SimpleName attr name
+atlas type SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName attribute type
+struct type SimpleName MethodInvocation SimpleName get attribute
+struct type SimpleName MethodInvocation SimpleName attr name
+get attribute SimpleName MethodInvocation SimpleName attr name
+attribute SimpleName VariableDeclarationFragment MethodInvocation SimpleName struct type
+attribute SimpleName VariableDeclarationFragment MethodInvocation SimpleName get attribute
+attribute SimpleName VariableDeclarationFragment MethodInvocation SimpleName attr name
+final Modifier VariableDeclarationStatement SimpleType QualifiedName atlas struct typeatlas attribute
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName attribute
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName struct type
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get attribute
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName attr name
+atlas struct typeatlas attribute QualifiedName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName attribute
+graph mutation contextbuilder QualifiedName SimpleType ClassInstanceCreation SimpleName attribute
+graph mutation contextbuilder QualifiedName SimpleType ClassInstanceCreation SimpleName value
+attribute SimpleName ClassInstanceCreation SimpleName value
+graph mutation contextbuilder QualifiedName SimpleType ClassInstanceCreation MethodInvocation SimpleName referring vertex
+attribute SimpleName ClassInstanceCreation MethodInvocation SimpleName referring vertex
+value SimpleName ClassInstanceCreation MethodInvocation SimpleName referring vertex
+graph mutation contextbuilder QualifiedName SimpleType ClassInstanceCreation MethodInvocation SimpleName vertex
+attribute SimpleName ClassInstanceCreation MethodInvocation SimpleName vertex
+value SimpleName ClassInstanceCreation MethodInvocation SimpleName vertex
+referring vertex SimpleName MethodInvocation SimpleName vertex
+atlas graph utils v SimpleName MethodInvocation SimpleName get qualified attribute property key
+atlas graph utils v SimpleName MethodInvocation SimpleName struct type
+atlas graph utils v SimpleName MethodInvocation SimpleName attr name
+get qualified attribute property key SimpleName MethodInvocation SimpleName struct type
+get qualified attribute property key SimpleName MethodInvocation SimpleName attr name
+struct type SimpleName MethodInvocation SimpleName attr name
+attribute SimpleName ClassInstanceCreation MethodInvocation MethodInvocation SimpleName vertex property
+value SimpleName ClassInstanceCreation MethodInvocation MethodInvocation SimpleName vertex property
+referring vertex SimpleName MethodInvocation MethodInvocation SimpleName vertex property
+vertex SimpleName MethodInvocation MethodInvocation SimpleName vertex property
+referring vertex SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName atlas graph utils v
+referring vertex SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get qualified attribute property key
+referring vertex SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName struct type
+referring vertex SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName attr name
+vertex SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName atlas graph utils v
+vertex SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get qualified attribute property key
+vertex SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName struct type
+vertex SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName attr name
+vertex property SimpleName MethodInvocation MethodInvocation SimpleName atlas graph utils v
+vertex property SimpleName MethodInvocation MethodInvocation SimpleName get qualified attribute property key
+vertex property SimpleName MethodInvocation MethodInvocation SimpleName struct type
+vertex property SimpleName MethodInvocation MethodInvocation SimpleName attr name
+referring vertex SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName build
+vertex SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName build
+vertex property SimpleName MethodInvocation MethodInvocation SimpleName build
+atlas graph utils v SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName build
+get qualified attribute property key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName build
+struct type SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName build
+attr name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName build
+ctx SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName vertex property
+ctx SimpleName VariableDeclarationFragment MethodInvocation SimpleName build
+graph mutation context SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ctx
+map to vertex by type category SimpleName MethodInvocation SimpleName ctx
+attr name SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName key set
+request context v SimpleName MethodInvocation SimpleName get
+request context v SimpleName MethodInvocation MethodInvocation SimpleName get request time
+get SimpleName MethodInvocation MethodInvocation SimpleName get request time
+atlas graph utils v SimpleName MethodInvocation SimpleName set property
+atlas graph utils v SimpleName MethodInvocation SimpleName vertex
+atlas graph utils v SimpleName MethodInvocation QualifiedName constantsmodification timestamp property key
+atlas graph utils v SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName request context v
+atlas graph utils v SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+atlas graph utils v SimpleName MethodInvocation MethodInvocation SimpleName get request time
+set property SimpleName MethodInvocation SimpleName vertex
+set property SimpleName MethodInvocation QualifiedName constantsmodification timestamp property key
+set property SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName request context v
+set property SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+set property SimpleName MethodInvocation MethodInvocation SimpleName get request time
+vertex SimpleName MethodInvocation QualifiedName constantsmodification timestamp property key
+vertex SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName request context v
+vertex SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+vertex SimpleName MethodInvocation MethodInvocation SimpleName get request time
+constantsmodification timestamp property key QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName request context v
+constantsmodification timestamp property key QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+constantsmodification timestamp property key QualifiedName MethodInvocation MethodInvocation SimpleName get request time
+request context v SimpleName MethodInvocation SimpleName get
+request context v SimpleName MethodInvocation MethodInvocation SimpleName get user
+get SimpleName MethodInvocation MethodInvocation SimpleName get user
+graph helper SimpleName MethodInvocation SimpleName set property
+graph helper SimpleName MethodInvocation SimpleName vertex
+graph helper SimpleName MethodInvocation QualifiedName constantsmodified by key
+graph helper SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName request context v
+graph helper SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+graph helper SimpleName MethodInvocation MethodInvocation SimpleName get user
+set property SimpleName MethodInvocation SimpleName vertex
+set property SimpleName MethodInvocation QualifiedName constantsmodified by key
+set property SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName request context v
+set property SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+set property SimpleName MethodInvocation MethodInvocation SimpleName get user
+vertex SimpleName MethodInvocation QualifiedName constantsmodified by key
+vertex SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName request context v
+vertex SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+vertex SimpleName MethodInvocation MethodInvocation SimpleName get user
+constantsmodified by key QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName request context v
+constantsmodified by key QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+constantsmodified by key QualifiedName MethodInvocation MethodInvocation SimpleName get user
+public Modifier MethodDeclaration SimpleType SimpleName atlas vertex
+public Modifier MethodDeclaration SimpleName map attributesto vertex
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas struct type
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName struct type
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas struct
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName struct
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas vertex
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName vertex
+atlas vertex SimpleName SimpleType MethodDeclaration SimpleName map attributesto vertex
+atlas vertex SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName struct type
+atlas vertex SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName struct
+atlas vertex SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName vertex
+atlas vertex SimpleName SimpleType MethodDeclaration SimpleType SimpleName atlas base exception
+map attributesto vertex SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas struct type
+map attributesto vertex SimpleName MethodDeclaration SingleVariableDeclaration SimpleName struct type
+map attributesto vertex SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas struct
+map attributesto vertex SimpleName MethodDeclaration SingleVariableDeclaration SimpleName struct
+map attributesto vertex SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas vertex
+map attributesto vertex SimpleName MethodDeclaration SingleVariableDeclaration SimpleName vertex
+map attributesto vertex SimpleName MethodDeclaration SimpleType SimpleName atlas base exception
+map attributesto vertex SimpleName MethodDeclaration Block ReturnStatement SimpleName vertex
+struct type SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName struct
+struct type SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName vertex
+struct type SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+struct SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName vertex
+struct SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+vertex SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas vertex
+public Modifier TypeDeclaration MethodDeclaration SimpleName map attributesto vertex
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName struct type
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName struct
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName vertex
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas vertex
+test SimpleName TypeDeclaration MethodDeclaration SimpleName map attributesto vertex
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName struct type
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName struct
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName vertex
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception

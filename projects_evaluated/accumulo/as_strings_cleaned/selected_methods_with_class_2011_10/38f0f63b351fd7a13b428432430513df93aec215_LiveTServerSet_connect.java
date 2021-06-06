@@ -1,0 +1,43 @@
+server configuration SimpleName MethodInvocation SimpleName get system configuration
+thrift util SimpleName MethodInvocation SimpleName get client
+thrift util SimpleName MethodInvocation ClassInstanceCreation SimpleType QualifiedName tablet client serviceclientfactory
+thrift util SimpleName MethodInvocation SimpleName address
+thrift util SimpleName MethodInvocation MethodInvocation SimpleName server configuration
+thrift util SimpleName MethodInvocation MethodInvocation SimpleName get system configuration
+get client SimpleName MethodInvocation ClassInstanceCreation SimpleType QualifiedName tablet client serviceclientfactory
+get client SimpleName MethodInvocation SimpleName address
+get client SimpleName MethodInvocation MethodInvocation SimpleName server configuration
+get client SimpleName MethodInvocation MethodInvocation SimpleName get system configuration
+tablet client serviceclientfactory QualifiedName SimpleType ClassInstanceCreation MethodInvocation SimpleName address
+address SimpleName MethodInvocation MethodInvocation SimpleName server configuration
+address SimpleName MethodInvocation MethodInvocation SimpleName get system configuration
+client SimpleName Assignment MethodInvocation SimpleName thrift util
+client SimpleName Assignment MethodInvocation SimpleName get client
+client SimpleName Assignment MethodInvocation SimpleName address
+client SimpleName Assignment MethodInvocation MethodInvocation SimpleName server configuration
+client SimpleName Assignment MethodInvocation MethodInvocation SimpleName get system configuration
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName ex
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation SimpleName ex
+log SimpleName MethodInvocation SimpleName ex
+error SimpleName MethodInvocation SimpleName ex
+error SimpleName MethodInvocation SimpleName ex
+ex SimpleName MethodInvocation SimpleName ex
+synchronized Modifier MethodDeclaration Modifier private
+synchronized Modifier MethodDeclaration SimpleType QualifiedName tablet client serviceiface
+synchronized Modifier MethodDeclaration SimpleName connect
+synchronized Modifier MethodDeclaration Block ReturnStatement SimpleName client
+private Modifier MethodDeclaration SimpleType QualifiedName tablet client serviceiface
+private Modifier MethodDeclaration SimpleName connect
+private Modifier MethodDeclaration Block ReturnStatement SimpleName client
+tablet client serviceiface QualifiedName SimpleType MethodDeclaration SimpleName connect
+connect SimpleName MethodDeclaration Block ReturnStatement SimpleName client
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier synchronized
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType QualifiedName tablet client serviceiface
+public Modifier TypeDeclaration MethodDeclaration SimpleName connect
+test SimpleName TypeDeclaration MethodDeclaration Modifier synchronized
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType QualifiedName tablet client serviceiface
+test SimpleName TypeDeclaration MethodDeclaration SimpleName connect

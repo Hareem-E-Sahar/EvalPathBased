@@ -1,0 +1,50 @@
+is kerberos authentication enabled SimpleName VariableDeclarationFragment BooleanLiteral false
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName is kerberos authentication enabled
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment BooleanLiteral false
+application properties SimpleName MethodInvocation SimpleName get
+atlas conf SimpleName VariableDeclarationFragment MethodInvocation SimpleName application properties
+atlas conf SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+configuration SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName atlas conf
+atlas conf SimpleName MethodInvocation SimpleName get string
+atlas conf SimpleName MethodInvocation StringLiteral atlasauthenticationmethodkerberos
+get string SimpleName MethodInvocation StringLiteral atlasauthenticationmethodkerberos
+true StringLiteral MethodInvocation SimpleName equals ignore case
+true StringLiteral MethodInvocation MethodInvocation SimpleName atlas conf
+true StringLiteral MethodInvocation MethodInvocation SimpleName get string
+true StringLiteral MethodInvocation MethodInvocation StringLiteral atlasauthenticationmethodkerberos
+equals ignore case SimpleName MethodInvocation MethodInvocation SimpleName atlas conf
+equals ignore case SimpleName MethodInvocation MethodInvocation SimpleName get string
+equals ignore case SimpleName MethodInvocation MethodInvocation StringLiteral atlasauthenticationmethodkerberos
+is kerberos authentication enabled SimpleName Assignment BooleanLiteral true
+is kerberos authentication enabled SimpleName Assignment BooleanLiteral false
+atlas exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation StringLiteral error while is kerberos authentication enabled
+log SimpleName MethodInvocation SimpleName e
+error SimpleName MethodInvocation StringLiteral error while is kerberos authentication enabled
+error SimpleName MethodInvocation SimpleName e
+error while is kerberos authentication enabled StringLiteral MethodInvocation SimpleName e
+boolean PrimitiveType VariableDeclarationStatement Block ReturnStatement SimpleName is kerberos authentication enabled
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName is kerberos authentication enabled
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+public Modifier MethodDeclaration Block ReturnStatement SimpleName is kerberos authentication enabled
+static Modifier MethodDeclaration PrimitiveType boolean
+static Modifier MethodDeclaration SimpleName is kerberos authentication enabled
+static Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+static Modifier MethodDeclaration Block ReturnStatement SimpleName is kerberos authentication enabled
+boolean PrimitiveType MethodDeclaration SimpleName is kerberos authentication enabled
+boolean PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+boolean PrimitiveType MethodDeclaration Block ReturnStatement SimpleName is kerberos authentication enabled
+is kerberos authentication enabled SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+is kerberos authentication enabled SimpleName MethodDeclaration Block ReturnStatement SimpleName is kerberos authentication enabled
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName is kerberos authentication enabled
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName is kerberos authentication enabled

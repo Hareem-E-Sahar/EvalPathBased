@@ -1,0 +1,107 @@
+job context SimpleName SimpleType SingleVariableDeclaration SimpleName job
+regex type SimpleName SimpleType SingleVariableDeclaration SimpleName type
+string SimpleName SimpleType SingleVariableDeclaration SimpleName regex
+argument checker SimpleName MethodInvocation SimpleName not null
+argument checker SimpleName MethodInvocation SimpleName type
+argument checker SimpleName MethodInvocation SimpleName regex
+not null SimpleName MethodInvocation SimpleName type
+not null SimpleName MethodInvocation SimpleName regex
+type SimpleName MethodInvocation SimpleName regex
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName key
+key SimpleName Assignment SimpleName row regex
+key SimpleName Assignment SimpleName column family regex
+key SimpleName Assignment SimpleName column qualifier regex
+key SimpleName Assignment SimpleName value regex
+type SimpleName SwitchStatement SwitchCase SimpleName row
+type SimpleName SwitchStatement ExpressionStatement Assignment SimpleName key
+type SimpleName SwitchStatement ExpressionStatement Assignment SimpleName row regex
+type SimpleName SwitchStatement SwitchCase SimpleName column family
+type SimpleName SwitchStatement ExpressionStatement Assignment SimpleName key
+type SimpleName SwitchStatement ExpressionStatement Assignment SimpleName column family regex
+row SimpleName SwitchCase SwitchStatement SwitchCase SimpleName column family
+column family SimpleName SwitchCase SwitchStatement SwitchCase SimpleName column qualifier
+column qualifier SimpleName SwitchCase SwitchStatement SwitchCase SimpleName value
+job SimpleName MethodInvocation SimpleName get configuration
+url encoder SimpleName MethodInvocation SimpleName encode
+url encoder SimpleName MethodInvocation SimpleName regex
+url encoder SimpleName MethodInvocation StringLiteral utf
+encode SimpleName MethodInvocation SimpleName regex
+encode SimpleName MethodInvocation StringLiteral utf
+regex SimpleName MethodInvocation StringLiteral utf
+job SimpleName MethodInvocation MethodInvocation SimpleName set
+get configuration SimpleName MethodInvocation MethodInvocation SimpleName set
+job SimpleName MethodInvocation MethodInvocation SimpleName key
+get configuration SimpleName MethodInvocation MethodInvocation SimpleName key
+job SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName url encoder
+job SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName encode
+job SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName regex
+job SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral utf
+get configuration SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName url encoder
+get configuration SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName encode
+get configuration SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName regex
+get configuration SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral utf
+set SimpleName MethodInvocation SimpleName key
+set SimpleName MethodInvocation MethodInvocation SimpleName url encoder
+set SimpleName MethodInvocation MethodInvocation SimpleName encode
+set SimpleName MethodInvocation MethodInvocation SimpleName regex
+set SimpleName MethodInvocation MethodInvocation StringLiteral utf
+key SimpleName MethodInvocation MethodInvocation SimpleName url encoder
+key SimpleName MethodInvocation MethodInvocation SimpleName encode
+key SimpleName MethodInvocation MethodInvocation SimpleName regex
+key SimpleName MethodInvocation MethodInvocation StringLiteral utf
+unsupported encoding exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation StringLiteral failedd to encode regular expression
+log SimpleName MethodInvocation SimpleName e
+error SimpleName MethodInvocation StringLiteral failedd to encode regular expression
+error SimpleName MethodInvocation SimpleName e
+failedd to encode regular expression StringLiteral MethodInvocation SimpleName e
+runtime exception SimpleName SimpleType ClassInstanceCreation SimpleName e
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set regex
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName job context
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName job
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName regex type
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName type
+static Modifier MethodDeclaration PrimitiveType void
+static Modifier MethodDeclaration SimpleName set regex
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName job context
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName job
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName regex type
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName type
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName regex
+void PrimitiveType MethodDeclaration SimpleName set regex
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName job context
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName job
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName regex type
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName type
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName regex
+void PrimitiveType MethodDeclaration Block SwitchStatement SimpleName type
+set regex SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName job context
+set regex SimpleName MethodDeclaration SingleVariableDeclaration SimpleName job
+set regex SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName regex type
+set regex SimpleName MethodDeclaration SingleVariableDeclaration SimpleName type
+set regex SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+set regex SimpleName MethodDeclaration SingleVariableDeclaration SimpleName regex
+set regex SimpleName MethodDeclaration Block SwitchStatement SimpleName type
+job SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type
+job SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName regex
+type SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName regex
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set regex
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName job
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName regex
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set regex
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName job
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName regex

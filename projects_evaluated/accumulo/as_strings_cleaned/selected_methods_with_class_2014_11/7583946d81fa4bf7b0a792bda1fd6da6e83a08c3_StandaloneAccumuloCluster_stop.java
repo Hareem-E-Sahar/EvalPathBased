@@ -1,0 +1,54 @@
+control SimpleName VariableDeclarationFragment MethodInvocation SimpleName get cluster control
+standalone cluster control SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName control
+server type SimpleName SimpleType SingleVariableDeclaration SimpleName type
+arrays SimpleName MethodInvocation SimpleName as list
+arrays SimpleName MethodInvocation QualifiedName server typemaster
+arrays SimpleName MethodInvocation QualifiedName server typetablet server
+arrays SimpleName MethodInvocation QualifiedName server typetracer
+arrays SimpleName MethodInvocation QualifiedName server typegarbage collector
+as list SimpleName MethodInvocation QualifiedName server typemaster
+as list SimpleName MethodInvocation QualifiedName server typetablet server
+as list SimpleName MethodInvocation QualifiedName server typetracer
+as list SimpleName MethodInvocation QualifiedName server typegarbage collector
+as list SimpleName MethodInvocation QualifiedName server typemonitor
+server typemaster QualifiedName MethodInvocation QualifiedName server typetablet server
+server typemaster QualifiedName MethodInvocation QualifiedName server typetracer
+server typemaster QualifiedName MethodInvocation QualifiedName server typegarbage collector
+server typemaster QualifiedName MethodInvocation QualifiedName server typemonitor
+server typetablet server QualifiedName MethodInvocation QualifiedName server typetracer
+server typetablet server QualifiedName MethodInvocation QualifiedName server typegarbage collector
+server typetablet server QualifiedName MethodInvocation QualifiedName server typemonitor
+server typetracer QualifiedName MethodInvocation QualifiedName server typegarbage collector
+server typetracer QualifiedName MethodInvocation QualifiedName server typemonitor
+server typegarbage collector QualifiedName MethodInvocation QualifiedName server typemonitor
+control SimpleName MethodInvocation SimpleName stop all servers
+control SimpleName MethodInvocation SimpleName type
+stop all servers SimpleName MethodInvocation SimpleName type
+type SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName arrays
+type SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName as list
+type SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation QualifiedName server typemaster
+type SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation QualifiedName server typetablet server
+type SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation QualifiedName server typetracer
+type SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation QualifiedName server typegarbage collector
+type SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation QualifiedName server typemonitor
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName stop
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName io exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName stop
+public Modifier MethodDeclaration SimpleType SimpleName io exception
+void PrimitiveType MethodDeclaration SimpleName stop
+void PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+stop SimpleName MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName stop
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName stop
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

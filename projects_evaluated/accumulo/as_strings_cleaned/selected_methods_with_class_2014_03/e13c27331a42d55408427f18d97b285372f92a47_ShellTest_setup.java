@@ -1,0 +1,62 @@
+shelllog QualifiedName MethodInvocation SimpleName set level
+shelllog QualifiedName MethodInvocation QualifiedName leveloff
+set level SimpleName MethodInvocation QualifiedName leveloff
+output SimpleName Assignment ClassInstanceCreation SimpleType SimpleName test output stream
+output stream writer SimpleName SimpleType ClassInstanceCreation SimpleName output
+print writer SimpleName SimpleType ClassInstanceCreation ClassInstanceCreation SimpleName output
+pw SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName print writer
+pw SimpleName VariableDeclarationFragment ClassInstanceCreation ClassInstanceCreation SimpleName output
+print writer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName pw
+file input stream SimpleName SimpleType ClassInstanceCreation QualifiedName file descriptorin
+output stream writer SimpleName SimpleType ClassInstanceCreation SimpleName output
+console reader SimpleName SimpleType ClassInstanceCreation ClassInstanceCreation QualifiedName file descriptorin
+console reader SimpleName SimpleType ClassInstanceCreation ClassInstanceCreation SimpleName output
+file descriptorin QualifiedName ClassInstanceCreation ClassInstanceCreation ClassInstanceCreation SimpleName output
+shell SimpleName SimpleType ClassInstanceCreation SimpleName pw
+console reader SimpleName SimpleType ClassInstanceCreation ClassInstanceCreation SimpleName pw
+file descriptorin QualifiedName ClassInstanceCreation ClassInstanceCreation ClassInstanceCreation SimpleName pw
+output SimpleName ClassInstanceCreation ClassInstanceCreation ClassInstanceCreation SimpleName pw
+shell SimpleName Assignment ClassInstanceCreation SimpleType SimpleName shell
+shell SimpleName Assignment ClassInstanceCreation SimpleName pw
+shell SimpleName MethodInvocation SimpleName set log errors to console
+shell SimpleName MethodInvocation SimpleName config
+shell SimpleName MethodInvocation StringLiteral fake
+shell SimpleName MethodInvocation StringLiteral u
+shell SimpleName MethodInvocation StringLiteral test
+shell SimpleName MethodInvocation StringLiteral p
+config SimpleName MethodInvocation StringLiteral fake
+config SimpleName MethodInvocation StringLiteral u
+config SimpleName MethodInvocation StringLiteral test
+config SimpleName MethodInvocation StringLiteral p
+config SimpleName MethodInvocation StringLiteral secret
+fake StringLiteral MethodInvocation StringLiteral u
+fake StringLiteral MethodInvocation StringLiteral test
+fake StringLiteral MethodInvocation StringLiteral p
+fake StringLiteral MethodInvocation StringLiteral secret
+u StringLiteral MethodInvocation StringLiteral test
+u StringLiteral MethodInvocation StringLiteral p
+u StringLiteral MethodInvocation StringLiteral secret
+test StringLiteral MethodInvocation StringLiteral p
+test StringLiteral MethodInvocation StringLiteral secret
+p StringLiteral MethodInvocation StringLiteral secret
+before SimpleName MarkerAnnotation MethodDeclaration Modifier public
+before SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+before SimpleName MarkerAnnotation MethodDeclaration SimpleName setup
+before SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName io exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName setup
+public Modifier MethodDeclaration SimpleType SimpleName io exception
+void PrimitiveType MethodDeclaration SimpleName setup
+void PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+setup SimpleName MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName before
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName setup
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName before
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName setup
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

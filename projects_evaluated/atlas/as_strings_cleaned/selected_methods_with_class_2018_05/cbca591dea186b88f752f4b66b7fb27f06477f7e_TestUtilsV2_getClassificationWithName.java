@@ -1,0 +1,89 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas classification def
+string SimpleName SimpleType SingleVariableDeclaration SimpleName name
+collections SimpleName MethodInvocation SimpleType SimpleName string
+collections SimpleName MethodInvocation SimpleName empty set
+string SimpleName SimpleType MethodInvocation SimpleName empty set
+create required attr def SimpleName MethodInvocation StringLiteral level
+create required attr def SimpleName MethodInvocation StringLiteral int
+level StringLiteral MethodInvocation StringLiteral int
+atlas type util SimpleName MethodInvocation SimpleName create trait type def
+atlas type util SimpleName MethodInvocation SimpleName name
+atlas type util SimpleName MethodInvocation StringLiteral s description
+atlas type util SimpleName MethodInvocation MethodInvocation SimpleName collections
+atlas type util SimpleName MethodInvocation MethodInvocation SimpleType SimpleName string
+atlas type util SimpleName MethodInvocation MethodInvocation SimpleName empty set
+atlas type util SimpleName MethodInvocation MethodInvocation SimpleName create required attr def
+atlas type util SimpleName MethodInvocation MethodInvocation StringLiteral level
+atlas type util SimpleName MethodInvocation MethodInvocation StringLiteral int
+create trait type def SimpleName MethodInvocation SimpleName name
+create trait type def SimpleName MethodInvocation StringLiteral s description
+create trait type def SimpleName MethodInvocation MethodInvocation SimpleName collections
+create trait type def SimpleName MethodInvocation MethodInvocation SimpleType SimpleName string
+create trait type def SimpleName MethodInvocation MethodInvocation SimpleName empty set
+create trait type def SimpleName MethodInvocation MethodInvocation SimpleName create required attr def
+create trait type def SimpleName MethodInvocation MethodInvocation StringLiteral level
+create trait type def SimpleName MethodInvocation MethodInvocation StringLiteral int
+name SimpleName MethodInvocation StringLiteral s description
+name SimpleName MethodInvocation MethodInvocation SimpleName collections
+name SimpleName MethodInvocation MethodInvocation SimpleType SimpleName string
+name SimpleName MethodInvocation MethodInvocation SimpleName empty set
+name SimpleName MethodInvocation MethodInvocation SimpleName create required attr def
+name SimpleName MethodInvocation MethodInvocation StringLiteral level
+name SimpleName MethodInvocation MethodInvocation StringLiteral int
+s description StringLiteral MethodInvocation MethodInvocation SimpleName collections
+s description StringLiteral MethodInvocation MethodInvocation SimpleType SimpleName string
+s description StringLiteral MethodInvocation MethodInvocation SimpleName empty set
+s description StringLiteral MethodInvocation MethodInvocation SimpleName create required attr def
+s description StringLiteral MethodInvocation MethodInvocation StringLiteral level
+s description StringLiteral MethodInvocation MethodInvocation StringLiteral int
+collections SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName create required attr def
+collections SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral level
+collections SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral int
+empty set SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName create required attr def
+empty set SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral level
+empty set SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral int
+classification type def SimpleName VariableDeclarationFragment MethodInvocation SimpleName atlas type util
+classification type def SimpleName VariableDeclarationFragment MethodInvocation SimpleName create trait type def
+classification type def SimpleName VariableDeclarationFragment MethodInvocation SimpleName name
+classification type def SimpleName VariableDeclarationFragment MethodInvocation StringLiteral s description
+classification type def SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName collections
+classification type def SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName empty set
+classification type def SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName create required attr def
+classification type def SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation StringLiteral level
+classification type def SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation StringLiteral int
+atlas classification def SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName classification type def
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas classification def
+arrays SimpleName MethodInvocation SimpleName as list
+arrays SimpleName MethodInvocation SimpleName classification type def
+as list SimpleName MethodInvocation SimpleName classification type def
+ret SimpleName VariableDeclarationFragment MethodInvocation SimpleName arrays
+ret SimpleName VariableDeclarationFragment MethodInvocation SimpleName as list
+ret SimpleName VariableDeclarationFragment MethodInvocation SimpleName classification type def
+populate system attributes SimpleName MethodInvocation SimpleName ret
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName atlas classification def
+public Modifier MethodDeclaration SimpleName get classification with name
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName name
+public Modifier MethodDeclaration Block ReturnStatement SimpleName ret
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName atlas classification def
+static Modifier MethodDeclaration SimpleName get classification with name
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName name
+static Modifier MethodDeclaration Block ReturnStatement SimpleName ret
+list SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get classification with name
+atlas classification def SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get classification with name
+get classification with name SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get classification with name SimpleName MethodDeclaration SingleVariableDeclaration SimpleName name
+get classification with name SimpleName MethodDeclaration Block ReturnStatement SimpleName ret
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleName get classification with name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get classification with name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name

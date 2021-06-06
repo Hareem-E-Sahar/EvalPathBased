@@ -1,0 +1,116 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName term name
+atlas vertex SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ret
+string utils SimpleName MethodInvocation SimpleName is not empty
+string utils SimpleName MethodInvocation SimpleName term name
+is not empty SimpleName MethodInvocation SimpleName term name
+term type SimpleName VariableDeclarationFragment MethodInvocation SimpleName get term entity type
+atlas entity type SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName term type
+term type SimpleName MethodInvocation SimpleName get attribute
+term type SimpleName MethodInvocation QualifiedName term search processoratlas glossary term attr qname
+get attribute SimpleName MethodInvocation QualifiedName term search processoratlas glossary term attr qname
+attr name SimpleName VariableDeclarationFragment MethodInvocation SimpleName term type
+attr name SimpleName VariableDeclarationFragment MethodInvocation SimpleName get attribute
+attr name SimpleName VariableDeclarationFragment MethodInvocation QualifiedName term search processoratlas glossary term attr qname
+atlas attribute SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName attr name
+graph SimpleName MethodInvocation SimpleName query
+term type SimpleName MethodInvocation SimpleName get type name
+graph SimpleName MethodInvocation MethodInvocation SimpleName has
+query SimpleName MethodInvocation MethodInvocation SimpleName has
+graph SimpleName MethodInvocation MethodInvocation QualifiedName constantsentity type property key
+query SimpleName MethodInvocation MethodInvocation QualifiedName constantsentity type property key
+graph SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName term type
+graph SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get type name
+query SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName term type
+query SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get type name
+has SimpleName MethodInvocation QualifiedName constantsentity type property key
+has SimpleName MethodInvocation MethodInvocation SimpleName term type
+has SimpleName MethodInvocation MethodInvocation SimpleName get type name
+constantsentity type property key QualifiedName MethodInvocation MethodInvocation SimpleName term type
+constantsentity type property key QualifiedName MethodInvocation MethodInvocation SimpleName get type name
+attr name SimpleName MethodInvocation SimpleName get vertex property name
+graph SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName has
+query SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName has
+has SimpleName MethodInvocation MethodInvocation SimpleName has
+constantsentity type property key QualifiedName MethodInvocation MethodInvocation SimpleName has
+term type SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName has
+get type name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName has
+has SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName attr name
+has SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get vertex property name
+constantsentity type property key QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName attr name
+constantsentity type property key QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName get vertex property name
+graph SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName term name
+query SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName term name
+has SimpleName MethodInvocation MethodInvocation SimpleName term name
+constantsentity type property key QualifiedName MethodInvocation MethodInvocation SimpleName term name
+term type SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName term name
+get type name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName term name
+has SimpleName MethodInvocation MethodInvocation SimpleName attr name
+has SimpleName MethodInvocation MethodInvocation SimpleName get vertex property name
+has SimpleName MethodInvocation SimpleName term name
+attr name SimpleName MethodInvocation MethodInvocation SimpleName term name
+get vertex property name SimpleName MethodInvocation MethodInvocation SimpleName term name
+atlas entitystatusactive QualifiedName MethodInvocation SimpleName name
+has SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName has
+constantsentity type property key QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName has
+has SimpleName MethodInvocation MethodInvocation SimpleName has
+attr name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName has
+get vertex property name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName has
+term name SimpleName MethodInvocation MethodInvocation SimpleName has
+has SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName constantsstate property key
+constantsentity type property key QualifiedName MethodInvocation MethodInvocation MethodInvocation QualifiedName constantsstate property key
+has SimpleName MethodInvocation MethodInvocation QualifiedName constantsstate property key
+attr name SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName constantsstate property key
+get vertex property name SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName constantsstate property key
+term name SimpleName MethodInvocation MethodInvocation QualifiedName constantsstate property key
+has SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName atlas entitystatusactive
+has SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName name
+term name SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName atlas entitystatusactive
+term name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName name
+has SimpleName MethodInvocation QualifiedName constantsstate property key
+has SimpleName MethodInvocation MethodInvocation QualifiedName atlas entitystatusactive
+has SimpleName MethodInvocation MethodInvocation SimpleName name
+constantsstate property key QualifiedName MethodInvocation MethodInvocation QualifiedName atlas entitystatusactive
+constantsstate property key QualifiedName MethodInvocation MethodInvocation SimpleName name
+query SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName has
+query SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName term name
+query SimpleName VariableDeclarationFragment MethodInvocation SimpleName has
+query SimpleName VariableDeclarationFragment MethodInvocation QualifiedName constantsstate property key
+query SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation QualifiedName atlas entitystatusactive
+query SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName name
+atlas graph query SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName query
+iterator SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas vertex
+query SimpleName MethodInvocation SimpleName vertices
+query SimpleName MethodInvocation MethodInvocation SimpleName iterator
+vertices SimpleName MethodInvocation MethodInvocation SimpleName iterator
+results SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName query
+results SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName vertices
+results SimpleName VariableDeclarationFragment MethodInvocation SimpleName iterator
+results SimpleName MethodInvocation SimpleName has next
+results SimpleName MethodInvocation SimpleName next
+results SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName results
+results SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName next
+has next SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName results
+has next SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName next
+ret SimpleName Assignment ConditionalExpression MethodInvocation SimpleName results
+ret SimpleName Assignment ConditionalExpression MethodInvocation SimpleName has next
+ret SimpleName Assignment ConditionalExpression MethodInvocation SimpleName results
+ret SimpleName Assignment ConditionalExpression MethodInvocation SimpleName next
+private Modifier MethodDeclaration SimpleType SimpleName atlas vertex
+private Modifier MethodDeclaration SimpleName get glossary term vertex
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName term name
+private Modifier MethodDeclaration Block ReturnStatement SimpleName ret
+atlas vertex SimpleName SimpleType MethodDeclaration SimpleName get glossary term vertex
+atlas vertex SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName term name
+get glossary term vertex SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get glossary term vertex SimpleName MethodDeclaration SingleVariableDeclaration SimpleName term name
+get glossary term vertex SimpleName MethodDeclaration Block ReturnStatement SimpleName ret
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas vertex
+public Modifier TypeDeclaration MethodDeclaration SimpleName get glossary term vertex
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName term name
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas vertex
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get glossary term vertex
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName term name

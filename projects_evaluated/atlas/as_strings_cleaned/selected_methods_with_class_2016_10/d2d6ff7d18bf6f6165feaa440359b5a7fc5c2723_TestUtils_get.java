@@ -1,0 +1,17 @@
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName types change listener
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName get
+public Modifier MethodDeclaration SimpleType SimpleName types change listener
+public Modifier MethodDeclaration SimpleName get
+public Modifier MethodDeclaration Block ReturnStatement SimpleName indexer
+types change listener SimpleName SimpleType MethodDeclaration SimpleName get
+get SimpleName MethodDeclaration Block ReturnStatement SimpleName indexer
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName types change listener
+public Modifier TypeDeclaration MethodDeclaration SimpleName get
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName types change listener
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get

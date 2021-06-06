@@ -1,0 +1,184 @@
+state SimpleName SimpleType SingleVariableDeclaration SimpleName state
+properties SimpleName SimpleType SingleVariableDeclaration SimpleName props
+state SimpleName MethodInvocation SimpleName get connector
+conn SimpleName VariableDeclarationFragment MethodInvocation SimpleName state
+conn SimpleName VariableDeclarationFragment MethodInvocation SimpleName get connector
+connector SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName conn
+state SimpleName MethodInvocation SimpleName get
+state SimpleName MethodInvocation StringLiteral next id
+get SimpleName MethodInvocation StringLiteral next id
+integer SimpleName SimpleType CastExpression MethodInvocation SimpleName state
+integer SimpleName SimpleType CastExpression MethodInvocation SimpleName get
+integer SimpleName SimpleType CastExpression MethodInvocation StringLiteral next id
+next id SimpleName VariableDeclarationFragment MethodInvocation SimpleName int value
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName next id
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName int value
+state SimpleName MethodInvocation SimpleName get string
+state SimpleName MethodInvocation StringLiteral table name prefix
+get string SimpleName MethodInvocation StringLiteral table name prefix
+string SimpleName MethodInvocation SimpleName format
+string SimpleName MethodInvocation StringLiteral s d
+string SimpleName MethodInvocation MethodInvocation SimpleName state
+string SimpleName MethodInvocation MethodInvocation SimpleName get string
+string SimpleName MethodInvocation MethodInvocation StringLiteral table name prefix
+string SimpleName MethodInvocation SimpleName next id
+format SimpleName MethodInvocation StringLiteral s d
+format SimpleName MethodInvocation MethodInvocation SimpleName state
+format SimpleName MethodInvocation MethodInvocation SimpleName get string
+format SimpleName MethodInvocation MethodInvocation StringLiteral table name prefix
+format SimpleName MethodInvocation SimpleName next id
+s d StringLiteral MethodInvocation MethodInvocation SimpleName state
+s d StringLiteral MethodInvocation MethodInvocation SimpleName get string
+s d StringLiteral MethodInvocation MethodInvocation StringLiteral table name prefix
+s d StringLiteral MethodInvocation SimpleName next id
+state SimpleName MethodInvocation MethodInvocation SimpleName next id
+get string SimpleName MethodInvocation MethodInvocation SimpleName next id
+table name prefix StringLiteral MethodInvocation MethodInvocation SimpleName next id
+table name SimpleName VariableDeclarationFragment MethodInvocation SimpleName string
+table name SimpleName VariableDeclarationFragment MethodInvocation SimpleName format
+table name SimpleName VariableDeclarationFragment MethodInvocation StringLiteral s d
+table name SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName state
+table name SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get string
+table name SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation StringLiteral table name prefix
+table name SimpleName VariableDeclarationFragment MethodInvocation SimpleName next id
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName table name
+conn SimpleName MethodInvocation SimpleName table operations
+conn SimpleName MethodInvocation MethodInvocation SimpleName create
+table operations SimpleName MethodInvocation MethodInvocation SimpleName create
+conn SimpleName MethodInvocation MethodInvocation SimpleName table name
+table operations SimpleName MethodInvocation MethodInvocation SimpleName table name
+create SimpleName MethodInvocation SimpleName table name
+conn SimpleName MethodInvocation SimpleName table operations
+conn SimpleName MethodInvocation MethodInvocation SimpleName add splits
+table operations SimpleName MethodInvocation MethodInvocation SimpleName add splits
+conn SimpleName MethodInvocation MethodInvocation SimpleName table name
+table operations SimpleName MethodInvocation MethodInvocation SimpleName table name
+conn SimpleName MethodInvocation MethodInvocation SimpleName splits
+table operations SimpleName MethodInvocation MethodInvocation SimpleName splits
+add splits SimpleName MethodInvocation SimpleName table name
+add splits SimpleName MethodInvocation SimpleName splits
+table name SimpleName MethodInvocation SimpleName splits
+state SimpleName MethodInvocation SimpleName get instance
+tables SimpleName MethodInvocation SimpleName get name to id map
+tables SimpleName MethodInvocation MethodInvocation SimpleName state
+tables SimpleName MethodInvocation MethodInvocation SimpleName get instance
+get name to id map SimpleName MethodInvocation MethodInvocation SimpleName state
+get name to id map SimpleName MethodInvocation MethodInvocation SimpleName get instance
+tables SimpleName MethodInvocation MethodInvocation SimpleName get
+get name to id map SimpleName MethodInvocation MethodInvocation SimpleName get
+state SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+get instance SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+tables SimpleName MethodInvocation MethodInvocation SimpleName table name
+get name to id map SimpleName MethodInvocation MethodInvocation SimpleName table name
+state SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName table name
+get instance SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName table name
+get SimpleName MethodInvocation SimpleName table name
+table id SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName tables
+table id SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get name to id map
+table id SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+table id SimpleName VariableDeclarationFragment MethodInvocation SimpleName table name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName table id
+created StringLiteral InfixExpression SimpleName table name
+created StringLiteral InfixExpression StringLiteral id
+created StringLiteral InfixExpression SimpleName table id
+created StringLiteral InfixExpression StringLiteral )
+table name SimpleName InfixExpression StringLiteral id
+table name SimpleName InfixExpression SimpleName table id
+table name SimpleName InfixExpression StringLiteral )
+id StringLiteral InfixExpression SimpleName table id
+id StringLiteral InfixExpression StringLiteral )
+table id SimpleName InfixExpression StringLiteral )
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation InfixExpression StringLiteral created
+log SimpleName MethodInvocation InfixExpression SimpleName table name
+log SimpleName MethodInvocation InfixExpression StringLiteral id
+log SimpleName MethodInvocation InfixExpression SimpleName table id
+log SimpleName MethodInvocation InfixExpression StringLiteral )
+debug SimpleName MethodInvocation InfixExpression StringLiteral created
+debug SimpleName MethodInvocation InfixExpression SimpleName table name
+debug SimpleName MethodInvocation InfixExpression StringLiteral id
+debug SimpleName MethodInvocation InfixExpression SimpleName table id
+debug SimpleName MethodInvocation InfixExpression StringLiteral )
+suppress warnings SimpleName SingleMemberAnnotation StringLiteral unchecked
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+state SimpleName MethodInvocation SimpleName get
+state SimpleName MethodInvocation StringLiteral table list
+get SimpleName MethodInvocation StringLiteral table list
+tables SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName state
+tables SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get
+tables SimpleName VariableDeclarationFragment CastExpression MethodInvocation StringLiteral table list
+suppress warnings SimpleName SingleMemberAnnotation VariableDeclarationStatement VariableDeclarationFragment SimpleName tables
+unchecked StringLiteral SingleMemberAnnotation VariableDeclarationStatement VariableDeclarationFragment SimpleName tables
+tables SimpleName MethodInvocation SimpleName add
+tables SimpleName MethodInvocation SimpleName table name
+add SimpleName MethodInvocation SimpleName table name
+table exists exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+failed to create StringLiteral InfixExpression SimpleName table name
+failed to create StringLiteral InfixExpression StringLiteral as it already exists
+table name SimpleName InfixExpression StringLiteral as it already exists
+log SimpleName MethodInvocation SimpleName warn
+log SimpleName MethodInvocation InfixExpression StringLiteral failed to create
+log SimpleName MethodInvocation InfixExpression SimpleName table name
+log SimpleName MethodInvocation InfixExpression StringLiteral as it already exists
+warn SimpleName MethodInvocation InfixExpression StringLiteral failed to create
+warn SimpleName MethodInvocation InfixExpression SimpleName table name
+warn SimpleName MethodInvocation InfixExpression StringLiteral as it already exists
+integer SimpleName MethodInvocation SimpleName value of
+integer SimpleName MethodInvocation SimpleName next id
+value of SimpleName MethodInvocation SimpleName next id
+state SimpleName MethodInvocation SimpleName set
+state SimpleName MethodInvocation StringLiteral next id
+state SimpleName MethodInvocation MethodInvocation SimpleName integer
+state SimpleName MethodInvocation MethodInvocation SimpleName value of
+state SimpleName MethodInvocation MethodInvocation SimpleName next id
+set SimpleName MethodInvocation StringLiteral next id
+set SimpleName MethodInvocation MethodInvocation SimpleName integer
+set SimpleName MethodInvocation MethodInvocation SimpleName value of
+set SimpleName MethodInvocation MethodInvocation SimpleName next id
+next id StringLiteral MethodInvocation MethodInvocation SimpleName integer
+next id StringLiteral MethodInvocation MethodInvocation SimpleName value of
+next id StringLiteral MethodInvocation MethodInvocation SimpleName next id
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName visit
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName state
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName props
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName visit
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName state
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName state
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName properties
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName props
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName visit
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName state
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName state
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName properties
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName props
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+visit SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName state
+visit SimpleName MethodDeclaration SingleVariableDeclaration SimpleName state
+visit SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName properties
+visit SimpleName MethodDeclaration SingleVariableDeclaration SimpleName props
+visit SimpleName MethodDeclaration SimpleType SimpleName exception
+visit SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+state SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName props
+state SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+props SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName visit
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName state
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName props
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName visit
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName state
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName props
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

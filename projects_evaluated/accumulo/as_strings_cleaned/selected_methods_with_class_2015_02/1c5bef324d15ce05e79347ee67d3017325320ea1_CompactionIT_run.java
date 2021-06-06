@@ -1,0 +1,77 @@
+opts SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType QualifiedName verify ingestopts
+verify ingestopts QualifiedName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName opts
+optsstart row QualifiedName Assignment SimpleName final i
+optsrows QualifiedName Assignment SimpleName span
+optsrandom QualifiedName Assignment NumberLiteral empty
+optsdata size QualifiedName Assignment NumberLiteral empty
+optscols QualifiedName Assignment NumberLiteral empty
+opts SimpleName MethodInvocation SimpleName set table name
+opts SimpleName MethodInvocation SimpleName table name
+set table name SimpleName MethodInvocation SimpleName table name
+client propertyinstance rpc sasl enabled QualifiedName MethodInvocation SimpleName get key
+client conf SimpleName MethodInvocation SimpleName get boolean
+client conf SimpleName MethodInvocation MethodInvocation QualifiedName client propertyinstance rpc sasl enabled
+client conf SimpleName MethodInvocation MethodInvocation SimpleName get key
+client conf SimpleName MethodInvocation BooleanLiteral false
+get boolean SimpleName MethodInvocation MethodInvocation QualifiedName client propertyinstance rpc sasl enabled
+get boolean SimpleName MethodInvocation MethodInvocation SimpleName get key
+get boolean SimpleName MethodInvocation BooleanLiteral false
+client propertyinstance rpc sasl enabled QualifiedName MethodInvocation MethodInvocation BooleanLiteral false
+get key SimpleName MethodInvocation MethodInvocation BooleanLiteral false
+opts SimpleName MethodInvocation SimpleName update kerberos credentials
+opts SimpleName MethodInvocation SimpleName client conf
+update kerberos credentials SimpleName MethodInvocation SimpleName client conf
+opts SimpleName MethodInvocation SimpleName set principal
+opts SimpleName MethodInvocation MethodInvocation SimpleName get admin principal
+set principal SimpleName MethodInvocation MethodInvocation SimpleName get admin principal
+password token SimpleName SimpleType CastExpression MethodInvocation SimpleName get admin token
+password token SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName password token
+password token SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get admin token
+password token SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName password token
+password token SimpleName MethodInvocation SimpleName get password
+string SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName password token
+string SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get password
+string SimpleName SimpleType ClassInstanceCreation SimpleName utf
+password token SimpleName MethodInvocation ClassInstanceCreation SimpleName utf
+get password SimpleName MethodInvocation ClassInstanceCreation SimpleName utf
+password SimpleName SimpleType ClassInstanceCreation ClassInstanceCreation SimpleName utf
+opts SimpleName MethodInvocation SimpleName set password
+opts SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName password
+opts SimpleName MethodInvocation ClassInstanceCreation ClassInstanceCreation SimpleName utf
+set password SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName password
+set password SimpleName MethodInvocation ClassInstanceCreation ClassInstanceCreation SimpleName utf
+verify ingest SimpleName MethodInvocation SimpleName verify ingest
+verify ingest SimpleName MethodInvocation SimpleName c
+verify ingest SimpleName MethodInvocation SimpleName opts
+verify ingest SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName scanner opts
+verify ingest SimpleName MethodInvocation SimpleName c
+verify ingest SimpleName MethodInvocation SimpleName opts
+verify ingest SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName scanner opts
+c SimpleName MethodInvocation SimpleName opts
+c SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName scanner opts
+opts SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName scanner opts
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName ex
+log SimpleName MethodInvocation SimpleName warn
+log SimpleName MethodInvocation StringLiteral got exception verifying data
+log SimpleName MethodInvocation SimpleName ex
+warn SimpleName MethodInvocation StringLiteral got exception verifying data
+warn SimpleName MethodInvocation SimpleName ex
+got exception verifying data StringLiteral MethodInvocation SimpleName ex
+fail SimpleName MethodInvocation SimpleName set
+fail SimpleName MethodInvocation BooleanLiteral true
+set SimpleName MethodInvocation BooleanLiteral true
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName run
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName run
+void PrimitiveType MethodDeclaration SimpleName run
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName run
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName run

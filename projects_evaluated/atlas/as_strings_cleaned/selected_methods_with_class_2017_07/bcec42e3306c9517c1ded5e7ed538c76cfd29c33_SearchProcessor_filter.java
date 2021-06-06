@@ -1,0 +1,28 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas vertex
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas vertex
+list SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entity vertices
+atlas vertex SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entity vertices
+next processor SimpleName MethodInvocation SimpleName filter
+next processor SimpleName MethodInvocation SimpleName entity vertices
+filter SimpleName MethodInvocation SimpleName entity vertices
+next processor SimpleName InfixExpression ConditionalExpression SimpleName entity vertices
+next processor SimpleName InfixExpression ConditionalExpression MethodInvocation SimpleName next processor
+next processor SimpleName InfixExpression ConditionalExpression MethodInvocation SimpleName filter
+next processor SimpleName InfixExpression ConditionalExpression MethodInvocation SimpleName entity vertices
+entity vertices SimpleName ConditionalExpression MethodInvocation SimpleName next processor
+entity vertices SimpleName ConditionalExpression MethodInvocation SimpleName filter
+entity vertices SimpleName ConditionalExpression MethodInvocation SimpleName entity vertices
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName atlas vertex
+public Modifier MethodDeclaration SimpleName filter
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName entity vertices
+list SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName filter
+atlas vertex SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName filter
+filter SimpleName MethodDeclaration SingleVariableDeclaration SimpleName entity vertices
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName filter
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity vertices
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName filter
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity vertices

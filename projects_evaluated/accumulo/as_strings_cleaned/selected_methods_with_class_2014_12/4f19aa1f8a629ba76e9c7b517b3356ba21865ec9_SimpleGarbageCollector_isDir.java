@@ -1,0 +1,41 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName delete
+slash count SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName slash count
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+delete SimpleName MethodInvocation SimpleName length
+i SimpleName InfixExpression MethodInvocation SimpleName delete
+i SimpleName InfixExpression MethodInvocation SimpleName length
+delete SimpleName MethodInvocation SimpleName char at
+delete SimpleName MethodInvocation SimpleName i
+char at SimpleName MethodInvocation SimpleName i
+delete SimpleName MethodInvocation InfixExpression CharacterLiteral /
+char at SimpleName MethodInvocation InfixExpression CharacterLiteral /
+i SimpleName MethodInvocation InfixExpression CharacterLiteral /
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+slash count SimpleName InfixExpression NumberLiteral empty
+static Modifier MethodDeclaration PrimitiveType boolean
+static Modifier MethodDeclaration SimpleName is dir
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName delete
+static Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+boolean PrimitiveType MethodDeclaration SimpleName is dir
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName delete
+boolean PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+is dir SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+is dir SimpleName MethodDeclaration SingleVariableDeclaration SimpleName delete
+is dir SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName is dir
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName delete
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName is dir
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName delete

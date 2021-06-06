@@ -1,0 +1,35 @@
+atlas glossary term SimpleName SimpleType SingleVariableDeclaration SimpleName term
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas related object id
+list SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entities
+atlas related object id SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entities
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName on term added
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName term
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName entities
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName on term added
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas glossary term
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName term
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName entities
+void PrimitiveType MethodDeclaration SimpleName on term added
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas glossary term
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName term
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName entities
+on term added SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas glossary term
+on term added SimpleName MethodDeclaration SingleVariableDeclaration SimpleName term
+on term added SimpleName MethodDeclaration SingleVariableDeclaration SimpleName entities
+term SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entities
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName on term added
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName term
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entities
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName on term added
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName term
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entities

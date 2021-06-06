@@ -1,0 +1,28 @@
+ast node SimpleName SimpleType SingleVariableDeclaration SimpleName node
+node SimpleName MethodInvocation SimpleName get type
+literal tokens SimpleName MethodInvocation SimpleName contains key
+literal tokens SimpleName MethodInvocation MethodInvocation SimpleName node
+literal tokens SimpleName MethodInvocation MethodInvocation SimpleName get type
+contains key SimpleName MethodInvocation MethodInvocation SimpleName node
+contains key SimpleName MethodInvocation MethodInvocation SimpleName get type
+private Modifier MethodDeclaration PrimitiveType boolean
+private Modifier MethodDeclaration SimpleName is literal
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName ast node
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName node
+private Modifier MethodDeclaration Block ReturnStatement BooleanLiteral false
+boolean PrimitiveType MethodDeclaration SimpleName is literal
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName ast node
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName node
+boolean PrimitiveType MethodDeclaration Block ReturnStatement BooleanLiteral false
+is literal SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName ast node
+is literal SimpleName MethodDeclaration SingleVariableDeclaration SimpleName node
+is literal SimpleName MethodDeclaration Block ReturnStatement BooleanLiteral false
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName is literal
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName node
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName is literal
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName node

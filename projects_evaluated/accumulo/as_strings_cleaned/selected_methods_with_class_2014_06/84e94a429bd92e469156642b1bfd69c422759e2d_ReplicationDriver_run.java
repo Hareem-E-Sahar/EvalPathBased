@@ -1,0 +1,82 @@
+count sampler SimpleName SimpleType ClassInstanceCreation NumberLiteral empty
+sampler SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName count sampler
+sampler SimpleName VariableDeclarationFragment ClassInstanceCreation NumberLiteral empty
+sampler SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName sampler
+master SimpleName MethodInvocation SimpleName still master
+master SimpleName MethodInvocation SimpleName get connector
+conn SimpleName Assignment MethodInvocation SimpleName master
+conn SimpleName Assignment MethodInvocation SimpleName get connector
+accumulo exception SimpleName SimpleType UnionType SimpleType SimpleName accumulo security exception
+accumulo exception SimpleName SimpleType UnionType SingleVariableDeclaration SimpleName e
+accumulo security exception SimpleName SimpleType UnionType SingleVariableDeclaration SimpleName e
+log SimpleName MethodInvocation SimpleName warn
+log SimpleName MethodInvocation StringLiteral error trying to get connector to process replication records
+log SimpleName MethodInvocation SimpleName e
+warn SimpleName MethodInvocation StringLiteral error trying to get connector to process replication records
+warn SimpleName MethodInvocation SimpleName e
+error trying to get connector to process replication records StringLiteral MethodInvocation SimpleName e
+util wait thread SimpleName MethodInvocation SimpleName sleep
+util wait thread SimpleName MethodInvocation NumberLiteral empty
+sleep SimpleName MethodInvocation NumberLiteral empty
+status maker SimpleName SimpleType ClassInstanceCreation SimpleName conn
+status maker SimpleName Assignment ClassInstanceCreation SimpleType SimpleName status maker
+status maker SimpleName Assignment ClassInstanceCreation SimpleName conn
+work maker SimpleName SimpleType ClassInstanceCreation SimpleName conn
+work maker SimpleName Assignment ClassInstanceCreation SimpleType SimpleName work maker
+work maker SimpleName Assignment ClassInstanceCreation SimpleName conn
+finished work updater SimpleName SimpleType ClassInstanceCreation SimpleName conn
+finished work updater SimpleName Assignment ClassInstanceCreation SimpleType SimpleName finished work updater
+finished work updater SimpleName Assignment ClassInstanceCreation SimpleName conn
+remove complete replication records SimpleName SimpleType ClassInstanceCreation SimpleName conn
+rcrr SimpleName Assignment ClassInstanceCreation SimpleType SimpleName remove complete replication records
+rcrr SimpleName Assignment ClassInstanceCreation SimpleName conn
+sampler SimpleName MethodInvocation SimpleName next
+trace SimpleName MethodInvocation SimpleName on
+trace SimpleName MethodInvocation StringLiteral master replication driver
+on SimpleName MethodInvocation StringLiteral master replication driver
+status maker SimpleName MethodInvocation SimpleName run
+work maker SimpleName MethodInvocation SimpleName run
+finished work updater SimpleName MethodInvocation SimpleName run
+rcrr SimpleName MethodInvocation SimpleName run
+trace SimpleName MethodInvocation SimpleName off no flush
+conf SimpleName MethodInvocation SimpleName get time in millis
+conf SimpleName MethodInvocation QualifiedName propertymaster replication scan interval
+get time in millis SimpleName MethodInvocation QualifiedName propertymaster replication scan interval
+sleep millis SimpleName VariableDeclarationFragment MethodInvocation SimpleName conf
+sleep millis SimpleName VariableDeclarationFragment MethodInvocation SimpleName get time in millis
+sleep millis SimpleName VariableDeclarationFragment MethodInvocation QualifiedName propertymaster replication scan interval
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName sleep millis
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName conf
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get time in millis
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation QualifiedName propertymaster replication scan interval
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral sleeping for ms before rerunning
+log SimpleName MethodInvocation SimpleName sleep millis
+debug SimpleName MethodInvocation StringLiteral sleeping for ms before rerunning
+debug SimpleName MethodInvocation SimpleName sleep millis
+sleeping for ms before rerunning StringLiteral MethodInvocation SimpleName sleep millis
+thread SimpleName MethodInvocation SimpleName sleep
+thread SimpleName MethodInvocation SimpleName sleep millis
+sleep SimpleName MethodInvocation SimpleName sleep millis
+interrupted exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation StringLiteral interrupted while sleeping
+log SimpleName MethodInvocation SimpleName e
+error SimpleName MethodInvocation StringLiteral interrupted while sleeping
+error SimpleName MethodInvocation SimpleName e
+interrupted while sleeping StringLiteral MethodInvocation SimpleName e
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName run
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName run
+void PrimitiveType MethodDeclaration SimpleName run
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName run
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName run

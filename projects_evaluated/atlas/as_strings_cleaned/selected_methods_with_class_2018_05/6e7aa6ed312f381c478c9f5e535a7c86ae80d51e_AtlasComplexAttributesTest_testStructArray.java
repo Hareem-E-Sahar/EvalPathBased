@@ -1,0 +1,359 @@
+depends on methods SimpleName MemberValuePair StringLiteral test create complex attribute entity
+test SimpleName NormalAnnotation MemberValuePair SimpleName depends on methods
+test SimpleName NormalAnnotation MemberValuePair StringLiteral test create complex attribute entity
+complex collection attr entity SimpleName MethodInvocation SimpleName get entity
+complex collection attr entity SimpleName MethodInvocation MethodInvocation SimpleName get guid
+get entity SimpleName MethodInvocation MethodInvocation SimpleName get guid
+get entity from store SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName complex collection attr entity
+get entity from store SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get entity
+get entity from store SimpleName MethodInvocation MethodInvocation SimpleName get guid
+complex entity SimpleName VariableDeclarationFragment MethodInvocation SimpleName get entity from store
+complex entity SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get guid
+atlas entity SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName complex entity
+atlas entities with ext info SimpleName SimpleType ClassInstanceCreation SimpleName complex entity
+complex entities info SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName atlas entities with ext info
+complex entities info SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName complex entity
+atlas entities with ext info SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName complex entities info
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas struct
+atlas struct SimpleName SimpleType ClassInstanceCreation StringLiteral struct type
+atlas struct SimpleName SimpleType ClassInstanceCreation StringLiteral name
+atlas struct SimpleName SimpleType ClassInstanceCreation StringLiteral struct array
+struct type StringLiteral ClassInstanceCreation StringLiteral name
+struct type StringLiteral ClassInstanceCreation StringLiteral struct array
+name StringLiteral ClassInstanceCreation StringLiteral struct array
+atlas struct SimpleName SimpleType ClassInstanceCreation StringLiteral struct type
+atlas struct SimpleName SimpleType ClassInstanceCreation StringLiteral name
+atlas struct SimpleName SimpleType ClassInstanceCreation StringLiteral struct array
+struct type StringLiteral ClassInstanceCreation StringLiteral name
+struct type StringLiteral ClassInstanceCreation StringLiteral struct array
+name StringLiteral ClassInstanceCreation StringLiteral struct array
+atlas struct SimpleName SimpleType ClassInstanceCreation StringLiteral struct type
+atlas struct SimpleName SimpleType ClassInstanceCreation StringLiteral name
+atlas struct SimpleName SimpleType ClassInstanceCreation StringLiteral struct array
+struct type StringLiteral ClassInstanceCreation StringLiteral name
+struct type StringLiteral ClassInstanceCreation StringLiteral struct array
+name StringLiteral ClassInstanceCreation StringLiteral struct array
+arrays SimpleName MethodInvocation SimpleName as list
+arrays SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName atlas struct
+arrays SimpleName MethodInvocation ClassInstanceCreation StringLiteral struct type
+arrays SimpleName MethodInvocation ClassInstanceCreation StringLiteral name
+arrays SimpleName MethodInvocation ClassInstanceCreation StringLiteral struct array
+arrays SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName atlas struct
+arrays SimpleName MethodInvocation ClassInstanceCreation StringLiteral struct type
+arrays SimpleName MethodInvocation ClassInstanceCreation StringLiteral name
+arrays SimpleName MethodInvocation ClassInstanceCreation StringLiteral struct array
+arrays SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName atlas struct
+arrays SimpleName MethodInvocation ClassInstanceCreation StringLiteral struct type
+arrays SimpleName MethodInvocation ClassInstanceCreation StringLiteral name
+arrays SimpleName MethodInvocation ClassInstanceCreation StringLiteral struct array
+as list SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName atlas struct
+as list SimpleName MethodInvocation ClassInstanceCreation StringLiteral struct type
+as list SimpleName MethodInvocation ClassInstanceCreation StringLiteral name
+as list SimpleName MethodInvocation ClassInstanceCreation StringLiteral struct array
+as list SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName atlas struct
+as list SimpleName MethodInvocation ClassInstanceCreation StringLiteral struct type
+as list SimpleName MethodInvocation ClassInstanceCreation StringLiteral name
+as list SimpleName MethodInvocation ClassInstanceCreation StringLiteral struct array
+as list SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName atlas struct
+as list SimpleName MethodInvocation ClassInstanceCreation StringLiteral struct type
+as list SimpleName MethodInvocation ClassInstanceCreation StringLiteral name
+as list SimpleName MethodInvocation ClassInstanceCreation StringLiteral struct array
+struct type StringLiteral ClassInstanceCreation MethodInvocation ClassInstanceCreation StringLiteral struct type
+struct type StringLiteral ClassInstanceCreation MethodInvocation ClassInstanceCreation StringLiteral name
+struct type StringLiteral ClassInstanceCreation MethodInvocation ClassInstanceCreation StringLiteral struct array
+name StringLiteral ClassInstanceCreation MethodInvocation ClassInstanceCreation StringLiteral struct type
+name StringLiteral ClassInstanceCreation MethodInvocation ClassInstanceCreation StringLiteral name
+name StringLiteral ClassInstanceCreation MethodInvocation ClassInstanceCreation StringLiteral struct array
+struct array StringLiteral ClassInstanceCreation MethodInvocation ClassInstanceCreation StringLiteral struct type
+struct array StringLiteral ClassInstanceCreation MethodInvocation ClassInstanceCreation StringLiteral name
+struct array StringLiteral ClassInstanceCreation MethodInvocation ClassInstanceCreation StringLiteral struct array
+struct type StringLiteral ClassInstanceCreation MethodInvocation ClassInstanceCreation StringLiteral struct type
+struct type StringLiteral ClassInstanceCreation MethodInvocation ClassInstanceCreation StringLiteral name
+struct type StringLiteral ClassInstanceCreation MethodInvocation ClassInstanceCreation StringLiteral struct array
+name StringLiteral ClassInstanceCreation MethodInvocation ClassInstanceCreation StringLiteral struct type
+name StringLiteral ClassInstanceCreation MethodInvocation ClassInstanceCreation StringLiteral name
+name StringLiteral ClassInstanceCreation MethodInvocation ClassInstanceCreation StringLiteral struct array
+struct array StringLiteral ClassInstanceCreation MethodInvocation ClassInstanceCreation StringLiteral struct type
+struct array StringLiteral ClassInstanceCreation MethodInvocation ClassInstanceCreation StringLiteral name
+struct array StringLiteral ClassInstanceCreation MethodInvocation ClassInstanceCreation StringLiteral struct array
+struct type StringLiteral ClassInstanceCreation MethodInvocation ClassInstanceCreation StringLiteral struct type
+struct type StringLiteral ClassInstanceCreation MethodInvocation ClassInstanceCreation StringLiteral name
+struct type StringLiteral ClassInstanceCreation MethodInvocation ClassInstanceCreation StringLiteral struct array
+name StringLiteral ClassInstanceCreation MethodInvocation ClassInstanceCreation StringLiteral struct type
+name StringLiteral ClassInstanceCreation MethodInvocation ClassInstanceCreation StringLiteral name
+name StringLiteral ClassInstanceCreation MethodInvocation ClassInstanceCreation StringLiteral struct array
+struct array StringLiteral ClassInstanceCreation MethodInvocation ClassInstanceCreation StringLiteral struct type
+struct array StringLiteral ClassInstanceCreation MethodInvocation ClassInstanceCreation StringLiteral name
+struct array StringLiteral ClassInstanceCreation MethodInvocation ClassInstanceCreation StringLiteral struct array
+struct list SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName arrays
+struct list SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName as list
+complex entity SimpleName MethodInvocation SimpleName set attribute
+complex entity SimpleName MethodInvocation StringLiteral list of structs
+complex entity SimpleName MethodInvocation SimpleName struct list
+set attribute SimpleName MethodInvocation StringLiteral list of structs
+set attribute SimpleName MethodInvocation SimpleName struct list
+list of structs StringLiteral MethodInvocation SimpleName struct list
+atlas entity stream SimpleName SimpleType ClassInstanceCreation SimpleName complex entities info
+entity store SimpleName MethodInvocation SimpleName create or update
+entity store SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName atlas entity stream
+entity store SimpleName MethodInvocation ClassInstanceCreation SimpleName complex entities info
+entity store SimpleName MethodInvocation BooleanLiteral false
+create or update SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName atlas entity stream
+create or update SimpleName MethodInvocation ClassInstanceCreation SimpleName complex entities info
+create or update SimpleName MethodInvocation BooleanLiteral false
+atlas entity stream SimpleName SimpleType ClassInstanceCreation MethodInvocation BooleanLiteral false
+complex entities info SimpleName ClassInstanceCreation MethodInvocation BooleanLiteral false
+response SimpleName VariableDeclarationFragment MethodInvocation SimpleName entity store
+response SimpleName VariableDeclarationFragment MethodInvocation SimpleName create or update
+response SimpleName VariableDeclarationFragment MethodInvocation ClassInstanceCreation SimpleName complex entities info
+response SimpleName VariableDeclarationFragment MethodInvocation BooleanLiteral false
+entity mutation response SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName response
+response SimpleName MethodInvocation SimpleName get first updated entity by type name
+response SimpleName MethodInvocation SimpleName entity type with complex collection attr
+get first updated entity by type name SimpleName MethodInvocation SimpleName entity type with complex collection attr
+updated complex entity SimpleName VariableDeclarationFragment MethodInvocation SimpleName response
+updated complex entity SimpleName VariableDeclarationFragment MethodInvocation SimpleName get first updated entity by type name
+updated complex entity SimpleName VariableDeclarationFragment MethodInvocation SimpleName entity type with complex collection attr
+atlas entity header SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName updated complex entity
+get entity from store SimpleName MethodInvocation SimpleName updated complex entity
+validate entity SimpleName MethodInvocation SimpleName complex entities info
+validate entity SimpleName MethodInvocation MethodInvocation SimpleName get entity from store
+validate entity SimpleName MethodInvocation MethodInvocation SimpleName updated complex entity
+complex entities info SimpleName MethodInvocation MethodInvocation SimpleName get entity from store
+complex entities info SimpleName MethodInvocation MethodInvocation SimpleName updated complex entity
+atlas struct SimpleName SimpleType ClassInstanceCreation StringLiteral struct type
+atlas struct SimpleName SimpleType ClassInstanceCreation StringLiteral name
+atlas struct SimpleName SimpleType ClassInstanceCreation StringLiteral struct array
+struct type StringLiteral ClassInstanceCreation StringLiteral name
+struct type StringLiteral ClassInstanceCreation StringLiteral struct array
+name StringLiteral ClassInstanceCreation StringLiteral struct array
+struct list SimpleName MethodInvocation SimpleName add
+struct list SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName atlas struct
+struct list SimpleName MethodInvocation ClassInstanceCreation StringLiteral struct type
+struct list SimpleName MethodInvocation ClassInstanceCreation StringLiteral name
+struct list SimpleName MethodInvocation ClassInstanceCreation StringLiteral struct array
+add SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName atlas struct
+add SimpleName MethodInvocation ClassInstanceCreation StringLiteral struct type
+add SimpleName MethodInvocation ClassInstanceCreation StringLiteral name
+add SimpleName MethodInvocation ClassInstanceCreation StringLiteral struct array
+complex entity SimpleName MethodInvocation SimpleName set attribute
+complex entity SimpleName MethodInvocation StringLiteral list of structs
+complex entity SimpleName MethodInvocation SimpleName struct list
+set attribute SimpleName MethodInvocation StringLiteral list of structs
+set attribute SimpleName MethodInvocation SimpleName struct list
+list of structs StringLiteral MethodInvocation SimpleName struct list
+atlas entity stream SimpleName SimpleType ClassInstanceCreation SimpleName complex entities info
+entity store SimpleName MethodInvocation SimpleName create or update
+entity store SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName atlas entity stream
+entity store SimpleName MethodInvocation ClassInstanceCreation SimpleName complex entities info
+entity store SimpleName MethodInvocation BooleanLiteral false
+create or update SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName atlas entity stream
+create or update SimpleName MethodInvocation ClassInstanceCreation SimpleName complex entities info
+create or update SimpleName MethodInvocation BooleanLiteral false
+atlas entity stream SimpleName SimpleType ClassInstanceCreation MethodInvocation BooleanLiteral false
+complex entities info SimpleName ClassInstanceCreation MethodInvocation BooleanLiteral false
+response SimpleName Assignment MethodInvocation SimpleName entity store
+response SimpleName Assignment MethodInvocation SimpleName create or update
+response SimpleName Assignment MethodInvocation ClassInstanceCreation SimpleName complex entities info
+response SimpleName Assignment MethodInvocation BooleanLiteral false
+response SimpleName MethodInvocation SimpleName get first updated entity by type name
+response SimpleName MethodInvocation SimpleName entity type with complex collection attr
+get first updated entity by type name SimpleName MethodInvocation SimpleName entity type with complex collection attr
+updated complex entity SimpleName Assignment MethodInvocation SimpleName response
+updated complex entity SimpleName Assignment MethodInvocation SimpleName get first updated entity by type name
+updated complex entity SimpleName Assignment MethodInvocation SimpleName entity type with complex collection attr
+get entity from store SimpleName MethodInvocation SimpleName updated complex entity
+validate entity SimpleName MethodInvocation SimpleName complex entities info
+validate entity SimpleName MethodInvocation MethodInvocation SimpleName get entity from store
+validate entity SimpleName MethodInvocation MethodInvocation SimpleName updated complex entity
+complex entities info SimpleName MethodInvocation MethodInvocation SimpleName get entity from store
+complex entities info SimpleName MethodInvocation MethodInvocation SimpleName updated complex entity
+struct list SimpleName MethodInvocation SimpleName remove
+struct list SimpleName MethodInvocation NumberLiteral empty
+remove SimpleName MethodInvocation NumberLiteral empty
+complex entity SimpleName MethodInvocation SimpleName set attribute
+complex entity SimpleName MethodInvocation StringLiteral list of structs
+complex entity SimpleName MethodInvocation SimpleName struct list
+set attribute SimpleName MethodInvocation StringLiteral list of structs
+set attribute SimpleName MethodInvocation SimpleName struct list
+list of structs StringLiteral MethodInvocation SimpleName struct list
+atlas entity stream SimpleName SimpleType ClassInstanceCreation SimpleName complex entities info
+entity store SimpleName MethodInvocation SimpleName create or update
+entity store SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName atlas entity stream
+entity store SimpleName MethodInvocation ClassInstanceCreation SimpleName complex entities info
+entity store SimpleName MethodInvocation BooleanLiteral false
+create or update SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName atlas entity stream
+create or update SimpleName MethodInvocation ClassInstanceCreation SimpleName complex entities info
+create or update SimpleName MethodInvocation BooleanLiteral false
+atlas entity stream SimpleName SimpleType ClassInstanceCreation MethodInvocation BooleanLiteral false
+complex entities info SimpleName ClassInstanceCreation MethodInvocation BooleanLiteral false
+response SimpleName Assignment MethodInvocation SimpleName entity store
+response SimpleName Assignment MethodInvocation SimpleName create or update
+response SimpleName Assignment MethodInvocation ClassInstanceCreation SimpleName complex entities info
+response SimpleName Assignment MethodInvocation BooleanLiteral false
+response SimpleName MethodInvocation SimpleName get first updated entity by type name
+response SimpleName MethodInvocation SimpleName entity type with complex collection attr
+get first updated entity by type name SimpleName MethodInvocation SimpleName entity type with complex collection attr
+updated complex entity SimpleName Assignment MethodInvocation SimpleName response
+updated complex entity SimpleName Assignment MethodInvocation SimpleName get first updated entity by type name
+updated complex entity SimpleName Assignment MethodInvocation SimpleName entity type with complex collection attr
+get entity from store SimpleName MethodInvocation SimpleName updated complex entity
+validate entity SimpleName MethodInvocation SimpleName complex entities info
+validate entity SimpleName MethodInvocation MethodInvocation SimpleName get entity from store
+validate entity SimpleName MethodInvocation MethodInvocation SimpleName updated complex entity
+complex entities info SimpleName MethodInvocation MethodInvocation SimpleName get entity from store
+complex entities info SimpleName MethodInvocation MethodInvocation SimpleName updated complex entity
+struct list SimpleName MethodInvocation SimpleName get
+struct list SimpleName MethodInvocation NumberLiteral empty
+get SimpleName MethodInvocation NumberLiteral empty
+struct list SimpleName MethodInvocation MethodInvocation SimpleName set attribute
+get SimpleName MethodInvocation MethodInvocation SimpleName set attribute
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName set attribute
+struct list SimpleName MethodInvocation MethodInvocation SimpleName name
+get SimpleName MethodInvocation MethodInvocation SimpleName name
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName name
+struct list SimpleName MethodInvocation MethodInvocation StringLiteral struct array edit
+get SimpleName MethodInvocation MethodInvocation StringLiteral struct array edit
+empty NumberLiteral MethodInvocation MethodInvocation StringLiteral struct array edit
+set attribute SimpleName MethodInvocation SimpleName name
+set attribute SimpleName MethodInvocation StringLiteral struct array edit
+name SimpleName MethodInvocation StringLiteral struct array edit
+complex entity SimpleName MethodInvocation SimpleName set attribute
+complex entity SimpleName MethodInvocation StringLiteral list of structs
+complex entity SimpleName MethodInvocation SimpleName struct list
+set attribute SimpleName MethodInvocation StringLiteral list of structs
+set attribute SimpleName MethodInvocation SimpleName struct list
+list of structs StringLiteral MethodInvocation SimpleName struct list
+atlas entity stream SimpleName SimpleType ClassInstanceCreation SimpleName complex entities info
+entity store SimpleName MethodInvocation SimpleName create or update
+entity store SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName atlas entity stream
+entity store SimpleName MethodInvocation ClassInstanceCreation SimpleName complex entities info
+entity store SimpleName MethodInvocation BooleanLiteral false
+create or update SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName atlas entity stream
+create or update SimpleName MethodInvocation ClassInstanceCreation SimpleName complex entities info
+create or update SimpleName MethodInvocation BooleanLiteral false
+atlas entity stream SimpleName SimpleType ClassInstanceCreation MethodInvocation BooleanLiteral false
+complex entities info SimpleName ClassInstanceCreation MethodInvocation BooleanLiteral false
+response SimpleName Assignment MethodInvocation SimpleName entity store
+response SimpleName Assignment MethodInvocation SimpleName create or update
+response SimpleName Assignment MethodInvocation ClassInstanceCreation SimpleName complex entities info
+response SimpleName Assignment MethodInvocation BooleanLiteral false
+response SimpleName MethodInvocation SimpleName get first updated entity by type name
+response SimpleName MethodInvocation SimpleName entity type with complex collection attr
+get first updated entity by type name SimpleName MethodInvocation SimpleName entity type with complex collection attr
+updated complex entity SimpleName Assignment MethodInvocation SimpleName response
+updated complex entity SimpleName Assignment MethodInvocation SimpleName get first updated entity by type name
+updated complex entity SimpleName Assignment MethodInvocation SimpleName entity type with complex collection attr
+get entity from store SimpleName MethodInvocation SimpleName updated complex entity
+validate entity SimpleName MethodInvocation SimpleName complex entities info
+validate entity SimpleName MethodInvocation MethodInvocation SimpleName get entity from store
+validate entity SimpleName MethodInvocation MethodInvocation SimpleName updated complex entity
+complex entities info SimpleName MethodInvocation MethodInvocation SimpleName get entity from store
+complex entities info SimpleName MethodInvocation MethodInvocation SimpleName updated complex entity
+atlas struct SimpleName SimpleType ClassInstanceCreation StringLiteral struct type
+atlas struct SimpleName SimpleType ClassInstanceCreation StringLiteral name
+atlas struct SimpleName SimpleType ClassInstanceCreation StringLiteral struct array
+struct type StringLiteral ClassInstanceCreation StringLiteral name
+struct type StringLiteral ClassInstanceCreation StringLiteral struct array
+name StringLiteral ClassInstanceCreation StringLiteral struct array
+struct list SimpleName MethodInvocation SimpleName add
+struct list SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName atlas struct
+struct list SimpleName MethodInvocation ClassInstanceCreation StringLiteral struct type
+struct list SimpleName MethodInvocation ClassInstanceCreation StringLiteral name
+struct list SimpleName MethodInvocation ClassInstanceCreation StringLiteral struct array
+add SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName atlas struct
+add SimpleName MethodInvocation ClassInstanceCreation StringLiteral struct type
+add SimpleName MethodInvocation ClassInstanceCreation StringLiteral name
+add SimpleName MethodInvocation ClassInstanceCreation StringLiteral struct array
+complex entity SimpleName MethodInvocation SimpleName set attribute
+complex entity SimpleName MethodInvocation StringLiteral list of structs
+complex entity SimpleName MethodInvocation SimpleName struct list
+set attribute SimpleName MethodInvocation StringLiteral list of structs
+set attribute SimpleName MethodInvocation SimpleName struct list
+list of structs StringLiteral MethodInvocation SimpleName struct list
+atlas entity stream SimpleName SimpleType ClassInstanceCreation SimpleName complex entities info
+entity store SimpleName MethodInvocation SimpleName create or update
+entity store SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName atlas entity stream
+entity store SimpleName MethodInvocation ClassInstanceCreation SimpleName complex entities info
+entity store SimpleName MethodInvocation BooleanLiteral false
+create or update SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName atlas entity stream
+create or update SimpleName MethodInvocation ClassInstanceCreation SimpleName complex entities info
+create or update SimpleName MethodInvocation BooleanLiteral false
+atlas entity stream SimpleName SimpleType ClassInstanceCreation MethodInvocation BooleanLiteral false
+complex entities info SimpleName ClassInstanceCreation MethodInvocation BooleanLiteral false
+response SimpleName Assignment MethodInvocation SimpleName entity store
+response SimpleName Assignment MethodInvocation SimpleName create or update
+response SimpleName Assignment MethodInvocation ClassInstanceCreation SimpleName complex entities info
+response SimpleName Assignment MethodInvocation BooleanLiteral false
+response SimpleName MethodInvocation SimpleName get first updated entity by type name
+response SimpleName MethodInvocation SimpleName entity type with complex collection attr
+get first updated entity by type name SimpleName MethodInvocation SimpleName entity type with complex collection attr
+updated complex entity SimpleName Assignment MethodInvocation SimpleName response
+updated complex entity SimpleName Assignment MethodInvocation SimpleName get first updated entity by type name
+updated complex entity SimpleName Assignment MethodInvocation SimpleName entity type with complex collection attr
+get entity from store SimpleName MethodInvocation SimpleName updated complex entity
+validate entity SimpleName MethodInvocation SimpleName complex entities info
+validate entity SimpleName MethodInvocation MethodInvocation SimpleName get entity from store
+validate entity SimpleName MethodInvocation MethodInvocation SimpleName updated complex entity
+complex entities info SimpleName MethodInvocation MethodInvocation SimpleName get entity from store
+complex entities info SimpleName MethodInvocation MethodInvocation SimpleName updated complex entity
+struct list SimpleName MethodInvocation SimpleName clear
+complex entity SimpleName MethodInvocation SimpleName set attribute
+complex entity SimpleName MethodInvocation StringLiteral list of structs
+complex entity SimpleName MethodInvocation SimpleName struct list
+set attribute SimpleName MethodInvocation StringLiteral list of structs
+set attribute SimpleName MethodInvocation SimpleName struct list
+list of structs StringLiteral MethodInvocation SimpleName struct list
+atlas entity stream SimpleName SimpleType ClassInstanceCreation SimpleName complex entities info
+entity store SimpleName MethodInvocation SimpleName create or update
+entity store SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName atlas entity stream
+entity store SimpleName MethodInvocation ClassInstanceCreation SimpleName complex entities info
+entity store SimpleName MethodInvocation BooleanLiteral false
+create or update SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName atlas entity stream
+create or update SimpleName MethodInvocation ClassInstanceCreation SimpleName complex entities info
+create or update SimpleName MethodInvocation BooleanLiteral false
+atlas entity stream SimpleName SimpleType ClassInstanceCreation MethodInvocation BooleanLiteral false
+complex entities info SimpleName ClassInstanceCreation MethodInvocation BooleanLiteral false
+response SimpleName Assignment MethodInvocation SimpleName entity store
+response SimpleName Assignment MethodInvocation SimpleName create or update
+response SimpleName Assignment MethodInvocation ClassInstanceCreation SimpleName complex entities info
+response SimpleName Assignment MethodInvocation BooleanLiteral false
+response SimpleName MethodInvocation SimpleName get first updated entity by type name
+response SimpleName MethodInvocation SimpleName entity type with complex collection attr
+get first updated entity by type name SimpleName MethodInvocation SimpleName entity type with complex collection attr
+updated complex entity SimpleName Assignment MethodInvocation SimpleName response
+updated complex entity SimpleName Assignment MethodInvocation SimpleName get first updated entity by type name
+updated complex entity SimpleName Assignment MethodInvocation SimpleName entity type with complex collection attr
+get entity from store SimpleName MethodInvocation SimpleName updated complex entity
+validate entity SimpleName MethodInvocation SimpleName complex entities info
+validate entity SimpleName MethodInvocation MethodInvocation SimpleName get entity from store
+validate entity SimpleName MethodInvocation MethodInvocation SimpleName updated complex entity
+complex entities info SimpleName MethodInvocation MethodInvocation SimpleName get entity from store
+complex entities info SimpleName MethodInvocation MethodInvocation SimpleName updated complex entity
+test SimpleName NormalAnnotation MethodDeclaration Modifier public
+depends on methods SimpleName MemberValuePair NormalAnnotation MethodDeclaration Modifier public
+test create complex attribute entity StringLiteral MemberValuePair NormalAnnotation MethodDeclaration Modifier public
+test SimpleName NormalAnnotation MethodDeclaration PrimitiveType void
+depends on methods SimpleName MemberValuePair NormalAnnotation MethodDeclaration PrimitiveType void
+test create complex attribute entity StringLiteral MemberValuePair NormalAnnotation MethodDeclaration PrimitiveType void
+test SimpleName NormalAnnotation MethodDeclaration SimpleName test struct array
+depends on methods SimpleName MemberValuePair NormalAnnotation MethodDeclaration SimpleName test struct array
+test create complex attribute entity StringLiteral MemberValuePair NormalAnnotation MethodDeclaration SimpleName test struct array
+test SimpleName NormalAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test struct array
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName test struct array
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+test struct array SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration NormalAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test struct array
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration NormalAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test struct array
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

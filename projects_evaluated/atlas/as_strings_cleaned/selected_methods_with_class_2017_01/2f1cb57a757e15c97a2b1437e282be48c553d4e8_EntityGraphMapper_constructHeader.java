@@ -1,0 +1,55 @@
+atlas entity SimpleName SimpleType SingleVariableDeclaration SimpleName entity
+atlas vertex SimpleName SimpleType SingleVariableDeclaration SimpleName vertex
+entity SimpleName MethodInvocation SimpleName get type name
+atlas graph utils v SimpleName MethodInvocation SimpleName get id from vertex
+atlas graph utils v SimpleName MethodInvocation SimpleName vertex
+get id from vertex SimpleName MethodInvocation SimpleName vertex
+entity SimpleName MethodInvocation SimpleName get attributes
+atlas entity header SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName entity
+atlas entity header SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get type name
+atlas entity header SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName atlas graph utils v
+atlas entity header SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get id from vertex
+atlas entity header SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName vertex
+atlas entity header SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName entity
+atlas entity header SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get attributes
+entity SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName atlas graph utils v
+entity SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get id from vertex
+entity SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName vertex
+get type name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName atlas graph utils v
+get type name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get id from vertex
+get type name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName vertex
+entity SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName entity
+entity SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get attributes
+get type name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName entity
+get type name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get attributes
+atlas graph utils v SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName entity
+atlas graph utils v SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get attributes
+get id from vertex SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName entity
+get id from vertex SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get attributes
+vertex SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName entity
+vertex SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get attributes
+private Modifier MethodDeclaration SimpleType SimpleName atlas entity header
+private Modifier MethodDeclaration SimpleName construct header
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas entity
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName entity
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas vertex
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName vertex
+atlas entity header SimpleName SimpleType MethodDeclaration SimpleName construct header
+atlas entity header SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName entity
+atlas entity header SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName vertex
+construct header SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas entity
+construct header SimpleName MethodDeclaration SingleVariableDeclaration SimpleName entity
+construct header SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas vertex
+construct header SimpleName MethodDeclaration SingleVariableDeclaration SimpleName vertex
+entity SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName vertex
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas entity header
+public Modifier TypeDeclaration MethodDeclaration SimpleName construct header
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName vertex
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas entity header
+test SimpleName TypeDeclaration MethodDeclaration SimpleName construct header
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName vertex

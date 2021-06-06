@@ -1,0 +1,110 @@
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName class loader
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName class loader
+get class SimpleName MethodInvocation MethodInvocation SimpleName get class loader
+cl SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get class
+cl SimpleName VariableDeclarationFragment MethodInvocation SimpleName get class loader
+class loader SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName cl
+classloaders SimpleName MethodInvocation SimpleName add
+classloaders SimpleName MethodInvocation SimpleName cl
+add SimpleName MethodInvocation SimpleName cl
+cl SimpleName MethodInvocation SimpleName get parent
+cl SimpleName Assignment MethodInvocation SimpleName cl
+cl SimpleName Assignment MethodInvocation SimpleName get parent
+collections SimpleName MethodInvocation SimpleName reverse
+collections SimpleName MethodInvocation SimpleName classloaders
+reverse SimpleName MethodInvocation SimpleName classloaders
+classpath builder SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName string builder
+string builder SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName classpath builder
+config SimpleName MethodInvocation SimpleName get conf dir
+config SimpleName MethodInvocation MethodInvocation SimpleName get absolute path
+get conf dir SimpleName MethodInvocation MethodInvocation SimpleName get absolute path
+classpath builder SimpleName MethodInvocation SimpleName append
+classpath builder SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName config
+classpath builder SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get conf dir
+classpath builder SimpleName MethodInvocation MethodInvocation SimpleName get absolute path
+append SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName config
+append SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get conf dir
+append SimpleName MethodInvocation MethodInvocation SimpleName get absolute path
+config SimpleName MethodInvocation SimpleName get classpath items
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+classloaders SimpleName MethodInvocation SimpleName size
+i SimpleName InfixExpression MethodInvocation SimpleName classloaders
+i SimpleName InfixExpression MethodInvocation SimpleName size
+classloaders SimpleName MethodInvocation SimpleName get
+classloaders SimpleName MethodInvocation SimpleName i
+get SimpleName MethodInvocation SimpleName i
+class loader SimpleName VariableDeclarationFragment MethodInvocation SimpleName classloaders
+class loader SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+class loader SimpleName VariableDeclarationFragment MethodInvocation SimpleName i
+class loader SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName class loader
+class loader SimpleName InstanceofExpression SimpleType SimpleName url class loader
+url class loader SimpleName SimpleType CastExpression SimpleName class loader
+ucl SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName url class loader
+ucl SimpleName VariableDeclarationFragment CastExpression SimpleName class loader
+url class loader SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ucl
+url SimpleName SimpleType SingleVariableDeclaration SimpleName u
+ucl SimpleName MethodInvocation SimpleName get ur ls
+append SimpleName MethodInvocation SimpleName classpath builder
+append SimpleName MethodInvocation SimpleName u
+classpath builder SimpleName MethodInvocation SimpleName u
+u SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName ucl
+u SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName get ur ls
+class loader SimpleName InstanceofExpression SimpleType SimpleName vfs class loader
+vfs class loader SimpleName SimpleType CastExpression SimpleName class loader
+vcl SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName vfs class loader
+vcl SimpleName VariableDeclarationFragment CastExpression SimpleName class loader
+vfs class loader SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName vcl
+file object SimpleName SimpleType SingleVariableDeclaration SimpleName f
+vcl SimpleName MethodInvocation SimpleName get file objects
+f SimpleName MethodInvocation SimpleName get url
+append SimpleName MethodInvocation SimpleName classpath builder
+append SimpleName MethodInvocation MethodInvocation SimpleName f
+append SimpleName MethodInvocation MethodInvocation SimpleName get url
+classpath builder SimpleName MethodInvocation MethodInvocation SimpleName f
+classpath builder SimpleName MethodInvocation MethodInvocation SimpleName get url
+f SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName vcl
+f SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName get file objects
+class loader SimpleName MethodInvocation SimpleName get class
+class loader SimpleName MethodInvocation MethodInvocation SimpleName get name
+get class SimpleName MethodInvocation MethodInvocation SimpleName get name
+unknown classloader type : StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName class loader
+unknown classloader type : StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName get class
+unknown classloader type : StringLiteral InfixExpression MethodInvocation SimpleName get name
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral unknown classloader type :
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+string SimpleName SimpleType SingleVariableDeclaration SimpleName s
+config SimpleName MethodInvocation SimpleName get classpath items
+classpath builder SimpleName MethodInvocation SimpleName append
+classpath builder SimpleName MethodInvocation QualifiedName filepath separator
+append SimpleName MethodInvocation QualifiedName filepath separator
+classpath builder SimpleName MethodInvocation MethodInvocation SimpleName append
+append SimpleName MethodInvocation MethodInvocation SimpleName append
+filepath separator QualifiedName MethodInvocation MethodInvocation SimpleName append
+classpath builder SimpleName MethodInvocation MethodInvocation SimpleName s
+append SimpleName MethodInvocation MethodInvocation SimpleName s
+filepath separator QualifiedName MethodInvocation MethodInvocation SimpleName s
+append SimpleName MethodInvocation SimpleName s
+s SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName config
+s SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName get classpath items
+classpath builder SimpleName MethodInvocation SimpleName to string
+uri syntax exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+io exception SimpleName SimpleType ClassInstanceCreation SimpleName e
+private Modifier MethodDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SimpleName get classpath
+private Modifier MethodDeclaration SimpleType SimpleName io exception
+string SimpleName SimpleType MethodDeclaration SimpleName get classpath
+string SimpleName SimpleType MethodDeclaration SimpleType SimpleName io exception
+get classpath SimpleName MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName get classpath
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get classpath
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

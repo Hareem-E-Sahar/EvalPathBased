@@ -1,0 +1,46 @@
+request context SimpleName MethodInvocation SimpleName clear
+request context SimpleName MethodInvocation SimpleName get metrics
+metrics SimpleName VariableDeclarationFragment MethodInvocation SimpleName request context
+metrics SimpleName VariableDeclarationFragment MethodInvocation SimpleName get metrics
+metrics SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName metrics
+metrics SimpleName MethodInvocation SimpleName get counters
+metrics SimpleName MethodInvocation StringLiteral monitored aspect testmonitored method
+get counters SimpleName MethodInvocation StringLiteral monitored aspect testmonitored method
+counters SimpleName VariableDeclarationFragment MethodInvocation SimpleName metrics
+counters SimpleName VariableDeclarationFragment MethodInvocation SimpleName get counters
+counters SimpleName VariableDeclarationFragment MethodInvocation StringLiteral monitored aspect testmonitored method
+metricscounters QualifiedName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName counters
+assert not null SimpleName MethodInvocation SimpleName counters
+counters SimpleName MethodInvocation SimpleName get invocations
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName counters
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get invocations
+assert equals SimpleName MethodInvocation NumberLiteral empty
+counters SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+get invocations SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+counters SimpleName MethodInvocation SimpleName get total time m secs
+counters SimpleName MethodInvocation InfixExpression NumberLiteral empty
+get total time m secs SimpleName MethodInvocation InfixExpression NumberLiteral empty
+assert true SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName counters
+assert true SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get total time m secs
+assert true SimpleName MethodInvocation InfixExpression NumberLiteral empty
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test monitored aspect
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test monitored aspect
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName test monitored aspect
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+test monitored aspect SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test monitored aspect
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test monitored aspect
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

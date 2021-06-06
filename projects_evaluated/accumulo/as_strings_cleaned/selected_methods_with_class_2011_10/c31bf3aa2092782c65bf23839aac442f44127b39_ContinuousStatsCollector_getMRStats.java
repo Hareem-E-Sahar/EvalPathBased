@@ -1,0 +1,147 @@
+cached configuration SimpleName MethodInvocation SimpleName get instance
+conf SimpleName VariableDeclarationFragment MethodInvocation SimpleName cached configuration
+conf SimpleName VariableDeclarationFragment MethodInvocation SimpleName get instance
+configuration SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName conf
+suppress warnings SimpleName SingleMemberAnnotation StringLiteral deprecation
+orgapachehadoopmapredjob conf QualifiedName SimpleType ClassInstanceCreation SimpleName conf
+job client SimpleName SimpleType ClassInstanceCreation ClassInstanceCreation SimpleName conf
+jc SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName job client
+jc SimpleName VariableDeclarationFragment ClassInstanceCreation ClassInstanceCreation SimpleName conf
+suppress warnings SimpleName SingleMemberAnnotation VariableDeclarationStatement SimpleType SimpleName job client
+deprecation StringLiteral SingleMemberAnnotation VariableDeclarationStatement SimpleType SimpleName job client
+suppress warnings SimpleName SingleMemberAnnotation VariableDeclarationStatement VariableDeclarationFragment SimpleName jc
+deprecation StringLiteral SingleMemberAnnotation VariableDeclarationStatement VariableDeclarationFragment SimpleName jc
+job client SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName jc
+jc SimpleName MethodInvocation SimpleName get cluster status
+jc SimpleName MethodInvocation BooleanLiteral false
+get cluster status SimpleName MethodInvocation BooleanLiteral false
+cs SimpleName VariableDeclarationFragment MethodInvocation SimpleName jc
+cs SimpleName VariableDeclarationFragment MethodInvocation SimpleName get cluster status
+cs SimpleName VariableDeclarationFragment MethodInvocation BooleanLiteral false
+cluster status SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName cs
+cs SimpleName MethodInvocation SimpleName get map tasks
+cs SimpleName MethodInvocation SimpleName get max map tasks
+cs SimpleName MethodInvocation SimpleName get reduce tasks
+cs SimpleName MethodInvocation SimpleName get max reduce tasks
+cs SimpleName MethodInvocation SimpleName get task trackers
+cs SimpleName MethodInvocation SimpleName get blacklisted trackers
+empty StringLiteral InfixExpression MethodInvocation SimpleName cs
+empty StringLiteral InfixExpression MethodInvocation SimpleName get map tasks
+empty StringLiteral InfixExpression StringLiteral empty
+empty StringLiteral InfixExpression MethodInvocation SimpleName cs
+empty StringLiteral InfixExpression MethodInvocation SimpleName get max map tasks
+empty StringLiteral InfixExpression StringLiteral empty
+empty StringLiteral InfixExpression MethodInvocation SimpleName cs
+empty StringLiteral InfixExpression MethodInvocation SimpleName get reduce tasks
+cs SimpleName MethodInvocation InfixExpression StringLiteral empty
+get map tasks SimpleName MethodInvocation InfixExpression StringLiteral empty
+cs SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName cs
+cs SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get max map tasks
+get map tasks SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName cs
+get map tasks SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get max map tasks
+cs SimpleName MethodInvocation InfixExpression StringLiteral empty
+get map tasks SimpleName MethodInvocation InfixExpression StringLiteral empty
+cs SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName cs
+cs SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get reduce tasks
+get map tasks SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName cs
+get map tasks SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get reduce tasks
+cs SimpleName MethodInvocation InfixExpression StringLiteral empty
+get map tasks SimpleName MethodInvocation InfixExpression StringLiteral empty
+empty StringLiteral InfixExpression MethodInvocation SimpleName cs
+empty StringLiteral InfixExpression MethodInvocation SimpleName get max map tasks
+empty StringLiteral InfixExpression StringLiteral empty
+empty StringLiteral InfixExpression MethodInvocation SimpleName cs
+empty StringLiteral InfixExpression MethodInvocation SimpleName get reduce tasks
+empty StringLiteral InfixExpression StringLiteral empty
+empty StringLiteral InfixExpression MethodInvocation SimpleName cs
+empty StringLiteral InfixExpression MethodInvocation SimpleName get max reduce tasks
+cs SimpleName MethodInvocation InfixExpression StringLiteral empty
+get max map tasks SimpleName MethodInvocation InfixExpression StringLiteral empty
+cs SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName cs
+cs SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get reduce tasks
+get max map tasks SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName cs
+get max map tasks SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get reduce tasks
+cs SimpleName MethodInvocation InfixExpression StringLiteral empty
+get max map tasks SimpleName MethodInvocation InfixExpression StringLiteral empty
+cs SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName cs
+cs SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get max reduce tasks
+get max map tasks SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName cs
+get max map tasks SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get max reduce tasks
+cs SimpleName MethodInvocation InfixExpression StringLiteral empty
+get max map tasks SimpleName MethodInvocation InfixExpression StringLiteral empty
+empty StringLiteral InfixExpression MethodInvocation SimpleName cs
+empty StringLiteral InfixExpression MethodInvocation SimpleName get reduce tasks
+empty StringLiteral InfixExpression StringLiteral empty
+empty StringLiteral InfixExpression MethodInvocation SimpleName cs
+empty StringLiteral InfixExpression MethodInvocation SimpleName get max reduce tasks
+empty StringLiteral InfixExpression StringLiteral empty
+empty StringLiteral InfixExpression MethodInvocation SimpleName cs
+empty StringLiteral InfixExpression MethodInvocation SimpleName get task trackers
+cs SimpleName MethodInvocation InfixExpression StringLiteral empty
+get reduce tasks SimpleName MethodInvocation InfixExpression StringLiteral empty
+cs SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName cs
+cs SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get max reduce tasks
+get reduce tasks SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName cs
+get reduce tasks SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get max reduce tasks
+cs SimpleName MethodInvocation InfixExpression StringLiteral empty
+get reduce tasks SimpleName MethodInvocation InfixExpression StringLiteral empty
+cs SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName cs
+cs SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get task trackers
+get reduce tasks SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName cs
+get reduce tasks SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get task trackers
+cs SimpleName MethodInvocation InfixExpression StringLiteral empty
+get reduce tasks SimpleName MethodInvocation InfixExpression StringLiteral empty
+empty StringLiteral InfixExpression MethodInvocation SimpleName cs
+empty StringLiteral InfixExpression MethodInvocation SimpleName get max reduce tasks
+empty StringLiteral InfixExpression StringLiteral empty
+empty StringLiteral InfixExpression MethodInvocation SimpleName cs
+empty StringLiteral InfixExpression MethodInvocation SimpleName get task trackers
+empty StringLiteral InfixExpression StringLiteral empty
+empty StringLiteral InfixExpression MethodInvocation SimpleName cs
+empty StringLiteral InfixExpression MethodInvocation SimpleName get blacklisted trackers
+cs SimpleName MethodInvocation InfixExpression StringLiteral empty
+get max reduce tasks SimpleName MethodInvocation InfixExpression StringLiteral empty
+cs SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName cs
+cs SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get task trackers
+get max reduce tasks SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName cs
+get max reduce tasks SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get task trackers
+cs SimpleName MethodInvocation InfixExpression StringLiteral empty
+get max reduce tasks SimpleName MethodInvocation InfixExpression StringLiteral empty
+cs SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName cs
+cs SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get blacklisted trackers
+get max reduce tasks SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName cs
+get max reduce tasks SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get blacklisted trackers
+empty StringLiteral InfixExpression MethodInvocation SimpleName cs
+empty StringLiteral InfixExpression MethodInvocation SimpleName get task trackers
+empty StringLiteral InfixExpression StringLiteral empty
+empty StringLiteral InfixExpression MethodInvocation SimpleName cs
+empty StringLiteral InfixExpression MethodInvocation SimpleName get blacklisted trackers
+cs SimpleName MethodInvocation InfixExpression StringLiteral empty
+get task trackers SimpleName MethodInvocation InfixExpression StringLiteral empty
+cs SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName cs
+cs SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get blacklisted trackers
+get task trackers SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName cs
+get task trackers SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get blacklisted trackers
+empty StringLiteral InfixExpression MethodInvocation SimpleName cs
+empty StringLiteral InfixExpression MethodInvocation SimpleName get blacklisted trackers
+private Modifier MethodDeclaration Modifier static
+private Modifier MethodDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SimpleName get mr stats
+private Modifier MethodDeclaration SimpleType SimpleName exception
+static Modifier MethodDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SimpleName get mr stats
+static Modifier MethodDeclaration SimpleType SimpleName exception
+string SimpleName SimpleType MethodDeclaration SimpleName get mr stats
+string SimpleName SimpleType MethodDeclaration SimpleType SimpleName exception
+get mr stats SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName get mr stats
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get mr stats
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

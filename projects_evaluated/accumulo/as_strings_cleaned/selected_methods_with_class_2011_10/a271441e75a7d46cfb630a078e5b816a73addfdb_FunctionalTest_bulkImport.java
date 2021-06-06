@@ -1,0 +1,96 @@
+file system SimpleName SimpleType SingleVariableDeclaration SimpleName fs
+string SimpleName SimpleType SingleVariableDeclaration SimpleName table
+string SimpleName SimpleType SingleVariableDeclaration SimpleName dir
+dir SimpleName InfixExpression StringLiteral failures
+fail dir SimpleName VariableDeclarationFragment InfixExpression SimpleName dir
+fail dir SimpleName VariableDeclarationFragment InfixExpression StringLiteral failures
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName fail dir
+path SimpleName SimpleType ClassInstanceCreation SimpleName fail dir
+fail path SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName path
+fail path SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName fail dir
+path SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName fail path
+fs SimpleName MethodInvocation SimpleName delete
+fs SimpleName MethodInvocation SimpleName fail path
+fs SimpleName MethodInvocation BooleanLiteral true
+delete SimpleName MethodInvocation SimpleName fail path
+delete SimpleName MethodInvocation BooleanLiteral true
+fail path SimpleName MethodInvocation BooleanLiteral true
+fs SimpleName MethodInvocation SimpleName mkdirs
+fs SimpleName MethodInvocation SimpleName fail path
+mkdirs SimpleName MethodInvocation SimpleName fail path
+get connector SimpleName MethodInvocation MethodInvocation SimpleName table operations
+get connector SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName import directory
+table operations SimpleName MethodInvocation MethodInvocation SimpleName import directory
+get connector SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName table
+table operations SimpleName MethodInvocation MethodInvocation SimpleName table
+get connector SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName dir
+table operations SimpleName MethodInvocation MethodInvocation SimpleName dir
+get connector SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName fail dir
+table operations SimpleName MethodInvocation MethodInvocation SimpleName fail dir
+get connector SimpleName MethodInvocation MethodInvocation MethodInvocation BooleanLiteral false
+table operations SimpleName MethodInvocation MethodInvocation BooleanLiteral false
+import directory SimpleName MethodInvocation SimpleName table
+import directory SimpleName MethodInvocation SimpleName dir
+import directory SimpleName MethodInvocation SimpleName fail dir
+import directory SimpleName MethodInvocation BooleanLiteral false
+table SimpleName MethodInvocation SimpleName dir
+table SimpleName MethodInvocation SimpleName fail dir
+table SimpleName MethodInvocation BooleanLiteral false
+dir SimpleName MethodInvocation SimpleName fail dir
+dir SimpleName MethodInvocation BooleanLiteral false
+fail dir SimpleName MethodInvocation BooleanLiteral false
+fs SimpleName MethodInvocation SimpleName list status
+fs SimpleName MethodInvocation SimpleName fail path
+list status SimpleName MethodInvocation SimpleName fail path
+fs SimpleName MethodInvocation FieldAccess SimpleName length
+list status SimpleName MethodInvocation FieldAccess SimpleName length
+fail path SimpleName MethodInvocation FieldAccess SimpleName length
+fs SimpleName MethodInvocation FieldAccess InfixExpression NumberLiteral empty
+list status SimpleName MethodInvocation FieldAccess InfixExpression NumberLiteral empty
+fail path SimpleName MethodInvocation FieldAccess InfixExpression NumberLiteral empty
+length SimpleName FieldAccess InfixExpression NumberLiteral empty
+exception SimpleName SimpleType ClassInstanceCreation StringLiteral some files failed to bulk import
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName bulk import
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName file system
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName fs
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName table
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName dir
+void PrimitiveType MethodDeclaration SimpleName bulk import
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName file system
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName fs
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName table
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName dir
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+bulk import SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName file system
+bulk import SimpleName MethodDeclaration SingleVariableDeclaration SimpleName fs
+bulk import SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+bulk import SimpleName MethodDeclaration SingleVariableDeclaration SimpleName table
+bulk import SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+bulk import SimpleName MethodDeclaration SingleVariableDeclaration SimpleName dir
+bulk import SimpleName MethodDeclaration SimpleType SimpleName exception
+fs SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table
+fs SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName dir
+fs SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+table SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName dir
+table SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+dir SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName bulk import
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName fs
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName dir
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName bulk import
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName fs
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName dir
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

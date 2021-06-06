@@ -1,0 +1,42 @@
+expected SimpleName MemberValuePair TypeLiteral SimpleType SimpleName illegal argument exception
+test SimpleName NormalAnnotation MemberValuePair SimpleName expected
+status sectionname QualifiedName MethodInvocation SimpleName to string
+key SimpleName SimpleType ClassInstanceCreation StringLiteral file
+key SimpleName SimpleType ClassInstanceCreation MethodInvocation QualifiedName status sectionname
+key SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName to string
+key SimpleName SimpleType ClassInstanceCreation StringLiteral empty
+file StringLiteral ClassInstanceCreation MethodInvocation QualifiedName status sectionname
+file StringLiteral ClassInstanceCreation MethodInvocation SimpleName to string
+file StringLiteral ClassInstanceCreation StringLiteral empty
+status sectionname QualifiedName MethodInvocation ClassInstanceCreation StringLiteral empty
+to string SimpleName MethodInvocation ClassInstanceCreation StringLiteral empty
+k SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName key
+k SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral file
+k SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation QualifiedName status sectionname
+k SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName to string
+k SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral empty
+key SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName k
+work section SimpleName MethodInvocation SimpleName get file
+work section SimpleName MethodInvocation SimpleName k
+work section SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName text
+get file SimpleName MethodInvocation SimpleName k
+get file SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName text
+k SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName text
+test SimpleName NormalAnnotation MethodDeclaration Modifier public
+expected SimpleName MemberValuePair NormalAnnotation MethodDeclaration Modifier public
+test SimpleName NormalAnnotation MethodDeclaration PrimitiveType void
+expected SimpleName MemberValuePair NormalAnnotation MethodDeclaration PrimitiveType void
+test SimpleName NormalAnnotation MethodDeclaration SimpleName fail on incorrect work colfam
+expected SimpleName MemberValuePair NormalAnnotation MethodDeclaration SimpleName fail on incorrect work colfam
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName fail on incorrect work colfam
+void PrimitiveType MethodDeclaration SimpleName fail on incorrect work colfam
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration NormalAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName fail on incorrect work colfam
+test SimpleName TypeDeclaration MethodDeclaration NormalAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName fail on incorrect work colfam

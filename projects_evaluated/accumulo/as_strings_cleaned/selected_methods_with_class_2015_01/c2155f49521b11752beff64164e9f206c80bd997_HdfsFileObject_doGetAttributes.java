@@ -1,0 +1,127 @@
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+final Modifier VariableDeclarationStatement ParameterizedType SimpleType SimpleName map
+final Modifier VariableDeclarationStatement ParameterizedType SimpleType SimpleName string
+final Modifier VariableDeclarationStatement ParameterizedType SimpleType SimpleName object
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName attrs
+hdfs file attributeslast access time QualifiedName MethodInvocation SimpleName to string
+stat SimpleName FieldAccess MethodInvocation SimpleName get access time
+attrs SimpleName MethodInvocation SimpleName put
+attrs SimpleName MethodInvocation MethodInvocation QualifiedName hdfs file attributeslast access time
+attrs SimpleName MethodInvocation MethodInvocation SimpleName to string
+attrs SimpleName MethodInvocation MethodInvocation FieldAccess SimpleName stat
+attrs SimpleName MethodInvocation MethodInvocation SimpleName get access time
+put SimpleName MethodInvocation MethodInvocation QualifiedName hdfs file attributeslast access time
+put SimpleName MethodInvocation MethodInvocation SimpleName to string
+put SimpleName MethodInvocation MethodInvocation FieldAccess SimpleName stat
+put SimpleName MethodInvocation MethodInvocation SimpleName get access time
+hdfs file attributeslast access time QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName get access time
+to string SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get access time
+hdfs file attributesblock size QualifiedName MethodInvocation SimpleName to string
+stat SimpleName FieldAccess MethodInvocation SimpleName get block size
+attrs SimpleName MethodInvocation SimpleName put
+attrs SimpleName MethodInvocation MethodInvocation QualifiedName hdfs file attributesblock size
+attrs SimpleName MethodInvocation MethodInvocation SimpleName to string
+attrs SimpleName MethodInvocation MethodInvocation FieldAccess SimpleName stat
+attrs SimpleName MethodInvocation MethodInvocation SimpleName get block size
+put SimpleName MethodInvocation MethodInvocation QualifiedName hdfs file attributesblock size
+put SimpleName MethodInvocation MethodInvocation SimpleName to string
+put SimpleName MethodInvocation MethodInvocation FieldAccess SimpleName stat
+put SimpleName MethodInvocation MethodInvocation SimpleName get block size
+hdfs file attributesblock size QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName get block size
+to string SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get block size
+hdfs file attributesgroup QualifiedName MethodInvocation SimpleName to string
+stat SimpleName FieldAccess MethodInvocation SimpleName get group
+attrs SimpleName MethodInvocation SimpleName put
+attrs SimpleName MethodInvocation MethodInvocation QualifiedName hdfs file attributesgroup
+attrs SimpleName MethodInvocation MethodInvocation SimpleName to string
+attrs SimpleName MethodInvocation MethodInvocation FieldAccess SimpleName stat
+attrs SimpleName MethodInvocation MethodInvocation SimpleName get group
+put SimpleName MethodInvocation MethodInvocation QualifiedName hdfs file attributesgroup
+put SimpleName MethodInvocation MethodInvocation SimpleName to string
+put SimpleName MethodInvocation MethodInvocation FieldAccess SimpleName stat
+put SimpleName MethodInvocation MethodInvocation SimpleName get group
+hdfs file attributesgroup QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName get group
+to string SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get group
+hdfs file attributesowner QualifiedName MethodInvocation SimpleName to string
+stat SimpleName FieldAccess MethodInvocation SimpleName get owner
+attrs SimpleName MethodInvocation SimpleName put
+attrs SimpleName MethodInvocation MethodInvocation QualifiedName hdfs file attributesowner
+attrs SimpleName MethodInvocation MethodInvocation SimpleName to string
+attrs SimpleName MethodInvocation MethodInvocation FieldAccess SimpleName stat
+attrs SimpleName MethodInvocation MethodInvocation SimpleName get owner
+put SimpleName MethodInvocation MethodInvocation QualifiedName hdfs file attributesowner
+put SimpleName MethodInvocation MethodInvocation SimpleName to string
+put SimpleName MethodInvocation MethodInvocation FieldAccess SimpleName stat
+put SimpleName MethodInvocation MethodInvocation SimpleName get owner
+hdfs file attributesowner QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName get owner
+to string SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get owner
+hdfs file attributespermissions QualifiedName MethodInvocation SimpleName to string
+stat SimpleName FieldAccess MethodInvocation SimpleName get permission
+stat SimpleName FieldAccess MethodInvocation MethodInvocation SimpleName to string
+get permission SimpleName MethodInvocation MethodInvocation SimpleName to string
+attrs SimpleName MethodInvocation SimpleName put
+attrs SimpleName MethodInvocation MethodInvocation QualifiedName hdfs file attributespermissions
+attrs SimpleName MethodInvocation MethodInvocation SimpleName to string
+attrs SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get permission
+attrs SimpleName MethodInvocation MethodInvocation SimpleName to string
+put SimpleName MethodInvocation MethodInvocation QualifiedName hdfs file attributespermissions
+put SimpleName MethodInvocation MethodInvocation SimpleName to string
+put SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get permission
+put SimpleName MethodInvocation MethodInvocation SimpleName to string
+hdfs file attributespermissions QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName to string
+to string SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to string
+hdfs file attributeslength QualifiedName MethodInvocation SimpleName to string
+stat SimpleName FieldAccess MethodInvocation SimpleName get len
+attrs SimpleName MethodInvocation SimpleName put
+attrs SimpleName MethodInvocation MethodInvocation QualifiedName hdfs file attributeslength
+attrs SimpleName MethodInvocation MethodInvocation SimpleName to string
+attrs SimpleName MethodInvocation MethodInvocation FieldAccess SimpleName stat
+attrs SimpleName MethodInvocation MethodInvocation SimpleName get len
+put SimpleName MethodInvocation MethodInvocation QualifiedName hdfs file attributeslength
+put SimpleName MethodInvocation MethodInvocation SimpleName to string
+put SimpleName MethodInvocation MethodInvocation FieldAccess SimpleName stat
+put SimpleName MethodInvocation MethodInvocation SimpleName get len
+hdfs file attributeslength QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName get len
+to string SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get len
+hdfs file attributesmodification time QualifiedName MethodInvocation SimpleName to string
+stat SimpleName FieldAccess MethodInvocation SimpleName get modification time
+attrs SimpleName MethodInvocation SimpleName put
+attrs SimpleName MethodInvocation MethodInvocation QualifiedName hdfs file attributesmodification time
+attrs SimpleName MethodInvocation MethodInvocation SimpleName to string
+attrs SimpleName MethodInvocation MethodInvocation FieldAccess SimpleName stat
+attrs SimpleName MethodInvocation MethodInvocation SimpleName get modification time
+put SimpleName MethodInvocation MethodInvocation QualifiedName hdfs file attributesmodification time
+put SimpleName MethodInvocation MethodInvocation SimpleName to string
+put SimpleName MethodInvocation MethodInvocation FieldAccess SimpleName stat
+put SimpleName MethodInvocation MethodInvocation SimpleName get modification time
+hdfs file attributesmodification time QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName get modification time
+to string SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get modification time
+override SimpleName MarkerAnnotation MethodDeclaration Modifier protected
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName do get attributes
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+protected Modifier MethodDeclaration ParameterizedType SimpleType SimpleName map
+protected Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+protected Modifier MethodDeclaration ParameterizedType SimpleType SimpleName object
+protected Modifier MethodDeclaration SimpleName do get attributes
+protected Modifier MethodDeclaration SimpleType SimpleName exception
+map SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName do get attributes
+string SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName do get attributes
+object SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName do get attributes
+do get attributes SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleName do get attributes
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleName do get attributes
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

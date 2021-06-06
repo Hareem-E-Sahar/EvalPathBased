@@ -1,0 +1,35 @@
+atlas relationship SimpleName SimpleType SingleVariableDeclaration SimpleName relationship
+relationship store SimpleName MethodInvocation SimpleName create
+relationship store SimpleName MethodInvocation SimpleName relationship
+create SimpleName MethodInvocation SimpleName relationship
+atlas base exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+e SimpleName MethodInvocation SimpleName get atlas error code
+e SimpleName MethodInvocation MethodInvocation SimpleName equals
+get atlas error code SimpleName MethodInvocation MethodInvocation SimpleName equals
+e SimpleName MethodInvocation MethodInvocation QualifiedName atlas error coderelationship already exists
+get atlas error code SimpleName MethodInvocation MethodInvocation QualifiedName atlas error coderelationship already exists
+equals SimpleName MethodInvocation QualifiedName atlas error coderelationship already exists
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName create relationship
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas relationship
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName relationship
+protected Modifier MethodDeclaration SimpleType SimpleName atlas base exception
+void PrimitiveType MethodDeclaration SimpleName create relationship
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas relationship
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName relationship
+void PrimitiveType MethodDeclaration SimpleType SimpleName atlas base exception
+create relationship SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas relationship
+create relationship SimpleName MethodDeclaration SingleVariableDeclaration SimpleName relationship
+create relationship SimpleName MethodDeclaration SimpleType SimpleName atlas base exception
+relationship SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName create relationship
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName relationship
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create relationship
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName relationship
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception

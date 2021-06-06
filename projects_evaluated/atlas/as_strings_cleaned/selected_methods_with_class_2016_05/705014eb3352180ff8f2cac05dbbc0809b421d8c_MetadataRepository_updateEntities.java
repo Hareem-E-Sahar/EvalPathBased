@@ -1,0 +1,17 @@
+i typed referenceable instance SimpleName SimpleType SingleVariableDeclaration SimpleName entities to be updated
+atlas cliententity result QualifiedName SimpleType MethodDeclaration SimpleName update entities
+atlas cliententity result QualifiedName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName entities to be updated
+atlas cliententity result QualifiedName SimpleType MethodDeclaration SimpleType SimpleName repository exception
+update entities SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName i typed referenceable instance
+update entities SimpleName MethodDeclaration SingleVariableDeclaration SimpleName entities to be updated
+update entities SimpleName MethodDeclaration SimpleType SimpleName repository exception
+entities to be updated SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName repository exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration SimpleType QualifiedName atlas cliententity result
+public Modifier TypeDeclaration MethodDeclaration SimpleName update entities
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entities to be updated
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName repository exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType QualifiedName atlas cliententity result
+test SimpleName TypeDeclaration MethodDeclaration SimpleName update entities
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entities to be updated
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName repository exception

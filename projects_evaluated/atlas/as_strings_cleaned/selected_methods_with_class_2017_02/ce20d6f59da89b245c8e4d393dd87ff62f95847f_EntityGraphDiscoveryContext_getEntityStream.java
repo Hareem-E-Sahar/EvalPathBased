@@ -1,0 +1,12 @@
+public Modifier MethodDeclaration SimpleType SimpleName entity stream
+public Modifier MethodDeclaration SimpleName get entity stream
+public Modifier MethodDeclaration Block ReturnStatement SimpleName entity stream
+entity stream SimpleName SimpleType MethodDeclaration SimpleName get entity stream
+get entity stream SimpleName MethodDeclaration Block ReturnStatement SimpleName entity stream
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName entity stream
+public Modifier TypeDeclaration MethodDeclaration SimpleName get entity stream
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName entity stream
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get entity stream

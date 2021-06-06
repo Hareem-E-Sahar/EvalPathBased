@@ -1,0 +1,66 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName table
+string SimpleName SimpleType SingleVariableDeclaration SimpleName user
+get sys user name SimpleName MethodInvocation ArrayInitializer MethodInvocation SimpleName get tab user name
+table permission SimpleName SimpleType SingleVariableDeclaration SimpleName tp
+table permission SimpleName MethodInvocation SimpleName values
+revoke table permission SimpleName MethodInvocation SimpleName user
+revoke table permission SimpleName MethodInvocation SimpleName table
+revoke table permission SimpleName MethodInvocation SimpleName tp
+user SimpleName MethodInvocation SimpleName table
+user SimpleName MethodInvocation SimpleName tp
+table SimpleName MethodInvocation SimpleName tp
+tp SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName table permission
+tp SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName values
+boolean SimpleName MethodInvocation SimpleName to string
+boolean SimpleName MethodInvocation BooleanLiteral false
+to string SimpleName MethodInvocation BooleanLiteral false
+state SimpleName MethodInvocation SimpleName set
+state SimpleName MethodInvocation SimpleName table exists
+state SimpleName MethodInvocation MethodInvocation SimpleName boolean
+state SimpleName MethodInvocation MethodInvocation SimpleName to string
+state SimpleName MethodInvocation MethodInvocation BooleanLiteral false
+set SimpleName MethodInvocation SimpleName table exists
+set SimpleName MethodInvocation MethodInvocation SimpleName boolean
+set SimpleName MethodInvocation MethodInvocation SimpleName to string
+set SimpleName MethodInvocation MethodInvocation BooleanLiteral false
+table exists SimpleName MethodInvocation MethodInvocation SimpleName boolean
+table exists SimpleName MethodInvocation MethodInvocation SimpleName to string
+table exists SimpleName MethodInvocation MethodInvocation BooleanLiteral false
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName clean table permissions
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName table
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName accumulo security exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName clean table permissions
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName table
+public Modifier MethodDeclaration SimpleType SimpleName accumulo security exception
+public Modifier MethodDeclaration SimpleType SimpleName table not found exception
+void PrimitiveType MethodDeclaration SimpleName clean table permissions
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName table
+void PrimitiveType MethodDeclaration SimpleType SimpleName accumulo security exception
+void PrimitiveType MethodDeclaration SimpleType SimpleName table not found exception
+clean table permissions SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+clean table permissions SimpleName MethodDeclaration SingleVariableDeclaration SimpleName table
+clean table permissions SimpleName MethodDeclaration SimpleType SimpleName accumulo security exception
+clean table permissions SimpleName MethodDeclaration SimpleType SimpleName table not found exception
+table SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+table SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName table not found exception
+accumulo security exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName table not found exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName clean table permissions
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName table not found exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName clean table permissions
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName table not found exception

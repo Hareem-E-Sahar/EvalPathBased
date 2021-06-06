@@ -1,0 +1,86 @@
+scanner options SimpleName SimpleType SingleVariableDeclaration SimpleName dst
+scanner options SimpleName SimpleType SingleVariableDeclaration SimpleName src
+dstregex iter name QualifiedName Assignment QualifiedName srcregex iter name
+tree set SimpleName SimpleType ParameterizedType SimpleType SimpleName column
+tree set SimpleName SimpleType ParameterizedType ClassInstanceCreation QualifiedName srcfetched columns
+column SimpleName SimpleType ParameterizedType ClassInstanceCreation QualifiedName srcfetched columns
+dstfetched columns QualifiedName Assignment ClassInstanceCreation QualifiedName srcfetched columns
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName iter info
+array list SimpleName SimpleType ParameterizedType ClassInstanceCreation QualifiedName srcserver side iterator list
+iter info SimpleName SimpleType ParameterizedType ClassInstanceCreation QualifiedName srcserver side iterator list
+dstserver side iterator list QualifiedName Assignment ClassInstanceCreation QualifiedName srcserver side iterator list
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+srcserver side iterator options QualifiedName MethodInvocation SimpleName entry set
+es SimpleName VariableDeclarationFragment MethodInvocation QualifiedName srcserver side iterator options
+es SimpleName VariableDeclarationFragment MethodInvocation SimpleName entry set
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+entry SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+entry SimpleName MethodInvocation SimpleName get key
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+entry SimpleName MethodInvocation SimpleName get value
+dstserver side iterator options QualifiedName MethodInvocation SimpleName put
+dstserver side iterator options QualifiedName MethodInvocation MethodInvocation SimpleName entry
+dstserver side iterator options QualifiedName MethodInvocation MethodInvocation SimpleName get key
+dstserver side iterator options QualifiedName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName entry
+dstserver side iterator options QualifiedName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get value
+put SimpleName MethodInvocation MethodInvocation SimpleName entry
+put SimpleName MethodInvocation MethodInvocation SimpleName get key
+put SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName entry
+put SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get value
+entry SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName es
+es SimpleName EnhancedForStatement ExpressionStatement MethodInvocation QualifiedName dstserver side iterator options
+es SimpleName EnhancedForStatement ExpressionStatement MethodInvocation SimpleName put
+src SimpleName SynchronizedStatement Block EnhancedForStatement SimpleName es
+dst SimpleName SynchronizedStatement Block SynchronizedStatement SimpleName src
+protected Modifier MethodDeclaration Modifier static
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName set options
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName scanner options
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName dst
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName scanner options
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName src
+static Modifier MethodDeclaration PrimitiveType void
+static Modifier MethodDeclaration SimpleName set options
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName scanner options
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName dst
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName scanner options
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName src
+static Modifier MethodDeclaration Block SynchronizedStatement SimpleName dst
+void PrimitiveType MethodDeclaration SimpleName set options
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName scanner options
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName dst
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName scanner options
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName src
+void PrimitiveType MethodDeclaration Block SynchronizedStatement SimpleName dst
+set options SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName scanner options
+set options SimpleName MethodDeclaration SingleVariableDeclaration SimpleName dst
+set options SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName scanner options
+set options SimpleName MethodDeclaration SingleVariableDeclaration SimpleName src
+set options SimpleName MethodDeclaration Block SynchronizedStatement SimpleName dst
+dst SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName src
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set options
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName dst
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName src
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set options
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName dst
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName src

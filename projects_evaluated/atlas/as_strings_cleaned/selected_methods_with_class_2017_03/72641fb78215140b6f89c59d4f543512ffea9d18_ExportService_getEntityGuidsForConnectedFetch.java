@@ -1,0 +1,66 @@
+atlas entity SimpleName SimpleType SingleVariableDeclaration SimpleName entity
+export context SimpleName SimpleType SingleVariableDeclaration SimpleName context
+traversal direction SimpleName SimpleType SingleVariableDeclaration SimpleName direction
+direction SimpleName InfixExpression QualifiedName traversal directionunknown
+get connected entity guids SimpleName MethodInvocation SimpleName entity
+get connected entity guids SimpleName MethodInvocation SimpleName context
+get connected entity guids SimpleName MethodInvocation QualifiedName traversal directionoutward
+get connected entity guids SimpleName MethodInvocation QualifiedName traversal directionoutward
+entity SimpleName MethodInvocation SimpleName context
+entity SimpleName MethodInvocation QualifiedName traversal directionoutward
+entity SimpleName MethodInvocation QualifiedName traversal directionoutward
+context SimpleName MethodInvocation QualifiedName traversal directionoutward
+context SimpleName MethodInvocation QualifiedName traversal directionoutward
+traversal directionoutward QualifiedName MethodInvocation QualifiedName traversal directionoutward
+is process entity SimpleName MethodInvocation SimpleName entity
+direction SimpleName Assignment QualifiedName traversal directionoutward
+get connected entity guids SimpleName MethodInvocation SimpleName entity
+get connected entity guids SimpleName MethodInvocation SimpleName context
+get connected entity guids SimpleName MethodInvocation SimpleName direction
+entity SimpleName MethodInvocation SimpleName context
+entity SimpleName MethodInvocation SimpleName direction
+context SimpleName MethodInvocation SimpleName direction
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName get entity guids for connected fetch
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas entity
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName entity
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName export context
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName context
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName traversal direction
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName direction
+void PrimitiveType MethodDeclaration SimpleName get entity guids for connected fetch
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas entity
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName entity
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName export context
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName context
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName traversal direction
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName direction
+void PrimitiveType MethodDeclaration SimpleType SimpleName atlas base exception
+get entity guids for connected fetch SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas entity
+get entity guids for connected fetch SimpleName MethodDeclaration SingleVariableDeclaration SimpleName entity
+get entity guids for connected fetch SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName export context
+get entity guids for connected fetch SimpleName MethodDeclaration SingleVariableDeclaration SimpleName context
+get entity guids for connected fetch SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName traversal direction
+get entity guids for connected fetch SimpleName MethodDeclaration SingleVariableDeclaration SimpleName direction
+get entity guids for connected fetch SimpleName MethodDeclaration SimpleType SimpleName atlas base exception
+entity SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName context
+entity SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName direction
+entity SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+context SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName direction
+context SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+direction SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName get entity guids for connected fetch
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName context
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName direction
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get entity guids for connected fetch
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName context
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName direction
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception

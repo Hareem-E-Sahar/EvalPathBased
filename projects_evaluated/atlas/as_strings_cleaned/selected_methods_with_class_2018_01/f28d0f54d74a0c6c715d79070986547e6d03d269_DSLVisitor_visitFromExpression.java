@@ -1,0 +1,99 @@
+final Modifier SingleVariableDeclaration SimpleType SimpleName from expression context
+final Modifier SingleVariableDeclaration SimpleName ctx
+from expression context SimpleName SimpleType SingleVariableDeclaration SimpleName ctx
+log SimpleName MethodInvocation SimpleName is debug enabled
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral => dsl visitorvisit from expression
+log SimpleName MethodInvocation SimpleName ctx
+debug SimpleName MethodInvocation StringLiteral => dsl visitorvisit from expression
+debug SimpleName MethodInvocation SimpleName ctx
+=> dsl visitorvisit from expression StringLiteral MethodInvocation SimpleName ctx
+ctx SimpleName MethodInvocation SimpleName from src
+from src SimpleName VariableDeclarationFragment MethodInvocation SimpleName ctx
+from src SimpleName VariableDeclarationFragment MethodInvocation SimpleName from src
+from src context SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName from src
+from src SimpleName MethodInvocation SimpleName alias expr
+alias expr SimpleName VariableDeclarationFragment MethodInvocation SimpleName from src
+alias expr SimpleName VariableDeclarationFragment MethodInvocation SimpleName alias expr
+alias expr context SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName alias expr
+alias expr SimpleName MethodInvocation SimpleName identifier
+alias expr SimpleName MethodInvocation NumberLiteral empty
+identifier SimpleName MethodInvocation NumberLiteral empty
+alias expr SimpleName MethodInvocation MethodInvocation SimpleName get text
+identifier SimpleName MethodInvocation MethodInvocation SimpleName get text
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName get text
+alias expr SimpleName MethodInvocation SimpleName identifier
+alias expr SimpleName MethodInvocation NumberLiteral empty
+identifier SimpleName MethodInvocation NumberLiteral empty
+alias expr SimpleName MethodInvocation MethodInvocation SimpleName get text
+identifier SimpleName MethodInvocation MethodInvocation SimpleName get text
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName get text
+gremlin query composer SimpleName MethodInvocation SimpleName add from alias
+gremlin query composer SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName alias expr
+gremlin query composer SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName identifier
+gremlin query composer SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+gremlin query composer SimpleName MethodInvocation MethodInvocation SimpleName get text
+gremlin query composer SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName alias expr
+gremlin query composer SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName identifier
+gremlin query composer SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+gremlin query composer SimpleName MethodInvocation MethodInvocation SimpleName get text
+add from alias SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName alias expr
+add from alias SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName identifier
+add from alias SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+add from alias SimpleName MethodInvocation MethodInvocation SimpleName get text
+add from alias SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName alias expr
+add from alias SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName identifier
+add from alias SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+add from alias SimpleName MethodInvocation MethodInvocation SimpleName get text
+get text SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get text
+from src SimpleName MethodInvocation SimpleName identifier
+from src SimpleName MethodInvocation SimpleName identifier
+from src SimpleName MethodInvocation MethodInvocation SimpleName get text
+identifier SimpleName MethodInvocation MethodInvocation SimpleName get text
+gremlin query composer SimpleName MethodInvocation SimpleName add from
+gremlin query composer SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName from src
+gremlin query composer SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName identifier
+gremlin query composer SimpleName MethodInvocation MethodInvocation SimpleName get text
+add from SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName from src
+add from SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName identifier
+add from SimpleName MethodInvocation MethodInvocation SimpleName get text
+from src SimpleName MethodInvocation SimpleName literal
+from src SimpleName MethodInvocation MethodInvocation SimpleName get text
+literal SimpleName MethodInvocation MethodInvocation SimpleName get text
+gremlin query composer SimpleName MethodInvocation SimpleName add from
+gremlin query composer SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName from src
+gremlin query composer SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName literal
+gremlin query composer SimpleName MethodInvocation MethodInvocation SimpleName get text
+add from SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName from src
+add from SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName literal
+add from SimpleName MethodInvocation MethodInvocation SimpleName get text
+visit from expression SimpleName SuperMethodInvocation SimpleName ctx
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName visit from expression
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration Modifier final
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName ctx
+public Modifier MethodDeclaration SimpleType SimpleName void
+public Modifier MethodDeclaration SimpleName visit from expression
+public Modifier MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName from expression context
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName ctx
+void SimpleName SimpleType MethodDeclaration SimpleName visit from expression
+void SimpleName SimpleType MethodDeclaration SingleVariableDeclaration Modifier final
+void SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName ctx
+visit from expression SimpleName MethodDeclaration SingleVariableDeclaration Modifier final
+visit from expression SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName from expression context
+visit from expression SimpleName MethodDeclaration SingleVariableDeclaration SimpleName ctx
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName void
+public Modifier TypeDeclaration MethodDeclaration SimpleName visit from expression
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ctx
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName visit from expression
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ctx

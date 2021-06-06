@@ -1,0 +1,58 @@
+collection SimpleName SimpleType ParameterizedType SimpleType SimpleName tablet location state
+collection SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName tablets
+tablet location state SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName tablets
+tablets SimpleName MethodInvocation SimpleName size
+tablets SimpleName MethodInvocation InfixExpression NumberLiteral empty
+size SimpleName MethodInvocation InfixExpression NumberLiteral empty
+illegal argument exception SimpleName SimpleType ClassInstanceCreation StringLiteral there is only one root tablet
+tablets SimpleName MethodInvocation SimpleName iterator
+tablets SimpleName MethodInvocation MethodInvocation SimpleName next
+iterator SimpleName MethodInvocation MethodInvocation SimpleName next
+tls SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName tablets
+tls SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName iterator
+tls SimpleName VariableDeclarationFragment MethodInvocation SimpleName next
+tablet location state SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName tls
+tlsextent QualifiedName MethodInvocation SimpleName compare to
+tlsextent QualifiedName MethodInvocation QualifiedName constantsroot tablet extent
+compare to SimpleName MethodInvocation QualifiedName constantsroot tablet extent
+tlsextent QualifiedName MethodInvocation InfixExpression NumberLiteral empty
+compare to SimpleName MethodInvocation InfixExpression NumberLiteral empty
+constantsroot tablet extent QualifiedName MethodInvocation InfixExpression NumberLiteral empty
+illegal argument exception SimpleName SimpleType ClassInstanceCreation StringLiteral you can only store the root tablet location
+store SimpleName MethodInvocation SimpleName remove
+store SimpleName MethodInvocation QualifiedName constantszroot tablet location
+remove SimpleName MethodInvocation QualifiedName constantszroot tablet location
+store SimpleName MethodInvocation SimpleName remove
+store SimpleName MethodInvocation QualifiedName constantszroot tablet future location
+remove SimpleName MethodInvocation QualifiedName constantszroot tablet future location
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral unassign root tablet location
+debug SimpleName MethodInvocation StringLiteral unassign root tablet location
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName unassign
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName tablets
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName distributed store exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName unassign
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName tablets
+public Modifier MethodDeclaration SimpleType SimpleName distributed store exception
+void PrimitiveType MethodDeclaration SimpleName unassign
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName tablets
+void PrimitiveType MethodDeclaration SimpleType SimpleName distributed store exception
+unassign SimpleName MethodDeclaration SingleVariableDeclaration SimpleName tablets
+unassign SimpleName MethodDeclaration SimpleType SimpleName distributed store exception
+tablets SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName distributed store exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName unassign
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName tablets
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName distributed store exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName unassign
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName tablets
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName distributed store exception

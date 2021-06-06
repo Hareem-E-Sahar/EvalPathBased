@@ -1,0 +1,403 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName cohort name
+string SimpleName SimpleType SingleVariableDeclaration SimpleName local metadata collection id
+string SimpleName SimpleType SingleVariableDeclaration SimpleName local server name
+string SimpleName SimpleType SingleVariableDeclaration SimpleName local server type
+string SimpleName SimpleType SingleVariableDeclaration SimpleName local organization name
+omrs local repository SimpleName SimpleType SingleVariableDeclaration SimpleName local repository
+omrs repository content manager SimpleName SimpleType SingleVariableDeclaration SimpleName local repository content manager
+omrs connection consumer SimpleName SimpleType SingleVariableDeclaration SimpleName connection consumer
+omrs topic connector SimpleName SimpleType SingleVariableDeclaration SimpleName enterprise topic connector
+omrs cohort registry store SimpleName SimpleType SingleVariableDeclaration SimpleName cohort registry store
+omrs topic connector SimpleName SimpleType SingleVariableDeclaration SimpleName cohort topic connector
+open metadata event protocol version SimpleName SimpleType SingleVariableDeclaration SimpleName event protocol version
+omrs repository event exchange rule SimpleName SimpleType SingleVariableDeclaration SimpleName inbound event exchange rule
+action description SimpleName VariableDeclarationFragment StringLiteral initialize cohort manager
+final Modifier VariableDeclarationStatement SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName action description
+final Modifier VariableDeclarationStatement VariableDeclarationFragment StringLiteral initialize cohort manager
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName action description
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral initialize cohort manager
+log SimpleName MethodInvocation SimpleName is debug enabled
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation SimpleName action description
+debug SimpleName MethodInvocation SimpleName action description
+cohort name SimpleName FieldAccess Assignment SimpleName cohort name
+audit code SimpleName VariableDeclarationFragment QualifiedName omrs audit codecohort initializing
+omrs audit code SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName audit code
+omrs audit code SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment QualifiedName omrs audit codecohort initializing
+audit code SimpleName MethodInvocation SimpleName get log message id
+audit code SimpleName MethodInvocation SimpleName get severity
+audit code SimpleName MethodInvocation SimpleName get formatted log message
+audit code SimpleName MethodInvocation SimpleName cohort name
+get formatted log message SimpleName MethodInvocation SimpleName cohort name
+audit code SimpleName MethodInvocation SimpleName get system action
+audit code SimpleName MethodInvocation SimpleName get user action
+audit log SimpleName MethodInvocation SimpleName log record
+audit log SimpleName MethodInvocation SimpleName action description
+audit log SimpleName MethodInvocation MethodInvocation SimpleName audit code
+audit log SimpleName MethodInvocation MethodInvocation SimpleName get log message id
+audit log SimpleName MethodInvocation MethodInvocation SimpleName audit code
+audit log SimpleName MethodInvocation MethodInvocation SimpleName get severity
+audit log SimpleName MethodInvocation MethodInvocation SimpleName audit code
+audit log SimpleName MethodInvocation MethodInvocation SimpleName get formatted log message
+audit log SimpleName MethodInvocation MethodInvocation SimpleName cohort name
+log record SimpleName MethodInvocation SimpleName action description
+log record SimpleName MethodInvocation MethodInvocation SimpleName audit code
+log record SimpleName MethodInvocation MethodInvocation SimpleName get log message id
+log record SimpleName MethodInvocation MethodInvocation SimpleName audit code
+log record SimpleName MethodInvocation MethodInvocation SimpleName get severity
+log record SimpleName MethodInvocation MethodInvocation SimpleName audit code
+log record SimpleName MethodInvocation MethodInvocation SimpleName get formatted log message
+log record SimpleName MethodInvocation MethodInvocation SimpleName cohort name
+action description SimpleName MethodInvocation MethodInvocation SimpleName audit code
+action description SimpleName MethodInvocation MethodInvocation SimpleName get log message id
+action description SimpleName MethodInvocation MethodInvocation SimpleName audit code
+action description SimpleName MethodInvocation MethodInvocation SimpleName get severity
+action description SimpleName MethodInvocation MethodInvocation SimpleName audit code
+action description SimpleName MethodInvocation MethodInvocation SimpleName get formatted log message
+action description SimpleName MethodInvocation MethodInvocation SimpleName cohort name
+action description SimpleName MethodInvocation MethodInvocation SimpleName audit code
+action description SimpleName MethodInvocation MethodInvocation SimpleName get system action
+audit code SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName audit code
+audit code SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get severity
+get log message id SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName audit code
+get log message id SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get severity
+audit code SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName audit code
+audit code SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get formatted log message
+audit code SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName cohort name
+get log message id SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName audit code
+get log message id SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get formatted log message
+get log message id SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName cohort name
+audit code SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName audit code
+audit code SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get system action
+get log message id SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName audit code
+get log message id SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get system action
+audit code SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName audit code
+audit code SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get user action
+get log message id SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName audit code
+get log message id SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get user action
+audit code SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName audit code
+audit code SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get formatted log message
+audit code SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName cohort name
+get severity SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName audit code
+get severity SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get formatted log message
+get severity SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName cohort name
+audit code SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName audit code
+audit code SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get system action
+get severity SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName audit code
+get severity SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get system action
+audit code SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName audit code
+audit code SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get user action
+get severity SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName audit code
+get severity SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get user action
+audit code SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName audit code
+audit code SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get system action
+get formatted log message SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName audit code
+get formatted log message SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get system action
+cohort name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName audit code
+cohort name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get system action
+audit code SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName audit code
+audit code SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get user action
+get formatted log message SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName audit code
+get formatted log message SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get user action
+cohort name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName audit code
+cohort name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get user action
+audit code SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName audit code
+audit code SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get user action
+get system action SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName audit code
+get system action SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get user action
+cohort connection status SimpleName FieldAccess Assignment QualifiedName cohort connection statusinitializing
+omrs repository validator SimpleName SimpleType ClassInstanceCreation SimpleName local repository content manager
+omrs repository event manager SimpleName SimpleType ClassInstanceCreation SimpleName inbound event exchange rule
+omrs repository event manager SimpleName SimpleType ClassInstanceCreation ClassInstanceCreation SimpleName local repository content manager
+inbound event exchange rule SimpleName ClassInstanceCreation ClassInstanceCreation SimpleType SimpleName omrs repository validator
+inbound event exchange rule SimpleName ClassInstanceCreation ClassInstanceCreation SimpleName local repository content manager
+cohort repository event manager SimpleName FieldAccess Assignment ClassInstanceCreation SimpleName inbound event exchange rule
+omrs event publisher SimpleName SimpleType ClassInstanceCreation SimpleName cohort name
+omrs event publisher SimpleName SimpleType ClassInstanceCreation SimpleName event protocol version
+omrs event publisher SimpleName SimpleType ClassInstanceCreation SimpleName cohort topic connector
+cohort name SimpleName ClassInstanceCreation SimpleName event protocol version
+cohort name SimpleName ClassInstanceCreation SimpleName cohort topic connector
+event protocol version SimpleName ClassInstanceCreation SimpleName cohort topic connector
+outbound registry event processor SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName omrs event publisher
+outbound registry event processor SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName cohort name
+outbound registry event processor SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName event protocol version
+outbound registry event processor SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName cohort topic connector
+omrs event publisher SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName outbound registry event processor
+local repository SimpleName MethodInvocation SimpleName get local repository remote connection
+local repository SimpleName MethodInvocation SimpleName get type def validator
+cohort registry SimpleName FieldAccess MethodInvocation SimpleName initialize
+cohort registry SimpleName FieldAccess MethodInvocation SimpleName cohort name
+cohort registry SimpleName FieldAccess MethodInvocation SimpleName local metadata collection id
+cohort registry SimpleName FieldAccess MethodInvocation MethodInvocation SimpleName local repository
+cohort registry SimpleName FieldAccess MethodInvocation MethodInvocation SimpleName get local repository remote connection
+cohort registry SimpleName FieldAccess MethodInvocation SimpleName local server name
+initialize SimpleName MethodInvocation SimpleName cohort name
+initialize SimpleName MethodInvocation SimpleName local metadata collection id
+initialize SimpleName MethodInvocation MethodInvocation SimpleName local repository
+initialize SimpleName MethodInvocation MethodInvocation SimpleName get local repository remote connection
+initialize SimpleName MethodInvocation SimpleName local server name
+initialize SimpleName MethodInvocation SimpleName local server type
+cohort name SimpleName MethodInvocation SimpleName local metadata collection id
+cohort name SimpleName MethodInvocation MethodInvocation SimpleName local repository
+cohort name SimpleName MethodInvocation MethodInvocation SimpleName get local repository remote connection
+cohort name SimpleName MethodInvocation SimpleName local server name
+cohort name SimpleName MethodInvocation SimpleName local server type
+cohort name SimpleName MethodInvocation SimpleName local organization name
+local metadata collection id SimpleName MethodInvocation MethodInvocation SimpleName local repository
+local metadata collection id SimpleName MethodInvocation MethodInvocation SimpleName get local repository remote connection
+local metadata collection id SimpleName MethodInvocation SimpleName local server name
+local metadata collection id SimpleName MethodInvocation SimpleName local server type
+local metadata collection id SimpleName MethodInvocation SimpleName local organization name
+local metadata collection id SimpleName MethodInvocation SimpleName outbound registry event processor
+local repository SimpleName MethodInvocation MethodInvocation SimpleName local server name
+get local repository remote connection SimpleName MethodInvocation MethodInvocation SimpleName local server name
+local repository SimpleName MethodInvocation MethodInvocation SimpleName local server type
+get local repository remote connection SimpleName MethodInvocation MethodInvocation SimpleName local server type
+local repository SimpleName MethodInvocation MethodInvocation SimpleName local organization name
+get local repository remote connection SimpleName MethodInvocation MethodInvocation SimpleName local organization name
+local repository SimpleName MethodInvocation MethodInvocation SimpleName outbound registry event processor
+get local repository remote connection SimpleName MethodInvocation MethodInvocation SimpleName outbound registry event processor
+local repository SimpleName MethodInvocation MethodInvocation SimpleName cohort registry store
+get local repository remote connection SimpleName MethodInvocation MethodInvocation SimpleName cohort registry store
+local server name SimpleName MethodInvocation SimpleName local server type
+local server name SimpleName MethodInvocation SimpleName local organization name
+local server name SimpleName MethodInvocation SimpleName outbound registry event processor
+local server name SimpleName MethodInvocation SimpleName cohort registry store
+local server name SimpleName MethodInvocation MethodInvocation SimpleName local repository
+local server name SimpleName MethodInvocation MethodInvocation SimpleName get type def validator
+local server type SimpleName MethodInvocation SimpleName local organization name
+local server type SimpleName MethodInvocation SimpleName outbound registry event processor
+local server type SimpleName MethodInvocation SimpleName cohort registry store
+local server type SimpleName MethodInvocation MethodInvocation SimpleName local repository
+local server type SimpleName MethodInvocation MethodInvocation SimpleName get type def validator
+local server type SimpleName MethodInvocation SimpleName connection consumer
+local organization name SimpleName MethodInvocation SimpleName outbound registry event processor
+local organization name SimpleName MethodInvocation SimpleName cohort registry store
+local organization name SimpleName MethodInvocation MethodInvocation SimpleName local repository
+local organization name SimpleName MethodInvocation MethodInvocation SimpleName get type def validator
+local organization name SimpleName MethodInvocation SimpleName connection consumer
+outbound registry event processor SimpleName MethodInvocation SimpleName cohort registry store
+outbound registry event processor SimpleName MethodInvocation MethodInvocation SimpleName local repository
+outbound registry event processor SimpleName MethodInvocation MethodInvocation SimpleName get type def validator
+outbound registry event processor SimpleName MethodInvocation SimpleName connection consumer
+cohort registry store SimpleName MethodInvocation MethodInvocation SimpleName local repository
+cohort registry store SimpleName MethodInvocation MethodInvocation SimpleName get type def validator
+cohort registry store SimpleName MethodInvocation SimpleName connection consumer
+local repository SimpleName MethodInvocation MethodInvocation SimpleName connection consumer
+get type def validator SimpleName MethodInvocation MethodInvocation SimpleName connection consumer
+local repository SimpleName MethodInvocation SimpleName get outbound repository event manager
+local repository event manager SimpleName Assignment MethodInvocation SimpleName local repository
+local repository event manager SimpleName Assignment MethodInvocation SimpleName get outbound repository event manager
+omrs event publisher SimpleName SimpleType ClassInstanceCreation SimpleName cohort name
+omrs event publisher SimpleName SimpleType ClassInstanceCreation SimpleName event protocol version
+omrs event publisher SimpleName SimpleType ClassInstanceCreation SimpleName cohort topic connector
+cohort name SimpleName ClassInstanceCreation SimpleName event protocol version
+cohort name SimpleName ClassInstanceCreation SimpleName cohort topic connector
+event protocol version SimpleName ClassInstanceCreation SimpleName cohort topic connector
+repository event publisher SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName omrs event publisher
+repository event publisher SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName cohort name
+repository event publisher SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName event protocol version
+repository event publisher SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName cohort topic connector
+omrs event publisher SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName repository event publisher
+local repository event manager SimpleName MethodInvocation SimpleName register type def processor
+local repository event manager SimpleName MethodInvocation SimpleName repository event publisher
+register type def processor SimpleName MethodInvocation SimpleName repository event publisher
+local repository event manager SimpleName MethodInvocation SimpleName register instance processor
+local repository event manager SimpleName MethodInvocation SimpleName repository event publisher
+register instance processor SimpleName MethodInvocation SimpleName repository event publisher
+local repository SimpleName MethodInvocation SimpleName get incoming type def event processor
+local repository SimpleName MethodInvocation SimpleName get incoming type def event processor
+cohort repository event manager SimpleName FieldAccess MethodInvocation SimpleName register type def processor
+cohort repository event manager SimpleName FieldAccess MethodInvocation MethodInvocation SimpleName local repository
+cohort repository event manager SimpleName FieldAccess MethodInvocation MethodInvocation SimpleName get incoming type def event processor
+register type def processor SimpleName MethodInvocation MethodInvocation SimpleName local repository
+register type def processor SimpleName MethodInvocation MethodInvocation SimpleName get incoming type def event processor
+local repository SimpleName MethodInvocation SimpleName get incoming instance event processor
+local repository SimpleName MethodInvocation SimpleName get incoming instance event processor
+cohort repository event manager SimpleName FieldAccess MethodInvocation SimpleName register instance processor
+cohort repository event manager SimpleName FieldAccess MethodInvocation MethodInvocation SimpleName local repository
+cohort repository event manager SimpleName FieldAccess MethodInvocation MethodInvocation SimpleName get incoming instance event processor
+register instance processor SimpleName MethodInvocation MethodInvocation SimpleName local repository
+register instance processor SimpleName MethodInvocation MethodInvocation SimpleName get incoming instance event processor
+cohort registry SimpleName FieldAccess MethodInvocation SimpleName initialize
+cohort registry SimpleName FieldAccess MethodInvocation SimpleName cohort name
+cohort registry SimpleName FieldAccess MethodInvocation SimpleName local server name
+initialize SimpleName MethodInvocation SimpleName cohort name
+initialize SimpleName MethodInvocation SimpleName local server name
+initialize SimpleName MethodInvocation SimpleName local server type
+cohort name SimpleName MethodInvocation SimpleName local server name
+cohort name SimpleName MethodInvocation SimpleName local server type
+cohort name SimpleName MethodInvocation SimpleName local organization name
+local server name SimpleName MethodInvocation SimpleName local server type
+local server name SimpleName MethodInvocation SimpleName local organization name
+local server name SimpleName MethodInvocation SimpleName outbound registry event processor
+local server type SimpleName MethodInvocation SimpleName local organization name
+local server type SimpleName MethodInvocation SimpleName outbound registry event processor
+local server type SimpleName MethodInvocation SimpleName connection consumer
+local organization name SimpleName MethodInvocation SimpleName outbound registry event processor
+local organization name SimpleName MethodInvocation SimpleName connection consumer
+outbound registry event processor SimpleName MethodInvocation SimpleName connection consumer
+omrs event publisher SimpleName SimpleType ClassInstanceCreation StringLiteral omas enterprise access
+omrs event publisher SimpleName SimpleType ClassInstanceCreation SimpleName event protocol version
+omrs event publisher SimpleName SimpleType ClassInstanceCreation SimpleName cohort topic connector
+omas enterprise access StringLiteral ClassInstanceCreation SimpleName event protocol version
+omas enterprise access StringLiteral ClassInstanceCreation SimpleName cohort topic connector
+event protocol version SimpleName ClassInstanceCreation SimpleName cohort topic connector
+enterprise event publisher SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName omrs event publisher
+enterprise event publisher SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral omas enterprise access
+enterprise event publisher SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName event protocol version
+enterprise event publisher SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName cohort topic connector
+omrs event publisher SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName enterprise event publisher
+cohort repository event manager SimpleName FieldAccess MethodInvocation SimpleName register instance processor
+cohort repository event manager SimpleName FieldAccess MethodInvocation SimpleName enterprise event publisher
+register instance processor SimpleName MethodInvocation SimpleName enterprise event publisher
+cohort connection status SimpleName FieldAccess Assignment QualifiedName cohort connection statusnew
+omrs event listener SimpleName SimpleType ClassInstanceCreation SimpleName cohort name
+omrs event listener SimpleName SimpleType ClassInstanceCreation SimpleName local metadata collection id
+omrs event listener SimpleName SimpleType ClassInstanceCreation FieldAccess SimpleName cohort registry
+omrs event listener SimpleName SimpleType ClassInstanceCreation FieldAccess SimpleName cohort repository event manager
+omrs event listener SimpleName SimpleType ClassInstanceCreation FieldAccess SimpleName cohort repository event manager
+cohort name SimpleName ClassInstanceCreation SimpleName local metadata collection id
+cohort name SimpleName ClassInstanceCreation FieldAccess SimpleName cohort registry
+cohort name SimpleName ClassInstanceCreation FieldAccess SimpleName cohort repository event manager
+cohort name SimpleName ClassInstanceCreation FieldAccess SimpleName cohort repository event manager
+local metadata collection id SimpleName ClassInstanceCreation FieldAccess SimpleName cohort registry
+local metadata collection id SimpleName ClassInstanceCreation FieldAccess SimpleName cohort repository event manager
+local metadata collection id SimpleName ClassInstanceCreation FieldAccess SimpleName cohort repository event manager
+cohort registry SimpleName FieldAccess ClassInstanceCreation FieldAccess SimpleName cohort repository event manager
+cohort registry SimpleName FieldAccess ClassInstanceCreation FieldAccess SimpleName cohort repository event manager
+cohort repository event manager SimpleName FieldAccess ClassInstanceCreation FieldAccess SimpleName cohort repository event manager
+cohort event listener SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName omrs event listener
+cohort event listener SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName cohort name
+cohort event listener SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName local metadata collection id
+cohort event listener SimpleName VariableDeclarationFragment ClassInstanceCreation FieldAccess SimpleName cohort registry
+cohort event listener SimpleName VariableDeclarationFragment ClassInstanceCreation FieldAccess SimpleName cohort repository event manager
+cohort event listener SimpleName VariableDeclarationFragment ClassInstanceCreation FieldAccess SimpleName cohort repository event manager
+omrs event listener SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName cohort event listener
+cohort topic connector SimpleName MethodInvocation SimpleName register listener
+cohort topic connector SimpleName MethodInvocation SimpleName cohort event listener
+register listener SimpleName MethodInvocation SimpleName cohort event listener
+cohort topic connector SimpleName FieldAccess Assignment SimpleName cohort topic connector
+cohort event listener SimpleName FieldAccess Assignment SimpleName cohort event listener
+cohort registry SimpleName FieldAccess MethodInvocation SimpleName connect to cohort
+cohort connection status SimpleName FieldAccess Assignment QualifiedName cohort connection statusconnected
+throwable SimpleName SimpleType SingleVariableDeclaration SimpleName error
+cohort connection status SimpleName FieldAccess Assignment QualifiedName cohort connection statusconfiguration error
+log SimpleName MethodInvocation SimpleName is debug enabled
+action description SimpleName InfixExpression StringLiteral complete
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation InfixExpression SimpleName action description
+log SimpleName MethodInvocation InfixExpression StringLiteral complete
+debug SimpleName MethodInvocation InfixExpression SimpleName action description
+debug SimpleName MethodInvocation InfixExpression StringLiteral complete
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName initialize
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName cohort name
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName local metadata collection id
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName local server name
+void PrimitiveType MethodDeclaration SimpleName initialize
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName cohort name
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName local metadata collection id
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName local server name
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName local server type
+initialize SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+initialize SimpleName MethodDeclaration SingleVariableDeclaration SimpleName cohort name
+initialize SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+initialize SimpleName MethodDeclaration SingleVariableDeclaration SimpleName local metadata collection id
+initialize SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+initialize SimpleName MethodDeclaration SingleVariableDeclaration SimpleName local server name
+initialize SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+initialize SimpleName MethodDeclaration SingleVariableDeclaration SimpleName local server type
+initialize SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+initialize SimpleName MethodDeclaration SingleVariableDeclaration SimpleName local organization name
+cohort name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName local metadata collection id
+cohort name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName local server name
+cohort name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName local server type
+cohort name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName local organization name
+cohort name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName local repository
+local metadata collection id SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName local server name
+local metadata collection id SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName local server type
+local metadata collection id SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName local organization name
+local metadata collection id SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName local repository
+local metadata collection id SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName local repository content manager
+local server name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName local server type
+local server name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName local organization name
+local server name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName local repository
+local server name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName local repository content manager
+local server name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName connection consumer
+local server type SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName local organization name
+local server type SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName local repository
+local server type SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName local repository content manager
+local server type SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName connection consumer
+local server type SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName enterprise topic connector
+local organization name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName local repository
+local organization name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName local repository content manager
+local organization name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName connection consumer
+local organization name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName enterprise topic connector
+local organization name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cohort registry store
+local repository SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName local repository content manager
+local repository SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName connection consumer
+local repository SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName enterprise topic connector
+local repository SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cohort registry store
+local repository SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cohort topic connector
+local repository content manager SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName connection consumer
+local repository content manager SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName enterprise topic connector
+local repository content manager SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cohort registry store
+local repository content manager SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cohort topic connector
+local repository content manager SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName event protocol version
+connection consumer SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName enterprise topic connector
+connection consumer SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cohort registry store
+connection consumer SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cohort topic connector
+connection consumer SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName event protocol version
+connection consumer SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName inbound event exchange rule
+enterprise topic connector SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cohort registry store
+enterprise topic connector SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cohort topic connector
+enterprise topic connector SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName event protocol version
+enterprise topic connector SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName inbound event exchange rule
+cohort registry store SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cohort topic connector
+cohort registry store SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName event protocol version
+cohort registry store SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName inbound event exchange rule
+cohort topic connector SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName event protocol version
+cohort topic connector SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName inbound event exchange rule
+event protocol version SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName inbound event exchange rule
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName initialize
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cohort name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName local metadata collection id
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName local server name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName local server type
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName local organization name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName local repository
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName local repository content manager
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName connection consumer
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName enterprise topic connector
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cohort registry store
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cohort topic connector
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName event protocol version
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName inbound event exchange rule
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName initialize
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cohort name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName local metadata collection id
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName local server name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName local server type
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName local organization name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName local repository
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName local repository content manager
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName connection consumer
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName enterprise topic connector
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cohort registry store
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cohort topic connector
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName event protocol version
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName inbound event exchange rule

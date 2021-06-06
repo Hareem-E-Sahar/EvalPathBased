@@ -1,0 +1,29 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName name
+name SimpleName MethodInvocation SimpleName contains
+name SimpleName MethodInvocation StringLiteral .
+contains SimpleName MethodInvocation StringLiteral .
+invalid payload exception SimpleName SimpleType ClassInstanceCreation StringLiteral the name property may not contain the character .
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName validate name
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName name
+private Modifier MethodDeclaration SimpleType SimpleName invalid payload exception
+void PrimitiveType MethodDeclaration SimpleName validate name
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName name
+void PrimitiveType MethodDeclaration SimpleType SimpleName invalid payload exception
+validate name SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+validate name SimpleName MethodDeclaration SingleVariableDeclaration SimpleName name
+validate name SimpleName MethodDeclaration SimpleType SimpleName invalid payload exception
+name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName invalid payload exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName validate name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName invalid payload exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName validate name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName invalid payload exception

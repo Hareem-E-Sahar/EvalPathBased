@@ -1,0 +1,183 @@
+path SimpleName SingleMemberAnnotation StringLiteral importfile
+produces SimpleName SingleMemberAnnotation QualifiedName servletsjson media type
+string SimpleName SimpleType SingleVariableDeclaration SimpleName json data
+log SimpleName MethodInvocation SimpleName is debug enabled
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral ==> admin resourceimport file
+debug SimpleName MethodInvocation StringLiteral ==> admin resourceimport file
+atlas admin access request SimpleName SimpleType ClassInstanceCreation QualifiedName atlas privilegeadmin import
+atlas authorization utils SimpleName MethodInvocation SimpleName verify access
+atlas authorization utils SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName atlas admin access request
+atlas authorization utils SimpleName MethodInvocation ClassInstanceCreation QualifiedName atlas privilegeadmin import
+atlas authorization utils SimpleName MethodInvocation StringLiteral import file
+verify access SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName atlas admin access request
+verify access SimpleName MethodInvocation ClassInstanceCreation QualifiedName atlas privilegeadmin import
+verify access SimpleName MethodInvocation StringLiteral import file
+atlas admin access request SimpleName SimpleType ClassInstanceCreation MethodInvocation StringLiteral import file
+atlas privilegeadmin import QualifiedName ClassInstanceCreation MethodInvocation StringLiteral import file
+acquire export import lock SimpleName MethodInvocation StringLiteral import file
+atlas import result SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName result
+atlas type SimpleName MethodInvocation SimpleName from json
+atlas type SimpleName MethodInvocation SimpleName json data
+atlas type SimpleName MethodInvocation TypeLiteral SimpleType SimpleName atlas import request
+from json SimpleName MethodInvocation SimpleName json data
+from json SimpleName MethodInvocation TypeLiteral SimpleType SimpleName atlas import request
+json data SimpleName MethodInvocation TypeLiteral SimpleType SimpleName atlas import request
+request SimpleName VariableDeclarationFragment MethodInvocation SimpleName atlas type
+request SimpleName VariableDeclarationFragment MethodInvocation SimpleName from json
+request SimpleName VariableDeclarationFragment MethodInvocation SimpleName json data
+atlas import request SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName request
+servlets SimpleName MethodInvocation SimpleName get user name
+servlets SimpleName MethodInvocation SimpleName http servlet request
+get user name SimpleName MethodInvocation SimpleName http servlet request
+servlets SimpleName MethodInvocation SimpleName get host name
+servlets SimpleName MethodInvocation SimpleName http servlet request
+get host name SimpleName MethodInvocation SimpleName http servlet request
+atlas authorization utils SimpleName MethodInvocation SimpleName get request ip address
+atlas authorization utils SimpleName MethodInvocation SimpleName http servlet request
+get request ip address SimpleName MethodInvocation SimpleName http servlet request
+import service SimpleName MethodInvocation SimpleName run
+import service SimpleName MethodInvocation SimpleName request
+import service SimpleName MethodInvocation MethodInvocation SimpleName servlets
+import service SimpleName MethodInvocation MethodInvocation SimpleName get user name
+import service SimpleName MethodInvocation MethodInvocation SimpleName http servlet request
+import service SimpleName MethodInvocation MethodInvocation SimpleName servlets
+import service SimpleName MethodInvocation MethodInvocation SimpleName get host name
+import service SimpleName MethodInvocation MethodInvocation SimpleName http servlet request
+import service SimpleName MethodInvocation MethodInvocation SimpleName atlas authorization utils
+import service SimpleName MethodInvocation MethodInvocation SimpleName get request ip address
+import service SimpleName MethodInvocation MethodInvocation SimpleName http servlet request
+run SimpleName MethodInvocation SimpleName request
+run SimpleName MethodInvocation MethodInvocation SimpleName servlets
+run SimpleName MethodInvocation MethodInvocation SimpleName get user name
+run SimpleName MethodInvocation MethodInvocation SimpleName http servlet request
+run SimpleName MethodInvocation MethodInvocation SimpleName servlets
+run SimpleName MethodInvocation MethodInvocation SimpleName get host name
+run SimpleName MethodInvocation MethodInvocation SimpleName http servlet request
+run SimpleName MethodInvocation MethodInvocation SimpleName atlas authorization utils
+run SimpleName MethodInvocation MethodInvocation SimpleName get request ip address
+run SimpleName MethodInvocation MethodInvocation SimpleName http servlet request
+request SimpleName MethodInvocation MethodInvocation SimpleName servlets
+request SimpleName MethodInvocation MethodInvocation SimpleName get user name
+request SimpleName MethodInvocation MethodInvocation SimpleName http servlet request
+request SimpleName MethodInvocation MethodInvocation SimpleName servlets
+request SimpleName MethodInvocation MethodInvocation SimpleName get host name
+request SimpleName MethodInvocation MethodInvocation SimpleName http servlet request
+request SimpleName MethodInvocation MethodInvocation SimpleName atlas authorization utils
+request SimpleName MethodInvocation MethodInvocation SimpleName get request ip address
+request SimpleName MethodInvocation MethodInvocation SimpleName http servlet request
+servlets SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName servlets
+servlets SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get host name
+servlets SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName http servlet request
+get user name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName servlets
+get user name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get host name
+get user name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName http servlet request
+http servlet request SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName servlets
+http servlet request SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get host name
+http servlet request SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName http servlet request
+servlets SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName atlas authorization utils
+servlets SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get request ip address
+servlets SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName http servlet request
+get user name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName atlas authorization utils
+get user name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get request ip address
+get user name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName http servlet request
+http servlet request SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName atlas authorization utils
+http servlet request SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get request ip address
+http servlet request SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName http servlet request
+servlets SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName atlas authorization utils
+servlets SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get request ip address
+servlets SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName http servlet request
+get host name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName atlas authorization utils
+get host name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get request ip address
+get host name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName http servlet request
+http servlet request SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName atlas authorization utils
+http servlet request SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get request ip address
+http servlet request SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName http servlet request
+result SimpleName Assignment MethodInvocation SimpleName import service
+result SimpleName Assignment MethodInvocation SimpleName run
+result SimpleName Assignment MethodInvocation SimpleName request
+result SimpleName Assignment MethodInvocation MethodInvocation SimpleName servlets
+result SimpleName Assignment MethodInvocation MethodInvocation SimpleName get user name
+result SimpleName Assignment MethodInvocation MethodInvocation SimpleName http servlet request
+result SimpleName Assignment MethodInvocation MethodInvocation SimpleName servlets
+result SimpleName Assignment MethodInvocation MethodInvocation SimpleName get host name
+result SimpleName Assignment MethodInvocation MethodInvocation SimpleName http servlet request
+result SimpleName Assignment MethodInvocation MethodInvocation SimpleName atlas authorization utils
+result SimpleName Assignment MethodInvocation MethodInvocation SimpleName get request ip address
+result SimpleName Assignment MethodInvocation MethodInvocation SimpleName http servlet request
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName excp
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation StringLiteral import file failed
+log SimpleName MethodInvocation SimpleName excp
+error SimpleName MethodInvocation StringLiteral import file failed
+error SimpleName MethodInvocation SimpleName excp
+import file failed StringLiteral MethodInvocation SimpleName excp
+atlas base exception SimpleName SimpleType ClassInstanceCreation SimpleName excp
+log SimpleName MethodInvocation SimpleName is debug enabled
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral <== admin resourceimport file
+debug SimpleName MethodInvocation StringLiteral <== admin resourceimport file
+post SimpleName MarkerAnnotation MethodDeclaration SingleMemberAnnotation SimpleName path
+post SimpleName MarkerAnnotation MethodDeclaration SingleMemberAnnotation StringLiteral importfile
+post SimpleName MarkerAnnotation MethodDeclaration SingleMemberAnnotation SimpleName produces
+post SimpleName MarkerAnnotation MethodDeclaration SingleMemberAnnotation QualifiedName servletsjson media type
+post SimpleName MarkerAnnotation MethodDeclaration Modifier public
+post SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName atlas import result
+post SimpleName MarkerAnnotation MethodDeclaration SimpleName import file
+path SimpleName SingleMemberAnnotation MethodDeclaration SingleMemberAnnotation SimpleName produces
+path SimpleName SingleMemberAnnotation MethodDeclaration SingleMemberAnnotation QualifiedName servletsjson media type
+importfile StringLiteral SingleMemberAnnotation MethodDeclaration SingleMemberAnnotation SimpleName produces
+importfile StringLiteral SingleMemberAnnotation MethodDeclaration SingleMemberAnnotation QualifiedName servletsjson media type
+path SimpleName SingleMemberAnnotation MethodDeclaration Modifier public
+importfile StringLiteral SingleMemberAnnotation MethodDeclaration Modifier public
+path SimpleName SingleMemberAnnotation MethodDeclaration SimpleType SimpleName atlas import result
+importfile StringLiteral SingleMemberAnnotation MethodDeclaration SimpleType SimpleName atlas import result
+path SimpleName SingleMemberAnnotation MethodDeclaration SimpleName import file
+importfile StringLiteral SingleMemberAnnotation MethodDeclaration SimpleName import file
+path SimpleName SingleMemberAnnotation MethodDeclaration SingleVariableDeclaration SimpleName json data
+importfile StringLiteral SingleMemberAnnotation MethodDeclaration SingleVariableDeclaration SimpleName json data
+produces SimpleName SingleMemberAnnotation MethodDeclaration Modifier public
+servletsjson media type QualifiedName SingleMemberAnnotation MethodDeclaration Modifier public
+produces SimpleName SingleMemberAnnotation MethodDeclaration SimpleType SimpleName atlas import result
+servletsjson media type QualifiedName SingleMemberAnnotation MethodDeclaration SimpleType SimpleName atlas import result
+produces SimpleName SingleMemberAnnotation MethodDeclaration SimpleName import file
+servletsjson media type QualifiedName SingleMemberAnnotation MethodDeclaration SimpleName import file
+produces SimpleName SingleMemberAnnotation MethodDeclaration SingleVariableDeclaration SimpleName json data
+servletsjson media type QualifiedName SingleMemberAnnotation MethodDeclaration SingleVariableDeclaration SimpleName json data
+produces SimpleName SingleMemberAnnotation MethodDeclaration SimpleType SimpleName atlas base exception
+servletsjson media type QualifiedName SingleMemberAnnotation MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier MethodDeclaration SimpleType SimpleName atlas import result
+public Modifier MethodDeclaration SimpleName import file
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName json data
+public Modifier MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier MethodDeclaration Block ReturnStatement SimpleName result
+atlas import result SimpleName SimpleType MethodDeclaration SimpleName import file
+atlas import result SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName json data
+atlas import result SimpleName SimpleType MethodDeclaration SimpleType SimpleName atlas base exception
+import file SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+import file SimpleName MethodDeclaration SingleVariableDeclaration SimpleName json data
+import file SimpleName MethodDeclaration SimpleType SimpleName atlas base exception
+import file SimpleName MethodDeclaration Block ReturnStatement SimpleName result
+json data SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName post
+public Modifier TypeDeclaration MethodDeclaration SingleMemberAnnotation SimpleName path
+public Modifier TypeDeclaration MethodDeclaration SingleMemberAnnotation StringLiteral importfile
+public Modifier TypeDeclaration MethodDeclaration SingleMemberAnnotation SimpleName produces
+public Modifier TypeDeclaration MethodDeclaration SingleMemberAnnotation QualifiedName servletsjson media type
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas import result
+public Modifier TypeDeclaration MethodDeclaration SimpleName import file
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName json data
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName post
+test SimpleName TypeDeclaration MethodDeclaration SingleMemberAnnotation SimpleName path
+test SimpleName TypeDeclaration MethodDeclaration SingleMemberAnnotation StringLiteral importfile
+test SimpleName TypeDeclaration MethodDeclaration SingleMemberAnnotation SimpleName produces
+test SimpleName TypeDeclaration MethodDeclaration SingleMemberAnnotation QualifiedName servletsjson media type
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas import result
+test SimpleName TypeDeclaration MethodDeclaration SimpleName import file
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName json data
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception

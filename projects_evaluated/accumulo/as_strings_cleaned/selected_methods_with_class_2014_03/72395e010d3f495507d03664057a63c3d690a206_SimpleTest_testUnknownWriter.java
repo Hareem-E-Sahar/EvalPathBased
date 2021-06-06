@@ -1,0 +1,185 @@
+timeout SimpleName MemberValuePair NumberLiteral empty
+test SimpleName NormalAnnotation MemberValuePair SimpleName timeout
+test SimpleName NormalAnnotation MemberValuePair NumberLiteral empty
+client SimpleName MethodInvocation SimpleName table exists
+client SimpleName MethodInvocation SimpleName creds
+client SimpleName MethodInvocation SimpleName table test
+table exists SimpleName MethodInvocation SimpleName creds
+table exists SimpleName MethodInvocation SimpleName table test
+creds SimpleName MethodInvocation SimpleName table test
+client SimpleName MethodInvocation SimpleName delete table
+client SimpleName MethodInvocation SimpleName creds
+client SimpleName MethodInvocation SimpleName table test
+delete table SimpleName MethodInvocation SimpleName creds
+delete table SimpleName MethodInvocation SimpleName table test
+creds SimpleName MethodInvocation SimpleName table test
+client SimpleName MethodInvocation SimpleName create table
+client SimpleName MethodInvocation SimpleName creds
+client SimpleName MethodInvocation SimpleName table test
+client SimpleName MethodInvocation BooleanLiteral true
+client SimpleName MethodInvocation QualifiedName time typemillis
+create table SimpleName MethodInvocation SimpleName creds
+create table SimpleName MethodInvocation SimpleName table test
+create table SimpleName MethodInvocation BooleanLiteral true
+create table SimpleName MethodInvocation QualifiedName time typemillis
+creds SimpleName MethodInvocation SimpleName table test
+creds SimpleName MethodInvocation BooleanLiteral true
+creds SimpleName MethodInvocation QualifiedName time typemillis
+table test SimpleName MethodInvocation BooleanLiteral true
+table test SimpleName MethodInvocation QualifiedName time typemillis
+true BooleanLiteral MethodInvocation QualifiedName time typemillis
+client SimpleName MethodInvocation SimpleName create writer
+client SimpleName MethodInvocation SimpleName creds
+client SimpleName MethodInvocation SimpleName table test
+create writer SimpleName MethodInvocation SimpleName creds
+create writer SimpleName MethodInvocation SimpleName table test
+creds SimpleName MethodInvocation SimpleName table test
+writer SimpleName VariableDeclarationFragment MethodInvocation SimpleName client
+writer SimpleName VariableDeclarationFragment MethodInvocation SimpleName create writer
+writer SimpleName VariableDeclarationFragment MethodInvocation SimpleName creds
+writer SimpleName VariableDeclarationFragment MethodInvocation SimpleName table test
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName writer
+mutation SimpleName MethodInvocation StringLiteral row
+mutation SimpleName MethodInvocation StringLiteral cf
+mutation SimpleName MethodInvocation StringLiteral cq
+mutation SimpleName MethodInvocation StringLiteral value
+row StringLiteral MethodInvocation StringLiteral cf
+row StringLiteral MethodInvocation StringLiteral cq
+row StringLiteral MethodInvocation StringLiteral value
+cf StringLiteral MethodInvocation StringLiteral cq
+cf StringLiteral MethodInvocation StringLiteral value
+cq StringLiteral MethodInvocation StringLiteral value
+client SimpleName MethodInvocation SimpleName update
+client SimpleName MethodInvocation SimpleName writer
+client SimpleName MethodInvocation MethodInvocation SimpleName mutation
+client SimpleName MethodInvocation MethodInvocation StringLiteral row
+client SimpleName MethodInvocation MethodInvocation StringLiteral cf
+client SimpleName MethodInvocation MethodInvocation StringLiteral cq
+client SimpleName MethodInvocation MethodInvocation StringLiteral value
+update SimpleName MethodInvocation SimpleName writer
+update SimpleName MethodInvocation MethodInvocation SimpleName mutation
+update SimpleName MethodInvocation MethodInvocation StringLiteral row
+update SimpleName MethodInvocation MethodInvocation StringLiteral cf
+update SimpleName MethodInvocation MethodInvocation StringLiteral cq
+update SimpleName MethodInvocation MethodInvocation StringLiteral value
+writer SimpleName MethodInvocation MethodInvocation SimpleName mutation
+writer SimpleName MethodInvocation MethodInvocation StringLiteral row
+writer SimpleName MethodInvocation MethodInvocation StringLiteral cf
+writer SimpleName MethodInvocation MethodInvocation StringLiteral cq
+writer SimpleName MethodInvocation MethodInvocation StringLiteral value
+client SimpleName MethodInvocation SimpleName flush
+client SimpleName MethodInvocation SimpleName writer
+flush SimpleName MethodInvocation SimpleName writer
+mutation SimpleName MethodInvocation StringLiteral row
+mutation SimpleName MethodInvocation StringLiteral cf
+mutation SimpleName MethodInvocation StringLiteral cq
+mutation SimpleName MethodInvocation StringLiteral value
+row StringLiteral MethodInvocation StringLiteral cf
+row StringLiteral MethodInvocation StringLiteral cq
+row StringLiteral MethodInvocation StringLiteral value
+cf StringLiteral MethodInvocation StringLiteral cq
+cf StringLiteral MethodInvocation StringLiteral value
+cq StringLiteral MethodInvocation StringLiteral value
+client SimpleName MethodInvocation SimpleName update
+client SimpleName MethodInvocation SimpleName writer
+client SimpleName MethodInvocation MethodInvocation SimpleName mutation
+client SimpleName MethodInvocation MethodInvocation StringLiteral row
+client SimpleName MethodInvocation MethodInvocation StringLiteral cf
+client SimpleName MethodInvocation MethodInvocation StringLiteral cq
+client SimpleName MethodInvocation MethodInvocation StringLiteral value
+update SimpleName MethodInvocation SimpleName writer
+update SimpleName MethodInvocation MethodInvocation SimpleName mutation
+update SimpleName MethodInvocation MethodInvocation StringLiteral row
+update SimpleName MethodInvocation MethodInvocation StringLiteral cf
+update SimpleName MethodInvocation MethodInvocation StringLiteral cq
+update SimpleName MethodInvocation MethodInvocation StringLiteral value
+writer SimpleName MethodInvocation MethodInvocation SimpleName mutation
+writer SimpleName MethodInvocation MethodInvocation StringLiteral row
+writer SimpleName MethodInvocation MethodInvocation StringLiteral cf
+writer SimpleName MethodInvocation MethodInvocation StringLiteral cq
+writer SimpleName MethodInvocation MethodInvocation StringLiteral value
+client SimpleName MethodInvocation SimpleName close writer
+client SimpleName MethodInvocation SimpleName writer
+close writer SimpleName MethodInvocation SimpleName writer
+mutation SimpleName MethodInvocation StringLiteral row
+mutation SimpleName MethodInvocation StringLiteral cf
+mutation SimpleName MethodInvocation StringLiteral cq
+mutation SimpleName MethodInvocation StringLiteral value
+row StringLiteral MethodInvocation StringLiteral cf
+row StringLiteral MethodInvocation StringLiteral cq
+row StringLiteral MethodInvocation StringLiteral value
+cf StringLiteral MethodInvocation StringLiteral cq
+cf StringLiteral MethodInvocation StringLiteral value
+cq StringLiteral MethodInvocation StringLiteral value
+client SimpleName MethodInvocation SimpleName update
+client SimpleName MethodInvocation SimpleName writer
+client SimpleName MethodInvocation MethodInvocation SimpleName mutation
+client SimpleName MethodInvocation MethodInvocation StringLiteral row
+client SimpleName MethodInvocation MethodInvocation StringLiteral cf
+client SimpleName MethodInvocation MethodInvocation StringLiteral cq
+client SimpleName MethodInvocation MethodInvocation StringLiteral value
+update SimpleName MethodInvocation SimpleName writer
+update SimpleName MethodInvocation MethodInvocation SimpleName mutation
+update SimpleName MethodInvocation MethodInvocation StringLiteral row
+update SimpleName MethodInvocation MethodInvocation StringLiteral cf
+update SimpleName MethodInvocation MethodInvocation StringLiteral cq
+update SimpleName MethodInvocation MethodInvocation StringLiteral value
+writer SimpleName MethodInvocation MethodInvocation SimpleName mutation
+writer SimpleName MethodInvocation MethodInvocation StringLiteral row
+writer SimpleName MethodInvocation MethodInvocation StringLiteral cf
+writer SimpleName MethodInvocation MethodInvocation StringLiteral cq
+writer SimpleName MethodInvocation MethodInvocation StringLiteral value
+client SimpleName MethodInvocation SimpleName flush
+client SimpleName MethodInvocation SimpleName writer
+flush SimpleName MethodInvocation SimpleName writer
+fail SimpleName MethodInvocation StringLiteral exception not thrown
+unknown writer SimpleName SimpleType SingleVariableDeclaration SimpleName uw
+client SimpleName MethodInvocation SimpleName flush
+client SimpleName MethodInvocation StringLiteral empty
+flush SimpleName MethodInvocation StringLiteral empty
+fail SimpleName MethodInvocation StringLiteral exception not thrown
+unknown writer SimpleName SimpleType SingleVariableDeclaration SimpleName uw
+uuid SimpleName MethodInvocation SimpleName random uuid
+uuid SimpleName MethodInvocation MethodInvocation SimpleName to string
+random uuid SimpleName MethodInvocation MethodInvocation SimpleName to string
+client SimpleName MethodInvocation SimpleName flush
+client SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName uuid
+client SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName random uuid
+client SimpleName MethodInvocation MethodInvocation SimpleName to string
+flush SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName uuid
+flush SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName random uuid
+flush SimpleName MethodInvocation MethodInvocation SimpleName to string
+fail SimpleName MethodInvocation StringLiteral exception not thrown
+unknown writer SimpleName SimpleType SingleVariableDeclaration SimpleName uw
+client SimpleName MethodInvocation SimpleName close writer
+client SimpleName MethodInvocation StringLiteral empty
+close writer SimpleName MethodInvocation StringLiteral empty
+fail SimpleName MethodInvocation StringLiteral exception not thrown
+unknown writer SimpleName SimpleType SingleVariableDeclaration SimpleName uw
+test SimpleName NormalAnnotation MethodDeclaration Modifier public
+timeout SimpleName MemberValuePair NormalAnnotation MethodDeclaration Modifier public
+empty NumberLiteral MemberValuePair NormalAnnotation MethodDeclaration Modifier public
+test SimpleName NormalAnnotation MethodDeclaration PrimitiveType void
+timeout SimpleName MemberValuePair NormalAnnotation MethodDeclaration PrimitiveType void
+empty NumberLiteral MemberValuePair NormalAnnotation MethodDeclaration PrimitiveType void
+test SimpleName NormalAnnotation MethodDeclaration SimpleName test unknown writer
+timeout SimpleName MemberValuePair NormalAnnotation MethodDeclaration SimpleName test unknown writer
+empty NumberLiteral MemberValuePair NormalAnnotation MethodDeclaration SimpleName test unknown writer
+test SimpleName NormalAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test unknown writer
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName test unknown writer
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+test unknown writer SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration NormalAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test unknown writer
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration NormalAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test unknown writer
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

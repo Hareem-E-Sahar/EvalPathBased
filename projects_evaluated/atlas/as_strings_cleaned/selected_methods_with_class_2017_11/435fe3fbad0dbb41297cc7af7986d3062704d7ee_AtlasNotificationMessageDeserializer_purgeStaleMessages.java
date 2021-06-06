@@ -1,0 +1,153 @@
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName split message aggregator
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName split message aggregator
+map SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName split msg buffer
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName split msg buffer
+split message aggregator SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName split msg buffer
+long PrimitiveType SingleVariableDeclaration SimpleName now
+long PrimitiveType SingleVariableDeclaration SimpleName max wait time
+log SimpleName MethodInvocation SimpleName is debug enabled
+split msg buffer SimpleName MethodInvocation SimpleName size
+==> purge stale messagesbuffered message count StringLiteral InfixExpression MethodInvocation SimpleName split msg buffer
+==> purge stale messagesbuffered message count StringLiteral InfixExpression MethodInvocation SimpleName size
+==> purge stale messagesbuffered message count StringLiteral InfixExpression StringLiteral )
+split msg buffer SimpleName MethodInvocation InfixExpression StringLiteral )
+size SimpleName MethodInvocation InfixExpression StringLiteral )
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation InfixExpression StringLiteral ==> purge stale messagesbuffered message count
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName split msg buffer
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName size
+log SimpleName MethodInvocation InfixExpression StringLiteral )
+debug SimpleName MethodInvocation InfixExpression StringLiteral ==> purge stale messagesbuffered message count
+debug SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName split msg buffer
+debug SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName size
+debug SimpleName MethodInvocation InfixExpression StringLiteral )
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName split message aggregator
+split message aggregator SimpleName SimpleType SingleVariableDeclaration SimpleName aggregrator
+split msg buffer SimpleName MethodInvocation SimpleName values
+aggregrator SimpleName MethodInvocation SimpleName get first split timestamp
+now SimpleName InfixExpression MethodInvocation SimpleName aggregrator
+now SimpleName InfixExpression MethodInvocation SimpleName get first split timestamp
+wait time SimpleName VariableDeclarationFragment InfixExpression SimpleName now
+wait time SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName aggregrator
+wait time SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName get first split timestamp
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName wait time
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment InfixExpression SimpleName now
+wait time SimpleName InfixExpression SimpleName max wait time
+eviction list SimpleName MethodInvocation SimpleName add
+eviction list SimpleName MethodInvocation SimpleName aggregrator
+add SimpleName MethodInvocation SimpleName aggregrator
+aggregrator SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName split msg buffer
+aggregrator SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName values
+split message aggregator SimpleName SimpleType SingleVariableDeclaration SimpleName aggregrator
+aggregrator SimpleName MethodInvocation SimpleName get msg id
+aggregrator SimpleName MethodInvocation SimpleName get total split count
+aggregrator SimpleName MethodInvocation SimpleName get received split count
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation StringLiteral evicting notification msg id total split count received split count
+log SimpleName MethodInvocation MethodInvocation SimpleName aggregrator
+log SimpleName MethodInvocation MethodInvocation SimpleName get msg id
+log SimpleName MethodInvocation MethodInvocation SimpleName aggregrator
+log SimpleName MethodInvocation MethodInvocation SimpleName get total split count
+log SimpleName MethodInvocation MethodInvocation SimpleName aggregrator
+log SimpleName MethodInvocation MethodInvocation SimpleName get received split count
+error SimpleName MethodInvocation StringLiteral evicting notification msg id total split count received split count
+error SimpleName MethodInvocation MethodInvocation SimpleName aggregrator
+error SimpleName MethodInvocation MethodInvocation SimpleName get msg id
+error SimpleName MethodInvocation MethodInvocation SimpleName aggregrator
+error SimpleName MethodInvocation MethodInvocation SimpleName get total split count
+error SimpleName MethodInvocation MethodInvocation SimpleName aggregrator
+error SimpleName MethodInvocation MethodInvocation SimpleName get received split count
+evicting notification msg id total split count received split count StringLiteral MethodInvocation MethodInvocation SimpleName aggregrator
+evicting notification msg id total split count received split count StringLiteral MethodInvocation MethodInvocation SimpleName get msg id
+evicting notification msg id total split count received split count StringLiteral MethodInvocation MethodInvocation SimpleName aggregrator
+evicting notification msg id total split count received split count StringLiteral MethodInvocation MethodInvocation SimpleName get total split count
+evicting notification msg id total split count received split count StringLiteral MethodInvocation MethodInvocation SimpleName aggregrator
+evicting notification msg id total split count received split count StringLiteral MethodInvocation MethodInvocation SimpleName get received split count
+aggregrator SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName aggregrator
+aggregrator SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get total split count
+get msg id SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName aggregrator
+get msg id SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get total split count
+aggregrator SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName aggregrator
+aggregrator SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get received split count
+get msg id SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName aggregrator
+get msg id SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get received split count
+aggregrator SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName aggregrator
+aggregrator SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get received split count
+get total split count SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName aggregrator
+get total split count SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get received split count
+aggregrator SimpleName MethodInvocation SimpleName get msg id
+split msg buffer SimpleName MethodInvocation SimpleName remove
+split msg buffer SimpleName MethodInvocation MethodInvocation SimpleName aggregrator
+split msg buffer SimpleName MethodInvocation MethodInvocation SimpleName get msg id
+remove SimpleName MethodInvocation MethodInvocation SimpleName aggregrator
+remove SimpleName MethodInvocation MethodInvocation SimpleName get msg id
+split message aggregator SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName eviction list
+aggregrator SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName eviction list
+log SimpleName MethodInvocation SimpleName is debug enabled
+split msg buffer SimpleName MethodInvocation SimpleName size
+<== purge stale messagesbuffered message count StringLiteral InfixExpression MethodInvocation SimpleName split msg buffer
+<== purge stale messagesbuffered message count StringLiteral InfixExpression MethodInvocation SimpleName size
+<== purge stale messagesbuffered message count StringLiteral InfixExpression StringLiteral )
+split msg buffer SimpleName MethodInvocation InfixExpression StringLiteral )
+size SimpleName MethodInvocation InfixExpression StringLiteral )
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation InfixExpression StringLiteral <== purge stale messagesbuffered message count
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName split msg buffer
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName size
+log SimpleName MethodInvocation InfixExpression StringLiteral )
+debug SimpleName MethodInvocation InfixExpression StringLiteral <== purge stale messagesbuffered message count
+debug SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName split msg buffer
+debug SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName size
+debug SimpleName MethodInvocation InfixExpression StringLiteral )
+visible for testing SimpleName MarkerAnnotation MethodDeclaration Modifier static
+visible for testing SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+visible for testing SimpleName MarkerAnnotation MethodDeclaration SimpleName purge stale messages
+visible for testing SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName split msg buffer
+visible for testing SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration PrimitiveType long
+visible for testing SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName now
+static Modifier MethodDeclaration PrimitiveType void
+static Modifier MethodDeclaration SimpleName purge stale messages
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName split msg buffer
+static Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType long
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName now
+static Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType long
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName max wait time
+void PrimitiveType MethodDeclaration SimpleName purge stale messages
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName split msg buffer
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType long
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName now
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType long
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName max wait time
+purge stale messages SimpleName MethodDeclaration SingleVariableDeclaration SimpleName split msg buffer
+purge stale messages SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType long
+purge stale messages SimpleName MethodDeclaration SingleVariableDeclaration SimpleName now
+purge stale messages SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType long
+purge stale messages SimpleName MethodDeclaration SingleVariableDeclaration SimpleName max wait time
+split msg buffer SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+split msg buffer SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName now
+split msg buffer SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+split msg buffer SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName max wait time
+long PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+long PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName max wait time
+now SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+now SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName max wait time
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName visible for testing
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName purge stale messages
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName split msg buffer
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName now
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName max wait time
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName visible for testing
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName purge stale messages
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName split msg buffer
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName now
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName max wait time

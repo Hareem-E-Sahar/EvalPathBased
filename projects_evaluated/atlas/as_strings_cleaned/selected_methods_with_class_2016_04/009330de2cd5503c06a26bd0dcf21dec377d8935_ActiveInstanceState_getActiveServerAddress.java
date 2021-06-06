@@ -1,0 +1,50 @@
+curator factory SimpleName MethodInvocation SimpleName client instance
+client SimpleName VariableDeclarationFragment MethodInvocation SimpleName curator factory
+client SimpleName VariableDeclarationFragment MethodInvocation SimpleName client instance
+curator framework SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName client
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName server address
+client SimpleName MethodInvocation SimpleName get data
+client SimpleName MethodInvocation MethodInvocation SimpleName for path
+get data SimpleName MethodInvocation MethodInvocation SimpleName for path
+client SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get znode path
+get data SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get znode path
+for path SimpleName MethodInvocation MethodInvocation SimpleName get znode path
+bytes SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName client
+bytes SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get data
+bytes SimpleName VariableDeclarationFragment MethodInvocation SimpleName for path
+bytes SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get znode path
+byte PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName bytes
+charset SimpleName MethodInvocation SimpleName for name
+charset SimpleName MethodInvocation StringLiteral utf
+for name SimpleName MethodInvocation StringLiteral utf
+string SimpleName SimpleType ClassInstanceCreation SimpleName bytes
+string SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName charset
+string SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName for name
+string SimpleName SimpleType ClassInstanceCreation MethodInvocation StringLiteral utf
+bytes SimpleName ClassInstanceCreation MethodInvocation SimpleName charset
+bytes SimpleName ClassInstanceCreation MethodInvocation SimpleName for name
+bytes SimpleName ClassInstanceCreation MethodInvocation StringLiteral utf
+server address SimpleName Assignment ClassInstanceCreation SimpleType SimpleName string
+server address SimpleName Assignment ClassInstanceCreation SimpleName bytes
+server address SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName charset
+server address SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName for name
+server address SimpleName Assignment ClassInstanceCreation MethodInvocation StringLiteral utf
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation StringLiteral error getting active server address
+log SimpleName MethodInvocation SimpleName e
+error SimpleName MethodInvocation StringLiteral error getting active server address
+error SimpleName MethodInvocation SimpleName e
+error getting active server address StringLiteral MethodInvocation SimpleName e
+public Modifier MethodDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName get active server address
+public Modifier MethodDeclaration Block ReturnStatement SimpleName server address
+string SimpleName SimpleType MethodDeclaration SimpleName get active server address
+get active server address SimpleName MethodDeclaration Block ReturnStatement SimpleName server address
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName get active server address
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get active server address

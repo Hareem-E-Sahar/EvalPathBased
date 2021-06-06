@@ -1,0 +1,36 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas entity header
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+list SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName guids
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName guids
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas entity header
+collection utils SimpleName MethodInvocation SimpleName is not empty
+collection utils SimpleName MethodInvocation SimpleName guids
+is not empty SimpleName MethodInvocation SimpleName guids
+guids SimpleName MethodInvocation SimpleName size
+ret SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName guids
+ret SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName size
+string SimpleName SimpleType SingleVariableDeclaration SimpleName guid
+atlas entity header SimpleName SimpleType ClassInstanceCreation SimpleName guid
+ret SimpleName MethodInvocation SimpleName add
+ret SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName atlas entity header
+ret SimpleName MethodInvocation ClassInstanceCreation SimpleName guid
+add SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName atlas entity header
+add SimpleName MethodInvocation ClassInstanceCreation SimpleName guid
+string SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName guids
+guid SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName guids
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName atlas entity header
+private Modifier MethodDeclaration SimpleName to atlas entity headers
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName guids
+private Modifier MethodDeclaration Block ReturnStatement SimpleName ret
+list SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName to atlas entity headers
+atlas entity header SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName to atlas entity headers
+to atlas entity headers SimpleName MethodDeclaration SingleVariableDeclaration SimpleName guids
+to atlas entity headers SimpleName MethodDeclaration Block ReturnStatement SimpleName ret
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleName to atlas entity headers
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName guids
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleName to atlas entity headers
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName guids

@@ -1,0 +1,198 @@
+compaction type SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName type
+compactorfiles to compact QualifiedName MethodInvocation SimpleName size
+compactorfiles to compact QualifiedName MethodInvocation InfixExpression NumberLiteral empty
+size SimpleName MethodInvocation InfixExpression NumberLiteral empty
+type SimpleName Assignment QualifiedName compaction typemerge
+type SimpleName Assignment QualifiedName compaction typeminor
+type SimpleName Assignment QualifiedName compaction typefull
+type SimpleName Assignment QualifiedName compaction typemajor
+compaction reason SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName reason
+reason SimpleName Assignment QualifiedName compaction reasonuser
+reason SimpleName Assignment QualifiedName compaction reasonclose
+reason SimpleName Assignment QualifiedName compaction reasonsystem
+compactorminc reason QualifiedName SwitchStatement SwitchCase SimpleName user
+compactorminc reason QualifiedName SwitchStatement ExpressionStatement Assignment SimpleName reason
+compactorminc reason QualifiedName SwitchStatement ExpressionStatement Assignment QualifiedName compaction reasonuser
+compactorminc reason QualifiedName SwitchStatement SwitchCase SimpleName close
+compactorminc reason QualifiedName SwitchStatement ExpressionStatement Assignment SimpleName reason
+compactorminc reason QualifiedName SwitchStatement ExpressionStatement Assignment QualifiedName compaction reasonclose
+user SimpleName SwitchCase SwitchStatement SwitchCase SimpleName close
+close SimpleName SwitchCase SwitchStatement SwitchCase SimpleName system
+reason SimpleName Assignment QualifiedName compaction reasonuser
+reason SimpleName Assignment QualifiedName compaction reasonchop
+reason SimpleName Assignment QualifiedName compaction reasonidle
+reason SimpleName Assignment QualifiedName compaction reasonsystem
+compactorreason QualifiedName SwitchStatement SwitchCase SimpleName user
+compactorreason QualifiedName SwitchStatement ExpressionStatement Assignment SimpleName reason
+compactorreason QualifiedName SwitchStatement ExpressionStatement Assignment QualifiedName compaction reasonuser
+compactorreason QualifiedName SwitchStatement SwitchCase SimpleName chop
+compactorreason QualifiedName SwitchStatement ExpressionStatement Assignment SimpleName reason
+compactorreason QualifiedName SwitchStatement ExpressionStatement Assignment QualifiedName compaction reasonchop
+user SimpleName SwitchCase SwitchStatement SwitchCase SimpleName chop
+chop SimpleName SwitchCase SwitchStatement SwitchCase SimpleName idle
+idle SimpleName SwitchCase SwitchStatement SwitchCase SimpleName normal
+compactorimm QualifiedName InfixExpression IfStatement SwitchStatement QualifiedName compactorminc reason
+compactorimm QualifiedName InfixExpression IfStatement SwitchStatement QualifiedName compactorreason
+compactorminc reason QualifiedName SwitchStatement IfStatement SwitchStatement QualifiedName compactorreason
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName iter info
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName iter info
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+iterator setting SimpleName SimpleType SingleVariableDeclaration SimpleName iter setting
+iter setting SimpleName MethodInvocation SimpleName get priority
+iter setting SimpleName MethodInvocation SimpleName get iterator class
+iter setting SimpleName MethodInvocation SimpleName get name
+iter info SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName iter setting
+iter info SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get priority
+iter info SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName iter setting
+iter info SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get iterator class
+iter info SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName iter setting
+iter info SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get name
+iter setting SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName iter setting
+iter setting SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get iterator class
+get priority SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName iter setting
+get priority SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get iterator class
+iter setting SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName iter setting
+iter setting SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get name
+get priority SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName iter setting
+get priority SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get name
+iter setting SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName iter setting
+iter setting SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get name
+get iterator class SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName iter setting
+get iterator class SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get name
+ii list SimpleName MethodInvocation SimpleName add
+ii list SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName iter info
+ii list SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName iter setting
+ii list SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get priority
+ii list SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName iter setting
+ii list SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get iterator class
+ii list SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName iter setting
+ii list SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get name
+add SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName iter info
+add SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName iter setting
+add SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get priority
+add SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName iter setting
+add SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get iterator class
+add SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName iter setting
+add SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get name
+iter setting SimpleName MethodInvocation SimpleName get name
+iter setting SimpleName MethodInvocation SimpleName get options
+iter options SimpleName MethodInvocation SimpleName put
+iter options SimpleName MethodInvocation MethodInvocation SimpleName iter setting
+iter options SimpleName MethodInvocation MethodInvocation SimpleName get name
+iter options SimpleName MethodInvocation MethodInvocation SimpleName iter setting
+iter options SimpleName MethodInvocation MethodInvocation SimpleName get options
+put SimpleName MethodInvocation MethodInvocation SimpleName iter setting
+put SimpleName MethodInvocation MethodInvocation SimpleName get name
+put SimpleName MethodInvocation MethodInvocation SimpleName iter setting
+put SimpleName MethodInvocation MethodInvocation SimpleName get options
+iter setting SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName iter setting
+iter setting SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get options
+get name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName iter setting
+get name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get options
+iterator setting SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement QualifiedName compactoriterators
+iter setting SimpleName SingleVariableDeclaration EnhancedForStatement QualifiedName compactoriterators
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+file ref SimpleName SimpleType SingleVariableDeclaration SimpleName ref
+compactorfiles to compact QualifiedName MethodInvocation SimpleName key set
+ref SimpleName MethodInvocation SimpleName to string
+files to compact SimpleName MethodInvocation SimpleName add
+files to compact SimpleName MethodInvocation MethodInvocation SimpleName ref
+files to compact SimpleName MethodInvocation MethodInvocation SimpleName to string
+add SimpleName MethodInvocation MethodInvocation SimpleName ref
+add SimpleName MethodInvocation MethodInvocation SimpleName to string
+ref SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation QualifiedName compactorfiles to compact
+ref SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName key set
+compactorextent QualifiedName MethodInvocation SimpleName to thrift
+system SimpleName MethodInvocation SimpleName current time millis
+system SimpleName MethodInvocation InfixExpression QualifiedName compactorstart time
+current time millis SimpleName MethodInvocation InfixExpression QualifiedName compactorstart time
+compactoroutput file QualifiedName MethodInvocation SimpleName to string
+active compaction SimpleName SimpleType ClassInstanceCreation MethodInvocation QualifiedName compactorextent
+active compaction SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName to thrift
+active compaction SimpleName SimpleType ClassInstanceCreation InfixExpression QualifiedName compactorstart time
+active compaction SimpleName SimpleType ClassInstanceCreation SimpleName files to compact
+active compaction SimpleName SimpleType ClassInstanceCreation MethodInvocation QualifiedName compactoroutput file
+active compaction SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName to string
+active compaction SimpleName SimpleType ClassInstanceCreation SimpleName type
+compactorextent QualifiedName MethodInvocation ClassInstanceCreation InfixExpression QualifiedName compactorstart time
+to thrift SimpleName MethodInvocation ClassInstanceCreation InfixExpression QualifiedName compactorstart time
+compactorextent QualifiedName MethodInvocation ClassInstanceCreation SimpleName files to compact
+to thrift SimpleName MethodInvocation ClassInstanceCreation SimpleName files to compact
+compactorextent QualifiedName MethodInvocation ClassInstanceCreation MethodInvocation QualifiedName compactoroutput file
+compactorextent QualifiedName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName to string
+to thrift SimpleName MethodInvocation ClassInstanceCreation MethodInvocation QualifiedName compactoroutput file
+to thrift SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName to string
+compactorextent QualifiedName MethodInvocation ClassInstanceCreation SimpleName type
+to thrift SimpleName MethodInvocation ClassInstanceCreation SimpleName type
+compactorextent QualifiedName MethodInvocation ClassInstanceCreation SimpleName reason
+to thrift SimpleName MethodInvocation ClassInstanceCreation SimpleName reason
+system SimpleName MethodInvocation InfixExpression ClassInstanceCreation SimpleName files to compact
+current time millis SimpleName MethodInvocation InfixExpression ClassInstanceCreation SimpleName files to compact
+compactorstart time QualifiedName InfixExpression ClassInstanceCreation SimpleName files to compact
+compactorstart time QualifiedName InfixExpression ClassInstanceCreation MethodInvocation QualifiedName compactoroutput file
+compactorstart time QualifiedName InfixExpression ClassInstanceCreation MethodInvocation SimpleName to string
+system SimpleName MethodInvocation InfixExpression ClassInstanceCreation SimpleName type
+current time millis SimpleName MethodInvocation InfixExpression ClassInstanceCreation SimpleName type
+compactorstart time QualifiedName InfixExpression ClassInstanceCreation SimpleName type
+system SimpleName MethodInvocation InfixExpression ClassInstanceCreation SimpleName reason
+current time millis SimpleName MethodInvocation InfixExpression ClassInstanceCreation SimpleName reason
+compactorstart time QualifiedName InfixExpression ClassInstanceCreation SimpleName reason
+system SimpleName MethodInvocation InfixExpression ClassInstanceCreation SimpleName locality group
+current time millis SimpleName MethodInvocation InfixExpression ClassInstanceCreation SimpleName locality group
+compactorstart time QualifiedName InfixExpression ClassInstanceCreation SimpleName locality group
+files to compact SimpleName ClassInstanceCreation MethodInvocation QualifiedName compactoroutput file
+files to compact SimpleName ClassInstanceCreation MethodInvocation SimpleName to string
+files to compact SimpleName ClassInstanceCreation SimpleName type
+files to compact SimpleName ClassInstanceCreation SimpleName reason
+files to compact SimpleName ClassInstanceCreation SimpleName locality group
+files to compact SimpleName ClassInstanceCreation SimpleName entries read
+compactoroutput file QualifiedName MethodInvocation ClassInstanceCreation SimpleName type
+to string SimpleName MethodInvocation ClassInstanceCreation SimpleName type
+compactoroutput file QualifiedName MethodInvocation ClassInstanceCreation SimpleName reason
+to string SimpleName MethodInvocation ClassInstanceCreation SimpleName reason
+compactoroutput file QualifiedName MethodInvocation ClassInstanceCreation SimpleName locality group
+to string SimpleName MethodInvocation ClassInstanceCreation SimpleName locality group
+compactoroutput file QualifiedName MethodInvocation ClassInstanceCreation SimpleName entries read
+to string SimpleName MethodInvocation ClassInstanceCreation SimpleName entries read
+compactoroutput file QualifiedName MethodInvocation ClassInstanceCreation SimpleName entries written
+to string SimpleName MethodInvocation ClassInstanceCreation SimpleName entries written
+type SimpleName ClassInstanceCreation SimpleName reason
+type SimpleName ClassInstanceCreation SimpleName locality group
+type SimpleName ClassInstanceCreation SimpleName entries read
+type SimpleName ClassInstanceCreation SimpleName entries written
+type SimpleName ClassInstanceCreation SimpleName ii list
+reason SimpleName ClassInstanceCreation SimpleName locality group
+reason SimpleName ClassInstanceCreation SimpleName entries read
+reason SimpleName ClassInstanceCreation SimpleName entries written
+reason SimpleName ClassInstanceCreation SimpleName ii list
+reason SimpleName ClassInstanceCreation SimpleName iter options
+locality group SimpleName ClassInstanceCreation SimpleName entries read
+locality group SimpleName ClassInstanceCreation SimpleName entries written
+locality group SimpleName ClassInstanceCreation SimpleName ii list
+locality group SimpleName ClassInstanceCreation SimpleName iter options
+entries read SimpleName ClassInstanceCreation SimpleName entries written
+entries read SimpleName ClassInstanceCreation SimpleName ii list
+entries read SimpleName ClassInstanceCreation SimpleName iter options
+entries written SimpleName ClassInstanceCreation SimpleName ii list
+entries written SimpleName ClassInstanceCreation SimpleName iter options
+ii list SimpleName ClassInstanceCreation SimpleName iter options
+public Modifier MethodDeclaration SimpleType SimpleName active compaction
+public Modifier MethodDeclaration SimpleName to thrift
+public Modifier MethodDeclaration Block EnhancedForStatement QualifiedName compactoriterators
+active compaction SimpleName SimpleType MethodDeclaration SimpleName to thrift
+to thrift SimpleName MethodDeclaration Block EnhancedForStatement QualifiedName compactoriterators
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName active compaction
+public Modifier TypeDeclaration MethodDeclaration SimpleName to thrift
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName active compaction
+test SimpleName TypeDeclaration MethodDeclaration SimpleName to thrift

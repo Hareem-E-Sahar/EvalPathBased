@@ -1,0 +1,31 @@
+archive builder SimpleName FieldAccess MethodInvocation SimpleName add entity def
+archive builder SimpleName FieldAccess MethodInvocation MethodInvocation SimpleName get engine profile entity
+add entity def SimpleName MethodInvocation MethodInvocation SimpleName get engine profile entity
+archive builder SimpleName FieldAccess MethodInvocation SimpleName add entity def
+archive builder SimpleName FieldAccess MethodInvocation MethodInvocation SimpleName get engine entity
+add entity def SimpleName MethodInvocation MethodInvocation SimpleName get engine entity
+archive builder SimpleName FieldAccess MethodInvocation SimpleName add classification def
+archive builder SimpleName FieldAccess MethodInvocation MethodInvocation SimpleName get workflow engine classification
+add classification def SimpleName MethodInvocation MethodInvocation SimpleName get workflow engine classification
+archive builder SimpleName FieldAccess MethodInvocation SimpleName add classification def
+archive builder SimpleName FieldAccess MethodInvocation MethodInvocation SimpleName get reporting engine classification
+add classification def SimpleName MethodInvocation MethodInvocation SimpleName get reporting engine classification
+archive builder SimpleName FieldAccess MethodInvocation SimpleName add classification def
+archive builder SimpleName FieldAccess MethodInvocation MethodInvocation SimpleName get analytics engine classification
+add classification def SimpleName MethodInvocation MethodInvocation SimpleName get analytics engine classification
+archive builder SimpleName FieldAccess MethodInvocation SimpleName add classification def
+archive builder SimpleName FieldAccess MethodInvocation MethodInvocation SimpleName get data movement engine classification
+add classification def SimpleName MethodInvocation MethodInvocation SimpleName get data movement engine classification
+archive builder SimpleName FieldAccess MethodInvocation SimpleName add classification def
+archive builder SimpleName FieldAccess MethodInvocation MethodInvocation SimpleName get data virtualization engine classification
+add classification def SimpleName MethodInvocation MethodInvocation SimpleName get data virtualization engine classification
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName add data processing engines
+void PrimitiveType MethodDeclaration SimpleName add data processing engines
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName add data processing engines
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName add data processing engines

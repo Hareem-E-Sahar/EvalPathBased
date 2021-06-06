@@ -1,0 +1,84 @@
+ts SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName test setup
+test setup SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ts
+blocking queue SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+ts SimpleName MethodInvocation SimpleName get graph
+get type property map SimpleName MethodInvocation StringLiteral hive table
+get type property map SimpleName MethodInvocation SimpleName hive columns property
+get type property map SimpleName MethodInvocation StringLiteral array
+hive table StringLiteral MethodInvocation SimpleName hive columns property
+hive table StringLiteral MethodInvocation StringLiteral array
+hive columns property SimpleName MethodInvocation StringLiteral array
+post process managerconsumer QualifiedName SimpleType ClassInstanceCreation SimpleName bc
+post process managerconsumer QualifiedName SimpleType ClassInstanceCreation MethodInvocation SimpleName ts
+post process managerconsumer QualifiedName SimpleType ClassInstanceCreation MethodInvocation SimpleName get graph
+post process managerconsumer QualifiedName SimpleType ClassInstanceCreation MethodInvocation SimpleName get type property map
+post process managerconsumer QualifiedName SimpleType ClassInstanceCreation MethodInvocation StringLiteral hive table
+post process managerconsumer QualifiedName SimpleType ClassInstanceCreation MethodInvocation SimpleName hive columns property
+post process managerconsumer QualifiedName SimpleType ClassInstanceCreation MethodInvocation StringLiteral array
+post process managerconsumer QualifiedName SimpleType ClassInstanceCreation NumberLiteral empty
+bc SimpleName ClassInstanceCreation MethodInvocation SimpleName ts
+bc SimpleName ClassInstanceCreation MethodInvocation SimpleName get graph
+bc SimpleName ClassInstanceCreation MethodInvocation SimpleName get type property map
+bc SimpleName ClassInstanceCreation MethodInvocation StringLiteral hive table
+bc SimpleName ClassInstanceCreation MethodInvocation SimpleName hive columns property
+bc SimpleName ClassInstanceCreation MethodInvocation StringLiteral array
+bc SimpleName ClassInstanceCreation NumberLiteral empty
+ts SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get type property map
+ts SimpleName MethodInvocation ClassInstanceCreation MethodInvocation StringLiteral hive table
+ts SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName hive columns property
+ts SimpleName MethodInvocation ClassInstanceCreation MethodInvocation StringLiteral array
+get graph SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get type property map
+get graph SimpleName MethodInvocation ClassInstanceCreation MethodInvocation StringLiteral hive table
+get graph SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName hive columns property
+get graph SimpleName MethodInvocation ClassInstanceCreation MethodInvocation StringLiteral array
+ts SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+get graph SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+get type property map SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+hive table StringLiteral MethodInvocation ClassInstanceCreation NumberLiteral empty
+hive columns property SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+array StringLiteral MethodInvocation ClassInstanceCreation NumberLiteral empty
+consumer SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType QualifiedName post process managerconsumer
+consumer SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName bc
+consumer SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName ts
+consumer SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get graph
+consumer SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get type property map
+consumer SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation StringLiteral hive table
+consumer SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName hive columns property
+consumer SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation StringLiteral array
+consumer SimpleName VariableDeclarationFragment ClassInstanceCreation NumberLiteral empty
+post process managerconsumer QualifiedName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName consumer
+ts SimpleName MethodInvocation SimpleName get graph
+fetch table vertex SimpleName MethodInvocation MethodInvocation SimpleName ts
+fetch table vertex SimpleName MethodInvocation MethodInvocation SimpleName get graph
+table v SimpleName VariableDeclarationFragment MethodInvocation SimpleName fetch table vertex
+table v SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName ts
+table v SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get graph
+vertex SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName table v
+table v SimpleName MethodInvocation SimpleName id
+consumer SimpleName MethodInvocation SimpleName process item
+consumer SimpleName MethodInvocation MethodInvocation SimpleName table v
+consumer SimpleName MethodInvocation MethodInvocation SimpleName id
+process item SimpleName MethodInvocation MethodInvocation SimpleName table v
+process item SimpleName MethodInvocation MethodInvocation SimpleName id
+ts SimpleName MethodInvocation SimpleName assert complete
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName update using post process consumer
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName io exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName update using post process consumer
+public Modifier MethodDeclaration SimpleType SimpleName io exception
+void PrimitiveType MethodDeclaration SimpleName update using post process consumer
+void PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+update using post process consumer SimpleName MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName update using post process consumer
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName update using post process consumer
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

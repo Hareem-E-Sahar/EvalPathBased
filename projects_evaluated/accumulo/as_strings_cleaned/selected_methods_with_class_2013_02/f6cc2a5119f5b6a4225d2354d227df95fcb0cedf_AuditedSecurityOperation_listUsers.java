@@ -1,0 +1,46 @@
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+credentials SimpleName SimpleType SingleVariableDeclaration SimpleName credentials
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+list users SimpleName SuperMethodInvocation SimpleName credentials
+result SimpleName VariableDeclarationFragment SuperMethodInvocation SimpleName list users
+result SimpleName VariableDeclarationFragment SuperMethodInvocation SimpleName credentials
+audit SimpleName MethodInvocation SimpleName credentials
+audit SimpleName MethodInvocation StringLiteral list users
+credentials SimpleName MethodInvocation StringLiteral list users
+thrift security exception SimpleName SimpleType SingleVariableDeclaration SimpleName ex
+audit SimpleName MethodInvocation SimpleName credentials
+audit SimpleName MethodInvocation SimpleName ex
+audit SimpleName MethodInvocation StringLiteral list users
+credentials SimpleName MethodInvocation SimpleName ex
+credentials SimpleName MethodInvocation StringLiteral list users
+ex SimpleName MethodInvocation StringLiteral list users
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation SimpleName ex
+debug SimpleName MethodInvocation SimpleName ex
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName list users
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName credentials
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName thrift security exception
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName set
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName list users
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName credentials
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName credentials
+public Modifier MethodDeclaration SimpleType SimpleName thrift security exception
+set SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName list users
+string SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName list users
+list users SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName credentials
+list users SimpleName MethodDeclaration SingleVariableDeclaration SimpleName credentials
+list users SimpleName MethodDeclaration SimpleType SimpleName thrift security exception
+credentials SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName thrift security exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName list users
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName credentials
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName thrift security exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName list users
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName credentials
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName thrift security exception

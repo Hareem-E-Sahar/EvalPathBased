@@ -1,0 +1,50 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName auth string
+get components SimpleName MethodInvocation SimpleName auth string
+get components SimpleName MethodInvocation StringLiteral auth string
+get components SimpleName MethodInvocation StringLiteral schemeauth string
+auth string SimpleName MethodInvocation StringLiteral auth string
+auth string SimpleName MethodInvocation StringLiteral schemeauth string
+auth string StringLiteral MethodInvocation StringLiteral schemeauth string
+auth components SimpleName VariableDeclarationFragment MethodInvocation SimpleName get components
+auth components SimpleName VariableDeclarationFragment MethodInvocation SimpleName auth string
+auth components SimpleName VariableDeclarationFragment MethodInvocation StringLiteral auth string
+auth components SimpleName VariableDeclarationFragment MethodInvocation StringLiteral schemeauth string
+auth components SimpleName ArrayAccess NumberLiteral empty
+auth components SimpleName ArrayAccess NumberLiteral empty
+auth components SimpleName ArrayAccess MethodInvocation SimpleName get bytes
+empty NumberLiteral ArrayAccess MethodInvocation SimpleName get bytes
+auth components SimpleName ArrayAccess MethodInvocation QualifiedName charsetsutf
+empty NumberLiteral ArrayAccess MethodInvocation QualifiedName charsetsutf
+get bytes SimpleName MethodInvocation QualifiedName charsetsutf
+auth info SimpleName SimpleType ClassInstanceCreation ArrayAccess SimpleName auth components
+auth info SimpleName SimpleType ClassInstanceCreation ArrayAccess NumberLiteral empty
+auth info SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get bytes
+auth info SimpleName SimpleType ClassInstanceCreation MethodInvocation QualifiedName charsetsutf
+auth components SimpleName ArrayAccess ClassInstanceCreation MethodInvocation SimpleName get bytes
+auth components SimpleName ArrayAccess ClassInstanceCreation MethodInvocation QualifiedName charsetsutf
+empty NumberLiteral ArrayAccess ClassInstanceCreation MethodInvocation SimpleName get bytes
+empty NumberLiteral ArrayAccess ClassInstanceCreation MethodInvocation QualifiedName charsetsutf
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName auth info
+public Modifier MethodDeclaration SimpleName parse auth
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName auth string
+static Modifier MethodDeclaration SimpleType SimpleName auth info
+static Modifier MethodDeclaration SimpleName parse auth
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName auth string
+auth info SimpleName SimpleType MethodDeclaration SimpleName parse auth
+auth info SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName auth string
+parse auth SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+parse auth SimpleName MethodDeclaration SingleVariableDeclaration SimpleName auth string
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName auth info
+public Modifier TypeDeclaration MethodDeclaration SimpleName parse auth
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName auth string
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName auth info
+test SimpleName TypeDeclaration MethodDeclaration SimpleName parse auth
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName auth string

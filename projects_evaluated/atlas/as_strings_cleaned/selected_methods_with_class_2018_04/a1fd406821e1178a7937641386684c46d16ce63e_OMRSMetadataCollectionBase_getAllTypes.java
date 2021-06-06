@@ -1,0 +1,31 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName user id
+public Modifier MethodDeclaration SimpleType SimpleName type def gallery
+public Modifier MethodDeclaration SimpleName get all types
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName user id
+public Modifier MethodDeclaration SimpleType SimpleName repository error exception
+public Modifier MethodDeclaration SimpleType SimpleName user not authorized exception
+type def gallery SimpleName SimpleType MethodDeclaration SimpleName get all types
+type def gallery SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName user id
+type def gallery SimpleName SimpleType MethodDeclaration SimpleType SimpleName repository error exception
+type def gallery SimpleName SimpleType MethodDeclaration SimpleType SimpleName user not authorized exception
+get all types SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get all types SimpleName MethodDeclaration SingleVariableDeclaration SimpleName user id
+get all types SimpleName MethodDeclaration SimpleType SimpleName repository error exception
+get all types SimpleName MethodDeclaration SimpleType SimpleName user not authorized exception
+user id SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName repository error exception
+user id SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName user not authorized exception
+repository error exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName user not authorized exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName type def gallery
+public Modifier TypeDeclaration MethodDeclaration SimpleName get all types
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName user id
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName repository error exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName user not authorized exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName type def gallery
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get all types
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName user id
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName repository error exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName user not authorized exception

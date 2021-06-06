@@ -1,0 +1,52 @@
+entity SimpleName VariableDeclarationFragment MethodInvocation SimpleName get hive table atlas entity
+atlas entity SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName entity
+entity SimpleName MethodInvocation SimpleName get attribute
+entity SimpleName MethodInvocation SimpleName qualified name
+get attribute SimpleName MethodInvocation SimpleName qualified name
+string SimpleName SimpleType CastExpression MethodInvocation SimpleName entity
+string SimpleName SimpleType CastExpression MethodInvocation SimpleName get attribute
+string SimpleName SimpleType CastExpression MethodInvocation SimpleName qualified name
+attr value SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName string
+attr value SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName entity
+attr value SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get attribute
+attr value SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName qualified name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName attr value
+transform SimpleName MethodInvocation SimpleName apply
+transform SimpleName MethodInvocation SimpleName entity
+apply SimpleName MethodInvocation SimpleName entity
+entity SimpleName MethodInvocation SimpleName get attribute
+entity SimpleName MethodInvocation SimpleName qualified name
+get attribute SimpleName MethodInvocation SimpleName qualified name
+apply default transform SimpleName MethodInvocation SimpleName attr value
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName entity
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get attribute
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName qualified name
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName apply default transform
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName attr value
+entity SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName apply default transform
+entity SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName attr value
+get attribute SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName apply default transform
+get attribute SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName attr value
+qualified name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName apply default transform
+qualified name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName attr value
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName transform entity with transforms
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName transform entity with transforms
+public Modifier MethodDeclaration SimpleType SimpleName atlas base exception
+void PrimitiveType MethodDeclaration SimpleName transform entity with transforms
+void PrimitiveType MethodDeclaration SimpleType SimpleName atlas base exception
+transform entity with transforms SimpleName MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName transform entity with transforms
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName transform entity with transforms
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception

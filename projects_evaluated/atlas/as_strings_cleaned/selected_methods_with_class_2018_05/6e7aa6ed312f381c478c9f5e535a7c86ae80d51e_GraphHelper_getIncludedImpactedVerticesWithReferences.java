@@ -1,0 +1,54 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas vertex
+atlas vertex SimpleName SimpleType SingleVariableDeclaration SimpleName entity vertex
+string SimpleName SimpleType SingleVariableDeclaration SimpleName relationship guid
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas vertex
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas vertex
+get guid SimpleName MethodInvocation SimpleName entity vertex
+get impacted vertices with references SimpleName MethodInvocation MethodInvocation SimpleName get guid
+get impacted vertices with references SimpleName MethodInvocation MethodInvocation SimpleName entity vertex
+get impacted vertices with references SimpleName MethodInvocation SimpleName relationship guid
+get guid SimpleName MethodInvocation MethodInvocation SimpleName relationship guid
+entity vertex SimpleName MethodInvocation MethodInvocation SimpleName relationship guid
+impacted vertices SimpleName VariableDeclarationFragment MethodInvocation SimpleName get impacted vertices with references
+impacted vertices SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get guid
+impacted vertices SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName entity vertex
+impacted vertices SimpleName VariableDeclarationFragment MethodInvocation SimpleName relationship guid
+ret SimpleName MethodInvocation SimpleName add
+ret SimpleName MethodInvocation SimpleName entity vertex
+add SimpleName MethodInvocation SimpleName entity vertex
+collection utils SimpleName MethodInvocation SimpleName is not empty
+collection utils SimpleName MethodInvocation SimpleName impacted vertices
+is not empty SimpleName MethodInvocation SimpleName impacted vertices
+ret SimpleName MethodInvocation SimpleName add all
+ret SimpleName MethodInvocation SimpleName impacted vertices
+add all SimpleName MethodInvocation SimpleName impacted vertices
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName atlas vertex
+public Modifier MethodDeclaration SimpleName get included impacted vertices with references
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas vertex
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName entity vertex
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName relationship guid
+public Modifier MethodDeclaration SimpleType SimpleName atlas base exception
+list SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get included impacted vertices with references
+atlas vertex SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get included impacted vertices with references
+get included impacted vertices with references SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas vertex
+get included impacted vertices with references SimpleName MethodDeclaration SingleVariableDeclaration SimpleName entity vertex
+get included impacted vertices with references SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get included impacted vertices with references SimpleName MethodDeclaration SingleVariableDeclaration SimpleName relationship guid
+get included impacted vertices with references SimpleName MethodDeclaration SimpleType SimpleName atlas base exception
+get included impacted vertices with references SimpleName MethodDeclaration Block ReturnStatement SimpleName ret
+entity vertex SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName relationship guid
+entity vertex SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+relationship guid SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName get included impacted vertices with references
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity vertex
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName relationship guid
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get included impacted vertices with references
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity vertex
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName relationship guid
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception

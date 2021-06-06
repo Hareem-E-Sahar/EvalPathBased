@@ -1,0 +1,94 @@
+http servlet request SimpleName SimpleType SingleVariableDeclaration SimpleName servlet request
+http servlet response SimpleName SimpleType SingleVariableDeclaration SimpleName http servlet response
+string SimpleName SimpleType SingleVariableDeclaration SimpleName active server address
+servlet request SimpleName MethodInvocation SimpleName get request uri
+request uri SimpleName VariableDeclarationFragment MethodInvocation SimpleName servlet request
+request uri SimpleName VariableDeclarationFragment MethodInvocation SimpleName get request uri
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName request uri
+servlet request SimpleName MethodInvocation SimpleName get query string
+query string SimpleName VariableDeclarationFragment MethodInvocation SimpleName servlet request
+query string SimpleName VariableDeclarationFragment MethodInvocation SimpleName get query string
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName query string
+query string SimpleName MethodInvocation SimpleName is empty
+uri utils SimpleName MethodInvocation SimpleName encode query
+uri utils SimpleName MethodInvocation SimpleName query string
+uri utils SimpleName MethodInvocation StringLiteral utf
+encode query SimpleName MethodInvocation SimpleName query string
+encode query SimpleName MethodInvocation StringLiteral utf
+query string SimpleName MethodInvocation StringLiteral utf
+query string SimpleName Assignment MethodInvocation SimpleName uri utils
+query string SimpleName Assignment MethodInvocation SimpleName encode query
+query string SimpleName Assignment MethodInvocation SimpleName query string
+query string SimpleName Assignment MethodInvocation StringLiteral utf
+query string SimpleName MethodInvocation SimpleName is empty
+? StringLiteral InfixExpression SimpleName query string
+request uri SimpleName Assignment InfixExpression StringLiteral ?
+request uri SimpleName Assignment InfixExpression SimpleName query string
+request uri SimpleName Assignment StringLiteral /
+active server address SimpleName InfixExpression SimpleName request uri
+redirect location SimpleName VariableDeclarationFragment InfixExpression SimpleName active server address
+redirect location SimpleName VariableDeclarationFragment InfixExpression SimpleName request uri
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName redirect location
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation StringLiteral not active redirecting to {}
+log SimpleName MethodInvocation SimpleName redirect location
+info SimpleName MethodInvocation StringLiteral not active redirecting to {}
+info SimpleName MethodInvocation SimpleName redirect location
+not active redirecting to {} StringLiteral MethodInvocation SimpleName redirect location
+is unsafe http method SimpleName MethodInvocation SimpleName servlet request
+http servlet response SimpleName MethodInvocation SimpleName set header
+http servlet response SimpleName MethodInvocation QualifiedName http headerslocation
+http servlet response SimpleName MethodInvocation SimpleName redirect location
+set header SimpleName MethodInvocation QualifiedName http headerslocation
+set header SimpleName MethodInvocation SimpleName redirect location
+http headerslocation QualifiedName MethodInvocation SimpleName redirect location
+http servlet response SimpleName MethodInvocation SimpleName set status
+http servlet response SimpleName MethodInvocation QualifiedName http servlet responsesc temporary redirect
+set status SimpleName MethodInvocation QualifiedName http servlet responsesc temporary redirect
+http servlet response SimpleName MethodInvocation SimpleName send redirect
+http servlet response SimpleName MethodInvocation SimpleName redirect location
+send redirect SimpleName MethodInvocation SimpleName redirect location
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName handle redirect
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName http servlet request
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName servlet request
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName http servlet response
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName http servlet response
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName active server address
+void PrimitiveType MethodDeclaration SimpleName handle redirect
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName http servlet request
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName servlet request
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName http servlet response
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName http servlet response
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName active server address
+void PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+handle redirect SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName http servlet request
+handle redirect SimpleName MethodDeclaration SingleVariableDeclaration SimpleName servlet request
+handle redirect SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName http servlet response
+handle redirect SimpleName MethodDeclaration SingleVariableDeclaration SimpleName http servlet response
+handle redirect SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+handle redirect SimpleName MethodDeclaration SingleVariableDeclaration SimpleName active server address
+handle redirect SimpleName MethodDeclaration SimpleType SimpleName io exception
+servlet request SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName http servlet response
+servlet request SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName active server address
+servlet request SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+http servlet response SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName active server address
+http servlet response SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+active server address SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName handle redirect
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName servlet request
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName http servlet response
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName active server address
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName handle redirect
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName servlet request
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName http servlet response
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName active server address
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

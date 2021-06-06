@@ -1,0 +1,32 @@
+hierarchical type definition SimpleName SimpleType ParameterizedType SimpleType SimpleName class type
+hierarchical type definition SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName class def
+class type SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName class def
+atlas exception SimpleName SimpleType ClassInstanceCreation StringLiteral internal error define type called on transient type system
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName class type
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName define class type
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName class def
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName atlas exception
+public Modifier MethodDeclaration SimpleType SimpleName class type
+public Modifier MethodDeclaration SimpleName define class type
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName class def
+public Modifier MethodDeclaration SimpleType SimpleName atlas exception
+class type SimpleName SimpleType MethodDeclaration SimpleName define class type
+class type SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName class def
+class type SimpleName SimpleType MethodDeclaration SimpleType SimpleName atlas exception
+define class type SimpleName MethodDeclaration SingleVariableDeclaration SimpleName class def
+define class type SimpleName MethodDeclaration SimpleType SimpleName atlas exception
+class def SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName class type
+public Modifier TypeDeclaration MethodDeclaration SimpleName define class type
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName class def
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName class type
+test SimpleName TypeDeclaration MethodDeclaration SimpleName define class type
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName class def
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception

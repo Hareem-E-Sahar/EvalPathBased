@@ -1,0 +1,30 @@
+sorted key value iterator SimpleName SimpleType ParameterizedType SimpleType SimpleName key
+sorted key value iterator SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+key SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+sorted key value iterator SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName iter
+key SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName iter
+value SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName iter
+current SimpleName Assignment BooleanLiteral false
+iter SimpleName FieldAccess Assignment SimpleName iter
+file data source SimpleName SimpleType SingleVariableDeclaration SimpleName fds
+fdscurrent QualifiedName Assignment BooleanLiteral false
+iter SimpleName MethodInvocation SimpleName deep copy
+iter SimpleName MethodInvocation QualifiedName fdsenv
+deep copy SimpleName MethodInvocation QualifiedName fdsenv
+fdsiter QualifiedName Assignment MethodInvocation SimpleName iter
+fdsiter QualifiedName Assignment MethodInvocation SimpleName deep copy
+fdsiter QualifiedName Assignment MethodInvocation QualifiedName fdsenv
+file data source SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName deep copies
+fds SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName deep copies
+void PrimitiveType MethodDeclaration SimpleName set iterator
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName iter
+void PrimitiveType MethodDeclaration Block EnhancedForStatement SimpleName deep copies
+set iterator SimpleName MethodDeclaration SingleVariableDeclaration SimpleName iter
+set iterator SimpleName MethodDeclaration Block EnhancedForStatement SimpleName deep copies
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set iterator
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName iter
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set iterator
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName iter

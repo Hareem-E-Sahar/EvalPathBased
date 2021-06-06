@@ -1,0 +1,85 @@
+application properties SimpleName MethodInvocation SimpleName get
+configuration SimpleName VariableDeclarationFragment MethodInvocation SimpleName application properties
+configuration SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+orgapachecommonsconfigurationconfiguration QualifiedName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName configuration
+configuration SimpleName MethodInvocation SimpleName get string array
+configuration SimpleName MethodInvocation QualifiedName h base atlas hookattr atlas endpoint
+get string array SimpleName MethodInvocation QualifiedName h base atlas hookattr atlas endpoint
+atlas end point SimpleName VariableDeclarationFragment MethodInvocation SimpleName configuration
+atlas end point SimpleName VariableDeclarationFragment MethodInvocation SimpleName get string array
+atlas end point SimpleName VariableDeclarationFragment MethodInvocation QualifiedName h base atlas hookattr atlas endpoint
+configuration SimpleName MethodInvocation SimpleName set property
+configuration SimpleName MethodInvocation StringLiteral atlasclustername
+configuration SimpleName MethodInvocation SimpleName cluster name
+set property SimpleName MethodInvocation StringLiteral atlasclustername
+set property SimpleName MethodInvocation SimpleName cluster name
+atlasclustername StringLiteral MethodInvocation SimpleName cluster name
+atlas end pointlength QualifiedName InfixExpression NumberLiteral empty
+atlas end point SimpleName InfixExpression InfixExpression InfixExpression QualifiedName atlas end pointlength
+atlas end point SimpleName InfixExpression InfixExpression InfixExpression NumberLiteral empty
+atlas end point SimpleName Assignment ArrayCreation ArrayInitializer SimpleName atlas url
+iterator SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+configuration SimpleName MethodInvocation SimpleName get keys
+keys SimpleName VariableDeclarationFragment MethodInvocation SimpleName configuration
+keys SimpleName VariableDeclarationFragment MethodInvocation SimpleName get keys
+keys SimpleName MethodInvocation SimpleName has next
+keys SimpleName MethodInvocation SimpleName next
+key SimpleName VariableDeclarationFragment MethodInvocation SimpleName keys
+key SimpleName VariableDeclarationFragment MethodInvocation SimpleName next
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName key
+configuration SimpleName MethodInvocation SimpleName get string
+configuration SimpleName MethodInvocation SimpleName key
+get string SimpleName MethodInvocation SimpleName key
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation StringLiteral {} = {}
+log SimpleName MethodInvocation SimpleName key
+log SimpleName MethodInvocation MethodInvocation SimpleName configuration
+log SimpleName MethodInvocation MethodInvocation SimpleName get string
+log SimpleName MethodInvocation MethodInvocation SimpleName key
+info SimpleName MethodInvocation StringLiteral {} = {}
+info SimpleName MethodInvocation SimpleName key
+info SimpleName MethodInvocation MethodInvocation SimpleName configuration
+info SimpleName MethodInvocation MethodInvocation SimpleName get string
+info SimpleName MethodInvocation MethodInvocation SimpleName key
+{} = {} StringLiteral MethodInvocation SimpleName key
+{} = {} StringLiteral MethodInvocation MethodInvocation SimpleName configuration
+{} = {} StringLiteral MethodInvocation MethodInvocation SimpleName get string
+{} = {} StringLiteral MethodInvocation MethodInvocation SimpleName key
+key SimpleName MethodInvocation MethodInvocation SimpleName configuration
+key SimpleName MethodInvocation MethodInvocation SimpleName get string
+key SimpleName MethodInvocation MethodInvocation SimpleName key
+authentication util SimpleName MethodInvocation SimpleName is kerberos authentication enabled
+atlas client v SimpleName SimpleType ClassInstanceCreation SimpleName configuration
+atlas client v SimpleName SimpleType ClassInstanceCreation SimpleName atlas end point
+configuration SimpleName ClassInstanceCreation SimpleName atlas end point
+atlas client SimpleName Assignment ClassInstanceCreation SimpleType SimpleName atlas client v
+atlas client SimpleName Assignment ClassInstanceCreation SimpleName configuration
+atlas client SimpleName Assignment ClassInstanceCreation SimpleName atlas end point
+admin StringLiteral ArrayInitializer StringLiteral admin
+atlas client v SimpleName SimpleType ClassInstanceCreation SimpleName configuration
+atlas client v SimpleName SimpleType ClassInstanceCreation SimpleName atlas end point
+configuration SimpleName ClassInstanceCreation SimpleName atlas end point
+configuration SimpleName ClassInstanceCreation ArrayCreation ArrayInitializer StringLiteral admin
+configuration SimpleName ClassInstanceCreation ArrayCreation ArrayInitializer StringLiteral admin
+atlas end point SimpleName ClassInstanceCreation ArrayCreation ArrayInitializer StringLiteral admin
+atlas end point SimpleName ClassInstanceCreation ArrayCreation ArrayInitializer StringLiteral admin
+atlas client SimpleName Assignment ClassInstanceCreation SimpleType SimpleName atlas client v
+atlas client SimpleName Assignment ClassInstanceCreation SimpleName configuration
+atlas client SimpleName Assignment ClassInstanceCreation SimpleName atlas end point
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation StringLiteral unable to create atlas client for testing
+log SimpleName MethodInvocation SimpleName e
+error SimpleName MethodInvocation StringLiteral unable to create atlas client for testing
+error SimpleName MethodInvocation SimpleName e
+unable to create atlas client for testing StringLiteral MethodInvocation SimpleName e
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName create atlas client
+void PrimitiveType MethodDeclaration SimpleName create atlas client
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName create atlas client
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create atlas client

@@ -1,0 +1,183 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName str value
+str value SimpleName SwitchStatement SwitchCase StringLiteral entity create
+str value SimpleName SwitchStatement ReturnStatement SimpleName entity create
+str value SimpleName SwitchStatement SwitchCase StringLiteral entity update
+str value SimpleName SwitchStatement ReturnStatement SimpleName entity update
+str value SimpleName SwitchStatement SwitchCase StringLiteral entity delete
+entity create StringLiteral SwitchCase SwitchStatement ReturnStatement SimpleName entity create
+entity create StringLiteral SwitchCase SwitchStatement SwitchCase StringLiteral entity update
+entity create StringLiteral SwitchCase SwitchStatement ReturnStatement SimpleName entity update
+entity create StringLiteral SwitchCase SwitchStatement SwitchCase StringLiteral entity delete
+entity create StringLiteral SwitchCase SwitchStatement ReturnStatement SimpleName entity delete
+entity create SimpleName ReturnStatement SwitchStatement SwitchCase StringLiteral entity update
+entity create SimpleName ReturnStatement SwitchStatement ReturnStatement SimpleName entity update
+entity create SimpleName ReturnStatement SwitchStatement SwitchCase StringLiteral entity delete
+entity create SimpleName ReturnStatement SwitchStatement ReturnStatement SimpleName entity delete
+entity create SimpleName ReturnStatement SwitchStatement SwitchCase StringLiteral entity import create
+entity update StringLiteral SwitchCase SwitchStatement ReturnStatement SimpleName entity update
+entity update StringLiteral SwitchCase SwitchStatement SwitchCase StringLiteral entity delete
+entity update StringLiteral SwitchCase SwitchStatement ReturnStatement SimpleName entity delete
+entity update StringLiteral SwitchCase SwitchStatement SwitchCase StringLiteral entity import create
+entity update StringLiteral SwitchCase SwitchStatement ReturnStatement SimpleName entity import create
+entity update SimpleName ReturnStatement SwitchStatement SwitchCase StringLiteral entity delete
+entity update SimpleName ReturnStatement SwitchStatement ReturnStatement SimpleName entity delete
+entity update SimpleName ReturnStatement SwitchStatement SwitchCase StringLiteral entity import create
+entity update SimpleName ReturnStatement SwitchStatement ReturnStatement SimpleName entity import create
+entity update SimpleName ReturnStatement SwitchStatement SwitchCase StringLiteral entity import update
+entity delete StringLiteral SwitchCase SwitchStatement ReturnStatement SimpleName entity delete
+entity delete StringLiteral SwitchCase SwitchStatement SwitchCase StringLiteral entity import create
+entity delete StringLiteral SwitchCase SwitchStatement ReturnStatement SimpleName entity import create
+entity delete StringLiteral SwitchCase SwitchStatement SwitchCase StringLiteral entity import update
+entity delete StringLiteral SwitchCase SwitchStatement ReturnStatement SimpleName entity import update
+entity delete SimpleName ReturnStatement SwitchStatement SwitchCase StringLiteral entity import create
+entity delete SimpleName ReturnStatement SwitchStatement ReturnStatement SimpleName entity import create
+entity delete SimpleName ReturnStatement SwitchStatement SwitchCase StringLiteral entity import update
+entity delete SimpleName ReturnStatement SwitchStatement ReturnStatement SimpleName entity import update
+entity delete SimpleName ReturnStatement SwitchStatement SwitchCase StringLiteral entity import delete
+entity import create StringLiteral SwitchCase SwitchStatement ReturnStatement SimpleName entity import create
+entity import create StringLiteral SwitchCase SwitchStatement SwitchCase StringLiteral entity import update
+entity import create StringLiteral SwitchCase SwitchStatement ReturnStatement SimpleName entity import update
+entity import create StringLiteral SwitchCase SwitchStatement SwitchCase StringLiteral entity import delete
+entity import create StringLiteral SwitchCase SwitchStatement ReturnStatement SimpleName entity import delete
+entity import create SimpleName ReturnStatement SwitchStatement SwitchCase StringLiteral entity import update
+entity import create SimpleName ReturnStatement SwitchStatement ReturnStatement SimpleName entity import update
+entity import create SimpleName ReturnStatement SwitchStatement SwitchCase StringLiteral entity import delete
+entity import create SimpleName ReturnStatement SwitchStatement ReturnStatement SimpleName entity import delete
+entity import create SimpleName ReturnStatement SwitchStatement SwitchCase StringLiteral classification add
+entity import update StringLiteral SwitchCase SwitchStatement ReturnStatement SimpleName entity import update
+entity import update StringLiteral SwitchCase SwitchStatement SwitchCase StringLiteral entity import delete
+entity import update StringLiteral SwitchCase SwitchStatement ReturnStatement SimpleName entity import delete
+entity import update StringLiteral SwitchCase SwitchStatement SwitchCase StringLiteral classification add
+entity import update StringLiteral SwitchCase SwitchStatement SwitchCase StringLiteral tag add
+entity import update SimpleName ReturnStatement SwitchStatement SwitchCase StringLiteral entity import delete
+entity import update SimpleName ReturnStatement SwitchStatement ReturnStatement SimpleName entity import delete
+entity import update SimpleName ReturnStatement SwitchStatement SwitchCase StringLiteral classification add
+entity import update SimpleName ReturnStatement SwitchStatement SwitchCase StringLiteral tag add
+entity import update SimpleName ReturnStatement SwitchStatement ReturnStatement SimpleName classification add
+entity import delete StringLiteral SwitchCase SwitchStatement ReturnStatement SimpleName entity import delete
+entity import delete StringLiteral SwitchCase SwitchStatement SwitchCase StringLiteral classification add
+entity import delete StringLiteral SwitchCase SwitchStatement SwitchCase StringLiteral tag add
+entity import delete StringLiteral SwitchCase SwitchStatement ReturnStatement SimpleName classification add
+entity import delete StringLiteral SwitchCase SwitchStatement SwitchCase StringLiteral classification delete
+entity import delete SimpleName ReturnStatement SwitchStatement SwitchCase StringLiteral classification add
+entity import delete SimpleName ReturnStatement SwitchStatement SwitchCase StringLiteral tag add
+entity import delete SimpleName ReturnStatement SwitchStatement ReturnStatement SimpleName classification add
+entity import delete SimpleName ReturnStatement SwitchStatement SwitchCase StringLiteral classification delete
+entity import delete SimpleName ReturnStatement SwitchStatement SwitchCase StringLiteral tag delete
+classification add StringLiteral SwitchCase SwitchStatement SwitchCase StringLiteral tag add
+classification add StringLiteral SwitchCase SwitchStatement ReturnStatement SimpleName classification add
+classification add StringLiteral SwitchCase SwitchStatement SwitchCase StringLiteral classification delete
+classification add StringLiteral SwitchCase SwitchStatement SwitchCase StringLiteral tag delete
+classification add StringLiteral SwitchCase SwitchStatement ReturnStatement SimpleName classification delete
+tag add StringLiteral SwitchCase SwitchStatement ReturnStatement SimpleName classification add
+tag add StringLiteral SwitchCase SwitchStatement SwitchCase StringLiteral classification delete
+tag add StringLiteral SwitchCase SwitchStatement SwitchCase StringLiteral tag delete
+tag add StringLiteral SwitchCase SwitchStatement ReturnStatement SimpleName classification delete
+tag add StringLiteral SwitchCase SwitchStatement SwitchCase StringLiteral classification update
+classification add SimpleName ReturnStatement SwitchStatement SwitchCase StringLiteral classification delete
+classification add SimpleName ReturnStatement SwitchStatement SwitchCase StringLiteral tag delete
+classification add SimpleName ReturnStatement SwitchStatement ReturnStatement SimpleName classification delete
+classification add SimpleName ReturnStatement SwitchStatement SwitchCase StringLiteral classification update
+classification add SimpleName ReturnStatement SwitchStatement SwitchCase StringLiteral tag update
+classification delete StringLiteral SwitchCase SwitchStatement SwitchCase StringLiteral tag delete
+classification delete StringLiteral SwitchCase SwitchStatement ReturnStatement SimpleName classification delete
+classification delete StringLiteral SwitchCase SwitchStatement SwitchCase StringLiteral classification update
+classification delete StringLiteral SwitchCase SwitchStatement SwitchCase StringLiteral tag update
+classification delete StringLiteral SwitchCase SwitchStatement ReturnStatement SimpleName classification update
+tag delete StringLiteral SwitchCase SwitchStatement ReturnStatement SimpleName classification delete
+tag delete StringLiteral SwitchCase SwitchStatement SwitchCase StringLiteral classification update
+tag delete StringLiteral SwitchCase SwitchStatement SwitchCase StringLiteral tag update
+tag delete StringLiteral SwitchCase SwitchStatement ReturnStatement SimpleName classification update
+tag delete StringLiteral SwitchCase SwitchStatement SwitchCase StringLiteral propagated classification add
+classification delete SimpleName ReturnStatement SwitchStatement SwitchCase StringLiteral classification update
+classification delete SimpleName ReturnStatement SwitchStatement SwitchCase StringLiteral tag update
+classification delete SimpleName ReturnStatement SwitchStatement ReturnStatement SimpleName classification update
+classification delete SimpleName ReturnStatement SwitchStatement SwitchCase StringLiteral propagated classification add
+classification delete SimpleName ReturnStatement SwitchStatement ReturnStatement SimpleName propagated classification add
+classification update StringLiteral SwitchCase SwitchStatement SwitchCase StringLiteral tag update
+classification update StringLiteral SwitchCase SwitchStatement ReturnStatement SimpleName classification update
+classification update StringLiteral SwitchCase SwitchStatement SwitchCase StringLiteral propagated classification add
+classification update StringLiteral SwitchCase SwitchStatement ReturnStatement SimpleName propagated classification add
+classification update StringLiteral SwitchCase SwitchStatement SwitchCase StringLiteral propagated classification delete
+tag update StringLiteral SwitchCase SwitchStatement ReturnStatement SimpleName classification update
+tag update StringLiteral SwitchCase SwitchStatement SwitchCase StringLiteral propagated classification add
+tag update StringLiteral SwitchCase SwitchStatement ReturnStatement SimpleName propagated classification add
+tag update StringLiteral SwitchCase SwitchStatement SwitchCase StringLiteral propagated classification delete
+tag update StringLiteral SwitchCase SwitchStatement ReturnStatement SimpleName propagated classification delete
+classification update SimpleName ReturnStatement SwitchStatement SwitchCase StringLiteral propagated classification add
+classification update SimpleName ReturnStatement SwitchStatement ReturnStatement SimpleName propagated classification add
+classification update SimpleName ReturnStatement SwitchStatement SwitchCase StringLiteral propagated classification delete
+classification update SimpleName ReturnStatement SwitchStatement ReturnStatement SimpleName propagated classification delete
+classification update SimpleName ReturnStatement SwitchStatement SwitchCase StringLiteral propagated classification update
+propagated classification add StringLiteral SwitchCase SwitchStatement ReturnStatement SimpleName propagated classification add
+propagated classification add StringLiteral SwitchCase SwitchStatement SwitchCase StringLiteral propagated classification delete
+propagated classification add StringLiteral SwitchCase SwitchStatement ReturnStatement SimpleName propagated classification delete
+propagated classification add StringLiteral SwitchCase SwitchStatement SwitchCase StringLiteral propagated classification update
+propagated classification add StringLiteral SwitchCase SwitchStatement ReturnStatement SimpleName propagated classification update
+propagated classification add SimpleName ReturnStatement SwitchStatement SwitchCase StringLiteral propagated classification delete
+propagated classification add SimpleName ReturnStatement SwitchStatement ReturnStatement SimpleName propagated classification delete
+propagated classification add SimpleName ReturnStatement SwitchStatement SwitchCase StringLiteral propagated classification update
+propagated classification add SimpleName ReturnStatement SwitchStatement ReturnStatement SimpleName propagated classification update
+propagated classification add SimpleName ReturnStatement SwitchStatement SwitchCase StringLiteral term add
+propagated classification delete StringLiteral SwitchCase SwitchStatement ReturnStatement SimpleName propagated classification delete
+propagated classification delete StringLiteral SwitchCase SwitchStatement SwitchCase StringLiteral propagated classification update
+propagated classification delete StringLiteral SwitchCase SwitchStatement ReturnStatement SimpleName propagated classification update
+propagated classification delete StringLiteral SwitchCase SwitchStatement SwitchCase StringLiteral term add
+propagated classification delete StringLiteral SwitchCase SwitchStatement ReturnStatement SimpleName term add
+propagated classification delete SimpleName ReturnStatement SwitchStatement SwitchCase StringLiteral propagated classification update
+propagated classification delete SimpleName ReturnStatement SwitchStatement ReturnStatement SimpleName propagated classification update
+propagated classification delete SimpleName ReturnStatement SwitchStatement SwitchCase StringLiteral term add
+propagated classification delete SimpleName ReturnStatement SwitchStatement ReturnStatement SimpleName term add
+propagated classification delete SimpleName ReturnStatement SwitchStatement SwitchCase StringLiteral term delete
+propagated classification update StringLiteral SwitchCase SwitchStatement ReturnStatement SimpleName propagated classification update
+propagated classification update StringLiteral SwitchCase SwitchStatement SwitchCase StringLiteral term add
+propagated classification update StringLiteral SwitchCase SwitchStatement ReturnStatement SimpleName term add
+propagated classification update StringLiteral SwitchCase SwitchStatement SwitchCase StringLiteral term delete
+propagated classification update StringLiteral SwitchCase SwitchStatement ReturnStatement SimpleName term delete
+propagated classification update SimpleName ReturnStatement SwitchStatement SwitchCase StringLiteral term add
+propagated classification update SimpleName ReturnStatement SwitchStatement ReturnStatement SimpleName term add
+propagated classification update SimpleName ReturnStatement SwitchStatement SwitchCase StringLiteral term delete
+propagated classification update SimpleName ReturnStatement SwitchStatement ReturnStatement SimpleName term delete
+term add StringLiteral SwitchCase SwitchStatement ReturnStatement SimpleName term add
+term add StringLiteral SwitchCase SwitchStatement SwitchCase StringLiteral term delete
+term add StringLiteral SwitchCase SwitchStatement ReturnStatement SimpleName term delete
+term add SimpleName ReturnStatement SwitchStatement SwitchCase StringLiteral term delete
+term add SimpleName ReturnStatement SwitchStatement ReturnStatement SimpleName term delete
+term delete StringLiteral SwitchCase SwitchStatement ReturnStatement SimpleName term delete
+entity audit action v SimpleName SimpleType TypeLiteral MethodInvocation SimpleName get canonical name
+no enum constant StringLiteral InfixExpression MethodInvocation SimpleName get canonical name
+no enum constant StringLiteral InfixExpression StringLiteral .
+no enum constant StringLiteral InfixExpression SimpleName str value
+get canonical name SimpleName MethodInvocation InfixExpression StringLiteral .
+get canonical name SimpleName MethodInvocation InfixExpression SimpleName str value
+. StringLiteral InfixExpression SimpleName str value
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral no enum constant
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral .
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName str value
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName entity audit action v
+public Modifier MethodDeclaration SimpleName from string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName str value
+public Modifier MethodDeclaration Block SwitchStatement SimpleName str value
+static Modifier MethodDeclaration SimpleType SimpleName entity audit action v
+static Modifier MethodDeclaration SimpleName from string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName str value
+static Modifier MethodDeclaration Block SwitchStatement SimpleName str value
+entity audit action v SimpleName SimpleType MethodDeclaration SimpleName from string
+entity audit action v SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName str value
+from string SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+from string SimpleName MethodDeclaration SingleVariableDeclaration SimpleName str value
+from string SimpleName MethodDeclaration Block SwitchStatement SimpleName str value
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName entity audit action v
+public Modifier TypeDeclaration MethodDeclaration SimpleName from string
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName str value
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName entity audit action v
+test SimpleName TypeDeclaration MethodDeclaration SimpleName from string
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName str value

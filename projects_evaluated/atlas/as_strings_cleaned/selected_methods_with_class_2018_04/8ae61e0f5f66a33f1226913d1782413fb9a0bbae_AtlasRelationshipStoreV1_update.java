@@ -1,0 +1,300 @@
+atlas relationship SimpleName SimpleType SingleVariableDeclaration SimpleName relationship
+log SimpleName MethodInvocation SimpleName is debug enabled
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral ==> update
+log SimpleName MethodInvocation SimpleName relationship
+debug SimpleName MethodInvocation StringLiteral ==> update
+debug SimpleName MethodInvocation SimpleName relationship
+==> update StringLiteral MethodInvocation SimpleName relationship
+relationship SimpleName MethodInvocation SimpleName get guid
+guid SimpleName VariableDeclarationFragment MethodInvocation SimpleName relationship
+guid SimpleName VariableDeclarationFragment MethodInvocation SimpleName get guid
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName guid
+string utils SimpleName MethodInvocation SimpleName is empty
+string utils SimpleName MethodInvocation SimpleName guid
+is empty SimpleName MethodInvocation SimpleName guid
+atlas base exception SimpleName SimpleType ClassInstanceCreation QualifiedName atlas error coderelationship guid not found
+atlas base exception SimpleName SimpleType ClassInstanceCreation SimpleName guid
+atlas error coderelationship guid not found QualifiedName ClassInstanceCreation SimpleName guid
+graph helper SimpleName MethodInvocation SimpleName get edge for guid
+graph helper SimpleName MethodInvocation SimpleName guid
+get edge for guid SimpleName MethodInvocation SimpleName guid
+edge SimpleName VariableDeclarationFragment MethodInvocation SimpleName graph helper
+edge SimpleName VariableDeclarationFragment MethodInvocation SimpleName get edge for guid
+edge SimpleName VariableDeclarationFragment MethodInvocation SimpleName guid
+atlas edge SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName edge
+atlas graph utils v SimpleName MethodInvocation SimpleName get type name
+atlas graph utils v SimpleName MethodInvocation SimpleName edge
+get type name SimpleName MethodInvocation SimpleName edge
+edge type SimpleName VariableDeclarationFragment MethodInvocation SimpleName atlas graph utils v
+edge type SimpleName VariableDeclarationFragment MethodInvocation SimpleName get type name
+edge type SimpleName VariableDeclarationFragment MethodInvocation SimpleName edge
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName edge type
+edge SimpleName MethodInvocation SimpleName get out vertex
+end vertex SimpleName VariableDeclarationFragment MethodInvocation SimpleName edge
+end vertex SimpleName VariableDeclarationFragment MethodInvocation SimpleName get out vertex
+atlas vertex SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName end vertex
+edge SimpleName MethodInvocation SimpleName get in vertex
+end vertex SimpleName VariableDeclarationFragment MethodInvocation SimpleName edge
+end vertex SimpleName VariableDeclarationFragment MethodInvocation SimpleName get in vertex
+atlas vertex SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName end vertex
+relationship SimpleName MethodInvocation SimpleName get type name
+string utils SimpleName MethodInvocation SimpleName is not empty
+string utils SimpleName MethodInvocation MethodInvocation SimpleName relationship
+string utils SimpleName MethodInvocation MethodInvocation SimpleName get type name
+is not empty SimpleName MethodInvocation MethodInvocation SimpleName relationship
+is not empty SimpleName MethodInvocation MethodInvocation SimpleName get type name
+relationship SimpleName MethodInvocation SimpleName get type name
+string utils SimpleName MethodInvocation SimpleName equals ignore case
+string utils SimpleName MethodInvocation SimpleName edge type
+string utils SimpleName MethodInvocation MethodInvocation SimpleName relationship
+string utils SimpleName MethodInvocation MethodInvocation SimpleName get type name
+equals ignore case SimpleName MethodInvocation SimpleName edge type
+equals ignore case SimpleName MethodInvocation MethodInvocation SimpleName relationship
+equals ignore case SimpleName MethodInvocation MethodInvocation SimpleName get type name
+edge type SimpleName MethodInvocation MethodInvocation SimpleName relationship
+edge type SimpleName MethodInvocation MethodInvocation SimpleName get type name
+relationship SimpleName MethodInvocation SimpleName get type name
+atlas base exception SimpleName SimpleType ClassInstanceCreation QualifiedName atlas error coderelationship update type change not allowed
+atlas base exception SimpleName SimpleType ClassInstanceCreation SimpleName guid
+atlas base exception SimpleName SimpleType ClassInstanceCreation SimpleName edge type
+atlas base exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName relationship
+atlas base exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get type name
+atlas error coderelationship update type change not allowed QualifiedName ClassInstanceCreation SimpleName guid
+atlas error coderelationship update type change not allowed QualifiedName ClassInstanceCreation SimpleName edge type
+atlas error coderelationship update type change not allowed QualifiedName ClassInstanceCreation MethodInvocation SimpleName relationship
+atlas error coderelationship update type change not allowed QualifiedName ClassInstanceCreation MethodInvocation SimpleName get type name
+guid SimpleName ClassInstanceCreation SimpleName edge type
+guid SimpleName ClassInstanceCreation MethodInvocation SimpleName relationship
+guid SimpleName ClassInstanceCreation MethodInvocation SimpleName get type name
+edge type SimpleName ClassInstanceCreation MethodInvocation SimpleName relationship
+edge type SimpleName ClassInstanceCreation MethodInvocation SimpleName get type name
+relationship SimpleName MethodInvocation SimpleName get end
+relationship SimpleName MethodInvocation SimpleName get end
+relationship SimpleName MethodInvocation MethodInvocation SimpleName get guid
+get end SimpleName MethodInvocation MethodInvocation SimpleName get guid
+updated end guid SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName relationship
+updated end guid SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get end
+updated end guid SimpleName VariableDeclarationFragment MethodInvocation SimpleName get guid
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName updated end guid
+relationship SimpleName MethodInvocation SimpleName get end
+get vertex from end point SimpleName MethodInvocation MethodInvocation SimpleName relationship
+get vertex from end point SimpleName MethodInvocation MethodInvocation SimpleName get end
+updated end vertex SimpleName VariableDeclarationFragment MethodInvocation SimpleName get vertex from end point
+updated end vertex SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName relationship
+updated end vertex SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get end
+atlas vertex SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName updated end vertex
+atlas graph utils v SimpleName MethodInvocation SimpleName get id from vertex
+atlas graph utils v SimpleName MethodInvocation SimpleName updated end vertex
+get id from vertex SimpleName MethodInvocation SimpleName updated end vertex
+updated end vertex SimpleName InfixExpression ConditionalExpression MethodInvocation SimpleName atlas graph utils v
+updated end vertex SimpleName InfixExpression ConditionalExpression MethodInvocation SimpleName get id from vertex
+updated end vertex SimpleName InfixExpression ConditionalExpression MethodInvocation SimpleName updated end vertex
+updated end guid SimpleName Assignment ConditionalExpression InfixExpression SimpleName updated end vertex
+updated end guid SimpleName Assignment ConditionalExpression MethodInvocation SimpleName atlas graph utils v
+updated end guid SimpleName Assignment ConditionalExpression MethodInvocation SimpleName get id from vertex
+updated end guid SimpleName Assignment ConditionalExpression MethodInvocation SimpleName updated end vertex
+atlas graph utils v SimpleName MethodInvocation SimpleName get id from vertex
+atlas graph utils v SimpleName MethodInvocation SimpleName end vertex
+get id from vertex SimpleName MethodInvocation SimpleName end vertex
+end guid SimpleName VariableDeclarationFragment MethodInvocation SimpleName atlas graph utils v
+end guid SimpleName VariableDeclarationFragment MethodInvocation SimpleName get id from vertex
+end guid SimpleName VariableDeclarationFragment MethodInvocation SimpleName end vertex
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName end guid
+relationship SimpleName MethodInvocation SimpleName get end
+relationship SimpleName MethodInvocation MethodInvocation SimpleName get guid
+get end SimpleName MethodInvocation MethodInvocation SimpleName get guid
+string utils SimpleName MethodInvocation SimpleName equals ignore case
+string utils SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName relationship
+string utils SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get end
+string utils SimpleName MethodInvocation MethodInvocation SimpleName get guid
+string utils SimpleName MethodInvocation SimpleName end guid
+equals ignore case SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName relationship
+equals ignore case SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get end
+equals ignore case SimpleName MethodInvocation MethodInvocation SimpleName get guid
+equals ignore case SimpleName MethodInvocation SimpleName end guid
+relationship SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName end guid
+get end SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName end guid
+get guid SimpleName MethodInvocation MethodInvocation SimpleName end guid
+relationship SimpleName MethodInvocation SimpleName get end
+relationship SimpleName MethodInvocation MethodInvocation SimpleName get guid
+get end SimpleName MethodInvocation MethodInvocation SimpleName get guid
+atlas base exception SimpleName SimpleType ClassInstanceCreation QualifiedName atlas error coderelationship update end change not allowed
+atlas base exception SimpleName SimpleType ClassInstanceCreation SimpleName edge type
+atlas base exception SimpleName SimpleType ClassInstanceCreation SimpleName guid
+atlas base exception SimpleName SimpleType ClassInstanceCreation SimpleName end guid
+atlas base exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get guid
+atlas error coderelationship update end change not allowed QualifiedName ClassInstanceCreation SimpleName edge type
+atlas error coderelationship update end change not allowed QualifiedName ClassInstanceCreation SimpleName guid
+atlas error coderelationship update end change not allowed QualifiedName ClassInstanceCreation SimpleName end guid
+atlas error coderelationship update end change not allowed QualifiedName ClassInstanceCreation MethodInvocation MethodInvocation SimpleName relationship
+atlas error coderelationship update end change not allowed QualifiedName ClassInstanceCreation MethodInvocation MethodInvocation SimpleName get end
+atlas error coderelationship update end change not allowed QualifiedName ClassInstanceCreation MethodInvocation SimpleName get guid
+edge type SimpleName ClassInstanceCreation SimpleName guid
+edge type SimpleName ClassInstanceCreation SimpleName end guid
+edge type SimpleName ClassInstanceCreation MethodInvocation MethodInvocation SimpleName relationship
+edge type SimpleName ClassInstanceCreation MethodInvocation MethodInvocation SimpleName get end
+edge type SimpleName ClassInstanceCreation MethodInvocation SimpleName get guid
+guid SimpleName ClassInstanceCreation SimpleName end guid
+guid SimpleName ClassInstanceCreation MethodInvocation MethodInvocation SimpleName relationship
+guid SimpleName ClassInstanceCreation MethodInvocation MethodInvocation SimpleName get end
+guid SimpleName ClassInstanceCreation MethodInvocation SimpleName get guid
+end guid SimpleName ClassInstanceCreation MethodInvocation MethodInvocation SimpleName relationship
+end guid SimpleName ClassInstanceCreation MethodInvocation MethodInvocation SimpleName get end
+end guid SimpleName ClassInstanceCreation MethodInvocation SimpleName get guid
+relationship SimpleName MethodInvocation SimpleName get end
+relationship SimpleName MethodInvocation SimpleName get end
+relationship SimpleName MethodInvocation MethodInvocation SimpleName get guid
+get end SimpleName MethodInvocation MethodInvocation SimpleName get guid
+updated end guid SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName relationship
+updated end guid SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get end
+updated end guid SimpleName VariableDeclarationFragment MethodInvocation SimpleName get guid
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName updated end guid
+relationship SimpleName MethodInvocation SimpleName get end
+get vertex from end point SimpleName MethodInvocation MethodInvocation SimpleName relationship
+get vertex from end point SimpleName MethodInvocation MethodInvocation SimpleName get end
+updated end vertex SimpleName VariableDeclarationFragment MethodInvocation SimpleName get vertex from end point
+updated end vertex SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName relationship
+updated end vertex SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get end
+atlas vertex SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName updated end vertex
+atlas graph utils v SimpleName MethodInvocation SimpleName get id from vertex
+atlas graph utils v SimpleName MethodInvocation SimpleName updated end vertex
+get id from vertex SimpleName MethodInvocation SimpleName updated end vertex
+updated end vertex SimpleName InfixExpression ConditionalExpression MethodInvocation SimpleName atlas graph utils v
+updated end vertex SimpleName InfixExpression ConditionalExpression MethodInvocation SimpleName get id from vertex
+updated end vertex SimpleName InfixExpression ConditionalExpression MethodInvocation SimpleName updated end vertex
+updated end guid SimpleName Assignment ConditionalExpression InfixExpression SimpleName updated end vertex
+updated end guid SimpleName Assignment ConditionalExpression MethodInvocation SimpleName atlas graph utils v
+updated end guid SimpleName Assignment ConditionalExpression MethodInvocation SimpleName get id from vertex
+updated end guid SimpleName Assignment ConditionalExpression MethodInvocation SimpleName updated end vertex
+atlas graph utils v SimpleName MethodInvocation SimpleName get id from vertex
+atlas graph utils v SimpleName MethodInvocation SimpleName end vertex
+get id from vertex SimpleName MethodInvocation SimpleName end vertex
+end guid SimpleName VariableDeclarationFragment MethodInvocation SimpleName atlas graph utils v
+end guid SimpleName VariableDeclarationFragment MethodInvocation SimpleName get id from vertex
+end guid SimpleName VariableDeclarationFragment MethodInvocation SimpleName end vertex
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName end guid
+relationship SimpleName MethodInvocation SimpleName get end
+relationship SimpleName MethodInvocation MethodInvocation SimpleName get guid
+get end SimpleName MethodInvocation MethodInvocation SimpleName get guid
+string utils SimpleName MethodInvocation SimpleName equals ignore case
+string utils SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName relationship
+string utils SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get end
+string utils SimpleName MethodInvocation MethodInvocation SimpleName get guid
+string utils SimpleName MethodInvocation SimpleName end guid
+equals ignore case SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName relationship
+equals ignore case SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get end
+equals ignore case SimpleName MethodInvocation MethodInvocation SimpleName get guid
+equals ignore case SimpleName MethodInvocation SimpleName end guid
+relationship SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName end guid
+get end SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName end guid
+get guid SimpleName MethodInvocation MethodInvocation SimpleName end guid
+atlas graph utils v SimpleName MethodInvocation SimpleName get type name
+atlas graph utils v SimpleName MethodInvocation SimpleName edge
+get type name SimpleName MethodInvocation SimpleName edge
+relationship SimpleName MethodInvocation SimpleName get end
+relationship SimpleName MethodInvocation MethodInvocation SimpleName get guid
+get end SimpleName MethodInvocation MethodInvocation SimpleName get guid
+atlas base exception SimpleName SimpleType ClassInstanceCreation QualifiedName atlas error coderelationship update end change not allowed
+atlas base exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName atlas graph utils v
+atlas base exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get type name
+atlas base exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName edge
+atlas base exception SimpleName SimpleType ClassInstanceCreation SimpleName guid
+atlas base exception SimpleName SimpleType ClassInstanceCreation SimpleName end guid
+atlas base exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get guid
+atlas error coderelationship update end change not allowed QualifiedName ClassInstanceCreation MethodInvocation SimpleName atlas graph utils v
+atlas error coderelationship update end change not allowed QualifiedName ClassInstanceCreation MethodInvocation SimpleName get type name
+atlas error coderelationship update end change not allowed QualifiedName ClassInstanceCreation MethodInvocation SimpleName edge
+atlas error coderelationship update end change not allowed QualifiedName ClassInstanceCreation SimpleName guid
+atlas error coderelationship update end change not allowed QualifiedName ClassInstanceCreation SimpleName end guid
+atlas error coderelationship update end change not allowed QualifiedName ClassInstanceCreation MethodInvocation MethodInvocation SimpleName relationship
+atlas error coderelationship update end change not allowed QualifiedName ClassInstanceCreation MethodInvocation MethodInvocation SimpleName get end
+atlas error coderelationship update end change not allowed QualifiedName ClassInstanceCreation MethodInvocation SimpleName get guid
+atlas graph utils v SimpleName MethodInvocation ClassInstanceCreation SimpleName guid
+get type name SimpleName MethodInvocation ClassInstanceCreation SimpleName guid
+edge SimpleName MethodInvocation ClassInstanceCreation SimpleName guid
+atlas graph utils v SimpleName MethodInvocation ClassInstanceCreation SimpleName end guid
+get type name SimpleName MethodInvocation ClassInstanceCreation SimpleName end guid
+edge SimpleName MethodInvocation ClassInstanceCreation SimpleName end guid
+atlas graph utils v SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get guid
+get type name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get guid
+edge SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get guid
+guid SimpleName ClassInstanceCreation SimpleName end guid
+guid SimpleName ClassInstanceCreation MethodInvocation MethodInvocation SimpleName relationship
+guid SimpleName ClassInstanceCreation MethodInvocation MethodInvocation SimpleName get end
+guid SimpleName ClassInstanceCreation MethodInvocation SimpleName get guid
+end guid SimpleName ClassInstanceCreation MethodInvocation MethodInvocation SimpleName relationship
+end guid SimpleName ClassInstanceCreation MethodInvocation MethodInvocation SimpleName get end
+end guid SimpleName ClassInstanceCreation MethodInvocation SimpleName get guid
+relationship SimpleName MethodInvocation SimpleName get attributes
+validate relationship SimpleName MethodInvocation SimpleName end vertex
+validate relationship SimpleName MethodInvocation SimpleName end vertex
+validate relationship SimpleName MethodInvocation SimpleName edge type
+validate relationship SimpleName MethodInvocation MethodInvocation SimpleName relationship
+validate relationship SimpleName MethodInvocation MethodInvocation SimpleName get attributes
+end vertex SimpleName MethodInvocation SimpleName end vertex
+end vertex SimpleName MethodInvocation SimpleName edge type
+end vertex SimpleName MethodInvocation MethodInvocation SimpleName relationship
+end vertex SimpleName MethodInvocation MethodInvocation SimpleName get attributes
+end vertex SimpleName MethodInvocation SimpleName edge type
+end vertex SimpleName MethodInvocation MethodInvocation SimpleName relationship
+end vertex SimpleName MethodInvocation MethodInvocation SimpleName get attributes
+edge type SimpleName MethodInvocation MethodInvocation SimpleName relationship
+edge type SimpleName MethodInvocation MethodInvocation SimpleName get attributes
+update relationship SimpleName MethodInvocation SimpleName edge
+update relationship SimpleName MethodInvocation SimpleName relationship
+edge SimpleName MethodInvocation SimpleName relationship
+ret SimpleName VariableDeclarationFragment MethodInvocation SimpleName update relationship
+ret SimpleName VariableDeclarationFragment MethodInvocation SimpleName edge
+ret SimpleName VariableDeclarationFragment MethodInvocation SimpleName relationship
+atlas relationship SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ret
+log SimpleName MethodInvocation SimpleName is debug enabled
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral <== update {}
+log SimpleName MethodInvocation SimpleName relationship
+log SimpleName MethodInvocation SimpleName ret
+debug SimpleName MethodInvocation StringLiteral <== update {}
+debug SimpleName MethodInvocation SimpleName relationship
+debug SimpleName MethodInvocation SimpleName ret
+<== update {} StringLiteral MethodInvocation SimpleName relationship
+<== update {} StringLiteral MethodInvocation SimpleName ret
+relationship SimpleName MethodInvocation SimpleName ret
+override SimpleName MarkerAnnotation MethodDeclaration MarkerAnnotation SimpleName graph transaction
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName atlas relationship
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName update
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName relationship
+graph transaction SimpleName MarkerAnnotation MethodDeclaration Modifier public
+graph transaction SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName atlas relationship
+graph transaction SimpleName MarkerAnnotation MethodDeclaration SimpleName update
+graph transaction SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName relationship
+graph transaction SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier MethodDeclaration SimpleType SimpleName atlas relationship
+public Modifier MethodDeclaration SimpleName update
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas relationship
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName relationship
+public Modifier MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier MethodDeclaration Block ReturnStatement SimpleName ret
+atlas relationship SimpleName SimpleType MethodDeclaration SimpleName update
+atlas relationship SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName relationship
+atlas relationship SimpleName SimpleType MethodDeclaration SimpleType SimpleName atlas base exception
+update SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas relationship
+update SimpleName MethodDeclaration SingleVariableDeclaration SimpleName relationship
+update SimpleName MethodDeclaration SimpleType SimpleName atlas base exception
+update SimpleName MethodDeclaration Block ReturnStatement SimpleName ret
+relationship SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName graph transaction
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas relationship
+public Modifier TypeDeclaration MethodDeclaration SimpleName update
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName relationship
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName graph transaction
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas relationship
+test SimpleName TypeDeclaration MethodDeclaration SimpleName update
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName relationship
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception

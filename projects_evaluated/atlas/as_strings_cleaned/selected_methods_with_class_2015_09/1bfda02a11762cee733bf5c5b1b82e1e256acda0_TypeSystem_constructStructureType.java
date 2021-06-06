@@ -1,0 +1,64 @@
+struct type definition SimpleName SimpleType SingleVariableDeclaration SimpleName def
+attribute info SimpleName SimpleType ArrayType ArrayCreation QualifiedName defattribute definitionslength
+infos SimpleName VariableDeclarationFragment ArrayCreation QualifiedName defattribute definitionslength
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+i SimpleName InfixExpression QualifiedName defattribute definitionslength
+infos SimpleName ArrayAccess SimpleName i
+defattribute definitions QualifiedName ArrayAccess SimpleName i
+construct attribute info SimpleName MethodInvocation ArrayAccess QualifiedName defattribute definitions
+construct attribute info SimpleName MethodInvocation ArrayAccess SimpleName i
+infos SimpleName ArrayAccess Assignment MethodInvocation SimpleName construct attribute info
+i SimpleName ArrayAccess Assignment MethodInvocation SimpleName construct attribute info
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression QualifiedName defattribute definitionslength
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+defattribute definitionslength QualifiedName InfixExpression ForStatement PostfixExpression SimpleName i
+struct type SimpleName SimpleType ClassInstanceCreation ThisExpression SimpleName type system
+struct type SimpleName SimpleType ClassInstanceCreation QualifiedName deftype name
+struct type SimpleName SimpleType ClassInstanceCreation SimpleName infos
+type system SimpleName ThisExpression ClassInstanceCreation QualifiedName deftype name
+type system SimpleName ThisExpression ClassInstanceCreation SimpleName infos
+deftype name QualifiedName ClassInstanceCreation SimpleName infos
+type SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName struct type
+type SimpleName VariableDeclarationFragment ClassInstanceCreation ThisExpression SimpleName type system
+type SimpleName VariableDeclarationFragment ClassInstanceCreation QualifiedName deftype name
+type SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName infos
+struct type SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName type
+type system SimpleName ThisExpression FieldAccess SimpleName types
+type system SimpleName ThisExpression FieldAccess MethodInvocation SimpleName put
+types SimpleName FieldAccess MethodInvocation SimpleName put
+type system SimpleName ThisExpression FieldAccess MethodInvocation QualifiedName deftype name
+types SimpleName FieldAccess MethodInvocation QualifiedName deftype name
+type system SimpleName ThisExpression FieldAccess MethodInvocation SimpleName type
+types SimpleName FieldAccess MethodInvocation SimpleName type
+put SimpleName MethodInvocation QualifiedName deftype name
+put SimpleName MethodInvocation SimpleName type
+deftype name QualifiedName MethodInvocation SimpleName type
+private Modifier MethodDeclaration SimpleType SimpleName struct type
+private Modifier MethodDeclaration SimpleName construct structure type
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName struct type definition
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName def
+private Modifier MethodDeclaration SimpleType SimpleName atlas exception
+private Modifier MethodDeclaration Block ReturnStatement SimpleName type
+struct type SimpleName SimpleType MethodDeclaration SimpleName construct structure type
+struct type SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName def
+struct type SimpleName SimpleType MethodDeclaration SimpleType SimpleName atlas exception
+construct structure type SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName struct type definition
+construct structure type SimpleName MethodDeclaration SingleVariableDeclaration SimpleName def
+construct structure type SimpleName MethodDeclaration SimpleType SimpleName atlas exception
+construct structure type SimpleName MethodDeclaration Block ReturnStatement SimpleName type
+def SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName struct type
+public Modifier TypeDeclaration MethodDeclaration SimpleName construct structure type
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName def
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName struct type
+test SimpleName TypeDeclaration MethodDeclaration SimpleName construct structure type
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName def
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception
